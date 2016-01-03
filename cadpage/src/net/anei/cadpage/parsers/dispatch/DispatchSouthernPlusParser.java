@@ -23,6 +23,10 @@ public class DispatchSouthernPlusParser extends DispatchSouthernParser {
   public DispatchSouthernPlusParser(CodeSet callSet, String[] cityList, String defCity, String defState, int flags) {
     super(callSet, cityList, defCity, defState, flags);
   }
+  
+  public DispatchSouthernPlusParser(String[] cityList, String defCity, String defState, String program) {
+    super(cityList, defCity, defState, program);
+  }
 
   
   @Override
