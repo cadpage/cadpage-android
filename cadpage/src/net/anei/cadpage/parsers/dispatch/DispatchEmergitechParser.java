@@ -186,6 +186,8 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     return parseMsg(body, data);
   }
   
+  private static Pattern MISSING_LOC_BLANK_PTN = Pattern.compile("(?<! |^)(?=LOCATION:)", Pattern.CASE_INSENSITIVE);
+  
   @Override
   protected boolean parseMsg(String body, Data data) {
     
@@ -226,6 +228,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     body = BETWEEN_PTN.matcher(body).replaceFirst("BETWEEN");
     
     body = body.replace("/LOCATION:", " LOCATION:");
+    body = MISSING_LOC_BLANK_PTN.matcher(body).replaceFirst(" ");
     
     // If extraSpacePos is positive, the extraneous blank is found in a fixed
     // position relative to the message text.  Also check for keywords that

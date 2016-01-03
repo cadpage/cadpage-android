@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12282015</string>
-  <string name="release_version">v1.8.87</string>
+  <string name="release_date">01032016</string>
+  <string name="release_version">v1.9.01</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.01\n
+Location Fixes:\n
+Placer County, CA\n
+Litchfield County, CT\n
+Marion County, FL\n
+Reno County, KS\n
+Anne Arrundel County, MD\n
+Jackson County, MI\n
+Boone County,  MO\n
+Burlington County, NJ\n
+Glucester County, NJ\n
+Bethlehem, NY\n
+Livingston County, NY\n
+Brunswick County, NC\n
+Clarion County, PA\n
+Columbia County, PA\n
+Monroe County, PA\n
+Orangeburg County, SC\n
+Cy Creek Comm Center, TX\n
+Prince George County, VA\n
+Walla Walla County, WA\n
+\n
 v1.8.87\n
 New Locations:\n
 Thornton, CO\n
@@ -62,22 +84,7 @@ Hardin County, KY\n
 Charles County, MO\n
 Pulaski County, MO\n
 Clarion County, PA\n
-Georgetown County, SC\n
-\n
-v1.8.83\n
-Location Fixes:\n
-Cleburne County, AL\n
-St Joseph County, IN\n
-Calhoun County, MI\n
-Oakland County, MI\n
-Caswell County, NC\n
-Franklin County, NC\n
-Clermont County, OH\n
-Greene County, PA\n
-Lawrence County, PA\n
-Lancaster County, SC\n
-El Campo, TX\n
-Kendall County, TX
+Georgetown County, SC
   </string>
 </resources>
   

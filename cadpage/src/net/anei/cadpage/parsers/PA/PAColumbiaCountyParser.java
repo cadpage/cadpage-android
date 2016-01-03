@@ -8,81 +8,50 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 public class PAColumbiaCountyParser extends FieldProgramParser {
 
   public PAColumbiaCountyParser() {
-    super("COLUMBIA COUNTY", "PA",
-          "( SELECT/1 Loc:ADDR! Rcvd:TIME! Units:ID! Comments:INFO! " +
-          "| U:UNIT? E:ID! ET:CALL! ST:CALL! P:PRI! LOC:ADDR! MAP:MAP! T:TIME! A:UNIT! D:UNIT! N:NAME! PH:PHONE! S:SKIP! C:INFO! )");
+    super(CITY_LIST, "COLUMBIA COUNTY", "PA",
+          "E:ID! ET:CALL! ST:CALL! LOC:ADDR/S! MAP:MAP! T:TIME! N:NAME! PH:PHONE! S:SKIP! C:INFO!");
   }
 
-  private static Pattern GEN_ALERT_PTN = Pattern.compile("The Event ([^ ]+) has changed:.*");
-  private static Pattern CALL_UNIT_MAP_PTN = Pattern.compile("([A-Z]+) ([A-Z0-9]+) \\((\\d{0,3})\\) +(?=Loc:)");
+  private static Pattern LUZERNE_COUNTY_PTN = Pattern.compile("\\bLUZERNE\\b");
   
-  private boolean runReport;
+  private String times;
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    runReport = subject.startsWith("Times - ") || subject.startsWith("Notification - ");
-    Matcher mat = CALL_UNIT_MAP_PTN.matcher(body);
-    if (mat.lookingAt()) {
-      select = "1";
-      data.strCall = mat.group(1);
-      data.strUnit = mat.group(2).trim();
-      data.strMap = mat.group(3);
-      if (!parseMsg(body.substring(mat.end()), data)) return false;
-      checkRunReport(body, data);
-      return true;
-    }
-
-     if ((mat = GEN_ALERT_PTN.matcher(body)).matches()) {
-      data.strCall = "GENERAL ALERT";
-      data.strCallId = mat.group(1);
-      data.strPlace = body;
-      return true;
-    }
-    select = "2";
+    times = "";
+    if (subject.startsWith("Times - ") || subject.startsWith("Notification - ")) data.msgType = MsgType.RUN_REPORT;
     if (!super.parseFields(body.split(","), data)) return false;
-    checkRunReport(body, data);
+    if (data.msgType == MsgType.RUN_REPORT) {
+      data.strSupp = append(times, "\n", data.strSupp);
+    }
+    
+    // If no city found, see if we can identify count from name field
+    if (data.strCity.length() == 0) {
+      if (LUZERNE_COUNTY_PTN.matcher(data.strName).find()) data.strCity = "LUZERNE COUNTY";
+    }
     return true;
   }
   
   @Override
   public String getProgram() {
     String result = super.getProgram();
-    if (select.equals("1")) result = "CALL UNIT MAP " + result;
+    if (getSelectValue().equals("1")) result = "CALL UNIT MAP " + result;
     return result;
-  }
-  
-  private void checkRunReport(String body, Data data) {
-    if (runReport) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
-      data.strAddress = data.strApt = data.strCity = data.strCross = 
-          data.strMap = data.strPriority = data.strName = data.strPhone = 
-          data.strSupp = ""; 
-    }
-  }
-
-  private String select = "";
-  
-  @Override
-  protected String getSelectValue() {
-    return select;
   }
 
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new MyIdField();
-    if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("PRI")) return new PriorityField("\\d?", true); 
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
-
     
   private class MyIdField extends Field {
     
@@ -120,14 +89,6 @@ public class PAColumbiaCountyParser extends FieldProgramParser {
     }
   }
 
-  private class MyUnitField extends UnitField {
-
-    @Override
-    public void parse(String field, Data data) {
-      addUnit(field, data);
-    }
-  }
-
   private static Pattern NON_ASCII = Pattern.compile("[^ -~]");
 
   private class MyCallField extends CallField {
@@ -140,19 +101,22 @@ public class PAColumbiaCountyParser extends FieldProgramParser {
     }
   }
 
-  private static Pattern CITY_PATTERN = Pattern.compile("(.*?) *(?:(?:\\[|:) *(.*?)(?: BORO)?\\]?)?");
+  private static Pattern CITY_PATTERN = Pattern.compile("(.*?) *(?:[:;\\[\\(] *(.*?)(?: BORO)?[\\)\\]]?)?");
 
   private class MyAddressField extends Field {
 
     @Override
     public void parse(String field, Data data) {
-      // never run into this before, but apparently if matches() isn't called
-      // before group(), matcher throws exception.
       Matcher mat = CITY_PATTERN.matcher(field);
       if (!mat.matches()) abort();
-      data.strAddress = mat.group(1);
+      field = mat.group(1);
       data.strCity = getOptGroup(mat.group(2));
       if (data.strCity.endsWith(" CO")) data.strCity += "UNTY";
+      if (data.strCity.length() > 0) {
+        parseAddress(field, data);
+      } else {
+        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field, data);
+      }
     }
 
     @Override
@@ -171,12 +135,13 @@ public class PAColumbiaCountyParser extends FieldProgramParser {
         part = part.trim();
         Matcher mat = DATE_TIME_UNIT_PTN.matcher(part);
         if (mat.matches()) {
+          times = append(times, "\n", part);
           if (data.strTime.length() == 0) {
             data.strDate = mat.group(1);
             data.strTime = mat.group(2);
           }
           addUnit(mat.group(3), data);
-          if (mat.group(4).equals("AVAIL")) runReport = true;
+          if (mat.group(4).equals("AVAIL")) data.msgType = MsgType.RUN_REPORT;
         }
       }
     }
@@ -202,4 +167,71 @@ public class PAColumbiaCountyParser extends FieldProgramParser {
   public String adjustMapAddress(String addr) {
     return addr.replace("TWO AND ONE HALF", "2 1/2");
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+    "BEAVER TWP",
+    "BENTON TWP",
+    "BRIAR CREEK TWP",
+    "CATAWISSA TWP",
+    "CLEVELAND TWP",
+    "CONYNGHAM TWP",
+    "FISHING CREEK TWP",
+    "FRANKLIN TWP",
+    "GREENWOOD TWP",
+    "HEMLOCK TWP",
+    "JACKSON TWP",
+    "LOCUST TWP",
+    "MADISON TWP",
+    "MAIN TWP",
+    "MIFFLIN TWP",
+    "MONTOUR TWP",
+    "MOUNT PLEASANT TWP",
+    "NORTH CENTRE TWP",
+    "ORANGE TWP",
+    "PINE TWP",
+    "ROARING CREEK TWP",
+    "SCOTT TWP",
+    "SOUTH CENTRE TWP",
+    "SUGARLOAF TWP",
+    
+    // Luzerne County
+    "BEAR CREEK TWP",
+    "BLACK CREEK TWP",
+    "BUCK TWP",
+    "BUTLER TWP",
+    "CONYNGHAM TWP",
+    "DALLAS TWP",
+    "DENNISON TWP",
+    "DORRANCE TWP",
+    "EXETER TWP",
+    "FAIRMONT TWP",
+    "FAIRMOUNT TWP",
+    "FAIRVIEW TWP",
+    "FOSTER TWP",
+    "FRANKLIN TWP",
+    "HANOVER TWP",
+    "HAZLE TWP",
+    "HOLLENBACK TWP",
+    "HUNLOCK TWP",
+    "HUNTINGTON TWP",
+    "JACKSON TWP",
+    "JENKINS TWP",
+    "KINGSTON TWP",
+    "LAKE TWP",
+    "LEHMAN TWP",
+    "NESCOPECK TWP",
+    "NEWPORT TWP",
+    "PITTSTON TWP",
+    "PLAINS TWP",
+    "PLYMOUTH TWP",
+    "RICE TWP",
+    "ROSS TWP",
+    "SALEM TWP",
+    "SLOCUM TWP",
+    "SUGARLOAF TWP",
+    "UNION TWP",
+    "WILKES-BARRE TWP",
+    "WRIGHT TWP"
+
+  };
 }
