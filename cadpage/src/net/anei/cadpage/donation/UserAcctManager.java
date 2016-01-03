@@ -33,9 +33,12 @@ public class UserAcctManager {
   
   public void setContext(Context context) {
     this.context = context;
+    
+    boolean readPhoneStatePerm = PermissionManager.isGranted(context, PermissionManager.READ_PHONE_STATE);
+    
     TelephonyManager tMgr =(TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
     phoneNumber = tMgr.getLine1Number();
-    if (phoneNumber == null) phoneNumber = tMgr.getVoiceMailNumber();
+    if (phoneNumber == null && readPhoneStatePerm) phoneNumber = tMgr.getVoiceMailNumber();
     if (phoneNumber != null) {
       int pt = phoneNumber.indexOf(',');
       if (pt >= 0) phoneNumber = phoneNumber.substring(0,pt).trim();
@@ -43,7 +46,7 @@ public class UserAcctManager {
       if (phoneNumber.startsWith("+")) phoneNumber = phoneNumber.substring(1);
       if (phoneNumber.startsWith("1")) phoneNumber = phoneNumber.substring(1);
     }
-    meid = tMgr.getDeviceId();
+    meid = readPhoneStatePerm ? tMgr.getDeviceId() : null;
     
     List<String> emailList = new ArrayList<String>();
     for (Account acct :  AccountManager.get(context).getAccountsByType("com.google")) {

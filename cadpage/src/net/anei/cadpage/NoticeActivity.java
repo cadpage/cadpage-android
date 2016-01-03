@@ -87,7 +87,7 @@ public class NoticeActivity extends Safe40Activity {
             try {
               NoticeActivity.this.startActivity(intent);
             } catch (ActivityNotFoundException ex) {
-              Log.w("Failed to launch Googl Play Store");
+              Log.w("Failed to launch Google Play Store");
               ContentQuery.dumpIntent(intent);
             }
             NoticeActivity.this.finish();

@@ -11,6 +11,7 @@ import java.util.Map;
 
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
+import net.anei.cadpage.donation.PermissionManager;
 import net.anei.cadpage.parsers.ManageParsers;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.SplitMsgOptions;
@@ -1124,153 +1125,10 @@ public class ManagePreferences {
     
     sb.append("Preference_Configuration:\n");
 
-    // Array of preference keys to include in email
-    final int[] pref_keys = {
-        R.string.pref_screen_size_key,
-        R.string.pref_initialized_key,
-        R.string.pref_enabled_key,
-        
-        R.string.pref_location_key,
-        R.string.pref_override_filter_key,
-        R.string.pref_filter_key,
-        R.string.pref_show_source_key,
-        R.string.pref_override_default_key,
-        R.string.pref_defcity_key,
-        R.string.pref_defstate_key,
-        R.string.pref_enable_msg_type_key,
-        R.string.pref_timeout_key,
-        R.string.pref_mms_timeout_key,
-        R.string.pref_loglimit_key,
-        R.string.pref_override_active911_split_key,
-        R.string.pref_split_direct_page_key,
-        R.string.pref_msgtimeout_key,
-        R.string.pref_split_min_msg_key,
-        R.string.pref_rev_msg_order_key,
-        R.string.pref_mix_msg_order_key,
-        R.string.pref_split_blank_ins_key,
-        R.string.pref_split_chk_sender_key,
-        R.string.pref_split_keep_lead_break_key,
-        R.string.pref_suppress_dup_msg_key,
-        R.string.pref_override_vendor_loc_key,
-        R.string.pref_activate_scanner_key,
-        R.string.pref_scanner_channel_key,
-        R.string.pref_scanner_channel_app_node_key,
-        R.string.pref_publish_pages_key,
-        
-        R.string.pref_notif_enabled_key,
-        R.string.pref_notif_override_key,
-        R.string.pref_notif_override_volume_key,
-        R.string.pref_notif_override_sound_key,
-        R.string.pref_notif_override_loop_key,
-        R.string.pref_notif_sound_key,
-        R.string.pref_notif_repeat_interval_key,
-        R.string.pref_notif_timeout_key,
-        R.string.pref_notif_delay_key,
-        R.string.pref_notif_req_ack_key,
-        
-        R.string.pref_vibrate_key,
-        R.string.pref_vibrate_pattern_key,
-        R.string.pref_vibrate_pattern_custom_key,
-        
-        R.string.pref_flashled_key,
-        R.string.pref_flashled_color_key,
-        R.string.pref_flashled_color_custom_key,
-        R.string.pref_flashled_pattern_key,
-        R.string.pref_flashled_pattern_custom_key,
-
-        R.string.pref_history_limit_key,
-        R.string.pref_delete_unopen_key,
-        R.string.pref_map_network_chk_key,
-        R.string.pref_gps_map_option_key,
-        R.string.pref_lock_google_map_key,
-        R.string.pref_report_position_key,
-        
-        R.string.pref_popup_enabled_key,
-        R.string.pref_noShowInCall_key,
-        R.string.pref_passthrusms_key,
-        
-        R.string.pref_screen_on_key,
-        R.string.pref_textsize_key,
-        R.string.pref_dimscreen_key,
-        R.string.pref_show_personal_key,
-        
-        R.string.pref_button1_key,
-        R.string.pref_button2_key,
-        R.string.pref_button3_key,
-        R.string.pref_button4_key,
-        R.string.pref_button5_key,
-        R.string.pref_button6_key,
-        
-        R.string.pref_alt_map_button_key,
-        R.string.pref_map_page_button_key,
-        
-        R.string.pref_resp_type_key,
-        R.string.pref_resp_merge_key,
-        R.string.pref_callback1_title_key,
-        R.string.pref_callback1_key,
-        R.string.pref_callback2_title_key,
-        R.string.pref_callback2_key,
-        R.string.pref_callback3_title_key,
-        R.string.pref_callback3_key,
-        R.string.pref_callback4_title_key,
-        R.string.pref_callback4_key,
-        R.string.pref_callback5_title_key,
-        R.string.pref_callback5_key,
-        R.string.pref_callback6_title_key,
-        R.string.pref_callback6_key,
-        
-        R.string.pref_xtra_resp_button1_key,
-        R.string.pref_xtra_resp_button2_key,
-        R.string.pref_xtra_resp_button3_key,
-        
-        R.string.pref_gen_alert_option_key,
-        R.string.pref_run_report_option_key,
-
-        R.string.pref_paid_year_key,
-        R.string.pref_install_date_key,
-        R.string.pref_purchase_date_key,
-        R.string.pref_free_rider_key,
-        R.string.pref_sponsor_key,
-        R.string.pref_sponsor_1_key,
-        R.string.pref_sponsor_2_key,
-        R.string.pref_free_sub_key,
-        R.string.pref_auth_location_key,
-        R.string.pref_auth_extra_date_key,
-        R.string.pref_auth_extra_cnt_key,
-        R.string.pref_auth_exempt_date_key,
-        R.string.pref_auth_last_date_key,
-        R.string.pref_auth_run_days_key,
-        R.string.pref_auth_last_check_time_key,
-        R.string.pref_auth_recheck_status_cnt_key,
-        R.string.pref_paid_year_1_key,
-        R.string.pref_purchase_date_1_key,
-        R.string.pref_paid_year_2_key,
-        R.string.pref_purchase_date_2_key,
-        
-        R.string.pref_registration_id_key,
-        R.string.pref_prev_registration_id_key,
-        R.string.pref_prev_version_code,
-        R.string.pref_register_req_active_key,
-        R.string.pref_register_req_key,
-        R.string.pref_reregister_delay_key,
-        R.string.pref_register_date_key,
-        R.string.pref_reconnect_key,
-        
-        R.string.pref_last_loc_time_key,
-        R.string.pref_last_loc_acc_key,
-        
-        R.string.pref_direct_page_active_key,
-        R.string.pref_last_gcm_event_type_key,
-        R.string.pref_last_gcm_event_time_key,
-        R.string.pref_restore_vol,
-        
-        R.string.pref_use_old_gcm
-    };
-
     Map<String, ?> map = prefs.mPrefs.getAll();
     
     Object regId = null;
-    for (int key : pref_keys) {
+    for (int key : PREFERENCE_KEYS) {
       String keyName = context.getString(key);
       Object value = map.get(keyName);
       if (key == R.string.pref_registration_id_key) regId = value;
@@ -1293,6 +1151,9 @@ public class ManagePreferences {
     // Add locale info
     sb.append(String.format("locale: %s\n",
         context.getResources().getConfiguration().locale.getDisplayName()));
+    
+    // Add permission info
+    PermissionManager.addPermissionInfo(context, sb);
     
     // Add Vendor config info
     VendorManager.instance().addStatusInfo(sb);
@@ -1461,5 +1322,147 @@ public class ManagePreferences {
       listener.preferenceChanged(key, mPrefs.getAll().get(key));
     }
   }
-  
+
+  // Array of preference keys to include in email
+  private static final int[] PREFERENCE_KEYS = {
+      R.string.pref_screen_size_key,
+      R.string.pref_initialized_key,
+      R.string.pref_enabled_key,
+      
+      R.string.pref_location_key,
+      R.string.pref_override_filter_key,
+      R.string.pref_filter_key,
+      R.string.pref_show_source_key,
+      R.string.pref_override_default_key,
+      R.string.pref_defcity_key,
+      R.string.pref_defstate_key,
+      R.string.pref_enable_msg_type_key,
+      R.string.pref_timeout_key,
+      R.string.pref_mms_timeout_key,
+      R.string.pref_loglimit_key,
+      R.string.pref_override_active911_split_key,
+      R.string.pref_split_direct_page_key,
+      R.string.pref_msgtimeout_key,
+      R.string.pref_split_min_msg_key,
+      R.string.pref_rev_msg_order_key,
+      R.string.pref_mix_msg_order_key,
+      R.string.pref_split_blank_ins_key,
+      R.string.pref_split_chk_sender_key,
+      R.string.pref_split_keep_lead_break_key,
+      R.string.pref_suppress_dup_msg_key,
+      R.string.pref_override_vendor_loc_key,
+      R.string.pref_activate_scanner_key,
+      R.string.pref_scanner_channel_key,
+      R.string.pref_scanner_channel_app_node_key,
+      R.string.pref_publish_pages_key,
+      
+      R.string.pref_notif_enabled_key,
+      R.string.pref_notif_override_key,
+      R.string.pref_notif_override_volume_key,
+      R.string.pref_notif_override_sound_key,
+      R.string.pref_notif_override_loop_key,
+      R.string.pref_notif_sound_key,
+      R.string.pref_notif_repeat_interval_key,
+      R.string.pref_notif_timeout_key,
+      R.string.pref_notif_delay_key,
+      R.string.pref_notif_req_ack_key,
+      
+      R.string.pref_vibrate_key,
+      R.string.pref_vibrate_pattern_key,
+      R.string.pref_vibrate_pattern_custom_key,
+      
+      R.string.pref_flashled_key,
+      R.string.pref_flashled_color_key,
+      R.string.pref_flashled_color_custom_key,
+      R.string.pref_flashled_pattern_key,
+      R.string.pref_flashled_pattern_custom_key,
+
+      R.string.pref_history_limit_key,
+      R.string.pref_delete_unopen_key,
+      R.string.pref_map_network_chk_key,
+      R.string.pref_gps_map_option_key,
+      R.string.pref_lock_google_map_key,
+      R.string.pref_report_position_key,
+      
+      R.string.pref_popup_enabled_key,
+      R.string.pref_noShowInCall_key,
+      R.string.pref_passthrusms_key,
+      
+      R.string.pref_screen_on_key,
+      R.string.pref_textsize_key,
+      R.string.pref_dimscreen_key,
+      R.string.pref_show_personal_key,
+      
+      R.string.pref_button1_key,
+      R.string.pref_button2_key,
+      R.string.pref_button3_key,
+      R.string.pref_button4_key,
+      R.string.pref_button5_key,
+      R.string.pref_button6_key,
+      
+      R.string.pref_alt_map_button_key,
+      R.string.pref_map_page_button_key,
+      
+      R.string.pref_resp_type_key,
+      R.string.pref_resp_merge_key,
+      R.string.pref_callback1_title_key,
+      R.string.pref_callback1_key,
+      R.string.pref_callback2_title_key,
+      R.string.pref_callback2_key,
+      R.string.pref_callback3_title_key,
+      R.string.pref_callback3_key,
+      R.string.pref_callback4_title_key,
+      R.string.pref_callback4_key,
+      R.string.pref_callback5_title_key,
+      R.string.pref_callback5_key,
+      R.string.pref_callback6_title_key,
+      R.string.pref_callback6_key,
+      
+      R.string.pref_xtra_resp_button1_key,
+      R.string.pref_xtra_resp_button2_key,
+      R.string.pref_xtra_resp_button3_key,
+      
+      R.string.pref_gen_alert_option_key,
+      R.string.pref_run_report_option_key,
+
+      R.string.pref_paid_year_key,
+      R.string.pref_install_date_key,
+      R.string.pref_purchase_date_key,
+      R.string.pref_free_rider_key,
+      R.string.pref_sponsor_key,
+      R.string.pref_sponsor_1_key,
+      R.string.pref_sponsor_2_key,
+      R.string.pref_free_sub_key,
+      R.string.pref_auth_location_key,
+      R.string.pref_auth_extra_date_key,
+      R.string.pref_auth_extra_cnt_key,
+      R.string.pref_auth_exempt_date_key,
+      R.string.pref_auth_last_date_key,
+      R.string.pref_auth_run_days_key,
+      R.string.pref_auth_last_check_time_key,
+      R.string.pref_auth_recheck_status_cnt_key,
+      R.string.pref_paid_year_1_key,
+      R.string.pref_purchase_date_1_key,
+      R.string.pref_paid_year_2_key,
+      R.string.pref_purchase_date_2_key,
+      
+      R.string.pref_registration_id_key,
+      R.string.pref_prev_registration_id_key,
+      R.string.pref_prev_version_code,
+      R.string.pref_register_req_active_key,
+      R.string.pref_register_req_key,
+      R.string.pref_reregister_delay_key,
+      R.string.pref_register_date_key,
+      R.string.pref_reconnect_key,
+      
+      R.string.pref_last_loc_time_key,
+      R.string.pref_last_loc_acc_key,
+      
+      R.string.pref_direct_page_active_key,
+      R.string.pref_last_gcm_event_type_key,
+      R.string.pref_last_gcm_event_time_key,
+      R.string.pref_restore_vol,
+      
+      R.string.pref_use_old_gcm
+  };
 }

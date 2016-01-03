@@ -518,4 +518,7 @@
       %1$s is required to view these map pages.  Would you like to install %1$s now.
   </string>
   <string name="missing_map_page_reader_adobe">Adobe Reader</string>
+  
+  <!-- Permission explanations -->
+  <string name="need_permission_title">Cadpage needs the following permissions to peform this operation.</string>
 </resources>

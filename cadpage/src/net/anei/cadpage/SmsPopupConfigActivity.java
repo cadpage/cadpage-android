@@ -259,6 +259,9 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
       });
     }
     
+    // Location tracking preference needs location permission
+    Preference reportPositionPref = findPreference(getString(R.string.pref_report_position_key));
+    
     // Email developer response
     Preference emailPref = findPreference(getString(R.string.pref_email_key));
     emailPref.setOnPreferenceClickListener(new OnPreferenceClickListener(){
