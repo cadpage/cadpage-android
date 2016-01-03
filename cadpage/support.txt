@@ -674,7 +674,7 @@ Please: Go to Cadpage settings and press Payment Status, then press "Recalculate
 Positive reviews from free Cadpage subscribers are much appreciated. There is an item toward the bottom of the Settings menu that gets you started on writing a Cadpage review.
 
 Take care, and 
-Have a Safe and Joyous Holiday Season!
+Have a Safe and Joyous New Year!
 
 Jean ~ Cadpage Administrator
 
@@ -689,7 +689,7 @@ Please: Go to Cadpage settings and press Payment Status, then press "Recalculate
 Positive reviews from free Cadpage subscribers are much appreciated. There is an item toward the bottom of the Settings menu that gets you started on writing a Cadpage review.
 
 Take care, and
-Have a Safe and Joyous Holiday Season!
+Have a Safe and Joyous New Year!
 
 Jean ~ Cadpage Administrator
 
@@ -742,7 +742,7 @@ Is it possible that you or your department have paid for an account with Active9
 We are very grateful for all contributions and apologize for any complications.
 
 Take care, and
-Have a Safe and Joyous Holiday Season!
+Have a Safe and Joyous New Year!
 
 Jean ~ Cadpage Administrator
 
@@ -888,7 +888,8 @@ Most of our Users are volunteer firefighters or EMS workers.  My husband and I a
 
 Most of our Users are volunteer firefighters or EMS workers, so our policy for free subscriptions is based on hardship, not on being a volunteer.
 
-$10 per year is way out of line for what you normally expect to pay for a general purpose Android app.  There are two reasons why this is necessary.
+To clarify our payment request:
+$10 per year is way out of line for what you normally expect to pay for a general purpose Android app.  There are two reasons why this is necessary for our Cadpage app.
 1) Cadpage is an extremely high maintenance app.  We put out weekly releases, and every week there are usually 10 or so location parsers that have to be fixed, either because Dispatch changed the text format, or because someone found a corner case that wasn't covered by the existing parser.  Most apps get by with a release every 3 months or more.
 2) The potential user base is a tiny fraction of what a general purpose app can expect.  Cadpage is a niche market app, appealing to the small number of people who work or volunteer in emergency services.  The same development costs have to be spread among fewer people.
 
@@ -910,7 +911,7 @@ In the interest of helping communities, we offer a  number of approved ways to r
 4) There is an old unsupported version of Cadpage available on the Cadpage download page at http://www.cadpage.org/download-cadpage.  This version will not bug you about paying for it.
 
 Take care, and 
-Have a Safe and Joyous Holiday Season!
+Have a Safe and Joyous New Year!
 
 Jean ~ Cadpage Administrator
 
@@ -941,10 +942,10 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-XPIDDMEA or xpiddmea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+ILMEFEGA or ilmefega.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support, and 
-Have a Safe and Joyous Holiday Season!
+Have a Safe and Joyous New Year!
 
 Jean ~ Cadpage Administrator
 
@@ -3062,7 +3063,7 @@ it to your device, use the Email the Developer feature to send us
 another email.
 
 Take care, and 
-Have a Safe and Joyous Holiday Season!
+Have a Safe and Joyous New Year!
 
 Jean ~ Cadpage Administrator
 
@@ -4072,6 +4073,39 @@ with that.
 
 Thanks for your support,
 ******************************************************************************
+
+Thanks so much for your interest in Cadpage.
+
+We manage an exclusively Android app, at the cost of $10 per person per
+year.  Payment is generally accomplished through Google Play Store, but
+we also take PayPal payments and checks by snail mail.
+
+For a department account, we offer a 30% discount, which brings the
+amount down to $7 per person per year.  We would request a list of your
+Users, with cell phone numbers, and then invoice your department, by
+email if feasible.  For example, for a department with 20 Users, the
+cost per year would be $140.
+
+Because we are only for Android phones, we would suggest your
+consideration of the messaging services that we are associated with:
+CodeMessaging.net and Active911.org.  I am not familiar with the details
+of their payment plans, but their websites would be extremely helpful.
+If you use CodeMessaging or Active911, there are options for your iPhone
+Users.
+
+Your Android Users can still use Cadpage with those messaging services.
+ When they register with direct paging, Cadpage is free, since we get
+some of the funds from that purchase.
+
+I hope that clarifies the major options available to your department.
+Please let me know if you need further information, or would like to
+register your department with Cadpage.
+
+Thanks for your consideration, and
+Have a Safe and Happy New Year!
+Jean ~ Cadpage Administrator
+**************************************************************************************
+
 
 Useful search expressions...
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT|X):.*\r?\n)*+(?! +"CITY:)
