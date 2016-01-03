@@ -1,16 +1,39 @@
 package net.anei.cadpage.parsers.AL;
 
-import net.anei.cadpage.parsers.dispatch.DispatchSouthernPlusParser;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-public class ALJeffersonCountyGParser extends DispatchSouthernPlusParser {
+import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
+
+public class ALJeffersonCountyGParser extends DispatchSouthernParser {
     
   public ALJeffersonCountyGParser() {
-    super(CITY_LIST, "JEFFERSON COUNTY", "AL", DSFLAG_CROSS_NAME_PHONE | DSFLAG_LEAD_UNIT);
+    super(CITY_LIST, "JEFFERSON COUNTY", "AL",
+          "ADDR/S APT EMPTY EMPTY EMPTY UNIT ID TIME CALL! INFO+");
+     
+  }
+  
+  private static final Pattern OCA_PTN = Pattern.compile("\\bOCA: *[\\d-]+$");
+      
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    Matcher match = OCA_PTN.matcher(body);
+    if (match.find()) body = body.substring(0,match.start()).trim();
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strCity.equalsIgnoreCase("UNINCORPORATED")) data.strCity = "";
+    return true;
+  }
+
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("\\d{6}-\\d{6}");
+    return super.getField(name);
   }
  
   private static final String[] CITY_LIST = new String[]{
       //Cities
-
       "ADAMSVILLE",
       "BESSEMER",
       "BIRMINGHAM",
@@ -40,7 +63,6 @@ public class ALJeffersonCountyGParser extends DispatchSouthernPlusParser {
       "WARRIOR",
 
       //Towns
-
       "ARGO",
       "BROOKSIDE",
       "CARDIFF",
@@ -54,7 +76,6 @@ public class ALJeffersonCountyGParser extends DispatchSouthernPlusParser {
       "WEST JEFFERSON",
 
       //Census-designated places
-
       "CHALKVILLE",
       "CONCORD",
       "EDGEWATER",
@@ -82,7 +103,9 @@ public class ALJeffersonCountyGParser extends DispatchSouthernPlusParser {
       "PALMERDALE",
       "SAYRE",
       "SHANNON",
-      "WATSON"
+      "WATSON",
+ 
+      "UNINCORPORATED"
   };
 
 }
