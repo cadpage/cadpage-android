@@ -397,6 +397,7 @@ class Active911Vendor extends Vendor {
       "US/IN/BrownCounty",                "INBrownCounty",
       "US/IN/DelawareCounty",             "INDelawareCounty",
       "US/IN/EMGSVCS",                    "INHenryCounty",
+      "US/IN/HamiltonCounty",             "INHamiltonCounty",
       "US/IN/GrantCounty",                "INGrantCounty",
       "US/IN/HancockCounty",              "INHancockCounty",
       "US/IN/Indianapolis",               "INMarionCounty",
