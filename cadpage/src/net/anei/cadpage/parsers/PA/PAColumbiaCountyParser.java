@@ -14,11 +14,9 @@ public class PAColumbiaCountyParser extends FieldProgramParser {
 
   public PAColumbiaCountyParser() {
     super(CITY_LIST, "COLUMBIA COUNTY", "PA",
-          "( SELECT/1 Loc:ADDR! Rcvd:TIME! Units:ID! Comments:INFO! " +
-          "| E:ID! ET:CALL! ST:CALL! LOC:ADDR/S! MAP:MAP! T:TIME! N:NAME! PH:PHONE! S:SKIP! C:INFO! )");
+          "E:ID! ET:CALL! ST:CALL! LOC:ADDR/S! MAP:MAP! T:TIME! N:NAME! PH:PHONE! S:SKIP! C:INFO!");
   }
 
-  private static Pattern CALL_UNIT_MAP_PTN = Pattern.compile("([A-Z]+) ([A-Z0-9]+) \\((\\d{0,3})\\) +(?=Loc:)");
   private static Pattern LUZERNE_COUNTY_PTN = Pattern.compile("\\bLUZERNE\\b");
   
   private String times;
@@ -27,17 +25,7 @@ public class PAColumbiaCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     times = "";
     if (subject.startsWith("Times - ") || subject.startsWith("Notification - ")) data.msgType = MsgType.RUN_REPORT;
-    Matcher mat = CALL_UNIT_MAP_PTN.matcher(body);
-    if (mat.lookingAt()) {
-      setSelectValue("1");
-      data.strCall = mat.group(1);
-      data.strUnit = mat.group(2).trim();
-      data.strMap = mat.group(3);
-      if (!parseMsg(body.substring(mat.end()), data)) return false;
-    } else {
-      setSelectValue("2");
-      if (!super.parseFields(body.split(","), data)) return false;
-    }
+    if (!super.parseFields(body.split(","), data)) return false;
     if (data.msgType == MsgType.RUN_REPORT) {
       data.strSupp = append(times, "\n", data.strSupp);
     }
@@ -59,9 +47,7 @@ public class PAColumbiaCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new MyIdField();
-    if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("PRI")) return new PriorityField("\\d?", true); 
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
@@ -100,14 +86,6 @@ public class PAColumbiaCountyParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "UNIT ID";
-    }
-  }
-
-  private class MyUnitField extends UnitField {
-
-    @Override
-    public void parse(String field, Data data) {
-      addUnit(field, data);
     }
   }
 
