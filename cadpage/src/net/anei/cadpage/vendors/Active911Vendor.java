@@ -886,6 +886,7 @@ class Active911Vendor extends Vendor {
       "US/OR/GilliamCounty",              "ORGilliamCounty",
       "US/OR/GreshamSAR",                 "ORMultnomahCountyC",
       "US/OR/GreshamStandardA",           "Cadpage2",
+      "US/OH/HighlandCounty",             "OHHighlandCounty",
       "US/OR/HoodRiverCounty",            "ORHoodRiverCounty",
       "US/OR/Jackson",                    "ORJacksonCounty",
       "US/OR/JeffersonCounty",            "ORJeffersonCounty",
