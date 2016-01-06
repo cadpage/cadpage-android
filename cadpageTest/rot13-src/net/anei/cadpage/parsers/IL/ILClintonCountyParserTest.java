@@ -47,11 +47,6 @@ choyvp pynff VYPyvagbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp VYPyvagbaPbhaglCnefreGrfg() {
     frgCnefre(arj VYPyvagbaPbhaglCnefre(), "PYVAGBA PBHAGL", "VY");
   }
-
-  @Grfg
-  choyvp ibvq grfgCnefre() {
-
-  }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj VYPyvagbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
