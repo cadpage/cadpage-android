@@ -5,10 +5,11 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Rgbjnu Pbhagl
+Rgbjnu Pbhagl, NY
 
 Pbagnpg: Punq Tertbel <pqt0816@tznvy.pbz>
 Fraqre: rgbjnupbny911@911rznvy.arg
+
 (R911) ZRQVPNY\aOVYYL OBOB 162 OHYYQBT QE, TNQFQRA\aSRZNYR CNFFRQ BHG - UBYQ FUBEG SBE CQ
 (R911) JERPX (10-50)\aUJL 278/ BYQ 278- NHGB CNEGF RAQ, UBXRF OYHSS\a2 IRUVPYR PBYYVFVBA- HAX VAWHEVRF
 (R911) ZRQVPNY\aTRENYQ CBCR 2648 FNAQYVA YA, UBXRF OYHSS\aPURFG NAQ FGBZNPU CNVA

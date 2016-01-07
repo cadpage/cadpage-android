@@ -118,6 +118,7 @@ public class ParserList {
               ,"ALCoffeeCounty"                 ,"Coffee County, AL"
               ,"ALColbertCounty"                ,"Colbert County, AL"
               ,"ALDothan"                       ,"Dothan, AL"
+              ,"ALEtowahCounty"                 ,"Etowah County, AL"
               ,"ALGenevaCounty"                 ,"Geneva County, AL"
               ,"ALHenryCounty"                  ,"Henry County, AL"
               ,"ALHoover"                       ,"Hoover, AL"
