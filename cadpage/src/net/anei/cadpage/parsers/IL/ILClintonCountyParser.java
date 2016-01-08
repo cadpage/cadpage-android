@@ -1,17 +1,11 @@
 package net.anei.cadpage.parsers.IL;
 
-import java.util.Properties;
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
+import net.anei.cadpage.parsers.dispatch.DispatchA29Parser;
 
-import net.anei.cadpage.parsers.MsgInfo.Data;
-
-import net.anei.cadpage.parsers.dispatch.DispatchA41Parser;
-
-public class ILClintonCountyParser extends DispatchA41Parser {
+public class ILClintonCountyParser extends DispatchA29Parser {
  
   public   ILClintonCountyParser() {
-    super(null, "CLINTON COUNTY", "AL", null);
+    super(CITY_LIST, "CLINTON COUNTY", "IL");
   }
   
   @Override

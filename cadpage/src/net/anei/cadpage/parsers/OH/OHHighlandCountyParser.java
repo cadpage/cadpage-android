@@ -4,6 +4,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 
@@ -11,16 +13,21 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHHighlandCountyParser extends DispatchEmergitechParser {
   
   public OHHighlandCountyParser() {
-    super(new String[]{"Networkadmin:", "Emergitech:", "Dispatch:"}, 
-          73, CITY_LIST, "HIGHLAND COUNTY", "OH");
-    addSpecialWords("GRIFFITH", "ORCHARD", "SAUNER");
+    super(new String[]{"HighlandCOSO:", "Networkadmin:"}, 
+          0, CITY_LIST, "HIGHLAND COUNTY", "OH");
   }
   
   @Override
   public String getFilter() {
-    return "networkadmin@highlandcoso.com,Emergitech@highlandcoso.com,Dispatch@highlandcoso.com";
+    return "networkadmin@highlandcoso.com,HighlandCOSO@eticentral.net";
   }
   
+  
+  @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom();
+  }
+
   @Override
   protected boolean parseMsg(String body, Data data) {
     if (!super.parseMsg(body, data)) return false;

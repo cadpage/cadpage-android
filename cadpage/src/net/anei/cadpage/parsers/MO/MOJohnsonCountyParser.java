@@ -12,11 +12,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class MOJohnsonCountyParser extends SmartAddressParser {
   
-  private static final String[] CITY_LIST = new String[]{
-    "JOHNSON COUNTY",
-    "JOHNSON COUNTY MO"
-  };
-  
   private static final Pattern MARKER = Pattern.compile("\\b(?:Dispatch: +)?(\\d{1,2}/\\d{1,2}/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)\\b");
  
   public MOJohnsonCountyParser() {
@@ -26,7 +21,7 @@ public class MOJohnsonCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "@joco911.org";
+    return "@joco911.org,93001";
   }
   
   @Override
@@ -37,6 +32,11 @@ public class MOJohnsonCountyParser extends SmartAddressParser {
       
       if (body.startsWith("911 Page / ")) {
         body = body.substring(11).trim();
+        break;
+      }
+      
+      if (body.startsWith("911 Page,")) {
+        body = body.substring(9).trim();
         break;
       }
       
@@ -57,4 +57,9 @@ public class MOJohnsonCountyParser extends SmartAddressParser {
     if (data.strCity.startsWith("JOHNSON COUNTY")) data.strCity = "";
     return true;
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+    "JOHNSON COUNTY",
+    "JOHNSON COUNTY MO"
+  };
 }

@@ -22,6 +22,10 @@ F NAGUENPVGR FG & J UVTU FG * FUN * SVER - OEHFU * Qvfcngpu: SC 80,RAT 41,OE 153
 581 QHXR FG * ABO * NPPVQRAG - ZIN JVGU SYHVQF QBJA * Qvfcngpu: ERF 735,PU 731,FD 747,RAT 731,FD 737
 940 UBBXVRF TEBIR EQ * CBV * PNEOBA ZBABKVQR VAPVQRAG * Qvfcngpu: RAT 741,ERF 735,PU 742,NG 749,FD 746,ZVPH 91,FD 747,RAT 742,PU 741
 
+Pbagnpg: Wnfba Yruzna <yruzna44@tznvy.pbz>
+Fraqre: 777
+419 A 5GU FG * FHA * CHZC QRGNVY * Qvfcngpu: PU 503,PU 504,FD 533,PU 501,FD 563,PU 505,PU 502\aErcyl HAFHOFPEVOR gb BCG BHG
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Abeguhzoreynaq Sver Eryvrs Nffbpvngvba
 Ybpngvba: Abeguhzoreynaq, CN, Havgrq Fgngrf
@@ -449,6 +453,18 @@ choyvp pynff CNAbeguhzoreynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZPVGL:CBVAG GJC,ABEGUHZOREYNAQ PBHAGL",
         "PNYY:PNEOBA ZBABKVQR VAPVQRAG",
         "HAVG:RAT_741,ERF_735,PU_742,NG_749,FD_746,ZVPH_91,FD_747,RAT_742,PU_741");
+  
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWnfbaYrvtuzna() {
+
+    qbGrfg("G1",
+        "419 A 5GU FG * FHA * CHZC QRGNVY * Qvfcngpu: PU 503,PU 504,FD 533,PU 501,FD 563,PU 505,PU 502\aErcyl HAFHOFPEVOR gb BCG BHG",
+        "NQQE:419 A 5GU FG",
+        "PVGL:FHAOHEL",
+        "PNYY:CHZC QRGNVY",
+        "HAVG:PU_503,PU_504,FD_533,PU_501,FD_563,PU_505,PU_502 Ercyl HAFHOFPEVOR gb BCG BHG");
   
   }
 
