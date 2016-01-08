@@ -12,7 +12,7 @@ public class PANorthumberlandCountyParser extends DispatchA45Parser {
   
   @Override
   public String getFilter() {
-    return "@northumberland.alertpa.org";
+    return "@northumberland.alertpa.org,777";
   }
   
   @Override

@@ -3,8 +3,6 @@ cnpxntr arg.narv.pnqcntr.cnefref.NY;
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg arg.narv.pnqcntr.cnefref.NY.NYQbgunaPCnefreGrfg;
 
-vzcbeg bet.whavg.Grfg;
-
 /*
 Qbguna NY (P)
 Fghss gung vf abg unaqyrq ol gur N naq O cnefref
