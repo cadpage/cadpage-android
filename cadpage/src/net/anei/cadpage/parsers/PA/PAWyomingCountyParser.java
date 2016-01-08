@@ -13,7 +13,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class PAWyomingCountyParser extends DispatchOSSIParser {
   public PAWyomingCountyParser() {
     super(CITY_CODE, "WYOMING COUNTY", "PA",
-          "CALL! ADDRCITY ( ( CITY | PLACE CITY! ) X/Z+? UNIT! " +
+          "CALL! ADDRCITY ( ( CITY | PLACE/Z CITY! ) PLACE? X/Z+? UNIT! " +
                          "| UNIT! | X X/Z+? UNIT! | PLACE X/Z+? UNIT! ) INFO+");
     setupCities(CITY_LIST);
   }
@@ -24,7 +24,7 @@ public class PAWyomingCountyParser extends DispatchOSSIParser {
   }
   
   private static final String UNIT_PATTERN_S
-    = "[A-Z]{1,5}(?:\\d{1,3}(?:[A-Z]\\d{0,2})?)?";
+    = "[A-Z]{1,6}(?:\\d{1,3}(?:[A-Z]\\d{0,2})?)?";
   @Override
   public Field getField(String name) {
     if (name.equals("PLACE")) return new MyPlaceField();
@@ -35,7 +35,21 @@ public class PAWyomingCountyParser extends DispatchOSSIParser {
   private Pattern PLACE_CITY_PTN = Pattern.compile("(.*?)(?:\\(S\\) *)?\\(N\\)(.*)");
   private class MyPlaceField extends PlaceField {
     @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      return parse(field, data, false);
+    }
+    
+    @Override
     public void parse(String field, Data data) {
+      parse(field, data, true);
+    }
+    
+    private boolean parse(String field, Data data, boolean force) {
       Matcher match = PLACE_CITY_PTN.matcher(field);
       if (match.matches()) {
         field = match.group(1).trim();
@@ -45,8 +59,9 @@ public class PAWyomingCountyParser extends DispatchOSSIParser {
           else city = stripFieldEnd(city, " BOROUGH");
           data.strCity = city;
         }
-      }
+      } else if (!force) return false;
       super.parse(field, data);
+      return true;
     }
   }
   
