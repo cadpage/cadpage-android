@@ -814,6 +814,7 @@ Have a nice day,
 
 I found your Google Play Store payment record of ______.  However, your Cadpage User email address has changed.  I have updated your account with your current email address.
 
+Please: 
 Go into Cadpage settings, press Payment Status and then Recalculate Payment Status. This reloads your payment status from the market which will usually fix things.
 
 If that fails, please contact us again using the Cadpage app.  Go to Settings, select Email the Developer and include the configuration information. 
