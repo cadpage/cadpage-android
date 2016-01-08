@@ -224,6 +224,12 @@ public class NCNashCountyParser extends DispatchA3AParser {
   }
   
   @Override
+  protected boolean isNotExtraApt(String apt) {
+    if (apt.indexOf('/') >= 0) return true;
+    return super.isNotExtraApt(apt);
+  };
+  
+  @Override
   public boolean parseMain(String body, Data data) {
   
     body = stripFieldStart(body, "/ ");

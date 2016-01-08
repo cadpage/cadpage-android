@@ -7,7 +7,7 @@ public class GASmyrnaParser extends DispatchOSSIParser {
   
   public GASmyrnaParser() {
     super("SMYRNA", "GA",
-           "SKIP CALL ADDR! X+? INFO+? ID");
+           "FYI CALL ADDR! X+? INFO+? ID");
   }
   
   @Override

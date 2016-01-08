@@ -11,6 +11,7 @@ public class WVMarionCountyParser extends DispatchB2Parser {
   public WVMarionCountyParser() {
     super("MARION_CO_911:", CITY_LIST, "MARION COUNTY", "WV");
     setupCallList(CALL_LIST);
+    removeWords("PLACE");
     setupMultiWordStreets(
         "1/2 GASTON",
         "1/2 SPEEDWAY",

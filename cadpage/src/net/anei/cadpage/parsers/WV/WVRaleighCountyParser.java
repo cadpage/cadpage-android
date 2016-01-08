@@ -13,7 +13,7 @@ public class WVRaleighCountyParser extends DispatchB2Parser {
   public WVRaleighCountyParser() {
     super(CITY_LIST, "RALEIGH COUNTY", "WV", B2_FORCE_CALL_CODE);
     setupCallList(CALL_LIST);
-    removeWords("BV", "TURNPIKE");
+    removeWords("BV", "LANE", "TURNPIKE");
     setupDoctorNames("KELLY");
     setupSaintNames("JOHN");
     setupProtectedNames("L C AND WILDAS");

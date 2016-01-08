@@ -9,6 +9,7 @@ public class NCSampsonCountyParser extends DispatchSouthernParser {
   public NCSampsonCountyParser() {
     super(CITY_LIST, "SAMPSON COUNTY", "NC", DSFLAG_LEAD_PLACE | DSFLAG_FOLLOW_CROSS);
     setupMultiWordStreets(MULT_WORD_STREET_LIST);
+    removeWords("TRAIL", "SQUARE");
   }
   
   @Override

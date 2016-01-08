@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.CA;
 
+import java.util.Properties;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -31,10 +33,28 @@ public class CAPlacerCountyCParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("CALL")) return new CallField("[A-Z]+", true);
+    if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("ID")) return new IdField("\\d{4}-\\d{8}\\b.*", true);
     return super.getField(name);
+  }
+  
+  private class MyCallField extends CallField {
+    
+    public MyCallField() {
+      super("[A-Z]+", true);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      data.strCode = field;
+      data.strCall = convertCodes(field, CALL_CODES);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE CALL";
+    }
   }
   
   private class MyAddressField extends AddressField {
@@ -61,6 +81,48 @@ public class CAPlacerCountyCParser extends FieldProgramParser {
       return "ADDR APT CITY PLACE";
     }
   }
+  
+  private static final Properties CALL_CODES = buildCodeTable(new String[]{
+      "AUTOAID","Automatic Aid Request",
+      "BOMB",   "Bomb Threat",
+      "BOXCAR", "Boxcar Fire",
+      "CALARM", "Commercial Fire Alarm",
+      "CGAS",   "Commercial Gas Leak",
+      "CO",     "Carbon Monoxide Alarm",
+      "CSTRUH", "Commercial Structure (High)",
+      "CSTRUL", "Commercial Structure (Low)",
+      "ELEV",   "Elevator Rescue",
+      "FINV",   "Fire Investigation",
+      "FLOOD",  "Flooding",
+      "FTRASH", "Trash Fire",
+      "FVEH",   "Vehicle Fire",
+      "HWIRE",  "Hazardous Wires",
+      "HYD",    "Broken Hydrant",
+      "HZH",    "Hazmat(High)",
+      "HZL",    "Hazmat(Low)",
+      "LAND",   "Helicopter Landing Zone",
+      "LOCKH",  "Lock In (High)",
+      "LOCKL",  "Lock In (Low)",
+      "MAID",   "Medical Aid",
+      "MUTAID", "Mutual Aid",
+      "PAST",   "Public Assistance",
+      "PLANE",  "Plane Crash",
+      "POLICE", "Police Assist",
+      "RALARM", "Residential Alarm",
+      "RESCUE", "Rescue",
+      "RGAS",   "Residential Gas Leak",
+      "RSTRUH", "Residential Structure (High)",
+      "RSTRUL", "Residential Structure (Low)",
+      "STRIKE", "Strike Team Request",
+      "TRAIN",  "Train Wreck / Derailment",
+      "VAF",    "Vehicle Accident with Fire",
+      "VAH",    "Vehicle Accident (High)",
+      "VAL",    "Vehicle Accident (Low)",
+      "VEGH",   "Vegetation Fire (High)",
+      "VEGL",   "Vegetation Fire (Low)",
+      "WFLOW",  "Water Flow"
+
+  });
   
   private static final String[] CITY_LIST = new String[]{
     "ROSEVILLE"

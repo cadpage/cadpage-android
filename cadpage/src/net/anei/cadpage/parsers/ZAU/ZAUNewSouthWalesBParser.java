@@ -33,6 +33,7 @@ public class ZAUNewSouthWalesBParser extends SmartAddressParser {
     super(ZAUNewSouthWalesParser.CITY_LIST, "", "NSW", CountryCode.AU);
     setFieldList("DATE TIME SRC ID CALL ADDR APT X PLACE CITY INFO");
     setupMultiWordStreets(MWORD_STREET_LIST);
+    setupSpecialStreets("NEW ST");
     addRoadSuffixTerms("PDE", "HIGHWAY");
     removeWords("CL");
     this.strict = strict;

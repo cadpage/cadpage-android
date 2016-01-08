@@ -14,6 +14,7 @@ public class PALebanonCountyParser extends SmartAddressParser {
   public PALebanonCountyParser() {
     super("LEBANON COUNTY", "PA");
     setFieldList("SRC TIME DATE CITY ADDR APT PLACE X PRI CALL UNIT BOX");
+    removeWords("ALY");
   }
   
   @Override
@@ -90,7 +91,7 @@ public class PALebanonCountyParser extends SmartAddressParser {
       parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, sAddress, data);
     } else {
       parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, sAddress, data);
-      data.strPlace = getLeft();
+      data.strPlace = append(data.strPlace, " - ", getLeft());
     }
     if (data.strPlace.startsWith ("AT ")) {
       String cross = data.strPlace.substring(3).trim();

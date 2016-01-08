@@ -10,7 +10,6 @@ Pbagnpg: Npgvir911
 Ntrapl anzr: Znafhen SQ
 Ybpngvba: Znafhen, YN, Havgrq Fgngrf
 Fraqre: "Niblryyrf 911" <Niblryyrf@911pragre.arg>
-Fraqre: Ornh Wharnh <ornhswharnh@lnubb.pbz>
 
 {SVER - 52N - 2015120019 - 0 Ujl 1, Znafhen, YN} Gurer unf orra n(a) Sver (nhgbzbovyr) ercbegrq ng 0 Ujl 1, Znafhen, YN VA ERSRERAPR GB N PBZREPVNY IRUVPYR FZBXVAT. 
 {SVER - 52F - 2015120008 - 641 Pubhcvdhr Ya, Pbggbacbeg, YN} Gurer unf orra n(a) Sver (fgehpgher) ercbegrq ng 641 Pubhcvdhr Ya, Pbggbacbeg, YN\aSVER VA ONGUEBBZ NG QP3 

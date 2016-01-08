@@ -406,8 +406,8 @@ choyvp pynff APWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G11",
         "45 A PBHAGEL PYHO QE/UJL 107 PHYYBJURR;2014026381;12:10:10;10-50 NPPVQRAG;trb:35.300459, -83.18329;",
-        "NQQE:45 A PBHAGEL PYHO QE & UJL 107",
-        "ZNQQE:45 A PBHAGEL PYHO QE",
+        "NQQE:45 A PBHAGEL PYHO QE",
+        "K:UJL 107",
         "PVGL:PHYYBJURR",
         "VQ:2014026381",
         "GVZR:12:10:10",
@@ -466,8 +466,7 @@ choyvp pynff APWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G17",
         "1 UJL 107 @ PNGNZBHAG TNC FLYIN;2014025246;00:32:45;10-50 NPPVQRAG;107 @ PNGNZBHAG TNC. NQI JUVGR PNE JRAG OL UVZ NAQ JERPXRQ VA GUR PHEIR. JVYY OR NG GUR FVTA GUNG FN",
-        "NQQE:UJL 107",
-        "CYNPR:PNGNZBHAG TNC",
+        "NQQE:UJL 107 & PNGNZBHAG TNC",
         "PVGL:FLYIN",
         "VQ:2014025246",
         "GVZR:00:32:45",
@@ -645,8 +644,8 @@ choyvp pynff APWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G36",
         "1 ZNVA FG NAQ PBCR PERRX FLYIN;2014021199;13:41:56;10-50 NPPVQRAG;HAXABJA BA VAWHEVRF",
-        "NQQE:ZNVA FG",
-        "NCG:NAQ PBCR PERRX",
+        "NQQE:ZNVA FG NAQ PBCR PERRX",
+        "ZNQQE:ZNVA FG & PBCR PERRX",
         "PVGL:FLYIN",
         "VQ:2014021199",
         "GVZR:13:41:56",
@@ -704,8 +703,7 @@ choyvp pynff APWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G43",
         "230 74 JRFG OBHAQ FLYIN 2014019142 17:25:59 10-50 NPPVQRAG JERPX BA ONYFNZ WHFG ORSBER GUR OEVQTR",
-        "CYNPR:230",
-        "NQQE:74 JRFG OBHAQ",
+        "NQQE:230 74 JRFG OBHAQ",
         "PVGL:FLYIN",
         "VQ:2014019142",
         "GVZR:17:25:59",

@@ -112,18 +112,20 @@ public class DispatchCiscoParser extends FieldProgramParser {
         return;
       }
       
+      int crossFlags = FLAG_ONLY_CROSS | getExtraParseAddressFlags();
+      
       // If we have city codes, try to use them to split out two cross streets
       if (citySearch) {
         String saveCity = data.strCity;
         data.strCity = "";
         data.strCross = "";
-        parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_ONLY_CITY | FLAG_CROSS_FOLLOWS, field, data);
+        parseAddress(StartType.START_ADDR, crossFlags | FLAG_ONLY_CITY | FLAG_CROSS_FOLLOWS, field, data);
         String cross = data.strCross;
         if (cross.length() == 0 || data.strCity.length() == 0) {
           data.strCity = saveCity;
         } else {
           data.strCross = "";
-          parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_ONLY_CITY | FLAG_ANCHOR_END, getLeft(), data);
+          parseAddress(StartType.START_ADDR, crossFlags | FLAG_ONLY_CITY | FLAG_ANCHOR_END, getLeft(), data);
           data.strCross = append(cross, " / ", data.strCross);
           if (data.strCross.contains("/")) return;
           
@@ -138,20 +140,20 @@ public class DispatchCiscoParser extends FieldProgramParser {
       if (parseSpecial(field, data)) return;
 
       // Next try the mundane old fashioned parse implied intersections logic
-      parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, field, data);
+      parseAddress(StartType.START_ADDR, crossFlags | FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, field, data);
       if (data.strCross.contains("/")) return;
       
       // Still no luck.  Try picking off a leading cross street and adding a slash
       // at the end of it
       data.strCross = "";
-      parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_CROSS_FOLLOWS, field, data);
+      parseAddress(StartType.START_ADDR, crossFlags | FLAG_CROSS_FOLLOWS, field, data);
       data.strCross = append(data.strCross, " / ", getLeft());
       if (data.strCross.contains("/")) return;
       
       // Still no luck, try to find a cross street construct at the end of the field
       // and insert a slash ahead of it
       data.strCross = "";
-      parseAddress(StartType.START_OTHER, FLAG_ONLY_CROSS | FLAG_ANCHOR_END, field, data);
+      parseAddress(StartType.START_OTHER, crossFlags | FLAG_ANCHOR_END, field, data);
       data.strCross = append(getStart(), " / ", data.strCross);
     }
 

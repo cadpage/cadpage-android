@@ -341,7 +341,7 @@ choyvp pynff BUPbyhzovnanPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Fnvag Pynve Sver",
         "PNYY:cbffvoyr ubhfr sver",
         "NQQE:fvqruvyy ebnq bss bs Rnfg Yvirecbby ebnq",
-        "ZNQQE:fvqruvyy ebnq & bs Rnfg Yvirecbby ebnq");
+        "ZNQQE:fvqruvyy ebnq & Rnfg Yvirecbby ebnq");
 
     qbGrfg("G24",
         "(TYRAZBBE ISQ NFFBP.) Guvf rznvy jnf frag ol: Fnvag Pynve Sver\a\aFgehpgher Sver \aevtug ol Qvkbaivyyr SQ",

@@ -140,7 +140,9 @@ public class DispatchA14Parser extends FieldProgramParser {
           field = field.substring(pt+1).trim();
         }
       }
-      parseAddress(st, FLAG_START_FLD_NO_DELIM | FLAG_RECHECK_APT | FLAG_ANCHOR_END | FLAG_NO_CITY, field, data);
+      int flags = FLAG_START_FLD_NO_DELIM | FLAG_RECHECK_APT | FLAG_ANCHOR_END | FLAG_NO_CITY;
+      flags |= getExtraParseAddressFlags();
+      parseAddress(st, flags, field, data);
       
       // If we found a place name ending with &, treat it like an unrecognzied street name intersection
       if (st == StartType.START_PLACE && data.strPlace.endsWith("&")) {

@@ -17,6 +17,7 @@ public class DispatchArchonixParser extends FieldProgramParser {
   private static final Pattern SUBJECT_PTN = Pattern.compile("(?:Dispatch|Free) (.*)"); 
   private static final Pattern SUBJECT3_PTN = Pattern.compile("Sta +(.+)");
   private static final Pattern SINGLE_LINE_BRK = Pattern.compile("(?<!\n)\n(?!\n)");
+  private static final Pattern TWP_ADDR_PTN = Pattern.compile("([ A-Z]+ TWP) +(.*)");
   
   private Properties cityCodes;
   private Properties maCityCodes;
@@ -66,20 +67,22 @@ public class DispatchArchonixParser extends FieldProgramParser {
         city = addr.substring(0,pt).trim();
         parseAddress(addr.substring(pt+1).trim(), data);
       } else {
-        parseAddress(StartType.START_PLACE, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, addr, data);
-        city = data.strPlace;
+        match = TWP_ADDR_PTN.matcher(addr);
+        if (match.matches()) {
+          city = match.group(1).replaceAll("  +", " ");
+          parseAddress(match.group(2), data);
+        } else {
+          parseAddress(StartType.START_OTHER, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, addr, data);
+          city = getStart();
+        }
       }
       data.strPlace = place;
       if (data.strAddress.length() == 0) {
         parseAddress(city, data);
       } else {
-        if (city.endsWith(" BORO")) {
-          city = city.substring(0,city.length()-5).trim();
-        } else if (city.startsWith("BORO OF ")) {
-          city = city.substring(8).trim();
-        } else if (city.startsWith("BORO ")) {
-          city = city.substring(5).trim();
-        }
+        city = stripFieldEnd(city, " BORO");
+        city = stripFieldStart(city, "BORO OF ");
+        city = stripFieldStart(city, "BORO ");
         if (maCityCodes != null) city = convertCodes(city, maCityCodes);
         data.strCity = city;
       }

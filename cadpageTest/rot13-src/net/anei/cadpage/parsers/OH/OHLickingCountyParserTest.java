@@ -2538,7 +2538,7 @@ choyvp pynff BUYvpxvatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:HAPBAFPVBHF CREFBA-RZF",
         "NQQE:9565 GUBEA GJC EQ 37 AJ (GUBEA GJC EQ 37)",
-        "ZNQQE:9565 GUBEA GJC EQ 37 AJ",
+        "ZNQQE:9565 GUBEA GJC 37 AJ",
         "PVGL:GUBEA GJC",
         "K:GUBEA GJC EQ 87 AJ/FE 13 AJ)");
 

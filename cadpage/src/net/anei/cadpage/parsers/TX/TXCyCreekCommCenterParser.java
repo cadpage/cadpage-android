@@ -167,11 +167,11 @@ public class TXCyCreekCommCenterParser extends FieldProgramParser {
       if (field.contains("/") || field.contains("&")) {
         data.strCross = field;
       } else {
-        Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ONLY_CROSS | FLAG_ANCHOR_END | FLAG_IMPLIED_INTERSECT, field);
+        Result res = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ONLY_CROSS | FLAG_ANCHOR_END | FLAG_IMPLIED_INTERSECT | FLAG_ALLOW_DUAL_DIRECTIONS, field);
         if (res.isValid()) {
           res.getData(data);
         } else {
-          parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_CROSS_FOLLOWS, field, data);
+          parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_ALLOW_DUAL_DIRECTIONS | FLAG_CROSS_FOLLOWS, field, data);
           data.strCross = append(data.strCross, " / ", getLeft());
         }
       }

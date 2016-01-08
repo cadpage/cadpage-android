@@ -315,8 +315,8 @@ choyvp pynff BUWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "wpbzz:[930]-- - Angher: Zrqvpny Rzretrapl - Ybpngvba: 297.00 Gjc Eq 456 Fnyvar Gjc - Pbzzragf: ZRQVPNY NYEZ NPGVINGVBA",
         "FEP:wpbzz",
         "PNYY:Zrqvpny Rzretrapl",
-        "NQQE:297 Gjc Eq",
-        "NCG:456",
+        "NQQE:297 Gjc Eq 456",
+        "ZNQQE:297 GJC 456",
         "PVGL:Fnyvar Gjc",
         "VASB:ZRQVPNY NYEZ NPGVINGVBA");
 
@@ -601,8 +601,9 @@ choyvp pynff BUWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "wpbzz:[919]-- - Angher: Zrqvpny Rzretrapl - Ybpngvba: 225.00 Gjc Eq 267 N Fcevatsvryq Gjc - Pbzzragf: SRZNYR QVMML",
         "FEP:wpbzz",
         "PNYY:Zrqvpny Rzretrapl",
-        "NQQE:225 Gjc Eq",
-        "NCG:267-N",
+        "NQQE:225 Gjc Eq 267",
+        "ZNQQE:225 GJC 267",
+        "NCG:N",
         "PVGL:Fcevatsvryq Gjc",
         "VASB:SRZNYR QVMML");
 
@@ -610,8 +611,8 @@ choyvp pynff BUWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "wpbzz:[906]-- - Angher: Zrqvpny Rzretrapl - Ybpngvba: 302.00 Gjc Eq 240 Xabk Gjc - Pbzzragf: ZNYR VYY",
         "FEP:wpbzz",
         "PNYY:Zrqvpny Rzretrapl",
-        "NQQE:302 Gjc Eq",
-        "NCG:240",
+        "NQQE:302 Gjc Eq 240",
+        "ZNQQE:302 GJC 240",
         "PVGL:Xabk Gjc",
         "VASB:ZNYR VYY");
 

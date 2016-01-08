@@ -36,7 +36,7 @@ public class MIJacksonCountyParser extends SmartAddressParser {
     data.strCall = match.group(3).trim();
     data.strDate = match.group(4);
     data.strTime = match.group(5);
-    parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS, match.group(6).trim(), data);
+    parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_CROSS_FOLLOWS, match.group(6).trim(), data);
     data.strPlace = getLeft();
     String info = getOptGroup(match.group(7));
     match = INFO_JUNK_PTN.matcher(info);

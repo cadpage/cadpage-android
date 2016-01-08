@@ -16,6 +16,7 @@ public class ALStClairCountyParser extends DispatchB3Parser {
     setupCallList(CALL_LIST);
     setupMultiWordStreets(MSTREET_LIST);
     setupSaintNames("CLAIR");
+    addRoadSuffixTerms("PRKWY");
     removeWords("PIKE");
   }
   

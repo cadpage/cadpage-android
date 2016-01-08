@@ -359,7 +359,7 @@ choyvp pynff VNQvpxvafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QP911:ANGHER: 10-52/YBPNGVBA: 25151 UJL 9/71 /PBZZRAGF: SRZNYR UNF GNXRA OYBBQ CERFFHER ZRQVPNGVBA NYFB CBFF QEVAXVAT",
         "PNYY:10-52",
         "NQQE:25151 UJL 9",
-        "ANZR:/71",
+        "K:71",
         "VASB:SRZNYR UNF GNXRA OYBBQ CERFFHER ZRQVPNGVBA NYFB CBFF QEVAXVAT");
 
     qbGrfg("G29",
@@ -587,8 +587,7 @@ choyvp pynff VNQvpxvafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G58",
         "QP911:ANGHER: 10-50 /YBPNGVBA: 175GU FG / PRZRGNEL /PBZZRAGF: FVATYR IRUVPYR EBYYBIRE. PURPX BHG N PBHCYR CRBCYR VAIBYIRQ",
         "PNYY:10-50",
-        "NQQE:175GU FG",
-        "ANZR:/ PRZRGNEL",
+        "NQQE:175GU FG & PRZRGNEL",
         "VASB:FVATYR IRUVPYR EBYYBIRE. PURPX BHG N PBHCYR CRBCYR VAIBYIRQ");
 
     qbGrfg("G60",

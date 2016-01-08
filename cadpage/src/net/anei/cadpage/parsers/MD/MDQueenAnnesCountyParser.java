@@ -23,6 +23,7 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
     setFieldList("BOX CALL CITY ADDR APT PLACE INFO CH UNIT");
     setupCallList(CALL_LIST);
     addNauticalTerms();
+    removeWords("NEW");
     setupMultiWordStreets(
         "BATTS NECK",
         "BAY BRIDGE",

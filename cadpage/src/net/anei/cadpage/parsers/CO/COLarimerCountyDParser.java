@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.CO;
 
 import java.util.Properties;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA41Parser;
 
 public class COLarimerCountyDParser extends DispatchA41Parser {
@@ -20,6 +21,23 @@ public class COLarimerCountyDParser extends DispatchA41Parser {
     return MAP_FLG_SUPPR_LA;
   }
   
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    do {
+      if (subject.equals("CAD Page")) break;
+      
+      if (body.startsWith("/ CAD Page / ")) {
+        body = body.substring(13);
+        break;
+      }
+      
+      return false;
+    } while (false);
+    
+    return super.parseMsg(body, data);
+  }
+
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "FTC", "FORT COLLINS"
   });

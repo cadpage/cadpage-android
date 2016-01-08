@@ -79,7 +79,7 @@ public class NCDurhamCountyParser extends DispatchOSSIParser {
         return;
       }
       
-      if (isValidAddress(field)) {
+      if (isValidCrossStreet(field)) {
         data.strCross = append(data.strCross, " & ", field);
         return;
       }

@@ -4755,8 +4755,8 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G54",
         "(AJF Zrffntr) NPPVQRAG Ybpngvba: 30700 F V 5730700 F V 57 Xnaxnxrr 02/08/14 11:15 Vapvqrag #: 2014-00000663",
         "PNYY:NPPVQRAG",
-        "NQQE:30700 F V 5730700 F",
-        "NCG:V 57",
+        "NQQE:30700 F V 5730700",
+        "NCG:F V 57",
         "PVGL:Xnaxnxrr",
         "VQ:2014-00000663");
 
@@ -4807,7 +4807,6 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(AJF Zrffntr) FZBXR/BQBE Ybpngvba: 189 A YN FNYYR NIR PNYYOX=(8 Oenqyrl 02/06/14 13:36 Vapvqrag #: 2014-00000314",
         "PNYY:FZBXR/BQBE",
         "NQQE:189 A YN FNYYR NIR",
-        "ZNQQE:189 A YA FNYYR NIR",
         "VQ:2014-00000314");
 
     qbGrfg("G62",

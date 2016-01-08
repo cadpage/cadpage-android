@@ -9,6 +9,7 @@ public class GATiftCountyParser extends DispatchB2Parser {
   public GATiftCountyParser() {
     super("911-CENTER:", CITY_LIST, "TIFT COUNTY", "GA");
     setupCallList(CALL_LIST);
+    removeWords("COURT");
     setupMultiWordStreets(
         "BILL BOWEN",
         "CHULA BROOKFIELD",

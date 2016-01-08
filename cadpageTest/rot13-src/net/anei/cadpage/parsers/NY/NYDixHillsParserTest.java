@@ -111,8 +111,8 @@ choyvp pynff ALQvkUvyyfCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2010-001991",
         "GVZR:08:42",
         "PNYY:23- Zvfp Sver",
-        "NQQE:PNEYYF FGENVTUG CNGU & F FREIVPR EQ F",
-        "VASB:FREIVPR EQ");
+        "NQQE:PNEYYF FGENVTUG CNGU & F FREIVPR EQ",
+        "VASB:F FREIVPR EQ");
     
     qbGrfg("G10",
         "FVT 3 QEI/RZG 2012-001184 08:53 *** 16- Erfphr *** 99 QVK UJL XJBA, URR FBB Qvk Uvyyf UD 28-P-5P FGEBXR (PIN) UJL QVKUVY GLCR: FGEBXR (PIN) YBP",

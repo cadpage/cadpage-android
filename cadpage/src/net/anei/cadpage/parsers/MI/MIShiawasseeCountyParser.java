@@ -7,6 +7,7 @@ public class MIShiawasseeCountyParser extends DispatchOSSIParser {
   public MIShiawasseeCountyParser() {
     super("SHIAWASSEE COUNTY", "MI", 
           "SRC? UNIT? CALL ADDR! ( X X? | PLACE X X? | ) CH? INFO+");
+    setupSaintNames("MARYS");
   }
   
   @Override

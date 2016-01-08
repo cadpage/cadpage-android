@@ -2019,8 +2019,9 @@ choyvp pynff CNRevrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:REVR911",
         "PBQR:19P0",
         "PNYY:URNEG CEBO/NVPQ PUNEYRL ERFCBA",
-        "NQQE:24670 FGNGR UJL 6 & 19",
+        "NQQE:24670 FGNGR UJL 6",
         "ZNQQE:24670 FGNGR 6",
+        "K:19",
         "VQ:2015-0000149465");
 
     qbGrfg("G13",

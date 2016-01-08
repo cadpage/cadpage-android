@@ -11,7 +11,7 @@ public class VABotetourtCountyParser extends DispatchSouthernPlusParser {
   public VABotetourtCountyParser() {
     super(CITY_LIST, "BOTETOURT COUNTY", "VA", DSFLAG_OPT_DISPATCH_ID | DSFLAG_BOTH_PLACE | DSFLAG_FOLLOW_CROSS);
     setupMultiWordStreets(MWORD_STREET_LIST);
-    setupSpecialStreets("AVERY ROW", "TIMBER RDG");
+    setupSpecialStreets("AVERY ROW", "LITTLE TIMBER RDG");
     removeWords("COURT", "PARKWAY");
   }
 

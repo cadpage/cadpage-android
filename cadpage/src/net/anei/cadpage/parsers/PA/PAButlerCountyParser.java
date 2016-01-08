@@ -14,7 +14,7 @@ public class PAButlerCountyParser extends DispatchB2Parser {
   private static final Pattern NAME_COUNTY_PTN = Pattern.compile("([A-Z]+)\\b(?!,) *(?:BEAVER *)?(?:CO(?:UNTY)?)? *(?:911|9-1-1)? *(.*)");
 
   public PAButlerCountyParser() {
-    super("BUTLER911:", CITY_LIST, "BUTLER COUNTY", "PA");
+    super("BUTLER911:", CITY_LIST, "BUTLER COUNTY", "PA", B2_CROSS_FOLLOWS);
     setupSaintNames("BARNABAS","JOHNS");
     removeWords("TURNPIKE");
     setupMultiWordStreets(

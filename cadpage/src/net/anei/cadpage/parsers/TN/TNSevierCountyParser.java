@@ -328,11 +328,12 @@ public class TNSevierCountyParser extends DispatchSouthernParser {
 
   @Override
   protected boolean isNotExtraApt(String apt) {
-    return apt.startsWith("@") || 
-           apt.startsWith("&") || 
-           apt.startsWith("MM ") || 
-           apt.endsWith(" MM") ||
-           apt.equals("MM");
+    if ( apt.startsWith("@") || 
+         apt.startsWith("&") || 
+         apt.startsWith("MM ") || 
+         apt.endsWith(" MM") ||
+         apt.equals("MM")) return true;
+    return super.isNotExtraApt(apt);
   }
   
   @Override

@@ -202,7 +202,7 @@ choyvp pynff ZAByzfgrqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Vawhel Nppvqrag",
         "NQQE:V90",
         "ZNQQE:V 90",
-        "VASB:arne ZZ 220, j/o ynar -");
+        "CYNPR:arne ZZ 220, j / o ynar -");
 
     qbGrfg("G3",
         "(BYZFGRQ PBHAGL (EBPURFGRE)(ZA)) zrqvpny neobe tneqraf rlbgn aba rzretrag",

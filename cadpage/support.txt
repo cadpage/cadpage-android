@@ -517,7 +517,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-NTKZBPDA or ntkzbpda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+BXTLWYBA or bxtlwyba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support, and
 Have a Safe and Joyous Holiday Season!
@@ -718,7 +718,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-OWQYRLCA or owqyrlca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+NPYZCSFA or npyzcsfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support, 
 Jean ~ Cadpage Administrator
@@ -750,11 +750,13 @@ Jean ~ Cadpage Administrator
 
 I found your free Cadpage subscription of _____.  
 
+Please:
 Go into Cadpage settings and press Payment Status > Recalculate Payment Status
 
 If you are having other difficulties with Cadpage, please let us know.
 
-Take care, 
+Take care, and Have a Safe and Joyous Holiday!
+
 Jean ~ Cadpage Administrator
 
 **********************************************************************
@@ -939,7 +941,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-ZWACSFBA or zwacsfba.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+XPIDDMEA or xpiddmea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support, and 
 Have a Safe and Joyous Holiday Season!
@@ -3059,7 +3061,9 @@ If things still do not work, or if generated test messages do not make
 it to your device, use the Email the Developer feature to send us
 another email.
 
-Take care, 
+Take care, and 
+Have a Safe and Joyous Holiday Season!
+
 Jean ~ Cadpage Administrator
 
 ********************************************************************************
@@ -3966,7 +3970,7 @@ If they are, use the Cadpage "Email the Developer" setting to send us a new supp
 * Free subscription request using general or null location
 * If authorized run days > 10, add 30 day authorization code
 **************************************************************************
-You are apparently using the General location setting, which is no longer free. We prefer that you switch to a real location-specific parser for a more effective Cadpage experience.
+Apparently, you are using the General location setting, which is no longer free. We prefer that you switch to a real location-specific parser for a more effective Cadpage experience.
 
 The general location doesn't really know anything about how your text messages are structured and can only pull a limited amount of information from them. To really get the full benefit of Cadpage you need to specify a location setting that will know more about your specific message format and can get a lot more information from it.
 
@@ -4050,6 +4054,24 @@ select the correct account.
 If none of this helps, contact us again and we will fill you in on some
 alternate payment methods.
 **************************************************************************
+Bill AT&T phone carrier
+
+You have to do some setup work, but AT&T has made the process pretty
+painless.
+
+Open the Google Play Store App and open settings and select "My
+Account".  Under Payment Settings, select
+Add Payment Method > Enable AT&T billing
+
+The Play Store app responds by sending a query to AT&T to confirm you
+are authorized for this account, then will (hopefully) enable AT&T
+carrier billing.  If AT&T rejects the request, then you will have to do
+something with AT&T to authorize Google direct billing.  Calling the
+AT&T support number (*3 I think) is probably the best way to proceed
+with that.
+
+Thanks for your support,
+******************************************************************************
 
 Useful search expressions...
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT|X):.*\r?\n)*+(?! +"CITY:)

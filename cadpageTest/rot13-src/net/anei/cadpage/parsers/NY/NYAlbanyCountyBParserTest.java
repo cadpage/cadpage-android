@@ -12,6 +12,10 @@ Fraqre: qvfcngpu@rqvfcngpurf.pbz
 [ryfzrersq_pnq Frc14-16:49]  GLCR:FGE S Fgehpgher\aYBP:790 EBHGR 9J\aOGJA:JRZCYR EQ/PUHEPU EQ\aANGHER:TRARENY SVER
 (ryfzrersq_pnq Frc18-13:42) GLCR:UNMP S UnmPba  \e\aYBP:UHQFBA NI  \e\aANGHER:ABEGU FG  
 
+Pbagnpg: Fpbgg Gheare <fghearezkm@nby.pbz>
+Fraqre: 2082524501
+RQVFCNGPURF: (ryfzrersq_pnq Qrp22-19:52) GLCR:UNM S UnmZng\aYBP:42 OEBBXZNA NI\aYBP2:YRABK FG  naq  QRNQRAQ\aANGHER:UBHFR SHYY BS ANGHENY TNF
+
 */
 
 choyvp pynff ALNyonalPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -58,6 +62,26 @@ choyvp pynff ALNyonalPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:UHQFBA NIR & ABEGU FG",
         "K:ABEGU FG");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgCnefre2() {
+
+    qbGrfg("G1",
+        "RQVFCNGPURF: (ryfzrersq_pnq Qrp22-19:52) GLCR:UNM S UnmZng\a" +
+        "YBP:42 OEBBXZNA NI\a" +
+        "YBP2:YRABK FG  naq  QRNQRAQ\a" +
+        "ANGHER:UBHFR SHYY BS ANGHENY TNF",
+
+        "FEP:ryfzrersq",
+        "QNGR:12/22",
+        "GVZR:19:52",
+        "PNYY:UNM S UnmZng",
+        "NQQE:42 OEBBXZNA NI",
+        "ZNQQE:42 OEBBXZNA NIR",
+        "K:YRABK FG  naq  QRNQRAQ",
+        "VASB:UBHFR SHYY BS ANGHENY TNF");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

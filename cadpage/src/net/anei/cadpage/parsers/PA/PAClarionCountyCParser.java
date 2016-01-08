@@ -20,7 +20,6 @@ public class PAClarionCountyCParser extends DispatchA48Parser {
   public String getFilter() {
     return "PageGate@OES.CLARION.PA.US";
   }
-  
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -28,5 +27,10 @@ public class PAClarionCountyCParser extends DispatchA48Parser {
     if (!super.parseMsg(subject, body, data)) return false;
     PAClarionCountyParser.fixCity(data);
     return true;
+  }
+  
+  @Override
+  protected int getExtraParseAddressFlags() {
+    return FLAG_PREF_TRAILING_BOUND;
   }
 }

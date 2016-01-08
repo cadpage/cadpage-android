@@ -9,15 +9,16 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 public class DispatchA5Parser extends FieldProgramParser {
   
   public static final String SUBJECT_SIGNATURE = "Automatic R&R Notification";
-  public static final Pattern RUN_REPORT_UNIT_PTN = Pattern.compile(" ORI: *(.*?) *Station: *(\\S*)");
+  public static final Pattern RUN_REPORT_MARKER = Pattern.compile("[ *]+FINAL REPORT[ *]+\n+\\s*");
   
   private static final Pattern TERMINATOR_PTN = Pattern.compile("\n(?:Additional Info|Address Checks|Additional Inc#s:|Narrative|The Call Taker is)");
   private static final Pattern KEYWORD_TRAIL_PTN = Pattern.compile("[ \\.]+:|(?: \\.){2,}(?=\n)");
-  private static final Pattern CALL_TIME_DATE_PTN = Pattern.compile("\\bCall Time- ([0-9:]+) +Date- ([0-9/]+) *\n.*?(?=\nArea:)", Pattern.DOTALL);
+  private static final Pattern KEYWORD_DASH_PTN = Pattern.compile("(Call Time|Date|Dispatch|En-route|On-scene|Depart [12]|Arrive [12]|In-statn|Cleared) *-");
   private static final Pattern LINE_PTN = Pattern.compile("(.*)(?:\n|$)");
   private static final Pattern TRIM_TRAIL_BLANKS = Pattern.compile(" +$");
   private static final Pattern TRIM_EXTRA_INFO = Pattern.compile("(?:\nAddress Checks *)?(?:\nAdditional Inc#s: *)?$");
@@ -38,7 +39,9 @@ public class DispatchA5Parser extends FieldProgramParser {
            "Incident_Type:CALL! Priority:PRI! " +
            "Incident_Location:ADDR! Venue:CITY! " +
            "Located_Between:X? Cross_Street:X? Common_Name:PLACE? " +
-           "Call_Time:TIME! Call_Date:DATE! " +
+           "Call_Time:TIME! Date:DATE! " +
+           "Dispatch:TIMES! En-route:TIMES! On-scene:TIMES! Depart_1:TIMES! " +
+           "Arrive_2:TIMES! Depart_2:TIMES! In-statn:TIMES! Cleared:TIMES? " +
            "Area:MAP! Section:MAP! Beat:SKIP! Map:SKIP? " +
            "Grid:SKIP! Quadrant:MAP! District:MAP! " +
            "Phone_Number:PHONE! Call_Source:SKIP! " +
@@ -48,33 +51,33 @@ public class DispatchA5Parser extends FieldProgramParser {
     this.callCodes = callCodes;
   }
   
+  private String times;
+  
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.startsWith(SUBJECT_SIGNATURE)) return false;
-    if (body.contains("** FINAL REPORT **")) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
-      Matcher match = RUN_REPORT_UNIT_PTN.matcher(body);
-      if (match.find()) {
-        data.strUnit = match.group(1);
-        data.strSource = match.group(2);
-      }
-      return true;
+    
+    Matcher match = RUN_REPORT_MARKER.matcher(body);
+    if (match.lookingAt()) {
+      data.msgType = MsgType.RUN_REPORT;
+      body = body.substring(match.end());
     }
     
-    Matcher match = TERMINATOR_PTN.matcher(body);
+    match = TERMINATOR_PTN.matcher(body);
     if (!match.find()) return false;
     String extra = body.substring(match.start()+1);
     body = body.substring(0,match.start()).trim();
     
-    body = KEYWORD_TRAIL_PTN.matcher(body).replaceAll(":");
-    match = CALL_TIME_DATE_PTN.matcher(body);
-    if (!match.find()) return false;
-    body = match.replaceFirst("Call Time:$1 Call Date:$2 ");
-    
     body = body.replace('\n', ' ');
+    body = KEYWORD_TRAIL_PTN.matcher(body).replaceAll(":");
+    body = KEYWORD_DASH_PTN.matcher(body).replaceAll("$1:");
     body = body.replaceAll("  +", " ");
+    
+    times = "";
     if (!super.parseMsg(body, data)) return false;
+    if (data.msgType == MsgType.RUN_REPORT) {
+      data.strSupp = append(times, "\n", data.strSupp);
+    }
     
     // Add additional information from trailing data
     boolean display = false;
@@ -118,6 +121,17 @@ public class DispatchA5Parser extends FieldProgramParser {
     return true;
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("TIMES")) return new MyTimesField();
+    if (name.equals("MAP")) return new MyMapField();
+    if (name.equals("PHONE")) return new MyPhoneField();
+    if (name.equals("UNIT")) return new  MyUnitField();
+    return super.getField(name);
+  }
+  
   private static final Pattern CALL_CODE_PTN = Pattern.compile("([^ ]+) ([EF] .*)");
   private class MyCallField extends CallField {
     @Override public void parse(String field, Data data) {
@@ -146,6 +160,20 @@ public class DispatchA5Parser extends FieldProgramParser {
     }
   }
   
+  private class MyTimesField extends Field {
+
+    @Override
+    public void parse(String field, Data data) {
+      times = append(times, "\n", getRelativeField(0));
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "INFO";
+    }
+    
+  }
+  
   private static final Pattern MAP_TRAIL_PTN = Pattern.compile("[ +]+$");
   private class MyMapField extends MapField {
     @Override
@@ -168,15 +196,5 @@ public class DispatchA5Parser extends FieldProgramParser {
     public void parse(String field, Data data) {
       data.strUnit = append(data.strUnit, " ", field);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("MAP")) return new MyMapField();
-    if (name.equals("PHONE")) return new MyPhoneField();
-    if (name.equals("UNIT")) return new  MyUnitField();
-    return super.getField(name);
   }
 }

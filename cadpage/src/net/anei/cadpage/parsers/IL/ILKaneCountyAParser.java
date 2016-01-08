@@ -30,7 +30,7 @@ public class ILKaneCountyAParser extends SmartAddressParser {
     
     data.strUnit = match.group(1).replace("  ", " ");
     data.strBox =  getOptGroup(match.group(2));
-    parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_PAD_FIELD | FLAG_ANCHOR_END, match.group(3).trim(), data);
+    parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ALLOW_DUAL_DIRECTIONS | FLAG_PAD_FIELD | FLAG_ANCHOR_END, match.group(3).trim(), data);
     String pad = getPadField();
     data.strCode = match.group(4);
     data.strCall = match.group(5).trim();

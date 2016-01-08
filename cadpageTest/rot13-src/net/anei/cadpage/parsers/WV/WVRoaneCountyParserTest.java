@@ -3176,7 +3176,7 @@ choyvp pynff JIEbnarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2014090757",
         "PNYY:Fgenaqrq Zbgbevfg",
         "NQQE:25 V 800",
-        "VASB:/710");
+        "K:710");
 
     qbGrfg("G27",
         "(EP911 - ABARZF - 2014090632 - 922 Yvggyr Yrsgunaq Eq, Nzzn, JI) Gurer unf orra n(a) Rzf-trareny Pnyy ercbegrq ng 922 Yvggyr Yrsgunaq Eq, Nzzn, JI",
@@ -3209,7 +3209,7 @@ choyvp pynff JIEbnarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2014090464",
         "PNYY:Iruvpyr Nppvqrag",
         "NQQE:25 V 800",
-        "VASB:/ 700");
+        "K:700");
 
     qbGrfg("G31",
         "(EP911 - ZIN - 2014090464 - 25 V-79 A, Nzzn) Gurer unf orra n(a) Iruvpyr Nppvqrag ercbegrq ng 25 V",
@@ -3312,7 +3312,7 @@ choyvp pynff JIEbnarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2014080912",
         "PNYY:Haxabja Zrqvpny",
         "NQQE:32 V 800",
-        "VASB:/710");
+        "K:710");
 
     qbGrfg("G44",
         "(EP911 - PURFGC - 2014080868 - 1106 Ivarlneq Eqt, Ybbarlivyyr, JI) Gurer unf orra n(a) Purfg Cnvaf ercbegrq ng 1106 Ivarlneq Eqt, Ybbarlivyyr, JI",
@@ -3561,8 +3561,7 @@ choyvp pynff JIEbnarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:EP911 - ZIN",
         "VQ:2014050865",
         "PNYY:Iruvpyr Nppvqrag",
-        "NQQE:V 710",
-        "VASB:/800");
+        "NQQE:V 710 & 800");
 
     qbGrfg("G72",
         "(EP911 - CBJRE - 2014050711 - 11194 Pynl Eq, Arjgba, JI) Gurer unf orra n(a) Cbjre Yvar Qbja ercbegrq ng 11194 Pynl Eq, Arjgba, JI",

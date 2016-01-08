@@ -430,8 +430,8 @@ choyvp pynff XLYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "YNJERAPR_911:SI >SVER IRUVPYR 645 NAQ 2033 Pnq: 2014-0000002624",
         "PBQR:SI",
         "PNYY:SVER IRUVPYR",
-        "NQQE:645",
-        "ANZR:NAQ 2033",
+        "NQQE:645 NAQ 2033",
+        "ZNQQE:645 & 2033",
         "VQ:2014-0000002624");
 
     qbGrfg("G11",

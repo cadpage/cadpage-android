@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.CT;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -12,21 +13,21 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
   private static final Pattern MASTER1 = Pattern.compile("(.*) RESPOND TO (.*?)(?:,|,? (\\d{1,3}-[A-Z]-\\d{1,2}(?:-?[A-Z])?|HOT|ALPHA|COLD|\\d+|)) *(?::|--| -)(\\d\\d:\\d\\d)(?:(?: ([A-Z]\\d{2}-\\d+)|\\*\\*), *((?:[-+]?\\d+\\.\\d{4,}|0), *(?:[-+]?\\d+\\.\\d{4,}|0))| *\\(.*\\))?");
   private static final Pattern MISMATCH_PAREN_PTN = Pattern.compile("[^\\(\\)]*\\).*");
   
-  private static final Pattern MASTER2 = Pattern.compile("(.+?)-(.+)-(.*?) *\\*\\*\\* (\\d\\d:\\d\\d)---");
+  private static final Pattern MASTER2 = Pattern.compile("(.+?)-(?!Dwelling)(.+)-(.*?) *\\*\\*\\* (\\d\\d:\\d\\d)---");
   private static final Pattern MAU_HILL = Pattern.compile("^(.*) MAUWEEHOO H(?:IL)?L (.*)$");
   private static final Pattern START_PAREN_PTN = Pattern.compile("^\\(.*?\\)");
   
   public CTLitchfieldCountyAParser() {
     super(CTLitchfieldCountyParser.CITY_LIST, "LITCHFIELD COUNTY", "CT");
     addExtendedDirections();
-    setupMultiWordStreets(
-        "LIME ROCK",
-        "SAW MILL HILL");
+    setupMultiWordStreets(MWORD_STREET_LIST);
+    setupProtectedNames(PROTECTED_STREET_LIST);
+    setupSpecialStreets("WEST RD");
   }
   
   @Override
   public String getFilter() {
-    return "@lcd911.com,89361";
+    return "@everbridge.net,@lcd911.com,89361";
   }
   
   @Override
@@ -69,14 +70,14 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
       
       return true;
     }
-    data.strCall = "GENERAL ALERT";
-    data.strPlace = body;
+    data.msgType = MsgType.GEN_ALERT;
+    data.strSupp = body;
     return true;
   }
 
   private void parseAddressField(String sAddr, Data data) {
     Matcher match;
-    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_ANCHOR_END, sAddr, data);
+    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, sAddr, data);
     String sPlace = getPadField();
     
     
@@ -137,4 +138,188 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
     }
     CTLitchfieldCountyParser.fixCity(data);
   }
+  
+  private static final String[] PROTECTED_STREET_LIST = new String[]{
+    "EAST CENTER",
+    "EAST FARMS",
+    "EAST LAKE",
+    "EAST PEARL",
+    "EAST VIEW",
+    "NORTH MAIN",
+    "SOUTH BEACH PLAIN",
+    "SOUTH CHAPEL",
+    "SOUTH MAIN",
+    "SOUTH MAPLE",
+    "WEST GRANBY",
+    "WEST HILL",
+    "WEST LAKE"
+  };
+  
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "ABOVE ALL",
+    "ALAIN WHITE",
+    "ALVORD PARK",
+    "BALDWIN HILL",
+    "BEAVER BOG",
+    "BEECH HILL",
+    "BEL AIR",
+    "BIRCH HILL",
+    "BLACK BRIDGE",
+    "BLUEBERRY HILL",
+    "BOTTSFORD HILL",
+    "BRANDY HILL",
+    "BREEZY HILL",
+    "BULLS BRIDGE",
+    "BURR MOUNTAIN",
+    "BURT HILL",
+    "CAMPVILLE HILL",
+    "CANDLEWOOD MOUNTAIN",
+    "CARLSON RIDGE",
+    "CARMEL HILL",
+    "CARMEN HILL",
+    "CEDAR HILL",
+    "CEDAR RIDGE",
+    "CHAPEL HILL",
+    "CHESTNUT HILL",
+    "CHESTNUT LAND",
+    "CHURCH HILL",
+    "CLATTER VALLEY",
+    "COLEBROOK RIVER",
+    "COLLEGE FARMS",
+    "COLONIAL RIDGE",
+    "COTTON HILL",
+    "COUNTY LINE",
+    "CROOKED FURROWS",
+    "DAISY HILL",
+    "DISH MILL",
+    "DUTTON HILL",
+    "EABOW BROOK",
+    "EAST CENTER",
+    "EAST FARMS",
+    "EAST LAKE",
+    "EAST PEARL",
+    "EAST VIEW",
+    "ENO HILL",
+    "FARMINGTON RIVER",
+    "FLAGG HILL",
+    "FORGE HILL",
+    "GLEN AYRE",
+    "GOOSE GREEN",
+    "GOSHEN EAST",
+    "GREAT BROOK",
+    "HALL MEADOW",
+    "HARD HILL",
+    "HARMONY HILL",
+    "HARWINTON HEIGHTS",
+    "HAYDEN HILL",
+    "HENRY SANFORD",
+    "HIGH VIEW",
+    "HILL SIDE",
+    "HODGES HILL",
+    "HOLCOMB HILL",
+    "HOSPITAL HILL",
+    "HUT HILL",
+    "INDIAN FIELD",
+    "INDIAN MEADOW",
+    "INDUSTRIAL PARK",
+    "JACK CORNER",
+    "KNIFE SHOP",
+    "LAKE HARWINTON",
+    "LAKE SHORE",
+    "LAURELWOOD POND",
+    "LEACH HOLLOW",
+    "LEAD MINE BROOK",
+    "LILLINONAH LAKE",
+    "LILY POND",
+    "LIME ROCK",
+    "LIVERY POOL",
+    "LOCUST HILL",
+    "LONG MOUNTAIN",
+    "LOON MEADOW",
+    "MANGNOLIA HILL",
+    "MAPLE HOLLOW",
+    "MARSHALL LAKE",
+    "MEADOW VIEW",
+    "MIDDLE SCHOOL",
+    "MILO COE",
+    "MINE HILL",
+    "MIST HILL",
+    "MOUNT TOM",
+    "MOUNTAIN VIEW",
+    "NETTLETON HOLLOW",
+    "NORTH MAIN",
+    "OAK MEADOW",
+    "ORCHARD REST",
+    "PAPER MILL",
+    "PARK LANE",
+    "PARKER HILL",
+    "PICKETT DISTRICT",
+    "PINE RIDGE",
+    "POPPLE SWAMP",
+    "PROSPECT HILL",
+    "QUAKER RIDGE",
+    "RAMS GATE",
+    "RATLUM MOUNTAIN",
+    "RIDGE VIEW",
+    "ROBERT LEATHER",
+    "ROBIN HILL",
+    "ROCK HALL",
+    "RUDD POND",
+    "SANDY BROOK",
+    "SATANS KINGDOM",
+    "SAW MILL HILL",
+    "SAWYER HILL",
+    "SCOVILLE HILL",
+    "SELLECK HILL",
+    "SHARON STATION",
+    "SHEFFIELD HILL",
+    "SHERMAN HILL",
+    "SHERWOOD HILL",
+    "SHINGLE MILL",
+    "SMITH HILL",
+    "SOUTH BEACH PLAIN",
+    "SOUTH CHAPEL",
+    "SOUTH MAIN",
+    "SOUTH MAPLE",
+    "SPENCER BROOK",
+    "SPENCER HILL",
+    "SPRING HILL",
+    "SPRING LAKE",
+    "STILL RIVER",
+    "STONE GATE",
+    "STRAITS TURNPIKE",
+    "STUB HOLLOW",
+    "SULLIVAN FARM",
+    "SUNNY VALLEY",
+    "SWIMMING HOLE",
+    "TANNER HILL",
+    "TANNERY BROOK",
+    "TECHNOLOGY PARK",
+    "TODD HILL",
+    "TORRINGFORD WEST",
+    "TOWER HILL",
+    "TOWN FARM",
+    "TOWN HALL",
+    "TOWN HILL",
+    "TOWN LINE",
+    "WAGON WHEEL",
+    "WAKE ROBIN",
+    "WAKEMAN HILL",
+    "WALLENS HILL",
+    "WELLERS BRIDGE",
+    "WELLS HILL",
+    "WEST GRANBY",
+    "WEST HILL",
+    "WEST LAKE",
+    "WEST PEARL",
+    "WHISKER HOLLOW",
+    "WHITCOMB HILL",
+    "WHITE OAK",
+    "WHITE PINE",
+    "WILDCAT HILL",
+    "WILLOW BROOK",
+    "WILSON POND",
+    "WISHING WILL",
+    "WORDEN POINT"
+  };
 }

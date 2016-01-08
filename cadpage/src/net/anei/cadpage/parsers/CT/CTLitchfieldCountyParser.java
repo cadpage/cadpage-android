@@ -67,6 +67,7 @@ public class CTLitchfieldCountyParser extends GroupBestParser {
     "TORRINGTON",
     "WARREN",
     "WASHINGTON",
+    "WATERBURY",
     "WATERTOWN",
     "WINCHESTER",
     "WINSTED",

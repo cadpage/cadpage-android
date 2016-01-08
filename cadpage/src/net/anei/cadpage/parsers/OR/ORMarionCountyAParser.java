@@ -27,6 +27,7 @@ public class ORMarionCountyAParser extends FieldProgramParser {
                  "CALL CH/Z ADDRCITY MAP UNIT | " +
                  "CALL CH ADDRCITY MAP UNIT |" +
                  "ADDRCITY ( UNIT! ( MAP | INFO MAP | ) | PLACE? MAP! ( CH | ALRM | ) UNIT ) ) INFO+");
+    setupSaintNames("PAUL");
   }
   
   @Override

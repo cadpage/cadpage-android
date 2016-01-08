@@ -100,6 +100,11 @@ public class WASnohomishCountyBParser extends FieldProgramParser {
   }
   
   @Override
+  public int getExtraParseAddressFlags(){
+    return FLAG_ALLOW_DUAL_DIRECTIONS;
+  }
+  
+  @Override
   public String adjustMapAddress(String addr) {
     // Usually PK means PIKE, but not here
     addr = PK_PTN.matcher(addr).replaceAll("PKWY");

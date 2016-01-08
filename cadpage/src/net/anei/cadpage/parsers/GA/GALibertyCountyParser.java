@@ -42,6 +42,7 @@ public class GALibertyCountyParser extends DispatchB2Parser {
         "WELLS CEMETERY"
     );
     addRoadSuffixTerms("HIGHWAY");
+    removeWords("PLACE");
   }
   
   @Override
@@ -114,7 +115,7 @@ public class GALibertyCountyParser extends DispatchB2Parser {
         "SYNCOPAL EPISODE",
         "TRAFFIC ACCIDENT NO INJURY",
         "TRAFFIC ACCIDENT WITH INJURIES",
-        "TRAFFIC STOP",
+        "TRAFFIC STOP (CLI)",
         "TRANSPORT",
         "TRUCK FIRE",
         "UNCONSCIOUS",

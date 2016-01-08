@@ -2328,7 +2328,8 @@ choyvp pynff APCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G5",
         "cbyxpbhagl911:1 YNAQEHZ EQ 1 zvyr PBYHZOHF; juvgybpx pney; 9197104673; 08:02:52; ZIN/10-50; iruvpyr ebyyrq bire bar va fvqr pnag trg gurz bhg",
-        "NQQE:YNAQEHZ EQ 1 zvyr",
+        "NQQE:YNAQEHZ EQ",
+        "NCG:1 zvyr",
         "PVGL:PBYHZOHF",
         "ANZR:juvgybpx pney",
         "CUBAR:9197104673",
@@ -3211,7 +3212,8 @@ choyvp pynff APCbyxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G9",
         "cbyxpbhagl911:1 YNAQEHZ EQ 1 zvyr PBYHZOHF; juvgybpx pney; 9197104673; 08:02:53; ZIN/10-50; iruvpyr ebyyrq bire bar va fvqr pnag trg gurz bhg",
-        "NQQE:YNAQEHZ EQ 1 zvyr",
+        "NQQE:YNAQEHZ EQ",
+        "NCG:1 zvyr",
         "PVGL:PBYHZOHF",
         "ANZR:juvgybpx pney",
         "CUBAR:9197104673",

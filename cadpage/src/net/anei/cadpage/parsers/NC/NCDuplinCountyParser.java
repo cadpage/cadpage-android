@@ -27,7 +27,7 @@ public class NCDuplinCountyParser extends DispatchSouthernParser {
     if (data.strCity.equals("DUPLIN")) data.strCity = "";
     return true;
   }
-  
+
   private static final String[] CITY_LIST = new String[]{
     
     "DUPLIN",
@@ -63,6 +63,9 @@ public class NCDuplinCountyParser extends DispatchSouthernParser {
     "WALLACE",
     "WARSAW",
     "WOLFSCRAPE",
+    
+    // Wayne County
+    "SEVEN SPRINGS"
   };
 
 }

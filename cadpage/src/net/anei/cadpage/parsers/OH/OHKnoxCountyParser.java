@@ -23,9 +23,6 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
     return "Dispatch@smtp-server.Columbus.rr.com";
   }
   
-  private static final Pattern ADDR_TWP_RD_PTN = Pattern.compile("\\d+ +(?:TWP +)?RD");
-  private static final Pattern APT_TWP_RD_PTN = Pattern.compile("(\\d+)\\b *(.*)");
-  
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
@@ -62,15 +59,6 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
       data.strPlace = "";
       data.strAddress = "";
       parseAddress(addr, data);
-    }
-    
-    // And township and county road numbers tend to fall into the apartment field
-    if (ADDR_TWP_RD_PTN.matcher(data.strAddress).matches()) {
-      Matcher match = APT_TWP_RD_PTN.matcher(data.strApt);
-      if (match.matches()) {
-        data.strAddress = data.strAddress + ' ' +  match.group(1);
-        data.strApt = match.group(2);
-      }
     }
     
     // If Mutual aid got into address, move it to call

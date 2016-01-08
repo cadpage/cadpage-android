@@ -11,10 +11,6 @@ import net.anei.cadpage.parsers.SmartAddressParser;
  */
 public class KSRenoCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("(.*?)  -  (.*?)  (\\d{4}-\\d{8})");
-  private static final Pattern GPS_PTN = Pattern.compile(" (\\d+\\.\\d{6,}|-361) / (-\\d+\\.\\d{6,}|-361)(?:  |$)");
-  private static final Pattern E911_INFO_PTN = Pattern.compile(" *\\bE911 Info - Class of Service: [A-Za-z0-9]+ Special Response Info: UNC=.* Uncertainty: +Confidence: *");
-  
   public KSRenoCountyParser() {
     super(CITY_LIST, "RENO COUNTY", "KS");
     setFieldList("CALL ADDR APT CITY GPS INFO ID");
@@ -29,6 +25,12 @@ public class KSRenoCountyParser extends SmartAddressParser {
   public int getMapFlags() {
     return MAP_FLG_PREFER_GPS;
   }
+  
+  private static final Pattern MASTER = Pattern.compile("(.*?)  -  (.*?)  (\\d{4}-\\d{8})");
+  private static final Pattern GPS_PTN = Pattern.compile(" (\\d+\\.\\d{6,}|-361) / (-\\d+\\.\\d{6,}|-361)(?:  |$)");
+  private static final Pattern AVE_X_PTN = Pattern.compile("(.*\\b[EW] AVE) & ([A-Z])");
+  private static final Pattern KDD_HWY_PTN = Pattern.compile("\\bK(\\d+) HWY\\b");
+  private static final Pattern E911_INFO_PTN = Pattern.compile(" *\\bE911 Info - Class of Service: [A-Za-z0-9]+ Special Response Info: UNC=.* Uncertainty: +Confidence: *");
 
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
@@ -46,12 +48,22 @@ public class KSRenoCountyParser extends SmartAddressParser {
     if (match.find()) {
       setGPSLoc(match.group(1)+','+match.group(2), data);
       String addr = body.substring(0,match.start()).trim();
-      parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT | FLAG_ANCHOR_END, addr, data);
+      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_RECHECK_APT | FLAG_ANCHOR_END, addr, data);
       data.strSupp = body.substring(match.end()).trim();
     } else {
-      parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT, body, data);
+      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_RECHECK_APT, body, data);
       data.strSupp = getLeft();
     }
+    
+    // Weird E AVE X street names get picked up by the implied intersection logic and
+    // have to be corrected
+    match = AVE_X_PTN.matcher(data.strAddress);
+    if (match.matches()) {
+      data.strAddress = match.group(1) + ' ' + match.group(2);
+    }
+    
+    // Kxx HWY needs to turn into KS xx
+    data.strAddress = KDD_HWY_PTN.matcher(data.strAddress).replaceAll("KS $1");
     
     data.strSupp = E911_INFO_PTN.matcher(data.strSupp).replaceAll(" ").trim();
     

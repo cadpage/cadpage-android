@@ -221,7 +221,7 @@ choyvp pynff PBWrssrefbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G11",
         "(Sbejneqrq Zrffntr sebz qbabgercyl@wrsspb.hf) 15805  j 14gu cy / 89  lbz snyy / abj hapbaf /oernguvat",
         "NQQE:15805 j 14gu cy",
-        "VASB:/ 89  lbz snyy / abj hapbaf /oernguvat");
+        "VASB:89 lbz snyy / abj hapbaf /oernguvat");
 
     qbGrfg("G12",
         "(Sbejneqrq Zrffntr sebz qbabgercyl@wrsspb.hf) 14470 J 7gu Nir/Nggrzcg fhvpvqr oheavat punepbny va gho",

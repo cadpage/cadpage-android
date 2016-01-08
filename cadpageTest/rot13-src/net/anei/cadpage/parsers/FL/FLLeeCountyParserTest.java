@@ -8739,7 +8739,7 @@ choyvp pynff SYYrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:3",
         "PNYY:Z I P",
         "NQQE:NYVPB EQ & ZVPUNRY T EVCCR AO BA ENZC",
-        "ZNQQE:NYVPB EQ & ZVPUNRY T EVCCR BA ENZC",
+        "ZNQQE:NYVPB EQ & ZVPUNRY T EVCCR ENZC",
         "PVGL:SBEG ZLREF",
         "ZNC:064625",
         "CYNPR:BA ENZC GB ZVPUNR EVCCR",

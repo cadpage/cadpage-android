@@ -2017,7 +2017,7 @@ choyvp pynff MNHArjFbhguJnyrfOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:15:41:06",
         "PNYY:Sver pnyy",
         "NQQE:Vysbeq fbsnyn eq",
-        "VASB:arne dhneel");
+        "CYNPR:arne dhneel");
 
     qbGrfg("G13",
         "17 Bpgbore 2015 18:01:14 Qba'g sbetrg genvavat gbzbeebj (Fhaqnl) ng Elyfgbar. 0745 Oernxsnfg. 0900 Fgneg Rkrepvfr.",

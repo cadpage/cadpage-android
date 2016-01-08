@@ -19,6 +19,7 @@ public class OHColumbianaCountyParser extends GeneralParser {
     super("COLUMBIANA COUNTY", "OH");
     setupMultiWordStreets("CALCUTTA SMITH FERRY", "CALCUTTA SMITHFERRY");
     setFieldList("SRC CALL ADDR APT DATE TIME X INFO CITY");
+    setupSaintNames("JACOB", "JOSEPH");
   }
   
   @Override

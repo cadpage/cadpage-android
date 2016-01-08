@@ -15,6 +15,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   public NCRowanCountyParser() {
     super(CITY_CODES, "ROWAN COUNTY", "NC",
            "FYI? CALL ADDR! ( CITY | X/Z CITY | X/Z X/Z CITY | ) XPLACE+? ( INFO | MAP_CH_UNIT MAP_CH_UNIT+? ) INFO+");
+    setupSpecialStreets("NEW ST");
   }
   
   @Override

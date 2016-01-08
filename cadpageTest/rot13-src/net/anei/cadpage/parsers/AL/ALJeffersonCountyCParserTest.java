@@ -17002,9 +17002,8 @@ choyvp pynff NYWrssrefbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "65 FO ABEGU BS 267 RKVG",
 
         "PNYY:Zrqvpny ZIN",
-        "NQQE:V65 F",
-        "ZNQQE:V 65 F",
-        "CYNPR:ABEGU BS 267 RKVG",
+        "NQQE:V65 F ABEGU BS 267 RKVG",
+        "ZNQQE:V 65 F & 267 RKVG",
         "QNGR:5/12/2015",
         "GVZR:15:43:16",
         "VQ:840/2015-00000546 (00111)",

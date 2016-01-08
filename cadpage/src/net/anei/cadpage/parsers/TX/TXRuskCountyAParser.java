@@ -1,6 +1,9 @@
 
 package net.anei.cadpage.parsers.TX;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
@@ -8,7 +11,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 public class TXRuskCountyAParser extends DispatchSouthernParser {
 
   public TXRuskCountyAParser() {
-    super(CITY_LIST, "RUSK COUNTY", "TX", DSFLAG_OPT_DISPATCH_ID | DSFLAG_CROSS_NAME_PHONE);
+    super(CITY_LIST, "RUSK COUNTY", "TX", DSFLAG_OPT_DISPATCH_ID | DSFLAG_NO_PLACE | DSFLAG_CROSS_NAME_PHONE);
     addExtendedDirections();
   }
   
@@ -28,6 +31,8 @@ public class TXRuskCountyAParser extends DispatchSouthernParser {
     return super.getField(name);
   }
   
+  private static final Pattern ADDR_APT_PTN = Pattern.compile("\\d+[A-Z]?|[A-Z]");
+  private static final Pattern ADDR_X_PTN = Pattern.compile("(?:BETWEEN|CLOSE) +(.*)");
   private class MyAddressField extends BaseAddressField {
     @Override
     public void parse(String field, Data data) {
@@ -37,6 +42,17 @@ public class TXRuskCountyAParser extends DispatchSouthernParser {
         field = field.substring(0,ndx).trim();
       }
       super.parse(field, data);
+      if (data.strPlace.length() == 0) {
+        if (!ADDR_APT_PTN.matcher(data.strApt).matches()) {
+          Matcher match = ADDR_X_PTN.matcher(data.strApt); 
+          if (match.matches()) {
+            data.strCross = match.group(1);
+          } else {
+            data.strPlace = data.strApt;
+          }
+          data.strApt = "";
+        }
+      }
     }
   }
 
@@ -65,6 +81,7 @@ public class TXRuskCountyAParser extends DispatchSouthernParser {
     "TURNERTOWN",
     
     // Nacogdoches County
-    "CUSHING"
+    "CUSHING",
+    "GARRISON"
   };
 }

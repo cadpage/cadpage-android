@@ -394,9 +394,8 @@ choyvp pynff JIZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:CBFPNE",
         "PNYY:CBFFVOYR PNEQVNP",
         "NQQE:215 FPBGG CY",
-        "K:FPBGG CYNPR",
         "PVGL:SNVEZBAG",
-        "ANZR:FURYGRE",
+        "ANZR:FPBGG CYNPR FURYGRE",
         "CUBAR:3043666543",
         "VQ:2014-0000059606");
 
@@ -867,8 +866,8 @@ choyvp pynff JIZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:ZRQCEB",
         "PNYY:ZRQVPNY CEBOYRZ",
         "NQQE:1543 PBHAGEL PYHO EQ",
-        "K:CRVECBAG CYNPR",
         "PVGL:SNVEZBAG",
+        "ANZR:CRVECBAG CYNPR",
         "CUBAR:3043634862",
         "VQ:2014-0000059358");
 

@@ -13,6 +13,7 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
   public PAWashingtonCountyParser() {
     super("WASHINGTON COUNTY", "PA",
            "Loc:ADDR/S? Xsts:X? Type:CALL! Time:TIME Loc_Com:INFO Comments:INFO");
+    setupSpecialStreets("NEW ALY");
   }
   
   @Override

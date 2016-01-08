@@ -18,7 +18,7 @@ public class COJeffersonCountyBParser extends SmartAddressParser {
 
   public COJeffersonCountyBParser() {
     super(CITY_CODES, "JEFFERSON COUNTY", "CO");
-    setFieldList("PLACE ADDR APT CITY CALL INFO");
+    setFieldList("PLACE ADDR APT X CITY CALL INFO");
     setupMultiWordStreets(
         "BLUE CREEK",
         "DENVER WEST CO MILLS",
@@ -125,6 +125,13 @@ public class COJeffersonCountyBParser extends SmartAddressParser {
     parseAddress(StartType.START_PLACE, FLAG_IGNORE_AT, body, data);
     if (!isValidAddress()) return false;
     String left = getLeft();
+    
+    // Numeric cross streets get reassiged
+    if (NUMERIC.matcher(data.strCross).matches()) {
+      left = append(data.strCross, " ", left);
+      data.strCross = "";
+    }
+    
     match = MM_PTN.matcher(left);
     if (match.matches()) {
       data.strAddress = append(data.strAddress, " ", match.group(1));

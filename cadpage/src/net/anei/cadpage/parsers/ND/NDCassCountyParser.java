@@ -19,6 +19,7 @@ public class NDCassCountyParser extends SmartAddressParser {
     super(CITY_CODES, "CASS COUNTY", "ND");
     setFieldList("CALL ADDR APT CITY ST PLACE DATE TIME ID INFO UNIT");
     setupCallList(CALL_LIST);
+    removeWords("ESTATES");
     setupMultiWordStreets(
         "MAPLE RIVER",
         "TURTLE LAKE"

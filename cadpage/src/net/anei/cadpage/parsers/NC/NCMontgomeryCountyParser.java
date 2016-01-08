@@ -14,6 +14,7 @@ public class NCMontgomeryCountyParser extends DispatchSouthernParser {
     super(CITY_LIST, "MONTGOMERY COUNTY", "NC", DSFLAG_ID_OPTIONAL | DSFLAG_LEAD_PLACE);
     allowBadChars("()");
     removeWords("LA");
+    setupMultiWordStreets(MWORD_STREET_LIST);
   }
   
   @Override
@@ -31,6 +32,9 @@ public class NCMontgomeryCountyParser extends DispatchSouthernParser {
     
     body = stripFieldStart(body, "CAD:");
     if (!super.parseMsg(body, data)) return false;
+    
+    // Fixup address construct
+    data.strAddress = data.strAddress.replace(" 24 & 27", " 24/27");
     
     // Fixups for name field
     if (data.strName.length() > 0) {
@@ -66,8 +70,110 @@ public class NCMontgomeryCountyParser extends DispatchSouthernParser {
     if (apt.startsWith("(")) return true;
     return super.isNotExtraApt(apt);
   }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    return NC24_27_PTN.matcher(addr).replaceAll("24");
+  }
+  private static Pattern NC24_27_PTN = Pattern.compile("\\b24[-/]27(?: [EW])?\\b");
 
-
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "APPLE ORCHARD",
+    "BADIN LAKE",
+    "BADIN SHORES",
+    "BADIN SHORES RESORT",
+    "BADIN VIEW",
+    "BIRCH LANE",
+    "BRUTONVILLE CHURCH",
+    "CABIN CREEK",
+    "CALVARY CHURCH",
+    "CC CAMP",
+    "CEDAR CREEK",
+    "CHICKEN FARM",
+    "CLEARVIEW POINT",
+    "COGGINS MINE",
+    "COLE VALLEY",
+    "COTTON CREEK",
+    "COTTON PLACE",
+    "DRY CREEK",
+    "DUTCH JOHN",
+    "EAST ALLENTON",
+    "EAST INGRAM",
+    "EAST MAIN",
+    "EAST SECOND",
+    "EAST SPRING",
+    "EMERALD SHORES",
+    "FARMERS MARKET",
+    "FIDDLERS GHOST",
+    "FLINT HILL",
+    "FLINT ROCK",
+    "FOX DEN",
+    "GRAND VIEW",
+    "HARRIS CEMETERY",
+    "HAYWOOD COUNTRY",
+    "HOGAN FARM",
+    "HOLLY HARBOR",
+    "HOLLY HILLS",
+    "HOMANIT USA",
+    "INDIAN HARBOR",
+    "INDUSTRIAL PARK",
+    "JACK CURRIE",
+    "JUBAL REEVES",
+    "JULIUS CHAMBERS",
+    "LAKE FOREST",
+    "LAKE LAND",
+    "LASSITER MILL",
+    "LIBERTY HILL CHURCH",
+    "LILLYS BRIDGE",
+    "LITTLE RIVER GOLF",
+    "LOVE JOY",
+    "MCBRIDE LUMBER",
+    "MCLEANS CREEK",
+    "MOCCASIN CREEK",
+    "MT CARMEL CHURCH",
+    "NELSON STORE",
+    "NORTH MAIN",
+    "NORTH RUSSELL",
+    "NORTH SANDY RIDGE",
+    "NORTH SHORELINE",
+    "NORTH STATE",
+    "NORTHVIEW RDNC",
+    "PEE DEE",
+    "PINE BARK",
+    "PINE TREE",
+    "PLEASANT VALLEY",
+    "POINT OVAL",
+    "POST OFFICE",
+    "POWELL STORE",
+    "SANDY VALLEY",
+    "SHADY OAK",
+    "SHOE FACTORY",
+    "SOUTH LIBERTY",
+    "SOUTH MAIN",
+    "SOUTH RUSSELL",
+    "SOUTH SCHOOL",
+    "SOUTH TOMLINSON",
+    "SOUTH WADESBORO",
+    "SUGAR LOAF",
+    "THICKETY CREEK",
+    "THOMASVILLE CHURCH",
+    "UWHARRIE POINT",
+    "WADEVILLE FIRE STAT",
+    "WARNER FARM",
+    "WASHINGTON PARK",
+    "WEBB LOOP",
+    "WEST ALLENTON",
+    "WEST CHESTNUT",
+    "WEST CLAIRMONT",
+    "WEST INGRAM",
+    "WEST MAIN",
+    "WEST SECOND",
+    "WHIP O WILL",
+    "WHISPER LAKE",
+    "WHITE OAK",
+    "WINDY HILL",
+    "ZION CHURCH"
+  };
 
   private static final String[] CITY_LIST = new String[] {
     "MONT CO",

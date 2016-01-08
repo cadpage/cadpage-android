@@ -5782,9 +5782,8 @@ choyvp pynff JIEnyrvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:FUBCY",
         "PNYY:FUBCYVSGVAT",
         "NQQE:2811 EBOREG P OLEQ QE",
-        "K:PUEVF YNAR",
+        "ANZR:PUEVF YNAR P/B PIF",
         "PVGL:ORPXYRL",
-        "ANZR:P/B PIF",
         "VQ:2015-0000068875");
 
     qbGrfg("G3",
@@ -8701,9 +8700,8 @@ choyvp pynff JIEnyrvtuPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:FRVMH",
         "PNYY:FRVMHERF",
         "NQQE:224 SVAX FG",
-        "K:YNPL FG",
         "PVGL:ZNOFPBGG",
-        "ANZR:WBUA",
+        "ANZR:YNPL FG.WBUA",
         "VQ:2015-0000068380");
 
     qbGrfg("G74",

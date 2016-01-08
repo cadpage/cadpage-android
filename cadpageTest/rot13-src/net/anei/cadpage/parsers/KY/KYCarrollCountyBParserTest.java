@@ -315,8 +315,9 @@ choyvp pynff XLPneebyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNEEBYYPBHAGL911:EU >EBNQ UNMNEQ UJL 36 NAQ 227 ZNAQL 5027324990 Pnq: 2015-0000008633",
         "PBQR:EU",
         "PNYY:EBNQ UNMNEQ",
-        "NQQE:UJL 36",
-        "ANZR:NAQ 227 ZNAQL",
+        "NQQE:UJL 36 NAQ 227",
+        "ZNQQE:UJL 36 & 227",
+        "ANZR:ZNAQL",
         "CUBAR:5027324990",
         "VQ:2015-0000008633");
 

@@ -18,6 +18,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   
   private String[] prefixList = null;
   private Pattern markerPattern;
+  private boolean fixSubject;
   int[] extraSpacePosList;
   private Set<String> specialWordSet = new HashSet<String>(Arrays.asList(new String[]{
       "APPLE",
@@ -161,6 +162,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
       markerPattern = Pattern.compile("^" + prefix + "(?:" + UNIT_PTN + ")?");
     }
     this.extraSpacePosList = extraSpacePosList;
+    fixSubject = prefix.length() == 0;
   }
   
   /**
@@ -175,6 +177,16 @@ public class DispatchEmergitechParser extends FieldProgramParser {
       specialWordSet.add(word);
     }
   }
+  
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (fixSubject && subject.length() > 0 && body.startsWith("-")) {
+      body = '[' + subject + ']' + body;
+    }
+    return parseMsg(body, data);
+  }
+  
+  private static Pattern MISSING_LOC_BLANK_PTN = Pattern.compile("(?<! |^)(?=LOCATION:)", Pattern.CASE_INSENSITIVE);
   
   @Override
   protected boolean parseMsg(String body, Data data) {
@@ -216,6 +228,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     body = BETWEEN_PTN.matcher(body).replaceFirst("BETWEEN");
     
     body = body.replace("/LOCATION:", " LOCATION:");
+    body = MISSING_LOC_BLANK_PTN.matcher(body).replaceFirst(" ");
     
     // If extraSpacePos is positive, the extraneous blank is found in a fixed
     // position relative to the message text.  Also check for keywords that

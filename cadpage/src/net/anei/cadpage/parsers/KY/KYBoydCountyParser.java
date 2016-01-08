@@ -18,6 +18,7 @@ public class KYBoydCountyParser extends DispatchB2Parser {
         "BARBAQUE SPUR",
         "COURT OF THREE SISTERS"
     );
+    removeWords("ALLEY");
     setupMultiWordStreets(
         "BEAR CREEK",
         "BOY SCOUT",

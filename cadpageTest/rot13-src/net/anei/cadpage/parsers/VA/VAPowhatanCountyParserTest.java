@@ -5,6 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*  
+Cbjungna Pbhagl, IN
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Cbjungna Ibyhagrre Erfphr Fdhnq
@@ -158,7 +159,7 @@ choyvp pynff INCbjungnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:ONYYFI",
         "GVZR:20:43",
         "PNYY:QVNORGVP",
-        "NQQE:NZRYVN PBHAGL", //
+        "NQQE:NZRYVN PBHAGL",
         "VQ:2015-017437");
 
     qbGrfg("G5",
@@ -399,7 +400,7 @@ choyvp pynff INCbjungnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:SVARPE",
         "GVZR:06:53",
         "PNYY:ZHGHNY NVQ",
-        "NQQE:40 BHG BS PBHAGL EQ", //
+        "NQQE:40 BHG BS PBHAGL EQ",
         "PVGL:BHG BS PBHAGL",
         "VQ:2015-017286");
 

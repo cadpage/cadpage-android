@@ -183,6 +183,7 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
           field = match.group(1).trim();
           data.strCity = match.group(2);
         }
+        flags |= FLAG_ALLOW_DUAL_DIRECTIONS;
         parseAddress(st, flags, field, data);
         
         if (st == StartType.START_CALL_PLACE || st == StartType.START_PLACE) {
@@ -209,7 +210,7 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
       return "CALL CODE PLACE ADDR APT CITY ST";
     }
   }
-  
+
   private static final String[] MWORD_STREET_LIST = new String[]{
       "AARON RUN",
       "ALI GHAN",

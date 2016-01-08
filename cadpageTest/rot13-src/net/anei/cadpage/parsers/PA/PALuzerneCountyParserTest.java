@@ -10452,6 +10452,7 @@ choyvp pynff CNYhmrearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:PBZZNSN",
         "PNYY:Pbzzrepvny Sver Nynez",
         "NQQE:PBZSBEG VAA XVQQRE GJC EG 940",
+        "ZNQQE:PBZSBEG VAA XVQQRE GJC 940",
         "PU:FBHG",
         "ZNC:PNEOBA ERD 186R",
         "HAVG:186R2",

@@ -10,6 +10,7 @@ import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.os.IBinder;
+import android.support.v4.app.NotificationCompat;
 
 /**
  * Dummy service launch for no other reason than to keep the JVM alive 
@@ -76,17 +77,18 @@ public class KeepAliveService extends Service {
         stopSelf();
       } 
       
-      // Otherwise build a notfication and put ourselves in foreground mode with
+      // Otherwise build a notification and put ourselves in foreground mode with
       // it.  That should be sufficient to keep Cadpage alive until we are finished
       // doing whatever we are doing
       else {
         PendingIntent pint = PendingIntent.getActivity(this, 0, CallHistoryActivity.getLaunchIntent(this), 0);
-        Notification nf = new Notification();
-        nf.icon = intent.getIntExtra("ICON", 0);
-        nf.when = System.currentTimeMillis();
-        String title = getString(intent.getIntExtra("TITLE", 0));
-        String text = getString(intent.getIntExtra("TEXT", 0));
-        nf.setLatestEventInfo(this, title, text, pint);
+        Notification nf = new NotificationCompat.Builder(this)
+                          .setSmallIcon(intent.getIntExtra("ICON", 0))
+                          .setWhen(System.currentTimeMillis())
+                          .setContentTitle(getString(intent.getIntExtra("TITLE", 0)))
+                          .setContentText(getString(intent.getIntExtra("TEXT", 0)))
+                          .setContentIntent(pint)
+                          .build();
         startForeground(NOTIFICATION_ALERT, nf);
       }
     }

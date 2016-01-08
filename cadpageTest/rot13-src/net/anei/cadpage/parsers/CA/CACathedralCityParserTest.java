@@ -193,8 +193,9 @@ choyvp pynff PNPngurqenyPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G9",
         "(PPCQ Nyyvnapr Zrffntr) Rirag Abgvpr: GP ng Trenyq Sbeq Qe, JB Qn Inyy Qe Pguqey Pgl/ol PUEVFGVANQ",
         "PNYY:GP",
-        "NQQE:Trenyq Sbeq Qe",
-        "NCG:JB Qn Inyy Qe Pguqey Pgl");
+        "NQQE:Trenyq Sbeq Qe JB Qn Inyy Qe",
+        "ZNQQE:Trenyq Sbeq Qe & Qn Inyy Qe",
+        "PVGL:Pngurqeny Pvgl");
 
     qbGrfg("G10",
         "(PPCQ Nyyvnapr Zrffntr) Rirag Abgvpr: SH ng Ivn Nyrteb,  Pnalba Cynmn Pguqey Pgl/Ybpngvba abg zngpurq va trb svyr/ol PUEVFGVANQ",
