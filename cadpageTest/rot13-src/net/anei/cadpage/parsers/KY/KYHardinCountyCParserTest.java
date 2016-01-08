@@ -1,15 +1,11 @@
 cnpxntr arg.narv.pnqcntr.cnefref.XL;
 
-<<<<<<< HEAD
-vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-=======
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 /*
 Uneqva Pbhagl, XL (P)
 */
 
->>>>>>> f445899c4036475fe5271f48c16703e69ada700f
 vzcbeg bet.whavg.Grfg;
 
 /*
