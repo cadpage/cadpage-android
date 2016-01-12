@@ -736,7 +736,6 @@ Is it possible that you or your department have paid for an account with Active9
 We are very grateful for all contributions and apologize for any complications.
 
 Take care,
-
 Jean ~ Cadpage Administrator
 
 *********************************************************************
@@ -905,7 +904,6 @@ In the interest of helping communities, we offer a  number of approved ways to r
 4) There is an old unsupported version of Cadpage available on the Cadpage download page at http://www.cadpage.org/download-cadpage.  This version will not bug you about paying for it.
 
 Take care, 
-
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -3055,9 +3053,7 @@ If things still do not work, or if generated test messages do not make
 it to your device, use the Email the Developer feature to send us
 another email.
 
-Take care, and 
-Have a Safe and Joyous New Year!
-
+Take care, 
 Jean ~ Cadpage Administrator
 
 ********************************************************************************
