@@ -34,6 +34,11 @@ public class COElPasoCountyAParser extends MsgParser {
     // Square bracket got turned into a subject and needs to be turned back
     if (subject.length() > 0) body = '[' + subject + "] " + body;
     
+    // STrip off extra trailer
+    body = stripFieldStart(body,  "Txt:");
+    int pt = body.indexOf("\n\n");
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    
     // Not everyone is using it, but see if this is the new standard dispatch format
     Matcher match = MASTER.matcher(body);
     if (match.matches()) {
