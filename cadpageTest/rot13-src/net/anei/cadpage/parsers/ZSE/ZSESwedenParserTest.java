@@ -22,6 +22,11 @@ FZF grkg sbezng
 Oenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aPneyniätra 45n\a\aYn = 59 tenqre 22,267'A    Yb = 016 tenqre 31,964'R
 Oenaq v olttanq\aSyresnzvywfuhf\aGenccuhf\aEnqrznpuretngna 21, iåa 5\a\aYn = 59 tenqre 22,308'A    Yb = 016 tenqre 30,783'R
 
+Pbagnpg: gbezhaq41 <gbezhaq41@tznvy.pbz>
+Fraqre: 46730635603
+Öievtg\aCebiynez\a\a!!!Grfg\a\aYn = 58 tenqre 45,702'A    Yb = 017 tenqre 00,026'R
+Öievtg\aCebiynez\a\a!!!Grfg\a\aYn = 58 tenqre 45,718'A    Yb = 017 tenqre 01,133'R
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Eqqavatfgwafgra Rfxvyfghan
 Ybpngvba: Rfxvyfghan, Föqreznaynaq, Fjrqra
@@ -2227,6 +2232,23 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:Enqrznpuretngna 21",
         "CYNPR:iåa 5",
         "TCF:+59.371800,+16.513050");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgGbezhaq41() {
+
+    qbGrfg("G1",
+        "Öievtg\aCebiynez\a\a!!!Grfg\a\aYn = 58 tenqre 45,702'A    Yb = 017 tenqre 00,026'R",
+        "PNYY:Öievtg / Cebiynez",
+        "NQQE:!!!Grfg",
+        "TCF:+58.761700,+17.000433");
+
+    qbGrfg("G2",
+        "Öievtg\aCebiynez\a\a!!!Grfg\a\aYn = 58 tenqre 45,718'A    Yb = 017 tenqre 01,133'R",
+        "PNYY:Öievtg / Cebiynez",
+        "NQQE:!!!Grfg",
+        "TCF:+58.761967,+17.018883");
 
   }
 

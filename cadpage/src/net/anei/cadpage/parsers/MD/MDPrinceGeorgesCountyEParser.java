@@ -11,8 +11,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class MDPrinceGeorgesCountyEParser extends MDPrinceGeorgesCountyBaseParser {
   
-  private static final Pattern PREFIX_PTN = Pattern.compile("(?:.*? - |:)?DISPATCH From [A-Z0-9]+: *");
-  private static final Pattern ID_PTN = Pattern.compile("^(?:TR +|.* / )?(F\\d{6,}):");
+  private static final Pattern PREFIX_PTN = Pattern.compile("(?:.*? - |:)?DISPATCH From [A-Z0-9]*: *");
+  private static final Pattern BAD_ID_PTN = Pattern.compile("PF\\d{6,}:");
+  private static final Pattern ID_PTN = Pattern.compile("^(?:TR +|.* / )?([FL]\\d{6,}):");
   private static final Pattern TRAILER = Pattern.compile(" - From [A-Z0-9]+ (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)$");
   private static final Pattern AT_PTN = Pattern.compile("\\bAT\\b", Pattern.CASE_INSENSITIVE);
   
@@ -30,6 +31,9 @@ public class MDPrinceGeorgesCountyEParser extends MDPrinceGeorgesCountyBaseParse
     
     Matcher match = PREFIX_PTN.matcher(body);
     if (match.lookingAt()) body = body.substring(match.end());
+    
+    // rule out version G format
+    if (BAD_ID_PTN.matcher(body).lookingAt()) return false;
     
     match = ID_PTN.matcher(body);
     if (match.lookingAt()) {
@@ -55,18 +59,14 @@ public class MDPrinceGeorgesCountyEParser extends MDPrinceGeorgesCountyBaseParse
     if (data.strState.equals("MD")) data.strState = "";
     
     // If they did not specify a city, see if we can deduce it from a mutual aid code
-    if (data.strCity.length() == 0 && data.strCode.startsWith("MA")) {
-      if (data.strCode.equals("MAAA")) data.strCity = "ANNE ARUNDEL COUNTY";
-      else if (data.strCode.equals("MACH")) data.strCity = "CHARLES COUNTY";
-      else if (data.strCode.equals("MACC")) data.strCity = "CALVERT COUNTY";
-    }
+    MDPrinceGeorgesCountyGParser.fixCity(data);
     
     return data.strCallId.length() > 0 || data.strChannel.length() > 0;
   }
   
   @Override
   public String getProgram() {
-    return "ID " + super.getProgram() + " DATE TIME";
+    return "ID " + super.getProgram().replace("BOX", "BOX CITY ST") + " DATE TIME";
   }
   
   @Override
@@ -76,8 +76,8 @@ public class MDPrinceGeorgesCountyEParser extends MDPrinceGeorgesCountyBaseParse
     if (name.equals("PP")) return new SkipField("[A-Z]{1,2}|", true);
     if (name.equals("AT")) return new AtField();
     if (name.equals("X")) return new MyCrossField();
-    if (name.equals("PP2")) return new SkipField("[A-Z]{1,2} *(?:<\\d.*)?|<\\d.*|", true);
-    if (name.equals("CH")) return new ChannelField("(?:T?G?|FX)[A-F]\\d{1,2}", true);
+    if (name.equals("PP2")) return new SkipField("(?!H$)[A-Z]{1,2} *(?:<\\d.*)?|<\\d.*|", true);
+    if (name.equals("CH")) return new ChannelField("(?:T?G?|FX)[A-F]\\d{1,2}|H", true);
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
