@@ -831,7 +831,7 @@ class Active911Vendor extends Vendor {
       "US/OH/CityofRavenna",              "OHPortageCountyA",
       "US/OH/CityofShakerHeights",        "OHShakerHeights",
       "US/OH/CityofShawnee",              "OHAllenCountyB",
-      "US/OH/CityofStow",                 "OHSummitCountyD",
+      "US/OH/CityofStow",                 "OHSummitCountyC,OHSummitCountyD",
       "US/OH/CityofTrenton",              "OHTrenton",
       "US/OH/CityofTwinsburg",            "OHSummitCountyG",
       "US/OH/CityofVandalia",             "OHMontgomeryCountyB",
