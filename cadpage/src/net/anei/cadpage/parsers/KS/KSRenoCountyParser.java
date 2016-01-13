@@ -26,7 +26,7 @@ public class KSRenoCountyParser extends SmartAddressParser {
     return MAP_FLG_PREFER_GPS;
   }
   
-  private static final Pattern MASTER = Pattern.compile("(.*?)  -  (.*?)  (\\d{4}-\\d{8})");
+  private static final Pattern MASTER = Pattern.compile("(.*?)  -  (.*?)(?:  (\\d{4}-\\d{8}))?");
   private static final Pattern GPS_PTN = Pattern.compile(" (\\d+\\.\\d{6,}|-361) / (-\\d+\\.\\d{6,}|-361)(?:  |$)");
   private static final Pattern AVE_X_PTN = Pattern.compile("(.*\\b[EW] AVE) & ([A-Z])");
   private static final Pattern KDD_HWY_PTN = Pattern.compile("\\bK(\\d+) HWY\\b");
@@ -42,7 +42,7 @@ public class KSRenoCountyParser extends SmartAddressParser {
     if (!match.matches()) return false;
     data.strCall = match.group(1).trim();
     body = match.group(2).trim();
-    data.strCallId = match.group(3);
+    data.strCallId = getOptGroup(match.group(3));
     
     match = GPS_PTN.matcher(body);
     if (match.find()) {
