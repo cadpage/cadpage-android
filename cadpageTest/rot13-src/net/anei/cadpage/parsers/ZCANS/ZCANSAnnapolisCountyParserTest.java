@@ -5,13 +5,13 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Inyyrl Pbzzhavpngvbaf, Abin Fpbgvn
-Naancbyvf Pbhagl
-Unagf Pbhagl
-Xvatf Pbhagl
+Naancbyvf Pbhagl -- Inyyrl Pbzzhavpngvbaf, Abin Fpbgvn
+Unagf Pbhagl , AF
+Xvatf Pbhagl, AF
 
 Pbagnpg: ZJB Qbeana <zjbqbeana@tznvy.pbz>
 Fraqre: inyyrlpbzzhavpngvbaf@af.nyvnagmvap.pn
+
 ABINJBBQ QE NG GUR VAGREFRPGVBA BS EVIRE QE, TERRAJBBQ FDHNER * 2 IRUVPYR ZIN
 375 ZNVA FGERRG, XVATFGBA * CBJRE YVARF BA SVER
 13604 UVTUJNL 1, JVYZBG * ZHGHNY NVQ UBHFR SVER
