@@ -1443,7 +1443,7 @@ public class ParserList {
               ,"WYParkCounty"                   ,"Park County, WY"
               ,"WYSubletteCounty"               ,"Sublette County, WY"
           ),
-          new ParserCategory("Alberta, CA"
+          new ParserCategory("Alberta, Canada"
               ,"ZCAABCalgary"                   ,"Calgary, AB"
               ,"ZCAABCanmore"                   ,"Canmore, AB"
               ,"ZCAABClearwaterCounty"          ,"Clearwater County, AB"
@@ -1451,15 +1451,20 @@ public class ParserList {
               ,"ZCAABLamontCounty"              ,"Lamont County, AB"
               ,"ZCAABRedDeerCounty"             ,"Red Deer County, AB"
           ),
-          new ParserCategory("British Columbia, CA"
+          new ParserCategory("British Columbia, Canada"
               ,"ZCABCMidIslandRegion"           ,"Mid-Island Region, BC"
               ,"ZCABCNanaimo"                   ,"Nanaimo, BC"
               ,"ZCABCPrinceGeorge"              ,"Prince George, BC"
           ),
-          new ParserCategory("Ontario, CA"
+          new ParserCategory("Nova Scotia, Canada"
+              ,"ZCANSAnnapolisCounty"           ,"Annapolis County, NS"
+              ,"ZCANSHantsCounty"               ,"Hants County, NS"
+              ,"ZCANSKingsCounty"               ,"Kings County, NS"
+          ),
+          new ParserCategory("Ontario, Canada"
               ,"ZCAONMississauga"               ,"Mississauga, ON"
           ),
-          new ParserCategory("Quebec, CA"
+          new ParserCategory("Quebec, Canada"
               ,"ZCAQCQuebec"                    ,"Quebec, QC"
           ),
           new ParserCategory("Australia"
