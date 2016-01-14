@@ -18,7 +18,8 @@ public class MDCharlesCountyAParser extends FieldProgramParser {
 
 
   public MDCharlesCountyAParser() {
-    super("CHARLES COUNTY", "MD", "ADDR CALL ( ID | INFO/N+? UNIT_INFO ID ) ID2/D TIME CH");
+    super("CHARLES COUNTY", "MD", 
+          "( ADDR CALL | CALL ADDR ) ( ID | INFO/N+? UNIT_INFO ID ) ID2/D TIME CH");
     setupMultiWordStreets(MWORD_STREET_LIST);
   }
   
@@ -58,8 +59,10 @@ public class MDCharlesCountyAParser extends FieldProgramParser {
     // Try old format
     else {
       setFieldList("CALL CITY ST UNIT ADDR APT PLACE CODE MAP INFO CH ID TIME");
+      boolean good = false;
       Matcher match = TG_ID_TIME_PATTERN.matcher(body);
       if (match.matches()) {
+        good = true;
         body = match.group(1).trim();
         data.strChannel = getOptGroup(match.group(2));
         data.strCallId = match.group(3).replace(' ', '-');
@@ -69,10 +72,15 @@ public class MDCharlesCountyAParser extends FieldProgramParser {
       // There is almost always a code pattern (or whatever it really is)
       // marking the end of the address
       match = MAP_PATTERN.matcher(body);
-      if (!match.find()) return false;
-      data.strMap = match.group();
-      data.strSupp = body.substring(match.end()).trim();
-      body = body.substring(0,match.start()).trim();
+      if (match.find()) {
+        good = true;
+        data.strMap = match.group();
+        data.strSupp = body.substring(match.end()).trim();
+        body = body.substring(0,match.start()).trim();
+      }
+      
+      // We have to have at least one of the two optional constructs
+      if (!good) return false;
       
       // Life gets easier if we can find a leading call description
       String call = CALL_LIST.getCode(body);
@@ -152,12 +160,31 @@ public class MDCharlesCountyAParser extends FieldProgramParser {
     if (name.equals("ID")) return new IdField("[EF]\\d{9}", true);
     if (name.equals("ID2")) return new IdField("\\d+", true);
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
-    if (name.equals("CH")) return new ChannelField("[A-Za-z0-9]*", true);
     return super.getField(name);
   }
   
   private static final Pattern APT_PTN = Pattern.compile("\\b(?:APT|RM|ROOM|SUITE|LOT|UNIT)[ #]*(.*)$");
   private class MyAddressField extends AddressField {
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      
+      // This is only called to process the first of two fields, which could be address/call or
+      // call address.  The address/call version is obsolete and supported for historical reasons
+      // so we won't spend too much time looking for it
+      
+      // See if it is a predefined call
+      // in which case it is most definately not an address
+      if (CALL_LIST.getCode(field) != null) return false;
+
+      // If next field matches predefined call description this is
+      // an address.  If not, assume that it isn't.
+      if (CALL_LIST.getCode(getRelativeField(+1)) == null) return false;
+
+      parse(field, data);
+      return true;
+    }
+    
     @Override
     public void parse(String field, Data data) {
       
@@ -376,6 +403,7 @@ public class MDCharlesCountyAParser extends FieldProgramParser {
       "ABDOMINAL PAIN BLS",
       "AFA COMMERCIAL BUILDING",
       "AFA SF DWELLING",
+      "AIRCRAFT(SML)DOWN ON LAND",
       "ALARM CO DETECTOR",
       "ALARM UNKNOWN MEDICAL ALS",
       "ALARM UNKNOWN MEDICAL BLS",
@@ -386,7 +414,11 @@ public class MDCharlesCountyAParser extends FieldProgramParser {
       "ASSIST FIRE DEPARTMENT",
       "ASSIST THE AMBULANCE",
       "ASSIST THE POLICE",
+      "ASSIST THE POLICE ALS",
+      "ASSIST THE POLICE BLS",
       "ASSIST THE PUBLIC",
+      "BACK PAIN ALS",
+      "BACK PAIN BLS",
       "BOAT AT MARINA OR MARINA FIRE",
       "BOAT DISTRESS NOT TAKING ON WATER",
       "BOAT OVERDUE OR FLARE",
@@ -401,6 +433,8 @@ public class MDCharlesCountyAParser extends FieldProgramParser {
       "COMMERCIAL BUILDING FIRE, STRUCTURE, BLDG",                                                                          
       "DIABETIC ALS",
       "DIABETIC BLS",
+      "EXPLOSION NO FIRE, ALS",
+      "EXPLOSION NO FIRE, BLS",
       "EYE INJURY ALS",
       "EYE INJURY BLS",
       "FALL ALS",                                                                                                               
@@ -415,6 +449,7 @@ public class MDCharlesCountyAParser extends FieldProgramParser {
       "HAZMAT COMMERCIAL BLDG FIRE",
       "HAZMAT INVESTIGATION",
       "HAZMAT LOCAL",
+      "HAZMAT SERVICE CALL",
       "HEADACHE ALS",
       "HEADACHE BLS",
       "HEART PROBLEMS ALS",
@@ -426,6 +461,7 @@ public class MDCharlesCountyAParser extends FieldProgramParser {
       "MVC ALS",
       "MVC BLS",
       "MVC EXTRICATION",
+      "MVC HAZMAT",
       "MVC LARGE VEHICLE",
       "MVC MASS CASUALTY",
       "MVC MOTORCYCLE ALS",
@@ -456,19 +492,25 @@ public class MDCharlesCountyAParser extends FieldProgramParser {
       "RESCUE BUILDING COLLAPSE",
       "RESCUE HIGH ANGLE",
       "RESCUE INACCESSIBLE TERRAIN",
+      "RESCUE OCC VEH IN WATER WITH INJURIES",
+      "RESCUE SUBJECT TRAPPED",
+      "SEARCH LOST PERSON",
       "SEIZURES ALS",
       "SEIZURES BLS",
+      "SEIZURES INEFFECTIVE BREATHING",
       "SERVICE CALL FD",
       "SHOOTING ALS",
       "SHOOTING BLS",
       "SICK PERSON ALS",
       "SICK PERSON BLS",
       "SIT FND CALL CANCELLED NO UNIT ENROUTE",
+      "SIT FND CALL CANCELLED UNIT ENROUTE",
       "SPECIAL PLANNED EVENT",
       "STABBING ALS",
       "STABBING BLS",
       "STANDBY ALS",
       "STANDBY BLS",
+      "STANDBY FIRE",
       "STROKE ALS",
       "STROKE BLS",
       "STRUC APPLIANCE MALF SF DWELLING",
@@ -480,9 +522,11 @@ public class MDCharlesCountyAParser extends FieldProgramParser {
       "STRUC FIRE SF DWELLING",
       "STRUC ODOR OF SMOKE MF COMM BLDG",
       "STRUC ODOR OF SMOKE SF DWELLING",
+      "STRUC OUTLET SMOKING MF COMM BLDG",
       "STRUC OUTLET SMOKING SF DWELLING",
       "STRUC, ODOR OF SMOKE - NO FIRE, M/F DWELLING, TOWNHOUSE, APARTMENT, COMMERCIAL BLDG, MULTI FAMILY HOUSE, BUILDING",
       "TRANSFER (2) ENGINES",
+      "TRANSFER ALS",
       "TRANSFER BLS",
       "TRANSFER FIRE",
       "TRANSFORMER FIRE",
@@ -502,6 +546,7 @@ public class MDCharlesCountyAParser extends FieldProgramParser {
       "UNKNOWN MEDICAL BLS",
       "UNKNOWN MEDICAL EMERGENCY ALS",
       "UNKNOWN MEDICAL EMERGENCY BLS",
+      "VEHICLE FIRE",
       "VEHICLE FIRE LARGE",
       "WASH DOWN",
       "WIRES DOWN/ARCING",
