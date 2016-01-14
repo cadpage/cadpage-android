@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01122016</string>
-  <string name="release_version">v1.9.03</string>
+  <string name="release_date">01142016</string>
+  <string name="release_version">v1.9.04</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.04\n
+New Locations:\n
+Annapolis County, NS (Canada)\n
+Hants County, NS (Canada)\n
+Kings County, NS (Canada)\n
+\n
+Location Fixes:\n
+Reno County, KS\n
+Charles County, MD\n
+Summit County, OH\n
+\n
 v1.9.03\n
 New Locations:\n
 Etowah County, AL\n
@@ -71,12 +82,7 @@ Monterey County, CA\n
 Larimer Couty, CO\n
 Albany County, NY\n
 Berks County, PA\n
-Wyoming County, PA\n
-\n
-v1.8.86\n
-Location Fixes:\n
-Loudoun County, VA\n
-Stanton, VA
+Wyoming County, PA
   </string>
 </resources>
   
