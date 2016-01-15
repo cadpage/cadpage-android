@@ -13181,6 +13181,7 @@ choyvp pynff APOhapbzorPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G52",
         "PNQ:Nalbar gung pna jbex Fngheqnl pbagnpg gur znva fgngvba",
+        "PNYY:Haxabja",
         "NQQE:Nalbar gung pna jbex Fngheqnl pbagnpg gur znva fgngvba");
 
     qbGrfg("G53",
@@ -15968,6 +15969,7 @@ choyvp pynff APOhapbzorPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G58",
         "PNQ:UNM-ZNG GENVAVAT NG 19:00. PERJ 4 VF GUR QHGL PERJ. 1511 PUVRS BA PNYY.",
+        "PNYY:Haxabja",
         "NQQE:UNM-ZNG GENVAVAT NG 19:00 PERJ 4 VF GUR QHGL PERJ 1511 PUVRS BA PNYY");
 
     qbGrfg("G59",
@@ -16050,10 +16052,12 @@ choyvp pynff APOhapbzorPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G69",
         "PNQ:NYY QRCGF OR NQIVFRQ 911 YVARF NER QBJA NG GUVF GVZR VA OHAPBZOR PBHAGL",
+        "PNYY:Haxabja",
         "NQQE:NYY QRCGF OR NQIVFRQ 911 YVARF NER QBJA NG GUVF GVZR VA OHAPBZOR PBHAGL");
 
     qbGrfg("G70",
         "PNQ:79 JVYYVNZF OENAPU EQ;O15;OERAQN ZNEGVA;FVPX CREFBA;QVYYVATUNZ EQ",
+        "PNYY:Haxabja",
         "NQQE:79 JVYYVNZF OENAPU EQ",
         "HAVG:O15",
         "PNYY:FVPX CREFBA",

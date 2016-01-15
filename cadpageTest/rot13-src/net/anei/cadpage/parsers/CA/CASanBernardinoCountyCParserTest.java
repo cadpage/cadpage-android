@@ -13,6 +13,10 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (LRE) PYBFR: ERF382\aQFC: 11-12-01:12; RAE: 11-12-01:12; BAF: 11-12-01:21; NVD: 11-12-01:54; OQH Vap# 014150 Whe Vap# PNLRE000321\aPnyy Glcr: ZGP\aYbp
 (LRE) PYBFR: LREPUS\aQFC: 11-12-01:07; NVD: 11-12-01:12; OQH Vap# 014150 Whe Vap# PNLRE000321\aPnyy Glcr: ZGP\aYbpngvba: V 15 F / 35500 TUBFG GBJA EQ
 
+Pbagnpg: Zvpunry Fvyin <zvpunryfvyin1776@tznvy.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(LRE) PYBFR: LREIBY\aQFC: 1-13-16:05; NVD: 1-13-16:30; OQH Vap# 000674 Whe Vap# PNLRE000015\aPnyy Glcr: ZRQ\aYbpngvba: 36013 4GU FG ,LREZB
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pny Sver - Zhghny Nvq
 Ybpngvba: Onefgbj, PN, Havgrq Fgngrf
@@ -76,7 +80,7 @@ choyvp pynff PNFnaOreaneqvabPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgCnefre() {
+  choyvp ibvq grfgEbavrTvyzna() {
 
     qbGrfg("G1",
         "(LRE) ZRQVPNY - 38081 SNVEJNL NI ,LREZB - PEBFF: 35950 OYX QVIVQVAT YVAR FG - EN: LRE1 - ZNC: 3682_P_1 - LREPUS - QVSS OERNGUVAT <n uers=\"uggc://zncf.tb",
@@ -112,6 +116,24 @@ choyvp pynff PNFnaOreaneqvabPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:LREPUS",
         "VASB:QFC: 11-12-01:07\aNVD: 11-12-01:12\aOQH Vap# 014150 Whe Vap# PNLRE000321",
         "NQQE:V 15 F & 35500 TUBFG GBJA EQ");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZvpunryFvyin() {
+
+    qbGrfg("G1",
+        "(LRE) PYBFR: LREIBY\a" +
+        "QFC: 1-13-16:05; NVD: 1-13-16:30; OQH Vap# 000674 Whe Vap# PNLRE000015\a" +
+        "Pnyy Glcr: ZRQ\a" +
+        "Ybpngvba: 36013 4GU FG ,LREZB",
+
+        "GLCR:EHA_ERCBEG",
+        "FEP:LRE",
+        "HAVG:LREIBY",
+        "VASB:QFC: 1-13-16:05\aNVD: 1-13-16:30\aOQH Vap# 000674 Whe Vap# PNLRE000015",
+        "NQQE:36013 4GU FG",
+        "PVGL:LREZB");
 
   }
 
