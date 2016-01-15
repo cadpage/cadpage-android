@@ -601,6 +601,7 @@ class Active911Vendor extends Vendor {
       "US/MO/AndrewCounty",               "Cadpage2",
       "US/MO/AudrainCounty",              "MOAudrainCounty",
       "US/MO/BarryCounty",                "MOBarryCountyC",
+      "US/MO/BentonCounty",               "MOBentonCounty",
       "US/MO/BuchananCounty",             "MOBuchananCountyB",
       "US/MO/CallawayCounty",             "MOCallawayCounty",
       "US/MO/CarrollCounty",              "MOCarollCounty",
