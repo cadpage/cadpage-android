@@ -668,7 +668,7 @@ public abstract class SmartAddressParser extends MsgParser {
   /**
    * Set up predefined city code tables or lists
    */
-  protected void setupCities(String[] cities) {
+  protected void setupCities(String ... cities) {
     setupCities(Arrays.asList(cities));
   }
   

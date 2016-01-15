@@ -1045,6 +1045,7 @@ class Active911Vendor extends Vendor {
       "US/TX/CityofNorthRichlandHills",   "TXTarrentCountyB",
       "US/TX/CityofOverton",              "TXOverton",
       "US/TX/CityofPortAransas",          "TXPortAransas",
+      "US/TX/CityofWilmer",               "TXDallasCountyB",
       "US/TX/CityofWylie",                "TXCollinCountyA",
       "US/TX/CollinCounty",               "TXCollinCounty",
       "US/TX/CyCreekCommCenter",          "TXCyCreekCommCenter",
