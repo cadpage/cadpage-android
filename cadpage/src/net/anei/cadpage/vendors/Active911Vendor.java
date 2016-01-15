@@ -591,6 +591,7 @@ class Active911Vendor extends Vendor {
       "US/MN/StPaul",                     "MNMinneapolisStPaul",
       "US/MN/WabashaCounty",              "MNWabashaCounty",
       "US/MN/WadenaCounty",               "MNWadenaCounty",
+      "US/MN/WasecaCounty",               "MNWasecaCounty",
       "US/MN/WashingtonCounty",           "MNWashingtonCounty",
       "US/MN/WinomaCounty",               "MNWinomaCounty",
       "US/MN/WrightCounty",               "MNWrightCounty",
