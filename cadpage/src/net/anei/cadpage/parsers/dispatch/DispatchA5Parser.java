@@ -39,6 +39,7 @@ public class DispatchA5Parser extends FieldProgramParser {
            "Incident_Type:CALL! Priority:PRI! " +
            "Incident_Location:ADDR! Venue:CITY! " +
            "Located_Between:X? Cross_Street:X? Common_Name:PLACE? " +
+           "Google_Maps:SKIP " + 
            "Call_Time:TIME! Date:DATE! " +
            "Dispatch:TIMES! En-route:TIMES! On-scene:TIMES! Depart_1:TIMES! " +
            "Arrive_2:TIMES! Depart_2:TIMES! In-statn:TIMES! Cleared:TIMES? " +
