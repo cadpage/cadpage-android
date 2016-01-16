@@ -181,15 +181,16 @@ public class DispatchA27Parser extends FieldProgramParser {
       for (String line : field.split("\n")) {
         line = line.trim();
         Matcher match = TIMES_PTN.matcher(line);
-        if (!match.matches()) abort();
-        String type = match.group(1);
-        if (type.equals("Time reported")) {
-          data.strDate = match.group(2);
-          setTime(TIME_FMT, match.group(3), data);
-        }
-        else {
-          if (type.equals("Time completed")) {
-            data.msgType = MsgType.RUN_REPORT;
+        if (match.matches()) {
+          String type = match.group(1);
+          if (type.equals("Time reported")) {
+            data.strDate = match.group(2);
+            setTime(TIME_FMT, match.group(3), data);
+          }
+          else {
+            if (type.equals("Time completed")) {
+              data.msgType = MsgType.RUN_REPORT;
+            }
           }
         }
         times = append(times, "\n", line);
