@@ -938,6 +938,7 @@ class Active911Vendor extends Vendor {
       "US/PA/DauphinCounty",              "PADauphinCounty",
       "US/PA/DelawareCounty",             "PADelawareCountyB,PADelawareCountyG",
       "US/PA/DelcomDispatch",             "PADelawareCountyB,PADelawareCountyG",
+      "US/PA/Ecm",                        "PAAlleghenyCountyB",
       "US/PA/FDCMS",                      "PAChesterCountyF,PAChesterCountyJ",
       "US/PA/Firepaging",                 "PAChesterCountyD4",
       "US/PA/FlourtownFire",              "PAMontgomeryCountyD",
