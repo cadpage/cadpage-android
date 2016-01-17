@@ -494,6 +494,7 @@ class Active911Vendor extends Vendor {
       "US/LA/WestBatonRougeCouncil",      "LAWestBatonRougeParish",
       "US/LA/WestFelicianaParish",        "LAWestFelicianaParish",
       "US/MA/Mvpsis",                     "MADukesCounty",
+      "US/MA/NantucketCounty",            "MANantucketCounty",
       "US/MD/ADSiCAD",                    "MDAnneArundelCountyADSiCAD",
       "US/MD/AlleganyCounty",             "MDAlleganyCounty",
       "US/MD/CityofBaltimore",            "MDBaltimore",
