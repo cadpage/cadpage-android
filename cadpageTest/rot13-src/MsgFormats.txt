@@ -1884,7 +1884,16 @@ Bmnhxrr Pbhagl, JV (JVBmnhxrrPbhaglCnefre)
 (Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gERFPHR - RZF/Erfphr Pnyy\g\aErdhrfg#\g:\g14-000001\g\aErcbeg Qngr/Gvzr\g:\g2/27/2014 2:38:18 CZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\gJ Zrdhba Eq/A Cbeg Jnfuvatgba Eq;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000255 {2/27/2014 2:38:00 CZ} \g\aYbtva Hfre\g:\gYnag, Qnja Rvyrra\g
 (Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gERFPHR - RZF/Erfphr Pnyy\g\aErdhrfg#\g:\g14-000001\g\aErcbeg Qngr/Gvzr\g:\g2/27/2014 12:58:25 CZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g5920 J Yhprear Pg,9;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000254 {2/27/2014 12:58:00 CZ} \g\aYbtva Hfre\g:\gYnag, Qnja Rvyrra\g
 (Cubravk Abgvsvpngvba) Whevf\g:\gZrdhba\g\aPSF\g:\gERFPHR - RZF/Erfphr Pnyy\g\aErdhrfg#\g:\g14-000001\g\aErcbeg Qngr/Gvzr\g:\g2/27/2014 12:06:19 CZ\g\aErcbegvat Crevbq\g:\gvzzrqvngr\g\aYbpngvba\g:\g10400 A Ragrecevfr Qe;ZR\g\aAbgvsl Glcr\g:\gPnyy Erprvirq\g\aPnyy#\g:\g14.000253 {2/27/2014 12:06:00 CZ} \g\aYbtva Hfre\g:\gYnag, Qnja Rvyrra\g
-********************************************************************************
+*******************************************************************************
+*******************************************************************************
+* QvfcngpuN64Cnefre fhopynffrf
+*******************************************************************************
+***************************************************************************
+Yrba Pbhagl, GK (GKYrbaPbhaglOCnefre)
+(Qvfcngpu Nyreg) Pnyy Glcr: ZRQVPNY RZRETRAPL Pvgl:  Nqqerff: PVGL UNYY OHSSNYB
+(Qvfcngpu Nyreg) Pnyy Glcr: NPPVQRAG Pvgl: PRAGREIVYYR Nqqerff: UJL 7 1 ZVYR CNFG SZ 811
+(Qvfcngpu Nyreg) Pnyy Glcr: ZRQVPNY RZRETRAPL Pvgl: PRAGREIVYYR Nqqerff: 239 F FHZZRE
+*******************************************************************************
 ********************************************************************************
 * QvfcngpuOCnefre fhopynffrf
 *******************************************************************************
@@ -7554,11 +7563,6 @@ Yrba Pbhagl, GK (GKYrbaPbhaglNCnefre)
 (Qvfcngpu Nyreg) TENFF SVER\a\aZZ 177 FO\aNcg \aOHSSNYB\aAbgr: FO FVQR TENFF SVER
 (Qvfcngpu Nyreg) TENFF SVER\a\aZZ AO 177 178\aNcg \aOHSSNYB
 (Qvfcngpu Nyreg) SVER\a\a430 TBYQRA NPERF \aNcg \aOHSSNYB\aAbgr: fzryyf fbzrguvat oheavat sebz ure n.p.
-*******************************************************************************
-Yrba Pbhagl, GK (GKYrbaPbhaglOCnefre)
-(Qvfcngpu Nyreg) Pnyy Glcr: ZRQVPNY RZRETRAPL Pvgl:  Nqqerff: PVGL UNYY OHSSNYB
-(Qvfcngpu Nyreg) Pnyy Glcr: NPPVQRAG Pvgl: PRAGREIVYYR Nqqerff: UJL 7 1 ZVYR CNFG SZ 811
-(Qvfcngpu Nyreg) Pnyy Glcr: ZRQVPNY RZRETRAPL Pvgl: PRAGREIVYYR Nqqerff: 239 F FHZZRE
 *******************************************************************************
 Yrjvfivyyr, GK (GKYrjvfivyyrCnefre)
 *101 R PBECBENGR QE*****ZNWBE NPP****O160,PUVRS,R163,Z163,G167*316****
