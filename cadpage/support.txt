@@ -895,6 +895,8 @@ $10 per year is way out of line for what you normally expect to pay for a genera
 
 It is unfortunate that we have to ask people already volunteering so much time and energy to pay us for a cool app.  The reality is that maintaining and continually developing Cadpage is more than a full time job. We have to pay our bills somehow, and Google takes their share.
 
+The yearly cost is maintenance for the app. There are dispatch centers out there that change their message formats; upgrades to Google maps; upgrades to Android systems; upgrades to Android phones. Cadpage is an extremely high maintenance app. We put out weekly releases to try and keep up.
+
 Most of 
 Our policy for free subscriptions is based on hardship, not on being a volunteer.  Both my husband and I are volunteers with our local fire department, so we understand the time, expense and effort involved. 
 
