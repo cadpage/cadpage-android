@@ -1035,6 +1035,7 @@ class Active911Vendor extends Vendor {
       "US/TX/BellCounty",                 "TXBellCounty",
       "US/TX/Carrollton",                 "TXCarrollton",
       "US/TX/CityofBryan",                "TXBrazosCounty",
+      "US/TX/CityofCommerce",             "TXHuntCounty",
       "US/TX/CityofCorpusChristi",        "TXNuecesCounty",
       "US/TX/CityofCrowley",              "TXCrowley",
       "US/TX/CityofDallas",               "TXDallasCounty",
