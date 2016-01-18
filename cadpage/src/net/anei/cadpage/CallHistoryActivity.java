@@ -40,6 +40,8 @@ public class CallHistoryActivity extends ListActivity {
   private static final int CONFIRM_DELETE_ALL_DIALOG = 2;
   private static final int PLAY_SERVICES_REQUEST_DIALOG = 3;
   
+  private PermissionManager permMgr;
+
   // keep track of which message text view has opened a context menu
   private HistoryMsgTextView msgTextView = null;
   
@@ -62,6 +64,11 @@ public class CallHistoryActivity extends ListActivity {
       finish();
       return;
     }
+    
+    permMgr = new PermissionManager(this);
+    ManagePreferences.setPermissionManager(permMgr);
+    ManagePreferences.checkInitialPermissions();
+    ManagePreferences.setPermissionManager(null);
     
     // Apparently only an activity can calculate the total screen size.
     // So do it now and save it in preferences so it will be included in
@@ -90,8 +97,7 @@ public class CallHistoryActivity extends ListActivity {
     // hasn't been initialized.  (We get a way with calling useOldGcm() above
     // because it returns a boolean result)
     if (! ManagePreferences.initialized()) {
-      Intent intent = new Intent(this, SmsPopupConfigActivity.class);
-      startActivity(intent);
+      SmsPopupConfigActivity.initializePreferences(this);
     }
     
     // If the screen is locked, we  would like both the call history and call detail
@@ -368,11 +374,6 @@ public class CallHistoryActivity extends ListActivity {
 
     outState.putString("WORKAROUND_FOR_BUG_19917_KEY", "WORKAROUND_FOR_BUG_19917_VALUE");
     super.onSaveInstanceState(outState);
-
-//    int orientation = Safe40Activity.getDisplayOrientation(this);
-    
-    //Lock the screen orientation to the current display orientation : Landscape or Portrait
-//    this.setRequestedOrientation(orientation);
   }
   
   @Override
@@ -380,6 +381,19 @@ public class CallHistoryActivity extends ListActivity {
     mainActivity = null;
     super.onDestroy();
   }
+  
+  @Override
+  public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] granted) {
+    ManagePreferences.onRequestPermissionsResult(requestCode, permissions, granted);
+  }
+
+  @Override
+  protected Dialog onCreateDialog(int id, Bundle bundle) {
+    Dialog dlg = permMgr.onCreateDialog(id, bundle);
+    if (dlg != null) return dlg;
+    return super.onCreateDialog(id);
+  }
+
 
   /**
    * Launch activity

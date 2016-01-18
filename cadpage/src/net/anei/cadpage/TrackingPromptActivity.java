@@ -1,6 +1,5 @@
 package net.anei.cadpage;
 
-import net.anei.cadpage.donation.PermissionManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;

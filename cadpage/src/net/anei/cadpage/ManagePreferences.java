@@ -7,11 +7,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
-import net.anei.cadpage.donation.PermissionManager;
 import net.anei.cadpage.parsers.ManageParsers;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.SplitMsgOptions;
@@ -19,8 +19,11 @@ import net.anei.cadpage.vendors.VendorManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.preference.ListPreference;
+import android.preference.Preference;
 import android.preference.PreferenceManager;
 
 public class ManagePreferences {
@@ -44,6 +47,9 @@ public class ManagePreferences {
    * @param context
    */
   public static void setupPreferences(Context context) {
+    
+    // if this is our first invocation, initialize all preference defaults
+    PreferenceManager.setDefaultValues(context, R.xml.preferences, false);
     
     // Initialize the preference object
     prefs = new ManagePreferences(context);
@@ -258,6 +264,10 @@ public class ManagePreferences {
   
   public static String enableMsgType() {
     return prefs.getString(R.string.pref_enable_msg_type_key);
+  }
+  
+  public static void setEnableMsgType(String value) {
+    prefs.putString(R.string.pref_enable_msg_type_key, value);
   }
   
   public static int mmsTimeout() {
@@ -1111,6 +1121,8 @@ public class ManagePreferences {
     settings.clear();
     settings.commit();
   }
+  
+  
 
   /**
    * Append configuration information to constructed message
@@ -1158,7 +1170,142 @@ public class ManagePreferences {
     // Add Vendor config info
     VendorManager.instance().addStatusInfo(sb);
   }
+  
+  private static PermissionManager permMgr = null;
+  
+  private static final int PERM_REQ_SMS_MMS = 1;
+  private static final int PERM_REQ_LIMIT = 1;
+  
+  private static PermissionChecker<?,?>[] checkers = new PermissionChecker[PERM_REQ_LIMIT];
+  
+  public static void setPermissionManager(PermissionManager permMgr) {
+    ManagePreferences.permMgr = permMgr;
+  }
+  
+  public static void checkInitialPermissions() {
+    enableMsgTypeChecker.check();
+  }
+  
+  public static boolean checkPermEnableMsgType(ListPreference pref, String value) {
+    return enableMsgTypeChecker.check(pref, value);
+  }
+  
+  private static final EnableMsgTypeChecker enableMsgTypeChecker = new EnableMsgTypeChecker();
+  
+  private static class EnableMsgTypeChecker extends ListPermissionChecker {
+    
+    public EnableMsgTypeChecker() {
+      super(PERM_REQ_SMS_MMS, R.string.pref_enable_msg_type_key);
+    }
 
+    @Override
+    protected String check(int reqCode, String value) {
+      boolean needSmsPerm = value.contains("S") && !permMgr.isGranted(PermissionManager.RECEIVE_SMS);
+      boolean needMmsPerm = value.contains("M") && !permMgr.isGranted(PermissionManager.RECEIVE_MMS);
+      if (!needSmsPerm && !needMmsPerm) return null;
+      
+      List<String> permList = new ArrayList<String>();
+      if (needSmsPerm) {
+        value = value.replace("S", "");
+        permList.add(PermissionManager.RECEIVE_SMS);
+      }
+      if (needMmsPerm) {
+        value = value.replace("M", "");
+        permList.add(PermissionManager.RECEIVE_MMS);
+      }
+      
+      if (reqCode > 0) permMgr.request(reqCode, permList.toArray(new String[permList.size()]));
+      return value;
+    }
+  }
+  
+  private abstract static class ListPermissionChecker extends StringPermissionChecker<ListPreference> {
+    
+    protected ListPermissionChecker(int permReq, int resPrefId) {
+      super(permReq, resPrefId);
+    }
+
+    @Override
+    protected void setPreference(ListPreference preference, String value) {
+      preference.setValue(value);
+    }
+  }
+  
+  private abstract static class StringPermissionChecker<P extends Preference> extends PermissionChecker<String, P> {
+    
+    protected StringPermissionChecker(int permReq, int resPrefId) {
+      super(permReq, resPrefId);
+    }
+
+    @Override
+    protected String getPrefValue(int resPrefId) {
+      return prefs.getString(resPrefId);
+    }
+
+    @Override
+    protected void savePrefValue(int resPrefId, String value) {
+      prefs.putString(resPrefId, value);
+    }
+  }
+  
+  private abstract static class PermissionChecker<V, P extends Preference> {
+    private int permReq;
+    private int resPrefId;
+    private P preference;
+    private V value;
+    
+    protected PermissionChecker(int permReq, int resPrefId) {
+      this.permReq = permReq;
+      this.resPrefId = resPrefId;
+      checkers[permReq-1] = this;
+    }
+    
+    public void check() {
+      this.preference = null;
+      this.value = null;
+      V newValue = check(permReq, getPrefValue(resPrefId));
+      if (newValue != null && !newValue.equals(value)) {
+        savePrefValue(resPrefId, newValue);
+      }
+    }
+    
+    public boolean check(P preference, V value) {
+      this.preference = preference;
+      this.value = value;
+      V newValue = check(permReq, value);
+      return newValue == null || newValue.equals(value);
+    }
+    
+    public void onRequestPermissionResult(String [] permissions, int[] granted) {
+      V newValue = value;
+      if (!PermissionManager.isGranted(granted)) {
+        if (permissions == null || granted == null || granted.length < 2) return;
+        newValue = check(-1, value);
+        if (newValue == null) newValue = value;
+      }
+      
+      savePrefValue(resPrefId, newValue);
+      if (preference != null) {
+        setPreference(preference, newValue);
+      }
+    }
+    
+    protected abstract V getPrefValue(int resPrefId);
+    protected abstract void savePrefValue(int resPrefId, V value);
+    protected abstract void setPreference(P preference, V value);
+    protected abstract V check(int permReq, V value);
+  }
+  
+  
+  
+  public static boolean onRequestPermissionsResult(int requestCode, String[] permissions, int[] granted) {
+    
+    if (requestCode < 1 || requestCode > PERM_REQ_LIMIT) return false;
+    PermissionChecker<?,?> checker = checkers[requestCode-1];
+    if (checker == null) return false;
+    checker.onRequestPermissionResult(permissions, granted);
+    return true;
+  }
   
   private Context context;
   private SharedPreferences mPrefs;

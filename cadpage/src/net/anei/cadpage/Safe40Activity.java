@@ -1,13 +1,11 @@
 package net.anei.cadpage;
 
-import net.anei.cadpage.donation.PermissionManager;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Display;
 import android.view.KeyEvent;
 
@@ -20,10 +18,10 @@ import android.view.KeyEvent;
  * Also implements the Permssion manager interface for Android 6.0 and up
  */
 @SuppressLint("NewApi")
-public class Safe40Activity extends AppCompatActivity {
+public class Safe40Activity extends Activity {
   
   private boolean activityActive = false;
-  private PermissionManager permMsg = new PermissionManager(this);
+  private PermissionManager permMgr = new PermissionManager(this);
 
   @Override
   protected void onResume() { 
@@ -99,7 +97,7 @@ public class Safe40Activity extends AppCompatActivity {
    * @return true if permission has been granted
    */
   public boolean isGranted(String permission) {
-    return permMsg.isGranted(permission);
+    return permMgr.isGranted(permission);
   }
   
   /**
@@ -110,7 +108,7 @@ public class Safe40Activity extends AppCompatActivity {
    * @return true if all permissions area already granted
    */
   public boolean request(int requestId, String permission) {
-    return permMsg.request(requestId, new String[]{permission}, null);
+    return permMgr.request(requestId, new String[]{permission}, null);
   }
   
   /**
@@ -123,7 +121,7 @@ public class Safe40Activity extends AppCompatActivity {
    * @return true if all permissions area already granted
    */
   public boolean request(int requestId, String permission, int explainId) {
-    return permMsg.request(requestId, new String[]{permission}, new int[]{explainId});
+    return permMgr.request(requestId, new String[]{permission}, new int[]{explainId});
   }
   
   /**
@@ -134,7 +132,7 @@ public class Safe40Activity extends AppCompatActivity {
    * @return true if all permissions area already granted
    */
   public boolean request(int requestId, String[] permissions) {
-    return permMsg.request(requestId, permissions, null);
+    return permMgr.request(requestId, permissions, null);
   }
   
   /**
@@ -147,7 +145,7 @@ public class Safe40Activity extends AppCompatActivity {
    * @return true if all permissions area already granted
    */
   public boolean request(int requestId, String[] permissions, int explainId) {
-    return permMsg.request(requestId, permissions, explainId);
+    return permMgr.request(requestId, permissions, explainId);
   }
   
   /**
@@ -162,12 +160,12 @@ public class Safe40Activity extends AppCompatActivity {
    * @return true if all permissions area already granted
    */
   public boolean request(int requestId, String[] permissions, int[] explainIds) {
-    return permMsg.request(requestId, permissions, explainIds);
+    return permMgr.request(requestId, permissions, explainIds);
   }
 
   @Override
   protected Dialog onCreateDialog(int id, Bundle bundle) {
-    Dialog dlg = permMsg.onCreateDialog(id, bundle);
+    Dialog dlg = permMgr.onCreateDialog(id, bundle);
     if (dlg != null) return dlg;
     return super.onCreateDialog(id);
   }

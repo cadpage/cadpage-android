@@ -12,6 +12,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.HttpService;
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.Log;
+import net.anei.cadpage.PermissionManager;
 import net.anei.cadpage.R;
 import net.anei.cadpage.donation.UserAcctManager;
 import android.accounts.Account;
@@ -31,13 +32,17 @@ public class UserAcctManager {
   
   private static final Pattern SDK_PTN = Pattern.compile(".*\\bsdk\\b.*");
   
-  public void setContext(Context context) {
+  private UserAcctManager(Context context) {
     this.context = context;
+    if (SDK_PTN.matcher(Build.PRODUCT).matches()) developer = true;
+  }
+  
+  public void reset() {
     
     boolean readPhoneStatePerm = PermissionManager.isGranted(context, PermissionManager.READ_PHONE_STATE);
     
     TelephonyManager tMgr =(TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
-    phoneNumber = tMgr.getLine1Number();
+    if (PermissionManager.isGranted(context, PermissionManager.READ_SMS)) phoneNumber = tMgr.getLine1Number();
     if (phoneNumber == null && readPhoneStatePerm) phoneNumber = tMgr.getVoiceMailNumber();
     if (phoneNumber != null) {
       int pt = phoneNumber.indexOf(',');
@@ -55,12 +60,11 @@ public class UserAcctManager {
     userEmails = emailList.toArray(new String[emailList.size()]);
     
     // If we are running in an emulator, assume developer status
-    String product = Build.PRODUCT;
-    if (SDK_PTN.matcher(product).matches()) {
+    if (SDK_PTN.matcher(Build.PRODUCT).matches()) {
       developer = true;
     }
     
-    // Otehrwise, see if first email is on our developer list
+    // Otherwise, see if first email is on our developer list
     else {
       if (userEmails.length > 0) {
         String[] developers = context.getResources().getStringArray(R.array.donate_devel_list);
@@ -224,8 +228,7 @@ public class UserAcctManager {
   private static UserAcctManager instance = null;
   
   public static void setup(Context context) {
-    instance = new UserAcctManager();
-    instance.setContext(context);
+    instance = new UserAcctManager(context);
   }
   
   public static UserAcctManager instance() {

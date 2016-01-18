@@ -16,7 +16,9 @@ import net.anei.cadpage.preferences.LocationListPreference;
 import net.anei.cadpage.preferences.LocationManager;
 import net.anei.cadpage.preferences.OnDialogClosedListener;
 import net.anei.cadpage.vendors.VendorManager;
+import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -28,6 +30,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
+import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
@@ -39,6 +42,10 @@ import android.view.KeyEvent;
 public class SmsPopupConfigActivity extends PreferenceActivity {
   
   private static final int REQ_SCANNER_CHANNEL = 1;
+  
+  private static final String EXTRA_INITIALIZE = "PreferenceActivity.INITIALIZE";
+  
+  private PermissionManager permMgr;
   
   private String parserFilter = "";
   private String parserDefCity = "";
@@ -60,6 +67,9 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     
     // Save location so we can tell when it changes
     saveLocation = ManagePreferences.location();
+    
+    permMgr = new PermissionManager(this);
+    ManagePreferences.setPermissionManager(permMgr);
     
     // Build preference tree
     addPreferencesFromResource(R.xml.preferences);
@@ -83,6 +93,9 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     pref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
       @Override
       public boolean onPreferenceChange(Preference preference, Object newValue) {
+        
+        if (!ManagePreferences.checkPermEnableMsgType((ListPreference)preference, (String)newValue)) return false;
+        
         SmsPopupUtils.enableSMSPopup(SmsPopupConfigActivity.this, (String)newValue);
         return true;
       }
@@ -288,7 +301,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     // Add developer dialog preference if appropriate
     DeveloperToolsManager.instance().addPreference(this, getPreferenceScreen());
   }
-
+  
   @Override
   protected void onDestroy() {
     MainDonateEvent.instance().setPreference(null, null);
@@ -425,6 +438,12 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     oldRevMsgOrder = options.revMsgOrder();
     oldMixedMsgOrder = options.mixedMsgOrder();
     
+    // If this was an initialization call to initialize settings
+    // finish it before it become visible
+    
+    Intent intent = getIntent();
+    if (intent.getBooleanExtra(EXTRA_INITIALIZE, false)) finish();
+    
     super.onStart();
   }
   
@@ -453,6 +472,18 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     }
   }
   
+  @Override
+  public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] granted) {
+    ManagePreferences.onRequestPermissionsResult(requestCode, permissions, granted);
+  }
+
+  @Override
+  protected Dialog onCreateDialog(int id, Bundle bundle) {
+    Dialog dlg = permMgr.onCreateDialog(id, bundle);
+    if (dlg != null) return dlg;
+    return super.onCreateDialog(id);
+  }
+
   /**
    * Set up location menu tree
    * @param resId resource ID of the preference screen to be constructed
@@ -581,11 +612,16 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
 
     outState.putString("WORKAROUND_FOR_BUG_19917_KEY", "WORKAROUND_FOR_BUG_19917_VALUE");
     super.onSaveInstanceState(outState);
-
-//    int orientation = Safe40Activity.getDisplayOrientation(this);
-    
-    //Lock the screen orientation to the current display orientation : Landscape or Portrait
-//    this.setRequestedOrientation(orientation);
-
+  }
+  
+  /**
+   * Create and destroy a settings screen, which has the effect of initializing 
+   * all settings to their default values 
+   * @param activity current activity
+   */
+  public static void initializePreferences(Activity activity) {
+    Intent intent = new Intent(activity, SmsPopupConfigActivity.class);
+    intent.putExtra(EXTRA_INITIALIZE, true);
+    activity.startActivity(intent);
   }
 }

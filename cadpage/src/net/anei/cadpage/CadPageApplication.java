@@ -31,14 +31,11 @@ public class CadPageApplication extends Application {
     getVersionInfo(this);
     try {
 
-      // Initialize billing manager
-      BillingManager.instance().initialize(this);
-
-      VendorManager.instance().setup(this);
-
-      ManagePreferences.setupPreferences(this);
-     
       UserAcctManager.setup(this);
+      BillingManager.instance().initialize(this);
+      VendorManager.instance().setup(this);
+      ManagePreferences.setupPreferences(this);
+      UserAcctManager.instance().reset();
       
       // Reload log buffer queue
       SmsMsgLogBuffer.setup(this);

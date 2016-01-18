@@ -1,4 +1,4 @@
-package net.anei.cadpage.donation;
+package net.anei.cadpage;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,13 +10,12 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 
 public class PermissionManager {
 
   // "Dangerous" permissions that must be granted at run time
   public static final String READ_PHONE_STATE = "android.permission.READ_PHONE_STATE";
+  public static final String READ_SMS = "android.permission.READ_SMS";
   public static final String GET_ACCOUNTS = "android.permission.GET_ACCOUNTS";
   public static final String BILLING = "android.vending.BILLING";
   public static final String ACCESS_FINE_LOCATION = "android.permission.ACCESS_FINE_LOCATION";
@@ -32,7 +31,6 @@ public class PermissionManager {
   public static final String CALL_PHONE = "android.permission.CALL_PHONE";
   
   // "Safe" permissions are autoamtically granted
-  private static final String READ_SMS = "android.permission.READ_SMS";
   private static final String WRITE_SMS = "android.permission.WRITE_SMS";
   private static final String WAKE_LOCK = "android.permission.WAKE_LOCK";
   private static final String DISABLE_KEYGUARD = "android.permission.DISABLE_KEYGUARD";
@@ -144,7 +142,7 @@ public class PermissionManager {
         missingPerms.add(permission);
         
         // If appropriate, construct a quick explanation of just why we need this permission
-        if (explainIds != null && ActivityCompat.shouldShowRequestPermissionRationale(activity, permission)) {
+        if (explainIds != null && Permissions.shouldShowRequestPermissionRationale(activity, permission)) {
           if (sb == null) {
             sb = new StringBuilder(activity.getString(R.string.need_permission_title));
             sb.append('\n');
@@ -162,7 +160,7 @@ public class PermissionManager {
     if (missingPerms.isEmpty()) return true;
     
     // Ask user for any missing permissions 
-    ActivityCompat.requestPermissions(activity, missingPerms.toArray(new String[missingPerms.size()]), requestId);
+    Permissions.requestPermissions(activity, missingPerms.toArray(new String[missingPerms.size()]), requestId);
     
     // If we constructed a text explanation of why we need the permission values
     // fire off a showDialog request to display it
@@ -220,8 +218,9 @@ public class PermissionManager {
    * @return true if permission has been granted
    */
   public static boolean isGranted(Context context, String permission) {
-    return ContextCompat.checkSelfPermission(context, permission) == PackageManager.PERMISSION_GRANTED;
+    return Permissions.isGranted(context, permission);
   }
+    
 
   /**
    * Add permission information to status message
