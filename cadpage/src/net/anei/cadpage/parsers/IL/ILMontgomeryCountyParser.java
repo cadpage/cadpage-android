@@ -4,7 +4,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 /**
- * Christian County, IL
+ * Montgomery County, IL
  */
 public class ILMontgomeryCountyParser extends DispatchEmergitechParser {
   

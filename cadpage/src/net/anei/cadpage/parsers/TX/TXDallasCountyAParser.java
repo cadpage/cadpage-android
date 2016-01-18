@@ -7,13 +7,13 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgParser;
 
 
-public class TXDallasCountyParser extends MsgParser {
+public class TXDallasCountyAParser extends MsgParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("CAD Message");
   private static final Pattern MASTER
     = Pattern.compile("From(.*?)CAD: +(\\d +Alarm +\\d\\d) +-(.*?):(.*?)\\bX-St\\b(.*?)\\bLoc\\b(.*?)\\bUnits\\b(.*?)\\bBox\\b(.*?)\\bMapsco\\b(.*?)\\bInc +(\\d{10}) +at (\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d:\\d\\d)");
   
-  public TXDallasCountyParser() {
+  public TXDallasCountyAParser() {
     super("DALLAS COUNTY", "TX");
     setFieldList("SRC PRI CALL ADDR X PLACE UNIT BOX MAP ID DATE TIME");
   }
