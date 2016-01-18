@@ -156,7 +156,11 @@ public class DispatchA5Parser extends FieldProgramParser {
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
-      if (field.endsWith("/")) field = field.substring(0,field.length()-1).trim();
+      field = stripFieldStart(field, "/");
+      field = stripFieldEnd(field, "/");
+      field = stripFieldStart(field, "and ");
+      field = stripFieldEnd(field, " and");
+      if (field.equals("and")) field = "";
       super.parse(field, data);
     }
   }

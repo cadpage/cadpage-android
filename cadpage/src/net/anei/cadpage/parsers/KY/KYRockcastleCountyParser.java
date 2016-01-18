@@ -13,6 +13,7 @@ public class KYRockcastleCountyParser extends DispatchA48Parser {
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!super.parseMsg(subject, body, data)) return false;
     data.strSource = data.strName;
+    data.strName = "";
     return true;
   }
   
