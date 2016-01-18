@@ -17,13 +17,15 @@ public class IDKootenaiCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "911alert@kcgov.us";
+    return "911alert@kcgov.us,777";
   }
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    body = stripFieldStart(body, "KOOTENAI COUNTY SHERIFF ");
+    body = stripFieldStart(body, "KOOTENAI COUNTY SHERIFF");
+    body = stripFieldStart(body, ":");
     int pt = body.indexOf("\nSent by CLI");
+    if (pt < 0) pt = body.indexOf("\n0000 Confirm");
     if (pt >= 0) body = body.substring(0,pt).trim();
     
     return parseFields(body.split("\n"), 5, data);
@@ -32,7 +34,7 @@ public class IDKootenaiCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new  MyAddressField();
-    if (name.equals("UNIT")) return new UnitField("(?!OPS)(?:[A-Z]|[A-Z]+\\d+[A-Z]*|[A-Z]*DOL[A-Z]*)");
+    if (name.equals("UNIT")) return new UnitField("(?!OPS)(?:\\d?[A-Z]|[A-Z]+\\d+[A-Z]*|[A-Z]*DOL[A-Z]*|\\d{1,4})", true);
     if (name.equals("CH")) return new MyChannelField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);

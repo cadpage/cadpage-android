@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class OHSummitCountyCParser extends SmartAddressParser {
   
   private static final Pattern SPACE_PTN = Pattern.compile("  +");
-  private static final Pattern MASTER = Pattern.compile("(EMS|FIRE|POL) +(\\d\\d-\\d{5}) +(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d:\\d\\d) +(.*?) +(?:between +(.*?) +)?>> *(.*?) *<< *(.*?) *(?:\\bMap: *(.*))?");
+  private static final Pattern MASTER = Pattern.compile("(EMS|FIRE|POL) +(\\d\\d-\\d{5}) +(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d:\\d\\d) +(.*?)(?: +between +(.*?) +)?(?:>> *(.*?) *)?<< *(.*?) *(?:\\bMap: *(.*))?");
 
   public OHSummitCountyCParser() {
     super("SUMMIT COUNTY", "OH");
@@ -27,7 +27,7 @@ public class OHSummitCountyCParser extends SmartAddressParser {
     Matcher match = MASTER.matcher(SPACE_PTN.matcher(body).replaceAll(" "));
     if (!match.matches()) return false;
     
-    data.strCall = append(match.group(1), " - ", match.group(7));
+    data.strCall = append(match.group(1), " - ", getOptGroup(match.group(7)));
     data.strCallId = match.group(2);
     data.strDate = match.group(3);
     data.strTime = match.group(4);
@@ -35,8 +35,8 @@ public class OHSummitCountyCParser extends SmartAddressParser {
     parseAddress(StartType.START_ADDR, addr, data);
     data.strApt = append(data.strApt, "-", getLeft());
     String cross = getOptGroup(match.group(6));
-    if (cross.startsWith("&")) cross = cross.substring(1).trim();
-    if (cross.endsWith("&")) cross = cross.substring(0,cross.length()-1).trim();
+    cross = stripFieldStart(cross, "&");
+    cross = stripFieldEnd(cross, "&");
     data.strCross = cross;
     data.strUnit = getOptGroup(match.group(8));
     data.strMap = getOptGroup(match.group(9));

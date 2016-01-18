@@ -1,7 +1,6 @@
 package net.anei.cadpage.parsers.OH;
 
 import java.util.Properties;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -22,6 +21,8 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
   public String getFilter() {
     return "Dispatch@smtp-server.Columbus.rr.com";
   }
+  
+  private static final Pattern END_TWP_RD_PTN = Pattern.compile(".*\\b(?:TWP|TWNSHI?P) RD|\\d+ +RD");
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -61,6 +62,12 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
       parseAddress(addr, data);
     }
     
+    // Township road number get misinterpreted as apartments and have to be fixed
+    if (data.strApt.length() > 0 && END_TWP_RD_PTN.matcher(data.strAddress).matches()) {
+      data.strAddress = data.strAddress + ' ' + data.strApt;
+      data.strApt = "";
+    }
+    
     // If Mutual aid got into address, move it to call
     if (data.strAddress.endsWith(" MA")) {
       data.strAddress = data.strAddress.substring(0, data.strAddress.length()-3).trim();
@@ -71,16 +78,24 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
     if (data.strCity.length() == 0) {
       parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, data.strSupp, data);
     }
+    if (data.strCity.endsWith(" CO")) data.strCity += "UNTY";
     
     return true;
   }
   
   private static final Properties GPS_LOOKUP_TABLE = buildCodeTable(new String[]{
-      "14991 OLD MANSFIELD RD",     "40.452370,-82.4874660",
-      "18069 FRED-AMITY RD",        "40.494719,-82.420060",
-      "13141 HYATT RD",             "40.459844,-82.508014",
-      "8938 OVERLY RD",             "40.499124,-82.570308"
- 
+      "12619 FRED-AMITY RD",                  "+40.487865,-82.514711",
+      "12731 FRED-AMITY RD",                  "+40.489436,-82.513234",
+      "12810 FRED-AMITY RD",                  "+40.488212,-82.512174",
+      "12842 FRED-AMITY RD",                  "+40.488442,-82.511037",
+      "18069 FRED-AMITY RD",                  "+40.494719,-82.420060",
+      "20624 FRED-AMITY RD",                  "+40.471702,-82.379257",
+      "8540 GREEN VALLEY RD",                 "+40.423647,-82.590949",
+      "9420 GREEN VALLEY RD",                 "+40.425096,-82.574815",
+      "13141 HYATT RD",                       "+40.459844,-82.508014",
+      "14991 OLD MANSFIELD RD",               "+40.452370,-82.487466",
+      "8938 OVERLY RD",                       "+40.499124,-82.570308"
+
   });
   
   private static final String[] CITY_LIST = new String[]{
@@ -88,6 +103,7 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
     "MOUNT VERNON",
     "MT VERNON",
 
+    "BRINKHAVEN",
     "CENTERBURG",
     "DANVILLE",
     "FREDERICKTOWN",
@@ -124,6 +140,9 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
     "HOWARD",
     "MOUNT LIBERTY",
     
+    // Morrow County
+    "CHESTERVILLE",
+    
     // Richland County
     "PERRY TWP",
     
@@ -135,11 +154,18 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
     
     // Counties
     "ASHLAND COUNTY",
+    "ASHLAND CO",
     "COSHOCTON COUNTY",
+    "COSHOCTON CO",
     "DELAWARE COUNTY",
+    "DELAWARE CO",
     "HOLEMS COUNTY",
+    "HOLEMS CO",
     "LICKING COUNTY",
+    "LICKING CO",
     "MORROW COUNTY",
-    "RICHLAND COUNTY"
+    "MORROW CO",
+    "RICHLAND COUNTY",
+    "RICHLAND CO"
   };
 }

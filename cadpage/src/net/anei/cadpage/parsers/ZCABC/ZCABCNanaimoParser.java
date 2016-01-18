@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA51Parser;
 /**
- * Nanaimo, BC, CA
+ * Nanaimo, BC, Canada
  */
 public class ZCABCNanaimoParser extends DispatchA51Parser {
   

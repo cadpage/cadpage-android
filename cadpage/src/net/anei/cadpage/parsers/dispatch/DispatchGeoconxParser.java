@@ -20,9 +20,22 @@ public class DispatchGeoconxParser extends FieldProgramParser {
    */
   public static final int GCX_FLG_NAME_PHONE = 2;
   
+  /**
+   * Flag indicating address field mah contain a leading place name
+   */
+  public static final int GCX_FLG_LEAD_PLACE = 4;
+  
+  /**
+   * Flag indicating address field may contain a trailing place name
+   * instead of a map field
+   */
+  public static final int GCX_FLG_TRAIL_PLACE = 8;
+  
   private Set<String> citySet;
   private boolean noSubject; 
   private boolean nameField;
+  private boolean leadPlace;
+  private boolean trailPlace;
   
   public DispatchGeoconxParser(String defCity, String defState) {
     this(null, defCity, defState, 0);
@@ -44,6 +57,8 @@ public class DispatchGeoconxParser extends FieldProgramParser {
     this.citySet = citySet;
     this.noSubject = (flags & GCX_FLG_EMPTY_SUBJECT_OK) != 0;
     this.nameField = (flags & GCX_FLG_NAME_PHONE) != 0;
+    this.leadPlace = (flags & GCX_FLG_LEAD_PLACE) != 0;
+    this.trailPlace = (flags & GCX_FLG_TRAIL_PLACE) != 0;
   }
   
   @Override
@@ -133,9 +148,11 @@ public class DispatchGeoconxParser extends FieldProgramParser {
         field = field.substring(0,match.start()).trim();
       }
       
-      int pt = field.indexOf(" - ");
+      int pt = field.indexOf("- ");
       if (pt >= 0) {
-        data.strMap = field.substring(pt+3).trim();
+        String  map = field.substring(pt+2).trim();
+        if (trailPlace) data.strPlace = map;
+        else data.strMap = map;
         field = field.substring(0,pt).trim();
       }
       
@@ -148,14 +165,14 @@ public class DispatchGeoconxParser extends FieldProgramParser {
       field = AT_PTN.matcher(field).replaceAll("&");
       
       
-      StartType st = (!nameField || noNameHere || data.strName.length() > 0 || data.strPlace.length() > 0 
-                        ? StartType.START_ADDR : StartType.START_PLACE);
+      StartType st = ((!nameField && !leadPlace) || noNameHere || data.strName.length() > 0 || data.strPlace.length() > 0 
+                      ? StartType.START_ADDR : StartType.START_PLACE);
       parseAddress(st, FLAG_IGNORE_AT | FLAG_ANCHOR_END, field, data);
       if (st == StartType.START_PLACE){ 
         if (data.strAddress.length() == 0) {
           data.strAddress = data.strPlace;
           data.strPlace = "";
-        } else if (!checkPlace(data.strPlace)){
+        } else if (!leadPlace && !checkPlace(data.strPlace)){
           data.strName = data.strPlace;
           data.strPlace = "";
         }

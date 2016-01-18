@@ -1,10 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01032016</string>
-  <string name="release_version">v1.9.01</string>
+  <string name="release_date">01182016</string>
+  <string name="release_version">v1.9.05</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.05\n
+New Locations:\n
+Montgomery County, IL\n
+Carroll County, KY (alt)\n
+Avoyelles Parish, LA\n
+Ottawa County, MI\n
+Wasaeca County, MN\n
+Benton County, MO\n
+Dallas County, TX (alt)\n
+\n
+Location Fixes:\n
+Klamath County, OR\n
+Hunt County, TX\n
+Novia Scotia, Canada\n
+\n
+v1.9.04\n
+New Locations:\n
+Annapolis County, NS (Canada)\n
+Hants County, NS (Canada)\n
+Kings County, NS (Canada)\n
+\n
+Location Fixes:\n
+Reno County, KS\n
+Charles County, MD\n
+Summit County, OH\n
+\n
+v1.9.03\n
+New Locations:\n
+Etowah County, AL\n
+\n
+Location Fixes:\n
+Shelby County, AL\n
+El Paso County, CO\n
+Kootenai County, ID\n
+Prince Georges County, MD\n
+Northumberland County, PA\n
+Wyoming County, PA\n
+Red Deer County, AB (Canada)\n
+\n
+v1.9.02\n
+Location Fixes:\n
+Hamilton County, IN\n
+Johnson County, MO\n
+Highland County, OH\n
+Knox County, OH\n
+\n      
 v1.9.01\n
 Location Fixes:\n
 Placer County, CA\n
@@ -25,66 +71,7 @@ Monroe County, PA\n
 Orangeburg County, SC\n
 Cy Creek Comm Center, TX\n
 Prince George County, VA\n
-Walla Walla County, WA\n
-\n
-v1.8.87\n
-New Locations:\n
-Thornton, CO\n
-Baltimore, MD\n
-Cottonwood County, MN\n
-Adair County, MN\n
-Boone County, IN (alt)\n
-Brown County, IN\n
-Bowling Green, KY\n
-Hardin County, KY (alt)\n
-Morris County, NJ (alt)\n
-Meigs County, OH\n
-Montgomery County, OH (alt)\n
-Preble County, OH\n
-Lane County, OR (alt)\n
-Powhatan County, VA\n
-Walworth County, WI\n
-\n
-Location Fixes:\n
-Mobile County, AL\n
-Monterey County, CA\n
-Larimer Couty, CO\n
-Albany County, NY\n
-Berks County, PA\n
-Wyoming County, PA\n
-\n
-v1.8.86\n
-Location Fixes:\n
-Loudoun County, VA\n
-Stanton, VA\n
-\n
-v1.8.85\n
-Location Fixes:\n
-San Diego County, CA\n
-Daviess County, KY\n
-Washtenaw County, MI\n
-Northampton County, PA\n
-Darlington County, SC\n
-Rusk County, TX\n
-Botetourt County, VA\n
-Franklin County, VA\n
-\n
-v1.8.84\n
-New Locations:\n
-Montezuma County, CO\n
-Vermillion County, IN\n
-Andrew County, MO\n
-Dona Ana County, NM (alt)\n
-Fond Du Lac County, WI\n
-\n
-Location Fixes:\n
-Garfield County, CO\n
-Charlotte County, FL\n
-Hardin County, KY\n
-Charles County, MO\n
-Pulaski County, MO\n
-Clarion County, PA\n
-Georgetown County, SC
+Walla Walla County, WA
   </string>
 </resources>
   

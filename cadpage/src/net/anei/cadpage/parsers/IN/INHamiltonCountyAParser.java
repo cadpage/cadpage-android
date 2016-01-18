@@ -11,7 +11,7 @@ public class INHamiltonCountyAParser extends FieldProgramParser {
  
   public INHamiltonCountyAParser() {
     super("HAMILTON COUNTY", "IN",
-           "Unit:SKIP? Status:DISPATCHED? Location:ADDR/SXa! Quad:MAP! Units:UNIT! Type:CALL Narr:INFO CFS:ID Coord:GPS Venue:CITY Inc_#:ID");
+           "Unit:SKIP? Status:STATUS? Location:ADDR/SXa! Quad:MAP! Units:UNIT! Type:CALL NOC:CALL/SDS  Narr:INFO CFS:ID Coord:GPS Venue:CITY Inc_#:ID");
   }
   
   @Override
@@ -29,6 +29,7 @@ public class INHamiltonCountyAParser extends FieldProgramParser {
     
     if (!subject.equals("CADPage")) return false;
     if (!super.parseMsg(body, data)) return false;
+    if (data.strCall.length() == 0) data.strCall = data.strCode;
     if (data.strCall.length() == 0) data.strCall = "ALERT";
     return true;
   }
@@ -44,7 +45,7 @@ public class INHamiltonCountyAParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("DISPATCHED")) return new SkipField("Dispatched", true);
+    if (name.equals("STATUS")) return new SkipField("Dispatched|Arrived", true);
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }

@@ -336,7 +336,8 @@ choyvp pynff GKUhgpuvafCnefreGrfg rkgraqf OnfrCnefreGrfg {
         " aserapu: k2 iru [06:11:49]",
 
         "PNYY:SQ ZHGHNY NVQ NZOHYNAPR GB BGURE PVGL",
-        "NQQE:F V 45",
+        "NQQE:F VU 45",
+        "ZNQQE:F V 45",
         "VASB:k2 iru",
         "GVZR:06:11:49");
 
@@ -509,7 +510,8 @@ choyvp pynff GKUhgpuvafCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:SQ ZRQVPNY RZRETRAPL",
         "CYNPR:Zbgry 6",
-        "NQQE:110 F V 45",
+        "NQQE:110 F VU 45",
+        "ZNQQE:110 F V 45",
         "PVGL:Uhgpuvaf",
         "K:R Jvagreterra Eq/Qbjql Sreel Eq",
         "OBK:78R2",
@@ -647,7 +649,8 @@ choyvp pynff GKUhgpuvafCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G39",
         "(SQ TENFF SVER) \aSQ TENFF SVER\a--  F VU-45, \a//\a Sver Obk = \a \aznaqenqr: tenff sver   [17:38:11]",
         "PNYY:SQ TENFF SVER",
-        "NQQE:F V 45",
+        "NQQE:F VU 45",
+        "ZNQQE:F V 45",
         "VASB:tenff sver",
         "GVZR:17:38:11");
 
@@ -721,7 +724,8 @@ choyvp pynff GKUhgpuvafCnefreGrfg rkgraqf OnfrCnefreGrfg {
         " wnysbeq: BHGFVQR YNAR BS GENSSVP, ORGJRRA UJL NAQ FEI EQ [07:41:46]",
 
         "PNYY:SQ TENFF SVER",
-        "NQQE:1799 F V 45",
+        "NQQE:1799 F VU 45",
+        "ZNQQE:1799 F V 45",
         "PVGL:Uhgpuvaf",
         "K:R Jvagreterra Eq/Qbjql Sreel Eq",
         "OBK:78R2",
@@ -860,7 +864,8 @@ choyvp pynff GKUhgpuvafCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G54",
         "(SQ ZRQVPNY RZRETRAPL) \aSQ ZRQVPNY RZRETRAPL\a--  R VU-20, \a//\a Sver Obk = \a wnysbeq: ZNWBE NPPVQRAG [15:59:10]",
         "PNYY:SQ ZRQVPNY RZRETRAPL",
-        "NQQE:R V 20",
+        "NQQE:R VU 20",
+        "ZNQQE:R V 20",
         "VASB:ZNWBE NPPVQRAG",
         "GVZR:15:59:10");
 
@@ -962,7 +967,8 @@ choyvp pynff GKUhgpuvafCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:SQ CHOYVP NFFVFG",
         "CYNPR:Ybir'f Geniry Pragre",
-        "NQQE:2500 F V 45",
+        "NQQE:2500 F VU 45",
+        "ZNQQE:2500 F V 45",
         "PVGL:Uhgpuvaf",
         "K:Shytuhz Eq/R Jvagreterra Eq",
         "OBK:78R2",

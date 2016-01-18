@@ -17,6 +17,8 @@ TXGainesville (Cooke County)
 TXRoanoke (Denton County)
 TXSeabrook (Harris County)
 TXSeguin (Guadalupe COunty)
+TXDallasCounty
+
  */
 
 public class DispatchA18Parser extends FieldProgramParser {
@@ -53,6 +55,7 @@ public class DispatchA18Parser extends FieldProgramParser {
   }
 
   private static final Pattern PLACE_PTN = Pattern.compile("-(.*[^ ])- +(.*)");
+  private static final Pattern REMOVE_DASH_PTN = Pattern.compile("\\b(IH?|ST|RT|HWY)-\\d+");
   private static final Pattern DELIM_PTN = Pattern.compile("[-/,]");
   private static final Pattern BOX_PTN = Pattern.compile("^BOX *(\\d+)", Pattern.CASE_INSENSITIVE);
   private static final Pattern DIR_PTN = Pattern.compile("([NSEW]|NORTH|SOUTH|EAST|WEST)\\b *", Pattern.CASE_INSENSITIVE);
@@ -78,6 +81,15 @@ public class DispatchA18Parser extends FieldProgramParser {
       
       // Split up the address field
       field = field.replace('@', '&');
+      Matcher match = REMOVE_DASH_PTN.matcher(field);
+      if (match.find()) {
+        StringBuffer sb = new StringBuffer();
+        do {
+          match.appendReplacement(sb, match.group().replace('-', ' '));
+        } while (match.find());
+        match.appendTail(sb);
+        field = sb.toString();
+      }
       String[] parts = DELIM_PTN.split(field);
       
       // And try to extract a city from the last fragment
@@ -107,7 +119,7 @@ public class DispatchA18Parser extends FieldProgramParser {
         
         else {
           
-          Matcher match = BOX_PTN.matcher(part);
+          match = BOX_PTN.matcher(part);
           if (match.find()) {
             data.strAddress = data.strAddress + ", Box " + match.group(1);
             part = part.substring(match.end()).trim();

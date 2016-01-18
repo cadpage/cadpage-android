@@ -28,6 +28,13 @@ This is also where you would add your own, "I am not responding, please go away"
 
 Have a nice day,
 -Ken
+**************************************************************************
+Not receiving runs/ calls, pages
+
+Are dispatch alerts showing up in your message inbox?  If not then you need to talk to someone in your department about getting their alerts sent to you.
+
+If they are, can you use the "Email the Developer" setting to send us a new support email right after Cadpage fails to pick up an alert?
+
 
 **************************************************************************
 * Android Anti-virus rant
@@ -553,9 +560,7 @@ Go to Cadpage settings and press Payment Status, then press "Recalculate Payment
 
 Please let us know if you ever have any problems with Cadpage.
 
-Thanks so much for your support, and
-Have a Safe and Joyous Holiday Season!
-
+Thanks so much for your support, 
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -579,9 +584,7 @@ Go to Cadpage settings and press Payment Status, then press "Recalculate Payment
 
 You no longer need the authorization code I gave you previously.
 
-Thanks so much for your support, and 
-Have a Safe and Joyous Holiday Season!
-
+Thanks so much for your support, 
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -673,9 +676,7 @@ Please: Go to Cadpage settings and press Payment Status, then press "Recalculate
 
 Positive reviews from free Cadpage subscribers are much appreciated. There is an item toward the bottom of the Settings menu that gets you started on writing a Cadpage review.
 
-Take care, and 
-Have a Safe and Joyous New Year!
-
+Take care, 
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -688,9 +689,7 @@ Please: Go to Cadpage settings and press Payment Status, then press "Recalculate
 
 Positive reviews from free Cadpage subscribers are much appreciated. There is an item toward the bottom of the Settings menu that gets you started on writing a Cadpage review.
 
-Take care, and
-Have a Safe and Joyous New Year!
-
+Take care,
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -718,7 +717,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-NPYZCSFA or npyzcsfa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+JRRQQZCA or jrrqqzca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support, 
 Jean ~ Cadpage Administrator
@@ -741,9 +740,7 @@ Is it possible that you or your department have paid for an account with Active9
 
 We are very grateful for all contributions and apologize for any complications.
 
-Take care, and
-Have a Safe and Joyous New Year!
-
+Take care,
 Jean ~ Cadpage Administrator
 
 *********************************************************************
@@ -814,6 +811,7 @@ Have a nice day,
 
 I found your Google Play Store payment record of ______.  However, your Cadpage User email address has changed.  I have updated your account with your current email address.
 
+Please: 
 Go into Cadpage settings, press Payment Status and then Recalculate Payment Status. This reloads your payment status from the market which will usually fix things.
 
 If that fails, please contact us again using the Cadpage app.  Go to Settings, select Email the Developer and include the configuration information. 
@@ -895,6 +893,7 @@ $10 per year is way out of line for what you normally expect to pay for a genera
 
 It is unfortunate that we have to ask people already volunteering so much time and energy to pay us for a cool app.  The reality is that maintaining and continually developing Cadpage is more than a full time job. We have to pay our bills somehow, and Google takes their share.
 
+The yearly cost is maintenance for the app. There are dispatch centers out there that change their message formats; upgrades to Google maps; upgrades to Android systems; upgrades to Android phones. Cadpage is an extremely high maintenance app. We put out weekly releases to try and keep up.
 Most of 
 Our policy for free subscriptions is based on hardship, not on being a volunteer.  Both my husband and I are volunteers with our local fire department, so we understand the time, expense and effort involved. 
 
@@ -910,9 +909,7 @@ In the interest of helping communities, we offer a  number of approved ways to r
 
 4) There is an old unsupported version of Cadpage available on the Cadpage download page at http://www.cadpage.org/download-cadpage.  This version will not bug you about paying for it.
 
-Take care, and 
-Have a Safe and Joyous New Year!
-
+Take care, 
 Jean ~ Cadpage Administrator
 
 ******************************************************************
@@ -3062,9 +3059,7 @@ If things still do not work, or if generated test messages do not make
 it to your device, use the Email the Developer feature to send us
 another email.
 
-Take care, and 
-Have a Safe and Joyous New Year!
-
+Take care, 
 Jean ~ Cadpage Administrator
 
 ********************************************************************************
@@ -4033,6 +4028,27 @@ If you have any questions, or if there is anything you would like to see added t
 
 Have a great day,
 -Ken
+
+**************************************************************************
+* Old Cadpage users - equivalent functionality
+**************************************************************************
+Hi Folks,
+
+We have been reaching out to Cadpage users that we haven't heard from for a while, partly to see how Cadpage is working for you now. And if your department is one of many that have since switched to using Active911, we want to make sure everyone knows that Cadpage can be used with the Active911 service instead of, or in addition to the Android Active911 app. There is no additional charge for using Cadpage in this manner.
+
+We do have some features that the Active911 app still lacks -- more flexible notification options, for example.  Some users like the simpler interface.  Message alerts may be a bit more reliable.  But the basic functionality will probably be about the same as the Active911 app.
+
+If you are not currently using Cadpage and would like to try it. You can install Cadpage from the Google Play Store. Then open Cadpage settings and select
+Direct Paging Vendors > Active911 > Register
+You then have to enter the same Active911 device activation code that you used to register the Active911 app.
+
+Once you do this, Active911 alerts will be picked up by Cadpage and will not be sent to the Active911 app. If you launch the Active911 app manually, it will query their servers and update the displayed call history after a few seconds.
+
+If you have any questions, or if there is anything you would like to see added to the Cadpage feature set, by all means feel free to contact us.
+
+Have a great day,
+-Ken
+
 **************************************************************************
 trouble paying through Google
 

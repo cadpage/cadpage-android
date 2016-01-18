@@ -25,6 +25,10 @@ Pbagnpg: Yneel Fvzzf <yyfvzzf@ebnqehaare.pbz>
 Fraqre: 911nyreg@xptbi.hf
 1 bs 3\aSEZ:911nyreg@xptbi.hf\aZFT:UNHF\e\aOERNGUVAT QVSS\e\a38151 J TBFFNZRE PG,UNH\e\aTJ7P\e\aN71\e\aBCF1 \e\a76 LB SRZ  QYBP  YNOBERQ OERNGUVAT   UBG\a(Pba'g) 2 bs 3\aFJRNGL RNEYVRE NAQ ABJ IREL PBYQ\e\aHAQRE SVATRE ANVYF UNF N OVG BS OYHR GVATR\e\aPNYYONPX=(509)487-4123 YNG=+47.746260 YBA=-117.021689\a(Pba'g) 3 bs 3\aHAP=11\e\aCG(Raq)
 
+Pbagnpg: W. Oenaqry <grezvgr03@tznvy.pbz>
+Fraqre: 777
+XBBGRANV PBHAGL FUREVSS: XPFQ\aPVGVMRA NFFVFG\a3380 A WHYVN FG,PQN\a8\a2303\a\aGRFG BAYL\a0000 Pbasvez\a0001 Ershfr
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Abegurea Ynxrf Sver Qvfgevpg
 Ybpngvba: Unlqra, VQ, Havgrq Fgngrf
@@ -358,6 +362,20 @@ choyvp pynff VQXbbgranvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CUBAR:(509)487-4123",
         "TCF:+47.746260,-117.021689");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWOenaqry() {
+
+    qbGrfg("G1",
+        "XBBGRANV PBHAGL FUREVSS: XPFQ\aPVGVMRA NFFVFG\a3380 A WHYVN FG,PQN\a8\a2303\a\aGRFG BAYL\a0000 Pbasvez\a0001 Ershfr",
+        "FEP:XPFQ",
+        "PNYY:PVGVMRA NFFVFG",
+        "NQQE:3380 A WHYVN FG",
+        "PVGL:PBRHE Q'NYRAR",
+        "HAVG:8 2303",
+        "VASB:GRFG BAYL");
+
   }
 
   @Grfg

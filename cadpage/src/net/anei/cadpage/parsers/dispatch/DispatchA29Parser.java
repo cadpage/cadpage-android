@@ -45,6 +45,7 @@ public class DispatchA29Parser extends SmartAddressParser {
     }
     
     // Reduce multiple slashes to single slash
+    body = body.replace('\n', '/');
     body = MULT_SLASH_PTN.matcher(body).replaceAll("/");
     
     // Now things get complicated.

@@ -346,7 +346,8 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern INFO_GPS_PTN = Pattern.compile("([-+]?\\d{1,3}\\.\\d{6}) *([-+]?\\d{1,3}\\.\\d{6})(?:CF=\\d+%)?(?:CALLBK=(\\(\\d{3}\\)\\d{3}-\\d{4}))?|CNF=\\d*UNC=\\d*");
+  private static final Pattern INFO_GPS_PTN1 = Pattern.compile("([-+]?\\d{1,3}\\.\\d{6}) *([-+]?\\d{1,3}\\.\\d{6})(?:CF=\\d+%)?(?:CALLBK=(\\(\\d{3}\\)\\d{3}-\\d{4}))?|CNF=\\d*UNC=\\d*");
+  private static final Pattern INFO_GPS_PTN2 = Pattern.compile("ALT#=([- 0-9]+) X=([-+]?\\d+\\.\\d+) Y=([-+]?\\d+\\.\\d+) (?:AT&T )?[A-Z]+ *");
   private class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
@@ -356,7 +357,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
       // all blanks out of the field first, then doign our pattern check, then
       // counting how many non-blank characters need to be removed from the front
       // of the field :(
-      Matcher match = INFO_GPS_PTN.matcher(field.replace(" ", ""));
+      Matcher match = INFO_GPS_PTN1.matcher(field.replace(" ", ""));
       if (match.lookingAt()) {
         if (match.group(1) != null) {
           setGPSLoc(match.group(1)+','+match.group(2), data);
@@ -370,6 +371,18 @@ public class DispatchEmergitechParser extends FieldProgramParser {
         }
         while (pos < field.length() && field.charAt(pos) == ' ') pos++;
         field = field.substring(pos).trim();
+      }
+      
+      // Thankfully, the extra space logic seems to be fading a way.  Haven't seen it in any recent Emergitech formats
+      // and with a bit of luck, we never will.  So we far we are not going to bother using it to check the second
+      // GPS format
+      else { 
+        match = INFO_GPS_PTN2.matcher(field);
+        if (match.lookingAt()) {
+          data.strPhone = match.group(1).trim();
+          setGPSLoc(match.group(2)+','+match.group(3), data);
+          field = field.substring(match.end());
+        }
       }
       super.parse(field, data);
     }

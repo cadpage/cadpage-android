@@ -12,7 +12,7 @@ public class MOFranklinCountyParser extends DispatchH01Parser {
   
   @Override
   public String getFilter() {
-    return "@franklinmo.net";
+    return "@franklinmo.net,@sbcglobal.net";
   }
   
   @Override
