@@ -102,6 +102,7 @@ choyvp pynff MPNAFNaancbyvfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G7",
         "13604 UVTUJNL 1, JVYZBG * ZHGHNY NVQ UBHFR SVER",
         "NQQE:13604 UVTUJNL 1",
+        "ZNQQE:13604 RINATRYVAR GENVY",
         "PVGL:JVYZBG",
         "PNYY:ZHGHNY NVQ UBHFR SVER");
 
@@ -137,6 +138,7 @@ choyvp pynff MPNAFNaancbyvfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G13",
         "14935 UVTUJNL 1, JVYZBG * IRUVPYR BA SVER",
         "NQQE:14935 UVTUJNL 1",
+        "ZNQQE:14935 RINATRYVAR GENVY",
         "PVGL:JVYZBG",
         "PNYY:IRUVPYR BA SVER");
 
@@ -191,6 +193,7 @@ choyvp pynff MPNAFNaancbyvfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G22",
         "14967 UVTUJNL 1, JVYZBG * PUVZARL SVER",
         "NQQE:14967 UVTUJNL 1",
+        "ZNQQE:14967 RINATRYVAR GENVY",
         "PVGL:JVYZBG",
         "PNYY:PUVZARL SVER");
 

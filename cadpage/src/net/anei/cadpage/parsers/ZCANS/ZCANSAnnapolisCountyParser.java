@@ -76,12 +76,16 @@ public class ZCANSAnnapolisCountyParser extends SmartAddressParser {
   }
   
   @Override
-  public String adjustMapAddress(String addr) {
+  public String adjustMapAddress(String addr, String city, boolean cross) {
     addr = INTERSECT_PTN.matcher(addr).replaceAll("&");
+    if (city.equalsIgnoreCase("WILMOT")) {
+      addr = HWY1_PTN.matcher(addr).replaceAll("EVANGELINE TRAIL");
+    }
     return super.adjustMapAddress(addr);
   }
   
   private static final Pattern INTERSECT_PTN = Pattern.compile("\\bAT (?:THE )?INTERSECTION OF\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern HWY1_PTN = Pattern.compile("\\b(?:HWY|HIGHWAY) +1\\b", Pattern.CASE_INSENSITIVE);
   
   private static final CodeSet CALL_LIST = new CodeSet(
       "2 VEHICLE MVA",
