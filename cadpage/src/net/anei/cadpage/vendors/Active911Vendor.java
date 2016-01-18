@@ -666,6 +666,7 @@ class Active911Vendor extends Vendor {
       "US/NC/AlexanderCounty",            "NCAlexanderCounty",
       "US/NC/AlleghanyCounty",            "NCAlleghanyCounty",
       "US/NC/BeaufortCounty",             "NCBeaufortCounty",
+      "US/NC/BladenCounty",               "NCBladenCounty",
       "US/NC/BrunswickCounty",            "NCBrunswickCounty",
       "US/NC/BuncombeCounty",             "NCBuncombeCounty",
       "US/NC/CabarrusCounty",             "NCCabarrusCounty",
