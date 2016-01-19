@@ -67,6 +67,9 @@ Ntrapl anzr: Cyrnfnag Inyyrl SQ
 Ybpngvba: Sbeg Zvyy, FP, Havgrq Fgngrf
 Fraqre: <qvfcngpu@ynap911.pbz>
 
+{Vapvqrag Abgvsvpngvba} 1/8/2016 12:51:49 CZ\e\aUNEEVFOHET EQ@ TNAG EQ , VAQVNA YNAQ\e\a\e\aFgn 14 (462)\e\a\e\aAb Pebff Fgerrgf Sbhaq\e\aZIN-VawhevrfFGN14,RZF8\e\a\e\aRZF8, FGN14
+{Vapvqrag Abgvsvpngvba} 12/30/2015 2:29:45 NZ\e\aUNEEVFOHET EQ@ ERTRAG CXJL , VAQVNA YNAQ\e\a\e\aFgn 14 (462)\e\a\e\aAb Pebff Fgerrgf Sbhaq\e\aZIN-VawhevrfFGN14,RZF4\e\a\e\aRZF4, FGN14\e\aHAXABJA BA VAWHEVRF\e\aPNA FRR FBZRBAR CHYYVAT HC
+{Vapvqrag Abgvsvpngvba} 12/25/2015 12:46:33 CZ\e\aJNKUNJ UJL@ NAQRE IVAPRAG EQ , YNAPNFGRE\e\a\e\aFgn 10 (457)\e\a\e\aAb Pebff Fgerrgf Sbhaq\e\aZIN RkgevpngvbaFGN14\e\a\e\aRZF10, RZF2, RZF4, RZF8, VY1001, VY1021, FGN14, 103, 107, JrfyrlPuncrySQ, 111, 113Gnp 1\e\aCBFFVOYR RAGENCZRAG\e\aNPGHNYYL BA UJL 75\e\a2 IRUVPYRF\e\a2 FHWORPG..
 {Vapvqrag Abgvsvpngvba} 12/9/2015 9:10:09 CZ\a785 SBEG ZVYY UJL, VAQVNA YNAQ\aPNEQVANY URNYGUPNER CYNAG\aFgn 14 (461)\a\aZNPZVYYNA CNEX QE / OYNPXNFU EQ\aZIN-VawhevrfFGN14,RZF4\a\aRZF4, FGN14\aQBJA GUR FGERRG GBJNEQF SG ZVYY\aONPX CNVA\aGJB IRUVPYRF VAIB{Vapvqrag Abgvsvpngvba} 12/9/2015 9:10:09 CZ\a785 SBEG ZVYY UJL, VAQVNA YNAQ\aPNEQVANY URNYGUPNER CYNAG\aFgn 14 (461)\a\aZNPZVYYNA CNEX QE / OYNPXNFU EQ\aZIN-VawhevrfFGN14,RZF4\a\aRZF4, FGN14\aQBJA GUR FGERRG GBJNEQF SG ZVYY\aONPX CNVA\aGJB IRUVPYRF VAIB..
 {Vapvqrag Abgvsvpngvba} 12/7/2015 7:03:21 CZ\a10048 PUNEYBGGR UJL, VAQVNA YNAQ\aJNYZNEG PUNEYBGGR UJL\aFgn 14 (461)\a\aZRQVNA ZRQVNA / ZRQVNA ZRQVNA\aZIN RkgevpngvbaFGN14,RZF4,RZF9\a\aRZF4, RZF9, FGN14\aGUERR PNE CVYR HC\aFBHGUOBHAQ YNARF
 {Vapvqrag Abgvsvpngvba} 12/7/2015 5:58:00 NZ\a1000 QENTBA JNL PBHEG\a\a\a\a\aZhghny NvqFGN14\a\aFGN10, FGN14\aFGN 10\aSVER nynez\aQBOLF OEVQTR RYRZRAGEL\aLPSB2
@@ -1023,6 +1026,70 @@ choyvp pynff FPYnapnfgrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgCyrnfnagInyyrlSQ() {
+
+    qbGrfg("K1",
+        "{Vapvqrag Abgvsvpngvba} 1/8/2016 12:51:49 CZ\e\a" +
+        "UNEEVFOHET EQ@ TNAG EQ , VAQVNA YNAQ\e\a" +
+        "\e\a" +
+        "Fgn 14 (462)\e\a" +
+        "\e\a" +
+        "Ab Pebff Fgerrgf Sbhaq\e\a" +
+        "ZIN-VawhevrfFGN14,RZF8\e\a" +
+        "\e\a" +
+        "RZF8, FGN14",
+
+        "QNGR:1/8/2016",
+        "NQQE:UNEEVFOHET EQ & TNAG EQ",
+        "PVGL:VAQVNA YNAQ",
+        "ZPVGL:SBEG ZVYY",
+        "OBK:Fgn 14 (462)",
+        "PNYY:ZIN-Vawhevrf",
+        "HAVG:RZF8,FGN14");
+
+    qbGrfg("K2",
+        "{Vapvqrag Abgvsvpngvba} 12/30/2015 2:29:45 NZ\e\a" +
+        "UNEEVFOHET EQ@ ERTRAG CXJL , VAQVNA YNAQ\e\a" +
+        "\e\a" +
+        "Fgn 14 (462)\e\a" +
+        "\e\a" +
+        "Ab Pebff Fgerrgf Sbhaq\e\a" +
+        "ZIN-VawhevrfFGN14,RZF4\e\a" +
+        "\e\a" +
+        "RZF4, FGN14\e\a" +
+        "HAXABJA BA VAWHEVRF\e\a" +
+        "PNA FRR FBZRBAR CHYYVAT HC",
+
+        "QNGR:12/30/2015",
+        "NQQE:UNEEVFOHET EQ & ERTRAG CXJL",
+        "PVGL:VAQVNA YNAQ",
+        "ZPVGL:SBEG ZVYY",
+        "OBK:Fgn 14 (462)",
+        "PNYY:ZIN-Vawhevrf",
+        "HAVG:RZF4,FGN14",
+        "VASB:HAXABJA BA VAWHEVRF\aPNA FRR FBZRBAR CHYYVAT HC");
+
+    qbGrfg("K3",
+        "{Vapvqrag Abgvsvpngvba} 12/25/2015 12:46:33 CZ\e\a" +
+        "JNKUNJ UJL@ NAQRE IVAPRAG EQ , YNAPNFGRE\e\a" +
+        "\e\a" +
+        "Fgn 10 (457)\e\a" +
+        "\e\a" +
+        "Ab Pebff Fgerrgf Sbhaq\e\a" +
+        "ZIN RkgevpngvbaFGN14\e\a" +
+        "\e\a" +
+        "RZF10, RZF2, RZF4, RZF8, VY1001, VY1021, FGN14, 103, 107, JrfyrlPuncrySQ, 111, 113Gnp 1\e\a" +
+        "CBFFVOYR RAGENCZRAG\e\a" +
+        "NPGHNYYL BA UJL 75\e\a" +
+        "2 IRUVPYRF\e\a" +
+        "2 FHWORPG..",
+
+        "QNGR:12/25/2015",
+        "NQQE:JNKUNJ UJL & NAQRE IVAPRAG EQ",
+        "PVGL:YNAPNFGRE",
+        "OBK:Fgn 10 (457)",
+        "PNYY:ZIN Rkgevpngvba",
+        "HAVG:RZF10,RZF2,RZF4,RZF8,VY1001,VY1021,FGN14,103,107,JrfyrlPuncrySQ,111,113Gnp1",
+        "VASB:CBFFVOYR RAGENCZRAG\aNPGHNYYL BA UJL 75\a2 IRUVPYRF\a2 FHWORPG..");
 
     qbGrfg("G1",
         "{Vapvqrag Abgvsvpngvba} 12/9/2015 9:10:09 CZ\a" +
