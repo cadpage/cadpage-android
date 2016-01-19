@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYRocklandCountyCParser extends FieldProgramParser {
   
-  private static Pattern MARKER = Pattern.compile("ACR# +(\\d+) / +");
+  private static Pattern MARKER = Pattern.compile("(?:/ )?ACR# +(\\d+) / +");
   
   public NYRocklandCountyCParser() {
     super("ROCKLAND COUNTY", "NY",
