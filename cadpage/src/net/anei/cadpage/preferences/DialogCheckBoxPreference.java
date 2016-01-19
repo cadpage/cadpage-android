@@ -26,17 +26,5 @@ public class DialogCheckBoxPreference extends CheckBoxPreference {
   @Override
   protected void onClick() {
     super.onClick();
-    // We don't need this popup as we hope to have higher priority and avoid local sms notifications
-    /* if (isChecked()) {
-      new AlertDialog.Builder(context)
-        .setIcon(android.R.drawable.ic_dialog_alert)
-        .setTitle(context.getString(R.string.pref_notif_title))
-        .setMessage(context.getString(R.string.pref_notif_enabled_warning))
-        .setPositiveButton(android.R.string.ok, null)
-        .show();
-    } else {
-      ManageNotification.clearAll(context);
-      ReminderReceiver.cancelReminder(context);
-     }
- */ }
+  }
 }

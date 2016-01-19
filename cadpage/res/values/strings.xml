@@ -49,10 +49,10 @@
    <string name="pref_enabled_summaryoff">Cadpage is disabled</string>
    
    <string name="pref_enable_msg_type_title">Message type processed</string>
-   <string name="pref_enable_msg_type_summary">Cadpage will process\n%s</string>
+   <string name="pref_enable_msg_type_summary">Cadpage will process\n%%s</string>
    
    <string name="pref_mms_timeout_title">MMS download timeout</string>
-   <string name="pref_mms_timeout_summary">MMS content download time limit\nCur value:%s min</string>
+   <string name="pref_mms_timeout_summary">MMS content download time limit\nCur value:%%s min</string>
 
    <string name="pref_about_title">About</string>
    <string name="pref_about_summary">About Cadpage</string>
@@ -84,10 +84,10 @@
    <string name="pref_additional_summary">Additional Cadpage configuration</string>
 
    <string name="pref_notif_timeout_title">Alert Duration</string>
-   <string name="pref_notif_timeout_summary">Alert notification will stop after this time.  Cur value: %s</string> 
+   <string name="pref_notif_timeout_summary">Alert notification will stop after this time.  Cur value: %%s</string> 
    
    <string name="pref_timeout_title">Screen Timeout</string>
-   <string name="pref_timeout_summary">The screen stay on for this time.  Cur value: %s</string>
+   <string name="pref_timeout_summary">The screen stay on for this time.  Cur value: %%s</string>
    
    <string name="pref_dimscreen_title">Dim Popup Screen</string>
    <string name="pref_dimscreen_summaryon">Popup screen will be dim (saves battery)</string>
@@ -128,7 +128,7 @@
    <string name="pref_notif_sound_summary">This sound will play when a message is received</string>
 
    <string name="pref_notif_delay_title">Alert Delay</string>
-   <string name="pref_notif_delay_summary">Cadpage alert will be delayed by: Cur value: %s </string>
+   <string name="pref_notif_delay_summary">Cadpage alert will be delayed by: Cur value: %%s </string>
    <string name="pref_notif_delay_dialogTitle">Alert delay period (seconds)</string>
    
    <string name="pref_vibrate_title">Vibrate</string>
@@ -136,7 +136,7 @@
    <string name="pref_vibrate_summaryoff">Vibrate is off</string>
 
    <string name="pref_vibrate_pattern_title">Vibrate Pattern</string>
-   <string name="pref_vibrate_pattern_summary">Set the vibration pattern.  Cur value: %s</string>
+   <string name="pref_vibrate_pattern_summary">Set the vibration pattern.  Cur value: %%s</string>
    <string name="pref_vibrate_pattern_ok">Custom vibrate pattern set</string>
    <string name="pref_vibrate_pattern_bad">Custom vibrate pattern invalid</string>
    <string name="pref_vibrate_pattern_help">Enter a custom vibrate pattern, in the format:\nmillisOff, millisOn, etc.\n\nFor example:\n0,1000\n0,500,200,500,200,500</string>
@@ -148,7 +148,7 @@
    <string name="pref_flashled_summaryoff">Do not blink LED when a message is received</string>
    
    <string name="pref_flashled_color_title">LED Color</string>
-   <string name="pref_flashled_color_summary">The color of the LED.  Cur value: %s</string>
+   <string name="pref_flashled_color_summary">The color of the LED.  Cur value: %%s</string>
       <string name="pref_flashled_color_custom_dialog_red">Red:</string>
    <string name="pref_flashled_color_custom_dialog_green">Green:</string>
    <string name="pref_flashled_color_custom_dialog_blue">Blue:</string>
@@ -156,7 +156,7 @@
    <string name="pref_flashled_color_custom_set">Custom LED color set</string>
 
    <string name="pref_flashled_pattern_title">LED Blink Rate</string>
-   <string name="pref_flashled_pattern_summary">Set the speed the LED blinks.  Cur value: %s</string>
+   <string name="pref_flashled_pattern_summary">Set the speed the LED blinks.  Cur value: %%s</string>
    <string name="pref_flashled_pattern_ok">Custom LED blink rate set</string>
    <string name="pref_flashled_pattern_bad">Custom LED blink rate is invalid</string>
    <string name="pref_flashled_pattern_help">Enter the time in milliseconds to turn the LED on and off</string>
@@ -164,7 +164,7 @@
    <string name="pref_flashled_pattern_help_off">Time off:</string>
 
    <string name="pref_notif_repeat_interval_title">Repeat Alert Interval</string>
-   <string name="pref_notif_repeat_interval_summary">Alert will repeat at this interval. Cur value: %s </string>
+   <string name="pref_notif_repeat_interval_summary">Alert will repeat at this interval. Cur value: %%s </string>
    <string name="pref_notif_repeat_interval_dialogTitle">Repeat Interval</string>
 
 <!-- Contact Notification Customization Strings -->
@@ -204,11 +204,11 @@
   <string name="pref_xtra_resp_button_config_title">Regular Buttons </string>
   
   <string name="pref_resp_type_title">Response Type</string>
-  <string name="pref_resp_type_summary">Response buttons trigger: %s</string>
+  <string name="pref_resp_type_summary">Response buttons trigger: %%s</string>
   <string name="pref_resp_merge_title">Direct paging message menu</string>
-  <string name="pref_resp_merge_summary">Direct page vendor message menus will be\n%s</string>
+  <string name="pref_resp_merge_summary">Direct page vendor message menus will be\n%%s</string>
 
-  <string name="pref_button_summary">Current Setting: %s</string>
+  <string name="pref_button_summary">Current Setting: %%s</string>
   <string name="pref_button1_title">Button 1 Configuration</string>
   <string name="pref_button2_title">Button 2 Configuration</string>
   <string name="pref_button3_title">Button 3 Configuration</string>
@@ -240,13 +240,13 @@
   
   <!-- Other new prefs -->
   <string name="pref_map_network_chk_title">Map Network Status</string>
-  <string name="pref_map_network_chk_summary">Map request allowed when network status is %s</string>
+  <string name="pref_map_network_chk_summary">Map request allowed when network status is %%s</string>
   
   <string name="pref_gps_map_option_title">GPS Mapping Option</string>
-  <string name="pref_gps_map_option_summary">Use GPS coordinates for mapping: %s</string>
+  <string name="pref_gps_map_option_summary">Use GPS coordinates for mapping: %%s</string>
   
   <string name="pref_report_position_title">Report position when responding</string>
-  <string name="pref_report_position_summary">Report your current position when responding to calls: %s</string>
+  <string name="pref_report_position_summary">Report your current position when responding to calls: %%s</string>
 
   <string name="pref_lock_google_map_title">Only use Google mapping</string>
   <string name="pref_lock_google_map_summaryon">Google Map will be used for all map requests</string>
@@ -317,7 +317,7 @@
 
   <string name="pref_filter_title">From: (Filter)</string>
   <string name="pref_filter_summary">Only Messages from this address will be checked.
-    Cur value: %s</string>
+    Cur value: %%s</string>
   <string name="pref_filter_dialog">Enter Email address to filter messages. No entry
     will scan all. Use a , to separate multiple addresses.</string>
 
@@ -330,16 +330,16 @@
   <string name="pref_override_default_summaryoff">Use location default city/state</string>
 
   <string name="pref_defcity_title">Default City or County</string>
-  <string name="pref_defcity_summary">Cur value: %s</string>
+  <string name="pref_defcity_summary">Cur value: %%s</string>
   <string name="pref_defcity_dialog">Enter default city or county location</string>
 
   <string name="pref_defstate_title">Default State</string>
-  <string name="pref_defstate_summary">Cur value: %s</string>
+  <string name="pref_defstate_summary">Cur value: %%s</string>
   <string name="pref_defstate_dialog">Enter default state location</string>
 
   <string name="pref_loglimit_title">Message Report Limit</string>
   <string name="pref_loglimit_summary">
-      Number of messages to include in problem reports\nCur value: %s
+      Number of messages to include in problem reports\nCur value: %%s
   </string>
   
   <string name="pref_split_msg_merge_title">Split Alert Merge Options</string>
@@ -356,12 +356,12 @@
   <string name="pref_split_direct_page_summaryoff">Direct pages will be not checked for split alert messages</string>
   
   <string name="pref_msgtimeout_title">Split message timeout</string>
-  <string name="pref_msgtimeout_summary">Multi-message page timeout\nCur value: %s</string>
+  <string name="pref_msgtimeout_summary">Multi-message page timeout\nCur value: %%s</string>
   <string name="pref_msgtimeout_dialog">Maximum time in seconds to wait for rest of
     multi-message CAD pages</string>
 
   <string name="pref_split_min_msg_title">Split message min count</string>
-  <string name="pref_split_min_msg_summary">Minimum expected message count\nCur value: %s
+  <string name="pref_split_min_msg_summary">Minimum expected message count\nCur value: %%s
   </string>
 
   <string name="pref_split_blank_ins_title">Insert Blanks in Split msgs</string>
@@ -417,7 +417,7 @@
 
   <string name="pref_history_limit_title">Call History Limit</string>
   <string name="pref_history_limit_summary">Maximum number of calls to save in call history.
-    Cur value: %s</string>
+    Cur value: %%s</string>
 
   <!-- Message menu items -->
   <string name="open_item_text">Open</string>
@@ -484,9 +484,9 @@
   <string name="pref_filter_settings_title">Filter Settings</string>
   <string name="pref_filter_settings_summary">Options to specify special handling for certain types of alerts</string>
   <string name="pref_gen_alert_option_title">General Alert Options</string>
-  <string name="pref_gen_alert_option_summary">General alert processing\n%s</string>
+  <string name="pref_gen_alert_option_summary">General alert processing\n%%s</string>
   <string name="pref_run_report_option_title">Run Report Options</string>
-  <string name="pref_run_report_option_summary">Run report processing\n%s</string>
+  <string name="pref_run_report_option_summary">Run report processing\n%%s</string>
   
   <string name="pref_alert_option_normal">Normal processing</string>
   <string name="pref_alert_option_no_notice">No alert</string>
@@ -515,7 +515,7 @@
   <!-- Missing map page reader dialog -->
   <string name="missing_map_page_reader_title">Missing Map Page Reader</string>
   <string name="missing_map_page_reader_text">
-      %1$s is required to view these map pages.  Would you like to install %1$s now.
+      %%1$s is required to view these map pages.  Would you like to install %%1$s now.
   </string>
   <string name="missing_map_page_reader_adobe">Adobe Reader</string>
   
