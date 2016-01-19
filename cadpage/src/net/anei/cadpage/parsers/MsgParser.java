@@ -1006,6 +1006,18 @@ public abstract class MsgParser {
   * Perform any parser specific customizations involved in calculating a
   * map address
   * @param sAddress original map address
+  * @param city parsed city name
+  * @param cross true if we are adjusting a cross street instead of the main address
+  * @return customized map address
+  */
+ public String adjustMapAddress(String sAddress, String city, boolean cross) {
+   return adjustMapAddress(sAddress, cross);
+ }
+ 
+ /**
+  * Perform any parser specific customizations involved in calculating a
+  * map address
+  * @param sAddress original map address
   * @param cross true if we are adjusting a cross street instead of the main address
   * @return customized map address
   */

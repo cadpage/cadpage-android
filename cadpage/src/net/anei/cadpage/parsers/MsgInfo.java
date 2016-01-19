@@ -462,7 +462,7 @@ public class MsgInfo {
 
     // Perform any parser specific customizations
     String sAddr = strAddress;
-    if (parser != null) sAddr = parser.adjustMapAddress(sAddr, false);
+    if (parser != null) sAddr = parser.adjustMapAddress(sAddr, strCity, false);
     
     // Non-English addresses is beyond our capabilites at this point
     if (countryCode == CountryCode.SE) return sAddr;
@@ -511,7 +511,7 @@ public class MsgInfo {
         
         // Don't use DEAD END or like phrases
         if (!DEAD_END_PTN.matcher(sCross).matches()) {
-          if (parser != null) sCross = parser.adjustMapAddress(sCross, true);
+          if (parser != null) sCross = parser.adjustMapAddress(sCross, strCity, true);
           sCross = cleanParens(sCross);
           sCross = cleanStreetSuffix(sCross);
           sCross = cleanBounds(sCross);
