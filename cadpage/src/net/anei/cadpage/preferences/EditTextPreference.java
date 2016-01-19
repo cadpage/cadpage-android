@@ -5,17 +5,17 @@ import android.util.AttributeSet;
 
 public class EditTextPreference extends android.preference.EditTextPreference {
 
-  private CharSequence origSummary;
+  private String origSummary;
   private OnDialogClosedListener dialogClosedListener = null;
 
   public EditTextPreference(Context context) {
     super(context);
-    origSummary = getSummary();
+    origSummary = getSummary().toString().replace("%%", "%");
   }
 
   public EditTextPreference(Context context, AttributeSet attrs) {
     super(context, attrs);
-    origSummary = getSummary();
+    origSummary = getSummary().toString().replace("%%", "%");
   }
   
   public void setDialogClosedListener(OnDialogClosedListener dialogClosedListener) {
@@ -40,9 +40,9 @@ public class EditTextPreference extends android.preference.EditTextPreference {
   }
 
   public void refreshSummary(String newValue) {
-    if (origSummary == null) origSummary = getSummary();
+    if (origSummary == null) origSummary = getSummary().toString().replace("%%", "%");
     if (origSummary != null) {
-      setSummary(String.format(origSummary.toString(), newValue));
+      setSummary(String.format(origSummary, newValue));
     }
   }
 }

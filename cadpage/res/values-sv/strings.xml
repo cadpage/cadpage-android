@@ -4,8 +4,8 @@
   <string name="cadpage_alert">Cadpage larm!</string>
   <string name="app_name">Cadpage</string>
   <string name="call_history">Larmhistorik:</string>
-  <string name="new_text_at">Nytt larm mottaget %s</string>
-  <string name="src_text_at">%1$s call at %2$s</string>
+  <string name="new_text_at">Nytt larm mottaget %%s</string>
+  <string name="src_text_at">%%1$s call at %%2$s</string>
   <string name="mms_subject">Objekt:</string>
   <string name="apt_label">Lgh:</string>
   <string name="cross_label">"X:</string>
@@ -39,9 +39,9 @@
   <string name="pref_enabled_summaryon">Cadpage är aktiverat</string>
   <string name="pref_enabled_summaryoff">Cadpage är avaktiverat</string>
   <string name="pref_enable_msg_type_title">Meddelandetyp behandlad</string>
-  <string name="pref_enable_msg_type_summary">Cadpage kommer att behandla\n%s</string>
+  <string name="pref_enable_msg_type_summary">Cadpage kommer att behandla\n%%s</string>
   <string name="pref_mms_timeout_title">Tidsgräns för MMS-nedladdning</string>
-  <string name="pref_mms_timeout_summary">Max nedladdningstid för MMS\nAktuellt värde:%s min</string>
+  <string name="pref_mms_timeout_summary">Max nedladdningstid för MMS\nAktuellt värde:%%s min</string>
   <string name="pref_about_title">Om</string>
   <string name="pref_about_summary">Om Cadpage</string>
   <string name="pref_about_text">
@@ -67,10 +67,10 @@
   <string name="pref_additional_summary">Ytterligare Cadpage-konfigurering</string>
   
    <string name="pref_notif_timeout_title">Larmsignalstid</string>                                                      
-   <string name="pref_notif_timeout_summary">Larmsignalen kommer att tystna efter denna tid.  Aktuellt värde: %s</string>      
+   <string name="pref_notif_timeout_summary">Larmsignalen kommer att tystna efter denna tid.  Aktuellt värde: %%s</string>      
   
   <string name="pref_timeout_title">Skärmaktiveringstid</string>
-  <string name="pref_timeout_summary">Skärmen kommer att vara aktiverad så här länge.  Aktuellt värde: %s</string>
+  <string name="pref_timeout_summary">Skärmen kommer att vara aktiverad så här länge.  Aktuellt värde: %%s</string>
   <string name="pref_dimscreen_title">Dimma ner Popup-fönster</string>
   <string name="pref_dimscreen_summaryon">Popup-fönstret kommer att dimmas ner (sparar batteri)</string>
   <string name="pref_dimscreen_summaryoff">Popup-fönstret kommer att vara ljust</string>
@@ -101,14 +101,14 @@
   <string name="pref_notif_sound_summary">Det här ljudet kommer att låta vid larm</string>
   
   <string name="pref_notif_delay_title">Larmfördröjning</string>
-  <string name="pref_notif_delay_summary">Larm från Cadpage kommer att fördröjas med: Cur value: %s </string>
+  <string name="pref_notif_delay_summary">Larm från Cadpage kommer att fördröjas med: Cur value: %%s </string>
   <string name="pref_notif_delay_dialogTitle">Larmfördröjningsperiod (sekunder)</string>
   
   <string name="pref_vibrate_title">Vibrera</string>
   <string name="pref_vibrate_summaryon">Vibration är på</string>
   <string name="pref_vibrate_summaryoff">Vibration är av</string>
   <string name="pref_vibrate_pattern_title">Vibrationsmönster</string>
-  <string name="pref_vibrate_pattern_summary">Sätt vibrationsmönster.  Aktuellt värde: %s</string>
+  <string name="pref_vibrate_pattern_summary">Sätt vibrationsmönster.  Aktuellt värde: %%s</string>
   <string name="pref_vibrate_pattern_ok">Personligt vibrationsmönster bestämt</string>
   <string name="pref_vibrate_pattern_bad">Personligt vibrationsmönster ogiltigt</string>
   <string name="pref_vibrate_pattern_help">Skriv in ett mönster för personlig vibration enligt följande: \nmillisek av, millisek på, etc. t ex \n0,1000\n0,500,200,500,200,500</string>
@@ -118,14 +118,14 @@
   <string name="pref_flashled_summaryon">LED blinkar när ett meddelande har mottagits</string>
   <string name="pref_flashled_summaryoff">Blinka inte LED när ett meddelande mottagits</string>
   <string name="pref_flashled_color_title">LED färg</string>
-  <string name="pref_flashled_color_summary">Färgen på LED-lampa.  Aktuellt värde: %s</string>
+  <string name="pref_flashled_color_summary">Färgen på LED-lampa.  Aktuellt värde: %%s</string>
   <string name="pref_flashled_color_custom_dialog_red">Röd:</string>
   <string name="pref_flashled_color_custom_dialog_green">Grön:</string>
   <string name="pref_flashled_color_custom_dialog_blue">Blå:</string>
   <string name="pref_flashled_color_custom_dialog_preview">Förhandstitt:</string>
   <string name="pref_flashled_color_custom_set">Personlig LED-färg inställd</string>
   <string name="pref_flashled_pattern_title">LED blinkningstakt</string>
-  <string name="pref_flashled_pattern_summary">Sätt hastighet på hur fort LED-lampan ska blinka.  Aktuellt värde: %s</string>
+  <string name="pref_flashled_pattern_summary">Sätt hastighet på hur fort LED-lampan ska blinka.  Aktuellt värde: %%s</string>
   <string name="pref_flashled_pattern_ok">Personlig blinkningstakt på LED satt</string>
   <string name="pref_flashled_pattern_bad">Personlig blinkningstakt för LED är ogiltig</string>
   <string name="pref_flashled_pattern_help">Skriv in tiden i milisekunder för att sätta på och stänga av LED</string>
@@ -133,7 +133,7 @@
   <string name="pref_flashled_pattern_help_off">Tid av:</string>
   
    <string name="pref_notif_repeat_interval_title">Larmupprepningsintervall</string>                                      
-   <string name="pref_notif_repeat_interval_summary">Larmet kommer att återupprepas efter detta intervall. Aktuellt värde: %s </string>       
+   <string name="pref_notif_repeat_interval_summary">Larmet kommer att återupprepas efter detta intervall. Aktuellt värde: %%s </string>       
    <string name="pref_notif_repeat_interval_dialogTitle">Upprepningsintervall</string>                                      
   
   <!-- Contact Notification Customization Strings -->
@@ -171,10 +171,10 @@
   <string name="pref_resp_button_config_summary">Konfigurera Kvittensknappmeny</string>
   <string name="pref_xtra_resp_button_config_title">Vanliga knappar</string>
   <string name="pref_resp_type_title">Kvittenstyp</string>
-  <string name="pref_resp_type_summary">Aktiverare för Kvittensknappar: %s</string>
+  <string name="pref_resp_type_summary">Aktiverare för Kvittensknappar: %%s</string>
   <string name="pref_resp_merge_title">Meny för meddelandeservice</string>
-  <string name="pref_resp_merge_summary">Meny för direktmeddelande kommer att vara\n%s</string>
-  <string name="pref_button_summary">Aktuell inställning: %s</string>
+  <string name="pref_resp_merge_summary">Meny för direktmeddelande kommer att vara\n%%s</string>
+  <string name="pref_button_summary">Aktuell inställning: %%s</string>
   <string name="pref_button1_title">Konfigurera Knapp 1</string>
   <string name="pref_button2_title">Konfigurera Knapp 2 </string>
   <string name="pref_button3_title">Konfigurera Knapp 3</string>
@@ -205,12 +205,12 @@
   
   <!-- Other new prefs -->
   <string name="pref_map_network_chk_title">Status för nätverkskartor</string>
-  <string name="pref_map_network_chk_summary">Kartförfrågan tillåten när nätverksstatus är %s</string>
+  <string name="pref_map_network_chk_summary">Kartförfrågan tillåten när nätverksstatus är %%s</string>
   <string name="pref_gps_map_option_title">GPS-ruttningsalternativ</string>
-  <string name="pref_gps_map_option_summary">Använd GPS-koordinater för positionering: %s</string>
+  <string name="pref_gps_map_option_summary">Använd GPS-koordinater för positionering: %%s</string>
 
   <string name="pref_report_position_title">Rapportera position vid kvittens</string>
-  <string name="pref_report_position_summary">Rapportera din aktuella position när du kvitterar larm: %s</string>
+  <string name="pref_report_position_summary">Rapportera din aktuella position när du kvitterar larm: %%s</string>
 
   <string name="pref_lock_google_map_title">Använd bara Googles mappning</string>                               
   <string name="pref_lock_google_map_summaryon">Google Maps kommer att användas för alla kartförfrågningar</string>      
@@ -269,7 +269,7 @@
   <string name="pref_override_filter_summaryoff">Positionsfilter %s är aktivt</string>
   <string name="pref_filter_title">Från: (Filter)</string>
   <string name="pref_filter_summary">Endast meddelanden från denna adress kommer att beaktas.
-    Aktuellt värde: %s</string>
+    Aktuellt värde: %%s</string>
   <string name="pref_filter_dialog">Skriv i e-postadress för att filtrera meddelanden. Ingen adress kommer att scanna alla. Använd ett , för att separera multipla adresser.</string>
   <string name="pref_show_source_title">Visa källan till larm</string>
   <string name="pref_show_source_summaryon">Kommer att visa källan till larm</string>
@@ -278,14 +278,14 @@
   <string name="pref_override_default_summaryon">Använd användardefinierad stat/stad</string>
   <string name="pref_override_default_summaryoff">Använd förvald stat/stad</string>
   <string name="pref_defcity_title">Förvald stat/stad </string>
-  <string name="pref_defcity_summary">Aktuellt värde: %s</string>
+  <string name="pref_defcity_summary">Aktuellt värde: %%s</string>
   <string name="pref_defcity_dialog">Välj stat/stad</string>
   <string name="pref_defstate_title">Förvald stat/stad</string>
-  <string name="pref_defstate_summary">Aktuellt värde: %s</string>
+  <string name="pref_defstate_summary">Aktuellt värde: %%s</string>
   <string name="pref_defstate_dialog">Välj ort i förvald stat</string>
   
   <string name="pref_loglimit_title">Gräns för meddelanderapport</string>
-  <string name="pref_loglimit_summary">Antal meddelanden som inkluderas i felrapport\nAktuellt värde : %s</string>
+  <string name="pref_loglimit_summary">Antal meddelanden som inkluderas i felrapport\nAktuellt värde : %%s</string>
     
   <string name="pref_split_msg_merge_title">Alternativ för delade larm-meddelanden</string>
   <string name="pref_split_msg_merge_summary">
@@ -301,10 +301,10 @@
   <string name="pref_split_direct_page_summaryoff">Larmmedelanden från meddelandeservice kommer inte att kontrolleras om de är uppdelade</string>  
   
   <string name="pref_msgtimeout_title">Timeout för delade meddelanden</string>
-  <string name="pref_msgtimeout_summary">Timeout för multipla meddelanden\nAktuellt värde: %s</string>
+  <string name="pref_msgtimeout_summary">Timeout för multipla meddelanden\nAktuellt värde: %%s</string>
   <string name="pref_msgtimeout_dialog">Maximal tid i sekunder för att vänta på ett multipelt meddelande i Cadpage</string>
   <string name="pref_split_min_msg_title">Split message min count</string>
-  <string name="pref_split_min_msg_summary">Minimum expected message count\nCur value: %s
+  <string name="pref_split_min_msg_summary">Minimum expected message count\nCur value: %%s
   </string>
   <string name="pref_split_blank_ins_title">Sätt in blanksteg i delade meddelanden</string>
   <string name="pref_split_blank_ins_summaryon">Blankstek kommer att sättas in mellan delade meddelanden
@@ -352,7 +352,7 @@
   <string name="pref_passthrusms_summaryon">Släpper igenom larm till SMS-klienten</string>
   <string name="pref_history_limit_title">Gräns för larmhistorik</string>
   <string name="pref_history_limit_summary">Maximalt antal larm som sparas i historik.
-    Aktuellt värde: %s</string>
+    Aktuellt värde: %%s</string>
   <!-- Message menu items -->
   <string name="open_item_text">Öppna</string>
   <string name="ack_item_text">Ack</string>
@@ -407,9 +407,9 @@
   <string name="pref_filter_settings_title">Filtreringsinställningar</string>
   <string name="pref_filter_settings_summary">Val för att specificera hur vissa typer av larm ska hanteras</string>
   <string name="pref_gen_alert_option_title">Val för General Alerts</string>
-  <string name="pref_gen_alert_option_summary">Hantering av General alert\n%s</string>
+  <string name="pref_gen_alert_option_summary">Hantering av General alert\n%%s</string>
   <string name="pref_run_report_option_title">Kör val för Report</string>
-  <string name="pref_run_report_option_summary">Hantering av Report\n%s</string>
+  <string name="pref_run_report_option_summary">Hantering av Report\n%%s</string>
   
   <string name="pref_alert_option_normal">Normal hantering</string>
   <string name="pref_alert_option_no_notice">Inget larm</string>
@@ -434,6 +434,6 @@
   <!-- Missing map page reader dialog -->
   <string name="missing_map_page_reader_title">Saknar läsare för kartsidessök</string> 
   <string name="missing_map_page_reader_text"> 
-      %1$s behövs för att titta på dessa kartsidor. Skulle du vilja installera %1$s nu.  </string>
+      %%1$s behövs för att titta på dessa kartsidor. Skulle du vilja installera %%1$s nu.  </string>
   <string name="missing_map_page_reader_adobe">Adobe Reader</string>
 </resources>
