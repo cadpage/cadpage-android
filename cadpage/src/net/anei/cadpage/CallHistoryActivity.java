@@ -68,7 +68,6 @@ public class CallHistoryActivity extends ListActivity {
     permMgr = new PermissionManager(this);
     ManagePreferences.setPermissionManager(permMgr);
     ManagePreferences.checkInitialPermissions();
-    ManagePreferences.setPermissionManager(null);
     
     // Apparently only an activity can calculate the total screen size.
     // So do it now and save it in preferences so it will be included in

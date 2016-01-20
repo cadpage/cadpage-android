@@ -19,7 +19,6 @@ import net.anei.cadpage.vendors.VendorManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.ListPreference;
@@ -1174,7 +1173,8 @@ public class ManagePreferences {
   private static PermissionManager permMgr = null;
   
   private static final int PERM_REQ_SMS_MMS = 1;
-  private static final int PERM_REQ_LIMIT = 1;
+  private static final int PERM_REQ_REPORT_POSITION = 2;
+  private static final int PERM_REQ_LIMIT = 2;
   
   private static PermissionChecker<?,?>[] checkers = new PermissionChecker[PERM_REQ_LIMIT];
   
@@ -1184,12 +1184,15 @@ public class ManagePreferences {
   
   public static void checkInitialPermissions() {
     enableMsgTypeChecker.check();
+    reportPositionChecker.check();
   }
   
+  /********************************************************************
+   * Permission checking the enable Msg Type preference
+   ********************************************************************/
   public static boolean checkPermEnableMsgType(ListPreference pref, String value) {
     return enableMsgTypeChecker.check(pref, value);
   }
-  
   private static final EnableMsgTypeChecker enableMsgTypeChecker = new EnableMsgTypeChecker();
   
   private static class EnableMsgTypeChecker extends ListPermissionChecker {
@@ -1216,6 +1219,29 @@ public class ManagePreferences {
       
       if (reqCode > 0) permMgr.request(reqCode, permList.toArray(new String[permList.size()]));
       return value;
+    }
+  }
+  
+  /********************************************************************
+   * Permission checking the report position preference
+   ********************************************************************/
+  public static boolean checkReportPosition(ListPreference pref, String value) {
+    return reportPositionChecker.check(pref, value);
+  }
+  
+  private static ReportPositionChecker reportPositionChecker = new ReportPositionChecker();
+  
+  private static class ReportPositionChecker extends ListPermissionChecker {
+    
+    public ReportPositionChecker() {
+      super(PERM_REQ_REPORT_POSITION, R.string.pref_report_position_key);
+    }
+
+    @Override
+    protected String check(int reqCode, String value) {
+      if (!value.equals("Y") || permMgr.isGranted(PermissionManager.ACCESS_FINE_LOCATION)) return null;
+      if (reqCode > 0) permMgr.request(reqCode, PermissionManager.ACCESS_FINE_LOCATION);
+      return "A";
     }
   }
   
@@ -1262,8 +1288,8 @@ public class ManagePreferences {
     
     public void check() {
       this.preference = null;
-      this.value = null;
-      V newValue = check(permReq, getPrefValue(resPrefId));
+      this.value = getPrefValue(resPrefId);
+      V newValue = check(permReq, value);
       if (newValue != null && !newValue.equals(value)) {
         savePrefValue(resPrefId, newValue);
       }

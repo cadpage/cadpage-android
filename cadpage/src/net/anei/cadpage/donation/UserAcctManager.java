@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Pattern;
-
 import net.anei.cadpage.HttpService;
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.Log;
@@ -17,6 +16,7 @@ import net.anei.cadpage.R;
 import net.anei.cadpage.donation.UserAcctManager;
 import android.accounts.Account;
 import android.accounts.AccountManager;
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Build;
@@ -30,7 +30,7 @@ public class UserAcctManager {
   private String meid = null;
   private boolean developer = false;
   
-  private static final Pattern SDK_PTN = Pattern.compile(".*\\bsdk\\b.*");
+  private static final Pattern SDK_PTN = Pattern.compile(".*(?:^|[_\\W])sdk(?:$|[_\\W]).*");
   
   private UserAcctManager(Context context) {
     this.context = context;
@@ -52,6 +52,7 @@ public class UserAcctManager {
       if (phoneNumber.startsWith("1")) phoneNumber = phoneNumber.substring(1);
     }
     meid = readPhoneStatePerm ? tMgr.getDeviceId() : null;
+    if (meid == null) meid = getSerialID();
     
     List<String> emailList = new ArrayList<String>();
     for (Account acct :  AccountManager.get(context).getAccountsByType("com.google")) {
@@ -222,6 +223,32 @@ public class UserAcctManager {
   private static char hexDigit(int i) {
     i &= 0xF;
     return (char)(i < 10 ? '0'+i : 'a'+(i-10));
+  }
+  
+  private String getSerialID() {
+    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.GINGERBREAD) return null;
+    try {
+      SerialID obj = (SerialID)Class.forName("net.anei.cadpage.donation.UserAcctManager$SerialSDK9").newInstance();
+      return obj.getSerialId();
+    } catch (Exception ex) {
+      Log.e(ex);
+      return null;
+    }
+    
+  }
+  
+  private interface SerialID {
+    public String getSerialId();
+  }
+  
+  @TargetApi(Build.VERSION_CODES.GINGERBREAD)
+  static class SerialSDK9 implements SerialID {
+
+    @Override
+    public String getSerialId() {
+      return android.os.Build.SERIAL;
+    }
+    
   }
  
   
