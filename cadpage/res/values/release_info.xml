@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01182016</string>
-  <string name="release_version">v1.9.05</string>
+  <string name="release_date">01202016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.05.01\n
+Location Fixes:\n
+Atlantic County, NJ\n
+Rockland County, NY\n
+Wilson County, NC\n
+Anderson County, SC\n
+Bedford County, VA\n
+Annapolis County, NS, Canada\n
+\n
+General Fixes:\n
+Changed version numbering so that the automatic change history popup will only
+be displayed when something significant has changed.\n
+\n
+Fixed problem displaying setting values since Android 5.0.\n
+\n
 v1.9.05\n
 New Locations:\n
 Montgomery County, IL\n
@@ -49,29 +63,7 @@ Location Fixes:\n
 Hamilton County, IN\n
 Johnson County, MO\n
 Highland County, OH\n
-Knox County, OH\n
-\n      
-v1.9.01\n
-Location Fixes:\n
-Placer County, CA\n
-Litchfield County, CT\n
-Marion County, FL\n
-Reno County, KS\n
-Anne Arrundel County, MD\n
-Jackson County, MI\n
-Boone County,  MO\n
-Burlington County, NJ\n
-Glucester County, NJ\n
-Bethlehem, NY\n
-Livingston County, NY\n
-Brunswick County, NC\n
-Clarion County, PA\n
-Columbia County, PA\n
-Monroe County, PA\n
-Orangeburg County, SC\n
-Cy Creek Comm Center, TX\n
-Prince George County, VA\n
-Walla Walla County, WA
+Knox County, OH
   </string>
 </resources>
   

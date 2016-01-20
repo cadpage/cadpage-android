@@ -70,6 +70,7 @@ public class CadPageApplication extends Application {
     
   }
 
+  private static String version = null;
   private static String nameVersion = null;
   private static int versionCode = -1;
   
@@ -81,14 +82,20 @@ public class CadPageApplication extends Application {
       try {
         //Get version number, not sure if there is a better way to do this
         PackageInfo info = pm.getPackageInfo(SmsPopupConfigActivity.class.getPackage().getName(), 0);
+        version = info.versionName;
         nameVersion = " v" + info.versionName;
         versionCode = info.versionCode;
       } catch (NameNotFoundException e) {
+        version = "";
         nameVersion = "";
         versionCode = 0;
       }
       nameVersion = context.getString(R.string.app_name) + nameVersion;
     }
+  }
+  
+  public static String getVersion() {
+    return version;
   }
   
   public static String getNameVersion() {

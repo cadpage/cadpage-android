@@ -7,7 +7,7 @@ public class NJAtlanticCountyCParser extends FieldProgramParser {
 
   public NJAtlanticCountyCParser() {
     super("ATLANTIC COUNTY", "NJ", 
-          "Call:CALL! Address:ADDR! Apt:APT! City:CITY! Cross:X! Place:PLACE! GPS Narrative:INFO+");
+          "Call:CALL! Address:ADDR! Apt:APT! City:CITY! Cross:X! Place:PLACE! GPS ( Narrative:INFO INFO+? UNIT | UNIT )");
   }
   
   @Override
@@ -25,6 +25,7 @@ public class NJAtlanticCountyCParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("UNIT")) return new UnitField("Units Dispatched:? *(.*)", true);
     return super.getField(name);
   }
   

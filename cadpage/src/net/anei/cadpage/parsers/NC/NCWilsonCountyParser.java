@@ -13,7 +13,7 @@ public class NCWilsonCountyParser extends DispatchOSSIParser {
   
   public NCWilsonCountyParser() {
     super("WILSON COUNTY", "NC",
-           "ID? CODE? CALL ADDR! SRC X+? INFO+");
+           "ID? CODE? CALL ADDR! ( PLACE SRC | SRC? )  X+? INFO+");
   }
 
   @Override
@@ -31,12 +31,14 @@ public class NCWilsonCountyParser extends DispatchOSSIParser {
     }
     return super.parseMsg(body,  data);
   }
-  
-  // ID field has to validate it's existence
-  private class MyIdField extends IdField {
-    public MyIdField() {
-      setPattern(Pattern.compile("\\d{6,}"));
-    }
+
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("ID")) return new IdField("\\d{6,}", true);
+    if (name.equals("CODE")) return new CodeField("\\d\\d[A-Za-z]\\d\\d[A-Za-z]?");
+    if (name.equals("SRC")) return new SourceField("\\d{1,2}[A-Z0-9]|[A-Z]\\d|NAS", true);
+    if (name.equals("X")) return new MyCrossField();
+    return super.getField(name);
   }
   
   private class MyCrossField extends CrossField {
@@ -49,14 +51,6 @@ public class NCWilsonCountyParser extends DispatchOSSIParser {
       return super.checkParse(field, data);
     }
   }
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("ID")) return new MyIdField();
-    if (name.equals("CODE")) return new CodeField("\\d\\d[A-Za-z]\\d\\d[A-Za-z]?");
-    if (name.equals("X")) return new MyCrossField();
-    return super.getField(name);
-  }
   
   
   @Override
@@ -68,6 +62,7 @@ public class NCWilsonCountyParser extends DispatchOSSIParser {
         match.appendReplacement(bf, "US 264");
         if (match.group(1) != null) bf.append(" ALT");
       } while (match.find());
+      match.appendTail(bf);
       address = bf.toString();
     }
     return address;

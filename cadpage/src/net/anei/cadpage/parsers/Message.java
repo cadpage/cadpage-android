@@ -135,7 +135,7 @@ public class Message {
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
     Pattern.compile("^(\\d) *of *(\\d):"),
-    Pattern.compile("^ *(\\d)/(\\d)(?: / |\n\n)"),
+    Pattern.compile("^ *(\\d)/(\\d)(?: / |\n\n|:)"),
     Pattern.compile("^([\\w\\.]+@[\\w\\.]+) /(\\d)/(\\d) /"),
     Pattern.compile("^(\\d)/(\\d)\n+"),
     Pattern.compile("^(\\d)/(\\d)(?![/\\d])"),
@@ -172,7 +172,7 @@ public class Message {
   private static final Pattern MULTI_MSG_MASTER_PATTERN = Pattern.compile("1 of \\d FRM:(.*?) SUBJ:(.*?) MSG:(.*)\\(End\\)");
   private static final Pattern MULTI_MSG_BREAK_PATTERN = Pattern.compile(" \\(Con't\\) \\d of \\d ");
   private static final Pattern[] E_S_M_PATTERNS = new Pattern[]{
-    Pattern.compile("^(?:([\\w\\.]+@[\\w\\.]+) +)?Subject: *(.*)\n"),
+    Pattern.compile("^(?:([\\w\\.]+@[\\w\\.]+) +)?Subj(?:ect)?: *(.*)\n"),
     Pattern.compile("^(?:([^ ,;/]+) +)?S:(.*?)(?: +M:|\n)"), 
     Pattern.compile("^Fr:<(.*?)>?\nSu:(.*?)\nTxt: "),
     Pattern.compile("^prvs=[0-9a-f]{8,}=[\\w .<>@]*<([\\w.\\-]+@[\\w.]+)> *\\((.*?)\\)")
