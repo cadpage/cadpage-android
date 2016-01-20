@@ -22,6 +22,8 @@ Fraqre: qvfcngpu@ungmbyburzf.bet
 Pbagnpg: Wnl Thggzna <euinp24@tznvy.pbz>
 Fraqre: qvfcngpu@ungmbyburzf.bet
 qvfcngpu@ungmbyburzf.bet: NPE# 32036 / Nqqe: 37 Senapvf Cy\aK Fg: Orgjrra Ebanyq Qe naq Anapl Ya\aAnzr: Thggzna, \aCubar: 8454258690\a1/25/2015 - 1:40 CZ
+qvfcngpu@ungmbyburzf.bet / NPE# 41905 / Nqqe: 6 XNHSZNA PG\aK Fg: Arne gur vagrefrpgvba bs Xnhszna Pg naq Cnex Ya\aNpp: QEVIRJNL 1 SYVTUG\aAnzr: SNFGRA, ,AHPURZ C\aCubar: 8454261601\a1/13/2016 - 7:02 CZ
+qvfcngpu@ungmbyburzf.bet / NPE# 42044 / Nqqe: 211 XRNEFVAT CX, Ncg O\aK Fg: Arne gur vagrefrpgvba bs Xrnefvat Cxjl naq Wvyy Ya\aAnzr: ARJ LBEX, \aCubar: 9178052471\a1/19/2016 - 5:21 CZ
 
 */
 
@@ -115,7 +117,7 @@ choyvp pynff ALEbpxynaqPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgWnlThgzna() {
 
-    qbGrfg("G8",
+    qbGrfg("G1",
         "qvfcngpu@ungmbyburzf.bet: NPE# 32036 / Nqqe: 37 Senapvf Cy\a" +
         "K Fg: Orgjrra Ebanyq Qe naq Anapl Ya\a" +
         "Anzr: Thggzna, \a" +
@@ -128,9 +130,38 @@ choyvp pynff ALEbpxynaqPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ANZR:Thggzna,",
         "CUBAR:8454258690");
 
+    qbGrfg("G2",
+        "qvfcngpu@ungmbyburzf.bet / NPE# 41905 / Nqqe: 6 XNHSZNA PG\a" +
+        "K Fg: Arne gur vagrefrpgvba bs Xnhszna Pg naq Cnex Ya\a" +
+        "Npp: QEVIRJNL 1 SYVTUG\a" +
+        "Anzr: SNFGRA, ,AHPURZ C\a" +
+        "Cubar: 8454261601\a" +
+        "1/13/2016 - 7:02 CZ",
+
+        "VQ:41905",
+        "NQQE:6 XNHSZNA PG",
+        "K:Arne Xnhszna Pg naq Cnex Ya",
+        "ANZR:SNFGRA, ,AHPURZ C",
+        "CUBAR:8454261601");
+
+    qbGrfg("G1",
+        "qvfcngpu@ungmbyburzf.bet / NPE# 42044 / Nqqe: 211 XRNEFVAT CX, Ncg O\a" +
+        "K Fg: Arne gur vagrefrpgvba bs Xrnefvat Cxjl naq Wvyy Ya\a" +
+        "Anzr: ARJ LBEX, \a" +
+        "Cubar: 9178052471\a" +
+        "1/19/2016 - 5:21 CZ",
+
+        "VQ:42044",
+        "NQQE:211 XRNEFVAT CX",
+        "ZNQQE:211 XRNEFVAT CVXR",
+        "NCG:O",
+        "K:Arne Xrnefvat Cxjl naq Wvyy Ya",
+        "ANZR:ARJ LBEX,",
+        "CUBAR:9178052471");
+
   }
-  
+
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj ALEbpxynaqPbhaglPCnefreGrfg().trarengrGrfgf("G8");
+    arj ALEbpxynaqPbhaglPCnefreGrfg().trarengrGrfgf("G1");
   }
 }

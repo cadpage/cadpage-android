@@ -51,6 +51,7 @@ public class VABedfordCountyParser extends FieldProgramParser {
   
   private static final String[] CITY_LIST = new String[]{
     "BEDFORD",
+    "COLEMAN FALLS",
     "LYNCHBURG",
     "BIG ISLAND",
     "CHAMBLISSBURG",
