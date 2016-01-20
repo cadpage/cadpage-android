@@ -24,10 +24,9 @@ public class OKOklahomaCountyParser extends SmartAddressParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!body.startsWith(": ")) return false;
     int pt = body.indexOf(" - From: ");
     if (pt < 0) return false;
-    body = body.substring(2,pt).trim();
+    body = body.substring(0,pt).trim();
     
     Matcher match = DELIM.matcher(body);
     if (match.find()) {

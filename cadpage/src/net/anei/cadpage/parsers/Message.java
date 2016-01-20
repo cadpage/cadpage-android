@@ -135,7 +135,7 @@ public class Message {
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
     Pattern.compile("^(\\d) *of *(\\d):"),
-    Pattern.compile("^ *(\\d)/(\\d)(?: / |\n\n)"),
+    Pattern.compile("^ *(\\d)/(\\d)(?: / |\n\n|:)"),
     Pattern.compile("^([\\w\\.]+@[\\w\\.]+) /(\\d)/(\\d) /"),
     Pattern.compile("^(\\d)/(\\d)\n+"),
     Pattern.compile("^(\\d)/(\\d)(?![/\\d])"),

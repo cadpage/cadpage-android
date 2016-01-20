@@ -21,8 +21,7 @@ public class SCAndersonCountyDParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("PURVIS_ENS")) return false;
-    if (!body.startsWith(":")) return false;
-    body = body.substring(1).trim();
+    body = stripFieldStart(body, ":");
     return parseFields(body.split("\n"), data);
   }
   
