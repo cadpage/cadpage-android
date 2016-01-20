@@ -43,13 +43,22 @@ public class NYRocklandCountyCParser extends FieldProgramParser {
     return parseFields(body.split("\n"), data);
   }
   
+  private static final Pattern ADDR_APT_PTN = Pattern.compile("(?:APT|RM|ROOM|LOT|#) *(.*)|[A-Z]?\\d+[A-Z]?|[A-Z]", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends AddressField {
     
     @Override
     public void parse(String field, Data data) {
       Parser p = new Parser(field);
       super.parse(p.get(','), data);
-      data.strCity = p.get();
+      String city = p.get();
+      Matcher match = ADDR_APT_PTN.matcher(city);
+      if (match.matches()) {
+        String apt = match.group(1);
+        if (apt == null) apt = city;
+        data.strApt = append(data.strApt, "-", apt);
+      } else {
+        data.strCity = city;
+      }
     }
     
     @Override
