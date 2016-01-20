@@ -166,8 +166,8 @@ public class CallHistoryActivity extends ListActivity {
       ClearAllReceiver.clearAll(this);
       
       // Second, launch the release info dialog if it hasn't already been displayed
-      String release = getString(R.string.release_version);
-      if (! ManagePreferences.release().equals(release)) {
+      String release = android.os.Build.VERSION.RELEASE;
+      if (! trimRelease(ManagePreferences.release()).equals(trimRelease(release))) {
         ManagePreferences.setRelease(release);
         showDialog(RELEASE_DIALOG);
       }
@@ -217,6 +217,23 @@ public class CallHistoryActivity extends ListActivity {
         }
       }
     }
+  }
+
+  /**
+   * Trim off everything beyond the first 3 components of the release version
+   * @param release release version
+   * @return trimmed release version
+   */
+  private String trimRelease(String release) {
+    int dotCnt = 0;
+    int col = 0;
+    while (col < release.length() && dotCnt < 3) {
+      char chr = release.charAt(col);
+      if (chr == '.') dotCnt++;
+      else if (chr >= 'A' && chr <= 'Z') break;
+      col++;
+    }
+    return release.substring(0,col);
   }
 
   @Override
