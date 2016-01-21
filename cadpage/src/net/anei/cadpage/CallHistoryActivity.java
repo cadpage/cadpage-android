@@ -166,10 +166,13 @@ public class CallHistoryActivity extends ListActivity {
       ClearAllReceiver.clearAll(this);
       
       // Second, launch the release info dialog if it hasn't already been displayed
-      String release = android.os.Build.VERSION.RELEASE;
-      if (! trimRelease(ManagePreferences.release()).equals(trimRelease(release))) {
+      String oldRelease = ManagePreferences.release();
+      String release = CadPageApplication.getVersion();
+      if (!release.equals(oldRelease)) { 
         ManagePreferences.setRelease(release);
-        showDialog(RELEASE_DIALOG);
+        if (! trimRelease(release).equals(trimRelease(oldRelease))) {
+          showDialog(RELEASE_DIALOG);
+        }
       }
       
       // If not, see if we have discovered a direct page vendor sending us text pages
@@ -227,12 +230,15 @@ public class CallHistoryActivity extends ListActivity {
   private String trimRelease(String release) {
     int dotCnt = 0;
     int col = 0;
-    while (col < release.length() && dotCnt < 3) {
+    while (col < release.length()) {
       char chr = release.charAt(col);
-      if (chr == '.') dotCnt++;
+      if (chr == '.') {
+        if (++dotCnt >= 3) break;
+      }
       else if (chr >= 'A' && chr <= 'Z') break;
       col++;
     }
+    Log.w(release + " -> " + release.substring(0,col));
     return release.substring(0,col);
   }
 
