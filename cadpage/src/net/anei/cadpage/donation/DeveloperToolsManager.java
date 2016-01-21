@@ -169,8 +169,8 @@ public class DeveloperToolsManager {
         ManagePreferences.setSponsor(sponsor);
         break;
         
-      case 10:     // Reset release info
-        ManagePreferences.setRelease("");
+      case 10:     // Reset preference info
+        ManagePreferences.resetPreferenceVersion();
         break;
         
       case 11:     // Content Query

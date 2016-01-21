@@ -204,9 +204,9 @@
   <string name="pref_xtra_resp_button_config_title">Regular Buttons </string>
   
   <string name="pref_resp_type_title">Response Type</string>
-  <string name="pref_resp_type_summary">Response buttons trigger: %%s</string>
+  <string name="pref_resp_type_summary">Button response: %%s</string>
   <string name="pref_resp_merge_title">Direct paging message menu</string>
-  <string name="pref_resp_merge_summary">Direct page vendor message menus will be\n%%s</string>
+  <string name="pref_resp_merge_summary">Direct page vendor message menus will\n%%s</string>
 
   <string name="pref_button_summary">Current Setting: %%s</string>
   <string name="pref_button1_title">Button 1 Configuration</string>
@@ -215,20 +215,17 @@
   <string name="pref_button4_title">Button 4 Configuration</string>
   <string name="pref_button5_title">Button 5 Configuration</string>
   <string name="pref_button6_title">Button 6 Configuration</string>
-
-  <string name="pref_desc_callback1_title">Button 1 Description</string>
-  <string name="pref_desc_callback2_title">Button 2 Description</string>
-  <string name="pref_desc_callback3_title">Button 3 Description</string>
-  <string name="pref_desc_callback4_title">Button 4 Description</string>
-  <string name="pref_desc_callback5_title">Button 5 Description</string>
-  <string name="pref_desc_callback6_title">Button 6 Description</string>
-
-  <string name="pref_code_callback1_title">Button 1 Phone/Code</string>
-  <string name="pref_code_callback2_title">Button 2 Phone/Code</string>
-  <string name="pref_code_callback3_title">Button 3 Phone/Code</string>
-  <string name="pref_code_callback4_title">Button 4 Phone/Code</string>
-  <string name="pref_code_callback5_title">Button 5 Phone/Code</string>
-  <string name="pref_code_callback6_title">Button 6 Phone/Code</string>
+  
+  <string name="pref_resp_button1_title">Response Button 1</string>
+  <string name="pref_resp_button2_title">Response Button 2</string>
+  <string name="pref_resp_button3_title">Response Button 3</string>
+  <string name="pref_resp_button4_title">Response Button 4</string>
+  <string name="pref_resp_button5_title">Response Button 5</string>
+  <string name="pref_resp_button6_title">Response Button 6</string>
+      
+  <string name="pref_type_callback_title">Button Response Type</string>
+  <string name="pref_desc_callback_title">Button Description</string>
+  <string name="pref_code_callback_title">Button Phone/Code</string>
   
   <string name="pref_alt_map_button_title">Include Alternate Map Button</string>
   <string name="pref_alt_map_button_summaryon">Alternate map button will be included</string>
@@ -515,7 +512,7 @@
   <!-- Missing map page reader dialog -->
   <string name="missing_map_page_reader_title">Missing Map Page Reader</string>
   <string name="missing_map_page_reader_text">
-      %%1$s is required to view these map pages.  Would you like to install %%1$s now.
+      %1$s is required to view these map pages.  Would you like to install %1$s now.
   </string>
   <string name="missing_map_page_reader_adobe">Adobe Reader</string>
   

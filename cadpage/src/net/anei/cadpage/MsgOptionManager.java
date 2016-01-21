@@ -337,10 +337,6 @@ public class MsgOptionManager {
    */
   private boolean setupUserButtons() {
     
-    // See if we are setting up phone call or text reply response buttons
-    int buttonId = (ManagePreferences.responseType().equals("T") 
-                        ? R.id.resp_text_item : R.id.resp_call_item);
-    
     // There may be buttons with title but no codes.  But if all of the buttons
     // have no codes, then there is no point in setting anything up.  But this
     // means we have to make two passes through the buttons.  The first
@@ -353,7 +349,7 @@ public class MsgOptionManager {
       String desc = ManagePreferences.callbackButtonTitle(btn).trim();
       respCodes[btn-1] = code;
       respDesc[btn-1] = desc;
-      if (code.length() > 0) found = true;
+      if (code.length() > 0 && desc.length() > 0) found = true;
     }
     if (!found) return false;
     
@@ -362,11 +358,13 @@ public class MsgOptionManager {
     for (int btn = 1; btn <= ManagePreferences.CALLBACK_BUTTON_CNT; btn++) {
       String desc = respDesc[btn-1];
       if (desc.length() == 0) continue;
+      String type = ManagePreferences.callbackButtonType(btn);
       String code = respCodes[btn-1];
-      if (code.length() > 0) {
-        respButtonList.add(new ButtonHandler(buttonId, desc, code, respButtonGroup));
-      } else {
+      if (type.length() == 0 || code.length() == 0) {
         respButtonList.add(new ButtonHandler(R.id.ack_item, desc, null, respButtonGroup));
+      } else {
+        int buttonId = (type.equals("T") ? R.id.resp_text_item : R.id.resp_call_item);
+        respButtonList.add(new ButtonHandler(buttonId, desc, code, respButtonGroup));
       }
     }
     return true;

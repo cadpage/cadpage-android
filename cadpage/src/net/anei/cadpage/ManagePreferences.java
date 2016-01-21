@@ -33,13 +33,17 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 41;
+  private static final int PREFERENCE_VERSION = 42;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
   private static ManagePreferences prefs;
   private static String freeSubType;
   private static String paidSubType;
+  
+  public static void resetPreferenceVersion() {
+    prefs.putInt(R.string.pref_version_key,  PREFERENCE_VERSION-1);
+  }
 
   /**
    * Initialize the ManagePreferences class
@@ -67,6 +71,17 @@ public class ManagePreferences {
     if (oldVersion != PREFERENCE_VERSION) {
       PreferenceManager.setDefaultValues(context, R.xml.preferences, true);
       prefs.putInt(R.string.pref_version_key, PREFERENCE_VERSION);
+    }
+    
+    // If old version < 42 convert the old global response button type to 
+    // individual response button types
+    if (oldVersion < 42) {
+      String respType = prefs.getString(R.string.pref_resp_type_key, "");
+      for (int btn = 1; btn <= CALLBACK_BUTTON_CNT; btn++) {
+        String tmp = respType;
+        if (callbackButtonTitle(btn).length() == 0 || callbackButtonCode(btn).length() == 0) tmp = "";
+        setCallbackButtonType(btn, tmp);
+      }
     }
     
     // If old version was < 41, and user used to be sponsored by Cadpage, demo
@@ -618,10 +633,6 @@ public class ManagePreferences {
     return prefs.getIntValue(R.string.pref_history_limit_key);
   }
   
-  public static String responseType() {
-    return prefs.getString(R.string.pref_resp_type_key);
-  }
-  
   public static String responseMerge() {
     return prefs.getString(R.string.pref_resp_merge_key);
   }
@@ -642,6 +653,25 @@ public class ManagePreferences {
     return Integer.parseInt(val);
   }
   
+  private static final int[] CALLBACK_TYPE_IDS = new int[]{
+    R.string.pref_callback1_type_key,
+    R.string.pref_callback2_type_key,
+    R.string.pref_callback3_type_key,
+    R.string.pref_callback4_type_key,
+    R.string.pref_callback5_type_key,
+    R.string.pref_callback6_type_key,
+  };
+  
+  public static final int CALLBACK_BUTTON_CNT = CALLBACK_TYPE_IDS.length;
+  
+  public static String callbackButtonType(int button) {
+    return prefs.getString(CALLBACK_TYPE_IDS[button-1]);
+  }
+  
+  public static void setCallbackButtonType(int button, String value) {
+    prefs.putString(CALLBACK_TYPE_IDS[button-1], value);
+  }
+  
   private static final int[] CALLBACK_TITLE_IDS = new int[]{
     R.string.pref_callback1_title_key,
     R.string.pref_callback2_title_key,
@@ -651,7 +681,6 @@ public class ManagePreferences {
     R.string.pref_callback6_title_key,
   };
   
-  public static final int CALLBACK_BUTTON_CNT = CALLBACK_TITLE_IDS.length;
   public static String callbackButtonTitle(int button) {
     return prefs.getString(CALLBACK_TITLE_IDS[button-1]);
   }

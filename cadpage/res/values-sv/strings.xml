@@ -170,10 +170,12 @@
   <string name="pref_resp_button_config_title">Kvittensknappmeny</string>
   <string name="pref_resp_button_config_summary">Konfigurera Kvittensknappmeny</string>
   <string name="pref_xtra_resp_button_config_title">Vanliga knappar</string>
-  <string name="pref_resp_type_title">Kvittenstyp</string>
-  <string name="pref_resp_type_summary">Aktiverare för Kvittensknappar: %%s</string>
+  
+  <string name="pref_resp_type_title">Response Type</string>                   <!-- Translate -->
+  <string name="pref_resp_type_summary">Button response: %%s</string>       <!-- Translate -->
   <string name="pref_resp_merge_title">Meny för meddelandeservice</string>
   <string name="pref_resp_merge_summary">Meny för direktmeddelande kommer att vara\n%%s</string>
+  
   <string name="pref_button_summary">Aktuell inställning: %%s</string>
   <string name="pref_button1_title">Konfigurera Knapp 1</string>
   <string name="pref_button2_title">Konfigurera Knapp 2 </string>
@@ -181,18 +183,18 @@
   <string name="pref_button4_title">Konfigurera Knapp 4</string>
   <string name="pref_button5_title">Konfigurera Knapp 5</string>
   <string name="pref_button6_title">Konfigurera Knapp 6</string>
-  <string name="pref_desc_callback1_title">Beskrivning knapp 1</string>
-  <string name="pref_desc_callback2_title">Beskrivning knapp 2</string>
-  <string name="pref_desc_callback3_title">Beskrivning knapp 3</string>
-  <string name="pref_desc_callback4_title">Beskrivning knapp 4</string>
-  <string name="pref_desc_callback5_title">Beskrivning knapp 5</string>
-  <string name="pref_desc_callback6_title">Beskrivning knapp 6</string>
-  <string name="pref_code_callback1_title">Knapp 1 Telefon/Kod</string>
-  <string name="pref_code_callback2_title">Knapp 2 Telefon/Kod</string>
-  <string name="pref_code_callback3_title">Knapp 3 Telefon/Kod</string>
-  <string name="pref_code_callback4_title">Knapp 4 Telefon/Kod</string>
-  <string name="pref_code_callback5_title">Knapp 5 Telefon/Kod</string>
-  <string name="pref_code_callback6_title">Knapp 6 Telefon/Kod</string>
+  
+  <string name="pref_resp_button1_title">Response Button 1</string>                <!-- Translate -->
+  <string name="pref_resp_button2_title">Response Button 2</string>
+  <string name="pref_resp_button3_title">Response Button 3</string>
+  <string name="pref_resp_button4_title">Response Button 4</string>
+  <string name="pref_resp_button5_title">Response Button 5</string>
+  <string name="pref_resp_button6_title">Response Button 6</string>
+      
+  <string name="pref_type_callback_title">Button Response Type</string>           <!-- Translate -->
+  <string name="pref_desc_callback_title">Button Description</string>
+  <string name="pref_code_callback_title">Button Phone/Code</string>
+  
     
   <string name="pref_alt_map_button_title">Inkludera alternativ kartsökningknapp</string>  
   <string name="pref_alt_map_button_summaryon">Alternativ kartsökningsknapp kommer att inkluderas</string>
@@ -434,6 +436,6 @@
   <!-- Missing map page reader dialog -->
   <string name="missing_map_page_reader_title">Saknar läsare för kartsidessök</string> 
   <string name="missing_map_page_reader_text"> 
-      %%1$s behövs för att titta på dessa kartsidor. Skulle du vilja installera %%1$s nu.  </string>
+      %1$s behövs för att titta på dessa kartsidor. Skulle du vilja installera %1$s nu.  </string>
   <string name="missing_map_page_reader_adobe">Adobe Reader</string>
 </resources>
