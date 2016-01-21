@@ -238,7 +238,6 @@ public class CallHistoryActivity extends ListActivity {
       else if (chr >= 'A' && chr <= 'Z') break;
       col++;
     }
-    Log.w(release + " -> " + release.substring(0,col));
     return release.substring(0,col);
   }
 
