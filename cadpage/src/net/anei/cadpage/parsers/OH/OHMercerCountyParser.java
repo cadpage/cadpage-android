@@ -3,6 +3,8 @@ package net.anei.cadpage.parsers.OH;
 import java.util.Properties;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 
@@ -14,6 +16,11 @@ public class OHMercerCountyParser extends DispatchEmergitechParser {
     setupMultiWordStreets("MRCR V WRT CO LN");
   }
   
+  @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom();
+  }
+
   @Override
   protected boolean parseMsg(String body, Data data) {
     if (!super.parseMsg(body, data)) return false;

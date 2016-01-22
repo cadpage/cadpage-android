@@ -7,7 +7,7 @@ public class NCPamlicoCountyParser extends FieldProgramParser {
   
   public NCPamlicoCountyParser() {
     super(CITY_LIST, "PAMLICO COUNTY", "NC", 
-          "ADDR/S EMPTY EMPTY EMPTY ID CALL! INFO+");
+          "ADDR/S X EMPTY EMPTY EMPTY? ID CALL! INFO+");
   }
 
   @Override
@@ -20,8 +20,20 @@ public class NCPamlicoCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new IdField("\\d{6,}", true);
+    if (name.equals("X")) return new MyCrossField();
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
     return super.getField(name);
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace("*", "");
+      field = field.replace(" X ", " / ");
+      field = stripFieldStart(field, "X ");
+      field = stripFieldEnd(field, " X");
+      super.parse(field, data);
+    }
   }
   
   private static final String[] CITY_LIST = new String[]{

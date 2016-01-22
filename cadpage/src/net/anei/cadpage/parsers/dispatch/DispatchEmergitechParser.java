@@ -154,7 +154,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   public DispatchEmergitechParser(String prefix, boolean optUnit, int[] extraSpacePosList,
                           String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
-           "( Nature:CALL Location:ADDR/S2! Comments:INFO | CALL NATURE:CALL? LOCATION:ADDR/S2PN! BETWEEN:X? COMMENTS:INFO )");
+           "( Nature:CALL Location:ADDR/S2! Comments:INFO | ( ID NATURE:CALL | CALL ) LOCATION:ADDR/S2PN! BETWEEN:X? COMMENTS:INFO )");
     
     if (!optUnit) {
       markerPattern = Pattern.compile("^" + prefix + UNIT_PTN);
@@ -346,7 +346,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern INFO_GPS_PTN1 = Pattern.compile("([-+]?\\d{1,3}\\.\\d{6}) *([-+]?\\d{1,3}\\.\\d{6})(?:CF=\\d+%)?(?:CALLBK=(\\(\\d{3}\\)\\d{3}-\\d{4}))?|CNF=\\d*UNC=\\d*");
+  private static final Pattern INFO_GPS_PTN1 = Pattern.compile("((?:LON:)?[-+]?\\d{1,3}\\.\\d{5,6}) *(?:LAT:)?([-+]?\\d{1,3}\\.\\d{5,6})(?:CO?F[:=]\\d+%?)?(?:CPF:[A-Z0-9]*)?(?:CALLBK=(\\(\\d{3}\\)\\d{3}-\\d{4}))?|CNF=\\d*UNC=\\d*");
   private static final Pattern INFO_GPS_PTN2 = Pattern.compile("ALT#=([- 0-9]+) X=([-+]?\\d+\\.\\d+) Y=([-+]?\\d+\\.\\d+) (?:AT&T )?[A-Z]+ *");
   private class BaseInfoField extends InfoField {
     @Override
