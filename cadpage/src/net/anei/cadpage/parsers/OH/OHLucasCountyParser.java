@@ -31,7 +31,7 @@ public class OHLucasCountyParser extends MsgParser {
   }
   
   private static final Pattern SPLITTER = Pattern.compile("\\[\\d\\]");
-  private static final Pattern MASTER = Pattern.compile("([A-Z]{3}\\d{7,8}|\\d{8}-\\d{7}) (.*) ([A-Z]+)-((?:[A-Z ]+)?[A-Z][a-z].*)(\\d{8}|0) (\\d{8}|0)(?: (.*))?");
+  private static final Pattern MASTER = Pattern.compile("([A-Z]{3}\\d{7,8}|\\d{8}-\\d{7}) (.*) ([A-Z]+)-((?:[A-Z ]+)?[A-Z][a-z].*?)(\\d{8}|0) (\\d{8}|0)(?: (.*))?");
   
   @Override
   public boolean parseMsg(String body, Data data) {
