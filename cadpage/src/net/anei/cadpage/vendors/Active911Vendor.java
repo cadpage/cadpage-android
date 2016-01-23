@@ -154,6 +154,7 @@ class Active911Vendor extends Vendor {
       "CA/AB/ClearwaterCounty",           "ZCAABClearwaterCounty",
       "CA/AB/FrescCA",                    "ZCAABCanmore",
       "CA/AB/RedDeerCounty",              "ZCAABRedDeerCounty",
+      "CA/AB/SCES911Centre",              "ZCAABStrathconaCounty",
       "CA/BC/MidIsland",                  "ZCABCMidIslandRegion",
       "CA/BC/Nanaimo",                    "ZCABCNanamino",
       "CA/BC/PrinceGeorge",               "ZCABCPrinceGeorge",
