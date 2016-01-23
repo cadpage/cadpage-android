@@ -11,6 +11,7 @@ Pbagnpg: Npgvir911
 Ntrapl anzr: Cnzyvpb Pbhagl Rzretrapl Znantrzrag
 Ybpngvba: Onlobeb, AP, Havgrq Fgngrf
 
+8596 AP 55 ARJ OREA;;;;; 20160613; 09:14:27; ERF ZRQVPNY RZR-; 83 LBS yvsgvat nffvfgnapr
 106 JUVGGNXRE CBVAG EQ BEVRAGNY;;;;; 20160633; 14:15:45; ERF SNYYF-; 82 LBZ SRYY BSS EBBS NCCEBK 15 GB 20 SRRG - VA YVIVATEBBZ OHG PNAG ZBIR
 13808 AP 55 UJL ONLOBEB; AP 55 UJL K AP 55 UJL;;;; 20160630; 13:28:36; ERF ERFCVENGBEL-; 79 LBZ QVSSVPHYGL OERNGUVAT
 8596 AP 55 ARJ OREA;;;;; 20160613; 09:14:27; ERF ZRQVPNY RZR-; 83 LBS yvsgvat nffvfgnapr
@@ -102,6 +103,15 @@ choyvp pynff APCnzyvpbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgCnzyvpbPbhaglRzretraplZnantrzrag() {
+
+    qbGrfg("K1",
+        "8596 AP 55 ARJ OREA;;;;; 20160613; 09:14:27; ERF ZRQVPNY RZR-; 83 LBS yvsgvat nffvfgnapr",
+        "NQQE:8596 AP 55",
+        "ZNQQE:8596 FGNGR 55",
+        "PVGL:ARJ OREA",
+        "VQ:20160613",
+        "PNYY:09:14:27",
+        "VASB:ERF ZRQVPNY RZR- / 83 LBS yvsgvat nffvfgnapr");
 
     qbGrfg("G1",
         "106 JUVGGNXRE CBVAG EQ BEVRAGNY;;;;; 20160633; 14:15:45; ERF SNYYF-; 82 LBZ SRYY BSS EBBS NCCEBK 15 GB 20 SRRG - VA YVIVATEBBZ OHG PNAG ZBIR",
