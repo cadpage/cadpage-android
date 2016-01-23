@@ -23,10 +23,8 @@ public class KYRockcastleCountyParser extends DispatchA48Parser {
   }
     
   private static final String[] CITY_LIST = new String[]{
-
       "BRODHEAD",
       "LIVINGSTON",
       "MOUNT VERNON"
-    
   };
 }
