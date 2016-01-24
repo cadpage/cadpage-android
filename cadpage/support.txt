@@ -776,8 +776,8 @@ Since your DEMO period is longer than the remaining time on your subscription, t
 
 I found your free Cadpage subscription of ______.  However, your Cadpage User email address has changed.  I have updated your account with your current email address.
 
+Please: 
 Go into Cadpage settings, press Payment Status and then Recalculate Payment Status.
-
 If that fails, please contact us again using the Cadpage app.  Go to Settings, select Email the Developer and include the configuration information. 
 
 Take care, 
