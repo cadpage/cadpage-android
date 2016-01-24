@@ -168,7 +168,7 @@ choyvp pynff XLEbpxpnfgyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:NPPR",
         "PNYY:NPPVQRAG JVGU RAGENCZRAG",
         "NQQE:SNVEIVRJ YBBC EQ",
-        "ZNQQE:SNVEIVRJ YBBC EQ & OBBAR TNC EQ",
+        "ZNQQE:SNVEIVRJ YBBC EQ & OBBAR TNC EQ", //qbrf abg znc
         "PVGL:ZBHAG IREABA",
         "K:OBBAR TNC EQ / A JVYQREARFF EQ / YNZOREG EQ",
         "FEP:1101, RZF, OEISQ",
@@ -301,7 +301,7 @@ choyvp pynff XLEbpxpnfgyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SVERE",
         "PNYY:SVER ERFVQRAGVNY",
         "NQQE:SYNG TNC EQ",
-        "ZNQQE:SYNG TNC EQ & OHSSNYB UBYYBJ EQ",
+        "ZNQQE:SYNG TNC EQ & OHSSNYB UBYYBJ EQ", //qbrf abg znc
         "PVGL:ORERN",
         "K:OHSSNYB UBYYBJ EQ",
         "FEP:OEISQ",
@@ -948,7 +948,7 @@ choyvp pynff XLEbpxpnfgyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:NPPV",
         "PNYY:NPPVQRAG JVGU VAWHEVRF",
         "NQQE:QHT UVYY EQ",
-        "ZNQQE:QHT UVYY EQ & QLFNEG JNL",
+        "ZNQQE:QHT UVYY EQ & QLFNEG JNL", //qbrf abg znc
         "PVGL:OEBQURNQ",
         "K:QLFNEG JNL / ANCVRE EQ",
         "FEP:OUISQ, 505",
@@ -972,7 +972,7 @@ choyvp pynff XLEbpxpnfgyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2016-00000282",
         "PBQR:SVERB",
         "PNYY:SVER BGURE",
-        "NQQE:154 FURYYONEX YA",
+        "NQQE:154 FURYYONEX YA", //qbrf abg znc
         "PVGL:ZBHAG IREABA",
         "K:FCVEB EQ",
         "FEP:ZISQ, OUISQ, JISQ",

@@ -286,6 +286,7 @@ Ntrapl anzr: Erab Pbhagl RZF
 Ybpngvba: Uhgpuvafba, XF, Havgrq Fgngrf
 Fraqre: AJFCntr@erabyrp.pbz
 
+{Cntr Abgvsvpngvba} SNYY  -  707 J 22AQ NIR UHGPUVAFBA 38.0775117032661 / -97.9442809827483  PBZR VA GUR ONPX QBBE  FGVYY BA GUR SYBBE OHG ZNANTRQ GB TRG VAFVQR SEBZ BHGFVQR  EC UNF QBT OHG VF HANOYR GB CHG URE NJNL  EVTUG YRT  NAXYR  CebDN Zrqvpny Qvfcngpu Zrffntr Frag; Qvfcngpu Pbqr: 17-N-01  Ceboyrz: SNYY.  Cngvrag Vasb: 1 cngvrag(f); 75 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  75 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  ABG QNATREBHF obql nern.  Pnyyre Fgngrzrag: SNYY.  1.Guvf unccrarq abj (yrff guna 6uef ntb).  2.Vg'f ercbegrq gung fur sryy ng tebhaq yriry.  3.Gur snyy jnf nppvqragny.  4.Gurer vf ab oyrrqvat abj.  5.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  6.Gur vawhel vf gb n ABG QNATREBHF nern.  7.Fur vf ab ybatre ba gur sybbe (tebhaq).  R911 Vasb - Pynff bs Freivpr: JCU2 Fcrpvny Erfcbafr Vasb: HAP=330      JVERYRFF PNYY                   JVERYRFF PNYY Hapregnvagl:  Pbasvqrapr:  2016-00000348
 {Cntr Abgvsvpngvba} GENAFSRE  -  1701 R  23EQ NIR RE5 UHGPUVAFBA 38.079428499976 / -97.8944737879223  70 NQI  70 10-4 CNTR  10-37  ERNQL ABJ  FR - 15 YVGRE OERNGURE NAQ SBYRL  PNEBY PNEEBY 72LBS  UBFCVPR UBHFR  2016-00000276
 {Cntr Abgvsvpngvba} SNYY  -  3008 FVREEN CXL O UHGPUVAFBA 38.0880173646061 / -97.9158107571176  2016-00000187
 {Cntr Abgvsvpngvba} NPPVQRAG-VAQHFGEVNY  -  2700 R 4GU NIR UHGPUVAFBA 38.0577523820396 / -97.8810295777757  PHG GUEBHTU UVF UVF FUBRF  GBRF NER FGVYY NGGNPURQ  Na Reebe bppheerq va CebDN Zrqvpny - PNFR NYERNQL BA SVYR.; Qvfcngpu Pbqr: 21--  20 lrne byq, Znyr, Pbafpvbhf, Oernguvat.  Urzbeeuntr / Ynprengvbaf.  Pnyyre Fgngrzrag: YNPRENGVB.  1.Gur pnhfr bs gur oyrrqvat vf genhzngvp.  2.Gur oyrrqvat vf sebz n CBFFVOYL QNATREBHF nern.  Qvfcngpu erprvirq ol havg 136  BCF 1  Qvfcngpu erprvirq ol havg 114  Qvfcngpu erprvirq ol havg 195  YRSG SBBG  ENA BIRE UVF SBBG JVGU UVF SBEX YVSG  THL UHEG VF SBBG JVGU SBEX YVSG  2016-00000913
@@ -3241,6 +3242,15 @@ choyvp pynff XFErabPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgErabPbhaglRZF() {
+
+    qbGrfg("K3",
+        "{Cntr Abgvsvpngvba} SNYY  -  707 J 22AQ NIR UHGPUVAFBA 38.0775117032661 / -97.9442809827483  PBZR VA GUR ONPX QBBE  FGVYY BA GUR SYBBE OHG ZNANTRQ GB TRG VAFVQR SEBZ BHGFVQR  EC UNF QBT OHG VF HANOYR GB CHG URE NJNL  EVTUG YRT  NAXYR  CebDN Zrqvpny Qvfcngpu Zrffntr Frag; Qvfcngpu Pbqr: 17-N-01  Ceboyrz: SNYY.  Cngvrag Vasb: 1 cngvrag(f); 75 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  75 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  ABG QNATREBHF obql nern.  Pnyyre Fgngrzrag: SNYY.  1.Guvf unccrarq abj (yrff guna 6uef ntb).  2.Vg'f ercbegrq gung fur sryy ng tebhaq yriry.  3.Gur snyy jnf nppvqragny.  4.Gurer vf ab oyrrqvat abj.  5.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  6.Gur vawhel vf gb n ABG QNATREBHF nern.  7.Fur vf ab ybatre ba gur sybbe (tebhaq).  R911 Vasb - Pynff bs Freivpr: JCU2 Fcrpvny Erfcbafr Vasb: HAP=330      JVERYRFF PNYY                   JVERYRFF PNYY Hapregnvagl:  Pbasvqrapr:  2016-00000348",
+        "PNYY:SNYY",
+        "NQQE:707 J 22AQ NIR",
+        "PVGL:UHGPUVAFBA",
+        "TCF:+38.077512,-97.944281",
+        "VASB:PBZR VA GUR ONPX QBBE  FGVYY BA GUR SYBBE OHG ZNANTRQ GB TRG VAFVQR SEBZ BHGFVQR  EC UNF QBT OHG VF HANOYR GB CHG URE NJNL  EVTUG YRT  NAXYR  CebDN Zrqvpny Qvfcngpu Zrffntr Frag; Qvfcngpu Pbqr: 17-N-01  Ceboyrz: SNYY.  Cngvrag Vasb: 1 cngvrag(f); 75 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  75 lrne byq, Srznyr, Pbafpvbhf, Oernguvat.  Snyyf.  ABG QNATREBHF obql nern.  Pnyyre Fgngrzrag: SNYY.  1.Guvf unccrarq abj (yrff guna 6uef ntb).  2.Vg'f ercbegrq gung fur sryy ng tebhaq yriry.  3.Gur snyy jnf nppvqragny.  4.Gurer vf ab oyrrqvat abj.  5.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  6.Gur vawhel vf gb n ABG QNATREBHF nern.  7.Fur vf ab ybatre ba gur sybbe (tebhaq).",
+        "VQ:2016-00000348");
 
     qbGrfg("K2",
         "{Cntr Abgvsvpngvba} GENAFSRE  -  1701 R  23EQ NIR RE5 UHGPUVAFBA 38.079428499976 / -97.8944737879223  70 NQI  70 10-4 CNTR  10-37  ERNQL ABJ  FR - 15 YVGRE OERNGURE NAQ SBYRL  PNEBY PNEEBY 72LBS  UBFCVPR UBHFR  2016-00000276",
