@@ -585,6 +585,7 @@ class Active911Vendor extends Vendor {
       "US/MN/HennepinCounty",             "MNHennepinCounty",
       "US/MN/IsantiCounty",               "MNIsantiCounty",
       "US/MN/KandiyohiCounty",            "MNKandiyohiCounty",
+      "US/MN/LeSueurCounty",              "MNLeSueurCounty",
       "US/MN/LyonCounty",                 "MNLyonCounty",
       "US/MN/MartinCounty",               "MNMartinCounty",
       "US/MN/McLeodCounty",               "MNMcLeodCounty",
