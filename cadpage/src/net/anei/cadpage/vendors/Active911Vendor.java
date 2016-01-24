@@ -1133,6 +1133,7 @@ class Active911Vendor extends Vendor {
       "US/VA/CityofHarrisonburg",         "VARockinghamCounty",
       "US/VA/CityofRoanoke",              "VARoanokeCity",
       "US/VA/CityofStaunton",             "VAStaunton",
+      "US/VA/CityofWaynesboro",           "VAWaynesboroB",
       "US/VA/CulpeperCounty",             "VACulpeperCounty",
       "US/VA/DickensonCounty",            "VADickensonCounty",
       "US/VA/Esva911",                    "VANorthamptonCounty",
