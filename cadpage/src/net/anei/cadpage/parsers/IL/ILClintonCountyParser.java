@@ -6,6 +6,7 @@ public class ILClintonCountyParser extends DispatchA29Parser {
  
   public   ILClintonCountyParser() {
     super(CITY_LIST, "CLINTON COUNTY", "IL");
+    setupProtectedNames("ROD AND GUN");
   }
   
   @Override

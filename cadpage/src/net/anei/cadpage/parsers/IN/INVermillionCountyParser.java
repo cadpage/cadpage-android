@@ -30,13 +30,13 @@ public class INVermillionCountyParser extends DispatchA29Parser {
   }
   
   private static final CodeSet CALL_LIST = new CodeSet(
-      "8040 RESCUE/AMBULANCE",
-      "8044 FIRE-BRUSH",
-      "8045 FIRE-GENERAL",
-      "8048 FIRE-STRUCTURE",
-      "8049 FIRE-VEHICLE",
-      "8050 FIRE ALARM",
-      "8161 MEDICAL"
+      "RESCUE/AMBULANCE",
+      "FIRE-BRUSH",
+      "FIRE-GENERAL",
+      "FIRE-STRUCTURE",
+      "FIRE-VEHICLE",
+      "FIRE ALARM",
+      "MEDICAL"
   );
 
   private static final String[] CITY_LIST = new String[]{
