@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.ZCAAB;
 
 /*
-Strathcona County, AB, Canadaa
+Strathcona County, AB, Canada
 Alias for Red Deer County
 
 */

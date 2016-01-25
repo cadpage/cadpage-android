@@ -5,8 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-
-Pbagnpg: Npgvir911
+PYvagba Pbhagl, VY
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Treznagbja ISQ
