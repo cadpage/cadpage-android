@@ -6,9 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   choyvp fgngvp svany Cnggrea ZNFGRE =
-      Cnggrea.pbzcvyr("[ /]*\\o(?<!\\o(?:EG|HF|UJL))(\\q+) *([AFRJ]|OYX|OYBPX|), +");
+      Cnggrea.pbzcvyr("[- *=_]{3,}$");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("6100 NZOHYNAPR - RZRETRAPL 812, AJ 4GU NIR,TNYIN PNYYOX=3092997299");
+    qbGrfg("NYNEZ NHGB ERFCBAFR GREZVANGRQ 8/31/05 ********************************* ********************************* *********************************");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

@@ -554,6 +554,7 @@ class Active911Vendor extends Vendor {
       "US/MI/IoscoCounty",                "MIIoscoCounty",
       "US/MI/Irisalert",                  "MIOaklandCountyB",
       "US/MI/JacksonCounty",              "MIJacksonCounty",
+      "US/MI/KalamazooCity",              "MIKalamazooCounty",
       "US/MI/LakeCounty",                 "MILakeCounty",
       "US/MI/LenaweeCounty",              "MILenaweeCountyB",
       "US/MI/LuceCounty",                 "MILuceCounty",
