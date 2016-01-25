@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA50Parser;
 public class MIKalamazooCountyParser extends DispatchA50Parser {
   
   public MIKalamazooCountyParser() {
-    super(CITY_CODES, null, "KALAMAZOO COUNTY", "MI");
+    super(CITY_CODES, "KALAMAZOO COUNTY", "MI");
     }
   
   @Override
@@ -18,9 +18,9 @@ public class MIKalamazooCountyParser extends DispatchA50Parser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "COMS",  "COMSTOCK",
-      "OSHT",  "OSHTEMO CHATER TWP",
+      "OSHT",  "OSHTEMO TWP",
       "PORT",  "PORTAGE",
-      "TEXA",  "TEXAS CHARTER TWP"
+      "TEXA",  "TEXAS TWP"
 
   });
 }

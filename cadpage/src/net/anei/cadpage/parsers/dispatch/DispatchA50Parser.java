@@ -11,9 +11,13 @@ public class DispatchA50Parser extends FieldProgramParser {
   
   private Properties callCodes;
   
+  public DispatchA50Parser(Properties cityCodes, String defCity, String defState) {
+    this(null, cityCodes, defCity, defState);
+  }
+  
   public DispatchA50Parser(Properties callCodes, Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState,
-          "Location:ADDR/2S? EID:ID! TYPE_CODE:CALL! CALLER_NAME:NAME CALLER_ADDR:ADDR/S TIME:TIME");
+          "Location:ADDR/2S? EID:ID! TYPE_CODE:CALL! CALLER_NAME:NAME CALLER_ADDR:ADDR/S TIME:TIME Comments:INFO  SPECIAL_ADDRESS_COMMENT:INFO/N Disp:UNIT");
     this.callCodes =  callCodes;
   }
   
@@ -21,6 +25,7 @@ public class DispatchA50Parser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
@@ -75,6 +80,16 @@ public class DispatchA50Parser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "PRI CODE CALL";
+    }
+  }
+  
+  private static final Pattern INFO_TRIM_PTN = Pattern.compile("[- *=_]{3,}$");
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = INFO_TRIM_PTN.matcher(field);
+      if (match.find()) field = field.substring(0,match.start());
+      super.parse(field, data);
     }
   }
 }
