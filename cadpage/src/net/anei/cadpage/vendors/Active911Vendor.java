@@ -188,6 +188,7 @@ class Active911Vendor extends Vendor {
       "US/AL/MarshallCounty",             "ALMarshallCounty",
       "US/AL/MobileCounty",               "ALMobileCounty",
       "US/AL/MorganCounty",               "ALMorganCounty",
+      "US/AL/RussellCounty",              "ALRussellCounty",
       "US/AL/Shelby",                     "ALShelbyCounty",
       "US/AL/StClairCounty",              "ALStClairCounty",
       "US/AL/TalladegaCounty",            "ALTalladega",
