@@ -4,6 +4,25 @@
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.05.02\n
+New Locations:\n
+Jefferson County, AL (alt)\n
+Russell County, Al\n
+Clinton County, IL\n
+Rockcastle County, KY\n
+Kalamazoo County, MI\n
+Radford, VA\n
+Strathcona County, AB, Canada\n
+\n
+Location Fixes:\n
+Northwest Public Safety, CT\n
+McHenry County, IL\n
+Prince Georges County, MD\n
+Washington County, MO\n
+Albany County, NY (alt)\n
+Macon County, NC\n
+Mercer County, OH\n
+\n
 v1.9.05.01\n
 Location Fixes:\n
 Atlantic County, NJ\n
@@ -56,14 +75,7 @@ Kootenai County, ID\n
 Prince Georges County, MD\n
 Northumberland County, PA\n
 Wyoming County, PA\n
-Red Deer County, AB (Canada)\n
-\n
-v1.9.02\n
-Location Fixes:\n
-Hamilton County, IN\n
-Johnson County, MO\n
-Highland County, OH\n
-Knox County, OH
+Red Deer County, AB (Canada)
   </string>
 </resources>
   
