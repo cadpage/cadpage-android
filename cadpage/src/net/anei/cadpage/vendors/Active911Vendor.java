@@ -743,6 +743,7 @@ class Active911Vendor extends Vendor {
       "US/NC/WilkesCounty",               "NCWilkesCounty",
       "US/NC/WilsonCounty",               "NCWilsonCounty",
       "US/NC/YadkinCounty",               "NCYadkinCounty",
+      "US/NC/YanceyCounty",               "NCYanceyCounty",
       "US/ND/CityofFargo",                "NDCassCounty",
       "US/ND/PierceCounty",               "NDPierceCounty",
       "US/NE/GrandIslandPolice",          "NEGrandIsland",
