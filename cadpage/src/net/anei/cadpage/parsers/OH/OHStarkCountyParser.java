@@ -10,6 +10,7 @@ public class OHStarkCountyParser extends GroupBestParser {
   
   public OHStarkCountyParser() {
     super(new OHStarkCountyCencommParser(),
-           new OHStarkCountyRedcenterParser());
+           new OHStarkCountyRedcenterParser(),
+           new OHStarkCountyRedcenter2Parser());
   }
 }
