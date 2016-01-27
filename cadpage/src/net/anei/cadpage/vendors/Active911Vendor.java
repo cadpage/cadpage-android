@@ -244,6 +244,7 @@ class Active911Vendor extends Vendor {
       "US/CA/MarinCountySheriff",         "CAMarinCounty",
       "US/CA/MendocinoCounty",            "CAMendocinoCounty",
       "US/CA/Monterey",                   "CAMontereyCounty",
+      "US/CA/Neucad",                     "CAPlacerCountyA",
       "US/CA/OrangeCounty",               "CAOrangeCounty",
       "US/CA/OrovillePD",                 "CAOroville",
       "US/CA/PlacerCounty",               "CAPlacerCountyA",

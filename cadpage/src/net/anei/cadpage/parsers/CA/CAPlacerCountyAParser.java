@@ -17,7 +17,7 @@ public class CAPlacerCountyAParser extends FieldProgramParser {
   
   protected CAPlacerCountyAParser(String defCity, String defState) {
     super(defCity, defState,
-          "UNIT CALL ADDR PLACE ID! INFO");
+          "ID MAP CALL ADDR PLACE GPS! Resources:UNIT! Remarks:INFO/N+");
   }
   
   @Override
@@ -34,17 +34,25 @@ public class CAPlacerCountyAParser extends FieldProgramParser {
   public int getMapFlags() {
     return MAP_FLG_SUPPR_LA;
   }
+  
+  private static final Pattern DELIM = Pattern.compile("\n\n");
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (!subject.equals("CAD Page")) return false;
-    if (!body.startsWith(":")) return false;
-    body = body.substring(1).trim();
-    
-    int pt = body.indexOf('\n');
-    if (pt >= 0) body = body.substring(0,pt).trim();
-    return parseFields(body.split(":"), data);
+    return parseFields(DELIM.split(body), data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("Incident #(\\d{6})", true);
+    if (name.equals("MAP")) return new MapField("RespArea *(\\S+)", true);
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("GPS")) return new MyGPSField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
   
   private class MyAddressField extends AddressField {
@@ -96,8 +104,6 @@ public class CAPlacerCountyAParser extends FieldProgramParser {
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      if (!field.startsWith("Remarks")) abort();
-      field = field.substring(7).trim();
       Matcher  match = INFO_CODE_PTN.matcher(field);
       if (match.matches()) {
         data.strCode = match.group(1);
@@ -112,13 +118,13 @@ public class CAPlacerCountyAParser extends FieldProgramParser {
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("UNIT")) return new UnitField("R/A +(.*)");
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("PLACE")) return new MyPlaceField();
-    if (name.equals("ID")) return new IdField("Inc# *(\\d*)", true);
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
+  private static final Pattern GPS_PTN = Pattern.compile("http://maps.google.com/\\?q=([-+]?\\d+\\.\\d{4,},[-+]?\\d+\\.\\d{4,})");
+  private class MyGPSField extends GPSField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = GPS_PTN.matcher(field);
+      if (!match.matches()) abort();
+      setGPSLoc(match.group(1), data);
+    }
   }
 }
