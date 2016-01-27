@@ -3,12 +3,14 @@ package net.anei.cadpage;
 import java.io.IOException;
 import java.io.Serializable;
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
+import java.util.SimpleTimeZone;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -843,22 +845,34 @@ public class SmsMmsMessage implements Serializable {
     
     if (serverTime ==  null ||  serverTime.length() == 0) return null;
     
-    long time;
+    // Different vendors use different formats :(
+    // Try to parse as a numeric long integer
     try {
-      time = Long.parseLong(serverTime);
-    } catch (NumberFormatException ex) {
-      return null;
-    }
+      long time = Long.parseLong(serverTime);
+      
+      // Numeric time could be in seconds or in msecs
+      if (time < 1000000000000L) time *= 1000L;
+      
+      // very broad reasonableness checks
+      if (time < 1000000000000L) return null;
+      if (time > 2000000000000L) return null;
+      
+      // Looks good
+      return new Date(time);
+    } catch (NumberFormatException ex) {}
     
-    // Numeric time could be in seconds or in msecs
-    if (time < 1000000000000L) time *= 1000L;
+    // No go, try as UMT Date/time
+    try {
+      return SERVER_DATE_FMT.parse(serverTime);
+    } catch (ParseException ex) {}
     
-    // very broad reasonableness checks
-    if (time < 1000000000000L) return null;
-    if (time > 2000000000000L) return null;
-    
-    // Looks good
-    return new Date(time);
+    return null;
+      
+  }
+  
+  private static final DateFormat SERVER_DATE_FMT = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+  static {
+    SERVER_DATE_FMT.setTimeZone(new SimpleTimeZone(0, "UMT"));
   }
 
   public MessageClass getMessageClass() {

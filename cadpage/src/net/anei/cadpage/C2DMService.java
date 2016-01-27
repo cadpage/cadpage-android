@@ -259,6 +259,7 @@ public class C2DMService extends IntentService {
     if (callId == null) callId = intent.getStringExtra("id");
     String serverTime = intent.getStringExtra("unix_time");
     if (serverTime ==  null) serverTime = intent.getStringExtra("unix_timestamp");
+    if (serverTime == null) serverTime = intent.getStringExtra("date");
     // agency code = intent.getStringExtra("agency_code");
     String infoUrl = intent.getStringExtra("info_url"); 
     
