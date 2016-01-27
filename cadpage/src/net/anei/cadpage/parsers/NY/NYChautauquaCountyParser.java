@@ -16,7 +16,7 @@ public class NYChautauquaCountyParser extends FieldProgramParser {
   
   public NYChautauquaCountyParser() {
     super(CITY_LIST, "CHAUTAUQUA COUNTY", "NY",
-          "CALL! ADDR/iSXa! C/T/V:CITY! UNIT1? INFO+? UNIT2 X-Streets:X END");
+          "CALL! PLACE? ADDR/ZiSXa! C/T/V:CITY! UNIT1? INFO+? UNIT2 X-Streets:X END");
   }
   
   @Override
@@ -50,8 +50,9 @@ public class NYChautauquaCountyParser extends FieldProgramParser {
     }
     
     if (body.startsWith("New Call")) body = '*' + body;
-    if (body.startsWith("*")) {
-      body = body.substring(1).trim().replace("C/T/V ", "C/T/V:");
+    if (body.startsWith("*") || body.contains("\n")) {
+      body = stripFieldStart(body, "*");
+      body = body.replace("C/T/V ", "C/T/V:");
       body = stripFieldEnd(body, ";");
       if (!parseFields(DELIM.split(body),data)) return false;
       if (data.strApt.length() > 0 && NOT_APT_PTN.matcher(data.strApt).matches()) {
@@ -82,6 +83,7 @@ public class NYChautauquaCountyParser extends FieldProgramParser {
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("UNIT1")) return new MyUnitField(1);
     if (name.equals("UNIT2")) return new MyUnitField(2);
+    if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
   }
   
@@ -110,6 +112,15 @@ public class NYChautauquaCountyParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       data.strUnit = append(data.strUnit, " ", field);
+    }
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldEnd(field, "/");
+      field = stripFieldStart(field, "/");
+      super.parse(field, data);
     }
   }
   
