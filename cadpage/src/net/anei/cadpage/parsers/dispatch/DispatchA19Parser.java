@@ -6,12 +6,12 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 /**
  * Base class for parsing Spillman CAD system alerts
  */
 public class DispatchA19Parser extends FieldProgramParser {
   
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("Incident #: (.*?)\n +CAD Call ID #: (.*?)\n");
   private static final Pattern SUBJECT_PTN = Pattern.compile("(?:DISPATCH)?INCIDENT # ([-,A-Z0-9]+)");
   private static final Pattern HASH_DELIM = Pattern.compile("(?<=[A-Z]) ?#(?= )");
   private static final Pattern FIELD_BREAK = Pattern.compile(" (ACTIVE CALL|REPORTED|Type|Zone|Phone):");
@@ -20,6 +20,7 @@ public class DispatchA19Parser extends FieldProgramParser {
   private boolean refLatLong = false; 
   private double refLat;
   private double refLong;
+  private String times;
   
   public DispatchA19Parser(String defCity, String defState, double refLat, double refLong) {
     this(defCity, defState);
@@ -30,46 +31,42 @@ public class DispatchA19Parser extends FieldProgramParser {
   
   public DispatchA19Parser(String defCity, String defState) {
     super(defCity, defState,
-           "INCIDENT:ID? LONG_TERM_CAD:ID? ACTIVE_CALL:ID? PRIORITY:PRI? REPORTED:TIMEDATE? Nature:CALL! Type:SKIP! Address:ADDR! Zone:MAP! City:CITY! SearchAddresss:SKIP? LAT-LON:GPS? Responding_Units:UNIT! Directions:INFO! INFO+ Cross_Streets:X? X+ ( XY_Coordinates:XYPOS | XCoords:XY_COORD ) Comments:INFO? INFO+ Contact:NAME Phone:PHONE");
-
+           "( Incident_#:ID! CAD_Call_ID_#:ID! Type:SKIP/R! Date/Time:TIMEDATE! Address:ADDR! Contact:NAME! Contact_Phone:PHONE? Nature:CALL! Nature_Description:INFO! Comments:INFO+ Receiving_and_Responding_Units:SKIP TIMES/N+ " +
+           "| INCIDENT:ID? LONG_TERM_CAD:ID? ACTIVE_CALL:ID? PRIORITY:PRI? REPORTED:TIMEDATE? Nature:CALL! Type:SKIP! Address:ADDR! Zone:MAP! City:CITY! SearchAddresss:SKIP? LAT-LON:GPS? Responding_Units:UNIT! Directions:INFO! INFO+ Cross_Streets:X? X+ ( XY_Coordinates:XYPOS | XCoords:XY_COORD ) Comments:INFO? INFO+ Contact:NAME Phone:PHONE )");
   }
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-
-    Matcher match = RUN_REPORT_PTN.matcher(body);
-    if (match.lookingAt()) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
-      data.strCallId = append(match.group(1).trim(), "/", match.group(2).trim());
-      return true;
-    }
     
-    match = SUBJECT_PTN.matcher(subject);
+    Matcher match = SUBJECT_PTN.matcher(subject);
     if (match.matches()) data.strCallId = match.group(1);
     
+    times = "";
     body = HASH_DELIM.matcher(body).replaceAll(":");
     body = FIELD_BREAK.matcher(body).replaceAll("\n$1:");
-    return parseFields(FIELD_DELIM.split(body), data);
-  }
-  
-  private class MyIdField extends IdField {
-    @Override
-    public void parse(String field, Data data) {
-      data.strCallId = append(data.strCallId, "/", field);
-    }
+    if (!parseFields(FIELD_DELIM.split(body), data)) return false;
+    if (data.msgType == MsgType.RUN_REPORT) data.strSupp = append(times, "\n", data.strSupp);
+    return true;
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new MyIdField();
+    if (name.equals("ID")) return new BaseIdField();
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("INFO")) return new BaseInfoField();
     if (name.equals("X")) return new BaseCrossField();
     if (name.equals("XYPOS")) return new BaseXYPosField();
     if (name.equals("XY_COORD")) return new BaseXYCoordField();
     if (name.equals("PHONE")) return new BasePhoneField();
+    if (name.equals("TIMES")) return new BaseTimesField();
     return super.getField(name);
+  }
+  
+  private class BaseIdField extends IdField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strCallId = append(data.strCallId, "/", field);
+    }
   }
   
   private static final Pattern ADDR_APT_PTN = Pattern.compile("(?:APT|RM|SUITE) *(.*)|\\d+[A-Z]?", Pattern.CASE_INSENSITIVE);
@@ -220,6 +217,17 @@ public class DispatchA19Parser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (!LEGIT_PHONE_PTN.matcher(field).matches()) return;
       super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern TIMES_PTN = Pattern.compile("(\\S+ +[A-Z]+ +\\d\\d:\\d\\d:\\d\\d +\\d\\d/\\d\\d/\\d\\d)\\b *.*");
+  private class BaseTimesField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = TIMES_PTN.matcher(field);
+      if (match.matches()) {
+        times = append(times, "\n", match.group(1));
+      }
     }
   }
 }

@@ -77,6 +77,7 @@ public class DispatchB3Parser extends DispatchB2Parser {
         body = '(' + subject + ") " + body;
       } else if (!subject.startsWith("EVENT:")) {
         v3 = true;
+        subject = stripFieldEnd(subject, " REPORTED AT");
         body = subject + " @ " + body;
       }
     }

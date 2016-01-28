@@ -11,7 +11,7 @@ public class NYAlbanyCountyDParser extends FieldProgramParser {
 
   public NYAlbanyCountyDParser() {
     super("ALBANY COUNTY", "NY", 
-          "CALL EMPTY UNIT EMPTY EMPTY ADDR EMPTY! Cross_streets:X! Routing_Info:SKIP! Business:PLACE! RP:NAME! PHONE:PHONE! INFO/N+");
+          "CALL EMPTY UNIT EMPTY EMPTY? ADDR EMPTY! Cross_streets:X! Routing_Info:SKIP! Business:PLACE! RP:NAME! PHONE:PHONE! INFO/N+");
   }
   
   @Override
@@ -20,8 +20,7 @@ public class NYAlbanyCountyDParser extends FieldProgramParser {
   }
 
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.startsWith("DISPATCH NOTIFICATION")) return false;
+  protected boolean parseMsg(String body, Data data) {
     body = body.replace(" PHONE:", "\nPHONE:");
     return super.parseFields(body.split("\n"), data);
   }

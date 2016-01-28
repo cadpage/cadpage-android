@@ -10,6 +10,12 @@ Erq Qrre Pbhagl, NO
 Ynzbag Pbhagl, NO
 Ynpbzo Pbhagl, NO
 Pyrnejngre Pbhagl, NO
+Fgengupban Pbhagl, NO
+
+Npgvir911 Cnefref:
+PN/NO/PyrnejngrePbhagl"
+PN/NO/ErqQrrePbhagl
+PN/NO/FPRF911Prager
 
 Pbagnpg: Pbyva Pnaql <pbyvapnaql51@tznvy.pbz>
 Fraqre: fprfvgtebhc@fgengupban.pn
@@ -959,6 +965,111 @@ Ybpngvba: Perzban, Nyoregn, Pnanqn
 Fraqre: 210 Erfphr <210@perzbansver.pbz>
 
 {Vapvqrag Zrffntr} Qngr: 2015-08-30 18:34:13\aGlcr: ZIN - 1 ZIN IRUVPYR NPPVQRAG\aYbpngvba: Haxabja Ybpngvba - Pnyy Qvfcngpu\aYngvghqr: 51.61922500\aYbatvghqr: -114.54157900\aHavgf Erfcbaqvat: Pz241, Pz221, Pz210, Pz280, Pz260, Ji242, Ji280, Ji240,\aPz980
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Fgengupban Pbhagl Rzretrapl Freivprf
+Ybpngvba: Furejbbq Cnex, Nyoregn, Pnanqn
+Fraqre: "FPRF 911 Prager" <FPRFVGTebhc@fgengupban.pn>
+
+{Vapvqrag Zrffntr} Qngr: 2016-01-21 16:07:50\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 52457 EAT EQ 215, Fgengupban Pbhagl\aYngvghqr: 53.52239\aYbatvghqr: -113.07421\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-21 15:50:28\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 184 SBKUNIRA PEG, Fgengupban Pbhagl\aYngvghqr: 53.52904\aYbatvghqr: -113.26055\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-21 13:33:01\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 501 ORGURY QE, Fgengupban Pbhagl\aYngvghqr: 53.54389\aYbatvghqr: -113.30455\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-21 13:20:37\aGlcr: 33 - Vagresnpvyvgl Genafsre\aYbpngvba: 964 ABEZNAQL PEG, Fgengupban Pbhagl\aYngvghqr: 53.51410\aYbatvghqr: -113.27545\aHavgf: 1N1\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-21 13:20:37\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 964 ABEZNAQL PEG, Fgengupban Pbhagl\aYngvghqr: 53.51410\aYbatvghqr: -113.27545\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-21 10:50:40\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 75 PENASBEQ JL, Fgengupban Pbhagl\aYngvghqr: 53.54346\aYbatvghqr: -113.29232\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-21 10:40:18\aGlcr: 26 - Fvpx Crefba\aYbpngvba: 53237 EAT EQ 215, Fgengupban Pbhagl\aYngvghqr: 53.57691\aYbatvghqr: -113.07415\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-21 10:40:18\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 53237 EAT EQ 215, Fgengupban Pbhagl\aYngvghqr: 53.57691\aYbatvghqr: -113.07415\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-21 07:56:02\aGlcr: 77 - Genssvp Vapvqrag\aYbpngvba: EAT EQ 231 \GJC EQ 522, Fgengupban Pbhagl\aYngvghqr: 53.48318\aYbatvghqr: -113.27105\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-21 06:55:28\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 24 YNEX FG, Fgengupban Pbhagl\aYngvghqr: 53.51978\aYbatvghqr: -113.29199\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-21 06:40:22\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 146 51313 EAT EQ 231, Fgengupban Pbhagl\aYngvghqr: 53.41597\aYbatvghqr: -113.26364\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 21:44:45\aGlcr: 52 - Nynezf\aYbpngvba: 628 PNOEV PEG, Fgengupban Pbhagl\aYngvghqr: 53.55144\aYbatvghqr: -113.28070\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 19:26:20\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 423 RIRETERRA FG, Fgengupban Pbhagl\aYngvghqr: 53.52021\aYbatvghqr: -113.30379\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 19:21:24\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 26 51107 EAT EQ 221, Fgengupban Pbhagl\aYngvghqr: 53.38244\aYbatvghqr: -113.12077\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 18:32:32\aGlcr: 25 - Cflpuvngevp ceboyrz\aYbpngvba: 146 51313 EAT EQ 231, Fgengupban Pbhagl\aYngvghqr: 53.41597\aYbatvghqr: -113.26364\aHavgf: 2N2\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 18:32:32\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 146 51313 EAT EQ 231, Fgengupban Pbhagl\aYngvghqr: 53.41597\aYbatvghqr: -113.26364\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 17:34:53\aGlcr: 77 - Genssvp Vapvqrag\aYbpngvba: ONFRYVAR EQ\PEVZFBA QE, Fgengupban Pbhagl\aYngvghqr: 53.54125\aYbatvghqr: -113.27692\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 17:27:35\aGlcr: 52 - Nynezf\aYbpngvba: Havg 21, 11 NHTHFGVAR PE, Fgengupban Pbhagl\aYngvghqr: 53.55683\aYbatvghqr: -113.29144\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 17:09:07\aGlcr: 10 - Purfg Cnva\aYbpngvba: Havg 103, 182 JBBQOEVQTR JL, Fgengupban Pbhagl\aYngvghqr: 53.53068\aYbatvghqr: -113.32065\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 09:57:21\aGlcr: 52 - Nynezf\aYbpngvba: 990 NYQRE NI, Fgengupban Pbhagl\aYngvghqr: 53.51279\aYbatvghqr: -113.31352\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 09:44:56\aGlcr: 23 - Bireqbfr\aYbpngvba: 890 OVEPU NI, Fgengupban Pbhagl\aYngvghqr: 53.51360\aYbatvghqr: -113.30719\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 08:28:32\aGlcr: 52 - Nynezf\aYbpngvba: Havg 360, 222 ONFRYVAR EQ, Fgengupban Pbhagl\aYngvghqr: 53.54130\aYbatvghqr: -113.31620\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 06:55:11\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 914 OVFBA JL, Fgengupban Pbhagl\aYngvghqr: 53.55033\aYbatvghqr: -113.30189\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 06:48:30\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 4255 PYBIRE ONE EQ, Fgengupban Pbhagl\aYngvghqr: 53.55933\aYbatvghqr: -113.27445\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 04:58:27\aGlcr: 17 - Snyy\aYbpngvba: Havg 39, 7 PENASBEQ JL, Fgengupban Pbhagl\aYngvghqr: 53.54396\aYbatvghqr: -113.29417\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 04:58:27\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: Havg 39, 7 PENASBEQ JL, Fgengupban Pbhagl\aYngvghqr: 53.54396\aYbatvghqr: -113.29417\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 04:29:27\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 242 FHAPERFG EQ, Fgengupban Pbhagl\aYngvghqr: 53.55729\aYbatvghqr: -113.26327\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 02:17:50\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: Havg 13, 201 OBGUJRYY QE, Fgengupban Pbhagl\aYngvghqr: 53.54588\aYbatvghqr: -113.29876\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 02:03:50\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 85 54569 EAT EQ 215, Fgengupban Pbhagl\aYngvghqr: 53.71482\aYbatvghqr: -113.06630\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 02:00:01\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 20 ZREELINYR PE, Fgengupban Pbhagl\aYngvghqr: 53.53671\aYbatvghqr: -113.29970\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-20 00:15:33\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 20 UNJXVAF PE, Fgengupban Pbhagl\aYngvghqr: 53.51978\aYbatvghqr: -113.32244\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 23:22:27\aGlcr: 71 - Iruvpyr Sver\aYbpngvba: 56 BEPUVQ PE, Fgengupban Pbhagl\aYngvghqr: 53.54973\aYbatvghqr: -113.24844\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 22:48:50\aGlcr: 10 - Purfg Cnva\aYbpngvba: 1048 ZBLRE QE, Fgengupban Pbhagl\aYngvghqr: 53.51980\aYbatvghqr: -113.32878\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 21:51:13\aGlcr: 60 - Tnf Yrnx\aYbpngvba: 7 TERLFGBAR PE, Fgengupban Pbhagl\aYngvghqr: 53.53943\aYbatvghqr: -113.27809\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 21:40:48\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: Havg 15, 1601 PYBIRE ONE EQ, Fgengupban Pbhagl\aYngvghqr: 53.53075\aYbatvghqr: -113.26275\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 21:09:33\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: Havg NERAN, 52029 EAT EQ 224, Fgengupban Pbhagl (Fgengupban Bylzcvrggr Prager - NXN - Shygbainyr Erperngvba Pbzcyrk)\aYngvghqr: 53.45831\aYbatvghqr: -113.19065\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 20:15:56\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 2025 BNX FG, Fgengupban Pbhagl\aYngvghqr: 53.52746\aYbatvghqr: -113.30821\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 19:30:28\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 100 SVE FG, Fgengupban Pbhagl\aYngvghqr: 53.51411\aYbatvghqr: -113.31557\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 18:36:46\aGlcr: 77 - Genssvp Vapvqrag\aYbpngvba: EAT EQ 212 \GJC EQ 540, Fgengupban Pbhagl\aYngvghqr: 53.62873\aYbatvghqr: -113.00048\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 16:57:16\aGlcr: 69 - Fgehpgher Sver\aYbpngvba: 438 BNX FG, Fgengupban Pbhagl\aYngvghqr: 53.52169\aYbatvghqr: -113.30814\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 16:12:28\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 45 TEBIRYNAQ EQ, Fgengupban Pbhagl\aYngvghqr: 53.53285\aYbatvghqr: -113.27283\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 15:47:04\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 67 TERNG BNXF FG, Fgengupban Pbhagl\aYngvghqr: 53.53081\aYbatvghqr: -113.30102\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 15:17:11\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 54 OERAGJBBQ OYIQ, Fgengupban Pbhagl\aYngvghqr: 53.51587\aYbatvghqr: -113.29542\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 15:03:10\aGlcr: 52 - Nynezf\aYbpngvba: 8704 24 FG, Fgengupban Pbhagl\aYngvghqr: 53.52147\aYbatvghqr: -113.37879\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 14:34:13\aGlcr: 52 - Nynezf\aYbpngvba: 9015 14 FG, Fgengupban Pbhagl\aYngvghqr: 53.52421\aYbatvghqr: -113.36140\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 14:35:24\aGlcr: 52 - Nynezf\aYbpngvba: 8705 24 FG, Fgengupban Pbhagl\aYngvghqr: 53.52222\aYbatvghqr: -113.37878\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 14:32:36\aGlcr: 52 - Nynezf\aYbpngvba: 2801 84 NI, Fgengupban Pbhagl\aYngvghqr: 53.51940\aYbatvghqr: -113.38357\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 14:32:12\aGlcr: 52 - Nynezf\aYbpngvba: 8710 15 FG, Fgengupban Pbhagl\aYngvghqr: 53.52229\aYbatvghqr: -113.36504\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 14:30:25\aGlcr: 52 - Nynezf\aYbpngvba: 9001 20 FG, Fgengupban Pbhagl\aYngvghqr: 53.52488\aYbatvghqr: -113.37427\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 13:11:36\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: Havg 300, 2020 FUREJBBQ QE, Fgengupban Pbhagl\aYngvghqr: 53.53037\aYbatvghqr: -113.29554\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 12:56:54\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 914 OVFBA JL, Fgengupban Pbhagl\aYngvghqr: 53.55033\aYbatvghqr: -113.30189\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 11:23:15\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 216 TNVAFOBEB PEG, Fgengupban Pbhagl\aYngvghqr: 53.53003\aYbatvghqr: -113.27858\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 11:08:06\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: Havg 140, 80 PUVCCRJN EQ, Fgengupban Pbhagl\aYngvghqr: 53.53636\aYbatvghqr: -113.32456\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 10:16:31\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 30 YVYNP PE, Fgengupban Pbhagl\aYngvghqr: 53.54376\aYbatvghqr: -113.25093\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 09:37:03\aGlcr: 9 - Pneqvnp Neerfg\aYbpngvba: 1516 WHOVYRR JLAQ, Fgengupban Pbhagl\aYngvghqr: 53.56459\aYbatvghqr: -113.26790\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 09:37:03\aGlcr: 31 - Hapbafpvbhf Crefba\aYbpngvba: 1516 WHOVYRR JLAQ, Fgengupban Pbhagl\aYngvghqr: 53.56459\aYbatvghqr: -113.26790\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 09:31:00\aGlcr: 66 - Fgenatr Bqbhe\aYbpngvba: Ujl 14 \EAT EQ 215, Fgengupban Pbhagl\aYngvghqr: 53.39572\aYbatvghqr: -113.07434\aHavgf: FD5, CGRA2, CGGN2\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 09:31:00\aGlcr: 60 - Tnf Yrnx\aYbpngvba: Ujl 14 \EAT EQ 215, Fgengupban Pbhagl\aYngvghqr: 53.39572\aYbatvghqr: -113.07434\aHavgf: FD5, CGRA2, CGGN2\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 09:31:00\aGlcr: 60 - Tnf Yrnx\aYbpngvba: Ujl 14 \EAT EQ 215, Fgengupban Pbhagl\aYngvghqr: 53.39572\aYbatvghqr: -113.07434\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 07:34:29\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: Havg 4, 65 PENASBEQ QE, Fgengupban Pbhagl\aYngvghqr: 53.54476\aYbatvghqr: -113.29086\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-19 05:26:10\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 542 ENVAOBJ PE, Fgengupban Pbhagl\aYngvghqr: 53.51757\aYbatvghqr: -113.26889\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 22:44:27\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 1531 WHOVYRR QE, Fgengupban Pbhagl\aYngvghqr: 53.56459\aYbatvghqr: -113.26481\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 22:21:45\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 133 23330 GJC EQ 522, Fgengupban Pbhagl\aYngvghqr: 53.48775\aYbatvghqr: -113.32843\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 22:08:40\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: Haxabja Ybpngvba - Pnyy Qvfcngpu\aYngvghqr: 53.52071\aYbatvghqr: -113.28197\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 21:14:46\aGlcr: 52 - Nynezf\aYbpngvba: Havg 8, 2131 BNX FG, Fgengupban Pbhagl\aYngvghqr: 53.52902\aYbatvghqr: -113.30264\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 19:27:39\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: Havg 303, 69 PELFGNY YA, Fgengupban Pbhagl\aYngvghqr: 53.54590\aYbatvghqr: -113.29379\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 18:18:52\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 5 PNEZRY CY, Fgengupban Pbhagl\aYngvghqr: 53.53821\aYbatvghqr: -113.26517\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 16:10:07\aGlcr: 17 - Snyy\aYbpngvba: 5073 WHOVYRR QE, Fgengupban Pbhagl\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 16:10:07\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 5073 WHOVYRR QE, Fgengupban Pbhagl\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 15:09:57\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 55 PYNEXQNYR QE, Fgengupban Pbhagl\aYngvghqr: 53.55203\aYbatvghqr: -113.25245\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 13:48:10\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 209 JBBQOEVQTR JL, Fgengupban Pbhagl\aYngvghqr: 53.52925\aYbatvghqr: -113.32237\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 12:57:11\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 254 22450 GJC EQ 514, Fgengupban Pbhagl\aYngvghqr: 53.42485\aYbatvghqr: -113.21843\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 12:41:04\aGlcr: 52 - Nynezf\aYbpngvba: 101 TENANQN OYIQ, Fgengupban Pbhagl\aYngvghqr: 53.52815\aYbatvghqr: -113.29260\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 12:37:41\aGlcr: 6 - Oernguvat Ceboyrzf\aYbpngvba: 31 21546 GJC EQ 520, Fgengupban Pbhagl\aYngvghqr: 53.45679\aYbatvghqr: -113.09082\aHavgf: CGOG2\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 12:37:41\aGlcr: 6 - Oernguvat Ceboyrzf\aYbpngvba: 31 21546 GJC EQ 520, Fgengupban Pbhagl\aYngvghqr: 53.45679\aYbatvghqr: -113.09082\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 12:33:54\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 31 21546 GJC EQ 520, Fgengupban Pbhagl\aYngvghqr: 53.45679\aYbatvghqr: -113.09082\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 11:34:42\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: Havg 28, 15 EVGPUVR JL, Fgengupban Pbhagl\aYngvghqr: 53.51586\aYbatvghqr: -113.26929\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 10:37:43\aGlcr: 17 - Snyy\aYbpngvba: 258 ABGGVATUNZ OYIQ, Fgengupban Pbhagl\aYngvghqr: 53.51927\aYbatvghqr: -113.28102\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 10:21:02\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 920 OVFBA JL, Fgengupban Pbhagl\aYngvghqr: 53.55056\aYbatvghqr: -113.30352\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 09:28:28\aGlcr: 26 - Fvpx Crefba\aYbpngvba: 501 FGBAREVQTR QE, Fgengupban Pbhagl\aYngvghqr: 53.56111\aYbatvghqr: -113.25075\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 09:25:04\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 501 FGBAREVQTR QE, Fgengupban Pbhagl\aYngvghqr: 53.56111\aYbatvghqr: -113.25075\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 07:56:38\aGlcr: 52 - Nynezf\aYbpngvba: 10130 21 FG, Fgengupban Pbhagl\aYngvghqr: 53.54243\aYbatvghqr: -113.37566\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 07:11:24\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 1041 UNLGUBEAR EQ, Fgengupban Pbhagl\aYngvghqr: 53.52789\aYbatvghqr: -113.32748\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-18 06:18:28\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 218 JBBQOEVQTR JL, Fgengupban Pbhagl\aYngvghqr: 53.52862\aYbatvghqr: -113.32270\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-17 23:49:33\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 21 PUEVFGVAN CY, Fgengupban Pbhagl\aYngvghqr: 53.54414\aYbatvghqr: -113.26574\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-17 21:48:25\aGlcr: 52 - Nynezf\aYbpngvba: 85 22555 GJC EQ 530, Fgengupban Pbhagl\aYngvghqr: 53.53531\aYbatvghqr: -113.24026\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-17 20:36:05\aGlcr: 69 - Fgehpgher Sver\aYbpngvba: 428 22560 JLR EQ, Fgengupban Pbhagl\aYngvghqr: 53.52537\aYbatvghqr: -113.23104\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-17 20:16:09\aGlcr: 10Q1 - Purfg Cnva\aYbpngvba: 266 52039 EAT EQ 213, Fgengupban Pbhagl\aYngvghqr: 53.46124\aYbatvghqr: -113.02002\aHavgf: CGOG2\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-17 20:16:09\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 266 52039 EAT EQ 213, Fgengupban Pbhagl\aYngvghqr: 53.46124\aYbatvghqr: -113.02002\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-17 18:58:29\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 75 PENASBEQ JL, Fgengupban Pbhagl\aYngvghqr: 53.54346\aYbatvghqr: -113.29232\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-17 17:01:36\aGlcr: 66 - Fgenatr Bqbhe\aYbpngvba: Havg 300, 7000 RZRENYQ QE, Fgengupban Pbhagl\aYngvghqr: 53.56705\aYbatvghqr: -113.27962\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-17 15:43:56\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 642 JLR EQ, Fgengupban Pbhagl\aYngvghqr: 53.51215\aYbatvghqr: -113.27500\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-17 15:17:57\aGlcr: 77 - Genssvp Vapvqrag\aYbpngvba: FUREJBBQ QE\SVE FG, Fgengupban Pbhagl\aYngvghqr: 53.51369\aYbatvghqr: -113.32021\aHavgf: FD1, WO1N1, PNE5\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-17 15:17:57\aGlcr: 29 - Genssvp Vapvqrag\aYbpngvba: FUREJBBQ QE\SVE FG, Fgengupban Pbhagl\aYngvghqr: 53.51369\aYbatvghqr: -113.32021\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-17 14:47:54\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 229 22112 GJC EQ 531, Fgengupban Pbhagl\aYngvghqr: 53.55826\aYbatvghqr: -113.13326\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-17 14:41:29\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 42 FHZZREJBBQ OYIQ, Fgengupban Pbhagl\aYngvghqr: 53.56001\aYbatvghqr: -113.27145\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-17 14:38:38\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 54277 EAT EQ 220, Fgengupban Pbhagl\aYngvghqr: 53.67167\aYbatvghqr: -113.09855\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+{Vapvqrag Zrffntr} Qngr: 2016-01-17 13:02:20\aGlcr: 32 - Haxabja Ceboyrz\aYbpngvba: 2000 CERZVRE JL, Fgengupban Pbhagl\aYngvghqr: 53.55965\aYbatvghqr: -113.31642\aGuvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \anqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \avasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \avagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \abe gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \afhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.
+
 
 */
 choyvp pynff MPNNOErqQrrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -15485,6 +15596,2030 @@ choyvp pynff MPNNOErqQrrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:+51.619225,-114.541579",
         "TCF:+51.619225,-114.541579",
         "HAVG:Pz241, Pz221, Pz210, Pz280, Pz260, Ji242, Ji280, Ji240,");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgFgengupbanPbhaglRzretraplFreivprf() {
+
+    qbGrfg("G1",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-21 16:07:50\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 52457 EAT EQ 215, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.52239\a" +
+        "Ybatvghqr: -113.07421\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/21/2016",
+        "GVZR:16:07:50",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:52457 EAT EQ 215",
+        "ZNQQE:52457 Enatr EQ 215",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.522390,-113.074210");
+
+    qbGrfg("G2",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-21 15:50:28\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 184 SBKUNIRA PEG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.52904\a" +
+        "Ybatvghqr: -113.26055\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/21/2016",
+        "GVZR:15:50:28",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:184 SBKUNIRA PEG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.529040,-113.260550");
+
+    qbGrfg("G3",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-21 13:33:01\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 501 ORGURY QE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.54389\a" +
+        "Ybatvghqr: -113.30455\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/21/2016",
+        "GVZR:13:33:01",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:501 ORGURY QE",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.543890,-113.304550");
+
+    qbGrfg("G4",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-21 13:20:37\a" +
+        "Glcr: 33 - Vagresnpvyvgl Genafsre\a" +
+        "Ybpngvba: 964 ABEZNAQL PEG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.51410\a" +
+        "Ybatvghqr: -113.27545\a" +
+        "Havgf: 1N1\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/21/2016",
+        "GVZR:13:20:37",
+        "PNYY:33 - Vagresnpvyvgl Genafsre",
+        "NQQE:964 ABEZNAQL PEG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.514100,-113.275450",
+        "HAVG:1N1");
+
+    qbGrfg("G5",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-21 13:20:37\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 964 ABEZNAQL PEG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.51410\a" +
+        "Ybatvghqr: -113.27545\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/21/2016",
+        "GVZR:13:20:37",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:964 ABEZNAQL PEG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.514100,-113.275450");
+
+    qbGrfg("G6",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-21 10:50:40\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 75 PENASBEQ JL, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.54346\a" +
+        "Ybatvghqr: -113.29232\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/21/2016",
+        "GVZR:10:50:40",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:75 PENASBEQ JL",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.543460,-113.292320");
+
+    qbGrfg("G7",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-21 10:40:18\a" +
+        "Glcr: 26 - Fvpx Crefba\a" +
+        "Ybpngvba: 53237 EAT EQ 215, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.57691\a" +
+        "Ybatvghqr: -113.07415\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/21/2016",
+        "GVZR:10:40:18",
+        "PNYY:26 - Fvpx Crefba",
+        "NQQE:53237 EAT EQ 215",
+        "ZNQQE:53237 Enatr EQ 215",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.576910,-113.074150");
+
+    qbGrfg("G8",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-21 10:40:18\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 53237 EAT EQ 215, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.57691\a" +
+        "Ybatvghqr: -113.07415\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/21/2016",
+        "GVZR:10:40:18",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:53237 EAT EQ 215",
+        "ZNQQE:53237 Enatr EQ 215",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.576910,-113.074150");
+
+    qbGrfg("G9",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-21 07:56:02\a" +
+        "Glcr: 77 - Genssvp Vapvqrag\a" +
+        "Ybpngvba: EAT EQ 231 \\GJC EQ 522, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.48318\a" +
+        "Ybatvghqr: -113.27105\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/21/2016",
+        "GVZR:07:56:02",
+        "PNYY:77 - Genssvp Vapvqrag",
+        "NQQE:EAT EQ 231 & GJC EQ 522",
+        "ZNQQE:Enatr EQ 231 & GJC 522",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.483180,-113.271050");
+
+    qbGrfg("G10",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-21 06:55:28\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 24 YNEX FG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.51978\a" +
+        "Ybatvghqr: -113.29199\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/21/2016",
+        "GVZR:06:55:28",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:24 YNEX FG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.519780,-113.291990");
+
+    qbGrfg("G11",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-21 06:40:22\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 146 51313 EAT EQ 231, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.41597\a" +
+        "Ybatvghqr: -113.26364\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/21/2016",
+        "GVZR:06:40:22",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:146 51313 EAT EQ 231",
+        "ZNQQE:146 51313 Enatr EQ 231",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.415970,-113.263640");
+
+    qbGrfg("G12",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 21:44:45\a" +
+        "Glcr: 52 - Nynezf\a" +
+        "Ybpngvba: 628 PNOEV PEG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.55144\a" +
+        "Ybatvghqr: -113.28070\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:21:44:45",
+        "PNYY:52 - Nynezf",
+        "NQQE:628 PNOEV PEG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.551440,-113.280700");
+
+    qbGrfg("G13",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 19:26:20\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 423 RIRETERRA FG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.52021\a" +
+        "Ybatvghqr: -113.30379\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:19:26:20",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:423 RIRETERRA FG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.520210,-113.303790");
+
+    qbGrfg("G14",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 19:21:24\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 26 51107 EAT EQ 221, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.38244\a" +
+        "Ybatvghqr: -113.12077\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:19:21:24",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:26 51107 EAT EQ 221",
+        "ZNQQE:26 51107 Enatr EQ 221",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.382440,-113.120770");
+
+    qbGrfg("G15",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 18:32:32\a" +
+        "Glcr: 25 - Cflpuvngevp ceboyrz\a" +
+        "Ybpngvba: 146 51313 EAT EQ 231, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.41597\a" +
+        "Ybatvghqr: -113.26364\a" +
+        "Havgf: 2N2\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:18:32:32",
+        "PNYY:25 - Cflpuvngevp ceboyrz",
+        "NQQE:146 51313 EAT EQ 231",
+        "ZNQQE:146 51313 Enatr EQ 231",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.415970,-113.263640",
+        "HAVG:2N2");
+
+    qbGrfg("G16",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 18:32:32\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 146 51313 EAT EQ 231, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.41597\a" +
+        "Ybatvghqr: -113.26364\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:18:32:32",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:146 51313 EAT EQ 231",
+        "ZNQQE:146 51313 Enatr EQ 231",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.415970,-113.263640");
+
+    qbGrfg("G17",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 17:34:53\a" +
+        "Glcr: 77 - Genssvp Vapvqrag\a" +
+        "Ybpngvba: ONFRYVAR EQ\\PEVZFBA QE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.54125\a" +
+        "Ybatvghqr: -113.27692\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:17:34:53",
+        "PNYY:77 - Genssvp Vapvqrag",
+        "NQQE:ONFRYVAR EQ & PEVZFBA QE",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.541250,-113.276920");
+
+    qbGrfg("G18",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 17:27:35\a" +
+        "Glcr: 52 - Nynezf\a" +
+        "Ybpngvba: Havg 21, 11 NHTHFGVAR PE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.55683\a" +
+        "Ybatvghqr: -113.29144\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:17:27:35",
+        "PNYY:52 - Nynezf",
+        "NQQE:11 NHTHFGVAR PE",
+        "ZNQQE:11 NHTHFGVAR PERF",
+        "NCG:21",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.556830,-113.291440");
+
+    qbGrfg("G19",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 17:09:07\a" +
+        "Glcr: 10 - Purfg Cnva\a" +
+        "Ybpngvba: Havg 103, 182 JBBQOEVQTR JL, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.53068\a" +
+        "Ybatvghqr: -113.32065\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:17:09:07",
+        "PNYY:10 - Purfg Cnva",
+        "NQQE:182 JBBQOEVQTR JL",
+        "NCG:103",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.530680,-113.320650");
+
+    qbGrfg("G20",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 09:57:21\a" +
+        "Glcr: 52 - Nynezf\a" +
+        "Ybpngvba: 990 NYQRE NI, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.51279\a" +
+        "Ybatvghqr: -113.31352\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:09:57:21",
+        "PNYY:52 - Nynezf",
+        "NQQE:990 NYQRE NI",
+        "ZNQQE:990 NYQRE NIR",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.512790,-113.313520");
+
+    qbGrfg("G21",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 09:44:56\a" +
+        "Glcr: 23 - Bireqbfr\a" +
+        "Ybpngvba: 890 OVEPU NI, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.51360\a" +
+        "Ybatvghqr: -113.30719\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:09:44:56",
+        "PNYY:23 - Bireqbfr",
+        "NQQE:890 OVEPU NI",
+        "ZNQQE:890 OVEPU NIR",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.513600,-113.307190");
+
+    qbGrfg("G22",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 08:28:32\a" +
+        "Glcr: 52 - Nynezf\a" +
+        "Ybpngvba: Havg 360, 222 ONFRYVAR EQ, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.54130\a" +
+        "Ybatvghqr: -113.31620\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:08:28:32",
+        "PNYY:52 - Nynezf",
+        "NQQE:222 ONFRYVAR EQ",
+        "NCG:360",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.541300,-113.316200");
+
+    qbGrfg("G23",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 06:55:11\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 914 OVFBA JL, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.55033\a" +
+        "Ybatvghqr: -113.30189\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:06:55:11",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:914 OVFBA JL",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.550330,-113.301890");
+
+    qbGrfg("G24",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 06:48:30\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 4255 PYBIRE ONE EQ, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.55933\a" +
+        "Ybatvghqr: -113.27445\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:06:48:30",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:4255 PYBIRE ONE EQ",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.559330,-113.274450");
+
+    qbGrfg("G25",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 04:58:27\a" +
+        "Glcr: 17 - Snyy\a" +
+        "Ybpngvba: Havg 39, 7 PENASBEQ JL, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.54396\a" +
+        "Ybatvghqr: -113.29417\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:04:58:27",
+        "PNYY:17 - Snyy",
+        "NQQE:7 PENASBEQ JL",
+        "NCG:39",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.543960,-113.294170");
+
+    qbGrfg("G26",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 04:58:27\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: Havg 39, 7 PENASBEQ JL, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.54396\a" +
+        "Ybatvghqr: -113.29417\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:04:58:27",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:7 PENASBEQ JL",
+        "NCG:39",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.543960,-113.294170");
+
+    qbGrfg("G27",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 04:29:27\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 242 FHAPERFG EQ, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.55729\a" +
+        "Ybatvghqr: -113.26327\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:04:29:27",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:242 FHAPERFG EQ",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.557290,-113.263270");
+
+    qbGrfg("G28",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 02:17:50\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: Havg 13, 201 OBGUJRYY QE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.54588\a" +
+        "Ybatvghqr: -113.29876\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:02:17:50",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:201 OBGUJRYY QE",
+        "NCG:13",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.545880,-113.298760");
+
+    qbGrfg("G29",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 02:03:50\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 85 54569 EAT EQ 215, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.71482\a" +
+        "Ybatvghqr: -113.06630\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:02:03:50",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:85 54569 EAT EQ 215",
+        "ZNQQE:85 54569 Enatr EQ 215",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.714820,-113.066300");
+
+    qbGrfg("G30",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 02:00:01\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 20 ZREELINYR PE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.53671\a" +
+        "Ybatvghqr: -113.29970\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:02:00:01",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:20 ZREELINYR PE",
+        "ZNQQE:20 ZREELINYR PERF",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.536710,-113.299700");
+
+    qbGrfg("G31",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-20 00:15:33\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 20 UNJXVAF PE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.51978\a" +
+        "Ybatvghqr: -113.32244\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/20/2016",
+        "GVZR:00:15:33",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:20 UNJXVAF PE",
+        "ZNQQE:20 UNJXVAF PERF",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.519780,-113.322440");
+
+    qbGrfg("G32",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 23:22:27\a" +
+        "Glcr: 71 - Iruvpyr Sver\a" +
+        "Ybpngvba: 56 BEPUVQ PE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.54973\a" +
+        "Ybatvghqr: -113.24844\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:23:22:27",
+        "PNYY:71 - Iruvpyr Sver",
+        "NQQE:56 BEPUVQ PE",
+        "ZNQQE:56 BEPUVQ PERF",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.549730,-113.248440");
+
+    qbGrfg("G33",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 22:48:50\a" +
+        "Glcr: 10 - Purfg Cnva\a" +
+        "Ybpngvba: 1048 ZBLRE QE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.51980\a" +
+        "Ybatvghqr: -113.32878\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:22:48:50",
+        "PNYY:10 - Purfg Cnva",
+        "NQQE:1048 ZBLRE QE",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.519800,-113.328780");
+
+    qbGrfg("G34",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 21:51:13\a" +
+        "Glcr: 60 - Tnf Yrnx\a" +
+        "Ybpngvba: 7 TERLFGBAR PE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.53943\a" +
+        "Ybatvghqr: -113.27809\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:21:51:13",
+        "PNYY:60 - Tnf Yrnx",
+        "NQQE:7 TERLFGBAR PE",
+        "ZNQQE:7 TERLFGBAR PERF",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.539430,-113.278090");
+
+    qbGrfg("G35",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 21:40:48\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: Havg 15, 1601 PYBIRE ONE EQ, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.53075\a" +
+        "Ybatvghqr: -113.26275\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:21:40:48",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:1601 PYBIRE ONE EQ",
+        "NCG:15",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.530750,-113.262750");
+
+    qbGrfg("G36",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 21:09:33\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: Havg NERAN, 52029 EAT EQ 224, Fgengupban Pbhagl (Fgengupban Bylzcvrggr Prager - NXN - Shygbainyr Erperngvba Pbzcyrk)\a" +
+        "Yngvghqr: 53.45831\a" +
+        "Ybatvghqr: -113.19065\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:21:09:33",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:52029 EAT EQ 224",
+        "ZNQQE:52029 Enatr EQ 224",
+        "NCG:NERAN",
+        "PVGL:Fgengupban Pbhagl",
+        "CYNPR:Fgengupban Bylzcvrggr Prager - NXN - Shygbainyr Erperngvba Pbzcyrk",
+        "TCF:+53.458310,-113.190650");
+
+    qbGrfg("G37",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 20:15:56\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 2025 BNX FG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.52746\a" +
+        "Ybatvghqr: -113.30821\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:20:15:56",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:2025 BNX FG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.527460,-113.308210");
+
+    qbGrfg("G38",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 19:30:28\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 100 SVE FG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.51411\a" +
+        "Ybatvghqr: -113.31557\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:19:30:28",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:100 SVE FG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.514110,-113.315570");
+
+    qbGrfg("G39",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 18:36:46\a" +
+        "Glcr: 77 - Genssvp Vapvqrag\a" +
+        "Ybpngvba: EAT EQ 212 \\GJC EQ 540, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.62873\a" +
+        "Ybatvghqr: -113.00048\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:18:36:46",
+        "PNYY:77 - Genssvp Vapvqrag",
+        "NQQE:EAT EQ 212 & GJC EQ 540",
+        "ZNQQE:Enatr EQ 212 & GJC 540",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.628730,-113.000480");
+
+    qbGrfg("G40",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 16:57:16\a" +
+        "Glcr: 69 - Fgehpgher Sver\a" +
+        "Ybpngvba: 438 BNX FG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.52169\a" +
+        "Ybatvghqr: -113.30814\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:16:57:16",
+        "PNYY:69 - Fgehpgher Sver",
+        "NQQE:438 BNX FG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.521690,-113.308140");
+
+    qbGrfg("G41",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 16:12:28\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 45 TEBIRYNAQ EQ, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.53285\a" +
+        "Ybatvghqr: -113.27283\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:16:12:28",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:45 TEBIRYNAQ EQ",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.532850,-113.272830");
+
+    qbGrfg("G42",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 15:47:04\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 67 TERNG BNXF FG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.53081\a" +
+        "Ybatvghqr: -113.30102\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:15:47:04",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:67 TERNG BNXF FG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.530810,-113.301020");
+
+    qbGrfg("G43",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 15:17:11\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 54 OERAGJBBQ OYIQ, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.51587\a" +
+        "Ybatvghqr: -113.29542\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:15:17:11",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:54 OERAGJBBQ OYIQ",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.515870,-113.295420");
+
+    qbGrfg("G44",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 15:03:10\a" +
+        "Glcr: 52 - Nynezf\a" +
+        "Ybpngvba: 8704 24 FG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.52147\a" +
+        "Ybatvghqr: -113.37879\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:15:03:10",
+        "PNYY:52 - Nynezf",
+        "NQQE:8704 24 FG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.521470,-113.378790");
+
+    qbGrfg("G45",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 14:34:13\a" +
+        "Glcr: 52 - Nynezf\a" +
+        "Ybpngvba: 9015 14 FG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.52421\a" +
+        "Ybatvghqr: -113.36140\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:14:34:13",
+        "PNYY:52 - Nynezf",
+        "NQQE:9015 14 FG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.524210,-113.361400");
+
+    qbGrfg("G46",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 14:35:24\a" +
+        "Glcr: 52 - Nynezf\a" +
+        "Ybpngvba: 8705 24 FG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.52222\a" +
+        "Ybatvghqr: -113.37878\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:14:35:24",
+        "PNYY:52 - Nynezf",
+        "NQQE:8705 24 FG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.522220,-113.378780");
+
+    qbGrfg("G47",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 14:32:36\a" +
+        "Glcr: 52 - Nynezf\a" +
+        "Ybpngvba: 2801 84 NI, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.51940\a" +
+        "Ybatvghqr: -113.38357\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:14:32:36",
+        "PNYY:52 - Nynezf",
+        "NQQE:2801 84 NI",
+        "ZNQQE:2801 84 NIR",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.519400,-113.383570");
+
+    qbGrfg("G48",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 14:32:12\a" +
+        "Glcr: 52 - Nynezf\a" +
+        "Ybpngvba: 8710 15 FG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.52229\a" +
+        "Ybatvghqr: -113.36504\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:14:32:12",
+        "PNYY:52 - Nynezf",
+        "NQQE:8710 15 FG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.522290,-113.365040");
+
+    qbGrfg("G49",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 14:30:25\a" +
+        "Glcr: 52 - Nynezf\a" +
+        "Ybpngvba: 9001 20 FG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.52488\a" +
+        "Ybatvghqr: -113.37427\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:14:30:25",
+        "PNYY:52 - Nynezf",
+        "NQQE:9001 20 FG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.524880,-113.374270");
+
+    qbGrfg("G50",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 13:11:36\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: Havg 300, 2020 FUREJBBQ QE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.53037\a" +
+        "Ybatvghqr: -113.29554\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:13:11:36",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:2020 FUREJBBQ QE",
+        "NCG:300",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.530370,-113.295540");
+
+    qbGrfg("G51",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 12:56:54\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 914 OVFBA JL, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.55033\a" +
+        "Ybatvghqr: -113.30189\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:00:56:54",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:914 OVFBA JL",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.550330,-113.301890");
+
+    qbGrfg("G52",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 11:23:15\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 216 TNVAFOBEB PEG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.53003\a" +
+        "Ybatvghqr: -113.27858\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:11:23:15",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:216 TNVAFOBEB PEG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.530030,-113.278580");
+
+    qbGrfg("G53",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 11:08:06\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: Havg 140, 80 PUVCCRJN EQ, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.53636\a" +
+        "Ybatvghqr: -113.32456\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:11:08:06",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:80 PUVCCRJN EQ",
+        "NCG:140",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.536360,-113.324560");
+
+    qbGrfg("G54",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 10:16:31\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 30 YVYNP PE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.54376\a" +
+        "Ybatvghqr: -113.25093\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:10:16:31",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:30 YVYNP PE",
+        "ZNQQE:30 YVYNP PERF",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.543760,-113.250930");
+
+    qbGrfg("G55",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 09:37:03\a" +
+        "Glcr: 9 - Pneqvnp Neerfg\a" +
+        "Ybpngvba: 1516 WHOVYRR JLAQ, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.56459\a" +
+        "Ybatvghqr: -113.26790\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:09:37:03",
+        "PNYY:9 - Pneqvnp Neerfg",
+        "NQQE:1516 WHOVYRR JLAQ",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.564590,-113.267900");
+
+    qbGrfg("G56",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 09:37:03\a" +
+        "Glcr: 31 - Hapbafpvbhf Crefba\a" +
+        "Ybpngvba: 1516 WHOVYRR JLAQ, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.56459\a" +
+        "Ybatvghqr: -113.26790\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:09:37:03",
+        "PNYY:31 - Hapbafpvbhf Crefba",
+        "NQQE:1516 WHOVYRR JLAQ",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.564590,-113.267900");
+
+    qbGrfg("G57",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 09:31:00\a" +
+        "Glcr: 66 - Fgenatr Bqbhe\a" +
+        "Ybpngvba: Ujl 14 \\EAT EQ 215, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.39572\a" +
+        "Ybatvghqr: -113.07434\a" +
+        "Havgf: FD5, CGRA2, CGGN2\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:09:31:00",
+        "PNYY:66 - Fgenatr Bqbhe",
+        "NQQE:Ujl 14 & EAT EQ 215",
+        "ZNQQE:NYOREGN 14 & Enatr EQ 215",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.395720,-113.074340",
+        "HAVG:FD5, CGRA2, CGGN2");
+
+    qbGrfg("G58",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 09:31:00\a" +
+        "Glcr: 60 - Tnf Yrnx\a" +
+        "Ybpngvba: Ujl 14 \\EAT EQ 215, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.39572\a" +
+        "Ybatvghqr: -113.07434\a" +
+        "Havgf: FD5, CGRA2, CGGN2\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:09:31:00",
+        "PNYY:60 - Tnf Yrnx",
+        "NQQE:Ujl 14 & EAT EQ 215",
+        "ZNQQE:NYOREGN 14 & Enatr EQ 215",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.395720,-113.074340",
+        "HAVG:FD5, CGRA2, CGGN2");
+
+    qbGrfg("G59",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 09:31:00\a" +
+        "Glcr: 60 - Tnf Yrnx\a" +
+        "Ybpngvba: Ujl 14 \\EAT EQ 215, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.39572\a" +
+        "Ybatvghqr: -113.07434\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:09:31:00",
+        "PNYY:60 - Tnf Yrnx",
+        "NQQE:Ujl 14 & EAT EQ 215",
+        "ZNQQE:NYOREGN 14 & Enatr EQ 215",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.395720,-113.074340");
+
+    qbGrfg("G60",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 07:34:29\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: Havg 4, 65 PENASBEQ QE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.54476\a" +
+        "Ybatvghqr: -113.29086\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:07:34:29",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:65 PENASBEQ QE",
+        "NCG:4",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.544760,-113.290860");
+
+    qbGrfg("G61",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-19 05:26:10\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 542 ENVAOBJ PE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.51757\a" +
+        "Ybatvghqr: -113.26889\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/19/2016",
+        "GVZR:05:26:10",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:542 ENVAOBJ PE",
+        "ZNQQE:542 ENVAOBJ PERF",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.517570,-113.268890");
+
+    qbGrfg("G62",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 22:44:27\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 1531 WHOVYRR QE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.56459\a" +
+        "Ybatvghqr: -113.26481\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:22:44:27",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:1531 WHOVYRR QE",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.564590,-113.264810");
+
+    qbGrfg("G63",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 22:21:45\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 133 23330 GJC EQ 522, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.48775\a" +
+        "Ybatvghqr: -113.32843\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:22:21:45",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:133 23330 GJC EQ 522",
+        "ZNQQE:133 23330 GJC 522",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.487750,-113.328430");
+
+    qbGrfg("G64",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 22:08:40\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: Haxabja Ybpngvba - Pnyy Qvfcngpu\a" +
+        "Yngvghqr: 53.52071\a" +
+        "Ybatvghqr: -113.28197\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:22:08:40",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:+53.520710,-113.281970",
+        "TCF:+53.520710,-113.281970");
+
+    qbGrfg("G65",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 21:14:46\a" +
+        "Glcr: 52 - Nynezf\a" +
+        "Ybpngvba: Havg 8, 2131 BNX FG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.52902\a" +
+        "Ybatvghqr: -113.30264\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:21:14:46",
+        "PNYY:52 - Nynezf",
+        "NQQE:2131 BNX FG",
+        "NCG:8",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.529020,-113.302640");
+
+    qbGrfg("G66",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 19:27:39\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: Havg 303, 69 PELFGNY YA, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.54590\a" +
+        "Ybatvghqr: -113.29379\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:19:27:39",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:69 PELFGNY YA",
+        "NCG:303",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.545900,-113.293790");
+
+    qbGrfg("G67",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 18:18:52\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 5 PNEZRY CY, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.53821\a" +
+        "Ybatvghqr: -113.26517\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:18:18:52",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:5 PNEZRY CY",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.538210,-113.265170");
+
+    qbGrfg("G68",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 16:10:07\a" +
+        "Glcr: 17 - Snyy\a" +
+        "Ybpngvba: 5073 WHOVYRR QE, Fgengupban Pbhagl\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:16:10:07",
+        "PNYY:17 - Snyy",
+        "NQQE:5073 WHOVYRR QE",
+        "PVGL:Fgengupban Pbhagl",
+        "HAVG:nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq");
+
+    qbGrfg("G69",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 16:10:07\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 5073 WHOVYRR QE, Fgengupban Pbhagl\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:16:10:07",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:5073 WHOVYRR QE",
+        "PVGL:Fgengupban Pbhagl",
+        "HAVG:nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq");
+
+    qbGrfg("G70",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 15:09:57\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 55 PYNEXQNYR QE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.55203\a" +
+        "Ybatvghqr: -113.25245\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:15:09:57",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:55 PYNEXQNYR QE",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.552030,-113.252450");
+
+    qbGrfg("G71",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 13:48:10\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 209 JBBQOEVQTR JL, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.52925\a" +
+        "Ybatvghqr: -113.32237\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:13:48:10",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:209 JBBQOEVQTR JL",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.529250,-113.322370");
+
+    qbGrfg("G72",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 12:57:11\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 254 22450 GJC EQ 514, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.42485\a" +
+        "Ybatvghqr: -113.21843\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:00:57:11",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:254 22450 GJC EQ 514",
+        "ZNQQE:254 22450 GJC 514",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.424850,-113.218430");
+
+    qbGrfg("G73",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 12:41:04\a" +
+        "Glcr: 52 - Nynezf\a" +
+        "Ybpngvba: 101 TENANQN OYIQ, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.52815\a" +
+        "Ybatvghqr: -113.29260\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:00:41:04",
+        "PNYY:52 - Nynezf",
+        "NQQE:101 TENANQN OYIQ",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.528150,-113.292600");
+
+    qbGrfg("G74",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 12:37:41\a" +
+        "Glcr: 6 - Oernguvat Ceboyrzf\a" +
+        "Ybpngvba: 31 21546 GJC EQ 520, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.45679\a" +
+        "Ybatvghqr: -113.09082\a" +
+        "Havgf: CGOG2\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:00:37:41",
+        "PNYY:6 - Oernguvat Ceboyrzf",
+        "NQQE:31 21546 GJC EQ 520",
+        "ZNQQE:31 21546 GJC 520",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.456790,-113.090820",
+        "HAVG:CGOG2");
+
+    qbGrfg("G75",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 12:37:41\a" +
+        "Glcr: 6 - Oernguvat Ceboyrzf\a" +
+        "Ybpngvba: 31 21546 GJC EQ 520, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.45679\a" +
+        "Ybatvghqr: -113.09082\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:00:37:41",
+        "PNYY:6 - Oernguvat Ceboyrzf",
+        "NQQE:31 21546 GJC EQ 520",
+        "ZNQQE:31 21546 GJC 520",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.456790,-113.090820");
+
+    qbGrfg("G76",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 12:33:54\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 31 21546 GJC EQ 520, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.45679\a" +
+        "Ybatvghqr: -113.09082\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:00:33:54",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:31 21546 GJC EQ 520",
+        "ZNQQE:31 21546 GJC 520",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.456790,-113.090820");
+
+    qbGrfg("G77",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 11:34:42\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: Havg 28, 15 EVGPUVR JL, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.51586\a" +
+        "Ybatvghqr: -113.26929\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:11:34:42",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:15 EVGPUVR JL",
+        "NCG:28",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.515860,-113.269290");
+
+    qbGrfg("G78",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 10:37:43\a" +
+        "Glcr: 17 - Snyy\a" +
+        "Ybpngvba: 258 ABGGVATUNZ OYIQ, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.51927\a" +
+        "Ybatvghqr: -113.28102\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:10:37:43",
+        "PNYY:17 - Snyy",
+        "NQQE:258 ABGGVATUNZ OYIQ",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.519270,-113.281020");
+
+    qbGrfg("G79",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 10:21:02\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 920 OVFBA JL, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.55056\a" +
+        "Ybatvghqr: -113.30352\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:10:21:02",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:920 OVFBA JL",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.550560,-113.303520");
+
+    qbGrfg("G80",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 09:28:28\a" +
+        "Glcr: 26 - Fvpx Crefba\a" +
+        "Ybpngvba: 501 FGBAREVQTR QE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.56111\a" +
+        "Ybatvghqr: -113.25075\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:09:28:28",
+        "PNYY:26 - Fvpx Crefba",
+        "NQQE:501 FGBAREVQTR QE",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.561110,-113.250750");
+
+    qbGrfg("G81",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 09:25:04\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 501 FGBAREVQTR QE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.56111\a" +
+        "Ybatvghqr: -113.25075\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:09:25:04",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:501 FGBAREVQTR QE",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.561110,-113.250750");
+
+    qbGrfg("G82",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 07:56:38\a" +
+        "Glcr: 52 - Nynezf\a" +
+        "Ybpngvba: 10130 21 FG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.54243\a" +
+        "Ybatvghqr: -113.37566\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:07:56:38",
+        "PNYY:52 - Nynezf",
+        "NQQE:10130 21 FG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.542430,-113.375660");
+
+    qbGrfg("G83",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 07:11:24\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 1041 UNLGUBEAR EQ, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.52789\a" +
+        "Ybatvghqr: -113.32748\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:07:11:24",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:1041 UNLGUBEAR EQ",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.527890,-113.327480");
+
+    qbGrfg("G84",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-18 06:18:28\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 218 JBBQOEVQTR JL, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.52862\a" +
+        "Ybatvghqr: -113.32270\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/18/2016",
+        "GVZR:06:18:28",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:218 JBBQOEVQTR JL",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.528620,-113.322700");
+
+    qbGrfg("G85",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-17 23:49:33\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 21 PUEVFGVAN CY, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.54414\a" +
+        "Ybatvghqr: -113.26574\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/17/2016",
+        "GVZR:23:49:33",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:21 PUEVFGVAN CY",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.544140,-113.265740");
+
+    qbGrfg("G86",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-17 21:48:25\a" +
+        "Glcr: 52 - Nynezf\a" +
+        "Ybpngvba: 85 22555 GJC EQ 530, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.53531\a" +
+        "Ybatvghqr: -113.24026\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/17/2016",
+        "GVZR:21:48:25",
+        "PNYY:52 - Nynezf",
+        "NQQE:85 22555 GJC EQ 530",
+        "ZNQQE:85 22555 GJC 530",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.535310,-113.240260");
+
+    qbGrfg("G87",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-17 20:36:05\a" +
+        "Glcr: 69 - Fgehpgher Sver\a" +
+        "Ybpngvba: 428 22560 JLR EQ, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.52537\a" +
+        "Ybatvghqr: -113.23104\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/17/2016",
+        "GVZR:20:36:05",
+        "PNYY:69 - Fgehpgher Sver",
+        "NQQE:428 22560 JLR EQ",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.525370,-113.231040");
+
+    qbGrfg("G88",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-17 20:16:09\a" +
+        "Glcr: 10Q1 - Purfg Cnva\a" +
+        "Ybpngvba: 266 52039 EAT EQ 213, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.46124\a" +
+        "Ybatvghqr: -113.02002\a" +
+        "Havgf: CGOG2\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/17/2016",
+        "GVZR:20:16:09",
+        "PNYY:10Q1 - Purfg Cnva",
+        "NQQE:266 52039 EAT EQ 213",
+        "ZNQQE:266 52039 Enatr EQ 213",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.461240,-113.020020",
+        "HAVG:CGOG2");
+
+    qbGrfg("G89",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-17 20:16:09\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 266 52039 EAT EQ 213, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.46124\a" +
+        "Ybatvghqr: -113.02002\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/17/2016",
+        "GVZR:20:16:09",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:266 52039 EAT EQ 213",
+        "ZNQQE:266 52039 Enatr EQ 213",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.461240,-113.020020");
+
+    qbGrfg("G90",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-17 18:58:29\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 75 PENASBEQ JL, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.54346\a" +
+        "Ybatvghqr: -113.29232\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/17/2016",
+        "GVZR:18:58:29",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:75 PENASBEQ JL",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.543460,-113.292320");
+
+    qbGrfg("G91",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-17 17:01:36\a" +
+        "Glcr: 66 - Fgenatr Bqbhe\a" +
+        "Ybpngvba: Havg 300, 7000 RZRENYQ QE, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.56705\a" +
+        "Ybatvghqr: -113.27962\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/17/2016",
+        "GVZR:17:01:36",
+        "PNYY:66 - Fgenatr Bqbhe",
+        "NQQE:7000 RZRENYQ QE",
+        "NCG:300",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.567050,-113.279620");
+
+    qbGrfg("G92",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-17 15:43:56\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 642 JLR EQ, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.51215\a" +
+        "Ybatvghqr: -113.27500\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/17/2016",
+        "GVZR:15:43:56",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:642 JLR EQ",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.512150,-113.275000");
+
+    qbGrfg("G93",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-17 15:17:57\a" +
+        "Glcr: 77 - Genssvp Vapvqrag\a" +
+        "Ybpngvba: FUREJBBQ QE\\SVE FG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.51369\a" +
+        "Ybatvghqr: -113.32021\a" +
+        "Havgf: FD1, WO1N1, PNE5\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/17/2016",
+        "GVZR:15:17:57",
+        "PNYY:77 - Genssvp Vapvqrag",
+        "NQQE:FUREJBBQ QE & SVE FG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.513690,-113.320210",
+        "HAVG:FD1, WO1N1, PNE5");
+
+    qbGrfg("G94",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-17 15:17:57\a" +
+        "Glcr: 29 - Genssvp Vapvqrag\a" +
+        "Ybpngvba: FUREJBBQ QE\\SVE FG, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.51369\a" +
+        "Ybatvghqr: -113.32021\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/17/2016",
+        "GVZR:15:17:57",
+        "PNYY:29 - Genssvp Vapvqrag",
+        "NQQE:FUREJBBQ QE & SVE FG",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.513690,-113.320210");
+
+    qbGrfg("G95",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-17 14:47:54\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 229 22112 GJC EQ 531, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.55826\a" +
+        "Ybatvghqr: -113.13326\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/17/2016",
+        "GVZR:14:47:54",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:229 22112 GJC EQ 531",
+        "ZNQQE:229 22112 GJC 531",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.558260,-113.133260");
+
+    qbGrfg("G96",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-17 14:41:29\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 42 FHZZREJBBQ OYIQ, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.56001\a" +
+        "Ybatvghqr: -113.27145\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/17/2016",
+        "GVZR:14:41:29",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:42 FHZZREJBBQ OYIQ",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.560010,-113.271450");
+
+    qbGrfg("G97",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-17 14:38:38\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 54277 EAT EQ 220, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.67167\a" +
+        "Ybatvghqr: -113.09855\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/17/2016",
+        "GVZR:14:38:38",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:54277 EAT EQ 220",
+        "ZNQQE:54277 Enatr EQ 220",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.671670,-113.098550");
+
+    qbGrfg("G98",
+        "{Vapvqrag Zrffntr} Qngr: 2016-01-17 13:02:20\a" +
+        "Glcr: 32 - Haxabja Ceboyrz\a" +
+        "Ybpngvba: 2000 CERZVRE JL, Fgengupban Pbhagl\a" +
+        "Yngvghqr: 53.55965\a" +
+        "Ybatvghqr: -113.31642\a" +
+        "Guvf pbzzhavpngvba vf vagraqrq sbe gur erpvcvrag gb jubz vg vf \a" +
+        "nqqerffrq, naq znl pbagnva pbasvqragvny, crefbany, naq be cevivyrtrq \a" +
+        "vasbezngvba. Cyrnfr pbagnpg gur fraqre vzzrqvngryl vs lbh ner abg gur \a" +
+        "vagraqrq erpvcvrag bs guvf pbzzhavpngvba, naq qb abg pbcl, qvfgevohgr, \a" +
+        "be gnxr npgvba erylvat ba vg. Nal pbzzhavpngvba erprvirq va reebe, be \a" +
+        "fhofrdhrag ercyl, fubhyq or qryrgrq be qrfgeblrq.",
+
+        "QNGR:01/17/2016",
+        "GVZR:13:02:20",
+        "PNYY:32 - Haxabja Ceboyrz",
+        "NQQE:2000 CERZVRE JL",
+        "PVGL:Fgengupban Pbhagl",
+        "TCF:+53.559650,-113.316420");
 
   }
 

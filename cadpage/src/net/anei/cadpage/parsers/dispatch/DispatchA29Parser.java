@@ -13,15 +13,17 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class DispatchA29Parser extends SmartAddressParser {
   
   private static final Pattern MARKER = Pattern.compile("^DISPATCH:(\\S+?(?: FD)?) - (?:(\\d\\d?/\\d\\d?) (\\d\\d?:\\d\\d?) - )?");
-  private static final Pattern UNIT_INFO_PTN = Pattern.compile("[ /]+((?:\\b[A-Z\\d]+:[-_A-Z\\d]+(?: FD|-\\d| \\d(?=,)|)\\b,?)++)[ /]*");
-  private static final Pattern HOUSE_NUMBER_PTN = Pattern.compile("(.*?)(?<!\\b(?:RT|US|HWY))[ /](\\d+) *([NSEW]|BLK|BLOCK|), +(.*)");
+  private static final Pattern CODE_PTN = Pattern.compile("([A-Z0-9]+) +");
+  private static final Pattern UNIT_INFO_PTN = Pattern.compile("[ /\n]+((?:\\b[A-Z\\d]+:[-_A-Z\\d]+(?: FD|-\\d| \\d(?=,)|)\\b,?)++)[ /\n]*");
+  private static final Pattern NEW_LINE_PTN = Pattern.compile("\n+");
+  private static final Pattern HOUSE_NUMBER_PTN = Pattern.compile("[ /]*\\b(?<!\\b(?:RT|US|HWY) )([-*0-9]+) *([NSEW]|BLK|BLOCK|), +");
   private static final Pattern MULT_SLASH_PTN = Pattern.compile("//+");
   private static final Pattern DIR_OF_PTN = Pattern.compile("[/ ]+((?:N|S|E|W|NO|SO|EA|WE|NORTH|SOUTH|EAST|WEST) OF)[/ ]+");
   private static final Pattern CALL_ADDR_DELIM = Pattern.compile("/(?! *(?:AMBULANCE|MEDICAL|MISDIAL|RESCUE|SEIZURES))");
 
   public DispatchA29Parser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState);
-    setFieldList("UNIT DATE TIME CALL ADDR APT CITY PLACE PHONE INFO");
+    setFieldList("UNIT DATE TIME CODE CALL ADDR APT CITY PLACE PHONE INFO");
   }
 
   @Override
@@ -36,6 +38,13 @@ public class DispatchA29Parser extends SmartAddressParser {
     
     body = body.replace("Apt/Unit", "Apt");
     
+    // Split of call code
+    match = CODE_PTN.matcher(body);
+    if (match.lookingAt()) {
+      data.strCode = match.group(1);
+      body = body.substring(match.end());
+    }
+    
     // Look for unit field.  If found is separates sup info from rest of call
     match = UNIT_INFO_PTN.matcher(body);
     if (match.find()) {
@@ -43,23 +52,44 @@ public class DispatchA29Parser extends SmartAddressParser {
       data.strSupp = body.substring(match.end());
       body = body.substring(0,match.start());
     }
-    
-    // Reduce multiple slashes to single slash
-    body = body.replace('\n', '/');
-    body = MULT_SLASH_PTN.matcher(body).replaceAll("/");
-    
-    // Now things get complicated.
-    // See if we can find an odd street number convention that marks the end of the
-    // call description
+
+    // Look for a line break separating the call and address
+    boolean lock = false;
     StartType st = StartType.START_CALL;
-    int flags = FLAG_START_FLD_REQ;
-    match = HOUSE_NUMBER_PTN.matcher(body);
-    if (match.matches()) {
-      data.strCall = match.group(1).trim();
-      body = append(match.group(2), " ", match.group(3));
-      body = append(body, " ", match.group(4));
+    String[] parts = NEW_LINE_PTN.split(body);
+    if (parts.length >= 2) {
+      lock = true;
+      data.strCall = parts[0].trim();
+      body = parts[1].trim();
       st = StartType.START_ADDR;
-      flags = 0;
+
+      if (parts.length >= 3) {
+        addPlace(parts[2].trim(), data);
+        if (parts.length >= 4) return false;
+      }
+      
+      // Remove comma following house number
+      match = HOUSE_NUMBER_PTN.matcher(body);
+      if (match.lookingAt()) {
+        body = append(append(match.group(1), " ", match.group(2)), " ", body.substring(match.end()));
+      }
+    }
+    
+    // Otherwise, we have to do this the hard way
+    else {
+        
+      // Reduce multiple slashes to single slash
+      body = MULT_SLASH_PTN.matcher(body).replaceAll("/");
+      
+      // Now things get complicated.
+      // See if we can find an odd street number convention that marks the end of the
+      // call description
+      match = HOUSE_NUMBER_PTN.matcher(body);
+      if (match.find()) {
+        data.strCall = body.substring(0,match.start()).trim();
+        body = append(append(match.group(1), " ", match.group(2)), " ", body.substring(match.end()).trim());
+        st = StartType.START_ADDR;
+      }
     }
     
     // There is always a comma followed by a (possibly empty) city and optional place name
@@ -85,6 +115,8 @@ public class DispatchA29Parser extends SmartAddressParser {
     body = body.substring(0,pt).trim();
     
     // OK, see what we can do with the address
+    int flags = 0;
+    if (st == StartType.START_CALL) flags |= FLAG_START_FLD_REQ;
     flags |= FLAG_ANCHOR_END;
     if (data.strCity.length() > 0) flags |= FLAG_NO_CITY;
     
@@ -100,27 +132,30 @@ public class DispatchA29Parser extends SmartAddressParser {
      connector = match.group(1);
      body = body.substring(0,match.start()) + " & " + body.substring(match.end());
    }
+   body = body.replace('@', '&');
    parseAddress(st, flags, body, data);
    
    // Sometimes there is a slash delimiter marking the end of the call description.  It is not
    // always there, and we couldn't check for it earlier lest we confuse an intersection address
    // for the delimiter.  But now that we have done the best we could with the address, see if
-   // we can find that delimmiter in the call description, and if we can, move everything behind
+   // we can find that delimiter in the call description, and if we can, move everything behind
    // it into the address
    if (data.strAddress.startsWith("&")) {
      data.strAddress = data.strAddress.substring(1).trim();
      if (connector != null) data.strAddress = data.strAddress.replaceFirst("&", connector);
    } else {
      if (connector != null) data.strAddress = data.strAddress.replaceFirst("&", connector);
-     CodeSet callList = getCallList();
-     if (callList == null || callList.getCode(data.strCall) == null) {
-       match = CALL_ADDR_DELIM.matcher(data.strCall);
-       if (match.find()) {
-         pt = match.start();
-         String addr = append(data.strCall.substring(pt+1), " ", data.strAddress);
-         data.strCall = data.strCall.substring(0,pt).trim();
-         data.strAddress = "";
-         parseAddress(addr, data);
+     if (!lock) {
+       CodeSet callList = getCallList();
+       if (callList == null || callList.getCode(data.strCall) == null) {
+         match = CALL_ADDR_DELIM.matcher(data.strCall);
+         if (match.find()) {
+           pt = match.start();
+           String addr = append(data.strCall.substring(pt+1), " ", data.strAddress);
+           data.strCall = data.strCall.substring(0,pt).trim();
+           data.strAddress = "";
+           parseAddress(addr, data);
+         }
        }
      }
    }
@@ -144,7 +179,7 @@ public class DispatchA29Parser extends SmartAddressParser {
       data.strPhone = match.group(1);
       field = append(field.substring(0,match.start()).trim(), " ", field.substring(match.end()).trim());
     }
-    data.strPlace = field;
+    data.strPlace = append(field, " - ", data.strPlace);
   }
   private static final Pattern CALLBK_PTN = Pattern.compile("\\bCALLBK=([-\\d]*)");
 }

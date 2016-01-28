@@ -108,9 +108,12 @@ public class CTNorthwestPublicSafetyParser extends SmartAddressParser {
   }
   
   private static String[] CITY_LIST = new String[]{
+    "ANSONIA",
     "BRIDGEWATER",
+    "NEW MILFORD",
     "ROXBURY",
     "SEYMOUR",
+    "SHELTON",
     "SOUTHBURY",
     "WASHINGTON"
   };

@@ -143,9 +143,6 @@ public class C2DMService extends IntentService {
       String vendorCode = intent.getStringExtra("vendor");
       if (vendorCode == null) vendorCode = intent.getStringExtra("sponsor");
       
-      // Whatever it is, update vendor contact time
-      VendorManager.instance().updateLastContactTime(vendorCode);
-      
       // See what kind of message this is
       String type = intent.getStringExtra("type");
       if (type == null) type = "PAGE";
@@ -179,6 +176,9 @@ public class C2DMService extends IntentService {
 
       // Check vendor enabled status
       if (!VendorManager.instance().checkVendorStatus(this, vendorCode)) return;
+      
+      // Whatever it is, update vendor contact time
+      VendorManager.instance().updateLastContactTime(vendorCode);
 
       // Save timestamp
       final long timestamp = System.currentTimeMillis();
@@ -259,6 +259,7 @@ public class C2DMService extends IntentService {
     if (callId == null) callId = intent.getStringExtra("id");
     String serverTime = intent.getStringExtra("unix_time");
     if (serverTime ==  null) serverTime = intent.getStringExtra("unix_timestamp");
+    if (serverTime == null) serverTime = intent.getStringExtra("date");
     // agency code = intent.getStringExtra("agency_code");
     String infoUrl = intent.getStringExtra("info_url"); 
     

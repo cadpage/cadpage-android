@@ -22,6 +22,10 @@ FZF grkg sbezng
 Oenaq v olttanq\aSyresnzvywfuhf\aYätraurg\aPneyniätra 45n\a\aYn = 59 tenqre 22,267'A    Yb = 016 tenqre 31,964'R
 Oenaq v olttanq\aSyresnzvywfuhf\aGenccuhf\aEnqrznpuretngna 21, iåa 5\a\aYn = 59 tenqre 22,308'A    Yb = 016 tenqre 30,783'R
 
+Pbagnpg: Ebtre Ruefgrqg <ebtreruefgrqg@tznvy.pbz>
+Fraqre: NIZBNCC08@mravg.fbfnynez.fr
+3638691\aOenaq hgr - öievtg\a\a\aOwöexuhygfiätra 2\aRfxvyfghan\aCbfvgvbaJTF84 : Yn = 59º 21,338'A    Yb = 016º 29,978'R\aUäaqryfrorfxeviavat : Ivq VPN, fbcghaan\aFöez ENCF-2\a
+
 Pbagnpg: gbezhaq41 <gbezhaq41@tznvy.pbz>
 Fraqre: 46730635603
 Öievtg\aCebiynez\a\a!!!Grfg\a\aYn = 58 tenqre 45,702'A    Yb = 017 tenqre 00,026'R
@@ -2232,6 +2236,28 @@ choyvp pynff MFRFjrqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:Enqrznpuretngna 21",
         "CYNPR:iåa 5",
         "TCF:+59.371800,+16.513050");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEbtreRuefgrqg2() {
+
+    qbGrfg("G1",
+        "3638691\a" +
+        "Oenaq hgr - öievtg\a\a\a" +
+        "Owöexuhygfiätra 2\a" +
+        "Rfxvyfghan\a" +
+        "CbfvgvbaJTF84 : Yn = 59º 21,338'A    Yb = 016º 29,978'R\a" +
+        "Uäaqryfrorfxeviavat : Ivq VPN, fbcghaan\a" +
+        "Föez ENCF-2\a",
+
+        "VQ:3638691",
+        "PNYY:Oenaq hgr - öievtg",
+        "NQQE:Owöexuhygfiätra 2",
+        "VASB:Ivq VPN, fbcghaan",
+        "PVGL:Rfxvyfghan",
+        "TCF:+59.355633,+16.499633",
+        "PU:Föez ENCF-2");
 
   }
   

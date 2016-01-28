@@ -46,17 +46,17 @@ public class ILStarkCountyParser extends DispatchA29Parser {
   private static final Pattern DIR_OF_PTN = Pattern.compile("[/ ]+((?:N|S|E|W|NO|SO|EA|WE|NORTH|SOUTH|EAST|WEST) OF)[/ ]+");
   
   private static final CodeSet CALL_LIST = new CodeSet(
-      "4870 DISTURBANCE - DOMESTIC VIOLENCE",
-      "6040 ACCIDENT - TRAFFIC - INJURY",
-      "6041 ACCIDENT - TRAFFIC - INJ UNK",
-      "6090 AMBULANCE - ASSIST HELICOPTER",
-      "6100 AMBULANCE - EMERGENCY",
-      "6700 DISTURBANCE - FIGHTS-RIOTS-BRAWLS",
-      "6715 DISTURBANCE - OTHER",
-      "6800 FIRE CALLS - OTHER",
-      "6804 FIRE - ASSIST FIRE DEPT",
-      "6940 JUVENILE PROBLEM",
-      "7500 SUSPICIOUS PERSON"
+      "DISTURBANCE - DOMESTIC VIOLENCE",
+      "ACCIDENT - TRAFFIC - INJURY",
+      "ACCIDENT - TRAFFIC - INJ UNK",
+      "AMBULANCE - ASSIST HELICOPTER",
+      "AMBULANCE - EMERGENCY",
+      "DISTURBANCE - FIGHTS-RIOTS-BRAWLS",
+      "DISTURBANCE - OTHER",
+      "FIRE CALLS - OTHER",
+      "FIRE - ASSIST FIRE DEPT",
+      "JUVENILE PROBLEM",
+      "SUSPICIOUS PERSON"
   );
 
   private static final String[] CITY_LIST = new String[]{

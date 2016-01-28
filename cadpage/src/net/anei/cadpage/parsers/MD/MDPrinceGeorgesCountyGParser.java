@@ -15,7 +15,7 @@ public class MDPrinceGeorgesCountyGParser extends MDPrinceGeorgesCountyBaseParse
   private static final Pattern ID_PTN = Pattern.compile("(PF\\d{14}): *");
   
   public MDPrinceGeorgesCountyGParser() {
-    super("CALL ADDR! APT? PLACE/CS+? X CH? BOX! Units:UNIT% UNIT+ Remarks:INFO");
+    super("CALL ADDR! APT? PLACE/CS+? X! CH? BOX Units:UNIT% UNIT+ Remarks:INFO");
   }
   
   @Override

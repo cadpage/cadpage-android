@@ -10,9 +10,10 @@ public class ALJeffersonCountyParser extends GroupBestParser {
     super(new ALJeffersonCountyBParser(), 
           new ALJeffersonCountyCParser(), new ALJeffersonCountyDParser(),
           new ALJeffersonCountyEParser(), new ALJeffersonCountyFParser(),
-
+          new ALJeffersonCountyGParser(),
+          
           // The ALJeffersionCountyA parser is highly promiscuous
-          // so we only check it after everythign else has been tried
+          // so we only check it after everything else has been tried
           new GroupBlockParser(),         new ALJeffersonCountyAParser());
   }
 }

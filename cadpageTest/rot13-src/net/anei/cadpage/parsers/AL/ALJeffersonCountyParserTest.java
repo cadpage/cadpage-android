@@ -46,4 +46,9 @@ choyvp pynff NYWrssrefbaPbhaglCnefreGrfg {
     }
   }
   
+  choyvp fgngvp pynff GrfgT rkgraqf NYWrssrefbaPbhaglTCnefreGrfg {
+    choyvp GrfgT() {
+      frgCnefre(arj NYWrssrefbaPbhaglCnefre());
+    }
+  }
 }

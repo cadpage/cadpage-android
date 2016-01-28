@@ -18,7 +18,7 @@ public class DispatchA13Parser extends FieldProgramParser {
   public static final int A13_FLG_LEAD_PLACE = 2;
   public static final int A13_FLG_TRAIL_PLACE = 4;
   
-  private static final String PROGRAM = "SRCID? STATUS CALL/SDS! ADDR X:GPS1 Y:GPS2";
+  private static final String PROGRAM = "SRCID+? STATUS CALL/SDS! ADDR X:GPS1 Y:GPS2";
   
   private Properties cityCodes = null;
   private boolean checkCity;
