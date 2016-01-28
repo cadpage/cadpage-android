@@ -23,12 +23,12 @@ public class PermissionManager {
   public static final String WRITE_EXTERNAL_STORAGE = "android.permission.WRITE_EXTERNAL_STORAGE";
   public static final String RECEIVE_SMS = "android.permission.RECEIVE_SMS";
   public static final String RECEIVE_MMS = "android.permission.RECEIVE_MMS";
+  public static final String CALL_PHONE = "android.permission.CALL_PHONE";
+  public static final String SEND_SMS = "android.permission.SEND_SMS";
   
   // Permissions considered Dangerous, but Cadpage seems to function just fine
   // even when they have not been granted?
-  public static final String SEND_SMS = "android.permission.SEND_SMS";
   public static final String READ_LOGS = "android.permission.READ_LOGS";
-  public static final String CALL_PHONE = "android.permission.CALL_PHONE";
   
   // "Safe" permissions are autoamtically granted
   private static final String WRITE_SMS = "android.permission.WRITE_SMS";

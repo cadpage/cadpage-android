@@ -286,12 +286,12 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     
     // Set up the response button preferences
     PreferenceScreen parent = (PreferenceScreen)findPreference(getString(R.string.pref_resp_button_config_key));
-    setupResponseButtonConfig(parent, R.string.pref_callback1_screen_key, R.string.pref_callback1_type_key, R.string.pref_callback1_title_key, R.string.pref_callback1_key);
-    setupResponseButtonConfig(parent, R.string.pref_callback2_screen_key, R.string.pref_callback2_type_key, R.string.pref_callback2_title_key, R.string.pref_callback2_key);
-    setupResponseButtonConfig(parent, R.string.pref_callback3_screen_key, R.string.pref_callback3_type_key, R.string.pref_callback3_title_key, R.string.pref_callback3_key);
-    setupResponseButtonConfig(parent, R.string.pref_callback4_screen_key, R.string.pref_callback4_type_key, R.string.pref_callback4_title_key, R.string.pref_callback4_key);
-    setupResponseButtonConfig(parent, R.string.pref_callback5_screen_key, R.string.pref_callback5_type_key, R.string.pref_callback5_title_key, R.string.pref_callback5_key);
-    setupResponseButtonConfig(parent, R.string.pref_callback6_screen_key, R.string.pref_callback6_type_key, R.string.pref_callback6_title_key, R.string.pref_callback6_key);
+    setupResponseButtonConfig(parent, 1, R.string.pref_callback1_screen_key, R.string.pref_callback1_type_key, R.string.pref_callback1_title_key, R.string.pref_callback1_key);
+    setupResponseButtonConfig(parent, 2, R.string.pref_callback2_screen_key, R.string.pref_callback2_type_key, R.string.pref_callback2_title_key, R.string.pref_callback2_key);
+    setupResponseButtonConfig(parent, 3, R.string.pref_callback3_screen_key, R.string.pref_callback3_type_key, R.string.pref_callback3_title_key, R.string.pref_callback3_key);
+    setupResponseButtonConfig(parent, 4, R.string.pref_callback4_screen_key, R.string.pref_callback4_type_key, R.string.pref_callback4_title_key, R.string.pref_callback4_key);
+    setupResponseButtonConfig(parent, 5, R.string.pref_callback5_screen_key, R.string.pref_callback5_type_key, R.string.pref_callback5_title_key, R.string.pref_callback5_key);
+    setupResponseButtonConfig(parent, 6, R.string.pref_callback6_screen_key, R.string.pref_callback6_type_key, R.string.pref_callback6_title_key, R.string.pref_callback6_key);
 
     // Email developer response
     Preference emailPref = findPreference(getString(R.string.pref_email_key));
@@ -327,7 +327,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
    * @param descResId ID of response button description preference
    * @param codeResId ID of response button phone/code preference
    */
-  private void setupResponseButtonConfig(final PreferenceScreen parent, 
+  private void setupResponseButtonConfig(final PreferenceScreen parent, final int button, 
                                          int screenResId, int typeResId, int descResId, int codeResId) {
     
     // Find all of the preferences
@@ -353,8 +353,12 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     codePref.setEnabled(typePref.getValue().length() > 0);
     typePref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
       @Override
-      public boolean onPreferenceChange(Preference preference, Object newValue) {
-        codePref.setEnabled(newValue.toString().length() > 0);
+      public boolean onPreferenceChange(Preference preference, Object value) {
+        
+        // Check if we have appropriate permission
+        if (!ManagePreferences.checkResponseType(button, (ListPreference)preference, value.toString())) return false; 
+          
+        codePref.setEnabled(value.toString().length() > 0);
         return true;
       }
     });

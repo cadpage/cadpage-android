@@ -184,7 +184,7 @@ public class ManagePreferences {
     String enableStr = (enabled() ? enableMsgType() : "");
     SmsPopupUtils.enableSMSPopup(context, enableStr);
     
-    // Reallyfinally,while we hav a context, look up the paid/free subscription
+    // Really finally,while we have a context, look up the paid/free subscription
     // titles
     freeSubType = context.getString(R.string.free_subtype);
     paidSubType = context.getString(R.string.paid_subtype);
@@ -1201,9 +1201,16 @@ public class ManagePreferences {
   
   private static PermissionManager permMgr = null;
   
-  private static final int PERM_REQ_SMS_MMS = 1;
-  private static final int PERM_REQ_REPORT_POSITION = 2;
-  private static final int PERM_REQ_LIMIT = 2;
+  private static final int PERM_REQ_INITIAL = 1;
+  private static final int PERM_REQ_SMS_MMS = 2;
+  private static final int PERM_REQ_REPORT_POSITION = 3;
+  private static final int PERM_REQ_RESP_TYPE_BTN1 = 5;
+//  private static final int PERM_REQ_RESP_TYPE_BTN2 = 6;
+//  private static final int PERM_REQ_RESP_TYPE_BTN3 = 7;
+//  private static final int PERM_REQ_RESP_TYPE_BTN4 = 8;
+//  private static final int PERM_REQ_RESP_TYPE_BTN5 = 9;
+//  private static final int PERM_REQ_RESP_TYPE_BTN6 = 10;
+  private static final int PERM_REQ_LIMIT = 10;
   
   private static PermissionChecker<?,?>[] checkers = new PermissionChecker[PERM_REQ_LIMIT];
   
@@ -1211,9 +1218,80 @@ public class ManagePreferences {
     ManagePreferences.permMgr = permMgr;
   }
   
+  /********************************************************************
+   * Initial permission checking (checks all of the other preference permissions)
+   ********************************************************************/
+  
   public static void checkInitialPermissions() {
-    enableMsgTypeChecker.check();
-    reportPositionChecker.check();
+    initialPermissionChecker.check();
+  }
+  
+  private static final InitialPermissionChecker initialPermissionChecker = new InitialPermissionChecker();
+  
+  public static class InitialPermissionChecker extends ListPermissionChecker {
+    
+    // List of checkers that reported permission failures
+    List<PermissionChecker<?,?>> failedCheckers;
+    
+    public InitialPermissionChecker() {
+      super(PERM_REQ_INITIAL, 0);
+    }
+    
+    @Override
+    public boolean check() {
+
+      failedCheckers = new ArrayList<PermissionChecker<?,?>>();
+
+      // Loop through all the defined permission checkers, except for us
+      for (PermissionChecker<?,?> checker : checkers) {
+        if (checker == this) continue;
+        
+        // If it failed, add it to the failed checker list
+        if (checker.check()) failedCheckers.add(checker);
+      }
+      
+      // No failures, life is good
+      if (failedCheckers.isEmpty()) return false;
+      
+      // Otherwise build a list of all of the missing permissions 
+      // and ask user to authorize them
+      
+      for (PermissionChecker<?,?> checker : failedCheckers) {
+        List<String>reqPerms = checker.getReqPermissions();
+        List<Integer>reqExpIds = checker.getReqExplainIds();
+        for (int ndx = 0; ndx<reqPerms.size(); ndx++) {
+          requestPermission(reqPerms.get(ndx), reqExpIds.get(ndx));
+        }
+      }
+      requestPermissions();
+      return true;
+    }
+
+    @Override
+    public void onRequestPermissionResult(String[] permissions, int[] granted) {
+      
+      for (PermissionChecker<?,?> checker : failedCheckers) {
+        List<String> permList = checker.getReqPermissions();
+        String[] perms = permList.toArray(new String[permList.size()]);
+        int[] stats = new int[perms.length];
+        for (int ndx = 0; ndx<perms.length; ndx++) {
+          String perm = perms[ndx];
+          for (int ndx2 = 0; ndx2 < permissions.length; ndx2++) {
+            if (perm.equals(permissions[ndx2])) {
+              stats[ndx] = granted[ndx2];
+              break;
+            }
+          }
+        }
+        checker.onRequestPermissionResult(perms, stats);
+      }
+    }
+
+    // Not called, but we have to satisfy template
+    @Override
+    protected String check(String value) {
+      return null;
+    }
   }
   
   /********************************************************************
@@ -1231,22 +1309,20 @@ public class ManagePreferences {
     }
 
     @Override
-    protected String check(int reqCode, String value) {
+    protected String check(String value) {
       boolean needSmsPerm = value.contains("S") && !permMgr.isGranted(PermissionManager.RECEIVE_SMS);
       boolean needMmsPerm = value.contains("M") && !permMgr.isGranted(PermissionManager.RECEIVE_MMS);
       if (!needSmsPerm && !needMmsPerm) return null;
       
-      List<String> permList = new ArrayList<String>();
       if (needSmsPerm) {
         value = value.replace("S", "");
-        permList.add(PermissionManager.RECEIVE_SMS);
+        requestPermission(PermissionManager.RECEIVE_SMS);
       }
       if (needMmsPerm) {
         value = value.replace("M", "");
-        permList.add(PermissionManager.RECEIVE_MMS);
+        requestPermission(PermissionManager.RECEIVE_MMS);
       }
       
-      if (reqCode > 0) permMgr.request(reqCode, permList.toArray(new String[permList.size()]));
       return value;
     }
   }
@@ -1267,12 +1343,47 @@ public class ManagePreferences {
     }
 
     @Override
-    protected String check(int reqCode, String value) {
+    protected String check(String value) {
       if (!value.equals("Y") || permMgr.isGranted(PermissionManager.ACCESS_FINE_LOCATION)) return null;
-      if (reqCode > 0) permMgr.request(reqCode, PermissionManager.ACCESS_FINE_LOCATION);
+      requestPermission(PermissionManager.ACCESS_FINE_LOCATION);
       return "A";
     }
   }
+  
+  /********************************************************************
+   * Permission checking the response button type preference
+   ********************************************************************/
+  public static boolean checkResponseType(int button, ListPreference pref, String value) {
+    return responseTypeCheckers[button-1].check(pref, value);
+  }
+  
+  private static ResponseTypePermissionChecker[] responseTypeCheckers = new ResponseTypePermissionChecker[]{
+      new ResponseTypePermissionChecker(1),
+      new ResponseTypePermissionChecker(2),
+      new ResponseTypePermissionChecker(3),
+      new ResponseTypePermissionChecker(4),
+      new ResponseTypePermissionChecker(5),
+      new ResponseTypePermissionChecker(6)
+  };
+  
+  private static class ResponseTypePermissionChecker extends ListPermissionChecker {
+    
+    public ResponseTypePermissionChecker(int button) {
+      super(PERM_REQ_RESP_TYPE_BTN1-1+button, CALLBACK_TYPE_IDS[button-1]);
+    }
+
+    @Override
+    protected String check(String value) {
+      String reqPerm = value.equals("P") ? PermissionManager.CALL_PHONE :
+                       value.equals("T") ? PermissionManager.SEND_SMS : null;
+      if (reqPerm == null || permMgr.isGranted(reqPerm)) return null;
+      
+      requestPermission(reqPerm);
+      return "";
+    }
+  }
+  
+  /*******************************************************************/
   
   private abstract static class ListPermissionChecker extends StringPermissionChecker<ListPreference> {
     
@@ -1309,33 +1420,79 @@ public class ManagePreferences {
     private P preference;
     private V value;
     
+    private List<String> reqPermissions;
+    private List<Integer> reqExplainIds;
+    
     protected PermissionChecker(int permReq, int resPrefId) {
       this.permReq = permReq;
       this.resPrefId = resPrefId;
       checkers[permReq-1] = this;
     }
     
-    public void check() {
+    public List<String> getReqPermissions() {
+      return reqPermissions;
+    }
+    
+    public List<Integer> getReqExplainIds() {
+      return reqExplainIds;
+    }
+    
+    public boolean check() {
       this.preference = null;
+      reqPermissions = new ArrayList<String>();
+      reqExplainIds = new ArrayList<Integer>();
       this.value = getPrefValue(resPrefId);
-      V newValue = check(permReq, value);
-      if (newValue != null && !newValue.equals(value)) {
+      V newValue = check(value);
+      if (reqPermissions.size() > 0) {
         savePrefValue(resPrefId, newValue);
+        return true;
       }
+      return false;
     }
     
     public boolean check(P preference, V value) {
       this.preference = preference;
       this.value = value;
-      V newValue = check(permReq, value);
-      return newValue == null || newValue.equals(value);
+      reqPermissions = new ArrayList<String>();
+      reqExplainIds = new ArrayList<Integer>();
+      check(value);
+      if (reqPermissions.size() > 0) {
+        requestPermissions();
+        return false;
+      }
+      return true;
+    }
+    
+    protected void requestPermission(String reqPerm) {
+      requestPermission(reqPerm, 0);
+    }
+    
+    protected void requestPermission(String reqPerm, int explainId) {
+      if (reqPermissions != null) {
+        int ndx = reqPermissions.indexOf(reqPerm);
+        if (ndx >= 0) {
+          if (reqExplainIds.get(ndx) == 0) reqExplainIds.set(ndx, explainId);
+        } else {
+          reqPermissions.add(reqPerm);
+          reqExplainIds.add(explainId);
+        }
+      }
+    }
+    
+    protected void requestPermissions() {
+      String[] perms = reqPermissions.toArray(new String[reqPermissions.size()]);
+      int[] expIds = new int[reqExplainIds.size()];
+      for (int j = 0; j<expIds.length; j++) expIds[j] = reqExplainIds.get(j);
+      permMgr.request(permReq, perms, expIds);
     }
     
     public void onRequestPermissionResult(String [] permissions, int[] granted) {
+      reqPermissions = null;
+      reqExplainIds = null;
       V newValue = value;
       if (!PermissionManager.isGranted(granted)) {
         if (permissions == null || granted == null || granted.length < 2) return;
-        newValue = check(-1, value);
+        newValue = check(value);
         if (newValue == null) newValue = value;
       }
       
@@ -1348,7 +1505,7 @@ public class ManagePreferences {
     protected abstract V getPrefValue(int resPrefId);
     protected abstract void savePrefValue(int resPrefId, V value);
     protected abstract void setPreference(P preference, V value);
-    protected abstract V check(int permReq, V value);
+    protected abstract V check(V value);
   }
   
   
