@@ -74,6 +74,7 @@ public class DispatchPrintrakParser extends FieldProgramParser {
         (version == FLG_VERSION_1 ?
             "( TIME:TIME_INFO! TYP:CALL " +
             "| AD:ADDR! LOC:CITY TIME:TIME_INFO! TYP:CALL " +
+            "| LOC:ADDR! AD:PLACE! DESC:CALL! BLD:APT! FLR:APT/D! APT:APT/D! TYP:CODE! MODCIR:CALL/SDS! CMT1:INFO/N+ " +
             "| PRI:PRI INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY MAP:MAP LOC:PLACE XST:X CN:NAME CMT1:" + cmt1Fld +  
               " Original_Location:PLACE2? CMT2:INFO Original_Location:PLACE2? CE:INFO? CMT2:INFO CALLER_STATEMENT:INFO? STATEMENT:INFO? TIME:TIME UNTS:UNIT XST:X XST2:X UNTS:UNIT XST:X XST2:X )"
         : version == FLG_VERSION_2 ?

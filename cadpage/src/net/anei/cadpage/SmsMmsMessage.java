@@ -3,12 +3,14 @@ package net.anei.cadpage;
 import java.io.IOException;
 import java.io.Serializable;
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
+import java.util.SimpleTimeZone;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -726,19 +728,32 @@ public class SmsMmsMessage implements Serializable {
   }
   
   public Date getIncidentDate() {
-    if (incidentDate == null) incidentDate = calcIncidentDate();
+    
+    // Return cached incident date if we have it
+    if (incidentDate != null) return incidentDate;
+    
+    // Try to calculate date from parsed dispatch date/time
+    incidentDate = calcDispatchDate();
+    if (incidentDate != null) return incidentDate;
+    
+    // No go, try to calculate incident date from server time
+    incidentDate = calcServerDate();
+    if (incidentDate != null) return incidentDate;
+    
+    // Still no go, use message received timestamp
+    incidentDate = new Date(timestamp);
     return incidentDate;
   }
   
-  private Date calcIncidentDate() {
+  private Date calcDispatchDate() {
     
     // Parse the info object and retrieve the parsed date & time
-    // If there is no parsed time just return the received timestamp
+    // If there is no parsed time just return null
     MsgInfo info = getInfo();
-    if (info == null) return new Date(timestamp);
+    if (info == null) return null;
     int[] dateArry = splitDateTime(info.getDate());
     int[] timeArry = splitTime(info.getTime());
-    if (timeArry == null) return new Date(timestamp);
+    if (timeArry == null) return null;
     
     // Set result fields from parsed time field
     Calendar cal = new GregorianCalendar();
@@ -821,6 +836,43 @@ public class SmsMmsMessage implements Serializable {
       }
     }
     return result;
+  }
+  
+  /**
+   * @return incident calculated from server time or null if not available
+   */
+  private Date calcServerDate() {
+    
+    if (serverTime ==  null ||  serverTime.length() == 0) return null;
+    
+    // Different vendors use different formats :(
+    // Try to parse as a numeric long integer
+    try {
+      long time = Long.parseLong(serverTime);
+      
+      // Numeric time could be in seconds or in msecs
+      if (time < 1000000000000L) time *= 1000L;
+      
+      // very broad reasonableness checks
+      if (time < 1000000000000L) return null;
+      if (time > 2000000000000L) return null;
+      
+      // Looks good
+      return new Date(time);
+    } catch (NumberFormatException ex) {}
+    
+    // No go, try as UMT Date/time
+    try {
+      return SERVER_DATE_FMT.parse(serverTime);
+    } catch (ParseException ex) {}
+    
+    return null;
+      
+  }
+  
+  private static final DateFormat SERVER_DATE_FMT = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+  static {
+    SERVER_DATE_FMT.setTimeZone(new SimpleTimeZone(0, "UMT"));
   }
 
   public MessageClass getMessageClass() {

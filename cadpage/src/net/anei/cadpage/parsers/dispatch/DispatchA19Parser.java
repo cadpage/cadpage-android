@@ -45,28 +45,28 @@ public class DispatchA19Parser extends FieldProgramParser {
     body = HASH_DELIM.matcher(body).replaceAll(":");
     body = FIELD_BREAK.matcher(body).replaceAll("\n$1:");
     if (!parseFields(FIELD_DELIM.split(body), data)) return false;
-    if (data.msgType == MsgType.RUN_REPORT) data.strSupp = append(times, "\n:", data.strSupp);
+    if (data.msgType == MsgType.RUN_REPORT) data.strSupp = append(times, "\n", data.strSupp);
     return true;
-  }
-  
-  private class MyIdField extends IdField {
-    @Override
-    public void parse(String field, Data data) {
-      data.strCallId = append(data.strCallId, "/", field);
-    }
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new MyIdField();
+    if (name.equals("ID")) return new BaseIdField();
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("INFO")) return new BaseInfoField();
     if (name.equals("X")) return new BaseCrossField();
     if (name.equals("XYPOS")) return new BaseXYPosField();
     if (name.equals("XY_COORD")) return new BaseXYCoordField();
     if (name.equals("PHONE")) return new BasePhoneField();
-    if (name.equals("TIMES")) return new MyTimesField();
+    if (name.equals("TIMES")) return new BaseTimesField();
     return super.getField(name);
+  }
+  
+  private class BaseIdField extends IdField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strCallId = append(data.strCallId, "/", field);
+    }
   }
   
   private static final Pattern ADDR_APT_PTN = Pattern.compile("(?:APT|RM|SUITE) *(.*)|\\d+[A-Z]?", Pattern.CASE_INSENSITIVE);
@@ -220,12 +220,13 @@ public class DispatchA19Parser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern TIMES_PTN = Pattern.compile("\\S+ +[A-Z]+ +\\d\\d:\\d\\d:\\d\\d +\\d\\d/\\d\\d/\\d\\d");
-  private class MyTimesField extends InfoField {
+  private static final Pattern TIMES_PTN = Pattern.compile("(\\S+ +[A-Z]+ +\\d\\d:\\d\\d:\\d\\d +\\d\\d/\\d\\d/\\d\\d)\\b *.*");
+  private class BaseTimesField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      if (TIMES_PTN.matcher(field).matches()) {
-        times = append(times, "\n", field);
+      Matcher match = TIMES_PTN.matcher(field);
+      if (match.matches()) {
+        times = append(times, "\n", match.group(1));
       }
     }
   }
