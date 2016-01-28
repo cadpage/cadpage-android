@@ -149,7 +149,7 @@ choyvp pynff VQGrgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G11",
         "{Qvfcngpu Nyreg} Pnyy Glcr:  Pvgl: NYGN, JL Nqqerff: 3300 R NYGN FXV UVYY EQ",
         "PVGL:NYGN, JL",
-        "NQQE:3300 R NYGN FXV UVYY EQ");
+        "NQQE:3300 R NYGN FXV UVYY EQ"); 
 
     qbGrfg("G12",
         "{Qvfcngpu Nyreg} Pnyy Glcr: nzOhynapr gneturr Pvgl:  Nqqerff: TENAQ GNETURR",
