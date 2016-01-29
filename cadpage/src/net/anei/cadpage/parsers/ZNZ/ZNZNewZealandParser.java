@@ -6,11 +6,14 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
 
 public class ZNZNewZealandParser extends SmartAddressParser {
 
   private static final Pattern SUBJECT_UNIT_PTN = Pattern.compile("[ ,A-Z0-9]+");
+  private static final Pattern POR_FIRE_PTN = Pattern.compile(" +POR[A-Z0-9]+FIRE$");
   
   private static final Pattern WRAP_BRK_PTN = Pattern.compile("(#F\\d+)(?=\\()");
   private static final Pattern END_PAGE_BREAK = Pattern.compile("#F\\d+(?=\n)");
@@ -51,6 +54,11 @@ public class ZNZNewZealandParser extends SmartAddressParser {
   }
 
   @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom();
+  }
+
+  @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (subject.length() > 0) {
       if (body.startsWith("-----------------") || body.length() == 0) {
@@ -69,7 +77,10 @@ public class ZNZNewZealandParser extends SmartAddressParser {
       }
     }
     
-    Matcher match = WRAP_BRK_PTN.matcher(body);
+    Matcher match = POR_FIRE_PTN.matcher(body);
+    if (match.find()) body = body.substring(0,match.start());
+    
+    match = WRAP_BRK_PTN.matcher(body);
     if (match.find()) {
       body = body.substring(match.end()) + body.substring(0,match.end());
     } else {
