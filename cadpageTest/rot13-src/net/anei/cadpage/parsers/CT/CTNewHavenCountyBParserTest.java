@@ -67,6 +67,10 @@ Pbagnpg: wnfba ylzna <wnfylzna@tznvy.pbz>
 Fraqre: cntvat@aocbyvprpg.bet
   / 1300003606 ZRQVPNY ZRQN 00009  QNIVQ YA GBZZL'F CNGU/QRNQ RAQ  514  ZRQ4  130522 18:00
 
+Pbagnpg: Qna Cbggre <qnlgban50024@tznvy.pbz>
+Fraqre: cntvat@aocbyvprpg.bet
+1600000819 ZRQVPNY ZRQN 00088  ABGPU UVYY EQ Ncg #: E221 YRQTRJBBQ QE/INYYRL EQ ABEGU OENASBEQ  508  ZRQ4  160129 16:32
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Unzqra SQ
 Ybpngvba: Unzqra, PG, Havgrq Fgngrf
@@ -832,6 +836,23 @@ choyvp pynff PGArjUniraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:05/22/13",
         "GVZR:18:00");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQnaCbggre() {
+
+    qbGrfg("G1",
+        "1600000819 ZRQVPNY ZRQN 00088  ABGPU UVYY EQ Ncg #: E221 YRQTRJBBQ QE/INYYRL EQ ABEGU OENASBEQ  508  ZRQ4  160129 16:32",
+        "VQ:1600000819",
+        "PNYY:ZRQVPNY ZRQN",
+        "NQQE:88 ABGPU UVYY EQ",
+        "NCG:E221",
+        "PVGL:ABEGU OENASBEQ",
+        "K:YRQTRJBBQ QE/INYYRL EQ",
+        "HAVG:508 ZRQ4",
+        "QNGR:01/29/16",
+        "GVZR:16:32");
+    
   }
 
   @Grfg
