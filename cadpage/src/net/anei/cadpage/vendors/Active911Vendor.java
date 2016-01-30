@@ -927,6 +927,7 @@ class Active911Vendor extends Vendor {
       "US/OR/MountainWaveSAR",            "ORMultnomahCountyC",
       "US/OR/MultnomahCounty",            "ORMultnomahCounty",
       "US/OR/NewbergFire",                "ORYamhillCountyA",
+      "US/OR/Oakridge",                   "ORLaneCountyC",
       "US/OR/Pacific",                    "ORJosephineCounty",
       "US/OR/PolkCounty",                 "ORPolkCounty",
       "US/OR/PortlandAMR",                "ORClackamasCountyC",
