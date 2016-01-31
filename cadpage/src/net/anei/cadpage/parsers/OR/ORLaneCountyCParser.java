@@ -18,8 +18,14 @@ public class ORLaneCountyCParser extends DispatchA22Parser {
     return "NoReplyDispatch@co.lane.or.us";
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "LANE",  "OAKRIDGE",
-      "OAK",   "OAKRIDGE"
+      "LANE",  "LANE COUNTY",
+      "OAK",   "OAKRIDGE",
+      "WEF",   "WESTFIR"
   });
 }

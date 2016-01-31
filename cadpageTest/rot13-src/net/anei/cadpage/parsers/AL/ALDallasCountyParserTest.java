@@ -148,7 +148,7 @@ choyvp pynff NYQnyynfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ERFVQRAGVNY SVER",
         "NQQE:2116 EBLNY FG",
         "K:OVRAIVYYR FG",
-        "CYNPR:OENAQBA"); //JBHYQ OR ORGGRE VA N PVGL SVRYQ
+        "CYNPR:OENAQBA");
 
     qbGrfg("G6",
         "{SOHFVA OHFVARFF SVER} QNYYNF911:2106 ZNEVR SBFGRE FG UVTUYNAQ NIR",
