@@ -4033,7 +4033,7 @@ We have been reaching out to Cadpage users that we haven't heard from for a whil
 
 We do have some features that the Active911 app still lacks -- more flexible notification options, for example.  Some users like the simpler interface.  Message alerts may be a bit more reliable.  But the basic functionality will probably be about the same as the Active911 app.
 
-If you are not currently using Cadpage and would like to try it. You can install Cadpage from the Google Play Store. Then open Cadpage settings and select
+If you have an Android device and are not currently using Cadpage and would like to try it. You can install Cadpage from the Google Play Store. Then open Cadpage settings and select
 Direct Paging Vendors > Active911 > Register
 You then have to enter the same Active911 device activation code that you used to register the Active911 app.
 
@@ -4043,7 +4043,6 @@ If you have any questions, or if there is anything you would like to see added t
 
 Have a great day,
 -Ken
-
 **************************************************************************
 trouble paying through Google
 
