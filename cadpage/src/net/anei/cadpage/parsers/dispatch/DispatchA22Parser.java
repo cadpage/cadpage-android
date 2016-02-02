@@ -23,7 +23,7 @@ abstract public class DispatchA22Parser extends FieldProgramParser {
   
   public DispatchA22Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState,
-          "DATETIME! UNITS:UNIT? ( EVENT_#:IDSRC! | SRC ) CALL! PRIORITY:PRI? ( LOCATION:ADDR! CITY:CITY APT:APT PREMISE:PLACE? COMMENT:INFO | ADDR CITY! APT:APT ) INFO+");
+          "EVENT_PAGE? DATETIME! UNITS:UNIT? ( EVENT_#:IDSRC! | SRC ) CALL/SDS! PRIORITY:PRI? ( LOCATION:ADDR! CITY:CITY APT:APT PREMISE:PLACE? COMMENT:INFO | ADDR CITY! APT:APT ) INFO+");
   }
   
   @Override
@@ -37,6 +37,15 @@ abstract public class DispatchA22Parser extends FieldProgramParser {
     return parseFields(body.split("\n"), data);
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("EVENT_PAGE")) return new CallField("(.*?) *-EVENT PAGE");
+    if (name.equals("DATETIME")) return new MyDateTimeField();
+    if (name.equals("IDSRC")) return new MyIdSourceField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
+  
   private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d{1,2}/\\d{1,2}/\\d{4}) (\\d{4})");
   private class MyDateTimeField extends DateTimeField {
     @Override
@@ -47,14 +56,6 @@ abstract public class DispatchA22Parser extends FieldProgramParser {
       String time = match.group(2);
       data.strTime = time.substring(0,2) + ':' + time.substring(2,4);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("DATETIME")) return new MyDateTimeField();
-    if (name.equals("IDSRC")) return new MyIdSourceField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
   
   private static final Pattern ID_SRC_PTN = Pattern.compile("(\\d{10}) (.*)");

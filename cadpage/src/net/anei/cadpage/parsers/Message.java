@@ -130,7 +130,8 @@ public class Message {
     Pattern.compile(" *\\[(\\d) of (\\d)\\]\\s*$"),
     Pattern.compile(":(\\d)of(\\d)\\s*$"),
     Pattern.compile("_(\\d) of (\\d)\\s*$"),
-    Pattern.compile(" \\(0(\\d)/0(\\d)\\)\\s*$")
+    Pattern.compile(" \\(0(\\d)/0(\\d)\\)\\s*$"),
+    Pattern.compile("\\(Part (\\d) of (\\d)\\)? +POR[A-Z0-9]+FIRE$")
   };
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),

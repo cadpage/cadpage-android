@@ -12,6 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class DispatchEmergitechParser extends FieldProgramParser {
   
   private static final String UNIT_PTN = "\\[([-A-Z0-9]+)\\]-+ ?";
+  private static final Pattern ID_PTN = Pattern.compile("Call: *([- 0-9]+)\\b");
   private static final Pattern HOUSE_DECIMAL_PTN = Pattern.compile("\\b(\\d+)\\.0{1,2}(?= )");
   private static final Pattern COMMENTS_PTN = Pattern.compile("/?C ?O ?M ?M ?E ?N ?T ?S ?:");
   private static final Pattern BETWEEN_PTN = Pattern.compile("\\bB ?E ?T ?W ?E ?E ?N\\b");
@@ -61,7 +62,6 @@ public class DispatchEmergitechParser extends FieldProgramParser {
                                   String[] cityList, String defCity, String defState) {
     this(prefixList, false, new int[]{extraSpacePos}, cityList, defCity, defState);
   }
-
   
   /** 
    * Constructor
@@ -78,6 +78,24 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   public DispatchEmergitechParser(String prefix, int extraSpacePos,
                                    String[] cityList, String defCity, String defState) {
     this(prefix, new int[]{extraSpacePos}, cityList, defCity, defState);
+  }
+  
+  /** 
+   * Constructor
+   * @param prefix Prefix that must be found at beginning of text page<br/>
+   * An empty string means that no prefix value is expected<br/>
+   * A null string means no prefix value is expected, and the following unit field is optional
+   * @param optUnit true if unit is optional
+   * @param extraSpacePos Single extra blank column<br/>
+   * Positive values of offsets from beginning of message<br/>
+   * Negative values are offsets from beginning of address field 
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   */
+  public DispatchEmergitechParser(String prefix, boolean optUnit, int extraSpacePos,
+                                   String[] cityList, String defCity, String defState) {
+    this(prefix, optUnit, new int[]{extraSpacePos}, cityList, defCity, defState);
   }
   
   /** 
@@ -210,6 +228,13 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     // See if this is the new fangled dash delimited format.  Makes things so much easier
     String tmp = body.substring(match.end());
     if (tmp.contains(" - Location:")) {
+      
+      // Check for a labelled call ID field
+      match = ID_PTN.matcher(tmp);
+      if (match.lookingAt()) {
+        data.strCallId = match.group(1).trim();
+        tmp = tmp.substring(match.end());
+      }
       int pt = tmp.indexOf("Nature:");
       if (pt > 0) tmp = tmp.substring(pt);
       if (tmp.endsWith(" -")) tmp = tmp + ' ';
@@ -263,7 +288,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return "UNIT " + super.getProgram() + " CALL";
+    return "UNIT ID? " + super.getProgram() + " CALL";
   }
 
   /**

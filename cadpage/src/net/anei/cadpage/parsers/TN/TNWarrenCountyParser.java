@@ -4,16 +4,17 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 
 
 public class TNWarrenCountyParser extends DispatchEmergitechParser {
   
-  private static final Pattern GEN_ALERT_PTN = Pattern.compile("WarrenCo911:\\[(\\d+)\\]-- *");
+  private static final Pattern GEN_ALERT_PTN = Pattern.compile("WarrenCo911:\\[(\\d+)\\]--? *");
 
   public TNWarrenCountyParser() {
-    super("WarrenCo911:", 0, CITY_LIST, "WARREN COUNTY", "TN");
+    super("WarrenCo911:", true, 0, CITY_LIST, "WARREN COUNTY", "TN");
   }
   
   @Override
@@ -27,12 +28,13 @@ public class TNWarrenCountyParser extends DispatchEmergitechParser {
     
     Matcher match = GEN_ALERT_PTN.matcher(body);
     if (!match.lookingAt()) return false;
+    setFieldList("UNIT INFO");
     data.initialize(this);
     data.strUnit = match.group(1);
     body = body.substring(match.end());
     body = body.replace(" W INJURY", " W-INJURY");
-    data.strCall = "GENERAL ALERT";
-    data.strPlace = body;
+    data.msgType = MsgType.GEN_ALERT;
+    data.strSupp = body;
     return true;
   }
 

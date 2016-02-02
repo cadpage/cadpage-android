@@ -298,7 +298,7 @@ choyvp pynff PNZnqrenPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR: 2320\a\a" +
         "VASB: FZBXR PBZVAT SEBZ GUR GBC BS N GENVYRE BA JNFUVATGBA/ZNCYR",
 
-        "PNYY:SVER - SVER PNYYFA  RKPRCG NEFBAF",
+        "PNYY:SVER - SVER PNYYFA  RKPRCG NEFBAF", 
         "NQQE:JNFUVATGBA EQ & ZNCYR FG",
         "VQ:1601160066",
         "CEV:1",

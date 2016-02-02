@@ -25,7 +25,7 @@ public class DispatchA18Parser extends FieldProgramParser {
   
   public DispatchA18Parser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
-          "CALL ADDR X BOX! EMPTY+? ( DASHES DATETIME SRC SRC | ) INFO+");
+          "CALL ADDR X BOX! EMPTY+? ( DASHES DATETIME SRC SRC | ) INFO+? ID_UNIT");
   }
   
   @Override
@@ -51,6 +51,7 @@ public class DispatchA18Parser extends FieldProgramParser {
     if (name.equals("DATETIME")) return new DateTimeField("(\\d\\d.\\d\\d.\\d{4} \\d\\d:\\d\\d:\\d\\d) :.*", true);
     if (name.equals("SRC")) return new MySourceField();
     if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("ID_UNIT")) return new MyIdUnitField();
     return super.getField(name);
   }
 
@@ -227,5 +228,34 @@ public class DispatchA18Parser extends FieldProgramParser {
       if (field.startsWith("VERIFY")) return;
       data.strSource = append(data.strSource, " ", field.replace(' ', '_'));
     }
+  }
+
+  private static final Pattern ID_UNIT_PTN = Pattern.compile("(\\d\\d[A-Z]{2}\\d{6})=([A-Z0-9]+)");
+  private class MyIdUnitField extends Field {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = ID_UNIT_PTN.matcher(field);
+      if (!match.matches()) return false;
+      data.strCallId = match.group(1);
+      data.strUnit = match.group(2);
+      return true;
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "ID UNIT";
+    }
+    
   }
 }
