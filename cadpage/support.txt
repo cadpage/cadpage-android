@@ -487,7 +487,7 @@ Subsequent $10 payments are set up as maintenance fees.   If you stop installing
  You can continue to use Cadpage after the expiration date as long as you do not install a release published after that date.
  
 ******************************************************************
-update department subscriptions
+renew department subscriptions
 
 Your one-year anniversary for Cadpage for your department was _________.  You and your department members may certainly continue using the app, free of charge for as long as you like.  That is, you can continue to use Cadpage after the expiration date as long as you do not install a release published after that date, change phones, or change email addresses.
 
@@ -715,7 +715,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-JRRQQZCA or jrrqqzca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+IOLRADEA or iolradea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support, 
 Jean ~ Cadpage Administrator

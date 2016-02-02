@@ -1,9 +1,9 @@
 package net.anei.cadpage.parsers.VA;
 
 
-public class VAWaynesboroParser extends VAAugustaCountyParser {
+public class VAWaynesboroAParser extends VAAugustaCountyParser {
   
-  public VAWaynesboroParser() {
+  public VAWaynesboroAParser() {
     super("WAYNESBORO", "VA");
   }
   

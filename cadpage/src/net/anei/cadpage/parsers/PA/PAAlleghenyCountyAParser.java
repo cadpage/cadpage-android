@@ -10,14 +10,14 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 /**
  * Allegheny County, PA
  */
-public class PAAlleghenyCountyParser extends FieldProgramParser {
+public class PAAlleghenyCountyAParser extends FieldProgramParser {
   
   private static final Pattern MARKER = Pattern.compile("ALLEGHENY COUNTY 911:? :|:");
   private static final Pattern TRAILER_PTN = Pattern.compile(" - From \\d+ (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)$");
   private static final Pattern MOVE_UP_PTN = Pattern.compile("MOVE-UP: +([A-Z0-9]+) +to +([A-Z0-9]+)\\.?");
   private static final Pattern MOVE_UP_UNIT_PTN = Pattern.compile("\\b([A-Z0-9]+) +to +");
   
-  public PAAlleghenyCountyParser() {
+  public PAAlleghenyCountyAParser() {
     super(CITY_CODES, "ALLEGHENY COUNTY", "PA",
            "CODE PRI CALL CALL+? ( GPS1 GPS2! XINFO+? SRC | ADDR/Z CITY/Y! ( DUP_ADDR CITY | ) ( AT SKIP | ) XINFO+? SRC | PLACE AT CITY? XINFO+? SRC | SRC ) BOX? ID? INFO+ Units:UNIT UNIT+");
     setupCities(EXTRA_CITY_LIST);
