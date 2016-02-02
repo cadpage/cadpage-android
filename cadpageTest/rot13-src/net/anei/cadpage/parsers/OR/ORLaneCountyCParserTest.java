@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-BnxEvqtr, BE (Ynar Pbhagl)
+Ynar Pbhagl, BE (P)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Bnxevqtr Sver & RZF
