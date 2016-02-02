@@ -17,7 +17,6 @@ public class PermissionManager {
   public static final String READ_PHONE_STATE = "android.permission.READ_PHONE_STATE";
   public static final String READ_SMS = "android.permission.READ_SMS";
   public static final String GET_ACCOUNTS = "android.permission.GET_ACCOUNTS";
-  public static final String BILLING = "android.vending.BILLING";
   public static final String ACCESS_FINE_LOCATION = "android.permission.ACCESS_FINE_LOCATION";
   public static final String READ_EXTERNAL_STORAGE = "android.permission.READ_EXTERNAL_STORAGE";
   public static final String WRITE_EXTERNAL_STORAGE = "android.permission.WRITE_EXTERNAL_STORAGE";
@@ -29,7 +28,10 @@ public class PermissionManager {
   // Permissions considered Dangerous, but Cadpage seems to function just fine
   // even when they have not been granted?
   public static final String READ_LOGS = "android.permission.READ_LOGS";
-  
+
+  // Not a system permission - automatically granted
+  private static final String BILLING = "android.vending.BILLING";
+
   // "Safe" permissions are autoamtically granted
   private static final String WRITE_SMS = "android.permission.WRITE_SMS";
   private static final String WAKE_LOCK = "android.permission.WAKE_LOCK";
