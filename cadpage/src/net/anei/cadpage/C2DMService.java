@@ -67,7 +67,7 @@ public class C2DMService extends IntentService {
   @Override
   protected void onHandleIntent(Intent intent) {
     
-    Log.v("C2DMReceiver: onReceive()");
+    Log.v("C2DMService: onHandleIntent()");
     
     if (ACTION_RETRY_REGISTER.equals(intent.getAction())) {
       retryRegisterRequest(intent);
