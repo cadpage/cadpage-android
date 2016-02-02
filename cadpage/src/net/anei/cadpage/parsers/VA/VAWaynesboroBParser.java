@@ -19,6 +19,15 @@ public class VAWaynesboroBParser extends DispatchOSSIParser {
   }
   
   @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // Reject VAWaynesboroA -> VAAugustaCounty calls
+    if (subject.length() == 0) return false;
+    
+    return super.parseMsg(body, data);
+  }
+
+  @Override
   public Field getField(String name) {
     if (name.equals("UNIT_CALL")) return new MyUnitCallField();
     return super.getField(name);

@@ -941,7 +941,7 @@ class Active911Vendor extends Vendor {
       "US/OR/Woodburn",                   "ORMarionCounty",
       "US/OR/Yamhill",                    "ORYamhillCountyB",
       "US/PA/AdamsCounty",                "PAAdamsCounty",
-      "US/PA/AlleghenyCounty",            "PAAlleghenyCounty",
+      "US/PA/AlleghenyCounty",            "PAAlleghenyCountyA",
       "US/PA/ArmstrongCounty",            "PAArmstrongCounty",
       "US/PA/BeaverCounty",               "PABeaverCounty",
       "US/PA/BerksCounty",                "PABerksCounty",

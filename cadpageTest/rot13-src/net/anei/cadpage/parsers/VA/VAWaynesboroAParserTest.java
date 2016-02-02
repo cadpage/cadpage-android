@@ -4,6 +4,6 @@ choyvp pynff INJnlarfobebNCnefreGrfg rkgraqf INNhthfgnPbhaglCnefreGrfg {
   
   choyvp INJnlarfobebNCnefreGrfg() {
     frgCnefre(arj INJnlarfobebNCnefre(), "JNLARFOBEB", "IN");
-    frgRkcYbpPbqr("INJnlarfobeb");
+    frgRkcYbpPbqr("INJnlarfobebN");
   }
 }

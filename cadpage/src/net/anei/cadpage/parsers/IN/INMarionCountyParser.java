@@ -267,7 +267,9 @@ public class INMarionCountyParser extends MsgParser {
       "LAW", "Lawrence",
       "LIZ", "Lizton",
       "MOV", "Monrovia",
+      "PIT", "Pittsboro",
       "PLF", "Plainfield",
+
 
       "DEC", "Decatur TWP",
       "FRA", "Franklin Township",
