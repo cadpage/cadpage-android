@@ -681,7 +681,7 @@ Jean ~ Cadpage Administrator
 extension of free subscription
 ******************************************************************
 
-Your free subscription has been extended for at least another year.
+Your free Cadpage subscription has been extended for at least another year.
 
 Please: Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
