@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01292016</string>
+  <string name="release_date">02012016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.05.05\n
+New Locations:\n
+Lane County, OR (alt)\n
+Albany County, PA (alt)\n
+Waynesboro, VA (alt)\n
+\n
+Location Fixes:\n
+Montgomery County, OH\n
+Stark County, OH\n
+\n
 v1.9.05.04\n
 Location Fixes:\n
 Warren County, TN\n
@@ -54,22 +64,7 @@ General Fixes:\n
 Changed version numbering so that the automatic change history popup will only
 be displayed when something significant has changed.\n
 \n
-Fixed problem displaying setting values since Android 5.0.\n
-\n
-v1.9.05\n
-New Locations:\n
-Montgomery County, IL\n
-Carroll County, KY (alt)\n
-Avoyelles Parish, LA\n
-Ottawa County, MI\n
-Wasaeca County, MN\n
-Benton County, MO\n
-Dallas County, TX (alt)\n
-\n
-Location Fixes:\n
-Klamath County, OR\n
-Hunt County, TX\n
-Novia Scotia, Canada
+Fixed problem displaying setting values since Android 5.0.
   </string>
 </resources>
   
