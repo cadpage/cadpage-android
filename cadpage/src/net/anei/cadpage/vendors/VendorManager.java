@@ -98,6 +98,14 @@ public class VendorManager {
   }
   
   /**
+   * @return true if user is registered with a vendor automatically
+   * supports the Cadpage paging service
+   */
+  public boolean isPaidSubSupported() {
+    return isRegistered("CodeMessaging");
+  }
+  
+  /**
    * @return true specified vendor is a legal vendor name
    * @param vendorName registered vendor name
    */
