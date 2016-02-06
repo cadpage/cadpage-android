@@ -55,9 +55,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
   }
   
   cevingr fgngvp svany Fgevat SEBZ_NQQERFF = "1112223333";
-  cevingr fgngvp svany vag CNEFR_SYNTF = ZftCnefre.CNEFR_SYT_GRFG_ZBQR | 
-                                         ZftCnefre.CNEFR_SYT_CBFVGVIR_VQ | 
-                                         ZftCnefre.CNEFR_SYT_FXVC_SVYGRE;
+  cevingr fgngvp svany vag CNEFR_SYNTF = ZftCnefre.CNEFR_SYT_SBEPR; 
   
   cevingr fgngvp svany Fgevat[] EHA_ERCBEG_GREZF = "GLCR PBQR PNYY FEP VQ HAVG CYNPR QNGR GVZR VASB".fcyvg(" ");
 

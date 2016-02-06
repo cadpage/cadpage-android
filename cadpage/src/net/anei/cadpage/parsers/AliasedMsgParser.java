@@ -39,6 +39,11 @@ public class AliasedMsgParser extends GroupBaseParser {
   }
 
   @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return parser.getActive911SplitMsgOptions();
+  }
+
+  @Override
   protected Data parseMsg(Message msg, int parseFlags) {
     Data data = parser.parseMsg(msg, parseFlags, getFilter());
     if (data != null) {
