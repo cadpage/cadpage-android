@@ -668,38 +668,8 @@ public class SmsMmsMessage implements Serializable {
     // Recalculate transient member information
     calcSplitMsgOptions();
 
-    // Some special logic if the previous location was General
-    // And the current location code preference is not general
-    // And this message text is a valid message for this location code
-    // then use the results of the new location code.
-    // NOTE: Our location and info members will be set as a side effect of
-    // a successful isPageMsg call
-    if (location != null && location.startsWith("General")) {
-      
-      // If there were missing Active911 parsers, see if they have been implemented since.
-      // If they have, use the new codes to parse the old message
-      if (missingParsers != null) {
-        String[] results = VendorManager.instance().convertLocationCode(vendorCode, reqLocation);
-        missingParsers = results[1];
-        if (!effReqLocation.equals(results[0])) {
-          effReqLocation = results[0];
-          try {
-            MsgParser parser = ManageParsers.getInstance().getParser(effReqLocation);
-            if (parser.isPageMsg(parseInfo, MsgParser.PARSE_FLG_SKIP_FILTER)) {
-              return parseInfo.getInfo();
-            }
-          } catch (RuntimeException ex) {
-            Log.e(ex);
-          }
-        }
-      }
-      String curLocCode = ManagePreferences.location();
-      if (! curLocCode.startsWith("General") || curLocCode.contains(",")) {
-        if (ManageParsers.getInstance().getParser(curLocCode).isPageMsg(parseInfo, MsgParser.PARSE_FLG_SKIP_FILTER)) {
-          return parseInfo.getInfo();
-        }
-      }
-    }
+    // Try reparsing any calls parsed with the general location parser
+    if (reparseGeneral()) return parseInfo.getInfo();
     
     // Getting here with location still set to null almost certainly means
     // that a developer screwed up and called this method before calling
@@ -717,6 +687,29 @@ public class SmsMmsMessage implements Serializable {
     MsgParser parser =  ManageParsers.getInstance().getParser(location, messageBody);
     parser.isPageMsg(parseInfo, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER);
     return parseInfo.getInfo();
+  }
+  
+  /**
+   * Call to repare general location messages when the parse location setting has changed
+   * @return true if a general location message was succesfully reparsed
+   */
+  public boolean reparseGeneral() {
+    
+    // We only are interested in calls parsed by one of the general location parsers
+    if (location == null || ! location.startsWith("General")) return false;
+  
+    
+    // The effective location code is the vendor requested parser code if there is one, otherwise
+    // get the current location code
+    String tmpLocCode = effReqLocation != null ? effReqLocation : ManagePreferences.location();
+    
+    // If new code is another General parser, no point in trying to fix things
+    if (tmpLocCode.startsWith("General") && ! tmpLocCode.contains(",")) return false;
+
+    // Otherwise, try reparsing this call with the current parser code.
+    boolean good = (ManageParsers.getInstance().getParser(tmpLocCode).isPageMsg(parseInfo, MsgParser.PARSE_FLG_SKIP_FILTER | MsgParser.PARSE_FLG_REPARSE));
+    if (good) location = parseInfo.getInfo().getParserCode();
+    return good;
   }
 
   public long getTimestamp() {
