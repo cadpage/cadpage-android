@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Pbegynaq Pbhagl, AL
+Pbegynaq Pbhagl, AL (O) 
 
 Pbagnpg: qnyynf ohgyre <qnyynfohgyre56@tznvy.pbz>
 Fraqre: pbegynaqsq@erqazkpnq.pbz
