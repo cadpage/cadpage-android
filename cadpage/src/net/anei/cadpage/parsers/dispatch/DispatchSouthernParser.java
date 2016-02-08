@@ -163,11 +163,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   @Override
   protected void setupCallList(CodeSet callSet) {
     this.callSet = callSet;
-  }
-
-  @Override
-  public CodeSet getCallList() {
-    return callSet;
+    super.setupCallList(callSet);
   }
 
   @Override
@@ -421,7 +417,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     data.strCode = p.getLastOptional(" MDL ");
     if (data.strCode.length() == 0) data.strCode =p.getLastOptional(" FDL ");
     sExtra = p.get();
-    parseAddress(StartType.START_CALL, FLAG_AT_SIGN_ONLY | FLAG_RECHECK_APT, sExtra, data);
+    parseAddress(StartType.START_CALL_PLACE, FLAG_AT_SIGN_ONLY | FLAG_RECHECK_APT, sExtra, data);
     data.strSupp = getLeft();
   }
   
