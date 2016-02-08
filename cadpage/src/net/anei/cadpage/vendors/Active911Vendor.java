@@ -249,6 +249,7 @@ class Active911Vendor extends Vendor {
       "US/CA/OrangeCounty",               "CAOrangeCounty",
       "US/CA/OrovillePD",                 "CAOroville",
       "US/CA/PlacerCounty",               "CAPlacerCountyA",
+      "US/CA/PlacerCountyNeucad",         "CAPlacerCountyA",
       "US/CA/SacramentoFire",             "CASacramentoCounty",
       "US/CA/SanBernardinoCounty",        "CASanBernardinoCountyA",
       "US/CA/SanDiegoCounty",             "CASanDiegoCountyC",

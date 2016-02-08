@@ -4499,9 +4499,9 @@ PNYY: NCN (OYF-NHGBZNGVP CNENZRQVP NYNEZ)\aNQQE: 13641 Nyqrejbbq Ya\aPVGL: FYO\a
 PNYY: FGEFZX (BQBE BS FZBXR-VAFVQR FGE)\aNQQE: 20 Wbhearl\aPVGL: NIB\aFGNGR: PN\aYNGVGHQR: 33.566299\aYBATVGHQR: -117.726785\aVQ: BEP15090460\aCEV: 5\aQNGR: 9/8/2015 3:06:01 CZ\aGVZR: 9/8/2015 3:06:01 CZ\aZNC: Q5346l\aHAVG: G49,R5 , NYY\aNCG:\aPEBFF:\aGNP: 5Q\a\aTEBHC: S4 SVF: BEP57 SED: 5Q\a\aZNC:  921R6 FNZ: 5346N NFN: Q-PNER\a\aYBPA: 20 WBHEARL ARNE CNEXVAT YBG/NYVFB PERRX EQ\a\aCYNPR: ABYRG FCVEVGF\a\a/150601 VAPVQRAG #BEP15090460\a\a/150629 QVFC (5190) G49 #4875 #4930 #4959 #5028\a\a/150629 QVFC (5190) R5 #5271 #5711 #6099\a\a/150631 (3143) [2] RYRPGEVPNY BQBE, BSSVPR NERN GB GUR SEBAG BS OHVYQVAT\a\a/150646 RAEBHGR G49
 ***************************************************************************
 Cynpre Pbhagl, PN (PNCynprePbhaglNCnefre) 
-(PNQ Cntr) : E/N W26: CN, CREFBA: 250 CVAR FG ,NHOHEA1 : NPQVN RYQRE PNER: Vap# 018206: Erznexf YVSG NFFG
-(PNQ Cntr) : E/N W26: ZRQVPNY: 1202 TENAVGR YA ,NHOHEA1 : : Vap# 018201: Erznexf Qvfcngpu  18P04  \aLbh ner erfcbaqvat gb 
-(PNQ Cntr) : E/N W26: SVER, PBZZREPVNY NYNEZ: 1125 YVAPBYA JL ,NHOHEA1 : NGG: Vap# 018172: Erznexf TRARENY SVER NYNEZ
+{PNQ Cntr} Vapvqrag #002709\a\aErfcNern W14N\a\aZRQ: ZRQVPNY\a\a2540 UJL 49 #23 ,CPSQ (TBYQRA PUNVA ZUC)\a\a\a\auggc://zncf.tbbtyr.pbz/?d=38.938113,-121.095710\a\aErfbheprf: NZE R180\a\aErznexf: Zrqvpny Qrgrezvangvba: \aErfcbaqvat gb: 93-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat.\aQrgrezvarq: 26P01 Fvpx Crefba (Fcrpvsvp Qvntabfvf) NYGRERQ YRIRY BS PBAFPVBHFARFF\aPnyyre Fgngrzrag: PBASHFVBA
+{PNQ Cntr} Vapvqrag #002706\a\aErfcNern X2\a\aZGP: ZRQ, IRUVPYR NPPVQRAG\a\aRO V80 NAQ ONKGRE @ =Y(39.214535,-120.776749) ,PQS_NYGN \a\a1 ZV WJB\a\auggc://zncf.tbbtyr.pbz/?d=39.214535,-120.776749\a\aErfbheprf: NZE O2311 P32 R2363\a\aErznexf: FVAT IRU EBYYBIRE VAGB QVGPU
+{PNQ Cntr} Vapvqrag #002700\a\aErfcNern W1\a\aZIVFGT: ZRQ, FGNTVAT ERDHVERQ\a\a4898 EVBFN EQ ,CPS_FUREVQNA \a\a\a\auggc://zncf.tbbtyr.pbz/?d=38.980308,-121.374614\a\aErfbheprf: NZE P78 R70\a\aErznexf: Zrqvpny Qrgrezvangvba: \aErfcbaqvat gb: 35-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat.\aQrgrezvarq: 25N02 Cflpuvngevp / Noabezny Orunivbe / Fhvpvqr Nggrzcg Fhvpvqny (abg guerngravat) naq nyreg\aPnyyre Fgngrzrag: FHVPVQNY
 ***************************************************************************
 Cynpre Pbhagl, PN (P) (PNCynprePbhaglPCnefre) 
 {Qvfcngpu} ZNVQ\a2729 OVPXYRVTU YBBC, Ebfrivyyr  \aO-2-R-7\aW018\aNZE1, R9\afrvmher//33lb znyr//\a2015-00013003 (31085)\a388\a2015-00013003 (31085)

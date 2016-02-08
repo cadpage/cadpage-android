@@ -14,7 +14,7 @@ public class GAWaltonCountyParser extends DispatchA19Parser {
   
   @Override
   public String getFilter() {
-    return "@spillman.co.walton.ga.us";
+    return "@spillman.co.walton.ga.us,@co.walton.ga.us";
   }
   
   @Override

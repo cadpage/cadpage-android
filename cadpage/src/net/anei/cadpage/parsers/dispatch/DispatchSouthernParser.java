@@ -61,7 +61,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private static final Pattern NAKED_TIME_PTN = Pattern.compile("([ ,;]) *(\\d\\d:\\d\\d:\\d\\d)(?:\\1|$)");
   private static final Pattern OCA_TRAIL_PTN = Pattern.compile("\\bOCA: *([-0-9]+)$");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{2,4}-?(?:\\d\\d-)?\\d{4,8}$");
-  private static final Pattern CALL_PTN = Pattern.compile("^([A-Z0-9\\- /]+)\\b[ \\.,-]*");
+  private static final Pattern CALL_PTN = Pattern.compile("^([A-Z0-9\\- /()]+)\\b[ \\.,-]*");
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
   private static final Pattern EXTRA_CROSS_PTN = Pattern.compile("(?:AND +|[/&] *)(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern CALL_BRK_PTN = Pattern.compile(" +/+ *");
@@ -163,11 +163,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   @Override
   protected void setupCallList(CodeSet callSet) {
     this.callSet = callSet;
-  }
-
-  @Override
-  public CodeSet getCallList() {
-    return callSet;
+    super.setupCallList(callSet);
   }
 
   @Override
@@ -421,7 +417,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     data.strCode = p.getLastOptional(" MDL ");
     if (data.strCode.length() == 0) data.strCode =p.getLastOptional(" FDL ");
     sExtra = p.get();
-    parseAddress(StartType.START_CALL, FLAG_AT_SIGN_ONLY | FLAG_RECHECK_APT, sExtra, data);
+    parseAddress(StartType.START_CALL_PLACE, FLAG_AT_SIGN_ONLY | FLAG_RECHECK_APT, sExtra, data);
     data.strSupp = getLeft();
   }
   
