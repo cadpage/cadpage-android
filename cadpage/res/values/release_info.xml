@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02012016</string>
+  <string name="release_date">02072016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.05.06\n
+Users registered with CodeMessaging can now use the Cadpage Paging Service without
+purchasing a Cadpage subscription.\n
+\n
+New Locations:\n
+Dallas County, AL\n
+Madera County, CA\n
+Nantucket County, MA\n
+Le Sueur County, MN\n
+McDonald County, MO\n
+Cortland County, NY (alt)\n
+Bladen County, NC\n
+Pamlico County, NC\n
+Yancey County, NC\n
+\n
+Location Fixes:\n
+Jackson County, NC\n
+Pontotoc County, OK\n
+Henry County, VA\n
+\n
+General Fixes:\n
+Fixed problems not reparsing old messages from direct paging vendors, or when the
+user changes the location setting.\n
+\n
 v1.9.05.05\n
 New Locations:\n
 Lane County, OR (alt)\n
@@ -49,22 +73,7 @@ Prince Georges County, MD\n
 Washington County, MO\n
 Albany County, NY (alt)\n
 Macon County, NC\n
-Mercer County, OH\n
-\n
-v1.9.05.01\n
-Location Fixes:\n
-Atlantic County, NJ\n
-Rockland County, NY\n
-Wilson County, NC\n
-Anderson County, SC\n
-Bedford County, VA\n
-Annapolis County, NS, Canada\n
-\n
-General Fixes:\n
-Changed version numbering so that the automatic change history popup will only
-be displayed when something significant has changed.\n
-\n
-Fixed problem displaying setting values since Android 5.0.
+Mercer County, OH
   </string>
 </resources>
   
