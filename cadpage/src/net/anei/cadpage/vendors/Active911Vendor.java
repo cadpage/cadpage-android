@@ -73,7 +73,7 @@ class Active911Vendor extends Vendor {
     
     for (String loc : location.split(",")){
       loc = loc.trim();
-      if (loc.contains("/")) {
+      if (loc.contains("/") || loc.equals("Active911Summary")) {
         String newLoc = POLY_CODE_TABLE.getProperty(loc);
         if (newLoc == null) {
           if (missingParsers == null) {
