@@ -707,7 +707,13 @@ public class SmsMmsMessage implements Serializable {
     if (tmpLocCode.startsWith("General") && ! tmpLocCode.contains(",")) return false;
 
     // Otherwise, try reparsing this call with the current parser code.
-    boolean good = (ManageParsers.getInstance().getParser(tmpLocCode).isPageMsg(parseInfo, MsgParser.PARSE_FLG_SKIP_FILTER | MsgParser.PARSE_FLG_REPARSE));
+    // Might be a bad location code from direct vendor, so don't abort if we do not find a parser
+    boolean good;
+    try {
+      good = (ManageParsers.getInstance().getParser(tmpLocCode).isPageMsg(parseInfo, MsgParser.PARSE_FLG_SKIP_FILTER | MsgParser.PARSE_FLG_REPARSE));
+    } catch (RuntimeException ex) {
+      return false;
+    }
     if (good) location = parseInfo.getInfo().getParserCode();
     return good;
   }

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02072016</string>
+  <string name="release_date">02082016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.05.08\n
+Fixed crash introduced in last release reparse message logic\n
+\n
 v1.9.05.06\n
 Users registered with CodeMessaging can now use the Cadpage Paging Service without
 purchasing a Cadpage subscription.\n
@@ -54,26 +57,7 @@ Location Fixes:\n
 Placer County, CA\n
 Chautauqua County, NY\n
 Stark County, OH\n
-Chittenden County, VT\n
-\n
-v1.9.05.02\n
-New Locations:\n
-Jefferson County, AL (alt)\n
-Russell County, Al\n
-Clinton County, IL\n
-Rockcastle County, KY\n
-Kalamazoo County, MI\n
-Radford, VA\n
-Strathcona County, AB, Canada\n
-\n
-Location Fixes:\n
-Northwest Public Safety, CT\n
-McHenry County, IL\n
-Prince Georges County, MD\n
-Washington County, MO\n
-Albany County, NY (alt)\n
-Macon County, NC\n
-Mercer County, OH
+Chittenden County, VT
   </string>
 </resources>
   

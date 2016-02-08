@@ -148,6 +148,7 @@ class Active911Vendor extends Vendor {
   }));
   
   private static Properties POLY_CODE_TABLE = MsgParser.buildCodeTable(new String[]{
+      "Active911Summary",                 "GeneralAlert",
       "AU/NewSouthWales/CumberlandPDW",   "ZAUNewSouthWalesB",
       "AU/SA/MountBarker",                "ZAUMountBaker",
       "AU/SA/Whyalla",                    "ZAUNewSouthWalesB",
