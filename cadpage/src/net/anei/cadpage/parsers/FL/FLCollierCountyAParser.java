@@ -10,14 +10,14 @@ import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
 
 
 
-public class FLCollierCountyParser extends DispatchPrintrakParser {
+public class FLCollierCountyAParser extends DispatchPrintrakParser {
   
   private static final Pattern MARKER = Pattern.compile("^FCC\\d{12} TYP: ");
   private static final Pattern TRAIL_UNIT_PTN = Pattern.compile("(?: +CC[A-Z0-9]*)+(?: +C)?$");
   private static final Pattern TRAIL_INFO_PTN = Pattern.compile("(?:\n+(?:FIRE|EMS)(?: - .*)?)+$");
   private static final Pattern MULTI_BRK_PTN = Pattern.compile("\n{2,}");
   
-  public FLCollierCountyParser() {
+  public FLCollierCountyAParser() {
     super("COLLIER COUNTY", "FL");
   }
   

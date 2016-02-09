@@ -10,9 +10,9 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
-public class PAColumbiaCountyParser extends FieldProgramParser {
+public class PAColumbiaCountyAParser extends FieldProgramParser {
 
-  public PAColumbiaCountyParser() {
+  public PAColumbiaCountyAParser() {
     super(CITY_LIST, "COLUMBIA COUNTY", "PA",
           "E:ID! ET:CALL! ST:CALL! LOC:ADDR/S! MAP:MAP! T:TIME! N:NAME! PH:PHONE! S:SKIP! C:INFO!");
   }
