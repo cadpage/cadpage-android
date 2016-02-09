@@ -540,18 +540,23 @@ public class MsgInfo {
   
   // Remove any nested parenthesis from potential address
   private String cleanParens(String sAddr) {
-    if (!sAddr.contains("(")) return sAddr;
+    if (!sAddr.contains("(") && !sAddr.contains("[")) return sAddr;
     
     StringBuilder sb = new StringBuilder();
     int level = 0;
     boolean brk = false;
     boolean lastBlank = false;
+    char startBrk = 0, endBrk = 0;
     for (char chr : sAddr.toCharArray()){
-      if (chr == '(') {
-        brk = true;
-        level++;
+      if (!brk) {
+        if (chr == '(' || chr == '[') {
+          brk = true;
+          startBrk = chr;
+          endBrk = chr == '(' ? ')' : ']'; 
+        }
       }
-      else if (chr == ')') {
+      if (chr == startBrk) level++;
+      else if (chr == endBrk) {
         if (level > 0) level--;
       } else if (level == 0) {
         if (brk) {

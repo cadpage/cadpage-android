@@ -289,7 +289,7 @@ choyvp pynff CNPbyhzovnPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:020816-68",
         "NQQE:48 UNIRA YA [ZVYYIVYYR]",
-        "NQQE:48 UNIRA YA",
+        "ZNQQE:48 UNIRA YA",
         "PVGL:ZVYYIVYYR",
         "TCF:+41.114800,-76.524100",
         "PNYY:OYF : OYF :",
