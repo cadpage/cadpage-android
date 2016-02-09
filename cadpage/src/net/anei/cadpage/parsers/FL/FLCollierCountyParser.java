@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.FL;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -18,6 +19,11 @@ public class FLCollierCountyParser extends DispatchPrintrakParser {
   
   public FLCollierCountyParser() {
     super("COLLIER COUNTY", "FL");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "ccsocad@colliersheriff.org,ccsocad@colliersheriff.net";
   }
   
   @Override
@@ -54,6 +60,11 @@ public class FLCollierCountyParser extends DispatchPrintrakParser {
       return false;
     }
     
+    String call = CALL_CODES.getProperty(data.strCode);
+    if (call != null) {
+      data.strCall = append(data.strCall, " - ", call);
+    }
+    
     data.strUnit = append(data.strUnit, " ", units);
     data.strSupp = append(data.strSupp, "\n", info);
     return true;
@@ -63,4 +74,43 @@ public class FLCollierCountyParser extends DispatchPrintrakParser {
   public String getProgram() {
     return super.getProgram() + " INFO UNIT";
   }
+  
+  private static final Properties CALL_CODES = buildCodeTable(new String[]{
+      "04I",  "Crash w/Injuries",
+      "04N",  "Crash - Neg Injuries",
+      "04U",  "Crash - Unknown Injuries",
+      "05",   "Murder",
+      "07",   "Dead Person",
+      "08",   "Missing",
+      "15",   "Details",
+      "20",   "Mentally Ill Person",
+      "22",   "Disturbance",
+      "24I",  "Robbery IP",
+      "24N",  "Robbery Neg IP",
+      "25",   "Fire",
+      "26",   "Drowning",
+      "30",   "Bomb",
+      "32",   "Alarm",
+      "34",   "Sex Crime",
+      "37",   "Explosion",
+      "39",   "Assault/Battery",
+      "40",   "Hazardous Incident",
+      "53",   "Assist",
+      "54",   "Rescue",
+      "56",   "Abuse",
+      "59",   "Barricade/Hostage Situation",
+      "60",   "Suicide",
+      "62",   "Shooting",
+      "63",   "Stabbing",
+      "66",   "Severe Weather",
+      "71",   "Medical Emergency",
+      "80",   "MERT (Intracoastal or Gulf of Mexico)",
+      "81",   "Aircraft Alert",
+      "MCI1", "MCI Level 1",
+      "MCI2", "MCI Level 2",
+      "MCI3", "MCI Level 3",
+      "MCI4", "MCI Level 4",
+      "MCI5", "MCI Level 5"
+
+  });
 }
