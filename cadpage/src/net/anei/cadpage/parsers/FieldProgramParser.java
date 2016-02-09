@@ -1906,6 +1906,14 @@ public class FieldProgramParser extends SmartAddressParser {
       setPattern(pattern, hardPattern);
     }
     
+    public Field(Pattern pattern) {
+      setPattern(pattern);
+    }
+    
+    public Field(Pattern pattern, boolean hardPattern) {
+      setPattern(pattern, hardPattern);
+    }
+    
     public void setTrigger(char trigger) {
       this.trigger = trigger;
     }
@@ -3173,6 +3181,23 @@ public class FieldProgramParser extends SmartAddressParser {
     }
     
     public GPSField(int type, String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+      this.type = type;
+    }
+    
+    public GPSField(Pattern pattern) {
+      this(0, pattern, false);
+    }
+    
+    public GPSField(int type, Pattern pattern) {
+      this(type, pattern, false);
+    }
+    
+    public GPSField(Pattern pattern, boolean hardPattern) {
+      this(0, pattern, hardPattern);
+    }
+    
+    public GPSField(int type, Pattern pattern, boolean hardPattern) {
       super(pattern, hardPattern);
       this.type = type;
     }
