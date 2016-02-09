@@ -1334,6 +1334,7 @@ public class ParserList {
               ,"VAClarkeCounty"                 ,"Clarke County, VA"
               ,"VAColonialHeights"              ,"Colonial Heights, VA"
               ,"VACulpeperCounty"               ,"Culpeper County, VA"
+              ,"VADanville"                     ,"Danville, VA"
               ,"VADickensonCounty"              ,"Dickenson County, VA"
               ,"VADinwiddieCounty"              ,"Dinwiddie County, VA"
               ,"VAFairfaxCity"                  ,"Fairfax City, VA"
