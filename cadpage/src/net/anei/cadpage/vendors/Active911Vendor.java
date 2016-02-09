@@ -73,7 +73,7 @@ class Active911Vendor extends Vendor {
     
     for (String loc : location.split(",")){
       loc = loc.trim();
-      if (loc.contains("/")) {
+      if (loc.contains("/") || loc.equals("Active911Summary")) {
         String newLoc = POLY_CODE_TABLE.getProperty(loc);
         if (newLoc == null) {
           if (missingParsers == null) {
@@ -148,6 +148,7 @@ class Active911Vendor extends Vendor {
   }));
   
   private static Properties POLY_CODE_TABLE = MsgParser.buildCodeTable(new String[]{
+      "Active911Summary",                 "GeneralAlert",
       "AU/NewSouthWales/CumberlandPDW",   "ZAUNewSouthWalesB",
       "AU/SA/MountBarker",                "ZAUMountBaker",
       "AU/SA/Whyalla",                    "ZAUNewSouthWalesB",

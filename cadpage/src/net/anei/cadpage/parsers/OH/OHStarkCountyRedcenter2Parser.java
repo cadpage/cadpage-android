@@ -15,13 +15,13 @@ public class OHStarkCountyRedcenter2Parser extends FieldProgramParser {
     super("STARK COUNTY", "OH", 
           "( Call:CALL! Date/Time:DATETIME1! ( Place:PLACE! Address:ADDRCITY! | Address:ADDRCITY! Place:PLACE ) Crosses:X! Section:MAP? Run_Num:ID? Unit:SKIP? Alert:INFO1! Info:INFO1! Map:TIMES1+ " +
           "| Call_Address:ADDRCITY! Radio_Channel:CH! Common_Name:PLACE! Qualifier:EMPTY! Cross_Streets:X Local_Information:INFO! Custom_Layer:EMPTY! Census_Tract:EMPTY! Call_Type:CALL! Call_Priority:PRI! Nature_Of_Call:CALL/SDS! Units_Assigned:UNIT! Fire_Quadrant:MAP! Incident_Number(s):ID! Caller_Name:NAME! Caller_Phone:PHONE! Caller_Address:CADDR! Alerts:SKIP! Narratives:INFO1! Status_Times:TIMES1+ Google_Maps_Hyperlink:SKIP " +
-          "| CALL:CALL! PLACE:PLACE! ADDR:ADDRCITY! ( ID:ID! DATE:DATETIME1! MAP:MAP! UNIT:SKIP! INFO:INFO1! TIMES1+ " +
+          "| CALL:CALL! PLACE:PLACE! ADDR:ADDRCITY! ( ID:ID! DATE:DATETIME1! MAP:MAP_X! UNIT:SKIP? INFO:INFO1! TIMES1+ " +
                                                    "| CITY:CITY! ID:ID! PRI:PRI! DATE:DATE! TIME:TIME! UNIT:UNIT? INFO:INFO ) )");
   }
   
   @Override
   public String getFilter() {
-    return "NWS@starksheriff.org,mbusto@redcenter.us,dispatch@neo-comm.org,cad@neo-comm.org,7127390583";
+    return "NWS@starksheriff.org,@redcenter.us,dispatch@neo-comm.org,cad@neo-comm.org,7127390583,messaging@iamresponding.com";
   }
 
   String unit;
@@ -46,6 +46,7 @@ public class OHStarkCountyRedcenter2Parser extends FieldProgramParser {
     if (name.equals("INFO1")) return new MyInfo1Field();
     if (name.equals("TIMES1")) return new MyTimes1Field();
     if (name.equals("CADDR")) return new MyCallerAddressField();
+    if (name.equals("MAP_X")) return new MyMapCrossField();
     return super.getField(name);
   }
   
@@ -109,6 +110,24 @@ public class OHStarkCountyRedcenter2Parser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (data.strAddress.length() > 0) return;
       super.parse(field, data);
+    }
+  }
+  
+  private class MyMapCrossField extends Field {
+
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(" - ");
+      if (pt >= 0) {
+        data.strCross = field.substring(pt+3).trim();
+        field = field.substring(0,pt).trim();
+      }
+      data.strMap = field;
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "MAP X";
     }
   }
 }

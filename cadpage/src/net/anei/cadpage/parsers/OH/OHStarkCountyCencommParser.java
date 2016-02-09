@@ -13,7 +13,7 @@ public class OHStarkCountyCencommParser extends DispatchA13Parser {
   
   @Override
   public String getFilter() {
-    return "cencom@neohio.twcbc.com";
+    return "cencom@neohio.twcbc.com,@neo.rr.com";
   }
   
   private class MyAddressField extends AddressField {

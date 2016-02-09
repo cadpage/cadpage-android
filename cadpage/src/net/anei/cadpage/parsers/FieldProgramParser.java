@@ -1479,32 +1479,30 @@ public class FieldProgramParser extends SmartAddressParser {
       fieldIndex = ndx;
 
       // Have we passed the end of the data stream
-      //  and are not a select field, which doesn't need data to work
-      if (ndx >= flds.length && !(field != null && field instanceof SelectField)) {
+      if (ndx >= flds.length) {
         
-        // If this is an END step, take the success link
-        if (field instanceof EndField) {
-          return state.link(succLink);
+        // And this is not an end or select field (which need no data to work with)
+        if (field == null || ! (field instanceof EndField || field instanceof SelectField)) {
+  
+          // Otherwise, if there is a failure link, execute it
+          // Unless it points back to ourselves, which can happen if there was
+          // a repeating condition SKIP step
+          if (failLink != null && failLink.step != this){
+            return state.link(failLink);
+          } 
+          
+          // Otherwise, there is no field processing associated with this step
+          // and there is a success link that moves us backward through the
+          // field list, then take the success link.  This is very rare, but it
+          // happens when a decision making conditional branch leaves a tail
+          // link node that happens to fall past the end of data
+          if (field == null && succLink != null && succLink.getInc() < 0) {
+            return state.link(succLink);
+          }
+          
+          // Otherwise we are finished
+          return true;
         }
-
-        // Otherwise, if there is a failure link, execute it
-        // Unless it points back to ourselves, which can happen if there was
-        // a repeating condition SKIP step
-        if (failLink != null && failLink.step != this){
-          return state.link(failLink);
-        } 
-        
-        // Otherwise, there is no field processing associated with this step
-        // and there is a success link that moves us backward through the
-        // field list, then take the success link.  This is very rare, but it
-        // happens when a decision making conditional branch leaves a tail
-        // link node that happens to fall past the end of data
-        if (field == null && succLink != null && succLink.getInc() < 0) {
-          return state.link(succLink);
-        }
-        
-        // Otherwise we are finished
-        return true;
       }
       
       // Check for special doNotTrim processing
@@ -3548,6 +3546,20 @@ public class FieldProgramParser extends SmartAddressParser {
   }
   
   /**
+   * EndMark field processor
+   * Does no field processing but can be tested.  Succeeds only if it is
+   * the field immediately past the last data field
+   */
+  public class EndMarkField extends EndField {
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (isLastField(-1)) return false;
+      return super.checkParse(field, data);
+    }
+  }
+  
+  /**
    * End field processor
    * Does no field processing but can be tested.  Succeeds only if it working
    * on a data a field beyond the limits of the field array
@@ -3681,6 +3693,7 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("INTLS")) return new InitialsField();
     if (name.equals("EMPTY")) return new EmptyField();
     if (name.equals("END")) return new EndField();
+    if (name.equals("ENDMARK")) return new EndMarkField();
     if (name.equals("SELECT")) return new SelectField();
     
     throw new RuntimeException("Invalid field name: " + name);
