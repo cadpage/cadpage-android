@@ -7,6 +7,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 
 
@@ -15,6 +16,7 @@ public class MONewtonCountyParser extends FieldProgramParser {
   public MONewtonCountyParser() {
     super(CITY_LIST, "NEWTON COUNTY", "MO",
           "ADDR/S3XP! CrossStreets:X! ESN:MAP Call_Number:ID");
+    removeWords("CIRCLE", "LANE");
   }
   
   @Override
@@ -22,11 +24,21 @@ public class MONewtonCountyParser extends FieldProgramParser {
     return "911@NC-CDC.ORG";
   }
   
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("Call Number: *(\\d+) (.*?) (Call Received Time:.*)", Pattern.DOTALL);
+  private static final Pattern TIMES_BRK_PTN = Pattern.compile("\\s+(?=[A-Z]+:)");
+  
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equalsIgnoreCase("911 CALL")) return false;
-    if (body.startsWith("Call Number:")) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
+    Matcher match = RUN_REPORT_PTN.matcher(body);
+    if (match.matches()) {
+      setFieldList("ID ADDR APT CITY CALL INFO");
+      data.msgType = MsgType.RUN_REPORT;
+      data.strCallId = match.group(1);
+      String addrCall = match.group(2).trim();
+      String times = match.group(3).trim();
+      parseAddress(StartType.START_ADDR, addrCall, data);
+      data.strCall = getLeft();
+      data.strSupp = TIMES_BRK_PTN.matcher(times).replaceAll("\n");
       return true;
     }
     return super.parseMsg(body, data);
@@ -58,12 +70,8 @@ public class MONewtonCountyParser extends FieldProgramParser {
           data.strPlace = "";
         }
       }
-      if (data.strCity.equalsIgnoreCase("NEWTON COUNTY")) {
-        data.strCity = "";
-      } else {
-        String state = CITY_STATE_TABLE.getProperty(data.strCity);
-        if (state != null) data.strState = state;
-      }
+      String state = CITY_STATE_TABLE.getProperty(data.strCity);
+      if (state != null) data.strState = state;
     }
     
     @Override
@@ -162,6 +170,9 @@ public class MONewtonCountyParser extends FieldProgramParser {
       // Barry County
       "MONETT",
       "WHEATON",
+      
+      // Jasper County
+      "DUENWEG",
       
       // Lawrence County
       "PIERCE CITY",
