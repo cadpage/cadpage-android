@@ -60,6 +60,7 @@ choyvp pynff ZBFvxrfgbaNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:CRZVFPBGG PBHAGL NZOHYNAPR",
         "GVZR:11:2:21",
         "NQQE:UVTUJNL 55 [66N]",
+        "ZNQQE:UVTUJNL 55",
         "PNYY:NPPVQRAG-W2");
 
     qbGrfg("G5",
