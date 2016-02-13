@@ -7,6 +7,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.SplitMsgOptions;
 import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
@@ -15,11 +16,9 @@ import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
  */
 public class TXCollinCountyAParser extends FieldProgramParser {
 
-  private static final Pattern MASTER1 = Pattern.compile("CFS (\\d{8}) +(.*)");
+  private static final Pattern MASTER1 = Pattern.compile("CFS(#)? (\\d{8}) +(.*)");
   private static final Pattern MSG_DISPATCH_PTN = Pattern.compile("Message [Ff]rom Dispatch ");
   private static final Pattern TRAIL_JUNK_PTN = Pattern.compile("(?:(?:\\[[^\\[\\]]*)?\\{[^\\{\\}]*?\\}?|\\[SENT: [:\\d]+\\])$");
-  private static final Pattern CFS_ID_PTN = Pattern.compile(" CFS (\\d{8})\\b");
-  private static final Pattern LEAD_DASH_PTN = Pattern.compile("^[ -]+");
   
   public TXCollinCountyAParser() {
     this("COLLIN COUNTY", "TX");
@@ -27,7 +26,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
 
   protected TXCollinCountyAParser(String defCity, String defState) {
     super(defCity, defState,
-          "MASH! UNITS:UNIT ST_RMK:INFO CFS_RMK:INFO");
+          "MASH! UNITS:UNIT ST_RMK:INFO/N CFS_RMK:INFO/N");
     setupCallList(CALL_LIST);
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
     setupMultiWordStreets(MWORD_STREET_LIST);
@@ -37,6 +36,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
   public String getFilter() {
     return "ccsodispatch@co.collin.tx.us,DispatchSMS@coppelltx.gov,ics.gateway@wylietexas.gov,wyliefiredispatch@gmail.com,CADPaging-NOREPLY@flower-mound.com,prosperdispatch@gmail.com,@outlook.com";
   }
+  
   
   @Override
   public String getAliasCode() {
@@ -61,11 +61,13 @@ public class TXCollinCountyAParser extends FieldProgramParser {
     
     Matcher match = MASTER1.matcher(body);
     if (match.matches()) {
-      
-      data.strCallId = match.group(1);
-      body = match.group(2);
-      String flds[] = body.split("  +", 3);
+      String delim = match.group(1) == null ? "  +" : "// +";
+      data.strCallId = match.group(2);
+      body = match.group(3);
+      String flds[] = body.split(delim);
       if (flds.length > 1) {
+        flds[0] = flds[0].trim();
+        flds[1] = flds[1].trim();
         int s1 = checkAddress(flds[0]);
         int s2 = checkAddress(flds[1]);
         if (s1 > 0 || s2 > 0) {
@@ -76,12 +78,17 @@ public class TXCollinCountyAParser extends FieldProgramParser {
             parseAddress(flds[0], data);
             data.strCall = flds[1];
           }
+          
           if (flds.length > 2) data.strSupp = flds[2];
+          for (int ndx = 2; ndx<flds.length; ndx++) {
+            data.strSupp = append(data.strSupp, "\n", flds[ndx].trim());
+          }
           return true;
         }
       }
-      data.strCall = "GENERAL ALERT";
-      data.strPlace = body;
+      
+      data.msgType = MsgType.GEN_ALERT;
+      data.strSupp = body;
       return true;
     }
     
@@ -89,22 +96,6 @@ public class TXCollinCountyAParser extends FieldProgramParser {
     match = MSG_DISPATCH_PTN.matcher(body);
     if (match.lookingAt()) {
       body = body.substring(match.end()).trim();
-      if (body.startsWith("MUTUAL AID")) {
-        match  = CFS_ID_PTN.matcher(body);
-        if (match.find()) {
-          data.strCallId = match.group(1);
-          parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, body.substring(0,match.start()).trim(), data);
-          String sInfo = body.substring(match.end());
-          match = LEAD_DASH_PTN.matcher(sInfo);
-          if (match.find()) sInfo = sInfo.substring(match.end());
-          data.strSupp = sInfo;
-          return true;
-        }
-        
-        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, body, data);
-        return true;
-      }
-      
       alert = body;
     }
 
@@ -126,17 +117,19 @@ public class TXCollinCountyAParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return "ID CALL ADDR CITY PLACE X SRC MAP UNIT INFO TIME";
+    return "ID CALL ADDR APT CITY PLACE X SRC MAP UNIT INFO TIME";
   }
   
   // Parse a mashup of ID, CALL, ADDR, CITY, and Cross streets all of which might
   // or might not be separated by double blank delimiters
-  private static final Pattern ID_PTN = Pattern.compile("^(?:([ A-Z0-9]+)\\b)?(\\d{8}) +");
-  private static final Pattern DIST_GRID_PTN = Pattern.compile("\\[([A-Z]+) (?:DIST: ([A-Z0-9]*) )?GRID: ([A-Z]*\\d*[A-Z]?) *\\]");
+  private static final Pattern ID_PTN = Pattern.compile("^(?:([- A-Z0-9]+)\\b)?(\\d{8}) +");
+  private static final Pattern DIST_GRID_PTN = Pattern.compile("\\[([A-Z]+) (?:DIST: ([A-Z0-9]*) )?GRID: ([A-Z0-9]*) *(.*?)\\]");
+  private static final Pattern DIST_GRID_PTN2 = Pattern.compile("([A-Z]+) (?:DIST: ([A-Z0-9]*) )?GRID: ([A-Z0-9]*) *(.*?)");
   private static final Pattern BRACKET_PTN = Pattern.compile(" +(?:\\{([^\\[\\]\\{\\}]*?)\\}|\\[([^\\[\\]\\{\\}]*?)\\]) *");
   private static final Pattern STANDBY_PTN = Pattern.compile("^STANDBY(?: AT THIS TIME)?  +");
+  private static final Pattern STAGE_AT_PTN = Pattern.compile("  +STAGE AT ");
   private static final Pattern JUNK_PTN = Pattern.compile(" (?:\"[^A-Za-z0-9]\"|\"SPECIFY(?: NATURE)?\"|\\{\\{TONE\\}\\}) ");
-  private static final Pattern IN_PTN = Pattern.compile("(.*)(?: IN (?!CUSTODY)|, )(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern IN_PTN = Pattern.compile("(.*)(?: IN (?!CUSTODY|CITY|TOWN|WOODS)|, )(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern ALPHA_PTN = Pattern.compile("[A-Z]+", Pattern.CASE_INSENSITIVE);
   private static final Pattern TX_PTN = Pattern.compile("TX(?: (?:\\d{5}|0))?\\b *(.*)");
   private class MashField extends Field {
@@ -156,16 +149,12 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       // Check for one or more map grid constructs
       match = DIST_GRID_PTN.matcher(field);
       if (match.find()) {
-        data.strSource = match.group(1).trim();
-        data.strMap = append(getOptGroup(match.group(2)), "-", match.group(3).trim());
+        parseDistGrid(match, data);
         String info = field.substring(match.end()).trim();
         field = field.substring(0,match.start()).trim();
         
         while ((match = DIST_GRID_PTN.matcher(info)).lookingAt()) {
-          String src = match.group(1).trim();
-          if (!data.strSource.contains(src)) data.strSource = append(data.strSource, " ", src);
-          String map = append(getOptGroup(match.group(2)), "-", match.group(3).trim());
-          if (!data.strMap.equals(map)) data.strMap = data.strMap + "/" + map;
+          parseDistGrid(match, data);
           info = info.substring(match.end()).trim();
         }
         data.strSupp = info;
@@ -173,6 +162,9 @@ public class TXCollinCountyAParser extends FieldProgramParser {
 
       // If first phrase is a standby request, combine it with second term
       field = STANDBY_PTN.matcher(field).replaceFirst("STANDBY ");
+      
+      // Fix leading blanks before STAGE AT phrase
+      field = STAGE_AT_PTN.matcher(field).replaceFirst(" STAGE AT");
       
       // Cleanup other special problems
       field = JUNK_PTN.matcher(field).replaceAll("  ");
@@ -260,6 +252,23 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       data.strCross = stripFieldEnd(data.strCross, "/");
     }
     
+    private void parseDistGrid(Matcher match, Data data) {
+      String extra = parseDistGrid2(match, data);
+      while (extra.length() > 0) {
+        match = DIST_GRID_PTN2.matcher(extra);
+        if (!match.matches()) break;
+        extra = parseDistGrid2(match, data);
+      }
+    }
+
+    private String parseDistGrid2(Matcher match, Data data) {
+      String src = match.group(1).trim();
+      if (!data.strSource.contains(src)) data.strSource = append(data.strSource, " ", src);
+      String map = append(getOptGroup(match.group(2)), "-", match.group(3).trim());
+      if (!data.strMap.equals(map)) data.strMap = append(data.strMap, "/", map);
+      return match.group(4).trim();
+    }
+    
     private static final int OPTIONAL = 1;
     private static final int CALL = 2;
     private static final int CROSS = 4;
@@ -292,7 +301,14 @@ public class TXCollinCountyAParser extends FieldProgramParser {
           if (!good) {
             String upCity = city.toUpperCase();
             String city2 = DOUBLE_CITY_LIST.getCode(upCity, true);
-            good = city2 != null && city2.equals(upCity);
+            if (city2 != null) {
+              good = true;
+              if (city2.length() < upCity.length() && (city2.endsWith(" CO") || city.endsWith(" COUNTY"))) {
+                city = upCity.substring(city2.length()).trim();
+              } else {
+                city = city2;
+              }
+            }
           }
           if (good) {
             sAddress = match.group(1).trim();
@@ -368,7 +384,22 @@ public class TXCollinCountyAParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "ID CALL ADDR APT CITY X SRC MAP";
+      return "ID CALL ADDR CITY X SRC MAP";
+    }
+  }
+  
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf("  ");
+      if (pt >= 0) {
+        String info = field.substring(pt+2).trim();
+        if (!info.startsWith("<NO ") && !info.endsWith(" REMARKS>")) {
+          data.strSupp = append(data.strSupp, "\n", info);
+        }
+        field = field.substring(0,pt);
+      }
+      super.parse(field, data);
     }
   }
   
@@ -403,6 +434,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("MASH")) return new MashField();
+    if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
@@ -1060,9 +1092,14 @@ public class TXCollinCountyAParser extends FieldProgramParser {
     "A O REEVES",
     "ANNIE OAKLEY",
     "ARBOR BROOK",
+    "ARBOR CREEK",
     "ARBOR MANORS",
     "ARMADILLO RANCH",
+    "ASH LEAF",
     "AUDIE MURPHY",
+    "AUTUMN BREEZE",
+    "AUTUMN HILL",
+    "BALMORAL CASTLE",
     "BAT MASTERSON",
     "BEACON HILL",
     "BEAR CREEK",
@@ -1076,37 +1113,57 @@ public class TXCollinCountyAParser extends FieldProgramParser {
     "BIG CANYON",
     "BIG DELTA",
     "BIRD FARM",
+    "BLACK WALNUT",
+    "BLUE SAGE",
+    "BLUE STEM",
     "BOB TEDFORD",
     "BOB WHITE",
     "BOIS D ARC",
+    "BOIS DE ARC",
     "BONNIE VIEW",
     "BRAMBLE BRANCH",
+    "BRIAR OAK",
     "BRIMBERRY CEMETERY",
+    "BRINLEE BRANCH CREEK",
     "BRINLEE CREEK RANCH",
+    "BROCKDALE PARK",
     "BROKEN BEND",
     "BRUSH CREEK",
     "BRUTON ORAND",
+    "BRYANT FARM",
     "BUFFALO BILL",
+    "BUFFALO SPRINGS",
     "BURDEN RANCH",
+    "BUSINESS PARK",
+    "BUTCH CASSIDY",
+    "CACTUS PATH",
     "CANYON CREEK",
     "CARRIAGE HOUSE",
     "CARTER RANCH",
     "CEDAR COVE",
+    "CEDAR CREST",
     "CEDAR HILL",
     "CEDAR RIDGE",
+    "CHAPEL SPRINGS",
     "CHERRY HILLS",
     "CHERRY WOOD",
     "CHIMNEY ROCK",
     "CHINN CHAPEL",
     "CHRISTIE FARMS",
     "CLEAR CREEK",
+    "CLEAR HAVEN",
+    "CLOVER RIDGE",
+    "COLLIN GREEN",
     "COTTAGE HILL",
     "COUNTRY CLUB",
     "COUNTRY RIDGE",
     "COUNTRY TIME",
     "COUNTRY WALK",
+    "COUNTY LINE",
     "COYOTE CALL",
     "CREEK CANYON",
+    "CREEK VIEW",
+    "CREEK WOOD",
     "CRIPPLE CREEK",
     "CROOKED STICK",
     "CROSS FENCE",
@@ -1114,97 +1171,159 @@ public class TXCollinCountyAParser extends FieldProgramParser {
     "CROSS TIMBERS",
     "CROSS TRAIL",
     "CROWN COLONY",
+    "CRYSTAL FALLS",
+    "CYPRESS CREEK",
+    "CYPRESS LEAF",
     "DEER TRACK PARK",
+    "DEL CARMEN",
     "DENTON TAP",
     "DESERT CREEK",
     "DIPPING VAT",
     "DODGE OAKHURST",
     "DOGWOOD PARK",
+    "DOUBLE B",
     "DOVE HILL",
     "EAST FORK",
+    "EAST MAIN",
+    "ECHO RIDGE",
     "EL CAMINO",
     "ELK CHASE",
+    "ENGLISH IVY",
+    "EVENING SUN",
     "FAIR OAKS",
     "FAIRWAY CROSSING",
     "FARR HILL",
     "FATE MAIN",
     "FLOWER MOUND",
     "FOREST CREST",
+    "FOREST MEADOW",
     "FOREST OAKS",
+    "FOSTER CROSSING",
     "FOUNTAIN VIEW",
     "FOUR NOTCH",
+    "GARDEN RIDGE",
     "GAS HOUSE",
     "GENTLE CREEK",
+    "GLEN ELLEN",
+    "GLEN LAKES",
+    "GLEN RIDGE",
     "GOURD CREEK CEMETERY",
     "GRANITE VALLEY",
     "GRASSY CREEK",
     "GREEN BRIAR",
     "HADLEY CREEK",
+    "HANAKOA FALLS",
     "HARDY BOTTOM",
+    "HARVEST HILL",
+    "HAY MEADOW",
     "HAZY MEADOW",
+    "HEATHER GLEN",
     "HELMOKEN FALLS",
+    "HICKORY CREEK",
     "HICKORY HILL",
+    "HIDDEN BROOK",
     "HIDDEN CREEK",
+    "HIDDEN FALLS",
+    "HIDDEN GLEN",
+    "HIDDEN LAKE",
     "HIDDEN VALLEY",
     "HIGH MEADOW",
+    "HIGH PLAINS",
     "HIGH POINT",
     "HIGH WILLOW",
     "HIGHLAND FAIRWAY",
     "HIGHLAND MEADOW",
     "HIGHLAND MEADOWS",
     "HIGHLAND RIDGE",
+    "HIGHRIDGE FARMS",
+    "HITCHING POST",
+    "HOLLY LEAF",
     "HONEY CREEK",
     "HONEY LOCUST",
     "HONEY MESQUITE",
     "HORACE SMITH",
+    "HUNTERS GLEN",
     "HUNTERS RIDGE",
     "HUNTERS RUN",
+    "INDIAN BLANKET",
     "INDIAN ROCK",
     "J C WALKER",
     "KATE BOLDEN",
     "KINGS POINT",
     "LA CIMA",
     "LAKE FOREST",
+    "LAKE PARK",
+    "LAKE PLACE",
+    "LAKE TRAIL",
     "LAKE VIEW",
     "LAKE WICHITA",
+    "LAUREL OAK",
     "LENORARD WAY",
     "LEWIS CANYON",
+    "LIGHT FARMS",
     "LINCOLN WOOD",
     "LIVE OAK",
     "LOGANS WAY",
+    "LOMA ALTA",
+    "LONE OAK",
+    "LONE RIDGE",
+    "LONE STAR",
+    "LONESOME DOVE",
     "LONG PRAIRIE",
     "LONG VALLEY",
     "LONGSTREET CEMETERY",
+    "LOOK OUT",
     "LOUIS DAVIS",
     "LUCAS BRANCH",
+    "LUCKY 13",
+    "MAPLE RIDGE",
     "MARBLE PASS",
+    "MARK ALEXANDER",
     "MARTIN LUTHER KING JR",
+    "MAXWELL CREEK",
+    "MCCARLEY RANCH",
     "MCKAMY CREEK",
+    "MEADOW CREST",
+    "MEADOW GLEN",
+    "MEADOW GREEN",
+    "MEADOW LAKE",
+    "MEADOW LARK",
     "MEADOW VIEW",
+    "MEADOW VISTA",
     "MEADOW WOODS",
     "MEDICAL CENTER",
     "MEDICAL PLAZA",
     "MELISSA LANDFILL",
     "MEMORIAL HOSPITAL",
+    "MILLERS CREEK",
     "MOFFETT SPRINGS",
     "MONTE CARLO",
+    "MORNING VIEW",
     "MOSS CREEK",
     "MOSS GLEN",
     "MOSSY OAKS",
+    "NATCHES TRACE",
     "NIAGARA FALLS",
     "NORMAL PARK",
     "NORTH GRAPEVINE MILL",
+    "NORTH HILL",
     "NORTH RIDGE",
     "NORTH STAR",
+    "OAK GLEN",
     "OAK GROVE",
+    "OAK HOLLOW",
+    "OAK PARK",
+    "OAK SPRINGS",
     "OBANNON RANCH",
     "OLD CROSS TIMBERS",
+    "ONE PLACE",
     "OUTER LOOP",
     "PALO DURO",
     "PALO PINTO",
     "PARK MEADOW",
     "PARK TRAILS",
     "PARK VALLEY",
+    "PARKER SQUARE",
     "PAT HENRY CEMETERY",
     "PAT KELLY",
     "PAUL MICHAEL",
@@ -1215,68 +1334,109 @@ public class TXCollinCountyAParser extends FieldProgramParser {
     "PECAN PLACE",
     "PENTON LINNS",
     "PETERS COLONY",
+    "PHEASANT CREEK",
+    "PHEASANT RUN",
     "PHELPS SLAB",
     "PIN OAK",
+    "PINE HURST",
     "PINE KNOLL",
     "PINE RIDGE",
     "PINE SHADOWS",
     "PIONEER PARK",
+    "PIONEER PATH",
+    "PLYMOUTH COLONY",
     "POINT DE VUE",
     "POINT WEST",
     "PONDEROSA PINE",
+    "PONY EXPRESS",
+    "PORT OCONNER",
     "POST OAK",
     "PRAIRIE CREEK",
     "PRAIRIE VISTA",
+    "PRESTON HILLS",
+    "PRESTON LAKES",
+    "PRINCETON MEADOWS",
+    "PRINCETON OAKS",
+    "PROSPER COMMONS",
+    "PURPLE SAGE",
     "QUAIL HOLLOW",
     "QUAIL RUN",
+    "QUARTER HORSE",
     "RANCH ROAD",
     "RAVEN TERRACE",
     "RAVENWOOD VILLAGE",
+    "RED BUD",
+    "RED OAK",
+    "REMINGTON PARK",
     "RENFRO VALLEY",
+    "RHEA MILLS",
     "RIDGE VIEW",
+    "RIVER PLACE",
     "ROBINSON CREEK",
     "ROCK CANYON",
     "ROCK RIDGE",
     "ROLLING BROOK",
     "ROLLING HILLS",
+    "ROLLING RIDGE",
     "ROUND PRAIRIE",
+    "ROY ROGERS",
+    "ROYAL OAK",
+    "RUBY CREST",
     "RUNNING BROOK",
     "RYANS FERRY",
+    "SADDLE CREEK",
     "SAINT PAUL",
+    "SALMON LAKE",
     "SAM HOUSTON",
     "SAM RAYBURN",
     "SAM SLOTT",
     "SANDY LAKE",
     "SANTA FE",
     "SCALES RANCH",
+    "SCENIC POINT",
     "SENTINEL OAK",
     "SETTLERS RIDGE",
     "SHADOW HILL",
+    "SHADOW ROCK",
     "SHADY BEND",
     "SHADY HILL",
     "SHADY KNOLL",
     "SHADY OAKS",
+    "SHADY TIMBERS",
+    "SLATER CREEK",
     "SLEEPY HOLLOW",
     "SMITH ACRES",
     "SMITH HILL",
+    "SPANISH OAK",
     "SPRING CIRCLE",
     "SPRING MEADOW",
+    "SPRING RIDGE",
     "SPRING RUN",
+    "ST CHARLES",
     "STANLEY FALLS",
     "STARK PLACE",
+    "STILL FOREST",
     "STILL MEADOW",
     "STONE BEND",
     "STONE CREEK",
     "STONE TRACE",
     "SUN RIDGE",
     "SUN VALLEY",
+    "SUNNY HILL",
+    "SUNNY KNOLL",
+    "SURREY ESTATES",
+    "SURREY WOODS",
     "SWEET GUM",
     "TANUR CASCADE",
+    "THE COWBOY",
     "THE CROSSINGS",
     "THOUSAND OAKS",
     "THREE RIVERS",
     "TIMBER CREEK",
     "TIMBER MEADOW",
+    "TIMBER RIDGE",
+    "TOLEDO BEND",
+    "TOM CLEVINGER",
     "TOWN CENTER",
     "TOWNE VIEW",
     "TRAILS END",
@@ -1284,6 +1444,8 @@ public class TXCollinCountyAParser extends FieldProgramParser {
     "TWIN CREEKS",
     "TWIN HILLS",
     "TWIN LAKES",
+    "TWIN OAKS",
+    "TWIN VALLEY",
     "VALLEY DALE",
     "VALLEY OAK",
     "VALLEY RIDGE",
@@ -1291,19 +1453,27 @@ public class TXCollinCountyAParser extends FieldProgramParser {
     "VETERANS MEMORIAL",
     "VICK SPRING",
     "VICTORIA FALLS",
+    "VILLAGE CREST",
     "VISTA VIEW",
+    "WAGON WHEEL",
+    "WATCH HILL",
+    "WATER OAK",
+    "WATERS EDGE",
     "WAVERLY CEMETERY",
     "WEST CROSSING",
     "WEST OAK",
     "WESTON CREEK",
     "WHISPERING HILLS",
     "WHISPERING MEADOWS",
+    "WHITE BUD",
     "WHITE CREST",
     "WHITE OAK",
+    "WHITLEY PLACE",
     "WILD ROSE",
     "WILLIS OSBURN",
     "WILLOW CREEK",
     "WILLOW PLACE",
+    "WILLOW POINT",
     "WILLOW RIDGE",
     "WILLOW RUN",
     "WILLOW SPRINGS",
@@ -1311,10 +1481,14 @@ public class TXCollinCountyAParser extends FieldProgramParser {
     "WINDING OAKS",
     "WINDING RIVER",
     "WINDSOR CENTRE",
+    "WINDY KNOLL",
     "WIRE ROAD",
+    "WISDOM CREEK",
     "WOLF CREEK",
     "WOOD CREEK",
     "WOOD LODGE",
+    "WOODED CREEK",
+    "WYATT EARP",
     "WYLIE EAST"
   };
   
@@ -1324,10 +1498,12 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "1050 MINOR",
       "911 HANG UP/OPEN LINE",
       "ABDOMINAL PAIN",
+      "ALARM CALL",
       "AMB",
       "AMBULANCE/EMS SERVICE",
       "ANIMAL BITE",
       "ANIMAL COMPLAINT",
+      "ASSAULT",
       "ASSIST MOTORIST",
       "ASSIST PD",
       "ASSIST POLICE DEPARTMENT",
@@ -1340,12 +1516,14 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "BOAT IN DISTRESS",
       "BREATHING PROBLEMS",
       "BURGLARY MOTOR VEH IN PROGRESS",
+      "BURN",
       "CAR/VEHICLE FIRE",
       "CARBON MONOXIDE ALARM",
       "CARBON MONOXIDE INVESTIGATION",
       "CARDIAC ARREST",
       "CFALARM",
       "CHASE",
+      "CHECK",
       "CHEMICAL FIRE",
       "CHEST PAINS",
       "CHOKING",
@@ -1358,6 +1536,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "DDIST",
       "DIABETIC PROBLEMS",
       "DISREGARD PER FVFD",
+      "DIST",
       "DISTURBANCE",
       "DOMESTIC DISTURBANCE",
       "DOMESTIC IN PROGRESS",
@@ -1374,6 +1553,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "EMERGENCY MEDICAL ALARM",
       "EMERGENCY PUBLIC ASSIST",
       "EMERGENCY WATER CUT OFF",
+      "EMS",
       "EMS-NON EMERGENCY TRANSFER",
       "EMS - CARDIAC EMERGENCY",
       "EMS - INJURED PERSON",
@@ -1386,14 +1566,21 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "EMS CARDIAC",
       "EMS MEDICAL",
       "EMS OTHER/STANDBY/PR",
+      "EMS - STROKE (CVA)",
       "EMS TRANSFER",
       "EMS TRAUMA",
+      "EMSFALL",
       "ENRT TO STAGE FOR POSSIBLE MENTAL SUBJ",
       "EVENT",
+      "FAIL TO LEAVE ID, ACCIDENT",
       "FALARM",
       "FALL U/6FT",
+      "FD MISC. FIRE",
+      "FDALMRES",
+      "FDBOTTOW",
       "FDLAKE",
       "FDMUTMVA",
+      "FDMUTUAL",
       "FDSTRUC",
       "FIRE ALARM",
       "FIRE OTHER",
@@ -1403,16 +1590,19 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "FIRST RESPONDERS",
       "FISRT RESPONDERS",
       "FLOODING REPORTED",
+      "FOLLOW UP INVESTIGATION",
       "FUEL SPILL",
       "GFIRE",
       "GRASS FIRE",
       "GRASS/BRUSH FIRE (LOW HAZD)",
       "GRASS/WILDLAND FIRE",
       "GRASS OR BRUSH FIRE",
+      "GREASE FIRE",
       "GRILL FIRE",
       "HAZARDOUS CONDITION",
       "HAZARDOUS MATERIALS",
       "HEART PROBLEMS",
+      "HEMORRHAGE/LACERATIONS",
       "INJURED PERSON",
       "INJURY",
       "INTOXICATED DRIVER COMPLAINT",
@@ -1422,6 +1612,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "LEAK",
       "LIFT ASSIST ONLY",
       "LOCK-IN/OUT",
+      "LOCKED",
       "LOCKED VEHICLE/RESIDENCE",
       "LOCKOUT",
       "LOOSE",
@@ -1432,7 +1623,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "MAJOR ACCIDENT 10/50",
       "MAJOR HIT AND RUN ACCIDENT",
       "MAJOR WITH EXTRICATION",
-      "MINOR",
+      "MINOR ACCIDENT",
       "MINOR ACCIDENT 10/50",
       "MISCELLANEOUS FIRE",
       "MISSING CHILD",
@@ -1440,17 +1631,21 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "MEDICAL ALARM",
       "MEDICAL EMERGENCY",
       "MEDICATION OVERDOSE",
+      "MENTAL",
       "MENTAL SUBJECT",
       "MISCELLANEOUS FIRE",
       "MOTORIST ASSIST",
       "MUTUAL",
       "MUTUAL AID",
+      "MUTUAL AID FIRE",
       "MUTUAL AID,FIRE/FILL IN",
       "MUTUAL AID AMB FOR MAJOR",
       "MUTUAL AID AMBULANCE",
       "MUTUAL AID BRUSH",
       "MUTUAL AID ENGINE",
+      "MUTUAL AID ENGINE FILL IN",
       "MUTUAL AID ENGINE TO SCENE",
+      "MUTUAL AID FOR GRASS FIRE",
       "MUTUAL AID FVFD",
       "MUTUAL AID FIRE/RESCUE REQUEST",
       "MUTUAL AID GRASS FIRE",
@@ -1464,9 +1659,14 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "MVA2",
       "NARCOTICS INVESTIGATION",
       "NATURAL / PROPANE GAS LEAK",
+      "NATURAL DISASTER",
       "NATURAL GAS LEAK",
+      "ODOR",
       "ODOR INSIDE STRUCTURE",
       "ODOR INVESTIGATION",
+      "ODOR/SMOKE INVESTIGATION",
+      "OPEN LINE",
+      "OTHER CALL FOR FIRE DEPARTMENT",
       "OVERDOSE",
       "PATIENT ASSIST OR LIFT ASSIST",
       "PROPERTY PUBLIC ASSIST",
@@ -1484,6 +1684,7 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "RESIDENTIAL PANIC ALARM",
       "SEARCH FOR MISSING PERSON",
       "SFIRE",
+      "SHOOTING",
       "SICK PERSON",
       "SMOKE",
       "SMOKE DETECTOR ALARM",
@@ -1524,32 +1725,14 @@ public class TXCollinCountyAParser extends FieldProgramParser {
       "WATER LEAK",
       "WATER RESCUE",
       "WELFARE CHECK",
-      "WELFARE CONCERN",
-      "WS",
-      
-      // Manual one time call descriptions
-      "69 YOA FEMALE",
-      "AMR ASKING FOR MUTUAL AID WITH MEDIC",
-      "ASUICI",
-      "BE ENROUTE WITH ENGINE",
-      "DISREGARD PER ALARM CO",
-      "FALARM ****MUTUAL AID FOR WMFD******",
-      "BE ENROUTE WITH BRUSH TRUCK",
-      "MUTUAL AID CADDO MILLS",
-      "MUTUAL AID FOR PNFD WITH ENGINE TO UFIRE",
-      "MUTUAL AID FOR TRENTON FD 2 STORY SFIRE",
-      "SFIRE ****MUTUAL AID ******",
-      "UNKNOWN FIRE *** REQ BRUSH TRUCK FOR HOT SPOTS***",
-      "VEHICLE FIRE****REQ BRUSH TRUCK***",
-      "GRASS FIRE **** NVFD REQUESTION MUTUAL AID****",
-      "ZADOW PARK"
-
+      "WELFARE CONCERN"
   );
   
   private static final CodeSet DOUBLE_CITY_LIST = new CodeSet(
     "BLUE RIDGE",
     "COLLIN COUNTY",
     "COLLIN CO",
+    "FIRST - 2ND PAGE",
     "FLOWER MOUND",
     "GRAYSON COUNTY",
     "GRAYSON CO",
