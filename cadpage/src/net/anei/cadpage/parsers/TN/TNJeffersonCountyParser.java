@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.TN;
 
-import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
