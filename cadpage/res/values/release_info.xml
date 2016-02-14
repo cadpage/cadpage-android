@@ -4,6 +4,16 @@
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.05.10\n
+Location Fixes:\n
+Stamford, CT\n
+Marion County, IN\n
+Newton County, MO\n
+Oneida County, NY\n
+Lucas County, OH\n
+Franklin County, PA\n
+Collin County, TX\n
+\n
 v1.9.05.09\n
 New Locations:\n
 Danville, VA\n
@@ -50,18 +60,7 @@ Waynesboro, VA (alt)\n
 \n
 Location Fixes:\n
 Montgomery County, OH\n
-Stark County, OH\n
-\n
-v1.9.05.04\n
-Location Fixes:\n
-Warren County, TN\n
-Lufkin, TX\n
-New Zealand\n
-\n
-General Fixes:\n
-For direct pages where no dispatch time is available, Cadpage will report the time 
-alert was received by the paging service rather than the time the alert was received
-by Cadpage.
+Stark County, OH
   </string>
 </resources>
   
