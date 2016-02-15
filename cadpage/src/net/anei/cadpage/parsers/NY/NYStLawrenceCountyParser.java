@@ -25,6 +25,8 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
   public String getFilter() {
     return "dispatch@stlawco.org";
   }
+  
+  private String origCity;
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -41,6 +43,7 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
     body = body.replace("#NY,", ",");
     body = body.replace("#NY", "#");
     
+    origCity = null;
     if (! super.parseMsg(body, data)) return false;
     
     // If call contains a response code expand it to full description
@@ -59,29 +62,35 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
     // More strangeness.  Cities are often followed a dash and something that might be
     // a place name, but is usually a restatement of a previous ROUTE number, this time
     // adding some qualifiers as to what kind of highway it is.
-    int pt = data.strCity.indexOf('-');
-    if (pt >= 0) {
-      String extra = data.strCity.substring(pt+1).trim();
-      if (!extra.equals("WINTHROP")) {
-        data.strCity = data.strCity.substring(0,pt).trim();
-        
-        match = ROUTE_PTN.matcher(extra);
-        if (match.matches()) {
-          String searchRoute = "ROUTE " + match.group(1);
-          pt = data.strAddress.indexOf(searchRoute);
-          if (pt >= 0) {
-            data.strAddress = data.strAddress.substring(0,pt) + match.group(0) + data.strAddress.substring(pt+searchRoute.length());
-            extra = null;
+    if (origCity != null) {
+      int pt = origCity.indexOf('-');
+      if (pt >= 0) {
+        String extra = origCity.substring(pt+1).trim();
+        if (!extra.equals("WINTHROP")) {
+          data.strCity = origCity.substring(0,pt).trim();
+          
+          match = ROUTE_PTN.matcher(extra);
+          if (match.matches()) {
+            String searchRoute = "ROUTE " + match.group(1);
+            pt = data.strAddress.indexOf(searchRoute);
+            if (pt >= 0) {
+              data.strAddress = data.strAddress.substring(0,pt) + match.group(0) + data.strAddress.substring(pt+searchRoute.length());
+              extra = null;
+            }
           }
         }
+        if (extra != null) data.strPlace = extra;
+      } else {
+        if (!origCity.equals(data.strCity)) {
+          data.strSupp = append(origCity, "\n", data.strSupp);
+        }
       }
-      if (extra != null) data.strPlace = extra;
     }
     
     // Redundant processing, but extra information is sometimes appended to address
     
     String addr = data.strAddress;
-    pt = addr.indexOf(" - ");
+    int pt = addr.indexOf(" - ");
     if (pt >= 0) {
       data.strMap = append(data.strPlace, " - ", addr.substring(pt+3).trim());
       addr = addr.substring(0,pt).trim();
@@ -90,12 +99,13 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
     String saveCity = data.strCity;
     data.strAddress = "";
     parseAddress(StartType.START_ADDR, addr, data);
-    data.strSupp = cleanCitySuffix(getLeft(), data);
+    String info = cleanCitySuffix(getLeft(), data);
     if (saveCity.length() > 0) {
       if (!data.strCity.equals(saveCity)) {
-        data.strSupp = append(data.strSupp, " ", saveCity);
+        info = append(info, " ", saveCity);
       }
     }
+    data.strSupp = append(info, "\n", data.strSupp);
     
     // And Place name may follow city names
     addr = data.strCity;
@@ -148,8 +158,11 @@ public class NYStLawrenceCountyParser extends DispatchA13Parser {
   
   @Override
   protected boolean isCity(String city) {
-    if (city.startsWith("OGDENSBURG CENTENNIAL TERRACE")) return true;
-    return !isValidAddress(city);
+    if (city.startsWith("OGDENSBURG CENTENNIAL TERRACE") ||  !isValidAddress(city)) {
+      origCity = city;
+      return true;
+    }
+    return false;
   }
   
   

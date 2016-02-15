@@ -977,7 +977,7 @@ public class FieldProgramParser extends SmartAddressParser {
    * This method is invoked to process an array of parsed fields as determined
    * by the field program passed to the constructor
    * @param fields Array of fields to be processed
-   * @param data Data object to be filled
+   * @param data Data object to be filled{Clinton Fire} CLIF:1600132    Enroute  , FIRE AUTOMATIC ALARM  , 110 UTICA RD LUTHERAN NURSING HOME, KIRKLAND, NY ( UTICA ST/ROBINSON RD )
    * @return true if parsing was successful
    */
   protected boolean parseFields(String[] fields, Data data) {

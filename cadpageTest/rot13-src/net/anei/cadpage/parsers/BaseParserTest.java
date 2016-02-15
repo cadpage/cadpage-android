@@ -435,13 +435,13 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     nffregRdhnyf(gvgyr + ":QrsPvgl", qrsPvgl, vasb.trgQrsPvgl());
     nffregRdhnyf(gvgyr + ":QrsFgngr", qrsFgngr, vasb.trgQrsFgngr());
     
-    nffregGehr(gvgyr + ":harkcrpgrq pnyy pbqr:" + vasb.trgPnyy(), purpxPnyyPbqr(vasb, cnefre));
+    nffregGehr(gvgyr + ":harkcrpgrq pnyy pbqr:" + vasb.trgPnyy(), purpxPnyyPbqr(zft, cnefre));
   }
   
-  cebgrpgrq obbyrna purpxPnyyPbqr(ZftVasb vasb, ZftCnefre cnefre) {
-    erghea purpxPnyyPbqr(vasb.trgPnyy(), cnefre);
+  cebgrpgrq obbyrna purpxPnyyPbqr(Zrffntr zft, ZftCnefre cnefre) {
+    erghea purpxPnyyPbqr(zft.trgVasb().trgPnyy(), cnefre);
   }
-  
+
   cebgrpgrq obbyrna purpxPnyyPbqr(Fgevat pnyy, ZftCnefre cnefre) {
     vs (!puxPnyyPbqrf) erghea gehr;
     vs (pnyy.yratgu() == 0 || pnyy.rdhnyf("EHA ERCBEG") || pnyy.rdhnyf("TRARENY NYREG")) erghea gehr;
@@ -727,7 +727,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     Flfgrz.bhg.cevagya(',');
     vs (arrqFcnpr) Flfgrz.bhg.cevagya();
     
-    vs (!purpxPnyyPbqr(vasb, cnefre)) {
+    vs (!purpxPnyyPbqr(zft, cnefre)) {
       Flfgrz.bhg.cevagya("        // Harkcrpgrq pnyy pbqr:" + vasb.trgPnyy());
     }
     Fgevat oex = "";

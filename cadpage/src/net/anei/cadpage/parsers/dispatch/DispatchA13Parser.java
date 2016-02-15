@@ -259,7 +259,7 @@ public class DispatchA13Parser extends FieldProgramParser {
           }
           
           if (data.strCity.length() == 0) {
-            boolean isCity;;
+            boolean isCity;
             if (checkCity) {
               isCity = isCity(fld);
             } else {
@@ -272,8 +272,7 @@ public class DispatchA13Parser extends FieldProgramParser {
             }
           }
           
-          if (data.strCity.length() > 0 && 
-              data.strState.length() == 0 && 
+          if (data.strState.length() == 0 && 
               STATE_PTN.matcher(fld).matches()) {
             data.strState = fld;
             continue;
@@ -282,68 +281,64 @@ public class DispatchA13Parser extends FieldProgramParser {
           data.strCross = append(data.strCross, " / ", fld);
         }
         
-        if (!leadPlaceName && !leadPlace && !trailPlace && data.strCity.length() > 0) {
-          parseAddress(addr, data);
-        } else {
-          StartType st = (leadPlaceName || leadPlace ? StartType.START_OTHER : StartType.START_ADDR);
-          int flags = FLAG_IGNORE_AT;
-          if (!trailPlace) flags |= FLAG_ANCHOR_END;
-          parseAddress(st, flags, addr, data);
-          String place = getStart();
-          if (place.length() > 0) {
-            if (data.strAddress.length() == 0) {
-              parseAddress(place, data);
-            }
-            else if (leadPlace || checkPlace(place)) {
-              addPlace(place, data);
-            }
-            else {
-              data.strName = place;
-            }
+        StartType st = (leadPlaceName || leadPlace ? StartType.START_OTHER : StartType.START_ADDR);
+        int flags = FLAG_IGNORE_AT;
+        if (!trailPlace) flags |= FLAG_ANCHOR_END;
+        parseAddress(st, flags, addr, data);
+        String place = getStart();
+        if (place.length() > 0) {
+          if (data.strAddress.length() == 0) {
+            parseAddress(place, data);
           }
-          
-          // another oddity, sometimes the a city (and not necessarily the same city)
-          // occurs at the end of both streets in an intersection, so will try to 
-          // eliminate the extra ones
-          if (data.strCity.length() > 0) {
-            int pt2 = data.strAddress.indexOf("&");
-            if (pt2 >= 0) {
-              String part1 = data.strAddress.substring(0,pt2).trim();
-              String part2 = data.strAddress.substring(pt2+1).trim();
-              data.strAddress = "";
-              String saveCity = data.strCity;
-              parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, part1, data);
-              data.strAddress = append(data.strAddress, " & ", part2);
-              if (data.strCity.length() == 0) {
-                data.strCity = saveCity;
-              } else if (saveCity.length() > 0 && !saveCity.equalsIgnoreCase(data.strCity)) {
-                data.strCity = "";
-              }
-            }
-            data.strAddress = data.strAddress.replace(' ' + data.strCity + " &", " &");
-          }
-          
-          // If there might be a trailing place, pick it up and process it
-          // If it starts with a slash, this is probably the intersection with
-          // cities after both streets again :(
-          if (trailPlace) {
-            place = getLeft();
-            if (place.startsWith("/") ||   place.startsWith("&")) {
-              place = place.substring(1).trim();
-              String saveAddr = data.strAddress;
-              String saveCity = data.strCity;
-              data.strAddress = "";
-              parseAddress(StartType.START_ADDR, FLAG_IGNORE_AT, place, data);
-              data.strAddress = append(saveAddr, " & ", data.strAddress);
-              if (data.strCity.length() == 0) {
-                data.strCity = saveCity;
-              } else if (saveCity.length() > 0 && !saveCity.equalsIgnoreCase(data.strCity)) {
-                data.strCity = "";
-              }
-              place = getLeft();
-            }
+          else if (leadPlace || checkPlace(place)) {
             addPlace(place, data);
           }
+          else {
+            data.strName = place;
+          }
+        }
+        
+        // another oddity, sometimes the a city (and not necessarily the same city)
+        // occurs at the end of both streets in an intersection, so will try to 
+        // eliminate the extra ones
+        if (data.strCity.length() > 0) {
+          int pt2 = data.strAddress.indexOf("&");
+          if (pt2 >= 0) {
+            String part1 = data.strAddress.substring(0,pt2).trim();
+            String part2 = data.strAddress.substring(pt2+1).trim();
+            data.strAddress = "";
+            String saveCity = data.strCity;
+            parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, part1, data);
+            data.strAddress = append(data.strAddress, " & ", part2);
+            if (data.strCity.length() == 0) {
+              data.strCity = saveCity;
+            } else if (saveCity.length() > 0 && !saveCity.equalsIgnoreCase(data.strCity)) {
+              data.strCity = "";
+            }
+          }
+          data.strAddress = data.strAddress.replace(' ' + data.strCity + " &", " &");
+        }
+        
+        // If there might be a trailing place, pick it up and process it
+        // If it starts with a slash, this is probably the intersection with
+        // cities after both streets again :(
+        if (trailPlace) {
+          place = getLeft();
+          if (place.startsWith("/") ||   place.startsWith("&")) {
+            place = place.substring(1).trim();
+            String saveAddr = data.strAddress;
+            String saveCity = data.strCity;
+            data.strAddress = "";
+            parseAddress(StartType.START_ADDR, FLAG_IGNORE_AT, place, data);
+            data.strAddress = append(saveAddr, " & ", data.strAddress);
+            if (data.strCity.length() == 0) {
+              data.strCity = saveCity;
+            } else if (saveCity.length() > 0 && !saveCity.equalsIgnoreCase(data.strCity)) {
+              data.strCity = "";
+            }
+            place = getLeft();
+          }
+          addPlace(place, data);
         }
         
         // Second part is generally the cross street
@@ -447,7 +442,11 @@ public class DispatchA13Parser extends FieldProgramParser {
         if (apt.startsWith("PVT")) {
           addPlace(apt, data);
         } else { 
-          apt = APT_PREFIX_PTN.matcher(part.substring(pt+1).trim()).replaceAll("");
+          if (checkCity && data.strCity.length() == 0) {
+            parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY | FLAG_ANCHOR_END, apt, data);
+            apt = getStart();
+          }
+          apt = APT_PREFIX_PTN.matcher(apt).replaceAll("");
           if (trailPlace) {
             int pt2 = apt.indexOf(' ');
             if (pt2 >= 0) {

@@ -1,6 +1,7 @@
 cnpxntr arg.narv.pnqcntr.cnefref.VY;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
+vzcbeg arg.narv.pnqcntr.cnefref.Zrffntr;
 vzcbeg arg.narv.pnqcntr.cnefref.ZftVasb;
 vzcbeg arg.narv.pnqcntr.cnefref.ZftCnefre;
 
@@ -36,7 +37,8 @@ choyvp pynff VYUnapbpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
 
   @Bireevqr
-  cebgrpgrq obbyrna purpxPnyyPbqr(ZftVasb vasb, ZftCnefre cnefre) {
+  cebgrpgrq obbyrna purpxPnyyPbqr(Zrffntr zft, ZftCnefre cnefre) {
+    ZftVasb vasb = zft.trgVasb();
     erghea fhcre.purpxPnyyPbqr(ZftCnefre.nccraq(vasb.trgPbqr(), " ", vasb.trgPnyy()), cnefre);
   }
 
