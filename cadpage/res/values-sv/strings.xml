@@ -5,7 +5,7 @@
   <string name="app_name">Cadpage</string>
   <string name="call_history">Larmhistorik:</string>
   <string name="new_text_at">Nytt larm mottaget %s</string>
-  <string name="src_text_at">%1$s call at %2$s</string>
+  <string name="src_text_at">%1$s call at %2$s</string>    <!-- Translate   "<agency> call at 13:23 -->
   <string name="mms_subject">Objekt:</string>
   <string name="apt_label">Lgh:</string>
   <string name="cross_label">"X:</string>

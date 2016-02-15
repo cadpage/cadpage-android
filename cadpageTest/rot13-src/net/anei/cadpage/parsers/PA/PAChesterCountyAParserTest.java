@@ -26,7 +26,7 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 Fhowrpg:Fgngvba 53\a\aVavgvny Glcr: TNFYXBH    Svany Glcr: TNFYXBH (TNF YRNX BHGFVQR *)\aYbp: 400 ZNCYR NY ,01  ogja ZNTABYVN FG &
 
 Pbagnpg: Fgrira Pbbcre <fpbbcre599@tznvy.pbz>
-Fraqre: zrffntvat@vnzerfcbaqbat.pbz
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (Fgngvba 36) NYNEZS     Svany Glcr: NYNEZS  (NYNEZ - SVER *)\a  Ybp: 231 R FGNGR FG ,03  ogja PUHEPU NY & RYZ FG (I) \aNXN:   Zhavpvcnyvgl: XAGFDE
 
  */
