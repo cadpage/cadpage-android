@@ -154,6 +154,7 @@ class Active911Vendor extends Vendor {
       "AU/SA/Whyalla",                    "ZAUNewSouthWalesB",
       "CA/AB/ClearwaterCounty",           "ZCAABClearwaterCounty",
       "CA/AB/FrescCA",                    "ZCAABCanmore",
+      "CA/AB/LacombeCounty",              "ZCAABLacombeCounty",
       "CA/AB/RedDeerCounty",              "ZCAABRedDeerCounty",
       "CA/AB/SCES911Centre",              "ZCAABStrathconaCounty",
       "CA/BC/MidIsland",                  "ZCABCMidIslandRegion",
