@@ -6,9 +6,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-public class OHLimaCountyParser extends FieldProgramParser {
+public class OHLimaParser extends FieldProgramParser {
   
-  public OHLimaCountyParser() {
+  public OHLimaParser() {
     super("LIMA", "OH", 
           "ID! Time_Out:DATETIME! CALL! ADDR! COMMON_NAME:NAME! CROSS_1:X! CROSS_2:X! INFO/N+");
   }

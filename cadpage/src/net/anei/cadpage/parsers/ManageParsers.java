@@ -203,8 +203,11 @@ public class ManageParsers {
         "NVWinnemuccaCounty", "NVHumboldtCounty",        // 01/17/2015
         "VAGraysonCounty",    "VAGalax",                 // 01/17/2015
         "NCHertfordCountyA",  "NCHertfordCountyB",       // 06/30/2015
-        "CARocklin",          "CAPlacerCounty"           // 09/07/2015
-        
+        "CARocklin",          "CAPlacerCounty",          // 09/07/2015
+        "CAHaywardCounty",    "CAHayward",               // 02/16/2016
+        "KYRockcastleCounty", "KYRockCastleCounty",
+        "OHLimaCounty",       "OHLima",
+        "VAAlbemarleCounty",  "VAAlbermarleCounty"
   });
 
 }

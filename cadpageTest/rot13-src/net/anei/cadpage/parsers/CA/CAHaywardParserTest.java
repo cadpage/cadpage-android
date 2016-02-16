@@ -112,10 +112,10 @@ Fraqre: qvfcngpu@unljneq-pn.tbi
 */
 
 
-choyvp pynff PNUnljneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff PNUnljneqCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp PNUnljneqPbhaglCnefreGrfg() {
-    frgCnefre(arj PNUnljneqPbhaglCnefre(), "UNLJNEQ PBHAGL", "PN");
+  choyvp PNUnljneqCnefreGrfg() {
+    frgCnefre(arj PNUnljneqCnefre(), "UNLJNEQ", "PN");
   }
 
   @Grfg
@@ -1144,6 +1144,6 @@ choyvp pynff PNUnljneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj PNUnljneqPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj PNUnljneqCnefreGrfg().trarengrGrfgf("G1");
   }
 }

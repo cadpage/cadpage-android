@@ -3,9 +3,9 @@ package net.anei.cadpage.parsers.KY;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 
-public class KYRockcastleCountyParser extends DispatchA48Parser {
+public class KYRockCastleCountyParser extends DispatchA48Parser {
 
-  public KYRockcastleCountyParser() {
+  public KYRockCastleCountyParser() {
     super(CITY_LIST, "ROCKCASTLE COUNTY", "KY", FieldType.X_NAME);
   }
   
