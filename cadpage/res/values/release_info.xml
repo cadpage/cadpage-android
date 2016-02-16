@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02142016</string>
+  <string name="release_date">02162016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.05.11\n
+Location Fixes:\n
+Anderson County, KY\n
+\n
+General Fixes:\n
+Dispatch time was not displaying correctly in Swedish language.\n
+Problems recognizing the correct message format for several Active911 format codes.\n
+\n
 v1.9.05.10\n
 Location Fixes:\n
 Stamford, CT\n
@@ -50,17 +58,7 @@ Henry County, VA\n
 \n
 General Fixes:\n
 Fixed problems not reparsing old messages from direct paging vendors, or when the
-user changes the location setting.\n
-\n
-v1.9.05.05\n
-New Locations:\n
-Lane County, OR (alt)\n
-Albany County, PA (alt)\n
-Waynesboro, VA (alt)\n
-\n
-Location Fixes:\n
-Montgomery County, OH\n
-Stark County, OH
+user changes the location setting.
   </string>
 </resources>
   
