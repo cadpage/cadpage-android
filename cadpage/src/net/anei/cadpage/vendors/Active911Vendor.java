@@ -453,6 +453,7 @@ class Active911Vendor extends Vendor {
       "US/KS/Renolec",                    "KSRenoCounty",
       "US/KS/RiceCounty",                 "KSRiceCounty",
       "US/KS/SedgwickCounty",             "KSSedgwickCounty",
+      "US/KY/AndersonCounty",             "KYAndersonCounty",
       "US/KY/BarrenCounty",               "KYBarrenCounty",
       "US/KY/BooneCounty",                "KYBooneCountyA",
       "US/KY/BoydCounty",                 "KYBoydCounty",
