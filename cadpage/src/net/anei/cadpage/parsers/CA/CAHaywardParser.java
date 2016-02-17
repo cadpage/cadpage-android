@@ -9,10 +9,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgParser;
 
 
-public class CAHaywardCountyParser extends MsgParser {
+public class CAHaywardParser extends MsgParser {
 
-  public CAHaywardCountyParser() {
-    super("HAYWARD COUNTY", "CA");
+  public CAHaywardParser() {
+    super("HAYWARD", "CA");
     setFieldList("ADDR APT GPS PLACE CALL DATE TIME MAP UNIT INFO");
   }
 

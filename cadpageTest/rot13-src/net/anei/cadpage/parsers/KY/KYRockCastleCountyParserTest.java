@@ -94,10 +94,10 @@ Fraqre: <911@jvaqfgernz.arg>
 
 */
 
-choyvp pynff XLEbpxpnfgyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff XLEbpxPnfgyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp XLEbpxpnfgyrPbhaglCnefreGrfg() {
-    frgCnefre(arj XLEbpxpnfgyrPbhaglCnefre(), "EBPXPNFGYR PBHAGL", "XL");
+  choyvp XLEbpxPnfgyrPbhaglCnefreGrfg() {
+    frgCnefre(arj XLEbpxPnfgyrPbhaglCnefre(), "EBPXPNFGYR PBHAGL", "XL");
   }
 
   @Grfg
@@ -1752,6 +1752,6 @@ choyvp pynff XLEbpxpnfgyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj XLEbpxpnfgyrPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj XLEbpxPnfgyrPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }

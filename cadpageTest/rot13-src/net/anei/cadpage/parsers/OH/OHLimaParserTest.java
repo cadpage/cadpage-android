@@ -117,7 +117,7 @@ Fraqre: <Qvfcngpu@pvglunyy.yvzn.bu.hf>
 choyvp pynff BUYvznCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp BUYvznCnefreGrfg() {
-    frgCnefre(arj BUYvznPbhaglCnefre(), "YVZN", "BU");
+    frgCnefre(arj BUYvznCnefre(), "YVZN", "BU");
   }
 
   @Grfg

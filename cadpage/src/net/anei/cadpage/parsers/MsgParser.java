@@ -679,6 +679,7 @@ public abstract class MsgParser {
         chr = Character.toLowerCase(chr);
       }
       carry[j] = chr;
+      if (chr == 'c' && j > 0 && carry[j-1] == 'M') upshift = true;
     }
     
     String locName = new String(carry);
