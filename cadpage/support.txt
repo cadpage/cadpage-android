@@ -487,7 +487,7 @@ Subsequent $10 payments are set up as maintenance fees.   If you stop installing
  You can continue to use Cadpage after the expiration date as long as you do not install a release published after that date.
  
 ******************************************************************
-update department subscriptions
+renew department subscriptions
 
 Your one-year anniversary for Cadpage for your department was _________.  You and your department members may certainly continue using the app, free of charge for as long as you like.  That is, you can continue to use Cadpage after the expiration date as long as you do not install a release published after that date, change phones, or change email addresses.
 
@@ -681,7 +681,7 @@ Jean ~ Cadpage Administrator
 extension of free subscription
 ******************************************************************
 
-Your free subscription has been extended for at least another year.
+Your free Cadpage subscription has been extended for at least another year.
 
 Please: Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
@@ -715,7 +715,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-JRRQQZCA or jrrqqzca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+IUQDMYAA or iuqdmyaa.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support, 
 Jean ~ Cadpage Administrator
@@ -936,7 +936,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-IOLRADEA or iolradea.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+PRYYJOFA or pryyjofa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean ~ Cadpage Administrator
@@ -4033,7 +4033,7 @@ We have been reaching out to Cadpage users that we haven't heard from for a whil
 
 We do have some features that the Active911 app still lacks -- more flexible notification options, for example.  Some users like the simpler interface.  Message alerts may be a bit more reliable.  But the basic functionality will probably be about the same as the Active911 app.
 
-If you are not currently using Cadpage and would like to try it. You can install Cadpage from the Google Play Store. Then open Cadpage settings and select
+If you have an Android device and are not currently using Cadpage and would like to try it. You can install Cadpage from the Google Play Store. Then open Cadpage settings and select
 Direct Paging Vendors > Active911 > Register
 You then have to enter the same Active911 device activation code that you used to register the Active911 app.
 
@@ -4043,7 +4043,6 @@ If you have any questions, or if there is anything you would like to see added t
 
 Have a great day,
 -Ken
-
 **************************************************************************
 trouble paying through Google
 

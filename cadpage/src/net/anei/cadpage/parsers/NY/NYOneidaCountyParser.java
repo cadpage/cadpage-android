@@ -15,9 +15,9 @@ import net.anei.cadpage.parsers.dispatch.DispatchA13Parser;
 
 public class NYOneidaCountyParser extends DispatchA13Parser {
   
+  private static final Pattern NON_ASCII_PTN = Pattern.compile("[^\\p{ASCII}]");
   private static final Pattern LEAD_JUNK_PTN = Pattern.compile("^[io?¿][^A-Z]*|^(?:&#\\d+;)+");
-  private static final Pattern REMSEN_FIRE_PTN1 = Pattern.compile("\\d{4} >.*");
-  private static final Pattern CLINTON_FIRE_PTN = Pattern.compile("(?:\\d\\d[A-Z]\\d\\d )?[A-Z /\\(\\)]+  , ");
+  private static final Pattern CLINTON_FIRE_PTN1 = Pattern.compile("(?:\\d\\d[A-Z]\\d\\d )?[A-Z0-9, /\\(\\)]+?  , ");
   private static final Pattern T_CITY_PTN = Pattern.compile("\\b(?:T/|T/O +|/T +)(CONSTANTIA|NORWAY|OHIO|RUSSIA)\\b");
   private static final Pattern MARKER = Pattern.compile("(?:(.*?)([^A-Z0-9]{1,4}))?\\b(Dispatched|Acknowledge|Enroute|En Route Hosp|On +Scene)([^A-Z0-9]{1,4})(?=[A-Z0-9])");
   private static final Pattern CODE_PTN = Pattern.compile("^([A-Za-z_ ]+ - )?(\\d\\d[A-Z]\\d\\d) ?- *");
@@ -41,6 +41,7 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     data.strSource = subject;
     
     body = LEAD_JUNK_PTN.matcher(body).replaceFirst("");
+    body = NON_ASCII_PTN.matcher(body).replaceAll("");
     
     body = stripFieldEnd(body, "#[0-0]");
     
@@ -53,18 +54,17 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     // As if things weren't bad enough, we also have to deal with IAR alterations
     // Fortunately this all seems to be limited to one agency for now
     if (body.startsWith(">") || body.startsWith(", ")) body = "Dispatched " + body;
-    else if (subject.equals("Remsen Fire")) {
-      if (REMSEN_FIRE_PTN1.matcher(body).matches()) body = ':' + body;
-      else if (body.startsWith("d >")) body = "Dispatche" + body;
-      else if (body.contains(" >")) body = "Dispatched >" + body;
-    }
     
     // Sigh, the contagion seems to be spreading ...
     else if (subject.equals("Clinton Fire")) {
-      if (CLINTON_FIRE_PTN.matcher(body).lookingAt()) body = "Dispatched  , " + body;
+      if (CLINTON_FIRE_PTN1.matcher(body).lookingAt()) body = "Dispatched  , " + body;
     }
     
-    else if (subject.equals("Durhamville Fire")) {
+    else if (subject.equals("Oneida Castle Fire")) {
+      if (body.startsWith("patched")) body = "Dis" + body;
+    }
+    
+    else if (subject.equals("Durhamville Fire") || subject.equals("Remsen Fire") || subject.equals("Deerfield Fire")) {
       if (!body.contains("Dispatched")) body = "Dispatched , " + body;
     }
     
@@ -86,8 +86,13 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     String delim = match.group(4);
     if (delimA != null && !delimA.equals(delim)) {
       delimA = delimA.trim();
-      delim = delim.trim();
-      if (delim.length() == 0 || !delim.equals(delimA)) return false;
+      if (delimA.length() == 0) {
+        body = body.substring(match.start(3));
+      } else {
+        delim = delim.trim();
+        if (delim.length() == 0) return false;
+        else if (!delim.equals(delimA)) return false;
+      }
     }
     
     // If we identified a delimiter that is something other than a single

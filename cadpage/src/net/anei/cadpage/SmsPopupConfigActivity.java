@@ -538,8 +538,12 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
 
     
     String location = ManagePreferences.location();
+    if (!location.equals(oldLocation)) {
+      SmsMessageQueue.getInstance().reparseGeneral();
+    }
+    
     String textSize = ManagePreferences.textSize();
-    if (!location.equals(oldLocation) || ! textSize.equals(oldTextSize)) {
+    if (! textSize.equals(oldTextSize)) {
       SmsMessageQueue.getInstance().notifyDataChange();
     }
   }

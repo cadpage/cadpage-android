@@ -17,21 +17,15 @@ public class OHShakerHeightsParser extends FieldProgramParser {
     super("SHAKER HEIGHTS", "OH", 
           "ID:ID! CALL:CALL! LATITUDE:GPS1! LONGITUDE:GPS2! ADDRESS:ADDR! CITY:CITY! ZIP:SKIP! NOTES:INFO+");
   }
-
-  @Override
-  public String getFilter() {
-    return "cad@iaff516.org";
-  }
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Shaker Heights CAD Dispatch")) return false;
     return parseFields(body.split("\n"), data);
   }
 
   @Override
   protected Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d{4}-\\d{8}", true);
+    if (name.equals("ID")) return new IdField("\\d{4}-\\d{4,8}", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }

@@ -10,9 +10,9 @@ import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 public class DispatchDAPROParser extends FieldProgramParser {
   
-  private static final String PROGRAM_STR = "ADDR/S6CX! CFS:ID? INFO:INFO? Run:ID? CROSS:X";
+  private static final String PROGRAM_STR = "( SELECT/1 ADDR/S6CX! | ADDR/S6! ) CFS:ID? INFO:INFO? Run:ID? CROSS:X";
   
-  private static final Pattern MARKER = Pattern.compile("([-A-Z0-9]+) +(?:(\\d\\d:\\d\\d) +)?");
+  private static final Pattern MARKER = Pattern.compile("([-A-Z0-9]+) (?:(\\d\\d:\\d\\d) )?");
 
 
   public DispatchDAPROParser(String defCity, String defState) {
@@ -45,6 +45,14 @@ public class DispatchDAPROParser extends FieldProgramParser {
     data.strSource = match.group(1);
     data.strTime = getOptGroup(match.group(2));
     body = body.substring(match.end());
+    
+    // A leading blank marks a missingn call description
+    if (body.startsWith(" ")) {
+      setSelectValue("2");
+      body = body.trim();
+    } else {
+      setSelectValue("1");
+    }
     
     int pt = body.indexOf(" CFS# ");
     if (pt >= 0) {

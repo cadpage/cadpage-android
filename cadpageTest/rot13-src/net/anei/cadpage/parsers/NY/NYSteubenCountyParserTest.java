@@ -101,6 +101,7 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 {Ghfpneben NZO} 8211 PBHAGL EBHGR 5 GHFPNEBEN GBJA BS ( YVOREGL CBYR EQ/PYRAQRAAVAT EQ,FGRNQ FPUBBY EQ )10Q4 - Purfg Cnva - PynzzlGHFPNZO:2015:00065
 (Ghfpneben SQ) -{[PbagebyyrqOhea]}-992 PBHAGL EBHGR 5 GHFPNEBEN GBJA BS ( UNZVYGBA EQ/FHYYVINA EQ )SQ PBAGEBYYRQ OHEA
 (Ghfpneben NZO) 1022 OHAXRE UVYY EQ GHFPNEBEN GBJA BS ( ZBEEVF EQ/ZBEEVF EQ )26P1 - Fvpx Crefba - Nygrerq yriry bs pbafpvbhfarffGHFPNZO:2016:00001
+{Ghfpneben SQ} 7405 PBHAGL EBHGR 112 GHFPNEBEN GBJA BS ( FYBPHZ EQ/AVPUBYF EQ )SQ EHOOVFU/AHVFNAPRGHFPNSQ:2016:00006
 
 Ntrapl anzr: Ongu SQ
 Ybpngvba: Ongu, AL, Havgrq Fgngrf
@@ -1028,6 +1029,15 @@ choyvp pynff ALFgrhoraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Fvpx Crefba",
         "VASB:Nygrerq yriry bs pbafpvbhfarff",
         "VQ:2016:00001");
+
+    qbGrfg("G10",
+        "{Ghfpneben SQ} 7405 PBHAGL EBHGR 112 GHFPNEBEN GBJA BS ( FYBPHZ EQ/AVPUBYF EQ )SQ EHOOVFU/AHVFNAPRGHFPNSQ:2016:00006",
+        "FEP:Ghfpneben SQ",
+        "NQQE:7405 PBHAGL EBNQ 112",
+        "PVGL:GHFPNEBEN",
+        "K:FYBPHZ EQ/AVPUBYF EQ",
+        "PNYY:SQ EHOOVFU/AHVFNAPR",
+        "VQ:2016:00006");
 
   }
 

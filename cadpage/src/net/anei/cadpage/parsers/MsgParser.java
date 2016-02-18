@@ -212,17 +212,18 @@ public abstract class MsgParser {
   public static final int PARSE_FLG_POSITIVE_ID = 0x02;
   
   /**
-   * No longer used - setTestMode() is not used to set test mode
+   * Parse flag indicating parser should be invoked even if we already
+   * have the results from a previous parser.
    */
-  public static final int PARSE_FLG_TEST_MODE = 0x10;
-  
-  // Pattern matching a terminated string of digits
-  public static final Pattern NUMERIC = Pattern.compile("\\b\\d+\\b");
+  public static final int PARSE_FLG_REPARSE = 0x04;
 
   /**
    * Force flag forces processing of message
    */
-  public static final int PARSE_FLG_FORCE = 0x7;
+  public static final int PARSE_FLG_FORCE = PARSE_FLG_SKIP_FILTER | PARSE_FLG_POSITIVE_ID;
+  
+  // Pattern matching a terminated string of digits
+  public static final Pattern NUMERIC = Pattern.compile("\\b\\d+\\b");
   
   // parser code
   private String parserCode;
@@ -361,7 +362,7 @@ public abstract class MsgParser {
       // If we have been called before and returned a parsed result
       // we do not have to do all of that work again.
       MsgInfo info = msg.getInfo();
-      if (info == null) {
+      if (info == null || (parseFlags & PARSE_FLG_REPARSE) != 0) {
         
         // See what the parseMsg method thinks of this
         // If it does not like the results, return failure
@@ -678,6 +679,7 @@ public abstract class MsgParser {
         chr = Character.toLowerCase(chr);
       }
       carry[j] = chr;
+      if (chr == 'c' && j > 0 && carry[j-1] == 'M') upshift = true;
     }
     
     String locName = new String(carry);

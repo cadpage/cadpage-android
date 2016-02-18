@@ -234,7 +234,7 @@ public class DonationManager {
     // ((Use install date if there is no purchase date))
     overpaidDays = 0;
     int daysTillSubExpire = -99999;
-    paidSubscriber = false;
+    paidSubscriber = VendorManager.instance().isPaidSubSupported();
     int paidYear = ManagePreferences.paidYear();
     if (paidYear > 0) {
       Date tDate = ManagePreferences.purchaseDate();

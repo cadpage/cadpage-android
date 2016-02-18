@@ -1,16 +1,13 @@
 package net.anei.cadpage.parsers.VA;
 
+import net.anei.cadpage.parsers.GroupBestParser;
 
-public class VAWaynesboroParser extends VAAugustaCountyParser {
+/**
+ * Waynesboro, VA
+ */
+public class VAWaynesboroParser extends GroupBestParser {
   
   public VAWaynesboroParser() {
-    super("WAYNESBORO", "VA");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "@ci.waynesboro.va.us";
+    super(new VAWaynesboroAParser(), new VAWaynesboroBParser());
   }
 }
-
-

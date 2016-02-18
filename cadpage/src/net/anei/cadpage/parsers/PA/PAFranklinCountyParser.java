@@ -65,6 +65,7 @@ public class PAFranklinCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("APT")) return new MyAptField();
+    if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }
   
@@ -74,6 +75,14 @@ public class PAFranklinCountyParser extends FieldProgramParser {
     public void  parse(String field, Data data) {
       Matcher match = APT_PTN.matcher(field);
       if (match.matches()) field = match.group(1);
+      super.parse(field, data);
+    }
+  }
+  
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace(' ', '_');
       super.parse(field, data);
     }
   }

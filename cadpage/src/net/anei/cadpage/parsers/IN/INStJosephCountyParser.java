@@ -7,12 +7,37 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 import net.anei.cadpage.parsers.dispatch.DispatchA6Parser;
 
 /**
  * St Joseph County, IN
  */
 public class INStJosephCountyParser extends DispatchA6Parser {
+  
+  public INStJosephCountyParser() {
+    super(CITY_CODES, "ST JOSEPH COUNTY", "IN");
+    setupSpecialStreets("NEW RD");
+  }
+  
+  @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom(){
+      @Override public boolean splitBlankIns() { return false; }
+    };
+  }
+
+  @Override
+  public String getFilter() {
+    return "cad@sjc.com,@c-msg.net,@etieline.com,5742617686,5742922865,5742081200";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
   
   // Pattern we use to try to find the missing space between the cross street and info
   private static final Pattern DATE_ADDR_BRK = Pattern.compile(" \\d\\d/\\d\\d/\\d\\d(?<!20)(?=[A-Z0-9])");
@@ -21,21 +46,8 @@ public class INStJosephCountyParser extends DispatchA6Parser {
   private static final Pattern LEAD_DATE_TIME = Pattern.compile("^(?:(\\d\\d?:\\d\\d[AP]M) )?(\\d\\d/\\d\\d/\\d{4}) ");
   private static final Pattern TRAIL_TIME = Pattern.compile(" ([012]\\d)(\\d\\d),?$");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mmaa");;
-  
-  public INStJosephCountyParser() {
-    super(CITY_CODES, "ST JOSEPH COUNTY", "IN");
-    setupSpecialStreets("NEW RD");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "@c-msg.net,@etieline.com,5742617686,5742922865,5742081200";
-  }
-  
-  @Override
-  public int getMapFlags() {
-    return MAP_FLG_SUPPR_LA;
-  }
+  private static final Pattern TRAIL_UNIT_PTN = Pattern.compile("(?:[ ,]*\\b(?:[A-Z]+\\d+|\\d{4}|OSCEO|PENN|SWPCA))+$");
+  private static final Pattern TRAIL_UNIT_BRK_PTN = Pattern.compile("[ ,]+");
   
   @Override
   protected boolean parseMsg(String body, Data data) {
@@ -83,6 +95,18 @@ public class INStJosephCountyParser extends DispatchA6Parser {
     if (match.find()) {
       data.strMap = match.group(1);
       data.strCall = data.strCall.substring(0,match.start());
+    }
+
+    if (data.msgType == MsgType.PAGE) {
+      match = TRAIL_UNIT_PTN.matcher(data.strSupp);
+      if (match.find()) {
+        String unit = match.group().trim();
+        data.strSupp = data.strSupp.substring(0,match.start()).trim();
+        data.strSupp = stripFieldEnd(data.strSupp, " /");
+        unit = stripFieldStart(unit, ",");
+        unit = TRAIL_UNIT_BRK_PTN.matcher(unit).replaceAll(",");
+        data.strUnit = append(data.strUnit, ",", unit);
+      }
     }
     return true;
   }

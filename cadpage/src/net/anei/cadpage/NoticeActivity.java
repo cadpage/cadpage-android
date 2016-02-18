@@ -73,7 +73,9 @@ public class NoticeActivity extends Safe40Activity {
         if (parms == null || parms.length < 2) return null;
         String readerName = parms[0];
         final String packageName = parms[1];
-        message = NoticeActivity.this.getString(R.string.missing_map_page_reader_text, readerName);
+        message = NoticeActivity.this.getString(R.string.missing_map_page_reader_text);
+        message = message.replace("%%", "%");
+        message = String.format(message, readerName);
         
         return new AlertDialog.Builder(this)
         .setIcon(R.drawable.ic_launcher)

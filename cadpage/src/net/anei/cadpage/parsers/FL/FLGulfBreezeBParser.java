@@ -14,6 +14,11 @@ public class FLGulfBreezeBParser extends MsgParser {
     super("GULF BREEZE", "FL");
     setFieldList("ADDR APT PLACE X CALL ID UNIT GPS INFO");
   }
+  
+  @Override
+  public String getFilter() {
+    return "FFIRE@gulfbreezefl.gov,noreply@gulfbreezepolice.com";
+  }
 
   private static final Pattern GPS_MARK_PTN = Pattern.compile(" *(?:\\||\\[[ \\(]+\\]) *");
   private static final Pattern STREET_NO_PTN = Pattern.compile("^(\\d+)  +");

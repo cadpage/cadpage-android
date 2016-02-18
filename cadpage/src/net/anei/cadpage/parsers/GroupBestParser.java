@@ -29,6 +29,8 @@ public class GroupBestParser extends GroupBaseParser {
   
   private Date sponsorDate;
   
+  private SplitMsgOptions splitMsgOptions;
+  
   public GroupBestParser(MsgParser ... parsersP) {
     
     // Build the final array of parsers.  eliminating parsers that are aliased
@@ -55,9 +57,11 @@ public class GroupBestParser extends GroupBaseParser {
     
     // Group parser is sponsored if all of it subparsers are sponsored
     // If all subparsers are sponsored, sponsor date is the earliest subparser sponsor date
+    splitMsgOptions = null;
     sponsor = null;
     sponsorDate = null;
     for (MsgParser parser : parsers) {
+      if (splitMsgOptions == null) splitMsgOptions = parser.getActive911SplitMsgOptions();
       String pSponsor = parser.getSponsor();
       if (pSponsor == null) {
         sponsor = null;
@@ -164,11 +168,6 @@ public class GroupBestParser extends GroupBaseParser {
     // add it to this list
     if (parser != null) parserList.add(parser);
   }
-  
-  @Override
-  protected void addParser(MsgParser parser) {
-    super.addParser(parser);
-  }
 
   private String merge(String oldDefault, String newDefault) {
     if (oldDefault == null) return newDefault;
@@ -238,5 +237,8 @@ public class GroupBestParser extends GroupBaseParser {
     return sponsorDate;
   }
   
-  
+  @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return splitMsgOptions;
+  }
 }

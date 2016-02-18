@@ -1,75 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01292016</string>
+  <string name="release_date">02182016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-v1.9.05.04\n
+v1.9.05.12\n
 Location Fixes:\n
-Warren County, TN\n
-Lufkin, TX\n
-New Zealand\n
+St Joseph County, IN\n
+Shaker Heights, OH\n
+Campbell County, VA\n
+\n
+v1.9.05.11\n
+Location Fixes:\n
+Anderson County, KY\n
 \n
 General Fixes:\n
-For direct pages where no dispatch time is available, Cadpage will report the time 
-alert was received by the paging service rather than the time the alert was received
-by Cadpage.\n
+Dispatch time was not displaying correctly in Swedish language.\n
+Problems recognizing the correct message format for several Active911 format codes.\n
 \n
-v1.9.05.03\n
+v1.9.05.10\n
 Location Fixes:\n
-Placer County, CA\n
-Chautauqua County, NY\n
+Stamford, CT\n
+Marion County, IN\n
+Newton County, MO\n
+Oneida County, NY\n
+Lucas County, OH\n
+Franklin County, PA\n
+Collin County, TX\n
+\n
+v1.9.05.09\n
+New Locations:\n
+Danville, VA\n
+\n
+Location Fixes:\n
+Collier County, FL\n
+Auglaize County, OH\n
 Stark County, OH\n
-Chittenden County, VT\n
+Clarion County, PA\n
+Columbia County, PA\n
 \n
-v1.9.05.02\n
-New Locations:\n
-Jefferson County, AL (alt)\n
-Russell County, Al\n
-Clinton County, IL\n
-Rockcastle County, KY\n
-Kalamazoo County, MI\n
-Radford, VA\n
-Strathcona County, AB, Canada\n
-\n
-Location Fixes:\n
-Northwest Public Safety, CT\n
-McHenry County, IL\n
-Prince Georges County, MD\n
-Washington County, MO\n
-Albany County, NY (alt)\n
-Macon County, NC\n
-Mercer County, OH\n
-\n
-v1.9.05.01\n
-Location Fixes:\n
-Atlantic County, NJ\n
-Rockland County, NY\n
-Wilson County, NC\n
-Anderson County, SC\n
-Bedford County, VA\n
-Annapolis County, NS, Canada\n
-\n
-General Fixes:\n
-Changed version numbering so that the automatic change history popup will only
-be displayed when something significant has changed.\n
-\n
-Fixed problem displaying setting values since Android 5.0.\n
-\n
-v1.9.05\n
-New Locations:\n
-Montgomery County, IL\n
-Carroll County, KY (alt)\n
-Avoyelles Parish, LA\n
-Ottawa County, MI\n
-Wasaeca County, MN\n
-Benton County, MO\n
-Dallas County, TX (alt)\n
-\n
-Location Fixes:\n
-Klamath County, OR\n
-Hunt County, TX\n
-Novia Scotia, Canada
+v1.9.05.08\n
+Fixed crash introduced in last release reparse message logic
   </string>
 </resources>
   

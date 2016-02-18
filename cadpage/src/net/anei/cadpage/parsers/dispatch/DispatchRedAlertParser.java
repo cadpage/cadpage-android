@@ -87,7 +87,7 @@ public class DispatchRedAlertParser extends SmartAddressParser {
       data.strSupp = append(data.strSupp, " / ", info);
     } else {
       sAddress = stripFieldStart(sAddress, "intersection of ");
-      pt = sAddress.indexOf(",");
+      pt = sAddress.lastIndexOf(",");
       if (pt >= 0) {
         data.strCity = sAddress.substring(pt+1).trim();
         sAddress = sAddress.substring(0,pt).trim();

@@ -1,7 +1,7 @@
 cnpxntr arg.narv.pnqcntr.cnefref.IN;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
-vzcbeg arg.narv.pnqcntr.cnefref.IN.INNyorzneyrPbhaglCnefre;
+vzcbeg arg.narv.pnqcntr.cnefref.IN.INNyorezneyrPbhaglCnefre;
 
 vzcbeg bet.whavg.Grfg;
 
@@ -734,7 +734,7 @@ FPBGGFIVYY CEV: 2 SNS140624006262 GLC: NYNEZ2 NPGVINGVBA NQ: 4818 VEVFU EQ PGL: 
 choyvp pynff INNyorzneyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp INNyorzneyrPbhaglCnefreGrfg() {
-    frgCnefre(arj INNyorzneyrPbhaglCnefre(), "NYORZNEYR PBHAGL", "IN");
+    frgCnefre(arj INNyorezneyrPbhaglCnefre(), "NYOREZNEYR PBHAGL", "IN");
   }
 
   @Grfg

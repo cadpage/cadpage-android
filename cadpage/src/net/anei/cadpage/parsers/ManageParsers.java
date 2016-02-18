@@ -99,16 +99,18 @@ public class ManageParsers {
   private String getParserClassname(String location) {
     
     String pkg = null;
-    if (location.startsWith("ZCA")) {
-      pkg = location.substring(0,5);
-    } else if (location.startsWith("Z")) {
-      pkg = location.substring(0,3);
-    } else if (Character.isUpperCase(location.charAt(1))) {
-      pkg = location.substring(0,2);
-    } else if (location.startsWith("Dispatch")) {
-      pkg = "dispatch";
-    } else if (location.startsWith("General") || location.startsWith("Standard")) {
-      pkg = "general";
+    if (location.length() >= 3) {
+      if (location.startsWith("ZCA")) {
+        pkg = location.substring(0,5);
+      } else if (location.startsWith("Z")) {
+        pkg = location.substring(0,3);
+      } else if (Character.isUpperCase(location.charAt(1))) {
+        pkg = location.substring(0,2);
+      } else if (location.startsWith("Dispatch")) {
+        pkg = "dispatch";
+      } else if (location.startsWith("General") || location.startsWith("Standard")) {
+        pkg = "general";
+      }
     }
     StringBuffer sb = new StringBuffer();
     sb.append(this.getClass().getPackage().getName());
@@ -201,8 +203,11 @@ public class ManageParsers {
         "NVWinnemuccaCounty", "NVHumboldtCounty",        // 01/17/2015
         "VAGraysonCounty",    "VAGalax",                 // 01/17/2015
         "NCHertfordCountyA",  "NCHertfordCountyB",       // 06/30/2015
-        "CARocklin",          "CAPlacerCounty"           // 09/07/2015
-        
+        "CARocklin",          "CAPlacerCounty",          // 09/07/2015
+        "CAHaywardCounty",    "CAHayward",               // 02/16/2016
+        "KYRockcastleCounty", "KYRockCastleCounty",
+        "OHLimaCounty",       "OHLima",
+        "VAAlbemarleCounty",  "VAAlbermarleCounty"
   });
 
 }

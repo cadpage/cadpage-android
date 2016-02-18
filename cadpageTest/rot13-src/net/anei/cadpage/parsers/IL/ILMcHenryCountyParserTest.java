@@ -227,6 +227,7 @@ Ntrapl anzr: Jbbqfgbpx Sver Erfphr
 Ybpngvba: Jbbqfgbpx, VY, Havgrq Fgngrf
 Fraqre: <QbAbgErcyl@zprgfo.bet>
 
+{JQSQ Qvfcngpu}#\e\aGlcr: NZO\e\aBPN : 1600293\e\aQngr: 1/25/2016 17:33:46\e\aYbpn: 14208 CREXVAF EQ\e\aPvgl: JBBQFGBPX\e\aQvfg: 215\e\aANE: [01/25/2016 17:40:04 : cbf28 : JQ ZPXRAQEL]\e\a** RZQ Pnfr Pbzcyrgr **\e\aQrgrezvanag: Pynzzl be pbyq fjrngf\e\a\e\a[01/25/2016 17:37:11 : cbf28 : JQ ZPXRAQEL]\e\aRZQ Hetrag Zrffntr: Gur cngvrag whfg gbbx nfcveva cre nhgubevmrq cebgbpby.\e\a\e\a[01/25/2016 17:36:17 : cbf28 : JQ ZPXRAQEL]\e\a** RZQ Xrl Dhrfgvbaf Svavfurq **\e\aQrgrezvanag: Pynzzl be pbyq fjrngf\e\aXrl Dhrfgvbaf: \e\a5. Ur unf abg unq n urneg nggnpx be natvan (urneg cnvaf) orsber.\e\a6. Ur gbbx n cerfpevorq zrqvpngvba va gur cnfg 12 uef: OC ZRQF\e\a\e\a[01/25/2016 17:35:37 : cbf28 : JQ ZPXRAQEL]\e\a** RZQ Erpbzzraqrq Qvfcngpu **\e\aErfcbafr Grkg: NZO\e\aQvfcngpu Yriry: 10Q04\e\aPNQ Vapvqrag Pbqr: NZO\e\aQrgrezvanag: Pynzzl be pbyq fjrngf\e\aXrl Dhrfgvbaf: \e\a1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).\e\a2. Ur vf abg oernguvat abeznyyl.\e\a3. Ur qbrf abg unir nal qvssvphygl fcrnxvat orgjrra oernguf.\e\a4. Ur vf pynzzl.\e\a\e\a[01/25/2016 17:35:16 : cbf28 : JQ ZPXRAQEL]\e\a** RZQ Pnfr Ragel Svavfurq **\e\aPuvrs Pbzcynvag Ahzore: 10\e\a4 Pbzznaqzragf: 58-lrne-byq, Znyr, Pbafpvbhf, Oernguvat.\e\aPuvrs Pbzcynvag: Purfg Cnva / Purfg Qvfpbzsbeg (Aba-Genhzngvp)\e\aCeboyrz Fgngrzrag: ONPX NAQ NEZ CNVA\e\a\e\a[01/25/2016 17:34:11 : cbf28 : JQ ZPXRAQEL]\e\aYnaqznex: ANAPL FURCUREQ CUBGB\e\aONPX NAQ Y NEZ
 {JQSQ Qvfcngpu} #\aGlcr: GN\aBPN : 1600251\aQngr: 1/21/2016 17:17:19\aYbpn: 3000 ENSSRY EQ\aPvgl: JBBQFGBPX\aQvfg: 312\aANE: [01/21/2016 17:18:05 : cbf28 : JQ TNYYNTURE]\aYnaqznex: JBBQFGBPX ABEGU UF\a#3708
 {JQSQ Qvfcngpu} #\aGlcr: NZO\aBPN : 1600250\aQngr: 1/21/2016 16:37:06\aYbpn: 2700 OENUZF YA\aPvgl: JBBQFGBPX\aQvfg: 312\aANE: [01/21/2016 16:37:30 : cbf27 : JQ UNIRAF]\a[Pnyyf 20160014616,20160014617 ner eryngrq.]\aYnaqznex: ,
 {JQSQ Qvfcngpu} #\aGlcr: NZO\aBPN : 1600249\aQngr: 1/21/2016 14:49:53\aYbpn: 554 JNFUVATGBA\aPvgl: JBBQFGBPX\aANE: [01/21/2016 14:51:52 : cbf28 : JQ XNEBYRJVPM]\a** RZQ Xrl Dhrfgvbaf Svavfurq **\aQrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF\aXrl Dhrfgvbaf: \a5. Ur unf n cerfpevorq vaunyre.\a6. Ur unf hfrq n cerfpevorq vaunyre.\a\a[01/21/2016 14:51:36 : cbf28 : JQ XNEBYRJVPM]\a** RZQ Erpbasvther **\aErfcbafr Grkg: NZO\aQvfcngpu Yriry: 06Q02    Fhssvk: R  PBCQ (Rzculfrzn/Puebavp oebapuvgvf)\aPNQ Vapvqrag Pbqr: NZO\aQrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF\aXrl Dhrfgvbaf: \a3. Ur vf pynzzl.\a4. Ur unf PBCQ (rzculfrzn/puebavp oebapuvgvf).\a\a[01/21/2016 14:51:26 : cbf28 : JQ XNEBYRJVPM]\a** RZQ Erpbzzraqrq Qvfcngpu **\aErfcbafr Grkg: NZO\aQvfcngpu Yriry: 06Q02\aPNQ Vapvqrag Pbqr: NZO\aQrgrezvanag: QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF\aXrl Dhrfgvbaf: \a1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).\a2. Ur unf qvssvphygl fcrnxvat orgjrra oernguf.\a\a[01/21/2016 14:51:12 : cbf28 : JQ XNEBYRJVPM]\a** RZQ Pnfr Ragel Svavfurq **\aPuvrs Pbzcynvag Ahzore: 6\a4 Pbzznaqzragf: 72-lrne-byq, Traqre haxabja, Pbafpvbhf, Oernguvat.\aPuvrs Pbzcynvag: Oernguvat Ceboyrzf\aCeboyrz Fgngrzrag: QVSS OERNGUVAT\a\a[01/21/2016 14:49:56 : cbf28 : JQ XNEBYRJVPM]\a[Pnyyf 20160014521,20160014522 ner eryngrq.]
@@ -2889,6 +2890,62 @@ choyvp pynff VYZpUraelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgJbbqfgbpxSverErfphr() {
+
+    qbGrfg("K1",
+        "{JQSQ Qvfcngpu}#\e\a" +
+        "Glcr: NZO\e\a" +
+        "BPN : 1600293\e\a" +
+        "Qngr: 1/25/2016 17:33:46\e\a" +
+        "Ybpn: 14208 CREXVAF EQ\e\a" +
+        "Pvgl: JBBQFGBPX\e\a" +
+        "Qvfg: 215\e\a" +
+        "ANE: [01/25/2016 17:40:04 : cbf28 : JQ ZPXRAQEL]\e\a" +
+        "** RZQ Pnfr Pbzcyrgr **\e\a" +
+        "Qrgrezvanag: Pynzzl be pbyq fjrngf\e\a" +
+        "\e\a" +
+        "[01/25/2016 17:37:11 : cbf28 : JQ ZPXRAQEL]\e\a" +
+        "RZQ Hetrag Zrffntr: Gur cngvrag whfg gbbx nfcveva cre nhgubevmrq cebgbpby.\e\a" +
+        "\e\a" +
+        "[01/25/2016 17:36:17 : cbf28 : JQ ZPXRAQEL]\e\a" +
+        "** RZQ Xrl Dhrfgvbaf Svavfurq **\e\a" +
+        "Qrgrezvanag: Pynzzl be pbyq fjrngf\e\a" +
+        "Xrl Dhrfgvbaf: \e\a" +
+        "5. Ur unf abg unq n urneg nggnpx be natvan (urneg cnvaf) orsber.\e\a" +
+        "6. Ur gbbx n cerfpevorq zrqvpngvba va gur cnfg 12 uef: OC ZRQF\e\a" +
+        "\e\a" +
+        "[01/25/2016 17:35:37 : cbf28 : JQ ZPXRAQEL]\e\a" +
+        "** RZQ Erpbzzraqrq Qvfcngpu **\e\a" +
+        "Erfcbafr Grkg: NZO\e\a" +
+        "Qvfcngpu Yriry: 10Q04\e\a" +
+        "PNQ Vapvqrag Pbqr: NZO\e\a" +
+        "Qrgrezvanag: Pynzzl be pbyq fjrngf\e\a" +
+        "Xrl Dhrfgvbaf: \e\a" +
+        "1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).\e\a" +
+        "2. Ur vf abg oernguvat abeznyyl.\e\a" +
+        "3. Ur qbrf abg unir nal qvssvphygl fcrnxvat orgjrra oernguf.\e\a" +
+        "4. Ur vf pynzzl.\e\a" +
+        "\e\a" +
+        "[01/25/2016 17:35:16 : cbf28 : JQ ZPXRAQEL]\e\a" +
+        "** RZQ Pnfr Ragel Svavfurq **\e\a" +
+        "Puvrs Pbzcynvag Ahzore: 10\e\a" +
+        "4 Pbzznaqzragf: 58-lrne-byq, Znyr, Pbafpvbhf, Oernguvat.\e\a" +
+        "Puvrs Pbzcynvag: Purfg Cnva / Purfg Qvfpbzsbeg (Aba-Genhzngvp)\e\a" +
+        "Ceboyrz Fgngrzrag: ONPX NAQ NEZ CNVA\e\a" +
+        "\e\a" +
+        "[01/25/2016 17:34:11 : cbf28 : JQ ZPXRAQEL]\e\a" +
+        "Ynaqznex: ANAPL FURCUREQ CUBGB\e\a" +
+        "ONPX NAQ Y NEZ",
+
+        "FEP:JQSQ",
+        "PNYY:NZO",
+        "VQ:1600293",
+        "QNGR:1/25/2016",
+        "GVZR:17:33:46",
+        "NQQE:14208 CREXVAF EQ",
+        "PVGL:JBBQFGBPX",
+        "ZNC:215",
+        "VASB:Qrgrezvanag: Pynzzl be pbyq fjrngf\aRZQ Hetrag Zrffntr: Gur cngvrag whfg gbbx nfcveva cre nhgubevmrq cebgbpby.\aQrgrezvanag: Pynzzl be pbyq fjrngf\aXrl Dhrfgvbaf:\a5. Ur unf abg unq n urneg nggnpx be natvan (urneg cnvaf) orsber.\a6. Ur gbbx n cerfpevorq zrqvpngvba va gur cnfg 12 uef: OC ZRQF\aErfcbafr Grkg: NZO\aQvfcngpu Yriry: 10Q04\aPNQ Vapvqrag Pbqr: NZO\aQrgrezvanag: Pynzzl be pbyq fjrngf\aXrl Dhrfgvbaf:\a1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).\a2. Ur vf abg oernguvat abeznyyl.\a3. Ur qbrf abg unir nal qvssvphygl fcrnxvat orgjrra oernguf.\a4. Ur vf pynzzl.\aPuvrs Pbzcynvag Ahzore: 10\a4 Pbzznaqzragf: 58-lrne-byq, Znyr, Pbafpvbhf, Oernguvat.\aPuvrs Pbzcynvag: Purfg Cnva / Purfg Qvfpbzsbeg (Aba-Genhzngvp)\aCeboyrz Fgngrzrag: ONPX NAQ NEZ CNVA\aONPX NAQ Y NEZ",
+        "CYNPR:ANAPL FURCUREQ CUBGB");
 
     qbGrfg("G1",
         "{JQSQ Qvfcngpu} #\a" +

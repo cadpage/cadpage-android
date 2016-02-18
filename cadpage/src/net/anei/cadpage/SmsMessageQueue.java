@@ -99,6 +99,18 @@ public class SmsMessageQueue implements Serializable {
     }
     if (change) notifyDataChange();
   }
+  
+  /**
+   * Attempt to reparse any messages parsed with general parsers
+   * after the location parser setting has been changed
+   */
+  public void reparseGeneral() {
+    boolean change = false;
+    for (SmsMmsMessage msg : queue) {
+      if (msg.reparseGeneral()) change = true;
+    }
+    if (change) notifyDataChange();
+  }
 
   
   /**

@@ -187,9 +187,10 @@ public class DeveloperToolsManager {
         
       case 14:    // Build test message
         SmsMmsMessage message = 
-          new SmsMmsMessage("CodeMessaging", "Test Message", "The SKy is falling", System.currentTimeMillis(),
-                            "Cadpage", "CodeMessaging", "ARNL2/5/5", "https://cadpageweb.appspot.com/lookup", 
-                            null, null, "http://peak.org");
+          new SmsMmsMessage("GCM", "TEAT664", "111-MIN 5 TONY ST HENDERSON AUCKLAND. (XStr CENTRAL PARK DR/) .RETAINING WALL ON FIRE . (x-401538144 y-227185845) #F2010720", 
+                            System.currentTimeMillis(), "Vendor/NewZealandPager/Revised,Utility/General/Default", "Active911", "AL30/8/10", 
+                            "https://access.active911.com/interface/cadpage_api.php?q=anxgGg4OSW", 
+                            null, null, null);
         
         // Add to log buffer
         if (!SmsMsgLogBuffer.getInstance().add(message)) return;

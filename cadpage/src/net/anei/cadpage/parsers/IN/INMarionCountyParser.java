@@ -154,6 +154,7 @@ public class INMarionCountyParser extends MsgParser {
       "DIFF BREATHING",
       "DOUBL RES/ENTRAP",
       "DOUBLE RESI/WRK",
+      "DOUBLE RESIDENCE",
       "DROWN/RESCUE",
       "ELEVATOR",
       "EMER TRANSFER",
@@ -251,7 +252,6 @@ public class INMarionCountyParser extends MsgParser {
   );
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-
       "AIR", "Indianapolis",
       "AVN", "Avon",
       "BBG", "Brownsburg",
@@ -266,7 +266,9 @@ public class INMarionCountyParser extends MsgParser {
       "IND", "Indianapolis",
       "LAW", "Lawrence",
       "LIZ", "Lizton",
+      "MOR", "Mooresville",
       "MOV", "Monrovia",
+      "PIT", "Pittsboro",
       "PLF", "Plainfield",
 
       "DEC", "Decatur TWP",
@@ -280,8 +282,5 @@ public class INMarionCountyParser extends MsgParser {
       "WAY", "Wayne TWP",
       
       "HAM", "Hamilton County"
-      
-
-      
   });
 }

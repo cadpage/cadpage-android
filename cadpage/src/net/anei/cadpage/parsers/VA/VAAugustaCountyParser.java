@@ -37,7 +37,12 @@ public class VAAugustaCountyParser extends DispatchOSSIParser {
   }
 
   @Override
-  public boolean parseMsg(String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
+    
+    // This may bite us someday, but it is a convenient way to identify
+    // VAWaynesboroB calls
+    if (subject.length() > 0) return false;
+    
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
     body = DELIM_PTN.matcher(body).replaceAll(";");

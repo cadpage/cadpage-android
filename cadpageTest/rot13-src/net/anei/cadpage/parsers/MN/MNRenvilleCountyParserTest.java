@@ -553,6 +553,7 @@ choyvp pynff ZAEraivyyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Nzohynapr Pnyy",
         "CYNPR:Znva Fgerrg Znexrg",
         "NQQE:[Znva Fg Aerrg Znexrg] 123 Znva Fg A",
+        "ZNQQE:123 Znva Fg A",
         "PVGL:Ohssnyb Ynxr",
         "VQ:15009491",
         "CEV:1;VASB: Cbffvoyr Qvnorgvp Ernpgvba");

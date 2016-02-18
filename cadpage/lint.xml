@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lint>
     <issue id="DefaultLocale" severity="ignore" />
+    <issue id="HardcodedDebugMode" severity="warning" />
     <issue id="SimpleDateFormat" severity="ignore" />
 </lint>

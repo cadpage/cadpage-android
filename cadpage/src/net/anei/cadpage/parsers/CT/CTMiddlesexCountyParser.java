@@ -130,7 +130,7 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
       "HD", "HADDAM",
       "HE", "HEBRON",
       "HF", "HARTFORD",
-      "HN", "HAMDEN",
+      "HN", "HAMDEN NECK",
       "KW", "KILLINGWORTH",
       "LI", "LONG ISLAND",
       "LY", "LYME",
