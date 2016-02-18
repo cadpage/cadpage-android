@@ -546,6 +546,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
       
       if (field.startsWith("geo:")) {
         field = setGPSLoc(field.substring(4).trim(), data);
+        return;
       }
       
       if (data.strCall.length() == 0) {

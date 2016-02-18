@@ -1144,6 +1144,7 @@ class Active911Vendor extends Vendor {
       "US/VA/AugustaCounty",              "VAAugustaCounty",
       "US/VA/BedfordCounty",              "VABedfordCounty",
       "US/VA/BrunswickCounty",            "VABrunswickCounty",
+      "US/VA/CampbellCounty",             "VACampbellCounty",
       "US/VA/CarolineCounty",             "VACarolineCounty",
       "US/VA/CityofArlington",            "VAArlingtonCounty",
       "US/VA/CityofFredericksburg",       "VAFredericksburg",

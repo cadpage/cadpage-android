@@ -10,41 +10,40 @@ Funxre Urvtugf, BU
 Pbagnpg: Npgvir911
 Ntrapl anzr: Funxre Urvtugf SQ
 Ybpngvba: Funxre Urvtugf, BU, Havgrq Fgngrf
-Fraqre: pnq@vnss516.bet
 
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000895\aPNYY: ZRQ2\aYNGVGHQR: 41.4644556654737\aYBATVGHQR: -81.5477832238858\aNQQERFF: 18720 Punteva Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44122\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/19/2015 9:41:57 NZ Hfre: zqbjqryy Aneengvir: R911 Vasb - Pynff bs Freivpr: OHF Hapregnvagl:  Pbasvqrapr: Qngr: 3/19/2015 9:42:10 NZ Hfre: zqbjqryy Aneengvir: s purfg cnva havg 2    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000894\aPNYY: ZRQ2\aYNGVGHQR: 41.46634920272\aYBATVGHQR: -81.5632365628138\aNQQERFF: 16650 Ina Nxra Oyiq;205\aPVGL: Funxre Urvtugf\aMVC: 44120\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 11:15:24 CZ Hfre: gpyncc Aneengvir: yfn zrq nynez    qvss   oernguvat   cbff urneg ceboyrzf    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000893\aPNYY: ZRQ2\aYNGVGHQR: 41.4623380967712\aYBATVGHQR: -81.5600757146182\aNQQERFF: 3559 Evrqunz Eq\aPVGL: Funxre Urvtugf\aMVC: 44120\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 9:41:26 CZ Hfre: zsnvgu Aneengvir: 19 le byq znyr srryvat jrnx naqr qvmml srirevfu    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000892\aPNYY: ZRQ2\aYNGVGHQR: 41.4668160263163\aYBATVGHQR: -81.5632195112196\aNQQERFF: 16825 Ina Nxra Oyiq;505\aPVGL: Funxre Urvtugf\aMVC: 44120\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 8:30:03 CZ Hfre: ouryjvt Aneengvir: 50 LBZ NYGRERQ ZRAGNY FGNGHF VF IVBYRAG / CQ RAEBHGR Qngr: 3/18/2015 8:30:14 CZ Hfre: ouryjvt Aneengvir: FGEHPX ZBGURE VA GUR URNQ JVGU N PNA Qngr: 3/18/2015 8:44:02 CZ Hfre: ouryjvt Aneengvir: FDHNQ ABG ARRQRQ OL CBYVPR    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000892\aPNYY: ZRQ2\aYNGVGHQR: 41.4668160263163\aYBATVGHQR: -81.5632195112196\aNQQERFF: 16825 Ina Nxra Oyiq;505\aPVGL: Funxre Urvtugf\aMVC: 44120\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 8:30:03 CZ Hfre: ouryjvt Aneengvir: 50 LBZ NYGRERQ ZRAGNY FGNGHF VF IVBYRAG / CQ RAEBHGR Qngr: 3/18/2015 8:30:14 CZ Hfre: ouryjvt Aneengvir: FGEHPX ZBGURE VA GUR URNQ JVGU N PNA    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000892\aPNYY: ZRQ2\aYNGVGHQR: 41.4668160263163\aYBATVGHQR: -81.5632195112196\aNQQERFF: 16825 Ina Nxra Oyiq;505\aPVGL: Funxre Urvtugf\aMVC: 44120\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 8:30:03 CZ Hfre: ouryjvt Aneengvir: 50 LBZ NYGRERQ ZRAGNY FGNGHF VF IVBYRAG / CQ RAEBHGR    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000890\aPNYY: ZRQ2\aYNGVGHQR: 41.4645076662573\aYBATVGHQR: -81.5717480283287\aNQQERFF: 15615 Punteva Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44120\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 6:53:47 CZ Hfre: ouryjvt Aneengvir: RYQREYL ZNYR URNQ VAW SEBZ N SNYY Qngr: 3/18/2015 6:53:59 CZ Hfre: ouryjvt Aneengvir: RAGRE PUHEPU BSS BS GUR ZRAYB FVQR    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000891\aPNYY: ZRQ3\aYNGVGHQR: 41.4677662312015\aYBATVGHQR: -81.5364767180296\aNQQERFF: 3330 Jneerafivyyr Pragre Eq;608\aPVGL: Funxre Urvtugf\aMVC: 44122\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 7:22:13 CZ Hfre: zsnvgu Aneengvir: R911 Vasb - Pynff bs Freivpr: ERF Fcrpvny Erfcbafr Vasb: NCG 608 Hapregnvagl:  Pbasvqrapr: Qngr: 3/18/2015 7:23:52 CZ Hfre: zsnvgu Aneengvir: 84 le byq znyr unf snyyra hanoyr gb trg hc uvfgbel bs Cnexvafba'f    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000888\aPNYY: ZRQ2\aYNGVGHQR: 41.4644556654737\aYBATVGHQR: -81.5477832238858\aNQQERFF: 18720 Punteva Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44122\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 4:02:42 CZ Hfre: zsnvgu Aneengvir: R911 Vasb - Pynff bs Freivpr: OHF Hapregnvagl:  Pbasvqrapr: Qngr: 3/18/2015 4:05:26 CZ Hfre: zsnvgu Aneengvir: 73 le byq znyr nygrerq zragny fgnghf Qngr: 3/18/2015 4:05:44 CZ Hfre: zsnvgu Aneengvir: 215 erdhrfgrq n svefg erfcbaqre gurl jrer ergheavat sebz ynfg pnyy    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000889\aPNYY: NV\aYNGVGHQR: 41.4893452127227\aYBATVGHQR: -81.5883089109612\aNQQERFF: 2540 Zberynaq Oyiq;210\aPVGL: Funxre Urvtugf\aMVC: 44120\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 4:22:23 CZ Hfre: ouryjvt Aneengvir: R911 Vasb - Pynff bs Freivpr: IBV Fcrpvny Erfcbafr Vasb: NCG 210 Hapregnvagl:  Pbasvqrapr: Qngr: 3/18/2015 4:22:51 CZ Hfre: ouryjvt Aneengvir: 82 LBS YVSG NFFVFG SEBZ GUR ONGU GHO    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000888\aPNYY: ZRQ2\aYNGVGHQR: 41.4644556654737\aYBATVGHQR: -81.5477832238858\aNQQERFF: 18720 Punteva Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44122\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 4:02:42 CZ Hfre: zsnvgu Aneengvir: R911 Vasb - Pynff bs Freivpr: OHF Hapregnvagl:  Pbasvqrapr:    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000887\aPNYY: ZRQ2\aYNGVGHQR: 41.4644556654737\aYBATVGHQR: -81.5477832238858\aNQQERFF: 18720 Punteva Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44122\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 3:15:03 CZ Hfre: ouryjvt Aneengvir: R911 Vasb - Pynff bs Freivpr: OHF Hapregnvagl:  Pbasvqrapr: Qngr: 3/18/2015 3:15:15 CZ Hfre: ouryjvt Aneengvir: 52 LBZ Qngr: 3/18/2015 3:15:31 CZ Hfre: ouryjvt Aneengvir: OYRRQVAT SEBZ NPPRFF FVGR, YBPNGRQ BA HAVG 2    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000886\aPNYY: VAI\aYNGVGHQR: 41.4643429501065\aYBATVGHQR: -81.5717793307625\aNQQERFF: 15610 Punteva Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44120\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 9:21:36 NZ Hfre: xsevqnl Aneengvir: RKCYBFVIR ZNGREVNY SBHAQ VA N UBHFR Qngr: 3/18/2015 9:34:31 NZ Hfre: xsevqnl Aneengvir: PBAGNPG PUNTEVA FBHGURNFG UNM-ZNG ERFCBAFR GRNZ SBE 20 OBGGYRF HARKCYBQRQ OBGGYR OBZOF VA GENFU PNA Qngr: 3/18/2015 9:35:09 NZ Hfre: xsevqnl Aneengvir: ERD PBAGEBY BSSVPRE PBAFHYG Qngr: 3/18/2015 9:35:19 NZ Hfre: xsevqnl Aneengvir: NQZVA ABGVSVRQ OL HAVGF Qngr: 3/18/2015 10:05:05 NZ Hfre: dfvzf Aneengvir: 20 ZVA PURPX BX Qngr: 3/18/2015 10:05:14 NZ Hfre: dfvzf Aneengvir: UNMZNG GRNZ RAEBHGR Qngr: 3/18/2015 10:05:51 NZ Hfre: dfvzf Aneengvir: CBFFVOYR ZRGU YNO Qngr: 3/18/2015 10:27:12 NZ Hfre: dfvzf Aneengvir: PUNTEVA FR UNMZNG GRNZ BA FPRAR    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000886\aPNYY: VAI\aYNGVGHQR: 41.4643429501065\aYBATVGHQR: -81.5717793307625\aNQQERFF: 15610 Punteva Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44120\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 9:21:36 NZ Hfre: xsevqnl Aneengvir: RKCYBFVIR ZNGREVNY SBHAQ VA N UBHFR    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000884\aPNYY: ZRQ2\aYNGVGHQR: 41.4694333544195\aYBATVGHQR: -81.5763957451157\aNQQERFF: 3318 Fhggba Eq;Hc\aPVGL: Funxre Urvtugf\aMVC: 44120\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 12:22:35 NZ Hfre: gpyncc Aneengvir: 11 LB   CBFF NEZ VAWHEL    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000885\aPNYY: ZRQ2\aYNGVGHQR: 41.4774587186148\aYBATVGHQR: -81.5360310614657\aNQQERFF: 2801 Jneerafivyyr Pragre Eq\aPVGL: Funxre Urvtugf\aMVC: 44122\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 12:41:13 NZ Hfre: gpyncc Aneengvir: HAXABJA ZRQ @ SVER FGNGVBA, ZNYR JNYXVAT NEBHAQ Qngr: 3/18/2015 12:59:15 NZ Hfre: gpyncc Aneengvir: PNYYRQ VA OL FUSQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000885\aPNYY: ZRQ2\aYNGVGHQR: 41.4774587186148\aYBATVGHQR: -81.5360310614657\aNQQERFF: 2801 Jneerafivyyr Pragre Eq\aPVGL: Funxre Urvtugf\aMVC: 44122\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 12:41:13 NZ Hfre: gpyncc Aneengvir: HAXABJA ZRQ @ SVER FGNGVBA, ZNYR JNYXVAT NEBHAQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000883\aPNYY: ZRQ1\aYNGVGHQR: 41.4830005752844\aYBATVGHQR: -81.5749293774939\aNQQERFF: 2758 Cnex Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44120\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 12:12:44 NZ Hfre: gpyncc Aneengvir: HAERFCBAFVIR CREFBA VA PNE, FUCQ R/E    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000883\aPNYY: ZRQ1\aYNGVGHQR: 41.482181\aYBATVGHQR: -81.574835\aNQQERFF:  Cnex Oyiq\aPVGL: Funxre Urvtugf\aMVC: \aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 12:12:44 NZ Hfre: gpyncc Aneengvir: HAERFCBAFVIR CREFBA VA PNE, FUCQ R/E    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000883\aPNYY: ZRQ1\aYNGVGHQR: 41.4817870000001\aYBATVGHQR: -81.571744\aNQQERFF:  Cnex Oyiq\aPVGL: Funxre Urvtugf\aMVC: \aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000882\aPNYY: ZIN\aYNGVGHQR: 41.4736379758693\aYBATVGHQR: -81.5165297617345\aNQQERFF: 23100 Jbbqynaq Eq\aPVGL: Funxre Urvtugf\aMVC: 44122\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 8:27:49 CZ Hfre: ouryjvt Aneengvir: urnq ba pbyyvfba hax rknpg vawf cre cq Qngr: 3/17/2015 8:30:39 CZ Hfre: ouryjvt Aneengvir: cq ba fprar nqi ba terra eq abegu bs pnagroreel, 1 cngvrag jvgu purfg cnvaf cbff qhr gb nve ont qrcyblzrag Qngr: 3/17/2015 8:35:40 CZ Hfre: ouryjvt Aneengvir: 3134 terra ivn punteva Qngr: 3/17/2015 8:47:29 CZ Hfre: qqneqra Aneengvir: VA FDHNQ JVGU CG Qngr: 3/17/2015 8:52:11 CZ Hfre: ouryjvt Aneengvir: 246 cngvrag qrpyvarq genafcbeg Qngr: 3/17/2015 8:52:17 CZ Hfre: ouryjvt Aneengvir: 246 ninvy ba fprar    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000882\aPNYY: ZIN\aYNGVGHQR: 41.4736379758693\aYBATVGHQR: -81.5165297617345\aNQQERFF: 23100 Jbbqynaq Eq\aPVGL: Funxre Urvtugf\aMVC: 44122\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 8:27:49 CZ Hfre: ouryjvt Aneengvir: urnq ba pbyyvfba hax rknpg vawf cre cq Qngr: 3/17/2015 8:30:39 CZ Hfre: ouryjvt Aneengvir: cq ba fprar nqi ba terra eq abegu bs pnagroreel, 1 cngvrag jvgu purfg cnvaf cbff qhr gb nve ont qrcyblzrag Qngr: 3/17/2015 8:35:40 CZ Hfre: ouryjvt Aneengvir: 3134 terra ivn punteva Qngr: 3/17/2015 8:47:29 CZ Hfre: qqneqra Aneengvir: VA FDHNQ JVGU CG    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000882\aPNYY: ZIN\aYNGVGHQR: 41.4725608873497\aYBATVGHQR: -81.5163123805977\aNQQERFF: 3141 Terra Eq\aPVGL: Funxre Urvtugf\aMVC: 44122\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 8:27:49 CZ Hfre: ouryjvt Aneengvir: urnq ba pbyyvfba hax rknpg vawf cre cq Qngr: 3/17/2015 8:30:39 CZ Hfre: ouryjvt Aneengvir: cq ba fprar nqi ba terra eq abegu bs pnagroreel, 1 cngvrag jvgu purfg cnvaf cbff qhr gb nve ont qrcyblzrag Qngr: 3/17/2015 8:35:40 CZ Hfre: ouryjvt Aneengvir: 3134 terra ivn punteva    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000882\aPNYY: ZIN\aYNGVGHQR: 41.4725608873497\aYBATVGHQR: -81.5163123805977\aNQQERFF: 3141 Terra Eq\aPVGL: Funxre Urvtugf\aMVC: 44122\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 8:27:49 CZ Hfre: ouryjvt Aneengvir: urnq ba pbyyvfba hax rknpg vawf cre cq Qngr: 3/17/2015 8:30:39 CZ Hfre: ouryjvt Aneengvir: cq ba fprar nqi ba terra eq abegu bs pnagroreel, 1 cngvrag jvgu purfg cnvaf cbff qhr gb nve ont qrcyblzrag    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000882\aPNYY: ZIN\aYNGVGHQR: 41.4737200000001\aYBATVGHQR: -81.516814\aNQQERFF:  Terra Eq\aPVGL: Funxre Urvtugf\aMVC: \aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 8:27:49 CZ Hfre: ouryjvt Aneengvir: urnq ba pbyyvfba hax rknpg vawf cre cq Qngr: 3/17/2015 8:30:39 CZ Hfre: ouryjvt Aneengvir: cq ba fprar nqi ba terra eq abegu bs pnagroreel, 1 cngvrag jvgu purfg cnvaf cbff qhr gb nve ont qrcyblzrag    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000882\aPNYY: ZIN\aYNGVGHQR: 41.4737200000001\aYBATVGHQR: -81.516814\aNQQERFF:  Terra Eq\aPVGL: Funxre Urvtugf\aMVC: \aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 8:27:49 CZ Hfre: ouryjvt Aneengvir: urnq ba pbyyvfba hax rknpg vawf cre cq    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000882\aPNYY: ZIN\aYNGVGHQR: 41.4737200000001\aYBATVGHQR: -81.516814\aNQQERFF:  Terra Eq\aPVGL: Funxre Urvtugf\aMVC: \aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000881\aPNYY: ZNZRQ2\aYNGVGHQR: 41.4865916275887\aYBATVGHQR: -81.5256573110974\aNQQERFF: 22001 Snvezbhag Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44118\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 6:00:58 CZ Hfre: qqneqra Aneengvir: 12 L Z VA ARRQ BS N CFLPU RINY BA FPRAR JVGU GUR QBPGBE Qngr: 3/17/2015 6:01:53 CZ Hfre: ouryjvt Aneengvir: FUCQ JVYY OR RAEBHGR JURA GURL NER PYRNE BS GUR CQ NYNEZ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000880\aPNYY: NYY\aYNGVGHQR: 41.472700193583\aYBATVGHQR: -81.5278575528974\aNQQERFF: 3175 Oryibve Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44122\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 5:43:10 CZ Hfre: qqneqra Aneengvir: TRARENY SVER NYNEZ Qngr: 3/17/2015 5:43:26 CZ Hfre: qqneqra Aneengvir: 2 FGBEL ERFVQRAGVNY ABGUVAT FUBJVAT Qngr: 3/17/2015 5:45:22 CZ Hfre: ouryjvt Aneengvir: CBYVPR NQIVFRQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000881\aPNYY: ZNZRQ2\aYNGVGHQR: 41.4865916275887\aYBATVGHQR: -81.5256573110974\aNQQERFF: 22001 Snvezbhag Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44118\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000880\aPNYY: NYY\aYNGVGHQR: 41.472700193583\aYBATVGHQR: -81.5278575528974\aNQQERFF: 3175 Oryibve Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44122\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 5:43:10 CZ Hfre: qqneqra Aneengvir: TRARENY SVER NYNEZ Qngr: 3/17/2015 5:43:26 CZ Hfre: qqneqra Aneengvir: 2 FGBEL ERFVQRAGVNY ABGUVAT FUBJVAT    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000879\aPNYY: ZRQ2\aYNGVGHQR: 41.4793304416624\aYBATVGHQR: -81.5196177400667\aNQQERFF: 22775 Funxre Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44122\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 4:43:31 CZ Hfre: ouryjvt Aneengvir: CQ BHG JVGU UVTUYL VAGBK 17 LBZ Qngr: 3/17/2015 4:45:15 CZ Hfre: ouryjvt Aneengvir: VA GUR NERN BS GUR 67 OHF YBBC    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
-(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000880\aPNYY: NYY\aYNGVGHQR: 41.472700193583\aYBATVGHQR: -81.5278575528974\aNQQERFF: 3175 Oryibve Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44122\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0478\aPNYY: NYY\aYNGVGHQR: 41.4644146828963\aYBATVGHQR: -81.5632212636566\aNQQERFF: 16800 Punteva Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44120\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 8:46:33 CZ Hfre: gefzvgu Aneengvir: TRA SVER NYNEZ  YBPNGVBA CVMMN UHG PNA VA SEBZ NYNEZ PBZCNAL Qngr: 2/17/2016 8:47:41 CZ Hfre: gqbjaf Aneengvir: 1 FGBEL FGEVC ZNYY ABGUVAT FUBJVAT VAI PBZZNAQ RFGNOYVFURQ Qngr: 2/17/2016 8:49:10 CZ Hfre: gqbjaf Aneengvir: FGNGVBA 2 PNAPRYYRQ CEBOYRZ JVGU NYNEZ FLFGRZ CRE PBZZNAQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0478\aPNYY: NYY\aYNGVGHQR: 41.4644146828963\aYBATVGHQR: -81.5632212636566\aNQQERFF: 16800 Punteva Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44120\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 8:46:33 CZ Hfre: gefzvgu Aneengvir: TRA SVER NYNEZ  YBPNGVBA CVMMN UHG PNA VA SEBZ NYNEZ PBZCNAL Qngr: 2/17/2016 8:47:41 CZ Hfre: gqbjaf Aneengvir: 1 FGBEL FGEVC ZNYY ABGUVAT FUBJVAT VAI PBZZNAQ RFGNOYVFURQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0478\aPNYY: NYY\aYNGVGHQR: 41.4644146828963\aYBATVGHQR: -81.5632212636566\aNQQERFF: 16800 Punteva Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44120\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 8:46:33 CZ Hfre: gefzvgu Aneengvir: TRA SVER NYNEZ  YBPNGVBA CVMMN UHG PNA VA SEBZ NYNEZ PBZCNAL    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0478\aPNYY: NYY\aYNGVGHQR: 41.4644146828963\aYBATVGHQR: -81.5632212636566\aNQQERFF: 16800 Punteva Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44120\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0477\aPNYY: ZRQ2\aYNGVGHQR: 41.4587518065959\aYBATVGHQR: -81.5588847998972\aNQQERFF: 3707 Ninyba Eq\aPVGL: Funxre Urvtugf\aMVC: 44120\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 4:12:04 CZ Hfre: gqbjaf Aneengvir: R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfcbafr Vasb: FUNXRE UG CQ                     FUNXRE UG SQ                     FUNXRE UG SQ Hapregnvagl:  Pbasvqrapr: Qngr: 2/17/2016 4:13:11 CZ Hfre: gqbjaf Aneengvir: 81 LB Z/ ABFR OYRRQ VF BA OYBBQ GUVAAREF    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0477\aPNYY: ZRQ2\aYNGVGHQR: 41.4587518065959\aYBATVGHQR: -81.5588847998972\aNQQERFF: 3707 Ninyba Eq\aPVGL: Funxre Urvtugf\aMVC: 44120\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 4:12:04 CZ Hfre: gqbjaf Aneengvir: R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfcbafr Vasb: FUNXRE UG CQ                     FUNXRE UG SQ                     FUNXRE UG SQ Hapregnvagl:  Pbasvqrapr:    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0476\aPNYY: VAI\aYNGVGHQR: 41.4608854909107\aYBATVGHQR: -81.5578180507121\aNQQERFF: 17408 Ybzbaq Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44120\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 3:50:00 CZ Hfre: gefzvgu Aneengvir: FGENATR FZRYY HAFHER BS JUNG    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0476\aPNYY: VAI\aYNGVGHQR: 41.4608854909107\aYBATVGHQR: -81.5578180507121\aNQQERFF: 17408 Ybzbaq Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44120\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0475\aPNYY: NYY\aYNGVGHQR: 41.4716307767857\aYBATVGHQR: -81.5435913536737\aNQQERFF: 3300 Pbhegynaq Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44122\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 2:25:54 CZ Hfre: JEhffryy Aneengvir: JNGRE SYBJ NYNEZ Qngr: 2/17/2016 2:26:46 CZ Hfre: JEhffryy Aneengvir: FUCQ NQIVFRQ Qngr: 2/17/2016 2:29:33 CZ Hfre: JEhffryy Aneengvir: 216 2 FG PYHOUBHFR AB FUBJ FGEBORF NPGVIR PBZZNAQ VAIRFG Qngr: 2/17/2016 2:30:39 CZ Hfre: JEhffryy Aneengvir: 263 NFFHZVAT PBHEGYNAQ PBZZNAQ Qngr: 2/17/2016 2:32:12 CZ Hfre: JEhffryy Aneengvir: 225 FGNTVAT F JBBQYNAQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0475\aPNYY: NYY\aYNGVGHQR: 41.4716307767857\aYBATVGHQR: -81.5435913536737\aNQQERFF: 3300 Pbhegynaq Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44122\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 2:25:54 CZ Hfre: JEhffryy Aneengvir: JNGRE SYBJ NYNEZ Qngr: 2/17/2016 2:26:46 CZ Hfre: JEhffryy Aneengvir: FUCQ NQIVFRQ Qngr: 2/17/2016 2:29:33 CZ Hfre: JEhffryy Aneengvir: 216 2 FG PYHOUBHFR AB FUBJ FGEBORF NPGVIR PBZZNAQ VAIRFG Qngr: 2/17/2016 2:30:39 CZ Hfre: JEhffryy Aneengvir: 263 NFFHZVAT PBHEGYNAQ PBZZNAQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0475\aPNYY: NYY\aYNGVGHQR: 41.4716307767857\aYBATVGHQR: -81.5435913536737\aNQQERFF: 3300 Pbhegynaq Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44122\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 2:25:54 CZ Hfre: JEhffryy Aneengvir: JNGRE SYBJ NYNEZ Qngr: 2/17/2016 2:26:46 CZ Hfre: JEhffryy Aneengvir: FUCQ NQIVFRQ Qngr: 2/17/2016 2:29:33 CZ Hfre: JEhffryy Aneengvir: 216 2 FG PYHOUBHFR AB FUBJ FGEBORF NPGVIR PBZZNAQ VAIRFG    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0475\aPNYY: NYY\aYNGVGHQR: 41.4716307767857\aYBATVGHQR: -81.5435913536737\aNQQERFF: 3300 Pbhegynaq Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44122\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 2:25:54 CZ Hfre: JEhffryy Aneengvir: JNGRE SYBJ NYNEZ Qngr: 2/17/2016 2:26:46 CZ Hfre: JEhffryy Aneengvir: FUCQ NQIVFRQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0475\aPNYY: NYY\aYNGVGHQR: 41.4716307767857\aYBATVGHQR: -81.5435913536737\aNQQERFF: 3300 Pbhegynaq Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44122\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 2:25:54 CZ Hfre: JEhffryy Aneengvir: JNGRE SYBJ NYNEZ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0475\aPNYY: NYY\aYNGVGHQR: 41.4716307767857\aYBATVGHQR: -81.5435913536737\aNQQERFF: 3300 Pbhegynaq Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44122\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0474\aPNYY: 2AQ NYNEZ/SFG\aYNGVGHQR: 41.5365690113007\aYBATVGHQR: -81.5542905928035\aNQQERFF: 2270 Aboyr Eq;5\aPVGL: Pyrirynaq Urvtugf\aMVC: 44121\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ Qngr: 2/17/2016 1:09:11 CZ Hfre: JEhffryy Aneengvir: 253 2 FG AB FUBJ PBZZNAQ Qngr: 2/17/2016 1:09:31 CZ Hfre: JEhffryy Aneengvir: YSQ NQIVFRQ Qngr: 2/17/2016 1:09:53 CZ Hfre: JEhffryy Aneengvir: PBQR ERQ FRAG Qngr: 2/17/2016 1:10:10 CZ Hfre: JEhffryy Aneengvir: 221 CHZCVAT NCCNENGHF Qngr: 2/17/2016 1:11:04 CZ Hfre: JEhffryy Aneengvir: Z/N RDHVC FGNTR BA ABOYR EQ Qngr: 2/17/2016 1:13:07 CZ Hfre: JEhffryy Aneengvir: RKGVATHVFURQ SVER / FGN 1 PNA UNAQYR Qngr: 2/17/2016 1:33:24 CZ Hfre: xsevqnl Aneengvir: EHA AHZOREF RP 800, FR 432, YLA 0480051, HU 239, FU 474 Qngr: 2/17/2016 1:34:58 CZ Hfre: JEhffryy Aneengvir: PBZZNAQ GREZVANGRQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0474\aPNYY: 2AQ NYNEZ/SFG\aYNGVGHQR: 41.5365690113007\aYBATVGHQR: -81.5542905928035\aNQQERFF: 2270 Aboyr Eq;5\aPVGL: Pyrirynaq Urvtugf\aMVC: 44121\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ Qngr: 2/17/2016 1:09:11 CZ Hfre: JEhffryy Aneengvir: 253 2 FG AB FUBJ PBZZNAQ Qngr: 2/17/2016 1:09:31 CZ Hfre: JEhffryy Aneengvir: YSQ NQIVFRQ Qngr: 2/17/2016 1:09:53 CZ Hfre: JEhffryy Aneengvir: PBQR ERQ FRAG Qngr: 2/17/2016 1:10:10 CZ Hfre: JEhffryy Aneengvir: 221 CHZCVAT NCCNENGHF Qngr: 2/17/2016 1:11:04 CZ Hfre: JEhffryy Aneengvir: Z/N RDHVC FGNTR BA ABOYR EQ Qngr: 2/17/2016 1:13:07 CZ Hfre: JEhffryy Aneengvir: RKGVATHVFURQ SVER / FGN 1 PNA UNAQYR Qngr: 2/17/2016 1:33:24 CZ Hfre: xsevqnl Aneengvir: EHA AHZOREF RP 800, FR 432, YLA 0480051, HU 239, FU 474    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0474\aPNYY: 2AQ NYNEZ/SFG\aYNGVGHQR: 41.5365690113007\aYBATVGHQR: -81.5542905928035\aNQQERFF: 2270 Aboyr Eq;5\aPVGL: Pyrirynaq Urvtugf\aMVC: 44121\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ Qngr: 2/17/2016 1:09:11 CZ Hfre: JEhffryy Aneengvir: 253 2 FG AB FUBJ PBZZNAQ Qngr: 2/17/2016 1:09:31 CZ Hfre: JEhffryy Aneengvir: YSQ NQIVFRQ Qngr: 2/17/2016 1:09:53 CZ Hfre: JEhffryy Aneengvir: PBQR ERQ FRAG Qngr: 2/17/2016 1:10:10 CZ Hfre: JEhffryy Aneengvir: 221 CHZCVAT NCCNENGHF Qngr: 2/17/2016 1:11:04 CZ Hfre: JEhffryy Aneengvir: Z/N RDHVC FGNTR BA ABOYR EQ Qngr: 2/17/2016 1:13:07 CZ Hfre: JEhffryy Aneengvir: RKGVATHVFURQ SVER / FGN 1 PNA UNAQYR    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0474\aPNYY: 2AQ NYNEZ/SFG\aYNGVGHQR: 41.5365690113007\aYBATVGHQR: -81.5542905928035\aNQQERFF: 2270 Aboyr Eq;5\aPVGL: Pyrirynaq Urvtugf\aMVC: 44121\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ Qngr: 2/17/2016 1:09:11 CZ Hfre: JEhffryy Aneengvir: 253 2 FG AB FUBJ PBZZNAQ Qngr: 2/17/2016 1:09:31 CZ Hfre: JEhffryy Aneengvir: YSQ NQIVFRQ Qngr: 2/17/2016 1:09:53 CZ Hfre: JEhffryy Aneengvir: PBQR ERQ FRAG Qngr: 2/17/2016 1:10:10 CZ Hfre: JEhffryy Aneengvir: 221 CHZCVAT NCCNENGHF Qngr: 2/17/2016 1:11:04 CZ Hfre: JEhffryy Aneengvir: Z/N RDHVC FGNTR BA ABOYR EQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0474\aPNYY: 2AQ NYNEZ/SFG\aYNGVGHQR: 41.5365690113007\aYBATVGHQR: -81.5542905928035\aNQQERFF: 2270 Aboyr Eq;5\aPVGL: Pyrirynaq Urvtugf\aMVC: 44121\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ Qngr: 2/17/2016 1:09:11 CZ Hfre: JEhffryy Aneengvir: 253 2 FG AB FUBJ PBZZNAQ Qngr: 2/17/2016 1:09:31 CZ Hfre: JEhffryy Aneengvir: YSQ NQIVFRQ Qngr: 2/17/2016 1:09:53 CZ Hfre: JEhffryy Aneengvir: PBQR ERQ FRAG Qngr: 2/17/2016 1:10:10 CZ Hfre: JEhffryy Aneengvir: 221 CHZCVAT NCCNENGHF    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0474\aPNYY: 2AQ NYNEZ/SFG\aYNGVGHQR: 41.5365690113007\aYBATVGHQR: -81.5542905928035\aNQQERFF: 2270 Aboyr Eq;5\aPVGL: Pyrirynaq Urvtugf\aMVC: 44121\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ Qngr: 2/17/2016 1:09:11 CZ Hfre: JEhffryy Aneengvir: 253 2 FG AB FUBJ PBZZNAQ Qngr: 2/17/2016 1:09:31 CZ Hfre: JEhffryy Aneengvir: YSQ NQIVFRQ Qngr: 2/17/2016 1:09:53 CZ Hfre: JEhffryy Aneengvir: PBQR ERQ FRAG    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0474\aPNYY: 2AQ NYNEZ/SFG\aYNGVGHQR: 41.5365690113007\aYBATVGHQR: -81.5542905928035\aNQQERFF: 2270 Aboyr Eq;5\aPVGL: Pyrirynaq Urvtugf\aMVC: 44121\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ Qngr: 2/17/2016 1:09:11 CZ Hfre: JEhffryy Aneengvir: 253 2 FG AB FUBJ PBZZNAQ Qngr: 2/17/2016 1:09:31 CZ Hfre: JEhffryy Aneengvir: YSQ NQIVFRQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0474\aPNYY: 2AQ NYNEZ/SFG\aYNGVGHQR: 41.5365690113007\aYBATVGHQR: -81.5542905928035\aNQQERFF: 2270 Aboyr Eq;5\aPVGL: Pyrirynaq Urvtugf\aMVC: 44121\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ Qngr: 2/17/2016 1:09:11 CZ Hfre: JEhffryy Aneengvir: 253 2 FG AB FUBJ PBZZNAQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0474\aPNYY: 2AQ NYNEZ/SFG\aYNGVGHQR: 41.5365690113007\aYBATVGHQR: -81.5542905928035\aNQQERFF: 2270 Aboyr Eq;5\aPVGL: Pyrirynaq Urvtugf\aMVC: 44121\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0474\aPNYY: 2AQ NYNEZ/SFG\aYNGVGHQR: 41.5365690113007\aYBATVGHQR: -81.5542905928035\aNQQERFF: 2270 Aboyr Eq;5\aPVGL: Pyrirynaq Urvtugf\aMVC: 44121\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0474\aPNYY: 2AQ NYNEZ/SFG\aYNGVGHQR: 41.5365690113007\aYBATVGHQR: -81.5542905928035\aNQQERFF: 2270 Aboyr Eq;5\aPVGL: Pyrirynaq Urvtugf\aMVC: 44121\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0473\aPNYY: ZRQ2\aYNGVGHQR: 41.4594874779412\aYBATVGHQR: -81.5623894413754\aNQQERFF: 3687 Ebyyvfgba Eq\aPVGL: Funxre Urvtugf\aMVC: 44120\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 11:34:54 NZ Hfre: JEhffryy Aneengvir: R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfcbafr Vasb: FUNXRE UG CQ                     FUNXRE UG SQ                     FUNXRE UG SQ Hapregnvagl:  Pbasvqrapr: Qngr: 2/17/2016 11:36:32 NZ Hfre: JEhffryy Aneengvir: 96LBZ ORQ FBERF OYRRQVAT / UBFCVPR CG    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0473\aPNYY: ZRQ2\aYNGVGHQR: 41.4594874779412\aYBATVGHQR: -81.5623894413754\aNQQERFF: 3687 Ebyyvfgba Eq\aPVGL: Funxre Urvtugf\aMVC: 44120\aFUVSG: N Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 11:34:54 NZ Hfre: JEhffryy Aneengvir: R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfcbafr Vasb: FUNXRE UG CQ                     FUNXRE UG SQ                     FUNXRE UG SQ Hapregnvagl:  Pbasvqrapr:    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0472\aPNYY: ZRQ2B\aYNGVGHQR: 41.465908356799\aYBATVGHQR: -81.5348320483781\aNQQERFF: 3445 Uryra Eq\aPVGL: Funxre Urvtugf\aMVC: 44122\aFUVSG: P Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 7:48:46 NZ Hfre: JEhffryy Aneengvir: 101LBS YVSG NFFVFG SEBZ ORQ / QBRF ABG SRRY JRYY Qngr: 2/17/2016 8:13:10 NZ Hfre: JEhffryy Aneengvir: 20 ZVA PURPX HC - 245 BX Qngr: 2/17/2016 8:14:27 NZ Hfre: JEhffryy Aneengvir: 245 VA FDHNQ JVGU CNGVRA    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0472\aPNYY: ZRQ2B\aYNGVGHQR: 41.465908356799\aYBATVGHQR: -81.5348320483781\aNQQERFF: 3445 Uryra Eq\aPVGL: Funxre Urvtugf\aMVC: 44122\aFUVSG: P Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 7:48:46 NZ Hfre: JEhffryy Aneengvir: 101LBS YVSG NFFVFG SEBZ ORQ / QBRF ABG SRRY JRYY Qngr: 2/17/2016 8:13:10 NZ Hfre: JEhffryy Aneengvir: 20 ZVA PURPX HC - 245 BX    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0471\aPNYY: ZRQ2\aYNGVGHQR: 41.4866221853221\aYBATVGHQR: -81.5351661893827\aNQQERFF: 20641 Snvezbhag Oyiq\aPVGL: Funxre Urvtugf\aMVC: 44118\aFUVSG: P Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 7:09:24 NZ Hfre: xsevqnl Aneengvir: R911 Vasb - Pynff bs Freivpr: JCU2 Fcrpvny Erfcbafr Vasb: JVERYRFF BE IBVC PNYY            IREVSL YBPNGVBA                  IREVSL PNYYONPX Hapregnvagl: 57 Pbasvqrapr: 90 Qngr: 2/17/2016 7:11:06 NZ Hfre: xsevqnl Aneengvir: 50 L S, UK BS HYPRE, SVATRE ANVYF FGEVCRQ, QVMML BIRE 24 UEF Qngr: 2/17/2016 7:16:33 NZ Hfre: xsevqnl Aneengvir: VA FDHNQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0472\aPNYY: ZRQ2B\aYNGVGHQR: 41.465908356799\aYBATVGHQR: -81.5348320483781\aNQQERFF: 3445 Uryra Eq\aPVGL: Funxre Urvtugf\aMVC: 44122\aFUVSG: P Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 7:48:46 NZ Hfre: JEhffryy Aneengvir: 101LBS YVSG NFFVFG SEBZ ORQ / QBRF ABG SRRY JRYY    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0472\aPNYY: ZRQ2B\aYNGVGHQR: 41.465908356799\aYBATVGHQR: -81.5348320483781\aNQQERFF: 3445 Uryra Eq\aPVGL: Funxre Urvtugf\aMVC: 44122\aFUVSG: P Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
+VQ: 2016-0470\aPNYY: JQ\aYNGVGHQR: 41.4745630836746\aYBATVGHQR: -81.5354166999542\aNQQERFF: 20527 Oleba Eq\aPVGL: Funxre Urvtugf\aMVC: 44122\aFUVSG: P Fuvsg\aABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 6:53:29 NZ Hfre: JEhffryy Aneengvir: 216 ABGVSL PRV YVAR QBJA GB FGERRG YVTUG CBYR BIRE FGERRG NAQ FVQRJNYX CBYR#508123 Qngr: 2/17/2016 6:54:49 NZ Hfre: JEhffryy Aneengvir: 20527 J OLEBA EQ Qngr: 2/17/2016 6:56:25 NZ Hfre: JEhffryy Aneengvir: UBG JVER PYBFR GB FPUBBY JVGU PUVYQERA FBBA Qngr: 2/17/2016 7:00:47 NZ Hfre: JEhffryy Aneengvir: GVPXRG# 739438244 / RGN 45 ZVAF    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....
 
  */
 
@@ -58,622 +57,652 @@ choyvp pynff BUFunxreUrvtugfCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgFunxreUrvtugfSQ() {
 
     qbGrfg("G1",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000895\a" +
-        "PNYY: ZRQ2\a" +
-        "YNGVGHQR: 41.4644556654737\a" +
-        "YBATVGHQR: -81.5477832238858\a" +
-        "NQQERFF: 18720 Punteva Oyiq\a" +
+        "VQ: 2016-0478\a" +
+        "PNYY: NYY\a" +
+        "YNGVGHQR: 41.4644146828963\a" +
+        "YBATVGHQR: -81.5632212636566\a" +
+        "NQQERFF: 16800 Punteva Oyiq\a" +
         "PVGL: Funxre Urvtugf\a" +
-        "MVC: 44122\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/19/2015 9:41:57 NZ Hfre: zqbjqryy Aneengvir: R911 Vasb - Pynff bs Freivpr: OHF Hapregnvagl:  Pbasvqrapr: Qngr: 3/19/2015 9:42:10 NZ Hfre: zqbjqryy Aneengvir: s purfg cnva havg 2    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "MVC: 44120\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 8:46:33 CZ Hfre: gefzvgu Aneengvir: TRA SVER NYNEZ  YBPNGVBA CVMMN UHG PNA VA SEBZ NYNEZ PBZCNAL Qngr: 2/17/2016 8:47:41 CZ Hfre: gqbjaf Aneengvir: 1 FGBEL FGEVC ZNYY ABGUVAT FUBJVAT VAI PBZZNAQ RFGNOYVFURQ Qngr: 2/17/2016 8:49:10 CZ Hfre: gqbjaf Aneengvir: FGNGVBA 2 PNAPRYYRQ CEBOYRZ JVGU NYNEZ FLFGRZ CRE PBZZNAQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000895",
-        "PNYY:ZRQ2",
-        "TCF:+41.464456,-81.547783",
-        "NQQE:18720 Punteva Oyiq",
+        "VQ:2016-0478",
+        "PNYY:NYY",
+        "TCF:+41.464415,-81.563221",
+        "NQQE:16800 Punteva Oyiq",
         "PVGL:Funxre Urvtugf",
-        "QNGR:3/19/2015",
-        "GVZR:09:41:57",
-        "VASB:R911 Vasb - Pynff bs Freivpr: OHF Hapregnvagl:  Pbasvqrapr:\as purfg cnva havg 2");
+        "QNGR:2/17/2016",
+        "GVZR:20:46:33",
+        "VASB:TRA SVER NYNEZ  YBPNGVBA CVMMN UHG PNA VA SEBZ NYNEZ PBZCNAL\a1 FGBEL FGEVC ZNYY ABGUVAT FUBJVAT VAI PBZZNAQ RFGNOYVFURQ\aFGNGVBA 2 PNAPRYYRQ CEBOYRZ JVGU NYNEZ FLFGRZ CRE PBZZNAQ");
 
     qbGrfg("G2",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000894\a" +
-        "PNYY: ZRQ2\a" +
-        "YNGVGHQR: 41.46634920272\a" +
-        "YBATVGHQR: -81.5632365628138\a" +
-        "NQQERFF: 16650 Ina Nxra Oyiq;205\a" +
+        "VQ: 2016-0478\a" +
+        "PNYY: NYY\a" +
+        "YNGVGHQR: 41.4644146828963\a" +
+        "YBATVGHQR: -81.5632212636566\a" +
+        "NQQERFF: 16800 Punteva Oyiq\a" +
         "PVGL: Funxre Urvtugf\a" +
         "MVC: 44120\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 11:15:24 CZ Hfre: gpyncc Aneengvir: yfn zrq nynez    qvss   oernguvat   cbff urneg ceboyrzf    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 8:46:33 CZ Hfre: gefzvgu Aneengvir: TRA SVER NYNEZ  YBPNGVBA CVMMN UHG PNA VA SEBZ NYNEZ PBZCNAL Qngr: 2/17/2016 8:47:41 CZ Hfre: gqbjaf Aneengvir: 1 FGBEL FGEVC ZNYY ABGUVAT FUBJVAT VAI PBZZNAQ RFGNOYVFURQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000894",
-        "PNYY:ZRQ2",
-        "TCF:+41.466349,-81.563237",
-        "NQQE:16650 Ina Nxra Oyiq;205", //vf gung na ncg?
+        "VQ:2016-0478",
+        "PNYY:NYY",
+        "TCF:+41.464415,-81.563221",
+        "NQQE:16800 Punteva Oyiq",
         "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:23:15:24",
-        "VASB:yfn zrq nynez    qvss   oernguvat   cbff urneg ceboyrzf");
+        "QNGR:2/17/2016",
+        "GVZR:20:46:33",
+        "VASB:TRA SVER NYNEZ  YBPNGVBA CVMMN UHG PNA VA SEBZ NYNEZ PBZCNAL\a1 FGBEL FGEVC ZNYY ABGUVAT FUBJVAT VAI PBZZNAQ RFGNOYVFURQ");
 
     qbGrfg("G3",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000893\a" +
-        "PNYY: ZRQ2\a" +
-        "YNGVGHQR: 41.4623380967712\a" +
-        "YBATVGHQR: -81.5600757146182\a" +
-        "NQQERFF: 3559 Evrqunz Eq\a" +
+        "VQ: 2016-0478\a" +
+        "PNYY: NYY\a" +
+        "YNGVGHQR: 41.4644146828963\a" +
+        "YBATVGHQR: -81.5632212636566\a" +
+        "NQQERFF: 16800 Punteva Oyiq\a" +
         "PVGL: Funxre Urvtugf\a" +
         "MVC: 44120\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 9:41:26 CZ Hfre: zsnvgu Aneengvir: 19 le byq znyr srryvat jrnx naqr qvmml srirevfu    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 8:46:33 CZ Hfre: gefzvgu Aneengvir: TRA SVER NYNEZ  YBPNGVBA CVMMN UHG PNA VA SEBZ NYNEZ PBZCNAL    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000893",
-        "PNYY:ZRQ2",
-        "TCF:+41.462338,-81.560076",
-        "NQQE:3559 Evrqunz Eq",
+        "VQ:2016-0478",
+        "PNYY:NYY",
+        "TCF:+41.464415,-81.563221",
+        "NQQE:16800 Punteva Oyiq",
         "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:21:41:26",
-        "VASB:19 le byq znyr srryvat jrnx naqr qvmml srirevfu");
+        "QNGR:2/17/2016",
+        "GVZR:20:46:33",
+        "VASB:TRA SVER NYNEZ  YBPNGVBA CVMMN UHG PNA VA SEBZ NYNEZ PBZCNAL");
 
     qbGrfg("G4",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000892\a" +
-        "PNYY: ZRQ2\a" +
-        "YNGVGHQR: 41.4668160263163\a" +
-        "YBATVGHQR: -81.5632195112196\a" +
-        "NQQERFF: 16825 Ina Nxra Oyiq;505\a" +
+        "VQ: 2016-0478\a" +
+        "PNYY: NYY\a" +
+        "YNGVGHQR: 41.4644146828963\a" +
+        "YBATVGHQR: -81.5632212636566\a" +
+        "NQQERFF: 16800 Punteva Oyiq\a" +
         "PVGL: Funxre Urvtugf\a" +
         "MVC: 44120\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 8:30:03 CZ Hfre: ouryjvt Aneengvir: 50 LBZ NYGRERQ ZRAGNY FGNGHF VF IVBYRAG / CQ RAEBHGR Qngr: 3/18/2015 8:30:14 CZ Hfre: ouryjvt Aneengvir: FGEHPX ZBGURE VA GUR URNQ JVGU N PNA Qngr: 3/18/2015 8:44:02 CZ Hfre: ouryjvt Aneengvir: FDHNQ ABG ARRQRQ OL CBYVPR    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000892",
-        "PNYY:ZRQ2",
-        "TCF:+41.466816,-81.563220",
-        "NQQE:16825 Ina Nxra Oyiq;505",
-        "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:20:30:03",
-        "VASB:50 LBZ NYGRERQ ZRAGNY FGNGHF VF IVBYRAG / CQ RAEBHGR\aFGEHPX ZBGURE VA GUR URNQ JVGU N PNA\aFDHNQ ABG ARRQRQ OL CBYVPR");
+        "VQ:2016-0478",
+        "PNYY:NYY",
+        "TCF:+41.464415,-81.563221",
+        "NQQE:16800 Punteva Oyiq",
+        "PVGL:Funxre Urvtugf");
 
     qbGrfg("G5",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000892\a" +
+        "VQ: 2016-0477\a" +
         "PNYY: ZRQ2\a" +
-        "YNGVGHQR: 41.4668160263163\a" +
-        "YBATVGHQR: -81.5632195112196\a" +
-        "NQQERFF: 16825 Ina Nxra Oyiq;505\a" +
+        "YNGVGHQR: 41.4587518065959\a" +
+        "YBATVGHQR: -81.5588847998972\a" +
+        "NQQERFF: 3707 Ninyba Eq\a" +
         "PVGL: Funxre Urvtugf\a" +
         "MVC: 44120\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 8:30:03 CZ Hfre: ouryjvt Aneengvir: 50 LBZ NYGRERQ ZRAGNY FGNGHF VF IVBYRAG / CQ RAEBHGR Qngr: 3/18/2015 8:30:14 CZ Hfre: ouryjvt Aneengvir: FGEHPX ZBGURE VA GUR URNQ JVGU N PNA    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 4:12:04 CZ Hfre: gqbjaf Aneengvir: R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfcbafr Vasb: FUNXRE UG CQ                     FUNXRE UG SQ                     FUNXRE UG SQ Hapregnvagl:  Pbasvqrapr: Qngr: 2/17/2016 4:13:11 CZ Hfre: gqbjaf Aneengvir: 81 LB Z/ ABFR OYRRQ VF BA OYBBQ GUVAAREF    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000892",
+        "VQ:2016-0477",
         "PNYY:ZRQ2",
-        "TCF:+41.466816,-81.563220",
-        "NQQE:16825 Ina Nxra Oyiq;505",
+        "TCF:+41.458752,-81.558885",
+        "NQQE:3707 Ninyba Eq",
         "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:20:30:03",
-        "VASB:50 LBZ NYGRERQ ZRAGNY FGNGHF VF IVBYRAG / CQ RAEBHGR\aFGEHPX ZBGURE VA GUR URNQ JVGU N PNA");
+        "QNGR:2/17/2016",
+        "GVZR:16:12:04",
+        "VASB:R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfcbafr Vasb: FUNXRE UG CQ                     FUNXRE UG SQ                     FUNXRE UG SQ Hapregnvagl:  Pbasvqrapr:\a81 LB Z/ ABFR OYRRQ VF BA OYBBQ GUVAAREF");
 
     qbGrfg("G6",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000892\a" +
+        "VQ: 2016-0477\a" +
         "PNYY: ZRQ2\a" +
-        "YNGVGHQR: 41.4668160263163\a" +
-        "YBATVGHQR: -81.5632195112196\a" +
-        "NQQERFF: 16825 Ina Nxra Oyiq;505\a" +
+        "YNGVGHQR: 41.4587518065959\a" +
+        "YBATVGHQR: -81.5588847998972\a" +
+        "NQQERFF: 3707 Ninyba Eq\a" +
         "PVGL: Funxre Urvtugf\a" +
         "MVC: 44120\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 8:30:03 CZ Hfre: ouryjvt Aneengvir: 50 LBZ NYGRERQ ZRAGNY FGNGHF VF IVBYRAG / CQ RAEBHGR    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 4:12:04 CZ Hfre: gqbjaf Aneengvir: R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfcbafr Vasb: FUNXRE UG CQ                     FUNXRE UG SQ                     FUNXRE UG SQ Hapregnvagl:  Pbasvqrapr:    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000892",
+        "VQ:2016-0477",
         "PNYY:ZRQ2",
-        "TCF:+41.466816,-81.563220",
-        "NQQE:16825 Ina Nxra Oyiq;505",
+        "TCF:+41.458752,-81.558885",
+        "NQQE:3707 Ninyba Eq",
         "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:20:30:03",
-        "VASB:50 LBZ NYGRERQ ZRAGNY FGNGHF VF IVBYRAG / CQ RAEBHGR");
+        "QNGR:2/17/2016",
+        "GVZR:16:12:04",
+        "VASB:R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfcbafr Vasb: FUNXRE UG CQ                     FUNXRE UG SQ                     FUNXRE UG SQ Hapregnvagl:  Pbasvqrapr:");
 
     qbGrfg("G7",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000890\a" +
-        "PNYY: ZRQ2\a" +
-        "YNGVGHQR: 41.4645076662573\a" +
-        "YBATVGHQR: -81.5717480283287\a" +
-        "NQQERFF: 15615 Punteva Oyiq\a" +
+        "VQ: 2016-0476\a" +
+        "PNYY: VAI\a" +
+        "YNGVGHQR: 41.4608854909107\a" +
+        "YBATVGHQR: -81.5578180507121\a" +
+        "NQQERFF: 17408 Ybzbaq Oyiq\a" +
         "PVGL: Funxre Urvtugf\a" +
         "MVC: 44120\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 6:53:47 CZ Hfre: ouryjvt Aneengvir: RYQREYL ZNYR URNQ VAW SEBZ N SNYY Qngr: 3/18/2015 6:53:59 CZ Hfre: ouryjvt Aneengvir: RAGRE PUHEPU BSS BS GUR ZRAYB FVQR    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 3:50:00 CZ Hfre: gefzvgu Aneengvir: FGENATR FZRYY HAFHER BS JUNG    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000890",
-        "PNYY:ZRQ2",
-        "TCF:+41.464508,-81.571748",
-        "NQQE:15615 Punteva Oyiq",
+        "VQ:2016-0476",
+        "PNYY:VAI",
+        "TCF:+41.460885,-81.557818",
+        "NQQE:17408 Ybzbaq Oyiq",
         "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:18:53:47",
-        "VASB:RYQREYL ZNYR URNQ VAW SEBZ N SNYY\aRAGRE PUHEPU BSS BS GUR ZRAYB FVQR");
+        "QNGR:2/17/2016",
+        "GVZR:15:50:00",
+        "VASB:FGENATR FZRYY HAFHER BS JUNG");
 
     qbGrfg("G8",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000891\a" +
-        "PNYY: ZRQ3\a" +
-        "YNGVGHQR: 41.4677662312015\a" +
-        "YBATVGHQR: -81.5364767180296\a" +
-        "NQQERFF: 3330 Jneerafivyyr Pragre Eq;608\a" +
+        "VQ: 2016-0476\a" +
+        "PNYY: VAI\a" +
+        "YNGVGHQR: 41.4608854909107\a" +
+        "YBATVGHQR: -81.5578180507121\a" +
+        "NQQERFF: 17408 Ybzbaq Oyiq\a" +
         "PVGL: Funxre Urvtugf\a" +
-        "MVC: 44122\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 7:22:13 CZ Hfre: zsnvgu Aneengvir: R911 Vasb - Pynff bs Freivpr: ERF Fcrpvny Erfcbafr Vasb: NCG 608 Hapregnvagl:  Pbasvqrapr: Qngr: 3/18/2015 7:23:52 CZ Hfre: zsnvgu Aneengvir: 84 le byq znyr unf snyyra hanoyr gb trg hc uvfgbel bs Cnexvafba'f    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "MVC: 44120\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000891",
-        "PNYY:ZRQ3",
-        "TCF:+41.467766,-81.536477",
-        "NQQE:3330 Jneerafivyyr Pragre Eq;608",
-        "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:19:22:13",
-        "VASB:R911 Vasb - Pynff bs Freivpr: ERF Fcrpvny Erfcbafr Vasb: NCG 608 Hapregnvagl:  Pbasvqrapr:\a84 le byq znyr unf snyyra hanoyr gb trg hc uvfgbel bs Cnexvafba'f");
+        "VQ:2016-0476",
+        "PNYY:VAI",
+        "TCF:+41.460885,-81.557818",
+        "NQQE:17408 Ybzbaq Oyiq",
+        "PVGL:Funxre Urvtugf");
 
     qbGrfg("G9",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000888\a" +
-        "PNYY: ZRQ2\a" +
-        "YNGVGHQR: 41.4644556654737\a" +
-        "YBATVGHQR: -81.5477832238858\a" +
-        "NQQERFF: 18720 Punteva Oyiq\a" +
+        "VQ: 2016-0475\a" +
+        "PNYY: NYY\a" +
+        "YNGVGHQR: 41.4716307767857\a" +
+        "YBATVGHQR: -81.5435913536737\a" +
+        "NQQERFF: 3300 Pbhegynaq Oyiq\a" +
         "PVGL: Funxre Urvtugf\a" +
         "MVC: 44122\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 4:02:42 CZ Hfre: zsnvgu Aneengvir: R911 Vasb - Pynff bs Freivpr: OHF Hapregnvagl:  Pbasvqrapr: Qngr: 3/18/2015 4:05:26 CZ Hfre: zsnvgu Aneengvir: 73 le byq znyr nygrerq zragny fgnghf Qngr: 3/18/2015 4:05:44 CZ Hfre: zsnvgu Aneengvir: 215 erdhrfgrq n svefg erfcbaqre gurl jrer ergheavat sebz ynfg pnyy    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 2:25:54 CZ Hfre: JEhffryy Aneengvir: JNGRE SYBJ NYNEZ Qngr: 2/17/2016 2:26:46 CZ Hfre: JEhffryy Aneengvir: FUCQ NQIVFRQ Qngr: 2/17/2016 2:29:33 CZ Hfre: JEhffryy Aneengvir: 216 2 FG PYHOUBHFR AB FUBJ FGEBORF NPGVIR PBZZNAQ VAIRFG Qngr: 2/17/2016 2:30:39 CZ Hfre: JEhffryy Aneengvir: 263 NFFHZVAT PBHEGYNAQ PBZZNAQ Qngr: 2/17/2016 2:32:12 CZ Hfre: JEhffryy Aneengvir: 225 FGNTVAT F JBBQYNAQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000888",
-        "PNYY:ZRQ2",
-        "TCF:+41.464456,-81.547783",
-        "NQQE:18720 Punteva Oyiq",
+        "VQ:2016-0475",
+        "PNYY:NYY",
+        "TCF:+41.471631,-81.543591",
+        "NQQE:3300 Pbhegynaq Oyiq",
         "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:16:02:42",
-        "VASB:R911 Vasb - Pynff bs Freivpr: OHF Hapregnvagl:  Pbasvqrapr:\a73 le byq znyr nygrerq zragny fgnghf\a215 erdhrfgrq n svefg erfcbaqre gurl jrer ergheavat sebz ynfg pnyy");
+        "QNGR:2/17/2016",
+        "GVZR:14:25:54",
+        "VASB:JNGRE SYBJ NYNEZ\aFUCQ NQIVFRQ\a216 2 FG PYHOUBHFR AB FUBJ FGEBORF NPGVIR PBZZNAQ VAIRFG\a263 NFFHZVAT PBHEGYNAQ PBZZNAQ\a225 FGNTVAT F JBBQYNAQ");
 
     qbGrfg("G10",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000889\a" +
-        "PNYY: NV\a" +
-        "YNGVGHQR: 41.4893452127227\a" +
-        "YBATVGHQR: -81.5883089109612\a" +
-        "NQQERFF: 2540 Zberynaq Oyiq;210\a" +
+        "VQ: 2016-0475\a" +
+        "PNYY: NYY\a" +
+        "YNGVGHQR: 41.4716307767857\a" +
+        "YBATVGHQR: -81.5435913536737\a" +
+        "NQQERFF: 3300 Pbhegynaq Oyiq\a" +
         "PVGL: Funxre Urvtugf\a" +
-        "MVC: 44120\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 4:22:23 CZ Hfre: ouryjvt Aneengvir: R911 Vasb - Pynff bs Freivpr: IBV Fcrpvny Erfcbafr Vasb: NCG 210 Hapregnvagl:  Pbasvqrapr: Qngr: 3/18/2015 4:22:51 CZ Hfre: ouryjvt Aneengvir: 82 LBS YVSG NFFVFG SEBZ GUR ONGU GHO    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "MVC: 44122\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 2:25:54 CZ Hfre: JEhffryy Aneengvir: JNGRE SYBJ NYNEZ Qngr: 2/17/2016 2:26:46 CZ Hfre: JEhffryy Aneengvir: FUCQ NQIVFRQ Qngr: 2/17/2016 2:29:33 CZ Hfre: JEhffryy Aneengvir: 216 2 FG PYHOUBHFR AB FUBJ FGEBORF NPGVIR PBZZNAQ VAIRFG Qngr: 2/17/2016 2:30:39 CZ Hfre: JEhffryy Aneengvir: 263 NFFHZVAT PBHEGYNAQ PBZZNAQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000889",
-        "PNYY:NV",
-        "TCF:+41.489345,-81.588309",
-        "NQQE:2540 Zberynaq Oyiq;210",
+        "VQ:2016-0475",
+        "PNYY:NYY",
+        "TCF:+41.471631,-81.543591",
+        "NQQE:3300 Pbhegynaq Oyiq",
         "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:16:22:23",
-        "VASB:R911 Vasb - Pynff bs Freivpr: IBV Fcrpvny Erfcbafr Vasb: NCG 210 Hapregnvagl:  Pbasvqrapr:\a82 LBS YVSG NFFVFG SEBZ GUR ONGU GHO");
+        "QNGR:2/17/2016",
+        "GVZR:14:25:54",
+        "VASB:JNGRE SYBJ NYNEZ\aFUCQ NQIVFRQ\a216 2 FG PYHOUBHFR AB FUBJ FGEBORF NPGVIR PBZZNAQ VAIRFG\a263 NFFHZVAT PBHEGYNAQ PBZZNAQ");
 
     qbGrfg("G11",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000888\a" +
-        "PNYY: ZRQ2\a" +
-        "YNGVGHQR: 41.4644556654737\a" +
-        "YBATVGHQR: -81.5477832238858\a" +
-        "NQQERFF: 18720 Punteva Oyiq\a" +
+        "VQ: 2016-0475\a" +
+        "PNYY: NYY\a" +
+        "YNGVGHQR: 41.4716307767857\a" +
+        "YBATVGHQR: -81.5435913536737\a" +
+        "NQQERFF: 3300 Pbhegynaq Oyiq\a" +
         "PVGL: Funxre Urvtugf\a" +
         "MVC: 44122\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 4:02:42 CZ Hfre: zsnvgu Aneengvir: R911 Vasb - Pynff bs Freivpr: OHF Hapregnvagl:  Pbasvqrapr:    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 2:25:54 CZ Hfre: JEhffryy Aneengvir: JNGRE SYBJ NYNEZ Qngr: 2/17/2016 2:26:46 CZ Hfre: JEhffryy Aneengvir: FUCQ NQIVFRQ Qngr: 2/17/2016 2:29:33 CZ Hfre: JEhffryy Aneengvir: 216 2 FG PYHOUBHFR AB FUBJ FGEBORF NPGVIR PBZZNAQ VAIRFG    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000888",
-        "PNYY:ZRQ2",
-        "TCF:+41.464456,-81.547783",
-        "NQQE:18720 Punteva Oyiq",
+        "VQ:2016-0475",
+        "PNYY:NYY",
+        "TCF:+41.471631,-81.543591",
+        "NQQE:3300 Pbhegynaq Oyiq",
         "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:16:02:42",
-        "VASB:R911 Vasb - Pynff bs Freivpr: OHF Hapregnvagl:  Pbasvqrapr:");
+        "QNGR:2/17/2016",
+        "GVZR:14:25:54",
+        "VASB:JNGRE SYBJ NYNEZ\aFUCQ NQIVFRQ\a216 2 FG PYHOUBHFR AB FUBJ FGEBORF NPGVIR PBZZNAQ VAIRFG");
 
     qbGrfg("G12",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000887\a" +
-        "PNYY: ZRQ2\a" +
-        "YNGVGHQR: 41.4644556654737\a" +
-        "YBATVGHQR: -81.5477832238858\a" +
-        "NQQERFF: 18720 Punteva Oyiq\a" +
+        "VQ: 2016-0475\a" +
+        "PNYY: NYY\a" +
+        "YNGVGHQR: 41.4716307767857\a" +
+        "YBATVGHQR: -81.5435913536737\a" +
+        "NQQERFF: 3300 Pbhegynaq Oyiq\a" +
         "PVGL: Funxre Urvtugf\a" +
         "MVC: 44122\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 3:15:03 CZ Hfre: ouryjvt Aneengvir: R911 Vasb - Pynff bs Freivpr: OHF Hapregnvagl:  Pbasvqrapr: Qngr: 3/18/2015 3:15:15 CZ Hfre: ouryjvt Aneengvir: 52 LBZ Qngr: 3/18/2015 3:15:31 CZ Hfre: ouryjvt Aneengvir: OYRRQVAT SEBZ NPPRFF FVGR, YBPNGRQ BA HAVG 2    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 2:25:54 CZ Hfre: JEhffryy Aneengvir: JNGRE SYBJ NYNEZ Qngr: 2/17/2016 2:26:46 CZ Hfre: JEhffryy Aneengvir: FUCQ NQIVFRQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000887",
-        "PNYY:ZRQ2",
-        "TCF:+41.464456,-81.547783",
-        "NQQE:18720 Punteva Oyiq",
+        "VQ:2016-0475",
+        "PNYY:NYY",
+        "TCF:+41.471631,-81.543591",
+        "NQQE:3300 Pbhegynaq Oyiq",
         "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:15:15:03",
-        "VASB:R911 Vasb - Pynff bs Freivpr: OHF Hapregnvagl:  Pbasvqrapr:\a52 LBZ\aOYRRQVAT SEBZ NPPRFF FVGR, YBPNGRQ BA HAVG 2");
+        "QNGR:2/17/2016",
+        "GVZR:14:25:54",
+        "VASB:JNGRE SYBJ NYNEZ\aFUCQ NQIVFRQ");
 
     qbGrfg("G13",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000886\a" +
-        "PNYY: VAI\a" +
-        "YNGVGHQR: 41.4643429501065\a" +
-        "YBATVGHQR: -81.5717793307625\a" +
-        "NQQERFF: 15610 Punteva Oyiq\a" +
+        "VQ: 2016-0475\a" +
+        "PNYY: NYY\a" +
+        "YNGVGHQR: 41.4716307767857\a" +
+        "YBATVGHQR: -81.5435913536737\a" +
+        "NQQERFF: 3300 Pbhegynaq Oyiq\a" +
         "PVGL: Funxre Urvtugf\a" +
-        "MVC: 44120\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 9:21:36 NZ Hfre: xsevqnl Aneengvir: RKCYBFVIR ZNGREVNY SBHAQ VA N UBHFR Qngr: 3/18/2015 9:34:31 NZ Hfre: xsevqnl Aneengvir: PBAGNPG PUNTEVA FBHGURNFG UNM-ZNG ERFCBAFR GRNZ SBE 20 OBGGYRF HARKCYBQRQ OBGGYR OBZOF VA GENFU PNA Qngr: 3/18/2015 9:35:09 NZ Hfre: xsevqnl Aneengvir: ERD PBAGEBY BSSVPRE PBAFHYG Qngr: 3/18/2015 9:35:19 NZ Hfre: xsevqnl Aneengvir: NQZVA ABGVSVRQ OL HAVGF Qngr: 3/18/2015 10:05:05 NZ Hfre: dfvzf Aneengvir: 20 ZVA PURPX BX Qngr: 3/18/2015 10:05:14 NZ Hfre: dfvzf Aneengvir: UNMZNG GRNZ RAEBHGR Qngr: 3/18/2015 10:05:51 NZ Hfre: dfvzf Aneengvir: CBFFVOYR ZRGU YNO Qngr: 3/18/2015 10:27:12 NZ Hfre: dfvzf Aneengvir: PUNTEVA FR UNMZNG GRNZ BA FPRAR    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "MVC: 44122\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 2:25:54 CZ Hfre: JEhffryy Aneengvir: JNGRE SYBJ NYNEZ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000886",
-        "PNYY:VAI",
-        "TCF:+41.464343,-81.571779",
-        "NQQE:15610 Punteva Oyiq",
+        "VQ:2016-0475",
+        "PNYY:NYY",
+        "TCF:+41.471631,-81.543591",
+        "NQQE:3300 Pbhegynaq Oyiq",
         "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:09:21:36",
-        "VASB:RKCYBFVIR ZNGREVNY SBHAQ VA N UBHFR\aPBAGNPG PUNTEVA FBHGURNFG UNM-ZNG ERFCBAFR GRNZ SBE 20 OBGGYRF HARKCYBQRQ OBGGYR OBZOF VA GENFU PNA\aERD PBAGEBY BSSVPRE PBAFHYG\aNQZVA ABGVSVRQ OL HAVGF\a20 ZVA PURPX BX\aUNMZNG GRNZ RAEBHGR\aCBFFVOYR ZRGU YNO\aPUNTEVA FR UNMZNG GRNZ BA FPRAR");
+        "QNGR:2/17/2016",
+        "GVZR:14:25:54",
+        "VASB:JNGRE SYBJ NYNEZ");
 
     qbGrfg("G14",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000886\a" +
-        "PNYY: VAI\a" +
-        "YNGVGHQR: 41.4643429501065\a" +
-        "YBATVGHQR: -81.5717793307625\a" +
-        "NQQERFF: 15610 Punteva Oyiq\a" +
+        "VQ: 2016-0475\a" +
+        "PNYY: NYY\a" +
+        "YNGVGHQR: 41.4716307767857\a" +
+        "YBATVGHQR: -81.5435913536737\a" +
+        "NQQERFF: 3300 Pbhegynaq Oyiq\a" +
         "PVGL: Funxre Urvtugf\a" +
-        "MVC: 44120\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 9:21:36 NZ Hfre: xsevqnl Aneengvir: RKCYBFVIR ZNGREVNY SBHAQ VA N UBHFR    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "MVC: 44122\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000886",
-        "PNYY:VAI",
-        "TCF:+41.464343,-81.571779",
-        "NQQE:15610 Punteva Oyiq",
-        "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:09:21:36",
-        "VASB:RKCYBFVIR ZNGREVNY SBHAQ VA N UBHFR");
+        "VQ:2016-0475",
+        "PNYY:NYY",
+        "TCF:+41.471631,-81.543591",
+        "NQQE:3300 Pbhegynaq Oyiq",
+        "PVGL:Funxre Urvtugf");
 
     qbGrfg("G15",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000884\a" +
-        "PNYY: ZRQ2\a" +
-        "YNGVGHQR: 41.4694333544195\a" +
-        "YBATVGHQR: -81.5763957451157\a" +
-        "NQQERFF: 3318 Fhggba Eq;Hc\a" +
-        "PVGL: Funxre Urvtugf\a" +
-        "MVC: 44120\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 12:22:35 NZ Hfre: gpyncc Aneengvir: 11 LB   CBFF NEZ VAWHEL    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "VQ: 2016-0474\a" +
+        "PNYY: 2AQ NYNEZ/SFG\a" +
+        "YNGVGHQR: 41.5365690113007\a" +
+        "YBATVGHQR: -81.5542905928035\a" +
+        "NQQERFF: 2270 Aboyr Eq;5\a" +
+        "PVGL: Pyrirynaq Urvtugf\a" +
+        "MVC: 44121\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ Qngr: 2/17/2016 1:09:11 CZ Hfre: JEhffryy Aneengvir: 253 2 FG AB FUBJ PBZZNAQ Qngr: 2/17/2016 1:09:31 CZ Hfre: JEhffryy Aneengvir: YSQ NQIVFRQ Qngr: 2/17/2016 1:09:53 CZ Hfre: JEhffryy Aneengvir: PBQR ERQ FRAG Qngr: 2/17/2016 1:10:10 CZ Hfre: JEhffryy Aneengvir: 221 CHZCVAT NCCNENGHF Qngr: 2/17/2016 1:11:04 CZ Hfre: JEhffryy Aneengvir: Z/N RDHVC FGNTR BA ABOYR EQ Qngr: 2/17/2016 1:13:07 CZ Hfre: JEhffryy Aneengvir: RKGVATHVFURQ SVER / FGN 1 PNA UNAQYR Qngr: 2/17/2016 1:33:24 CZ Hfre: xsevqnl Aneengvir: EHA AHZOREF RP 800, FR 432, YLA 0480051, HU 239, FU 474 Qngr: 2/17/2016 1:34:58 CZ Hfre: JEhffryy Aneengvir: PBZZNAQ GREZVANGRQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000884",
-        "PNYY:ZRQ2",
-        "TCF:+41.469433,-81.576396",
-        "NQQE:3318 Fhggba Eq;Hc",
-        "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:00:22:35",
-        "VASB:11 LB   CBFF NEZ VAWHEL");
+        "VQ:2016-0474",
+        "PNYY:2AQ NYNEZ/SFG",
+        "TCF:+41.536569,-81.554291",
+        "NQQE:2270 Aboyr Eq;5",
+        "PVGL:Pyrirynaq Urvtugf",
+        "QNGR:2/17/2016",
+        "GVZR:13:06:22",
+        "VASB:XVGPURA BA SVER\aRPSQ NQIVFRQ\aFZBXR VA NCG 7\aFRSQ NQIVFRQ\a253 2 FG AB FUBJ PBZZNAQ\aYSQ NQIVFRQ\aPBQR ERQ FRAG\a221 CHZCVAT NCCNENGHF\aZ/N RDHVC FGNTR BA ABOYR EQ\aRKGVATHVFURQ SVER / FGN 1 PNA UNAQYR\aEHA AHZOREF RP 800, FR 432, YLA 0480051, HU 239, FU 474\aPBZZNAQ GREZVANGRQ");
 
     qbGrfg("G16",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000885\a" +
-        "PNYY: ZRQ2\a" +
-        "YNGVGHQR: 41.4774587186148\a" +
-        "YBATVGHQR: -81.5360310614657\a" +
-        "NQQERFF: 2801 Jneerafivyyr Pragre Eq\a" +
-        "PVGL: Funxre Urvtugf\a" +
-        "MVC: 44122\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 12:41:13 NZ Hfre: gpyncc Aneengvir: HAXABJA ZRQ @ SVER FGNGVBA, ZNYR JNYXVAT NEBHAQ Qngr: 3/18/2015 12:59:15 NZ Hfre: gpyncc Aneengvir: PNYYRQ VA OL FUSQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "VQ: 2016-0474\a" +
+        "PNYY: 2AQ NYNEZ/SFG\a" +
+        "YNGVGHQR: 41.5365690113007\a" +
+        "YBATVGHQR: -81.5542905928035\a" +
+        "NQQERFF: 2270 Aboyr Eq;5\a" +
+        "PVGL: Pyrirynaq Urvtugf\a" +
+        "MVC: 44121\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ Qngr: 2/17/2016 1:09:11 CZ Hfre: JEhffryy Aneengvir: 253 2 FG AB FUBJ PBZZNAQ Qngr: 2/17/2016 1:09:31 CZ Hfre: JEhffryy Aneengvir: YSQ NQIVFRQ Qngr: 2/17/2016 1:09:53 CZ Hfre: JEhffryy Aneengvir: PBQR ERQ FRAG Qngr: 2/17/2016 1:10:10 CZ Hfre: JEhffryy Aneengvir: 221 CHZCVAT NCCNENGHF Qngr: 2/17/2016 1:11:04 CZ Hfre: JEhffryy Aneengvir: Z/N RDHVC FGNTR BA ABOYR EQ Qngr: 2/17/2016 1:13:07 CZ Hfre: JEhffryy Aneengvir: RKGVATHVFURQ SVER / FGN 1 PNA UNAQYR Qngr: 2/17/2016 1:33:24 CZ Hfre: xsevqnl Aneengvir: EHA AHZOREF RP 800, FR 432, YLA 0480051, HU 239, FU 474    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000885",
-        "PNYY:ZRQ2",
-        "TCF:+41.477459,-81.536031",
-        "NQQE:2801 Jneerafivyyr Pragre Eq",
-        "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:00:41:13",
-        "VASB:HAXABJA ZRQ @ SVER FGNGVBA, ZNYR JNYXVAT NEBHAQ\aPNYYRQ VA OL FUSQ");
+        "VQ:2016-0474",
+        "PNYY:2AQ NYNEZ/SFG",
+        "TCF:+41.536569,-81.554291",
+        "NQQE:2270 Aboyr Eq;5",
+        "PVGL:Pyrirynaq Urvtugf",
+        "QNGR:2/17/2016",
+        "GVZR:13:06:22",
+        "VASB:XVGPURA BA SVER\aRPSQ NQIVFRQ\aFZBXR VA NCG 7\aFRSQ NQIVFRQ\a253 2 FG AB FUBJ PBZZNAQ\aYSQ NQIVFRQ\aPBQR ERQ FRAG\a221 CHZCVAT NCCNENGHF\aZ/N RDHVC FGNTR BA ABOYR EQ\aRKGVATHVFURQ SVER / FGN 1 PNA UNAQYR\aEHA AHZOREF RP 800, FR 432, YLA 0480051, HU 239, FU 474");
 
     qbGrfg("G17",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000885\a" +
-        "PNYY: ZRQ2\a" +
-        "YNGVGHQR: 41.4774587186148\a" +
-        "YBATVGHQR: -81.5360310614657\a" +
-        "NQQERFF: 2801 Jneerafivyyr Pragre Eq\a" +
-        "PVGL: Funxre Urvtugf\a" +
-        "MVC: 44122\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 12:41:13 NZ Hfre: gpyncc Aneengvir: HAXABJA ZRQ @ SVER FGNGVBA, ZNYR JNYXVAT NEBHAQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "VQ: 2016-0474\a" +
+        "PNYY: 2AQ NYNEZ/SFG\a" +
+        "YNGVGHQR: 41.5365690113007\a" +
+        "YBATVGHQR: -81.5542905928035\a" +
+        "NQQERFF: 2270 Aboyr Eq;5\a" +
+        "PVGL: Pyrirynaq Urvtugf\a" +
+        "MVC: 44121\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ Qngr: 2/17/2016 1:09:11 CZ Hfre: JEhffryy Aneengvir: 253 2 FG AB FUBJ PBZZNAQ Qngr: 2/17/2016 1:09:31 CZ Hfre: JEhffryy Aneengvir: YSQ NQIVFRQ Qngr: 2/17/2016 1:09:53 CZ Hfre: JEhffryy Aneengvir: PBQR ERQ FRAG Qngr: 2/17/2016 1:10:10 CZ Hfre: JEhffryy Aneengvir: 221 CHZCVAT NCCNENGHF Qngr: 2/17/2016 1:11:04 CZ Hfre: JEhffryy Aneengvir: Z/N RDHVC FGNTR BA ABOYR EQ Qngr: 2/17/2016 1:13:07 CZ Hfre: JEhffryy Aneengvir: RKGVATHVFURQ SVER / FGN 1 PNA UNAQYR    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000885",
-        "PNYY:ZRQ2",
-        "TCF:+41.477459,-81.536031",
-        "NQQE:2801 Jneerafivyyr Pragre Eq",
-        "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:00:41:13",
-        "VASB:HAXABJA ZRQ @ SVER FGNGVBA, ZNYR JNYXVAT NEBHAQ");
+        "VQ:2016-0474",
+        "PNYY:2AQ NYNEZ/SFG",
+        "TCF:+41.536569,-81.554291",
+        "NQQE:2270 Aboyr Eq;5",
+        "PVGL:Pyrirynaq Urvtugf",
+        "QNGR:2/17/2016",
+        "GVZR:13:06:22",
+        "VASB:XVGPURA BA SVER\aRPSQ NQIVFRQ\aFZBXR VA NCG 7\aFRSQ NQIVFRQ\a253 2 FG AB FUBJ PBZZNAQ\aYSQ NQIVFRQ\aPBQR ERQ FRAG\a221 CHZCVAT NCCNENGHF\aZ/N RDHVC FGNTR BA ABOYR EQ\aRKGVATHVFURQ SVER / FGN 1 PNA UNAQYR");
 
     qbGrfg("G18",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000883\a" +
-        "PNYY: ZRQ1\a" +
-        "YNGVGHQR: 41.4830005752844\a" +
-        "YBATVGHQR: -81.5749293774939\a" +
-        "NQQERFF: 2758 Cnex Oyiq\a" +
-        "PVGL: Funxre Urvtugf\a" +
-        "MVC: 44120\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 12:12:44 NZ Hfre: gpyncc Aneengvir: HAERFCBAFVIR CREFBA VA PNE, FUCQ R/E    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "VQ: 2016-0474\a" +
+        "PNYY: 2AQ NYNEZ/SFG\a" +
+        "YNGVGHQR: 41.5365690113007\a" +
+        "YBATVGHQR: -81.5542905928035\a" +
+        "NQQERFF: 2270 Aboyr Eq;5\a" +
+        "PVGL: Pyrirynaq Urvtugf\a" +
+        "MVC: 44121\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ Qngr: 2/17/2016 1:09:11 CZ Hfre: JEhffryy Aneengvir: 253 2 FG AB FUBJ PBZZNAQ Qngr: 2/17/2016 1:09:31 CZ Hfre: JEhffryy Aneengvir: YSQ NQIVFRQ Qngr: 2/17/2016 1:09:53 CZ Hfre: JEhffryy Aneengvir: PBQR ERQ FRAG Qngr: 2/17/2016 1:10:10 CZ Hfre: JEhffryy Aneengvir: 221 CHZCVAT NCCNENGHF Qngr: 2/17/2016 1:11:04 CZ Hfre: JEhffryy Aneengvir: Z/N RDHVC FGNTR BA ABOYR EQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000883",
-        "PNYY:ZRQ1",
-        "TCF:+41.483001,-81.574929",
-        "NQQE:2758 Cnex Oyiq",
-        "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:00:12:44",
-        "VASB:HAERFCBAFVIR CREFBA VA PNE, FUCQ R/E");
+        "VQ:2016-0474",
+        "PNYY:2AQ NYNEZ/SFG",
+        "TCF:+41.536569,-81.554291",
+        "NQQE:2270 Aboyr Eq;5",
+        "PVGL:Pyrirynaq Urvtugf",
+        "QNGR:2/17/2016",
+        "GVZR:13:06:22",
+        "VASB:XVGPURA BA SVER\aRPSQ NQIVFRQ\aFZBXR VA NCG 7\aFRSQ NQIVFRQ\a253 2 FG AB FUBJ PBZZNAQ\aYSQ NQIVFRQ\aPBQR ERQ FRAG\a221 CHZCVAT NCCNENGHF\aZ/N RDHVC FGNTR BA ABOYR EQ");
 
     qbGrfg("G19",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000883\a" +
-        "PNYY: ZRQ1\a" +
-        "YNGVGHQR: 41.482181\a" +
-        "YBATVGHQR: -81.574835\a" +
-        "NQQERFF:  Cnex Oyiq\a" +
-        "PVGL: Funxre Urvtugf\a" +
-        "MVC: \a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/18/2015 12:12:44 NZ Hfre: gpyncc Aneengvir: HAERFCBAFVIR CREFBA VA PNE, FUCQ R/E    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "VQ: 2016-0474\a" +
+        "PNYY: 2AQ NYNEZ/SFG\a" +
+        "YNGVGHQR: 41.5365690113007\a" +
+        "YBATVGHQR: -81.5542905928035\a" +
+        "NQQERFF: 2270 Aboyr Eq;5\a" +
+        "PVGL: Pyrirynaq Urvtugf\a" +
+        "MVC: 44121\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ Qngr: 2/17/2016 1:09:11 CZ Hfre: JEhffryy Aneengvir: 253 2 FG AB FUBJ PBZZNAQ Qngr: 2/17/2016 1:09:31 CZ Hfre: JEhffryy Aneengvir: YSQ NQIVFRQ Qngr: 2/17/2016 1:09:53 CZ Hfre: JEhffryy Aneengvir: PBQR ERQ FRAG Qngr: 2/17/2016 1:10:10 CZ Hfre: JEhffryy Aneengvir: 221 CHZCVAT NCCNENGHF    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000883",
-        "PNYY:ZRQ1",
-        "TCF:+41.482181,-81.574835",
-        "NQQE:Cnex Oyiq",
-        "PVGL:Funxre Urvtugf",
-        "QNGR:3/18/2015",
-        "GVZR:00:12:44",
-        "VASB:HAERFCBAFVIR CREFBA VA PNE, FUCQ R/E");
+        "VQ:2016-0474",
+        "PNYY:2AQ NYNEZ/SFG",
+        "TCF:+41.536569,-81.554291",
+        "NQQE:2270 Aboyr Eq;5",
+        "PVGL:Pyrirynaq Urvtugf",
+        "QNGR:2/17/2016",
+        "GVZR:13:06:22",
+        "VASB:XVGPURA BA SVER\aRPSQ NQIVFRQ\aFZBXR VA NCG 7\aFRSQ NQIVFRQ\a253 2 FG AB FUBJ PBZZNAQ\aYSQ NQIVFRQ\aPBQR ERQ FRAG\a221 CHZCVAT NCCNENGHF");
 
     qbGrfg("G20",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000883\a" +
-        "PNYY: ZRQ1\a" +
-        "YNGVGHQR: 41.4817870000001\a" +
-        "YBATVGHQR: -81.571744\a" +
-        "NQQERFF:  Cnex Oyiq\a" +
-        "PVGL: Funxre Urvtugf\a" +
-        "MVC: \a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "VQ: 2016-0474\a" +
+        "PNYY: 2AQ NYNEZ/SFG\a" +
+        "YNGVGHQR: 41.5365690113007\a" +
+        "YBATVGHQR: -81.5542905928035\a" +
+        "NQQERFF: 2270 Aboyr Eq;5\a" +
+        "PVGL: Pyrirynaq Urvtugf\a" +
+        "MVC: 44121\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ Qngr: 2/17/2016 1:09:11 CZ Hfre: JEhffryy Aneengvir: 253 2 FG AB FUBJ PBZZNAQ Qngr: 2/17/2016 1:09:31 CZ Hfre: JEhffryy Aneengvir: YSQ NQIVFRQ Qngr: 2/17/2016 1:09:53 CZ Hfre: JEhffryy Aneengvir: PBQR ERQ FRAG    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000883",
-        "PNYY:ZRQ1",
-        "TCF:+41.481787,-81.571744",
-        "NQQE:Cnex Oyiq",
-        "PVGL:Funxre Urvtugf");
+        "VQ:2016-0474",
+        "PNYY:2AQ NYNEZ/SFG",
+        "TCF:+41.536569,-81.554291",
+        "NQQE:2270 Aboyr Eq;5",
+        "PVGL:Pyrirynaq Urvtugf",
+        "QNGR:2/17/2016",
+        "GVZR:13:06:22",
+        "VASB:XVGPURA BA SVER\aRPSQ NQIVFRQ\aFZBXR VA NCG 7\aFRSQ NQIVFRQ\a253 2 FG AB FUBJ PBZZNAQ\aYSQ NQIVFRQ\aPBQR ERQ FRAG");
 
     qbGrfg("G21",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000882\a" +
-        "PNYY: ZIN\a" +
-        "YNGVGHQR: 41.4736379758693\a" +
-        "YBATVGHQR: -81.5165297617345\a" +
-        "NQQERFF: 23100 Jbbqynaq Eq\a" +
-        "PVGL: Funxre Urvtugf\a" +
-        "MVC: 44122\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 8:27:49 CZ Hfre: ouryjvt Aneengvir: urnq ba pbyyvfba hax rknpg vawf cre cq Qngr: 3/17/2015 8:30:39 CZ Hfre: ouryjvt Aneengvir: cq ba fprar nqi ba terra eq abegu bs pnagroreel, 1 cngvrag jvgu purfg cnvaf cbff qhr gb nve ont qrcyblzrag Qngr: 3/17/2015 8:35:40 CZ Hfre: ouryjvt Aneengvir: 3134 terra ivn punteva Qngr: 3/17/2015 8:47:29 CZ Hfre: qqneqra Aneengvir: VA FDHNQ JVGU CG Qngr: 3/17/2015 8:52:11 CZ Hfre: ouryjvt Aneengvir: 246 cngvrag qrpyvarq genafcbeg Qngr: 3/17/2015 8:52:17 CZ Hfre: ouryjvt Aneengvir: 246 ninvy ba fprar    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "VQ: 2016-0474\a" +
+        "PNYY: 2AQ NYNEZ/SFG\a" +
+        "YNGVGHQR: 41.5365690113007\a" +
+        "YBATVGHQR: -81.5542905928035\a" +
+        "NQQERFF: 2270 Aboyr Eq;5\a" +
+        "PVGL: Pyrirynaq Urvtugf\a" +
+        "MVC: 44121\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ Qngr: 2/17/2016 1:09:11 CZ Hfre: JEhffryy Aneengvir: 253 2 FG AB FUBJ PBZZNAQ Qngr: 2/17/2016 1:09:31 CZ Hfre: JEhffryy Aneengvir: YSQ NQIVFRQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000882",
-        "PNYY:ZIN",
-        "TCF:+41.473638,-81.516530",
-        "NQQE:23100 Jbbqynaq Eq",
-        "PVGL:Funxre Urvtugf",
-        "QNGR:3/17/2015",
-        "GVZR:20:27:49",
-        "VASB:urnq ba pbyyvfba hax rknpg vawf cre cq\acq ba fprar nqi ba terra eq abegu bs pnagroreel, 1 cngvrag jvgu purfg cnvaf cbff qhr gb nve ont qrcyblzrag\a3134 terra ivn punteva\aVA FDHNQ JVGU CG\a246 cngvrag qrpyvarq genafcbeg\a246 ninvy ba fprar");
+        "VQ:2016-0474",
+        "PNYY:2AQ NYNEZ/SFG",
+        "TCF:+41.536569,-81.554291",
+        "NQQE:2270 Aboyr Eq;5",
+        "PVGL:Pyrirynaq Urvtugf",
+        "QNGR:2/17/2016",
+        "GVZR:13:06:22",
+        "VASB:XVGPURA BA SVER\aRPSQ NQIVFRQ\aFZBXR VA NCG 7\aFRSQ NQIVFRQ\a253 2 FG AB FUBJ PBZZNAQ\aYSQ NQIVFRQ");
 
     qbGrfg("G22",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000882\a" +
-        "PNYY: ZIN\a" +
-        "YNGVGHQR: 41.4736379758693\a" +
-        "YBATVGHQR: -81.5165297617345\a" +
-        "NQQERFF: 23100 Jbbqynaq Eq\a" +
-        "PVGL: Funxre Urvtugf\a" +
-        "MVC: 44122\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 8:27:49 CZ Hfre: ouryjvt Aneengvir: urnq ba pbyyvfba hax rknpg vawf cre cq Qngr: 3/17/2015 8:30:39 CZ Hfre: ouryjvt Aneengvir: cq ba fprar nqi ba terra eq abegu bs pnagroreel, 1 cngvrag jvgu purfg cnvaf cbff qhr gb nve ont qrcyblzrag Qngr: 3/17/2015 8:35:40 CZ Hfre: ouryjvt Aneengvir: 3134 terra ivn punteva Qngr: 3/17/2015 8:47:29 CZ Hfre: qqneqra Aneengvir: VA FDHNQ JVGU CG    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "VQ: 2016-0474\a" +
+        "PNYY: 2AQ NYNEZ/SFG\a" +
+        "YNGVGHQR: 41.5365690113007\a" +
+        "YBATVGHQR: -81.5542905928035\a" +
+        "NQQERFF: 2270 Aboyr Eq;5\a" +
+        "PVGL: Pyrirynaq Urvtugf\a" +
+        "MVC: 44121\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ Qngr: 2/17/2016 1:09:11 CZ Hfre: JEhffryy Aneengvir: 253 2 FG AB FUBJ PBZZNAQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000882",
-        "PNYY:ZIN",
-        "TCF:+41.473638,-81.516530",
-        "NQQE:23100 Jbbqynaq Eq",
-        "PVGL:Funxre Urvtugf",
-        "QNGR:3/17/2015",
-        "GVZR:20:27:49",
-        "VASB:urnq ba pbyyvfba hax rknpg vawf cre cq\acq ba fprar nqi ba terra eq abegu bs pnagroreel, 1 cngvrag jvgu purfg cnvaf cbff qhr gb nve ont qrcyblzrag\a3134 terra ivn punteva\aVA FDHNQ JVGU CG");
+        "VQ:2016-0474",
+        "PNYY:2AQ NYNEZ/SFG",
+        "TCF:+41.536569,-81.554291",
+        "NQQE:2270 Aboyr Eq;5",
+        "PVGL:Pyrirynaq Urvtugf",
+        "QNGR:2/17/2016",
+        "GVZR:13:06:22",
+        "VASB:XVGPURA BA SVER\aRPSQ NQIVFRQ\aFZBXR VA NCG 7\aFRSQ NQIVFRQ\a253 2 FG AB FUBJ PBZZNAQ");
 
     qbGrfg("G23",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000882\a" +
-        "PNYY: ZIN\a" +
-        "YNGVGHQR: 41.4725608873497\a" +
-        "YBATVGHQR: -81.5163123805977\a" +
-        "NQQERFF: 3141 Terra Eq\a" +
-        "PVGL: Funxre Urvtugf\a" +
-        "MVC: 44122\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 8:27:49 CZ Hfre: ouryjvt Aneengvir: urnq ba pbyyvfba hax rknpg vawf cre cq Qngr: 3/17/2015 8:30:39 CZ Hfre: ouryjvt Aneengvir: cq ba fprar nqi ba terra eq abegu bs pnagroreel, 1 cngvrag jvgu purfg cnvaf cbff qhr gb nve ont qrcyblzrag Qngr: 3/17/2015 8:35:40 CZ Hfre: ouryjvt Aneengvir: 3134 terra ivn punteva    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "VQ: 2016-0474\a" +
+        "PNYY: 2AQ NYNEZ/SFG\a" +
+        "YNGVGHQR: 41.5365690113007\a" +
+        "YBATVGHQR: -81.5542905928035\a" +
+        "NQQERFF: 2270 Aboyr Eq;5\a" +
+        "PVGL: Pyrirynaq Urvtugf\a" +
+        "MVC: 44121\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ Qngr: 2/17/2016 1:08:30 CZ Hfre: JEhffryy Aneengvir: FZBXR VA NCG 7 Qngr: 2/17/2016 1:08:46 CZ Hfre: JEhffryy Aneengvir: FRSQ NQIVFRQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000882",
-        "PNYY:ZIN",
-        "TCF:+41.472561,-81.516312",
-        "NQQE:3141 Terra Eq",
-        "PVGL:Funxre Urvtugf",
-        "QNGR:3/17/2015",
-        "GVZR:20:27:49",
-        "VASB:urnq ba pbyyvfba hax rknpg vawf cre cq\acq ba fprar nqi ba terra eq abegu bs pnagroreel, 1 cngvrag jvgu purfg cnvaf cbff qhr gb nve ont qrcyblzrag\a3134 terra ivn punteva");
+        "VQ:2016-0474",
+        "PNYY:2AQ NYNEZ/SFG",
+        "TCF:+41.536569,-81.554291",
+        "NQQE:2270 Aboyr Eq;5",
+        "PVGL:Pyrirynaq Urvtugf",
+        "QNGR:2/17/2016",
+        "GVZR:13:06:22",
+        "VASB:XVGPURA BA SVER\aRPSQ NQIVFRQ\aFZBXR VA NCG 7\aFRSQ NQIVFRQ");
 
     qbGrfg("G24",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000882\a" +
-        "PNYY: ZIN\a" +
-        "YNGVGHQR: 41.4725608873497\a" +
-        "YBATVGHQR: -81.5163123805977\a" +
-        "NQQERFF: 3141 Terra Eq\a" +
-        "PVGL: Funxre Urvtugf\a" +
-        "MVC: 44122\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 8:27:49 CZ Hfre: ouryjvt Aneengvir: urnq ba pbyyvfba hax rknpg vawf cre cq Qngr: 3/17/2015 8:30:39 CZ Hfre: ouryjvt Aneengvir: cq ba fprar nqi ba terra eq abegu bs pnagroreel, 1 cngvrag jvgu purfg cnvaf cbff qhr gb nve ont qrcyblzrag    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "VQ: 2016-0474\a" +
+        "PNYY: 2AQ NYNEZ/SFG\a" +
+        "YNGVGHQR: 41.5365690113007\a" +
+        "YBATVGHQR: -81.5542905928035\a" +
+        "NQQERFF: 2270 Aboyr Eq;5\a" +
+        "PVGL: Pyrirynaq Urvtugf\a" +
+        "MVC: 44121\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 1:06:22 CZ Hfre: JEhffryy Aneengvir: XVGPURA BA SVER Qngr: 2/17/2016 1:06:26 CZ Hfre: JEhffryy Aneengvir: RPSQ NQIVFRQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000882",
-        "PNYY:ZIN",
-        "TCF:+41.472561,-81.516312",
-        "NQQE:3141 Terra Eq",
-        "PVGL:Funxre Urvtugf",
-        "QNGR:3/17/2015",
-        "GVZR:20:27:49",
-        "VASB:urnq ba pbyyvfba hax rknpg vawf cre cq\acq ba fprar nqi ba terra eq abegu bs pnagroreel, 1 cngvrag jvgu purfg cnvaf cbff qhr gb nve ont qrcyblzrag");
+        "VQ:2016-0474",
+        "PNYY:2AQ NYNEZ/SFG",
+        "TCF:+41.536569,-81.554291",
+        "NQQE:2270 Aboyr Eq;5",
+        "PVGL:Pyrirynaq Urvtugf",
+        "QNGR:2/17/2016",
+        "GVZR:13:06:22",
+        "VASB:XVGPURA BA SVER\aRPSQ NQIVFRQ");
 
     qbGrfg("G25",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000882\a" +
-        "PNYY: ZIN\a" +
-        "YNGVGHQR: 41.4737200000001\a" +
-        "YBATVGHQR: -81.516814\a" +
-        "NQQERFF:  Terra Eq\a" +
-        "PVGL: Funxre Urvtugf\a" +
-        "MVC: \a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 8:27:49 CZ Hfre: ouryjvt Aneengvir: urnq ba pbyyvfba hax rknpg vawf cre cq Qngr: 3/17/2015 8:30:39 CZ Hfre: ouryjvt Aneengvir: cq ba fprar nqi ba terra eq abegu bs pnagroreel, 1 cngvrag jvgu purfg cnvaf cbff qhr gb nve ont qrcyblzrag    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "VQ: 2016-0474\a" +
+        "PNYY: 2AQ NYNEZ/SFG\a" +
+        "YNGVGHQR: 41.5365690113007\a" +
+        "YBATVGHQR: -81.5542905928035\a" +
+        "NQQERFF: 2270 Aboyr Eq;5\a" +
+        "PVGL: Pyrirynaq Urvtugf\a" +
+        "MVC: 44121\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000882",
-        "PNYY:ZIN",
-        "TCF:+41.473720,-81.516814",
-        "NQQE:Terra Eq",
-        "PVGL:Funxre Urvtugf",
-        "QNGR:3/17/2015",
-        "GVZR:20:27:49",
-        "VASB:urnq ba pbyyvfba hax rknpg vawf cre cq\acq ba fprar nqi ba terra eq abegu bs pnagroreel, 1 cngvrag jvgu purfg cnvaf cbff qhr gb nve ont qrcyblzrag");
+        "VQ:2016-0474",
+        "PNYY:2AQ NYNEZ/SFG",
+        "TCF:+41.536569,-81.554291",
+        "NQQE:2270 Aboyr Eq;5",
+        "PVGL:Pyrirynaq Urvtugf");
 
     qbGrfg("G26",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000882\a" +
-        "PNYY: ZIN\a" +
-        "YNGVGHQR: 41.4737200000001\a" +
-        "YBATVGHQR: -81.516814\a" +
-        "NQQERFF:  Terra Eq\a" +
+        "VQ: 2016-0473\a" +
+        "PNYY: ZRQ2\a" +
+        "YNGVGHQR: 41.4594874779412\a" +
+        "YBATVGHQR: -81.5623894413754\a" +
+        "NQQERFF: 3687 Ebyyvfgba Eq\a" +
         "PVGL: Funxre Urvtugf\a" +
-        "MVC: \a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 8:27:49 CZ Hfre: ouryjvt Aneengvir: urnq ba pbyyvfba hax rknpg vawf cre cq    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "MVC: 44120\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 11:34:54 NZ Hfre: JEhffryy Aneengvir: R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfcbafr Vasb: FUNXRE UG CQ                     FUNXRE UG SQ                     FUNXRE UG SQ Hapregnvagl:  Pbasvqrapr: Qngr: 2/17/2016 11:36:32 NZ Hfre: JEhffryy Aneengvir: 96LBZ ORQ FBERF OYRRQVAT / UBFCVPR CG    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000882",
-        "PNYY:ZIN",
-        "TCF:+41.473720,-81.516814",
-        "NQQE:Terra Eq",
+        "VQ:2016-0473",
+        "PNYY:ZRQ2",
+        "TCF:+41.459487,-81.562389",
+        "NQQE:3687 Ebyyvfgba Eq",
         "PVGL:Funxre Urvtugf",
-        "QNGR:3/17/2015",
-        "GVZR:20:27:49",
-        "VASB:urnq ba pbyyvfba hax rknpg vawf cre cq");
+        "QNGR:2/17/2016",
+        "GVZR:11:34:54",
+        "VASB:R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfcbafr Vasb: FUNXRE UG CQ                     FUNXRE UG SQ                     FUNXRE UG SQ Hapregnvagl:  Pbasvqrapr:\a96LBZ ORQ FBERF OYRRQVAT / UBFCVPR CG");
 
     qbGrfg("G27",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000882\a" +
-        "PNYY: ZIN\a" +
-        "YNGVGHQR: 41.4737200000001\a" +
-        "YBATVGHQR: -81.516814\a" +
-        "NQQERFF:  Terra Eq\a" +
+        "VQ: 2016-0473\a" +
+        "PNYY: ZRQ2\a" +
+        "YNGVGHQR: 41.4594874779412\a" +
+        "YBATVGHQR: -81.5623894413754\a" +
+        "NQQERFF: 3687 Ebyyvfgba Eq\a" +
         "PVGL: Funxre Urvtugf\a" +
-        "MVC: \a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "MVC: 44120\a" +
+        "FUVSG: N Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 11:34:54 NZ Hfre: JEhffryy Aneengvir: R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfcbafr Vasb: FUNXRE UG CQ                     FUNXRE UG SQ                     FUNXRE UG SQ Hapregnvagl:  Pbasvqrapr:    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000882",
-        "PNYY:ZIN",
-        "TCF:+41.473720,-81.516814",
-        "NQQE:Terra Eq",
-        "PVGL:Funxre Urvtugf");
+        "VQ:2016-0473",
+        "PNYY:ZRQ2",
+        "TCF:+41.459487,-81.562389",
+        "NQQE:3687 Ebyyvfgba Eq",
+        "PVGL:Funxre Urvtugf",
+        "QNGR:2/17/2016",
+        "GVZR:11:34:54",
+        "VASB:R911 Vasb - Pynff bs Freivpr: ERFQ Fcrpvny Erfcbafr Vasb: FUNXRE UG CQ                     FUNXRE UG SQ                     FUNXRE UG SQ Hapregnvagl:  Pbasvqrapr:");
 
     qbGrfg("G28",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000881\a" +
-        "PNYY: ZNZRQ2\a" +
-        "YNGVGHQR: 41.4865916275887\a" +
-        "YBATVGHQR: -81.5256573110974\a" +
-        "NQQERFF: 22001 Snvezbhag Oyiq\a" +
+        "VQ: 2016-0472\a" +
+        "PNYY: ZRQ2B\a" +
+        "YNGVGHQR: 41.465908356799\a" +
+        "YBATVGHQR: -81.5348320483781\a" +
+        "NQQERFF: 3445 Uryra Eq\a" +
         "PVGL: Funxre Urvtugf\a" +
-        "MVC: 44118\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 6:00:58 CZ Hfre: qqneqra Aneengvir: 12 L Z VA ARRQ BS N CFLPU RINY BA FPRAR JVGU GUR QBPGBE Qngr: 3/17/2015 6:01:53 CZ Hfre: ouryjvt Aneengvir: FUCQ JVYY OR RAEBHGR JURA GURL NER PYRNE BS GUR CQ NYNEZ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "MVC: 44122\a" +
+        "FUVSG: P Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 7:48:46 NZ Hfre: JEhffryy Aneengvir: 101LBS YVSG NFFVFG SEBZ ORQ / QBRF ABG SRRY JRYY Qngr: 2/17/2016 8:13:10 NZ Hfre: JEhffryy Aneengvir: 20 ZVA PURPX HC - 245 BX Qngr: 2/17/2016 8:14:27 NZ Hfre: JEhffryy Aneengvir: 245 VA FDHNQ JVGU CNGVRA    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000881",
-        "PNYY:ZNZRQ2",
-        "TCF:+41.486592,-81.525657",
-        "NQQE:22001 Snvezbhag Oyiq",
+        "VQ:2016-0472",
+        "PNYY:ZRQ2B",
+        "TCF:+41.465908,-81.534832",
+        "NQQE:3445 Uryra Eq",
         "PVGL:Funxre Urvtugf",
-        "QNGR:3/17/2015",
-        "GVZR:18:00:58",
-        "VASB:12 L Z VA ARRQ BS N CFLPU RINY BA FPRAR JVGU GUR QBPGBE\aFUCQ JVYY OR RAEBHGR JURA GURL NER PYRNE BS GUR CQ NYNEZ");
+        "QNGR:2/17/2016",
+        "GVZR:07:48:46",
+        "VASB:101LBS YVSG NFFVFG SEBZ ORQ / QBRF ABG SRRY JRYY\a20 ZVA PURPX HC - 245 BX\a245 VA FDHNQ JVGU CNGVRA");
 
     qbGrfg("G29",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000880\a" +
-        "PNYY: NYY\a" +
-        "YNGVGHQR: 41.472700193583\a" +
-        "YBATVGHQR: -81.5278575528974\a" +
-        "NQQERFF: 3175 Oryibve Oyiq\a" +
+        "VQ: 2016-0472\a" +
+        "PNYY: ZRQ2B\a" +
+        "YNGVGHQR: 41.465908356799\a" +
+        "YBATVGHQR: -81.5348320483781\a" +
+        "NQQERFF: 3445 Uryra Eq\a" +
         "PVGL: Funxre Urvtugf\a" +
         "MVC: 44122\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 5:43:10 CZ Hfre: qqneqra Aneengvir: TRARENY SVER NYNEZ Qngr: 3/17/2015 5:43:26 CZ Hfre: qqneqra Aneengvir: 2 FGBEL ERFVQRAGVNY ABGUVAT FUBJVAT Qngr: 3/17/2015 5:45:22 CZ Hfre: ouryjvt Aneengvir: CBYVPR NQIVFRQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "FUVSG: P Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 7:48:46 NZ Hfre: JEhffryy Aneengvir: 101LBS YVSG NFFVFG SEBZ ORQ / QBRF ABG SRRY JRYY Qngr: 2/17/2016 8:13:10 NZ Hfre: JEhffryy Aneengvir: 20 ZVA PURPX HC - 245 BX    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000880",
-        "PNYY:NYY",
-        "TCF:+41.472700,-81.527858",
-        "NQQE:3175 Oryibve Oyiq",
+        "VQ:2016-0472",
+        "PNYY:ZRQ2B",
+        "TCF:+41.465908,-81.534832",
+        "NQQE:3445 Uryra Eq",
         "PVGL:Funxre Urvtugf",
-        "QNGR:3/17/2015",
-        "GVZR:17:43:10",
-        "VASB:TRARENY SVER NYNEZ\a2 FGBEL ERFVQRAGVNY ABGUVAT FUBJVAT\aCBYVPR NQIVFRQ");
+        "QNGR:2/17/2016",
+        "GVZR:07:48:46",
+        "VASB:101LBS YVSG NFFVFG SEBZ ORQ / QBRF ABG SRRY JRYY\a20 ZVA PURPX HC - 245 BX");
 
     qbGrfg("G30",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000881\a" +
-        "PNYY: ZNZRQ2\a" +
-        "YNGVGHQR: 41.4865916275887\a" +
-        "YBATVGHQR: -81.5256573110974\a" +
-        "NQQERFF: 22001 Snvezbhag Oyiq\a" +
+        "VQ: 2016-0471\a" +
+        "PNYY: ZRQ2\a" +
+        "YNGVGHQR: 41.4866221853221\a" +
+        "YBATVGHQR: -81.5351661893827\a" +
+        "NQQERFF: 20641 Snvezbhag Oyiq\a" +
         "PVGL: Funxre Urvtugf\a" +
         "MVC: 44118\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "FUVSG: P Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 7:09:24 NZ Hfre: xsevqnl Aneengvir: R911 Vasb - Pynff bs Freivpr: JCU2 Fcrpvny Erfcbafr Vasb: JVERYRFF BE IBVC PNYY            IREVSL YBPNGVBA                  IREVSL PNYYONPX Hapregnvagl: 57 Pbasvqrapr: 90 Qngr: 2/17/2016 7:11:06 NZ Hfre: xsevqnl Aneengvir: 50 L S, UK BS HYPRE, SVATRE ANVYF FGEVCRQ, QVMML BIRE 24 UEF Qngr: 2/17/2016 7:16:33 NZ Hfre: xsevqnl Aneengvir: VA FDHNQ    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000881",
-        "PNYY:ZNZRQ2",
-        "TCF:+41.486592,-81.525657",
-        "NQQE:22001 Snvezbhag Oyiq",
-        "PVGL:Funxre Urvtugf");
+        "VQ:2016-0471",
+        "PNYY:ZRQ2",
+        "TCF:+41.486622,-81.535166",
+        "NQQE:20641 Snvezbhag Oyiq",
+        "PVGL:Funxre Urvtugf",
+        "QNGR:2/17/2016",
+        "GVZR:07:09:24",
+        "VASB:R911 Vasb - Pynff bs Freivpr: JCU2 Fcrpvny Erfcbafr Vasb: JVERYRFF BE IBVC PNYY            IREVSL YBPNGVBA                  IREVSL PNYYONPX Hapregnvagl: 57 Pbasvqrapr: 90\a50 L S, UK BS HYPRE, SVATRE ANVYF FGEVCRQ, QVMML BIRE 24 UEF\aVA FDHNQ");
 
     qbGrfg("G31",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000880\a" +
-        "PNYY: NYY\a" +
-        "YNGVGHQR: 41.472700193583\a" +
-        "YBATVGHQR: -81.5278575528974\a" +
-        "NQQERFF: 3175 Oryibve Oyiq\a" +
+        "VQ: 2016-0472\a" +
+        "PNYY: ZRQ2B\a" +
+        "YNGVGHQR: 41.465908356799\a" +
+        "YBATVGHQR: -81.5348320483781\a" +
+        "NQQERFF: 3445 Uryra Eq\a" +
         "PVGL: Funxre Urvtugf\a" +
         "MVC: 44122\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 5:43:10 CZ Hfre: qqneqra Aneengvir: TRARENY SVER NYNEZ Qngr: 3/17/2015 5:43:26 CZ Hfre: qqneqra Aneengvir: 2 FGBEL ERFVQRAGVNY ABGUVAT FUBJVAT    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+        "FUVSG: P Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 7:48:46 NZ Hfre: JEhffryy Aneengvir: 101LBS YVSG NFFVFG SEBZ ORQ / QBRF ABG SRRY JRYY    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000880",
-        "PNYY:NYY",
-        "TCF:+41.472700,-81.527858",
-        "NQQE:3175 Oryibve Oyiq",
+        "VQ:2016-0472",
+        "PNYY:ZRQ2B",
+        "TCF:+41.465908,-81.534832",
+        "NQQE:3445 Uryra Eq",
         "PVGL:Funxre Urvtugf",
-        "QNGR:3/17/2015",
-        "GVZR:17:43:10",
-        "VASB:TRARENY SVER NYNEZ\a2 FGBEL ERFVQRAGVNY ABGUVAT FUBJVAT");
+        "QNGR:2/17/2016",
+        "GVZR:07:48:46",
+        "VASB:101LBS YVSG NFFVFG SEBZ ORQ / QBRF ABG SRRY JRYY");
 
     qbGrfg("G32",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000879\a" +
-        "PNYY: ZRQ2\a" +
-        "YNGVGHQR: 41.4793304416624\a" +
-        "YBATVGHQR: -81.5196177400667\a" +
-        "NQQERFF: 22775 Funxre Oyiq\a" +
+        "VQ: 2016-0472\a" +
+        "PNYY: ZRQ2B\a" +
+        "YNGVGHQR: 41.465908356799\a" +
+        "YBATVGHQR: -81.5348320483781\a" +
+        "NQQERFF: 3445 Uryra Eq\a" +
         "PVGL: Funxre Urvtugf\a" +
         "MVC: 44122\a" +
-        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 3/17/2015 4:43:31 CZ Hfre: ouryjvt Aneengvir: CQ BHG JVGU UVTUYL VAGBK 17 LBZ Qngr: 3/17/2015 4:45:15 CZ Hfre: ouryjvt Aneengvir: VA GUR NERN BS GUR 67 OHF YBBC    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
-
-        "VQ:2015-00000879",
-        "PNYY:ZRQ2",
-        "TCF:+41.479330,-81.519618",
-        "NQQE:22775 Funxre Oyiq",
-        "PVGL:Funxre Urvtugf",
-        "QNGR:3/17/2015",
-        "GVZR:16:43:31",
-        "VASB:CQ BHG JVGU UVTUYL VAGBK 17 LBZ\aVA GUR NERN BS GUR 67 OHF YBBC");
-
-    qbGrfg("G33",
-        "(Funxre Urvtugf PNQ Qvfcngpu) VQ: 2015-00000880\a" +
-        "PNYY: NYY\a" +
-        "YNGVGHQR: 41.472700193583\a" +
-        "YBATVGHQR: -81.5278575528974\a" +
-        "NQQERFF: 3175 Oryibve Oyiq\a" +
-        "PVGL: Funxre Urvtugf\a" +
-        "MVC: 44122\a" +
+        "FUVSG: P Fuvsg\a" +
         "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....       Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
 
-        "VQ:2015-00000880",
-        "PNYY:NYY",
-        "TCF:+41.472700,-81.527858",
-        "NQQE:3175 Oryibve Oyiq",
+        "VQ:2016-0472",
+        "PNYY:ZRQ2B",
+        "TCF:+41.465908,-81.534832",
+        "NQQE:3445 Uryra Eq",
         "PVGL:Funxre Urvtugf");
 
+    qbGrfg("G33",
+        "VQ: 2016-0470\a" +
+        "PNYY: JQ\a" +
+        "YNGVGHQR: 41.4745630836746\a" +
+        "YBATVGHQR: -81.5354166999542\a" +
+        "NQQERFF: 20527 Oleba Eq\a" +
+        "PVGL: Funxre Urvtugf\a" +
+        "MVC: 44122\a" +
+        "FUVSG: P Fuvsg\a" +
+        "ABGRF: Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....    Qngr: 2/17/2016 6:53:29 NZ Hfre: JEhffryy Aneengvir: 216 ABGVSL PRV YVAR QBJA GB FGERRG YVTUG CBYR BIRE FGERRG NAQ FVQRJNYX CBYR#508123 Qngr: 2/17/2016 6:54:49 NZ Hfre: JEhffryy Aneengvir: 20527 J OLEBA EQ Qngr: 2/17/2016 6:56:25 NZ Hfre: JEhffryy Aneengvir: UBG JVER PYBFR GB FPUBBY JVGU PUVYQERA FBBA Qngr: 2/17/2016 7:00:47 NZ Hfre: JEhffryy Aneengvir: GVPXRG# 739438244 / RGN 45 ZVAF    Raq bs Aneengvir Vzcbegrq Sebz AJF PNQ flfgrz....",
+
+        "VQ:2016-0470",
+        "PNYY:JQ",
+        "TCF:+41.474563,-81.535417",
+        "NQQE:20527 Oleba Eq",
+        "PVGL:Funxre Urvtugf",
+        "QNGR:2/17/2016",
+        "GVZR:06:53:29",
+        "VASB:216 ABGVSL PRV YVAR QBJA GB FGERRG YVTUG CBYR BIRE FGERRG NAQ FVQRJNYX CBYR#508123\a20527 J OLEBA EQ\aUBG JVER PYBFR GB FPUBBY JVGU PUVYQERA FBBA\aGVPXRG# 739438244 / RGN 45 ZVAF");
+
   }
- 
+
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj BUFunxreUrvtugfCnefreGrfg().trarengrGrfgf("G1");
   }
