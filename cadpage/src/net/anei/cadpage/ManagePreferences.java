@@ -9,9 +9,11 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Stack;
 
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
+import net.anei.cadpage.donation.UserAcctManager;
 import net.anei.cadpage.parsers.ManageParsers;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.SplitMsgOptions;
@@ -19,8 +21,10 @@ import net.anei.cadpage.vendors.VendorManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceManager;
@@ -1199,8 +1203,6 @@ public class ManagePreferences {
     VendorManager.instance().addStatusInfo(sb);
   }
   
-  private static PermissionManager permMgr = null;
-  
   private static final int PERM_REQ_INITIAL = 1;
   private static final int PERM_REQ_SMS_MMS = 2;
   private static final int PERM_REQ_REPORT_POSITION = 3;
@@ -1210,12 +1212,40 @@ public class ManagePreferences {
 //  private static final int PERM_REQ_RESP_TYPE_BTN4 = 8;
 //  private static final int PERM_REQ_RESP_TYPE_BTN5 = 9;
 //  private static final int PERM_REQ_RESP_TYPE_BTN6 = 10;
-  private static final int PERM_REQ_LIMIT = 10;
+  private static final int PERM_REQ_NO_SHOW_IN_CALL = 11;
+  private static final int PERM_REQ_ACCT_INFO = 12;
+  private static final int PERM_REQ_LOCATION_TRACKING = 13;
+  private static final int PERM_REQ_LIMIT = 13;
   
-  private static PermissionChecker<?,?>[] checkers = new PermissionChecker[PERM_REQ_LIMIT];
+  private static PermissionChecker[] checkers = new PermissionChecker[PERM_REQ_LIMIT];
+
   
+  private static PermissionManager permMgr = null;
+  private static Stack<PermissionManager> permMgrStack = new Stack<PermissionManager>();
+
+  /**
+   * Set the current permission manager, should be called by the onCreate() method of
+   * any activity that might call some our permission checking methods
+   * @param permMgr current permission manager
+   */
   public static void setPermissionManager(PermissionManager permMgr) {
     ManagePreferences.permMgr = permMgr;
+    permMgrStack.push(permMgr);
+  }
+  
+  /**
+   * Release current permission manager
+   * this should be called in the onDestroy() method of any Activity that previously
+   * called setPermissionManager
+   * @param permMgr permission manager being released
+   */
+  public static void releasePermissionManager(PermissionManager permMgr) {
+    permMgrStack.remove(permMgr);
+    if (permMgrStack.empty()) {
+      permMgr = null;
+    } else {
+      permMgr = permMgrStack.peek();
+    }
   }
   
   /********************************************************************
@@ -1223,54 +1253,58 @@ public class ManagePreferences {
    ********************************************************************/
   
   public static void checkInitialPermissions() {
-    initialPermissionChecker.check();
+    initialPermissionChecker.check(true);
   }
   
   private static final InitialPermissionChecker initialPermissionChecker = new InitialPermissionChecker();
   
-  public static class InitialPermissionChecker extends ListPermissionChecker {
+  public static class InitialPermissionChecker extends PermissionChecker {
     
     // List of checkers that reported permission failures
-    List<PermissionChecker<?,?>> failedCheckers;
+    List<PrefPermissionChecker<?,?>> failedCheckers;
     
     public InitialPermissionChecker() {
-      super(PERM_REQ_INITIAL, 0);
+      super(PERM_REQ_INITIAL);
     }
     
     @Override
-    public boolean check() {
+    public void checkPermission() {
 
-      failedCheckers = new ArrayList<PermissionChecker<?,?>>();
+      failedCheckers = new ArrayList<PrefPermissionChecker<?,?>>();
 
-      // Loop through all the defined permission checkers, except for us
-      for (PermissionChecker<?,?> checker : checkers) {
-        if (checker == this) continue;
+      // Loop through all the defined permission checkers
+      for (PermissionChecker checker : checkers) {
         
-        // If it failed, add it to the failed checker list
-        if (checker.check()) failedCheckers.add(checker);
+        // We are only interested in the preference permission checkers
+        if (checker instanceof PrefPermissionChecker) {
+        
+          // If it failed, add it to the failed checker list
+          PrefPermissionChecker<?,?> pchecker = (PrefPermissionChecker<?,?>)checker;
+          if (!pchecker.check()) failedCheckers.add(pchecker);
+        }
       }
       
       // No failures, life is good
-      if (failedCheckers.isEmpty()) return false;
-      
-      // Otherwise build a list of all of the missing permissions 
-      // and ask user to authorize them
-      
-      for (PermissionChecker<?,?> checker : failedCheckers) {
+      if (failedCheckers.isEmpty()) return;
+
+      // Otherwise run through all of the failed checkers and accumulate
+      // their missing permissions in our requested permission list
+      for (PrefPermissionChecker<?,?> checker : failedCheckers) {
         List<String>reqPerms = checker.getReqPermissions();
         List<Integer>reqExpIds = checker.getReqExplainIds();
         for (int ndx = 0; ndx<reqPerms.size(); ndx++) {
           requestPermission(reqPerms.get(ndx), reqExpIds.get(ndx));
         }
       }
-      requestPermissions();
-      return true;
     }
 
     @Override
     public void onRequestPermissionResult(String[] permissions, int[] granted) {
-      
-      for (PermissionChecker<?,?> checker : failedCheckers) {
+ 
+      // When we get the final permission granted result
+      // Loop back through all of the failed permission checkers reported
+      // the granted status for the permissions they requested
+      for (PrefPermissionChecker<?,?> checker : failedCheckers) {
         List<String> permList = checker.getReqPermissions();
         String[] perms = permList.toArray(new String[permList.size()]);
         int[] stats = new int[perms.length];
@@ -1285,12 +1319,6 @@ public class ManagePreferences {
         }
         checker.onRequestPermissionResult(perms, stats);
       }
-    }
-
-    // Not called, but we have to satisfy template
-    @Override
-    protected String check(String value) {
-      return null;
     }
   }
   
@@ -1309,20 +1337,20 @@ public class ManagePreferences {
     }
 
     @Override
-    protected String check(String value) {
-      boolean needSmsPerm = value.contains("S") && !permMgr.isGranted(PermissionManager.RECEIVE_SMS);
-      boolean needMmsPerm = value.contains("M") && !permMgr.isGranted(PermissionManager.RECEIVE_MMS);
-      if (!needSmsPerm && !needMmsPerm) return null;
+    protected String checkPermission(String value) {
       
-      if (needSmsPerm) {
-        value = value.replace("S", "");
-        requestPermission(PermissionManager.RECEIVE_SMS);
+      // This gets tricky because one or both permissions may be needed
+      // if the values contains an S, we need RECEIVE_SMS permission
+      // if the value contains an M, we need RECEIVE_MMS permission
+      value = check(PermissionManager.RECEIVE_SMS, "S", value);
+      value = check(PermissionManager.RECEIVE_MMS, "M", value);
+      return value;
+    }
+    
+    private String check(String reqPerm, String code, String value) {
+      if (value.contains(code) && !checkRequestPermission(reqPerm)) {
+        value = value.replace(code, "");
       }
-      if (needMmsPerm) {
-        value = value.replace("M", "");
-        requestPermission(PermissionManager.RECEIVE_MMS);
-      }
-      
       return value;
     }
   }
@@ -1343,10 +1371,12 @@ public class ManagePreferences {
     }
 
     @Override
-    protected String check(String value) {
-      if (!value.equals("Y") || permMgr.isGranted(PermissionManager.ACCESS_FINE_LOCATION)) return null;
-      requestPermission(PermissionManager.ACCESS_FINE_LOCATION);
-      return "A";
+    protected String checkPermission(String value) {
+      
+      // A Y (always) value required the ACCESS_FINE_LOCATION permission
+      // A A (ask) value will request the permission only when the users requests location tracking
+      if (!value.equals("Y")) return null;
+      return checkRequestPermission(PermissionManager.ACCESS_FINE_LOCATION) ? null : "A";
     }
   }
   
@@ -1357,6 +1387,7 @@ public class ManagePreferences {
     return responseTypeCheckers[button-1].check(pref, value);
   }
   
+  // List of preference checkers for the 6 response type buttons
   private static ResponseTypePermissionChecker[] responseTypeCheckers = new ResponseTypePermissionChecker[]{
       new ResponseTypePermissionChecker(1),
       new ResponseTypePermissionChecker(2),
@@ -1373,17 +1404,44 @@ public class ManagePreferences {
     }
 
     @Override
-    protected String check(String value) {
+    protected String checkPermission(String value) {
+      
+      // A value of P requires CALL_PHONE permission
+      // A value of T requires SMS_SEND permission
       String reqPerm = value.equals("P") ? PermissionManager.CALL_PHONE :
                        value.equals("T") ? PermissionManager.SEND_SMS : null;
-      if (reqPerm == null || permMgr.isGranted(reqPerm)) return null;
-      
-      requestPermission(reqPerm);
-      return "";
+      if (reqPerm == null) return null;
+      return checkRequestPermission(reqPerm) ? null : "";
     }
   }
   
-  /*******************************************************************/
+  /********************************************************************
+   * Permission checking the no show in call preference
+   ********************************************************************/
+  public static boolean checkNoShowInCall(CheckBoxPreference pref, boolean value) {
+    return noShowInCallChecker.check(pref, value);
+  }
+  
+  private static NoShowInCallChecker noShowInCallChecker = new NoShowInCallChecker();
+  
+  private static class NoShowInCallChecker extends CheckBoxPermissionChecker {
+    
+    public NoShowInCallChecker() {
+      super(PERM_REQ_NO_SHOW_IN_CALL, R.string.pref_noShowInCall_key);
+    }
+
+    @Override
+    protected Boolean checkPermission(Boolean value) {
+      
+      // true value requires READ_PHONE_STATE permission
+      if (!value) return null;
+      return checkRequestPermission(PermissionManager.READ_PHONE_STATE);
+    }
+  }
+  
+  /********************************************************************************
+   * Generic permission checker used to handle ListPreference preference values
+   *********************************************************************************/
   
   private abstract static class ListPermissionChecker extends StringPermissionChecker<ListPreference> {
     
@@ -1397,7 +1455,26 @@ public class ManagePreferences {
     }
   }
   
-  private abstract static class StringPermissionChecker<P extends Preference> extends PermissionChecker<String, P> {
+  /********************************************************************************
+   * Generic permission checker used to handle CheckboxPreference preference values
+   *********************************************************************************/
+  
+  private abstract static class CheckBoxPermissionChecker extends BooleanPermissionChecker<CheckBoxPreference> {
+    
+    protected CheckBoxPermissionChecker(int permReq, int resPrefId) {
+      super(permReq, resPrefId);
+    }
+
+    @Override
+    protected void setPreference(CheckBoxPreference preference, Boolean value) {
+      preference.setChecked(value);
+    }
+  }
+  
+  /******************************************************************
+   * Generic permission checker used to adjust String setting values
+   ******************************************************************/ 
+  private abstract static class StringPermissionChecker<P extends Preference> extends PrefPermissionChecker<String, P> {
     
     protected StringPermissionChecker(int permReq, int resPrefId) {
       super(permReq, resPrefId);
@@ -1414,59 +1491,362 @@ public class ManagePreferences {
     }
   }
   
-  private abstract static class PermissionChecker<V, P extends Preference> {
-    private int permReq;
+  /******************************************************************
+   * Generic permission checker used to adjust Boolean setting values
+   ******************************************************************/ 
+  private abstract static class BooleanPermissionChecker<P extends Preference> extends PrefPermissionChecker<Boolean, P> {
+    
+    protected BooleanPermissionChecker(int permReq, int resPrefId) {
+      super(permReq, resPrefId);
+    }
+
+    @Override
+    protected Boolean getPrefValue(int resPrefId) {
+      return prefs.getBoolean(resPrefId);
+    }
+
+    @Override
+    protected void savePrefValue(int resPrefId, Boolean value) {
+      prefs.putBoolean(resPrefId, value);
+    }
+  }
+  
+  /******************************************************************/
+  /**
+   * Generic permission checker tied to particular values of a setting
+   * V - type of setting value
+   * P - Preference subclass that displays and sets this value
+   */
+  
+  private abstract static class PrefPermissionChecker<V, P extends Preference>  extends PermissionChecker {
     private int resPrefId;
     private P preference;
     private V value;
+    private V newValue;
     
-    private List<String> reqPermissions;
-    private List<Integer> reqExplainIds;
-    
-    protected PermissionChecker(int permReq, int resPrefId) {
-      this.permReq = permReq;
+    /**
+     * Constructor
+     * @param permReq Permission request ID
+     * @param resPrefId Preference resource ID
+     */
+    protected PrefPermissionChecker(int permReq, int resPrefId) {
+      super(permReq);
       this.resPrefId = resPrefId;
-      checkers[permReq-1] = this;
     }
     
-    public List<String> getReqPermissions() {
-      return reqPermissions;
-    }
-    
-    public List<Integer> getReqExplainIds() {
-      return reqExplainIds;
-    }
-    
+    /**
+     * Called during initialization to check that permissions required for
+     * current setting value have all been granted 
+     * @return true if a required permission needs to be granted, false otherwise
+     */
     public boolean check() {
+      
+      // There is no Preference during startup
+      // but get and save the current preference value
       this.preference = null;
-      reqPermissions = new ArrayList<String>();
-      reqExplainIds = new ArrayList<Integer>();
       this.value = getPrefValue(resPrefId);
-      V newValue = check(value);
-      if (reqPermissions.size() > 0) {
+      
+      // Make the primary permission check without displaying a user request
+      // screen.  If there is a missing preference, set the setting to the
+      // value that is permitted under current permissions
+      if (!super.check(false)) {
         savePrefValue(resPrefId, newValue);
-        return true;
-      }
-      return false;
-    }
-    
-    public boolean check(P preference, V value) {
-      this.preference = preference;
-      this.value = value;
-      reqPermissions = new ArrayList<String>();
-      reqExplainIds = new ArrayList<Integer>();
-      check(value);
-      if (reqPermissions.size() > 0) {
-        requestPermissions();
         return false;
       }
       return true;
     }
     
+    /**
+     * Called when the user attempts to change a value from the
+     * configuration settings screen
+     * @param preference Preference object used to change setting value
+     * @param value new requested value of setting
+     * @return true if setting change should be accepted, false if it
+     * should be rejected
+     */
+    public boolean check(P preference, V value) {
+      
+      // Save the preference and requested values and
+      // call the main check permission method, requesting
+      // a user permission screen
+      this.preference = preference;
+      this.value = value;
+      return super.check(true);
+    }
+    
+    @Override
+    public void checkPermission() {
+      newValue = checkPermission(value);
+    }
+    
+    @Override
+    public void onRequestPermissionResult(String [] permissions, int[] granted) {
+      
+      // Call the superclass method, which only resets things
+      super.onRequestPermissionResult(permissions, granted);
+      
+      // If permissions were fully granted, accept the originally requested value
+      V newValue = value;
+      if (!PermissionManager.isGranted(granted)) {
+        
+        // If nothing was granted, or if there was only one permission requested
+        // just return leaving the setting value unchanged
+        if (permissions == null || granted == null || granted.length < 2) return;
+        
+        // Otherwise, make another call to checkPermission to see what setting
+        // value is permitted now with the current permissions
+        newValue = checkPermission(value);
+        if (newValue == null) newValue = value;
+      }
+      
+      // Change the setting value, and change the value displayed in the preference screen
+      savePrefValue(resPrefId, newValue);
+      if (preference != null) {
+        setPreference(preference, newValue);
+      }
+    }
+    
+    /**
+     * Abstract method to return the current preference setting value
+     * @param resPrefId preference resource ID
+     * @return the current value of the preference setting
+     */
+    protected abstract V getPrefValue(int resPrefId);
+    
+    /**
+     * Abstract method to set the preference setting value
+     * @param resPrefId preference resource ID
+     * @param value new value to save in preference setting
+     */
+    protected abstract void savePrefValue(int resPrefId, V value);
+    
+    /**
+     * Abstract method to set a Screen Preference value
+     * @param preference Screen preference to be set
+     * @param value new value to be displayed by preference screen
+     */
+    protected abstract void setPreference(P preference, V value);
+    
+    /**
+     * Abstract method to check if setting value is permitted by currently
+     * granted permissions
+     * @param value the requested settings value  
+     * @return the (possibly) adjusted setting value that is permitted
+     * by the currently granted permissions, or null if the original value is OK
+     */
+    protected abstract V checkPermission(V value);
+  }
+  
+  /*************************************************************************
+   * Permission checking for all actions that require user account information
+   ************************************************************************/
+  public static boolean checkPermLocationTracking(PermissionAction action) {
+    return locationTrackingChecker.check(action);
+  }
+  
+  private static final LocationTrackingChecker locationTrackingChecker = new LocationTrackingChecker();
+  
+  private static class LocationTrackingChecker extends ActionPermissionChecker {
+    
+    public LocationTrackingChecker() {
+      super(PERM_REQ_LOCATION_TRACKING);
+    }
+    
+    public boolean check(PermissionAction action) {
+      return check(action);
+    }
+
+    @Override
+    protected void checkPermission() {
+      checkRequestPermission(PermissionManager.ACCESS_FINE_LOCATION);
+    }
+  }
+  
+  /*************************************************************************
+   * Permission checking when user requests run time location tracking
+   ************************************************************************/
+  public static boolean checkPermAccountInfo(PermissionAction action, int explainId) {
+    return accountInfoChecker.check(action, explainId);
+  }
+  
+  private static final AccountInfoChecker accountInfoChecker = new AccountInfoChecker();
+  
+  private static class AccountInfoChecker extends ActionPermissionChecker {
+
+    private int explainId;
+    
+    public AccountInfoChecker() {
+      super(PERM_REQ_ACCT_INFO);
+    }
+    
+    public boolean check(PermissionAction action, int explainId) {
+      this.explainId = explainId;
+      return check(action);
+    }
+
+    @Override
+    protected void checkPermission() {
+      checkRequestPermission(PermissionManager.GET_ACCOUNTS, explainId);
+      checkRequestPermission(PermissionManager.READ_SMS, explainId);
+      checkRequestPermission(PermissionManager.READ_PHONE_STATE, explainId);
+    }
+
+    @Override
+    public void onRequestPermissionResult(String[] permissions, int[] granted) {
+      
+      // If any requested permission were granted, reset the user account information
+      if (granted != null) {
+        for (int g : granted) {
+          if (g == PackageManager.PERMISSION_GRANTED) {
+            UserAcctManager.instance().reset();
+            break;
+          }
+        }
+      }
+      
+      // Call the superclass method that will call the action callback
+      super.onRequestPermissionResult(permissions, granted);
+    }
+  }
+  
+  /**********************************************************************************
+   * Generic permission checker that is not tied to a specific preference value,
+   * rather it is invoked whenever the user requests some action that requires some
+   * specific permissions
+   **********************************************************************************/
+  private abstract static class ActionPermissionChecker extends PermissionChecker {
+    
+    private PermissionAction action;
+
+    public ActionPermissionChecker(int permReq) {
+      super(permReq);
+    }
+    
+    public boolean check(PermissionAction action) {
+      this.action = action;
+      if (super.check(true)) {
+        if (action != null) action.run(true, null, null);
+        return true;
+      }
+      return false;
+    }
+
+    @Override
+    public void onRequestPermissionResult(String[] permissions, int[] granted) {
+      super.onRequestPermissionResult(permissions, granted);
+      if (action != null) {
+        action.run(PermissionManager.isGranted(granted), permissions, granted);
+      }
+    }
+  }
+  
+  /**
+   * Interface passing callback that will be invoked to perform Permission dependent action
+   */
+  public interface PermissionAction {
+    
+    /**
+     * Called when final permission status has been determined
+     * @param permMgr currently active permission manager
+     * @param granted true if all required permissions have been granted 
+     */
+    public void run(boolean ok, String[] permissions, int[] granted);
+  }
+  
+  /*************************************************************************
+   * This is the base level for all of the permission checker classes
+   *************************************************************************/
+  private abstract static class PermissionChecker {
+    
+    int permReq;
+    
+    private List<String> reqPermissions;
+    private List<Integer> reqExplainIds;
+
+    /**
+     * Constructor
+     * @param permReq a unique assigned permission checker request number for this checker
+     */
+    public PermissionChecker(int permReq) {
+      
+      // User the request number to save this checker in the checkers array
+      this.permReq = permReq;
+      if (checkers[permReq-1] != null) {
+        throw new RuntimeException("Duplicate permission checkers using request ID:" + permReq);
+      }
+      checkers[permReq-1] = this;
+    }
+    
+    /**
+     * This is called to perform the necessary permission checks
+     * @param request true if user request for missing permissions should be displayd
+     * @return true everything is good to go, false if a permission needs to be granted
+     */
+    public boolean check(boolean request) {
+      
+      // initialize arrays of requested permissions and explanation resource ID's
+      reqPermissions = new ArrayList<String>();
+      reqExplainIds = new ArrayList<Integer>();
+      
+      // Call the main permission checker.  This is supposed to call one of
+      // the requestPermisson() methods for any permissions that need to be requested
+      checkPermission();
+      
+      // If any permissions need to be requested, make the request now
+      if (reqPermissions.size() > 0) {
+        if (request) requestPermissions();
+        return false;
+      }
+      
+      // Otherwise just return
+      return true;
+    }
+    
+    /**
+     * Abstract method to perform the actual permission checks
+     * It should call one of the requestPermission() methods for any
+     * necessary permission that is not currently granted
+     */
+    protected abstract void checkPermission();
+    
+    /**
+     * Convenience method that checks to see if specific permission has been
+     * granted, and if it has not calls requestPermission to request it
+     * @param reqPerm requested permission
+     * @return true if permission is granted, false if not
+     */
+    protected boolean checkRequestPermission(String reqPerm) {
+      return checkRequestPermission(reqPerm, 0);
+    }
+    
+    /**
+     * Convenience method that checks to see if specific permission has been
+     * granted, and if it has not calls requestPermission to request it
+     * @param reqPerm requested permission
+     * @param explainId resource ID of text explaining why permision is needed
+     * @return true if permission is granted, false if not
+     */
+    protected boolean checkRequestPermission(String reqPerm, int explainId) {
+      if (permMgr.isGranted(reqPerm)) return true;
+      requestPermission(reqPerm, explainId);
+      return false;
+    }
+    
+    /**
+     * Called to request a currently ungranted permission
+     * @param reqPerm permission requested
+     */
     protected void requestPermission(String reqPerm) {
       requestPermission(reqPerm, 0);
     }
     
+    /**
+     * Called to request a currently ungranted permissioin
+     * @param reqPerm permission requestioned
+     * @param explainId resource Id that defines a text explanation for
+     * why this permission is needed.  Can be zero in no explanation is
+     * to be provided
+     */
     protected void requestPermission(String reqPerm, int explainId) {
       if (reqPermissions != null) {
         int ndx = reqPermissions.indexOf(reqPerm);
@@ -1479,41 +1859,58 @@ public class ManagePreferences {
       }
     }
     
-    protected void requestPermissions() {
+    /** 
+     * Issue the system call to actually request any required permissions from the end user
+     */
+    private void requestPermissions() {
       String[] perms = reqPermissions.toArray(new String[reqPermissions.size()]);
       int[] expIds = new int[reqExplainIds.size()];
       for (int j = 0; j<expIds.length; j++) expIds[j] = reqExplainIds.get(j);
       permMgr.request(permReq, perms, expIds);
     }
     
+    /**
+     * @return list of permissions that should be requested
+     */
+    public List<String> getReqPermissions() {
+      return reqPermissions;
+    }
+    
+    /**
+     * @return list of explanation resource ID's corresponding to requested permissions
+     */
+    public List<Integer> getReqExplainIds() {
+      return reqExplainIds;
+    }
+    
+    /**
+     * This is called to indicate the results of the permission request.  This method
+     * doesn't do much other than reset the permission request arrays.  It will be
+     * overridden in subclasses that have to actually do something
+     * @param permissions
+     * @param granted
+     */
     public void onRequestPermissionResult(String [] permissions, int[] granted) {
       reqPermissions = null;
       reqExplainIds = null;
-      V newValue = value;
-      if (!PermissionManager.isGranted(granted)) {
-        if (permissions == null || granted == null || granted.length < 2) return;
-        newValue = check(value);
-        if (newValue == null) newValue = value;
-      }
-      
-      savePrefValue(resPrefId, newValue);
-      if (preference != null) {
-        setPreference(preference, newValue);
-      }
     }
-    
-    protected abstract V getPrefValue(int resPrefId);
-    protected abstract void savePrefValue(int resPrefId, V value);
-    protected abstract void setPreference(P preference, V value);
-    protected abstract V check(V value);
   }
   
+  /**************************************************************************************************/
   
-  
+  /**
+   * Called to indicate the results of a permission request
+   * @param requestCode permission request code
+   * @param permissions array of requested permissions
+   * @param granted granted status of each permission requested
+   * @return true if this was generated by one of our permission checkers,
+   * false otherwise.
+   */
   public static boolean onRequestPermissionsResult(int requestCode, String[] permissions, int[] granted) {
-    
+
+    // Find the corresponding PermissionChecker object and call it's onRequestePermissionResult method
     if (requestCode < 1 || requestCode > PERM_REQ_LIMIT) return false;
-    PermissionChecker<?,?> checker = checkers[requestCode-1];
+    PermissionChecker checker = checkers[requestCode-1];
     if (checker == null) return false;
     checker.onRequestPermissionResult(permissions, granted);
     return true;

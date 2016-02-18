@@ -23,7 +23,33 @@
    <string name="cadperm_desc">
    Allows application to receive CAD Pages containing information about 
    emergency response calls.  Malicious applications could use this to 
-   access personal information connected with these calls</string>   
+   access personal information connected with these calls</string>
+   
+   <string name="perm_acct_info_for_email">
+   If we know more about who you are, we can better identify subscription problems
+   or problems with direct paging vendors.  Granting this permission is not required,
+   if you do not do it, we will do the best we can without this information.    
+   </string>
+   
+   <string name="perm_acct_info_for_auto_recalc">
+   We are about to perform an automatic recalculation of your subscription status.  We
+   need to know who you are so can find any subscription information we have associated
+   with you.
+   </string>
+   
+   <string name="perm_acct_info_for_manual_recalc">
+   We need to know who you are so can find any subscription information we have associated
+   with you.
+   </string>
+   
+   <string name="perm_acct_info_for_register_direct">
+   The vendor you are trying to register with may need information about who you are to
+   help identify your account on their system.
+   </string>
+   
+   <string name="perm_acct_info_for_donate_status">
+   We need to know how you before we can check your subscription status.
+   </string>
    
 <!-- Menu Strings -->
 

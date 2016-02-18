@@ -9,6 +9,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.ManagePreferences;
+import net.anei.cadpage.R;
 import net.anei.cadpage.billing.BillingManager;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.vendors.VendorManager;
@@ -75,7 +76,7 @@ public class DonationManager {
   // Cached paid subscriber status
   private boolean paidSubscriber;
 
-  public void checkPaymentStatus(Context context) {
+  public void checkPaymentStatus(final Context context) {
     
     // See if it is time to perform an automatic reload
     // If this is a lifetime user, don't bother
@@ -110,9 +111,13 @@ public class DonationManager {
           // Request authorization information from authorization server
           // The android market authorization is now reloaded every time the
           // app starts up, so it would be pointless to do it again.
-          UserAcctManager.instance().reloadStatus(context);
-          
-          ManagePreferences.setAuthLastCheckTime();
+          ManagePreferences.checkPermAccountInfo(new ManagePreferences.PermissionAction(){
+            @Override
+            public void run(boolean ok, String[] permissions, int[] granted) {
+              UserAcctManager.instance().reloadStatus(context);
+              ManagePreferences.setAuthLastCheckTime();
+            }
+          }, R.string.perm_acct_info_for_auto_recalc);
         }
       }
     }
@@ -122,7 +127,7 @@ public class DonationManager {
    * Refresh payment status with latest information from market and from authorization server
    * @param context
    */
-  public void refreshStatus(Context context) {
+  public void refreshStatus(final Context context) {
     // Request purchase information from Android Market
     // When this information is returned, listeners will pass it to
     // processSubscription()
@@ -130,7 +135,12 @@ public class DonationManager {
     
     // Request authorization information from authorization server
     // this will also call our processSubscription() method
-    UserAcctManager.instance().reloadStatus(context);
+    ManagePreferences.checkPermAccountInfo(new ManagePreferences.PermissionAction(){
+      @Override
+      public void run(boolean ok, String[] permissions, int[] granted) {
+        UserAcctManager.instance().reloadStatus(context);
+      }
+    }, R.string.perm_acct_info_for_manual_recalc);
   }
   
   /**

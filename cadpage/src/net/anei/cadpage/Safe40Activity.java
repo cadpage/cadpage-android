@@ -90,81 +90,16 @@ public class Safe40Activity extends Activity {
     return orientation; // return value 1 is portrait and 2 is Landscape Mode
   }
   
-  
-  /**
-   * Determine if specific permission has been granted
-   * @param permission requested permission
-   * @return true if permission has been granted
-   */
-  public boolean isGranted(String permission) {
-    return permMgr.isGranted(permission);
-  }
-  
-  /**
-   * Check if specific permission has been granted
-   * and prompt user to grant permission if it is not
-   * @param requestId request ID
-   * @param permission requested permission
-   * @return true if all permissions area already granted
-   */
-  public boolean request(int requestId, String permission) {
-    return permMgr.request(requestId, new String[]{permission}, null);
-  }
-  
-  /**
-   * Check if specific permission has been granted
-   * and prompt user to grant permission if it is not
-   * @param requestId request ID
-   * @param permission requested permission
-   * @param explainId single resource defining text to be used to explain
-   * why all permissions are needed
-   * @return true if all permissions area already granted
-   */
-  public boolean request(int requestId, String permission, int explainId) {
-    return permMgr.request(requestId, new String[]{permission}, new int[]{explainId});
-  }
-  
-  /**
-   * Check if specific permission has been granted
-   * and prompt user to grant permission if it is not
-   * @param requestId request ID
-   * @param permissions list of requested permissions
-   * @return true if all permissions area already granted
-   */
-  public boolean request(int requestId, String[] permissions) {
-    return permMgr.request(requestId, permissions, null);
-  }
-  
-  /**
-   * Check if specific permission has been granted
-   * and prompt user to grant permission if it is not
-   * @param requestId request ID
-   * @param permissions list of requested permissions
-   * @param explainId single resource defining text to be used to explain
-   * why all permissions are needed
-   * @return true if all permissions area already granted
-   */
-  public boolean request(int requestId, String[] permissions, int explainId) {
-    return permMgr.request(requestId, permissions, explainId);
-  }
-  
-  /**
-   * Check if specific permission has been granted
-   * and prompt user to grant permission if it is not
-   * @param requestId request ID
-   * @param permissions list of requested permissions
-   * @param explainIds list of resource ID's explaining why permission
-   * is needed.  Can be null if no explanation should be generated.  Can be
-   * a single element if one explanation covers all permissions.  Or can
-   * contains a explanation resource for each permission
-   * @return true if all permissions area already granted
-   */
-  public boolean request(int requestId, String[] permissions, int[] explainIds) {
-    return permMgr.request(requestId, permissions, explainIds);
+  @Override
+  public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] granted) {
+    ManagePreferences.onRequestPermissionsResult(requestCode, permissions, granted);
   }
 
   @Override
   protected Dialog onCreateDialog(int id, Bundle bundle) {
+    
+    if (isFinishing()) return null;
+    
     Dialog dlg = permMgr.onCreateDialog(id, bundle);
     if (dlg != null) return dlg;
     return super.onCreateDialog(id);

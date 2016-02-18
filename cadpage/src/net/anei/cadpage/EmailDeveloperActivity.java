@@ -177,8 +177,23 @@ public class EmailDeveloperActivity extends Safe40Activity {
   }
   
   public static void sendEmailRequest(final Context context, final EmailType type, 
-                                        boolean includeMsg, int msgId,
-                                        boolean includeCfg) {
+                                      final boolean includeMsg, final int msgId,
+                                      final boolean includeCfg) {
+    if (includeCfg) {
+      ManagePreferences.checkPermAccountInfo(new ManagePreferences.PermissionAction(){
+        @Override
+        public void run(boolean ok, String[] permissions, int[] granted) {
+          sendEmailRequest2(context, type, includeMsg, msgId, includeCfg);
+        }
+      }, R.string.perm_acct_info_for_email);
+    } else {
+      sendEmailRequest2(context, type, includeMsg, msgId, includeCfg);
+    }
+  }
+  
+  private static void sendEmailRequest2(final Context context, final EmailType type, 
+                                       boolean includeMsg, int msgId,
+                                       boolean includeCfg) {
     
     // Build the message text
     StringBuilder body = new StringBuilder();

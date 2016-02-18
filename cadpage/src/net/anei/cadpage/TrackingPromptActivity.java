@@ -1,5 +1,6 @@
 package net.anei.cadpage;
 
+import net.anei.cadpage.ManagePreferences.PermissionAction;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,8 +20,6 @@ public class TrackingPromptActivity extends Safe40Activity {
   private final static String EXTRA_DURATION = EXTRA_PREFIX + "DURATION";
   private final static String EXTRA_MIN_DIST = EXTRA_PREFIX + "MIN_DIST";
   private final static String EXTRA_MIN_TIME = EXTRA_PREFIX + "MIN_TIME";
-  
-  private final static int PREQ_TRACKING = 1111;
   
   // Tracking request parameters
   private String url;
@@ -55,10 +54,16 @@ public class TrackingPromptActivity extends Safe40Activity {
     button.setOnClickListener(new OnClickListener(){
       @Override
       public void onClick(View view) {
-        if (request(999, PermissionManager.ACCESS_FINE_LOCATION)) {
-          remember = rememberBox.isChecked();
-          startTracking();
-        }
+        ManagePreferences.checkPermLocationTracking(new ManagePreferences.PermissionAction(){
+          @Override
+          public void run(boolean ok, String[] permissions, int[] granted) {
+            if (ok) {
+              if (rememberBox.isChecked()) ManagePreferences.setReportPosition("Y");
+              TrackingService.addLocationRequest(TrackingPromptActivity.this, url, duration, minDist, minTime);
+              finish();
+            }
+          }
+        });
       }
     });
     
@@ -70,20 +75,6 @@ public class TrackingPromptActivity extends Safe40Activity {
         finish();
       }
     });
-  }
-  
-  @Override
-  public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] granted) {
-    if (requestCode == PREQ_TRACKING) {
-      if (PermissionManager.isGranted(granted)) startTracking();
-    }
-    super.onRequestPermissionsResult(requestCode, permissions, granted);
-  }
-
-  private void startTracking() {
-    if (remember) ManagePreferences.setReportPosition("Y");
-    TrackingService.addLocationRequest(TrackingPromptActivity.this, url, duration, minDist, minTime);
-    finish();
   }
 
   /**

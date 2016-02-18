@@ -247,9 +247,13 @@ public class CallHistoryActivity extends ListActivity {
   }
 
   @Override
-  protected Dialog onCreateDialog(int id) {
+  protected Dialog onCreateDialog(int id, Bundle bundle) {
     
     if (isFinishing()) return null;
+    
+    Dialog dlg = permMgr.onCreateDialog(id, bundle);
+    if (dlg != null) return dlg;
+    
     switch (id) {
 
       case RELEASE_DIALOG:
@@ -400,6 +404,7 @@ public class CallHistoryActivity extends ListActivity {
   @Override
   protected void onDestroy() {
     mainActivity = null;
+    ManagePreferences.releasePermissionManager(permMgr);
     super.onDestroy();
   }
   
@@ -407,14 +412,6 @@ public class CallHistoryActivity extends ListActivity {
   public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] granted) {
     ManagePreferences.onRequestPermissionsResult(requestCode, permissions, granted);
   }
-
-  @Override
-  protected Dialog onCreateDialog(int id, Bundle bundle) {
-    Dialog dlg = permMgr.onCreateDialog(id, bundle);
-    if (dlg != null) return dlg;
-    return super.onCreateDialog(id);
-  }
-
 
   /**
    * Launch activity

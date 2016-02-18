@@ -143,10 +143,12 @@ public class UserAcctManager {
   
   
   /**
-   * @return true if account management is supported by this version of Android
+   * @return true if user has allowed the app permission needed to support account management
    */
   public boolean isAcctSupport() {
-    return true;
+    return PermissionManager.isGranted(context, PermissionManager.GET_ACCOUNTS) &&
+           PermissionManager.isGranted(context, PermissionManager.READ_SMS) &&
+           PermissionManager.isGranted(context, PermissionManager.READ_PHONE_STATE);
   }
 
   /**

@@ -278,7 +278,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     pref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
       @Override
       public boolean onPreferenceChange(Preference preference, Object newValue) {
-        
         if (!ManagePreferences.checkReportPosition((ListPreference)preference, (String)newValue)) return false;
         return true;
       }
@@ -292,6 +291,16 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     setupResponseButtonConfig(parent, 4, R.string.pref_callback4_screen_key, R.string.pref_callback4_type_key, R.string.pref_callback4_title_key, R.string.pref_callback4_key);
     setupResponseButtonConfig(parent, 5, R.string.pref_callback5_screen_key, R.string.pref_callback5_type_key, R.string.pref_callback5_title_key, R.string.pref_callback5_key);
     setupResponseButtonConfig(parent, 6, R.string.pref_callback6_screen_key, R.string.pref_callback6_type_key, R.string.pref_callback6_title_key, R.string.pref_callback6_key);
+    
+    // The No Show In Call preference requires the READ_PHONE_STATE permission
+    pref = findPreference(getString(R.string.pref_noShowInCall_key));
+    pref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
+      @Override
+      public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (!ManagePreferences.checkNoShowInCall((CheckBoxPreference)preference, (Boolean)newValue)) return false;
+        return true;
+      }
+    });
 
     // Email developer response
     Preference emailPref = findPreference(getString(R.string.pref_email_key));
@@ -367,6 +376,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   @Override
   protected void onDestroy() {
     MainDonateEvent.instance().setPreference(null, null);
+    ManagePreferences.releasePermissionManager(permMgr);
     super.onDestroy();
   }
 
@@ -541,6 +551,9 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
 
   @Override
   protected Dialog onCreateDialog(int id, Bundle bundle) {
+    
+    if (isFinishing()) return null;
+    
     Dialog dlg = permMgr.onCreateDialog(id, bundle);
     if (dlg != null) return dlg;
     return super.onCreateDialog(id);
