@@ -15,7 +15,7 @@ public class NCNewHanoverCountyParser extends DispatchOSSIParser {
   
   public NCNewHanoverCountyParser() {
     super(CITY_CODES, "NEW HANOVER COUNTY", "NC",
-          "FYI? ( CITY ADDR CALL SRC! | CH2 ADDR CITY/Y! EXTRA2 | SRC CALL ADDR EXTRA! ) INFO+");
+          "FYI? ( CITY ADDR CALL SRC! | CH2 ADDR CITY/Y! EXTRA2 | SRC? CALL ADDR! EXTRA ) INFO+");
   }
   
   @Override

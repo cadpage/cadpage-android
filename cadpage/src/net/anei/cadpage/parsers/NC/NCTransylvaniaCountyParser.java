@@ -1,205 +1,84 @@
 package net.anei.cadpage.parsers.NC;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.CodeSet;
-import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
-
-
-public class NCTransylvaniaCountyParser extends DispatchSouthernParser {
+public class NCTransylvaniaCountyParser extends FieldProgramParser {
   
   public NCTransylvaniaCountyParser() {
-    super(CALL_LIST, CITY_LIST, "TRANSYLVANIA COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID);
+    super(CITY_LIST, "TRANSYLVANIA COUNTY", "NC", 
+          "ADDR/S X? NAME EMPTY+? CALL INFO/CS+");
     setupProtectedNames("SEE OFF MOUNTAIN");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "911CENTER@transylvaniacounty.org";
+  }
+  
+  private static final Pattern OCA_ID_PTN = Pattern.compile("[, ]+OCA: *([-0-9]+)$");
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    
+    // String OCA ID from end of text
+    Matcher match = OCA_ID_PTN.matcher(body);
+    if (match.find()) {
+      body = body.substring(0,match.start());
+      data.strCallId = match.group(1);
+    }
+    
+    return (parseFields(body.split(","), data));
+  }
+
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " ID";
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("NAME")) return new MyNameField();
+    return super.getField(name);
+  }
+  
+  private static final Pattern CROSS_PTN = Pattern.compile("(.*)\\bX\\b(.*)");
+  private class MyCrossField extends CrossField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = CROSS_PTN.matcher(field);
+      if  (!match.matches()) return false;
+      data.strCross = append(match.group(1).trim(), " / ", match.group(2).trim());
+      return true;
+    }
+  }
+  
+  private class MyNameField extends NameField {
+    @Override
+    public void parse(String field, Data data) {
+      if (NUMERIC.matcher(field).matches()) {
+        data.strApt = append(data.strApt, "-", field);
+      } else {
+        super.parse(field, data);
+      }
+    }
   }
   
   @Override
   public String adjustMapCity(String city) {
     return convertCodes(city, MAP_CITY_TABLE);
   }
-  
-  private static final CodeSet CALL_LIST = new CodeSet(
-      "911 CALL",
-      "ABDOMINAL PROBLEM",
-      "ALARM DRILL/MAINTENANCE",
-      "ALARM DUPLICATE",
-      "ALARM FIRE (10-37)",
-      "ALARM RESTORE",
-      "ALARM TEST",
-      "ALARM TROUBLE",
-      "ALLERGIC REACTION",
-      "AMPUTATION",
-      "ANIMAL BITE/ATTACK",
-      "ANIMAL CONTROL CALL",
-      "ARMED ROBBERY (10-65)",
-      "ASSAULT WITH/WITHOUT WEAPON",
-      "ASSIST OTHER AGENCY",
-      "BACK INJURY",
-      "BANK ALARM (10-46)",
-      "BIOLOGICAL HAZMAT",
-      "BLEEDING/HEMORRAGE/LACERATION",
-      "BLOOD RUN",
-      "BOLO",
-      "BOMB THREAT",
-      "BREAKING AND ENTERING (10-62)",
-      "BRUSH FIRE",
-      "BURGLAR ALARM",
-      "BURN PATIENT",
-      "CANINE SEARCH",
-      "CARBON DIOXIDE ALARM",
-      "CARBON MONOXIDE ALARM",
-      "CARDIAC ARREST",
-      "CARELESS AND WRECKLESS",
-      "CHASE CAR/PERSON (10-43)",
-      "CHEST PAIN",
-      "CHILD BIRTH",
-      "CHIMNEY FIRE",
-      "CHOKING",
-      "CODE 5/CIVIL PROCESS/SERVING PAPERS",
-      "COLD EXPOSURE",
-      "COMMITMENT TRANSPORT",
-      "COMMUNICATING THREATS",
-      "COMMUNICATIONS CALL-IN",
-      "CONFINED SPACE",
-      "CONVALESANT TRANSPORT",
-      "DEATH (ATTENDED OR UNATTENDED)",
-      "DIABETIC PATIENT",
-      "DIFFICULTY BREATHING",
-      "DIRECT TRAFFIC",
-      "DISABLED MOTORIST (10-89)",
-      "DISASTER",
-      "DISTURBANCE CALL (10-38)",
-      "DOMESTIC VIOLENCE (10-97)",
-      "DOT",
-      "DRAG RACING",
-      "DRILL/EXERCISE",
-      "DROWNING",
-      "DRUG (BUYING OR SELLING)",
-      "DSS CALL",
-      "DSS ESCORT",
-      "DUMPSTER FIRE",
-      "ELECTRICAL FIRE",
-      "ELECTROCUTION",
-      "ELEVATOR EMERGENCY (ENTRAPMENT)",
-      "EMS BUSY",
-      "EMS CALL-IN",
-      "ESCORT",
-      "EYE INJURY",
-      "FAINTING/FAINTED PATIENT",
-      "FALL (NO INJURY/LIFTING ASSISTANCE)",
-      "FALL WITH INJURY",
-      "FIGHT IN PROGRESS (10-40)",
-      "FORGERY",
-      "FRACTURE",
-      "FUEL SPILL",
-      "FUNERAL",
-      "GANG RELATED CALL",
-      "GAS LEAK (NATURAL/PROPANE)",
-      "GUNSHOT WOUND",
-      "HARASSMENT",
-      "HAZARDOUS MATERIAL INCIDENT",
-      "HEAD INJURY",
-      "HEADACHE",
-      "HEALTH DEPT",
-      "HEART PROBLEMS",
-      "HEAT EXHAUSTION",
-      "HIGH LEVEL RESCUE",
-      "HIGHWAY LICENSE CHECK",
-      "HIT AND RUN (10-54)",
-      "HOME VISIT/DARE",
-      "HOSTAGE SITUATION",
-      "IMPALED PATIENT",
-      "INDECENT EXPOSURE",
-      "INDUSTRIAL ACCIDENT",
-      "INDUSTRIAL FIRE",
-      "INFORMATION",
-      "INTOXICATED DRIVER",
-      "INTOXICATED PEDSTRIAN",
-      "INVESTIGATION / FOLLOW UP",
-      "J (CONFIDENTIAL OR SENITIVE CALL)",
-      "JAIL BREAK/ESCAPEE (10-74)",
-      "JUVENILE DISTURBANCE",
-      "KIDNAPPING",
-      "LANDING ZONE REQUEST",
-      "LARCENY",
-      "LIFELINE ALARM",
-      "LIFESAVER MAINTENANCE",
-      "LIFESAVER RESPONSE",
-      "LIGHTNING STRIKE",
-      "LINES DOWN POWER CABLE PHONE",
-      "LITTERING",
-      "LIVESTOCK IN ROADWAY",
-      "LOITERING",
-      "MAINTENANCE DEPT CALL",
-      "MENTAL SUBJECT",
-      "MISSING PERSONS REPORT",
-      "MOTOR VEHICLE ACCIDENT / PI",
-      "MOTOR VEHICLE ACCIDENT / NO PI",
-      "MOTOR VEHICLE ACCIDENT WITH INJURY",
-      "MOTOR VEHICLE ACCIDENT WITHOUT INJURY",
-      "MUTUAL AID (10-99)",
-      "NAUSEA/VOMITING",
-      "NOISE DISTURBANCE (MUSIC OR PARTY)",
-      "OVERDOSE",
-      "PAGING TEST",
-      "PAIN CALL",
-      "PANIC ALARM",
-      "POACHING/SPOT LIGHTING",
-      "POISON CALL",
-      "PRISONER TRANSPORT",
-      "PROSTITUTION/SEX CRIMES",
-      "PROWLER (10-76)",
-      "PUBLIC SERVICE",
-      "RADIO TEST",
-      "RAPE/ATTEMPTED RAPE",
-      "REPO CALL",
-      "REPORT",
-      "REQUEST TO SPEAK WITH A DEPUTY",
-      "RIOT (10-44)",
-      "RIVER RESCUE",
-      "ROAD BLOCKED",
-      "ROAD HAZARD",
-      "SCHOOL DISTURBANCE",
-      "SCHOOL LOCK DOWN",
-      "SEARCH AND RESCUE CALL",
-      "SECURITY CHECK",
-      "SEIZURE CALL",
-      "SERVING OR CHECKING WARRENTS",
-      "SHOTS FIRED",
-      "SICK CALL",
-      "SMOKE INVESTIGATION (POSSIBLE FIRE)",
-      "SPORTING EVENT",
-      "SRT CALL",
-      "STABBED PERSON",
-      "STALKING",
-      "STAND-BY",
-      "STROKE/CVA",
-      "STRUCTURE FIRE",
-      "SUBJECT PINNED (SPECIFY)",
-      "SUICIDE/ATTEMPTED SUICIDE",
-      "SUSPICIOUS LETTER/PACKAGE",
-      "SUSPICIOUS VEHICLE/PERSON (10-60)",
-      "TEST CALL",
-      "THEFT OF PROPERTY",
-      "TRAFFIC CONTROL",
-      "TRAFFIC STOP (10-61)",
-      "TRANSPORT (HOSPITAL TO HOSPITAL)",
-      "TRASH FIRE",
-      "TREE DOWN",
-      "TRESPASSING",
-      "UNCONSCIOUS/UNRESPONSIVE",
-      "VANDALISM CALL",
-      "VEHICLE FIRE",
-      "VERBAL DISPUTE (10-39)",
-      "WEATHER ESCORT",
-      "WEATHER INFORMATION",
-      "WELFARE CHECK",
-      "WILDLIFE CALL",
-      "WILDLIFE VIOLATIONS",
-      "WRECKER REQUEST"
-      
-  );
   
   private static Properties MAP_CITY_TABLE = buildCodeTable(new String[]{
       "CONNESTEE",                "BREVARD",
