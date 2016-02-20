@@ -20,7 +20,6 @@ public class ALChiltonCountyParser extends DispatchSouthernPlusParser {
   public ALChiltonCountyParser() {
     super(CITY_LIST, "CHILTON COUNTY", "AL", DSFLAG_LEAD_PLACE | DSFLAG_NO_NAME_PHONE);
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
-    setupMultiWordStreets(MWORD_STREET_LIST);
   }
   
   @Override
@@ -104,23 +103,6 @@ public class ALChiltonCountyParser extends DispatchSouthernPlusParser {
       "226 I 65", "33.069199,-86.730036"
   });
   
-  private static final String[] MWORD_STREET_LIST = new String[]{
-    "AUTUMN WOOD",
-    "BIG M",
-    "CLANTON MARKET",
-    "COLLINS CHAPEL",
-    "COUNTRY CLUB",
-    "LAY DAM",
-    "MARS HILL",
-    "MEDICAL CENTER",
-    "MT PLEASANT",
-    "POPLAR SPRINGS",
-    "ROYAL OAKS",
-    "TOM MARTIN",
-    "WEST MED CENTER",
-    "WILLIE HAMILTON"
-  };
-  
   private static final String[] CITY_LIST = new String[]{
     "CLANTON",
     "ISABELLA",
@@ -137,6 +119,9 @@ public class ALChiltonCountyParser extends DispatchSouthernPlusParser {
     
     // Bibb County
     "RANDOLPH",
+    
+    // Dallas County
+    "PLANTERSVILLE",
     
     // Shelby County
     "CALERA",
