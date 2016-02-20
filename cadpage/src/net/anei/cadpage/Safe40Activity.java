@@ -94,14 +94,4 @@ public class Safe40Activity extends Activity {
   public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] granted) {
     ManagePreferences.onRequestPermissionsResult(requestCode, permissions, granted);
   }
-
-  @Override
-  protected Dialog onCreateDialog(int id, Bundle bundle) {
-    
-    if (isFinishing()) return null;
-    
-    Dialog dlg = permMgr.onCreateDialog(id, bundle);
-    if (dlg != null) return dlg;
-    return super.onCreateDialog(id);
-  }
 }

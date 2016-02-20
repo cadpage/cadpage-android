@@ -76,49 +76,54 @@ public class DonationManager {
   // Cached paid subscriber status
   private boolean paidSubscriber;
 
-  public void checkPaymentStatus(final Context context) {
+  /**
+   * @return true if it is time to do an automatic payment status recalculation
+   */
+  public boolean checkPaymentStatus() {
     
     // See if it is time to perform an automatic reload
     // If this is a lifetime user, don't bother
-    if (!ManagePreferences.freeRider()) {
-      
-      // if not, get the current time and last authorization check time
-      long lastTime = ManagePreferences.authLastCheckTime();
-      long curTime = System.currentTimeMillis();
-      
-      // If the last check time is zero, we check to see if the initialized flag has been
-      // set.  If not, this is the first time the user has launched Cadpage and we should do
-      // an immediate payment status reload to see if they have been a subscriber on another phone.
-      if (lastTime <= 0 && ManagePreferences.initialized()) {
-          
-        // Otherwise, we will try to spread out the load by timing the next authorization check 
-        // at a random time within the next 60 days
-        lastTime = curTime - (long)(Math.random()*AUTH_CHECK_INTERVAL);
-        ManagePreferences.setAuthLastCheckTime(lastTime);
-      }
-      
-      // Having done all of that, if the different between the current time and the
-      // lasted checked time exceeds the current check interval, it is time to recalculate
-      // the payment status.
-      if (curTime - lastTime > AUTH_CHECK_INTERVAL) {
+    if (ManagePreferences.freeRider()) return false;
+    
+    // if not, get the current time and last authorization check time
+    long lastTime = ManagePreferences.authLastCheckTime();
+    long curTime = System.currentTimeMillis();
+    
+    // Having done all of that, if the different between the current time and the
+    // lasted checked time exceeds the current check interval, it is time to recalculate
+    // the payment status.
+    return (curTime - lastTime > AUTH_CHECK_INTERVAL);
+  }
+
+  /**
+   * See if it is time to do an automatic payment recalculation, and if it
+   * is, do it
+   * @param context current context
+   */
+  public void checkPaymentStatus(final Context context) {
         
-        // OK, don't try this if we have no network connectivity!!
-        ConnectivityManager mgr = ((ConnectivityManager) 
-            context.getSystemService(Context.CONNECTIVITY_SERVICE));
-        NetworkInfo info = mgr.getActiveNetworkInfo();
-        if (info != null  && info.isConnected()) {
-          
-          // Request authorization information from authorization server
-          // The android market authorization is now reloaded every time the
-          // app starts up, so it would be pointless to do it again.
-          ManagePreferences.checkPermAccountInfo(new ManagePreferences.PermissionAction(){
-            @Override
-            public void run(boolean ok, String[] permissions, int[] granted) {
-              UserAcctManager.instance().reloadStatus(context);
-              ManagePreferences.setAuthLastCheckTime();
-            }
-          }, R.string.perm_acct_info_for_auto_recalc);
-        }
+    // We do not want to try this if the permission system has not been
+    // initialized because that prevents us from asking user to enable
+    // account permissions.  Instead, this will be done when the permission
+    // system is initialized
+    if (ManagePreferences.isPermissionsInitialized() && checkPaymentStatus()) {
+    
+      // OK, don't try this if we have no network connectivity!!
+      ConnectivityManager mgr = ((ConnectivityManager) 
+          context.getSystemService(Context.CONNECTIVITY_SERVICE));
+      NetworkInfo info = mgr.getActiveNetworkInfo();
+      if (info != null  && info.isConnected()) {
+        
+        // Request authorization information from authorization server
+        // The android market authorization is now reloaded every time the
+        // app starts up, so it would be pointless to do it again.
+        ManagePreferences.checkPermAccountInfo(new ManagePreferences.PermissionAction(){
+          @Override
+          public void run(boolean ok, String[] permissions, int[] granted) {
+            UserAcctManager.instance().reloadStatus(context);
+            ManagePreferences.setAuthLastCheckTime();
+          }
+        }, R.string.perm_acct_info_for_auto_recalc);
       }
     }
   }

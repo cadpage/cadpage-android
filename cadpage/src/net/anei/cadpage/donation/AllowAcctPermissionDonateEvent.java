@@ -22,6 +22,7 @@ public class AllowAcctPermissionDonateEvent extends DonateEvent {
   protected void doEvent(Activity activity) {
     ManagePreferences.checkPermAccountInfo(null, R.string.perm_acct_info_for_donate_status);
     MainDonateEvent.instance().refreshStatus();
+    closeEvents(activity);
   }
   
   private static final AllowAcctPermissionDonateEvent instance = new AllowAcctPermissionDonateEvent();

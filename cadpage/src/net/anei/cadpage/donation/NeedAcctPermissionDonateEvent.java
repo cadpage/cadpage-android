@@ -15,8 +15,7 @@ public class NeedAcctPermissionDonateEvent extends DonateScreenEvent {
 
   protected NeedAcctPermissionDonateEvent() {
     super(AlertStatus.YELLOW, R.string.donate_need_acct_permission_title, R.string.donate_need_acct_permission_text,
-           AllowAcctPermissionDonateEvent.instance(),
-           DoneDonateEvent.instance());
+           AllowAcctPermissionDonateEvent.instance());
   }
 
   @Override

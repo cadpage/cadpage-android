@@ -553,16 +553,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     ManagePreferences.onRequestPermissionsResult(requestCode, permissions, granted);
   }
 
-  @Override
-  protected Dialog onCreateDialog(int id, Bundle bundle) {
-    
-    if (isFinishing()) return null;
-    
-    Dialog dlg = permMgr.onCreateDialog(id, bundle);
-    if (dlg != null) return dlg;
-    return super.onCreateDialog(id);
-  }
-
   /**
    * Set up location menu tree
    * @param resId resource ID of the preference screen to be constructed

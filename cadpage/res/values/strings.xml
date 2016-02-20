@@ -27,8 +27,8 @@
    
    <string name="perm_acct_info_for_email">
    If we know more about who you are, we can better identify subscription problems
-   or problems with direct paging vendors.  Granting this permission is not required,
-   if you do not do it, we will do the best we can without this information.    
+   or problems with direct paging vendors.  Granting this permission is not required.
+   If you do not do it, we will do the best we can without this information.    
    </string>
    
    <string name="perm_acct_info_for_auto_recalc">
@@ -48,7 +48,7 @@
    </string>
    
    <string name="perm_acct_info_for_donate_status">
-   We need to know how you before we can check your subscription status.
+   We need to know who you are before we can check your subscription status.
    </string>
    
 <!-- Menu Strings -->

@@ -251,9 +251,6 @@ public class CallHistoryActivity extends ListActivity {
     
     if (isFinishing()) return null;
     
-    Dialog dlg = permMgr.onCreateDialog(id, bundle);
-    if (dlg != null) return dlg;
-    
     switch (id) {
 
       case RELEASE_DIALOG:

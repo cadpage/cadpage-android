@@ -101,7 +101,7 @@
     <string name="pref_callback5_key">callback5</string>
     <string name="pref_callback6_key">callback6</string>
     <string name="pref_alt_map_button_key">alt_map_button</string>
-    <string name="pref_map_page_button_key">alt_map_button</string>
+    <string name="pref_map_page_button_key">map_button_page</string>
     <string name="pref_xtra_resp_button1_key">xtra_resp_button1</string>
     <string name="pref_xtra_resp_button2_key">xtra_resp_button2</string>
     <string name="pref_xtra_resp_button3_key">xtra_resp_button3</string>

@@ -77,103 +77,109 @@ public class ManagePreferences {
       prefs.putInt(R.string.pref_version_key, PREFERENCE_VERSION);
     }
     
-    // If old version < 42 convert the old global response button type to 
-    // individual response button types
-    if (oldVersion < 42) {
-      String respType = prefs.getString(R.string.pref_resp_type_key, "");
-      for (int btn = 1; btn <= CALLBACK_BUTTON_CNT; btn++) {
-        String tmp = respType;
-        if (callbackButtonTitle(btn).length() == 0 || callbackButtonCode(btn).length() == 0) tmp = "";
-        setCallbackButtonType(btn, tmp);
+    // There are a lot of specialized preference fixes we have to make when
+    // user upgrades from an earlier version of Cadpage.  None of these have
+    // to be done if there was no previous version of Cadpage.
+    if (oldVersion > 0) {
+        
+      // If old version < 42 convert the old global response button type to 
+      // individual response button types
+      if (oldVersion < 42) {
+        String respType = prefs.getString(R.string.pref_resp_type_key, "");
+        for (int btn = 1; btn <= CALLBACK_BUTTON_CNT; btn++) {
+          String tmp = respType;
+          if (callbackButtonTitle(btn).length() == 0 || callbackButtonCode(btn).length() == 0) tmp = "";
+          setCallbackButtonType(btn, tmp);
+        }
       }
-    }
-    
-    // If old version was < 41, and user used to be sponsored by Cadpage, demo
-    // day counter.  We are dropping Cadpage sponsored status for the general parsers
-    // in this release.  If they loose our sponsored status, they should at least get
-    // a full 30 day demo
-    if (oldVersion < 41) {
+      
+      // If old version was < 41, and user used to be sponsored by Cadpage, demo
+      // day counter.  We are dropping Cadpage sponsored status for the general parsers
+      // in this release.  If they loose our sponsored status, they should at least get
+      // a full 30 day demo
+      if (oldVersion < 41) {
+        String location = location();
+        if (location == null || location.startsWith("General")) setAuthRunDays(0);
+      }
+      
+      // If old version was < 38, we need to convert the old process general alert
+      // setting to a new general alert option setting.  This gets complicated
+      // because there is no exact equivalent to old functionality which was
+      // different from direct and text pages.  We will do the best we can by
+      // assuming all alerts are direct pages if any direct paging vendor is
+      // enabled
+      if (oldVersion < 38 && oldVersion > 0) {
+        boolean oldGenAlert = prefs.getBoolean(R.string.pref_gen_alert_key) ||
+                              VendorManager.instance().isRegistered();
+        prefs.putString(R.string.pref_gen_alert_option_key, 
+                        oldGenAlert ? "" : "BHNP");
+      }
+      
+      // If old version was < 37, we need to clone two copies of the old paid year
+      // and purchase date settings and one sponsor
+      if (oldVersion < 37) {
+        if (freeRider()) {
+          setPaidYear(2, 9999);
+        } else {
+          int paidYear = paidYear();
+          setPaidYear(1, paidYear);
+          setPaidYear(2, paidYear);
+        }
+        
+        String purchaseDate = purchaseDateString();
+        setPurchaseDateString(1, purchaseDate);
+        setPurchaseDateString(2, purchaseDate);
+        
+        String sponsor = sponsor();
+        if (freeSub()) sponsor = "FREE";
+        setSponsor(2, sponsor);
+      }
+      
+      // If old version was < 35 the repeat enable key is gone and has to turn
+      // into a disabled repeat interval
+      if (oldVersion < 35) {
+        boolean repeatEnabled = prefs.getBoolean(R.string.pref_notif_repeat_key);
+        if (!repeatEnabled) prefs.putString(R.string.pref_notif_repeat_interval_key, "0");
+      }
+      
+      // If old version was < 34, we need to convert the reminder repeat interval
+      // from minutes to seconds
+      if (oldVersion > 0 && oldVersion < 34) {
+        String repeatInterval = prefs.getString(R.string.pref_notif_repeat_interval_key);
+        int repeat = Integer.parseInt(repeatInterval)*60;
+        if (repeat > 120) repeat = 120;
+        prefs.putString(R.string.pref_notif_repeat_interval_key, Integer.toString(repeat));
+      }
+      
+      // If old version was < 21, we need to reset the popup button configuration settings
+      if (oldVersion < 21) {
+        prefs.putString(R.string.pref_button1_key, context.getString(R.string.pref_button1_default));
+        prefs.putString(R.string.pref_button2_key, context.getString(R.string.pref_button2_default));
+        prefs.putString(R.string.pref_button3_key, context.getString(R.string.pref_button3_default));
+        prefs.putString(R.string.pref_button4_key, context.getString(R.string.pref_button4_default));
+        prefs.putString(R.string.pref_button5_key, context.getString(R.string.pref_button5_default));
+        prefs.putString(R.string.pref_button6_key, context.getString(R.string.pref_button6_default));
+      }
+      
+      // If old version < 17, add a 'C' to message type preference
+      if (oldVersion < 17) {
+        String msgType = enableMsgType();
+        if (! msgType.startsWith("C")) {
+          prefs.putString(R.string.pref_enable_msg_type_key, "C" + msgType);
+        }
+      }
+      
+      // Ditto if is a newer parser code that has been renamed,
       String location = location();
-      if (location == null || location.startsWith("General")) setAuthRunDays(0);
-    }
-    
-    // If old version was < 38, we need to convert the old process general alert
-    // setting to a new general alert option setting.  This gets complicated
-    // because there is no exact equivalent to old functionality which was
-    // different from direct and text pages.  We will do the best we can by
-    // assuming all alerts are direct pages if any direct paging vendor is
-    // enabled
-    if (oldVersion < 38 && oldVersion > 0) {
-      boolean oldGenAlert = prefs.getBoolean(R.string.pref_gen_alert_key) ||
-                            VendorManager.instance().isRegistered();
-      prefs.putString(R.string.pref_gen_alert_option_key, 
-                      oldGenAlert ? "" : "BHNP");
-    }
-    
-    // If old version was < 37, we need to clone two copies of the old paid year
-    // and purchase date settings and one sponsor
-    if (oldVersion < 37) {
-      if (freeRider()) {
-        setPaidYear(2, 9999);
-      } else {
-        int paidYear = paidYear();
-        setPaidYear(1, paidYear);
-        setPaidYear(2, paidYear);
-      }
-      
-      String purchaseDate = purchaseDateString();
-      setPurchaseDateString(1, purchaseDate);
-      setPurchaseDateString(2, purchaseDate);
-      
-      String sponsor = sponsor();
-      if (freeSub()) sponsor = "FREE";
-      setSponsor(2, sponsor);
-    }
-    
-    // If old version was < 35 the repeat enable key is gone and has to turn
-    // into a disabled repeat interval
-    if (oldVersion < 35) {
-      boolean repeatEnabled = prefs.getBoolean(R.string.pref_notif_repeat_key);
-      if (!repeatEnabled) prefs.putString(R.string.pref_notif_repeat_interval_key, "0");
-    }
-    
-    // If old version was < 34, we need to convert the reminder repeat interval
-    // from minutes to seconds
-    if (oldVersion > 0 && oldVersion < 34) {
-      String repeatInterval = prefs.getString(R.string.pref_notif_repeat_interval_key);
-      int repeat = Integer.parseInt(repeatInterval)*60;
-      if (repeat > 120) repeat = 120;
-      prefs.putString(R.string.pref_notif_repeat_interval_key, Integer.toString(repeat));
-    }
-    
-    // If old version was < 21, we need to reset the popup button configuration settings
-    if (oldVersion < 21) {
-      prefs.putString(R.string.pref_button1_key, context.getString(R.string.pref_button1_default));
-      prefs.putString(R.string.pref_button2_key, context.getString(R.string.pref_button2_default));
-      prefs.putString(R.string.pref_button3_key, context.getString(R.string.pref_button3_default));
-      prefs.putString(R.string.pref_button4_key, context.getString(R.string.pref_button4_default));
-      prefs.putString(R.string.pref_button5_key, context.getString(R.string.pref_button5_default));
-      prefs.putString(R.string.pref_button6_key, context.getString(R.string.pref_button6_default));
-    }
-    
-    // If old version < 17, add a 'C' to message type preference
-    if (oldVersion < 17) {
-      String msgType = enableMsgType();
-      if (! msgType.startsWith("C")) {
-        prefs.putString(R.string.pref_enable_msg_type_key, "C" + msgType);
-      }
-    }
-    
-    // Ditto if is a newer parser code that has been renamed,
-    String location = location();
-    String newLocation = convertOldLocationCode(context, location);
-    if (! location.equals(newLocation)) {
-      setLocation(newLocation);
-      if (location.equals("MDCentreville")) {
-        if (!overrideDefaults()) {
-          setOverrideDefaults(true);
-          setDefaultCity("Centreville");
-          setDefaultState("MD");
+      String newLocation = convertOldLocationCode(context, location);
+      if (! location.equals(newLocation)) {
+        setLocation(newLocation);
+        if (location.equals("MDCentreville")) {
+          if (!overrideDefaults()) {
+            setOverrideDefaults(true);
+            setDefaultCity("Centreville");
+            setDefaultState("MD");
+          }
         }
       }
     }
@@ -1248,6 +1254,15 @@ public class ManagePreferences {
     }
   }
   
+  /**
+   * @return true if permission system has been properly enabled and
+   * can be invoked.  The only time this may not be true is during app
+   * initialization before the Call history activity is initialized.
+   */
+  public static boolean isPermissionsInitialized() {
+    return permMgr != null;
+  }
+  
   /********************************************************************
    * Initial permission checking (checks all of the other preference permissions)
    ********************************************************************/
@@ -1261,7 +1276,7 @@ public class ManagePreferences {
   public static class InitialPermissionChecker extends PermissionChecker {
     
     // List of checkers that reported permission failures
-    List<PrefPermissionChecker<?,?>> failedCheckers;
+    List<PermissionChecker> failedCheckers;
     
     public InitialPermissionChecker() {
       super(PERM_REQ_INITIAL);
@@ -1270,7 +1285,7 @@ public class ManagePreferences {
     @Override
     public void checkPermission() {
 
-      failedCheckers = new ArrayList<PrefPermissionChecker<?,?>>();
+      failedCheckers = new ArrayList<PermissionChecker>();
 
       // Loop through all the defined permission checkers
       for (PermissionChecker checker : checkers) {
@@ -1282,6 +1297,22 @@ public class ManagePreferences {
           PrefPermissionChecker<?,?> pchecker = (PrefPermissionChecker<?,?>)checker;
           if (!pchecker.check()) failedCheckers.add(pchecker);
         }
+        
+        // OK, we are also interested in the account permissions, but only if
+        // we are ready to launch an automatic payment recalculation
+        else if (checker instanceof AccountInfoChecker) {
+          if (DonationManager.instance().checkPaymentStatus()) {
+            AccountInfoChecker aChecker = (AccountInfoChecker)checker;
+            if (!aChecker.check(new PermissionAction(){
+              @Override
+              public void run(boolean ok, String[] permissions, int[] granted) {
+                DonationManager.instance().checkPaymentStatus(CadPageApplication.getContext());
+              }
+            }, R.string.perm_acct_info_for_auto_recalc, false)) {
+              failedCheckers.add(aChecker);
+            }
+          }
+        }
       }
       
       // No failures, life is good
@@ -1289,7 +1320,7 @@ public class ManagePreferences {
 
       // Otherwise run through all of the failed checkers and accumulate
       // their missing permissions in our requested permission list
-      for (PrefPermissionChecker<?,?> checker : failedCheckers) {
+      for (PermissionChecker checker : failedCheckers) {
         List<String>reqPerms = checker.getReqPermissions();
         List<Integer>reqExpIds = checker.getReqExplainIds();
         for (int ndx = 0; ndx<reqPerms.size(); ndx++) {
@@ -1304,7 +1335,7 @@ public class ManagePreferences {
       // When we get the final permission granted result
       // Loop back through all of the failed permission checkers reported
       // the granted status for the permissions they requested
-      for (PrefPermissionChecker<?,?> checker : failedCheckers) {
+      for (PermissionChecker checker : failedCheckers) {
         List<String> permList = checker.getReqPermissions();
         String[] perms = permList.toArray(new String[permList.size()]);
         int[] stats = new int[perms.length];
@@ -1638,7 +1669,7 @@ public class ManagePreferences {
   }
   
   /*************************************************************************
-   * Permission checking for all actions that require user account information
+   * Permission checking when user requests run time location tracking
    ************************************************************************/
   public static boolean checkPermLocationTracking(PermissionAction action) {
     return locationTrackingChecker.check(action);
@@ -1653,7 +1684,7 @@ public class ManagePreferences {
     }
     
     public boolean check(PermissionAction action) {
-      return check(action);
+      return super.check(action, true);
     }
 
     @Override
@@ -1663,10 +1694,10 @@ public class ManagePreferences {
   }
   
   /*************************************************************************
-   * Permission checking when user requests run time location tracking
+   * Permission checking for all actions that require user account information
    ************************************************************************/
   public static boolean checkPermAccountInfo(PermissionAction action, int explainId) {
-    return accountInfoChecker.check(action, explainId);
+    return accountInfoChecker.check(action, explainId, true);
   }
   
   private static final AccountInfoChecker accountInfoChecker = new AccountInfoChecker();
@@ -1679,9 +1710,9 @@ public class ManagePreferences {
       super(PERM_REQ_ACCT_INFO);
     }
     
-    public boolean check(PermissionAction action, int explainId) {
+    public boolean check(PermissionAction action, int explainId, boolean request) {
       this.explainId = explainId;
-      return check(action);
+      return check(action, request);
     }
 
     @Override
@@ -1722,9 +1753,9 @@ public class ManagePreferences {
       super(permReq);
     }
     
-    public boolean check(PermissionAction action) {
+    public boolean check(PermissionAction action, boolean request) {
       this.action = action;
-      if (super.check(true)) {
+      if (super.check(request)) {
         if (action != null) action.run(true, null, null);
         return true;
       }
