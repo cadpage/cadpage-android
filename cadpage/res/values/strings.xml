@@ -252,6 +252,7 @@
   <string name="pref_type_callback_title">Button Response Type</string>
   <string name="pref_desc_callback_title">Button Description</string>
   <string name="pref_code_callback_title">Button Phone/Code</string>
+  <string name="pref_code_callback_msg">You can specify a phone number and code separated by a slash</string>
   
   <string name="pref_alt_map_button_title">Include Alternate Map Button</string>
   <string name="pref_alt_map_button_summaryon">Alternate map button will be included</string>

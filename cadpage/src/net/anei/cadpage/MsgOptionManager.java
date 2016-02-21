@@ -2,6 +2,7 @@ package net.anei.cadpage;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.donation.DonationManager;
@@ -599,6 +600,8 @@ public class MsgOptionManager {
     return menuItemSelected(itemId, display, null);
   }
   
+  private static final Pattern PHONE_TEXT_PTN = Pattern.compile("(\\d+)/ *(.*)");
+  
   public boolean menuItemSelected(int itemId, boolean display, String respCode) {
     
     // If parent activity is no longer valid, disregard
@@ -685,8 +688,11 @@ public class MsgOptionManager {
       
     case R.id.resp_call_item:
       message.setResponseMenuVisible(false);
+      String phone = respCode;
+      Matcher match = PHONE_TEXT_PTN.matcher(respCode);
+      if (match.matches()) phone = match.group(1);
       try {
-        String urlPhone = "tel:" + respCode;
+        String urlPhone = "tel:" + phone;
         Intent intent = new Intent(Intent.ACTION_CALL);
         intent.setData(Uri.parse(urlPhone));
         activity.startActivity(intent);
@@ -697,7 +703,12 @@ public class MsgOptionManager {
       
     case R.id.resp_text_item:
       message.setResponseMenuVisible(false);
-      sendSMS(message.getFromAddress(), respCode);
+      match = PHONE_TEXT_PTN.matcher(respCode);
+      if (match.matches()) {
+        sendSMS(match.group(1), match.group(2));
+      } else {
+        sendSMS(message.getFromAddress(), respCode);
+      }
       return true;
       
     case R.id.resp_http_item:
