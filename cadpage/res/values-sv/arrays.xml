@@ -12,6 +12,7 @@
     <item>När tillgänglig</item>
   </string-array>
   <string-array name="pref_resp_type_text">
+    <item>Nothing</item>                      <!-- Translate -->  
     <item>Telefonsamtal</item>
     <item>Textat svar</item>
   </string-array>

@@ -20,7 +20,8 @@ public class SobStoryDonateEvent extends DonateScreenEvent {
 
   @Override
   public boolean isEnabled() {
-    return UserAcctManager.instance().getUser() != null;
+    return UserAcctManager.instance().isAcctSupport() && 
+           UserAcctManager.instance().getUser() != null;
   }
   
   @Override

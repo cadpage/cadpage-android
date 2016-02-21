@@ -16,7 +16,9 @@ import net.anei.cadpage.preferences.LocationListPreference;
 import net.anei.cadpage.preferences.LocationManager;
 import net.anei.cadpage.preferences.OnDialogClosedListener;
 import net.anei.cadpage.vendors.VendorManager;
+import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -28,6 +30,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
+import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
@@ -35,10 +38,15 @@ import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.Preference.OnPreferenceClickListener;
 import android.view.KeyEvent;
+import android.widget.BaseAdapter;
 
 public class SmsPopupConfigActivity extends PreferenceActivity {
   
   private static final int REQ_SCANNER_CHANNEL = 1;
+  
+  private static final String EXTRA_INITIALIZE = "PreferenceActivity.INITIALIZE";
+  
+  private PermissionManager permMgr;
   
   private String parserFilter = "";
   private String parserDefCity = "";
@@ -60,6 +68,9 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     
     // Save location so we can tell when it changes
     saveLocation = ManagePreferences.location();
+    
+    permMgr = new PermissionManager(this);
+    ManagePreferences.setPermissionManager(permMgr);
     
     // Build preference tree
     addPreferencesFromResource(R.xml.preferences);
@@ -83,6 +94,9 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     pref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
       @Override
       public boolean onPreferenceChange(Preference preference, Object newValue) {
+        
+        if (!ManagePreferences.checkPermEnableMsgType((ListPreference)preference, (String)newValue)) return false;
+        
         SmsPopupUtils.enableSMSPopup(SmsPopupConfigActivity.this, (String)newValue);
         return true;
       }
@@ -259,6 +273,35 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
       });
     }
     
+    // Location tracking preference needs location permission
+    pref = findPreference(getString(R.string.pref_report_position_key));
+    pref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
+      @Override
+      public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (!ManagePreferences.checkReportPosition((ListPreference)preference, (String)newValue)) return false;
+        return true;
+      }
+    });
+    
+    // Set up the response button preferences
+    PreferenceScreen parent = (PreferenceScreen)findPreference(getString(R.string.pref_resp_button_config_key));
+    setupResponseButtonConfig(parent, 1, R.string.pref_callback1_screen_key, R.string.pref_callback1_type_key, R.string.pref_callback1_title_key, R.string.pref_callback1_key);
+    setupResponseButtonConfig(parent, 2, R.string.pref_callback2_screen_key, R.string.pref_callback2_type_key, R.string.pref_callback2_title_key, R.string.pref_callback2_key);
+    setupResponseButtonConfig(parent, 3, R.string.pref_callback3_screen_key, R.string.pref_callback3_type_key, R.string.pref_callback3_title_key, R.string.pref_callback3_key);
+    setupResponseButtonConfig(parent, 4, R.string.pref_callback4_screen_key, R.string.pref_callback4_type_key, R.string.pref_callback4_title_key, R.string.pref_callback4_key);
+    setupResponseButtonConfig(parent, 5, R.string.pref_callback5_screen_key, R.string.pref_callback5_type_key, R.string.pref_callback5_title_key, R.string.pref_callback5_key);
+    setupResponseButtonConfig(parent, 6, R.string.pref_callback6_screen_key, R.string.pref_callback6_type_key, R.string.pref_callback6_title_key, R.string.pref_callback6_key);
+    
+    // The No Show In Call preference requires the READ_PHONE_STATE permission
+    pref = findPreference(getString(R.string.pref_noShowInCall_key));
+    pref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
+      @Override
+      public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (!ManagePreferences.checkNoShowInCall((CheckBoxPreference)preference, (Boolean)newValue)) return false;
+        return true;
+      }
+    });
+
     // Email developer response
     Preference emailPref = findPreference(getString(R.string.pref_email_key));
     emailPref.setOnPreferenceClickListener(new OnPreferenceClickListener(){
@@ -285,10 +328,55 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     // Add developer dialog preference if appropriate
     DeveloperToolsManager.instance().addPreference(this, getPreferenceScreen());
   }
-
+  
+  /**
+   * Setup correlations between the different response button preferences
+   * @param screenResId ID of response button screen preference
+   * @param typeResId ID of response button type preference
+   * @param descResId ID of response button description preference
+   * @param codeResId ID of response button phone/code preference
+   */
+  private void setupResponseButtonConfig(final PreferenceScreen parent, final int button, 
+                                         int screenResId, int typeResId, int descResId, int codeResId) {
+    
+    // Find all of the preferences
+    final PreferenceScreen screenPref = (PreferenceScreen)findPreference(getString(screenResId));
+    final ListPreference typePref = (ListPreference)findPreference(getString(typeResId));
+    final EditTextPreference descPref = (EditTextPreference)findPreference(getString(descResId));
+    final EditTextPreference codePref = (EditTextPreference)findPreference(getString(codeResId));
+    
+    // Lock screen summary to value of description preference
+    screenPref.setSummary(descPref.getText());
+    descPref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
+      @Override
+      public boolean onPreferenceChange(Preference preference, Object newValue) {
+        screenPref.setSummary(newValue.toString());
+        
+        // Required to actually force display change :(
+        ((BaseAdapter)parent.getRootAdapter()).notifyDataSetChanged();
+        return true;
+      }
+    });
+    
+    // Code field is only enabled if response type is set to something
+    codePref.setEnabled(typePref.getValue().length() > 0);
+    typePref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
+      @Override
+      public boolean onPreferenceChange(Preference preference, Object value) {
+        
+        // Check if we have appropriate permission
+        if (!ManagePreferences.checkResponseType(button, (ListPreference)preference, value.toString())) return false; 
+          
+        codePref.setEnabled(value.toString().length() > 0);
+        return true;
+      }
+    });
+  }
+  
   @Override
   protected void onDestroy() {
     MainDonateEvent.instance().setPreference(null, null);
+    ManagePreferences.releasePermissionManager(permMgr);
     super.onDestroy();
   }
 
@@ -422,6 +510,12 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     oldRevMsgOrder = options.revMsgOrder();
     oldMixedMsgOrder = options.mixedMsgOrder();
     
+    // If this was an initialization call to initialize settings
+    // finish it before it become visible
+    
+    Intent intent = getIntent();
+    if (intent.getBooleanExtra(EXTRA_INITIALIZE, false)) finish();
+    
     super.onStart();
   }
   
@@ -454,6 +548,11 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     }
   }
   
+  @Override
+  public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] granted) {
+    ManagePreferences.onRequestPermissionsResult(requestCode, permissions, granted);
+  }
+
   /**
    * Set up location menu tree
    * @param resId resource ID of the preference screen to be constructed
@@ -582,11 +681,16 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
 
     outState.putString("WORKAROUND_FOR_BUG_19917_KEY", "WORKAROUND_FOR_BUG_19917_VALUE");
     super.onSaveInstanceState(outState);
-
-//    int orientation = Safe40Activity.getDisplayOrientation(this);
-    
-    //Lock the screen orientation to the current display orientation : Landscape or Portrait
-//    this.setRequestedOrientation(orientation);
-
+  }
+  
+  /**
+   * Create and destroy a settings screen, which has the effect of initializing 
+   * all settings to their default values 
+   * @param activity current activity
+   */
+  public static void initializePreferences(Activity activity) {
+    Intent intent = new Intent(activity, SmsPopupConfigActivity.class);
+    intent.putExtra(EXTRA_INITIALIZE, true);
+    activity.startActivity(intent);
   }
 }

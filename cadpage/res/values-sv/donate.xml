@@ -61,11 +61,15 @@
   <string name="donate_demo_expire_title">Demotiden för Cadpage har gått ut.</string>
   <string name="donate_demo_expire_text">Du har använt Cadpage demo i %1$d dagar. Din Cadpage demo gick ut för %2$d dagar sen.  
   </string>
-  <string name="donate_android16_title">"Hörru, jag har redan betalt för det här"</string>
-  <string name="donate_android16_text">
-    Ber hemskt mycket om ursäkt.  Cadpage finner dig med hjälp av ditt Google Market konto och du kör med Android 1.6 vilket inte ger oss möjligheten att avgöra ditt Google market konto. Den goda nyheten är att du får köra gratis så länge du kör med android 1.6.
-    
+  
+  <string name="donate_need_acct_permission_title">"We do not know who you are"</string>   <!-- Translate -->
+  <string name="donate_need_acct_permission_text">
+    You have not given Cadpage permission to access your account and phone information.
+    Without this permission, Cadpage can not confirm if you have purchased a Cadpage
+    subscription. 
   </string>
+  
+  <string name="donate_allow_acct_permission_title">Allow Cadpage to access my account information</string>
   <string name="donate_no_user_title">"Hörru, jag har redan betalt för det här"</string>
   <string name="donate_no_user_text">
   Ber hemskt mycket om ursäkt. Cadpage finner dig med hjälp av ditt Google Market konto "och du verkar inte ha något sådant. Försök att logga in med" ditt Paypal konto och kolla om det hjälper.</string>

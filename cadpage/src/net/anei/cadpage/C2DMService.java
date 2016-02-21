@@ -226,6 +226,7 @@ public class C2DMService extends IntentService {
     
     // Reconstruct message from data from intent fields
     String from = intent.getStringExtra("sender");
+    if (from == null) from = intent.getStringExtra("from");
     if (from == null) from = intent.getStringExtra("originally_from");
     if (from == null) from = "GCM";
     String subject = intent.getStringExtra("subject");

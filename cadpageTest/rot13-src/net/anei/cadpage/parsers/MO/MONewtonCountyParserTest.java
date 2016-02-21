@@ -19,6 +19,10 @@ Fhowrpg:911 PNYY\a5369 DHVAPR EQ  PebffFgerrgf: QRAAVFBA YA 0.03 zv R PEBJ EQ 0.
 Fhowrpg:911 PNYY\a13724 UVTUJNL 43, Ncg. 29 GRRCRR ZUC PebffFgerrgf: NINYBA YA 0.22 zv A YBAAVR YA 0.33 zv FJ FGEHPGHER SVER-Q / ZU-CBEGNOYR BSP 
 Fhowrpg:911 PNYY\a5156 WRFFVPN YA  PebffFgerrgf: PEBJ EQ 0.31 zv J SNYY RFA: ct6 Pnyy Ahzore: 762520
 
+Pbagnpg: yc9phfgbzf <yc9phfgbzf@tznvy.pbz>
+Fraqre: qvfcngpu@ap-pqp.bet
+1 bs 2\aSEZ:qvfcngpu@ap-pqp.bet\aFHOW:(ab fhowrpg)\aZFT:18878 ABYNAQ YA ARJGBA PBHAGL 18878 ABYNAQ YA PebffFgerrgf: CNAQN EQ \a0.17 zv R ABEJNL EQ\a(Pba'g) 2 bs 2\a0.17 zv AJ BHGFVQR SVER RFA: 17 Pnyy Ahzore: 1025509(Raq)
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fgryyn SQ
 Ybpngvba: Fgryyn, ZB, Havgrq Fgngrf
@@ -435,6 +439,26 @@ choyvp pynff ZBArjgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:ct6",
         "VQ:762520");
   }
+  
+  @Grfg
+  choyvp ibvq grfgYc9Phfgbzf() {
+
+    qbGrfg("G1",
+        "1 bs 2\a" +
+        "SEZ:qvfcngpu@ap-pqp.bet\a" +
+        "FHOW:(ab fhowrpg)\a" +
+        "ZFT:18878 ABYNAQ YA ARJGBA PBHAGL 18878 ABYNAQ YA PebffFgerrgf: CNAQN EQ \a" +
+        "0.17 zv R ABEJNL EQ\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "0.17 zv AJ BHGFVQR SVER RFA: 17 Pnyy Ahzore: 1025509(Raq)",
+
+        "NQQE:18878 ABYNAQ YA",
+        "PVGL:ARJGBA PBHAGL",
+        "K:CNAQN EQ 0.17 zv R ABEJNL EQ 0.17 zv AJ",
+        "PNYY:BHGFVQR SVER",
+        "ZNC:17",
+        "VQ:1025509");
+ }
 
   @Grfg
   choyvp ibvq grfgFgryynSQ() {

@@ -8,14 +8,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Pattern;
-
 import net.anei.cadpage.HttpService;
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.Log;
+import net.anei.cadpage.PermissionManager;
 import net.anei.cadpage.R;
 import net.anei.cadpage.donation.UserAcctManager;
 import android.accounts.Account;
 import android.accounts.AccountManager;
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Build;
@@ -29,13 +30,20 @@ public class UserAcctManager {
   private String meid = null;
   private boolean developer = false;
   
-  private static final Pattern SDK_PTN = Pattern.compile(".*\\bsdk\\b.*");
+  private static final Pattern SDK_PTN = Pattern.compile(".*(?:^|[_\\W])sdk(?:$|[_\\W]).*");
   
-  public void setContext(Context context) {
+  private UserAcctManager(Context context) {
     this.context = context;
+    if (SDK_PTN.matcher(Build.PRODUCT).matches()) developer = true;
+  }
+  
+  public void reset() {
+    
+    boolean readPhoneStatePerm = PermissionManager.isGranted(context, PermissionManager.READ_PHONE_STATE);
+    
     TelephonyManager tMgr =(TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
-    phoneNumber = tMgr.getLine1Number();
-    if (phoneNumber == null) phoneNumber = tMgr.getVoiceMailNumber();
+    if (PermissionManager.isGranted(context, PermissionManager.READ_SMS)) phoneNumber = tMgr.getLine1Number();
+    if (phoneNumber == null && readPhoneStatePerm) phoneNumber = tMgr.getVoiceMailNumber();
     if (phoneNumber != null) {
       int pt = phoneNumber.indexOf(',');
       if (pt >= 0) phoneNumber = phoneNumber.substring(0,pt).trim();
@@ -43,7 +51,8 @@ public class UserAcctManager {
       if (phoneNumber.startsWith("+")) phoneNumber = phoneNumber.substring(1);
       if (phoneNumber.startsWith("1")) phoneNumber = phoneNumber.substring(1);
     }
-    meid = tMgr.getDeviceId();
+    meid = readPhoneStatePerm ? tMgr.getDeviceId() : null;
+    if (meid == null) meid = getSerialID();
     
     List<String> emailList = new ArrayList<String>();
     for (Account acct :  AccountManager.get(context).getAccountsByType("com.google")) {
@@ -52,12 +61,11 @@ public class UserAcctManager {
     userEmails = emailList.toArray(new String[emailList.size()]);
     
     // If we are running in an emulator, assume developer status
-    String product = Build.PRODUCT;
-    if (SDK_PTN.matcher(product).matches()) {
+    if (SDK_PTN.matcher(Build.PRODUCT).matches()) {
       developer = true;
     }
     
-    // Otehrwise, see if first email is on our developer list
+    // Otherwise, see if first email is on our developer list
     else {
       if (userEmails.length > 0) {
         String[] developers = context.getResources().getStringArray(R.array.donate_devel_list);
@@ -135,10 +143,12 @@ public class UserAcctManager {
   
   
   /**
-   * @return true if account management is supported by this version of Android
+   * @return true if user has allowed the app permission needed to support account management
    */
   public boolean isAcctSupport() {
-    return true;
+    return PermissionManager.isGranted(context, PermissionManager.GET_ACCOUNTS) &&
+           PermissionManager.isGranted(context, PermissionManager.READ_SMS) &&
+           PermissionManager.isGranted(context, PermissionManager.READ_PHONE_STATE);
   }
 
   /**
@@ -216,13 +226,38 @@ public class UserAcctManager {
     i &= 0xF;
     return (char)(i < 10 ? '0'+i : 'a'+(i-10));
   }
+  
+  private String getSerialID() {
+    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.GINGERBREAD) return null;
+    try {
+      SerialID obj = (SerialID)Class.forName("net.anei.cadpage.donation.UserAcctManager$SerialSDK9").newInstance();
+      return obj.getSerialId();
+    } catch (Exception ex) {
+      Log.e(ex);
+      return null;
+    }
+    
+  }
+  
+  private interface SerialID {
+    public String getSerialId();
+  }
+  
+  @TargetApi(Build.VERSION_CODES.GINGERBREAD)
+  static class SerialSDK9 implements SerialID {
+
+    @Override
+    public String getSerialId() {
+      return android.os.Build.SERIAL;
+    }
+    
+  }
  
   
   private static UserAcctManager instance = null;
   
   public static void setup(Context context) {
-    instance = new UserAcctManager();
-    instance.setContext(context);
+    instance = new UserAcctManager(context);
   }
   
   public static UserAcctManager instance() {

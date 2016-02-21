@@ -31,6 +31,15 @@ public class ListPreference extends android.preference.ListPreference {
     }
   }
 
+  @Override
+  public void setValue(String value) {
+    super.setValue(value);
+    refreshSummary();
+    
+    OnPreferenceChangeListener listener = getOnPreferenceChangeListener();
+    if (listener != null) listener.onPreferenceChange(this, value);
+  }
+
   public void refreshSummary() {
     if (origSummary == null) origSummary = getSummary().toString().replace("%%", "%");
     if (origSummary != null) {

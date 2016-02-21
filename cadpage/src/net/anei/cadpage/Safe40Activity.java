@@ -1,21 +1,27 @@
 package net.anei.cadpage;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.Display;
 import android.view.KeyEvent;
 
+
 /**
  * Subclass of standard android.app.Activity class with some workaround that
  * are supposed to avoid the dreaded 
  * java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState
  * problem at Android 4.0 and up
+ * Also implements the Permssion manager interface for Android 6.0 and up
  */
+@SuppressLint("NewApi")
 public class Safe40Activity extends Activity {
   
   private boolean activityActive = false;
+  private PermissionManager permMgr = new PermissionManager(this);
 
   @Override
   protected void onResume() { 
@@ -82,5 +88,10 @@ public class Safe40Activity extends Activity {
       }
     }
     return orientation; // return value 1 is portrait and 2 is Landscape Mode
+  }
+  
+  @Override
+  public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] granted) {
+    ManagePreferences.onRequestPermissionsResult(requestCode, permissions, granted);
   }
 }

@@ -67,6 +67,7 @@
     <string name="pref_notif_repeat_key">notif_repeat</string>
     <string name="pref_notif_repeat_interval_key">notif_repeat_interval</string>
     <string name="pref_notif_timeout_key">notif_timeout</string>
+    <string name="pref_resp_button_config_key">rep_button_config</string>
     <string name="pref_resp_type_key">resp_type</string>
     <string name="pref_resp_merge_key">resp_merge</string>
     <string name="pref_button1_key">button1</string>
@@ -75,6 +76,18 @@
     <string name="pref_button4_key">button4</string>
     <string name="pref_button5_key">button5</string>
     <string name="pref_button6_key">button6</string>
+    <string name="pref_callback1_screen_key">callback1_screen</string>
+    <string name="pref_callback2_screen_key">callback2_screen</string>
+    <string name="pref_callback3_screen_key">callback3_screen</string>
+    <string name="pref_callback4_screen_key">callback4_screen</string>
+    <string name="pref_callback5_screen_key">callback5_screen</string>
+    <string name="pref_callback6_screen_key">callback6_screen</string>
+    <string name="pref_callback1_type_key">callback1_type</string>
+    <string name="pref_callback2_type_key">callback2_type</string>
+    <string name="pref_callback3_type_key">callback3_type</string>
+    <string name="pref_callback4_type_key">callback4_type</string>
+    <string name="pref_callback5_type_key">callback5_type</string>
+    <string name="pref_callback6_type_key">callback6_type</string>
     <string name="pref_callback1_title_key">callback1_title</string>
     <string name="pref_callback2_title_key">callback2_title</string>
     <string name="pref_callback3_title_key">callback3_title</string>
@@ -88,7 +101,7 @@
     <string name="pref_callback5_key">callback5</string>
     <string name="pref_callback6_key">callback6</string>
     <string name="pref_alt_map_button_key">alt_map_button</string>
-    <string name="pref_map_page_button_key">alt_map_button</string>
+    <string name="pref_map_page_button_key">map_button_page</string>
     <string name="pref_xtra_resp_button1_key">xtra_resp_button1</string>
     <string name="pref_xtra_resp_button2_key">xtra_resp_button2</string>
     <string name="pref_xtra_resp_button3_key">xtra_resp_button3</string>

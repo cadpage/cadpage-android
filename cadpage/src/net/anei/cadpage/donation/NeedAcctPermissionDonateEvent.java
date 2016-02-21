@@ -11,11 +11,11 @@ determine your Google Market account.  The good news is that you get a free
 ride as long as you are running Android 1.6.
 
  */
-public class Android16DonateEvent extends DonateScreenEvent {
+public class NeedAcctPermissionDonateEvent extends DonateScreenEvent {
 
-  protected Android16DonateEvent() {
-    super(AlertStatus.YELLOW, R.string.donate_android16_title, R.string.donate_android16_text,
-           DoneDonateEvent.instance());
+  protected NeedAcctPermissionDonateEvent() {
+    super(AlertStatus.YELLOW, R.string.donate_need_acct_permission_title, R.string.donate_need_acct_permission_text,
+           AllowAcctPermissionDonateEvent.instance());
   }
 
   @Override
@@ -23,8 +23,8 @@ public class Android16DonateEvent extends DonateScreenEvent {
     return !UserAcctManager.instance().isAcctSupport();
   }
   
-  private static final Android16DonateEvent instance = new Android16DonateEvent();
-  public static Android16DonateEvent instance() {
+  private static final NeedAcctPermissionDonateEvent instance = new NeedAcctPermissionDonateEvent();
+  public static NeedAcctPermissionDonateEvent instance() {
     return instance;
   }
 

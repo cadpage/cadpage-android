@@ -124,13 +124,14 @@
     You have been using Cadpage for %1$d days.  Your cadpage demo expired %2$d days ago.  
   </string>
   
-  <string name="donate_android16_title">"Hey, I've already paid for this"</string>
-  <string name="donate_android16_text">
-    Our sincere apologies.  Cadpage tracks you by your Google Play Store account
-    and you are running Android 1.6 which does not gives us the ability to 
-    determine your Google Play Store account.  The good news is that you get a free
-    ride as long as you are running Android 1.6.
+  <string name="donate_need_acct_permission_title">"We do not know who you are"</string>
+  <string name="donate_need_acct_permission_text">
+    You have not given Cadpage permission to access your account and phone information.
+    Without this permission, Cadpage can not confirm if you have purchased a Cadpage
+    subscription. 
   </string>
+  
+  <string name="donate_allow_acct_permission_title">Allow Cadpage to access my account information</string>
   
   <string name="donate_no_user_title">"Hey, I've already paid for this"</string>
   <string name="donate_no_user_text">

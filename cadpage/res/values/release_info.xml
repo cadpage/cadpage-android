@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02182016</string>
+  <string name="release_date">02202016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.05.13\n
+Location Fixes:\n
+Newton County, MO\n
+New Hanover County, NH\n
+\n
 v1.9.05.12\n
 Location Fixes:\n
 St Joseph County, IN\n
@@ -37,10 +42,7 @@ Collier County, FL\n
 Auglaize County, OH\n
 Stark County, OH\n
 Clarion County, PA\n
-Columbia County, PA\n
-\n
-v1.9.05.08\n
-Fixed crash introduced in last release reparse message logic
+Columbia County, PA
   </string>
 </resources>
   

@@ -34,6 +34,12 @@ public class EditTextPreference extends android.preference.EditTextPreference {
     if (dialogClosedListener != null) dialogClosedListener.onDialogClosed(positiveResult); 
     if (positiveResult) refreshSummary();
   }
+
+  @Override
+  public void setText(String value) {
+    super.setText(value);
+    refreshSummary();
+  }
   
   public void refreshSummary() {
     refreshSummary(getText());

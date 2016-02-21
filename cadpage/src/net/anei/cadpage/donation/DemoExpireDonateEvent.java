@@ -12,8 +12,9 @@ public class DemoExpireDonateEvent extends DonateScreenEvent {
 
   protected DemoExpireDonateEvent() {
     super(AlertStatus.RED, R.string.donate_demo_expire_title, R.string.donate_demo_expire_text,
-           ReqMoneyGroup.instance(), MagicWordEvent.instance(),
-           Android16DonateEvent.instance(),
+           ReqMoneyGroup.instance(), 
+           MagicWordEvent.instance(),
+           NeedAcctPermissionDonateEvent.instance(),
            NoUserDonateEvent.instance(), 
            WrongUserDonateEvent.instance(),
            DonateExtraDayEvent.instance(),

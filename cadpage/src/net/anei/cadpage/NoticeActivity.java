@@ -25,6 +25,7 @@ public class NoticeActivity extends Safe40Activity {
   
   private static final int VENDOR_NOTICE_DLG = 1;
   private static final int MISSING_READER_DLG = 2;
+  private static final int NEED_PERMISSION_DLG = 3;
   
   String[] parms;
 
@@ -89,7 +90,7 @@ public class NoticeActivity extends Safe40Activity {
             try {
               NoticeActivity.this.startActivity(intent);
             } catch (ActivityNotFoundException ex) {
-              Log.w("Failed to launch Googl Play Store");
+              Log.w("Failed to launch Google Play Store");
               ContentQuery.dumpIntent(intent);
             }
             NoticeActivity.this.finish();
@@ -105,6 +106,21 @@ public class NoticeActivity extends Safe40Activity {
             NoticeActivity.this.finish();
           }})
         .create();
+        
+      case NEED_PERMISSION_DLG:
+        if (parms == null || parms.length < 1) return null;
+        message = parms[0];
+        return new AlertDialog.Builder(this)
+            .setIcon(R.drawable.ic_launcher)
+            .setTitle(R.string.need_permission_title)
+            .setMessage(message)
+            .setPositiveButton(android.R.string.ok, new OnClickListener(){
+              @Override
+              public void onClick(DialogInterface dialog, int which) {
+                NoticeActivity.this.finish();
+              }})
+            .create();
+
     }
     
     return super.onCreateDialog(id);
@@ -122,10 +138,16 @@ public class NoticeActivity extends Safe40Activity {
   public static void showMissingReaderNotice(Context context, int readerNameId, String readerPkg) {
     showNotice(context, MISSING_READER_DLG, context.getString(readerNameId), readerPkg);
   }
+  
+  public static void showNeedPermissionNotice(Context context, String text) {
+    showNotice(context, NEED_PERMISSION_DLG, text);
+  }
 
   private static void showNotice(Context context, int type, String ... parms) {
     Intent intent = new Intent(context, NoticeActivity.class);
-    if (!(context instanceof Activity)) intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+    if (!(context instanceof Activity) || type == NEED_PERMISSION_DLG) {
+      intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+    }
     intent.putExtra(EXTRAS_TYPE, type);
     intent.putExtra(EXTRAS_PARMS, parms);
     context.startActivity(intent);

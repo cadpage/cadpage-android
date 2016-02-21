@@ -1,5 +1,6 @@
 package net.anei.cadpage;
 
+import net.anei.cadpage.ManagePreferences.PermissionAction;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,6 +20,11 @@ public class TrackingPromptActivity extends Safe40Activity {
   private final static String EXTRA_DURATION = EXTRA_PREFIX + "DURATION";
   private final static String EXTRA_MIN_DIST = EXTRA_PREFIX + "MIN_DIST";
   private final static String EXTRA_MIN_TIME = EXTRA_PREFIX + "MIN_TIME";
+  
+  // Tracking request parameters
+  private String url;
+  private int duration, minDist, minTime;
+  boolean remember;
 
   /**
    * Create new email dialog activity
@@ -32,14 +38,14 @@ public class TrackingPromptActivity extends Safe40Activity {
     setContentView(R.layout.tracking_prompt);
     
     Intent intent = getIntent();
-    final String url = intent.getStringExtra(EXTRA_URL);
+    url = intent.getStringExtra(EXTRA_URL);
     if (url == null) {
       finish();
       return;
     }
-    final int duration = intent.getIntExtra(EXTRA_DURATION, 10);
-    final int minDist = intent.getIntExtra(EXTRA_MIN_DIST, 10);
-    final int minTime = intent.getIntExtra(EXTRA_MIN_TIME, 10);
+    duration = intent.getIntExtra(EXTRA_DURATION, 10);
+    minDist = intent.getIntExtra(EXTRA_MIN_DIST, 10);
+    minTime = intent.getIntExtra(EXTRA_MIN_TIME, 10);
     
     final CheckBox rememberBox = (CheckBox)findViewById(R.id.TrackingRememberBox);
     
@@ -48,9 +54,16 @@ public class TrackingPromptActivity extends Safe40Activity {
     button.setOnClickListener(new OnClickListener(){
       @Override
       public void onClick(View view) {
-        if (rememberBox.isChecked()) ManagePreferences.setReportPosition("Y");
-        TrackingService.addLocationRequest(TrackingPromptActivity.this, url, duration, minDist, minTime);
-        finish();
+        ManagePreferences.checkPermLocationTracking(new ManagePreferences.PermissionAction(){
+          @Override
+          public void run(boolean ok, String[] permissions, int[] granted) {
+            if (ok) {
+              if (rememberBox.isChecked()) ManagePreferences.setReportPosition("Y");
+              TrackingService.addLocationRequest(TrackingPromptActivity.this, url, duration, minDist, minTime);
+              finish();
+            }
+          }
+        });
       }
     });
     
@@ -63,7 +76,7 @@ public class TrackingPromptActivity extends Safe40Activity {
       }
     });
   }
-  
+
   /**
    * Handle server request to start position tracking.  Method check to see what user has permitted, possibly prompting user for
    * permission, before passing request on to TrackignService

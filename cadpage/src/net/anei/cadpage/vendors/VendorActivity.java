@@ -1,5 +1,6 @@
 package net.anei.cadpage.vendors;
 
+import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.Safe40Activity;
 import net.anei.cadpage.SmsPopupUtils;
@@ -60,7 +61,12 @@ public class VendorActivity extends Safe40Activity {
     registerButton.setOnClickListener(new OnClickListener(){
       @Override
       public void onClick(View v) {
-        vendor.registerReq(VendorActivity.this);
+        ManagePreferences.checkPermAccountInfo(new ManagePreferences.PermissionAction(){
+          @Override
+          public void run(boolean ok, String[] permissions, int[] granted) {
+            vendor.registerReq(VendorActivity.this);
+          }
+        }, R.string.perm_acct_info_for_register_direct);
       }
     });
     
