@@ -480,8 +480,8 @@
                 <net.anei.cadpage.preferences.EditTextPreference  
                     android:key="@string/pref_callback6_key"
                     android:title="@string/pref_code_callback_title"
-                    android:dialogMessage="@string/pref_code_callback_msg"
                     android:summary="@string/pref_button_summary"
+                    android:dialogMessage="@string/pref_code_callback_msg"
                     android:defaultValue=""/>
               </PreferenceScreen>
               

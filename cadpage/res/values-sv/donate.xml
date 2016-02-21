@@ -63,10 +63,9 @@
   </string>
   
   <string name="donate_need_acct_permission_title">"Vi vet inte vem du är"</string>
-  <string name="donate_need_acct_permission_text">                                         <!-- Translate -->
-    You have not given Cadpage permission to access your account and phone information.
-    Without this permission, Cadpage can not confirm if you have purchased a Cadpage
-    subscription. 
+  <string name="donate_need_acct_permission_text">
+    Du har inte givit Cadpage access till ditt konto och din telefoninformation.
+    Utan denna tillåtelse kan inte Cadpage verifiera att du har ett köpt Cadpageabonnemang. 
   </string>
   
   <string name="donate_allow_acct_permission_title">Allow Cadpage to access my account information</string>
