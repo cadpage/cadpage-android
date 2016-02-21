@@ -5,7 +5,7 @@
   <string name="app_name">Cadpage</string>
   <string name="call_history">Larmhistorik:</string>
   <string name="new_text_at">Nytt larm mottaget %s</string>
-  <string name="src_text_at">%1$s call at %2$s</string>    <!-- Translate   "<agency> call at 13:23 -->
+  <string name="src_text_at">%1$s larm kl. %2$s</string>
   <string name="mms_subject">Objekt:</string>
   <string name="apt_label">Lgh:</string>
   <string name="cross_label">"X:</string>
@@ -23,30 +23,26 @@
    Tillåt att applikationen tar emot information från nödsamtal. Illasinnad programvara skulle kunna använda denna information för att komma åt personlig information från dessa samtal.
   </string>
    
-   <string name="perm_acct_info_for_email">  <!-- Translate -->
-   If we know more about who you are, we can better identify subscription problems
-   or problems with direct paging vendors.  Granting this permission is not required.
-   If you do not do it, we will do the best we can without this information.    
+   <string name="perm_acct_info_for_email">
+   Om vi vet vem du är så kan vi lättare identifiera abonnemangsprobleom eller problem med meddelandeservice. Att ge oss tillåtelse till det är inte nödvändigt.
+   Om du inte gör det så kommer vi att göra vårt bästa för att lösa det utan den här informationen.    
    </string>
    
-   <string name="perm_acct_info_for_auto_recalc">  <!-- Translate -->
-   We are about to perform an automatic recalculation of your subscription status.  We
-   need to know who you are so can find any subscription information we have associated
-   with you.
+   <string name="perm_acct_info_for_auto_recalc">
+   Vi håller på att införa en automatisk omberäkningsfunktion av din prenumerationsstatus.Vi
+   behöver veta vem du är så vi kan hitta prenumerationsinformation som vi har kopplat till dig.
    </string>
    
-   <string name="perm_acct_info_for_manual_recalc">  <!-- Translate -->
-   We need to know who you are so can find any subscription information we have associated
-   with you.
+   <string name="perm_acct_info_for_manual_recalc">
+   Vi berhöver veta vem du är så vi kan hitta prenumerationsinformation som vi har kopplat till dig.
    </string>
    
-   <string name="perm_acct_info_for_register_direct">  <!-- Translate -->
-   The vendor you are trying to register with may need information about who you are to
-   help identify your account on their system.
+   <string name="perm_acct_info_for_register_direct">
+   Den tjänst du försöker registrera dig med kan behöva information om vem du är för att identifera dig i deras system.
    </string>
    
-   <string name="perm_acct_info_for_donate_status">  <!-- Translate -->
-   We need to know who you are before we can check your subscription status.
+   <string name="perm_acct_info_for_donate_status">
+   Vi behöver information om vem du är innan vi kan kolla ditt prenumerationsstatus.
    </string>
    
   <!-- Menu Strings -->
@@ -199,10 +195,10 @@
   <string name="pref_resp_button_config_summary">Konfigurera Kvittensknappmeny</string>
   <string name="pref_xtra_resp_button_config_title">Vanliga knappar</string>
   
-  <string name="pref_resp_type_title">Response Type</string>                  <!-- Translate -->
-  <string name="pref_resp_type_summary">Button response: %%s</string>
-  <string name="pref_resp_merge_title">Direct paging message menu</string>
-  <string name="pref_resp_merge_summary">Direct page vendor message menus will\n%%s</string>
+  <string name="pref_resp_type_title">Kvittenstyp</string>
+  <string name="pref_resp_type_summary">Knapptryckning: %%s</string>
+  <string name="pref_resp_merge_title">Meny från meddelandeservice</string>
+  <string name="pref_resp_merge_summary">Meny från meddelandeservis kommer att \n%%s</string>
   
   <string name="pref_button_summary">Aktuell inställning: %%s</string>
   <string name="pref_button1_title">Konfigurera Knapp 1</string>
@@ -212,16 +208,16 @@
   <string name="pref_button5_title">Konfigurera Knapp 5</string>
   <string name="pref_button6_title">Konfigurera Knapp 6</string>
   
-  <string name="pref_resp_button1_title">Response Button 1</string>                <!-- Translate -->
-  <string name="pref_resp_button2_title">Response Button 2</string>
-  <string name="pref_resp_button3_title">Response Button 3</string>
-  <string name="pref_resp_button4_title">Response Button 4</string>
-  <string name="pref_resp_button5_title">Response Button 5</string>
-  <string name="pref_resp_button6_title">Response Button 6</string>
+  <string name="pref_resp_button1_title">Kvittensknapp 1</string>
+  <string name="pref_resp_button2_title">Kvittensknapp 2</string>
+  <string name="pref_resp_button3_title">Kvittensknapp 3</string>
+  <string name="pref_resp_button4_title">Kvittensknapp 4</string>
+  <string name="pref_resp_button5_title">Kvittensknapp 5</string>
+  <string name="pref_resp_button6_title">Kvittensknapp 6</string>
       
-  <string name="pref_type_callback_title">Button Response Type</string>           <!-- Translate -->
-  <string name="pref_desc_callback_title">Button Description</string>
-  <string name="pref_code_callback_title">Button Phone/Code</string>
+  <string name="pref_type_callback_title">Knappens kvittenstyp</string>
+  <string name="pref_desc_callback_title">Knappens beskrivning</string>
+  <string name="pref_code_callback_title">Knapp för telefon/kod</string>
   
     
   <string name="pref_alt_map_button_title">Inkludera alternativ kartsökningknapp</string>  
@@ -468,6 +464,6 @@
   <string name="missing_map_page_reader_adobe">Adobe Reader</string>
   
   <!-- Permission explanations -->
-  <string name="need_permission_title">Cadpage needs the following permissions to peform this operation.</string> <!-- Translate -->
-  
+  <string name="need_permission_title">Cadpage Behöver följande tillåtelse för att utföra detta.</string>
+ 
 </resources>
