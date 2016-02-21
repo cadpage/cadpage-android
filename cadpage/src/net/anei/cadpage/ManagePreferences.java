@@ -1,5 +1,7 @@
 package net.anei.cadpage;
 
+import java.io.File;
+import java.io.IOException;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -28,6 +30,7 @@ import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceManager;
+import android.support.v4.content.ContextCompat;
 
 public class ManagePreferences {
   
@@ -37,13 +40,18 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 42;
+  private static final int PREFERENCE_VERSION = 43;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
+  
+  // Name of file we build on a nobackup directory.  It's absense indicates that
+  // Cadpage is starting up after an auto-restore
+  private static final String CHECK_FILENAME = "HERE_I_AM";
   
   private static ManagePreferences prefs;
   private static String freeSubType;
   private static String paidSubType;
+  private static File checkFile;
   
   public static void resetPreferenceVersion() {
     prefs.putInt(R.string.pref_version_key,  PREFERENCE_VERSION-1);
@@ -60,7 +68,11 @@ public class ManagePreferences {
     
     // Initialize the preference object
     prefs = new ManagePreferences(context);
-    
+
+    // While we have a context, create the file that will be used to check for
+    // the autoreload status
+    checkFile = new File(new ContextCompat().getNoBackupFilesDir(context), CHECK_FILENAME);
+
     Object oldMergeOption = prefs.getPreference(R.string.pref_resp_merge_key);
     if (oldMergeOption instanceof Boolean) {
       String newMergeOption = ((Boolean)oldMergeOption ? "A" : "R");
@@ -81,6 +93,15 @@ public class ManagePreferences {
     // user upgrades from an earlier version of Cadpage.  None of these have
     // to be done if there was no previous version of Cadpage.
     if (oldVersion > 0) {
+      
+      // If old version < 43 create the auto-backup check file
+      if (oldVersion < 43) {
+        try {
+          checkFile.createNewFile();
+        } catch (IOException ex) {
+          Log.e(ex);
+        }
+      }
         
       // If old version < 42 convert the old global response button type to 
       // individual response button types
@@ -1015,10 +1036,29 @@ public class ManagePreferences {
   }
   
   public static boolean newVersion(int versionCode) {
+    boolean reset = false;
+    
+    // What this really does is determine if we need to request a new GCM
+    // registration ID.  There are two circumstances where this is required
+    // The first is when a new version of Cadpage has been installed.
     int prevVersion = prefs.getInt(R.string.pref_prev_version_code, 0);
-    if (versionCode == prevVersion) return false;
-    prefs.putInt(R.string.pref_prev_version_code, versionCode);
-    return true;
+    if (versionCode != prevVersion) {
+      reset = true;
+      prefs.putInt(R.string.pref_prev_version_code, versionCode);
+    }
+
+    // The second is when Cadpage has been installed on a new device and
+    // is running on auto-reloaded data.  We detect this be checking for
+    // the absence of a file in the no-backup directory.
+    try {
+      if (!checkFile.createNewFile()) {
+        reset = true;
+        setRegistrationId(null);
+      }
+    } catch (IOException ex) {
+      Log.e(ex);
+    }
+    return reset;
   }
   
   public static boolean registerReqActive() {
