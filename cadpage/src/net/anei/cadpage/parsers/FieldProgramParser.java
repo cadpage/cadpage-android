@@ -260,16 +260,20 @@ public class FieldProgramParser extends SmartAddressParser {
   }
   
   public FieldProgramParser(String defCity, String defState, String programStr) {
-    this(defCity, defState, CountryCode.US, programStr);
+    this(defCity, defState, CountryCode.US, programStr, 0);
   }
   
   public FieldProgramParser(String defCity, String defState, CountryCode country, String programStr) {
-    super(defCity, defState, country);
+    this(defCity, defState, country, programStr, 0);
     setProgram(programStr, 0);
   }
   
   public FieldProgramParser(String defCity, String defState, String programStr, int flags) {
-    super(defCity, defState);
+    this(defCity, defState, CountryCode.US, programStr, flags);
+  }
+  
+  public FieldProgramParser(String defCity, String defState, CountryCode country, String programStr, int flags) {
+    super(defCity, defState, country);
     setProgram(programStr, flags);
   }
   
