@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.MO;
 import java.util.Properties;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA52Parser;
 
 public class MOGreeneCountyBParser extends DispatchA52Parser {
@@ -14,6 +15,16 @@ public class MOGreeneCountyBParser extends DispatchA52Parser {
   @Override
   public String getFilter() {
     return "grn_alret@springfieldmo.gov";
+  }
+  
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (subject.equals("LOC")) {
+      body = stripFieldStart(body, "GRN_Alert@springfieldmo.gov:");
+      if (body.startsWith(":")) body = subject + body;
+      else body = subject + ':' + body;
+    }
+    return parseMsg(body, data);
   }
   
   @Override

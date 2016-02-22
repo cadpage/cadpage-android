@@ -20,11 +20,7 @@ public class DispatchA52Parser extends FieldProgramParser {
   }
   
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    if (subject.equals("LOC")) {
-      if (body.startsWith(":")) body = subject + body;
-      else body = subject + ':' + body;
-    }
+  protected boolean parseMsg(String body, Data data) {
     body = body.replace('\n', ' ');
     if (!super.parseMsg(body, data)) return false;
     if (data.strCall.length() == 0) {

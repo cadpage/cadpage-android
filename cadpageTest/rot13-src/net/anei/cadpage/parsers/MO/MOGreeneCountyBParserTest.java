@@ -7,6 +7,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 Terrar Pbhagl, ZB
 
+Pbagnpg: Zvpunry Srethfba <sretoret75@ubgznvy.pbz>
+Fraqre: TEA_Nyreg@fcevatsvryqzb.tbi
+1 bs 2\aSEZ:TEA_Nyreg@fcevatsvryqzb.tbi\aFHOW:YBP\aZFT:TEA_Nyreg@fcevatsvryqzb.tbi:3631 A FABJZNFF PVE NQ: QRFP: PEFGE:1900 R NEYVATGBA QE /\a(Pba'g) 2 bs 2\aGLC:*Z*SUBHFR PZG:QROEVF SVER BA GUR SRAPR YVAR PYE NQI IREL PYBFR G VAP:00000002 GVZR:Fhaqnl, Sroehnel 21, 2016 5:25(Raq)
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Onggyrsvryq Sver Cebgrpgvba Qvfgevpg
 Ybpngvba: Onggyrsvryq, ZB, Havgrq Fgngrf
@@ -133,6 +137,26 @@ choyvp pynff ZBTerrarPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZBTerrarPbhaglOCnefreGrfg() {
     frgCnefre(arj ZBTerrarPbhaglOCnefre(), "TERRAR PBHAGL", "ZB");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZvpunrySrethfba() {
+
+    qbGrfg("G1",
+        "1 bs 2\a" +
+        "SEZ:TEA_Nyreg@fcevatsvryqzb.tbi\a" +
+        "FHOW:YBP\a" +
+        "ZFT:TEA_Nyreg@fcevatsvryqzb.tbi:3631 A FABJZNFF PVE NQ: QRFP: PEFGE:1900 R NEYVATGBA QE /\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "GLC:*Z*SUBHFR PZG:QROEVF SVER BA GUR SRAPR YVAR PYE NQI IREL PYBFR G VAP:00000002 GVZR:Fhaqnl, Sroehnel 21, 2016 5:25(Raq)",
+
+        "NQQE:3631 A FABJZNFF PVE",
+        "K:1900 R NEYVATGBA QE",
+        "PBQR:SUBHFR",
+        "PNYY:UBHFR SVER",
+        "VASB:QROEVF SVER BA GUR SRAPR YVAR PYE NQI IREL PYBFR G",
+        "VQ:00000002");
+
   }
 
   @Grfg
