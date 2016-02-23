@@ -37,6 +37,7 @@ public class UTBoxElderCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CITY")) return new MyCityField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
@@ -63,6 +64,23 @@ public class UTBoxElderCountyParser extends FieldProgramParser {
       return "ADDR APT PLACE X";
     }
   }
+  
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      super.parse(field, data);
+      int pt = data.strCity.indexOf('/');
+      if (pt >= 0) {
+        data.strState = data.strCity.substring(pt+1);
+        data.strCity = data.strCity.substring(0,pt);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CITY ST";
+    }
+  }
 
   
   Pattern DATE_TIME_OPERATOR = Pattern.compile("\\d{2}:\\d{2}:\\d{2} \\d{2}/\\d{2}/\\d{4} - .*");
@@ -75,50 +93,53 @@ public class UTBoxElderCountyParser extends FieldProgramParser {
   }
 
   private static final Properties CITY_CODES = buildCodeTable(new String[] {
-      "LYN",     "Lynn",
-      "YOS",     "Yost",
-      "CLC",     "Clear Creek",
       "BEA",     "Bear River City",
-      "BRI",     "Brigham City",
-      "HAR",     "Harper Ward",
-      "PER",     "Perry",
+      "BEC",     "Box Elder County",
       "BED",     "Beaver Dam",
+      "BEL",     "Belmont Springs",
+      "BLU",     "Blue Creek",
+      "BNS",     "Benson",
+      "BOT",     "Bothwell",
+      "BRI",     "Brigham City",
+      "BUR",     "Burley/ID",
+      "CLC",     "Clear Creek",
       "COL",     "Collinston",
       "COR",     "Corinne",
-      "PRO",     "Promontory",
+      "CUR",     "Curlew Junction",
       "DEW",     "Deweyville",
+      "ELW",     "Elwood",
+      "ETN",     "Etna",
       "FIE",     "Fielding",
       "GAR",     "Garland",
-      "ETN",     "Etna",
       "GRO",     "Grouse Creek",
-      "LUC",     "Lucin",
+      "GUN",     "Gunnison",
+      "HAR",     "Harper Ward",
       "HON",     "Honeyville",
+      "HOT",     "Hot Spr Trailer",
       "HOW",     "Howell",
-      "MAN",     "Mantua",
       "KEL",     "Kelton",
+      "LUC",     "Lucin",
+      "LYN",     "Lynn",
+      "MAN",     "Mantua",
+      "ONC",     "Oneida County/ID",
       "PAR",     "Park Valley",
-      "ROS",     "Rosette",
-      "BEL",     "Belmont Springs",
+      "PEN",     "Penrose",
+      "PER",     "Perry",
       "PLY",     "Plymouth",
       "POR",     "Portage",
-      "WAS",     "Washakie",
+      "PRO",     "Promontory",
       "RIV",     "Riverside",
-      "BNS",     "Benson",
-      "SNO",     "Snowville",
-      "BLU",     "Blue Creek",
-      "BOT",     "Bothwell",
-      "ELW",     "Elwood",
-      "PEN",     "Penrose",
-      "THA",     "Thatcher",
-      "TRE",     "Tremonton",
-      "HOT",     "Hot Spr Trailer",
-      "SOW",     "S Willard",
-      "WIL",     "Willard",
-      "GUN",     "Gunnison",
-      "THI",     "Thiokol Plnt 78",
+      "ROS",     "Rosette",
       "RSB",     "Rosebud",
-      "CUR",     "Curlew Junction",
-      "BEC",     ""
+      "SNO",     "Snowville",
+      "SOW",     "S Willard",
+      "STO",     "Stone/ID",
+      "THA",     "Thatcher",
+      "THI",     "Thiokol Plnt 78",
+      "TRE",     "Tremonton",
+      "WAS",     "Washakie",
+      "WIL",     "Willard",
+      "YOS",     "Yost"
   });
 
 }
