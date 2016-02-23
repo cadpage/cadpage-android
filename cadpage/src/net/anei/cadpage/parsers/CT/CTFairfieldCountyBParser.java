@@ -18,14 +18,15 @@ public class CTFairfieldCountyBParser extends SmartAddressParser {
     return "swrcc@dmsct.net";
   }
 
-  private static Pattern MASTER = Pattern.compile("(?:MEMS: )?(.*?) - (.*?) --(?:Disp |CMED)@ (\\d{2}:\\d{2})");
+  private static Pattern MASTER = Pattern.compile("(?:MEMS:\\|? )?(.*?) - (.*?) --(?:Disp |DISP |CMED)@ (\\d{2}:\\d{2})");
   
   @Override protected boolean parseMsg(String subject, String body, Data data) {
     
     // Process general alerts
     if (subject.equals("Message from SWRCC")) {
-      data.strCall = "GENERAL ALERT";
-      data.strPlace = body;
+      setFieldList("INFO");
+      data.strCall = "GEN_ALERT";
+      data.strSupp = body;
       return true;
     }
     
@@ -34,7 +35,7 @@ public class CTFairfieldCountyBParser extends SmartAddressParser {
     
     Matcher mat = MASTER.matcher(body);
     if (!mat.matches()) return false;
-    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, mat.group(1).trim(), data);
+    parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT | FLAG_ANCHOR_END, mat.group(1).trim(), data);
     data.strCall = mat.group(2).trim();
     data.strTime = mat.group(3).trim();
     return true;
@@ -43,7 +44,9 @@ public class CTFairfieldCountyBParser extends SmartAddressParser {
   private static String[] CITY_LIST = new String[]{
     "EASTON",
     "MONROE",
-    "TRUMBULL"
+    "STRATFORD",
+    "TRUMBULL",
+    "WESTON"
   };
   
 }
