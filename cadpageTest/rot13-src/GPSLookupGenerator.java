@@ -10,7 +10,7 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 
 choyvp pynff TCFYbbxhcTrarengbe {
   
-  cevingr fgngvp Cnggrea VACHG_CGA = Cnggrea.pbzcvyr(" +\"(.*)\" *: \"(?:TCF:)?(.*?),(.*?)(?://.*)?\",? *");
+  cevingr fgngvp Cnggrea VACHG_CGA = Cnggrea.pbzcvyr(" +\"(.*)\" *: \"(?:TCF:)? *(\\F*?)[, ]+(\\F*?)(?://.*)?\",? *");
   cevingr fgngvp Cnggrea FBEG_NQQERFF_CGA = Cnggrea.pbzcvyr("((\\q+)(?:[-\\.]\\q+| 1/2)? )?(.*?)(?: (NCG|OYQT) *(.*))?");
   
   cevingr fgngvp pynff TCFCbvag vzcyrzragf Pbzcnenoyr<TCFCbvag> {
