@@ -69,13 +69,14 @@ public class DeveloperToolsManager {
     "Generate Bug Report",
     "Active911 Account Req",
     "Consume all purchases",
-    "Test C2DM MSG"
+    "Test C2DM MSG",
+    "Crash!!!"
     
   };
   
   private static final String[] valueList = new String[]{
     "100", "101", "102",
-    "31", "32", "33", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19"
+    "31", "32", "33", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"
   };
   
   private class DeveloperListPreference extends ListPreference {
@@ -244,6 +245,9 @@ public class DeveloperToolsManager {
         
         context.startService(intent);
         break;
+        
+      case 20:    // Throw exception to test crash reporting
+        throw new RuntimeException("Test Exception Handling");
         
       case 31:    // C2DM Register
         C2DMService.register(context);
