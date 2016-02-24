@@ -50,11 +50,12 @@ public abstract class LogCollector {
     @Override
     protected String doInBackground(String... params) {
       final StringBuilder log = new StringBuilder();
+      Process process = null;
+      BufferedReader bufferedReader = null;
       try {
 
-        Process process = Runtime.getRuntime().exec(params);
-        BufferedReader bufferedReader = new BufferedReader(
-            new InputStreamReader(process.getInputStream()));
+        process = Runtime.getRuntime().exec(params);
+        bufferedReader = new BufferedReader(new InputStreamReader(process.getInputStream()));
 
         String line;
         boolean suppress = false;
@@ -68,6 +69,14 @@ public abstract class LogCollector {
         }
       } catch (Exception ex) {
         this.ex = ex;
+      } finally {
+        if (bufferedReader != null) {
+          try { bufferedReader.close(); } catch (Exception ex) {} 
+        }
+        if (process != null) {
+          try { process.getOutputStream().close(); } catch (Exception ex) {}
+          try { process.getErrorStream().close(); } catch (Exception ex) {}
+        }
       }
 
       return log.toString();
