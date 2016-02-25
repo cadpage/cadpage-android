@@ -1,8 +1,8 @@
 package net.anei.cadpage;
 
+import net.anei.cadpage.donation.MainDonateEvent;
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.app.Dialog;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -22,6 +22,12 @@ public class Safe40Activity extends Activity {
   
   private boolean activityActive = false;
   private PermissionManager permMgr = new PermissionManager(this);
+  
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    ManagePreferences.setPermissionManager(permMgr);
+  }
 
   @Override
   protected void onResume() { 
@@ -93,5 +99,11 @@ public class Safe40Activity extends Activity {
   @Override
   public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] granted) {
     ManagePreferences.onRequestPermissionsResult(requestCode, permissions, granted);
+  }
+  
+  @Override
+  protected void onDestroy() {
+    ManagePreferences.releasePermissionManager(permMgr);
+    super.onDestroy();
   }
 }
