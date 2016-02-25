@@ -2326,7 +2326,7 @@ public class FieldProgramParser extends SmartAddressParser {
       }
     }
     
-    void setNoCity(boolean noCity) {
+    protected void setNoCity(boolean noCity) {
       this.noCity = noCity;
     }
 

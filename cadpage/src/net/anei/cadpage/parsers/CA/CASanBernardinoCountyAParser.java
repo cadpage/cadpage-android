@@ -437,6 +437,8 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
       "AS",         "Aircraft Standby",
       "ASLT",       "Assault",
       "ASLT-A1",    "Assault-non dangerous body area",
+      "ASLT A2",    "Assault A-2 - Non-Recent (>6hrs)",
+      "ASLT-A2",    "Assault A-2 - Non-Recent (>6hrs)",
       "ASLT-B1",    "Assault-poss dangerous body area",
       "ASLT-B2",    "Assault-serious hemorrhage",
       "ASLT-B3",    "Assault-3rd hand info",
