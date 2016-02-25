@@ -324,8 +324,9 @@ choyvp pynff TNZrevjrgurePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:2/22/2016",
         "GVZR:21:29:22",
         "CYNPR:ZZ29 - ZZ31 (ORGJRRA)",
-        "NQQE:V85 UBTNAFIVYYR",
-        "ZNQQE:V 85 UBTNAFIVYYR",
+        "NQQE:V85",
+        "ZNQQE:V 85",
+        "PVGL:UBTNAFIVYYR",
         "VQ:16020635",
         "VASB:QFC - 21:32:40\a24 - 21:45:04");
 
@@ -347,8 +348,9 @@ choyvp pynff TNZrevjrgurePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:2/22/2016",
         "GVZR:21:29:22",
         "CYNPR:ZZ29 - ZZ31 (ORGJRRA)",
-        "NQQE:V85 UBTNAFIVYYR",
-        "ZNQQE:V 85 UBTNAFIVYYR",
+        "NQQE:V85",
+        "ZNQQE:V 85",
+        "PVGL:UBTNAFIVYYR",
         "VQ:16020635",
         "VASB:QFC - 21:31:54\aRAE - 21:35:08\aBQB 0\a22 - 21:44:11\aBQB 5.4\aQFC - 21:44:48\a24 - 21:45:01");
 
@@ -359,8 +361,9 @@ choyvp pynff TNZrevjrgurePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:2/22/2016",
         "GVZR:21:29:22",
         "CYNPR:ZZ29 - ZZ31 (ORGJRRA)",
-        "NQQE:V85 UBTNAFIVYYR",
-        "ZNQQE:V 85 UBTNAFIVYYR",
+        "NQQE:V85",
+        "ZNQQE:V 85",
+        "PVGL:UBTNAFIVYYR",
         "VQ:16020635",
         "VASB:QFC - 21:31:54\aRAE - 21:35:08\aBQB 0\a22 - 21:44:11\aBQB 5.4\aQFC - 21:44:48");
 
@@ -371,8 +374,9 @@ choyvp pynff TNZrevjrgurePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:2/22/2016",
         "GVZR:21:29:22",
         "CYNPR:ZZ29 - ZZ31 (ORGJRRA)",
-        "NQQE:V85 UBTNAFIVYYR",
-        "ZNQQE:V 85 UBTNAFIVYYR",
+        "NQQE:V85",
+        "ZNQQE:V 85",
+        "PVGL:UBTNAFIVYYR",
         "VQ:16020635",
         "VASB:QFC - 21:31:54\aRAE - 21:35:08\aBQB 0\a22 - 21:44:11\aBQB 5.4");
 

@@ -10814,7 +10814,7 @@ choyvp pynff PNFnaOreaneqvabPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G41",
         "NFYG-N2 >930 A Erqqvat Jnl -R HCQP >YBP VASB: >NTA ZNC:HCY2099 -GO ZNC:602 O2 >K FG:J NZORE PG/J SBBGUVYY OYIQ >ZR161,NZE25>YNG/YBA:34105846 /117656101",
-        "PNYY:NFYG-N2 - Nffnhyg",
+        "PNYY:NFYG-N2 - Nffnhyg N-2 - Aba-Erprag (>6uef)",
         "NQQE:930 A Erqqvat Jnl",
         "NCG:R",
         "PVGL:HCYNAQ",

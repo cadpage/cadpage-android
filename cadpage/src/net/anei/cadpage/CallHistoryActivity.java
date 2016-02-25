@@ -40,7 +40,7 @@ public class CallHistoryActivity extends ListActivity {
   private static final int CONFIRM_DELETE_ALL_DIALOG = 2;
   private static final int PLAY_SERVICES_REQUEST_DIALOG = 3;
   
-  private PermissionManager permMgr;
+  private PermissionManager permMgr = new PermissionManager(this);
 
   // keep track of which message text view has opened a context menu
   private HistoryMsgTextView msgTextView = null;
@@ -65,7 +65,6 @@ public class CallHistoryActivity extends ListActivity {
       return;
     }
     
-    permMgr = new PermissionManager(this);
     ManagePreferences.setPermissionManager(permMgr);
     ManagePreferences.checkInitialPermissions();
     
@@ -399,15 +398,15 @@ public class CallHistoryActivity extends ListActivity {
   }
   
   @Override
+  public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] granted) {
+    ManagePreferences.onRequestPermissionsResult(requestCode, permissions, granted);
+  }
+  
+  @Override
   protected void onDestroy() {
     mainActivity = null;
     ManagePreferences.releasePermissionManager(permMgr);
     super.onDestroy();
-  }
-  
-  @Override
-  public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] granted) {
-    ManagePreferences.onRequestPermissionsResult(requestCode, permissions, granted);
   }
 
   /**
