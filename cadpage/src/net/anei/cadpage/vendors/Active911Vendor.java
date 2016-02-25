@@ -808,6 +808,7 @@ class Active911Vendor extends Vendor {
       "US/NY/CityofColden",               "NYErieCountyRedAlert",
       "US/NY/CityofMarion",               "NYWayneCounty",
       "US/NY/CityofRochesterTwp",         "NYLivingstonCountyB",
+      "US/NY/CityofSouthampton",          "NYSuffolkCountyJ",
       "US/NY/Erie",                       "NYErieCountyF",
       "US/NY/FingerLakesAmbulance",       "NYOntarioCountyB",
       "US/NY/FireRescueSystems",          "NYSuffolkCountyBFI",
