@@ -199,6 +199,7 @@ class Active911Vendor extends Vendor {
       "US/AL/WalkerCounty",               "ALWalkerCounty",
       "US/AR/BentonCounty",               "ARBentonCountyA",
       "US/AR/Bentonville",                "ARBentonCountyC",
+      "US/AR/CentralEMS",                 "ARWashingtonCountyB",
       "US/AR/CityofRogers",               "ARBentonCountyB",
       "US/AR/GrantCounty",                "ARGrantCounty",
       "US/AR/HotSpringCounty",            "ARHotSpringCounty",
