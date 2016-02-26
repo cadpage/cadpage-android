@@ -28,6 +28,9 @@ import android.widget.TextView;
 public class SmsPopupActivity extends Safe40Activity {
   
   private static final String EXTRAS_MSG_ID = "SmsPopupActivity.MSG_ID";
+  
+  private PermissionManager permMgr = new PermissionManager(this);
+  
   private SmsMmsMessage message;
   private MsgOptionManager optManager;
 
@@ -71,6 +74,8 @@ public class SmsPopupActivity extends Safe40Activity {
   protected void onCreate(Bundle bundle) {
     super.onCreate(bundle);
     
+    ManagePreferences.setPermissionManager(permMgr);
+
     requestWindowFeature(Window.FEATURE_NO_TITLE);
 
     setContentView(R.layout.popup);
@@ -166,7 +171,13 @@ public class SmsPopupActivity extends Safe40Activity {
   @Override
   protected void onDestroy() {
     MainDonateEvent.instance().setButton(null, null, null);
+    ManagePreferences.releasePermissionManager(permMgr);
     super.onDestroy();
+  }
+  
+  @Override
+  public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] granted) {
+    ManagePreferences.onRequestPermissionsResult(requestCode, permissions, granted);
   }
 
   @Override

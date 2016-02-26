@@ -18,7 +18,6 @@ import net.anei.cadpage.preferences.OnDialogClosedListener;
 import net.anei.cadpage.vendors.VendorManager;
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -46,7 +45,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   
   private static final String EXTRA_INITIALIZE = "PreferenceActivity.INITIALIZE";
   
-  private PermissionManager permMgr;
+  private PermissionManager permMgr = new PermissionManager(this);
   
   private String parserFilter = "";
   private String parserDefCity = "";
@@ -69,7 +68,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     // Save location so we can tell when it changes
     saveLocation = ManagePreferences.location();
     
-    permMgr = new PermissionManager(this);
     ManagePreferences.setPermissionManager(permMgr);
     
     // Build preference tree
@@ -374,6 +372,11 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   }
   
   @Override
+  public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] granted) {
+    ManagePreferences.onRequestPermissionsResult(requestCode, permissions, granted);
+  }
+  
+  @Override
   protected void onDestroy() {
     MainDonateEvent.instance().setPreference(null, null);
     ManagePreferences.releasePermissionManager(permMgr);
@@ -546,11 +549,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     if (! textSize.equals(oldTextSize)) {
       SmsMessageQueue.getInstance().notifyDataChange();
     }
-  }
-  
-  @Override
-  public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] granted) {
-    ManagePreferences.onRequestPermissionsResult(requestCode, permissions, granted);
   }
 
   /**

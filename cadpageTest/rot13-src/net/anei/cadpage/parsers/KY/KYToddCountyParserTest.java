@@ -2,8 +2,6 @@ cnpxntr arg.narv.pnqcntr.cnefref.XL;
 
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
-vzcbeg bet.whavg.Grfg;
-
 /*
 Gbqq Pbhagl, XL
 

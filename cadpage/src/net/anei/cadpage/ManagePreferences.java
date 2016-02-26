@@ -1051,7 +1051,7 @@ public class ManagePreferences {
     // is running on auto-reloaded data.  We detect this be checking for
     // the absence of a file in the no-backup directory.
     try {
-      if (!checkFile.createNewFile()) {
+      if (checkFile.createNewFile()) {
         reset = true;
         setRegistrationId(null);
       }
@@ -1608,7 +1608,7 @@ public class ManagePreferences {
     /**
      * Called during initialization to check that permissions required for
      * current setting value have all been granted 
-     * @return true if a required permission needs to be granted, false otherwise
+     * @return true everything is good to go, false if a permission needs to be granted
      */
     public boolean check() {
       
@@ -1795,7 +1795,11 @@ public class ManagePreferences {
     
     public boolean check(PermissionAction action, boolean request) {
       this.action = action;
-      if (super.check(request)) {
+      
+      // This might (rarely) be called before the call history screen is initialized
+      // In which case we can not really request more permissions so we will just have
+      // to run with what we have now
+      if (!isPermissionsInitialized() || super.check(request)) {
         if (action != null) action.run(true, null, null);
         return true;
       }
@@ -1983,7 +1987,11 @@ public class ManagePreferences {
     if (requestCode < 1 || requestCode > PERM_REQ_LIMIT) return false;
     PermissionChecker checker = checkers[requestCode-1];
     if (checker == null) return false;
-    checker.onRequestPermissionResult(permissions, granted);
+    
+    // If checker results have alread been cleared, do not call again
+    if (checker.getReqPermissions() != null) {
+      checker.onRequestPermissionResult(permissions, granted);
+    }
     return true;
   }
   
