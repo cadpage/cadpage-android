@@ -15,7 +15,7 @@ public class PAChesterCountyD1Parser extends PAChesterCountyBaseParser {
   
   @Override
   public String getFilter() {
-    return "@ridgefirecompany.com,dispatch@berwynfireco.org,ADI64@norco.com";
+    return "@ridgefirecompany.com,dispatch@berwynfireco.org,ADI64@norco.com,37@modena37.com";
   }
 
   @Override
