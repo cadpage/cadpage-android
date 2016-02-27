@@ -884,6 +884,7 @@ class Active911Vendor extends Vendor {
       "US/OH/HolmesCountySheriff",        "OHHolmesCounty",
       "US/OH/JeffersonCounty",            "OHJeffersonCounty",
       "US/OH/KnoxCounty",                 "OHKnoxCounty",
+      "US/OH/LawrenceCounty",             "OHLawrenceCounty",
       "US/OH/LickingCounty",              "OHLickingCounty",
       "US/OH/LoganCounty",                "OHLoganCounty",
       "US/OH/LorainCounty",               "OHLorainCountyB",
