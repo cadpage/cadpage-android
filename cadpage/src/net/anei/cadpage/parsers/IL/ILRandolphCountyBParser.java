@@ -4,6 +4,8 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
 public class ILRandolphCountyBParser extends FieldProgramParser {
   
@@ -14,6 +16,15 @@ public class ILRandolphCountyBParser extends FieldProgramParser {
           "ADDRCITY CALL CITY X INFO!");
   } 
   
+  @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom(){
+      @Override public boolean splitBlankIns() { return false; }
+      @Override public int splitBreakLength() { return 130; }
+      @Override public int splitBreakPad() { return 1; }
+    };
+  }
+
   @Override
   public String getFilter() {
     return "911mcsd@gmail.com";
