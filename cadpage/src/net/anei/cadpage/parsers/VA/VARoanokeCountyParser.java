@@ -13,14 +13,16 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class VARoanokeCountyParser extends SmartAddressParser {
   
+  private static final Pattern MSG_HEADER_PTN = Pattern.compile(">>> <dispatch@roanokecountyva.gov> (\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d) >>>\n\n");
   private static final Pattern MASTER_PTN1 = Pattern.compile("(.*?)  (\\d{4}) (.*)(Roanoke County|Floyd County|Town of Vinton) ([ A-Z]+) (\\d{4} \\d{8})");
   private static final Pattern NOT_DISPATCH_PTN = Pattern.compile("\\b(?:ADV|TRAINING)\\b");
-  private static final Pattern DATE_TIME_PTN1 = Pattern.compile(" (\\d{1,2}/\\d{1,2}/\\d{4}) +(\\d{1,2}:\\d{1,2}:\\d{1,2} [AP]M)$");
-  private static final Pattern DATE_TIME_PTN2 = Pattern.compile(" (\\d\\d?-[A-Z]{3}-\\d{4}) +(\\d{1,2}:\\d{1,2}:\\d{1,2})$", Pattern.CASE_INSENSITIVE);
+  private static final Pattern DATE_TIME_PTN1 = Pattern.compile("[ \n](\\d{1,2}/\\d{1,2}/\\d{4}) +(\\d{1,2}:\\d{1,2}:\\d{1,2} [AP]M)$");
+  private static final Pattern DATE_TIME_PTN2 = Pattern.compile("[ \n](\\d\\d?-[A-Z]{3}-\\d{4}) +(\\d{1,2}:\\d{1,2}:\\d{1,2})$", Pattern.CASE_INSENSITIVE);
   private static final DateFormat TIME_FMT1 = new SimpleDateFormat("hh:mm:ss aa");
   private static final DateFormat DATE_FMT2 = new SimpleDateFormat("dd-MMM-yyyy");
-  private static final Pattern XST_PTN = Pattern.compile("[- ]+X ?ST(?:REETS?)?\\b *");
-  private static final Pattern X_APT_PTN = Pattern.compile("(?:APT|RM|(FL|LOT)) *([^ ]+)\\b *(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern XST_PTN = Pattern.compile("[- ]+X ?ST(?:REETS?)?\\b:? *");
+  private static final Pattern X_APT_PTN1 = Pattern.compile("(?:APT|RM|(FL|LOT))(?:\\b|(?=\\d)) *([^ ]+)\\b *(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern X_APT_PTN2 = Pattern.compile("(\\d+)\\b(?! +(?:AVE?|ST)\\b) *(.*)", Pattern.CASE_INSENSITIVE);
   private static final Pattern X_NO_CROSS_PTN = Pattern.compile("(.*?) *\\bNo Cross Streets Found\\b *(.*)");
   private static final Pattern UNIT_PTN = Pattern.compile("^((?:[A-Z]+\\d+|SALEMEMS|SALEMF|RES(?:CUE)?[- ]\\d+)(?:\\$[A-Z]+\\d+)? +)+");
   private static final Pattern X_PHONE_PTN = Pattern.compile("((?:\\(?\\d{3}\\)? ?)?\\d{3}[- ]\\d{4})\\b *(.*)");
@@ -111,11 +113,29 @@ public class VARoanokeCountyParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
+    // Convert some misplaced control characters
+    body = body.replace("\u0001", "").replace('\u0004', '\n').trim();
+    
+    // And any email headers that get through :(
+    if (body.startsWith("Received:")) {
+      int pt = body.indexOf("\n\n");
+      if (pt < 0) return false;
+      body = body.substring(pt+2).trim();
+    }
+    
+    // And non-standard message headings
+    Matcher match = MSG_HEADER_PTN.matcher(body);
+    if (match.lookingAt()) {
+      data.strDate = match.group(1);
+      data.strTime = match.group(2);
+      body = body.substring(match.end()).trim();
+    }
+    
     // There seem to be two different formats, possibly separated chronologically
     // This one can be identified by a pattern match
-    Matcher match = MASTER_PTN1.matcher(body);
+    match = MASTER_PTN1.matcher(body);
     if (match.matches()) {
-      setFieldList("UNIT BOX ADDR APT CITY CALL ID");
+      setFieldList("DATE TIME UNIT BOX ADDR APT CITY CALL ID");
       data.strUnit = match.group(1).trim();
       data.strBox = match.group(2);
       parseAddress(match.group(3).trim(), data);
@@ -155,10 +175,14 @@ public class VARoanokeCountyParser extends SmartAddressParser {
       body = body.substring(0,match.start());
       good = true;
       
-      match = X_APT_PTN.matcher(cross);
+      match = X_APT_PTN1.matcher(cross);
       if (match.matches()) {
         data.strApt = append(getOptGroup(match.group(1)), " ", match.group(2));
         cross = match.group(3);
+      }
+      else if ((match = X_APT_PTN2.matcher(cross)).matches()) {
+        data.strApt = match.group(1).trim();
+        cross = match.group(2).trim();
       }
       match = X_PHONE_PTN.matcher(cross);
       if (match.matches()) {
@@ -251,8 +275,11 @@ public class VARoanokeCountyParser extends SmartAddressParser {
       "BLS",
       "BRUSH",
       "BRUSH FIRE",
+      "CAN DISREGARD",
       "CARBON",
       "CARBON MONOXIDE LEAK",
+      "CHILD LOCKED IN VEHICLE",
+      "CHIMNEY",
       "CHIMNEY FIRE",
       "CLSC",
       "CODE BLUE",
@@ -282,15 +309,24 @@ public class VARoanokeCountyParser extends SmartAddressParser {
       "STANDBY",
       "STRUCTC",
       "STRUCTR",
+      "TECHRES",
       "TEST CALL",
+      "TEST PUBLIC SAFETY CENTER",
       "TEST STATION 2",
       "TEST STATION 3",
+      "TEST STATION 5",
+      "TEST STATION 11",
       "THEFT",
       "TREE ON A LINE",
+      "UNITS ON SCENE",
       "UPGRADED ALSC",
       "VEHICLE",
       "VEHICLE FIRE",
       "WIRE DOWN",
-      "WIREDOWN"
+      "WIREDOWN",
+      
+      // One time call descriptions
+      "LADDER 2 CAN DISREGARD FIRE ALARM",
+      "SECOND REQUEST TO RESPOND TO GASR"
   );
 }
