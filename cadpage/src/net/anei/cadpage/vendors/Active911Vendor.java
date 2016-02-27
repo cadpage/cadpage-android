@@ -404,7 +404,7 @@ class Active911Vendor extends Vendor {
       "US/IL/Medstar",                    "ILMedstar",
       "US/IL/NWCDS",                      "ILCookCountyD",
       "US/IL/OFallon",                    "ILOFallon",
-      "US/IL/RandolphCounty",             "ILRandolphCounty",
+      "US/IL/RandolphCounty",             "ILRandolphCountyA",
       "US/IL/Skokie",                     "ILCookCountyB",
       "US/IN/BartholomewCounty",          "INBartholomewCounty",
       "US/IN/BooneCounty",                "INBooneCountyB",
