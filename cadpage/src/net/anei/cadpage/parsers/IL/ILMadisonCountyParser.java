@@ -17,8 +17,8 @@ public class ILMadisonCountyParser extends FieldProgramParser {
   
   public ILMadisonCountyParser() {
     super("MADISON COUNTY", "IL", 
-          "SKIP ( EMPTY CALL EMPTY ( ADDRCITY EMPTY PLACE EMPTY APT EMPTY X | PLACE EMPTY ADDRCITY EMPTY ( PHONE | APT ) ) EMPTY INFO EMPTY ID EMPTY! ( URL EMPTY! | ) " + 
-               "| CALL EMPTY ADDRCITY EMPTY EMPTY EMPTY X EMPTY EMPTY EMPTY INFO EMPTY DATETIME EMPTY NAME EMPTY PHONE! ) TIMES+");
+          "SKIP ( EMPTY CALL EMPTY ( ADDRCITY/S6 EMPTY PLACE EMPTY APT EMPTY X | PLACE EMPTY ADDRCITY/S6 EMPTY ( PHONE | APT ) ) EMPTY INFO EMPTY ID EMPTY! ( URL EMPTY! | ) " + 
+               "| CALL EMPTY ADDRCITY/S6 EMPTY EMPTY EMPTY X EMPTY EMPTY EMPTY INFO EMPTY DATETIME EMPTY NAME EMPTY PHONE! ) TIMES+");
   }
   
   @Override
@@ -37,7 +37,7 @@ public class ILMadisonCountyParser extends FieldProgramParser {
       data.strSupp = append(timeInfo, "\n", data.strSupp);
     }
     
-    // Remove duplidate apt
+    // Remove duplicate apt
     if (data.strApt.length() > 0) {
       data.strAddress = stripFieldEnd(data.strAddress, ' ' + data.strApt);
     }
