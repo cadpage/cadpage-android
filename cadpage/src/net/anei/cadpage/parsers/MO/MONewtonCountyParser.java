@@ -27,7 +27,7 @@ public class MONewtonCountyParser extends FieldProgramParser {
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("Call Number: *(\\d+) (.*?) (Call Received Time:.*)", Pattern.DOTALL);
   private static final Pattern TIMES_BRK_PTN = Pattern.compile("\\s+(?=[A-Z]+:)");
   
-  protected boolean parseMsg(String subject, String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
     body = body.replace("\n", "");
     Matcher match = RUN_REPORT_PTN.matcher(body);
     if (match.matches()) {
