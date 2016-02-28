@@ -4113,8 +4113,6 @@ Thanks for your consideration, and
 Have a Safe and Happy New Year!
 Jean ~ Cadpage Administrator
 **************************************************************************************
-
-
 Useful search expressions...
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT|X):.*\r?\n)*+(?! +"CITY:)
 ***************************************************************************************
