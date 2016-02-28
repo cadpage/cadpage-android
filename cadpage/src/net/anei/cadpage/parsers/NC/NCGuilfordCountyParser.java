@@ -36,8 +36,14 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     return "NCGilfordCounty";
   }
   
+  private static final Pattern YADKIN_MSG_PTN = Pattern.compile(";[ A-Z0-9]+ X [ A-Z0-9]+;|;geo:| OCA:");
+  
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // Reject anything that looks like it is a Southern based format for Yadkin County
+    if (YADKIN_MSG_PTN.matcher(body).find()) return false;
+    
     Matcher match = MARKER.matcher(body);
     if (match.lookingAt()) {
       body = body.substring(match.end()).trim();
