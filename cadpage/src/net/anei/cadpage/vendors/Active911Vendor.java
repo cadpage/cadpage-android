@@ -696,7 +696,7 @@ class Active911Vendor extends Vendor {
       "US/NC/CityofLumberton",            "NCLumberton",
       "US/NC/CityofRockyMount",           "NCRockyMount",
       "US/NC/CityofShelby",               "NCClevelandCountyB",
-      "US/NC/CityofThomasville",          "NCDavisonCountyA",
+      "US/NC/CityofThomasville",          "NCDavidsonCountyA",
       "US/NC/ClayCounty",                 "NCClayCounty",
       "US/NC/ClevelandCounty",            "NCClevelandCounty",
       "US/NC/ColumbusCounty",             "NCColumbusCounty",

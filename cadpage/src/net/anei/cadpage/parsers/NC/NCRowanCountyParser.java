@@ -142,6 +142,14 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
     @Override
     public void parse(String field, Data data) {
       
+      // If this is a DavidsonCountyA call ID, we need to reject it
+      // If it looks like a phone number (also 10 digits) accept it
+      if (field.length() == 10 && NUMERIC.matcher(field).matches()) { 
+        if (field.startsWith("20")) abort();
+        data.strPhone = field;
+        return;
+      }
+      
       // This is a catchall field that can contains a lot of things
       // See if it is a call code followed by a description
       Matcher match = CODE_DESC_PTN.matcher(field);
@@ -173,7 +181,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
     
     @Override
     public String getFieldNames() {
-      return "CODE INFO " + super.getFieldNames() + " X";
+      return "CODE INFO " + super.getFieldNames() + " X PHONE";
     }
   }
   
