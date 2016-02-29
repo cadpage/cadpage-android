@@ -15,7 +15,7 @@ public class GAWhitfieldCountyBParser extends DispatchA48Parser {
   
   @Override
   public String getFilter() {
-    return "PageGate@whitfieldcountyga.com";
+    return "PageGate@whitfieldcountyga.com,postmaster@whitfield.com";
   }
   
   private static final String[] CALL_LIST = new String[]{
