@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Arj Fbhgu Jnyrf, Nhfgenvyvn
+Arj Fbhgu Jnyrf, Nhfgenyvn (O) 
 
 Fhccbegf Npgvir911 cnefref
 NH/ArjFbhguJnyrf/PhzoreynaqCQJ

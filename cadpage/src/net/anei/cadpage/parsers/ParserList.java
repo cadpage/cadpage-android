@@ -407,6 +407,7 @@ public class ParserList {
               ,"INBartholomewCounty"            ,"Bartholomew County, IN"
               ,"INBooneCounty"                  ,"Boone County, IN"
               ,"INBrownCounty"                  ,"Brown County, IN"
+              ,"INDaviessCounty"                ,"Daviess County, IN"
               ,"INDelawareCounty"               ,"Delaware County, IN"
               ,"INDouglasCounty"                ,"Douglas County, IN"
               ,"INElkhartCounty"                ,"Elkhart County, IN"

@@ -9,9 +9,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 /**
  * Stockton, CA
  */
-public class CAStocktonParser extends FieldProgramParser {
+public class CAStocktonAParser extends FieldProgramParser {
   
-  public CAStocktonParser() {
+  public CAStocktonAParser() {
     super("STOCKTON", "CA",
            "( TIMES_REPORT/R SKIP! CFS_Number:ID! CALL! LOCATION:ADDR! RECEIVED:DATETIME! INFO/N+ "
         +  "| CFS:ID! INCIDENT_#:SKIP RECEIVED:DATETIME DISTRICT_#:MAP MAP? TYPE:CALL! "

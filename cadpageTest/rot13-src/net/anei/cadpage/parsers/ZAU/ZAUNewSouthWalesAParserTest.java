@@ -5,7 +5,8 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Arj Fbhgu Jnyrf, Nhfgenvyvn
+Arj Fbhgu Jnyrf, Nhfgenyvn
+
 Pbagnpg: "Oenq Anguna (JYP FRF)" <oenq.anguna@zrzore.frf.afj.tbi.nh>
 
 FAEJYP, ESN 9071-54, Svefganzr Fheanzr, 65 ZPPYRYYNAQ FG, JVYYBHTUOL, 0433 381 999, YTR OENAPU, 15Z HC GUERNG GB SNYY VA LNEQ.. PNYY 0242516111

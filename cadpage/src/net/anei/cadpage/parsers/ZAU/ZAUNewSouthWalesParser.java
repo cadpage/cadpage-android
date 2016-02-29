@@ -6,7 +6,8 @@ import net.anei.cadpage.parsers.GroupBestParser;
 public class ZAUNewSouthWalesParser extends GroupBestParser {
 
   public ZAUNewSouthWalesParser() {
-    super(new ZAUNewSouthWalesAParser(), new ZAUNewSouthWalesBParser());
+    super(new ZAUNewSouthWalesAParser(), new ZAUNewSouthWalesBParser(), 
+        new ZAUNewSouthWalesCParser(), new ZAUNewSouthWalesDParser());
   }
 
   @Override
