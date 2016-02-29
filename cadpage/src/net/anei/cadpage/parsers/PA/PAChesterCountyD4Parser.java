@@ -16,12 +16,8 @@ public class PAChesterCountyD4Parser extends PAChesterCountyBaseParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    
-    if (subject.equals("Dispatch")) {
-      body = subject + " * " + body;
-    } else if (body.startsWith("Dispatch / ")) {
-      body = body.substring(11).trim();
-    }
+   
+    body = stripFieldStart(body, "Dispatch / ");
     body = DETAILS_TO_FOLLOW.matcher(body).replaceFirst("");
     body = body.replace("\n** ", " ** ");
     body = body.replace("\n", "");

@@ -38,11 +38,9 @@ public class MOBooneCountyParser extends FieldProgramParser {
     String extraInfo = "";
     Matcher match = START_NOTE_PTN.matcher(body);
     if (match.find()) {
-//      int len = body.length();
       extraInfo = body.substring(match.end());
       body = body.substring(0,match.start()).trim();
       if (match.group(1) != null) {
-//        if (len >= 1022 && len <= 1030 ||
         if (!END_NOTE_PTN.matcher(extraInfo).find()) {
           data.expectMore = true;
         }

@@ -12,66 +12,65 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class LAOuachitaParishParser extends FieldProgramParser {
   public LAOuachitaParishParser() {
     super(CITY_LIST, "OUACHITA PARISH", "LA",
-        "CALL ADDR/S3XPX INFO+");
-  }
-
-  @Override
-  public String getProgram() {
-    return super.getProgram().replace("PLACE", "PLACE X");
+          "CALL_UNIT ADDRCITY X! Narrative:INFO/N+");
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
-    boolean res = parseFields(body.split("  "), data);
-    parsePlace(data);
-    return res;
-  }
-
-  private static final Pattern PLACE_PATTERN = Pattern.compile("(.*[a-z0-9])([A-Z].*)");
-  private void parsePlace(Data data) {
-    Matcher m = PLACE_PATTERN.matcher(data.strPlace);
-    if (m.matches()) {
-      data.strPlace = m.group(1);
-      data.strCross = m.group(2);
-    }
-    else {
-      data.strCross = data.strPlace;
-      data.strPlace = "";
-    }
+  public boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.equals("Dispatch")) return false;
+    return parseFields(body.split("\n"), 3, data);
   }
 
   @Override
   public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("CALL_UNIT")) return new MyCallUnitField();
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
   }
-  
-  private static final Pattern CALL_PATTERN
-    = Pattern.compile("(.*?)((?: +E(?:\\d{3}|(?:C|T)\\d)\\b)*)");
-  private class MyCallField extends CallField {
+
+  private static final Pattern CALL_UNIT_PTN = Pattern.compile("(.*) Units: (.*)");
+  private class MyCallUnitField extends Field {
     @Override
     public void parse(String field, Data data) {
-      Matcher m = CALL_PATTERN.matcher(field);
-      if (m.matches()) {
-        data.strCall = m.group(1);
-        data.strUnit = m.group(2).trim();
+      Matcher match = CALL_UNIT_PTN.matcher(field);
+      if (!match.matches()) abort();
+      data.strCall = match.group(1).trim();
+      data.strUnit = match.group(2).trim();
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "CALL UNIT";
+    }
+  }
+  
+  private class MyAddressCityField extends AddressCityField {
+    @Override
+    public void parse(String field, Data data) {
+      if (!field.startsWith("at ")) abort();
+      field = field.substring(3).trim().replace('@', '&');
+      int pt = field.indexOf(',');
+      if (pt >= 0) {
+        parseAddress(field.substring(0,pt).trim(), data);
+        parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, field.substring(pt+1).trim(), data);
+        data.strPlace = getLeft();
+      } else {
+        parseAddress(StartType.START_ADDR, field, data);
+        data.strPlace = getLeft();
       }
-      else
-        data.strCall = field.trim();
     }
     
     @Override
     public String getFieldNames() {
-      return super.getFieldNames()+" UNIT";
+      return "ADDR APT CITY PLACE";
     }
   }
   
-  private static final Pattern INFO_JUNK_PTN = Pattern.compile("E911 Info - Class of Service: [^ ]* Special Response Info:.*|QUERY CALLER FOR PHONE # Uncertainty:.*|Confidence:.*");
-  private class MyInfoField extends InfoField {
+  private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
-      if (INFO_JUNK_PTN.matcher(field).matches()) return;
+      if (field.equals("Searching Cross Streets...")) return;
       super.parse(field, data);
     }
   }
