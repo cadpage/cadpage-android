@@ -3049,6 +3049,8 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class NameField extends Field {
     
+    private String connector = null;
+    
     public NameField() {};
     public NameField(String pattern) {
       super(pattern);
@@ -3056,10 +3058,21 @@ public class FieldProgramParser extends SmartAddressParser {
     public NameField(String pattern, boolean hardPattern) {
       super(pattern, hardPattern);
     }
+    
+    @Override
+    public void setQual(String qual) {
+      super.setQual(qual);
+      connector = buildConnector(qual, null);
+    }
 
     @Override
     public void parse(String field, Data data) {
-      data.strName = cleanWirelessCarrier(field);
+      field = cleanWirelessCarrier(field);
+      if (connector != null) {
+        data.strName = append(data.strName, connector, field);
+      } else {
+        data.strName = field;
+      }
    }
     
     @Override
