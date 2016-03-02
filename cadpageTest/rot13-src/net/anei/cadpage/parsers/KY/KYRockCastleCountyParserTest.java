@@ -1340,7 +1340,7 @@ choyvp pynff XLEbpxPnfgyrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER ERFVQRAGVNY",
         "NQQE:50 QNIVF FG",
         "PVGL:ZBHAG IREABA",
-        "K:HF 150 / YBJRE QE",
+        "K:YBJRE QE / HF 150",
         "FEP:ZISQ, OUISQ",
         "HAVG:ZISQ ZG IREABA ISQ S_ZISQ QRCG OUISQ OEBQURNQ ISQ S_OISQ QRCG");
 

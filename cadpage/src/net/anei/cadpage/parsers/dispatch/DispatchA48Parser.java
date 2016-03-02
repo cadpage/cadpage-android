@@ -45,7 +45,7 @@ public class DispatchA48Parser extends FieldProgramParser {
     NAME("NAME", "NAME") {
       @Override
       public void parse(DispatchA48Parser parser, String field, Data data) {
-        data.strName = cleanWirelessCarrier(field);
+        setNameField(field, data);
       }
       
       @Override
@@ -55,7 +55,7 @@ public class DispatchA48Parser extends FieldProgramParser {
       
     }, 
     
-    X("X+?", "X") {
+    X("X/Z+?", "X") {
       @Override
       public void parse(DispatchA48Parser parser, String field, Data data) {
         boolean startSlash = field.startsWith("/");
@@ -75,7 +75,7 @@ public class DispatchA48Parser extends FieldProgramParser {
       }
     },
     
-    X_NAME("X_NAME+?", "X NAME") {
+    X_NAME("X_NAME/Z+?", "X NAME") {
       @Override
       public void parse(DispatchA48Parser parser, String field, Data data) {
         
@@ -95,7 +95,7 @@ public class DispatchA48Parser extends FieldProgramParser {
         } 
         if (startSlash) cross = '/' + cross;
         parser.addCrossStreet(cross, data);
-        data.strName = field;
+        setNameField(field, data);
       }
       
     },
@@ -157,7 +157,7 @@ public class DispatchA48Parser extends FieldProgramParser {
 
   public DispatchA48Parser(String[] cityList, String defCity, String defState, FieldType fieldType, int flags, Pattern unitPtn, Properties callCodes) {
     super(cityList, defCity, defState,
-          append("DATETIME ID CALL ADDRCITY DUPADDR? SKIP! APT?", " ", fieldType.getFieldProg()) + " UNIT_LABEL UNIT/S+");
+          append("DATETIME ID CALL ADDRCITY DUPADDR? SKIP!", " ", fieldType.getFieldProg()) + " ( INFO INFO/ZN+? UNIT_LABEL | UNIT_LABEL ) UNIT/S+");
     this.fieldType = fieldType;
     oneWordCode = (flags & A48_ONE_WORD_CODE) != 0;
     optOneWordCode = (flags & A48_OPT_ONE_WORD_CODE) != 0;
@@ -338,11 +338,11 @@ public class DispatchA48Parser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("DATETIME")) return new BaseDateTimeField();
-    if (name.equals("APT")) return new AptField("\\d{1,4}", true);
     if (name.equals("ID")) return new IdField("\\d{4}-\\d{8}", true);
     if (name.equals("CALL")) return new BaseCallField();
     if (name.equals("DUPADDR")) return new BaseDupAddrField();
     if (name.equals("X_NAME")) return new BaseCrossNameField();
+    if (name.equals("INFO")) return new BaseInfoField();
     if (name.equals("UNIT_LABEL")) return new BaseUnitLabelField();
     return super.getField(name);
   }
@@ -407,19 +407,48 @@ public class DispatchA48Parser extends FieldProgramParser {
 
     @Override
     public void parse(String field, Data data) {
+      if (data.strName.length() > 0) {
+        addCrossStreet(data.strName, data);
+        data.strName = "";
+      }
       if (isValidCrossStreet(field)) {
         addCrossStreet(field, data);
       } else {
-        if (data.strName.length() > 0) {
-          addCrossStreet(data.strName, data);
-        }
-        data.strName = cleanWirelessCarrier(field);
+        setNameField(field, data);
       }
     }
-
+    
     @Override
     public String getFieldNames() {
-      return "X NAME";
+      return "X NAME APT";
+    }
+  }
+  
+  private static final Pattern INFO_PTN = Pattern.compile("\\d\\d?/\\d\\d?/\\d\\d \\d\\d:\\d\\d:\\d\\d\\b *(.*)|\\d\\d?/\\d\\d?/\\d\\d|\\d\\d:\\d\\d:\\d\\d");
+  private static final Pattern INFO_TRUNC_PTN = Pattern.compile("\\d{1,2}[/:][ 0-9:/]*");
+  private class BaseInfoField extends InfoField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = INFO_PTN.matcher(field);
+      if (!match.matches()) {
+        return INFO_TRUNC_PTN.matcher(field).matches();
+      }
+      field = match.group(1);
+      if (field != null) super.parse(field, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = INFO_PTN.matcher(field);
+      if (match.matches()) field = match.group(1);
+      else if (INFO_TRUNC_PTN.matcher(field).matches()) return;
+      if (field != null) super.parse(field, data);
     }
   }
   
@@ -459,6 +488,14 @@ public class DispatchA48Parser extends FieldProgramParser {
       else if (crossSet.add(cross)) {
         data.strCross = append(data.strCross, " / ", cross);
       }
+    }
+  }
+  
+  private static void setNameField(String field, Data data) {
+    if (field.length() <= 4 && NUMERIC.matcher(field).matches()) {
+      data.strApt = append(data.strApt, "-", field);
+    } else {
+      data.strName = cleanWirelessCarrier(field);
     }
   }
 
