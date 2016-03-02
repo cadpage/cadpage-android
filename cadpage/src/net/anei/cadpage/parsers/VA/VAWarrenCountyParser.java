@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.VA;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
@@ -12,9 +14,20 @@ public class VAWarrenCountyParser extends DispatchSouthernParser {
     super(CITY_LIST, "WARREN COUNTY", "VA", DSFLAG_OPT_DISPATCH_ID | DSFLAG_FOLLOW_CROSS);
   }
   
+  private static final Pattern SHORT_TIME_PREFIX_PTN = Pattern.compile("\\d\\d:\\d\\d ");
+  
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // Really wierd data mangling that I hope is never repeated anywhere :(
+    if (subject.length() > 0 && SHORT_TIME_PREFIX_PTN.matcher(body).lookingAt()) {
+      body = subject + " 9999999999 99:" + body;
+    }
     if (!super.parseMsg(body, data)) return false;
+    
+    if (data.strCallId.equals("9999999999")) data.strCallId = "";
+    if (data.strTime.startsWith("99:")) data.strTime = "";
+    
     if (data.strCity.endsWith(" CO")) data.strCity += "UNTY";
     else if (data.strCity.endsWith(" Co")) data.strCity += "unty";
     return true;
