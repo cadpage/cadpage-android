@@ -52,10 +52,11 @@ public class DispatchA49Parser extends FieldProgramParser {
 
   private static final Pattern EXTRA_ID_PTN  = Pattern.compile(">(?:RPT#|AC)< *([-\\d]+)");
   private static final Pattern EXTRA_CALL_PTN = Pattern.compile("F>>IC< *(?:F\\.)? *(.*?)(?: \\d{6})?");
-  private static final Pattern EXTRA_TIME_OP_PTN = Pattern.compile("(.*) \\d{4},\\d{3}");
-  private static final Pattern EXTRA_PREFIX_PTN = Pattern.compile("[A-Z]>(?:>IC<)? *(?:[A-Z]\\.)? *(.*)");
-  private static final Pattern EXTRA_PHONE_PTN = Pattern.compile("(?:\\d{3})?\\d{7}");
   private static final Pattern EXTRA_GPS_PTN = Pattern.compile("\\bLat=([-+]\\d+\\.\\d{4,}) Long=([-+]\\d+\\.\\d{4,})\\b");
+  private static final Pattern EXTRA_TIME_OP_PTN = Pattern.compile("(.*) \\d{4},\\d{3}");
+  private static final Pattern EXTRA_PREFIX_PTN = Pattern.compile("(?:[A-Z]>(?:>IC<)? *(?:[A-Z]\\.)?|>E9<) *(.*)");
+  private static final Pattern EXTRA_PHONE_PTN1 = Pattern.compile("(?:\\d{3})?\\d{7}");
+  private static final Pattern EXTRA_PHONE_PTN2 = Pattern.compile("LOC = .*\\bP#(\\d{3} \\d{3}-\\d{4})\\b.*");
   private class MyExtraField extends Field {
     @Override
     public void parse(String field, Data data) {
@@ -72,20 +73,37 @@ public class DispatchA49Parser extends FieldProgramParser {
         return;
       }
       
+      match = EXTRA_GPS_PTN.matcher(field);
+      if (match.find()) {
+        setGPSLoc(match.group(1) + ',' + match.group(2), data);
+        return;
+      }
+      
       match = EXTRA_TIME_OP_PTN.matcher(field);
       if (match.matches()) field = match.group(1).trim();
       
       match = EXTRA_PREFIX_PTN.matcher(field);
       if (match.matches()) field = match.group(1);
       
-      if (EXTRA_PHONE_PTN.matcher(field).matches()) {
+      if (EXTRA_PHONE_PTN1.matcher(field).matches()) {
         data.strPhone = field;
         return;
       }
       
-      match = EXTRA_GPS_PTN.matcher(field);
-      if (match.find()) {
-        setGPSLoc(match.group(1) + ',' + match.group(2), data);
+      // Drop useless cell tower address
+      if (field.startsWith("ADDR =")) return;
+      
+      // Cell phone number
+      match = EXTRA_PHONE_PTN2.matcher(field);
+      if (match.matches()) {
+        data.strPhone = match.group(1);
+        return;
+      }
+      
+      // Cell phone name
+      if (field.startsWith("NAME =")) {
+        data.strName = cleanWirelessCarrier(field.substring(6).trim());
+        return;
       }
       
       data.strSupp = append(data.strSupp, "\n", field);
@@ -93,7 +111,7 @@ public class DispatchA49Parser extends FieldProgramParser {
 
     @Override
     public String getFieldNames() {
-      return "ID CALL PHONE INFO GPS";
+      return "ID CALL NAME PHONE INFO GPS";
     }
   }
 }
