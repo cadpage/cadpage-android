@@ -10,7 +10,7 @@ public class WASnohomishCountyBParser extends FieldProgramParser {
   
   public WASnohomishCountyBParser() {
     super("SNOHOMISH COUNTY", "WA",
-           "CALL_CH CH? ADDRCITY/S6 X_UNIT_INFO! INFO/S+");
+           "CALL_CH CH? ADDRCITY/S6 MAP2/D? X_UNIT_INFO! INFO/S+");
   }
   
   @Override
@@ -27,9 +27,10 @@ public class WASnohomishCountyBParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CALL_CH")) return new MyCallChannelField();
-    if (name.equals("CH")) return new ChannelField("FIRE TAC \\d+|", true);
+    if (name.equals("CH")) return new ChannelField("(?:FIRE|NC F) TAC \\d+|", true);
     if (name.equals("CALL")) return new CallField(">>([A-Z]+)<<", true);
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("MAP2")) return new MapField("\\d{3}(?:[A-Z]\\d)?|", true);
     if (name.equals("X_UNIT_INFO")) return new MyCrossUnitInfoField();
     return super.getField(name);
   }
@@ -44,9 +45,12 @@ public class WASnohomishCountyBParser extends FieldProgramParser {
     @Override
     public boolean checkParse(String field, Data data) {
       Matcher  match = CALL_CHANNEL_PTN.matcher(field);
-      if (!match.matches()) return false;
-      data.strCall = match.group(1);
-      data.strChannel = match.group(2);
+      if (match.matches()) {
+        data.strCall = match.group(1);
+        data.strChannel = match.group(2);
+      } else {
+        data.strCall = field;
+      }
       return true;
     }
     
@@ -62,7 +66,7 @@ public class WASnohomishCountyBParser extends FieldProgramParser {
     
   }
   
-  private static final Pattern ADDR_PLACE_PTN = Pattern.compile("(.*)/(.*)/(.*)");
+  private static final Pattern ADDR_PLACE_PTN = Pattern.compile("([^/]*)/(.*?)/([^/]*)/?");
   private class MyAddressCityField extends AddressCityField {
     @Override
     public void parse(String field, Data data) {
@@ -79,13 +83,13 @@ public class WASnohomishCountyBParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern X_UNIT_INFO_PTN = Pattern.compile("Between ([^*]*?)\\*([ ,A-Z0-9]*)\\* *(.*)");
+  private static final Pattern X_UNIT_INFO_PTN = Pattern.compile("(?:Between ([^*]*?))?\\*([ ,A-Z0-9]*)\\* *(.*)");
   private class MyCrossUnitInfoField extends Field {
     @Override
     public void parse(String field, Data data) {
       Matcher match = X_UNIT_INFO_PTN.matcher(field);
       if (!match.matches()) abort();
-      String cross = match.group(1).trim();
+      String cross = getOptGroup(match.group(1));
       if (!cross.equals("No Cross Streets Found")) {
         data.strCross = cross;
       }

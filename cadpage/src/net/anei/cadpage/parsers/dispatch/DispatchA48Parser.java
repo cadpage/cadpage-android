@@ -157,7 +157,7 @@ public class DispatchA48Parser extends FieldProgramParser {
 
   public DispatchA48Parser(String[] cityList, String defCity, String defState, FieldType fieldType, int flags, Pattern unitPtn, Properties callCodes) {
     super(cityList, defCity, defState,
-          append("DATETIME ID CALL ADDRCITY DUPADDR? SKIP!", " ", fieldType.getFieldProg()) + " UNIT_LABEL UNIT/S+");
+          append("DATETIME ID CALL ADDRCITY DUPADDR? SKIP! APT?", " ", fieldType.getFieldProg()) + " UNIT_LABEL UNIT/S+");
     this.fieldType = fieldType;
     oneWordCode = (flags & A48_ONE_WORD_CODE) != 0;
     optOneWordCode = (flags & A48_OPT_ONE_WORD_CODE) != 0;
@@ -167,7 +167,7 @@ public class DispatchA48Parser extends FieldProgramParser {
     fieldList = ("DATE TIME ID CODE CALL ADDR APT CITY NAME " + fieldType.getFieldList() + " INFO UNIT").replace("  ", " ");
   }
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("As of \\d\\d?/\\d\\d?/\\d\\d \\d\\d");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("As of \\d\\d?/\\d\\d?/\\d\\d \\d\\d(:\\d\\d:\\d\\d)?");
   private static final Pattern PREFIX_PTN = Pattern.compile("(?!\\d\\d:)([- A-Za-z0-9]+: *)(.*)");
   private static final Pattern TRUNC_HEADER_PTN = Pattern.compile("\\d\\d:\\d\\d \\d{4}-\\d{8} ");
   private static final Pattern MASTER_PTN = Pattern.compile("(?:CAD:|[- A-Za-z0-9]*:)? *As of (\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d?:\\d\\d:\\d\\d) (?:([AP]M) )?(\\d{4}-\\d{5,8}) (.*)");
@@ -177,17 +177,24 @@ public class DispatchA48Parser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (SUBJECT_PTN.matcher(subject).matches()) {
-      Matcher match = PREFIX_PTN.matcher(body);
-      if (match.matches()) {
-        String tmp = match.group(2);
-        if (!tmp.startsWith("As of")) {
-          body = match.group(1) + subject + ':' + tmp;
-        }
-      } else if (!body.startsWith(":As of")) {
-        body = subject + ':' + body;
+    Matcher match = SUBJECT_PTN.matcher(subject);
+    if (match.matches()) {
+      if (match.group(1) != null) {
+        if (!body.startsWith("As of")) body = subject + '\n' + body;
+        subject = "";
       }
-      subject = "";
+      else {
+        match = PREFIX_PTN.matcher(body);
+        if (match.matches()) {
+          String tmp = match.group(2);
+          if (!tmp.startsWith("As of")) {
+            body = match.group(1) + subject + ':' + tmp;
+          }
+        } else if (!body.startsWith(":As of")) {
+          body = subject + ':' + body;
+        }
+        subject = "";
+      }
     } 
     
     // Handle case where subject was split off from main message and then discarded
@@ -205,7 +212,7 @@ public class DispatchA48Parser extends FieldProgramParser {
     }
     
     // No such luck, have to do this the old way
-    Matcher match = MASTER_PTN.matcher(body);
+    match = MASTER_PTN.matcher(body);
     if (!match.matches()) return false;
     setFieldList(fieldList);
     data.strDate = match.group(1);
@@ -331,6 +338,7 @@ public class DispatchA48Parser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("DATETIME")) return new BaseDateTimeField();
+    if (name.equals("APT")) return new AptField("\\d{1,4}", true);
     if (name.equals("ID")) return new IdField("\\d{4}-\\d{8}", true);
     if (name.equals("CALL")) return new BaseCallField();
     if (name.equals("DUPADDR")) return new BaseDupAddrField();

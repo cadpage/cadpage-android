@@ -4,6 +4,24 @@
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.0.06.03\n
+New Locations:\n
+Stockton, CA (alt)\n
+Daviess County, IN\n
+New South Wales, AU (alt)\n
+\n
+Location Fixes:\n
+Madison County, IL\n
+Randolph County, IL\n
+Chatham County, GA\n
+Whitfield County, GA\n
+Bullitt County, KY\n
+Ouachita Parish, LA\n
+Anne Arundel County, MD\n
+Roanoke County, VA\n
+Warren County, VA\n
+Snohomish County, WA\n
+\n
 v1.9.06.02\n
 Location Fixes:\n
 Fairfield County, CT\n
@@ -37,15 +55,7 @@ v1.9.05.12\n
 Location Fixes:\n
 St Joseph County, IN\n
 Shaker Heights, OH\n
-Campbell County, VA\n
-\n
-v1.9.05.11\n
-Location Fixes:\n
-Anderson County, KY\n
-\n
-General Fixes:\n
-Dispatch time was not displaying correctly in Swedish language.\n
-Problems recognizing the correct message format for several Active911 format codes.
+Campbell County, VA
   </string>
 </resources>
   

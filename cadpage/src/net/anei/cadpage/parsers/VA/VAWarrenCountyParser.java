@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.VA;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
 /**
@@ -11,6 +12,14 @@ public class VAWarrenCountyParser extends DispatchSouthernParser {
     super(CITY_LIST, "WARREN COUNTY", "VA", DSFLAG_OPT_DISPATCH_ID | DSFLAG_FOLLOW_CROSS);
   }
   
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strCity.endsWith(" CO")) data.strCity += "UNTY";
+    else if (data.strCity.endsWith(" Co")) data.strCity += "unty";
+    return true;
+  }
+
   @Override
   public String getFilter() {
     return "mailbox@warrencountysheriff.org";
@@ -37,7 +46,15 @@ public class VAWarrenCountyParser extends DispatchSouthernParser {
     "ROCKLAND",
     "WATERLICK",
     
+    // Clarke County
+    "CLARKE CO",
+    
     // Frederick County
-    "MIDDLETOWN"
+    "FREDERICK CO",
+    "MIDDLETOWN",
+    
+    // Shenendoah County
+    "SHENENDOAH CO",
+    "STRASBURG"
   };
 }
