@@ -32,14 +32,13 @@ Fraqre: "CGF Cntr Znantre" <CGF@tznvy.pbz>
 {CPFB- Nppvqrag Vawhel} ( NPPV ) N(a) Nppvqrag Vawhel unf orra ercbegrq ng 7015 Ujl 365 F, Yvggyr Ebpx, NE, 2016002109
 {CPFB- Zrqvpny Rzretrapl} ( ZRQV ) N(a) Zrqvpny Rzretrapl unf orra ercbegrq ng 3609 Jvyyvnzf Eq, Yvggyr Ebpx, NE, 2016002071  sver 800
 {CPFB- Zrqvpny Rzretrapl} ( ZRQV ) N(a) Zrqvpny Rzretrapl unf orra ercbegrq ng 3609 Jvyyvnzf Eq, Yvggyr Ebpx, NE, 2016001981
-{- } Ratvar 2 vf bhg-bs-freivpr hagvy shegure abgvpr.
 
 */
 
 choyvp pynff NEChynfxvPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp NEChynfxvPbhaglOCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "CHYNFXV PBHAGL", "NE");
+    frgCnefre(arj NEChynfxvPbhaglOCnefre(), "CHYNFXV PBHAGL", "NE");
   }
 
   @Grfg
