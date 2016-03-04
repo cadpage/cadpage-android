@@ -9,16 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class ILMacoupinCountyParser extends FieldProgramParser {
   public ILMacoupinCountyParser() {
     super("MACOUPIN COUNTY", "IL",
-      "( ADDRCITY PLACE? SRC INFO! CC_Text:CALL Problem:INFO | DISPATCH:EVERYTHING! )");
-  }
-  
-  static private final Pattern PAMA_PATTERN  = Pattern.compile("(.*)-.*SECTOR");
-  
-  @Override
-  public String adjustMapAddress(String a) {
-    Matcher m = PAMA_PATTERN.matcher(a);
-    if (m.matches()) a = m.group(1).trim();
-    return a;
+      "( ADDR_SRC_INFO | ADDRCITY PLACE? SRC! INFO CC_Text:CALL Problem:INFO | DISPATCH:EVERYTHING! )");
   }
   
   @Override
@@ -39,10 +30,41 @@ public class ILMacoupinCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ADDR_SRC_INFO")) return new MyAddressSrcInfoField();
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
-    if (name.equals("SRC")) return new SourceField("[A-Z]{3}:.+", true);
+    if (name.equals("SRC")) return new SourceField("[A-Z]{2,5}:.+", true);
     if (name.equals("EVERYTHING")) return new EverythingField();
     return super.getField(name);
+  }
+  
+  private static Pattern ADDR_SRC_INFO_PTN = Pattern.compile("(.*?)(?:,([ A-Z]+))?//([A-Z]{2,5}:[A-Z0-9 :,]+)//(.*)");
+  private class MyAddressSrcInfoField extends Field {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = ADDR_SRC_INFO_PTN.matcher(field);
+      if (!match.matches()) return false;
+      parseAddress(match.group(1).trim(), data);
+      data.strCity = getOptGroup(match.group(2));
+      data.strSource = match.group(3).trim();
+      data.strSupp = match.group(4).trim();
+      return true;
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "ADDR APT CITY SRC INFO";
+    }
+    
   }
   
   static private final Pattern ADDRESS_PATTERN
@@ -61,7 +83,7 @@ public class ILMacoupinCountyParser extends FieldProgramParser {
   }
   
   static private final Pattern EVERYTHING_PATTERN
-    = Pattern.compile("([A-Z]{3}:.*?)- +(\\d{4})(.*)/(.*)");
+    = Pattern.compile("([A-Z]{2,5}:.*?)- +(\\d{4})(.*)/(.*)");
   private class EverythingField extends AddressCityField {
     @Override
     public void parse(String field, Data data) {
@@ -77,5 +99,14 @@ public class ILMacoupinCountyParser extends FieldProgramParser {
     public String getFieldNames() {
       return super.getFieldNames()+" SRC CODE CALL INFO";
     }
+  }
+  
+  static private final Pattern PAMA_PATTERN  = Pattern.compile("(.*)-.*SECTOR");
+  
+  @Override
+  public String adjustMapAddress(String a) {
+    Matcher m = PAMA_PATTERN.matcher(a);
+    if (m.matches()) a = m.group(1).trim();
+    return a;
   }
 }
