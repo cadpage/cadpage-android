@@ -1049,6 +1049,7 @@ class Active911Vendor extends Vendor {
       "US/TN/BedfordCounty",              "TNBedfordCounty",
       "US/TN/CampbellCounty",             "TNCampbellCounty",
       "US/TN/CarterCounty",               "TNCarterCounty",
+      "US/TN/CityofKingsport",            "TNKingsport",
       "US/TN/ClayCounty",                 "TNClayCounty",
       "US/TN/CumberlandCounty",           "TNCumberlandCounty",
       "US/TN/HamiltonCounty",             "TNHamiltonCountyC",

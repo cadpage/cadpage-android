@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.CA;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -55,6 +56,7 @@ public class CASanBernardinoCountyCParser extends FieldProgramParser {
       body = body.substring(0,pt).trim();
     }
     body = body.replace(")- ", ") - "); 
+    body = body.replace("- CROSS:", " - CROSS:");
     return parseFields(body.split(" - "), data);
   }
   
@@ -81,6 +83,7 @@ public class CASanBernardinoCountyCParser extends FieldProgramParser {
       }
       super.parse(field, data);
       data.strCity = data.strCity.replace('_', ' ');
+      data.strCity = convertCodes(data.strCity, CITY_CODES);
     }
     
     @Override
@@ -96,4 +99,8 @@ public class CASanBernardinoCountyCParser extends FieldProgramParser {
       data.strSupp = TIMES_BRK_PTN.matcher(field).replaceAll("\n");
     }
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+    "DHSP",         "DESERT HOT SPRINGS"
+  });
 }
