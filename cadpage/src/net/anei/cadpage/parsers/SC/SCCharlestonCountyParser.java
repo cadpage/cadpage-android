@@ -21,6 +21,12 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
+    // STrip off text msg heading
+    if (body.startsWith("/ Dispatch Info / ")) {
+      subject = "Dispatch Info";
+      body = body.substring(18).trim();
+    }
+    
     // See if we can parse this as a fixed field message
     if (!parseFixedFieldMsg(subject, body, data)) {
       
