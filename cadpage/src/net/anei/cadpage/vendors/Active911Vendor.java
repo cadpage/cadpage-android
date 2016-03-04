@@ -673,6 +673,7 @@ class Active911Vendor extends Vendor {
       "US/MS/Biloxi",                     "MSBiloxi",
       "US/MS/CityofHernando",             "MSHernando",
       "US/MS/DesotoCounty",               "MSDeSotoCountyA",
+      "US/MS/LafayetteCounty",            "MSLafayetteCounty",
       "US/MS/Southaven",                  "MSDeSotoCountyB",
       "US/MT/CityofBlackEagle",           "MTCascadeCounty",
       "US/MT/GallatinCounty",             "MTGallatinCounty",
