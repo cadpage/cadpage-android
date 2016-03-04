@@ -17,10 +17,10 @@ public class DispatchA49Parser extends FieldProgramParser {
         "DATE_TIME_SRC! Addr:ADDR! Cross:X? Inc_Type:CODE! Juris:SKIP? REMARKS! EXTRA+");
   }
   
-  private static final Pattern REMARKS_PTN = Pattern.compile("(\nRemarks) ([A-Z]?>)");
+  private static final Pattern REMARKS_PTN = Pattern.compile("(\nRemarks) +");
   @Override
   protected boolean parseMsg(String body, Data data) {
-    body = REMARKS_PTN.matcher(body).replaceFirst("$1:\n$2");
+    body = REMARKS_PTN.matcher(body).replaceFirst("$1:\n");
     return parseFields(body.split("\n+"), 5, data);
   }
   
@@ -52,10 +52,12 @@ public class DispatchA49Parser extends FieldProgramParser {
 
   private static final Pattern EXTRA_ID_PTN  = Pattern.compile(">(?:RPT#|AC)< *([-\\d]+)");
   private static final Pattern EXTRA_CALL_PTN = Pattern.compile("F>>IC< *(?:F\\.)? *(.*?)(?: \\d{6})?");
-  private static final Pattern EXTRA_TIME_OP_PTN = Pattern.compile("(.*) \\d{4},\\d{3}");
-  private static final Pattern EXTRA_PREFIX_PTN = Pattern.compile("[A-Z]>(?:>IC<)? *(?:[A-Z]\\.)? *(.*)");
-  private static final Pattern EXTRA_PHONE_PTN = Pattern.compile("(?:\\d{3})?\\d{7}");
   private static final Pattern EXTRA_GPS_PTN = Pattern.compile("\\bLat=([-+]\\d+\\.\\d{4,}) Long=([-+]\\d+\\.\\d{4,})\\b");
+  private static final Pattern EXTRA_TIME_OP_PTN = Pattern.compile("(.*) \\d{4},\\d{3}");
+  private static final Pattern EXTRA_PREFIX_PTN = Pattern.compile("(?:[A-Z]>)?(?:>(?:AC|E9|IC)<)? *(?:[A-Z]\\.)? *(.*)");
+  private static final Pattern EXTRA_PHONE_PTN1 = Pattern.compile("(?:\\d{3})?\\d{7}");
+  private static final Pattern EXTRA_PHONE_PTN2 = Pattern.compile("(?:LOC = .*\\bP#|>P#< P-ANI:) *(\\(?\\d{3}\\)? \\d{3}-\\d{4})\\b.*", Pattern.CASE_INSENSITIVE);
+  private static final Pattern EXTRA_LEAD_GT_PTN = Pattern.compile(">(?![A-Z]+<)");
   private class MyExtraField extends Field {
     @Override
     public void parse(String field, Data data) {
@@ -72,28 +74,66 @@ public class DispatchA49Parser extends FieldProgramParser {
         return;
       }
       
+      match = EXTRA_GPS_PTN.matcher(field);
+      if (match.find()) {
+        setGPSLoc(match.group(1) + ',' + match.group(2), data);
+        return;
+      }
+      
       match = EXTRA_TIME_OP_PTN.matcher(field);
       if (match.matches()) field = match.group(1).trim();
       
       match = EXTRA_PREFIX_PTN.matcher(field);
       if (match.matches()) field = match.group(1);
+     
+      // Old data changes are not worth keeping
+      if (field.startsWith(">UG<")) return;
       
-      if (EXTRA_PHONE_PTN.matcher(field).matches()) {
+      // Place name is worth extracting
+      if (field.startsWith(">CP<")) {
+        field = field.substring(4).trim();
+        if (field.toUpperCase().startsWith("ALARM =")) {
+          field = field.substring(7).trim();
+          int pt = field.indexOf(',');
+          if (pt >= 0) field = field.substring(pt+1).trim(); 
+        }
+        data.strPlace = append(data.strPlace, " - ", field);
+        return;
+      }
+      
+      if (EXTRA_PHONE_PTN1.matcher(field).matches()) {
         data.strPhone = field;
         return;
       }
       
-      match = EXTRA_GPS_PTN.matcher(field);
-      if (match.find()) {
-        setGPSLoc(match.group(1) + ',' + match.group(2), data);
+      // Drop useless cell tower address
+      if (field.startsWith("ADDR =")) return;
+      
+      // and coordinate comment
+      if (field.startsWith("WPH2 COORDS.")) return;
+      
+      // Cell phone number
+      match = EXTRA_PHONE_PTN2.matcher(field);
+      if (match.matches()) {
+        data.strPhone = match.group(1);
+        return;
       }
+      
+      // Cell phone name
+      if (field.startsWith("NAME =")) {
+        data.strName = cleanWirelessCarrier(field.substring(6).trim());
+        return;
+      }
+      
+      match = EXTRA_LEAD_GT_PTN.matcher(field);
+      if (match.lookingAt()) field = field.substring(match.end()).trim();
       
       data.strSupp = append(data.strSupp, "\n", field);
     }
 
     @Override
     public String getFieldNames() {
-      return "ID CALL PHONE INFO GPS";
+      return "ID CALL PLACE NAME PHONE INFO GPS";
     }
   }
 }

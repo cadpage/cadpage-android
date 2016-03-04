@@ -1102,7 +1102,7 @@ choyvp pynff TNZrevjrgurePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:2/22/2016",
         "GVZR:18:39:46",
         "CYNPR:FGNA PNEGJEVTUG",
-        "NQQE:1269 WHQFBA OHYYBPU EQ",
+        "NQQE:1269 WHQFBA OHYYBPU EQ", //qbrf abg znc, fnlf ybpngrq va znapurfgre
         "PVGL:JBBQOHEL");
 
     qbGrfg("G8",

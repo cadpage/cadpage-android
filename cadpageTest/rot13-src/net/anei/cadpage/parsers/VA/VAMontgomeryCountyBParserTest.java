@@ -548,7 +548,7 @@ choyvp pynff INZbagtbzrelPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G6",
         "{!} 241 TNYYVZBER YNAR, SYBLQ; R-Fvpx/Haxabja/Zrq Nynez; ; ; ; EEF1 <raq>",
         "NQQE:241 TNYYVZBER YNAR",
-        "PVGL:SYBLQ",
+        "PVGL:SYBLQ", //nfxvat sbe puevfgvnaohet
         "PNYY:R-Fvpx/Haxabja/Zrq Nynez",
         "HAVG:EEF1");
 

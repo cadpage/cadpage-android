@@ -162,7 +162,7 @@ choyvp pynff TNJuvgsvryqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RYRPGEVPNY & NCCYVNAPR SVERF",
         "NQQE:304 Ina Ohera QE",
         "PVGL:QNYGBA",
-        "K:Zbbayvtug QE & Evqtrperfg QE");
+        "K:Zbbayvtug QE / Evqtrperfg QE");
    
   }
   

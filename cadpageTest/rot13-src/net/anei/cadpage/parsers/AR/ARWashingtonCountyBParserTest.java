@@ -1190,7 +1190,7 @@ choyvp pynff NEJnfuvatgbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PBQR:67",
         "PNYY:BHGFVQR SVER",
-        "NQQE:ERQ SBK JP 2149 & QBTJBBQ JP 2161",
+        "NQQE:ERQ SBK JP 2149 & QBTJBBQ JP 2161", // erq sbk & qbtjbbq jbexf, naq 2149 & 2161 jbexf, ohg guvf qbrf abg.  tcf vf fcbg ba
         "GVZR:15:58",
         "K:ERQ SBK /  CVA BNX",
         "TCF:+36.092287,-94.307394");
@@ -1209,10 +1209,10 @@ choyvp pynff NEJnfuvatgbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PBQR:67Q02",
         "PNYY:BHGFVQR SVER",
-        "NQQE:YNXR JRQVATGBA RAGEL JP 4600 & J UJL 16",
+        "NQQE:YNXR JRQVATGBA RAGEL JP 4600 & J UJL 16", //qb lbh xabj jung JP fgnaqf sbe?
         "GVZR:13:28",
         "K:A JRQVATGBA OYNPXGBC /  YNXR JRQVATGBA",
-        "TCF:+36.091401,-94.377616");
+        "TCF:+36.091401,-94.377616"); //fcbg ba
 
     qbGrfg("G4",
         "{Npgvir 911 Nyreg} PNYY: 67 - Bhgfvqr Sver - BHGFVQR SVER\a" +

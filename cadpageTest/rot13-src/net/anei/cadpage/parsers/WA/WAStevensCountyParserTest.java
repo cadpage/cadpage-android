@@ -7,6 +7,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 Fgriraf Pbhagl, JN
 
+Npgvir911 Cnefref:
+HF/JN/FgrirafPbhagl
+HF/JN/FgrirafPbhaglAbAbgrf
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fgriraf 1 Sver-Erfphr
 Ybpngvba: Pynlgba, JN, Havgrq Fgngrf

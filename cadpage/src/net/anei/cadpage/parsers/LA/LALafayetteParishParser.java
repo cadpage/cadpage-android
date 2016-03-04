@@ -21,6 +21,7 @@ public class LALafayetteParishParser extends DispatchA49Parser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = body.replace("  >", "\n>");
     if (!super.parseMsg(body, data)) return false;
     data.strAddress = TRAIL_NA_PTN.matcher(data.strAddress).replaceFirst("");
     data.strCross = TRAIL_NA_PTN.matcher(data.strCross).replaceFirst("");
