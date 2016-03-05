@@ -16,16 +16,4 @@ public class ALMarshallCountyBParser extends DispatchGeoconxParser {
   public String getFilter() {
     return "@911email.org,@911email.net";
   }
-//    
-//  private static final String[] CITY_LIST = new String[]{
-//    "ALBERTVILLE",
-//    "ARAB",
-//    "BOAZ",
-//    "DOUGLAS",
-//    "JOPPA",
-//    "GRANT",
-//    "GUNTERSVILLE",
-//    "HORTON",
-//    "UNION GROVE"
-//  };
 }

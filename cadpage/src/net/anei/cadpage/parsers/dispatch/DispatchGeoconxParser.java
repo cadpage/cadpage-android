@@ -64,7 +64,7 @@ public class DispatchGeoconxParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     String flds[] = body.split("\n");
-    if (!subject.equals("E911")) {
+    if (!subject.equals("E911") && !subject.equals("E911 Incident Auto-Page")) {
       if (!noSubject || flds.length < 3) return false;
     }
     return parseFields(flds, data);

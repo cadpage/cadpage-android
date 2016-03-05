@@ -10,15 +10,15 @@ Znefunyy Pbhagl, NY
 @EhaJvgu(Rapybfrq.pynff)
 choyvp pynff NYZnefunyyPbhaglCnefreGrfg {
   
-  choyvp fgngvp pynff GrfgN rkgraqf NYZnefunyyPbhaglNCnefreGrfg {
-    choyvp GrfgN() {
-      frgCnefre(arj NYZnefunyyPbhaglNCnefre());
+  choyvp fgngvp pynff GrfgO rkgraqf NYZnefunyyPbhaglOCnefreGrfg {
+    choyvp GrfgO() {
+      frgCnefre(arj NYZnefunyyPbhaglCnefre());
     }
   }
   
-  choyvp fgngvp pynff GrfgO rkgraqf NYZnefunyyPbhaglOCnefreGrfg {
-    choyvp GrfgO() {
-      frgCnefre(arj NYZnefunyyPbhaglOCnefre());
+  choyvp fgngvp pynff GrfgP rkgraqf NYZnefunyyPbhaglPCnefreGrfg {
+    choyvp GrfgP() {
+      frgCnefre(arj NYZnefunyyPbhaglCnefre());
     }
   }
 }
