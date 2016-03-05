@@ -5,10 +5,10 @@ import net.anei.cadpage.parsers.dispatch.DispatchA12Parser;
 /**
  * Calhoun County AL
  */
-public class ALCalhounCountyParser extends DispatchA12Parser {
+public class ALCalhounCountyAParser extends DispatchA12Parser {
   
   
-  public ALCalhounCountyParser() {
+  public ALCalhounCountyAParser() {
     super("CALHOUN COUNTY", "AL");
   }
   
