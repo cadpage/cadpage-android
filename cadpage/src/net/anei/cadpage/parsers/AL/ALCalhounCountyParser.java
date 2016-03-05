@@ -1,20 +1,11 @@
 package net.anei.cadpage.parsers.AL;
 
-import net.anei.cadpage.parsers.dispatch.DispatchA12Parser;
+import net.anei.cadpage.parsers.GroupBestParser;
 
-/**
- * Calhoun County AL
- */
-public class ALCalhounCountyParser extends DispatchA12Parser {
-  
+
+public class ALCalhounCountyParser extends GroupBestParser {
   
   public ALCalhounCountyParser() {
-    super("CALHOUN COUNTY", "AL");
+    super(new ALCalhounCountyAParser(), new ALCalhounCountyBParser());
   }
-  
-  @Override
-  public String getFilter() {
-    return "cad@911.calhouncountyal.gov";
-  }
-
 }
