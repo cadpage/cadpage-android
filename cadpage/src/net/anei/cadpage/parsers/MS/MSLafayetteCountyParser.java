@@ -20,13 +20,23 @@ public class MSLafayetteCountyParser extends DispatchGlobalDispatchParser {
         "ALL AMERICAN",
         "CHARLESTON COURT",
         "COUNTRY CLUB",
+        "ED PERRY",
+        "FOREST GROVE",
+        "GALTNEY LOTT",
         "HOME DEPOT",
         "LOGAN LEE",
+        "MARTIN LUTHER KING JR",
         "NORTH POINTE",
         "NORTHPOINTE LAKE",
         "OFFICE PARK",
+        "REGIONAL CENTER",
+        "ROCK SPRING",
+        "SHADY OAKS",
+        "SOUTH COMMERCE",
         "ST ANDREWS",
+        "STUDENT UNION",
         "TOWN CENTER",
+        "VAN BUREN",
         "WHISPERING VALLEY"
     );
   }
@@ -63,6 +73,10 @@ public class MSLafayetteCountyParser extends DispatchGlobalDispatchParser {
   }
   
   private static final CodeSet CALL_LIST = new CodeSet(
+      "ALARM MEDICAL",
+      "AMBULANCE CALL CITY",
+      "AMBULANCE CALL COUNTY",
+      "AMBULANCE CALL UNIVERSITY",
       "ASSISTANCE CALL",
       "CONTROL BURN",
       "DETAIL",
@@ -73,11 +87,15 @@ public class MSLafayetteCountyParser extends DispatchGlobalDispatchParser {
       "FIRE GRASS",
       "FIRE STRUCTURE RES/BUSINESS",
       "FIRE VEHICLE",
+      "FUNERAL DETAIL",
       "GAS LEAK",
       "INFORMATION",
       "SEARCH & RESCUE",
       "SMELL OF SMOKE",
       "STRUCTURE FIRE",
-      "TA EMS"
+      "SUICIDE ATTEMPT",
+      "SUSPICIOUS ACTIVITY",
+      "TA EMS",
+      "WELFARE CONCERN"
  );
 }

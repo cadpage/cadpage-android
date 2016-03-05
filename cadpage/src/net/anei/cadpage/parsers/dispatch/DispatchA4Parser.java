@@ -11,8 +11,6 @@ public class DispatchA4Parser extends FieldProgramParser {
   private static final Pattern TRAIL_AND_PTN = Pattern.compile("(.*)(?:\\bAND|/|&)", Pattern.CASE_INSENSITIVE);
   private static final Pattern SLASH_PTN = Pattern.compile("/+");
   
-  private String select = "";
-  
   public DispatchA4Parser(String defCity, String defState) {
     this(defCity, defState, 1);
   }
@@ -30,11 +28,11 @@ public class DispatchA4Parser extends FieldProgramParser {
     data.strCallId = subject.substring(17).trim();
     
     if (!body.contains("\n")) {
-      select = "NEW";
+      setSelectValue("NEW");
       return parseFields(body.split(","), data);
     }
     
-    select = "OLD";
+    setSelectValue("OLD");
     if (! parseFields(body.split("\n"), data)) return false;
     if (data.strAddress.length() == 0) {
       data.strAddress = data.strPlace;
@@ -53,11 +51,6 @@ public class DispatchA4Parser extends FieldProgramParser {
   @Override
   public String getProgram() {
     return "ID " + super.getProgram();
-  }
-
-  @Override
-  protected String getSelectValue() {
-    return select;
   }
   
   @Override

@@ -2,6 +2,8 @@ package net.anei.cadpage.parsers.CT;
 
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -17,9 +19,27 @@ public class CTSimsburyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "93001,6245,simsburyfirepage@gmail.com";
+    return "93001,6245,simsburyfirepage@gmail.com,4702193824";
   }
   
+  private static final Pattern PREFIX_PTN = Pattern.compile("([A-Za-z ]+)(?<!TYPE):");
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    Matcher match = PREFIX_PTN.matcher(body);
+    if (match.lookingAt()) {
+      data.strSource = match.group(1).trim();
+      body = body.substring(match.end()).trim();
+    }
+    // TODO Auto-generated method stub
+    return super.parseMsg(body, data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
+  }
+
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
