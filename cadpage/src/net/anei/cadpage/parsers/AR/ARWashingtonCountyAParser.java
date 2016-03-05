@@ -6,9 +6,9 @@ import net.anei.cadpage.parsers.dispatch.DispatchA34Parser;
 /**
  * Washington County, AR
  */
-public class ARWashingtonCountyParser extends DispatchA34Parser {
+public class ARWashingtonCountyAParser extends DispatchA34Parser {
   
-  public ARWashingtonCountyParser() {
+  public ARWashingtonCountyAParser() {
     super("WASHINGTON COUNTY", "AR");
   }
   

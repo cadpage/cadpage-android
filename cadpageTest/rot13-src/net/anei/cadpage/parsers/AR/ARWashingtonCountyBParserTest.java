@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Jnfuvatgba Pbhagl, NE
+Jnfuvatgba Pbhagl, NE (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jurryre SQ

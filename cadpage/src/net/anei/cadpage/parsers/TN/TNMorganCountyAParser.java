@@ -4,9 +4,9 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
-public class TNMorganCountyParser extends FieldProgramParser {
+public class TNMorganCountyAParser extends FieldProgramParser {
   
-  public TNMorganCountyParser() {
+  public TNMorganCountyAParser() {
     super("MORGAN COUNTY", "TN",
           "CALL! ADDRCITY INFO");
   }

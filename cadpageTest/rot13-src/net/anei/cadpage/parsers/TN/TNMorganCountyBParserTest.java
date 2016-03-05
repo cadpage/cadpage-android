@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /* 
-Zbetna Pbhagl, GA
+Zbetna Pbhagl, GA (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jnegohet SQ

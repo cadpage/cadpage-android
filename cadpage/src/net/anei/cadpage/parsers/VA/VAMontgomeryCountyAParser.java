@@ -6,9 +6,9 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 /**
  * Montgomery County, VA
  */
-public class VAMontgomeryCountyParser extends DispatchSouthernParser {
+public class VAMontgomeryCountyAParser extends DispatchSouthernParser {
     
-  public VAMontgomeryCountyParser() {
+  public VAMontgomeryCountyAParser() {
     super(CITY_LIST, "MONTGOMERY COUNTY", "VA", DSFLAG_LEAD_PLACE | DSFLAG_FOLLOW_CROSS);
     setupMultiWordStreets(
         "COAL BANK HOLLOW",
