@@ -49,9 +49,7 @@ public class MDGarrettCountyParser extends FieldProgramParser {
       }
       return true;
     }
-    
-    // Parse old format
-    return parseOldMsg(body, data);
+    return false;
   }
   
   @Override
@@ -113,24 +111,8 @@ public class MDGarrettCountyParser extends FieldProgramParser {
     return true;
   }
   
-  private static final Pattern MASTER_PTN = Pattern.compile("(\\d\\d?:\\d\\d?:\\d\\d?) +(.*?) +DUE: *([-A-Z0-9]+) +(?:RESPONSE CODE: *(?:([ A-Z0-9]*)|[^\\p{ASCII}]) +)?([A-Z]{2}\\d{10})(?: +(.*))?", Pattern.DOTALL);
   private static final Pattern APT_PTN = Pattern.compile("(?:FLOOR|BLDG|(APT|RM)) *(.*)");
   private static final Pattern CALL_ADDR_PTN = Pattern.compile("(.*?) (?:@!|[^\\p{ASCII}]+ |\\*|(\\d{2,3}[A-Z]\\d{2}[A-Z]?) )[\\* ]*(.*)");
-  
-  private boolean parseOldMsg(String body, Data data) {
-    Matcher match = MASTER_PTN.matcher(body);
-    if (!match.matches()) return false;
-    setFieldList("TIME CALL ADDR APT CITY ST PLACE UNIT CODE ID INFO");
-    data.strTime = match.group(1);
-    String sCallAddr = match.group(2).trim();
-    data.strUnit = match.group(3).trim();
-    data.strCode = getOptGroup(match.group(4));
-    data.strCallId = match.group(5);
-    data.strSupp = getOptGroup(match.group(6));
-    
-    parseCallAddress(true, sCallAddr, data);
-    return true;
-  }
 
   private void parseCallAddress(boolean inclCall, String sCallAddr, Data data) {
     sCallAddr = stripFieldEnd(sCallAddr, "*");
