@@ -340,6 +340,7 @@ public class ParserList {
               ,"GAMaconCounty"                  ,"Macon County, GA"
               ,"GAMarionCounty"                 ,"Marion County, GA"
               ,"GAMartinez"                     ,"Martinez, GA"
+              ,"GAMeriwetherCounty"             ,"Meriwether County, GA"
               ,"GAOconeeCounty"                 ,"Oconee County, GA"
               ,"GAPauldingCounty"               ,"Paulding County, GA"
               ,"GAPikeCounty"                   ,"Pike County, GA"
@@ -534,6 +535,7 @@ public class ParserList {
               ,"KYRobertsonCounty"              ,"Robertson County, KY"
               ,"KYRockCastleCounty"             ,"Rockcastle County, KY"
               ,"KYScottCounty"                  ,"Scott County, KY"
+              ,"KYToddCounty"                   ,"Todd County, KY"
               ,"KYTriggCounty"                  ,"Trigg County, KY"
               ,"KYTrimbleCounty"                ,"Trimble County, KY"
           ),
@@ -1208,6 +1210,7 @@ public class ParserList {
               ,"TNHumphreysCounty"              ,"Humphreys County, TN"
               ,"TNJeffersonCounty"              ,"Jefferson County, TN"
               ,"TNJohnsonCounty"                ,"Johnson County, TN"
+              ,"TNKingsport"                    ,"Kingsport, TN"
               ,"TNKnoxCounty"                   ,"Knox County, TN"
               ,"TNLoudonCounty"                 ,"Loudon County, TN"
               ,"TNMooreCounty"                  ,"Moore County, TN"
