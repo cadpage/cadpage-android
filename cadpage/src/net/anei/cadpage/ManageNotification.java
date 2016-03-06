@@ -1,5 +1,7 @@
 package net.anei.cadpage;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -10,6 +12,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
+import android.database.Cursor;
 import android.graphics.Color;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
@@ -17,6 +20,7 @@ import android.media.MediaPlayer.OnCompletionListener;
 import android.media.MediaPlayer.OnErrorListener;
 import android.net.Uri;
 import android.os.Build;
+import android.provider.MediaStore;
 import android.support.v4.app.NotificationCompat;
 
 /*
@@ -278,8 +282,15 @@ public class ManageNotification {
         mMediaPlayer.setOnErrorListener(listener);
         if (ManagePreferences.notifyOverrideSound()) {
           AssetFileDescriptor fd = context.getResources().openRawResourceFd(R.raw.generalquarter);
-          mMediaPlayer.setDataSource(fd.getFileDescriptor(), fd.getStartOffset(), fd.getLength());
-          fd.close();
+          try {
+            mMediaPlayer.setDataSource(fd.getFileDescriptor(), fd.getStartOffset(), fd.getLength());
+          } catch (IOException ex) {
+            Log.e("Media Player failure: standard alert");
+            Log.e(ex);
+            throw ex;
+          } finally {
+            fd.close();
+          }
         } else {
           String soundURI = ManagePreferences.notifySound();
           if (soundURI == null || soundURI.length() == 0) {
@@ -287,8 +298,7 @@ public class ManageNotification {
             mMediaPlayer = null;
             return;
           }
-          Uri alarmSoundURI = Uri.parse(soundURI);
-          mMediaPlayer.setDataSource(context, alarmSoundURI);
+          setMediaPlayerDataSource(context, mMediaPlayer, soundURI);
         }
         mMediaPlayer.prepare();
         mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
@@ -301,11 +311,8 @@ public class ManageNotification {
     } catch (IOException ex) {
       
       // Failures are fairly common and usually indicate something wrong
-      // with the selected ringtone we are trying to play.  Rather than do
-      // something drastic, we just log the error and proceed without an
-      // audio alert
-      Log.e("Media Player Failure");
-      Log.e(ex);
+      // with the selected ringtone we are trying to play.  We already 
+      // logged the error when it happened, so just close things up
       try {
         mMediaPlayer.stop();
       } catch (Exception ex2) {}
@@ -314,7 +321,177 @@ public class ManageNotification {
     }
     Log.v("Playback started");
   }
+  
+  /**
+   * Really really try to set up media player data source 
+   * @param context current context
+   * @param mp media player
+   * @param fileInfo String specifying the audio data source
+   * @throws IOException if anything goes wrong
+   */
+  private static void setMediaPlayerDataSource(Context context, MediaPlayer mp, 
+                                               String fileInfo) throws IOException {
+    
+    // This get's complicated.  Recommended procedure is to convert content URI's to
+    // path names if possible
+    if (fileInfo.startsWith("content://")) {
+      Uri uri = Uri.parse(fileInfo);
+      String tmp = getRingtonePathFromContentUri(context, uri);
+      if (tmp != null) fileInfo = tmp;
+    }
 
+    try {
+      
+      // Things work differently before the Honeycomb release
+      
+      // Under earlier systems, we can just set the media source by path
+      // If that fails, set it by Uri
+      if (android.os.Build.VERSION.SDK_INT < android.os.Build.VERSION_CODES.HONEYCOMB) {
+        try {
+          setMediaPlayerDataSourcePreHoneyComb(context, mp, fileInfo);
+        } catch (Exception ex) {
+          setMediaPlayerDataSourcePostHoneyComb(context, mp, fileInfo);
+        }
+      } 
+
+      // Starting with Honeycomb, we only try setting the source by URI
+      else {
+        setMediaPlayerDataSourcePostHoneyComb(context, mp, fileInfo);
+      }
+    }
+
+    // If that failed, try setting the media source using a file descriptor
+    catch (IOException ex) {
+      try {
+        setMediaPlayerDataSourceUsingFileDescriptor(mp, fileInfo);
+      } 
+      
+      // And if that fails, try converting the file name to a ringtone URI
+      catch (IOException ex2) {
+        Uri uri = getRingtoneUriFromPath(context, fileInfo);
+        if (uri == null) throw ex2;
+        mp.reset();
+        try {
+          Log.v("Backup Media Player Setup");
+          mp.setDataSource(context, uri);
+        } catch (IOException ex3) {
+          Log.e("Media Player Failure:" + uri);
+          Log.e(ex3);
+          throw ex3;
+        }
+      }
+    }
+  }
+
+  /**
+   * Set Media source under pre honeycomb system
+   * @param context current context
+   * @param mp media player
+   * @param fileInfo file path name
+   * @throws IOException if anything goes wrong
+   */
+  private static void setMediaPlayerDataSourcePreHoneyComb(Context context, MediaPlayer mp, 
+                                                           String fileInfo) throws IOException {
+    Log.v("PreH Media Player Setup");
+    mp.reset();
+    try {
+      mp.setDataSource(fileInfo);
+    } catch (IOException ex) {
+      Log.e("Media Player Failure:" + fileInfo);
+      Log.e(ex);
+      throw ex;
+    }
+  }
+
+  /**
+   * Set Media source under post honeycomb system
+   * @param context current context
+   * @param mp media player
+   * @param fileInfo file path name
+   * @throws IOException if anything goes wrong
+   */
+  private static void setMediaPlayerDataSourcePostHoneyComb(Context context,
+                                                            MediaPlayer mp, String fileInfo) throws IOException {
+    Log.v("PostH Media Player Setup");
+    mp.reset();
+    Uri uri = Uri.parse(fileInfo);
+    try {
+      mp.setDataSource(context, uri);
+    } catch (IOException ex) {
+      Log.e("Media Player Failure:" + uri);
+      Log.e(ex);
+      throw ex;
+    }
+  }
+
+  /**
+   * Set Media source using a file description
+   * @param context curren
+   * @param mp media player
+   * @param fileInfo file path name
+   * @throws IOException if anything goes wrong
+   */
+  private static void setMediaPlayerDataSourceUsingFileDescriptor(MediaPlayer mp, String fileInfo) throws IOException {
+    Log.v("File Desc Media Player Setup - " + fileInfo);
+    File file = new File(fileInfo);
+    FileInputStream inputStream = new FileInputStream(file);
+    try {
+      mp.reset();
+      mp.setDataSource(inputStream.getFD());
+    } catch (IOException ex) {
+      Log.e("Media Player Failure:" + file);
+      Log.e(ex);
+      throw ex;
+    } finally {
+      inputStream.close();
+    }
+  }
+
+  /**
+   * Convert file path to ringtone URI
+   * @param context current context
+   * @param path file path
+   * @return equivalent content URI if successful, null otherwise
+   */
+  private static Uri getRingtoneUriFromPath(Context context, String path) {
+    
+    if (!PermissionManager.isGranted(context, PermissionManager.READ_EXTERNAL_STORAGE)) return null;
+    
+    Uri ringtonesUri = MediaStore.Audio.Media.getContentUriForPath(path);
+    Cursor ringtoneCursor = context.getContentResolver().query(ringtonesUri, 
+        new String[]{MediaStore.Audio.Media._ID}, 
+        MediaStore.Audio.Media.DATA + "='" + path + "'", null, null);
+    try {
+      if (!ringtoneCursor.moveToFirst()) return null;
+      long id = ringtoneCursor.getLong(ringtoneCursor.getColumnIndex(MediaStore.Audio.Media._ID));
+      if (!ringtonesUri.toString().endsWith(String.valueOf(id))) {
+        ringtonesUri = ringtonesUri.buildUpon().appendPath(Long.toString(id)).build();
+      }
+      return ringtonesUri;
+    } finally {
+      ringtoneCursor.close();
+    }
+  }
+
+  /**
+   * Convert content URI to file path
+   * @param context current context
+   * @param contentUri content URI
+   * @return equivalent file path if successful, null otherwise
+   */
+  public static String getRingtonePathFromContentUri(Context context, Uri contentUri) {
+    
+    if (!PermissionManager.isGranted(context, PermissionManager.READ_EXTERNAL_STORAGE)) return null;
+    
+    String[] proj = { MediaStore.Audio.Media.DATA };
+    Cursor ringtoneCursor = context.getContentResolver().query(contentUri, proj, null, null, null);
+    try {
+      if (!ringtoneCursor.moveToFirst()) return null;
+      return ringtoneCursor.getString(ringtoneCursor.getColumnIndex(MediaStore.Audio.Media.DATA));
+    } finally {
+      ringtoneCursor.close();
+    }
+  }
 
   /**
    * Stop media player
