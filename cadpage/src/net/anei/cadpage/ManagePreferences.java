@@ -1261,7 +1261,8 @@ public class ManagePreferences {
   private static final int PERM_REQ_NO_SHOW_IN_CALL = 11;
   private static final int PERM_REQ_ACCT_INFO = 12;
   private static final int PERM_REQ_LOCATION_TRACKING = 13;
-  private static final int PERM_REQ_LIMIT = 13;
+  private static final int PERM_REQ_USER_ALERT_SOUND = 14;
+  private static final int PERM_REQ_LIMIT = 14;
   
   private static PermissionChecker[] checkers = new PermissionChecker[PERM_REQ_LIMIT];
 
@@ -1506,10 +1507,44 @@ public class ManagePreferences {
       
       // true value requires READ_PHONE_STATE permission
       if (!value) return null;
-      return checkRequestPermission(PermissionManager.READ_PHONE_STATE);
+      if (checkRequestPermission(PermissionManager.READ_PHONE_STATE)) return null;
+      return false;
     }
   }
   
+  /********************************************************************
+   * Permission checking the user selectable sound override setting
+   ********************************************************************/
+  public static boolean checkOverrideNotifySound(CheckBoxPreference pref, Boolean value) {
+    return overrideNotifySoundChecker.check(pref, value);
+  }
+  
+  public static boolean checkOverrideNotifySound(CheckBoxPreference pref) {
+    return overrideNotifySoundChecker.check(pref);
+  }
+  
+  private static OverrideNotifySoundChecker overrideNotifySoundChecker = new OverrideNotifySoundChecker();
+  
+  private static class OverrideNotifySoundChecker extends CheckBoxPermissionChecker {
+    
+    public OverrideNotifySoundChecker() {
+      super(PERM_REQ_USER_ALERT_SOUND, R.string.pref_notif_override_sound_key);
+    }
+
+    @Override
+    protected Boolean checkPermission(Boolean value) {
+      
+      // None of this matters if notification override is not set
+      if (!notifyOverride()) return null;
+      
+      // false value requires READ_EXTERNAL_STORAGE permission
+      // because it may need to read audio alert files on external storage
+      if (value) return null;
+      if (checkRequestPermission(PermissionManager.READ_EXTERNAL_STORAGE, R.string.perm_user_sound_override)) return null;
+      return true;
+    }
+  }
+ 
   /********************************************************************************
    * Generic permission checker used to handle ListPreference preference values
    *********************************************************************************/
@@ -1518,6 +1553,11 @@ public class ManagePreferences {
     
     protected ListPermissionChecker(int permReq, int resPrefId) {
       super(permReq, resPrefId);
+    }
+    
+    @Override
+    protected String getPreference(ListPreference preference) {
+      return preference.getValue();
     }
 
     @Override
@@ -1534,6 +1574,11 @@ public class ManagePreferences {
     
     protected CheckBoxPermissionChecker(int permReq, int resPrefId) {
       super(permReq, resPrefId);
+    }
+
+    @Override
+    protected Boolean getPreference(CheckBoxPreference preference) {
+      return preference.isChecked();
     }
 
     @Override
@@ -1645,6 +1690,21 @@ public class ManagePreferences {
       return super.check(true);
     }
     
+    /**
+     * Called when user changes some other preference value which may affect
+     * the validity of this preference setting
+     * @param preference Preference object use to configure setting
+     * @return true everything is good to go, false if a permission needs to be granted
+     */
+    public boolean check(P preference) {
+      this.preference = preference;
+      this.value = getPreference(preference);
+      if (super.check(true)) return true;
+      savePrefValue(resPrefId, newValue);
+      setPreference(preference, newValue);
+      return false;
+    }
+    
     @Override
     public void checkPermission() {
       newValue = checkPermission(value);
@@ -1690,6 +1750,13 @@ public class ManagePreferences {
      * @param value new value to save in preference setting
      */
     protected abstract void savePrefValue(int resPrefId, V value);
+    
+    /**
+     * Abstract method to retrieve screen preference value
+     * @param preferece Screen preference
+     * @return current value of screen preference
+     */
+    protected abstract V getPreference(P preference);
     
     /**
      * Abstract method to set a Screen Preference value

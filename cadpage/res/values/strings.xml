@@ -51,6 +51,11 @@
    We need to know who you are before we can check your subscription status.
    </string>
    
+   <string name="perm_user_sound_override">
+   You are asking Cadpage to use a user selectable ringtone, which may be located on your
+   external SD card.
+   </string>
+   
 <!-- Menu Strings -->
 
    <string name="settings">Settings</string>   

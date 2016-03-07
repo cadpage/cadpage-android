@@ -45,6 +45,11 @@
    Vi behöver information om vem du är innan vi kan kolla ditt prenumerationsstatus.
    </string>
    
+   <string name="perm_user_sound_override">  <!-- Translate -->
+   You are asking Cadpage to use a user selectable ringtone, which may be located on your
+   external SD card.
+   </string>
+   
   <!-- Menu Strings -->
   <string name="settings">Inställningar</string>
   <!-- Network error strings -->
