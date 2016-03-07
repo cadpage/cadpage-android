@@ -15,6 +15,12 @@ Fraqre: Sebz:fzf@cntrjnl.arg
 (FZF) Havg:N122Vap:150301207 Cev:C1 Cebo:31Q-HapbafpvbhfSnvag(AbaGenhz)Nqq:9131 Frn Pbir Fg
 (FZF) Havg:N122Vap:150301007 Cev:C1 Cebo:1P-Noqbzvany Cnva Nqq:11203 Cvnmmnyr Fg
 
+(FZF) Havg:N112 Vap:160058220 Cev:C1 Znc:42161-15 Cebo:9Q-Pneqvnp/ErfcvengbNqq:1650 F PNFVAB QE Ncg:1125 Ybp:UB EVIREFVQR Anzr:
+(FZF) Havg:N112Erp:10:13:32Rae:10:16:07Nee:10:19:03Gk:10:28:02Nee:11:24:57
+(FZF) Havg:N112 Vap:160058012 Cev:C1 Znc:42161-15 Cebo:2P-Nyyretl/Uvir/FgvaNqq:1650 F PNFVAB QE Ncg: Ybp:UB EVIREFVQR Anzr:
+(FZF) Havg:N112Erp:04:01:29Rae:04:04:24Nee:04:07:08Gk:04:20:28Nee:04:52:45
+(FZF) Havg:N112 Vap:160058332 Cev:C1 Znc:42357-65 Cebo:6P-Oernguvat CeboyrzNqq:2036 QHXR BS LBEX QENcg: Ybp: Anzr:
+
 Pbagnpg: craal chxnyy <craabcr21@lnubb.pbz>
 Fraqre: 44627545
 Havg:N148Vap:150302410 Cev:C1 Cebo:26O-Fvpx Crefba(Fcrpvsvp Qvnt)Nqq:9777 F YNF IRTNF OYIQ
@@ -72,6 +78,56 @@ choyvp pynff AIPynexPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Noqbzvany Cnva",
         "NQQE:11203 Cvnmmnyr Fg");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgNaqlFgbar() {
+
+    qbGrfg("G1",
+        "(FZF) Havg:N112 Vap:160058220 Cev:C1 Znc:42161-15 Cebo:9Q-Pneqvnp/ErfcvengbNqq:1650 F PNFVAB QE Ncg:1125 Ybp:UB EVIREFVQR Anzr:",
+        "HAVG:N112",
+        "VQ:160058220",
+        "CEV:C1",
+        "ZNC:42161-15",
+        "PBQR:9Q",
+        "PNYY:Pneqvnp/Erfcvengb",
+        "NQQE:1650 F PNFVAB QE",
+        "NCG:1125",
+        "CYNPR:UB EVIREFVQR");
+
+    qbGrfg("G2",
+        "(FZF) Havg:N112Erp:10:13:32Rae:10:16:07Nee:10:19:03Gk:10:28:02Nee:11:24:57",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:N112",
+        "VASB:Erp:10:13:32\aRae:10:16:07\aNee:10:19:03Gk:10:28:02\aNee:11:24:57");
+
+    qbGrfg("G3",
+        "(FZF) Havg:N112 Vap:160058012 Cev:C1 Znc:42161-15 Cebo:2P-Nyyretl/Uvir/FgvaNqq:1650 F PNFVAB QE Ncg: Ybp:UB EVIREFVQR Anzr:",
+        "HAVG:N112",
+        "VQ:160058012",
+        "CEV:C1",
+        "ZNC:42161-15",
+        "PBQR:2P",
+        "PNYY:Nyyretl/Uvir/Fgva",
+        "NQQE:1650 F PNFVAB QE",
+        "CYNPR:UB EVIREFVQR");
+
+    qbGrfg("G4",
+        "(FZF) Havg:N112Erp:04:01:29Rae:04:04:24Nee:04:07:08Gk:04:20:28Nee:04:52:45",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:N112",
+        "VASB:Erp:04:01:29\aRae:04:04:24\aNee:04:07:08Gk:04:20:28\aNee:04:52:45");
+
+    qbGrfg("G5",
+        "(FZF) Havg:N112 Vap:160058332 Cev:C1 Znc:42357-65 Cebo:6P-Oernguvat CeboyrzNqq:2036 QHXR BS LBEX QENcg: Ybp: Anzr:",
+        "HAVG:N112",
+        "VQ:160058332",
+        "CEV:C1",
+        "ZNC:42357-65",
+        "PBQR:6P",
+        "PNYY:Oernguvat Ceboyrz",
+        "NQQE:2036 QHXR BS LBEX QE");
+  
   }
   
   @Grfg

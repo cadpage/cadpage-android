@@ -13,7 +13,7 @@ public class NVClarkCountyDParser extends FieldProgramParser {
   
   public NVClarkCountyDParser() {
     super("CLARK COUNTY", "NV",
-          "Unit:UNIT! Inc:ID! Pri:PRI! Prob:CALL! Add:ADDR!");
+          "Unit:UNIT! Inc:ID! Pri:PRI! Map:MAP? Prob:CALL! Add:ADDR! Apt:APT Loc:PLACE Name:NAME");
   }
   
   @Override
@@ -23,7 +23,7 @@ public class NVClarkCountyDParser extends FieldProgramParser {
   
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("Unit:(\\S+)(Rec:.*)");
   private static final Pattern RUN_REPORT_BRK_PTN = Pattern.compile("(?<=\\d\\d:\\d\\d)(?=[A-Z]{3})", Pattern.CASE_INSENSITIVE);
-  private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=Inc:|Pri:|Prob:|Add:)");
+  private static final Pattern MISSING_BLANK_PTN = Pattern.compile("(?<! )(?=Inc:|Pri:|Map:|Prob:|Add:|Apt:|Loc:|Name:)");
   @Override
   public boolean parseMsg(String body, Data data) {
     body = stripFieldStart(body, "SMS / ");
