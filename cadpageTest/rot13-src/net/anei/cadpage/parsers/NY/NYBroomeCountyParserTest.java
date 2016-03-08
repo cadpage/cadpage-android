@@ -64,6 +64,10 @@ Fhowrpg:79 Havba Nzo \a79 \aOHEAFf-Q \a268 TENAQ NI NCG 3 \a62 LBZ ABA ERPRAG SN
 Fhowrpg:79 Havba Nzo \a79 \aFVPXCREF-P \a600 UVTU NI HUF FXVYYRQ AHEFVAT \a86 LBZ CBFF VASRPGVBA GB XARR NZCHGN <26P02> \aFXVYYRQ AHE 
 Fhowrpg:79 Havba Nzo\a79\aQVNORGVP-P \a1001 FBHGUREA CVARF QE  \a61 LBZ QVNORGVP                      <13P01> \a61-lrne-byq, Znyr, P
 
+Pbagnpg: Arny Unvtug <aunvtug@fgal.ee.pbz>
+Fraqre: Qvfcngpu@pb.oebbzr.al.hf
+Fhowrpg:!\a79: :RZF-Puneyvr/NYF:JRFG RAQVPBGG SVER 341*113 A CNTR NIR, Havba*::34 lbz purfg cnva:Pebff Fgf-WRAAVATF FG / ZNCYR FG: tyrn\a
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Puranatb SP
 Ybpngvba: Ovatunzgba, AL, Havgrq Fgngrf
@@ -1168,6 +1172,23 @@ choyvp pynff ALOebbzrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:QVNORGVP-P",
         "NQQE:1001 FBHGUREA CVARF QE",
         "VASB:61 LBZ QVNORGVP <13P01> / 61-lrne-byq, Znyr, P");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgArnyUnvtug2() {
+
+    qbGrfg("G1",
+        "Fhowrpg:!\a" +
+        "79: :RZF-Puneyvr/NYF:JRFG RAQVPBGG SVER 341*113 A CNTR NIR, Havba*::34 lbz purfg cnva:Pebff Fgf-WRAAVATF FG / ZNCYR FG: tyrn\a",
+
+        "FEP:79",
+        "PNYY:RZF-Puneyvr/NYF",
+        "CYNPR:JRFG RAQVPBGG SVER 341",
+        "NQQE:113 A CNTR NIR",
+        "PVGL:Havba",
+        "VASB:34 lbz purfg cnva / tyrn",
+        "K:WRAAVATF FG / ZNCYR FG");
 
   }
 

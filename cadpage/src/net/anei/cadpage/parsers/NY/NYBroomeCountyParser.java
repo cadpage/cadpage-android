@@ -24,18 +24,19 @@ public class NYBroomeCountyParser extends FieldProgramParser {
   
   public NYBroomeCountyParser() {
     super("BROOME COUNTY", "NY",
-          "SRC CALL ADDR/S6XP! INFO+ Cross_Sts:X Caller:NAME Phone:PHONE");
+          "SRC ( SELECT/2 EMPTY CALL ADDRCITY2 APT INFO X2 INFO+ " +
+              "| CALL ADDR1/S6XP! INFO+ Cross_Sts:X1 Caller:NAME2 Phone:PHONE )");
   }
 
   @Override
   public String getFilter() {
-    return "messaging@iamresponding.com,mplus@co.broome.ny.us,9300";
+    return "messaging@iamresponding.com,mplus@co.broome.ny.us,9300,Dispatch@co.broome.ny.us";
   }
   
   private static final Pattern APT_PREFIX_PTN = Pattern.compile("(?:APT|RM|ROOM) *(\\S*)", Pattern.CASE_INSENSITIVE);
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
 
     // Fix up some clever IAR edits :(
     if (NEW_FMT_MARKER.matcher(body).lookingAt()) {
@@ -57,21 +58,31 @@ public class NYBroomeCountyParser extends FieldProgramParser {
     // Fix up leading field separator
     if (body.startsWith(")")) body = body.substring(1).trim();
     body = LEADER.matcher(body).replaceFirst("$1 :");
+    
+    // New format is a lot easier to parse
+    String[] flds;
+    if (subject.equals("!")) {
+      setSelectValue("2");
+      flds = body.split(":");
+    }
 
     // Using a colon as both a field separator and a keyword indicator makes life complicated :(
-    List<String>fldList = new ArrayList<String>();
-    match = KEYWORD_PAT.matcher(body);
-    int st = 0;
-    while (match.find()) {
-      int end = match.start();
+    else {
+      setSelectValue("1");
+      List<String>fldList = new ArrayList<String>();
+      match = KEYWORD_PAT.matcher(body);
+      int st = 0;
+      while (match.find()) {
+        int end = match.start();
+        if (end > st) fldList.add(body.substring(st, end).trim());
+        st = end+1;
+        end = match.end();
+        if (end == st + 1) st = end;
+      }
+      int end = body.length();
       if (end > st) fldList.add(body.substring(st, end).trim());
-      st = end+1;
-      end = match.end();
-      if (end == st + 1) st = end;
+      flds = fldList.toArray(new String[fldList.size()]);
     }
-    int end = body.length();
-    if (end > st) fldList.add(body.substring(st, end).trim());
-    String[] flds = fldList.toArray(new String[fldList.size()]);
 
     if (!parseFields(flds, data)) return false;
     match = APT_PREFIX_PTN.matcher(data.strApt);
@@ -96,13 +107,32 @@ public class NYBroomeCountyParser extends FieldProgramParser {
   protected Field getField(String name) {
     if (name.equals("SRC")) return new SourceField(SRC_PTN_STR, true);
     if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("NAME")) return new MyNameField();
+    if (name.equals("ADDRCITY2")) return new MyAddressCity2Field();
+    if (name.equals("X2")) return new CrossField("Cross Sts-(.*)", true);
+    if (name.equals("ADDR1")) return new MyAddress1Field();
+    if (name.equals("X1")) return new MyCross1Field();
+    if (name.equals("NAME2")) return new MyName2Field();
     return super.getField(name);
   }
   
-  private class MyAddressField extends AddressField {
+  private static final Pattern ADDR_CITY2_PTN = Pattern.compile("([^*]*?)\\*([^,]+)(?:,(.*))?\\*");
+  private class MyAddressCity2Field extends AddressCityField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = ADDR_CITY2_PTN.matcher(field);
+      if (!match.matches()) abort();
+      data.strPlace = match.group(1).trim();
+      parseAddress(match.group(2).trim(), data);
+      data.strCity = getOptGroup(match.group(3));
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE ADDR APT CITY";
+    }
+  }
+  
+  private class MyAddress1Field extends AddressField {
     @Override
     public void parse(String field, Data data) {
       // An asterisk can be used to separate the address and place field
@@ -126,7 +156,7 @@ public class NYBroomeCountyParser extends FieldProgramParser {
   }
 
   // Cross street field needs to parse time, date, and ID data from field
-  private class MyCrossField extends CrossField {
+  private class MyCross1Field extends CrossField {
 
     @Override
     public void parse(String field, Data data) {
@@ -147,7 +177,7 @@ public class NYBroomeCountyParser extends FieldProgramParser {
   }
 
   // Name field needs to remove trailing commas
-  private class MyNameField extends NameField {
+  private class MyName2Field extends NameField {
 
     @Override
     public void parse(String field, Data data) {
