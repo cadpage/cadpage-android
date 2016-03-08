@@ -18,6 +18,11 @@ public class CASanDiegoCountyDParser extends MsgParser {
     return "mvucad@fire.ca.gov";
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
   private static final Pattern MASTER = Pattern.compile("Inc# (\\d{6}): ([^,;]+)(?:,([A-Z_]+))? ; (Cmd: .*?; Tac: .*?): :Map +(\\S*?): (.*)");
   
   @Override

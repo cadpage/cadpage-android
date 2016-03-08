@@ -14,6 +14,8 @@ Fhowrpg:PNQ Cntr\aVap# 004944: 405 YN PERFGN URVTUGF EQ ,PERFG ; Pzq: 10O; Gnp: 
 Fhowrpg:PNQ Cntr\aVap# 004423: 160 GNFUN IVRJ JL ,PERFG ; Pzq: 10O; Gnp: 10R: E/N N1U: :Znc  1252_W_1/2739P: ZRQVPNY: SNYY: R7218 Z7296 NVE G
 Fhowrpg:PNQ Cntr\aVap# 004231: V 8 UJL R / 1190 GNIREA EQ ,NYCVAR ; Pzq: KFQ PZQ 1; Gnp: PQS GNP 5: E/N Z6: :Znc  1233_W_5/2843P: SVER, JVYQY
 Fhowrpg:PNQ Cntr\aVap# 006280: 8365 CNENQVFR INYYRL EQ ,FNA_ZVTHRY ; Pzq: 10O; Gnp: 10R: E/N FZT16: :Znc  1290_W_5/1531N: ZRQVPNY: NG XSP/ OE
+Fhowrpg:PNQ Cntr\aVap# 005295: 229 UBYYL EQ ,PERFG ; Pzq: 10O; Gnp: 10R: E/N N1U: :Znc  1252_U_3/2639N: ZRQVPNY: CNFFRQ BHG: R7218 Z7296 NVE
+Fhowrpg:PNQ Cntr\aVap# 005241: 990 YN PERFGN OY ,PERFG ; Pzq: 10O; Gnp: 10R: E/N N1U: :Znc  1252_W_2/2639P: ZRQVPNY: FJNYYBJ NEG BVY: R7218 Z
 
  */
 
@@ -32,7 +34,6 @@ choyvp pynff PNFnaQvrtbPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:004944",
         "NQQE:405 YN PERFGN URVTUGF EQ",
-        "ZNQQE:405 YA PERFGN URVTUGF EQ",
         "PVGL:PERFG",
         "PU:Pzq: 10O; Gnp: 10R: E/N N1U",
         "ZNC:1252_U_2/2639N",
@@ -73,6 +74,30 @@ choyvp pynff PNFnaQvrtbPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:Pzq: 10O; Gnp: 10R: E/N FZT16",
         "ZNC:1290_W_5/1531N",
         "PNYY:ZRQVPNY - NG XSP/ OE");
+
+    qbGrfg("G5",
+        "Fhowrpg:PNQ Cntr\a" +
+        "Vap# 005295: 229 UBYYL EQ ,PERFG ; Pzq: 10O; Gnp: 10R: E/N N1U: :Znc  1252_U_3/2639N: ZRQVPNY: CNFFRQ BHG: R7218 Z7296 NVE",
+
+        "VQ:005295",
+        "NQQE:229 UBYYL EQ",
+        "PVGL:PERFG",
+        "PU:Pzq: 10O; Gnp: 10R: E/N N1U",
+        "ZNC:1252_U_3/2639N",
+        "PNYY:ZRQVPNY - CNFFRQ BHG",
+        "HAVG:R7218 Z7296 NVE");
+
+    qbGrfg("G6",
+        "Fhowrpg:PNQ Cntr\a" +
+        "Vap# 005241: 990 YN PERFGN OY ,PERFG ; Pzq: 10O; Gnp: 10R: E/N N1U: :Znc  1252_W_2/2639P: ZRQVPNY: FJNYYBJ NEG BVY: R7218 Z",
+
+        "VQ:005241",
+        "NQQE:990 YN PERFGN OY",
+        "PVGL:PERFG",
+        "PU:Pzq: 10O; Gnp: 10R: E/N N1U",
+        "ZNC:1252_W_2/2639P",
+        "PNYY:ZRQVPNY - FJNYYBJ NEG BVY",
+        "HAVG:R7218 Z");
 
   }
   

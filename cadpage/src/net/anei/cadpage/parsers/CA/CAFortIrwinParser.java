@@ -13,6 +13,11 @@ public class CAFortIrwinParser extends SmartAddressParser {
     setFieldList("CALL UNIT ADDR X APT INFO");
     setupMultiWordStreets("GRANITE PASS", "LANGFORD LAKE", "RED PASS", "SOUTH LOOP");
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 
   private static Pattern UNIT_TO_ADDR = Pattern.compile("(.+?) +(?:is |are )?respond(?:ing|ed)(?: to(?: (?:the|a))?) +(.*)");
   private static Pattern AND = Pattern.compile("(?: +AND +| *, *)", Pattern.CASE_INSENSITIVE);

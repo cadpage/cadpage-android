@@ -230,9 +230,7 @@ choyvp pynff PNPngurqenyPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G14",
         "(PPCQ Nyyvnapr Zrffntr) Rirag Abgvpr: RZF ng 29180 Niravqn Yn Ivfgn Pguqey Pgl /SQ: 413/Gnpurinu Qe & 30Gu Ni/ol YBEENVARE",
         "PNYY:RZF",
-        "NQQE:29180 Niravqn Yn",
-        "ZNQQE:29180 Niravqn Ya",
-        "NCG:Ivfgn",
+        "NQQE:29180 Niravqn Yn Ivfgn",
         "PVGL:Pngurqeny Pvgl",
         "HAVG:413",
         "K:Gnpurinu Qe & 30Gu Ni");
@@ -494,9 +492,7 @@ choyvp pynff PNPngurqenyPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G47",
         "(PPCQ Nyyvnapr Zrffntr) Rirag Abgvpr: RZF ng 29415 Niravqn Yn Cnm 1 Pguqey Pgl /SQ: 413/Gnpurinu Qe & 30Gu Ni/ol ZNEVORYN",
         "PNYY:RZF",
-        "NQQE:29415 Niravqn Yn",
-        "ZNQQE:29415 Niravqn Ya",
-        "NCG:Cnm 1",
+        "NQQE:29415 Niravqn Yn Cnm 1",
         "PVGL:Pngurqeny Pvgl",
         "HAVG:413",
         "K:Gnpurinu Qe & 30Gu Ni");

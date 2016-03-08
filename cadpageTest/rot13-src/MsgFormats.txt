@@ -4502,10 +4502,15 @@ Zbagrpvgb, PN (PNZbagrpvgbCnefre)
 (Ivfvpnq Zrffntr) VAPVQRAG QVFCNGPU Choyvp Nffvfg Trareny 465 Ubg Fcevatf Eq
 (Ivfvpnq Zrffntr) VAPVQRAG QVFCNGPU Nhgbzngpv Nvq FGO Rhpnylcghf Uvyy Qe / Rhpnylcghf Uvyy Eq 08:51:51
 ***************************************************************************
-Zbagrerl Pbhagl, PN (PNZbagrerlPbhaglCnefre)
+Zbagrerl Pbhagl, PN (PNZbagrerlPbhaglNCnefre)
 SEZ:qbabgercyl@pb.zbagrerl.pn.hf\aFHOW:PNQ Cntr\aZFT:52161UN - ZRB:ABG KSE - 13200 PVRYB NMHYHavgf:R5211, 52N
 SEZ:qbabgercyl@pb.zbagrerl.pn.hf\aFHOW:PNQ Cntr\aZFT:5261OG - ZRB:ZRQVPNY RZRETAPL - 7881 FNAQUBYQG EQHavg:PU5202
 SEZ:qbabgercyl@pb.zbagrerl.pn.hf\aFHOW:PNQ Cntr\aZFT:5254N - ZRB:ABG KSEQ - 315 ARCBAFRG EQHavgf:R5211, 52N
+***************************************************************************
+Zbagrerl Pbhagl, PN (PNZbagrerlPbhaglOCnefre)
+ZRQVPNY; 45090 PEBJA NI ,XVAT_PVGL ; YE61F; ; 45600 OYX ZREEVGG FG; 1303_N_5/4048X; K: -121 8.87304 L: 36 11.1313; Vap# 000785; Gnp: GNP3; Nve: NVEGNP4 G1; Teq: PQS N/T 3 G16; PB31; AB GRKG <n uers="uggc://zncf.tbbtyr.pbz/?d=36.185522,-121.147884">Znc</n>
+ZRQ, IRUVPYR NPPVQRAG; UJL 101 A / 62916 PNGGYRZNA EQ ,FNA_NEQB ; FIS1; ; ; 1385_U_1/4758C; K: -120 55.3284 L: 36 0.78282; Vap# 000853; Gnp: GNP3; Nve: NVEGNP4 G1; Teq: PQS N/T 3 G16; O4619 PB31 R4693 R8991; AB GRKG <n uers="uggc://zncf.tbbtyr.pbz/?d=36.013047,-120.922141">Znc</n>
+SVER, QROEVF; 58425 WBYBA EQ ,XVAT_PVGL ; R26; ; 59532 OYX NCNPUR PNALBA EQ; 1342/4547N; K: -121 10.8108 L: 36 4.36872; Vap# 000834; Gnp: GNP3; Nve: NVEGNP4 G1; Teq: PQS N/T 3 G16; PB31; FZBHYQREVAT QROEVF <n uers="uggc://zncf.tbbtyr.pbz/?d=36.072812,-121.180180">Znc</n>
 ***************************************************************************
 Zraqbpvab Pbhagl, PN (PNZraqbpvabPbhaglNCnefre)
 (PNQ Cntr) BGURE ZVFP. QVFCYNL; =Y(39.107949,-123.087224) ,HXI (PBJ ZBHAGNVA); Vap# K: -123 5.23344  L: 39 6.47694 O1113; grfgvat jvgu o1113
@@ -10638,12 +10643,6 @@ F: 2094 R YVGGYR ORNE EQ ERS YVSG NFFVFG\a74 LE SRZNYR JVGU N CEBFGURGVP YRT ARR
 ************  ERNQL GB EBYY ******************************
 **********************************************************
 **********************************************************
-Zbagrerl Pbhagl, PN (nyg)
-Pbagnpg: Wrfhf Nyinerm <grpngroerj@tznvy.pbz>
-Fraqre: 8319983288
-ZRQVPNY; 45090 PEBJA NI ,XVAT_PVGL ; YE61F; ; 45600 OYX ZREEVGG FG; 1303_N_5/4048X; K: -121 8.87304 L: 36 11.1313; Vap# 000785; Gnp: GNP3; Nve: NVEGNP4 G1; Teq: PQS N/T 3 G16; PB31; AB GRKG <n uers="uggc://zncf.tbbtyr.pbz/?d=36.185522,-121.147884">Znc</n>
-ZRQ, IRUVPYR NPPVQRAG; UJL 101 A / 62916 PNGGYRZNA EQ ,FNA_NEQB ; FIS1; ; ; 1385_U_1/4758C; K: -120 55.3284 L: 36 0.78282; Vap# 000853; Gnp: GNP3; Nve: NVEGNP4 G1; Teq: PQS N/T 3 G16; O4619 PB31 R4693 R8991; AB GRKG <n uers="uggc://zncf.tbbtyr.pbz/?d=36.013047,-120.922141">Znc</n>
-SVER, QROEVF; 58425 WBYBA EQ ,XVAT_PVGL ; R26; ; 59532 OYX NCNPUR PNALBA EQ; 1342/4547N; K: -121 10.8108 L: 36 4.36872; Vap# 000834; Gnp: GNP3; Nve: NVEGNP4 G1; Teq: PQS N/T 3 G16; PB31; FZBHYQREVAT QROEVF <n uers="uggc://zncf.tbbtyr.pbz/?d=36.072812,-121.180180">Znc</n>
 **********************************************************
 **********************************************************
 **********************************************************
