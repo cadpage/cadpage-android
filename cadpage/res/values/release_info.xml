@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03062016</string>
+  <string name="release_date">03082016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.06.06\n
+New Locations:\n
+Monterey County, CA (alt)\n
+San Diego County, CA (alt)\n
+\n
+Location Fixes:\n
+Gallatin County, KY\n
+Clark County, NV\n
+Broome County, NY\n
+\n
+General fixes:\n
+Force close processing audio alerts\n
+\n
 v1.9.06.05\n
 New Locations:\n
 Meriwether County, GA\n
@@ -62,19 +75,7 @@ Box Elder County, UT\n
 \n
 General Fixes:\n
 Fixed some bugs in the new run time permission logic.\n
-Force close while generating support emails.\n
-\n
-v1.9.06.01\n
-Implemented new Android 6.0 run time permission and auto backup features.\n
-\n
-Response buttons can be individually configured to make a phone call or send
-a text message.  And text responses can now be directed to any phone number.\n
-\n
-New Location:\n
-Teton County, ID\n
-\n
-Location Fixes:\n
-Greene County, MO
+Force close while generating support emails.
   </string>
 </resources>
   
