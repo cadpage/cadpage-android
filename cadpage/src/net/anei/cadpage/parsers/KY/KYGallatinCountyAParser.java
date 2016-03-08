@@ -18,10 +18,16 @@ public class KYGallatinCountyAParser extends DispatchA29Parser {
     setupCallList(CALL_LIST);
     setupMultiWordStreets(
         "CEDAR POINTE",
+        "CONCORD CHURCH",
         "DRY CREEK",
         "EAGLE TUNNEL",
-        "VERA CRUZ",
+        "EAST MAIN",
+        "EAST PEARL",
+        "MAIN CROSS",
+        "MILLERS RIDGE",
         "STEELES BOTTOM",
+        "VERA CRUZ",
+        "WEST MAIN",
         "WILLOW POINTE"
     );
   }
@@ -58,6 +64,7 @@ public class KYGallatinCountyAParser extends DispatchA29Parser {
     "VERONA",
     
     "CARROLL COUNTY",
+    "CARROLLTON",
     "GHENT",
     "SANDERS",
     
