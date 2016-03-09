@@ -46,6 +46,11 @@ public class CAElDoradoCountyParser extends MsgParser {
   public String getFilter() {
     return "AEUCAD@fire.ca.gov";
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -155,10 +160,5 @@ public class CAElDoradoCountyParser extends MsgParser {
       }
     }
     return body;
-  }
-  
-  @Override
-  public int getMapFlags() {
-    return MAP_FLG_PREFER_GPS | MAP_FLG_SUPPR_LA;
   }
 }

@@ -11,6 +11,11 @@ public class CASanDiegoCountyBParser extends FieldProgramParser {
   public CASanDiegoCountyBParser() {
     super("SAN DIEGO COUNTY", "CA", "CALL! ADDR! APT! CH! UNIT! MAP! X! SRC! ID!");
   }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
 
   private static Pattern MASTER = Pattern.compile("NAT:(.*?) */ADR:(.*?) */APT:(.*?) */TAC:\\.?(.*?) */UNITS:(.*?) */MAP:(.*?) */XST:(.*) */(.*?)/(\\d{4}-\\d{6})");
 

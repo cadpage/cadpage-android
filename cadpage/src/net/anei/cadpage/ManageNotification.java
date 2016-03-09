@@ -457,19 +457,24 @@ public class ManageNotification {
     
     if (!PermissionManager.isGranted(context, PermissionManager.READ_EXTERNAL_STORAGE)) return null;
     
-    Uri ringtonesUri = MediaStore.Audio.Media.getContentUriForPath(path);
-    Cursor ringtoneCursor = context.getContentResolver().query(ringtonesUri, 
-        new String[]{MediaStore.Audio.Media._ID}, 
-        MediaStore.Audio.Media.DATA + "='" + path + "'", null, null);
     try {
-      if (!ringtoneCursor.moveToFirst()) return null;
-      long id = ringtoneCursor.getLong(ringtoneCursor.getColumnIndex(MediaStore.Audio.Media._ID));
-      if (!ringtonesUri.toString().endsWith(String.valueOf(id))) {
-        ringtonesUri = ringtonesUri.buildUpon().appendPath(Long.toString(id)).build();
+      Uri ringtonesUri = MediaStore.Audio.Media.getContentUriForPath(path);
+      Cursor ringtoneCursor = context.getContentResolver().query(ringtonesUri, 
+          new String[]{MediaStore.Audio.Media._ID}, 
+          MediaStore.Audio.Media.DATA + "='" + path + "'", null, null);
+      try {
+        if (!ringtoneCursor.moveToFirst()) return null;
+        long id = ringtoneCursor.getLong(ringtoneCursor.getColumnIndex(MediaStore.Audio.Media._ID));
+        if (!ringtonesUri.toString().endsWith(String.valueOf(id))) {
+          ringtonesUri = ringtonesUri.buildUpon().appendPath(Long.toString(id)).build();
+        }
+        return ringtonesUri;
+      } finally {
+        ringtoneCursor.close();
       }
-      return ringtonesUri;
-    } finally {
-      ringtoneCursor.close();
+    } catch (IllegalArgumentException ex) {
+      Log.e(ex);
+      return null;
     }
   }
 
@@ -482,14 +487,19 @@ public class ManageNotification {
   public static String getRingtonePathFromContentUri(Context context, Uri contentUri) {
     
     if (!PermissionManager.isGranted(context, PermissionManager.READ_EXTERNAL_STORAGE)) return null;
-    
-    String[] proj = { MediaStore.Audio.Media.DATA };
-    Cursor ringtoneCursor = context.getContentResolver().query(contentUri, proj, null, null, null);
+
     try {
-      if (!ringtoneCursor.moveToFirst()) return null;
-      return ringtoneCursor.getString(ringtoneCursor.getColumnIndex(MediaStore.Audio.Media.DATA));
-    } finally {
-      ringtoneCursor.close();
+      String[] proj = { MediaStore.Audio.Media.DATA };
+      Cursor ringtoneCursor = context.getContentResolver().query(contentUri, proj, null, null, null);
+      try {
+        if (!ringtoneCursor.moveToFirst()) return null;
+        return ringtoneCursor.getString(ringtoneCursor.getColumnIndex(MediaStore.Audio.Media.DATA));
+      } finally {
+        ringtoneCursor.close();
+      }
+    } catch (IllegalArgumentException ex) {
+      Log.e(ex);
+      return null;
     }
   }
 

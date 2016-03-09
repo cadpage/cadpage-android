@@ -11,9 +11,11 @@ import net.anei.cadpage.parsers.ParserList.ParserEntry;
 import net.anei.cadpage.parsers.SplitMsgOptions;
 import net.anei.cadpage.preferences.DialogPreference;
 import net.anei.cadpage.preferences.EditTextPreference;
+import net.anei.cadpage.preferences.ExtendedCheckBoxPreference;
 import net.anei.cadpage.preferences.LocationCheckBoxPreference;
 import net.anei.cadpage.preferences.LocationListPreference;
 import net.anei.cadpage.preferences.LocationManager;
+import net.anei.cadpage.preferences.OnDataChangeListener;
 import net.anei.cadpage.preferences.OnDialogClosedListener;
 import net.anei.cadpage.vendors.VendorManager;
 import android.app.Activity;
@@ -295,8 +297,23 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     pref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
       @Override
       public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (!ManagePreferences.checkNoShowInCall((CheckBoxPreference)preference, (Boolean)newValue)) return false;
-        return true;
+        return ManagePreferences.checkNoShowInCall((CheckBoxPreference)preference, (Boolean)newValue);
+      }
+    });
+    
+    final CheckBoxPreference overrideSoundPref = (CheckBoxPreference)findPreference(getString(R.string.pref_notif_override_sound_key));
+    overrideSoundPref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
+      @Override
+      public boolean onPreferenceChange(Preference preference, Object newValue) {
+        return ManagePreferences.checkOverrideNotifySound((CheckBoxPreference) preference, (Boolean)newValue);
+      }
+    });
+    
+    ExtendedCheckBoxPreference notifyOverridePref = (ExtendedCheckBoxPreference)findPreference(getString(R.string.pref_notif_override_key));
+    notifyOverridePref.setOnDataChangeListener(new OnDataChangeListener(){
+      @Override
+      public void onDataChange(Preference preference) {
+        ManagePreferences.checkOverrideNotifySound(overrideSoundPref);
       }
     });
 
