@@ -630,7 +630,7 @@ choyvp pynff ZBBfntrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G38",
         "(BfntrPbhagl 911/RBP ) 3 ZVYRF R BS YVAA BA UVTUJNL 50   IRUVPYR / NGI NPPVQRAG - ABA-VAWHEL BNQ1 714 EQY",
         "NQQE:3 ZVYRF R BS YVAA BA UVTUJNL 50",
-        "ZNQQE:3 ZVYRF",
+        "ZNQQE:3 ZVYRF & YVAA BA UVTUJNL 50",
         "PNYY:IRUVPYR / NGI NPPVQRAG - ABA-VAWHEL",
         "HAVG:BNQ1 714 EQY");
 

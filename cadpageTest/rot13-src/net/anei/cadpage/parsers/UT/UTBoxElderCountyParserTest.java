@@ -13264,7 +13264,7 @@ choyvp pynff HGObkRyqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:01:04:01",
         "PNYY:Fgebxr",
         "NQQE:7 zv RNFG bs cnex inyyrl",
-        "ZNQQE:7 zv",
+        "ZNQQE:7 zv & cnex inyyrl",
         "CYNPR:eblny zbeevf ubzr",
         "PVGL:Cnex Inyyrl",
         "VASB:97 lbz cbff fgebxr",

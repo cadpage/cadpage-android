@@ -29,12 +29,18 @@ public class KYMeadeCountyParser extends FieldProgramParser {
   }
 
   @Override
+  public String getProgram() {
+    return super.getProgram() + " SRC";
+  }
+
+  @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("ST")) return new MyStateField();
     if (name.equals("GADDR")) return new MyGADDRField();
+    if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
   
@@ -114,10 +120,29 @@ public class KYMeadeCountyParser extends FieldProgramParser {
       data.strAddress = append(data.strAddress, ", ", field);
     }
   }
-
-  @Override
-  public String getProgram() {
-    return super.getProgram() + " SRC";
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf('/');
+      if (pt >= 0) {
+        String part1 = field.substring(0,pt).trim();
+        String part2 = field.substring(pt+1).trim();
+        if (!isValidAddress(part1) && checkAddress(part2) == STATUS_FULL_ADDRESS) {
+          data.strPlace = part1;
+          field = part2;
+        } else if (!isValidAddress(part2) && checkAddress(part1) == STATUS_FULL_ADDRESS) {
+          data.strPlace = part2;
+          field = part1;
+        }
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE ADDR APT";
+    }
   }
 
   private static String[] CITY_LIST = new String[] { 

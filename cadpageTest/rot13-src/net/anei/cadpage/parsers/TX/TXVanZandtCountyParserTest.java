@@ -137,7 +137,8 @@ choyvp pynff GKInaMnaqgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G6",
         "Ina Mnaqg Pb FB:858/279 bar iru nppvqrag iru if cbyr",
-        "NQQE:858 & 279 bar iru nppvqrag iru if cbyr");
+        "NQQE:858 & 279 bar iru nppvqrag iru if cbyr",
+        "ZNQQE:279 bar iru nppvqrag iru if cbyr");
 
     qbGrfg("G7",
         "Ina Mnaqg Pb FB:1545 im 4601 ryqreyl srznyr jvgu urnq vawhel naq frire oyrrqvat",

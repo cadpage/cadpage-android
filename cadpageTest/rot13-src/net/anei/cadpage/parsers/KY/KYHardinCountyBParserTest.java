@@ -373,6 +373,7 @@ choyvp pynff XLUneqvaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZBGBE IRUVPYR NPPVQRAG - VAWHEL, 313 / 333 3 ZVYR BA GUR YRSG, //, 1 PNE 10-46**500**",
         "PNYY:ZBGBE IRUVPYR NPPVQRAG - VAWHEL",
         "NQQE:313 & 333 3 ZVYR BA GUR YRSG",
+        "ZNQQE:333 3 ZVYR BA GUR YRSG",
         "VASB:1 PNE 10-46",
         "HAVG:500");
 

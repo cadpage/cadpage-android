@@ -6399,7 +6399,7 @@ choyvp pynff APSbeflguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:SPRZF",
         "ANZR:JFCQ",
         "NQQE:RO 40 & FO 52 RO 40 EN",
-        "ZNQQE:40 & 52 40");
+        "ZNQQE:52 40");
 
     qbGrfg("G64",
         "Ybpngvba: BYQ ORYRJF PERRX EQ JN Angher: Zbgbe Iruvpyr Nppvqrag C:1  - RAGENCZRAG QVFGEVPG: SPRZF K Fge: JNYXREGBJA-THGUEVR EQ/ERVQFIVYYR EQ PNYYRE ANZR: GBAL",

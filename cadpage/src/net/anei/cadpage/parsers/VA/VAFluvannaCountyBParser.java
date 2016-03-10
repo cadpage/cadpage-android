@@ -21,7 +21,7 @@ public class VAFluvannaCountyBParser extends DispatchPrintrakParser {
     return "cad2@acuecc.org";
   }
   
-  private static final Pattern INFO_ADDR_BRK_PTN = Pattern.compile("(.+?)[-,] *(.*)");
+  private static final Pattern INFO_ADDR_BRK_PTN = Pattern.compile("(.+?)[-,] +(.*)");
   private static final Pattern STRIP_JUNK_PTN = Pattern.compile("^[-,] *");
   
   @Override

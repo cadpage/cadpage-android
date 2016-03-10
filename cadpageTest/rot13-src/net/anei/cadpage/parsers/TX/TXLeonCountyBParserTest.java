@@ -289,13 +289,15 @@ choyvp pynff GKYrbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpu Nyreg) Pnyy Glcr: NPPVQRAG Pvgl: OHSSNYB Nqqerff: UJL 75 F 3-4 ZVYRF F OHSSNYB/ 1 IRU ABG FHER BS VA",
         "PNYY:NPPVQRAG",
         "PVGL:OHSSNYB",
-        "NQQE:UJL 75 F 3-4 ZVYRF F OHSSNYB & 1 IRU ABG FHER BS VA");
+        "NQQE:UJL 75 F 3-4 ZVYRF F OHSSNYB & 1 IRU ABG FHER BS VA",
+        "ZNQQE:1 IRU ABG FHER BS VA");
 
     qbGrfg("G28",
         "(Qvfcngpu Nyreg) Pnyy Glcr: NPPVQRAG Pvgl: OHSSNYB Nqqerff: UJL 75 F 3-4 ZVYRF F OHSSNYB/ 1 IRU ABG FHER BS VA",
         "PNYY:NPPVQRAG",
         "PVGL:OHSSNYB",
-        "NQQE:UJL 75 F 3-4 ZVYRF F OHSSNYB & 1 IRU ABG FHER BS VA");
+        "NQQE:UJL 75 F 3-4 ZVYRF F OHSSNYB & 1 IRU ABG FHER BS VA",
+        "ZNQQE:1 IRU ABG FHER BS VA");
 
     qbGrfg("G29",
         "(Qvfcngpu Nyreg) Pnyy Glcr: YVSG NFFVFG Pvgl: ZVQJNL Nqqerff: 10223 PE 102",

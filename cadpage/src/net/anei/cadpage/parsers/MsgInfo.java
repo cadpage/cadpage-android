@@ -41,7 +41,7 @@ public class MsgInfo {
   // Suppress conversion of various forms of CR XX to COUNTY ROAD XX
   public static final int MAP_FLG_SUPPR_CR = 0x100;
   
-  // convert CR -> CREEK instead of CIR
+  // convert CR -> CREEK instead of CIRSTATIONS 4 &
   public static final int MAP_FLG_CR_CREEK = 0x200;
   
   // Suppress TE -> TER translation
@@ -780,7 +780,7 @@ public class MsgInfo {
   // When we are done with that, check for addresses ending with 666 HWY and reverse the terms
   private static final Pattern[] DBL_ROUTE_PTNS = new Pattern[]{ 
     Pattern.compile("\\b([A-Z]{2}|STE|STATE|COUNTY|TWP) *(ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGH|HIGHWAY) +(\\d+[ABMNSEW]?|[A-Z]{1,2})\\b", Pattern.CASE_INSENSITIVE),
-    Pattern.compile("\\b([A-Z]{2}|STATE|COUNTY|ROUTE|FARM-TO-MARKET|TWP) +(\\d+[A-Z]?|[A-Z]{1,2})\\b *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGH)\\b", Pattern.CASE_INSENSITIVE)
+    Pattern.compile("\\b([A-Z]{2}|STATE|COUNTY|ROUTE|RTE|FARM-TO-MARKET|TWP) +(\\d+[A-Z]?|[A-Z]{1,2})\\b *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY|HIGH)\\b", Pattern.CASE_INSENSITIVE)
   };
   private static final Pattern I_FWY_PTN = Pattern.compile("\\b(I[- ]\\d+) +[FH]WY\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern AND_PTN = Pattern.compile(" and ", Pattern.CASE_INSENSITIVE);
@@ -812,9 +812,10 @@ public class MsgInfo {
           if (prefix.length() != 2 ||
               (prefix.equals(state) ||
                prefix.equals("CO") ||
-               prefix.equals("US") ||
+               prefix.equals("FM") ||
+               prefix.equals("RT") ||
                prefix.equals("ST") ||
-               prefix.equals("FM"))) {
+               prefix.equals("US"))) {
             if (!prefix.equals("COUNTY") || !middle.equals("ROAD") && !middle.equals("RD")) {
               if (prefix.equals("ST") || prefix.equals("STE") || prefix.equals(state)) prefix = repState;
               match.appendReplacement(sb, prefix + " " + hwy);
@@ -842,17 +843,24 @@ public class MsgInfo {
   // Google map isn't found of house numbers mixed with intersections
   // If we find an intersection marker, remove any house numbers
   private static final Pattern HOUSE_RANGE = Pattern.compile("^(\\d+) *- *[A-Z0-9/\\.]+\\b");
-  private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ +(?![NSEW]{0,2} *[&/]|(?:AV|AVE|AVENUE|RD|ST|MILE|ND|RD|TH)\\b)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern HOUSE_NUMBER = Pattern.compile("(?!911 CENTER)\\d+ +(?![NSEW]{0,2} *(?:[&/]|\\bM[MP]|$)|(?:1/2|ABOUT|ALT|ALTERNATE|AT|AVE?|AVENUE|BETWEEN|BYPASS|BUS|DR|EXIT|FROM|FY|JUNCTION|MILES?|LANES?|LN|MI|ND|ON|ONTO|OVERPASS|RAMP|RD|SERV|SPUR|TH)\\b|(?:HWY|ST)\\b(?! *\\d+))", Pattern.CASE_INSENSITIVE);
   private String cleanHouseNumbers(String sAddress) {
     
     // Start by eliminating any house ranges
     sAddress = HOUSE_RANGE.matcher(sAddress).replaceAll("$1");
 
     // If this has an house number and an intersecting street.  Drop the intersecting street
+    // Ditto if the house number is in the second part
     int ipt = sAddress.indexOf('&');
     if (ipt >= 0) {
-      Matcher match = HOUSE_NUMBER.matcher(sAddress);
-      if (match.find()) sAddress = sAddress.substring(0,ipt).trim();
+      if (HOUSE_NUMBER.matcher(sAddress).lookingAt()) {
+        sAddress = sAddress.substring(0,ipt).trim();
+      } else {
+        String tmp = sAddress.substring(ipt+1).trim();
+        if (HOUSE_NUMBER.matcher(tmp).lookingAt()) {
+          sAddress = tmp;
+        }
+      }
     }
     
     // Check for a trailing apt number

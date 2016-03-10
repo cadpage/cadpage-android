@@ -1630,7 +1630,7 @@ choyvp pynff AUUnabireCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:05:25:00",
         "ZNC:QVFG4",
         "NQQE:EBHGR 101 NAQ 17 CBARZNU EQ",
-        "ZNQQE:EBHGR 101 & 17 CBARZNU EQ",
+        "ZNQQE:17 CBARZNU EQ",
         "PVGL:NZUREFG",
         "FG:AU");
 

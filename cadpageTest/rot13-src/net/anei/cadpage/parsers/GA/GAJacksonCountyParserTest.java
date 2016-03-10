@@ -684,7 +684,7 @@ choyvp pynff TNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1050V",
         "PNYY:NPPVQRAG - VAWHEVRF",
         "NQQE:RQANIVYYR WHFG BSS 53 ZVXR TYBIRE",
-        "ZNQQE:RQANIVYYR WHFG & 53 ZVXR TYBIRE",
+        "ZNQQE:53 ZVXR TYBIRE",
         "CUBAR:6787581285",
         "VQ:2015-0000102144");
 
@@ -1078,7 +1078,7 @@ choyvp pynff TNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1050V",
         "PNYY:NPPVQRAG - VAWHEVRF",
         "NQQE:85 AO & 131 PUEVF",
-        "ZNQQE:85 & 131 PUEVF",
+        "ZNQQE:131 PUEVF",
         "CUBAR:3348067921",
         "VQ:2015-0000094921");
 
@@ -1329,6 +1329,7 @@ choyvp pynff TNWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1050V",
         "PNYY:NPPVQRAG - VAWHEVRF",
         "NQQE:85 A & 129 TVAN PNEGRE",
+        "ZNQQE:129 TVAN PNEGRE",
         "CUBAR:7708285315",
         "VQ:2015-0000092121");
 

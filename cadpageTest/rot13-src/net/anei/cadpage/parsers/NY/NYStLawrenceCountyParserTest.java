@@ -1246,7 +1246,7 @@ choyvp pynff ALFgYnjeraprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2013:16",
         "PNYY:Ynj Rasbeprzrag",
         "NQQE:ARNE 94 QNAR EBNQ",
-        "ZNQQE:& 94 QNAR EBNQ",
+        "ZNQQE:94 QNAR EBNQ",
         "PVGL:TBHIREARHE");
 
     qbGrfg("G17",

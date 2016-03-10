@@ -436,7 +436,7 @@ choyvp pynff CNNyyrturalPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G21",
         "{NYTLCN12601FG - 911 Pnyy}  Nqqerff: 62 BSS 62 V376 JO EZC, Pbyyvre, CN kFgf: RAQ naq PNZCORYYF EHA EQ Pbqr: 29O4H S2 Pbqr Qrgnvy: GENSSVP - HAXABJA FGNGHF (HAX # VAW) Sver Mbar: 126001 Qrfpevcgvba: EAEQ150000270 GBP: 12/16/2015 12:45:32 Vap Ahz: S150098312 Erfcbaqvat: Havg:126RA1 Qvfc Tec: JSQ3 Pnyy Gnxre: 402",
         "NQQE:62 BSS 62 V376 JO EZC",
-        "ZNQQE:62 & 62 V 376 EZC",
+        "ZNQQE:62 V 376 EZC",
         "PVGL:Pbyyvre",
         "FG:CN",
         "K:RAQ naq PNZCORYYF EHA EQ",

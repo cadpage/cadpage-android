@@ -58,6 +58,11 @@ public class CASantaClaraCountyAParser extends FieldProgramParser {
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
+      int pt = field.indexOf('/');
+      if (pt >= 0) {
+        data.strPlace = field.substring(0,pt).trim();
+        field = field.substring(pt+1).trim();
+      }
       field = field.replace('@', '&');
       field = ADDR_PAREN_PTN.matcher(field).replaceAll(" ").trim().replaceAll("  +", " ");
       super.parse(field, data);

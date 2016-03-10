@@ -4346,7 +4346,7 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:ZRQ",
         "PNYY:ZRQVPNY PNYY",
         "NQQE:59AO & 147 CRE WRSS PB",
-        "ZNQQE:59 & 147 CRE WRSS PB",
+        "ZNQQE:147 CRE WRSS PB",
         "CUBAR:0009110000",
         "VQ:2015-0000056781");
 
@@ -8350,6 +8350,7 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:CF",
         "PNYY:CHOYVP FREIVPR",
         "NQQE:JUVGARL & 7 WBANGUBA",
+        "ZNQQE:7 WBANGUBA",
         "VQ:2015-0000077562");
 
     qbGrfg("G36",
@@ -11148,6 +11149,7 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SLV",
         "PNYY:CNFF NYBAT VASBEZNGVBA",
         "NQQE:ARJ YBAQBA & 1900 2201",
+        "ZNQQE:1900 2201",
         "CUBAR:2058637130",
         "VQ:2015-0000072328");
 

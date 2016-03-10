@@ -1633,7 +1633,7 @@ choyvp pynff ZQZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:5001",
         "PNYY:SEF - NYF (FCPSL VA EZXF)",
         "NQQE:JVYFBA QE & 9000 EBPXIVYYR CVX",
-        "ZNQQE:JVYFBA QE & 9000 EBPXIVYYR CVXR",
+        "ZNQQE:9000 EBPXIVYYR CVXR",
         "PVGL:ZBAGTBZREL PBHAGL",
         "HAVG:N751 Z741 NG751 RPP15 CR706",
         "FEP:SF50");
@@ -4112,6 +4112,7 @@ choyvp pynff ZQZbagtbzrelPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OBK:0602",
         "PNYY:OBZO CYNAG FHFC CXT",
         "NQQE:FBZREFRG GRE & 5604 JVFPBAFVA NIR",
+        "ZNQQE:5604 JVFPBAFVA NIR",
         "PVGL:PURIL PUNFR",
         "HAVG:OH700 VAI RK RPP5");
 

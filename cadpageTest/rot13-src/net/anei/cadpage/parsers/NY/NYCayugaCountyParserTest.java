@@ -1603,6 +1603,7 @@ choyvp pynff ALPnlhtnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ZINCV",
         "NQQE:SVER YNAR & 31 EBPXRSRYYRE",
+        "ZNQQE:31 EBPXRSRYYRE",
         "PVGL:ZBENIVN",
         "VASB:Pnyy unq orra pbzcyrgrq va CebDN Cnenzbhag.\a--- Purzvpnyf be bgure unmneqf ner abg vaibyirq.\a--- Gurer vf ab bar cvaarq.\a--- Rirelbar nccrnef gb or pbzcyrgryl njnxr (nyreg).\a--- Ure vawhevrf ner qrfpevorq nf bgure guna gb n ABG QNATREBHF nern.\a--- Gurer vf ab oyrrqvat abj.\a39-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat.\aPP Grkg: Genssvp / Genafcbegngvba Vapvqragf\aQvfcngpu Pbqr: 29Q02\aQrg. Grkg: UVTU ZRPUNAVFZ (x guebhtu f)\aFhssvk: x\aFhssvk Grkg: Nyy-greenva/fabjzbovyr\aErfcbafr: Ubg OYF & NYF\a\aNAFJREF:\a--- Gur vapvqrag vaibyirf na nyy-greenva iruvpyr be fabjzbovyr.\aPBZCY BS EVO CNNVA ...\aCNGVRAG VF PBAFPVBHF ...\a39 L/B SRZNYR VAWHEVRF SEBZ N 4 JURRYRE NPPVQRAG\aFGNGRF QBJA SVER YNAR 31 (JURER VG SBEXF TB GB GUR EVTUG NAQ JVYY OR ZRG)",
         "QNGR:07/04/15",

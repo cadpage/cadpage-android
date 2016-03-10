@@ -1341,7 +1341,6 @@ choyvp pynff MPNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:29o04",
         "PNYY:ZIN - Haxabja fgnghf",
         "NQQE:549 ujl j & 112 fg j",
-        "ZNQQE:549 ujl j",
         "PVGL:sbbguvyyf zq");
 
     qbGrfg("G24",
@@ -1350,7 +1349,6 @@ choyvp pynff MPNNOPnazberCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:65o01",
         "PNYY:Zhghny nvq/Nffvfg bhgfvqr ntrapl - Zhghny nvq gb vapvqrag (fvatyr havg - ubg)",
         "NQQE:549 ujl j & 112 fg j",
-        "ZNQQE:549 ujl j",
         "PVGL:sbbguvyyf zq");
 
     qbGrfg("G25",

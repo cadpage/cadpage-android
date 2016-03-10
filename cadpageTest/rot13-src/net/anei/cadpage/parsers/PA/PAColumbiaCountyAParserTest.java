@@ -6538,7 +6538,7 @@ choyvp pynff CNPbyhzovnPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201551402",
         "PNYY:IRUVPYRSVER",
         "NQQE:232 EG 487 UJL",
-        "ZNQQE:232 EG UJL 487",
+        "ZNQQE:232 EG 487",
         "PVGL:SNVEZBAG GJC",
         "GVZR:23:17:33",
         "ANZR:YHM PBHAGL 911",
@@ -6550,7 +6550,7 @@ choyvp pynff CNPbyhzovnPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201551402",
         "PNYY:IRUVPYRSVER",
         "NQQE:232 EG 487 UJL",
-        "ZNQQE:232 EG UJL 487",
+        "ZNQQE:232 EG 487",
         "PVGL:SNVEZBAG GJC",
         "GVZR:23:17:33");
 

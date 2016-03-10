@@ -450,8 +450,9 @@ choyvp pynff BUPynexPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2778");
 
     qbGrfg("G40",
-        "[1826]-FDHNQ BA FGNAQ OL / 103 OERAG QE RNFG #Q / 28 LB SRZ GBBX GB ZNAL CVYYF -1826 ",
+        "[1826]-FDHNQ BA FGNAQ OL / 103 OERAG QE RNFG #Q / 28 LB SRZ GBBX GB ZNAL CVYYF -1826",
         "NQQE:FDHNQ BA FGNAQ OL & 103 OERAG QE RNFG #Q & 28",
+        "ZNQQE:103 OERAG QE RNFG #Q & 28",
         "PNYY:LB SRZ GBBX GB ZNAL CVYYF",
         "VQ:1826");
 

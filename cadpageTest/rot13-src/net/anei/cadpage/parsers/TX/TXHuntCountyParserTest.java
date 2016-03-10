@@ -1245,6 +1245,7 @@ choyvp pynff GKUhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:UBZRGBJA YNHAQEL ZNG",
         "K:GK 34",
         "NQQE:& 276 9012 F Gk 34",
+        "ZNQQE:276 9012 F Gk 34",
         "PVGL:Dhvayna",
         "GVZR:16:58:00");
 
@@ -2033,7 +2034,7 @@ choyvp pynff GKUhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:12Q02R",
         "K:ZHAFBA EQ",
         "NQQE:BSS 27 5310 Pe 2442",
-        "ZNQQE:& 27 5310 PBHAGL EBNQ 2442",
+        "ZNQQE:27 5310 PBHAGL EBNQ 2442",
         "PVGL:Eblfr Pvgl",
         "GVZR:15:49:00");
 
