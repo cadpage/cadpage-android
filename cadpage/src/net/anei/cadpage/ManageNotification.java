@@ -461,7 +461,8 @@ public class ManageNotification {
       Uri ringtonesUri = MediaStore.Audio.Media.getContentUriForPath(path);
       Cursor ringtoneCursor = context.getContentResolver().query(ringtonesUri, 
           new String[]{MediaStore.Audio.Media._ID}, 
-          MediaStore.Audio.Media.DATA + "='" + path + "'", null, null);
+          MediaStore.Audio.Media.DATA + "='?'", new String[]{path}, null);
+      if (ringtoneCursor == null) return null;
       try {
         if (!ringtoneCursor.moveToFirst()) return null;
         long id = ringtoneCursor.getLong(ringtoneCursor.getColumnIndex(MediaStore.Audio.Media._ID));
@@ -472,7 +473,7 @@ public class ManageNotification {
       } finally {
         ringtoneCursor.close();
       }
-    } catch (IllegalArgumentException ex) {
+    } catch (Exception ex) {
       Log.e(ex);
       return null;
     }
@@ -491,13 +492,14 @@ public class ManageNotification {
     try {
       String[] proj = { MediaStore.Audio.Media.DATA };
       Cursor ringtoneCursor = context.getContentResolver().query(contentUri, proj, null, null, null);
+      if (ringtoneCursor == null) return null;
       try {
         if (!ringtoneCursor.moveToFirst()) return null;
         return ringtoneCursor.getString(ringtoneCursor.getColumnIndex(MediaStore.Audio.Media.DATA));
       } finally {
         ringtoneCursor.close();
       }
-    } catch (IllegalArgumentException ex) {
+    } catch (Exception ex) {
       Log.e(ex);
       return null;
     }
