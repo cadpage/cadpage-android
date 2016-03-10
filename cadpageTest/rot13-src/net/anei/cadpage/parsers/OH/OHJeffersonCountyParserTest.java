@@ -8,6 +8,10 @@ vzcbeg bet.whavg.Grfg;
 
 Wrssrefba Pbhagl, BU
 
+Pbagnpg: NYVPR QBJQRYY <tenaal502@zfa.pbz>
+Fraqre: wpbzz@pbzpnfg.arg
+wpbzz:[917]--Angher: Oehfu Sver - Ybpngvba: 12320.00 Fgngr Egr 150 Jneera Gjc - Pbzzragf: +040.177152 -080.702841 PS=100% UVYYFVQR BA SVER\e\a
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Wrssrefba Pbhagl 911
 Ybpngvba: Jvagrefivyyr, BU, Havgrq Fgngrf
@@ -93,6 +97,19 @@ choyvp pynff BUWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     frgCnefre(arj BUWrssrefbaPbhaglCnefre(), "WRSSREFBA PBHAGL", "BU");
   }
 
+  @Grfg
+  choyvp ibvq grfgNyvprQbjqryy() {
+
+    qbGrfg("G1",
+        "wpbzz:[917]--Angher: Oehfu Sver - Ybpngvba: 12320.00 Fgngr Egr 150 Jneera Gjc - Pbzzragf: +040.177152 -080.702841 PS=100% UVYYFVQR BA SVER\e\a",
+        "PNYY:wpbzz:[917]--Angher: Oehfu Sver",
+        "NQQE:12320 Fgngr Egr 150",
+        "ZNQQE:12320 FGNGR 150",
+        "PVGL:Jneera Gjc",
+        "TCF:+40.177152,-80.702841",
+        "VASB:UVYYFVQR BA SVER");
+    
+  }
 
   @Grfg
   choyvp ibvq grfgWrssrefbaPbhagl911() {
