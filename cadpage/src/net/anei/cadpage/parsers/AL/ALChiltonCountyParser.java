@@ -6,6 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernPlusParser;
 
 /**
@@ -18,7 +19,7 @@ public class ALChiltonCountyParser extends DispatchSouthernPlusParser {
   private static final Pattern ADDR_EXIT_PTN = Pattern.compile("(\\d+ +EXIT) +(.*)");
 
   public ALChiltonCountyParser() {
-    super(CITY_LIST, "CHILTON COUNTY", "AL", DSFLAG_LEAD_PLACE | DSFLAG_NO_NAME_PHONE);
+    super(CITY_LIST, "CHILTON COUNTY", "AL", DSFLAG_LEAD_PLACE | DSFLAG_NO_NAME_PHONE | DSFLAG_LEAD_UNIT);
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
   }
   
@@ -37,7 +38,8 @@ public class ALChiltonCountyParser extends DispatchSouthernPlusParser {
     
     Matcher match = GENERAL_ALERT_PTN.matcher(body);
     if (match.matches()) {
-      data.strCall = "GENERAL ALERT";
+      setFieldList("ID UNIT INFO");
+      data.msgType = MsgType.GEN_ALERT;
       data.strCallId = match.group(1);
       data.strUnit = match.group(2);
       data.strSupp = append(match.group(3), " - ", match.group(4));
