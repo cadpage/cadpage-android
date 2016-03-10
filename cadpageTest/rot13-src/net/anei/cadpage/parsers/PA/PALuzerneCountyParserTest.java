@@ -6,6 +6,10 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Yhmrear Pbhagl, CN
+
+Pbagnpg: Ovyy Jnyyvpx <jnyylkngp@lnubb.pbz>
+Fraqre: Npgvir911
+QVFCNGPU:FBO, Fubegarff bs Oerngu, 281 R EVQTR FG, 58, ogja F JNYAHG FG naq F PURFGAHG FG, ABEG, 5802, znccntr,KKKK, 281 R EVQTR FG ANAGVPBXR PVGL 85 LB Z FBO NAQ IREL JRNX, Havg:Z25O - Sebz PNQ05 03/08/2016 12:50:42
  
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fjblrefivyyr Ibyhagrre Sver Qrcnegzrag # 2
@@ -3557,6 +3561,26 @@ choyvp pynff CNYhmrearPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   choyvp CNYhmrearPbhaglCnefreGrfg() {
     frgCnefre(arj CNYhmrearPbhaglCnefre(), "YHMREAR PBHAGL", "CN");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOvyyJnyyvpx() {
+
+    qbGrfg("G1",
+        "QVFCNGPU:FBO, Fubegarff bs Oerngu, 281 R EVQTR FG, 58, ogja F JNYAHG FG naq F PURFGAHG FG, ABEG, 5802, znccntr,KKKK, 281 R EVQTR FG ANAGVPBXR PVGL 85 LB Z FBO NAQ IREL JRNX, Havg:Z25O - Sebz PNQ05 03/08/2016 12:50:42",
+        "PBQR:FBO",
+        "PNYY:Fubegarff bs Oerngu",
+        "NQQE:281 R EVQTR FG",
+        "PVGL:ANAGVPBXR PVGL",
+        "K:F JNYAHG FG naq F PURFGAHG FG",
+        "PU:ABEG",
+        "ZNC:5802",
+        "VASB:281 R EVQTR FG ANAGVPBXR PVGL 85 LB Z FBO NAQ IREL JRNX",
+        "HAVG:Z25O",
+        "FEP:PNQ05",
+        "QNGR:03/08/2016",
+        "GVZR:12:50:42");
+    
   }
 
   @Grfg
