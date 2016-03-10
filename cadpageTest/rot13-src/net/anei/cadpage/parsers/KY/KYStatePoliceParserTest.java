@@ -12847,8 +12847,9 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "XFC CBFG 9:SVER >SVER 923 VAGREFRPGVBA XL 80&680 - J NCCNYNPUVNA JVERYRFF Pnq: 2015-0000011602",
         "PBQR:SVER",
         "PNYY:SVER",
-        "NQQE:923 VAGREFRPGVBA XL 80 & 680 - J",
+        "NQQE:923 VAGREFRPGVBA XL 80 & 680",
         "ZNQQE:923 VAGREFRPGVBA XL 80",
+        "ANZR:- J",
         "VQ:2015-0000011602");
 
     qbGrfg("G34",

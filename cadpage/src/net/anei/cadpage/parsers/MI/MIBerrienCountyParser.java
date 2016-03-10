@@ -16,6 +16,7 @@ public class MIBerrienCountyParser extends FieldProgramParser {
     super("BERRIEN COUNTY", "MI", 
           "Unit:UNIT? Status:DISPATCHED? Location:ADDR! Common_Name:PLACE? Call_Type:CALL! Call_Time:DATETIME! Call_Number:ID! Quadrant:MAP? District:SRC? Narrative:INFO?!" );
     setupMultiWordStreets(MULTI_WORD_STREET_LIST);
+    setupSaintNames("JOSEPH");
   }
   
   @Override

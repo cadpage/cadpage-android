@@ -2694,8 +2694,8 @@ choyvp pynff ZVOreevraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G48",
         "{Vapvqrag} Ybpngvba: 262 F  JRFG J FG WBFRCU / YRRQL 41 Pbybzn 42.1825994220017 -86.3080576910741 Pbzzba Anzr: PBYBZN-RYRZRAGNEL FPUBBYPnyy Glcr: Nynez-Sver be PB Pnyy Gvzr: 09/09/15 15:08 Pnyy Ahzore: 5599 Aneengvir:  BC-Oevnan  XU-Nggrzc  GK 269 468 2420  Pbybzn Ryrz",
-        "NQQE:262 F JRFG J FG",
-        "K:WBFRCU / YRRQL",
+        "NQQE:262 F JRFG",
+        "K:J FG WBFRCU / YRRQL",
         "CYNPR:PBYBZN-RYRZRAGNEL FPUBBY",
         "PVGL:Pbybzn",
         "TCF:+42.182599,-86.308058",
@@ -21483,8 +21483,8 @@ choyvp pynff ZVOreevraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{Vapvqrag} Ybpngvba: 2963 GRPHZFRU FG WBFRCU EVIRE EQ / CVCRFGBAR EQ 19 Fbqhf Gbjafuvc 42.0639763951127 -86.4055778056346 Pbzzba Anzr: Pnyy Glcr: C2 Pnyy Gvzr: 08/27/15 15:57 Pnyy Ahzore: 8512 Aneengvir:  nqivfrq zrqvp nobhg sver nynez npgvingvba  abj trggvat sver nynez  ab nafjre jura pnyyrq vafvqr erfvqrapr  Ceboyrz: zrqvpny nynez.  Cngvrag Vasb: 1 cngvrag(f); 80 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Zrqvpny Erpbasvther Zrffntr Frag; Erpbasvtherq Qvfcngpu Pbqr: 32-O-02  Lbh ner erfcbaqvat gb n cngvrag jvgu na haxabja ceboyrz (zna qbja).  Gur  cngvrag vf n 80-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. Zrqvpny  Nynez (Nyreg) abgvsvpngvbaf (ab cngvrag vasbezngvba).  Zrqvpny Nynez (Nyreg) abgvsvpngvbaf (ab cngvrag vasbezngvba).  -Pbzzragf: ab fher vs ubzr nybar-  Lbh ner erfcbaqvat gb n cngvrag jub vf fvpx (be unf n pheerag zrqvpny pbaqvgvba).  Gur cngvrag vf n 60-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat.  Haxabja fgnghf/Bgure pbqrf abg nccyvpnoyr.  Fvpx C\a" +
         " refba (Fcrpvsvp Qvntabfvf).  Pnyyre Fgngrzrag: zrqvpny nynez.  -Pbzzragf: cngvrag: Ebfnyrr Uvarf haxabja ntr-  -Pbzzragf: (269) 925-6520-  CebDN Zrqvpny Qvfcngpu Zrffntr Frag; Qvfcngpu Pbqr: 26-O-01  Ceboyrz: zrqvpny nynez.  Cngvrag Vasb: 1 cngvrag(f); 60 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  ers# 840274820",
 
-        "NQQE:2963 GRPHZFRU FG",
-        "K:WBFRCU EVIRE EQ / CVCRFGBAR EQ",
+        "NQQE:2963 GRPHZFRU",
+        "K:FG WBFRCU EVIRE EQ / CVCRFGBAR EQ",
         "PVGL:Fbqhf Gbjafuvc",
         "TCF:+42.063976,-86.405578",
         "QNGR:08/27/15",
@@ -21496,8 +21496,8 @@ choyvp pynff ZVOreevraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{Vapvqrag} Ybpngvba: 2963 GRPHZFRU FG WBFRCU EVIRE EQ / CVCRFGBAR EQ 19 Fbqhf Gbjafuvc 42.0639763951127 -86.4055778056346 Pbzzba Anzr: Pnyy Glcr: Nynez-Sver be PB Pnyy Gvzr: 08/27/15 15:57 Pnyy Ahzore: 8512 Aneengvir:  abj trggvat sver nynez  ab nafjre jura pnyyrq vafvqr erfvqrapr  Ceboyrz: zrqvpny nynez.  Cngvrag Vasb: 1 cngvrag(f); 80 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  CebDN Zrqvpny Erpbasvther Zrffntr Frag; Erpbasvtherq Qvfcngpu Pbqr: 32-O-02  Lbh ner erfcbaqvat gb n cngvrag jvgu na haxabja ceboyrz (zna qbja).  Gur  cngvrag vf n 80-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat. Zrqvpny  Nynez (Nyreg) abgvsvpngvbaf (ab cngvrag vasbezngvba).  Zrqvpny Nynez (Nyreg) abgvsvpngvbaf (ab cngvrag vasbezngvba).  -Pbzzragf: ab fher vs ubzr nybar-  Lbh ner erfcbaqvat gb n cngvrag jub vf fvpx (be unf n pheerag zrqvpny pbaqvgvba).  Gur cngvrag vf n 60-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat.  Haxabja fgnghf/Bgure pbqrf abg nccyvpnoyr.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  \a" +
         " Pnyyre Fgngrzrag: zrqvpny nynez.  -Pbzzragf: cngvrag: Ebfnyrr Uvarf haxabja ntr-  -Pbzzragf: (269) 925-6520-  CebDN Zrqvpny Qvfcngpu Zrffntr Frag; Qvfcngpu Pbqr: 26-O-01  Ceboyrz: zrqvpny nynez.  Cngvrag Vasb: 1 cngvrag(f); 60 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  ers# 840274820",
 
-        "NQQE:2963 GRPHZFRU FG",
-        "K:WBFRCU EVIRE EQ / CVCRFGBAR EQ",
+        "NQQE:2963 GRPHZFRU",
+        "K:FG WBFRCU EVIRE EQ / CVCRFGBAR EQ",
         "PVGL:Fbqhf Gbjafuvc",
         "TCF:+42.063976,-86.405578",
         "QNGR:08/27/15",
@@ -23282,8 +23282,7 @@ choyvp pynff ZVOreevraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G45",
         "{Vapvqrag} Ybpngvba: 575 FG WBFRCU XRCUNEG / REYJBBQ CNGU 39 Oreevra Fcevatf 41.9508606355303 -86.3454569536958 Pbzzba Anzr: ZPQBANYQF-OREEVRA FCEVATFPnyy Glcr: SVER-Fgehpgher Pnyy Gvzr: 09/20/15 16:11 Pnyy Ahzore: 1174 Aneengvir:  gur rkgvathvfure jnf hfrq  nybg bs fzbxr vafvqr  rinphngvat gur ohvyqvat  sver vf bhg  sver ba gur tevyy  R911 Vasb - Pynff bs Freivpr: IBVC Fcrpvny Erfcbafr Vasb: IBVC PNYYIREVSL YBPIREVSL PNYYONPX",
-        "NQQE:575 FG",
-        "K:WBFRCU XRCUNEG / REYJBBQ CNGU",
+        "NQQE:575 FG WBFRCU XRCUNEG & REYJBBQ CNGU",
         "CYNPR:ZPQBANYQF-OREEVRA FCEVATF",
         "PVGL:Oreevra Fcevatf",
         "TCF:+41.950861,-86.345457",

@@ -13,7 +13,8 @@ public class NYNassauCountyElmontParser extends FieldProgramParser {
 
   public NYNassauCountyElmontParser() {
     super(CITY_LIST, "NASSAU COUNTY", "NY", 
-           "Call:ID_CALL! ( SELNEW Sub:CALL! Address:ADDR1! Cross:X Info:INFO| Sub:ADDR/SC! Cross:XINFO )" );
+          "Call:ID_CALL! ( SELNEW Sub:CALL! Address:ADDR1! Cross:X Info:INFO | Sub:ADDR/SC! Cross:XINFO )" );
+    allowBadChars("()");
   }
   
   @Override
@@ -95,8 +96,8 @@ public class NYNassauCountyElmontParser extends FieldProgramParser {
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
-      if (field.endsWith("&")) field = field.substring(0,field.length()-1).trim();
-      if (field.startsWith("&")) field = field.substring(1).trim();
+      field = stripFieldStart(field, "&");
+      field = stripFieldEnd(field, "&");
       super.parse(field, data);
     }
   }
