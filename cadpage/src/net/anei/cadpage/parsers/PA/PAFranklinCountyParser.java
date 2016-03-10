@@ -17,7 +17,7 @@ public class PAFranklinCountyParser extends FieldProgramParser {
   
   protected PAFranklinCountyParser(String defCity, String defState) {
     super(defCity, defState,
-          "ADDR APT APT CITY EMPTY EMPTY EMPTY EMPTY CALL EMPTY EMPTY EMPTY UNIT! INFO+");
+          "ID? ADDR APT APT CITY EMPTY EMPTY CH EMPTY CALL EMPTY EMPTY EMPTY UNIT! BOX INFO+");
   }
 
   @Override
@@ -31,17 +31,9 @@ public class PAFranklinCountyParser extends FieldProgramParser {
   }
 
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    do {
-      if (body.startsWith("* ")) {
-        body = body.substring(2).trim();
-        break;
-      }
-      
-      if (subject.equals("*")) break;
-      
-      return false;
-    } while (false);
+  protected boolean parseMsg(String body, Data data) {
+    
+    body = stripFieldStart(body, "*");
     
     if (body.endsWith("*")) body = body + ' ';
     if (!parseFields(body.split("\\* "), data)) return false;
@@ -64,6 +56,7 @@ public class PAFranklinCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("\\d{11}", true);
     if (name.equals("APT")) return new MyAptField();
     if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
