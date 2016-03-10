@@ -290,7 +290,8 @@ choyvp pynff PNFnaOreaneqvabPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:LRE",
         "HAVG:LREPUS",
         "VASB:QFC: 11-12-01:07\aNVD: 11-12-01:12\aOQH Vap# 014150 Whe Vap# PNLRE000321",
-        "NQQE:V 15 F & 35500 TUBFG GBJA EQ");
+        "NQQE:V 15 F & 35500 TUBFG GBJA EQ",
+        "ZNQQE:35500 TUBFG GBJA EQ");
 
   }
   
@@ -2041,6 +2042,7 @@ choyvp pynff PNFnaOreaneqvabPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:ZR401N",
         "VASB:QFC: 2-28-21:03\aRAE: 2-28-21:03\aBAF: 2-28-21:04\aNVD: 2-28-21:25\aOQH Vap# 002969 Whe Vap# PNQNT000027",
         "NQQE:V 40 J & 33060 N FG",
+        "ZNQQE:33060 N FG",
         "PVGL:QNTTRGG");
 
     qbGrfg("G55",
@@ -2053,12 +2055,14 @@ choyvp pynff PNFnaOreaneqvabPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:ZR401",
         "VASB:QFC: 2-28-21:01\aNVD: 2-28-21:03\aOQH Vap# 002969 Whe Vap# PNQNT000027",
         "NQQE:V 40 J & 33060 N FG",
+        "ZNQQE:33060 N FG",
         "PVGL:QNTTRGG");
 
     qbGrfg("G56",
         "{PNQ Cntr} ZRQVPNY - V 40 J / 33060 N FG ,QNTTRGG - PEBFF:  - EN: QNT1 - ZNC: 3761_R_1 - ZR401N - 74 LB ZNYR//PURFG CNVA <n uers=\"uggc://zncf.tbbtyr.pbz/?d=34.855182,-116.890113\">Znc;</n>",
         "PNYY:ZRQVPNY",
         "NQQE:V 40 J & 33060 N FG",
+        "ZNQQE:33060 N FG",
         "PVGL:QNTTRGG",
         "ZNC:QNT1-3761_R_1",
         "HAVG:ZR401N",
@@ -2069,6 +2073,7 @@ choyvp pynff PNFnaOreaneqvabPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{PNQ Cntr} ZRQVPNY - V 40 J / 33060 N FG ,QNTTRGG - PEBFF:  - EN: QNT1 - ZNC: 3761_R_1 - ZR401 - 74 LB ZNYR//PURFG CNVA <n uers=\"uggc://zncf.tbbtyr.pbz/?d=34.855182,-116.890113\">Znc;</n>",
         "PNYY:ZRQVPNY",
         "NQQE:V 40 J & 33060 N FG",
+        "ZNQQE:33060 N FG",
         "PVGL:QNTTRGG",
         "ZNC:QNT1-3761_R_1",
         "HAVG:ZR401",
@@ -2518,12 +2523,14 @@ choyvp pynff PNFnaOreaneqvabPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:ZR401",
         "VASB:QFC: 2-24-22:56\aRAE: 2-24-23:02\aNVD: 2-24-23:13\aOQH Vap# 002792 Whe Vap# PNQNT000025",
         "NQQE:V 40 R & 33470 AROB FG",
+        "ZNQQE:33470 AROB FG",
         "PVGL:QNTTRGG");
 
     qbGrfg("G95",
         "{PNQ Cntr} ZRQVPNY - V 40 R / 33470 AROB FG ,QNTTRGG - PEBFF:  - EN: QNT1 - ZNC: 3680_W_7 - ZR401 - FVPX CREFBA// PNYY OBK 40.52// CBFF 5150// 911 UNAT HC <n uers=\"uggc://zncf.tbbtyr.pbz/?d=34.863547,-116.932247\">Znc;</n>",
         "PNYY:ZRQVPNY",
         "NQQE:V 40 R & 33470 AROB FG",
+        "ZNQQE:33470 AROB FG",
         "PVGL:QNTTRGG",
         "ZNC:QNT1-3680_W_7",
         "HAVG:ZR401",

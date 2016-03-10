@@ -1037,7 +1037,7 @@ choyvp pynff BUWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpu Nyreg - cneg 1 bs 1) EP:Zbgbe Iruvpyr Pbyyvfvba/327 ARNE 14333 FG EG 327//22:25/haxabja ragenczrag",
         "PNYY:Zbgbe Iruvpyr Pbyyvfvba",
         "NQQE:327 ARNE 14333 FG EG 327",
-        "ZNQQE:327 & 14333 BU 327",
+        "ZNQQE:14333 BU 327",
         "GVZR:22:25",
         "VASB:haxabja ragenczrag");
 

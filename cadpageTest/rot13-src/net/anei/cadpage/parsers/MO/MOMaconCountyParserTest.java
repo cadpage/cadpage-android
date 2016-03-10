@@ -1483,7 +1483,7 @@ choyvp pynff ZBZnpbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:20150315-134792",
         "PNYY:Unl Onyr(f)",
         "NQQE:5 ZV J BS 63 BA W",
-        "ZNQQE:5 ZV",
+        "ZNQQE:5 ZV & 63 BA W",
         "PVGL:NGYNAGN",
         "HAVG:NSQ");
 

@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.CA;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -42,6 +44,8 @@ public class CASantaCruzCountyBParser extends FieldProgramParser {
     if (name.equals(("ID"))) return new IdField("Inc# *(\\d*)", true);
     return super.getField(name);
   }
+  
+  private static final Pattern ADDR_BAD_NUMBER = Pattern.compile(" *\\b99\\d{4}\\b *");
 
   private class MyAddressField extends AddressCityField {
     @Override
@@ -51,6 +55,7 @@ public class CASantaCruzCountyBParser extends FieldProgramParser {
         super.parse(field, data);
         return;
       }
+      field = ADDR_BAD_NUMBER.matcher(field).replaceAll(" ").trim();
       int pi = field.indexOf("@");
       if (pi >= 0) {
         String p1 = field.substring(0, pi);

@@ -58,7 +58,7 @@ choyvp pynff PNFnaQvrtbPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:004231",
         "NQQE:V 8 UJL R & 1190 GNIREA EQ",
-        "ZNQQE:V 8 R & 1190 GNIREA EQ",
+        "ZNQQE:1190 GNIREA EQ",
         "PVGL:NYCVAR",
         "PU:Pzq: KFQ PZQ 1; Gnp: PQS GNP 5: E/N Z6",
         "ZNC:1233_W_5/2843P",

@@ -416,6 +416,7 @@ choyvp pynff TNSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G43",
         "SP911:JRFGPYBPX PVE / 2070 R ZNVA FG / SF NXN UJL 29, 14:22:57, ZBGBE IRUVPYR PENFU 10-50",
         "NQQE:JRFGPYBPX PVE & 2070 R ZNVA FG & SF NXN UJL 29",
+        "ZNQQE:2070 R ZNVA FG & SF NXN UJL 29",
         "GVZR:14:22:57",
         "PNYY:ZBGBE IRUVPYR PENFU 10-50");
 

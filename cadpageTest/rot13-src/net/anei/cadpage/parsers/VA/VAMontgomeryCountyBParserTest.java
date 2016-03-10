@@ -4013,7 +4013,7 @@ choyvp pynff INZbagtbzrelPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G51",
         "{!} RO 460 OLCNFF / LRYYBJ FHYCUHE OEVQTR; Zbgbe Iruvpyr Penfu- J/Vawhevrf; ; ; ; P149, Z014, Z037, 800, R87, P153, 501, 805, 903, ZRQ92 <raq>",
         "NQQE:RO 460 OLCNFF & LRYYBJ FHYCUHE OEVQTR",
-        "ZNQQE:460 OLCNFF",
+        "ZNQQE:460 OLCNFF & LRYYBJ FHYCUHE OEVQTR",
         "PNYY:Zbgbe Iruvpyr Penfu- J/Vawhevrf",
         "HAVG:P149, Z014, Z037, 800, R87, P153, 501, 805, 903, ZRQ92");
 

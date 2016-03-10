@@ -15055,7 +15055,7 @@ choyvp pynff CNPnzoevnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:08:24:12",
         "PNYY:NYF-NYF RZF PNYY",
         "NQQE:15378 EG422 UJL R",
-        "ZNQQE:15378 EG 422 UJL R",
+        "ZNQQE:15378 EG 422 R",
         "PVGL:CVAR GJC",
         "HAVG:Fgn 46");
 

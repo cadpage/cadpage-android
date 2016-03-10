@@ -3191,7 +3191,7 @@ choyvp pynff BXCbagbgbpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:NPPVQRAG/HAXABJA VAWHEL",
         "NQQE:1-2 ZV R BS PE 3610 BA PE 1560",
-        "ZNQQE:1 ZV",
+        "ZNQQE:1 ZV & PBHAGL EBNQ 3610 BA PBHAGL EBNQ 1560",
         "QNGR:11/21/2015",
         "GVZR:12:44:49");
 
@@ -3676,7 +3676,7 @@ choyvp pynff BXCbagbgbpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:SVER/TENFF",
         "NQQE:1 ZV J BS NYYRA BA UJL1",
-        "ZNQQE:1 ZV",
+        "ZNQQE:1 ZV & NYYRA BA UJL 1",
         "QNGR:12/11/2015",
         "GVZR:16:25:56");
 
@@ -4042,7 +4042,7 @@ choyvp pynff BXCbagbgbpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:SVER/TENFF",
         "NQQE:1 ZV R BS PBHAGL YVAR VA UHTURF PAGL",
-        "ZNQQE:1 ZV",
+        "ZNQQE:1 ZV & PBHAGL YVAR VA UHTURF PAGL",
         "QNGR:4/4/2015",
         "GVZR:14:44:35");
 
@@ -6728,7 +6728,7 @@ choyvp pynff BXCbagbgbpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{QvfcngpuNyreg} SVER/TENFF \a4 ZV R BSS BS 48 BAGB 1600 \aPnyy Erprvirq Gvzr: 7/13/2015 4:21:25 CZ \aQvfcngpu: 7/13/2015 4:23:49 CZ",
         "PNYY:SVER/TENFF",
         "NQQE:4 ZV R BSS BS 48 BAGB 1600",
-        "ZNQQE:4 ZV R",
+        "ZNQQE:4 ZV R & 48 BAGB 1600",
         "QNGR:7/13/2015",
         "GVZR:16:23:49");
 
@@ -7121,7 +7121,7 @@ choyvp pynff BXCbagbgbpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{QvfcngpuNyreg} PBAGEBYYRQ OHEA \a1 ZV A BS 1610 BA 3500 \aPnyy Erprvirq Gvzr: 1/1/2016 12:50:29 CZ \aQvfcngpu: 1/1/2016 12:52:10 CZ",
         "PNYY:PBAGEBYYRQ OHEA",
         "NQQE:1 ZV A BS 1610 BA 3500",
-        "ZNQQE:1 ZV",
+        "ZNQQE:1 ZV & 1610 BA 3500",
         "QNGR:1/1/2016",
         "GVZR:12:52:10");
 
@@ -8780,7 +8780,7 @@ choyvp pynff BXCbagbgbpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:NPPVQRAG/HAXABJA VAWHEL",
         "NQQE:2 ZV A BS SVGGFGBJA BA 99F",
-        "ZNQQE:2 ZV",
+        "ZNQQE:2 ZV & SVGGFGBJA BA 99F",
         "QNGR:4/25/2015",
         "GVZR:12:52:18");
 
@@ -8788,7 +8788,7 @@ choyvp pynff BXCbagbgbpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{QvfcngpuNyreg} SVER/IRUVPYR \a3-4 ZV J BS 99 BA 1670 \aPnyy Erprvirq Gvzr: 4/7/2015 2:13:59 NZ \aQvfcngpu: 4/7/2015 2:15:58 NZ",
         "PNYY:SVER/IRUVPYR",
         "NQQE:3-4 ZV J BS 99 BA 1670",
-        "ZNQQE:3 ZV",
+        "ZNQQE:3 ZV & 99 BA 1670",
         "QNGR:4/7/2015",
         "GVZR:02:15:58");
 

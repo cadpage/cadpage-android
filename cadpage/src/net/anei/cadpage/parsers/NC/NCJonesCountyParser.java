@@ -74,6 +74,9 @@ public class NCJonesCountyParser extends DispatchA3Parser {
         data.strAddress = mat.group(1);
         data.strApt = append(mat.group(2), "-", data.strApt);
       }
+      
+      data.strAddress = stripFieldEnd(data.strAddress, "`");
+      data.strApt = stripFieldEnd(data.strApt, "`");
 
       // if no city has been selected yet, check whatsLeft for the city and extract it.
       String whatsLeft = getLeft();

@@ -688,7 +688,7 @@ choyvp pynff XFEvprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:131",
         "PNYY:Genssvp / Genafcbegngvba Nppvq",
         "NQQE:2 zv j bs Punfr H56d",
-        "ZNQQE:2 zv",
+        "ZNQQE:2 zv & Punfr H56d",
         "PVGL:Punfr",
         "ANZR:Funlyn Tenffre",
         "CUBAR:620-897-7740");
@@ -1218,7 +1218,7 @@ choyvp pynff XFEvprPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:105",
         "PNYY:Navzny",
         "NQQE:2 zvyrf Rnfg bs Ylbaf ba 56",
-        "ZNQQE:2 zvyrf",
+        "ZNQQE:2 zvyrf & Ylbaf ba 56",
         "ANZR:Puevf Jnyynpr",
         "CUBAR:620-242-2224");
 

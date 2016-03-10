@@ -9559,7 +9559,8 @@ choyvp pynff APEbjnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G47",
         "PNQ:SVER QRCNEGZRAG ZBIRHC;51/71 PBIRENTR",
         "PNYY:SVER QRCNEGZRAG ZBIRHC",
-        "NQQE:51 & 71 PBIRENTR");
+        "NQQE:51 & 71 PBIRENTR",
+        "ZNQQE:71 PBIRENTR");
 
     qbGrfg("G48",
         "PNQ:10Q4 PURFG CNVA;612 PUVAN TEBIR UJL;EBPX;PNAABA FG;YVAX FG;ZRNQBJF ERGVERZRAG PRAGRE;7001;BCF12",

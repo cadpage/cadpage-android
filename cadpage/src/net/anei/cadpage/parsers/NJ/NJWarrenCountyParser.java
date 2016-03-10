@@ -15,15 +15,16 @@ public class NJWarrenCountyParser extends SmartAddressParser {
   private static final Pattern DATE_TIME_PTN1 = Pattern.compile(" +\\[([ 0-9]\\d/\\d\\d) ([ 0-9]\\d{3})\\]$");
   private static final Pattern DATE_TIME_PTN2 = Pattern.compile(" +\\(SENT (\\d\\d/\\d\\d) (\\d\\d:\\d\\d)\\)$");
   private static final Pattern REGULAR_MARKER = Pattern.compile("([A-Z0-9]+) (?:(\\d{8}) )?ALERT: +");
-  private static final Pattern HAZMAT_MASTER = Pattern.compile("([A-Z0-9]+ HAZMAT) (?:(\\d{8}) )?L-\\d RESPONSE REQUESTED: *(.*?) AT ([^,/]+)(?:/([^,]+))?,([^,]+),([^,]+)");
-  private static final Pattern DISREGARD_MASTER = Pattern.compile("([A-Z0-9]+) (DISREGARD ALERT FOR [ A-Z]+) AT +(.*)");
+  private static final Pattern HAZMAT_MASTER = Pattern.compile("([A-Z0-9]+ HAZMAT) (?:(\\d{8}) )?L-\\d RESPONSE REQUESTED: *(.*?) AT ([^,/]+)(?:/([^,]+))?,([^,]+),(.+)");
+  private static final Pattern DISREGARD_MASTER = Pattern.compile("([A-Z0-9]+) (DISREGARD ALERT FOR [ A-Z]+) AT +(.*?)(?:,(.*))?");
   private static final Pattern DELIM = Pattern.compile(" *, +");
   private static final Pattern CITY_TRIM_PTN = Pattern.compile(" (?:BORO|TOWN)$");
   
   public NJWarrenCountyParser() {
     super(CITY_LIST, "WARREN COUNTY", "NJ");
-    setFieldList("UNIT ID CALL PLACE ADDR APT CITY DATE TIME INFO X");
+    setFieldList("UNIT ID CALL PLACE ADDR APT INFO CITY DATE TIME INFO X");
     setupMultiWordStreets(MWORD_STREET_LIST);
+    removeWords("HEIGHTS", "MALL");
   }
   
   @Override
@@ -59,15 +60,8 @@ public class NJWarrenCountyParser extends SmartAddressParser {
       String[] flds = DELIM.split(sAddr);
       if (flds.length == 3) {
         data.strCall = flds[0];
+        parseAddressField(flds[1], data);
         data.strCity = flds[2];
-        
-        String addr = flds[1];
-        String[] parts = addr.split(" / ");
-        if (parts.length == 2 && !isValidAddress(parts[0])) {
-          data.strPlace = parts[0].trim();
-          addr = parts[1].trim();
-        }
-        parseAddress(addr, data);
       }
       
       // and sometimes there are not
@@ -91,35 +85,17 @@ public class NJWarrenCountyParser extends SmartAddressParser {
     
     // Check for a disregard alert notice
     match = DISREGARD_MASTER.matcher(body);
-    if (match.lookingAt()) {
+    if (match.matches()) {
       data.strUnit = match.group(1);
       data.strCall = match.group(2);
-      String sAddr = match.group(3);
-      
-      // Sometimes there are nice comma delimiters
-      String[] flds = DELIM.split(sAddr);
-      if (flds.length == 2) {
-        data.strCity = flds[1];
-        
-        String addr = flds[0];
-        String[] parts = addr.split(" / ");
-        if (parts.length == 2 && !isValidAddress(parts[0])) {
-          data.strPlace = parts[0].trim();
-          addr = parts[1].trim();
-        }
-        parseAddress(addr, data);
-      }
-      
-      // and sometimes there are not
-      else {
-        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr, data);
-      }
+      parseAddress(match.group(3), data);
+      data.strCity = getOptGroup(match.group(4));
       return true;
     }
     
     // No such luck, see if this has a Hazmat marker
     match = HAZMAT_MASTER.matcher(body);
-    if (match.lookingAt()) {
+    if (match.matches()) {
       data.strUnit = match.group(1);
       data.strCallId = getOptGroup(match.group(2));
       data.strCall = match.group(3).trim();
@@ -150,6 +126,51 @@ public class NJWarrenCountyParser extends SmartAddressParser {
     
     // Strike out
     return false;
+  }
+
+  private void parseAddressField(String field, Data data) {
+    String[] parts = field.split(" / ");
+    for (int j = 0; j<parts.length; j++) {
+      parts[j] = parts[j].trim();
+    }
+    
+    int lastPart = parts.length-1;
+    while (lastPart > 0 && parts[lastPart].startsWith("APT ")) lastPart--;
+    int status = 0;
+    
+    for (int j = 0; j<parts.length; j++) {
+      String part = parts[j];
+      parts[j] = part;
+      if (part.length() == 0) continue;
+      if (j+1<parts.length && part.equals(parts[j+1])) continue;
+      
+      if (part.startsWith("APT ")) {
+        data.strApt = append(data.strApt, "-", part.substring(4).trim());
+        continue;
+      }
+      
+      switch (status) {
+      case 0:
+        if (j == lastPart || isValidAddress(part) || NUMERIC.matcher(part).matches()) {
+          parseAddress(part, data);
+          status = 1;
+        } else {
+          data.strPlace = append(data.strPlace, " - ", part);
+        }
+        break;
+        
+      case 1:
+        if (isValidAddress(part) || NUMERIC.matcher(part).matches()) {
+          parseAddress(part, data);
+          break;
+        }
+        status = 2;
+        
+      case 2:
+        data.strSupp = append(data.strSupp, " ", part);
+        break;
+      }
+    }
   }
   
   private static final String[] MWORD_STREET_LIST = new String[]{

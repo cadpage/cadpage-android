@@ -6614,7 +6614,6 @@ choyvp pynff APWbarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G12",
         "Pbzzhavpngvba: 2769 EBHFR EBNQ RKG ` XVAFGBA QBOOF SNEZ EQ NVECBEG EQ 28504 S-NYNEZF 52-SVER NYNEZF Yvar16= Yvar17= Yvar18=",
         "NQQE:2769 EBHFR EBNQ RKG",
-        "NCG:`",
         "PVGL:XVAFGBA",
         "K:QBOOF SNEZ EQ / NVECBEG EQ",
         "PBQR:S-NYNEZF 52",
@@ -7775,7 +7774,7 @@ choyvp pynff APWbarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G21",
         "Pbzzhavpngvba: 111 // 903 ` CVAX UVYY R-GENSSVP NP 29 - GENSSVP /GENAFCBEGNGVBA NPPVQRAGF Yvar16= Yvar17= Yvar18=",
-        "NQQE:111 & 903 `",
+        "NQQE:111 & 903",
         "PVGL:CVAX UVYY",
         "PBQR:R-GENSSVP NP 29",
         "PNYY:GENSSVP /GENAFCBEGNGVBA NPPVQRAGF");

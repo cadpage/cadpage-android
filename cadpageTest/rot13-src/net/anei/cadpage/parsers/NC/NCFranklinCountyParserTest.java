@@ -11619,7 +11619,7 @@ choyvp pynff APSenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G52",
         "0 HF 64 UJL//39 F RKVG OHAA, 22:05:12, 10-50 CV, BAR IRUVPYR VA GUR JBBQF. BAR FGVYY BA GUR EBNQJNL.",
         "NQQE:HF 64 UJL & 39 F RKVG",
-        "ZNQQE:HF 64 & 39 F RKVG",
+        "ZNQQE:39 F RKVG",
         "PVGL:OHAA",
         "GVZR:22:05:12",
         "PNYY:10-50 CV",

@@ -395,7 +395,7 @@ choyvp pynff ZFOvybkvCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:10/26/2014",
         "GVZR:17:16:04",
         "NQQE:FGNGVBAF 4 NAQ 5 ERFCBAQVAT GB 128 NPNPVN",
-        "ZNQQE:FGNGVBAF 4 & 5 ERFCBAQVAT GB 128 NPNPVN");
+        "ZNQQE:5 ERFCBAQVAT GB 128 NPNPVN");
 
     qbGrfg("G29",
         "OvybkvQvfcngpu:Pnyy # 14-0122109 -ZRQVPNY RZRETRAPL F-72- 10/26/2014 17:07:27 Zrffntr: R-9 ERFCBAQVAT GB 10564 FUBER PI SBE N ZRQVPNY VAPVQRAG 5327",

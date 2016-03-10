@@ -3095,6 +3095,7 @@ choyvp pynff ZAOrpxrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:15PSF008668",
         "PNYY:Sver",
         "NQQE:EHFU PERRX EQ & 29050 465GU NIR",
+        "ZNQQE:29050 465GU NIR",
         "FG:ZA",
         "HAVG:6850 Pnefbaivyyr Sver & Erfphr\a822 Oevna  Fnon");
 
@@ -6918,7 +6919,7 @@ choyvp pynff ZAOrpxrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:15PSF013703",
         "PNYY:Sver",
         "NQQE:1 1/2 ZV A BS OREARE BA 149GU",
-        "ZNQQE:1 1/2 ZV",
+        "ZNQQE:1 1/2 ZV & OREARE BA 149GU",
         "FG:ZA");
 
     qbGrfg("G27",
@@ -9482,7 +9483,7 @@ choyvp pynff ZAOrpxrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:15PSF008423",
         "PNYY:Sver",
         "NQQE:ZVYR FBHGU BS 23383 PB EQ 104",
-        "ZNQQE:ZVYR & 23383 PBHAGL EBNQ 104",
+        "ZNQQE:23383 PBHAGL EBNQ 104",
         "PVGL:EVPUJBBQ",
         "FG:ZA",
         "HAVG:6750 Pnyynjnl Sver Qrcg.",
@@ -10323,7 +10324,7 @@ choyvp pynff ZAOrpxrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:15PSF010765",
         "PNYY:Zrqvpny (Rzretrapl)",
         "NQQE:ARNE 406 RNFG ZNVA NIR",
-        "ZNQQE:& 406 RNFG ZNVA NIR",
+        "ZNQQE:406 RNFG ZNVA NIR",
         "PVGL:SENMRR",
         "FG:ZA",
         "HAVG:6291 Fg. Znelf RZF Perj 1\a6302 Glyre Gevrtynss\a6375 Senmrr Erfphr Onfr",

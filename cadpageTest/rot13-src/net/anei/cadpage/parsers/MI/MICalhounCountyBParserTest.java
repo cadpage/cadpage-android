@@ -1821,7 +1821,6 @@ choyvp pynff ZVPnyubhaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:CQEBYY",
         "PNYY:Cebcregl Qnzntr Ebyybire Nppvqrag",
         "NQQE:6 1/2 ZVYR EQ & OBLQ QE",
-        "ZNQQE:6 1/2 ZVYR EQ",
         "PVGL:ARJGBA GJC",
         "VASB:gevcyr NNN pnyyrq gur jerpxre pb / ng gur raq bs 6 1");
 
@@ -2321,7 +2320,6 @@ choyvp pynff ZVPnyubhaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:JVERF",
         "PNYY:Jverf Qbja",
         "NQQE:7 1/2 ZVYR EQ & W QEVIR F",
-        "ZNQQE:7 1/2 ZVYR EQ",
         "PVGL:ARJGBA GJC",
         "VASB:GERR PNZR QBJA & OEBHTUG JVERF JVGU VG, GURL NER FCNEXVAT. ABG OYBPXVAT GUR");
 
@@ -4653,7 +4651,6 @@ choyvp pynff ZVPnyubhaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:CVN",
         "PNYY:Crefbany Vawhel Nppvqrag",
         "NQQE:25 1/2 ZVYR EQ & Q QEVIR F",
-        "ZNQQE:25 1/2 ZVYR EQ",
         "PVGL:NYOVBA GJC",
         "VASB:znyr vawherq va nppvqrag # CNGF: 1 NTR: 28");
 
@@ -5630,7 +5627,6 @@ choyvp pynff ZVPnyubhaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:BQBEB",
         "PNYY:Bqbe Vairfgvtngvba Bhgfvqr",
         "NQQE:25 1/2 ZVYR EQ & O QEVIR A",
-        "ZNQQE:25 1/2 ZVYR EQ",
         "PVGL:FUREVQNA GJC",
         "VASB:pnyyre yvirf npebff gur ebnq sebz gur angheny tnf ohearef, gur cvybg vf gelv");
 
@@ -8241,7 +8237,6 @@ choyvp pynff ZVPnyubhaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:CQEBYY",
         "PNYY:Cebcregl Qnzntr Ebyybire Nppvqrag",
         "NQQE:12 1/2 ZVYR EQ & A QEVIR F",
-        "ZNQQE:12 1/2 ZVYR EQ",
         "PVGL:GRXBAFUN GJC",
         "VASB:gjb crbcyr ab vawherf pne va qvgpu ebyyrq bire ba fvqr rirebar bhg");
 
@@ -9602,7 +9597,6 @@ choyvp pynff ZVPnyubhaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:CVN",
         "PNYY:Crefbany Vawhel Nppvqrag",
         "NQQE:15 1/2 ZVYR EQ & ZBBER EQ",
-        "ZNQQE:15 1/2 ZVYR EQ",
         "PVGL:SERQBAVN GJC",
         "VASB:zbgbeplpyr syvccrq--pnyyref os vf jvgu uvz--ur vf ba gur tebhaq");
 
@@ -9918,7 +9912,6 @@ choyvp pynff ZVPnyubhaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:JVERF",
         "PNYY:Jverf Qbja",
         "NQQE:8 1/2 ZVYR EQ & E QEVIR F",
-        "ZNQQE:8 1/2 ZVYR EQ",
         "PVGL:OHEYVATGBA GJC",
         "VASB:1/4 zvyr abegu bs gur vagrefrpgvba ba gur yrsg unaq fvqr bs gur ebnq -- gurer");
 

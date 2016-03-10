@@ -218,7 +218,8 @@ choyvp pynff GKJunegbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpu Nyreg) Pnyy Glcr: GENHZN Pvgl: JUNEGBA Nqqerff: JPFB WNVY/315 R RYZ FG",
         "PNYY:GENHZN",
         "PVGL:JUNEGBA",
-        "NQQE:JPFB WNVY & 315 R RYZ FG");
+        "NQQE:JPFB WNVY & 315 R RYZ FG",
+        "ZNQQE:315 R RYZ FG");
 
     qbGrfg("G8",
         "(Qvfcngpu Nyreg) Pnyy Glcr: YVSG NFFVFG Pvgl: UHATRESBEQ Nqqerff: 3222 PE 220 EQ",
@@ -382,7 +383,8 @@ choyvp pynff GKJunegbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpu Nyreg) Pnyy Glcr: PBZZREPVNY FGEHPGHER SVER Pvgl: JUNEGBA Nqqerff: RM JNFU/1108 A SHYGBA",
         "PNYY:PBZZREPVNY FGEHPGHER SVER",
         "PVGL:JUNEGBA",
-        "NQQE:RM JNFU & 1108 A SHYGBA");
+        "NQQE:RM JNFU & 1108 A SHYGBA",
+        "ZNQQE:1108 A SHYGBA");
 
     qbGrfg("G37",
         "(Qvfcngpu Nyreg) Pnyy Glcr: GENAFSRE Pvgl:  Nqqerff: TPRE 3>FNVAG YHXRF QG",

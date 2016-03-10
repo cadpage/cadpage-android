@@ -4156,7 +4156,7 @@ choyvp pynff PNRyQbenqbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "VQ:PNNRH022657",
         "NQQE:UL 50 JO & 3000 ORQSBEQ NIR",
-        "ZNQQE:UJL 50 & 3000 ORQSBEQ NIR",
+        "ZNQQE:3000 ORQSBEQ NIR",
         "PVGL:CYNPREIVYYR",
         "HAVG:P7700 R249 R25 Z28",
         "TCF:+38.730512,-120.799027");
@@ -6519,7 +6519,7 @@ choyvp pynff PNRyQbenqbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "VQ:PNNRH022745",
         "NQQE:UL 88 & 26890 ABOO UVYY PG",
-        "ZNQQE:UJL 88 & 26890 ABOO UVYY PG",
+        "ZNQQE:26890 ABOO UVYY PG",
         "PVGL:OHPXUBEA",
         "HAVG:R124",
         "TCF:+38.460253,-120.527225");
@@ -6531,7 +6531,7 @@ choyvp pynff PNRyQbenqbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "VQ:PNNRH022745",
         "NQQE:UL 88 & 26890 ABOO UVYY PG",
-        "ZNQQE:UJL 88 & 26890 ABOO UVYY PG",
+        "ZNQQE:26890 ABOO UVYY PG",
         "PVGL:OHPXUBEA",
         "HAVG:R141",
         "TCF:+38.460253,-120.527225");
@@ -6640,7 +6640,7 @@ choyvp pynff PNRyQbenqbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "VQ:PNNRH022682",
         "NQQE:UL 88 & 26600 PBYHZOVN QE",
-        "ZNQQE:UJL 88 & 26600 PBYHZOVN QE",
+        "ZNQQE:26600 PBYHZOVN QE",
         "PVGL:OHPXUBEA",
         "HAVG:R124 H109",
         "TCF:+38.458205,-120.531458");
@@ -6652,7 +6652,7 @@ choyvp pynff PNRyQbenqbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQ, GENSSVP PBYYVFVBA",
         "VQ:PNNRH022682",
         "NQQE:UL 88 & 26600 PBYHZOVN QE",
-        "ZNQQE:UJL 88 & 26600 PBYHZOVN QE",
+        "ZNQQE:26600 PBYHZOVN QE",
         "PVGL:OHPXUBEA",
         "HAVG:111 NZNPUS10 R111 R141",
         "TCF:+38.458205,-120.531458");

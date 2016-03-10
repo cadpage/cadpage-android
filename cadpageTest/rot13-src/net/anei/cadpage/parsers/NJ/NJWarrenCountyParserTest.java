@@ -111,7 +111,6 @@ Fraqre: Cngevpx Evibyv <evib77@pb.jneera.aw.hf>
 {GNZV ZFT} S74 NYREG: NYNEZ-FZBXR , PYLZRE IVYYNTR / 211 ERQ FPUBBY YA #227, YBCNGPBAT GJC [10/22 1222] 
 {GNZV ZFT} S74 NYREG: NYNEZ-FZBXR FRR ORYBJ, PYLZRE IVYYNTR / 211 ERQ FPUBBY YA #308, YBCNGPBAT GJC [10/19 1701] 
 S74 NYREG: NY-FZBXR FRR ORYBJ, 211 ERQ FPUBBY YN / NCG 308, YBCNGPBAT GJC (FRAG 10/19 16:58)
-{S74 ZRFFNTR} 7486 vf onpx va freivpr cre 7470
 S74 NYREG: ZI NPPVQ ART VAW, EG 519 / EG 57, YBCNGPBAT GJC (FRAG 10/17 22:53)
 S74 NYREG: PBQRGRPG TBVAT BSS, 266 ONYQ RNTYR QE, YBCNGPBAT GJC (FRAG 10/17 09:13)
 S74 NYREG: TNF YRNX ANGHENY TNF, 306 ENVAOBJ JNL, YBCNGPBAT GJC (FRAG 10/15 15:00)
@@ -144,7 +143,6 @@ S74 NYREG: BCRAOHEA CBFF VYYRTNY, 354 YVOREGL EBNQ, YBCNGPBAT GJC (FRAG 09/06 20
 S74 NYREG: NY-SVER FRR ABGRF, CUVYYVCFOHET ZNYY / 1200 EG 22 UJL, CBUNGPBAT GJC (FRAG 09/04 12:23)
 S74 NYREG: NY-SVER TRA SVER CNARY, CUVYYVCFOHET ZNYY / 1200 EG 22 UJL, YBCNGPBAT GJC (FRAG 09/02 13:42)
 S74 NYREG: ZI QVFNO ZV/QSM3766, EG 22 RO / SVEFG FG, YBCNGPBAT GJC (FRAG 09/01 20:19)
-{S74 ZRFFNTR} S74 NYREG: GRFGBAYL, 224 FGELXREF EQ, YBCNGPBAT GJC
 S74 NYREG: ZI QVFNO OHF, EG 22 JO / ARNE VAGREFRPGVBA BS 57 / BA OEVQTR, YBCNGPBAT GJC (FRAG 08/29 22:56)
 S74 NYREG: JRYSNER RYQREYL SRZNYR, PNER PRAGRE BS YBCNGPBAT / 390 ERQ FPUBBY YNAR / NCG 109O, YBCNGPBAT GJC (FRAG 08/28 18:52)
 S74 NYREG: JRYSNER NCG I1, OENXRYRL TNEQRA NCNEGZRAGF / 225 ERQ FPUBBY YN, YBCNGPBAT GJC (FRAG 08/27 09:29)
@@ -899,7 +897,7 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:TNF YRNX YVAR UVFFVAT",
         "CYNPR:GUR ONWN",
         "NQQE:999 EGR 22 UJL",
-        "ZNQQE:999 EGR UJL 22",
+        "ZNQQE:999 EGR 22",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:11/01",
         "GVZR:10:09");
@@ -942,8 +940,9 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:S74",
         "VQ:15504862",
         "PNYY:SHRY YRNX UNAQVPNC FCBG",
-        "NQQE:CUVYYVCFOHET ZNYY & 1200 EGR 22 UJL & VSB XBUYF",
-        "ZNQQE:CUVYYVCFOHET ZNYY & 1200 EGR UJL 22 & VSB XBUYF",
+        "CYNPR:CUVYYVCFOHET ZNYY",
+        "NQQE:1200 EGR 22 UJL & VSB XBUYF",
+        "ZNQQE:1200 EGR 22",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:10/31",
         "GVZR:11:24");
@@ -1041,9 +1040,6 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:10/19",
         "GVZR:16:58");
 
-// ************************ CNEFR SNVYHER *****************************
-// {S74 ZRFFNTR} 7486 vf onpx va freivpr cre 7470
-
     qbGrfg("G19",
         "S74 NYREG: ZI NPPVQ ART VAW, EG 519 / EG 57, YBCNGPBAT GJC (FRAG 10/17 22:53)",
         "HAVG:S74",
@@ -1076,7 +1072,7 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:S74",
         "PNYY:ZI NPPVQ ZP I PNE",
         "NQQE:EG 57 UJL & HAVBAGBJA EQ",
-        "ZNQQE:EG UJL 57 & HAVBAGBJA EQ",
+        "ZNQQE:EG 57 & HAVBAGBJA EQ",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:10/11",
         "GVZR:11:31");
@@ -1085,8 +1081,8 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: BCRAOHEA VYYRTNY, 803 EHTOL EQ / CBFFVOYL / VF BA PBEARE BS EHGU NAQ EHTOL, YBCNGPBAT GJC (FRAG 10/08 18:57)",
         "HAVG:S74",
         "PNYY:BCRAOHEA VYYRTNY",
-        "NQQE:803 EHTOL EQ & CBFFVOYL & VF BA PBEARE BS EHGU NAQ EHTOL",
-        "ZNQQE:803 EHTOL EQ",
+        "NQQE:803 EHTOL EQ",
+        "VASB:CBFFVOYL VF BA PBEARE BS EHGU NAQ EHTOL",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:10/08",
         "GVZR:18:57");
@@ -1095,8 +1091,9 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: NY-SVER JNGRE SYBJ, FRNEF / 1011 EG 22J / 1200 EG 22 UJL, YBCNGPBAT GJC (FRAG 10/08 11:50)",
         "HAVG:S74",
         "PNYY:NY-SVER JNGRE SYBJ",
-        "NQQE:FRNEF & 1011 EG 22J & 1200 EG 22 UJL",
-        "ZNQQE:FRNEF & 1011 EG 22J & 1200 EG UJL 22",
+        "CYNPR:FRNEF",
+        "NQQE:1011 EG 22J & 1200 EG 22 UJL",
+        "ZNQQE:1011 EG 22J",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:10/08",
         "GVZR:11:50");
@@ -1151,8 +1148,10 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: NY-SVER , PYLZRE IVYYNTR / NCG 309 / 211 ERQ FPUBBY YN, YBCNGPBAT GJC (FRAG 09/29 17:39)",
         "HAVG:S74",
         "PNYY:NY-SVER",
-        "NQQE:PYLZRE IVYYNTR",
-        "NCG:309 / 211 ERQ FPUBBY YN",
+        "CYNPR:PYLZRE IVYYNTR",
+        "NCG:309",
+        "NQQE:211 ERQ FPUBBY YN",
+        "ZNQQE:211 ERQ FPUBBY YA",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:09/29",
         "GVZR:17:39");
@@ -1171,8 +1170,9 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: NY-SVER NHQVOYR, CUVYYVCFOHET ZNYY / 1200 EG 22 UJL, YBCNGPBAT GJC (FRAG 09/27 11:36)",
         "HAVG:S74",
         "PNYY:NY-SVER NHQVOYR",
-        "NQQE:CUVYYVCFOHET ZNYY & 1200 EG 22 UJL",
-        "ZNQQE:CUVYYVCFOHET ZNYY & 1200 EG UJL 22",
+        "CYNPR:CUVYYVCFOHET ZNYY",
+        "NQQE:1200 EG 22 UJL",
+        "ZNQQE:1200 EG 22",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:09/27",
         "GVZR:11:36");
@@ -1240,7 +1240,8 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: BCRAOHEA VYYRTNY, PUNEYRF EBNQ / 2AQ UBHFR VA SEBZ ORYIVQRER, YBCNGPBAT GJC (FRAG 09/21 16:05)",
         "HAVG:S74",
         "PNYY:BCRAOHEA VYYRTNY",
-        "NQQE:PUNEYRF EBNQ & 2AQ UBHFR VA SEBZ ORYIVQRER",
+        "NQQE:PUNEYRF EBNQ",
+        "VASB:2AQ UBHFR VA SEBZ ORYIVQRER",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:09/21",
         "GVZR:16:05");
@@ -1258,8 +1259,9 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: NY-SVER XVFGYRE BOEVRA, CUVYYVCFOHET ZNYY / 1200 EG 22 UJL, CBUNGPBAT GJC (FRAG 09/19 12:33)",
         "HAVG:S74",
         "PNYY:NY-SVER XVFGYRE BOEVRA",
-        "NQQE:CUVYYVCFOHET ZNYY & 1200 EG 22 UJL",
-        "ZNQQE:CUVYYVCFOHET ZNYY & 1200 EG UJL 22",
+        "CYNPR:CUVYYVCFOHET ZNYY",
+        "NQQE:1200 EG 22 UJL",
+        "ZNQQE:1200 EG 22",
         "PVGL:CBUNGPBAT GJC",
         "QNGR:09/19",
         "GVZR:12:33");
@@ -1278,7 +1280,7 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:S74",
         "PNYY:ZI NPPVQ HAX VAW",
         "NQQE:EG 57 UJL & FGELXREF EQ",
-        "ZNQQE:EG UJL 57 & FGELXREF EQ",
+        "ZNQQE:EG 57 & FGELXREF EQ",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:09/18",
         "GVZR:14:14");
@@ -1287,8 +1289,8 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: FZBXR FZRYY BS, 2N OEVNEFGBAR NIR / ERNE BSS, YBCNGPBAT GJC (FRAG 09/15 20:21)",
         "HAVG:S74",
         "PNYY:FZBXR FZRYY BS",
-        "NQQE:2N OEVNEFGBAR NIR & ERNE BSS",
-        "ZNQQE:2N OEVNEFGBAR NIR & ERNE &",
+        "NQQE:2N OEVNEFGBAR NIR",
+        "VASB:ERNE BSS",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:09/15",
         "GVZR:20:21");
@@ -1297,8 +1299,10 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: NY-SVER NAQ TRARENY, PYLZRE IVYYNTR / NCG 220 / 211 ERQ FPUBBY YN, YBCNGPBAT GJC (FRAG 09/13 10:47)",
         "HAVG:S74",
         "PNYY:NY-SVER NAQ TRARENY",
-        "NQQE:PYLZRE IVYYNTR",
-        "NCG:220 / 211 ERQ FPUBBY YN",
+        "CYNPR:PYLZRE IVYYNTR",
+        "NCG:220",
+        "NQQE:211 ERQ FPUBBY YN",
+        "ZNQQE:211 ERQ FPUBBY YA",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:09/13",
         "GVZR:10:47");
@@ -1308,7 +1312,7 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:S74",
         "PNYY:JVERFQJA FCNEXVAT",
         "NQQE:852 EG 519 UJL",
-        "ZNQQE:852 EG UJL 519",
+        "ZNQQE:852 EG 519",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:09/13",
         "GVZR:00:52");
@@ -1326,8 +1330,9 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: NY-SVER FRR ABGRF, CUVYYVCFOHET ZNYY / 1200 EG 22 UJL, CBUNGPBAT GJC (FRAG 09/04 12:23)",
         "HAVG:S74",
         "PNYY:NY-SVER FRR ABGRF",
-        "NQQE:CUVYYVCFOHET ZNYY & 1200 EG 22 UJL",
-        "ZNQQE:CUVYYVCFOHET ZNYY & 1200 EG UJL 22",
+        "CYNPR:CUVYYVCFOHET ZNYY",
+        "NQQE:1200 EG 22 UJL",
+        "ZNQQE:1200 EG 22",
         "PVGL:CBUNGPBAT GJC",
         "QNGR:09/04",
         "GVZR:12:23");
@@ -1336,8 +1341,9 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: NY-SVER TRA SVER CNARY, CUVYYVCFOHET ZNYY / 1200 EG 22 UJL, YBCNGPBAT GJC (FRAG 09/02 13:42)",
         "HAVG:S74",
         "PNYY:NY-SVER TRA SVER CNARY",
-        "NQQE:CUVYYVCFOHET ZNYY & 1200 EG 22 UJL",
-        "ZNQQE:CUVYYVCFOHET ZNYY & 1200 EG UJL 22",
+        "CYNPR:CUVYYVCFOHET ZNYY",
+        "NQQE:1200 EG 22 UJL",
+        "ZNQQE:1200 EG 22",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:09/02",
         "GVZR:13:42");
@@ -1352,15 +1358,13 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:09/01",
         "GVZR:20:19");
 
-// ************************ CNEFR SNVYHER *****************************
-// {S74 ZRFFNTR} S74 NYREG: GRFGBAYL, 224 FGELXREF EQ, YBCNGPBAT GJC
-
     qbGrfg("G52",
         "S74 NYREG: ZI QVFNO OHF, EG 22 JO / ARNE VAGREFRPGVBA BS 57 / BA OEVQTR, YBCNGPBAT GJC (FRAG 08/29 22:56)",
         "HAVG:S74",
         "PNYY:ZI QVFNO OHF",
-        "NQQE:EG 22 JO & ARNE VAGREFRPGVBA BS 57 & BA OEVQTR",
-        "ZNQQE:EG 22 & VAGREFRPGVBA BS 57 & BA OEVQTR",
+        "NQQE:EG 22 JO",
+        "ZNQQE:EG 22",
+        "VASB:ARNE VAGREFRPGVBA BS 57 BA OEVQTR",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:08/29",
         "GVZR:22:56");
@@ -1369,7 +1373,8 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: JRYSNER RYQREYL SRZNYR, PNER PRAGRE BS YBCNGPBAT / 390 ERQ FPUBBY YNAR / NCG 109O, YBCNGPBAT GJC (FRAG 08/28 18:52)",
         "HAVG:S74",
         "PNYY:JRYSNER RYQREYL SRZNYR",
-        "NQQE:PNER PRAGRE BS YBCNGPBAT & 390 ERQ FPUBBY YNAR",
+        "CYNPR:PNER PRAGRE BS YBCNGPBAT",
+        "NQQE:390 ERQ FPUBBY YNAR",
         "NCG:109O",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:08/28",
@@ -1401,7 +1406,7 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NY-SVER JNGRE SYBJ",
         "CYNPR:OBAGBA",
         "NQQE:1200 EG 22 UJL",
-        "ZNQQE:1200 EG UJL 22",
+        "ZNQQE:1200 EG 22",
         "PVGL:CBUNGPBAT GJC",
         "QNGR:08/24",
         "GVZR:16:58");
@@ -1410,7 +1415,8 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: UVG&EHA AB VAW, CUVYYVCFOHET CUNEZNPL / 96 ONYGVZBER FG / 96 ONYGVZBER FG, YBCNGPBAT GJC (FRAG 08/24 15:21)",
         "HAVG:S74",
         "PNYY:UVG&EHA AB VAW",
-        "NQQE:CUVYYVCFOHET CUNEZNPL & 96 ONYGVZBER FG & 96 ONYGVZBER FG",
+        "CYNPR:CUVYYVCFOHET CUNEZNPL",
+        "NQQE:96 ONYGVZBER FG",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:08/24",
         "GVZR:15:21");
@@ -1479,7 +1485,8 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: TNF YRNX FGEBAT FZRYY, JNEERA URVTUGF / CBBY UBHFR / 234 JVAQZVYY PG, YBCNGPBAT GJC (FRAG 08/02 13:41)",
         "HAVG:S74",
         "PNYY:TNF YRNX FGEBAT FZRYY",
-        "NQQE:JNEERA URVTUGF & CBBY UBHFR & 234 JVAQZVYY PG",
+        "CYNPR:JNEERA URVTUGF - CBBY UBHFR",
+        "NQQE:234 JVAQZVYY PG",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:08/02",
         "GVZR:13:41");
@@ -1488,8 +1495,10 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: NY-BGURE NTNVA, PYLZRE IVYYNTR / NCG 313 / 211 ERQ FPUBBY YN, YBCNGPBAT GJC (FRAG 07/27 02:54)",
         "HAVG:S74",
         "PNYY:NY-BGURE NTNVA",
-        "NQQE:PYLZRE IVYYNTR",
-        "NCG:313 / 211 ERQ FPUBBY YN",
+        "CYNPR:PYLZRE IVYYNTR",
+        "NCG:313",
+        "NQQE:211 ERQ FPUBBY YN",
+        "ZNQQE:211 ERQ FPUBBY YA",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:07/27",
         "GVZR:02:54");
@@ -1534,8 +1543,10 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: NY-SVER TRARENY, PYLZRE IVYYNTR / NCG 313 / 211 ERQ FPUBBY YN, YBCNGPBAT GJC (FRAG 07/20 15:19)",
         "HAVG:S74",
         "PNYY:NY-SVER TRARENY",
-        "NQQE:PYLZRE IVYYNTR",
-        "NCG:313 / 211 ERQ FPUBBY YN",
+        "CYNPR:PYLZRE IVYYNTR",
+        "NCG:313",
+        "NQQE:211 ERQ FPUBBY YN",
+        "ZNQQE:211 ERQ FPUBBY YA",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:07/20",
         "GVZR:15:19");
@@ -1564,8 +1575,10 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: NY-FZBXR TRARENY, PYLZRE IVYYNTR / NCG 121 / 211 ERQ FPUBBY YN, YBCNGPBAT GJC (FRAG 07/13 08:16)",
         "HAVG:S74",
         "PNYY:NY-FZBXR TRARENY",
-        "NQQE:PYLZRE IVYYNTR",
-        "NCG:121 / 211 ERQ FPUBBY YN",
+        "CYNPR:PYLZRE IVYYNTR",
+        "NCG:121",
+        "NQQE:211 ERQ FPUBBY YN",
+        "ZNQQE:211 ERQ FPUBBY YA",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:07/13",
         "GVZR:08:16");
@@ -1586,7 +1599,7 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FCRPVNYS S74 BHG NG",
         "CYNPR:S55   JP SVER NPNQRZL",
         "NQQE:1024 EG 57 UJL",
-        "ZNQQE:1024 EG UJL 57",
+        "ZNQQE:1024 EG 57",
         "PVGL:SENAXYVA GJC",
         "QNGR:07/11",
         "GVZR:07:32");
@@ -1595,7 +1608,8 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S74 NYREG: SHRYYRNX YRNXVAT GNAXRE, EG 22 R / CNFFVAT EG 57, YBCNGPBAT GJC (FRAG 07/10 13:43)",
         "HAVG:S74",
         "PNYY:SHRYYRNX YRNXVAT GNAXRE",
-        "NQQE:EG 22 R & CNFFVAT EG 57",
+        "NQQE:EG 22 R",
+        "VASB:CNFFVAT EG 57",
         "PVGL:YBCNGPBAT GJC",
         "QNGR:07/10",
         "GVZR:13:43");
@@ -1697,7 +1711,7 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZI NPPVQ",
         "CYNPR:TNEL J TENL GEHPXVAT VAP",
         "NQQE:56 EG 46 UJL",
-        "ZNQQE:56 EG UJL 46",
+        "ZNQQE:56 EG 46",
         "PVGL:XABJYGBA GJC",
         "QNGR:09/18",
         "GVZR:15:25",
@@ -1709,7 +1723,7 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZI NPPVQ",
         "CYNPR:TNEL J TENL GEHPXVAT VAP",
         "NQQE:56 EG 46 UJL",
-        "ZNQQE:56 EG UJL 46",
+        "ZNQQE:56 EG 46",
         "PVGL:XABJYGBA GJC",
         "QNGR:09/18",
         "GVZR:15:25",
@@ -1732,7 +1746,7 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:IRUVPYR",
         "CYNPR:REAVR & QBZ'F CVMMN",
         "NQQE:433 EG 31F UJL",
-        "ZNQQE:433 EG UJL 31F",
+        "ZNQQE:433 EG 31F",
         "PVGL:JNFUVATGBA GJC",
         "QNGR:09/06",
         "GVZR:20:18",
@@ -1744,7 +1758,7 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:IRUVPYR",
         "CYNPR:REAVR & QBZ'F CVMMN",
         "NQQE:433 EG 31F UJL",
-        "ZNQQE:433 EG UJL 31F",
+        "ZNQQE:433 EG 31F",
         "PVGL:JNFUVATGBA GJC",
         "QNGR:09/06",
         "GVZR:20:18",
@@ -1756,7 +1770,7 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:IRUVPYR",
         "CYNPR:REAVR & QBZ'F CVMMN",
         "NQQE:433 EG 31F UJL",
-        "ZNQQE:433 EG UJL 31F",
+        "ZNQQE:433 EG 31F",
         "PVGL:JNFUVATGBA GJC",
         "QNGR:09/06",
         "GVZR:17:38",
@@ -1768,7 +1782,7 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:IRUVPYR",
         "CYNPR:REAVR & QBZ'F CVMMN",
         "NQQE:433 EG 31F UJL",
-        "ZNQQE:433 EG UJL 31F",
+        "ZNQQE:433 EG 31F",
         "PVGL:JNFUVATGBA GJC",
         "QNGR:09/06",
         "GVZR:17:38",
@@ -2101,7 +2115,7 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:QVS OERN",
         "CYNPR:JVGGR PBZCNAL",
         "NQQE:507 EG 31F UJL",
-        "ZNQQE:507 EG UJL 31F",
+        "ZNQQE:507 EG 31F",
         "PVGL:JNFUVATGBA GJC",
         "QNGR:03/23",
         "GVZR:12:00",
@@ -2113,7 +2127,7 @@ choyvp pynff AWJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:QVS OERN",
         "CYNPR:JVGGR PBZCNAL",
         "NQQE:507 EG 31F UJL",
-        "ZNQQE:507 EG UJL 31F",
+        "ZNQQE:507 EG 31F",
         "PVGL:JNFUVATGBA GJC",
         "QNGR:03/23",
         "GVZR:11:59",

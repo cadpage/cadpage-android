@@ -43,6 +43,7 @@ choyvp pynff PNZbagrerlPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZRQ, IRUVPYR NPPVQRAG; UJL 101 A / 62916 PNGGYRZNA EQ ,FNA_NEQB ; FIS1; ; ; 1385_U_1/4758C; K: -120 55.3284 L: 36 0.78282; Vap# 000853; Gnp: GNP3; Nve: NVEGNP4 G1; Teq: PQS N/T 3 G16; O4619 PB31 R4693 R8991; AB GRKG <n uers=\"uggc://zncf.tbbtyr.pbz/?d=36.013047,-120.922141\">Znc</n>",
         "PNYY:ZRQ, IRUVPYR NPPVQRAG",
         "NQQE:UJL 101 A & 62916 PNGGYRZNA EQ",
+        "ZNQQE:62916 PNGGYRZNA EQ",
         "PVGL:FNA NEQB",
         "HAVG:O4619 PB31 R4693 R8991",
         "ZNC:1385_U_1/4758C",

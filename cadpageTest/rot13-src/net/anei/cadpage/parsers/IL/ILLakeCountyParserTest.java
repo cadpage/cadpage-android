@@ -1416,7 +1416,7 @@ choyvp pynff VYYnxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2015S27784",
         "PNYY:SZN-ZHGHNY NVQ ERDHRFG",
         "NQQE:64GU FGERRG NAQ 30 GUR NIR",
-        "ZNQQE:64GU FGERRG & 30 GUR NIR",
+        "ZNQQE:30 GUR NIR",
         "ZNC:NA",
         "HAVG:R211");
 
