@@ -15,6 +15,10 @@ Pbagnpg: Rq Irffre <cnfgbe.rq79@tznvy.pbz>
 Fraqre: rcg@rcg911.vasb
 Se:rcg@rcg911.vasb\aGkg: [GEP SQ:GEP Q4]RYV,GEP1,RQV,UNA,JVYQP,RNFG2~Sver, Fzbxr Vairfgvtngvba~F Pnyuna Ujl (f Bs 94) / Fnaobea Eq# ~ ~k: ~NYEZ:1~P600560\a\a\avq:31
 
+Pbagnpg: xzvyyre483 <xzvyyre483@tznvy.pbz>
+Fraqre: rcg@rcg911.vasb
+[PNY SQ:240  ]PNY~Sver, Qhzcfgre                ~1350 8gu Fg                        #10   ~                    ~k:ZLEGYR FG/PELFGBYN FG
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Znavgbh Fcevatf SQ
 Ybpngvba: Znavgbh Fcevatf, PB, Havgrq Fgngrf
@@ -1262,6 +1266,21 @@ choyvp pynff PBRyCnfbPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "VQ:P600560");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgXzvyyre483() {
+
+    qbGrfg("G1",
+        "[PNY SQ:240  ]PNY~Sver, Qhzcfgre                ~1350 8gu Fg                        #10   ~                    ~k:ZLEGYR FG/PELFGBYN FG",
+        "FEP:PNY SQ",
+        "ZNC:240",
+        "HAVG:PNY",
+        "PNYY:Sver, Qhzcfgre",
+        "NQQE:1350 8gu Fg",
+        "NCG:10",
+        "K:ZLEGYR FG/PELFGBYN FG");
+    
   }
 
   @Grfg

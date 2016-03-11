@@ -31,7 +31,7 @@ public class ALCalhounCountyBParser extends FieldProgramParser {
     if (name.equals("TIMES")) return new MyTimesField();
     if (name.equals("ID")) return new IdField("[-0-9]+");
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
-    if (name.equals("MAP")) return new MapField("[A-Z]+\\d+[A-Z]?", true);
+    if (name.equals("MAP")) return new MapField("[A-Z]+\\d+[A-Z]?|[A-Z]{3}", true);
     if (name.equals("UNIT")) return new UnitField("\\S+", true);
     return super.getField(name);
   }
