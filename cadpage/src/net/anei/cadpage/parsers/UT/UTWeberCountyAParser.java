@@ -6,8 +6,8 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
-public class UTWeberCountyParser extends FieldProgramParser {
-  public UTWeberCountyParser() {
+public class UTWeberCountyAParser extends FieldProgramParser {
+  public UTWeberCountyAParser() {
     super("WEBER COUNTY", "UT",
         "CALL_TIME! ADDR_MAP PLACE_X+? ( Ch:CH UNIT_ID! | UNIT_ID! ) Sent_by:SKIP!");
   }
