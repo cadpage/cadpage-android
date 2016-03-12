@@ -42,7 +42,15 @@ public class UserAcctManager {
     boolean readPhoneStatePerm = PermissionManager.isGranted(context, PermissionManager.READ_PHONE_STATE);
     
     TelephonyManager tMgr =(TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
-    if (PermissionManager.isGranted(context, PermissionManager.READ_SMS)) phoneNumber = tMgr.getLine1Number();
+    
+    // Which permission is required to call getLine1Number() is inconsistent.  Nexus systems require READ_SMS
+    // permission, Sprint phones require READ_PHONE_STATE.  Rather than try to figure out which one is
+    // require, we will just call it can catch any thrown exceptions.
+    phoneNumber = null;
+    try {
+      phoneNumber = tMgr.getLine1Number();
+    } catch (Exception ex) {}
+    
     if (phoneNumber == null && readPhoneStatePerm) phoneNumber = tMgr.getVoiceMailNumber();
     if (phoneNumber != null) {
       int pt = phoneNumber.indexOf(',');

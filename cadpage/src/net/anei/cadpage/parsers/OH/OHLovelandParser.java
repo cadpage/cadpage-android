@@ -23,7 +23,7 @@ public class OHLovelandParser extends DispatchA1Parser {
   
   @Override
   public String getFilter() {
-    return "dispatcher@safety-center.org,utcc@union-township.oh.us";
+    return "dispatcher@safety-center.org,utcc@union-township.oh.us,dispatcher@lsfd.org";
   }
   
   @Override
