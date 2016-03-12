@@ -44,7 +44,7 @@ public class CAContraCostaCountyBParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
-    if (name.equals("MAP")) return new MapField("[A-Z]\\d{2}[A-Z] \\d{4} \\d{3}", true);
+    if (name.equals("MAP")) return new MapField("[A-Z]\\d{2}[A-Z] \\d{4} \\d{3}|", true);
     if (name.equals("TIME")) return new TimeField("\\d{2}:\\d{2}:\\d{2}", true);
     if (name.equals("CODE")) return new MyCodeField();
     if (name.equals("CITY")) return new MyCityField();
