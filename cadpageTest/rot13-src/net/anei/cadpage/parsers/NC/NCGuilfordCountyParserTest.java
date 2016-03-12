@@ -956,6 +956,7 @@ Pbagnpg: Npgvir911
 Ntrapl anzr: Cvarpebsg Frqtrsvryq SQ
 Ybpngvba: Terrafobeb, AP, Havgrq Fgngrf
 
+PNQ:CPFS;FG46;1;SVENY;205 RNFG SBEX EQ;DHNEGRECNGU YA;WNZRFGBJA;14
 PNQ:HAQRE PBAGEBY;5525 QENXR EQ; T
 PNQ:CPFS;FG25;1;SNYY;5525 QENXR EQ;QHAONEGBA QE;17N03T;TERRAFOBEB
 PNQ:HAQRE PBAGEBY;906 OEHFUL SBEX QE; T
@@ -3938,7 +3939,8 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVENY",
         "NQQE:5140 QHAFGNA EQ",
         "PVGL:TERRAFOBEB",
-        "VASB:SRYYBJFUVC UNYY / 14");
+        "VASB:SRYYBJFUVC UNYY",
+        "PU:GNP 14");
 
     qbGrfg("G3",
         "PNQ:SQ13;FG55;1;SVENFG;6720 ZPYRNAFIVYYR EQ;ABEGURNFG THVYSBEQ ZVQQYR FPUB;UVPBAR EQ;ZPYRNAFIVYYR",
@@ -10061,7 +10063,7 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:EBPX PERRX ZBOVYR UBZR CNEX",
         "K:ERQ OHQ QE",
         "PVGL:JUVGFRGG",
-        "VASB:14",
+        "PU:GNP 14",
         "PBQR:67P01");
 
     qbGrfg("G3",
@@ -11024,7 +11026,7 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:ORAWNZVA CXJL & J PBAR OYIQ",
         "HAVG:R40",
         "PVGL:TERRAFOBEB",
-        "VASB:14");
+        "PU:GNP 14");
 
     qbGrfg("G21",
         "PNQ:2016112720;1;FVPX;2506 OHETHAQL QE;PUREOBAAR QE;26Q01;R48;TERRAFOBEB",
@@ -11053,7 +11055,7 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:PURFUVER JNL",
         "HAVG:P3,R2,R1,R4,Y7,Y14",
         "PVGL:TERRAFOBEB",
-        "VASB:14");
+        "PU:GNP 14");
 
     qbGrfg("G24",
         "PNQ:2016112640;1;HAPBA;YNPL NI/FLXRF NI;R7;TERRAFOBEB",
@@ -11095,7 +11097,7 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:WBFRCU Z OELNA OYIQ",
         "HAVG:R20,Y20,R17",
         "PVGL:TERRAFOBEB",
-        "VASB:16");
+        "PU:GNP 16");
 
     qbGrfg("G28",
         "PNQ:2016112560;1;PUBXR;1400 LBHATF ZVYY EQ;UVPXBEL GERR YA;R53;TERRAFOBEB",
@@ -11137,7 +11139,7 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:URJVGG FG",
         "HAVG:R52",
         "PVGL:TERRAFOBEB",
-        "VASB:14");
+        "PU:GNP 14");
 
     qbGrfg("G32",
         "PNQ:2016112479;1;PURFG;1373 YRRF PUNCRY EQ;ABEGUJVAQ NCGF;JUVGR PUNCRY JNL;R2;TERRAFOBEB",
@@ -11159,7 +11161,7 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:V 40 J & SERRZNA ZVYY EQ",
         "HAVG:E5,Y11,P2,R11",
         "PVGL:TERRAFOBEB",
-        "VASB:GNP 14");
+        "PU:GNP 14");
 
     qbGrfg("G34",
         "PNQ:2016112454;1;50CV;V-40 J/SERRZNA ZVYY EQ;R11;TERRAFOBEB;GNP 14",
@@ -11170,7 +11172,7 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:V 40 J & SERRZNA ZVYY EQ",
         "HAVG:R11",
         "PVGL:TERRAFOBEB",
-        "VASB:GNP 14");
+        "PU:GNP 14");
 
     qbGrfg("G35",
         "PNQ:2016112441;1;URNEG;2421 ARJ BEYRNAF FG;XVEXZNA FG;19P02;R11;TERRAFOBEB",
@@ -11203,7 +11205,7 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:HF 220 F",
         "HAVG:Y11,R48,R11",
         "PVGL:TERRAFOBEB",
-        "VASB:14");
+        "PU:GNP 14");
 
     qbGrfg("G38",
         "PNQ:NYY HAVGF FGNTR;602 SHYGBA FG; T;NCG P",
@@ -11264,7 +11266,7 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:IVYYNTR PERFG QE",
         "HAVG:R1,NVE1,P1,R7,Y7,Y14,R14",
         "PVGL:TERRAFOBEB",
-        "VASB:GNP 16");
+        "PU:GNP 16");
 
     qbGrfg("G44",
         "PNQ:2016112270;1;SVENY;1215 NYQREZNA QE;NYQREZNA PG;R5,Y5;TERRAFOBEB;GNP 14",
@@ -11275,7 +11277,7 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:NYQREZNA PG",
         "HAVG:R5,Y5",
         "PVGL:TERRAFOBEB",
-        "VASB:GNP 14");
+        "PU:GNP 14");
 
     qbGrfg("G45",
         "PNQ:2016112206;1;PURFG;2900 CNGGREFBA FG;NEVMBAN CRGRF;OENAQG FG;R8;TERRAFOBEB",
@@ -11306,7 +11308,8 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:217 V-40 J",
         "ZNQQE:217 V 40 J",
         "PVGL:TERRAFOBEB",
-        "VASB:BA ENZC V-40 J / GNP 14",
+        "VASB:BA ENZC V-40 J",
+        "PU:GNP 14",
         "HAVG:R8");
 
     qbGrfg("G48",
