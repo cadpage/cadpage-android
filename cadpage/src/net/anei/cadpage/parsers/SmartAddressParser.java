@@ -234,6 +234,14 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_PREF_TRAILING_BOUND = 0x20000000;
   
+  /**
+   * Flag indicating the information following the address is restricted
+   * to simple information (ie not suplamental info).  Specifically, this
+   * means the address can be terminated with an apartment or cross street 
+   * keyword when no city is found
+   */
+  public static final int FLAG_SIMPLE_FOLLOWS = 0x40000000;
+  
 
   // Flag combination that indicates we are processing some kind of pad field
   // Rechecking the apt is treated as a flavor of pad field
@@ -2205,6 +2213,9 @@ public abstract class SmartAddressParser extends MsgParser {
     boolean padField = isFlagSet(FLAG_PAD_FIELD | FLAG_PAD_FIELD_EXCL_CITY);
     boolean cityOnly = isFlagSet(FLAG_ONLY_CITY);
     boolean nearToEnd = isFlagSet(FLAG_NEAR_TO_END);
+    
+    // If FLAG_SIMPLE_FOLLOWS is set, for city option from 1 to 2
+    if (cityOpt == 1 && isFlagSet(FLAG_SIMPLE_FOLLOWS)) cityOpt = 2;
 
     if (srcNdx >= tokens.length) return false;
     if ((cityOpt == 1 || checkStatus) && !parseToEnd && !nearToEnd && lastCity < srcNdx) return false;

@@ -16471,7 +16471,7 @@ choyvp pynff AWZbeevfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "R141030053 21:54",
 
         "CYNPR:ARGPBAT URVTUGF NCGF",
-        "NCG:5 - OYQT 24",
+        "NCG:5 OYQT 24",
         "NQQE:719 EG 46",
         "PVGL:Argpbat",
         "PNYY:FVPX - Pnapry Ernfba: QEVIRE NEI OYF RAEGR",
@@ -16489,7 +16489,7 @@ choyvp pynff AWZbeevfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "R141030053 21:54",
 
         "CYNPR:ARGPBAT URVTUGF NCGF",
-        "NCG:5 - OYQT 24",
+        "NCG:5 OYQT 24",
         "NQQE:719 EG 46",
         "PVGL:Argpbat",
         "PNYY:FVPX",
