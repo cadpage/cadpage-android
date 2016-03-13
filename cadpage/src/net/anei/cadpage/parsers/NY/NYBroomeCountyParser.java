@@ -24,7 +24,7 @@ public class NYBroomeCountyParser extends FieldProgramParser {
   
   public NYBroomeCountyParser() {
     super("BROOME COUNTY", "NY",
-          "SRC ( SELECT/2 EMPTY CALL ADDRCITY2 APT INFO X2 INFO+ " +
+          "SRC ( SELECT/2 EMPTY CALL ADDRCITY2 APT INFO+? X2 INFO+ " +
               "| CALL ADDR1/S6XP! INFO+ Cross_Sts:X1 Caller:NAME2 Phone:PHONE )");
   }
 
@@ -63,6 +63,7 @@ public class NYBroomeCountyParser extends FieldProgramParser {
     String[] flds;
     if (subject.equals("!")) {
       setSelectValue("2");
+      body = body.replace('\n', ' ');
       flds = body.split(":");
     }
 
@@ -108,10 +109,11 @@ public class NYBroomeCountyParser extends FieldProgramParser {
     if (name.equals("SRC")) return new SourceField(SRC_PTN_STR, true);
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDRCITY2")) return new MyAddressCity2Field();
-    if (name.equals("X2")) return new CrossField("Cross Sts-(.*)", true);
+    if (name.equals("X2")) return new MyCross2Field("Cross Sts-(.*)", true);
     if (name.equals("ADDR1")) return new MyAddress1Field();
     if (name.equals("X1")) return new MyCross1Field();
     if (name.equals("NAME2")) return new MyName2Field();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
@@ -131,6 +133,20 @@ public class NYBroomeCountyParser extends FieldProgramParser {
       return "PLACE ADDR APT CITY";
     }
   }
+  
+  private class MyCross2Field extends CrossField {
+    public MyCross2Field(String pattern, boolean hard) {
+      super(pattern, hard);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldStart(field, "/");
+      field = stripFieldEnd(field, "/");
+      super.parse(field, data);
+    }
+  }
+  
   
   private class MyAddress1Field extends AddressField {
     @Override
@@ -186,6 +202,14 @@ public class NYBroomeCountyParser extends FieldProgramParser {
       if (match.find()) {
         field = field.substring(0, match.start());
       }
+      super.parse(field, data);
+    }
+  }
+  
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals("ProQA Paramount Medical")) return;
       super.parse(field, data);
     }
   }

@@ -23,7 +23,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
   
   protected NCGuilfordCountyParser(String defCity, String defState) {
     super(defCity, defState,
-          "FYI? ID? ( CALL PRI ADDR EXTRA? X/Z+? UNIT INFO+ | ( CALL2 ADDR! | PRI/Z MUTUAL ADDR! | ( SRC SRC PRI | PRI? ) CODE? CALL ADDR! ) CODE? CITY? ( PLACE ID | ID? ) EXTRA? ( X X? | PLACE X X? | ) CODE? CITY? ( PRI UNIT? SRC SRC | ) XINFO+? UNIT CITY? INFO+ )");
+          "FYI? ID? ( CALL PRI ADDR EXTRA? X/Z+? UNIT INFO+ | ( CALL2 ADDR! | PRI/Z MUTUAL ADDR! | ( SRC SRC PRI | PRI? ) CODE? CALL ADDR! ) CODE? CITY? ( PLACE ID | ID? ) EXTRA? ( X X? | PLACE X X? | ) CODE? CITY? ( PRI UNIT? SRC SRC | ) XINFO+? UNIT CITY? XINFO+ )");
   }
   
   @Override
@@ -198,6 +198,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     }
   }
   
+  private static final Pattern INFO_CH_PTN = Pattern.compile("\\d{1,2}");
   private class CrossInfoField extends Field {
 
     @Override
@@ -219,6 +220,8 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
         data.strCity = field;
       } else if (field.startsWith("TAC ")) {
         data.strChannel = field;
+      } else if (data.strChannel.length() == 0 && INFO_CH_PTN.matcher(field).matches()) {
+        data.strChannel = "TAC " + field;
       } else if (data.strCode.length() == 0 && CODE_PTN.matcher(field).matches()) {
         data.strCode = field;
       } else if (data.strCall.length() == 0) {

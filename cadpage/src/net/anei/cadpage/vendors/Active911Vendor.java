@@ -890,6 +890,7 @@ class Active911Vendor extends Vendor {
       "US/OH/KnoxCounty",                 "OHKnoxCounty",
       "US/OH/LawrenceCounty",             "OHLawrenceCounty",
       "US/OH/LickingCounty",              "OHLickingCounty",
+      "US/OH/LSFD",                       "OHLoveland",
       "US/OH/LoganCounty",                "OHLoganCounty",
       "US/OH/LorainCounty",               "OHLorainCountyB",
       "US/OH/LucasCounty",                "OHLucasCounty",

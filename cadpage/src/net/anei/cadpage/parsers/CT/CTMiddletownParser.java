@@ -50,6 +50,7 @@ public class CTMiddletownParser extends FieldProgramParser {
   }
   
   private static final String[] CITY_LIST = new String[]{
+    "CROMWELL",
     "MIDDLETOWN"
   };
 }

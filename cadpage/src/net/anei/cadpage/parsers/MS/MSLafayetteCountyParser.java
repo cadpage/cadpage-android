@@ -80,6 +80,8 @@ public class MSLafayetteCountyParser extends DispatchGlobalDispatchParser {
       "ASSISTANCE CALL",
       "CONTROL BURN",
       "DETAIL",
+      "DOMESTIC IN PROGRESS",
+      "DOMESTIC NOT IN PROGRESS",
       "FIRE",
       "FIRE ALARM",
       "FIRE DUMPSTER",
@@ -94,8 +96,10 @@ public class MSLafayetteCountyParser extends DispatchGlobalDispatchParser {
       "SMELL OF SMOKE",
       "STRUCTURE FIRE",
       "SUICIDE ATTEMPT",
+      "SUICIDE THREATS",
       "SUSPICIOUS ACTIVITY",
       "TA EMS",
+      "TA TRAFFIC ACCIDENT",
       "WELFARE CONCERN"
  );
 }

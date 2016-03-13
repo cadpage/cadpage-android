@@ -15,6 +15,7 @@ Fraqre: PNQ_VAPVQRAG@fvxrfgba.bet
 (PNQ VAPVQRAG) Pnyy Ahzore: C201521494 \aFvghngvba: JRQ 1800 UE CNTRE GRFG \aNqqerff: 201 F Xvatfuvtujnl Fg , Fvxrfgba, 63801 ZB \aMbar: 1 \aFhoMbar: Fpbg
 (PNQ VAPVQRAG) Pnyy Ahzore: C201521491 \aFvghngvba: ERFPHR \aNqqerff: 1 ZBAGTBZREL Cym , FVXRFGBA, 63801 ZB\aFrag ol PNQ ZRFFNTR [Nggnpuzrag(f) erzbirq]
 (PNQ VAPVQRAG) Pnyy Ahzore: C201521475 \aFvghngvba: UVCYVAX GRFG \aNqqerff: 201 F Xvatfuvtujnl Fg , Fvxrfgba, 63801 ZB \aMbar: 1 \aFhoMbar: Fpbgg Pbhagl\a
+(PNQ VAPVQRAG) Pnyy Ahzore: C201605262 \aFvghngvba: JRNCBA-FUBGF SVERQ \aNqqerff: QBEBGUL / QRYZNE , FVXRFGBA,\aFrag ol PNQ ZRFFNTR
 
 */
 
@@ -96,6 +97,13 @@ choyvp pynff ZBFvxrfgbaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Fvxrfgba",
         "FG:ZB",
         "ZNC:1-Fpbgg Pbhagl");
+
+    qbGrfg("G6",
+        "(PNQ VAPVQRAG) Pnyy Ahzore: C201605262 \aFvghngvba: JRNCBA-FUBGF SVERQ \aNqqerff: QBEBGUL / QRYZNE , FVXRFGBA,\aFrag ol PNQ ZRFFNTR",
+        "VQ:C201605262",
+        "PNYY:JRNCBA-FUBGF SVERQ",
+        "NQQE:QBEBGUL & QRYZNE",
+        "PVGL:FVXRFGBA");
 
   }
   

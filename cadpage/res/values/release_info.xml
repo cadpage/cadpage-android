@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03102016</string>
+  <string name="release_date">03112016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.06.09\n
+Location Fixes:\n
+Contra Costa County, CA\n
+Stanislaus County, CA\n
+Middletown, CT\n
+Lake County, IN\n
+Washtenaw County, MI\n
+Warren County, MO\n
+Clatsop County, OR\n
+Webber County, UT\n
+\n
+v1.9.06.08\n
+Location Fixes:\n
+Sikeston, MO\n
+Broome County, NY\n
+\n
+General Fixes:\n
+Force close in new Android 6 permission logic\n
+\n
 v1.9.06.07\n
 Location Fixes:\n
 Calhoun County, AL\n
@@ -36,44 +55,7 @@ Kingsport, TN\n
 \n
 Location Fixes:\n
 Calhoun County, AL\n
-Marshall County, AL\n
-\n
-v1.9.06.04\n
-New Locations:\n
-Washington County, AR (alt)\n
-Morgan County, VA (alt)\n
-\n
-Location Fixes:\n
-Walker County, AL\n
-San Bernardino County, CA\n
-Simsbury, CT\n
-Macoupin County, IL\n
-Lafayette Parish, LA\n
-Lafayette County, MS\n
-Hamilton County, OH\n
-Marion County, OH\n
-Clarion County, PA\n
-Charleston County, SC\n
-Morgan County, TN\n
-Warren County, VA\n
-\n
-v1.9.06.03\n
-New Locations:\n
-Stockton, CA (alt)\n
-Daviess County, IN\n
-New South Wales, AU (alt)\n
-\n
-Location Fixes:\n
-Madison County, IL\n
-Randolph County, IL\n
-Chatham County, GA\n
-Whitfield County, GA\n
-Bullitt County, KY\n
-Ouachita Parish, LA\n
-Anne Arundel County, MD\n
-Roanoke County, VA\n
-Warren County, VA\n
-Snohomish County, WA
+Marshall County, AL
   </string>
 </resources>
   

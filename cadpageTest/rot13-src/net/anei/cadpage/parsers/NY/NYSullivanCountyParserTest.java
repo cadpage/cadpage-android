@@ -36,6 +36,10 @@ Pbagnpg: Qba Qhxr <qbaqhxr69@ubgznvy.pbz>
 Fraqre: 911@pb.fhyyvina.al.hf
 (911 Cntr) 13:21 Glcr: S-Npgvingrq Nynez Ybp: 15 BYQ SNYYF EQ K: EVIREFVQR QE / FGUL 42, OEVPXZNA EQ I: Snyyfohet PA: Orawnzva Pbfbe Ryrzragne
 
+Pbagnpg: Fpbgg ZpTbjna <jnyyl_1212@ubgznvy.pbz>
+Fraqre: ???
+(911 Cntr) 16:47 Glcr: S-Oehfu Sver Ybp: 230 ORUE EQ K: ZBYYRE EQ / WVZ FGRCURAFBA EQ I: Orgury PA:
+
 */
 
 choyvp pynff ALFhyyvinaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -189,6 +193,18 @@ choyvp pynff ALFhyyvinaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Snyyfohet",
         "ANZR:Orawnzva Pbfbe Ryrzragne");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgFpbggZpTbjna() {
+
+    qbGrfg("G1",
+        "(911 Cntr) 16:47 Glcr: S-Oehfu Sver Ybp: 230 ORUE EQ K: ZBYYRE EQ / WVZ FGRCURAFBA EQ I: Orgury PA:",
+        "PNYY:S-Oehfu Sver",
+        "NQQE:230 ORUE EQ",
+        "K:ZBYYRE EQ / WVZ FGRCURAFBA EQ",
+        "PVGL:Orgury");
+    
   }
 
   
