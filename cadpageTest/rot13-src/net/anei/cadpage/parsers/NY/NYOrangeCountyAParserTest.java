@@ -9,7 +9,6 @@ vzcbeg bet.whavg.Grfg;
 Benatr Pbhagl, AL
 Pbagnpg: Trbetr Rjvatf <trjvatf@tznvy.pbz>
 Pbagnpg: Frgu Nezfgebat <frgunezfgebat31@tznvy.pbz>
-Pbagnpg: Qnir Noobgg <qnirn@n1-freivprf.pbz>
 Pbagnpg: Ohegba Fgehoyr <ohegba.fgehoyr@tznvy.pbz>
 Pbagnpg: xriva gbeerf <alpss103@tznvy.pbz>
 Pbagnpg: Xra Elcxrzn <xraelc119@tznvy.pbz> "znvy.invyftngrsq.pbz" <xelcxrzn@znvy.invyftngrsq.pbz>

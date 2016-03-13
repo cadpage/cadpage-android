@@ -10,7 +10,6 @@ Benatr Pbhagl, AL (Inevnag O)
 Pbagnpg: Trbetr Rjvatf <trjvatf@tznvy.pbz>
 Pbagnpg: Frgu Nezfgebat <frgunezfgebat31@tznvy.pbz>
 Pbagnpg: Ohegba Fgehoyr <ohegba.fgehoyr@tznvy.pbz>
-Pbagnpg:  Qnir Noobgg <qnirn@n1-freivprf.pbz>
 Pbagnpg: xriva gbeerf <alpss103@tznvy.pbz>
 Pbagnpg: Xriva Untna <xuntna7937@tznvy.pbz>
 Pbagnpg: Trbetr Cnqtrgg <tcnqtrgg269@tznvy.pbz>
