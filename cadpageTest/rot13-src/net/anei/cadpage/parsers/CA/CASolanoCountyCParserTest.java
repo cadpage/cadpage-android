@@ -13,6 +13,8 @@ Ybpngvba: Oravpvn, PN, Havgrq Fgngrf
 Fraqre: ORAVPVN@qncntr.arg
 Fraqre: Oravpvn SQ <oravpvn@qncntr.arg>
 
+(5005 Znwbe Vap qvfcngpu) ZRQVPNY - CEVBEVGL 1/300 R U FG #128/ORAVPVN/#128 ENAPUB ORAVPVN/R 3EQ FG/R 4GU FG/S18/18/ECGF 87 LBN SRZNYR JVGU QVSS OERNGUVAT./NZO1 R11/160710016/03-11-16/05:47:41/
+(5005 Znwbe Vap qvfcngpu) PVGVMRA NFFVFG/505 J W FG/ORAVPVN/J 5GU FG/J 6GU FG/S5/16/16/ECGF CVCR OHEFG VA GUR ONGUEBBZ NAQ JNGRE PBZVAT BHG BS/E11/160710010/03-11-16/04:36:50/
 Fhowrpg: 5005 Znwbe Vap qvfcngpu\aFraqre: ORAVPVN@tnatrf.qncntr.arg\aErghea-Cngu: ORAVPVN@tnatrf.qncntr.arg\aPbagrag-Glcr: grkg/cynva; punefrg=hgs-8\aSebz: Oravpvn SQ <oravpvn@qncntr.arg>\aErcyl-Gb: oravpvn@qncntr.arg\aK-Znvyre: QN/Cntr 3.1\a\aANGHENY TNF YRNX/1841 FUVEYRL QE/ORAVPVN/OYNAPUNEQ YA/PHYQRFNP/S8/26Q/58/R11/151660048/06-15-15/11:57:14/
 (5005 Znwbe Vap qvfcngpu) ANGHENY TNF YRNX/1841 FUVEYRL QE/ORAVPVN/OYNAPUNEQ YA/PHYQRFNP/S8/26Q/58/R11/151660048/06-15-15/11:57:14/
 (5002 Onfvp qvfcngpu) ZRQVPNY - CEVBEVGL 1/300 R U FG #51/ORAVPVN/#51 ENAPUB ORAVPVN/R 3EQ FG/R 4GU FG/S18/18/ECGF FUR VF 76 LBN NAQ SRRYVAT SNVAG NAQ JRNX/NZO1 R11/151660036/06-15-15/09:23:07/
@@ -125,6 +127,35 @@ choyvp pynff PNFbynabPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCnefre() {
+
+    qbGrfg("K1",
+        "(5005 Znwbe Vap qvfcngpu) ZRQVPNY - CEVBEVGL 1/300 R U FG #128/ORAVPVN/#128 ENAPUB ORAVPVN/R 3EQ FG/R 4GU FG/S18/18/ECGF 87 LBN SRZNYR JVGU QVSS OERNGUVAT./NZO1 R11/160710016/03-11-16/05:47:41/",
+        "PNYY:ZRQVPNY",
+        "CEV:1",
+        "NQQE:300 R U FG",
+        "NCG:128",
+        "PVGL:ORAVPVN",
+        "CYNPR:#128 ENAPUB ORAVPVN",
+        "K:R 3EQ FG & R 4GU FG",
+        "ZNC:S18-18",
+        "VASB:ECGF 87 LBN SRZNYR JVGU QVSS OERNGUVAT.",
+        "HAVG:NZO1 R11",
+        "VQ:160710016",
+        "QNGR:03/11/16",
+        "GVZR:05:47:41");
+
+    qbGrfg("K2",
+        "(5005 Znwbe Vap qvfcngpu) PVGVMRA NFFVFG/505 J W FG/ORAVPVN/J 5GU FG/J 6GU FG/S5/16/16/ECGF CVCR OHEFG VA GUR ONGUEBBZ NAQ JNGRE PBZVAT BHG BS/E11/160710010/03-11-16/04:36:50/",
+        "PNYY:PVGVMRA NFFVFG",
+        "NQQE:505 J W FG",
+        "PVGL:ORAVPVN",
+        "K:J 5GU FG & J 6GU FG",
+        "ZNC:S5-16-16",
+        "VASB:ECGF CVCR OHEFG VA GUR ONGUEBBZ NAQ JNGRE PBZVAT BHG BS",
+        "HAVG:E11",
+        "VQ:160710010",
+        "QNGR:03/11/16",
+        "GVZR:04:36:50");
 
     qbGrfg("G1",
         "Fhowrpg: 5005 Znwbe Vap qvfcngpu\a" +
