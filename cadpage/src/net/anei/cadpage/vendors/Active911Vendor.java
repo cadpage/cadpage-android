@@ -1229,6 +1229,7 @@ class Active911Vendor extends Vendor {
       "US/WI/CityofLakeGeneva",           "WIWalworthCounty",
       "US/WI/DaneCounty",                 "WIDaneCounty",
       "US/WI/DoorCounty",                 "WIDoorCounty",
+      "US/WI/FondDuLacCounty",            "WIFondDuLacCounty",
       "US/WI/MukwonagoFire",              "WIWaukeshaCountyB",
       "US/WI/RacineCounty",               "WIRacineCounty",
       "US/WI/SheboyganCounty",            "WISheboyganCounty",
