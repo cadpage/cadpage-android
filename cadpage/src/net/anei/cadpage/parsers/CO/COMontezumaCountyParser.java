@@ -13,6 +13,7 @@ public class COMontezumaCountyParser extends FieldProgramParser {
   public  COMontezumaCountyParser() {
     super(CITY_LIST, "MONTEZUMA COUNTY", "CO", 
           "ID DATE/d TIME ( CALL ADDR/Z CITY | CALL CALL/L ADDR/Z CITY | CALL CALL2/L? ADDR ) ( PLACE X/Z X/Z INFO SRC! | PLACE X/Z X/Z SRC! | PLACE_X/Z X/Z SRC! | PLACE_X/Z SRC! | SRC! | X X? | PLACE X X? | X+? ) INFO/SLS+? UNIT! END");
+    removeWords("RR");   // RR is a unit, not a cross street
   }
 
   @Override

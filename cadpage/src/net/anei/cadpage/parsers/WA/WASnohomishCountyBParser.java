@@ -11,6 +11,7 @@ public class WASnohomishCountyBParser extends FieldProgramParser {
   public WASnohomishCountyBParser() {
     super("SNOHOMISH COUNTY", "WA",
            "CALL_CH CH? ADDRCITY/S6 MAP2/D? X_UNIT_INFO! INFO/S+");
+    setupParseAddressFlags(FLAG_ALLOW_DUAL_DIRECTIONS);
   }
   
   @Override
@@ -101,11 +102,6 @@ public class WASnohomishCountyBParser extends FieldProgramParser {
     public String getFieldNames() {
       return "X UNIT INFO";
     }
-  }
-  
-  @Override
-  public int getExtraParseAddressFlags(){
-    return FLAG_ALLOW_DUAL_DIRECTIONS;
   }
   
   @Override

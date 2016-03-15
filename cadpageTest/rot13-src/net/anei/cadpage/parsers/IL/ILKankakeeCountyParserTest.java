@@ -1362,7 +1362,8 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:EZP",
         "FEP:Zbzrapr Sver",
         "NQQE:4080 A O FG",
-        "CYNPR:SYE 1 ZPNYYVFGRE VASVEZNEL",
+        "NCG:SYE 1",
+        "CYNPR:ZPNYYVFGRE VASVEZNEL",
         "PVGL:Zbzrapr",
         "PNYY:NZOHYNAPR",
         "VQ:2014-00000922");
@@ -1599,7 +1600,8 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:EZP",
         "FEP:Fg.Naar Sver",
         "NQQE:300 F QVKVR UJL",
-        "CYNPR:SYE 1 FURYY FG NAAR",
+        "NCG:SYE 1",
+        "CYNPR:FURYY FG NAAR",
         "PVGL:Fg Naar",
         "PNYY:NZOHYNAPR",
         "VQ:2014-00000900");
@@ -1811,7 +1813,8 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:EZP",
         "FEP:Zbzrapr Sver",
         "NQQE:15 A CVAR FG",
-        "CYNPR:SYE 1 ZBZRAPR SVER",
+        "NCG:SYE 1",
+        "CYNPR:ZBZRAPR SVER",
         "PVGL:Zbzrapr",
         "PNYY:NZOHYNAPR",
         "VQ:2014-00000879");
@@ -3028,7 +3031,7 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:OBHE",
         "FEP:Obheobaanvf Sver",
         "NQQE:461 OEBJA OYIQ",
-        "CYNPR:SYE 1",
+        "NCG:SYE 1",
         "PVGL:Obheobaanvf",
         "PNYY:NZOHYNAPR",
         "VQ:2014-00000629");
@@ -3271,7 +3274,7 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:OBHE",
         "FEP:Obheobaanvf Sver",
         "NQQE:230 J WBUA PNFRL EQ",
-        "CYNPR:SYE 1",
+        "NCG:SYE 1",
         "PVGL:Obheobaanvf",
         "PNYY:NZOHYNAPR",
         "VQ:2014-00000603");
@@ -3393,7 +3396,7 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:OBHE",
         "FEP:Obheobaanvf Sver",
         "NQQE:362 A EBL FG",
-        "CYNPR:SYE 1",
+        "NCG:SYE 1",
         "PVGL:Obheobaanvf",
         "PNYY:NZOHYNAPR",
         "VQ:2014-00000590");
@@ -5839,7 +5842,7 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:NZ2",
         "FEP:Fgngvba #6",
         "NQQE:1050 A FPUHLYRE NIR",
-        "CYNPR:SYE 1",
+        "NCG:SYE 1",
         "PVGL:Xnaxnxrr",
         "PNYY:NZOHYNAPR",
         "VQ:2014-00001116");
@@ -7364,7 +7367,8 @@ choyvp pynff VYXnaxnxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NZOHYNAPR",
         "NQQE:2925 EVIREFGBAR PG",
         "PVGL:Xnaxnxrr",
-        "CYNPR:SYE 1 - FCRRQJNL FPUHLYRE",
+        "NCG:SYE 1",
+        "CYNPR:FCRRQJNL FPUHLYRE",
         "QNGR:03/17/14",
         "GVZR:01:03",
         "VQ:2014-00001242");

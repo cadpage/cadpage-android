@@ -7178,8 +7178,7 @@ choyvp pynff APPyrirynaqPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CUBAR:8282896893",
         "PNYY:SVER/UBH",
         "NQQE:1137 FGRRY OEVQTR EQ",
-        "K:ZG CYRNFNAG PUHEPU EQ",
-        "VASB:W & E QE");
+        "K:ZG CYRNFNAG PUHEPU EQ & W & E QE");
 
     qbGrfg("G36",
         "PNQ:SVER/UBH-110 F ZNVA FG-TJH/UNZEVPX SVRYQUBHFR-DHVA PVE-QRPXRE PG-ternfr sver [11/15/14 11:43:58 PWZ]",

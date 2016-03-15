@@ -13,7 +13,7 @@ public class TXLibertyCountyParser extends SmartAddressParser {
   private static final Pattern NUMBER_O = Pattern.compile("(\\d+)O(\\d*)");
   
   public TXLibertyCountyParser() {
-    super(CITY_CODES, "LIBERTY COUNTY", "TX");
+    super("LIBERTY COUNTY", "TX");
     setFieldList("CALL ADDR PLACE INFO");
   }
   
@@ -50,9 +50,15 @@ public class TXLibertyCountyParser extends SmartAddressParser {
     
     // OK, see if we can find an address
     // Address is usually at the beginning of the call, so we will try that first
-    // if no luck that way, look for it anywhere
+    // if no luck that way, look for it anywhere.
+    // Intersections are a special problem.  A good second street will now pick up
+    // sloppy first street.  We should try and see if we can do better with call description
     Result res = parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT, body);
     if (!res.isValid()) res = parseAddress(StartType.START_CALL, FLAG_NO_IMPLIED_APT, body);
+    else if (res.getStatus() == STATUS_INTERSECTION) {
+      Result tmp = parseAddress(StartType.START_CALL, FLAG_NO_IMPLIED_APT, body);
+      if (tmp.isValid()) res = tmp;
+    }
     
     // Still no luck?  Subject goes in call, body goes in place and call it good
     if (!res.isValid()) {
@@ -81,7 +87,4 @@ public class TXLibertyCountyParser extends SmartAddressParser {
     data.strCall = subject;
     return true;
   }
-  
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-  });
 }

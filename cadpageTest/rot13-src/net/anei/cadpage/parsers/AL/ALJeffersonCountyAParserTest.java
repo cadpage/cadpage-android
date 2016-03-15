@@ -414,8 +414,8 @@ choyvp pynff NYWrssrefbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G32",
         "459A @ 280 RKVG 280 RKVG ENZC ZIN",
-        "CYNPR:459A @ 280 RKVG 280 RKVG ENZC ZIN",
-        "PNYY:TRARENY ERCBEG");
+        "NQQE:459A & 280",
+        "PNYY:RKVG 280 RKVG ENZC ZIN");
 
     qbGrfg("G33",
         "V459 F WHFG NSGRE NPGBA EQ RKG              ZIN",

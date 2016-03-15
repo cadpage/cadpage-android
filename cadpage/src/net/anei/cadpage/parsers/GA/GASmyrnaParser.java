@@ -8,6 +8,7 @@ public class GASmyrnaParser extends DispatchOSSIParser {
   public GASmyrnaParser() {
     super("SMYRNA", "GA",
            "FYI CALL ADDR! X+? INFO+? ID");
+    setupParseAddressFlags(FLAG_ALLOW_DUAL_DIRECTIONS);
   }
   
   @Override

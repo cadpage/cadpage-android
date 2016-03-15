@@ -11025,15 +11025,14 @@ choyvp pynff CNNqnzfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Genssvp Nppvqrag - 2",
         "CEV:1",
-        "OBK:33-13",
-        "CYNPR:YVAPBYAJNL J/OBYGBA FG",
-        "NQQE:OBK 33-5",
-        "ZNQQE:OBK 33-5 & OBYGBA FG",
+        "OBK:33-13 / 33-5",
+        "NQQE:YVAPBYAJNL J & OBYGBA FG",
         "PVGL:ARJ BKSBEQ",
         "K:OBYGBA FG & ZVQQYR FG",
         "HAVG:BSP33,29N,R33-2,33N,F33,R33-1",
         "QNGR:02/10/2015",
         "GVZR:10:26:26");
+
 
     qbGrfg("G54",
         "(Nyreg: Purfg Cnva - 1) NYEZ YIY: 1, EHA PNEQ: OBK 29-1\a" +

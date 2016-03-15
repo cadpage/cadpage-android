@@ -4942,7 +4942,8 @@ choyvp pynff APCvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:08/26/2014",
         "GVZR:14:04",
         "PNYY:FGHPX VA RYRINGBE (3 CRBCYR)",
-        "NQQE:CPP & YRFYVR OYQT");
+        "NQQE:CPP & YRFYVR",
+        "VASB:OYQT");
 
     qbGrfg("G21",
         "(911 Sver Pnyy) S15|Epiq:08/26/2014 12:04|Efa:ZNYR BIREURNGRQ|Abgr:2740 ONEOREN QE|Nqe:0  -",
@@ -8915,8 +8916,8 @@ choyvp pynff APCvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:08/22/2014",
         "GVZR:14:02",
         "PNYY:ZIP CV",
-        "NQQE:OYNPX WNPX - FVZCFBA EQ & UHQFBAF PEBFFEBNQF EQ & & UHQFBA PEBFFEBNQF",
-        "ZNQQE:OYNPX WNPX - FVZCFBA EQ & UHQFBAF PEBFFEBNQF EQ & UHQFBA PEBFFEBNQF");
+        "VASB:// UHQFBA PEBFFEBNQF",
+        "NQQE:OYNPX WNPX - FVZCFBA EQ & UHQFBAF PEBFFEBNQF EQ");
 
     qbGrfg("G86",
         "(911 Sver Pnyy) S34|Epiq:08/22/2014 12:02|Efa:ERF SVER NYNEZ|Abgr:4428 OYHROVYY QE NCG 7|Nqe:1717 J 5GU FG",

@@ -2110,8 +2110,7 @@ choyvp pynff VYQhCntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZVFPRYYNARBHF FVATYR RATVAR",
         "NQQE:6521 FGNVE",
         "PVGL:QBJAREF TEBIR",
-        "CYNPR:QRNQ RAQ",
-        "K:CERAGVFF QE",
+        "K:QRNQ RAQ & CERAGVFF QE",
         "ZNC:8/95O",
         "VASB:pb qrgrpgbe tbvat bss 15 zvaf.,");
 

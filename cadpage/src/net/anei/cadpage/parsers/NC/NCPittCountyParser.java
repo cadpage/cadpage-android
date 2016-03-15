@@ -54,7 +54,6 @@ public class NCPittCountyParser extends FieldProgramParser {
     if (!parseFields(body.split("\\|"), data)) return false;
     
     if (data.strAddress.length() == 0) {
-      data.strAddress = "";
       parseAddress(StartType.START_ADDR, data.strSupp, data);
       data.strSupp = getLeft();
     } else if (data.strSupp.equals("SAME")) {

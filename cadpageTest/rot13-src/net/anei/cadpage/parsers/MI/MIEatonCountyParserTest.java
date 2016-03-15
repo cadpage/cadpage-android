@@ -1659,7 +1659,8 @@ choyvp pynff ZVRngbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:ZRQVPNY NFFVFG",
         "NQQE:540 J FGBQQNEQ FG",
-        "VASB:EE GENPXF / UVTU FG / SNYYF. / CG-EVPUNEQ ENZ GK 517-543-0882. / TNENTR QBBE R FVQR PBQR VF 1673 RAGRE",
+        "K:EE GENPXF & UVTU FG",
+        "VASB:SNYYF. / CG-EVPUNEQ ENZ GK 517-543-0882. / TNENTR QBBE R FVQR PBQR VF 1673 RAGRE",
         "QNGR:05/09/2014",
         "GVZR:00:50:47");
 

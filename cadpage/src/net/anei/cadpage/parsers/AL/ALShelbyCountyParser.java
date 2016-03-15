@@ -45,9 +45,7 @@ public class ALShelbyCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("TYPE")) return new SkipField("Cad.*", true);
     if (name.equals("DATETIME")) return new MyDateTimeField();
-    if (name.equals("SRC_UNIT")) return new SourceUnitField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X"))  return new MyCrossField();
     if (name.equals("EXTRA")) return new MyExtraField();
@@ -76,21 +74,6 @@ public class ALShelbyCountyParser extends FieldProgramParser {
     }
   }
   
-  private class SourceUnitField extends Field {
-    @Override
-    public void parse(String field, Data data) {
-      int pt = field.indexOf('-');
-      if (pt < 0) abort();
-      data.strSource = field.substring(0,pt).trim();
-      data.strUnit = field.substring(pt+1).trim();
-    }
-
-    @Override
-    public String getFieldNames() {
-      return "SRC UNIT";
-    }
-  }
-  
   private static final Pattern ADDR_SPECIAL_PTN = Pattern.compile("([A-Z]{4} [A-Z]{3}): @(.*?)(?::(.*))?");
   private static final Pattern ADDR_DELIM_PTN = Pattern.compile(" *(?:[@:;,]|: @) *"); 
   private static final Pattern ADDR_APT_PTN = Pattern.compile("(?:#|(?:APT|RM|ROOM|UNIT|SUITE?|STE|LOT)(?![A-Z])) *(.*)|(?:LOT|FL) *.*|[A-Z]?\\d{1,5}[A-Z]?|[A-Z]|\\d+(?:ST|ND|RD|TH|) *FLR?");
@@ -114,6 +97,7 @@ public class ALShelbyCountyParser extends FieldProgramParser {
       String part2 = null;
       List<String> aptList = new ArrayList<String>();
       String place = "";
+      String alias = null;
       
       // Check special city src: @place:address pattern
       Matcher match = ADDR_SPECIAL_PTN.matcher(field);
@@ -160,6 +144,11 @@ public class ALShelbyCountyParser extends FieldProgramParser {
           
           if (part.endsWith("FD")) {
             if (data.strSource.length() == 0) data.strSource = part;
+            continue;
+          }
+          
+          if (part.toUpperCase().startsWith("ALIAS ")) {
+            alias = part.substring(6).trim();
             continue;
           }
           
@@ -221,6 +210,11 @@ public class ALShelbyCountyParser extends FieldProgramParser {
             place = append(part2, " - ", place);
           }
         }
+      }
+      
+      // append alias
+      if (alias != null) {
+        data.strAddress = append(data.strAddress, " ", '(' + alias + ')');
       }
       
       // append apt and place
