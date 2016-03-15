@@ -18,6 +18,7 @@ import android.app.AlarmManager;
 import android.app.IntentService;
 import android.app.PendingIntent;
 import android.app.Service;
+import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -682,7 +683,10 @@ public class C2DMService extends IntentService {
     intent.putExtra(Intent.EXTRA_SUBJECT, emailSubject);
     intent.putExtra(Intent.EXTRA_TEXT, "My " + type + " registration ID is " + ManagePreferences.registrationId());
     intent.setType("message/rfc822");
-    context.startActivity(Intent.createChooser(
-        intent, context.getString(R.string.pref_sendemail_title)));
+    try {
+      context.startActivity(Intent.createChooser(intent, context.getString(R.string.pref_sendemail_title)));
+    } catch (ActivityNotFoundException ex) {
+      Log.e(ex);
+    }
   }
 }

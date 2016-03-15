@@ -1,8 +1,10 @@
 package net.anei.cadpage.donation;
 
 import android.app.Activity;
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
+import net.anei.cadpage.Log;
 import net.anei.cadpage.R;
 import net.anei.cadpage.vendors.VendorManager;
 
@@ -32,8 +34,11 @@ public class SendDispatchAddressEvent extends DonateEvent {
     intent.putExtra(Intent.EXTRA_SUBJECT, context.getString(R.string.email_address_subject));
     intent.putExtra(Intent.EXTRA_TEXT, context.getString(R.string.email_address_text, emailAddress));
     intent.setType("message/rfc822");
-    context.startActivity(Intent.createChooser(
-        intent, context.getString(R.string.email_address_title)));
+    try {
+      context.startActivity(Intent.createChooser(intent, context.getString(R.string.email_address_title)));
+    } catch (ActivityNotFoundException ex) {
+      Log.e(ex);
+    }
   }
   
   private static final SendDispatchAddressEvent instance = new SendDispatchAddressEvent();

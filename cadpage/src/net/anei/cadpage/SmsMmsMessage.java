@@ -22,6 +22,7 @@ import net.anei.cadpage.parsers.MsgInfo;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.SplitMsgOptions;
 import net.anei.cadpage.vendors.VendorManager;
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -1098,7 +1099,12 @@ public class SmsMmsMessage implements Serializable {
     
     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-    context.startActivity(intent);
+    
+    try {
+      context.startActivity(intent);
+    } catch (ActivityNotFoundException ex) {
+      Log.e(ex);
+    }
 
   }
 
