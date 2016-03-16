@@ -18,7 +18,7 @@ public class LALafourcheParishParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "no-reply@ledsportal.com,Dispatch@thibfiredept.org";
+    return "ledsportal@lpso.net";
   }
   
   @Override

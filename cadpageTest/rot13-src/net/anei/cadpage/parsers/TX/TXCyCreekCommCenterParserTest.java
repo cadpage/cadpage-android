@@ -7,6 +7,12 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Pl Perrx Pbzz Pragre, GK
+
+Npgvir911 Cnefref:
+HF/GK/PlPerrxPbzzPragre
+HF/GK/Xngl
+GKPlPerrxPbzzPragre
+
 Pbagnpg: puevf cvibaxn <pcvibaxn87@tznvy.pbz>
 Fraqre: PbzzPragre@pprzf.pbz <Sebz%3NPbzzPragre@pprzf.pbz>
 

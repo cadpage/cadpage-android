@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 /**
  * Wise County, VA
@@ -17,7 +18,7 @@ public class VAWiseCountyParser extends FieldProgramParser {
   
   public VAWiseCountyParser(String defCity, String defState) {
     super(defCity, defState,
-          "SRC CALL ADDR MAP UNIT INFO+");
+          "SRC ( UNIT/Z ID TIMES! TIMES+ | CALL ADDR MAP UNIT INFO+ )");
   }
   
   @Override
@@ -27,38 +28,52 @@ public class VAWiseCountyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "Spillman_Paging@911.com";
+    return "pagers@dc911.org";
   }
-
-  private static final String SOURCE_VAL_PATTERN_STRING = "[A-Z]{4}",
-    MAP_VAL_PATTERN_STRING = "\\d{3}[A-Z]?",
-    UNIT_VAL_PATTERN_STRING = "[A-Z]{4,6}|ER|[A-Z]{3,4}\\d+",
-    CALLID_VAL_PATTERN_STRING = "\\d{2}[A-Z]{3}\\d{4}";
-  private static final Pattern RUN_REPORT_PATTERN
-    = Pattern.compile("("+SOURCE_VAL_PATTERN_STRING+")\\n"
-+                     "("+UNIT_VAL_PATTERN_STRING+")\\n"
-+                     "("+CALLID_VAL_PATTERN_STRING+").*", Pattern.DOTALL);
+  
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Message from HipLink")) return false;
-    
-    Matcher m = RUN_REPORT_PATTERN.matcher(body);
-    if (m.matches()) {
-      data.strCall = "RUN REPORT";
-      data.strSource = m.group(1);
-      data.strUnit = m.group(2);
-      data.strCallId = m.group(3);
-      data.strPlace = body;
-      return true;
-    }
+  protected boolean parseMsg(String body, Data data) {
     return parseFields(body.split("\n"), data);
   }
  
   @Override
   public Field getField(String name) {
-    if (name.equals("SRC"))return new SourceField(SOURCE_VAL_PATTERN_STRING, true);
-    if (name.equals("MAP")) return new MapField(MAP_VAL_PATTERN_STRING, true);
-    if (name.equals("UNIT")) return new UnitField(UNIT_VAL_PATTERN_STRING, true);
+    if (name.equals("SRC"))return new SourceField("[A-Z]{3,4}", true);
+    if (name.equals("ID")) return new IdField("\\d\\d[A-Z]{3}\\d{4}|\\d+");
+    if (name.equals("TIMES")) return new MyTimesField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("MAP")) return new MapField("\\d{3}[A-Z]?", true);
+    if (name.equals("UNIT")) return new UnitField("[A-Z]{4,6}|ER|[A-Z]{3,4}\\d+", true);
     return super.getField(name);
+  }
+  
+  private class MyTimesField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      data.msgType = MsgType.RUN_REPORT;
+      field = field.replace('.', ':');
+      data.strSupp = append(data.strSupp, "\n", field);
+    }
+  }
+  
+  private static final Pattern ADDR_CITY_ST_PTN = Pattern.compile("(.*),(.*?)(?: (TN))?");
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldEnd(field, "@");
+      
+      Matcher match = ADDR_CITY_ST_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1).trim();
+        data.strCity = match.group(2).trim();
+        data.strState = getOptGroup(match.group(3));
+      }
+      
+      else if (field.endsWith("; U")) {
+        field = field.substring(0,field.length()-3).trim();
+        data.defCity = "";
+      }
+      super.parse(field,  data);
+    }
   }
 }
