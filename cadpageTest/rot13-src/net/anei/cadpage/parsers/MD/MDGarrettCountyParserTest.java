@@ -10,7 +10,10 @@ Tneergg Pbhagl, ZQ
 Pbagnpg: xpgvpuaryy <xpgvpuaryy@Lnubb.pbz>
 Pbagnpg: oyhrrntyr1965 <oyhrrntyr1965@lnubb.pbz>
 Pbagnpg: ptybgsrygl101@lnubb.pbz <ptybgsrygl101@lnubb.pbz>
+
 Pbagnpg: oyhrrntyr1965 <oyhrrntyr1965@lnubb.pbz>
+Fraqre: tneerggpbhagl911@tp911.bet
+1 bs 2\aSEZ:tneerggpbhagl911@tp911.bet\aZFT:N932 vf raebhgr.\a208 A GUVEQ FG, BNX ZNE ZBGRY & ERFGNHENAG - FVPX CREFBA - PBYQ - OYF - 55-lrne-byq,\a(Pba'g) 2 bs 2\aSrznyr, Pbafpvbhf, Oernguvat. Fvpx Crefba (Fcrpvsvp Qvntabfvf). FVPX - N932 1601028 19:11(Raq)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Tneergg Pbhagl Choyvp Fnsrgl
@@ -517,6 +520,27 @@ choyvp pynff ZQTneerggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZQTneerggPbhaglCnefreGrfg() {
     frgCnefre(arj ZQTneerggPbhaglCnefre(), "TNEERGG PBHAGL", "ZQ", snyfr);
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOYhrRntyr1965() {
+
+    qbGrfg("G1",
+        "1 bs 2\a" +
+        "SEZ:tneerggpbhagl911@tp911.bet\a" +
+        "ZFT:N932 vf raebhgr.\a" +
+        "208 A GUVEQ FG, BNX ZNE ZBGRY & ERFGNHENAG - FVPX CREFBA - PBYQ - OYF - 55-lrne-byq,\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "Srznyr, Pbafpvbhf, Oernguvat. Fvpx Crefba (Fcrpvsvp Qvntabfvf). FVPX - N932 1601028 19:11(Raq)",
+
+        "GLCR:EHA_ERCBEG",
+        "NQQE:208 A GUVEQ FG",
+        "CYNPR:BNX ZNE ZBGRY & ERFGNHENAG",
+        "PNYY:N932 vf raebhgr. - FVPX CREFBA - PBYQ - OYF",
+        "VASB:55-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Fvpx Crefba (Fcrpvsvp Qvntabfvf). FVPX",
+        "HAVG:N932 1601028",
+        "GVZR:19:11");
+    
   }
 
   @Grfg

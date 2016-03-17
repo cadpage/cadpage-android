@@ -14,6 +14,7 @@ public class ORClatsopCountyParser extends SmartAddressParser {
   public ORClatsopCountyParser() {
     super("CLATSOP COUNTY", "OR");
     setFieldList("CALL ADDR APT PLACE INFO");
+    setupSpecialStreets("PROMENADE");
   }
   
   @Override
@@ -21,12 +22,17 @@ public class ORClatsopCountyParser extends SmartAddressParser {
     return "@cityofseaside.us,@astoria.or.us";
   }
 
+  private static final Pattern PROM_PTN = Pattern.compile("\\bPROM\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern AVE_PTN1 = Pattern.compile(".* (?:AVE|AVENUE)", Pattern.CASE_INSENSITIVE);
   private static final Pattern AVE_PTN2 = Pattern.compile("([A-Z])\\b(?: +#?(\\d+))?(?: +(.*))?", Pattern.CASE_INSENSITIVE);
   
   protected boolean parseMsg(String subject, String body, Data data) {
     //require subject
     if (subject.length() == 0) return false;
+    
+    // Expand PROM -> PROMONADE
+    subject = PROM_PTN.matcher(subject).replaceAll("PROMENADE");
+    body = PROM_PTN.matcher(body).replaceAll("PROMENADE");
 
     // split body to fields
     String[] fields = body.split("/");

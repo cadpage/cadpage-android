@@ -10,7 +10,7 @@ public class INLakeCountyParser extends FieldProgramParser {
 
   public INLakeCountyParser() {
     super(CITY_CODES, "LAKE COUNTY", "IN",
-      "SRC MAP CALL PAGED? ADDR UNIT! INFO/N+? ( ID Between:X DATETIME | Between:X DATETIME | DATETIME ) END");
+      "SRC MAP CALL STATUS? ADDR UNIT! INFO/N+? ( ID Between:X DATETIME | Between:X DATETIME | DATETIME ) END");
   }
   
   public String getFilter() {
@@ -25,8 +25,8 @@ public class INLakeCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("SRC")) return new SourceField("[A-Z]{4}", true);
-    if (name.equals("MAP")) return new MapField("[A-Z]*\\d*", true);
-    if (name.equals("PAGED")) return new SkipField("PAGED");
+    if (name.equals("MAP")) return new MapField("[-A-Z]*\\d*[A-Z]?", true);
+    if (name.equals("STATUS")) return new SkipField("DISP|PAGED|ENRT|ARRVD");
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("ID")) return new IdField("\\d{2}[A-Z]{1,3}\\d+", true);
@@ -93,13 +93,21 @@ public class INLakeCountyParser extends FieldProgramParser {
       "CED",  "CEDAR LAKE",
       "CRO",  "CROWN POINT",
       "DYE",  "DYER",
+      "GAR",  "GARY",
+      "GRI",  "GRIFFITH",
+      "HAM",  "HAMMOND",
+      "HEB",  "HEBRON",
       "HOB",  "HOBART",
       "HIG",  "HIGHLAND",
+      "LKS",  "LAKE STATION",
       "LOW",  "LOWELL",
       "MER",  "MERRILLVILLE",
+      "MUN",  "MUNSTER",
+      "REN",  "ROSELAWN",
+      "SCN",  "SCHNEIDER",
       "SCH",  "SCHERERVILLE",
+      "SHL",  "SHELBY",
       "STJ",  "ST JOHN",
       "WHI",  "WHITING"
-
     });
 }

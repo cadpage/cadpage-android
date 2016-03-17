@@ -143,19 +143,22 @@ public class MIWashtenawCountyParser extends FieldProgramParser {
     public String getFieldNames() { return "CITY ST"; }
   }
   
-  private static Pattern TIME = Pattern.compile("\\d{2}:\\d{2}:\\d{2}");
+  private static Pattern INFO_TIME = Pattern.compile("\\d{2}:\\d{2}:\\d{2}");
+  private static Pattern INFO_JUNK_PTN = Pattern.compile(".*[a-z].*");
   public class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      //if strTime empty, check for a TIME field
-      if (data.strTime.length() == 0) {
-        Matcher mat = TIME.matcher(field);
-        if (mat.matches()) {
-          //parse as TIME instead
-          data.strTime = field;
-          return;
-        }
-      } //if not, parse as info
+      
+      // Parse time field
+      Matcher mat = INFO_TIME.matcher(field);
+      if (mat.matches()) {
+        if (data.strTime.length() == 0) data.strTime = field;
+        return;
+      } 
+      
+      // User asked to drop everything containing lower case characters, 
+      // which sounds drastic, but turns out to work out quite well
+      if (INFO_JUNK_PTN.matcher(field).matches()) return;
       super.parse(field, data); 
     }
 

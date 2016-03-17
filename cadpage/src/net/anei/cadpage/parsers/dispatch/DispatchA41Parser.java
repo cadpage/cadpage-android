@@ -12,7 +12,7 @@ public class DispatchA41Parser extends FieldProgramParser {
   public static final int A41_FLG_NO_CALL = 1;
   public static final int  A41_FLG_ID = 2;
   
-  private static final Pattern DATE_TIME_PTN = Pattern.compile("(.*) +- From +(?:([A-Z][A-Z0-9]+) +)?(\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d:\\d\\d)");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("(.*) +- From +(?:([A-Z][A-Z0-9]+) +)?(\\d\\d/\\d\\d/\\d{4}) +(\\d\\d:\\d\\d:\\d\\d)$");
   
   private String prefix;
   private Pattern channelPattern;
