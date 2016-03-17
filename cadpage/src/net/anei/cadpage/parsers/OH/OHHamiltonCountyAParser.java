@@ -14,7 +14,7 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
  
   public OHHamiltonCountyAParser() {
     super(CITY_CODES, "HAMILTON COUNTY", "OH", 
-          "CALL! Bld:APT! Apt:APT/D! ADDR PLACE CITY TIME UNIT CH Alarm:PRI! Xst:X! END");
+          "CALL! Bld:APT! Apt:APT/D! ADDR PLACE SRC TIME UNIT CH Alarm:PRI! Xst:X! END");
     setupDoctorNames("FELDMAN", "KATIE");
     setupMultiWordStreets(MWORD_STREET_LIST);
     setupDoctorNames(
@@ -72,102 +72,107 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       Matcher match = PREFIX_PTN.matcher(flds[0]);
       if (!match.lookingAt()) return false;
       flds[0] = flds[0].substring(match.end()).trim();
-      return parseFields(flds, data);
+      if (!parseFields(flds, data)) return false;
+      
+      String city = DEPT_CITY_TABLE.getProperty(data.strSource);
+      if (city != null) data.strCity = city;
     }
     
     // Otherwise we have to do this the hard way :(
-    setFieldList("ADDR CITY ST APT PLACE CALL INFO TIME UNIT X");
-    
-    Matcher match = MASTER.matcher(body);
-    if (!match.matches()) return false;
-    String addr = match.group(1).trim();
-    String call = match.group(2);
-    String info = match.group(3);
-    String time = match.group(4);
-    String extra = match.group(5);
-    
-    // Clean blanks out of YMCA RD
-    addr = YMCA_PTN.matcher(addr).replaceAll("YMCA");
-    
-    // Old format had an asterisk delimited call field with a place
-    // name in front of it and a info field behind.  There is another
-    // call description in front of the address that duplicates the
-    // asterisk delimited field so we just skip it
-    if (call != null) {
-      parseAddress(StartType.START_OTHER, FLAG_IGNORE_AT | FLAG_CROSS_FOLLOWS, addr, data);
-      String sPlace = fixCity(getLeft(), data);
-      if (sPlace.startsWith("APT ")) {
-        Parser p = new Parser(sPlace.substring(4).trim());
-        data.strApt = p.get(' ');
-        sPlace = p.get();
-      }
-      data.strPlace = sPlace;
-      data.strCall = call.trim();
-      data.strSupp = getOptGroup(info);
-      if (data.strSupp.startsWith("Original Location :")) data.strSupp = "";
-    }
-    
-    // New format just has one field with a call description, address, and additional information
     else {
+      setFieldList("ADDR CITY ST APT PLACE CALL INFO TIME UNIT X");
       
-      // Sometimes the put an APT: label and field between the call and address
-      // which makes things easier
-      StartType st = StartType.START_CALL;
-      int flags = FLAG_START_FLD_REQ;
-      match = APT_PTN.matcher(addr);
-      if (match.matches()) {
-        st = StartType.START_ADDR;
-        flags = 0;
-        data.strCall = match.group(1);
-        data.strApt = match.group(2);
-        addr = match.group(3);
-      }
+      Matcher match = MASTER.matcher(body);
+      if (!match.matches()) return false;
+      String addr = match.group(1).trim();
+      String call = match.group(2);
+      String info = match.group(3);
+      String time = match.group(4);
+      String extra = match.group(5);
       
-      // otherwise we have to do this the hard way.
+      // Clean blanks out of YMCA RD
+      addr = YMCA_PTN.matcher(addr).replaceAll("YMCA");
       
-      parseAddress(st, flags | FLAG_IGNORE_AT | FLAG_CROSS_FOLLOWS, addr, data);
-      if (data.strAddress.length() == 0) {
-        data.msgType = MsgType.GEN_ALERT;
-        data.strSupp = append(data.strCall, " - ", getLeft());
-        data.strCall = "";
-        return true;
-      }
-      info = fixCity(getLeft(), data);
-      if (info.startsWith("LOC:")) {
-        info = info.substring(4).trim();
-        match = ORIG_LOC_PTN.matcher(info);
-        if (match.find()) info = info.substring(0,match.start());
-        data.strPlace = info;
-      } else {
-        match = ORIG_LOC_PTN.matcher(info);
-        if (match.find()) {
-          String place = info.substring(match.end());
-          if (!data.strAddress.contains(place)) data.strPlace = place;
-          info = info.substring(0,match.start());
+      // Old format had an asterisk delimited call field with a place
+      // name in front of it and a info field behind.  There is another
+      // call description in front of the address that duplicates the
+      // asterisk delimited field so we just skip it
+      if (call != null) {
+        parseAddress(StartType.START_OTHER, FLAG_IGNORE_AT | FLAG_CROSS_FOLLOWS, addr, data);
+        String sPlace = fixCity(getLeft(), data);
+        if (sPlace.startsWith("APT ")) {
+          Parser p = new Parser(sPlace.substring(4).trim());
+          data.strApt = p.get(' ');
+          sPlace = p.get();
         }
-        data.strSupp = info;
+        data.strPlace = sPlace;
+        data.strCall = call.trim();
+        data.strSupp = getOptGroup(info);
+        if (data.strSupp.startsWith("Original Location :")) data.strSupp = "";
       }
-    }
-
-    // Fix some Dispatch address typos
-    data.strAddress = data.strAddress.replace("DE SOTO", "DESOTO");
-    
-    // Process time if present
-    if (time  != null) data.strTime = time;
-
-    // Process leftover stuff
-    if (extra != null) {
-      Parser p = new Parser(extra.trim());
-      String x2 = p.getLastOptional(" XST2:");
-      String x1 = p.getLastOptional(" XST:");
-      data.strUnit = p.get();
-      data.strCross = append(x1, " & ", x2);
-    }
-    
-    // Last check to clean up mystery NECC city code
-    if (data.strCity.equals("NECC")) {
-      data.strPlace = append(data.strCity, " - ", data.strPlace);
-      data.strCity = "";
+      
+      // New format just has one field with a call description, address, and additional information
+      else {
+        
+        // Sometimes the put an APT: label and field between the call and address
+        // which makes things easier
+        StartType st = StartType.START_CALL;
+        int flags = FLAG_START_FLD_REQ;
+        match = APT_PTN.matcher(addr);
+        if (match.matches()) {
+          st = StartType.START_ADDR;
+          flags = 0;
+          data.strCall = match.group(1);
+          data.strApt = match.group(2);
+          addr = match.group(3);
+        }
+        
+        // otherwise we have to do this the hard way.
+        
+        parseAddress(st, flags | FLAG_IGNORE_AT | FLAG_CROSS_FOLLOWS, addr, data);
+        if (data.strAddress.length() == 0) {
+          data.msgType = MsgType.GEN_ALERT;
+          data.strSupp = append(data.strCall, " - ", getLeft());
+          data.strCall = "";
+          return true;
+        }
+        info = fixCity(getLeft(), data);
+        if (info.startsWith("LOC:")) {
+          info = info.substring(4).trim();
+          match = ORIG_LOC_PTN.matcher(info);
+          if (match.find()) info = info.substring(0,match.start());
+          data.strPlace = info;
+        } else {
+          match = ORIG_LOC_PTN.matcher(info);
+          if (match.find()) {
+            String place = info.substring(match.end());
+            if (!data.strAddress.contains(place)) data.strPlace = place;
+            info = info.substring(0,match.start());
+          }
+          data.strSupp = info;
+        }
+      }
+  
+      // Fix some Dispatch address typos
+      data.strAddress = data.strAddress.replace("DE SOTO", "DESOTO");
+      
+      // Process time if present
+      if (time  != null) data.strTime = time;
+  
+      // Process leftover stuff
+      if (extra != null) {
+        Parser p = new Parser(extra.trim());
+        String x2 = p.getLastOptional(" XST2:");
+        String x1 = p.getLastOptional(" XST:");
+        data.strUnit = p.get();
+        data.strCross = append(x1, " & ", x2);
+      }
+      
+      // Last check to clean up mystery NECC city code
+      if (data.strCity.equals("NECC")) {
+        data.strPlace = append(data.strCity, " - ", data.strPlace);
+        data.strCity = "";
+      }
     }
     
     return true;
@@ -185,6 +190,11 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     return left;
   }
   private static final Pattern COUNTY_PTN = Pattern.compile("[A-Z]+ +(?:CO|CTY)\\b *(.*)");
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("SRC", "SRC CITY");
+  }
   
   private static final String[] MWORD_STREET_LIST = new String[]{
     "ALTA VISTA",
@@ -778,4 +788,47 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "WIRES DOWN",
       "WIRES DOWN/ARCING/FIRE"
   );
+  
+  private static final Properties DEPT_CITY_TABLE = buildCodeTable(new String[]{
+      "Amberly Village FD",         "Amberly Village",
+      "Anderson Twp FD",            "Cincinnati",
+      "Blue Ash FD",                "Blue Ash",
+      "Cheviot FD",                 "Cheviot",
+      "Clermont CO FD",             "Clermont County",
+      "Cleves FD",                  "Cleves",
+      "Colerain Twp FD",            "Colerain Twp",
+      "Crosby Twp FD",              "Crosby Twp",
+      "Deerpark/Silverton FD",      "Deer Park",
+      "Delhi Twp FD",               "Delhi Twp",
+      "Elmwood FD",                 "Elmwood",
+      "Evendale FD",                "Evendale",
+      "Forest Park FD",             "Forest Park",
+      "Glendale FD",                "Glendale",
+      "Golf Manor FD",              "Golf Manor",
+      "Green Twp FD",               "Green Twp",
+      "Greenhills FD",              "Greenhills",
+      "Harrison FD",                "Harrison Twp",
+      "Lincoln Heights FD",         "Lincoln Heights",
+      "Little Miami JFD",           "Fairfax",
+      "Lockland FD",                "Lockland",
+      "Madeira/Indian Hill JFD",    "Madeira",
+      "Mariemont FD",               "Mariemont",
+      "Miami Twp FD",               "North Bend",
+      "Milford FD",                 "Milford",
+      "Montgomery FD",              "Montgomery",
+      "Mt Healthy FD",              "Mt Healthy",
+      "N College Hill FD",          "N College Hill",
+      "Reading FD",                 "Reading",
+      "Sharonville FD",             "Sharonville",
+      "Sprindale FD",               "Springdale",
+      "Springfield Twp FD",         "Springfield Twp",
+      "St Bernard FD",              "St Bernard",
+      "Sycamore Twp FD",            "Sycamore Twp",
+      "Sycamore Twp",               "Sycamore Twp",
+      "Terrace Park FD",            "Terrace Park",
+      "Warren CO FD",               "Warren County",
+      "Whitewater Twp FD",          "Whitewater Twp",
+      "Woodlawn FD",                "Woodlawn",
+      "Wyoming FD",                 "Wyoming"
+  });
 }

@@ -1250,6 +1250,7 @@ class Active911Vendor extends Vendor {
       "US/WY/ParkCounty",                 "WYParkCounty",
       "US/WY/SubletteCounty",             "WYSubletteCounty",
       "Utility/General/Default",          "General",
+      "Utility/General/Defaulty",         "General",
       "Utility/General/Fail",             "N/A",
       "Vendor/Cadpage/Default",           "Cadpage2",
       "Vendor/NewZealandPager/Revised",   "ZNZNewZealand",

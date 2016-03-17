@@ -12,7 +12,7 @@ public class DispatchDAPROParser extends FieldProgramParser {
   
   private static final String PROGRAM_STR = "( SELECT/1 ADDR/S6CX! | ADDR/S6! ) CFS:ID? INFO:INFO? Run:ID? CROSS:X";
   
-  private static final Pattern MARKER = Pattern.compile("([-A-Z0-9]+) (?:(\\d\\d:\\d\\d) )?");
+  private static final Pattern MARKER = Pattern.compile("([-A-Z0-9]+) (?:(\\d{0,2}:\\d\\d) )?");
 
 
   public DispatchDAPROParser(String defCity, String defState) {
@@ -43,7 +43,9 @@ public class DispatchDAPROParser extends FieldProgramParser {
       return true;
     }
     data.strSource = match.group(1);
-    data.strTime = getOptGroup(match.group(2));
+    String time = getOptGroup(match.group(2));
+    if (time.startsWith(":")) time = '0' + time;
+    data.strTime = time;
     body = body.substring(match.end());
     
     // A leading blank marks a missingn call description

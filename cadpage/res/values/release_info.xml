@@ -4,6 +4,14 @@
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.06.10\n
+Location Fixes:\n
+Hamilton County, OH\n
+Dickenson County, VA\n
+Galax, VA\n
+Wise County, VA\n
+Fond Du Lac County, WI\n
+\n
 v1.9.06.09\n
 Location Fixes:\n
 Contra Costa County, CA\n
@@ -44,18 +52,7 @@ Clark County, NV\n
 Broome County, NY\n
 \n
 General fixes:\n
-Force close processing audio alerts\n
-\n
-v1.9.06.05\n
-New Locations:\n
-Meriwether County, GA\n
-Todd County, KY\n
-Suffolk County, NY (alt)\n
-Kingsport, TN\n
-\n
-Location Fixes:\n
-Calhoun County, AL\n
-Marshall County, AL
+Force close processing audio alerts
   </string>
 </resources>
   
