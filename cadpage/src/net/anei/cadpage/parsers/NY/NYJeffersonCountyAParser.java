@@ -14,7 +14,7 @@ public class NYJeffersonCountyAParser extends FieldProgramParser {
   public NYJeffersonCountyAParser() {
     super("JEFFERSON COUNTY", "NY",
           "( SELECT/R Incident_#:SKIP! CAD_Call_ID_#:ID! Type:SKIP! Date/Time:DATETIME! Address:ADDR! Contact:NAME! Contact_Address:SKIP! Contact_Phone:PHONE1! Nature:CODE! Nature_Description:CALL! Determinant:SKIP! Determinant_Desc:SKIP! Complainant:SKIP! Comments:INFO! INFO/N+ " +
-          "| CALL ADDR2! INFO2 )");
+          "| CALL ADDR2! ( INFO2! END | X/Z? LATLON INFO2! END ) )");
   }
 
   private static final Pattern SUBJECT_BRK_PTN = Pattern.compile(" +(?=Incident #:|CAD Call ID #:|Type:|Date/Time:)");
@@ -74,11 +74,11 @@ public class NYJeffersonCountyAParser extends FieldProgramParser {
         subject = SUBJECT_BRK_PTN.matcher(subject).replaceAll("\n");
         body = subject + "\n" + body;
         return parseFields(body.split("\n"), data);
-      }
+      } 
+      else if (data.strSource.length() == 0) data.strSource = subject;
       
       setSelectValue("");
       flds = body.split("\\|", -1);
-      if (flds.length != 3) return false;
     }
     return parseFields(flds, data);
   }
@@ -92,6 +92,8 @@ public class NYJeffersonCountyAParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("PHONE1")) return new MyPhone1Field();
     if (name.equals("ADDR2")) return new MyAddress2Field();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("LATLON")) return new MyLatLonField();
     if (name.equals("INFO2")) return new MyInfo2Field();
     return super.getField(name);
   }
@@ -105,6 +107,8 @@ public class NYJeffersonCountyAParser extends FieldProgramParser {
   }
   
   private static final Pattern ADDR_PTN = Pattern.compile("\\(.\\)$");
+  private static final Pattern ADDR_APT_PTN = Pattern.compile("([A-Z]?\\d+[A-Z]?|[A-Z])|(?:APT|RM|ROOM|LOT) *([A-Z] \\d+[A-Z]?|\\S+) *(.*)");
+  private static final Pattern ADDR_BOUND_PTN = Pattern.compile("[NSEW]B");
   private class MyAddress2Field extends AddressField {
     
     @Override
@@ -113,13 +117,56 @@ public class NYJeffersonCountyAParser extends FieldProgramParser {
       if (match.find()) field = field.substring(0,match.start()).trim();
       Parser p = new Parser(field.trim());
       data.strCity = p.getLastOptional(':');
-      data.strPlace = p.getLastOptional(';');
+      String place = p.getLastOptional(';');
       parseAddress(p.get(), data);
+  
+      place = stripFieldStart(place, "U:");
+      match = ADDR_APT_PTN.matcher(place);
+      if (match.matches()) {
+        String apt = match.group(1);
+        if (apt == null) apt = match.group(2).replace(" ", "");
+        data.strApt = append(data.strApt, "-", apt);
+        place = getOptGroup(match.group(3));
+      }
+      if (ADDR_BOUND_PTN.matcher(place).matches()) {
+        data.strAddress = append(data.strAddress, " ", place);
+      } else {
+        data.strPlace = place;
+      }
     }
     
     @Override
     public String getFieldNames() {
       return "ADDR APT PLACE CITY";
+    }
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("Intersection of:")) return;
+      super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern LAT_LON_PTN = Pattern.compile("Lat: *(\\S*) *Lon: *(\\S*)");
+  private class MyLatLonField extends GPSField {
+    @Override
+    public boolean canFail() {
+     return true; 
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = LAT_LON_PTN.matcher(field);
+      if (!match.matches()) return false;
+      super.parse(match.group(1)+','+match.group(2), data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
   }
   
