@@ -251,7 +251,7 @@ choyvp pynff GKZnafsvryqCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{Grkg Zrffntr} PNQ:ZRQVPNY RZRETRAPL;1800 F HF 287 FO;YBAR FGNE EQ;RYYVF FG;ZSQ;TENAVGL,QBA;[RZF] PU2  [03/14/16 09:40:45 QOEBJA] abg oyrrqvat whfg pnaabg qevir  [03/14/16 09:40:04 FJVYYVF] vaibyirq va nppvqrag rneyvre jvgu 2 18 jurryref gevrq gb qevir oh",
         "PNYY:ZRQVPNY RZRETRAPL",
         "NQQE:1800 F HF 287 FO",
-        "ZNQQE:1800 F HF 287",
+        "ZNQQE:1800 F HF 287", //qbrf abg znc
         "K:YBAR FGNE EQ & RYYVF FG",
         "FEP:ZSQ",
         "ANZR:TENAVGL,QBA",
