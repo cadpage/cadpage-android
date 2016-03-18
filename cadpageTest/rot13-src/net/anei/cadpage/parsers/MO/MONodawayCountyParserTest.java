@@ -59,7 +59,7 @@ Fraqre: "WF239@ZNELIVYYRQCF.PBZ" <WF239@ZNELIVYYRQCF.PBZ>
 choyvp pynff ZBAbqnjnlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZBAbqnjnlPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "ABQNJNL PBHAGL", "ZB");
+    frgCnefre(arj ZBAbqnjnlPbhaglCnefre(), "ABQNJNL PBHAGL", "ZB");
   }
   
   @Grfg

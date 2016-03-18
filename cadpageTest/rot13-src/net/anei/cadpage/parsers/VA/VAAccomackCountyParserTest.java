@@ -44,6 +44,10 @@ Pbagnpg: Znelnaa O. Svgpurgg <rfzrqvp10@irevmba.arg>
 Fraqre: 2159700551
 RFIN911: PNQ:FRVMHERF;9502 UBFCVGNY NIR;ANFF;A211;Q2;SENAXGBJA EQ;JVYYVNZ S OREANEG PVE;ENLSVRYQF CUNEZNPL;201504384\a
 
+Pbagnpg: qpbcr2077 <qpbcr2077@tznvy.pbz>
+Fraqre: 2159700551
+RFIN911: PNQ:HAPBAFPVBHF/HAERFCBAFVIR/FLAPB;11291 PUNAARY EQ;NGYN;N50;P2;BIREYBBX EQ;BIREYBBX EQ;201601703
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Cnexfyrl ISP Vap Fgn. 7
 Ybpngvba: Cnexfyrl, IN, Havgrq Fgngrf
@@ -895,6 +899,20 @@ choyvp pynff INNppbznpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:DHNVY EHA NFFVFGRQ YVIVAT",
         "VQ:201504408");
     
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQpbcr2077() {
+
+    qbGrfg("G1",
+        "RFIN911: PNQ:HAPBAFPVBHF/HAERFCBAFVIR/FLAPB;11291 PUNAARY EQ;NGYN;N50;P2;BIREYBBX EQ;BIREYBBX EQ;201601703",
+        "PNYY:HAPBAFPVBHF/HAERFCBAFVIR/FLAPB",
+        "NQQE:11291 PUNAARY EQ",
+        "PVGL:NGYNAGVP",
+        "ZNC:N50,P2",
+        "K:BIREYBBX EQ & BIREYBBX EQ",
+        "VQ:201601703");
+
   }
 
   @Grfg
