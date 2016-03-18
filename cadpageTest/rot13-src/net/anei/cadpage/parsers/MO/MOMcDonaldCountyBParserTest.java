@@ -119,7 +119,7 @@ Fraqre: <911@AP-PQP.BET>
 choyvp pynff ZBZpQbanyqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZBZpQbanyqPbhaglOCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "ZPQBANYQ PBHAGL", "ZB");
+    frgCnefre(arj ZBZpQbanyqPbhaglOCnefre(), "ZPQBANYQ PBHAGL", "ZB");
   }
   
   @Grfg
