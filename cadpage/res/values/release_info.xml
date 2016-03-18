@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03112016</string>
+  <string name="release_date">03182016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.06.11\n
+Location Fixes:\n
+St Louis County, MO\n
+Jefferson County, NY\n
+Dallas County, TX\n
+\n
 v1.9.06.10\n
 Location Fixes:\n
 Hamilton County, OH\n
@@ -44,15 +50,7 @@ General improvements to address mapping.\n
 v1.9.06.06\n
 New Locations:\n
 Monterey County, CA (alt)\n
-San Diego County, CA (alt)\n
-\n
-Location Fixes:\n
-Gallatin County, KY\n
-Clark County, NV\n
-Broome County, NY\n
-\n
-General fixes:\n
-Force close processing audio alerts
+San Diego County, CA (alt)
   </string>
 </resources>
   
