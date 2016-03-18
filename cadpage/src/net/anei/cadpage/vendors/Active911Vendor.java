@@ -707,6 +707,7 @@ class Active911Vendor extends Vendor {
       "US/NC/CravenCounty",               "NCCravenCounty",
       "US/NC/DavidsonCounty",             "NCDavidsonCountyA",
       "US/NC/DavieCounty",                "NCDavieCounty",
+      "US/NC/DunnPD",                     "NCHarnettCountyC",
       "US/NC/DurhamCounty",               "NCDurhamCounty",
       "US/NC/EdgecombeCounty",            "NCEdgecombeCounty",
       "US/NC/ForsythCounty",              "NCForsythCounty",

@@ -68,6 +68,7 @@ Ntrapl anzr: TG: Tnyybjnl GJC Cbyvpr Pbzzhavpngvbaf
 Ybpngvba: Tnyybjnl, AW, Havgrq Fgngrf
 Fraqre: abercyl@tgcq.bet
 
+{!} Pnyy: ZRQVPNY ; Nqqerff: 600 F  BQRFFN NIR &  ; Ncg: ; Pvgl: Tnyybjnl Gjc ; Pebff: PBHAGL UJL 563 / NYBR FG ; Cynpr: Ubcr Nyy Qnl Sbhaqngvba; 39.474573508   -74.5961389889999 ; Aneengvir:  Qvmml, anhfn.  ; Havgf Qvfcngpurq: 267
 {!} Pnyy: CFLP ; Nqqerff: 400 PUEVF TNHCC QE &  ; Ncg: ; Pvgl: Tnyybjnl Gjc ; Pebff: OHPUNANA QE / TNESVRYQ NIR ; Cynpr: Ngynagvpner Nphgr Cnegvny Pner; 39.4724893850001   -74.542105839 ; Aneengvir:  hgvyvmr yrsg fvqr arne ovt qbbef  ; Havgf Qvfcngpurq 267n 
 {!} Pnyy: FRVMHERF ; Nqqerff: 543 F  OHSSNYB NIR &  ; Ncg: ; Pvgl: Tnyybjnl Gjc ; Pebff: J ZNVA FG / J RZCVER FG, J PRAGENY NIR ; Cynpr: ; 39.5231795706732   -74.6507964857916 ; Aneengvir:  pnyyre fgngrq ur jnf univat n frvmher naq fur jnf abg ba ybpngvba naq qvfpbaarpgrq  ; Havgf Qvfcngpurq 267 
 {!} Pnyy: ZRQVPNY ; Nqqerff: 734 R SVFURE PERRX EQ &  ; Ncg: ; Pvgl: Tnyybjnl Gjc ; Pebff: PVEPYR FGERRG / A DHNVY UVYY OYIQ, JUNYREF PBIR PG ; Cynpr: ; 39.4971286530001   -74.455455339 ; Aneengvir:  ulcregrafvba  ; Havgf Qvfcngpurq: 267 
@@ -580,6 +581,17 @@ choyvp pynff AWNgynagvpPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgTGTnyybjnlGJCCbyvprPbzzhavpngvbaf() {
+
+    qbGrfg("K1",
+        "{!} Pnyy: ZRQVPNY ; Nqqerff: 600 F  BQRFFN NIR &  ; Ncg: ; Pvgl: Tnyybjnl Gjc ; Pebff: PBHAGL UJL 563 / NYBR FG ; Cynpr: Ubcr Nyy Qnl Sbhaqngvba; 39.474573508   -74.5961389889999 ; Aneengvir:  Qvmml, anhfn.  ; Havgf Qvfcngpurq: 267",
+        "PNYY:ZRQVPNY",
+        "NQQE:600 F  BQRFFN NIR",
+        "PVGL:Tnyybjnl Gjc",
+        "K:PBHAGL UJL 563 / NYBR FG",
+        "CYNPR:Ubcr Nyy Qnl Sbhaqngvba",
+        "TCF:+39.474574,-74.596139",
+        "VASB:Qvmml, anhfn.",
+        "HAVG:267");
 
     qbGrfg("G1",
         "{!} Pnyy: CFLP ; Nqqerff: 400 PUEVF TNHCC QE &  ; Ncg: ; Pvgl: Tnyybjnl Gjc ; Pebff: OHPUNANA QE / TNESVRYQ NIR ; Cynpr: Ngynagvpner Nphgr Cnegvny Pner; 39.4724893850001   -74.542105839 ; Aneengvir:  hgvyvmr yrsg fvqr arne ovt qbbef  ; Havgf Qvfcngpurq 267n",
