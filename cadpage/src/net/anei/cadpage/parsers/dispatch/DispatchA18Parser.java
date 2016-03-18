@@ -57,7 +57,7 @@ public class DispatchA18Parser extends FieldProgramParser {
 
   private static final Pattern PLACE_PTN = Pattern.compile("-(.*[^ ])- +(.*)");
   private static final Pattern REMOVE_DASH_PTN = Pattern.compile("\\b(IH?|ST|RT|HWY)-\\d+");
-  private static final Pattern DELIM_PTN = Pattern.compile("[-/,]");
+  private static final Pattern DELIM_PTN = Pattern.compile("[-,]");
   private static final Pattern BOX_PTN = Pattern.compile("^BOX *(\\d+)", Pattern.CASE_INSENSITIVE);
   private static final Pattern DIR_PTN = Pattern.compile("([NSEW]|NORTH|SOUTH|EAST|WEST)\\b *", Pattern.CASE_INSENSITIVE);
   private static final Pattern BOUND_PTN = Pattern.compile("([NSEW]B)S?\\b *", Pattern.CASE_INSENSITIVE);
@@ -188,6 +188,7 @@ public class DispatchA18Parser extends FieldProgramParser {
     public void parse(String field, Data data) {
       field = field.replace("//", "/");
       if (field.equals("0/0")) field = "";
+      field = stripFieldStart(field, "/");
       field = stripFieldEnd(field, "/");
       field = stripFieldEnd(field, "/NULL");
       field = stripFieldEnd(field, "/0");
