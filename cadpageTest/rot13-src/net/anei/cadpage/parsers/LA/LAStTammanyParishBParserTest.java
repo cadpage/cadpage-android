@@ -78,7 +78,7 @@ choyvp pynff YNFgGnzznalCnevfuOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SQ13",
         "VQ:2016021008",
         "PNYY:N(a) Nppvqrag/vawhevrf unf orra",
-        "NQQE:Ujl 1077 @ Ujl 1085", //qbrf abg znc
+        "NQQE:Ujl 1077 & Ujl 1085",
         "PVGL:Pbivatgba",
         "FG:YN");
 
@@ -124,7 +124,7 @@ choyvp pynff YNFgGnzznalCnevfuOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SQ13",
         "VQ:2016020933",
         "PNYY:N(a) Nppvqrag unf orra",
-        "NQQE:Ujl 1077 @ 1085",
+        "NQQE:Ujl 1077 & 1085",
         "PVGL:Pbivatgba",
         "FG:YN");
 
@@ -206,7 +206,7 @@ choyvp pynff YNFgGnzznalCnevfuOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SQ13",
         "VQ:2016020796",
         "PNYY:N(a) Pbzcynvag unf orra",
-        "NQQE:Ebanyq Erntra Ujl @ Ujl 1077",
+        "NQQE:Ebanyq Erntra Ujl & Ujl 1077",
         "PVGL:Pbivatgba",
         "FG:YN");
 
@@ -215,8 +215,8 @@ choyvp pynff YNFgGnzznalCnevfuOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SQ13",
         "VQ:2016020795",
         "PNYY:N(a) Nppvqrag unf orra",
-        "NQQE:Ujl 1077 @ V12 Ro",
-        "ZNQQE:Ujl 1077 @ V 12",
+        "NQQE:Ujl 1077 & V12 Ro",
+        "ZNQQE:Ujl 1077 & V 12",
         "PVGL:Pbivatgba",
         "FG:YN");
 
