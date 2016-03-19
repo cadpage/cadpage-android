@@ -10,11 +10,6 @@ public class CASuisunCityBParser extends DispatchA3Parser {
     super(0, CITY_CODES, "SUISUN CITY", "CA");
   }
   
-  @Override
-  public String getFilter() {
-    return "alfredabruzzini@yahoo.com";
-  }
-  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ALNDLE",     "ALLENDALE",
       "AMER CNYN",  "AMERICAN CANYON",

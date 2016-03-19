@@ -968,7 +968,7 @@ class Active911Vendor extends Vendor {
       "US/PA/CentreCounty",               "PACentreCounty",
       "US/PA/ChesterCountyIAR",           "PAChesterCountyL",
       "US/PA/CityofModerna",              "PAChesterCountyD1",
-      "US/PA/ClarionCounty",              "PAClarionCountyC",
+      "US/PA/ClarionCounty",              "PAClarionCountyC,PAClarionCountyD",
       "US/PA/ClearfieldCounty",           "PAClearfieldCounty",
       "US/PA/ColumbiaCounty",             "PAColumbiaCounty",
       "US/PA/CrawfordCounty",             "PACrawfordCounty",
