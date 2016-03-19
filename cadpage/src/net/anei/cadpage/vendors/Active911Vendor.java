@@ -408,6 +408,7 @@ class Active911Vendor extends Vendor {
       "US/IL/OFallon",                    "ILOFallon",
       "US/IL/RandolphCounty",             "ILRandolphCountyA",
       "US/IL/Skokie",                     "ILCookCountyB",
+      "US/IL/SWCD911",                    "ILCookCountyE",
       "US/IN/BartholomewCounty",          "INBartholomewCounty",
       "US/IN/BooneCounty",                "INBooneCountyB",
       "US/IN/Bristol",                    "INElkhartCounty",
