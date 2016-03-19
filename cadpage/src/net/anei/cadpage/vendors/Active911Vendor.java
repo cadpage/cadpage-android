@@ -160,6 +160,7 @@ class Active911Vendor extends Vendor {
       "CA/BC/MidIsland",                  "ZCABCMidIslandRegion",
       "CA/BC/Nanaimo",                    "ZCABCNanaimo",
       "CA/BC/PrinceGeorge",               "ZCABCPrinceGeorge",
+      "CA/ON/ChathamKent",                "ZCAONChathamKent",
       "CA/QC/Quebec",                     "ZCAQCQuebec",
       "NZ/Auckland/AucklandREOC",         "ZNZAuckland",
       "NZ/NI/Auckland",                   "ZNZNewZealand",
