@@ -508,7 +508,6 @@ Cevbevgl 2, Hapbafpvbhf / Snvagvat 45 lrne(f) Srznyr Pbafpvbhf: Lrf Oernguvat Lr
 Pbagnpg: Npgvir911
 Ntrapl anzr: Eraqba SQ
 Ybpngvba: Eraqba, GK, Havgrq Fgngrf
-Fraqre: "WPRFQ" < nqzva@wprfqqvfcngpu.bet >
 
 Cevbevgl 1, Purfg Cnva 50 lrne(f) Znyr Pbafpvbhf: Lrf Oernguvat Lrf 10Q04 Pynzzl ng 1950 JUVFCREVAT BNXF FG, GNEENAG PBHAGL  p/f: BNX TEBIR YA Obk: 466 S4 . . 15:49:00
 Cevbevgl 2, Genhzngvp Vawhevrf Haxabja lrne(f) Haxabja Pbafpvbhf: Ab Oernguvat Ab 30O01 CBFFVOYL QNATREBHF obql nern ng 4300 S Z EQ 1187, GNEENAG PBHAGL  p/f: ERQOVEQ YA Obk: 467 P2   B: ZBZRAGHZ ZRGNY . . 10:57:48
