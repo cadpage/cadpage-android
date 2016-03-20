@@ -1134,7 +1134,6 @@ class Active911Vendor extends Vendor {
       "US/TX/MontgomeryCounty",           "TXMontgomeryCountyB",
       "US/TX/NuecesCounty",               "TXNuecesCounty",
       "US/TX/OssiCAD",                    "TXLaPorte",
-      "US/TX/OysterCreekPD",              "TXBrazoriaCountyC",
       "US/TX/ParkerCounty",               "TXParkerCountyB",
       "US/TX/Rosenburg",                  "TXRosenberg",
       "US/TX/RoyseCity",                  "TXRoyseCity",
