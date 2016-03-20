@@ -3979,6 +3979,14 @@ Take care,
 Jean ~ Cadpage Administrator
 
 ************************************************************************
+I see that you have selected the General location as well as two specific locations. Please note that the General location does not really know anything about how your text messages are structured and can only pull a limited amount of information from them.
+
+To really get the full benefit of Cadpage you need to ONLY specify the location setting(s) that you use.
+
+Take care,
+Jean ~ Cadpage Administrator
+
+************************************************************************
 Do Not Want Cadpage any more
 
 If you do not want to use Cadpage any more, just uninstall it.
