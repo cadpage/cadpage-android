@@ -805,6 +805,7 @@ class Active911Vendor extends Vendor {
       "US/NM/LasCruces",                  "NMLasCruces",
       "US/NM/MesillaValleyRegionalDispatchAuthorityHtml", "NMDonaAnaCountyB",
       "US/NV/CityofElko",                 "NVElkoCountyA",
+      "US/NV/ClarkCounty",                "NVClarkCountyE",
       "US/NV/Elko",                       "NVElkoCounty",
       "US/NV/WestWendover",               "NVElkoCountyB",
       "US/NV/WinnemuccaCityFD",           "NVHumboldtCounty",
