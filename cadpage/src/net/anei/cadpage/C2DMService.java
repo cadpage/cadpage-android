@@ -663,7 +663,7 @@ public class C2DMService extends IntentService {
     refreshIntent.setAction(ACTION_REFRESH_ID);
 
     PendingIntent refreshPendingIntent =
-      PendingIntent.getBroadcast(context, 0, refreshIntent, PendingIntent.FLAG_CANCEL_CURRENT);
+      PendingIntent.getBroadcast(context, 0, refreshIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
     long triggerTime = curTime + REFRESH_ID_TIMEOUT;
     myAM.set(AlarmManager.RTC_WAKEUP, triggerTime, refreshPendingIntent);
