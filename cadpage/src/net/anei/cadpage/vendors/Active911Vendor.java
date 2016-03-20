@@ -324,6 +324,7 @@ class Active911Vendor extends Vendor {
       "US/DC/Proteanhub",                 "DCProteanhub",
       "US/DE/CADCentral",                 "DEKentCountyE",
       "US/DE/ChiefMsg",                   "DESussexCountyA",
+      "US/DE/DelawareCounty",             "CadPage2",
       "US/DE/Dover",                      "DEKentCounty",
       "US/DE/NewCastleCounty",            "DENewCastleCounty",
       "US/DE/NewCastleCountycmsg",        "DENewCastleCountyD",
