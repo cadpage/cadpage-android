@@ -39,6 +39,8 @@ Fraqre: 911@pb.fhyyvina.al.hf
 Pbagnpg: Fpbgg ZpTbjna <jnyyl_1212@ubgznvy.pbz>
 Fraqre: ???
 (911 Cntr) 16:47 Glcr: S-Oehfu Sver Ybp: 230 ORUE EQ K: ZBYYRE EQ / WVZ FGRCURAFBA EQ I: Orgury PA:
+(911 Cntr) 16:58 Glcr: S-Npgvingrq Nynez Ybp: 4806 FGUL 52 K: FJVFF UVYY EBNQ RKG A / QHEE EQ I: I/Wrssrefbaivyyr PA: Wrssrefbaivyyr Nqhyg Ubzr
+(911 Cntr) 14:52 Glcr: S-Oehfu Sver Ybp: HCCRE QRYNJNER PNZC EQ K: PERNZREL EQ I: Qrynjner PA:
 
 */
 
@@ -204,7 +206,24 @@ choyvp pynff ALFhyyvinaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:230 ORUE EQ",
         "K:ZBYYRE EQ / WVZ FGRCURAFBA EQ",
         "PVGL:Orgury");
-    
+
+    qbGrfg("G2",
+        "(911 Cntr) 16:58 Glcr: S-Npgvingrq Nynez Ybp: 4806 FGUL 52 K: FJVFF UVYY EBNQ RKG A / QHEE EQ I: I/Wrssrefbaivyyr PA: Wrssrefbaivyyr Nqhyg Ubzr",
+        "PNYY:S-Npgvingrq Nynez",
+        "NQQE:4806 FGUL 52",
+        "ZNQQE:4806 AL 52",
+        "K:FJVFF UVYY EBNQ RKG A / QHEE EQ",
+        "PVGL:Wrssrefbaivyyr",
+        "ANZR:Wrssrefbaivyyr Nqhyg Ubzr");
+
+    qbGrfg("G3",
+        "(911 Cntr) 14:52 Glcr: S-Oehfu Sver Ybp: HCCRE QRYNJNER PNZC EQ K: PERNZREL EQ I: Qrynjner PA:",
+        "PNYY:S-Oehfu Sver",
+        "NQQE:HCCRE QRYNJNER PNZC EQ",
+        "ZNQQE:HCCRE QRYNJNER PNZC EQ & PERNZREL EQ",
+        "K:PERNZREL EQ",
+        "PVGL:Qrynjner");
+   
   }
 
   

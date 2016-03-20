@@ -398,9 +398,9 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
   private static final Properties CITY_ST_TABLE = buildCodeTable(new String[]{
       "CHESTER COUNTY",         "PA",
       "DELAWARE COUNTY",        "PA",
-        "BETHEL TWP",           "PA",
-        "GARNET VALLEY",        "PA",
-        "UPPER CHICHESTER TWP", "PA",
+      "BETHEL TWP",             "PA",
+      "GARNET VALLEY",          "PA",
+      "UPPER CHICHESTER TWP",   "PA",
       "GLOUCESTER COUNTY",      "NJ",
       "SALEM COUNTY",           "NJ",
       "CECIL COUNTY",           "MD"

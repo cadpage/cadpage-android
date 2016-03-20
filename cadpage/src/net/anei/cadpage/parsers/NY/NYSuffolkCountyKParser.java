@@ -10,17 +10,19 @@ public class NYSuffolkCountyKParser extends FieldProgramParser {
   
   public NYSuffolkCountyKParser() {
     super("SUFFOLK COUNTY", "NY",
-          "CALL! ADDR! X? TOA:TIMEDATE/d! END");
+          "CALL! ( EMPTY PLACE | ) ADDR! X? TOA:TIMEDATE/d! ID INFO/N+");
   }
   
   @Override
   public String getFilter() {
     return "cipaging1@gmail.com";
   }
+  
+  private static final Pattern DELIM = Pattern.compile("\n\\**");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    return parseFields(body.split("\n"), 3, data);
+    return parseFields(DELIM.split(body), 3, data);
   }
   
   @Override
@@ -28,10 +30,11 @@ public class NYSuffolkCountyKParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("TIMEDATE")) return new TimeDateField("\\d\\d:\\d\\d \\d\\d-\\d\\d-\\d\\d", true);
+    if (name.equals("ID")) return new IdField("\\d{4}-\\d{6}", true);
     return super.getField(name);
   }
   
-  private static final Pattern ADDRESS_PTN = Pattern.compile("\\*\\* (.*)\\*\\*(.*)");
+  private static final Pattern ADDRESS_PTN = Pattern.compile("(.*)\\*\\*(.*)");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {

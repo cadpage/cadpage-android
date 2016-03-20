@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -21,7 +24,8 @@ public class DispatchA10Parser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("X")) return (crossField != null ? crossField : (crossField = new MyCrossField()));
-    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("X2")) return new BaseCross2Field();
+    if (name.equals("INFO")) return new BaseInfoField();
     return super.getField(name);
   }
   
@@ -108,7 +112,29 @@ public class DispatchA10Parser extends FieldProgramParser {
     }
   }
   
-  private class MyInfoField extends InfoField {
+  private static final Pattern CROSS2_PTN = Pattern.compile("(.*?) */{2,} *(.*)");
+  private class BaseCross2Field extends CrossField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = CROSS2_PTN.matcher(field);
+      if (!match.matches()) return false;
+      field = append(match.group(1), " & ", match.group(2));
+      super.parse(field, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+  }
+  
+  private class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       data.strSupp = append(data.strSupp, ", ", field);

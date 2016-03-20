@@ -10,6 +10,7 @@ public class NCJonesCountyParser extends DispatchA3Parser {
 
   public NCJonesCountyParser() {
     this("JONES COUNTY", "NC");
+    setupProtectedNames("DR GEO L EDWARDS");
   }
 
   public NCJonesCountyParser(String defCity, String defState) {
@@ -91,6 +92,8 @@ public class NCJonesCountyParser extends DispatchA3Parser {
         Matcher crossMat = CLEAN_CROSS.matcher(data.strCross);
         if (crossMat.matches()) data.strCross = crossMat.group(1);
       }
+      
+      if (data.strCity.equalsIgnoreCase("POLLOCKSVIL")) data.strCity = "POLLOCKSVILLE";
       if (data.strCity.length() == 0) data.strCity = zip;
     }
 
@@ -103,7 +106,8 @@ public class NCJonesCountyParser extends DispatchA3Parser {
   public static String[] CITY_LIST = new String[] {
     
     // Jones County
-    "MAYSVILLE", 
+    "MAYSVILLE",
+    "POLLOCKSVIL",   // Misspelled
     "POLLOCKSVILLE", 
     "TRENTON",
     
@@ -119,6 +123,7 @@ public class NCJonesCountyParser extends DispatchA3Parser {
     "BEAVER CREEK TWP",
     
     // Lenoir County
+    "ALBERTSON",
     "KINSTON",
     "GRIFTON",
     "LA GRANGE",
@@ -143,13 +148,16 @@ public class NCJonesCountyParser extends DispatchA3Parser {
     "WOODINGTON TWP",
     
     // Craven County
+    "COVE CITY",
     "DOVER",
+    "NEW BERN",
     
     // Greene County
     "HOOKERTON",
     "SNOW HILL",
     
     // Onslow County
+    "ONSLOW",
     "RICHLANDS",
     
     // Wayne County

@@ -20,7 +20,7 @@ public class MOMonettParser extends FieldProgramParser{
   }
 
 public String getFilter() {
-    return "monettpd@cityofmonett.com";
+    return "monettpd@cityofmonett.com,911EMAMONETTLAWCO@CITYOFMONETT.COM";
   }
 
 protected boolean parseMsg(String subject, String body, Data data) {

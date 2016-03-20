@@ -1330,9 +1330,13 @@ If you can long press one of the calls you get and select Report Problem to send
 ** Cadpage is not working
 ******************************************************************
 
-Are dispatch alerts showing up in your message inbox?  If not, then you need to talk to someone in your department about getting dispatch alerts sent to your phone.
+That may mean something has changed about your dispatch alerts and Cadpage is no longer recognizing them.  I need to see what your dispatch alerts look like now before I can fix anything.
 
-If they are, use the Cadpage "Email the Developer" setting to send us a new support email right after Cadpage fails to pick up an alert.  That should include technical information about the missed alert that I need to determine what we have to do to fix things.
+Are dispatch alerts showing up in your message inbox?  If not, you have to talk to someone in your department about getting them sent to your phone.
+
+If they are showing up in your message inbox, but Cadpage is not picking them up, use the "Email the Developer" setting to send us a new support email right after Cadpage fails to pick up an alert. The email should include details about the last text message that I can use to figure out what needs to be done.
+
+If Cadpage is picking up the alerts, but they are not mapping correctly, long press them and select "Report Problem" to send them to us.
 
 Good luck,
 -Ken
@@ -3972,6 +3976,14 @@ If that works, please send me another request for a free Cadpage subscription, a
 If there is no supported location for your area, or if the selected location does not work, you can help us set up a new location parser to cover your messages. To do that, long press all of the calls that you currently have in Cadpage call history and select "Report Problem" to send them to us. In exchange for your help setting this up, we will grant you a one-year paid Cadpage subscription.
 
 Take care, 
+Jean ~ Cadpage Administrator
+
+************************************************************************
+I see that you have selected the General location as well as two specific locations. Please note that the General location does not really know anything about how your text messages are structured and can only pull a limited amount of information from them.
+
+To really get the full benefit of Cadpage you need to ONLY specify the location setting(s) that you use.
+
+Take care,
 Jean ~ Cadpage Administrator
 
 ************************************************************************
