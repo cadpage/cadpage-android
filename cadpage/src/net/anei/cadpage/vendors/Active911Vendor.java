@@ -921,6 +921,7 @@ class Active911Vendor extends Vendor {
       "US/OH/WashingtonCountySheriff",    "OHWashingtonCountyA",
       "US/OK/CarterCounty",               "OKCarterCountyA",
       "US/OK/CherokeeCounty",             "OKCherokeeCounty",
+      "US/OK/CityofNorman",               "OKClevelandCountyB",
       "US/OK/CityofStillwater",           "OKPayneCounty",
       "US/OK/CityofTulsa",                "OKTulsaA",
       "US/OK/CityofYukon",                "OKYukon",
