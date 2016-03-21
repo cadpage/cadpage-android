@@ -5126,9 +5126,8 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "1045 >NPPVQRAG CEBCREGL QNZNTR 421 NAQ 71 1105 5022914357 Pnq: 2014-0000023405",
         "PBQR:1045",
         "PNYY:NPPVQRAG CEBCREGL QNZNTR",
-        "NQQE:421 NAQ 71",
-        "ZNQQE:421 & 71",
-        "NCG:1105",
+        "NQQE:421 NAQ 71 1105",
+        "ZNQQE:71 1105",
         "CUBAR:5022914357",
         "VQ:2014-0000023405");
 
@@ -12847,9 +12846,8 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "XFC CBFG 9:SVER >SVER 923 VAGREFRPGVBA XL 80&680 - J NCCNYNPUVNA JVERYRFF Pnq: 2015-0000011602",
         "PBQR:SVER",
         "PNYY:SVER",
-        "NQQE:923 VAGREFRPGVBA XL 80 & 680",
+        "NQQE:923 VAGREFRPGVBA XL 80 & 680 - J",
         "ZNQQE:923 VAGREFRPGVBA XL 80",
-        "ANZR:- J",
         "VQ:2015-0000011602");
 
     qbGrfg("G34",

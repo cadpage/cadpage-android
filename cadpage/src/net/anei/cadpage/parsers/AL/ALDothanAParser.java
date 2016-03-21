@@ -15,6 +15,7 @@ public class ALDothanAParser extends FieldProgramParser {
   public ALDothanAParser() {
     super("DOTHAN", "AL",
           "TIME CALL ADDR/SXa CITY! PLACE+? ( ID | UNIT ) INFO+");
+    removeWords("ESTATES");
   }
   
   @Override

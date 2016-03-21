@@ -323,8 +323,8 @@ choyvp pynff NEChynfxvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G21",
         "10 A 67/167 AYE, 2015049013, 01:03:02, E41 Iruvpyr Nppvqrag, ORSBER ZPPNVA RKVG",
-        "NQQE:10 A 67",
-        "K:167",
+        "NQQE:10 A 67 & 167",
+        "ZNQQE:10 A 67",
         "PVGL:ABEGU YVGGYR EBPX",
         "VQ:2015049013",
         "GVZR:01:03:02",

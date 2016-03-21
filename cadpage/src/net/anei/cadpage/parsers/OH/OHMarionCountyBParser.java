@@ -30,7 +30,7 @@ public class OHMarionCountyBParser extends DispatchOSSIParser {
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      if (isValidAddress(field)) {
+      if (!field.startsWith("CORNER OF") && isValidAddress(field)) {
         data.strCross = append(data.strCross, " / ", field);
       } else {
         super.parse(field, data);

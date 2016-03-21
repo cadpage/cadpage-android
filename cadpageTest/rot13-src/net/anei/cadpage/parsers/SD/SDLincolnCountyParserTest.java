@@ -157,7 +157,6 @@ Fraqre: <yrqf@yvapbyapbhaglfq.bet>
 (Nzohynapr Pnyy) Yraabk Nzohynapr - 316 A CBCYNE FG, YRAABK, FQ - 06/08/14 23:19:26 - 74lb. s qvmml. abg srryvat jryy
 (Vawhel Nppvqrag) Yraabk Nzohynapr; Yvapbya Pbhagl Furevss'f Bssvpr; Grn Sver - 271 / 17 - 06/07/14 09:25:12 - 2 crbcyr va iru Onpx cnva.
 (Vawhel Nppvqrag) Punapryybe Sver; Yraabk Nzohynapr - 464GU NIR / 271FG FG, Grn, FQ 57064 - 06/06/14 20:27:13 - OYHR TENAQ NZ EBYY BIRE - ZNYR CBFF OEBXRA YRT
-(Znyr Qvnorgvp ernpgvba) 463/282
 (Nzohynapr Pnyy) Yraabk Nzohynapr - 404 R 6GU NIR, YRAABK, FQ - 06/03/14 20:01:18 - 95 L/B Znyr ba sybbe cbffvoyr Uvc senpgher..gb tb gb ZpXraana
 (Pbaihyfvbaf-Frvmherf) - 804 F ZPXVAYRL FG, Yraabk, FQ 57039 - 06/03/14 12:28:46 - 1 l/b frvmherf.
 (Fhvpvqny znyr) 200 R 3eq Jbeguvat
@@ -1121,11 +1120,6 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:06/06/14",
         "GVZR:20:27:13",
         "VASB:OYHR TENAQ NZ EBYY BIRE - ZNYR CBFF OEBXRA YRT");
-
-    qbGrfg("G7",
-        "(Znyr Qvnorgvp ernpgvba) 463/282",
-        "PNYY:Znyr Qvnorgvp ernpgvba",
-        "NQQE:463 & 282");
 
     qbGrfg("G8",
         "(Nzohynapr Pnyy) Yraabk Nzohynapr - 404 R 6GU NIR, YRAABK, FQ - 06/03/14 20:01:18 - 95 L/B Znyr ba sybbe cbffvoyr Uvc senpgher..gb tb gb ZpXraana",

@@ -8,15 +8,17 @@ import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class OHClarkCountyBParser extends SmartAddressParser {
-
-  public static Pattern MASTER = Pattern.compile("-?(.*?)(?:-(\\d{4}))?");
-  public static Pattern CALL_CLEANER = Pattern.compile("(?: ?[/-] )?(.*?)");
-  public static Pattern DELIMITER_MATCHER = Pattern.compile("(.*?)(?: APT (\\w+) | \\- | / )(.*?)");
   
   public OHClarkCountyBParser() {
     super("CLARK COUNTY", "OH");
-    setFieldList("PLACE ADDR APT X CALL ID");
+    setFieldList("PLACE ADDR APT X CALL INFO ID");
   }
+  private static final Pattern MASTER = Pattern.compile("-?(.*?)(?:-(\\d{4}))?");
+  private static final Pattern DIR_BOUND_PTN = Pattern.compile("\\b([NSEW])/B\\b");
+  private static final Pattern LEAD_CALL_PREFIX_PTN = Pattern.compile("(SQUAD ON STAND ?BY)[ /]+");
+  private static final Pattern MARK_PTN = Pattern.compile("(?<! W)/ |(?=BETWEEN )");
+  private static final Pattern CALL_CLEANER = Pattern.compile("(?: ?[/-] )?(.*?)");
+  private static final Pattern DELIMITER_MATCHER = Pattern.compile("(.*?)(?: APT (\\w+) | \\- | / )(.*?)");
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {    
@@ -28,33 +30,65 @@ public class OHClarkCountyBParser extends SmartAddressParser {
       data.strCallId = getOptGroup(mat.group(2));
     }
     
-  //parse
-    parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT|FLAG_IGNORE_AT, body, data);
-    data.strCall = getLeft();
+    // Remove slashes in dir-bounds
+    body = DIR_BOUND_PTN.matcher(body).replaceAll("$1B");
     
-  //try with place start type
-    if(data.strCall.equals("")) {
-      data.strAddress = data.strApt = data.strCross = data.strPlace = "";
-      parseAddress(StartType.START_PLACE, FLAG_NO_IMPLIED_APT|FLAG_IGNORE_AT, body, data);
-      data.strCall = getLeft();
+    // Check for leading call prefix
+    String prefix = "";
+    mat = LEAD_CALL_PREFIX_PTN.matcher(body);
+    if (mat.lookingAt()) {
+      prefix = mat.group(1);
+      body = body.substring(mat.end());
     }
     
-    //if that failed, look for " - ", " / ", or " APT \\w+", and use it to mark end of addr field
-    if(data.strCall.equals("")) {
-      Matcher delMat = DELIMITER_MATCHER.matcher(body);
-      if(delMat.matches()) {
-        data.strAddress = data.strApt = data.strCross = data.strPlace = "";
-        data.strAddress = delMat.group(1);
-        if (delMat.group(2) != null) data.strApt = delMat.group(2); //if delimiter was apt then give its value to strApt
-        data.strCall = delMat.group(3);
+    // Check for a / or "BETWEEN" marking the end of the address
+    Matcher match = MARK_PTN.matcher(body);
+    if (match.find()) {
+      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, body.substring(0,match.start()).trim(), data);
+      data.strCall = body.substring(match.end()).trim();
+      
+      // If terminated by BETWEEN, try to parse a cross street
+      if (data.strCall.startsWith("BETWEEN ")) {
+        Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_CHECK_STATUS | FLAG_NO_IMPLIED_APT, data.strCall.substring(8).trim());
+        if (res.isValid()) {
+          res.getData(data);
+          data.strCall = res.getLeft();
+        }
       }
     }
     
-    //last resort, now try parseaddress with FLAG_OPT_ST_SFX
-    if (data.strCall.equals("")) {
-      data.strAddress = data.strApt = data.strCross = data.strPlace = "";
-      parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT|FLAG_OPT_STREET_SFX|FLAG_IGNORE_AT, body, data);
+    // Otherwise, see what the SAP makes of this
+    else {
+      parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT|FLAG_IGNORE_AT, body, data);
       data.strCall = getLeft();
+      
+      // If we didn't find a trailing call description, see if we can find a leading call
+      if(data.strCall.equals("")) {
+        Result res = parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ|FLAG_NO_IMPLIED_APT|FLAG_IGNORE_AT, body);
+        if (res.getStatus() > STATUS_STREET_NAME) {
+          data.strAddress = data.strApt = data.strCross = data.strPlace = "";
+          res.getData(data);
+          data.strSupp = res.getLeft();
+        }
+      }
+      
+      //if that failed, look for " - ", " / ", or " APT \\w+", and use it to mark end of addr field
+      if(data.strCall.equals("")) {
+        Matcher delMat = DELIMITER_MATCHER.matcher(body);
+        if(delMat.matches()) {
+          data.strAddress = data.strApt = data.strCross = data.strPlace = "";
+          data.strAddress = delMat.group(1);
+          if (delMat.group(2) != null) data.strApt = delMat.group(2); //if delimiter was apt then give its value to strApt
+          data.strCall = delMat.group(3);
+        }
+      
+        //last resort, now try parseaddress with FLAG_OPT_ST_SFX
+        else {
+          data.strAddress = data.strApt = data.strCross = data.strPlace = "";
+          parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT|FLAG_OPT_STREET_SFX|FLAG_IGNORE_AT, body, data);
+          data.strCall = getLeft();
+        }
+      }
     }
     
     // However we got here, an number cross street should be reattached to the call description
@@ -62,6 +96,9 @@ public class OHClarkCountyBParser extends SmartAddressParser {
       data.strCall = append(data.strCross, " ", data.strCall);
       data.strCross = "";
     }
+    
+    // Append call prefix
+    data.strCall = append(prefix, " - ", data.strCall);
     
     //if call is still empty, make it a general report
     if(data.strCall.equals("")) {

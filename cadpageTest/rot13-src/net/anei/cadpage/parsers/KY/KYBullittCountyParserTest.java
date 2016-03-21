@@ -5502,8 +5502,7 @@ choyvp pynff XLOhyyvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OHYYVGG_PB_911:GF >GENSSVP FGBC (PYV) 1526/65 BIRECNFF Pnq: 2016-0000011063",
         "PBQR:GF",
         "PNYY:GENSSVP FGBC (PYV)",
-        "NQQE:1526 & 65",
-        "ANZR:BIRECNFF",
+        "NQQE:1526 & 65 BIRECNFF",
         "VQ:2016-0000011063");
 
     qbGrfg("G51",
@@ -9793,8 +9792,7 @@ choyvp pynff XLOhyyvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OHYYVGG_PB_911:GF >GENSSVP FGBC (PYV) 61F@65 BIRECNFF Pnq: 2016-0000010714",
         "PBQR:GF",
         "PNYY:GENSSVP FGBC (PYV)",
-        "NQQE:61F & 65",
-        "ANZR:BIRECNFF",
+        "NQQE:61F & 65 BIRECNFF",
         "VQ:2016-0000010714");
 
     qbGrfg("G31",

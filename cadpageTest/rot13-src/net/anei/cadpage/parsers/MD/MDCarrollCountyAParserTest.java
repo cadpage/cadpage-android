@@ -5819,7 +5819,7 @@ choyvp pynff ZQPneebyyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:HP",
         "PNYY:HAPBAFPVBHF FHOWRPG",
         "OBK:0340",
-        "CYNPR:OVT ONXRE OYQT K - ZPQNAVRY PBYYRTR",
+        "CYNPR:OVT ONXRE OYQT - ZPQNAVRY PBYYRTR",
         "PVGL:JRFGZVAFGRE",
         "HAVG:NGE30");
 
