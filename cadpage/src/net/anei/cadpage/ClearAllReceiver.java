@@ -83,7 +83,7 @@ public class ClearAllReceiver extends BroadcastReceiver {
    */
   private static PendingIntent getPendingIntent(Context context, ClearType type) {
     Intent intent = getClearIntent(context, type);
-    return PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
+    return PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
   }
 
   /**

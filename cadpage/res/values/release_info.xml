@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03182016</string>
+  <string name="release_date">03202016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.06.12\n
+Location Fixes:\n
+Suffolk County, NY\n
+Jones County, NC\n
+Lenoir County, NC\n
+Midlothian, TX\n
+\n
 v1.9.06.11\n
 Location Fixes:\n
 St Louis County, MO\n
@@ -45,12 +52,7 @@ Franklin County, PA\n
 \n
 General Fixes:\n
 Another force close processing audio alerts.\n
-General improvements to address mapping.\n
-\n
-v1.9.06.06\n
-New Locations:\n
-Monterey County, CA (alt)\n
-San Diego County, CA (alt)
+General improvements to address mapping.
   </string>
 </resources>
   
