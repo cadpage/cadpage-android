@@ -2579,7 +2579,8 @@ choyvp pynff PBNencnubrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "B-24-P 1401 R Tveneq Cy OYQT 1 XVZOREYL JBBQF NCGF OYQT 1 Zrqvpny Nffvfg RAR21,RAZ21",
         "ZNC:B-24-P",
         "NQQE:1401 R Tveneq Cy",
-        "CYNPR:OYQT 1 XVZOREYL JBBQF NCGF OYQT 1",
+        "NCG:OYQT 1",
+        "CYNPR:XVZOREYL JBBQF NCGF OYQT 1",
         "PNYY:Zrqvpny Nffvfg",
         "HAVG:RAR21,RAZ21");
 

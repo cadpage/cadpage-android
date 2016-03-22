@@ -7,6 +7,8 @@ vzcbeg bet.whavg.Grfg;
 /*
 Wrssrefba Pbhagl, NY
 
+Cebonoyl bofbyrgr  Ebpxl evqtr unf zbirq gb fbzrguvat ryfr
+
 Pbagnpg: Oelna Uraavtna <onuraavtna@tznvy.pbz>
 Fraqre: Sver Qrfx
 SEZ:Sver Qrfx \aZFT:UJL 280 & XRL QE - 3 PNE ZIN
@@ -405,17 +407,6 @@ choyvp pynff NYWrssrefbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FGNGVBA 38...FGVYY NYNEZ",
         "NQQE:FGNGVBA 38",
         "PNYY:FGVYY NYNEZ");
-
-    qbGrfg("G31",
-        "2152 RZRENYQ CBVAGR QEVIR (NCG# 4)....86LE BYQ SRZNYR QVSSVPHYGL OERNGUVAT",
-        "NQQE:2152 RZRENYQ CBVAGR QEVIR",
-        "VASB:(NCG# 4)",
-        "PNYY:86LE BYQ SRZNYR QVSSVPHYGL OERNGUVAT");
-
-    qbGrfg("G32",
-        "459A @ 280 RKVG 280 RKVG ENZC ZIN",
-        "NQQE:459A & 280",
-        "PNYY:RKVG 280 RKVG ENZC ZIN");
 
     qbGrfg("G33",
         "V459 F WHFG NSGRE NPGBA EQ RKG              ZIN",

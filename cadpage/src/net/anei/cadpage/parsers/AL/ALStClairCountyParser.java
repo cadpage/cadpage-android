@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.AL;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -15,10 +17,14 @@ public class ALStClairCountyParser extends DispatchB3Parser {
     super("911CENTRAL:", CITY_LIST, "ST CLAIR COUNTY", "AL");
     setupCallList(CALL_LIST);
     setupMultiWordStreets(MSTREET_LIST);
+    setupSpecialStreets("COLVIN SPRIN");
     setupSaintNames("CLAIR");
     addRoadSuffixTerms("PRKWY");
     removeWords("PIKE");
   }
+  
+  private static final Pattern DIR_BOUND_PTN = Pattern.compile("\\b([NSEW])/B\\b");
+  private static final Pattern SHORT_ADDR_PTN = Pattern.compile("(\\d+ +(?:&|AND) +\\d+) +(.*)", Pattern.CASE_INSENSITIVE);
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
@@ -29,12 +35,21 @@ public class ALStClairCountyParser extends DispatchB3Parser {
       body = "911CENTRAL:" + body.substring(13);
     }
     body = body.replace('@', '&');
+    body = DIR_BOUND_PTN.matcher(body).replaceAll("$1B");
     if (!super.parseMsg(subject, body, data)) return false;
     if (data.strCall.endsWith(" END OF")) {
       data.strCall = data.strCall.substring(0,data.strCall.length()-7).trim();
       data.strAddress = "END OF " + data.strAddress;
     }
     data.strCity = convertCodes(data.strCity, MISSPELLED_CITY_TABLE);
+    
+    if (data.strName.length() == 0 && data.strCity.length() == 0) {
+      Matcher match = SHORT_ADDR_PTN.matcher(data.strAddress);
+      if (match.matches()) {
+        data.strAddress = match.group(1);
+        data.strName = match.group(2);
+      }
+    }
     return true;
   }
   

@@ -4487,7 +4487,7 @@ choyvp pynff PBYnCyngnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:H1 HCS1",
         "PNYY:R-FVPX",
         "NQQE:814 UVPXBEL EVQTR",
-        "CYNPR:ZHFGNAT & ZRFN NI",
+        "K:ZHFGNAT & ZRFN NI",
         "VQ:14HC-0470",
         "QNGR:08/05/2014",
         "GVZR:19:23",

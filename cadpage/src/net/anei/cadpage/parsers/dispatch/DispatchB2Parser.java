@@ -214,8 +214,16 @@ public class DispatchB2Parser extends DispatchBParser {
     if (left.length() > 0) {
 
       if ((flags & FLAG_ANCHOR_END) == 0 && INTERSECT_PTN.matcher(left).matches()) {
-        if (left.startsWith("/") || left.startsWith("&")) left = "& " + left.substring(2).trim();
-        data.strAddress = append(data.strAddress, " ", left);
+        String connect = " ";
+        if (left.startsWith("/") || left.startsWith("&")) {
+          left = left.substring(1).trim();
+          connect = " & ";
+        }
+        if (data.strCity.length() > 0) {
+          data.strCross = append(data.strCross, connect, left);
+        } else {
+          data.strAddress = append(data.strAddress, connect, left);
+        }
         left = "";
       } 
       
@@ -235,11 +243,6 @@ public class DispatchB2Parser extends DispatchBParser {
         data.strApt = append(data.strApt, "-", left.substring(0,match.start()).trim());
         left = left.substring(match.start()).trim();
       }
-//      else if (data.strPhone.length() == 0 && (match = PHONE2_PTN.matcher(name)).find()) {
-//        data.strPhone = match.group(1);
-//        name = name.substring(match.end());
-//        parseCrossName(name, data);
-//      }
       
       if ((match = APT2_PTN.matcher(left)).matches()) {
         data.strApt = append(data.strApt, "-", left);
@@ -252,7 +255,7 @@ public class DispatchB2Parser extends DispatchBParser {
       // We can't turn on the FLAG_CROSS_FOLLOWS option or it will mess up following names
       // but if we have identified a cross street, see if the address has a trailing direction
       // symbol that should be attached to the cross street.
-      if (noCross && data.strApt.length() == 0 && data.strCross.length() > 0) {
+      if (noCross && data.strApt.length() == 0 && data.strCross.length() > 0 && data.strCity.length() == 0) {
         match = TRAIL_DIR_PTN.matcher(data.strAddress);
         if (match.find()) {
           data.strCross = match.group(1) + ' ' + data.strCross;

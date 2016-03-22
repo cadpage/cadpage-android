@@ -2921,8 +2921,9 @@ choyvp pynff ZQNyyrtnalPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:08:22",
         "VQ:009600",
         "PNYY:NPPVQRAG CV",
-        "NQQE:EG46 ORSBER F GHEA",
-        "ZNQQE:EG 46 ORSBER F GHEA",
+        "NQQE:EG46",
+        "ZNQQE:EG 46",
+        "CYNPR:ORSBER F GHEA",
         "OBK:SZVA",
         "HAVG:FD22 N350");
 

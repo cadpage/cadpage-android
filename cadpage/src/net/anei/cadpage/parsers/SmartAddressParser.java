@@ -241,7 +241,6 @@ public abstract class SmartAddressParser extends MsgParser {
    * keyword when no city is found
    */
   public static final int FLAG_SIMPLE_FOLLOWS = 0x40000000;
-  
 
   // Flag combination that indicates we are processing some kind of pad field
   // Rechecking the apt is treated as a flavor of pad field
@@ -2837,12 +2836,14 @@ public abstract class SmartAddressParser extends MsgParser {
           // Skip if it an ambiguous road suffix and a real road suffix follows it
           // Or if the road suffix is part of a two part highway number
           // Or if this is a TO route prefix phrase
+          // Or is the start of a city name
           good = true;
           if (isRoadSuffix(end) && !isType(end-1, ID_NOT_STREET_NAME) &&
               (! (isType(end, ID_AMBIG_ROAD_SFX) && isRoadSuffix(end+1))) &&
               ( !checkNumberedHwy(end)) &&
               (findNumberedHwy(end-1) < 0) && 
-              (! (isType(end, ID_ROUTE_PFX) && isType(end-1, ID_TO)))) {
+              (! (isType(end, ID_ROUTE_PFX) && isType(end-1, ID_TO))) &&
+              (findEndCity(end) < 0)) {
             end++; 
             break; 
           }

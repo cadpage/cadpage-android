@@ -10,8 +10,9 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class OHClarkCountyBParser extends SmartAddressParser {
   
   public OHClarkCountyBParser() {
-    super("CLARK COUNTY", "OH");
-    setFieldList("PLACE ADDR APT X CALL INFO ID");
+    super(CITY_LIST, "CLARK COUNTY", "OH");
+    setFieldList("PLACE ADDR APT CITY X CALL INFO ID");
+    removeWords("CL");
   }
   private static final Pattern MASTER = Pattern.compile("-?(.*?)(?:-(\\d{4}))?");
   private static final Pattern DIR_BOUND_PTN = Pattern.compile("\\b([NSEW])/B\\b");
@@ -59,13 +60,13 @@ public class OHClarkCountyBParser extends SmartAddressParser {
     
     // Otherwise, see what the SAP makes of this
     else {
-      parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT|FLAG_IGNORE_AT, body, data);
+      parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT|FLAG_IGNORE_AT|FLAG_NO_CITY, body, data);
       data.strCall = getLeft();
       
       // If we didn't find a trailing call description, see if we can find a leading call
       if(data.strCall.equals("")) {
-        Result res = parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ|FLAG_NO_IMPLIED_APT|FLAG_IGNORE_AT, body);
-        if (res.getStatus() > STATUS_STREET_NAME) {
+        Result res = parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ|FLAG_NO_IMPLIED_APT|FLAG_IGNORE_AT|FLAG_NO_CITY, body);
+        if (res.isValid()) {
           data.strAddress = data.strApt = data.strCross = data.strPlace = "";
           res.getData(data);
           data.strSupp = res.getLeft();
@@ -85,10 +86,14 @@ public class OHClarkCountyBParser extends SmartAddressParser {
         //last resort, now try parseaddress with FLAG_OPT_ST_SFX
         else {
           data.strAddress = data.strApt = data.strCross = data.strPlace = "";
-          parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT|FLAG_OPT_STREET_SFX|FLAG_IGNORE_AT, body, data);
+          parseAddress(StartType.START_ADDR, FLAG_NO_IMPLIED_APT|FLAG_OPT_STREET_SFX|FLAG_IGNORE_AT|FLAG_NO_CITY, body, data);
           data.strCall = getLeft();
         }
       }
+      
+      // See if the call description starts with a city
+      parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, data.strCall, data);
+      data.strCall = getLeft();
     }
     
     // However we got here, an number cross street should be reattached to the call description
@@ -113,5 +118,41 @@ public class OHClarkCountyBParser extends SmartAddressParser {
     
     return true;
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+    
+    // Cities
+    "NEW CARLISLE",
+    "SPRINGFIELD",
+
+    // Villages
+    "CATAWBA",
+    "CLIFTON",
+    "DONNELSVILLE",
+    "ENON",
+    "NORTH HAMPTON",
+    "SOUTH CHARLESTON",
+    "SOUTH VIENNA",
+    "TREMONT CITY",
+
+    // Townships
+    "BETHEL TWP",
+    "GERMAN TWP",
+    "GREEN TWP",
+    "HARMONY TWP",
+    "MAD RIVER TWP",
+    "MADISON TWP",
+    "MOOREFIELD TWP",
+    "PIKE TWP",
+    "PLEASANT TWP",
+    "SPRINGFIELD TWP",
+
+    // Census-designated places
+    "CRYSTAL LAKES",
+    "GREEN MEADOWS",
+    "HOLIDAY VALLEY",
+    "NORTHRIDGE",
+    "PARK LAYNE"
+  };
 
 }
