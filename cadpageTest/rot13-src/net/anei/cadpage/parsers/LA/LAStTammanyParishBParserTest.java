@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Fg Gnzznal Cnevfu, YN
+Fg Gnzznal Cnevfu, YN (O) 
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fg. Gnzznal SQ #13
