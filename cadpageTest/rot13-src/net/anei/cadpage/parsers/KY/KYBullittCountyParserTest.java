@@ -5261,7 +5261,7 @@ choyvp pynff XLOhyyvggPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "OHYYVGG_PB_911:GF >GENSSVP FGBC (PYV) VAGREANGVBNY OYIQ/NZREVFBHEPR Pnq: 2016-0000011365",
         "PBQR:GF",
         "PNYY:GENSSVP FGBC (PYV)",
-        "NQQE:VAGREANGVBNY OYIQ & ZREVFBHEPR",
+        "NQQE:VAGREANGVBNY OYIQ & NZREVFBHEPR",
         "VQ:2016-0000011365");
 
     qbGrfg("G25",

@@ -9756,6 +9756,19 @@ choyvp pynff APHavbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NYYRETVRF RAIRABZNGVBAF RZQ",
         "FEP:F06",
         "PU:OENIB",
+        "K:FHTNE NAQ JVAR EQ & CBYX ZBHAGNVA QE",
+        "CYNPR:CBYX ZBHAGNVA TEBPREL",
+        "QNGR:06/27/2015",
+        "GVZR:15:03:58");
+
+    qbGrfg("G1",
+        "PNQ:5000 ARJ FNYRZ EQ;ZNEFUIVYYR;2015166086;NYYRETVRF RAIRABZNGVBAF RZQ;F06;OENIB;CBYX ZBHAGNVA TEBPREL;FHTNE NAQ JVAR EQ;CBYX ZBHAGNVA QE;06/27/2015 15:03:58",
+        "NQQE:5000 ARJ FNYRZ EQ",
+        "PVGL:ZNEFUIVYYR",
+        "VQ:2015166086",
+        "PNYY:NYYRETVRF RAIRABZNGVBAF RZQ",
+        "FEP:F06",
+        "PU:OENIB",
         "K:CBYX ZBHAGNVA QE",
         "CYNPR:CBYX ZBHAGNVA TEBPREL",
         "VASB:FHTNE NAQ JVAR EQ",
@@ -12316,8 +12329,7 @@ choyvp pynff APHavbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FVPX CREFBA RZQ",
         "FEP:F11",
         "PU:O/2",
-        "K:WNPX QNIVF EQ",
-        "CYNPR:OHETRFF NAQ URYZF EQ",
+        "K:WNPX QNIVF EQ & OHETRFF NAQ URYZF EQ",
         "QNGR:05/22/2015",
         "GVZR:09:57:46");
 
@@ -20643,8 +20655,7 @@ choyvp pynff APHavbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FVPX CREFBA RZQ",
         "FEP:F14",
         "PU:Q-FG",
-        "K:WNPX QNIVF EQ",
-        "CYNPR:OHETRFF NAQ URYZF EQ",
+        "K:WNPX QNIVF EQ & OHETRFF NAQ URYZF EQ",
         "QNGR:05/04/2015",
         "GVZR:22:24:41");
 
