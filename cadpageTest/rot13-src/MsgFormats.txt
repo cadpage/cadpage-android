@@ -1600,6 +1600,11 @@ Niblryyrf Cnevfu, YN (YNNiblryyrfCnevfuCnefre)
 {SVER - 52F - 2015120008 - 641 Pubhcvdhr Ya, Pbggbacbeg, YN} Gurer unf orra n(a) Sver (fgehpgher) ercbegrq ng 641 Pubhcvdhr Ya, Pbggbacbeg, YN\aSVER VA ONGUEBBZ NG QP3 
 {SVER - 52B - 2015120005 - 183 Cenevr Urvtugf Ya, Znafhen, YN} Gurer unf orra n(a) Sver Pnyy (bgure) ercbegrq ng 183 Cenevr Urvtugf Ya, Znafhen, YN TRARENY SVER NYNEZ NPGVINGVBA
 *******************************************************************************
+Fg Gnzznal Cnevfu, YN (O) (YNFgGnzznalCnevfuOCnefre) 
+{SQ13 - 2016021008} N(a) Nppvqrag/vawhevrf unf orra ercbegrq ng 0 Ujl 1077 @ Ujl 1085, Pbivatgba, YN
+{SQ13 - 2016020984} N(a) Fgehpgher Sver unf orra ercbegrq ng 111 A Cbyx Fg, Pbivatgba, YN
+{SQ13 - 2016020968} N(a) Nffvfg Pvgvmra unf orra ercbegrq ng 119 Ornh Neoer Pg, Pbivatgba, YN
+*******************************************************************************
 Gnatvcnubn Cnevfu, YN (YNGnatvcnubnCnevfuCnefre) 
 {911 - FHG} N(a) FHG unf orra ercbegrq ng 13059 Puneybggr Qe, Vaqrcraqrapr, YN. 2015104938
 {911 - RZF} N(a) RZF unf orra ercbegrq ng 269 R Envyebnq Ni, Nzvgr, YN. 2015104644

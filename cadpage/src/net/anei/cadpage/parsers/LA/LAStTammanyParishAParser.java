@@ -13,11 +13,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  * the SRC_X field must have check logic in order for the FieldProgramParser to know
  * whether the apartment field exits or not.
  */
-public class LAStTammanyParishParser extends FieldProgramParser {
+public class LAStTammanyParishAParser extends FieldProgramParser {
   
   private static final Pattern DELIM = Pattern.compile("\\|");
   
-  public LAStTammanyParishParser() {
+  public LAStTammanyParishAParser() {
     super("ST TAMMANY PARISH", "LA",
         "CALL! PLACE ADDRCITY APT? SRC_X TIME! INFO");
   }
