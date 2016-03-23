@@ -18,7 +18,7 @@ public class CTFairfieldCountyBParser extends SmartAddressParser {
     return "swrcc@dmsct.net";
   }
 
-  private static Pattern MASTER = Pattern.compile("(?:MEMS:\\|? )?(.*?) - (.*?) --(?:Disp |DISP |CMED)@ (\\d{2}:\\d{2})");
+  private static Pattern MASTER = Pattern.compile("(?:MEMS:([^\\|]*?)\\| )?(.*?) - (.*?) --(?:Disp |DISP |CMED)@ (\\d{2}:\\d{2})");
   
   @Override protected boolean parseMsg(String subject, String body, Data data) {
     
@@ -35,9 +35,9 @@ public class CTFairfieldCountyBParser extends SmartAddressParser {
     
     Matcher mat = MASTER.matcher(body);
     if (!mat.matches()) return false;
-    parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT | FLAG_ANCHOR_END, mat.group(1).trim(), data);
-    data.strCall = mat.group(2).trim();
-    data.strTime = mat.group(3).trim();
+    parseAddress(StartType.START_ADDR, FLAG_RECHECK_APT | FLAG_ANCHOR_END, mat.group(2).trim(), data);
+    data.strCall = append(getOptGroup(mat.group(1)), " - ", mat.group(3).trim());
+    data.strTime = mat.group(4).trim();
     return true;
   }
   

@@ -69,7 +69,7 @@ public class ReminderReceiver extends BroadcastReceiver {
     reminderIntent.putExtra(EXTRA_START, start);
 
     PendingIntent reminderPendingIntent =
-      PendingIntent.getBroadcast(context, 0, reminderIntent, PendingIntent.FLAG_CANCEL_CURRENT);
+      PendingIntent.getBroadcast(context, 0, reminderIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
     long triggerTime = System.currentTimeMillis() + interval;
     if (Log.DEBUG) Log.v("ReminderReceiver: scheduled reminder notification in " + interval
@@ -86,7 +86,7 @@ public class ReminderReceiver extends BroadcastReceiver {
     Intent reminderIntent = new Intent(context, ReminderReceiver.class);
     reminderIntent.setAction(ACTION_REMIND);
     PendingIntent reminderPendingIntent =
-      PendingIntent.getBroadcast(context, 0, reminderIntent, PendingIntent.FLAG_CANCEL_CURRENT);
+      PendingIntent.getBroadcast(context, 0, reminderIntent, PendingIntent.FLAG_UPDATE_CURRENT);
     reminderPendingIntent.cancel();
     if (Log.DEBUG) Log.v("ReminderReceiver: cancelReminder()");
   }

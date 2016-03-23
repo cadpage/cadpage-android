@@ -18,6 +18,11 @@ public class TXTarrantCountyAParser extends DispatchRedAlertParser {
   }
   
   @Override
+  public String getFilter() {
+    return "alerts@tcfirealarm.com,crimespage@lakeworthtx.org";
+  }
+  
+  @Override
   public int getMapFlags() {
     return MAP_FLG_SUPPR_LA;
   }

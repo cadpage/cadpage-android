@@ -97,6 +97,9 @@ Pbagnpg: Funja <funjatbpurabhe3@nby.pbz>
 Fraqre: ZNVYOBK@cntrfurevss.PBZ
 ZNVYOBK:EF4 QVMMVARFF 1036 HF UJL 211 J YHE PSF# 2012-021955 PEBFF: J ZNVA FG/FCVEBF YA
 
+Pbagnpg: Mnpx Jryyf <ssjryyf70@tznvy.pbz>
+ZNVYOBK:PB70 GENSSVP PENFU ARJCBEG EQ FUR PSF# 2016-006296 PEBFF: FUNQL BNX YA/XNGUREVAR SHENAPR EQ
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Uneevfbaohet Erfphr Fdhnq
 Ybpngvba: Uneevfbaohet, IN, Havgrq Fgngrf
@@ -1129,6 +1132,21 @@ choyvp pynff INEbpxvatunzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:J ZNVA FG/FCVEBF YA");
 
  }
+  
+  @Grfg
+  choyvp ibvq grfgMnpxJryyfba() {
+
+    qbGrfg("G1",
+        "ZNVYOBK:PB70 GENSSVP PENFU ARJCBEG EQ FUR PSF# 2016-006296 PEBFF: FUNQL BNX YA/XNGUREVAR SHENAPR EQ",
+        "FEP:PB70",
+        "PNYY:GENSSVP PENFU",
+        "NQQE:ARJCBEG EQ",
+        "ZNQQE:ARJCBEG EQ & FUNQL BNX YA",
+        "PVGL:FURANAQBNU",
+        "VQ:2016-006296",
+        "K:FUNQL BNX YA/XNGUREVAR SHENAPR EQ");
+
+  }
 
   @Grfg
   choyvp ibvq grfgUneevfbaohetErfphrFdhnq() {

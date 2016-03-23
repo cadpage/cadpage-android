@@ -114,6 +114,7 @@ Ntrapl anzr: Zbaebr Ibyhagrre RZF
 Ybpngvba: Zbaebr, PG, Havgrq Fgngrf
 Fraqre: FJEPP <fjepp@qzfpg.pbz>
 
+{RZF: 7 SNA UVYY EQ ZBAEBR} ZRZF:2AQ GBAR|  7 SNA UVYY EQ ZBAEBR - HAX CFLPU --QVFC @ 02:31
 {RZF: 104 ZNCYRJBBQ QE ZBAEBR} ZRZF:|  104 ZNCYRJBBQ QE ZBAEBR - FVPX PNYY --QVFC @ 12:30
 {RZF: 36 WBUAFBA CY ZBAEBR} ZRZF:|  36 WBUAFBA CY ZBAEBR - PURFG CNVA --QVFC @ 11:24
 {RZF: 151 ZRNQBJF RAQ EQ ZBAEBR} ZRZF:|  151 ZRNQBJF RAQ EQ ZBAEBR - ZRQVPNY NYNEZ --QVFC @ 09:46
@@ -998,125 +999,132 @@ choyvp pynff PGSnvesvryqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgZbaebrIbyhagrreRZF() {
 
     qbGrfg("G1",
+        "{RZF: 7 SNA UVYY EQ ZBAEBR} ZRZF:2AQ GBAR|  7 SNA UVYY EQ ZBAEBR - HAX CFLPU --QVFC @ 02:31",
+        "NQQE:7 SNA UVYY EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:2AQ GBAR - HAX CFLPU",
+        "GVZR:02:31");
+
+    qbGrfg("G2",
         "{RZF: 104 ZNCYRJBBQ QE ZBAEBR} ZRZF:|  104 ZNCYRJBBQ QE ZBAEBR - FVPX PNYY --QVFC @ 12:30",
         "NQQE:104 ZNCYRJBBQ QE",
         "PVGL:ZBAEBR",
         "PNYY:FVPX PNYY",
         "GVZR:12:30");
 
-    qbGrfg("G2",
+    qbGrfg("G3",
         "{RZF: 36 WBUAFBA CY ZBAEBR} ZRZF:|  36 WBUAFBA CY ZBAEBR - PURFG CNVA --QVFC @ 11:24",
         "NQQE:36 WBUAFBA CY",
         "PVGL:ZBAEBR",
         "PNYY:PURFG CNVA",
         "GVZR:11:24");
 
-    qbGrfg("G3",
+    qbGrfg("G4",
         "{RZF: 151 ZRNQBJF RAQ EQ ZBAEBR} ZRZF:|  151 ZRNQBJF RAQ EQ ZBAEBR - ZRQVPNY NYNEZ --QVFC @ 09:46",
         "NQQE:151 ZRNQBJF RAQ EQ",
         "PVGL:ZBAEBR",
         "PNYY:ZRQVPNY NYNEZ",
         "GVZR:09:46");
 
-    qbGrfg("G4",
+    qbGrfg("G5",
         "{RZF: 21 WHQQ EQ ZBAEBR} ZRZF:2AQ GBAR|  21 WHQQ EQ ZBAEBR - NOQ CNVA --QVFC @ 08:08",
-        "NQQE:ZRZF: 2AQ GBAR| 21 WHQQ EQ",
+        "NQQE:21 WHQQ EQ",
         "PVGL:ZBAEBR",
-        "PNYY:NOQ CNVA",
+        "PNYY:2AQ GBAR - NOQ CNVA",
         "GVZR:08:08");
 
-    qbGrfg("G5",
+    qbGrfg("G6",
         "{RZF: 21 WHQQ EQ ZBAEBR} ZRZF:|  21 WHQQ EQ ZBAEBR - NOQ CNVA --QVFC @ 08:05",
         "NQQE:21 WHQQ EQ",
         "PVGL:ZBAEBR",
         "PNYY:NOQ CNVA",
         "GVZR:08:05");
 
-    qbGrfg("G6",
+    qbGrfg("G7",
         "{RZF: 171 CNFGBEF JNYX ZBAEBR} ZRZF:|  171 CNFGBEF JNYX ZBAEBR - FLAPBCR --QVFC @ 06:53",
         "NQQE:171 CNFGBEF JNYX",
         "PVGL:ZBAEBR",
         "PNYY:FLAPBCR",
         "GVZR:06:53");
 
-    qbGrfg("G7",
+    qbGrfg("G8",
         "{RZF: 590 ZNVA FG ZBAEBR} ZRZF:|  590 ZNVA FG ZBAEBR - CBFF PIN --QVFC @ 12:50",
         "NQQE:590 ZNVA FG",
         "PVGL:ZBAEBR",
         "PNYY:CBFF PIN",
         "GVZR:12:50");
 
-    qbGrfg("G8",
+    qbGrfg("G9",
         "{RZF: 77 UVTUYNAQ QE ZBAEBR} ZRZF:|  77 UVTUYNAQ QE ZBAEBR - ZRQVPNY NYNEZ --QVFC @ 11:57",
         "NQQE:77 UVTUYNAQ QE",
         "PVGL:ZBAEBR",
         "PNYY:ZRQVPNY NYNEZ",
         "GVZR:11:57");
 
-    qbGrfg("G9",
+    qbGrfg("G10",
         "{RZF: 49 FDHVER EQ ZBAEBR} ZRZF:|  49 FDHVER EQ ZBAEBR - OYRRQVAT --QVFC @ 09:06",
         "NQQE:49 FDHVER EQ",
         "PVGL:ZBAEBR",
         "PNYY:OYRRQVAT",
         "GVZR:09:06");
 
-    qbGrfg("G10",
+    qbGrfg("G11",
         "{RZF: 7 SNA UVYY EQ ZBAEBR} ZRZF:|  7 SNA UVYY EQ ZBAEBR - CFLPU --QVFC @ 01:54",
         "NQQE:7 SNA UVYY EQ",
         "PVGL:ZBAEBR",
         "PNYY:CFLPU",
         "GVZR:01:54");
 
-    qbGrfg("G11",
+    qbGrfg("G12",
         "{RZF: 85 TERRAJBBQ YA ZBAEBR} ZRZF:|  85 TERRAJBBQ YA ZBAEBR - NFFNHYG --QVFC @ 23:51",
         "NQQE:85 TERRAJBBQ YA",
         "PVGL:ZBAEBR",
         "PNYY:NFFNHYG",
         "GVZR:23:51");
 
-    qbGrfg("G12",
+    qbGrfg("G13",
         "{RZF: 35 BYQ PBNPU EQ ZBAEBR} ZRZF:|  35 BYQ PBNPU EQ ZBAEBR - FRVMHER --QVFC @ 19:26",
         "NQQE:35 BYQ PBNPU EQ",
         "PVGL:ZBAEBR",
         "PNYY:FRVMHER",
         "GVZR:19:26");
 
-    qbGrfg("G13",
+    qbGrfg("G14",
         "{RZF: 10 AHGZRT PVE ZBAEBR} ZRZF:|  10 AHGZRT PVE ZBAEBR - FRVMHER --QVFC @ 16:47",
         "NQQE:10 AHGZRT PVE",
         "PVGL:ZBAEBR",
         "PNYY:FRVMHER",
         "GVZR:16:47");
 
-    qbGrfg("G14",
+    qbGrfg("G15",
         "{RZF: 7 SNA UVYY EQ ZBAEBR} ZRZF:2AQ GBAR|  7 SNA UVYY EQ ZBAEBR - FVPX PNYY --QVFC @ 11:48",
-        "NQQE:ZRZF: 2AQ GBAR| 7 SNA UVYY EQ",
+        "NQQE:7 SNA UVYY EQ",
         "PVGL:ZBAEBR",
-        "PNYY:FVPX PNYY",
+        "PNYY:2AQ GBAR - FVPX PNYY",
         "GVZR:11:48");
 
-    qbGrfg("G15",
+    qbGrfg("G16",
         "{RZF: 7 SNA UVYY EQ ZBAEBR} ZRZF:|  7 SNA UVYY EQ ZBAEBR - FVPX PNYY --QVFC @ 11:44",
         "NQQE:7 SNA UVYY EQ",
         "PVGL:ZBAEBR",
         "PNYY:FVPX PNYY",
         "GVZR:11:44");
 
-    qbGrfg("G16",
+    qbGrfg("G17",
         "{RZF: 35 WBUAFBA CY ZBAEBR} ZRZF:|  35 WBUAFBA CY ZBAEBR - QVSS OERNGU --QVFC @ 11:32",
         "NQQE:35 WBUAFBA CY",
         "PVGL:ZBAEBR",
         "PNYY:QVSS OERNGU",
         "GVZR:11:32");
 
-    qbGrfg("G17",
+    qbGrfg("G18",
         "{RZF: 88 PUHEPU FG ZBAEBR} ZRZF:|  88 PUHEPU FG ZBAEBR - QVSS OERNGU --QVFC @ 01:53",
         "NQQE:88 PUHEPU FG",
         "PVGL:ZBAEBR",
         "PNYY:QVSS OERNGU",
         "GVZR:01:53");
 
-    qbGrfg("G18",
+    qbGrfg("G19",
         "{RZF: 358 JURRYRE EQ N2 ZBAEBR} ZRZF:|  358 JURRYRE EQ N2 ZBAEBR - NOQ CNVA --QVFC @ 00:00",
         "NQQE:358 JURRYRE EQ",
         "NCG:N2",
@@ -1124,65 +1132,65 @@ choyvp pynff PGSnvesvryqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NOQ CNVA",
         "GVZR:00:00");
 
-    qbGrfg("G19",
+    qbGrfg("G20",
         "{RZF: 22 YLAA QE ZBAEBR} ZRZF:|  22 YLAA QE ZBAEBR - QVSS OERNGU --QVFC @ 21:43",
         "NQQE:22 YLAA QE",
         "PVGL:ZBAEBR",
         "PNYY:QVSS OERNGU",
         "GVZR:21:43");
 
-    qbGrfg("G20",
+    qbGrfg("G21",
         "{RZF: 289 SNA UVYY EQ ZBAEBR} ZRZF:|  289 SNA UVYY EQ ZBAEBR - FRVMHER --QVFC @ 20:47",
         "NQQE:289 SNA UVYY EQ",
         "PVGL:ZBAEBR",
         "PNYY:FRVMHER",
         "GVZR:20:47");
 
-    qbGrfg("G21",
+    qbGrfg("G22",
         "{RZF: 575 ZBAEBR GCXR ZBAEBR} ZRZF:|  575 ZBAEBR GCXR ZBAEBR - QVSS OERNGU --QVFC @ 13:06",
         "NQQE:575 ZBAEBR GCXR",
         "PVGL:ZBAEBR",
         "PNYY:QVSS OERNGU",
         "GVZR:13:06");
 
-    qbGrfg("G22",
+    qbGrfg("G23",
         "{RZF: 401 ZBAEBR GCXR ZBAEBR} ZRZF:3EQ GBAR|  401 ZBAEBR GCXR ZBAEBR - CBFF PIN --QVFC @ 12:40",
-        "NQQE:ZRZF: 3EQ GBAR| 401 ZBAEBR GCXR",
+        "NQQE:401 ZBAEBR GCXR",
         "PVGL:ZBAEBR",
-        "PNYY:CBFF PIN",
+        "PNYY:3EQ GBAR - CBFF PIN",
         "GVZR:12:40");
 
-    qbGrfg("G23",
+    qbGrfg("G24",
         "{RZF: 401 ZBAEBR GCXR ZBAEBR} ZRZF:2AQ GBAR|  401 ZBAEBR GCXR ZBAEBR - CBFF PIN --QVFC @ 12:38",
-        "NQQE:ZRZF: 2AQ GBAR| 401 ZBAEBR GCXR",
+        "NQQE:401 ZBAEBR GCXR",
         "PVGL:ZBAEBR",
-        "PNYY:CBFF PIN",
+        "PNYY:2AQ GBAR - CBFF PIN",
         "GVZR:12:38");
 
-    qbGrfg("G24",
+    qbGrfg("G25",
         "{RZF: 401 ZBAEBR GCXR ZBAEBR} ZRZF:|  401 ZBAEBR GCXR ZBAEBR - CBFF PIN --QVFC @ 12:35",
         "NQQE:401 ZBAEBR GCXR",
         "PVGL:ZBAEBR",
         "PNYY:CBFF PIN",
         "GVZR:12:35");
 
-    qbGrfg("G25",
+    qbGrfg("G26",
         "{RZF: 13 UVQQRA XABYYF PVE O3 HAVG13 ZBAEBR} ZRZF:3EQ GBAR|  13 UVQQRA XABYYF PVE O3 HAVG13 ZBAEBR - SNYY --QVFC @ 11:55",
-        "NQQE:ZRZF: 3EQ GBAR| 13 UVQQRA XABYYF PVE O3",
-        "NCG:13",
+        "NQQE:13 UVQQRA XABYYF PVE",
+        "NCG:O3 HAVG13",
         "PVGL:ZBAEBR",
-        "PNYY:SNYY",
+        "PNYY:3EQ GBAR - SNYY",
         "GVZR:11:55");
 
-    qbGrfg("G26",
+    qbGrfg("G27",
         "{RZF: 13 UVQQRA XABYYF PVE O3 HAVG13 ZBAEBR} ZRZF:2AQ GBAR|  13 UVQQRA XABYYF PVE O3 HAVG13 ZBAEBR - SNYY --QVFC @ 11:53",
-        "NQQE:ZRZF: 2AQ GBAR| 13 UVQQRA XABYYF PVE O3",
-        "NCG:13",
+        "NQQE:13 UVQQRA XABYYF PVE",
+        "NCG:O3 HAVG13",
         "PVGL:ZBAEBR",
-        "PNYY:SNYY",
+        "PNYY:2AQ GBAR - SNYY",
         "GVZR:11:53");
 
-    qbGrfg("G27",
+    qbGrfg("G28",
         "{RZF: 13 UVQQRA XABYYF PVE O3 HAVG13 ZBAEBR} ZRZF:|  13 UVQQRA XABYYF PVE O3 HAVG13 ZBAEBR - SNYY --QVFC @ 11:49",
         "NQQE:13 UVQQRA XABYYF PVE",
         "NCG:O3 HAVG13",
@@ -1190,7 +1198,7 @@ choyvp pynff PGSnvesvryqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SNYY",
         "GVZR:11:49");
 
-    qbGrfg("G28",
+    qbGrfg("G29",
         "{RZF: 401 ZBAEBR GCXR SYE YNEC HAVG UHG ZBAEBR} ZRZF:|  401 ZBAEBR GCXR SYE YNEC HAVG UHG ZBAEBR - PNEQVNP --QVFC @ 11:47",
         "NQQE:401 ZBAEBR GCXR",
         "NCG:SYE YNEC HAVG UHG",
@@ -1198,189 +1206,189 @@ choyvp pynff PGSnvesvryqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:PNEQVNP",
         "GVZR:11:47");
 
-    qbGrfg("G29",
+    qbGrfg("G30",
         "{RZF: 29 ZBHAGNVAFVQR QE ZBAEBR} ZRZF:|  29 ZBHAGNVAFVQR QE ZBAEBR - GENHZN --QVFC @ 08:42",
         "NQQE:29 ZBHAGNVAFVQR QE",
         "PVGL:ZBAEBR",
         "PNYY:GENHZN",
         "GVZR:08:42");
 
-    qbGrfg("G30",
+    qbGrfg("G31",
         "{RZF: 24 CRCCREVQTR EQ ZBAEBR} ZRZF:|  24 CRCCREVQTR EQ ZBAEBR - BIREQBFR --QVFC @ 22:12",
         "NQQE:24 CRCCREVQTR EQ",
         "PVGL:ZBAEBR",
         "PNYY:BIREQBFR",
         "GVZR:22:12");
 
-    qbGrfg("G31",
+    qbGrfg("G32",
         "{RZF: 230 EBBFRIRYG QE ZBAEBR} ZRZF:|  230 EBBFRIRYG QE ZBAEBR - IRUVPYR SVER BHGQBBE --QVFC @ 14:34",
         "NQQE:230 EBBFRIRYG QE",
         "PVGL:ZBAEBR",
         "PNYY:IRUVPYR SVER BHGQBBE",
         "GVZR:14:34");
 
-    qbGrfg("G32",
+    qbGrfg("G33",
         "{RZF: 134 PEBFF UVYY EQ ZBAEBR} ZRZF:3EQ GBAR|  134 PEBFF UVYY EQ ZBAEBR - FVPX PNYY --QVFC @ 12:13",
-        "NQQE:ZRZF: 3EQ GBAR| 134 PEBFF UVYY EQ",
+        "NQQE:134 PEBFF UVYY EQ",
         "PVGL:ZBAEBR",
-        "PNYY:FVPX PNYY",
+        "PNYY:3EQ GBAR - FVPX PNYY",
         "GVZR:12:13");
 
-    qbGrfg("G33",
+    qbGrfg("G34",
         "{RZF: 6 PNEEVNTR QE ZBAEBR} ZRZF:|  6 PNEEVNTR QE ZBAEBR - OYRRQVAT --QVFC @ 12:07",
         "NQQE:6 PNEEVNTR QE",
         "PVGL:ZBAEBR",
         "PNYY:OYRRQVAT",
         "GVZR:12:07");
 
-    qbGrfg("G34",
+    qbGrfg("G35",
         "{RZF: 134 PEBFF UVYY EQ ZBAEBR} ZRZF:|  134 PEBFF UVYY EQ ZBAEBR - FVPX PNYY --QVFC @ 12:02",
         "NQQE:134 PEBFF UVYY EQ",
         "PVGL:ZBAEBR",
         "PNYY:FVPX PNYY",
         "GVZR:12:02");
 
-    qbGrfg("G35",
+    qbGrfg("G36",
         "{RZF: 4 UNEIRFGRE EQ ZBAEBR} ZRZF:|  4 UNEIRFGRE EQ ZBAEBR - PNEQVNP --QVFC @ 16:46",
         "NQQE:4 UNEIRFGRE EQ",
         "PVGL:ZBAEBR",
         "PNYY:PNEQVNP",
         "GVZR:16:46");
 
-    qbGrfg("G36",
+    qbGrfg("G37",
         "{RZF: 95 UVTUYNAQ QE ZBAEBR} ZRZF:|  95 UVTUYNAQ QE ZBAEBR - CBFF PIN --QVFC @ 18:54",
         "NQQE:95 UVTUYNAQ QE",
         "PVGL:ZBAEBR",
         "PNYY:CBFF PIN",
         "GVZR:18:54");
 
-    qbGrfg("G37",
+    qbGrfg("G38",
         "{RZF: 24 HAQREUVYY EQ ZBAEBR} ZRZF:3EQ GBAR|  24 HAQREUVYY EQ ZBAEBR - SNYY --QVFC @ 22:40",
-        "NQQE:ZRZF: 3EQ GBAR| 24 HAQREUVYY EQ",
+        "NQQE:24 HAQREUVYY EQ",
         "PVGL:ZBAEBR",
-        "PNYY:SNYY",
+        "PNYY:3EQ GBAR - SNYY",
         "GVZR:22:40");
 
-    qbGrfg("G38",
+    qbGrfg("G39",
         "{RZF: 24 HAQREUVYY EQ ZBAEBR} ZRZF:2AQ GBAR|  24 HAQREUVYY EQ ZBAEBR - SNYY --QVFC @ 22:38",
-        "NQQE:ZRZF: 2AQ GBAR| 24 HAQREUVYY EQ",
+        "NQQE:24 HAQREUVYY EQ",
         "PVGL:ZBAEBR",
-        "PNYY:SNYY",
+        "PNYY:2AQ GBAR - SNYY",
         "GVZR:22:38");
 
-    qbGrfg("G39",
+    qbGrfg("G40",
         "{RZF: 24 HAQREUVYY EQ ZBAEBR} ZRZF:|  24 HAQREUVYY EQ ZBAEBR - SNYY --QVFC @ 22:34",
         "NQQE:24 HAQREUVYY EQ",
         "PVGL:ZBAEBR",
         "PNYY:SNYY",
         "GVZR:22:34");
 
-    qbGrfg("G40",
+    qbGrfg("G41",
         "{RZF: 101 YNML OEBBX EQ ZBAEBR} ZRZF:3EQ GBAR|  101 YNML OEBBX EQ ZBAEBR - NYYRET --QVFC @ 21:43",
-        "NQQE:ZRZF: 3EQ GBAR| 101 YNML OEBBX EQ",
+        "NQQE:101 YNML OEBBX EQ",
         "PVGL:ZBAEBR",
-        "PNYY:NYYRET",
+        "PNYY:3EQ GBAR - NYYRET",
         "GVZR:21:43");
 
-    qbGrfg("G41",
+    qbGrfg("G42",
         "{RZF: 101 YNML OEBBX EQ ZBAEBR} ZRZF:2AQ GBAR|  101 YNML OEBBX EQ ZBAEBR - NYYRET --QVFC @ 21:41",
-        "NQQE:ZRZF: 2AQ GBAR| 101 YNML OEBBX EQ",
+        "NQQE:101 YNML OEBBX EQ",
         "PVGL:ZBAEBR",
-        "PNYY:NYYRET",
+        "PNYY:2AQ GBAR - NYYRET",
         "GVZR:21:41");
 
-    qbGrfg("G42",
+    qbGrfg("G43",
         "{RZF: 101 YNML OEBBX EQ ZBAEBR} ZRZF:|  101 YNML OEBBX EQ ZBAEBR - NYYRET --QVFC @ 21:36",
         "NQQE:101 YNML OEBBX EQ",
         "PVGL:ZBAEBR",
         "PNYY:NYYRET",
         "GVZR:21:36");
 
-    qbGrfg("G43",
+    qbGrfg("G44",
         "{RZF: 151 ZRNQBJF RAQ EQ ZBAEBR} ZRZF:|  151 ZRNQBJF RAQ EQ ZBAEBR - HAXABJA --QVFC @ 14:26",
         "NQQE:151 ZRNQBJF RAQ EQ",
         "PVGL:ZBAEBR",
         "PNYY:HAXABJA",
         "GVZR:14:26");
 
-    qbGrfg("G44",
+    qbGrfg("G45",
         "{RZF: 10 YBIREF YA ZBAEBR} ZRZF:|  10 YBIREF YA ZBAEBR - QVSS OERNGU --QVFC @ 09:52",
         "NQQE:10 YBIREF YA",
         "PVGL:ZBAEBR",
         "PNYY:QVSS OERNGU",
         "GVZR:09:52");
 
-    qbGrfg("G45",
+    qbGrfg("G46",
         "{RZF: 151 ZRNQBJF RAQ EQ ZBAEBR} ZRZF:|  151 ZRNQBJF RAQ EQ ZBAEBR - QVSS OERNGU --QVFC @ 08:40",
         "NQQE:151 ZRNQBJF RAQ EQ",
         "PVGL:ZBAEBR",
         "PNYY:QVSS OERNGU",
         "GVZR:08:40");
 
-    qbGrfg("G46",
+    qbGrfg("G47",
         "{RZF: 57 JRYYF EQ ZBAEBR} ZRZF:|  57 JRYYF EQ ZBAEBR - PURFG CNVA --QVFC @ 22:13",
         "NQQE:57 JRYYF EQ",
         "PVGL:ZBAEBR",
         "PNYY:PURFG CNVA",
         "GVZR:22:13");
 
-    qbGrfg("G47",
+    qbGrfg("G48",
         "{RZF: 705 JURRYRE EQ ZBAEBR} ZRZF:UBZR ERFCBAQREF ARRQRQ|  705 JURRYRE EQ ZBAEBR - FLAPBCR --QVFC @ 01:29",
-        "NQQE:ZRZF: UBZR ERFCBAQREF ARRQRQ| 705 JURRYRE EQ",
+        "NQQE:705 JURRYRE EQ",
         "PVGL:ZBAEBR",
-        "PNYY:FLAPBCR",
+        "PNYY:UBZR ERFCBAQREF ARRQRQ - FLAPBCR",
         "GVZR:01:29");
 
-    qbGrfg("G48",
+    qbGrfg("G49",
         "{RZF: 705 JURRYRE EQ ZBAEBR} ZRZF:UBZR ERFCBAQREF ARRQRQ|  705 JURRYRE EQ ZBAEBR - HAPBA --QVFC @ 01:27",
-        "NQQE:ZRZF: UBZR ERFCBAQREF ARRQRQ| 705 JURRYRE EQ",
+        "NQQE:705 JURRYRE EQ",
         "PVGL:ZBAEBR",
-        "PNYY:HAPBA",
+        "PNYY:UBZR ERFCBAQREF ARRQRQ - HAPBA",
         "GVZR:01:27");
 
-    qbGrfg("G49",
+    qbGrfg("G50",
         "{RZF: 705 JURRYRE EQ ZBAEBR} ZRZF:|  705 JURRYRE EQ ZBAEBR - HAPBA --QVFC @ 01:23",
         "NQQE:705 JURRYRE EQ",
         "PVGL:ZBAEBR",
         "PNYY:HAPBA",
         "GVZR:01:23");
 
-    qbGrfg("G50",
+    qbGrfg("G51",
         "{RZF: 1393 ZBAEBR GCXR ZBAEBR} ZRZF:|  1393 ZBAEBR GCXR ZBAEBR - FVPX PNYY --QVFC @ 00:38",
         "NQQE:1393 ZBAEBR GCXR",
         "PVGL:ZBAEBR",
         "PNYY:FVPX PNYY",
         "GVZR:00:38");
 
-    qbGrfg("G51",
+    qbGrfg("G52",
         "{RZF: 6 EVPUZBAQ QE ZBAEBR} ZRZF:|  6 EVPUZBAQ QE ZBAEBR - PURFG CNVA --QVFC @ 22:57",
         "NQQE:6 EVPUZBAQ QE",
         "PVGL:ZBAEBR",
         "PNYY:PURFG CNVA",
         "GVZR:22:57");
 
-    qbGrfg("G52",
+    qbGrfg("G53",
         "{RZF: 12 AHGZRT PVE ZBAEBR} ZRZF:3EQ GBAR|  12 AHGZRT PVE ZBAEBR - QVSS OERNGU --QVFC @ 07:39",
-        "NQQE:ZRZF: 3EQ GBAR| 12 AHGZRT PVE",
+        "NQQE:12 AHGZRT PVE",
         "PVGL:ZBAEBR",
-        "PNYY:QVSS OERNGU",
+        "PNYY:3EQ GBAR - QVSS OERNGU",
         "GVZR:07:39");
 
-    qbGrfg("G53",
+    qbGrfg("G54",
         "{RZF: 12 AHGZRT PVE ZBAEBR} ZRZF:2AQ GBAR|  12 AHGZRT PVE ZBAEBR - QVSS OERNGU --QVFC @ 07:37",
-        "NQQE:ZRZF: 2AQ GBAR| 12 AHGZRT PVE",
+        "NQQE:12 AHGZRT PVE",
         "PVGL:ZBAEBR",
-        "PNYY:QVSS OERNGU",
+        "PNYY:2AQ GBAR - QVSS OERNGU",
         "GVZR:07:37");
 
-    qbGrfg("G54",
+    qbGrfg("G55",
         "{RZF: 12 AHGZRT PVE ZBAEBR} ZRZF:|  12 AHGZRT PVE ZBAEBR - QVSS OERNGU --QVFC @ 07:34",
         "NQQE:12 AHGZRT PVE",
         "PVGL:ZBAEBR",
         "PNYY:QVSS OERNGU",
         "GVZR:07:34");
 
-    qbGrfg("G55",
+    qbGrfg("G56",
         "{RZF: 358 JURRYRE EQ O2 ZBAEBR} ZRZF:|  358 JURRYRE EQ O2 ZBAEBR - FVPX PNYY --QVFC @ 06:44",
         "NQQE:358 JURRYRE EQ",
         "NCG:O2",
@@ -1388,308 +1396,308 @@ choyvp pynff PGSnvesvryqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FVPX PNYY",
         "GVZR:06:44");
 
-    qbGrfg("G56",
+    qbGrfg("G57",
         "{RZF: 15 FRAVBE QE ZBAEBR} ZRZF:3EQ GBAR|  15 FRAVBE QE ZBAEBR - SNYY --QVFC @ 04:29",
-        "NQQE:ZRZF: 3EQ GBAR| 15 FRAVBE QE",
+        "NQQE:15 FRAVBE QE",
         "PVGL:ZBAEBR",
-        "PNYY:SNYY",
+        "PNYY:3EQ GBAR - SNYY",
         "GVZR:04:29");
 
-    qbGrfg("G57",
+    qbGrfg("G58",
         "{RZF: 15 FRAVBE QE ZBAEBR} ZRZF:2AQ GBAR|  15 FRAVBE QE ZBAEBR - SNYY --QVFC @ 04:26",
-        "NQQE:ZRZF: 2AQ GBAR| 15 FRAVBE QE",
+        "NQQE:15 FRAVBE QE",
         "PVGL:ZBAEBR",
-        "PNYY:SNYY",
+        "PNYY:2AQ GBAR - SNYY",
         "GVZR:04:26");
 
-    qbGrfg("G58",
+    qbGrfg("G59",
         "{RZF: 15 FRAVBE QE ZBAEBR} ZRZF:|  15 FRAVBE QE ZBAEBR - SNYY --QVFC @ 04:23",
         "NQQE:15 FRAVBE QE",
         "PVGL:ZBAEBR",
         "PNYY:SNYY",
         "GVZR:04:23");
 
-    qbGrfg("G59",
+    qbGrfg("G60",
         "{RZF: 15 ORUERAF GREE ZBAEBR} ZRZF:|  15 ORUERAF GREE ZBAEBR - ZRQVPNY NYNEZ --QVFC @ 23:13",
         "NQQE:15 ORUERAF GREE",
         "PVGL:ZBAEBR",
         "PNYY:ZRQVPNY NYNEZ",
         "GVZR:23:13");
 
-    qbGrfg("G60",
+    qbGrfg("G61",
         "{RZF: 1014 ZBAEBR GCXR ZBAEBR} ZRZF:|  1014 ZBAEBR GCXR ZBAEBR - PNEQVNP --QVFC @ 19:31",
         "NQQE:1014 ZBAEBR GCXR",
         "PVGL:ZBAEBR",
         "PNYY:PNEQVNP",
         "GVZR:19:31");
 
-    qbGrfg("G61",
+    qbGrfg("G62",
         "{RZF: 131 UNGGREGBJA EQ ZBAEBR} ZRZF:|  131 UNGGREGBJA EQ ZBAEBR - QVNORGVP --QVFC @ 17:28",
         "NQQE:131 UNGGREGBJA EQ",
         "PVGL:ZBAEBR",
         "PNYY:QVNORGVP",
         "GVZR:17:28");
 
-    qbGrfg("G62",
+    qbGrfg("G63",
         "{RZF: 289 SNA UVYY EQ ZBAEBR} ZRZF:|  289 SNA UVYY EQ ZBAEBR - CFLPU --QVFC @ 15:33",
         "NQQE:289 SNA UVYY EQ",
         "PVGL:ZBAEBR",
         "PNYY:CFLPU",
         "GVZR:15:33");
 
-    qbGrfg("G63",
+    qbGrfg("G64",
         "{RZF: 456 ZBAEBR GCXR ZBAEBR} ZRZF:|  456 ZBAEBR GCXR ZBAEBR - ZIN JVGU VAWHEVRF --QVFC @ 14:36",
         "NQQE:456 ZBAEBR GCXR",
         "PVGL:ZBAEBR",
         "PNYY:ZIN JVGU VAWHEVRF",
         "GVZR:14:36");
 
-    qbGrfg("G64",
+    qbGrfg("G65",
         "{RZF: 7 UNZZREGBJA EQ ZBAEBR} ZRZF:|  7 UNZZREGBJA EQ ZBAEBR - QVSS OERNGU --QVFC @ 11:14",
         "NQQE:7 UNZZREGBJA EQ",
         "PVGL:ZBAEBR",
         "PNYY:QVSS OERNGU",
         "GVZR:11:14");
 
-    qbGrfg("G65",
+    qbGrfg("G66",
         "{RZF: 230 EG 34 ZBAEBR} ZRZF:|  230 EG 34 ZBAEBR - ZIN JVGU VAWHEVRF --QVFC @ 06:46",
         "NQQE:230 EG 34",
         "PVGL:ZBAEBR",
         "PNYY:ZIN JVGU VAWHEVRF",
         "GVZR:06:46");
 
-    qbGrfg("G66",
+    qbGrfg("G67",
         "{RZF: 5 ORUERAF GREE ZBAEBR} ZRZF:|  5 ORUERAF GREE ZBAEBR - ZRQVPNY NYNEZ --QVFC @ 09:11",
         "NQQE:5 ORUERAF GREE",
         "PVGL:ZBAEBR",
         "PNYY:ZRQVPNY NYNEZ",
         "GVZR:09:11");
 
-    qbGrfg("G67",
+    qbGrfg("G68",
         "{RZF: 801 ZNVA FG ZBAEBR} ZRZF:|  801 ZNVA FG ZBAEBR - NYYRET --QVFC @ 03:56",
         "NQQE:801 ZNVA FG",
         "PVGL:ZBAEBR",
         "PNYY:NYYRET",
         "GVZR:03:56");
 
-    qbGrfg("G68",
+    qbGrfg("G69",
         "{RZF: 49 JVYGNA QE ZBAEBR} ZRZF:|  49 JVYGNA QE ZBAEBR - FVPX PNYY --QVFC @ 12:18",
         "NQQE:49 JVYGNA QE",
         "PVGL:ZBAEBR",
         "PNYY:FVPX PNYY",
         "GVZR:12:18");
 
-    qbGrfg("G69",
+    qbGrfg("G70",
         "{RZF: 381 PEBFF UVYY EQ ZBAEBR} ZRZF:|  381 PEBFF UVYY EQ ZBAEBR - ZIN HAXABJA FGNGHF --QVFC @ 12:17",
         "NQQE:381 PEBFF UVYY EQ",
         "PVGL:ZBAEBR",
         "PNYY:ZIN HAXABJA FGNGHF",
         "GVZR:12:17");
 
-    qbGrfg("G70",
+    qbGrfg("G71",
         "{RZF: 49 JVYGNA QE ZBAEBR} ZRZF:|  49 JVYGNA QE ZBAEBR - FVPX PNYY --QVFC @ 12:15",
         "NQQE:49 JVYGNA QE",
         "PVGL:ZBAEBR",
         "PNYY:FVPX PNYY",
         "GVZR:12:15");
 
-    qbGrfg("G71",
+    qbGrfg("G72",
         "{RZF: 381 PEBFF UVYY EQ ZBAEBR} ZRZF:|  381 PEBFF UVYY EQ ZBAEBR - ZIN HAXABJA FGNGHF --QVFC @ 12:14",
         "NQQE:381 PEBFF UVYY EQ",
         "PVGL:ZBAEBR",
         "PNYY:ZIN HAXABJA FGNGHF",
         "GVZR:12:14");
 
-    qbGrfg("G72",
+    qbGrfg("G73",
         "{RZF: 49 JVYGNA QE ZBAEBR} ZRZF:|  49 JVYGNA QE ZBAEBR - FVPX PNYY --QVFC @ 12:10",
         "NQQE:49 JVYGNA QE",
         "PVGL:ZBAEBR",
         "PNYY:FVPX PNYY",
         "GVZR:12:10");
 
-    qbGrfg("G73",
+    qbGrfg("G74",
         "{RZF: 121 FRGGYREF SNEZ EQ ZBAEBR} ZRZF:|  121 FRGGYREF SNEZ EQ ZBAEBR - FLAPBCR --QVFC @ 11:00",
         "NQQE:121 FRGGYREF SNEZ EQ",
         "PVGL:ZBAEBR",
         "PNYY:FLAPBCR",
         "GVZR:11:00");
 
-    qbGrfg("G74",
+    qbGrfg("G75",
         "{RZF: 28 SNE UBEVMBA QE ZBAEBR} ZRZF:|  28 SNE UBEVMBA QE ZBAEBR - FVPX PNYY --QVFC @ 09:23",
         "NQQE:28 SNE UBEVMBA QE",
         "PVGL:ZBAEBR",
         "PNYY:FVPX PNYY",
         "GVZR:09:23");
 
-    qbGrfg("G75",
+    qbGrfg("G76",
         "{RZF: IVPGBEVN QE & ZNVA FG ZBAEBR} ZRZF:3EQ GBAR|  IVPGBEVN QE & ZNVA FG ZBAEBR - FVPX PNYY --QVFC @ 02:21",
-        "NQQE:ZRZF: 3EQ GBAR| IVPGBEVN QE & ZNVA FG",
+        "NQQE:IVPGBEVN QE & ZNVA FG",
         "PVGL:ZBAEBR",
-        "PNYY:FVPX PNYY",
+        "PNYY:3EQ GBAR - FVPX PNYY",
         "GVZR:02:21");
 
-    qbGrfg("G76",
+    qbGrfg("G77",
         "{RZF: IVPGBEVN QE & ZNVA FG ZBAEBR} ZRZF:2AQ GBAR|  IVPGBEVN QE & ZNVA FG ZBAEBR - FVPX PNYY --QVFC @ 02:18",
-        "NQQE:ZRZF: 2AQ GBAR| IVPGBEVN QE & ZNVA FG",
+        "NQQE:IVPGBEVN QE & ZNVA FG",
         "PVGL:ZBAEBR",
-        "PNYY:FVPX PNYY",
+        "PNYY:2AQ GBAR - FVPX PNYY",
         "GVZR:02:18");
 
-    qbGrfg("G77",
+    qbGrfg("G78",
         "{RZF: IVPGBEVN QE & ZNVA FG ZBAEBR} ZRZF:|  IVPGBEVN QE & ZNVA FG ZBAEBR - FVPX PNYY --QVFC @ 02:14",
         "NQQE:IVPGBEVN QE & ZNVA FG",
         "PVGL:ZBAEBR",
         "PNYY:FVPX PNYY",
         "GVZR:02:14");
 
-    qbGrfg("G78",
+    qbGrfg("G79",
         "{RZF: 14 YBATIVRJ EQ ZBAEBR} ZRZF:3EQ GBAR|  14 YBATIVRJ EQ ZBAEBR - QVSS OERNGU --QVFC @ 20:13",
-        "NQQE:ZRZF: 3EQ GBAR| 14 YBATIVRJ EQ",
+        "NQQE:14 YBATIVRJ EQ",
         "PVGL:ZBAEBR",
-        "PNYY:QVSS OERNGU",
+        "PNYY:3EQ GBAR - QVSS OERNGU",
         "GVZR:20:13");
 
-    qbGrfg("G79",
+    qbGrfg("G80",
         "{RZF: 14 YBATIVRJ EQ ZBAEBR} ZRZF:2AQ GBAR|  14 YBATIVRJ EQ ZBAEBR - QVSS OERNGU --QVFC @ 20:11",
-        "NQQE:ZRZF: 2AQ GBAR| 14 YBATIVRJ EQ",
+        "NQQE:14 YBATIVRJ EQ",
         "PVGL:ZBAEBR",
-        "PNYY:QVSS OERNGU",
+        "PNYY:2AQ GBAR - QVSS OERNGU",
         "GVZR:20:11");
 
-    qbGrfg("G80",
+    qbGrfg("G81",
         "{RZF: 14 YBATIVRJ EQ ZBAEBR} ZRZF:|  14 YBATIVRJ EQ ZBAEBR - QVSS OERNGU --QVFC @ 20:08",
         "NQQE:14 YBATIVRJ EQ",
         "PVGL:ZBAEBR",
         "PNYY:QVSS OERNGU",
         "GVZR:20:08");
 
-    qbGrfg("G81",
+    qbGrfg("G82",
         "{RZF: 19 FRAVBE QE ZBAEBR} ZRZF:|  19 FRAVBE QE ZBAEBR - SNYY --QVFC @ 10:26",
         "NQQE:19 FRAVBE QE",
         "PVGL:ZBAEBR",
         "PNYY:SNYY",
         "GVZR:10:26");
 
-    qbGrfg("G82",
+    qbGrfg("G83",
         "{RZF: 109 UVQQRA XABYYF PVE ZBAEBR} ZRZF:|  109 UVQQRA XABYYF PVE ZBAEBR - PURFG CNVA --QVFC @ 08:29",
         "NQQE:109 UVQQRA XABYYF PVE",
         "PVGL:ZBAEBR",
         "PNYY:PURFG CNVA",
         "GVZR:08:29");
 
-    qbGrfg("G83",
+    qbGrfg("G84",
         "{RZF: 7 PUREEL UVYY PVE ZBAEBR} ZRZF:|  7 PUREEL UVYY PVE ZBAEBR - OYRRQVAT --QVFC @ 10:14",
         "NQQE:7 PUREEL UVYY PVE",
         "PVGL:ZBAEBR",
         "PNYY:OYRRQVAT",
         "GVZR:10:14");
 
-    qbGrfg("G84",
+    qbGrfg("G85",
         "{RZF: 67 UVQQRA XABYYF PVE ZBAEBR} ZRZF:|  67 UVQQRA XABYYF PVE ZBAEBR - CHOYVP NFFVFG SQ --QVFC @ 08:03",
         "NQQE:67 UVQQRA XABYYF PVE",
         "PVGL:ZBAEBR",
         "PNYY:CHOYVP NFFVFG SQ",
         "GVZR:08:03");
 
-    qbGrfg("G85",
+    qbGrfg("G86",
         "{RZF: 19 FRAVBE QE ZBAEBR} ZRZF:|  19 FRAVBE QE ZBAEBR - SNYY --QVFC @ 17:35",
         "NQQE:19 FRAVBE QE",
         "PVGL:ZBAEBR",
         "PNYY:SNYY",
         "GVZR:17:35");
 
-    qbGrfg("G86",
+    qbGrfg("G87",
         "{RZF: JURRYRE EQ & FURYGBA EQ ZBAEBR} ZRZF:|  JURRYRE EQ & FURYGBA EQ ZBAEBR - ZIN VAWHEL --QVFC @ 17:01",
         "NQQE:JURRYRE EQ & FURYGBA EQ",
         "PVGL:ZBAEBR",
         "PNYY:ZIN VAWHEL",
         "GVZR:17:01");
 
-    qbGrfg("G87",
+    qbGrfg("G88",
         "{RZF: 88 ZNCYRJBBQ QE ZBAEBR} ZRZF:|  88 ZNCYRJBBQ QE ZBAEBR - FLAPBCR --QVFC @ 13:03",
         "NQQE:88 ZNCYRJBBQ QE",
         "PVGL:ZBAEBR",
         "PNYY:FLAPBCR",
         "GVZR:13:03");
 
-    qbGrfg("G88",
+    qbGrfg("G89",
         "{RZF: 520 RYZ FG ZBAEBR} ZRZF:2AQ GBAR|  520 RYZ FG ZBAEBR - ZIN HAXABJA FGNGHF --QVFC @ 09:33",
-        "NQQE:ZRZF: 2AQ GBAR| 520 RYZ FG",
+        "NQQE:520 RYZ FG",
         "PVGL:ZBAEBR",
-        "PNYY:ZIN HAXABJA FGNGHF",
+        "PNYY:2AQ GBAR - ZIN HAXABJA FGNGHF",
         "GVZR:09:33");
 
-    qbGrfg("G89",
+    qbGrfg("G90",
         "{RZF: 520 RYZ FG ZBAEBR} ZRZF:2AQ GBAR|  520 RYZ FG ZBAEBR - ZIN HAXABJA FGNGHF --QVFC @ 09:30",
-        "NQQE:ZRZF: 2AQ GBAR| 520 RYZ FG",
+        "NQQE:520 RYZ FG",
         "PVGL:ZBAEBR",
-        "PNYY:ZIN HAXABJA FGNGHF",
+        "PNYY:2AQ GBAR - ZIN HAXABJA FGNGHF",
         "GVZR:09:30");
 
-    qbGrfg("G90",
+    qbGrfg("G91",
         "{RZF: 520 RYZ FG ZBAEBR} ZRZF:|  520 RYZ FG ZBAEBR - ZIN HAXABJA FGNGHF --QVFC @ 09:26",
         "NQQE:520 RYZ FG",
         "PVGL:ZBAEBR",
         "PNYY:ZIN HAXABJA FGNGHF",
         "GVZR:09:26");
 
-    qbGrfg("G91",
+    qbGrfg("G92",
         "{RZF: 5 CNGZNE GREE ZBAEBR} ZRZF:|  5 CNGZNE GREE ZBAEBR - SNYY --QVFC @ 09:17",
         "NQQE:5 CNGZNE GREE",
         "PVGL:ZBAEBR",
         "PNYY:SNYY",
         "GVZR:09:17");
 
-    qbGrfg("G92",
-        "{RZF: UNGGREGBJA EQ & WHQQ EQ ZBAEBR} ZRZF:2AQ GBAR|  UNGGREGBJA EQ & WHQQ EQ ZBAEBR - ZIN UVTU ZRPUNAVFZ --QVFC @ 09:16",
-        "NQQE:ZRZF: 2AQ GBAR| UNGGREGBJA EQ & WHQQ EQ",
-        "PVGL:ZBAEBR",
-        "PNYY:ZIN UVTU ZRPUNAVFZ",
-        "GVZR:09:16");
-
     qbGrfg("G93",
-        "{RZF: UNGGREGBJA EQ & WHQQ EQ ZBAEBR} ZRZF:3EQ GBAR|  UNGGREGBJA EQ & WHQQ EQ ZBAEBR - ZIN UVTU ZRPUNAVFZ --QVFC @ 09:16",
-        "NQQE:ZRZF: 3EQ GBAR| UNGGREGBJA EQ & WHQQ EQ",
+        "{RZF: UNGGREGBJA EQ & WHQQ EQ ZBAEBR} ZRZF:2AQ GBAR|  UNGGREGBJA EQ & WHQQ EQ ZBAEBR - ZIN UVTU ZRPUNAVFZ --QVFC @ 09:16",
+        "NQQE:UNGGREGBJA EQ & WHQQ EQ",
         "PVGL:ZBAEBR",
-        "PNYY:ZIN UVTU ZRPUNAVFZ",
+        "PNYY:2AQ GBAR - ZIN UVTU ZRPUNAVFZ",
         "GVZR:09:16");
 
     qbGrfg("G94",
-        "{RZF: UNGGREGBJA EQ & WHQQ EQ ZBAEBR} ZRZF:2AQ GBAR|  UNGGREGBJA EQ & WHQQ EQ ZBAEBR - ZIN UVTU ZRPUNAVFZ --QVFC @ 09:13",
-        "NQQE:ZRZF: 2AQ GBAR| UNGGREGBJA EQ & WHQQ EQ",
+        "{RZF: UNGGREGBJA EQ & WHQQ EQ ZBAEBR} ZRZF:3EQ GBAR|  UNGGREGBJA EQ & WHQQ EQ ZBAEBR - ZIN UVTU ZRPUNAVFZ --QVFC @ 09:16",
+        "NQQE:UNGGREGBJA EQ & WHQQ EQ",
         "PVGL:ZBAEBR",
-        "PNYY:ZIN UVTU ZRPUNAVFZ",
-        "GVZR:09:13");
+        "PNYY:3EQ GBAR - ZIN UVTU ZRPUNAVFZ",
+        "GVZR:09:16");
 
     qbGrfg("G95",
+        "{RZF: UNGGREGBJA EQ & WHQQ EQ ZBAEBR} ZRZF:2AQ GBAR|  UNGGREGBJA EQ & WHQQ EQ ZBAEBR - ZIN UVTU ZRPUNAVFZ --QVFC @ 09:13",
+        "NQQE:UNGGREGBJA EQ & WHQQ EQ",
+        "PVGL:ZBAEBR",
+        "PNYY:2AQ GBAR - ZIN UVTU ZRPUNAVFZ",
+        "GVZR:09:13");
+
+    qbGrfg("G96",
         "{RZF: UNGGREGBJA EQ & WHQQ EQ ZBAEBR} ZRZF:|  UNGGREGBJA EQ & WHQQ EQ ZBAEBR - ZIN UVTU ZRPUNAVFZ --QVFC @ 09:09",
         "NQQE:UNGGREGBJA EQ & WHQQ EQ",
         "PVGL:ZBAEBR",
         "PNYY:ZIN UVTU ZRPUNAVFZ",
         "GVZR:09:09");
 
-    qbGrfg("G96",
+    qbGrfg("G97",
         "{RZF: 302 CHEQL UVYY EQ ZBAEBR} ZRZF:|  302 CHEQL UVYY EQ ZBAEBR - URNQNPUR --QVFC @ 08:13",
         "NQQE:302 CHEQL UVYY EQ",
         "PVGL:ZBAEBR",
         "PNYY:URNQNPUR",
         "GVZR:08:13");
 
-    qbGrfg("G97",
+    qbGrfg("G98",
         "{RZF: 22 RQTR UVYY PVE ZBAEBR} ZRZF:2AQ GBAR|  22 RQTR UVYY PVE ZBAEBR - HAX CFLPU --QVFC @ 00:25",
-        "NQQE:ZRZF: 2AQ GBAR| 22 RQTR UVYY PVE",
+        "NQQE:22 RQTR UVYY PVE",
         "PVGL:ZBAEBR",
-        "PNYY:HAX CFLPU",
+        "PNYY:2AQ GBAR - HAX CFLPU",
         "GVZR:00:25");
 
-    qbGrfg("G98",
+    qbGrfg("G99",
         "{RZF: 22 RQTR UVYY PVE ZBAEBR} ZRZF:|  22 RQTR UVYY PVE ZBAEBR - HAX CFLPU --QVFC @ 00:22",
         "NQQE:22 RQTR UVYY PVE",
         "PVGL:ZBAEBR",
         "PNYY:HAX CFLPU",
         "GVZR:00:22");
 
-    qbGrfg("G99",
+    qbGrfg("G100",
         "{RZF: 495 RYZ FG ZBAEBR} ZRZF:|  495 RYZ FG ZBAEBR - HAX PNEQVNP --QVFC @ 14:35",
         "NQQE:495 RYZ FG",
         "PVGL:ZBAEBR",
@@ -1697,7 +1705,7 @@ choyvp pynff PGSnvesvryqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:14:35");
 
   }
-  
+ 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj PGSnvesvryqPbhaglOCnefreGrfg().trarengrGrfgf("G1");
   }

@@ -32,7 +32,7 @@ public class MOSikestonBParser extends FieldProgramParser {
     return super.getField(name);
   }
 
-  private static final Pattern ADDR_PTN = Pattern.compile("([^,]*)(?:, *([ A-Za-z]+))?(?:,(?: *(\\d{5}))? *\\b([A-Z]{2}))?");
+  private static final Pattern ADDR_PTN = Pattern.compile("([^,]*)(?:, *([ A-Za-z]+))?(?:,(?:(?: *(\\d{5}))? *\\b([A-Z]{2}))?)?");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {

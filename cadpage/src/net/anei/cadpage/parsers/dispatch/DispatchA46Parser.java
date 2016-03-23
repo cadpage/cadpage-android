@@ -59,6 +59,7 @@ public class DispatchA46Parser extends SmartAddressParser {
         data.strSupp = append(body, "\n", data.strSupp);
         addr = subAddr;
       }
+      addr = addr.replace('@', '&');
       mat = ADDR_PTN1.matcher(addr);
       if (mat.matches()) {
         parseAddress(mat.group(1).trim(), data);

@@ -12,8 +12,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYBroomeCountyParser extends FieldProgramParser {
   
-  private static final String SRC_PTN_STR = "[0-9/]+|[A-Z]{3,4}";
-  private static Pattern NEW_FMT_MARKER = Pattern.compile(SRC_PTN_STR + "\n");
+  private static final String SRC_PTN_STR = "(?:[0-9/]+|[A-Z]{3,4})";
+  private static Pattern NEW_FMT_MARKER = Pattern.compile(SRC_PTN_STR + " *\n");
+  private static Pattern BAD_EDIT_PTN = Pattern.compile("(\\d\\d)(?=[A-Z0-9])");
+  
+  private static Pattern NEW_FMT_MARKER2 = Pattern.compile(SRC_PTN_STR + ": ?:");
   
   private static Pattern PREFIX = Pattern.compile("^\\.{4} \\(.*?\\) ");
   private static Pattern LEADER = Pattern.compile("^([A-Z0-9/]+)[\\-:]");
@@ -24,7 +27,7 @@ public class NYBroomeCountyParser extends FieldProgramParser {
   
   public NYBroomeCountyParser() {
     super("BROOME COUNTY", "NY",
-          "SRC ( SELECT/2 EMPTY CALL ADDRCITY2 APT INFO X2 INFO+ " +
+          "SRC ( SELECT/2 EMPTY CALL ADDRCITY2 APT INFO+? X2 INFO+ " +
               "| CALL ADDR1/S6XP! INFO+ Cross_Sts:X1 Caller:NAME2 Phone:PHONE )");
   }
 
@@ -43,6 +46,10 @@ public class NYBroomeCountyParser extends FieldProgramParser {
       body = body.replace("\n Cross Sts", " Cross Sts");
       body = body.replace('\n', ':');
     }
+    
+    // And some  not so clever ones
+    Matcher match = BAD_EDIT_PTN.matcher(body);
+    if (match.lookingAt()) body = match.group(1)+':'+body.substring(match.end());
 
     // Removed unbalanced parenthesis from subject
     if (body.startsWith(")")) {
@@ -50,25 +57,26 @@ public class NYBroomeCountyParser extends FieldProgramParser {
       if (body.startsWith(",")) body = body.substring(1).trim();
     }
     body = body.trim().replaceAll("  +", " ");
-    Matcher match = PREFIX.matcher(body);
+    match = PREFIX.matcher(body);
     if (match.find()) body = body.substring(match.end()).trim();
     match = TRAILER.matcher(body);
     if (match.find()) body = body.substring(0,match.start()).trim();
 
     // Fix up leading field separator
     if (body.startsWith(")")) body = body.substring(1).trim();
-    body = LEADER.matcher(body).replaceFirst("$1 :");
     
     // New format is a lot easier to parse
     String[] flds;
-    if (subject.equals("!")) {
+    if (NEW_FMT_MARKER2.matcher(body).lookingAt()) {
       setSelectValue("2");
+      body = body.replace('\n', ' ');
       flds = body.split(":");
     }
 
     // Using a colon as both a field separator and a keyword indicator makes life complicated :(
     else {
       setSelectValue("1");
+      body = LEADER.matcher(body).replaceFirst("$1 :");
       List<String>fldList = new ArrayList<String>();
       match = KEYWORD_PAT.matcher(body);
       int st = 0;
@@ -108,10 +116,11 @@ public class NYBroomeCountyParser extends FieldProgramParser {
     if (name.equals("SRC")) return new SourceField(SRC_PTN_STR, true);
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDRCITY2")) return new MyAddressCity2Field();
-    if (name.equals("X2")) return new CrossField("Cross Sts-(.*)", true);
+    if (name.equals("X2")) return new MyCross2Field("Cross Sts-(.*)", true);
     if (name.equals("ADDR1")) return new MyAddress1Field();
     if (name.equals("X1")) return new MyCross1Field();
     if (name.equals("NAME2")) return new MyName2Field();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
@@ -131,6 +140,20 @@ public class NYBroomeCountyParser extends FieldProgramParser {
       return "PLACE ADDR APT CITY";
     }
   }
+  
+  private class MyCross2Field extends CrossField {
+    public MyCross2Field(String pattern, boolean hard) {
+      super(pattern, hard);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldStart(field, "/");
+      field = stripFieldEnd(field, "/");
+      super.parse(field, data);
+    }
+  }
+  
   
   private class MyAddress1Field extends AddressField {
     @Override
@@ -186,6 +209,14 @@ public class NYBroomeCountyParser extends FieldProgramParser {
       if (match.find()) {
         field = field.substring(0, match.start());
       }
+      super.parse(field, data);
+    }
+  }
+  
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals("ProQA Paramount Medical")) return;
       super.parse(field, data);
     }
   }

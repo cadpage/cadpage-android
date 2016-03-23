@@ -14,7 +14,7 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
  
   public OHHamiltonCountyAParser() {
     super(CITY_CODES, "HAMILTON COUNTY", "OH", 
-          "HC:CALL! Bld:APT! Apt:APT/D! ADDR PLACE CITY TIME UNIT CH Alarm:PRI! Xst:X! END");
+          "CALL! Bld:APT! Apt:APT/D! ADDR PLACE SRC TIME UNIT CH Alarm:PRI! Xst:X! END");
     setupDoctorNames("FELDMAN", "KATIE");
     setupMultiWordStreets(MWORD_STREET_LIST);
     setupDoctorNames(
@@ -50,6 +50,7 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
   private static final Pattern WILLIAM_HENRY_HARR = Pattern.compile("\\bWILLIAM HENRY HARR\\b", Pattern.CASE_INSENSITIVE);
 
   
+  private static final Pattern PREFIX_PTN = Pattern.compile("(?:HC|CAD|DIRECT):");
   private static final Pattern MASTER = Pattern.compile("HC:(.*?)(?: \\*\\*? (.*?) \\*\\*( .*?)??)?(?: (\\d{1,2}:\\d\\d)( .*)?)?");
   private static final Pattern APT_PTN = Pattern.compile("(.*?) +APT: *([^ ]+) +(.*)");
   private static final Pattern ORIG_LOC_PTN = Pattern.compile(" *\\bOriginal Location : *");
@@ -68,96 +69,110 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     // See if this is the new pipe delimited format
     String[] flds = body.split("\\|");
     if (flds.length >= 5) {
-      return parseFields(flds, data);
+      Matcher match = PREFIX_PTN.matcher(flds[0]);
+      if (!match.lookingAt()) return false;
+      flds[0] = flds[0].substring(match.end()).trim();
+      if (!parseFields(flds, data)) return false;
+      
+      String city = DEPT_CITY_TABLE.getProperty(data.strSource);
+      if (city != null) data.strCity = city;
     }
     
     // Otherwise we have to do this the hard way :(
-    setFieldList("ADDR CITY ST APT PLACE CALL INFO TIME UNIT X");
-    
-    Matcher match = MASTER.matcher(body);
-    if (!match.matches()) return false;
-    String addr = match.group(1).trim();
-    String call = match.group(2);
-    String info = match.group(3);
-    String time = match.group(4);
-    String extra = match.group(5);
-    
-    // Clean blanks out of YMCA RD
-    addr = YMCA_PTN.matcher(addr).replaceAll("YMCA");
-    
-    // Old format had an asterisk delimited call field with a place
-    // name in front of it and a info field behind.  There is another
-    // call description in front of the address that duplicates the
-    // asterisk delimited field so we just skip it
-    if (call != null) {
-      parseAddress(StartType.START_OTHER, FLAG_IGNORE_AT | FLAG_CROSS_FOLLOWS, addr, data);
-      String sPlace = fixCity(getLeft(), data);
-      if (sPlace.startsWith("APT ")) {
-        Parser p = new Parser(sPlace.substring(4).trim());
-        data.strApt = p.get(' ');
-        sPlace = p.get();
-      }
-      data.strPlace = sPlace;
-      data.strCall = call.trim();
-      data.strSupp = getOptGroup(info);
-      if (data.strSupp.startsWith("Original Location :")) data.strSupp = "";
-    }
-    
-    // New format just has one field with a call description, address, and additional information
     else {
+      setFieldList("ADDR CITY ST APT PLACE CALL INFO TIME UNIT X");
       
-      // Sometimes the put an APT: label and field between the call and address
-      // which makes things easier
-      StartType st = StartType.START_CALL;
-      int flags = FLAG_START_FLD_REQ;
-      match = APT_PTN.matcher(addr);
-      if (match.matches()) {
-        st = StartType.START_ADDR;
-        flags = 0;
-        data.strCall = match.group(1);
-        data.strApt = match.group(2);
-        addr = match.group(3);
-      }
+      Matcher match = MASTER.matcher(body);
+      if (!match.matches()) return false;
+      String addr = match.group(1).trim();
+      String call = match.group(2);
+      String info = match.group(3);
+      String time = match.group(4);
+      String extra = match.group(5);
       
-      // otherwise we have to do this the hard way.
+      // Clean blanks out of YMCA RD
+      addr = YMCA_PTN.matcher(addr).replaceAll("YMCA");
       
-      parseAddress(st, flags | FLAG_IGNORE_AT | FLAG_CROSS_FOLLOWS, addr, data);
-      info = fixCity(getLeft(), data);
-      if (info.startsWith("LOC:")) {
-        info = info.substring(4).trim();
-        match = ORIG_LOC_PTN.matcher(info);
-        if (match.find()) info = info.substring(0,match.start());
-        data.strPlace = info;
-      } else {
-        match = ORIG_LOC_PTN.matcher(info);
-        if (match.find()) {
-          String place = info.substring(match.end());
-          if (!data.strAddress.contains(place)) data.strPlace = place;
-          info = info.substring(0,match.start());
+      // Old format had an asterisk delimited call field with a place
+      // name in front of it and a info field behind.  There is another
+      // call description in front of the address that duplicates the
+      // asterisk delimited field so we just skip it
+      if (call != null) {
+        parseAddress(StartType.START_OTHER, FLAG_IGNORE_AT | FLAG_CROSS_FOLLOWS, addr, data);
+        String sPlace = fixCity(getLeft(), data);
+        if (sPlace.startsWith("APT ")) {
+          Parser p = new Parser(sPlace.substring(4).trim());
+          data.strApt = p.get(' ');
+          sPlace = p.get();
         }
-        data.strSupp = info;
+        data.strPlace = sPlace;
+        data.strCall = call.trim();
+        data.strSupp = getOptGroup(info);
+        if (data.strSupp.startsWith("Original Location :")) data.strSupp = "";
       }
-    }
-
-    // Fix some Dispatch address typos
-    data.strAddress = data.strAddress.replace("DE SOTO", "DESOTO");
-    
-    // Process time if present
-    if (time  != null) data.strTime = time;
-
-    // Process leftover stuff
-    if (extra != null) {
-      Parser p = new Parser(extra.trim());
-      String x2 = p.getLastOptional(" XST2:");
-      String x1 = p.getLastOptional(" XST:");
-      data.strUnit = p.get();
-      data.strCross = append(x1, " & ", x2);
-    }
-    
-    // Last check to clean up mystery NECC city code
-    if (data.strCity.equals("NECC")) {
-      data.strPlace = append(data.strCity, " - ", data.strPlace);
-      data.strCity = "";
+      
+      // New format just has one field with a call description, address, and additional information
+      else {
+        
+        // Sometimes the put an APT: label and field between the call and address
+        // which makes things easier
+        StartType st = StartType.START_CALL;
+        int flags = FLAG_START_FLD_REQ;
+        match = APT_PTN.matcher(addr);
+        if (match.matches()) {
+          st = StartType.START_ADDR;
+          flags = 0;
+          data.strCall = match.group(1);
+          data.strApt = match.group(2);
+          addr = match.group(3);
+        }
+        
+        // otherwise we have to do this the hard way.
+        
+        parseAddress(st, flags | FLAG_IGNORE_AT | FLAG_CROSS_FOLLOWS, addr, data);
+        if (data.strAddress.length() == 0) {
+          data.msgType = MsgType.GEN_ALERT;
+          data.strSupp = append(data.strCall, " - ", getLeft());
+          data.strCall = "";
+          return true;
+        }
+        info = fixCity(getLeft(), data);
+        if (info.startsWith("LOC:")) {
+          info = info.substring(4).trim();
+          match = ORIG_LOC_PTN.matcher(info);
+          if (match.find()) info = info.substring(0,match.start());
+          data.strPlace = info;
+        } else {
+          match = ORIG_LOC_PTN.matcher(info);
+          if (match.find()) {
+            String place = info.substring(match.end());
+            if (!data.strAddress.contains(place)) data.strPlace = place;
+            info = info.substring(0,match.start());
+          }
+          data.strSupp = info;
+        }
+      }
+  
+      // Fix some Dispatch address typos
+      data.strAddress = data.strAddress.replace("DE SOTO", "DESOTO");
+      
+      // Process time if present
+      if (time  != null) data.strTime = time;
+  
+      // Process leftover stuff
+      if (extra != null) {
+        Parser p = new Parser(extra.trim());
+        String x2 = p.getLastOptional(" XST2:");
+        String x1 = p.getLastOptional(" XST:");
+        data.strUnit = p.get();
+        data.strCross = append(x1, " & ", x2);
+      }
+      
+      // Last check to clean up mystery NECC city code
+      if (data.strCity.equals("NECC")) {
+        data.strPlace = append(data.strCity, " - ", data.strPlace);
+        data.strCity = "";
+      }
     }
     
     return true;
@@ -176,6 +191,11 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
   }
   private static final Pattern COUNTY_PTN = Pattern.compile("[A-Z]+ +(?:CO|CTY)\\b *(.*)");
   
+  @Override
+  public String getProgram() {
+    return super.getProgram().replace("SRC", "SRC CITY");
+  }
+  
   private static final String[] MWORD_STREET_LIST = new String[]{
     "ALTA VISTA",
     "ANDERSON COVE",
@@ -183,10 +203,12 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "ANDERSON GLEN",
     "APPLE FARM",
     "APPLE HILL",
+    "APPLE ORCHARD",
     "ASBURY HILLS",
     "ASHLEY OAKS",
     "ASHLEY VIEW",
     "ASPEN POINT",
+    "ASPEN VIEW",
     "ASTON LAKE",
     "ASTON OAKS",
     "ASTON WOODS",
@@ -198,6 +220,7 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "BERKSHIRE CLUB",
     "BLUE ASH",
     "BLUE CUT",
+    "BLUE LAKE",
     "BLUE ROCK",
     "BLUEJAY VIEW",
     "BRAMBLE HILL",
@@ -212,10 +235,15 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "BUNKER HILL",
     "BURNING TREE",
     "CAROLINA TRACE",
+    "CARROUSEL PARK",
+    "CARRY BACK",
     "CARVER WOODS",
     "CAULY WOODS",
+    "CEDAR POINT",
     "CENTER HILL",
+    "CHAPEL HEIGHTS",
     "CHASE PLAZA",
+    "CHERRY BLOSSOM",
     "CHESTNUT PARK",
     "CHESTNUT RIDGE",
     "CHUCK HARMON",
@@ -225,6 +253,7 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "COMPTON RIDGE",
     "CONCORD WOODS",
     "CONGRESS GREEN",
+    "CONGRESS RUN",
     "COOKS CROSSING",
     "CORNELL PARK",
     "COUNT FLEET",
@@ -260,13 +289,17 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "EAGLES LAKE",
     "EAST MIAMI RIVER",
     "EAST WILLOW",
+    "EDEN PLACE",
     "EDEN RIDGE",
     "EIGHT MILE",
     "EMERALD GLADE",
     "EMERALD LAKES",
+    "ENGLAND CLUB",
     "ENTERPRISE PARK",
+    "ESTER MARIE",
     "FAIR OAKS",
     "FARM ACRES",
+    "FAWN MEADOW",
     "FIDDLERS GREEN",
     "FIELDS ERTEL",
     "FIVE MILE",
@@ -288,6 +321,7 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "GLEN OAKS",
     "GLENDALE MILFORD",
     "GOOD SAMARITAN",
+    "GORMAN HERITAGE FARM",
     "GOVERNORS HILL",
     "GRAND OAKS",
     "GREEN ACRES",
@@ -310,9 +344,12 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "HIGH POINTE",
     "HIGH TREE",
     "HOFFMAN FARM",
+    "HOLIDAY HILLS",
     "HOLMAN VIEW",
     "HUNTERS CREEK",
+    "INDIAN CREEK",
     "INDIAN HILL",
+    "INDIAN RIDGE",
     "INDIAN TRACE",
     "INDIAN VIEW",
     "INDIAN WOODS",
@@ -330,18 +367,23 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "KEMPER MEADOW",
     "KEMPER WOODS",
     "KEN ARBRE",
+    "KENWOOD CROSSING",
     "KUGLER MILL",
     "KULIGA PARK",
     "LA BOITEAUX",
     "LAKE FOREST",
     "LAKE VIEW",
     "LANGDON FARM",
+    "LAUREL RIDGE",
+    "LE MAR",
     "LE ROY",
     "LEES CREEK",
     "LEES CROSSING",
     "LEGENDARY RIDGE",
     "LITTLE CREEK",
+    "LITTLE DRY RUN",
     "LITTLE DRY",
+    "LOCUST RIDGE",
     "LOGAN CREEK",
     "LORD ALFRED",
     "LYTLE WOODS",
@@ -351,8 +393,12 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "MAPLE KNOLL TERRACE",
     "MAPLE VIEW",
     "MAR DEL",
+    "MAR RIC",
     "MARKET PLACE",
+    "MASON MONTGOMERY",
+    "MAYVIEW FOREST",
     "MEADOW BROOK",
+    "MEADOW CREEK",
     "MEADOW GROVE",
     "MEADOW LAKE",
     "MEADOW LARK",
@@ -364,11 +410,15 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "MIAMI RIVER",
     "MIAMI WOODS",
     "MICHAEL ANTHONY",
+    "MICHELLES OAK",
     "MILES WOODS",
     "MILFORD VISTA",
     "MILLVILLE SHANDON",
     "MISTY MEADOW",
+    "MITCHELL FARM",
+    "MITCHELL PARK",
     "MITCHELL WAY",
+    "MONFORT HEIGHTS",
     "MORGAN ROSS",
     "MORNING GLORY",
     "MT ALVERNO",
@@ -378,6 +428,7 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "MT PLEASANT",
     "MT VERNON",
     "MUDDY CREEK",
+    "MYSTICAL ROSE",
     "NORTH BAY",
     "NORTH BEND",
     "NORTH COMMERCE PARK",
@@ -385,13 +436,17 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "NORTH HILL",
     "OAK BROOK",
     "OAK KNOLL",
+    "OAK POST",
+    "OAKWOOD PARK",
     "OLDE GATE",
     "ORCHARD CLUB",
+    "ORCHARD HILL",
     "ORCHARD VIEW",
     "PADDYS RUN",
     "PARK 42",
     "PEBBLE BROOKE",
     "PINE MEADOW",
+    "PIPPIN MEADOWS",
     "PLEASANT RUN",
     "POAGE FARM",
     "POWNER FARM",
@@ -421,6 +476,9 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "ROUND TOP",
     "ROWAN HILL",
     "ROYAL GLEN",
+    "ROYAL OAK",
+    "RUWES OAK",
+    "SAINT JOE",
     "SAMOHT RIDGE",
     "SAND RUN",
     "SCHOOL SECTION",
@@ -444,7 +502,9 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "SPOOKY RIDGE",
     "SPRING GROVE",
     "SPRING HILL",
+    "SPRINGDALE LAKE",
     "SPY GLASS",
+    "SQUIRREL RIDGE",
     "ST ALBANS",
     "ST ANDREWS",
     "ST ANN",
@@ -463,6 +523,7 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "STONE RIDGE",
     "STONEY CULVERT",
     "SUGAR CAMP",
+    "SUMMIT LAKE",
     "SUSPENSION BRIDGE",
     "SUTTERS MILL",
     "SYCAMORE GROVE",
@@ -470,18 +531,25 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "TALL PINES",
     "TANGLEWOOD PARK",
     "THREE RIVERS",
+    "TIM TAM",
     "TIMBER RIDGE",
     "TIMBER TOP",
     "TIMBER WAY",
     "TOMY LEE",
+    "TOWERING RIDGE",
     "TOWNE CENTER",
     "TOWNE COMMONS",
     "TREE HEIGHTS",
     "TRI COUNTY",
     "TRI RIDGE",
+    "TRIANGLE PARK",
     "TURF WOOD",
+    "TWELVE OAKS",
+    "TWO MILE",
     "UNION CENTRE",
+    "VALLEY JUNCTION",
     "VALLEY RIDGE",
+    "VALLEY VIEW",
     "VAN BUREN",
     "VAN FLEET",
     "VAN NES",
@@ -500,6 +568,7 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "WALNUT WOODS",
     "WALTON CREEK",
     "WAR ADMIRAL",
+    "WATCH POINT",
     "WAYNE PARK",
     "WEST FORDHAM",
     "WEST FORK",
@@ -507,16 +576,20 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     "WEST MC KELVEY",
     "WESTIN RIDGE",
     "WESTWOOD NORTHERN",
+    "WHISPERING FARM",
+    "WHITE WATER",
     "WHITES HILL",
     "WILLIAMS CREEK",
     "WILLOW HILLS",
     "WILLOW RUN",
     "WINDING BROOK",
+    "WINDY HILLS",
     "WINTON HILLS",
     "WINTON WOODS",
     "WITTS MILL",
     "WOLFPEN PLEASANT HILL",
     "WOOD BLUFF",
+    "WOODLAND RESERVE",
     "WOODLANDS PATH",
     "WOODLANDS RIDGE",
     "ZIG ZAG",
@@ -605,6 +678,8 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
   // undelimited format.  We can drop them when we drop that logic.
   
   private static final CodeSet CALL_LIST = new CodeSet(
+      "A/A-BUILDING STRUCK",
+      "A/A-FIRE/FUEL LEAK",
       "A/A -",
       "A/A -BUILDING STRUCK",
       "A/A - ENTRAPMENT",
@@ -618,8 +693,10 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "ALLERGIC REACTION",
       "ANIMAL BITE",
       "APPLIANCE FIRE",
+      "ASSAULT-INJURED",
       "ATTEMPT/THREAT SUICIDE",
       "BACK PAIN",
+      "BRUSH/MULCH/FIELD FIRE",
       "CHECK TAZED PERSON",
       "CHEMICAL SPILL",
       "CHEST PAIN",
@@ -631,6 +708,7 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "DROWNING",
       "DUMPSTER FIRE",
       "ELECTRICAL FIRE",
+      "ELECTRICAL INJURY",
       "ELEVATOR ALARM/RESCU",
       "EMERGENCY TO PROPERTY",
       "EMS / LIFT ASSISTANCE",
@@ -681,11 +759,13 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "PERSON WITH A HEAD INJURY",
       "POISONING",
       "POLE/TRANSFORM FIRE",
+      "POLE/TRANSFORMER FIRE",
       "POSSIBLE HEART ATTACK",
       "PROPERTY EMERGENCY",
       "PSYCHIATRIC EMER",
       "PSYCHIATRIC EMERGENCY",
       "REC ELEVATOR ALARM",
+      "RECORDED ELEVATOR ALARM",
       "RECORDED FIRE ALARM",
       "SEIZURES",
       "SEXUAL ASSAULT",
@@ -693,6 +773,7 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "SICK PERSON",
       "SMELL OF GAS",
       "SMOKE/ODOR INDOORS",
+      "SMOKE/ODOR OUTDOORS",
       "STROKE",
       "STRUCTURE FIRE",
       "SUICIDE ATT/THREATS",
@@ -707,4 +788,47 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "WIRES DOWN",
       "WIRES DOWN/ARCING/FIRE"
   );
+  
+  private static final Properties DEPT_CITY_TABLE = buildCodeTable(new String[]{
+      "Amberly Village FD",         "Amberly Village",
+      "Anderson Twp FD",            "Cincinnati",
+      "Blue Ash FD",                "Blue Ash",
+      "Cheviot FD",                 "Cheviot",
+      "Clermont CO FD",             "Clermont County",
+      "Cleves FD",                  "Cleves",
+      "Colerain Twp FD",            "Colerain Twp",
+      "Crosby Twp FD",              "Crosby Twp",
+      "Deerpark/Silverton FD",      "Deer Park",
+      "Delhi Twp FD",               "Delhi Twp",
+      "Elmwood FD",                 "Elmwood",
+      "Evendale FD",                "Evendale",
+      "Forest Park FD",             "Forest Park",
+      "Glendale FD",                "Glendale",
+      "Golf Manor FD",              "Golf Manor",
+      "Green Twp FD",               "Green Twp",
+      "Greenhills FD",              "Greenhills",
+      "Harrison FD",                "Harrison Twp",
+      "Lincoln Heights FD",         "Lincoln Heights",
+      "Little Miami JFD",           "Fairfax",
+      "Lockland FD",                "Lockland",
+      "Madeira/Indian Hill JFD",    "Madeira",
+      "Mariemont FD",               "Mariemont",
+      "Miami Twp FD",               "North Bend",
+      "Milford FD",                 "Milford",
+      "Montgomery FD",              "Montgomery",
+      "Mt Healthy FD",              "Mt Healthy",
+      "N College Hill FD",          "N College Hill",
+      "Reading FD",                 "Reading",
+      "Sharonville FD",             "Sharonville",
+      "Sprindale FD",               "Springdale",
+      "Springfield Twp FD",         "Springfield Twp",
+      "St Bernard FD",              "St Bernard",
+      "Sycamore Twp FD",            "Sycamore Twp",
+      "Sycamore Twp",               "Sycamore Twp",
+      "Terrace Park FD",            "Terrace Park",
+      "Warren CO FD",               "Warren County",
+      "Whitewater Twp FD",          "Whitewater Twp",
+      "Woodlawn FD",                "Woodlawn",
+      "Wyoming FD",                 "Wyoming"
+  });
 }

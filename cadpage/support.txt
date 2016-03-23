@@ -524,7 +524,7 @@ Go to Cadpage settings> Payment status > Hey, I've already paid for this > Send 
 This will generate an email with the correct email account (usually a gmail account) we need for your registration.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-WOVQZNEA or wovqznea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+EBIMAWBA or ebimawba.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks again for your support, 
 Jean ~ Cadpage Administrator
@@ -1330,9 +1330,13 @@ If you can long press one of the calls you get and select Report Problem to send
 ** Cadpage is not working
 ******************************************************************
 
-Are dispatch alerts showing up in your message inbox?  If not, then you need to talk to someone in your department about getting dispatch alerts sent to your phone.
+That may mean something has changed about your dispatch alerts and Cadpage is no longer recognizing them.  I need to see what your dispatch alerts look like now before I can fix anything.
 
-If they are, use the Cadpage "Email the Developer" setting to send us a new support email right after Cadpage fails to pick up an alert.  That should include technical information about the missed alert that I need to determine what we have to do to fix things.
+Are dispatch alerts showing up in your message inbox?  If not, you have to talk to someone in your department about getting them sent to your phone.
+
+If they are showing up in your message inbox, but Cadpage is not picking them up, use the "Email the Developer" setting to send us a new support email right after Cadpage fails to pick up an alert. The email should include details about the last text message that I can use to figure out what needs to be done.
+
+If Cadpage is picking up the alerts, but they are not mapping correctly, long press them and select "Report Problem" to send them to us.
 
 Good luck,
 -Ken
@@ -3975,6 +3979,14 @@ Take care,
 Jean ~ Cadpage Administrator
 
 ************************************************************************
+I see that you have selected the General location as well as two specific locations. Please note that the General location does not really know anything about how your text messages are structured and can only pull a limited amount of information from them.
+
+To really get the full benefit of Cadpage you need to ONLY specify the location setting(s) that you use.
+
+Take care,
+Jean ~ Cadpage Administrator
+
+************************************************************************
 Do Not Want Cadpage any more
 
 If you do not want to use Cadpage any more, just uninstall it.
@@ -4109,8 +4121,7 @@ I hope that clarifies the major options available to your department.
 Please let me know if you need further information, or would like to
 register your department with Cadpage.
 
-Thanks for your consideration, and
-Have a Safe and Happy New Year!
+Thanks for your consideration, 
 Jean ~ Cadpage Administrator
 **************************************************************************************
 Useful search expressions...

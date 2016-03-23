@@ -436,8 +436,24 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     nffregRdhnyf(gvgyr + ":QrsFgngr", qrsFgngr, vasb.trgQrsFgngr());
     
     nffregGehr(gvgyr + ":harkcrpgrq pnyy pbqr:" + vasb.trgPnyy(), purpxPnyyPbqr(zft, cnefre));
+    
+    // Vs erdhrfgrq, pbasvez gung pvgl vf va pvgl gnoyr
+    vs (purpxPvgl()) {
+      Fgevat pvgl = vasb.trgPvgl();
+      vs (pvgl.yratgu() > 0) {
+        nffregGehr("Haqrsvarq pvgl: " + pvgl, ((FznegNqqerffCnefre)cnefre).vfPvgl(pvgl));
+      }
+    }
   }
-  
+
+  /**
+   * Pna or bireevqqrq gb ghea ba pvgl inyvqngvba
+   * @erghea gehr vs pvgl fubhyq or inyvqngrq ntnvafg cnefre pvgl gnoyrf
+   */
+  cebgrpgrq obbyrna purpxPvgl() {
+    erghea snyfr;
+  }
+
   cebgrpgrq obbyrna purpxPnyyPbqr(Zrffntr zft, ZftCnefre cnefre) {
     erghea purpxPnyyPbqr(zft.trgVasb().trgPnyy(), cnefre);
   }

@@ -17,7 +17,7 @@ public class TXMidlothianParser extends DispatchA18Parser {
  
   @Override
   public String getFilter() {
-    return "need@midlothian.tx.usv";
+    return "need@midlothian.tx.us";
   }
   
   @Override
@@ -69,6 +69,7 @@ public class TXMidlothianParser extends DispatchA18Parser {
       "DESOTO",
       "DUNCANVILLE",
       "GRAND PRAIRIE",
+      "HUTCHINS",
       "LANCASTER"
 
   };

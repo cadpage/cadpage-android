@@ -624,9 +624,8 @@ choyvp pynff GKYhsxvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Qvfpynvzre: Guvf ryrpgebavp zrffntr znl pbagnva vasbezngvba gung vf Cebcevrgnel, Pbasvqragvny, be yrtnyyl cevivyrtrq be cebgrpgrq. Vg vf vagraqrq bayl sbe gur hfr bs gur vaqvivqhny(f) naq ragvgl anzrq va gur zrffntr. Vs lbh ner abg na vagraqrq erpvcvrag bs guvf zrffntr, cyrnfr abgvsl gur fraqre vzzrqvngryl naq qryrgr gur zngrevny sebz lbhe pbzchgre. Qb abg qryvire, qvfgevohgr be pbcl guvf zrffntr naq qb abg qvfpybfr vgf pbagragf be gnxr nal npgvba va eryvnapr ba gur vasbezngvba vg pbagnvaf.",
 
         "PNYY:Z Fgnaq-ol",
-        "NQQE:69f",
+        "NQQE:69f & sz 1270",
         "ZNQQE:69f & snez-gb-znexrg 1270",
-        "K:sz 1270",
         "VASB:zbivat shry sebz bar gnaxre gb nabgure/nfxvat sbe zrq havg gb fgnaqol",
         "GVZR:11:16:18",
         "VQ:16IS000018",
@@ -803,9 +802,8 @@ choyvp pynff GKYhsxvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Qvfpynvzre: Guvf ryrpgebavp zrffntr znl pbagnva vasbezngvba gung vf Cebcevrgnel, Pbasvqragvny, be yrtnyyl cevivyrtrq be cebgrpgrq. Vg vf vagraqrq bayl sbe gur hfr bs gur vaqvivqhny(f) naq ragvgl anzrq va gur zrffntr. Vs lbh ner abg na vagraqrq erpvcvrag bs guvf zrffntr, cyrnfr abgvsl gur fraqre vzzrqvngryl naq qryrgr gur zngrevny sebz lbhe pbzchgre. Qb abg qryvire, qvfgevohgr be pbcl guvf zrffntr naq qb abg qvfpybfr vgf pbagragf be gnxr nal npgvba va eryvnapr ba gur vasbezngvba vg pbagnvaf.",
 
         "PNYY:Z ZIN 1 Pbhagl",
-        "NQQE:Sz1270",
-        "ZNQQE:Snez-gb-znexrg 1270",
-        "NCG:69f",
+        "NQQE:Sz1270 & 69f",
+        "ZNQQE:Snez-gb-znexrg 1270 & 69f",
         "VASB:fbhgu bs mninyyn/18jurryre pbyyvqrq jvgu pne/cbffvoyl 2 sngnyvgvrf",
         "GVZR:06:18:25",
         "VQ:16RZ000622",
@@ -1206,8 +1204,8 @@ choyvp pynff GKYhsxvaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Qvfpynvzre: Guvf ryrpgebavp zrffntr znl pbagnva vasbezngvba gung vf Cebcevrgnel, Pbasvqragvny, be yrtnyyl cevivyrtrq be cebgrpgrq. Vg vf vagraqrq bayl sbe gur hfr bs gur vaqvivqhny(f) naq ragvgl anzrq va gur zrffntr. Vs lbh ner abg na vagraqrq erpvcvrag bs guvf zrffntr, cyrnfr abgvsl gur fraqre vzzrqvngryl naq qryrgr gur zngrevny sebz lbhe pbzchgre. Qb abg qryvire, qvfgevohgr be pbcl guvf zrffntr naq qb abg qvfpybfr vgf pbagragf be gnxr nal npgvba va eryvnapr ba gur vasbezngvba vg pbagnvaf.",
 
         "PNYY:Z Zrqvpny Pnyy Bgure",
-        "NQQE:131 Cva Bnx Ya",
-        "K:sz 2109",
+        "NQQE:131 Cva Bnx Ya & sz 2109",
+        "ZNQQE:131 Cva Bnx Ya",
         "VASB:ehaavat uvtu srire/16le znyr/sbe nobhg n jrrx/p&o",
         "GVZR:14:46:18",
         "VQ:16RZ000608",

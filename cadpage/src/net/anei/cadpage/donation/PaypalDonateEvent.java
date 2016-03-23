@@ -1,8 +1,10 @@
 package net.anei.cadpage.donation;
 
 import android.app.Activity;
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
+import net.anei.cadpage.Log;
 import net.anei.cadpage.R;
 import net.anei.cadpage.SmsPopupUtils;
 
@@ -21,7 +23,11 @@ public class PaypalDonateEvent extends DonateEvent {
   protected void doEvent(Activity activity) {
     if (!SmsPopupUtils.haveNet(activity)) return;
     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(TARGET_URL)); 
-    activity.startActivity(intent);
+    try {
+      activity.startActivity(intent);
+    } catch (ActivityNotFoundException ex) {
+      Log.e(ex);
+    }
     closeEvents(activity);
   }
   
