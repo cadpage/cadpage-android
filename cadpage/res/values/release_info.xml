@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03202016</string>
+  <string name="release_date">03232016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.06.13\n
+New Location:\n
+Cook County, IL (alt)\n
+St Tammany Parish, LA (alt)\n
+Mansfield, TX\n
+Chatham-Kent, Ontario\n
+\n
+Location Fixes:\n
+Broome County, NY\n
+Susquehanna County, PA\n
+\n
 v1.9.06.12\n
 Location Fixes:\n
 Suffolk County, NY\n
@@ -42,17 +53,7 @@ Sikeston, MO\n
 Broome County, NY\n
 \n
 General Fixes:\n
-Force close in new Android 6 permission logic\n
-\n
-v1.9.06.07\n
-Location Fixes:\n
-Calhoun County, AL\n
-El Paso County, CO\n
-Franklin County, PA\n
-\n
-General Fixes:\n
-Another force close processing audio alerts.\n
-General improvements to address mapping.
+Force close in new Android 6 permission logic
   </string>
 </resources>
   
