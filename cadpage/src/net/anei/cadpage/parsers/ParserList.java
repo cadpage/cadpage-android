@@ -1274,6 +1274,7 @@ public class ParserList {
               ,"TXLongview"                     ,"Longview, TX"
               ,"TXLubbockCounty"                ,"Lubbock County, TX"
               ,"TXLufkin"                       ,"Lufkin, TX"
+              ,"TXMansfield"                    ,"Mansfield, TX"
               ,"TXManvel"                       ,"Manvel, TX"
               ,"TXMcLennanCounty"               ,"McLennan County, TX"
               ,"TXMidlothian"                   ,"Midlothian, TX"
@@ -1487,6 +1488,7 @@ public class ParserList {
               ,"ZCANSKingsCounty"               ,"Kings County, NS"
           ),
           new ParserCategory("Ontario, Canada"
+              ,"ZCAONChathamKent"               ,"Chatham-Kent, ON"
               ,"ZCAONMississauga"               ,"Mississauga, ON"
           ),
           new ParserCategory("Quebec, Canada"
