@@ -1130,7 +1130,7 @@ choyvp pynff JNPynyynzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:SQ3",
         "ZNC:Fga 34J",
         "NQQE:808 A 5GU NIR",
-        "CYNPR:OYQT GEYE",
+        "NCG:OYQT GEYE",
         "PVGL:Frdhvz",
         "PNYY:ZrqvpnyNvq",
         "VQ:2015-00005727");
@@ -1180,7 +1180,7 @@ choyvp pynff JNPynyynzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:SQ3",
         "ZNC:Fga 34J",
         "NQQE:808 A 5GU NIR",
-        "CYNPR:OYQT GEYE",
+        "NCG:OYQT GEYE",
         "PVGL:Frdhvz",
         "PNYY:ZrqvpnyNvq",
         "VQ:2015-00005723");

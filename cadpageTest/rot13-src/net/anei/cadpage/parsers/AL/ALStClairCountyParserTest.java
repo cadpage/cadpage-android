@@ -1650,9 +1650,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:ZRQ >ZRQVPNY PNYY 167 V-59 F/O QRCG, BS GENAFCBEGNGVBA 2055945802 Pnq: 2015-0000089432",
         "PBQR:ZRQ",
         "PNYY:ZRQVPNY PNYY",
-        "NQQE:167 V-59 F",
-        "ZNQQE:167 V 59 F",
-        "ANZR:/O QRCG, BS GENAFCBEGNGVBA",
+        "NQQE:167 V-59 FO",
+        "ZNQQE:167 V 59",
+        "ANZR:QRCG, BS GENAFCBEGNGVBA",
         "CUBAR:2055945802",
         "VQ:2015-0000089432");
 
@@ -2623,7 +2623,8 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:50 >JERPX 59 A/O 157 NG&G ZBOVYVGL 2059655501 Pnq: 2015-0000087622",
         "PBQR:50",
         "PNYY:JERPX",
-        "NQQE:59 A & O 157",
+        "NQQE:59 AO 157",
+        "ZNQQE:59 157",
         "CUBAR:2059655501",
         "VQ:2015-0000087622");
 
@@ -3629,7 +3630,8 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:UNMZNG>UNMNEQBHF ZNGREVNY EBHYNVA @ OYNPX WNPX EQ QRCG 2053823046 Pnq: 2015-0000081187",
         "PBQR:UNMZNG",
         "PNYY:UNMNEQBHF ZNGREVNY",
-        "NQQE:EBHYNVA & OYNPX WNPX EQ QRCG",
+        "NQQE:EBHYNVA & OYNPX WNPX EQ",
+        "ANZR:QRCG",
         "CUBAR:2053823046",
         "VQ:2015-0000081187");
 
@@ -3978,8 +3980,8 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:SVERI >IRUVPYR SVER V59 F/O 154ZZ FCEVATIVYYR NG&G ZBOVYVGL 2055420128 Pnq: 2015-0000067395",
         "PBQR:SVERI",
         "PNYY:IRUVPYR SVER",
-        "NQQE:V59 F & O 154ZZ",
-        "ZNQQE:V 59 F & O 154ZZ",
+        "NQQE:V59 FO 154ZZ",
+        "ZNQQE:V 59 154ZZ",
         "PVGL:FCEVATIVYYR",
         "CUBAR:2055420128",
         "VQ:2015-0000067395");
@@ -4460,8 +4462,8 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:SVERB >SVER, BGURE 23 / OGJ FUNATUNV EQ NAQ TNF FGNG ZVPUNRY EVTTVATF 2055009705 Pnq: 2015-0000082221",
         "PBQR:SVERB",
         "PNYY:SVER, BGURE",
-        "NQQE:23 & OGJ FUNATUNV EQ",
-        "ANZR:NAQ TNF FGNG ZVPUNRY EVTTVATF",
+        "NQQE:23 & OGJ FUNATUNV EQ NAQ TNF FGNG ZVPUNRY EVTTVATF",
+        "ZNQQE:23 & OGJ FUNATUNV EQ & TNF FGNG ZVPUNRY EVTTVATF",
         "CUBAR:2055009705",
         "VQ:2015-0000082221");
 
@@ -4973,7 +4975,7 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY PNYY",
         "NQQE:43 WBUA PVE",
         "PVGL:FCEVATIVYYR",
-        "ANZR:/QNIVF YNXR QBA JBBFYRL",
+        "K:QNIVF YNXR QBA JBBFYRL",
         "CUBAR:2054672407",
         "VQ:2015-0000051519");
 
@@ -4981,7 +4983,7 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:50 >JERPX V59 AO @157ZZ ZNGG 4235841918 Pnq: 2015-0000050992",
         "PBQR:50",
         "PNYY:JERPX",
-        "NQQE:V59 AO &157ZZ ZNGG",
+        "NQQE:V59 AO & 157ZZ ZNGG",
         "ZNQQE:V 59 & 157ZZ ZNGG",
         "CUBAR:4235841918",
         "VQ:2015-0000050992");
@@ -5558,7 +5560,16 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:JERPX",
         "NQQE:20 R",
         "PVGL:CRYY PVGL",
-        "ANZR:/ NFUIVYYR R",
+        "K:NFUIVYYR R",
+        "VQ:2015-0000083346");
+
+    qbGrfg("G1",
+        "911PRAGENY:50 >JERPX 20 R CRYY PVGL/ NFUIVYYR R Pnq: 2015-0000083346",
+        "PBQR:50",
+        "PNYY:JERPX",
+        "NQQE:20 R",
+        "K:NFUIVYYR R",
+        "PVGL:CRYY PVGL",
         "VQ:2015-0000083346");
 
     qbGrfg("G45",
@@ -5692,9 +5703,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:50 >JERPX V20 J/O 155-158ZZ EVPX AHFF 3176960530 Pnq: 2015-0000079824",
         "PBQR:50",
         "PNYY:JERPX",
-        "NQQE:V20 J",
-        "ZNQQE:V 20 J",
-        "ANZR:/O 155-158ZZ EVPX AHFF",
+        "NQQE:V20 JO",
+        "ZNQQE:V 20",
+        "ANZR:155-158ZZ EVPX AHFF",
         "CUBAR:3176960530",
         "VQ:2015-0000079824");
 
@@ -6063,9 +6074,8 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:GERR >GERR QBJA NY UJL 23 @ ORHYNU PVE NAQ 31 3608 2052839853 Pnq: 2015-0000064969",
         "PBQR:GERR",
         "PNYY:GERR QBJA",
-        "NQQE:NY UJL 23 & ORHYNU PVE",
-        "ZNQQE:NY 23 & ORHYNU PVE",
-        "ANZR:NAQ 31 3608",
+        "NQQE:NY UJL 23 & ORHYNU PVE NAQ 31 3608",
+        "ZNQQE:NY 23 & ORHYNU PVE & 31 3608",
         "CUBAR:2052839853",
         "VQ:2015-0000064969");
 
@@ -8023,8 +8033,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:GERR >GERR QBJA EBPX PEHFURE ARNE 231 KF: Y VAG @ 39201 HF UJL 231 NAGUBAL PUNCZNA 2053533569 Pnq: 2015-0000089443",
         "PBQR:GERR",
         "PNYY:GERR QBJA",
-        "NQQE:EBPX PEHFURE ARNE 231",
-        "ZNQQE:EBPX PEHFURE & 231",
+        "NQQE:EBPX PEHFURE",
+        "ZNQQE:EBPX PEHFURE & Y VAG",
+        "CYNPR:ARNE 231",
         "K:Y VAG & 39201 HF UJL 231 NAGUBAL PUNCZNA",
         "CUBAR:2053533569",
         "VQ:2015-0000089443");
@@ -8652,8 +8663,7 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:FZBXR >VAIRFGVTNGR FZBXR UJL 11 @JUVGARL FGBER WNPBO 2053532828 Pnq: 2015-0000056486",
         "PBQR:FZBXR",
         "PNYY:VAIRFGVTNGR FZBXR",
-        "NQQE:UJL 11 &JUVGARL FGBER WNPBO",
-        "ZNQQE:UJL 11 & JUVGARL FGBER WNPBO",
+        "NQQE:UJL 11 & JUVGARL FGBER WNPBO",
         "CUBAR:2053532828",
         "VQ:2015-0000056486");
 
@@ -9087,8 +9097,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:SVERF >FGEHPGHER SVER TERRAFCBEG EQ NAQ PBYIVA FCEVA ZRTNA QHPNA 2564587923 Pnq: 2015-0000055811",
         "PBQR:SVERF",
         "PNYY:FGEHPGHER SVER",
-        "NQQE:TERRAFCBEG EQ",
-        "ANZR:NAQ PBYIVA FCEVA ZRTNA QHPNA",
+        "NQQE:TERRAFCBEG EQ NAQ PBYIVA FCEVA",
+        "ZNQQE:TERRAFCBEG EQ & PBYIVA FCEVA",
+        "ANZR:ZRTNA QHPNA",
         "CUBAR:2564587923",
         "VQ:2015-0000055811");
 
@@ -9195,8 +9206,9 @@ choyvp pynff NYFgPynvePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911PRAGENY:50 >JERPX FUBNY PERRX / PE 26 YVFN Pnq: 2015-0000037221",
         "PBQR:50",
         "PNYY:JERPX",
-        "NQQE:FUBNY PERRX & PE 26 YVFN",
-        "ZNQQE:FUBNY PERRX & PBHAGL EBNQ 26 YVFN",
+        "NQQE:FUBNY PERRX & PE 26",
+        "ZNQQE:FUBNY PERRX & PBHAGL EBNQ 26",
+        "ANZR:YVFN",
         "VQ:2015-0000037221");
 
     qbGrfg("G46",

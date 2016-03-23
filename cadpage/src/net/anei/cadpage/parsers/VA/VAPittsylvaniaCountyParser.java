@@ -15,6 +15,7 @@ public class VAPittsylvaniaCountyParser extends DispatchOSSIParser {
   public VAPittsylvaniaCountyParser() {
     super(CITY_CODES, "PITTSYLVANIA COUNTY", "VA",
            "ID?: EMPTY? ( CANCEL ADDR! CITY?| FYI? CALL ADDR! CITY! ID? X? X? ) INFO+");
+    setupProtectedNames("OAKS AND STANFIELD", "R AND L SMITH");
   }
   
   @Override

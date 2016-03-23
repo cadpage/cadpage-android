@@ -4497,7 +4497,7 @@ choyvp pynff NYQbgunaNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4760 VEVF EQ",
         "NCG:YBGG",
         "PVGL:UBQTRFIVYYR",
-        "K:ZNE ZBOVYR RFGNGRF YBG G",
+        "CYNPR:ZNE ZBOVYR RFGNGRF YBG G",
         "HAVG:UPFB2",
         "VASB:W / B O / Z YNAQVF EVGGRE YFJ JUV / QX OYH WRNAF BPPC >>");
 

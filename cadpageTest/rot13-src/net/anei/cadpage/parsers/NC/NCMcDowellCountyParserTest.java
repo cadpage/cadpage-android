@@ -901,8 +901,8 @@ choyvp pynff APZpQbjryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G27",
         "AOEHARE:90 ZVYR ZNEXRE/ UNEZBAL TEBIR EQ 90 V 40 JO OYNPX ZBHAGNVA, K V 40 JO, 09:00:26, ZIP-, juvgr zreprqrf uvg thneq envy ncebk 1/2 zvyr sebz gur 90 rkvg",
-        "NQQE:90 ZVYR ZNEXRE & UNEZBAL TEBIR EQ & 90 V 40 JO",
-        "ZNQQE:90 ZVYR ZNEXRE & UNEZBAL TEBIR EQ & 90 V 40",
+        "NQQE:90 ZVYR ZNEXRE & UNEZBAL TEBIR EQ",
+        "NCG:90 V 40 JO",
         "PVGL:OYNPX ZBHAGNVA",
         "K:V 40 JO",
         "GVZR:09:00:26",
@@ -4688,8 +4688,8 @@ choyvp pynff APZpQbjryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G66",
         "AOEHARE:90 ZVYR ZNEXRE/ UNEZBAL TEBIR EQ 90 V 40 JO OYNPX ZBHAGNVA, K V 40 JO, 09:00:51, ZIP-, juvgr zreprqrf uvg thneq envy ncebk 1/2 zvyr sebz gur 90 rkvg",
-        "NQQE:90 ZVYR ZNEXRE & UNEZBAL TEBIR EQ & 90 V 40 JO",
-        "ZNQQE:90 ZVYR ZNEXRE & UNEZBAL TEBIR EQ & 90 V 40",
+        "NQQE:90 ZVYR ZNEXRE & UNEZBAL TEBIR EQ",
+        "NCG:90 V 40 JO",
         "PVGL:OYNPX ZBHAGNVA",
         "K:V 40 JO",
         "GVZR:09:00:51",

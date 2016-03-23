@@ -21,6 +21,12 @@ public class WVHardyCountyAParser extends DispatchB3Parser {
   }
   
    
+  @Override
+  protected int getExtraParseAddressFlags() {
+    return FLAG_SIMPLE_FOLLOWS;
+  }
+
+
   static final String[] CITY_LIST = new String[]{  
     "ARKANSAS",
     "BAKER",

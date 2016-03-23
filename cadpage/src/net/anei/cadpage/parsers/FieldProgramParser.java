@@ -16,6 +16,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgInfo.MsgType;
+import net.anei.cadpage.parsers.SmartAddressParser.StartType;
 
 /**
  * This is a general purpose programmable field parser.  It can be used as a
@@ -2730,7 +2731,7 @@ public class FieldProgramParser extends SmartAddressParser {
  
     @Override
     public boolean checkParse(String field, Data data) {
-      if (!isValidAddress(field)) return false;
+      if (!isValidCrossStreet(field)) return false;
       parse(field, data);
       return true;
     }

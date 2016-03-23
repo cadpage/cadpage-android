@@ -84,7 +84,8 @@ choyvp pynff YNPnypnfvrhCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:832 SNAPURE FG",
         "HAVG:RFA1",
         "PVGL:IVAGBA",
-        "VASB:QRNQ RAQ / FUBEG FG / 69lbs fubeg bs oerngu");
+        "K:QRNQ RAQ & FUBEG FG",
+        "VASB:69lbs fubeg bs oerngu");
 
     qbGrfg("G5",
         "(R911400) CNTR,GBAR GRFG/911 UBQTRF FG/PNYPNFVRH R-911/RFA12 YNXR PUNEYRF/CHWB FG/XVEOL \a" +

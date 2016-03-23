@@ -23,6 +23,7 @@ public class VAHenryCountyParser extends DispatchSouthernParser {
   }
   
   private static final Pattern UNIT_PRI_PTN = Pattern.compile(" +([A-Z0-9]+)-\\((\\d)\\) +");
+  private static final Pattern APT_X_PTN = Pattern.compile("BW (.*) AND (.*)");
   private static final Pattern LEAD_PRIORITY_PTN = Pattern.compile("^(0?\\d)\\b");
   private static final Pattern APT_MAP_PTN = Pattern.compile("(?:(.*) )?([NSEW]{1,2} SECTOR?)");
   private static final Pattern APT_MAP_PTN2 = Pattern.compile("SECTOR?");
@@ -38,6 +39,15 @@ public class VAHenryCountyParser extends DispatchSouthernParser {
       body = body.substring(0,match.start()) + " " + body.substring(match.end());
     }
     if (!super.parseMsg(body, data)) return false;
+    
+    // Fix cross streets in apt field
+    if (data.strCross.length() == 0) {
+      match = APT_X_PTN.matcher(data.strApt);
+      if (match.matches()) {
+        data.strCross = match.group(1).trim() + " / " + match.group(2).trim();
+        data.strApt = "";
+      }
+    }
     
     // Dispatch - Google spat
     data.strAddress = data.strAddress.replace("WILLIAM F STONE PARK ", "WILLIAM F STONE ");

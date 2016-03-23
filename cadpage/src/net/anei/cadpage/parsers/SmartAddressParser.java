@@ -234,6 +234,13 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_PREF_TRAILING_BOUND = 0x20000000;
   
+  /**
+   * Flag indicating the information following the address is restricted
+   * to simple information (ie not suplamental info).  Specifically, this
+   * means the address can be terminated with an apartment or cross street 
+   * keyword when no city is found
+   */
+  public static final int FLAG_SIMPLE_FOLLOWS = 0x40000000;
 
   // Flag combination that indicates we are processing some kind of pad field
   // Rechecking the apt is treated as a flavor of pad field
@@ -380,6 +387,9 @@ public abstract class SmartAddressParser extends MsgParser {
   private static final long ID_SPECIAL_STREET_REV_END = 0x800000000000L;
   
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[A-Z]?[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
+  
+  // Permanent parsing  flags
+  private int permParseFlags = 0;
   
   // List of multiple word cities
   private MultiWordList mWordCities = null;
@@ -583,6 +593,10 @@ public abstract class SmartAddressParser extends MsgParser {
     default:
       break;
     }
+  }
+  
+  protected void setupParseAddressFlags(int flags) {
+    permParseFlags = flags;
   }
   
   /**
@@ -873,7 +887,7 @@ public abstract class SmartAddressParser extends MsgParser {
    * @return true if valid cross street
    */
   protected boolean isValidCrossStreet(String address, int extra) {
-    return parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ONLY_CROSS | FLAG_NO_CITY, address).isValid(extra);
+    return parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ONLY_CROSS | FLAG_ALLOW_DUAL_DIRECTIONS | FLAG_NO_CITY, address).isValid(extra);
   }
   
   /**
@@ -970,6 +984,7 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   protected Result parseAddress(StartType sType, int flags, String address) {
     address = address.trim();
+    flags |= permParseFlags;
     this.flags = flags;
     
     // Pad fields and Apt recheck logic do not work well together
@@ -1570,6 +1585,10 @@ public abstract class SmartAddressParser extends MsgParser {
     // First lets figure out where the address starts
     int sAddr = -1;
     int ndx = -1;
+    
+    // At least one of the two street names must be pretty solid
+    // we can allow some slop for the other one.
+    boolean good = true;
 
     // If address has a known start point
     if (startAddress >= 0) {
@@ -1621,8 +1640,11 @@ public abstract class SmartAddressParser extends MsgParser {
             
             // Next identify a street in front of the connector
             // If start of address has been locked, that takes care of that
+            // But, we do not have a confirmed good street name and will 
+            // require higher standards for the following street name
             if (startAddress >= 0) {
               sAddr = startAddress;
+              good = false;
               break;
             }
             
@@ -1702,7 +1724,7 @@ public abstract class SmartAddressParser extends MsgParser {
     if (!padField && parseAddressToCity(sAddr, ndx+1, result)) return true;
     
     // Otherwise find end of second road
-    ndx = findRoadEnd(ndx, 2);
+    ndx = findRoadEnd(ndx, good ? 2 : 0);
     if (ndx < 0) return false;
     
     // If we found that, we have a successful intersection parse
@@ -1872,12 +1894,12 @@ public abstract class SmartAddressParser extends MsgParser {
             found = true;
             break;
           }
-          
-          if (isRoadToken(ndx)) {
-            sAddr = ndx;
-            found = true;
-            break;
-          }
+        }
+        
+        if (isRoadToken(ndx)) {
+          sAddr = ndx;
+          found = true;
+          break;
         }
         ndx++;
       }
@@ -2205,6 +2227,9 @@ public abstract class SmartAddressParser extends MsgParser {
     boolean padField = isFlagSet(FLAG_PAD_FIELD | FLAG_PAD_FIELD_EXCL_CITY);
     boolean cityOnly = isFlagSet(FLAG_ONLY_CITY);
     boolean nearToEnd = isFlagSet(FLAG_NEAR_TO_END);
+    
+    // If FLAG_SIMPLE_FOLLOWS is set, for city option from 1 to 2
+    if (cityOpt == 1 && isFlagSet(FLAG_SIMPLE_FOLLOWS)) cityOpt = 2;
 
     if (srcNdx >= tokens.length) return false;
     if ((cityOpt == 1 || checkStatus) && !parseToEnd && !nearToEnd && lastCity < srcNdx) return false;
@@ -2286,6 +2311,7 @@ public abstract class SmartAddressParser extends MsgParser {
             lastField.end(ndx);
             ndx = tmpNdx;
             lastField = nearField = new FieldSpec(ndx);
+            if (nearToEnd && cityOpt == 1) cityOpt = 2;
           }
           
           // Check for cross street marker
@@ -2767,7 +2793,7 @@ public abstract class SmartAddressParser extends MsgParser {
       
       // OK, OK, if we find a number followed by a connector, we will consider
       // it a numbered highway (sheesh)
-      if (isType(start, ID_NUMBER) && findConnector(start+1)>=0) return start+1;
+      if (!strict && isType(start, ID_NUMBER) && findConnector(start+1)>=0) return start+1;
       
       // Still no luck,
       // If we are deliberately ignoring street suffixes, take what we have so far
@@ -2810,12 +2836,14 @@ public abstract class SmartAddressParser extends MsgParser {
           // Skip if it an ambiguous road suffix and a real road suffix follows it
           // Or if the road suffix is part of a two part highway number
           // Or if this is a TO route prefix phrase
+          // Or is the start of a city name
           good = true;
           if (isRoadSuffix(end) && !isType(end-1, ID_NOT_STREET_NAME) &&
               (! (isType(end, ID_AMBIG_ROAD_SFX) && isRoadSuffix(end+1))) &&
               ( !checkNumberedHwy(end)) &&
               (findNumberedHwy(end-1) < 0) && 
-              (! (isType(end, ID_ROUTE_PFX) && isType(end-1, ID_TO)))) {
+              (! (isType(end, ID_ROUTE_PFX) && isType(end-1, ID_TO))) &&
+              (findEndCity(end) < 0)) {
             end++; 
             break; 
           }

@@ -12,9 +12,9 @@ public class PAJuniataCountyParser extends DispatchA48Parser {
   }
   
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     body = stripFieldStart(body, "@co.juniata.pa.us,@juniata.pa");
-    return super.parseMsg(body, data);
+    return super.parseMsg(subject, body, data);
   }
 
   @Override

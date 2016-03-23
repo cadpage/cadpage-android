@@ -138,8 +138,15 @@ public class CAFortIrwinParser extends SmartAddressParser {
       res.getData(data);
       data.strSupp = res.getLeft();
       data.strSupp = append(res.getStart(), " / ", res.getLeft());
+      Matcher m = ADDR_AT_PTN.matcher(data.strAddress);
+      if (m.matches()) {
+        data.strSupp = m.group(1).trim();
+        data.strAddress = m.group(2);
+      }
       return true;
     }
     return false;
   }
+  
+  private static final Pattern ADDR_AT_PTN = Pattern.compile("(.*)\\bAT +(.*)",Pattern.CASE_INSENSITIVE);
 }

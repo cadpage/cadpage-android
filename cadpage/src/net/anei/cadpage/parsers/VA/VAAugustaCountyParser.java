@@ -19,6 +19,7 @@ public class VAAugustaCountyParser extends DispatchOSSIParser {
   
   public VAAugustaCountyParser() {
     this("AUGUSTA COUNTY", "VA");
+    removeWords("MALL");
   }
   
   public VAAugustaCountyParser(String defCity, String defState) {
@@ -47,6 +48,14 @@ public class VAAugustaCountyParser extends DispatchOSSIParser {
     if (pt >= 0) body = body.substring(0,pt).trim();
     body = DELIM_PTN.matcher(body).replaceAll(";");
     return super.parseMsg(body, data);
+  }
+
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("MAP")) return new MyMapField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
   
   private class MyAddressField extends AddressField {
@@ -176,14 +185,6 @@ public class VAAugustaCountyParser extends DispatchOSSIParser {
     public String getFieldNames() {
       return "APT MAP PLACE X INFO CH";
     }
-  }
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("MAP")) return new MyMapField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
 
   private static final Set<String> CITY_SET = new HashSet<String>(Arrays.asList(

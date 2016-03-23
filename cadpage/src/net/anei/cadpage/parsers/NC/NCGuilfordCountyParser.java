@@ -76,6 +76,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("EXTRA")) return new ExtraField();
     if (name.equals("CODE")) return new MyCodeField();
+    if (name.equals("X")) return new MyCrossField();
     if (name.equals("XINFO")) return new CrossInfoField();
     if (name.equals("UNIT")) return new UnitField("(?!OPS)(?:[A-Z]+\\d+|[A-Z]{1,3}FD)(?:,(?:[A-Z]+\\d+|[A-Z]{1,3}FD))*", true);
     return super.getField(name);
@@ -198,6 +199,21 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     }
   }
   
+  private static final Pattern X_BAD_PTN = Pattern.compile("(?:REQUESTING|NEEDS)\\b.*");
+  private static final Pattern X_GOOD_PTN = Pattern.compile("AVENUE +\\S+");
+  private class MyCrossField extends CrossField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (X_BAD_PTN.matcher(field).matches()) return false;
+      if (super.checkParse(field, data)) return true;
+      if (X_GOOD_PTN.matcher(field).matches()) {
+        super.parse(field, data);
+        return true;
+      }
+      return false;
+    }
+  }
+  
   private static final Pattern INFO_CH_PTN = Pattern.compile("\\d{1,2}");
   private class CrossInfoField extends Field {
 
@@ -233,7 +249,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     
     @Override
     public String getFieldNames() {
-      return "X CITY INFO CODE CH CALL";
+      return "CITY INFO CODE CH CALL";
     }
   }
   

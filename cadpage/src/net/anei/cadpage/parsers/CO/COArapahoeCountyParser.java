@@ -13,6 +13,7 @@ public class COArapahoeCountyParser extends FieldProgramParser {
   public COArapahoeCountyParser() {
     super("ARAPAHOE COUNTY", "CO",
            "HEAD? ID ( MAP ( GPS1 | ADDR/Z GPS1 ) | ADDR/Z? MAP GPS1 ) GPS2 DUP_ADDR? APT BLDG PLACE CALL UNIT! INFO+");
+    setupParseAddressFlags(FLAG_ALLOW_DUAL_DIRECTIONS);
     setupSpecialStreets("BROADWAY", "BROADWAY CIR");
   }
   
@@ -156,13 +157,6 @@ public class COArapahoeCountyParser extends FieldProgramParser {
   @Override
   public CodeSet getCallList() {
     return CALL_LIST;
-  }
-  
-  
-  
-  @Override
-  protected int getExtraParseAddressFlags() {
-    return FLAG_ALLOW_DUAL_DIRECTIONS;
   }
 
   private static final ReverseCodeSet CALL_LIST = new ReverseCodeSet(
