@@ -199,6 +199,12 @@ public class VAStauntonParser extends DispatchOSSIParser {
       "249 SYCAMORE ST",                      "+38.152471,-79.069948",
       "128 TAMS ST",                          "+38.156317,-79.068217",
       "100 TULLIDGE DR",                      "+38.155693,-79.069953",
-      "1125 WESTMORELAND DR",                 "+38.156177,-79.067490"
+      "61 WATERFORD LOOP",                    "+38.115780,-79.0079501",
+      "73 WATERFORD LOOP",                    "+38.115685,-79.0085641",
+      "87 WATERFORD LOOP",                    "+38.115326,-79.0091573",
+      "95 WATERFORD LOOP",                    "+38.114836,-79.0091994",
+      "107 WATERFORD LOOP",                   "+38.115000,-79.0083786",
+      "125 WATERFORD LOOP",                   "+38.115224,-79.0076877",
+      "1125 WESTMORELAND DR",                 "+38.156177,-79.0674900"
   });
 }
