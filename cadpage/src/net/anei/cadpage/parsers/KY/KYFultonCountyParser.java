@@ -25,7 +25,6 @@ public class KYFultonCountyParser extends DispatchB2Parser {
         "UNION CITY",
         "WOLF CREEK"
     );
-
   }
   
   @Override

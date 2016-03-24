@@ -6187,8 +6187,9 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1046",
         "PNYY:NPPVQRAG JVGU VAWHEVRF",
         "NQQE:5600 UVTUJNL 22 R",
-        "K:YVZVGF BS & GUR PBHAGL YVAR BJRAGBA CNZ WBARF",
+        "K:YVZVGF BS",
         "PVGL:BJRAGBA",
+        "ANZR:& GUR PBHAGL YVAR BJRAGBA CNZ WBARF",
         "CUBAR:5023952897",
         "VQ:2014-0000018599");
 
@@ -8374,8 +8375,9 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1046",
         "PNYY:NPPVQRAG JVGU VAWHEVRF",
         "NQQE:5600 UVTUJNL 22 R",
-        "K:YVZVGF BS & GUR PBHAGL YVAR BJRAGBA CNZ WBARF",
+        "K:YVZVGF BS",
         "PVGL:BJRAGBA",
+        "ANZR:& GUR PBHAGL YVAR BJRAGBA CNZ WBARF",
         "CUBAR:5023952897",
         "VQ:2014-0000018599");
 
@@ -8772,8 +8774,9 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:NYNEZ",
         "PNYY:NYNEZF",
         "NQQE:2340 UVTUJNL 22 R",
-        "K:YVZVGF BS & GUR PBHAGL YVAR BJRAGBA",
+        "K:YVZVGF BS",
         "PVGL:BJRAGBA",
+        "ANZR:& GUR PBHAGL YVAR BJRAGBA",
         "CUBAR:5024845509",
         "VQ:2014-0000010103");
 

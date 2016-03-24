@@ -447,8 +447,8 @@ choyvp pynff APOhexrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:69Q06",
         "NQQE:2865 AP 181",
         "ZNQQE:2865 FGNGR 181",
-        "K:PNEY SERRZNA NI",
-        "VASB:CNHY & YHYN ZVYYRE EQ / Fgehpgher Sver.",
+        "K:PNEY SERRZNA NI & CNHY & YHYN ZVYYRE EQ",
+        "VASB:Fgehpgher Sver.",
         "QNGR:03/07/13",
         "GVZR:10:24:31");
 

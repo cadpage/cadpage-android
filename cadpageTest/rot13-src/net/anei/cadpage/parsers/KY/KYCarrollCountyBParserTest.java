@@ -372,9 +372,8 @@ choyvp pynff XLPneebyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:P3",
         "PNYY:GEBHOYR PNYY",
         "NQQE:UHAGRE'F EQT",
-        "ZNQQE:UHAGRE'F EQT & FB 101",
-        "K:FB 101, 102",
         "PVGL:PNEEBYYGBA",
+        "ANZR:FB 101, 102",
         "VQ:2015-0000008627");
 
     qbGrfg("G27",
@@ -427,8 +426,9 @@ choyvp pynff XLPneebyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:V",
         "PNYY:VASBEZNGVBANY PNYY",
         "NQQE:802 PYNL FG",
-        "K:8GU FG FB 102",
+        "K:8GU FG",
         "PVGL:PNEEBYYGBA",
+        "ANZR:FB 102",
         "ZNC:392",
         "VQ:2015-0000008620");
 
@@ -438,7 +438,7 @@ choyvp pynff XLPneebyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:VASBEZNGVBANY PNYY",
         "NQQE:103 ZNQVFBA FG",
         "PVGL:PNEEBYYGBA",
-        "K:FB 102",
+        "ANZR:FB 102",
         "VQ:2015-0000008619");
 
     qbGrfg("G33",
@@ -481,8 +481,9 @@ choyvp pynff XLPneebyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:FPU",
         "PNYY:PNYY NG FPUBBY",
         "NQQE:408 5GU FG",
-        "K:FRZVANEL FG FB 101",
+        "K:FRZVANEL FG",
         "PVGL:PNEEBYYGBA",
+        "ANZR:FB 101",
         "ZNC:1022",
         "VQ:2015-0000008615");
 
@@ -757,8 +758,9 @@ choyvp pynff XLPneebyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:V",
         "PNYY:VASBEZNGVBANY PNYY",
         "NQQE:802 PYNL FG",
-        "K:8GU FG FB 101",
+        "K:8GU FG",
         "PVGL:PNEEBYYGBA",
+        "ANZR:FB 101",
         "ZNC:392",
         "VQ:2015-0000008580");
 

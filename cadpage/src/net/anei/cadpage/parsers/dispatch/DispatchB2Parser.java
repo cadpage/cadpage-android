@@ -30,7 +30,7 @@ public class DispatchB2Parser extends DispatchBParser {
   private static final Pattern CODE_PATTERN = Pattern.compile("^([- /#&A-Z0-9]{0,6}?|\\?) *> *"); 
   private static final Pattern PHONE_PTN = Pattern.compile("[ /]*((?<!\\d)(?:(?:\\d{3}[- ]?)?\\d{3}[- ]?\\d{4}\\b *)+)[ /]*");
   private static final Pattern NAME_PTN = Pattern.compile(" +([A-Z]+, ?[A-Z]+(?: [A-Z]\\.?)?)$");
-  private static final Pattern INTERSECT_PTN = Pattern.compile("(?:[&/]|AND |[NSEW]O |[NSEW][EW]? OF ).*", Pattern.CASE_INSENSITIVE);
+  private static final Pattern INTERSECT_PTN = Pattern.compile("(?:[&/]|AND |([NSEW]O) |[NSEW][EW]? OF ).*", Pattern.CASE_INSENSITIVE);
   private static final Pattern TRAIL_DIR_PTN = Pattern.compile(" +([NSEW]B?)$");
   private static final Pattern CROSS_LABEL_PTN = Pattern.compile("\\b(?:XS|CS|C/S)[: ] *");
   private static final Pattern APT1_PTN = Pattern.compile("Apt: *(\\S+) *");
@@ -213,18 +213,19 @@ public class DispatchB2Parser extends DispatchBParser {
     boolean noCross = (data.strCross.length() == 0);
     if (left.length() > 0) {
 
-      if ((flags & FLAG_ANCHOR_END) == 0 && INTERSECT_PTN.matcher(left).matches()) {
-        String connect = " ";
-        if (left.startsWith("/") || left.startsWith("&")) {
-          left = left.substring(1).trim();
-          connect = " & ";
+      if ((flags & FLAG_ANCHOR_END) == 0 && data.strCity.length() == 0) {
+        match = INTERSECT_PTN.matcher(left);
+        if (match.matches()) {
+          if (match.group(1) == null || isValidAddress(left.substring(match.end()).trim())) {
+            String connect = " ";
+            if (left.startsWith("/") || left.startsWith("&")) {
+              left = left.substring(1).trim();
+              connect = " & ";
+            }
+            data.strAddress = append(data.strAddress, connect, left);
+            left = "";
+          }
         }
-        if (data.strCity.length() > 0) {
-          data.strCross = append(data.strCross, connect, left);
-        } else {
-          data.strAddress = append(data.strAddress, connect, left);
-        }
-        left = "";
       } 
       
       match = APT1_PTN.matcher(left);

@@ -9738,7 +9738,6 @@ choyvp pynff APHavbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G15",
         "PNQ:8128 FHTNE NAQ JVAR EQ;ZNEFUIVYYR;2015166180;BIREQBFR CBVFBAVAT RZQ;F04;OENIB;ZBETNA NPNQRZL EQ;NEZL EQ;06/27/2015 17:05:07",
         "NQQE:8128 FHTNE NAQ JVAR EQ",
-        "ZNQQE:8128 FHTNE",
         "PVGL:ZNEFUIVYYR",
         "VQ:2015166180",
         "PNYY:BIREQBFR CBVFBAVAT RZQ",
@@ -9769,9 +9768,8 @@ choyvp pynff APHavbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NYYRETVRF RAIRABZNGVBAF RZQ",
         "FEP:F06",
         "PU:OENIB",
-        "K:CBYX ZBHAGNVA QE",
+        "K:FHTNE NAQ JVAR EQ & CBYX ZBHAGNVA QE",
         "CYNPR:CBYX ZBHAGNVA TEBPREL",
-        "VASB:FHTNE NAQ JVAR EQ",
         "QNGR:06/27/2015",
         "GVZR:15:03:58");
 
@@ -10088,8 +10086,7 @@ choyvp pynff APHavbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER NYNEZ ABAPBZZREVPNY RSQ",
         "FEP:F06",
         "PU:O-2",
-        "K:TERRA UNIRA YA",
-        "CYNPR:FHTNE NAQ JVAR EQ",
+        "K:TERRA UNIRA YA & FHTNE NAQ JVAR EQ",
         "QNGR:06/06/2015",
         "GVZR:19:15:47");
 
@@ -10192,7 +10189,6 @@ choyvp pynff APHavbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G51",
         "PNQ:7263 FHTNE NAQ JVAR EQ;ZBAEBR;2015138187;FGEBXR RZQ;F04;OENIB;YBEAN QE;ZBETNA NPNQRZL EQ;05/29/2015 17:05:51",
         "NQQE:7263 FHTNE NAQ JVAR EQ",
-        "ZNQQE:7263 FHTNE",
         "PVGL:ZBAEBR",
         "VQ:2015138187",
         "PNYY:FGEBXR RZQ",
@@ -10594,8 +10590,7 @@ choyvp pynff APHavbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SNYYF RZQ",
         "FEP:F06",
         "PU:OENIB",
-        "K:JNGFBA PUHEPU EQ",
-        "CYNPR:FHTNE NAQ JVAR EQ",
+        "K:JNGFBA PUHEPU EQ & FHTNE NAQ JVAR EQ",
         "QNGR:04/28/2015",
         "GVZR:22:09:37");
 

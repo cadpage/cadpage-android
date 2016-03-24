@@ -10,7 +10,6 @@ public class NCJonesCountyParser extends DispatchA3Parser {
 
   public NCJonesCountyParser() {
     this("JONES COUNTY", "NC");
-    setupProtectedNames("DR GEO L EDWARDS");
   }
 
   public NCJonesCountyParser(String defCity, String defState) {
@@ -19,6 +18,7 @@ public class NCJonesCountyParser extends DispatchA3Parser {
     addExtendedDirections();
     setBreakChar('=');
     setupSpecialStreets("LOWER ST");
+    setupProtectedNames("DR GEO L EDWARDS");
   }
 
   @Override

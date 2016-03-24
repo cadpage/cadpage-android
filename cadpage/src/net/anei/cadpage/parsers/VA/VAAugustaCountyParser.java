@@ -19,12 +19,12 @@ public class VAAugustaCountyParser extends DispatchOSSIParser {
   
   public VAAugustaCountyParser() {
     this("AUGUSTA COUNTY", "VA");
-    removeWords("MALL");
   }
   
   public VAAugustaCountyParser(String defCity, String defState) {
     super(defCity, defState,
            "FYI? CALL! ( ADDR/SZ! END | PLACE? ADDR/S! MAP? INFO+ )");
+    removeWords("MALL");
   }
   
   @Override
