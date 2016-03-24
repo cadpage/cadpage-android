@@ -83,7 +83,7 @@ choyvp pynff BXPyrirynaqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:17:57:13",
         "PNYY:Sver Tenff",
         "NQQE:17400 ZVQAVTUG QE",
-        "PVGL:Pyrirynaq Pbhagl");
+        "PVGL:Pyrirynaq Pbhagl"); //guvf znxrf znccvat njxjneq. jbexf jura vgf bayl bapr
 
     qbGrfg("G2",
         "{Nhgbzngvp E&E Abgvsvpngvba: Sver Erfvqragvny, Sver Erfvqragvny} 3/17/2016 5:10:33 NZ;Sver Erfvqragvny, Sver Erfvqragvny;18702 R ERQ BNX YA, Pyrirynaq Pbhagl;;;;[2aq genvyre ba y unaq fvqr / qrchgl raeg / arvtuobe vf @ jbex - haxa vs nal bgure bpphc];uggc://zncf.tbbtyr.pbz/zncf?d=ybp:18702+ERQ+BNX",
