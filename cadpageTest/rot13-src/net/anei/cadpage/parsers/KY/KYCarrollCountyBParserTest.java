@@ -371,9 +371,9 @@ choyvp pynff XLPneebyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNEEBYYPBHAGL911:P3 >GEBHOYR PNYY UHAGRE'F EQT PNEEBYYGBA FB 101, 102 Pnq: 2015-0000008627",
         "PBQR:P3",
         "PNYY:GEBHOYR PNYY",
-        "NQQE:UHAGRE'F EQT FB 101, 102",
-        "ZNQQE:UHAGRE'F EQT & 101, 102",
+        "NQQE:UHAGRE'F EQT",
         "PVGL:PNEEBYYGBA",
+        "ANZR:FB 101, 102",
         "VQ:2015-0000008627");
 
     qbGrfg("G27",
@@ -425,10 +425,10 @@ choyvp pynff XLPneebyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNEEBYYPBHAGL911:V >VASBEZNGVBANY PNYY 802 PYNL FG KF: 8GU FG PNEEBYYGBA FB 102 Znc:392 Tevqf:, Pnq: 2015-0000008620",
         "PBQR:V",
         "PNYY:VASBEZNGVBANY PNYY",
-        "NQQE:802 PYNL FG FB 102",
-        "ZNQQE:802 PYNL FG",
+        "NQQE:802 PYNL FG",
         "K:8GU FG",
         "PVGL:PNEEBYYGBA",
+        "ANZR:FB 102",
         "ZNC:392",
         "VQ:2015-0000008620");
 
@@ -436,9 +436,9 @@ choyvp pynff XLPneebyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNEEBYYPBHAGL911:V >VASBEZNGVBANY PNYY 103 ZNQVFBA FG PNEEBYYGBA FB 102 Pnq: 2015-0000008619",
         "PBQR:V",
         "PNYY:VASBEZNGVBANY PNYY",
-        "NQQE:103 ZNQVFBA FG FB 102",
-        "ZNQQE:103 ZNQVFBA FG",
+        "NQQE:103 ZNQVFBA FG",
         "PVGL:PNEEBYYGBA",
+        "ANZR:FB 102",
         "VQ:2015-0000008619");
 
     qbGrfg("G33",
@@ -480,10 +480,10 @@ choyvp pynff XLPneebyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNEEBYYPBHAGL911:FPU >PNYY NG FPUBBY 408 5GU FG KF: FRZVANEL FG PNEEBYYGBA FB 101 Znc:1022 Tevqf:, Pnq: 2015-0000008615",
         "PBQR:FPU",
         "PNYY:PNYY NG FPUBBY",
-        "NQQE:408 5GU FG FB 101",
-        "ZNQQE:408 5GU FG",
+        "NQQE:408 5GU FG",
         "K:FRZVANEL FG",
         "PVGL:PNEEBYYGBA",
+        "ANZR:FB 101",
         "ZNC:1022",
         "VQ:2015-0000008615");
 
@@ -757,10 +757,10 @@ choyvp pynff XLPneebyyPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNEEBYYPBHAGL911:V >VASBEZNGVBANY PNYY 802 PYNL FG KF: 8GU FG PNEEBYYGBA FB 101 Znc:392 Tevqf:, Pnq: 2015-0000008580",
         "PBQR:V",
         "PNYY:VASBEZNGVBANY PNYY",
-        "NQQE:802 PYNL FG FB 101",
-        "ZNQQE:802 PYNL FG",
+        "NQQE:802 PYNL FG",
         "K:8GU FG",
         "PVGL:PNEEBYYGBA",
+        "ANZR:FB 101",
         "ZNC:392",
         "VQ:2015-0000008580");
 

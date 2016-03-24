@@ -42,7 +42,7 @@ public class MNBeckerCountyParser extends DispatchA38Parser {
   
   @Override
   public String getProgram() {
-    return super.getProgram().replace("ADDR", "ADDR PLACE");
+    return super.getProgram().replace("ADDR", "ADDR PLACE X");
   }
  
   @Override
@@ -93,6 +93,12 @@ public class MNBeckerCountyParser extends DispatchA38Parser {
         data.strApt = apt;
         return;
       }
+    }
+    
+    if (part2.startsWith("BETWEEN ")) {
+      data.strCross = part2.substring(8).trim();
+      super.parseAddress(part1, data);
+      return;
     }
     
     if (!part2.startsWith("BY ") && isValidAddress(part2)) {

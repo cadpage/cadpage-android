@@ -220,8 +220,8 @@ choyvp pynff BXCnlarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G17",
         "(PNQ) 911:NZOHYNAPR PNYY             CREXVAF / UJL 33 @11600 F CREXVAF  805 AR 4GUSebz PNQ Hfre:CEXCT ba Qrivpr:5002",
         "PNYY:NZOHYNAPR PNYY",
-        "CYNPR:CREXVAF / UJL 33",
-        "NQQE:11600 F CREXVAF",
+        "NQQE:CREXVAF & UJL 33",
+        "CYNPR:11600 F CREXVAF",
         "VASB:805 AR 4GU");
 
     qbGrfg("G18",
@@ -693,8 +693,8 @@ choyvp pynff BXCnlarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G94",
         "(PNQ) 911:NZOHYNAPR PNYY             CREXVAF / UJL 33 @11600 F CREXVAF  413 FJ 4GU NCG 24 HAX CEBOYRZSebz PNQ Hfre:CEXCT ba Qrivpr:5002",
         "PNYY:NZOHYNAPR PNYY",
-        "CYNPR:CREXVAF / UJL 33",
-        "NQQE:11600 F CREXVAF",
+        "NQQE:CREXVAF & UJL 33",
+        "CYNPR:11600 F CREXVAF",
         "VASB:413 FJ 4GU NCG 24 HAX CEBOYRZ");
 
     qbGrfg("G95",

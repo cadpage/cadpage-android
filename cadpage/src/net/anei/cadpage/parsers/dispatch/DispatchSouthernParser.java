@@ -251,9 +251,15 @@ public class DispatchSouthernParser extends FieldProgramParser {
     }
     
     //  Occasional implied intersections end up in the apt field
-    if (data.strApt.length() > 0 && isValidAddress(data.strApt)) {
-      data.strAddress = append(data.strAddress, " & ", data.strApt);
-      data.strApt = "";
+    if (data.strApt.length() > 0) {
+      int status = checkAddress(data.strApt);
+      if (status == STATUS_STREET_NAME) {
+        data.strAddress = append(data.strAddress, " & ", data.strApt);
+        data.strApt = "";
+      } else if (status == STATUS_INTERSECTION) {
+        data.strCross = append(data.strApt, " / ", data.strCross);
+        data.strApt = "";
+      }
     }
     
     return true;

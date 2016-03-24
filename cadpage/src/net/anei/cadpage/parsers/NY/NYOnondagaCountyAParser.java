@@ -95,13 +95,13 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
         data.strCity = convertCodes(field.substring(1).trim(), CITY_CODES);
       } else {
         super.parse(field, data);
-      }
-      data.strApt = append(data.strApt, "-", apt);
-      if (!sPlace.equals("EST")) data.strPlace = append(data.strPlace, " - ", sPlace);
-      match = ADDR_ZIP_PTN.matcher(data.strAddress);
-      if (match.find()) {
-        if (data.strCity.length() == 0) data.strCity = match.group(1);
-        data.strAddress = data.strAddress.substring(0,match.start());
+        data.strApt = append(data.strApt, "-", apt);
+        if (!sPlace.equals("EST")) data.strPlace = append(data.strPlace, " - ", sPlace);
+        match = ADDR_ZIP_PTN.matcher(data.strAddress);
+        if (match.find()) {
+          if (data.strCity.length() == 0) data.strCity = match.group(1);
+          data.strAddress = data.strAddress.substring(0,match.start());
+        }
       }
     }
   }
@@ -118,11 +118,14 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
       if (code.length() == 0) abort();
       
       if (data.strAddress.length() == 0) {
-        Result res = parseAddress(StartType.START_ADDR, FLAG_NO_CITY, place);
-        if (res.getStatus() > STATUS_STREET_NAME) {
-          res.getData(data);;
-          place = stripFieldStart(res.getLeft(), "-");
-        } else {
+        if (!place.startsWith("BETWEEN ") && !place.startsWith("BTWN")) {
+          Result res = parseAddress(StartType.START_ADDR, FLAG_NO_CITY, place);
+          if (res.getStatus() > STATUS_INTERSECTION) {
+            res.getData(data);;
+            place = stripFieldStart(res.getLeft(), "-");
+          }
+        }
+        if (data.strAddress.length() == 0) {
           parseAddress(cross, data);
           cross = "";
         }

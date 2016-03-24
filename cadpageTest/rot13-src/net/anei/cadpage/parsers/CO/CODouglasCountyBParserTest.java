@@ -656,7 +656,8 @@ choyvp pynff PBQbhtynfPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:NU-17-Q",
         "NQQE:1254 A 67 Ujl",
         "ZNQQE:1254 A Ujl 67",
-        "PNYY:OYQT 2 FVYIRE FGNGR ONCGVFG LBHGU PNZC SVER - OEHFU YNETR",
+        "NCG:OYQT 2",
+        "PNYY:FVYIRE FGNGR ONCGVFG LBHGU PNZC SVER - OEHFU YNETR",
         "HAVG:FNSR31,GA132,PU131,JQS2,OER39,R40,R36,Z36,OE18,OE44,OP34,PGA34");
 
     qbGrfg("G56",

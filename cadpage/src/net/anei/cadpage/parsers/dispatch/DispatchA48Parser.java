@@ -174,6 +174,7 @@ public class DispatchA48Parser extends FieldProgramParser {
   private static final Pattern TRAIL_UNIT_PTN = Pattern.compile("(.*?)[ ,]+(\\w+)");
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b(\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d?:\\d\\d:\\d\\d)(?: ([AP]M))?\\b");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:dd aa");
+  private static final Pattern TRAIL_DATE_PTN = Pattern.compile("(.*) \\d\\d/\\d\\d/\\d\\d");
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -324,6 +325,10 @@ public class DispatchA48Parser extends FieldProgramParser {
       parseAddress(st, flags, addr, data);
       extra = getLeft();
     }
+    
+    match = TRAIL_DATE_PTN.matcher(extra);
+    if (match.matches()) extra = match.group(1).trim();
+    
     fieldType.parse(this, extra, data);
     
     if (data.strCall.equals(data.strCode)) data.strCode = "";

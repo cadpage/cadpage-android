@@ -9,6 +9,7 @@ public class OHLorainCountyBParser extends DispatchInfoSysParser {
   
   public OHLorainCountyBParser() {
     super(CITY_LIST, "LORAIN COUNTY", "OH");
+    addExtendedDirections();
   }
   
   @Override

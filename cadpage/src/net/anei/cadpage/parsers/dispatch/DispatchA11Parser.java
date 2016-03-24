@@ -34,6 +34,7 @@ public class DispatchA11Parser extends FieldProgramParser {
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("UNIT")) return new UnitField("[-A-Z0-9]+", false);
     if (name.equals("ID")) return new IdField("\\d{2}[A-Z]{3,4}\\d+");
+    if (name.equals("X")) return new BaseCrossField();
     if (name.equals("DATETIME")) return new BaseDateTimeField();
     return super.getField(name);
   }
@@ -81,6 +82,20 @@ public class DispatchA11Parser extends FieldProgramParser {
     
     public String getFieldNames() {
       return super.getFieldNames() + " PLACE CITY";
+    }
+  }
+  
+  private class BaseCrossField extends CrossField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.startsWith("Intersection of:")) return true;
+      return super.checkParse(field, data);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("Intersection of:")) return;
+      super.parse(field, data);
     }
   }
   

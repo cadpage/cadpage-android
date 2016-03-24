@@ -1962,7 +1962,7 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:29O01",
         "PNYY:50CV",
         "NQQE:CYNVASVRYQ EQ & YNXR OENAQG EQ",
-        "VASB:ORGJRRA YNXR OENAQG NAQ PUHEPU FG");
+        "K:ORGJRRA YNXR OENAQG NAQ PUHEPU FG");
 
     qbGrfg("G6",
         "(fhzzresvryqsverqvfg Wna21-03:25) PNQ:FZSQ;FG09;1;67O01;BFSVE;2523 CYRNFNAG EVQTR EQ;FNQQYRJBBQ QE;QVFG: 35.58 SG",
@@ -3765,7 +3765,8 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "PNYY:ZRQRZ",
         "NQQE:5326 SEVRQRA PUHEPU EQ",
-        "K:ZPYRNAFIVYYR SVER FG 47 & PBEAREUBHFR EQ",
+        "CYNPR:ZPYRNAFIVYYR SVER FG 47",
+        "K:PBEAREUBHFR EQ",
         "PVGL:ZPYRNAFIVYYR");
 
     qbGrfg("G74",
@@ -3774,7 +3775,8 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "PNYY:ZRQRZ",
         "NQQE:5326 SEVRQRA PUHEPU EQ",
-        "K:ZPYRNAFIVYYR SVER FG 47 & PBEAREUBHFR EQ",
+        "CYNPR:ZPYRNAFIVYYR SVER FG 47",
+        "K:PBEAREUBHFR EQ",
         "PVGL:ZPYRNAFIVYYR");
 
     qbGrfg("G75",
@@ -5640,7 +5642,8 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "PNYY:PURFG",
         "NQQE:8401 HF 158",
-        "K:FGBXRFQNYR SVER FG 12 & FUVYYVAT FG",
+        "CYNPR:FGBXRFQNYR SVER FG 12",
+        "K:FUVYYVAT FG",
         "PVGL:FGBXRFQNYR");
 
     qbGrfg("G21",
@@ -6510,7 +6513,8 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQ",
         "NQQE:3937 AP 150 R",
         "ZNQQE:3937 FGNGR 150 R",
-        "K:ABEGURNFG SVER FG 33 & WBUA TYRAA QE",
+        "CYNPR:ABEGURNFG SVER FG 33",
+        "K:WBUA TYRAA QE",
         "PVGL:OEBJA FHZZVG");
 
     qbGrfg("G31",
@@ -9156,7 +9160,8 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "PNYY:ZRQRZ",
         "NQQE:4814 CYRNFNAG TNEQRA EQ",
-        "K:CYRNFNAG TNEQRA SVER FG 3 & YNHERY XABYY QE",
+        "CYNPR:CYRNFNAG TNEQRA SVER FG 3",
+        "K:YNHERY XABYY QE",
         "PVGL:CYRNFNAG TNEQRA");
 
     qbGrfg("G68",
@@ -16171,7 +16176,8 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "PNYY:SVENFG",
         "NQQE:803 A GREZVANY FREIVPR EQ",
-        "K:CGVN SVER FG 100 & CGV QE",
+        "CYNPR:CGVN SVER FG 100",
+        "K:CGV QE",
         "PVGL:TERRAFOBEB");
 
     qbGrfg("G17",

@@ -127,7 +127,7 @@ public class NJMorrisCountyAParser extends SmartAddressParser {
       } else if (ooc) {
         data.strCity = left;
       } else {
-        data.strApt = append(data.strApt, " - ", left);
+        data.strApt = append(data.strApt, " ", left);
       }
       if (data.strCity.length() == 0) data.strCity = city;
     }

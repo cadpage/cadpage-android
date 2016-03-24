@@ -678,9 +678,8 @@ choyvp pynff FPYnapnfgrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:3122 FGREYVAT PG",
         "PVGL:VAQVNA YNAQ",
         "ZPVGL:SBEG ZVYY",
-        "CYNPR:NFUYRL TYRAA/ NFUYRL TYRA JNL",
         "OBK:Fgn 10 (414)",
-        "K:QRNQ RAQ / NFUYRL TYRA JNL",
+        "K:NFUYRL TYRAA/ NFUYRL TYRA JNL, QRNQ RAQ / NFUYRL TYRA JNL",
         "PNYY:Nffvfg",
         "HAVG:FGN10,105",
         "VASB:QBT VF FGHPX VA FRJRE QENVA\aPNA URNE UVZ OHG PNA'G FRR UVZ");

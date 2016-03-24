@@ -258,8 +258,9 @@ choyvp pynff ZFOvybkvCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:F-1F",
         "QNGR:10/28/2014",
         "GVZR:02:24:09",
-        "NQQE:V-10 NG GUR 40 ZZ",
-        "ZNQQE:V 10 NG GUR 40 ZZ",
+        "NQQE:V-10",
+        "ZNQQE:V 10",
+        "CYNPR:NG GUR 40 ZZ",
         "VASB:NA NPPVQRAG J/VAWHEVRF VAIBYIVAT NA 18JURRYRE NAQ N IRUVPYR / 14-5346",
         "HAVG:R-8");
 

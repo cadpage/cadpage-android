@@ -2392,8 +2392,8 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SNYY-FGNAQVAT",
         "PVGL:OEVRESVRYQ",
         "K:UJL 25",
-        "NQQE:6857 ZBAGRINYYB EQ",
-        "CYNPR:NYVNF UJL 25");
+        "NQQE:6857 ZBAGRINYYB EQ (UJL 25)",
+        "ZNQQE:6857 ZBAGRINYYB EQ");
 
     qbGrfg("G10",
         "{Arj Rirag: SVER1528547} 2015-12-21 02:12:15\aSVER1528547\aOEVRESYQ - OESQ\aSNYY-FGNAQVAT\aOSYQ OVO: @OESQ:6857 ZBAGRINYYB EQ\a\a::",
@@ -18600,9 +18600,9 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SVER1527803",
         "FEP:UNECIVYYR - FGN2",
         "PNYY:NYGRERQ",
-        "NQQE:UJL 280 & FHA INYYRL EQ",
+        "NQQE:UJL 280 & FHA INYYRL EQ (280/FHA INYYRL EQ)",
+        "ZNQQE:UJL 280 & FHA INYYRL EQ",
         "PVGL:UNECREFIVYYR",
-        "CYNPR:nyvnf 280/FHA INYYRL EQ",
         "K:UJL 280/FHA INYYRL EQ");
 
     qbGrfg("G78",
@@ -27602,9 +27602,9 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SVER1528763",
         "FEP:FURYOL -",
         "PNYY:SQ-NFFVFG-GERR",
-        "NQQE:UJL 403 & CBEG QE",
+        "NQQE:UJL 403 & CBEG QE (403/CBEG)",
+        "ZNQQE:UJL 403 & CBEG QE",
         "PVGL:FURYOL",
-        "CYNPR:nyvnf 403/CBEG",
         "VASB:Pybfvat Gvzr: 2015-12-23 21:21:30\a// HAVG: OG110 --\aQvfc: 12/23/2015 9:19:28 CZ // Rae: 12/23/2015 9:19:29 CZ // Nee:  // Geaf:  // GeafNee:  // Ninvy: 12/23/2015 9:21:29 CZ\a// HAVG: PU115 --\aQvfc: 12/23/2015 9:14:54 CZ // Rae: 12/23/2015 9:14:55 CZ // Nee: 12/23/2015 9:20:32 CZ // Geaf:  // GeafNee:  // Ninvy: 12/23/2015 9:21:30 CZ\a// HAVG: R113 --\aQvfc: 12/23/2015 9:19:37 CZ // Rae: 12/23/2015 9:19:38 CZ // Nee:  // Geaf:  // GeafNee:  // Ninvy: 12/23/2015 9:21:30 CZ\a// HAVG: FUSQ1 --\aQvfc: 12/23/2015 9:12:10 CZ // Rae:  // Nee:  // Geaf:  // GeafNee:  // Ninvy: 12/23/2015 9:15:02 CZ");
 
     qbGrfg("G22",
@@ -27620,9 +27620,9 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SVER1528763",
         "FEP:FURYOL - FGN1",
         "PNYY:SQ-NFFVFG-GERR",
-        "NQQE:UJL 403 & CBEG QE",
+        "NQQE:UJL 403 & CBEG QE (403/CBEG)",
+        "ZNQQE:UJL 403 & CBEG QE",
         "PVGL:FURYOL",
-        "CYNPR:nyvnf 403/CBEG",
         "K:UJL 403/CBEG QE",
         "VASB:YNETR GERR NPEBFF GUR EBNQJNL");
 
@@ -27639,9 +27639,9 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SVER1528763",
         "FEP:FURYOL - FGN1",
         "PNYY:SQ-NFFVFG-GERR",
-        "NQQE:UJL 403 & CBEG QE",
+        "NQQE:UJL 403 & CBEG QE (403/CBEG)",
+        "ZNQQE:UJL 403 & CBEG QE",
         "PVGL:FURYOL",
-        "CYNPR:nyvnf 403/CBEG",
         "K:UJL 403/CBEG QE");
 
     qbGrfg("G24",
@@ -27788,9 +27788,9 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SVER1528242",
         "FEP:FURYOL -",
         "PNYY:ZIP-PURPX_VAWHEVRF",
-        "NQQE:UJL 47 & UJL 99",
+        "NQQE:UJL 47 & UJL 99 (47/UJL 99)",
+        "ZNQQE:UJL 47 & UJL 99",
         "PVGL:FURYOL",
-        "CYNPR:nyvnf 47/UJL 99",
         "VASB:Pybfvat Gvzr: 2015-12-17 10:32:10\a// HAVG: PU115 --\aQvfc: 12/17/2015 10:02:27 NZ // Rae: 12/17/2015 10:02:28 NZ // Nee: 12/17/2015 10:02:30 NZ // Geaf:  // GeafNee:  // Ninvy: 12/17/2015 10:32:10 NZ\a// HAVG: R112 --\aQvfc: 12/17/2015 9:59:29 NZ // Rae: 12/17/2015 9:59:30 NZ // Nee: 12/17/2015 10:01:29 NZ // Geaf:  // GeafNee:  // Ninvy: 12/17/2015 10:32:10 NZ\a// HAVG: FUSQ1 --\aQvfc: 12/17/2015 9:56:21 NZ // Rae:  // Nee:  // Geaf:  // GeafNee:  // Ninvy: 12/17/2015 9:59:33 NZ");
 
     qbGrfg("G32",
@@ -27806,9 +27806,9 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SVER1528242",
         "FEP:FURYOL - FGN1",
         "PNYY:ZIP-PURPX_VAWHEVRF",
-        "NQQE:UJL 47 & UJL 99",
+        "NQQE:UJL 47 & UJL 99 (47/UJL 99)",
+        "ZNQQE:UJL 47 & UJL 99",
         "PVGL:FURYOL",
-        "CYNPR:nyvnf 47/UJL 99",
         "K:UJL 47/UJL 99",
         "VASB:ERQ GBLG GNPBZN--NFG ABGVSVRQ--GEBBCRE SEBZ FG PYNVE PBHAGL--5251N NQI PNAPRY NFG--5299N ERD ERFPHR ABA RZRETRAPL--** Pnfr ahzore SFR152156 unf orra nffvtarq sbe FR_FURYOL:PB_SQ");
 
@@ -27825,9 +27825,9 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SVER1528242",
         "FEP:FURYOL - FGN1",
         "PNYY:ZIP-PURPX_VAWHEVRF",
-        "NQQE:UJL 47 & UJL 99",
+        "NQQE:UJL 47 & UJL 99 (47/UJL 99)",
+        "ZNQQE:UJL 47 & UJL 99",
         "PVGL:FURYOL",
-        "CYNPR:nyvnf 47/UJL 99",
         "K:UJL 47/UJL 99");
 
     qbGrfg("G34",
@@ -28950,9 +28950,9 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SVER1525283",
         "FEP:FURYOL -",
         "PNYY:ZIP-PURPX_VAWHEVRF",
-        "NQQE:UJL 47 & UJL 42",
+        "NQQE:UJL 47 & UJL 42 (47/42)",
+        "ZNQQE:UJL 47 & UJL 42",
         "PVGL:FURYOL",
-        "CYNPR:nyvnf 47/42",
         "VASB:Pybfvat Gvzr: 2015-11-09 18:37:15\a// HAVG: OG110 --\aQvfc: 11/9/2015 6:15:38 CZ // Rae: 11/9/2015 6:15:40 CZ // Nee: 11/9/2015 6:17:21 CZ // Geaf:  // GeafNee:  // Ninvy: 11/9/2015 6:30:13 CZ\a// HAVG: PU115 --\aQvfc: 11/9/2015 6:06:56 CZ // Rae: 11/9/2015 6:07:01 CZ // Nee: 11/9/2015 6:07:26 CZ // Geaf:  // GeafNee:  // Ninvy: 11/9/2015 6:37:15 CZ\a// HAVG: R112 --\aQvfc: 11/9/2015 6:06:58 CZ // Rae: 11/9/2015 6:07:12 CZ // Nee: 11/9/2015 6:09:15 CZ // Geaf:  // GeafNee:  // Ninvy: 11/9/2015 6:31:18 CZ\a// HAVG: FUSQ1 --\aQvfc: 11/9/2015 6:04:43 CZ // Rae:  // Nee:  // Geaf:  // GeafNee:  // Ninvy: 11/9/2015 6:07:17 CZ");
 
     qbGrfg("G93",
@@ -28968,9 +28968,9 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SVER1525283",
         "FEP:FURYOL - FGN1",
         "PNYY:ZIP-PURPX_VAWHEVRF",
-        "NQQE:UJL 47 & UJL 42",
+        "NQQE:UJL 47 & UJL 42 (47/42)",
+        "ZNQQE:UJL 47 & UJL 42",
         "PVGL:FURYOL",
-        "CYNPR:nyvnf 47/42",
         "K:UJL 47/UJL 42",
         "VASB:2 iruf, JUVGR GBLG UVTUYNAQRE, NAQ N 4QE CNFFRATRE PNE--** Pnfr ahzore SFR151896 unf orra nffvtarq sbe FR_FURYOL:PB_SQ");
 
@@ -28987,9 +28987,9 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:SVER1525283",
         "FEP:FURYOL - FGN1",
         "PNYY:ZIP-PURPX_VAWHEVRF",
-        "NQQE:UJL 47 & UJL 42",
+        "NQQE:UJL 47 & UJL 42 (47/42)",
+        "ZNQQE:UJL 47 & UJL 42",
         "PVGL:FURYOL",
-        "CYNPR:nyvnf 47/42",
         "K:UJL 47/UJL 42");
 
     qbGrfg("G95",

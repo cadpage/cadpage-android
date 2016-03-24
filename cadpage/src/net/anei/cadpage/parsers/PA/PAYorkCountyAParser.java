@@ -26,6 +26,7 @@ public class PAYorkCountyAParser extends SmartAddressParser {
     super("YORK COUNTY", "PA");
     setupMultiWordStreets("SEVEN VALLEYS");
     setupSpecialStreets("ALLEY");
+    removeWords("CL");
   }
   
   @Override
@@ -172,7 +173,7 @@ public class PAYorkCountyAParser extends SmartAddressParser {
         st = StartType.START_ADDR;
       } 
       
-      parseAddress(st, FLAG_IMPLIED_INTERSECT | FLAG_IGNORE_AT, body, data);
+      parseAddress(st, FLAG_IMPLIED_INTERSECT | FLAG_CROSS_FOLLOWS | FLAG_IGNORE_AT, body, data);
   
       // The address may be a simple address followed by a cross street
       // But the cross street may consist of a road followed by a comma 

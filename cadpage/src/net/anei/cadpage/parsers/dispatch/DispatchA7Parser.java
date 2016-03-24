@@ -58,7 +58,7 @@ public class DispatchA7Parser extends DispatchA7BaseParser {
   private static final Pattern LOC_INFO_APT_PTN = Pattern.compile("(?:RM|UNIT|SUITE?|STE|APT|BLDG) +.*|.* +(?:FLOOR)",Pattern.CASE_INSENSITIVE);
   private static final Pattern LOC_INFO_APT2_PTN = Pattern.compile("(?:RM|APT|SUITE?) +#? *(.*?)");
   private static final Pattern LOC_INFO_PHONE_PTN = Pattern.compile("#?(\\d{3}[\\.-]?\\d{3}[\\.-]?\\d{4})");
-  private static final Pattern LOC_INFO_CROSS_PTN = Pattern.compile("XSTS?[- :] *(.*)");
+  private static final Pattern LOC_INFO_CROSS_PTN = Pattern.compile("(?:XSTS?|BTWN)[- :] *(.*)");
   private static final Pattern NAME_ADDR_PHONE_PTN = Pattern.compile("Name: *(.*?) +(?:ADDR|Addr): (.*?) +(?:PH|Phone): *(.*?)");
   private static final Pattern NAME_PHONE_PTN = Pattern.compile("Name: *(.*?) +CC: .*? +Phone: *(.*?)");
   private static final Pattern ADDR_PTN = Pattern.compile("Addr: *(.*?)");
@@ -254,7 +254,7 @@ public class DispatchA7Parser extends DispatchA7BaseParser {
           data.strCity = tmp;
           continue;
         }
-        if ((match = LOC_INFO_CROSS_PTN.matcher(tmp)).matches()) {
+        if (data.strCross.length() == 0 && (match = LOC_INFO_CROSS_PTN.matcher(tmp)).matches()) {
           data.strCross = append(data.strCross, " & ", match.group(1));
           continue;
         }
@@ -271,7 +271,7 @@ public class DispatchA7Parser extends DispatchA7BaseParser {
             continue;
           }
         }
-        if (isValidAddress(tmp)) {
+        if (isValidCrossStreet(tmp)) {
           data.strCross = append(data.strCross, " & ", tmp);
           continue;
         }

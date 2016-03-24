@@ -300,10 +300,9 @@ choyvp pynff GKInaMnaqgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G33",
         "Ina Mnaqg Pb FB:ujl64 jrfg bs sz279 zna ba fbhgu fvqr bs 64 jvgu n fvta snyyra bagbc bs uvz",
-        "PNYY:ujl64 jrfg bs",
-        "NQQE:sz279",
-        "ZNQQE:snez-gb-znexrg 279",
-        "VASB:zna ba fbhgu fvqr bs 64 jvgu n fvta snyyra bagbc bs uvz");
+        "PNYY:jrfg bs sz279 zna ba fbhgu fvqr bs 64 jvgu n fvta snyyra bagbc bs uvz",
+        "NQQE:ujl64",
+        "ZNQQE:ujl 64");
 
     qbGrfg("G34",
         "Ina Mnaqg Pb FB:FURQ BA SVER SZ1995/SZ314",

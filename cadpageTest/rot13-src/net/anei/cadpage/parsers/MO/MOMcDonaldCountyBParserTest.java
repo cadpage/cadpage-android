@@ -115,7 +115,7 @@ choyvp pynff ZBZpQbanyqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:FGEHPGHER SVER ERF FVATYR",
         "PNYY:FGEHPGHER SVER FVATYR ERFVQRAPR",
         "NQQE:CBFFHZ UBYYBJ EQ",
-        "PVGL:ZPQBANYQ",
+        "PVGL:ZPQBANYQ", //bayl zncf sbe abry (be j/b pvgl)
         "HAVG:TSQ,601,611,TSQR1,TSQR3,623,TSQG4,ASQR1,S2N,FSQ");
 
     qbGrfg("G3",
@@ -126,7 +126,7 @@ choyvp pynff ZBZpQbanyqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:TENFF SVER YNETR S",
         "PNYY:YNETR S",
         "NQQE:584 PRPVY RCYVAT JNL",
-        "PVGL:ZPQBANYQ",
+        "PVGL:ZPQBANYQ", //jnagf cbjryy be abguvat
         "HAVG:FSQ");
 
     qbGrfg("G4",
@@ -136,7 +136,7 @@ choyvp pynff ZBZpQbanyqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2016-09541",
         "PBQR:PBAGEBYYRQ OHEA S",
         "PNYY:PBAGEBYYRQ OHEA S",
-        "NQQE:CVAR YBT EQ & EBHGR H",
+        "NQQE:CVAR YBT EQ & EBHGR H", //qbrf abg znc
         "PVGL:ZPQBANYQ",
         "HAVG:FSQ");
 
@@ -149,7 +149,7 @@ choyvp pynff ZBZpQbanyqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2016-09328",
         "PBQR:ENQVB/CNTR GRFG NYY SVER/RZF",
         "PNYY:ENQVB/CNTR GRFG SVER/RZF NYY",
-        "NQQE:1957 ZBHAGNVA EVQTR QE",
+        "NQQE:1957 ZBHAGNVA EVQTR QE", //qbrf abg znc .. xrrcf tbvat gb gur 911 pragre
         "PVGL:ZPQBANYQ",
         "HAVG:NSQ,ASQ,CSQ,FJSQ,FSQ");
 
@@ -218,7 +218,7 @@ choyvp pynff ZBZpQbanyqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:PENFU AB VAW YNJ",
         "PNYY:PENFU AB VAW YNJ",
         "NQQE:R FGNGR UVTUJNL 76 & PNEARYY EQ",
-        "ZNQQE:R FGNGR 76 & PNEARYY EQ",
+        "ZNQQE:R FGNGR 76 & PNEARYY EQ",  //qbrf abg znc
         "PVGL:ZPQBANYQ",
         "HAVG:ZFUC2,FSQ,1723,1701");
 
@@ -253,7 +253,7 @@ choyvp pynff ZBZpQbanyqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2016-08416",
         "PBQR:QVNORGVP CEBOYRZF YZ",
         "PNYY:QVNORGVP CEBOYRZF YZ",
-        "NQQE:985 QHSSVRYQ EQ",
+        "NQQE:985 QHSSVRYQ EQ", 
         "PVGL:ZPQBANYQ",
         "HAVG:S2N,FSQ");
 

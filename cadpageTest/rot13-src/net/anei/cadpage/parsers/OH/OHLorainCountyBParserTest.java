@@ -375,8 +375,8 @@ choyvp pynff BUYbenvaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G42",
         "(Sebz: ZncHfre) ZIN-ZIN-Zbgbe Iruvpyr Nppvqrag,0 V-480 RNFG/YBENVA EQ,V-480 RNFG/YBENVA EQ,A EVQTRIVYYR,,",
         "PNYY:ZIN-ZIN-Zbgbe Iruvpyr Nppvqrag",
-        "NQQE:V-480 RNFG/YBENVA EQ",
-        "ZNQQE:V 480 RNFG/YBENVA EQ",
+        "NQQE:V-480 RNFG & YBENVA EQ",
+        "ZNQQE:V 480 RNFG & YBENVA EQ",
         "PVGL:A EVQTRIVYYR");
 
     qbGrfg("G43",

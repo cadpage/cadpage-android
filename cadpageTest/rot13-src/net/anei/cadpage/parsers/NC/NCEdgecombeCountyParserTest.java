@@ -448,9 +448,9 @@ choyvp pynff APRqtrpbzorPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G4",
         "(Grkg Zrffntr) RqtrpbzorPrageny: ONGGYROBEB-YRTTRGGEQ // PBBYFCEVAT EQ EBP` TENFF SVER 31,9SQ ANFU1",
-        "NQQE:ONGGYROBEB-YRTTRGGEQ & PBBYFCEVAT EQ EBP` TENFF SVER 31",
-        "PNYY:9SQ",
-        "HAVG:ANFU1");
+        "NQQE:ONGGYROBEB-YRTTRGGEQ & PBBYFCEVAT EQ",
+        "PNYY:EBP` TENFF SVER",
+        "HAVG:31,9SQ ANFU1");
 
     qbGrfg("G5",
         "(Grkg Zrffntr) RqtrpbzorPrageny: 2181 FRIRA OEVQTRF EQ ONGGYROBEB Genssvp/Genafcbegngvba Nppvqragf 9SQ ANFU1,R9",

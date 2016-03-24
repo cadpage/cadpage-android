@@ -4822,9 +4822,8 @@ choyvp pynff APNyrknaqrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G74",
         "{Grkg Zrffntr} 230 ORGUYRURZ FPUBBY EQ;SVER FREIVPR PNYY;S NAQ E QE;PYBAGM QE",
         "NQQE:230 ORGUYRURZ FPUBBY EQ",
-        "CYNPR:SVER FREIVPR PNYY",
-        "PNYY:S NAQ E QE",
-        "K:PYBAGM QE");
+        "PNYY:SVER FREIVPR PNYY",
+        "K:S NAQ E QE & PYBAGM QE");
 
     qbGrfg("G75",
         "{Grkg Zrffntr} 9677 AP 127 UJL;OERNGUVAT CEBOYRZF;06Q02;EVAX QNZ EQ;TNMROB EQ",

@@ -32,7 +32,7 @@ public class TXRuskCountyAParser extends DispatchSouthernParser {
   }
   
   private static final Pattern ADDR_APT_PTN = Pattern.compile("\\d+[A-Z]?|[A-Z]");
-  private static final Pattern ADDR_X_PTN = Pattern.compile("(?:BETWEEN|CLOSE) +(.*)");
+  private static final Pattern ADDR_X_PTN = Pattern.compile("(.*?) +(?:BETWEEN|CLOSE) +(.*)");
   private class MyAddressField extends BaseAddressField {
     @Override
     public void parse(String field, Data data) {
@@ -41,15 +41,15 @@ public class TXRuskCountyAParser extends DispatchSouthernParser {
         data.strPlace = field.substring(ndx+1).trim();
         field = field.substring(0,ndx).trim();
       }
+      Matcher match = ADDR_X_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1);
+        data.strCross = match.group(2);
+      }
       super.parse(field, data);
       if (data.strPlace.length() == 0) {
         if (!ADDR_APT_PTN.matcher(data.strApt).matches()) {
-          Matcher match = ADDR_X_PTN.matcher(data.strApt); 
-          if (match.matches()) {
-            data.strCross = match.group(1);
-          } else {
-            data.strPlace = data.strApt;
-          }
+          data.strPlace = data.strApt;
           data.strApt = "";
         }
       }

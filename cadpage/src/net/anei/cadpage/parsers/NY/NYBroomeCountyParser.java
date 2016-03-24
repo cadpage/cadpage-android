@@ -12,8 +12,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NYBroomeCountyParser extends FieldProgramParser {
   
-  private static final String SRC_PTN_STR = "[0-9/]+|[A-Z]{3,4}";
-  private static Pattern NEW_FMT_MARKER = Pattern.compile(SRC_PTN_STR + "\n");
+  private static final String SRC_PTN_STR = "(?:[0-9/]+|[A-Z]{3,4})";
+  private static Pattern NEW_FMT_MARKER = Pattern.compile(SRC_PTN_STR + " *\n");
+  private static Pattern BAD_EDIT_PTN = Pattern.compile("(\\d\\d)(?=[A-Z0-9])");
+  
+  private static Pattern NEW_FMT_MARKER2 = Pattern.compile(SRC_PTN_STR + ": ?:");
   
   private static Pattern PREFIX = Pattern.compile("^\\.{4} \\(.*?\\) ");
   private static Pattern LEADER = Pattern.compile("^([A-Z0-9/]+)[\\-:]");
@@ -43,6 +46,10 @@ public class NYBroomeCountyParser extends FieldProgramParser {
       body = body.replace("\n Cross Sts", " Cross Sts");
       body = body.replace('\n', ':');
     }
+    
+    // And some  not so clever ones
+    Matcher match = BAD_EDIT_PTN.matcher(body);
+    if (match.lookingAt()) body = match.group(1)+':'+body.substring(match.end());
 
     // Removed unbalanced parenthesis from subject
     if (body.startsWith(")")) {
@@ -50,18 +57,17 @@ public class NYBroomeCountyParser extends FieldProgramParser {
       if (body.startsWith(",")) body = body.substring(1).trim();
     }
     body = body.trim().replaceAll("  +", " ");
-    Matcher match = PREFIX.matcher(body);
+    match = PREFIX.matcher(body);
     if (match.find()) body = body.substring(match.end()).trim();
     match = TRAILER.matcher(body);
     if (match.find()) body = body.substring(0,match.start()).trim();
 
     // Fix up leading field separator
     if (body.startsWith(")")) body = body.substring(1).trim();
-    body = LEADER.matcher(body).replaceFirst("$1 :");
     
     // New format is a lot easier to parse
     String[] flds;
-    if (subject.equals("!")) {
+    if (NEW_FMT_MARKER2.matcher(body).lookingAt()) {
       setSelectValue("2");
       body = body.replace('\n', ' ');
       flds = body.split(":");
@@ -70,6 +76,7 @@ public class NYBroomeCountyParser extends FieldProgramParser {
     // Using a colon as both a field separator and a keyword indicator makes life complicated :(
     else {
       setSelectValue("1");
+      body = LEADER.matcher(body).replaceFirst("$1 :");
       List<String>fldList = new ArrayList<String>();
       match = KEYWORD_PAT.matcher(body);
       int st = 0;

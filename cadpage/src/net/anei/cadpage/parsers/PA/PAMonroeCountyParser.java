@@ -94,8 +94,10 @@ public class PAMonroeCountyParser extends SmartAddressParser {
     }
     
     // Extract possible cross street from beginning of info field
+    // They never ever include more than once cross street.  So if this parses
+    // out as an intersection, we was misinterpreted
     Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, data.strSupp);
-    if (res.isValid()) {
+    if (res.isValid() && res.getStatus() != STATUS_INTERSECTION) {
       res.getData(data);
       data.strSupp = res.getLeft();
     }
