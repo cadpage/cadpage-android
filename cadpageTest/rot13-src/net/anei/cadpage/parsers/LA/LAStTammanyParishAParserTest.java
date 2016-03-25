@@ -5573,7 +5573,6 @@ choyvp pynff YNFgGnzznalCnevfuNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(HANHGU OHEA/OHEA PBZCYNVAG) HANHGU OHEA/OHEA PBZCYNVAG|| |FGN 7406 KF YN CVG EQ|21:48 | OHEA PBZCYNVAG",
         "PNYY:HANHGU OHEA/OHEA PBZCYNVAG",
         "NQQE:YN CVG EQ",
-        "ZNQQE:YA CVG EQ",
         "FEP:FGN 7406",
         "GVZR:21:48",
         "VASB:OHEA PBZCYNVAG");

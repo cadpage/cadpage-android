@@ -7622,8 +7622,7 @@ choyvp pynff PNFhvfhaPvglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Unmneqf: Ab*\a" +
         "03/14/2016 12:44:03 : cbf2 : PZO   PNYYVAT ZRQVP     03/14/2016 12:43:52 : cbf5 : ZWF   Pebff fgerrgf: ABEGU 2AQ//RNFG Q  Trb Pbzzrag: QSQ ZNC: T6 GOZ: 395 Q7  PNYJNGRE  AOU: INP SBE NHGB NVQ NG 1FG NYNEZ FGEHPG    54 LBN ZNYR  HAERFCBAFVIR/OERNGUVAT*",
 
-        "NQQE:452 YN",
-        "ZNQQE:452 YA",
+        "NQQE:452 YN RFCRENAMN QE",
         "PVGL:QVKBA",
         "CYNPR:INP SBE NHGB NVQ NG 1FG NYNEZ FGEHPG",
         "K:ABEGU 2AQ & RNFG Q",
