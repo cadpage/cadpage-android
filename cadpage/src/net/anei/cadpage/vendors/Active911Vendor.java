@@ -320,6 +320,7 @@ class Active911Vendor extends Vendor {
       "US/CT/Uconn",                      "CTTollandCountyB",
       "US/CT/Valleyshore911",             "CTMiddlesexCounty",
       "US/CT/WaterfordFD",                "CTWaterfordTown",
+      "US/CT/WinchesterPD",               "CTLitchfieldCountyB",
       "US/CT/WindhamCounty",              "CTWindhamCountyA",
       "US/CT/Wpdpaging",                  "CTWindhamCountyC",
       "US/DC/Proteanhub",                 "DCProteanhub",
