@@ -20,8 +20,8 @@ public class SCOrangeburgCountyParser extends SmartAddressParser {
  
   public SCOrangeburgCountyParser() {
     super("ORANGEBURG COUNTY", "SC");
-    addInvalidWords("FROM", "TO");
     setupMultiWordStreets(MWORD_STREET_LIST);
+    addInvalidWords("FROM", "TO");
   }
   
   @Override
@@ -118,42 +118,24 @@ public class SCOrangeburgCountyParser extends SmartAddressParser {
     data.strPlace = "";
     data.strAddress = "";
     return true;
-//    
-//    // Now process the rest of the split fields
-//    for ( ; ipt<flds.length; ipt++) {
-//      String fld = flds[ipt].trim();
-//      if (fld.length() == 0) continue;
-//
-//      if (isValidAddress(fld)) {
-//        data.strCross = append(data.strCross, " & ", fld);
-//      } 
-//      else if (data.strCall.length() == 0) {
-//        data.strCall = fld;
-//      }
-//      else {
-//        if (data.strSupp.length() == 0) {
-//          match = MM_PTN.matcher(fld);
-//          if (match.matches()) {
-//            data.strAddress = append(data.strAddress, " ", match.group(1));
-//            fld = match.group(2);
-//          }
-//        }
-//        data.strSupp = append(data.strSupp, " / ", fld);
-//      }
-//    }
   }
   
   private static final String[] MWORD_STREET_LIST = new String[]{
     "ASH FILL",
     "ASH HILL",
     "BEACON TREE",
+    "BECKY LOU",
     "BILL SALLEY",
+    "BINNICKER BRIDGE",
     "BOGGY BRANCH",
     "BOYLESTON POND",
+    "BREEZE HAVEN",
     "BROKEN ARROW",
     "CALVARY CHURCH",
     "COUNTY LINE",
+    "CRAGGY BLUFF",
     "FERGUSON LANDING",
+    "FIELD TWIN",
     "FIRE LANDING",
     "FOUNTAIN LAKE",
     "GABBY HALL",
@@ -163,8 +145,10 @@ public class SCOrangeburgCountyParser extends SmartAddressParser {
     "IRICKS POND",
     "JAMESON FARM",
     "JOHN NUNN",
+    "LAKE EDISTO",
     "MARTHA HEIGHTS",
     "MIDDLE WILLOW",
+    "MILKY WAY",
     "NINETY SIX",
     "NUMBER SIX",
     "OLD NUMBER SIX",
@@ -183,30 +167,5 @@ public class SCOrangeburgCountyParser extends SmartAddressParser {
     "TUG TOWN",
     "TWIN LAKES",
     "WATER TANK"
-
   };
-  
-//  private static final String[] CITY_CODES = new String[]{
-//    "BOWMAN",
-//    "BRANCHVILLE",
-//    "BROOKDALE",
-//    "COPE",
-//    "CORDOVA",
-//    "ELLOREE",
-//    "EUTAWVILLE",
-//    "HOLLY HILL",
-//    "LIVINGSTON",
-//    "NEESES",
-//    "NORTH",
-//    "NORWAY",
-//    "ORANGEBURG",
-//    "ROWESVILLE",
-//    "SANTEE",
-//    "SPRINGFIELD",
-//    "VANCE",
-//    "WILKINSON HEIGHTS",
-//    "WOODFORD",
-//    
-//    "BERKLEY COUNTY"
-//  }; 
 }
