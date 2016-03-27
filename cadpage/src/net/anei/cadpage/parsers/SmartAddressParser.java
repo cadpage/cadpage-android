@@ -553,7 +553,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_APT_SOFT, "APT", "APTS", "SUITE", "ROOM", "LOT", "UNIT");
     setupDictionary(ID_FLOOR, "FLOOR", "FLR", "FL", "BLDG");
     setupDictionary(ID_STREET_NAME_PREFIX, "HIDDEN", "LAKE", "MT", "MOUNT", "SUNKEN");
-    setupDictionary(ID_NOT_ADDRESS, "YOM", "YOF", "YO");
+    setupDictionary(ID_NOT_ADDRESS, "ENTRAPED", "ENTRAPPED", "YOM", "YOF", "YO");
     setupDictionary(ID_SINGLE_WORD_ROAD, "TURNPIKE");
     setupDictionary(ID_BLOCK, "BLK", "BLOCK");
     setupDictionary(ID_NUMBER_SUFFIX, "ND", "RD", "TH");
