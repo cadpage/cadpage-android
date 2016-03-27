@@ -75,9 +75,31 @@ public class KSWichitaParser extends FieldProgramParser {
   }
   
   private static Properties CITY_CODES = buildCodeTable(new String[]{
-      "MH", "MOUNT HOPE",
+      "AN", "ANDALE",
+      "BA", "BEL AIRE",
+      "BE", "BENTLEY",
+      "CH", "CHENEY",
+      "CL", "CLEARWATER",
+      "CO", "COLWICH",
+      "DE", "DERBY",
+      "EB", "EASTBOROUGH",
+      "FU", "FURLEY",
+      "GO", "GODDARD",
+      "GP", "GARDEN PLAIN",
+      "GR", "GREENWICH",
+      "HA", "HAYSVILLE",
+      "KE", "KECHI",
+      "MA", "MAIZE",
+      "MC", "MCCONNELL",
+      "MH", "MT HOPE",
+      "MU", "MULVANE",
+      "PC", "PARK CITY",
+      "PE", "PECK",
       "SC", "SEDGWICK COUNTY",
-      "WI", "WICHITA",
+      "SH", "SCHULTE",
+      "VC", "VALLEY CENTER",
+      "VI", "VIOLA",
+      "WI", "WICHITA"
   });
 
 }
