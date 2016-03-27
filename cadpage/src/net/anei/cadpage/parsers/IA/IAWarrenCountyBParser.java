@@ -10,7 +10,7 @@ public class IAWarrenCountyBParser extends FieldProgramParser {
   
   public IAWarrenCountyBParser() {
     super(CITY_LIST, "WARREN COUNTY", "IA",
-          "ID DATE/d TIME CALL ( ADDR/Z CITY | ) ( PLACE X/Z X/Z MAP! | X X/Z? MAP! | PLACE X/Z MAP! | PLACE? MAP! ) INFO/N+");
+          "ID DATE/d TIME ( TRANSPORT CITY? INFO END | CALL ( ADDR/Z CITY | ) ( PLACE X/Z X/Z MAP! | X X/Z? MAP! | PLACE X/Z MAP! | PLACE? MAP! ) INFO/N+ )");
   }
   
   @Override
@@ -30,7 +30,8 @@ public class IAWarrenCountyBParser extends FieldProgramParser {
     if (name.equals("ID")) return new MyIdField();
     if (name.equals("DATE")) return new DateField("\\d\\d-\\d\\d-\\d\\d", true);
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
-    if (name.equals("MAP")) return new MapField("VF\\d+", true);
+    if (name.equals("TRANSPORT")) return new CallField("TRANSPORT - .*", true);
+    if (name.equals("MAP")) return new MapField("(?:V[FG]|[CDE]|CLV|UI)\\d+", true);
     return super.getField(name);
   }
   
@@ -46,7 +47,7 @@ public class IAWarrenCountyBParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "INFO ID";
+      return "INFO? ID";
     }
   }
   
@@ -101,6 +102,10 @@ public class IAWarrenCountyBParser extends FieldProgramParser {
     "UNION",
     "VIRGINIA",
     "WHITE BREAST",
-    "WHITE OAK"
+    "WHITE OAK",
+    
+    // Polk County
+    "CLIVE",
+    "URBANDALE"
   };
 }
