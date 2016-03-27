@@ -2373,7 +2373,7 @@ choyvp pynff YNGnatvcnubnCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:CPCFB - 52I",
         "PNYY:52I",
         "NQQE:Qrygn Cynpr & Yn Ujl 10",
-        "ZNQQE:Qrygn Cynpr & Ya Ujl 10",
+        "ZNQQE:Qrygn Cynpr & YN 10",
         "PVGL:Arj Ebnqf",
         "FG:YN",
         "VQ:2015009249");

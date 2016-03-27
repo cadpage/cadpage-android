@@ -19,9 +19,9 @@ public class DispatchA46Parser extends SmartAddressParser {
   private static Pattern BODY_PTN1 = Pattern.compile("(?:There has been a\\(n\\) +)?(.*?) +reported (at|across from) +(.*)");
   private static Pattern ADDR_PTN1 = Pattern.compile("([^,]*),([^,]*), *([A-Z]{2})\\b,? *(.*)");
   
-  private static Pattern SUBJECT_PTN2 = Pattern.compile("(?:([A-Z]{3,4}) +- +)?(.*?)");
-  private static Pattern BODY_PTN2 = Pattern.compile("A\\(n\\) *(.*?) has been reported at (.*?) (\\d{10})(?:,? +(.*))?");
-  private static Pattern ADDR_PTN2 = Pattern.compile("([^,]*),(?:([^,]*),)? *([A-Z]{2})\\.?");
+  private static Pattern SUBJECT_PTN2 = Pattern.compile("(?:([A-Z]{3,4}) *- +(?:.*\\|)?)?(.*?)");
+  private static Pattern BODY_PTN2 = Pattern.compile("(?:A\\(n\\) *)?(.*?) has been reported at (.*?)");
+  private static Pattern ADDR_PTN2 = Pattern.compile("([^,]*),(?:([^,]*),)? *([A-Z]{2})\\.?(?:[ ,]+(20\\d{8})?(?:,? *(.*))?)?");
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -91,14 +91,20 @@ public class DispatchA46Parser extends SmartAddressParser {
       if (!mat.matches()) return false;
       data.strCall = mat.group(1).trim();
       String addr = mat.group(2).trim();
-      data.strCallId = mat.group(3).trim();
-      data.strSupp = getOptGroup(mat.group(4)).replaceAll("  +", " ");
-      
+
       mat = ADDR_PTN2.matcher(addr);
-      if (!mat.matches()) return false;
-      parseAddress(mat.group(1).trim(), data);
-      data.strCity = getOptGroup(mat.group(2));
-      data.strState = mat.group(3);
+      if (mat.matches()) {
+        parseAddress(mat.group(1).trim(), data);
+        data.strCity = getOptGroup(mat.group(2));
+        data.strState = mat.group(3);
+        data.strCallId = getOptGroup(mat.group(4));
+        data.strSupp = getOptGroup(mat.group(5)).replaceAll("  +", " ");
+      } else {
+        parseAddress(StartType.START_ADDR, addr, data);
+        String left = getLeft();
+        left = stripFieldStart(left, "-");
+        data.strSupp = left;
+      }
       return true;
     }
     

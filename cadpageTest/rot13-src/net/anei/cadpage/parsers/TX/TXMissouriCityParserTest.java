@@ -275,7 +275,6 @@ choyvp pynff GKZvffbhevPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:ZNWBE NPPVQRAG;2410 YN DHVAGN QE;26LBZ PBAFPVBHF NAQ OERNGUVAT// NQI UR JNF ENA",
         "PNYY:ZNWBE NPPVQRAG",
         "NQQE:2410 YN DHVAGN QE",
-        "ZNQQE:2410 YA DHVAGN QE",
         "VASB:26LBZ PBAFPVBHF NAQ OERNGUVAT// NQI UR JNF ENA");
 
     qbGrfg("G26",

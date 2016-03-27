@@ -22,9 +22,10 @@ public class MDFrederickCountyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "www.codemessaging.net,CAD@psb.net,@c-msg.net,messaging@iamresponding.com";
+    return "www.codemessaging.net,CAD@psb.net,@c-msg.net,messaging@iamresponding.com,89361";
   }
   
+  private static final Pattern SUBJECT_PTN = Pattern.compile("911@FredCoMD - (\\d\\d-\\d\\d-\\d{4}) *(\\d\\d:\\d\\d:\\d\\d)");
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
@@ -36,7 +37,11 @@ public class MDFrederickCountyParser extends FieldProgramParser {
         else if (subjects[1].equals("CAD")) subject = subjects[0];
         else return false;
       }
-      if (!subject.equals("IPS I/Page Notification")) data.strSource = subject;
+      Matcher match = SUBJECT_PTN.matcher(subject);
+      if (match.matches()) {
+        data.strDate = match.group(1).replace('-', '/');
+        data.strTime = match.group(2);
+      }
     }
 
     body = body.replace("MAP:", " MAP:");
@@ -52,7 +57,7 @@ public class MDFrederickCountyParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return "SRC " + super.getProgram();
+    return "DATE TIME " + super.getProgram();
   }
   
   @Override

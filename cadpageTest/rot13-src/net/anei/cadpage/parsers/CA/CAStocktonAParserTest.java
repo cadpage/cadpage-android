@@ -5870,7 +5870,6 @@ choyvp pynff PNFgbpxgbaNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:Z",
         "PNYY:ZRQVPNY PNYY",
         "NQQE:306 YN FRGGN QE",
-        "ZNQQE:306 YA FRGGN QE",
         "K:PNOEVYYB PV",
         "HAVG:R2034 NZE3");
 

@@ -4,6 +4,7 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashSet;
@@ -225,8 +226,15 @@ public abstract class MsgParser {
   // Pattern matching a terminated string of digits
   public static final Pattern NUMERIC = Pattern.compile("\\b\\d+\\b");
   
+  // States in which the defautl LA -> LN map conversion should always be suppressed
+  // (ie states where Spanish or French street names can be expected)
+  private static final Set<String> SUPPR_LA_STATES = new HashSet<String>(Arrays.asList(new String[]{"LA","TX","NM","AZ","CA","QC"}));
+  
   // parser code
   private String parserCode;
+  
+  // Default map flags
+  private int mapFlags = 0;
   
   // Default city and state passed in constructor
   private String defCity;
@@ -260,7 +268,8 @@ public abstract class MsgParser {
     String clsName = this.getClass().getName();
     int ipt = clsName.lastIndexOf('.');
     parserCode = clsName.substring(ipt+1, clsName.length()-6);
-
+    
+    if (countryCode == CountryCode.US && SUPPR_LA_STATES.contains(defState)) mapFlags = MAP_FLG_SUPPR_LA;
   }
   
   public void setTestMode(boolean testMode) {
@@ -589,7 +598,7 @@ public abstract class MsgParser {
    * MAP_FLG_ADOBE_MAP_PAGE Map pages must be displayed with Adobe Reader
    */
   public int getMapFlags() {
-    return 0;
+    return mapFlags;
   }
   public static final int MAP_FLG_SUPPR_LA = MsgInfo.MAP_FLG_SUPPR_LA;
   public static final int MAP_FLG_REMOVE_EXT = MsgInfo.MAP_FLG_REMOVE_EXT;
