@@ -404,7 +404,7 @@ public class SmsMmsMessage implements Serializable {
     // tries to reference any of the split message options
     if (reqLocation != null) {
       try {
-        if (reqLocation.contains("/")) {
+        if (reqLocation.contains("/") || reqLocation.equals("Active911Summary")) {
           String[] results = VendorManager.instance().convertLocationCode(vendorCode, reqLocation);
           effReqLocation = results[0];
           missingParsers = results[1];

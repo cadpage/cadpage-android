@@ -54,7 +54,9 @@ PNQ:JZ;2128 JVAGRE ZBFF YA;QVSS FCRNXVAT OGJ OERNGU;FG17;CERNYREG  [12/06/15 08:
 
 Pbagnpg: evpuzbernh <evpuzbernh@lnubb.pbz>
 Fraqre: TPZ
+Fraqre: 1027194726673 (PbqrZrffntvat)
 PNQ:HAPBA RSSRPGVIR OERNGUVAT;875 FUNQR GERR YA/FCYVG ENVY QE
+PNQ:JZ;114 GENVYF RAQ EQ;FGEBXR UVFGBEL;FG18;XVAT, RHTRAR;28P09Y;cer nyreg  [03/26/16 08:41:06 OXO] [CEBDN] 72-lrne-byq, Znyr, Pbafpvbhf, Oernguvat.  Fgebxr (PIN) / Genafvrag Vfpurzvp Nggnpx (GVN)  Pbqr:
 
 Ntrapl VQ: 34439
 Fraqre: @p-zft.arg
@@ -537,6 +539,16 @@ choyvp pynff APArjUnabirePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:HAPBA RSSRPGVIR OERNGUVAT",
         "NQQE:875 FUNQR GERR YA & FCYVG ENVY QE",
         "ZNQQE:875 FUNQR GERR YA");
+
+    qbGrfg("G2",
+        "PNQ:JZ;114 GENVYF RAQ EQ;FGEBXR UVFGBEL;FG18;XVAT, RHTRAR;28P09Y;cer nyreg  [03/26/16 08:41:06 OXO] [CEBDN] 72-lrne-byq, Znyr, Pbafpvbhf, Oernguvat.  Fgebxr (PIN) / Genafvrag Vfpurzvp Nggnpx (GVN)  Pbqr:",
+        "PVGL:JVYZVATGBA",
+        "NQQE:114 GENVYF RAQ EQ",
+        "PNYY:FGEBXR UVFGBEL",
+        "FEP:FG18",
+        "VASB:XVAT, RHTRAR / 28P09Y / cer nyreg / 72-lrne-byq, Znyr, Pbafpvbhf, Oernguvat.  Fgebxr (PIN) / Genafvrag Vfpurzvp Nggnpx (GVN)  Pbqr:",
+        "QNGR:03/26/16",
+        "GVZR:08:41:06");
    
   }
 

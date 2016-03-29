@@ -1,35 +1,34 @@
-*************************************************************************
-* Sender number changed to 87844
-*************************************************************************
+**************************************************************************
+* No email address & Android 6.0 & GET_ACCOUNTS permission denied
+**************************************************************************
 
-It seems the the address used to send your dispatch alerts has changed.  The default sender address filter will be changed to pick this up in the next Cadpage release.  For now you can override it.
+You presumably do have a configured email address, but you have not
+granted Cadpage permission to access your account information.  Without
+that access, Cadpage does not know who you are and can not confirm
+whether or not you have a free subscription.
 
-Open Cadpage Location Settings and check the box labeled "Override Location Filter".  Then set the "From: (filter)" setting to ______________ // 87844?
+Cadpage needs the GET_ACCOUNTS permission to process your free
+subscription request.  It would have prompted you to grant this
+permission the first time you tried to send us a support email or
+recalculate your payment status.  But if you declined that request, and
+checked the "Never ask again" box, you will never again be prompted to
+grant be permission.  If this is the case, the only way to fix things is
+to open the main Android settings and select
+Apps > Cadpage > Permissions
+then enable the "Contact" permission.
+
+Then, open Cadpage Settings and select
+Payment Status > Recalculate Payment Status
+
+If that does not work, select "I can't afford $10" to send us a new
+request for a free subscription.
 
 Good luck,
 -Ken
 
-
 **************************************************************************
-* The back key does not work
+* Not receiving runs/ calls, pages
 **************************************************************************
-
-Recent versions of Cadpage disable the back button if an alert notification is active.  This was done to avoid a problem I was having with the detail screen getting cleared when I accidentally touched the back key while pulling the phone out of my pocket.
-
-The Cadpage alert notification can be cleared by pressing any Cadpage button at all. There should always be a response button indicates no response so you can close the response menu without doing anything.  If whoever sets up the response buttons did not do that, you can add your own.  Detailed instructions on how to do that follow.
-
-If you want a response button that does what the back button used to do, there is a configurable close button.  In Cadpage settings, select
-Additional Buttons > Button Configuration > Main Button Menu or Response Button menu
-then use one of the regular button slots to add a close button to the appropriate button menu.
-
-If you are getting direct pages from CodeMessaging or Active911, you may have to change the "Direct Paging Message Menu" to ensure your buttons remain available when a direct page alert comes in.
-
-This is also where you would add your own, "I am not responding, please go away" button.  Pick any one of the 6 response button slots, set the Description setting to whatever text you want to appear on the button and leave the Phone/Code setting empty.
-
-Have a nice day,
--Ken
-**************************************************************************
-Not receiving runs/ calls, pages
 
 Are dispatch alerts showing up in your message inbox?  If not then you need to talk to someone in your department about getting their alerts sent to you.
 
