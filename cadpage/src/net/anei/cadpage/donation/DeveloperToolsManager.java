@@ -240,8 +240,8 @@ public class DeveloperToolsManager {
         
         intent.putExtra("originally_from", "kencx@peak.org");
         intent.putExtra("subject", "CAD Page");
-        intent.putExtra("content", ":06D1, E0, BREATHING - NOT ALERT, 1398 MISSOURI AVE, BRG, btwn CRITCHFIELD DR and CRITCHFIELD DR, WMD1, E81504, E150012572, SBRG150000195, Unit:8161 - From 405 01/20/2015 16:04:08\r\n\r\n");
-        intent.putExtra("format", "US/PA/WashingtonCounty,US/PA/AlleghenyCounty,Utility/General/Default");
+        intent.putExtra("content", "Body:CPR Refresher Reminder\n1035 Main Street Philomath\nCPR Refresher tonight 1900-2200 hrs. Station 201.\nSource: Web Console: Rich Saalsaa(125226)");
+        intent.putExtra("format", "Active911Summary");
         
         context.startService(intent);
         break;
