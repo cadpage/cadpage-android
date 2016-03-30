@@ -20,8 +20,6 @@ public class CAPlacerCountyCParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Dispatch")) return false;
-    
     if (body.indexOf(" Address:") >= 0) {
       setSelectValue("1");
       return super.parseMsg(body, data);
