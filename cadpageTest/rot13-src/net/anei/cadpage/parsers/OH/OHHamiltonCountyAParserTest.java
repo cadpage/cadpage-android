@@ -11,6 +11,7 @@ Pbagnpg: Npgvir911
 Ntrapl anzr: Zvysbeq Pbzzhavgl SQ
 Ybpngvba: Zvysbeq, BU, Havgrq Fgngrf
 
+up@unzvygba-pb.bet:PNQ:Fgehpgher Sver |Oyq: |Ncg: |1164 Fgngr Ebhgr 28 |XBUYF |Pyrezbag PB SQ |14:47|Y71 | |Nynez:1|Kfg:Ebna Eq/Rnfyrl Qe
 up@unzvygba-pb.bet:PNQ:Sver Nynez |Oyq: |Ncg: |600 Punzore Qe |UBZRJBBQ FHVGRF |Zvysbeq SQ |20:46|R71 |ST02|Nynez:1|Kfg:Qrnq Raq/Orrpujbbq Eq
 up@unzvygba-pb.bet:PNQ:Gebhoyr Oernguvat |Oyq: |Ncg:11 |5975 Zrnqbj Perrx Qe | |Pyrezbag PB SQ |19:07|Z72 | |Nynez:0|Kfg:Oevqtrunira Qe/Pbbx Eq
 up@unzvygba-pb.bet:PNQ:Nffnhyg-Vawherq |Oyq: |Ncg: |2001 Bnxoebbx Cy | |Zvysbeq SQ |18:39|Z71 | |Nynez:1|Kfg:Oebbxyla Ni/Qrnq Raq
@@ -3399,6 +3400,19 @@ choyvp pynff BUUnzvygbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgZvysbeqPbzzhavglSQ() {
+
+    qbGrfg("K1",
+        "up@unzvygba-pb.bet:PNQ:Fgehpgher Sver |Oyq: |Ncg: |1164 Fgngr Ebhgr 28 |XBUYF |Pyrezbag PB SQ |14:47|Y71 | |Nynez:1|Kfg:Ebna Eq/Rnfyrl Qe",
+        "PNYY:Fgehpgher Sver",
+        "NQQE:1164 Fgngr Ebhgr 28",
+        "ZNQQE:1164 FGNGR 28",
+        "CYNPR:XBUYF",
+        "FEP:Pyrezbag PB SQ",
+        "PVGL:Pyrezbag Pbhagl",
+        "GVZR:14:47",
+        "HAVG:Y71",
+        "CEV:1",
+        "K:Ebna Eq/Rnfyrl Qe");
 
     qbGrfg("G1",
         "up@unzvygba-pb.bet:PNQ:Sver Nynez |Oyq: |Ncg: |600 Punzore Qe |UBZRJBBQ FHVGRF |Zvysbeq SQ |20:46|R71 |ST02|Nynez:1|Kfg:Qrnq Raq/Orrpujbbq Eq",
