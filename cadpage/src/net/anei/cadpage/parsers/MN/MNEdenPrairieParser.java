@@ -36,8 +36,7 @@ public class MNEdenPrairieParser extends SmartAddressParser {
     else { //if Quad construct is absent, check if group 3 starts with a city
       Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, g3);
       data.strMap = res.getCity();
-      if (data.strMap.length() == 0) return false; //if it's not a city then it's not a format we know
-      g3 = res.getLeft();
+      if (data.strMap.length() > 0) g3 = res.getLeft();
     }
 
     //ADDR PLACE CITY

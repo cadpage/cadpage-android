@@ -12,121 +12,100 @@ Ntrapl anzr: Rqra Cenvevr SQ
 Ybpngvba: Rqra Cenvevr, ZA, Havgrq Fgngrf
 Fraqre: <qvfcngpu@rqracenvevr.bet>
 
-(Qvfcngpu Vasbezngvba) PU5  Dhnq 3/4 7900 GVZORE YNXR QE Ryvz Fuberf Fravbe UbhfvatRqra Cenvevr Pbzzhavgl RZG 2015-00000180
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 1/2 8567 PBEGYNAQ EQ Rqra Cenvevr Zrqvpny - Bgure 2015-00004709
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 2/1 8090 RQRA EQ Yvapbya Cnep - 8090 RQRA EQRqra Cenvevr Nynez - Sver 2015-00000178
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 7216 JNFUVATGBA NIR F Rqra Cenvevr Sver - Iruvpyr 2015-00000177
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 3/4 17590 XVYZRE NIR Rqra Cenvevr Zrqvpny - Bgure 2015-00004630
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 2/1 12595 PNFGYRZBBE QE Fcbegf NhgubevglRqra Cenvevr Nynez - Sver 2015-00000175
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 4/3 8278 QERKRY PG Rqra Cenvevr Nynez - Sver 2015-00000174
-(Qvfcngpu Vasbezngvba)  Dhnq 1/2 HF UVTUJNL 212 CENVEVR PRAGRE QE Rqra Cenvevr Penfu ZI Vawhel 2015-00004490
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 1/2 HF UVTUJNL 212 VAGREFGNGR 494 Rqra Cenvevr Penfu ZI Vawhel 2015-00000172
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 4/1 16469 XRYFRL YA Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000171
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 2/1 429 CENVEVR PRAGRE QE 111 Gur Pbybal - Eruno Havg - 429 CENVEVR PRAGRE QERqra Cenvevr Zrqvpny - Bgure 2015-00000170
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 9697 ORYZBAG YA Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000169
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 2/1 8251 SYLVAT PYBHQ QE ZNYYRqra Cenvevr Nynez - Sver 2015-00000167
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 3/1 15155 YRFYRL YA Rqra Cenvevr Zrqvpny - Bgure 2015-00004094
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 4/1 8933 FHGGBA QE Rqra Cenvevr Nynez - Sver 2015-00000165
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 1/3 OELNAG YNXR QE 212 RKVG ENZC Rqra Cenvevr Zrqvpny - Pneqvnp 2015-00000164
-(Qvfcngpu Vasbezngvba)  Dhnq 1/2 CYNMN QE CENVEVR PRAGRE QE Rqra Cenvevr Sver - Iruvpyr 2015-00003899
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 1/2 CENVEVR PRAGRE QE HF UVTUJNL 212 Rqra Cenvevr Sver - Iruvpyr 2015-00003899
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 3/4 6611 PBHAGELFVQR QE Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000162
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 1/3 6630 FUNQL BNX EQ JBBQQNYR PUHEPURqra Cenvevr Zrqvpny - Pneqvnp 2015-00003844
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 3/4 J  78GU FG RQRA CENVEVR EQ Rqra Cenvevr Penfu ZI Vawhel 2015-00003838
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 1/4 15306 ZNFBAF CG Rqra Cenvevr Zrqvpny - Bgure 2015-00000159
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 1/4 15705 PBEENY YA Rqra Cenvevr Zrqvpny - Pneqvnp 2015-00003766
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 548 CENVEVR PRAGRE QE Arj Ubevmba Puvyq Pner - 548 CENVEVR PRAGRE QERqra Cenvevr Nynez - Sver 2015-00000157
-(Qvfcngpu Vasbezngvba) PU5  Zvaargbaxn 5215 PERFGJBBQ QE Zvaargbaxn SVER - QHGL PERJ 2015-00000156
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 1/2 830 CENVEVR PRAGRE QE Snveivrj Rqra Pragre PyvavpRqra Cenvevr Zrqvpny - Pneqvnp 2015-00003635
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 2/1 11325 IVXVAT QE SNVESVRYQRqra Cenvevr Fghpx va Ryringbe 2015-00000154
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 1/2 13625 GRPUABYBTL QE BCGHZ URNYGUPNERRqra Cenvevr Nynez - Sver 2015-00000153
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 1/3 6429 PVGL JRFG CXJL Cnex ng Pvgl Jrfg - 6429 PVGL JRFG CXJLRqra Cenvevr Nynez - Jngresybj 2015-00000151
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 2/1 431 CENVEVR PRAGRE QE Gur Pbybal - 431 CENVEVR PRAGRE QERqra Cenvevr Nynez - Sver 2015-00000150
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 11995 FVATYRGERR YA 120 BEGUBYBTL - 11995 FVATYRGERR YA 120Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000149
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 2/1 9840 UBZRJNEQ UVYYF EQ Rqra Cenvevr Zrqvpny - Bgure 2015-00003483
-(Qvfcngpu Vasbezngvba) SV4  Dhnq 1/2 13000 GRPUABYBTL QE FNAGBEVAVRqra Cenvevr Nynez - Sver 2015-00003457
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 3/4 7285 UHAGREF EHA Rqra Cenvevr Sver - Zvfp 2015-00000146
-(Qvfcngpu Vasbezngvba) R11  Dhnq 2/1 12100 CVBARRE GEY CNK PUEVFGVRqra Cenvevr Zrqvpny - Bgure 2015-00003390
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 3/4 17416 CNIRYXN QE Rqra Cenvevr Nynez - PB j/Flzcgbzf 2015-00003387
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 3/4 7198 QRYY EQ FBPF Ubzr - 7198 QRYY EQRqra Cenvevr Nynez - Sver 2015-00000143
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 2/1 9200 GNYHF PVE Rqra Cenvevr Zrqvpny - Bgure 2015-00003354
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 1/3 7475 SYLVAT PYBHQ QE OyhssfRqra Cenvevr Nynez - Sver 2015-00000141
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 1/3 7475 SYLVAT PYBHQ QE OyhssfRqra Cenvevr Nynez - Sver 2015-00000140
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 11997 FVATYRGERR YA Xban TevyyRqra Cenvevr Nynez - Jngresybj 2015-00000139
-(Qvfcngpu Vasbezngvba)  Dhnq 1/3 HF UVTUJNL 212 FUNQL BNX EQ Rqra Cenvevr NBN - Sver 2015-00003309
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 2/1 11325 IVXVAT QE SnvesvryqRqra Cenvevr Nynez - Jngresybj 2015-00000137
-(Qvfcngpu Vasbezngvba)  Dhnq 2/1 8740 QNEARY EQ Rqra Cenvevr Zrqvpny - Pneqvnp 2015-00003296
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 2/1 8740 QNEARY EQ Rqra Cenvevr Zrqvpny - Bgure 2015-00003296
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 1/2 12619 INYYRL IVRJ EQ Ubyvqnl Tnf Fgngvba - 12619 INYYRL IVRJ EQRqra Cenvevr Sver - Zvfp 2015-00000135
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 11800 FUNAABA PG Rqra Pbzzbaf - 11800 FUNAABARqra Cenvevr Nynez - Sver 2015-00000133
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 3/4 16700 INYYRL IVRJ EQ Pbzzhavgl PragreRqra Cenvevr Zrqvpny - Bgure 2015-00003103
-(Qvfcngpu Vasbezngvba) PU5  Dhnq 2/1 11100 NAQREFBA YNXRF CXJL Cerfreir CynprRqra Cenvevr Nynez - Sver 2015-00000130
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 2/1 11100 NAQREFBA YNXRF CXJL Cerfreir CynprRqra Cenvevr Nynez - Sver 2015-00003101
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 431 CENVEVR PRAGRE QE Gur Pbybal - 431 CENVEVR PRAGRE QERqra Cenvevr Nynez - Sver 2015-00000128
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 1/2 12615 INYYRL IVRJ EQ ZVYVB'F - 12615 INYYRL IVRJ EQRqra Cenvevr Vaqhfgevny Nppvqrag 2015-00003082
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 4/1 18353 SEBAGVRE CY Rqra Cenvevr Zrqvpny - Pneqvnp 2015-00003045
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 4/1 17648 ONYYNAGENR PVE Rqra Cenvevr Nynez - Sver 2015-00000123
-(Qvfcngpu Vasbezngvba) R41  Dhnq 3/4 16396 JNTARE JNL GNIREA 4NAQ5Rqra Cenvevr Zrqvpny - Bgure 2015-00003010
-(Qvfcngpu Vasbezngvba) QHGL.. BF3 OBK1  Dhnq 2/1 10659 FBABZN EQT Rqra Cenvevr Sver - Tenff 2015-00000121
-(Qvfcngpu Vasbezngvba)  Dhnq 2/1 8501 SYLVAT PYBHQ QE Fhzzvg Cynpr Fravbe Zrzbel - 8501 SYLVAT PYBHQ QERqra Cenvevr Zrqvpny - Bgure 2015-00000120
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 4/1 8995 NIVYN PI Rqra Cenvevr Nynez - Sver 2015-00000119
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 2/1 11800 FUNAABA PG Rqra Pbzzbaf - 11800 FUNAABARqra Cenvevr Nynez - Sver 2015-00000118
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 1/2 8842 UNJGUBEAR QE Rqra Cenvevr Zrqvpny - Bgure 2015-00002866
-(Qvfcngpu Vasbezngvba) TRARENY  Dhnq 1/4 8080 ZVGPURYY EQ Rqra Cenvevr SVER - TRARENY
-(Qvfcngpu Vasbezngvba)  Dhnq 1/2 CYNMN QE CENVEVR PRAGRE QE Rqra Cenvevr Penfu ZI Vawhel 2015-00002826
-(Qvfcngpu Vasbezngvba)  Dhnq 1/2 935 CENVEVR PRAGRE QE JRYYF SNETB ONAXRqra Cenvevr Penfu ZI Vawhel 2015-00002826
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 1/2 CENVEVR PRAGRE QE CYNMN QE Rqra Cenvevr Penfu ZI Vawhel 2015-00002826
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 2/1 9685 PYBIRE PVE Rqra Cenvevr Zrqvpny - Bgure 2015-00002795
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 2/1 8505 SYLVAT PYBHQ QE Fhzzvg Cynpr Fravbe Yvivat - 8505 SYLVAT PYBHQ QERqra Cenvevr Zrqvpny - Pneqvnp 2015-00002742
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 2/1 11625 JVYQRE QE Rqra Pbzzbaf - 11625 JVYQRERqra Cenvevr Nynez - Sver 2015-00000113
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 4/1 18190 QNAR QE Rqra Cenvevr Sver - Zvfp 2015-00000112
-(Qvfcngpu Vasbezngvba)  Dhnq 3/1 6345 ORNPU EQ Vagreangvbany Fpubby Qbez OhvyqvatRqra Cenvevr Vaqhfgevny Nppvqrag 2015-00000111
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 3/1 6345 ORNPU EQ Vagreangvbany Fpubby Qbez OhvyqvatRqra Cenvevr Zrqvpny - Bgure 2015-00000111
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 1/2 HF UVTUJNL 212 CENVEVR PRAGRE QE Rqra Cenvevr Penfu ZI Vawhel 2015-00002625
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 3/4 15303 GEVYYVHZ PVE Rqra Cenvevr Sver - Zvfp 2015-00002593
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 11095 IVXVAT QE 210 Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000108
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 2/1 12100 CVBARRE GEY CNK PUEVFGVRqra Cenvevr Sver - Iruvpyr 2015-00000107
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 1/2 12001 GRPUABYBTL QE Rzrefba  - 12001 GRPUABYBTL QERqra Cenvevr Nynez - Sver 2015-00000106
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 1/3 6429 PVGL JRFG CXJL Cnex ng Pvgl Jrfg - 6429 PVGL JRFG CXJLRqra Cenvevr Nynez - Sver 2015-00000105
-(Qvfcngpu Vasbezngvba)  Dhnq 2/1 8505 SYLVAT PYBHQ QE V329 Fhzzvg Cynpr Fravbe Yvivat - 8505 SYLVAT PYBHQ QERqra Cenvevr Zrqvpny - Bgure 2015-00002467
-(Qvfcngpu Vasbezngvba) PU5  Dhnq 2/1 8505 SYLVAT PYBHQ QE V329 Fhzzvg Cynpr Fravbe Yvivat - 8505 SYLVAT PYBHQ QERqra Cenvevr Yvsg Nffvfg 2015-00002467
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 2/1 12300 FVATYRGERR YA Jngre Gbjre Ncgf - 12300 FVATYRGERRRqra Cenvevr Fghpx va Ryringbe 2015-00000103
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 1/4 14530 ZNEGVA QE 120 Pbzzvggrr SvyzfRqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000102
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 3/4 16315 JNTARE JNL Fgreyvat Cbaqf Ncgf - 16315 JNTARERqra Cenvevr Nynez - Sver 2015-00000101
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 11013 NAQREFBA YNXRF CXJL Tenavgr Cynpr - 11013 NYCRqra Cenvevr Nynez - Sver 2015-00000100
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 1/3 13720 WRAAVSRE PG Rqra Cenvevr Zrqvpny - Bgure 2015-00002293
-(Qvfcngpu Vasbezngvba)  Dhnq 3/4 18708 ANGHER YA Rqra Cenvevr Zrqvpny - Pneqvnp 2015-00002289
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 3/4 18708 ANGHER YA Rqra Cenvevr Zrqvpny - Bgure 2015-00002289
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 2/1 9673 UNZCFUVER YA Rqra Cenvevr Zrqvpny - Bgure 2015-00002262
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 8564 ZNTABYVN GEY Sbhagnva Cynpr - 8564 ZNTABYVNRqra Cenvevr Nynez - Sver 2015-00000096
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 2/1 8580 ZNTABYVN GEY 406 Sbhagnva Cynpr - 8580 ZNTABYVNRqra Cenvevr Zrqvpny - Pneqvnp 2015-00002115
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 2/1 9929 JVAQFBE GRE Rqra Cenvevr Nynez - Sver 2015-00000094
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 1/2 HF UVTUJNL 212 CENVEVR PRAGRE QE Rqra Cenvevr Penfu ZI Vawhel 2015-00002067
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 3/4 16345 J  78GU FG OHETRE XVAT - 16345 J 78GU FGRqra Cenvevr Penfu ZI Vawhel 2015-00002062
-(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 3/1 15021 FHZZREUVYY QE Rqra Cenvevr Sver - Iruvpyr 2015-00000091
-(Qvfcngpu Vasbezngvba) QHGL  Dhnq 2/1 429 CENVEVR PRAGRE QE 112 Gur Pbybal - Eruno Havg - 429 CENVEVR PRAGRE QERqra Cenvevr Zrqvpny - Bgure 2015-00002032
-(Qvfcngpu Vasbezngvba)  Dhnq 2/1 8751 CERFREIR OYIQ Cvbarre RfgngrfRqra Cenvevr Qrngu Vairfgvtngvba 2015-00001993
-(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 2/1 8751 CERFREIR OYIQ Cvbarre RfgngrfRqra Cenvevr Zrqvpny - Bgure 2015-00001993
-(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 9021 FPNEYRG TYBOR QE Rqra Cenvevr Nynez - PB Ab Flzcgbzf 2015-00000088
-(Qvfcngpu Vasbezngvba)  Dhnq 2/1 10331 ONYFNZ YA Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000087
-(Qvfcngpu Vasbezngvba)  Dhnq 2/1 10331 WHAVCRE YA Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000087
-(Qvfcngpu Vasbezngvba) PU5  Dhnq 2/1 WHAVCRE YA ONYFNZ YA Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000087
-(Qvfcngpu Vasbezngvba) PU5  Dhnq 2/1 12310 FVATYRGERR YA Jngre Gbjre Ncgf - 12310 FVATYRGERRRqra Cenvevr Nynez - Sver 2015-00000086
-
-chg gur QHGL/PU5 va punaary.
-gur senpgvba sbyybjvta dhnq va znc.
-sbyybjrq ol nqqerff, cbffvoyl cynpr anzr, pvgl anzr, pnyy qrfpevcgba naq VQ.
-Gurer vf abg nyjnlf n oynax va sebag bs gur pvgl anzr juvpu vf tbvat gb or n 
-ceboyrz.  Jbegu gelvat gb vafreg n oynax va sebag bs nal hccre pnfr punenpngre
-sbyybjrq ol n ybjre pnfr punenpgre.
-
-Cnggrea zngpu bs
-(?<! )(?=[N-M][n-m]) 
-ercynprq jvgu n oynax fubhyq qb vg
-
-Orlbaq gung, trareny cnggrea zngpu jvyy oernx bhg zbfg svryqf.  fzneg nqqerff cnefre
-cnff FGNEG_NQQE, SYNT_CNQ_SVRYQ | SYNT_NAPUBE_RAQ naq rkgenpgvat cynpr anzr sebz
-cnq svryq jvyy cebonoyl qb gur wbo.
+{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 2/1 9079 CERFREIR OYIQ Rqra Cenvevr Zrqvpny - Bgure 2016-00000387
+{Qvfcngpu Vasbezngvba} QHGL  Dhnq 2/1 431 CENVEVR PRAGRE QE 147 Gur Pbybal Rqra Cenvevr Zrqvpny - Bgure 2016-00011737
+{Qvfcngpu Vasbezngvba}  Dhnq 1/4 7945 JNYYNPR EQ Rngba - 7945 JNYYNPR EQ Rqra Cenvevr Vaqhfgevny Nppvqrag 2016-00011722
+{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 1/4 14900 GRPUABYBTL QE Rngba - 14900 GRPUABYBTL QE Rqra Cenvevr Vaqhfgevny Nppvqrag 2016-00011722
+{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 1/3 10000 INYYRL IVRJ EQ Ncrk Rqra Cenvevr Nynez - Sver 2016-00000382
+{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 3/4 7949 FBHGU ONL PHEI Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2016-00000381
+{Qvfcngpu Vasbezngvba} QHGL  Dhnq 1/3 ONXRE EQ PBHAGL EBNQ 62 Rqra Cenvevr Penfu ZI Vawhel 2016-00011640
+{Qvfcngpu Vasbezngvba} D11  Dhnq 2/1 12307 CEVAPRGBA NIR Rqra Cenvevr Nynez - PB Ab Flzcgbzf 2016-00000376
+{Qvfcngpu Vasbezngvba} PU3  Dhnq 1/2 VAGREFGNGR 494 INYYRL IVRJ EQ Rqra Cenvevr Penfu ZI Vawhel 2016-00011617
+{Qvfcngpu Vasbezngvba} PU4  Dhnq 2/1 12307 CEVAPRGBA NIR Rqra Cenvevr Nynez - PB Ab Flzcgbzf 2016-00000376
+{Qvfcngpu Vasbezngvba} PU1  Dhnq 1/2 VAGREFGNGR 494 INYYRL IVRJ EQ Rqra Cenvevr Penfu ZI Vawhel 2016-00011617
+{Qvfcngpu Vasbezngvba} ST2  Dhnq 2/1 12307 CEVAPRGBA NIR Rqra Cenvevr Nynez - PB Ab Flzcgbzf 2016-00000376
+{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 1/2 VAGREFGNGR 494 INYYRL IVRJ EQ Rqra Cenvevr Penfu ZI Vawhel 2016-00011617
+{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 2/1 12307 CEVAPRGBA NIR Rqra Cenvevr Nynez - PB Ab Flzcgbzf 2016-00000376
+{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 2/1 15571 WHARTENFF YA Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2016-00000375
+{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 1/3 13784 PNAQVPR YA Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2016-00000374
+{Qvfcngpu Vasbezngvba} D11  Dhnq 2/1 12589 PNFGYRZBBE QE UBZR TBBQF Rqra Cenvevr Zrqvpny - Bgure 2016-00011582
+{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 1/2 14012 PURFGAHG QE PURFGAHG NCGF 14012 Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2016-00000371
+{Qvfcngpu Vasbezngvba} R21  Dhnq 2/1 11305 JRFGJVAQ QE Q Cenvevr Zrnqbjf - 11305 JRFGJVAQ QE Rqra Cenvevr Zrqvpny - Bgure 2016-00011479
+{Qvfcngpu Vasbezngvba}  Dhnq 2/1 431 CENVEVR PRAGRE QE 147 Gur Pbybal Rqra Cenvevr Zrqvpny - Pneqvnp 2016-00000367
+{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 2/1 431 CENVEVR PRAGRE QE 147 Gur Pbybal Rqra Cenvevr Zrqvpny - Bgure 2016-00000367
+{Qvfcngpu Vasbezngvba}  Dhnq 3/1 7023 JBBQYNAQ QE Oevneuvyy 7023 Rqra Cenvevr Nynez - Sver 2016-00000365
+{Qvfcngpu Vasbezngvba}  Dhnq 3/1 7023 JBBQYNAQ QE 310 Oevneuvyy 7023 Rqra Cenvevr Nynez - Sver 2016-00000365
+{Qvfcngpu Vasbezngvba}  Dhnq 3/1 7025 JBBQYNAQ QE 310 Oevneuvyy Bssvpr Rqra Cenvevr Nynez - Sver 2016-00000365
+{Qvfcngpu Vasbezngvba} R41  Dhnq 3/4 6376 JUVFCREVAT BNXF QE Rqra Cenvevr Sver - Zvfp 2016-00000366
+{Qvfcngpu Vasbezngvba} ST3  Dhnq 3/1 7025 JBBQYNAQ QE Oevneuvyy Bssvpr Rqra Cenvevr Nynez - Sver 2016-00000365
+{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 3/4 6376 JUVFCREVAT BNXF QE Rqra Cenvevr Sver - Zvfp 2016-00000366
+{Qvfcngpu Vasbezngvba} QHGL  Dhnq 3/1 7025 JBBQYNAQ QE Oevneuvyy Bssvpr Rqra Cenvevr Nynez - Sver 2016-00000365
+{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 4/3 8232 OERAQRA YA Rqra Cenvevr Nynez - Sver 2016-00000364
+{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 3/4 7916 GVZORE YNXR QE Rqra Cenvevr Zrqvpny - Bgure 2016-00011209
+{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 1/2 965 CENVEVR PRAGRE QE 100 ABEGU ZRZBEVNY PYVAVP Rqra Cenvevr Zrqvpny - Pneqvnp 2016-00011178
+{Qvfcngpu Vasbezngvba} R21  Dhnq 2/1 CVBARRE GEY JBBQEVQTR QE Rqra Cenvevr Zrqvpny - Bgure 2016-00011057
+{Qvfcngpu Vasbezngvba} QHGL  Dhnq 2/1 15546 YVYNP QE Rqra Cenvevr Nynez - Sver 2016-00000359
+{Qvfcngpu Vasbezngvba}  18759 SNEZFGRNQ PVE Sver - Phg Tnf Yvar 2016-00000358
+{Qvfcngpu Vasbezngvba} R31  Dhnq 2/1 635 CENVEVR PRAGRE QE Oebnqzbbe Rqra Cenvevr Zrqvpny - Bgure 2016-00010913
+{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 1/2 VAGREFGNGR 494 HF UVTUJNL 212 Rqra Cenvevr Penfu ZI Vawhel 2016-00010911
+{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 4/1 18323 ORNECNGU GEY Rqra Cenvevr Nynez - Sver 2016-00000355
+{Qvfcngpu Vasbezngvba} QHGL  Dhnq 2/1 8300 SYLVAT PYBHQ QE Sylvat Pybhq Navzny Ubfcvgny Rqra Cenvevr Nynez - Sver 2016-00000352
+{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 1/2 7550 BSSVPR EVQTR PVE 112 Rkgraqrq Fgnl Bssvpr Evqtr Rqra Cenvevr Zrqvpny - Bgure 2016-00010779
+{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 3/4 19085 CURNFNAG PVE Rqra Cenvevr Nynez - PB Ab Flzcgbzf 2016-00000350
+{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 1/3 6630 FUNQL BNX EQ Jbbqqnyr Puhepu Rqra Cenvevr Nynez - Sver 2016-00000349
+{Qvfcngpu Vasbezngvba} QHGL  Dhnq 2/1 431 CENVEVR PRAGRE QE Gur Pbybal Rqra Cenvevr Nynez - Sver 2016-00000348
+{Qvfcngpu Vasbezngvba} QHGL.. TRARENY... CNE1 BF1 OBK2  Dhnq 1/2 7700 NANTENZ QE Nantenz Vagreangvbany Rqra Cenvevr Sver - Fgehpgher Sver 2016-00000347
+{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 1/3 7475 SYLVAT PYBHQ QE 329 Oyhssf Rqra Cenvevr Nynez - PB Ab Flzcgbzf 2016-00000346
+{Qvfcngpu Vasbezngvba} QHGL  Dhnq 2/1 8820 NMGRP QE OC NMGRP Rqra Cenvevr Zrqvpny - Pneqvnp 2016-00000345
+{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 3/4 7006 RNTYR EQT Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2016-00000344
+{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 2/1 CENVEVR PRAGRE QE VAGREFGNGR 494 Rqra Cenvevr Penfu ZI Vawhel 2016-00010267
+{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 2/1 8501 SYLVAT PYBHQ QE N320 Fhzzvg Cynpr Fravbe Zrzbel - 8501 SYLVAT PYBHQ QE Rqra Cenvevr Zrqvpny - Bgure 2016-00000342
+{Qvfcngpu Vasbezngvba} QHGL  Dhnq 3/4 7982 VFYNAQ EQ Rqra Cenvevr Zrqvpny - Bgure 2016-00010235
+{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 3/4 J  78GU FG RQRA CENVEVR EQ Rqra Cenvevr Penfu ZI Vawhel 2016-00010231
+{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 1/3 VAGREFGNGR 494 FGNGR UVTUJNL 62 Rqra Cenvevr Sver - Iruvpyr 2016-00010224
+{Qvfcngpu Vasbezngvba} R31  Dhnq 4/1 17448 XVYQNER JNL Rqra Cenvevr Zrqvpny - Bgure 2016-00010199
+{Qvfcngpu Vasbezngvba} QHGL  Dhnq 1/4 16280 UVYYGBC EQ Rqra Cenvevr Nynez - PB Ab Flzcgbzf 2016-00000336
+{Qvfcngpu Vasbezngvba} R21  Dhnq 2/1 9685 UNZCFUVER YA Rqra Cenvevr Zrqvpny - Bgure 2016-00010020
+{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 2/1 8090 RQRA EQ Yvapbya Cnep 8090 Rqra Cenvevr Nynez - Sver 2016-00000332
+{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 3/4 16355 JNTARE JNL Fgreyvat Cbaqf Ncgf - 16355 JNTARE Rqra Cenvevr Nynez - Sver 2016-00000330
+{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 2/1 10785 INYYRL IVRJ EQ 308 ERNY YVSR PB-BC Rqra Cenvevr Zrqvpny - Bgure 2016-00009893
+{Qvfcngpu Vasbezngvba} D11  Dhnq 2/1 10389 FUREZNA QE Rqra Cenvevr Zrqvpny - Bgure 2016-00009865
+{Qvfcngpu Vasbezngvba} PU5  Dhnq 3/4 18246 PBARSYBJRE YA Rqra Cenvevr Pbzzhavgl RZG 2016-00000327
+{Qvfcngpu Vasbezngvba} QHGL  Dhnq 2/1 11160 NAQREFBA YNXRF CXJL 201 Cerfreir Pbaqbzvavhzf Rqra Cenvevr Zrqvpny - Pneqvnp 2016-00000326
+{Qvfcngpu Vasbezngvba}  Dhnq 3/4 J  78GU FG RQRA CENVEVR EQ Rqra Cenvevr Penfu ZI Vawhel 2016-00009726
+{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 3/4 RQRA CENVEVR EQ J  78GU FG Rqra Cenvevr Penfu ZI Vawhel 2016-00009726
+{Qvfcngpu Vasbezngvba} R41 ST3  Dhnq 3/4 16355 JNTARE JNL 203 Fgreyvat Cbaqf Ncgf - 16355 JNTARE Rqra Cenvevr Zrqvpny - Bgure 2016-00009722
+{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 1/4 9301 RQRA CENVEVR EQ Tenpr Puhepu Rqra Cenvevr Nynez - Jngresybj 2016-00000323
+{Qvfcngpu Vasbezngvba} PU5  Dhnq 3/4 16180 JRFGTNGR GEY Rqra Cenvevr Yvsg Nffvfg 2016-00009647
+{Qvfcngpu Vasbezngvba} E31  14550 ZVAARGBAXN OYIQ Zvaargbaxn NBN - Sver 2016-00000320
+{Qvfcngpu Vasbezngvba}  Zvaargbaxn 1555 YVAARE Zvaargbaxn NBN - Sver
+{Qvfcngpu Vasbezngvba}  Zvaargbaxn 1555 YVAARE EQ Zvaargbaxn NBN - Sver
+{Qvfcngpu Vasbezngvba} PU1  14550 ZVAARGBAXN OYIQ Zvaargbaxn NBN - Sver 2016-00000320
+{Qvfcngpu Vasbezngvba} PU5  Zvaargbaxn 1555 YVAARE EQ Zvaargbaxn <ARJ>
+{Qvfcngpu Vasbezngvba} QHGL  14550 ZVAARGBAXN OYIQ Zvaargbaxn NBN - Sver 2016-00000320
+{Qvfcngpu Vasbezngvba} QHGL  Dhnq 1/2 13945 NAQREFBA YNXRF CXJL Cnexjnl Ncgf - 13945 NYC Rqra Cenvevr Fghpx va Ryringbe 2016-00000319
+{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 3/4 16355 JNTARE JNL 309 Fgreyvat Cbaqf Ncgf - 16355 JNTARE Rqra Cenvevr Zrqvpny - Pneqvnp 2016-00009534
+{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 1/3 7330 FPBG GRE Rqra Cenvevr Nynez - Sver 2016-00000317
+{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 3/4 7915 GVZORE YNXR QE Rqra Cenvevr Zrqvpny - Bgure 2016-00000316
+{Qvfcngpu Vasbezngvba} QHGL  Dhnq 3/4 15620 F  RQRA QE Rqra Cenvevr Nynez - Zrqvpny Rzretrapl 2016-00009306
+{Qvfcngpu Vasbezngvba}  Dhnq 2/1 8935 CERFREIR OYIQ Rqra Cenvevr Sver - Zvfp 2016-00000314
+{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 2/1 NAQREFBA YNXRF CXJL CERFREIR OYIQ Rqra Cenvevr Sver - Zvfp 2016-00000314
+{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 2/1 8627 PBYHZOVAR EQ Rqra Cenvevr Zrqvpny - Bgure 2016-00009291
+{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 4/1 9559 ZNEFUNYY EQ Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2016-00000312
+{Qvfcngpu Vasbezngvba} QHGL  Dhnq 3/4 17879 RIRARE JNL Rqra Cenvevr Zrqvpny - Pneqvnp 2016-00009259
+{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 1/3 6233 ONXRE EQ Yvsrgvzr Onxre Rqra Cenvevr Zrqvpny - Pneqvnp 2016-00009244
+{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 1/4 7665 PBZZREPR JNL Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2016-00000309
+{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 2/1 11790 JVYQRE QE Rqra Pbzzbaf - 11790 JVYQRE Rqra Cenvevr Nynez - Sver 2016-00000308
+{Qvfcngpu Vasbezngvba} R31  Dhnq 2/1 431 CENVEVR PRAGRE QE Gur Pbybal Rqra Cenvevr Nynez - Sver 2016-00000306
+{Qvfcngpu Vasbezngvba} QHGL  Dhnq 2/1 15512 YVYNP QE Rqra Cenvevr Nynez - Sver 2016-00000307
+{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 2/1 431 CENVEVR PRAGRE QE Gur Pbybal Rqra Cenvevr Nynez - Sver 2016-00000306
+{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 1/2 7427 ZVGPURYY EQ Chetngbel Perrx GU - 7427 ZVGPURYY EQ Rqra Cenvevr Sver - Zvfp 2016-00000305
+{Qvfcngpu Vasbezngvba}  Dhnq 2/1 8090 RQRA EQ 126 Yvapbya Cnep 8090 Rqra Cenvevr Sver - Zvfp 2016-00000304
+{Qvfcngpu Vasbezngvba}  Dhnq 2/1 8090 RQRA EQ Yvapbya Cnep 8090 Rqra Cenvevr Sver - Zvfp 2016-00000304
+{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 2/1 8090 RQRA EQ Yvapbya Cnep 8090 Rqra Cenvevr Nynez - Sver 2016-00000304
+{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 1/3 6470 PVGL JRFG CXJL Nezoehfg Rqra Cenvevr Vaqhfgevny Nppvqrag 2016-00008992
+{Qvfcngpu Vasbezngvba} QHGL  Dhnq 2/1 7737 SYLVAT PYBHQ QE Fhzzvg Ubzr Pragre Rqra Cenvevr Sver - Qhzcfgre 2016-00000302
+{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 1/3 6889 EBJYNAQ EQ ZNETNERG N PNETVYY SBHAQNGVBA Rqra Cenvevr Nynez - Sver 2016-00000301
 
 */
 
@@ -135,971 +114,907 @@ choyvp pynff ZARqraCenvevrCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ZARqraCenvevrCnefreGrfg() {
     frgCnefre(arj ZARqraCenvevrCnefre(), "RQRA CENVEVR", "ZA");
   }
-  
+
   @Grfg
-  choyvp ibvq grfgCnefre() {
+  choyvp ibvq grfgRqraCenvevrSQ() {
+
     qbGrfg("G1",
-        "(Qvfcngpu Vasbezngvba) PU5  Dhnq 3/4 7900 GVZORE YNXR QE Ryvz Fuberf Fravbe UbhfvatRqra Cenvevr Pbzzhavgl RZG 2015-00000180",
-        "PU:PU5",
-        "ZNC:Dhnq 3/4",
-        "NQQE:7900 GVZORE YNXR QE",
-        "CYNPR:Ryvz Fuberf Fravbe Ubhfvat",
+        "{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 2/1 9079 CERFREIR OYIQ Rqra Cenvevr Zrqvpny - Bgure 2016-00000387",
+        "PU:QHGL.",
+        "ZNC:Dhnq 2/1",
+        "NQQE:9079 CERFREIR OYIQ",
         "PVGL:Rqra Cenvevr",
-        "PNYY:Pbzzhavgl RZG",
-        "VQ:2015-00000180");
+        "PNYY:Zrqvpny - Bgure",
+        "VQ:2016-00000387");
 
     qbGrfg("G2",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 1/2 8567 PBEGYNAQ EQ Rqra Cenvevr Zrqvpny - Bgure 2015-00004709",
-        "PU:QHGL.",
-        "ZNC:Dhnq 1/2",
-        "NQQE:8567 PBEGYNAQ EQ",
+        "{Qvfcngpu Vasbezngvba} QHGL  Dhnq 2/1 431 CENVEVR PRAGRE QE 147 Gur Pbybal Rqra Cenvevr Zrqvpny - Bgure 2016-00011737",
+        "PU:QHGL",
+        "ZNC:Dhnq 2/1",
+        "NQQE:431 CENVEVR PRAGRE QE",
+        "NCG:147",
+        "CYNPR:Gur Pbybal",
         "PVGL:Rqra Cenvevr",
         "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00004709");
+        "VQ:2016-00011737");
 
     qbGrfg("G3",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 2/1 8090 RQRA EQ Yvapbya Cnep - 8090 RQRA EQRqra Cenvevr Nynez - Sver 2015-00000178",
-        "PU:QHGL..",
-        "ZNC:Dhnq 2/1",
-        "NQQE:8090 RQRA EQ",
-        "CYNPR:Yvapbya Cnep - 8090 RQRA EQ",
+        "{Qvfcngpu Vasbezngvba}  Dhnq 1/4 7945 JNYYNPR EQ Rngba - 7945 JNYYNPR EQ Rqra Cenvevr Vaqhfgevny Nppvqrag 2016-00011722",
+        "ZNC:Dhnq 1/4",
+        "NQQE:7945 JNYYNPR EQ",
+        "CYNPR:Rngba - 7945 JNYYNPR EQ",
         "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000178");
+        "PNYY:Vaqhfgevny Nppvqrag",
+        "VQ:2016-00011722");
 
     qbGrfg("G4",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 7216 JNFUVATGBA NIR F Rqra Cenvevr Sver - Iruvpyr 2015-00000177",
+        "{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 1/4 14900 GRPUABYBTL QE Rngba - 14900 GRPUABYBTL QE Rqra Cenvevr Vaqhfgevny Nppvqrag 2016-00011722",
         "PU:QHGL...",
-        "ZNC:Dhnq 2/1",
-        "NQQE:7216 JNFUVATGBA NIR F",
+        "ZNC:Dhnq 1/4",
+        "NQQE:14900 GRPUABYBTL QE",
+        "CYNPR:Rngba - 14900 GRPUABYBTL QE",
         "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Iruvpyr",
-        "VQ:2015-00000177");
+        "PNYY:Vaqhfgevny Nppvqrag",
+        "VQ:2016-00011722");
 
     qbGrfg("G5",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 3/4 17590 XVYZRE NIR Rqra Cenvevr Zrqvpny - Bgure 2015-00004630",
-        "PU:QHGL",
-        "ZNC:Dhnq 3/4",
-        "NQQE:17590 XVYZRE NIR",
+        "{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 1/3 10000 INYYRL IVRJ EQ Ncrk Rqra Cenvevr Nynez - Sver 2016-00000382",
+        "PU:QHGL..",
+        "ZNC:Dhnq 1/3",
+        "NQQE:10000 INYYRL IVRJ EQ",
+        "CYNPR:Ncrk",
         "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00004630");
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000382");
 
     qbGrfg("G6",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 2/1 12595 PNFGYRZBBE QE Fcbegf NhgubevglRqra Cenvevr Nynez - Sver 2015-00000175",
+        "{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 3/4 7949 FBHGU ONL PHEI Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2016-00000381",
         "PU:QHGL.",
-        "ZNC:Dhnq 2/1",
-        "NQQE:12595 PNFGYRZBBE QE",
-        "CYNPR:Fcbegf Nhgubevgl",
+        "ZNC:Dhnq 3/4",
+        "NQQE:7949 FBHGU ONL PHEI",
         "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000175");
+        "PNYY:Sver - Fzryy bs Tnf, Fzbxr",
+        "VQ:2016-00000381");
 
     qbGrfg("G7",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 4/3 8278 QERKRY PG Rqra Cenvevr Nynez - Sver 2015-00000174",
-        "PU:QHGL..",
-        "ZNC:Dhnq 4/3",
-        "NQQE:8278 QERKRY PG",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000174");
-
-    qbGrfg("G8",
-        "(Qvfcngpu Vasbezngvba)  Dhnq 1/2 HF UVTUJNL 212 CENVEVR PRAGRE QE Rqra Cenvevr Penfu ZI Vawhel 2015-00004490",
-        "ZNC:Dhnq 1/2",
-        "NQQE:HF UVTUJNL 212",
-        "ZNQQE:HF 212",
-        "CYNPR:CENVEVR PRAGRE QE",
+        "{Qvfcngpu Vasbezngvba} QHGL  Dhnq 1/3 ONXRE EQ PBHAGL EBNQ 62 Rqra Cenvevr Penfu ZI Vawhel 2016-00011640",
+        "PU:QHGL",
+        "ZNC:Dhnq 1/3",
+        "NQQE:ONXRE EQ",
+        "CYNPR:PBHAGL EBNQ 62",
         "PVGL:Rqra Cenvevr",
         "PNYY:Penfu ZI Vawhel",
-        "VQ:2015-00004490");
+        "VQ:2016-00011640");
+
+    qbGrfg("G8",
+        "{Qvfcngpu Vasbezngvba} D11  Dhnq 2/1 12307 CEVAPRGBA NIR Rqra Cenvevr Nynez - PB Ab Flzcgbzf 2016-00000376",
+        "PU:D11",
+        "ZNC:Dhnq 2/1",
+        "NQQE:12307 CEVAPRGBA NIR",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - PB Ab Flzcgbzf",
+        "VQ:2016-00000376");
 
     qbGrfg("G9",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 1/2 HF UVTUJNL 212 VAGREFGNGR 494 Rqra Cenvevr Penfu ZI Vawhel 2015-00000172",
-        "PU:QHGL",
+        "{Qvfcngpu Vasbezngvba} PU3  Dhnq 1/2 VAGREFGNGR 494 INYYRL IVRJ EQ Rqra Cenvevr Penfu ZI Vawhel 2016-00011617",
+        "PU:PU3",
         "ZNC:Dhnq 1/2",
-        "NQQE:HF UVTUJNL 212",
-        "ZNQQE:HF 212",
+        "NQQE:VAGREFGNGR 494",
+        "CYNPR:INYYRL IVRJ EQ",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Penfu ZI Vawhel",
+        "VQ:2016-00011617");
+
+    qbGrfg("G10",
+        "{Qvfcngpu Vasbezngvba} PU4  Dhnq 2/1 12307 CEVAPRGBA NIR Rqra Cenvevr Nynez - PB Ab Flzcgbzf 2016-00000376",
+        "PU:PU4",
+        "ZNC:Dhnq 2/1",
+        "NQQE:12307 CEVAPRGBA NIR",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - PB Ab Flzcgbzf",
+        "VQ:2016-00000376");
+
+    qbGrfg("G11",
+        "{Qvfcngpu Vasbezngvba} PU1  Dhnq 1/2 VAGREFGNGR 494 INYYRL IVRJ EQ Rqra Cenvevr Penfu ZI Vawhel 2016-00011617",
+        "PU:PU1",
+        "ZNC:Dhnq 1/2",
+        "NQQE:VAGREFGNGR 494",
+        "CYNPR:INYYRL IVRJ EQ",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Penfu ZI Vawhel",
+        "VQ:2016-00011617");
+
+    qbGrfg("G12",
+        "{Qvfcngpu Vasbezngvba} ST2  Dhnq 2/1 12307 CEVAPRGBA NIR Rqra Cenvevr Nynez - PB Ab Flzcgbzf 2016-00000376",
+        "PU:ST2",
+        "ZNC:Dhnq 2/1",
+        "NQQE:12307 CEVAPRGBA NIR",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - PB Ab Flzcgbzf",
+        "VQ:2016-00000376");
+
+    qbGrfg("G13",
+        "{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 1/2 VAGREFGNGR 494 INYYRL IVRJ EQ Rqra Cenvevr Penfu ZI Vawhel 2016-00011617",
+        "PU:QHGL.",
+        "ZNC:Dhnq 1/2",
+        "NQQE:VAGREFGNGR 494",
+        "CYNPR:INYYRL IVRJ EQ",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Penfu ZI Vawhel",
+        "VQ:2016-00011617");
+
+    qbGrfg("G14",
+        "{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 2/1 12307 CEVAPRGBA NIR Rqra Cenvevr Nynez - PB Ab Flzcgbzf 2016-00000376",
+        "PU:QHGL..",
+        "ZNC:Dhnq 2/1",
+        "NQQE:12307 CEVAPRGBA NIR",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - PB Ab Flzcgbzf",
+        "VQ:2016-00000376");
+
+    qbGrfg("G15",
+        "{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 2/1 15571 WHARTENFF YA Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2016-00000375",
+        "PU:QHGL...",
+        "ZNC:Dhnq 2/1",
+        "NQQE:15571 WHARTENFF YA",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Sver - Fzryy bs Tnf, Fzbxr",
+        "VQ:2016-00000375");
+
+    qbGrfg("G16",
+        "{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 1/3 13784 PNAQVPR YA Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2016-00000374",
+        "PU:QHGL.",
+        "ZNC:Dhnq 1/3",
+        "NQQE:13784 PNAQVPR YA",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Sver - Fzryy bs Tnf, Fzbxr",
+        "VQ:2016-00000374");
+
+    qbGrfg("G17",
+        "{Qvfcngpu Vasbezngvba} D11  Dhnq 2/1 12589 PNFGYRZBBE QE UBZR TBBQF Rqra Cenvevr Zrqvpny - Bgure 2016-00011582",
+        "PU:D11",
+        "ZNC:Dhnq 2/1",
+        "NQQE:12589 PNFGYRZBBE QE",
+        "CYNPR:UBZR TBBQF",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Bgure",
+        "VQ:2016-00011582");
+
+    qbGrfg("G18",
+        "{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 1/2 14012 PURFGAHG QE PURFGAHG NCGF 14012 Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2016-00000371",
+        "PU:QHGL..",
+        "ZNC:Dhnq 1/2",
+        "NQQE:14012 PURFGAHG QE",
+        "CYNPR:PURFGAHG NCGF 14012",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Sver - Fzryy bs Tnf, Fzbxr",
+        "VQ:2016-00000371");
+
+    qbGrfg("G19",
+        "{Qvfcngpu Vasbezngvba} R21  Dhnq 2/1 11305 JRFGJVAQ QE Q Cenvevr Zrnqbjf - 11305 JRFGJVAQ QE Rqra Cenvevr Zrqvpny - Bgure 2016-00011479",
+        "PU:R21",
+        "ZNC:Dhnq 2/1",
+        "NQQE:11305 JRFGJVAQ QE",
+        "CYNPR:Q Cenvevr Zrnqbjf - 11305 JRFGJVAQ QE",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Bgure",
+        "VQ:2016-00011479");
+
+    qbGrfg("G20",
+        "{Qvfcngpu Vasbezngvba}  Dhnq 2/1 431 CENVEVR PRAGRE QE 147 Gur Pbybal Rqra Cenvevr Zrqvpny - Pneqvnp 2016-00000367",
+        "ZNC:Dhnq 2/1",
+        "NQQE:431 CENVEVR PRAGRE QE",
+        "NCG:147",
+        "CYNPR:Gur Pbybal",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Pneqvnp",
+        "VQ:2016-00000367");
+
+    qbGrfg("G21",
+        "{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 2/1 431 CENVEVR PRAGRE QE 147 Gur Pbybal Rqra Cenvevr Zrqvpny - Bgure 2016-00000367",
+        "PU:QHGL...",
+        "ZNC:Dhnq 2/1",
+        "NQQE:431 CENVEVR PRAGRE QE",
+        "NCG:147",
+        "CYNPR:Gur Pbybal",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Bgure",
+        "VQ:2016-00000367");
+
+    qbGrfg("G22",
+        "{Qvfcngpu Vasbezngvba}  Dhnq 3/1 7023 JBBQYNAQ QE Oevneuvyy 7023 Rqra Cenvevr Nynez - Sver 2016-00000365",
+        "ZNC:Dhnq 3/1",
+        "NQQE:7023 JBBQYNAQ QE",
+        "CYNPR:Oevneuvyy 7023",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000365");
+
+    qbGrfg("G23",
+        "{Qvfcngpu Vasbezngvba}  Dhnq 3/1 7023 JBBQYNAQ QE 310 Oevneuvyy 7023 Rqra Cenvevr Nynez - Sver 2016-00000365",
+        "ZNC:Dhnq 3/1",
+        "NQQE:7023 JBBQYNAQ QE",
+        "NCG:310",
+        "CYNPR:Oevneuvyy 7023",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000365");
+
+    qbGrfg("G24",
+        "{Qvfcngpu Vasbezngvba}  Dhnq 3/1 7025 JBBQYNAQ QE 310 Oevneuvyy Bssvpr Rqra Cenvevr Nynez - Sver 2016-00000365",
+        "ZNC:Dhnq 3/1",
+        "NQQE:7025 JBBQYNAQ QE",
+        "NCG:310",
+        "CYNPR:Oevneuvyy Bssvpr",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000365");
+
+    qbGrfg("G25",
+        "{Qvfcngpu Vasbezngvba} R41  Dhnq 3/4 6376 JUVFCREVAT BNXF QE Rqra Cenvevr Sver - Zvfp 2016-00000366",
+        "PU:R41",
+        "ZNC:Dhnq 3/4",
+        "NQQE:6376 JUVFCREVAT BNXF QE",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Sver - Zvfp",
+        "VQ:2016-00000366");
+
+    qbGrfg("G26",
+        "{Qvfcngpu Vasbezngvba} ST3  Dhnq 3/1 7025 JBBQYNAQ QE Oevneuvyy Bssvpr Rqra Cenvevr Nynez - Sver 2016-00000365",
+        "PU:ST3",
+        "ZNC:Dhnq 3/1",
+        "NQQE:7025 JBBQYNAQ QE",
+        "CYNPR:Oevneuvyy Bssvpr",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000365");
+
+    qbGrfg("G27",
+        "{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 3/4 6376 JUVFCREVAT BNXF QE Rqra Cenvevr Sver - Zvfp 2016-00000366",
+        "PU:QHGL.",
+        "ZNC:Dhnq 3/4",
+        "NQQE:6376 JUVFCREVAT BNXF QE",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Sver - Zvfp",
+        "VQ:2016-00000366");
+
+    qbGrfg("G28",
+        "{Qvfcngpu Vasbezngvba} QHGL  Dhnq 3/1 7025 JBBQYNAQ QE Oevneuvyy Bssvpr Rqra Cenvevr Nynez - Sver 2016-00000365",
+        "PU:QHGL",
+        "ZNC:Dhnq 3/1",
+        "NQQE:7025 JBBQYNAQ QE",
+        "CYNPR:Oevneuvyy Bssvpr",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000365");
+
+    qbGrfg("G29",
+        "{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 4/3 8232 OERAQRA YA Rqra Cenvevr Nynez - Sver 2016-00000364",
+        "PU:QHGL..",
+        "ZNC:Dhnq 4/3",
+        "NQQE:8232 OERAQRA YA",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000364");
+
+    qbGrfg("G30",
+        "{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 3/4 7916 GVZORE YNXR QE Rqra Cenvevr Zrqvpny - Bgure 2016-00011209",
+        "PU:QHGL...",
+        "ZNC:Dhnq 3/4",
+        "NQQE:7916 GVZORE YNXR QE",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Bgure",
+        "VQ:2016-00011209");
+
+    qbGrfg("G31",
+        "{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 1/2 965 CENVEVR PRAGRE QE 100 ABEGU ZRZBEVNY PYVAVP Rqra Cenvevr Zrqvpny - Pneqvnp 2016-00011178",
+        "PU:QHGL.",
+        "ZNC:Dhnq 1/2",
+        "NQQE:965 CENVEVR PRAGRE QE",
+        "NCG:100",
+        "CYNPR:ABEGU ZRZBEVNY PYVAVP",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Pneqvnp",
+        "VQ:2016-00011178");
+
+    qbGrfg("G32",
+        "{Qvfcngpu Vasbezngvba} R21  Dhnq 2/1 CVBARRE GEY JBBQEVQTR QE Rqra Cenvevr Zrqvpny - Bgure 2016-00011057",
+        "PU:R21",
+        "ZNC:Dhnq 2/1",
+        "NQQE:CVBARRE GEY",
+        "CYNPR:JBBQEVQTR QE",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Bgure",
+        "VQ:2016-00011057");
+
+    qbGrfg("G33",
+        "{Qvfcngpu Vasbezngvba} QHGL  Dhnq 2/1 15546 YVYNP QE Rqra Cenvevr Nynez - Sver 2016-00000359",
+        "PU:QHGL",
+        "ZNC:Dhnq 2/1",
+        "NQQE:15546 YVYNP QE",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000359");
+
+    qbGrfg("G34",
+        "{Qvfcngpu Vasbezngvba}  18759 SNEZFGRNQ PVE Sver - Phg Tnf Yvar 2016-00000358",
+        "NQQE:18759 SNEZFGRNQ PVE",
+        "PNYY:Sver - Phg Tnf Yvar",
+        "VQ:2016-00000358");
+
+    qbGrfg("G36",
+        "{Qvfcngpu Vasbezngvba} R31  Dhnq 2/1 635 CENVEVR PRAGRE QE Oebnqzbbe Rqra Cenvevr Zrqvpny - Bgure 2016-00010913",
+        "PU:R31",
+        "ZNC:Dhnq 2/1",
+        "NQQE:635 CENVEVR PRAGRE QE",
+        "CYNPR:Oebnqzbbe",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Bgure",
+        "VQ:2016-00010913");
+
+    qbGrfg("G37",
+        "{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 1/2 VAGREFGNGR 494 HF UVTUJNL 212 Rqra Cenvevr Penfu ZI Vawhel 2016-00010911",
+        "PU:QHGL..",
+        "ZNC:Dhnq 1/2",
+        "NQQE:VAGREFGNGR 494",
+        "CYNPR:HF UVTUJNL 212",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Penfu ZI Vawhel",
+        "VQ:2016-00010911");
+
+    qbGrfg("G38",
+        "{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 4/1 18323 ORNECNGU GEY Rqra Cenvevr Nynez - Sver 2016-00000355",
+        "PU:QHGL...",
+        "ZNC:Dhnq 4/1",
+        "NQQE:18323 ORNECNGU GEY",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000355");
+
+    qbGrfg("G39",
+        "{Qvfcngpu Vasbezngvba} QHGL  Dhnq 2/1 8300 SYLVAT PYBHQ QE Sylvat Pybhq Navzny Ubfcvgny Rqra Cenvevr Nynez - Sver 2016-00000352",
+        "PU:QHGL",
+        "ZNC:Dhnq 2/1",
+        "NQQE:8300 SYLVAT PYBHQ QE",
+        "CYNPR:Sylvat Pybhq Navzny Ubfcvgny",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000352");
+
+    qbGrfg("G40",
+        "{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 1/2 7550 BSSVPR EVQTR PVE 112 Rkgraqrq Fgnl Bssvpr Evqtr Rqra Cenvevr Zrqvpny - Bgure 2016-00010779",
+        "PU:QHGL..",
+        "ZNC:Dhnq 1/2",
+        "NQQE:7550 BSSVPR EVQTR PVE",
+        "NCG:112",
+        "CYNPR:Rkgraqrq Fgnl Bssvpr Evqtr",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Bgure",
+        "VQ:2016-00010779");
+
+    qbGrfg("G41",
+        "{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 3/4 19085 CURNFNAG PVE Rqra Cenvevr Nynez - PB Ab Flzcgbzf 2016-00000350",
+        "PU:QHGL...",
+        "ZNC:Dhnq 3/4",
+        "NQQE:19085 CURNFNAG PVE",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - PB Ab Flzcgbzf",
+        "VQ:2016-00000350");
+
+    qbGrfg("G42",
+        "{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 1/3 6630 FUNQL BNX EQ Jbbqqnyr Puhepu Rqra Cenvevr Nynez - Sver 2016-00000349",
+        "PU:QHGL.",
+        "ZNC:Dhnq 1/3",
+        "NQQE:6630 FUNQL BNX EQ",
+        "CYNPR:Jbbqqnyr Puhepu",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000349");
+
+    qbGrfg("G43",
+        "{Qvfcngpu Vasbezngvba} QHGL  Dhnq 2/1 431 CENVEVR PRAGRE QE Gur Pbybal Rqra Cenvevr Nynez - Sver 2016-00000348",
+        "PU:QHGL",
+        "ZNC:Dhnq 2/1",
+        "NQQE:431 CENVEVR PRAGRE QE",
+        "CYNPR:Gur Pbybal",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000348");
+
+    qbGrfg("G44",
+        "{Qvfcngpu Vasbezngvba} QHGL.. TRARENY... CNE1 BF1 OBK2  Dhnq 1/2 7700 NANTENZ QE Nantenz Vagreangvbany Rqra Cenvevr Sver - Fgehpgher Sver 2016-00000347",
+        "PU:QHGL.. TRARENY... CNE1 BF1 OBK2",
+        "ZNC:Dhnq 1/2",
+        "NQQE:7700 NANTENZ QE",
+        "CYNPR:Nantenz Vagreangvbany",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Sver - Fgehpgher Sver",
+        "VQ:2016-00000347");
+
+    qbGrfg("G45",
+        "{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 1/3 7475 SYLVAT PYBHQ QE 329 Oyhssf Rqra Cenvevr Nynez - PB Ab Flzcgbzf 2016-00000346",
+        "PU:QHGL...",
+        "ZNC:Dhnq 1/3",
+        "NQQE:7475 SYLVAT PYBHQ QE",
+        "NCG:329",
+        "CYNPR:Oyhssf",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - PB Ab Flzcgbzf",
+        "VQ:2016-00000346");
+
+    qbGrfg("G46",
+        "{Qvfcngpu Vasbezngvba} QHGL  Dhnq 2/1 8820 NMGRP QE OC NMGRP Rqra Cenvevr Zrqvpny - Pneqvnp 2016-00000345",
+        "PU:QHGL",
+        "ZNC:Dhnq 2/1",
+        "NQQE:8820 NMGRP QE",
+        "CYNPR:OC NMGRP",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Pneqvnp",
+        "VQ:2016-00000345");
+
+    qbGrfg("G47",
+        "{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 3/4 7006 RNTYR EQT Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2016-00000344",
+        "PU:QHGL.",
+        "ZNC:Dhnq 3/4",
+        "NQQE:7006 RNTYR EQT",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Sver - Fzryy bs Tnf, Fzbxr",
+        "VQ:2016-00000344");
+
+    qbGrfg("G48",
+        "{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 2/1 CENVEVR PRAGRE QE VAGREFGNGR 494 Rqra Cenvevr Penfu ZI Vawhel 2016-00010267",
+        "PU:QHGL..",
+        "ZNC:Dhnq 2/1",
+        "NQQE:CENVEVR PRAGRE QE",
         "CYNPR:VAGREFGNGR 494",
         "PVGL:Rqra Cenvevr",
         "PNYY:Penfu ZI Vawhel",
-        "VQ:2015-00000172");
+        "VQ:2016-00010267");
 
-    qbGrfg("G10",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 4/1 16469 XRYFRL YA Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000171",
-        "PU:QHGL.",
-        "ZNC:Dhnq 4/1",
-        "NQQE:16469 XRYFRL YA",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Fzryy bs Tnf, Fzbxr",
-        "VQ:2015-00000171");
-
-    qbGrfg("G11",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 2/1 429 CENVEVR PRAGRE QE 111 Gur Pbybal - Eruno Havg - 429 CENVEVR PRAGRE QERqra Cenvevr Zrqvpny - Bgure 2015-00000170",
-        "PU:QHGL..",
-        "ZNC:Dhnq 2/1",
-        "NQQE:429 CENVEVR PRAGRE QE",
-        "NCG:111",
-        "CYNPR:Gur Pbybal - Eruno Havg - 429 CENVEVR PRAGRE QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00000170");
-
-    qbGrfg("G12",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 9697 ORYZBAG YA Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000169",
+    qbGrfg("G49",
+        "{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 2/1 8501 SYLVAT PYBHQ QE N320 Fhzzvg Cynpr Fravbe Zrzbel - 8501 SYLVAT PYBHQ QE Rqra Cenvevr Zrqvpny - Bgure 2016-00000342",
         "PU:QHGL...",
         "ZNC:Dhnq 2/1",
-        "NQQE:9697 ORYZBAG YA",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Fzryy bs Tnf, Fzbxr",
-        "VQ:2015-00000169");
-
-    qbGrfg("G13",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 2/1 8251 SYLVAT PYBHQ QE ZNYYRqra Cenvevr Nynez - Sver 2015-00000167",
-        "PU:QHGL.",
-        "ZNC:Dhnq 2/1",
-        "NQQE:8251 SYLVAT PYBHQ QE",
-        "CYNPR:ZNYY",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000167");
-
-    qbGrfg("G14",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 3/1 15155 YRFYRL YA Rqra Cenvevr Zrqvpny - Bgure 2015-00004094",
-        "PU:QHGL..",
-        "ZNC:Dhnq 3/1",
-        "NQQE:15155 YRFYRL YA",
+        "NQQE:8501 SYLVAT PYBHQ QE",
+        "CYNPR:N320 Fhzzvg Cynpr Fravbe Zrzbel - 8501 SYLVAT PYBHQ QE",
         "PVGL:Rqra Cenvevr",
         "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00004094");
+        "VQ:2016-00000342");
 
-    qbGrfg("G15",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 4/1 8933 FHGGBA QE Rqra Cenvevr Nynez - Sver 2015-00000165",
-        "PU:QHGL...",
-        "ZNC:Dhnq 4/1",
-        "NQQE:8933 FHGGBA QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000165");
-
-    qbGrfg("G16",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 1/3 OELNAG YNXR QE 212 RKVG ENZC Rqra Cenvevr Zrqvpny - Pneqvnp 2015-00000164",
+    qbGrfg("G50",
+        "{Qvfcngpu Vasbezngvba} QHGL  Dhnq 3/4 7982 VFYNAQ EQ Rqra Cenvevr Zrqvpny - Bgure 2016-00010235",
         "PU:QHGL",
-        "ZNC:Dhnq 1/3",
-        "NQQE:OELNAG YNXR QE",
-        "NCG:212",
-        "CYNPR:RKVG ENZC",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Pneqvnp",
-        "VQ:2015-00000164");
-
-    qbGrfg("G17",
-        "(Qvfcngpu Vasbezngvba)  Dhnq 1/2 CYNMN QE CENVEVR PRAGRE QE Rqra Cenvevr Sver - Iruvpyr 2015-00003899",
-        "ZNC:Dhnq 1/2",
-        "NQQE:CYNMN QE",
-        "CYNPR:CENVEVR PRAGRE QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Iruvpyr",
-        "VQ:2015-00003899");
-
-    qbGrfg("G18",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 1/2 CENVEVR PRAGRE QE HF UVTUJNL 212 Rqra Cenvevr Sver - Iruvpyr 2015-00003899",
-        "PU:QHGL.",
-        "ZNC:Dhnq 1/2",
-        "NQQE:CENVEVR PRAGRE QE",
-        "CYNPR:HF UVTUJNL 212",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Iruvpyr",
-        "VQ:2015-00003899");
-
-    qbGrfg("G19",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 3/4 6611 PBHAGELFVQR QE Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000162",
-        "PU:QHGL..",
         "ZNC:Dhnq 3/4",
-        "NQQE:6611 PBHAGELFVQR QE",
+        "NQQE:7982 VFYNAQ EQ",
         "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Fzryy bs Tnf, Fzbxr",
-        "VQ:2015-00000162");
+        "PNYY:Zrqvpny - Bgure",
+        "VQ:2016-00010235");
 
-    qbGrfg("G20",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 1/3 6630 FUNQL BNX EQ JBBQQNYR PUHEPURqra Cenvevr Zrqvpny - Pneqvnp 2015-00003844",
-        "PU:QHGL...",
-        "ZNC:Dhnq 1/3",
-        "NQQE:6630 FUNQL BNX EQ",
-        "CYNPR:JBBQQNYR PUHEPU",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Pneqvnp",
-        "VQ:2015-00003844");
-
-    qbGrfg("G21",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 3/4 J  78GU FG RQRA CENVEVR EQ Rqra Cenvevr Penfu ZI Vawhel 2015-00003838",
-        "PU:QHGL",
+    qbGrfg("G51",
+        "{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 3/4 J  78GU FG RQRA CENVEVR EQ Rqra Cenvevr Penfu ZI Vawhel 2016-00010231",
+        "PU:QHGL.",
         "ZNC:Dhnq 3/4",
         "NQQE:J 78GU FG",
         "CYNPR:RQRA CENVEVR EQ",
         "PVGL:Rqra Cenvevr",
         "PNYY:Penfu ZI Vawhel",
-        "VQ:2015-00003838");
-
-    qbGrfg("G22",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 1/4 15306 ZNFBAF CG Rqra Cenvevr Zrqvpny - Bgure 2015-00000159",
-        "PU:QHGL.",
-        "ZNC:Dhnq 1/4",
-        "NQQE:15306 ZNFBAF CG",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00000159");
-
-    qbGrfg("G23",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 1/4 15705 PBEENY YA Rqra Cenvevr Zrqvpny - Pneqvnp 2015-00003766",
-        "PU:QHGL..",
-        "ZNC:Dhnq 1/4",
-        "NQQE:15705 PBEENY YA",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Pneqvnp",
-        "VQ:2015-00003766");
-
-    qbGrfg("G24",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 548 CENVEVR PRAGRE QE Arj Ubevmba Puvyq Pner - 548 CENVEVR PRAGRE QERqra Cenvevr Nynez - Sver 2015-00000157",
-        "PU:QHGL...",
-        "ZNC:Dhnq 2/1",
-        "NQQE:548 CENVEVR PRAGRE QE",
-        "CYNPR:Arj Ubevmba Puvyq Pner - 548 CENVEVR PRAGRE QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000157");
-
-    qbGrfg("G25",
-        "(Qvfcngpu Vasbezngvba) PU5  Zvaargbaxn 5215 PERFGJBBQ QE Zvaargbaxn SVER - QHGL PERJ 2015-00000156",
-        "PU:PU5",
-        "ZNC:Zvaargbaxn",
-        "NQQE:5215 PERFGJBBQ QE",
-        "PVGL:Zvaargbaxn",
-        "PNYY:SVER - QHGL PERJ",
-        "VQ:2015-00000156");
-
-    qbGrfg("G26",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 1/2 830 CENVEVR PRAGRE QE Snveivrj Rqra Pragre PyvavpRqra Cenvevr Zrqvpny - Pneqvnp 2015-00003635",
-        "PU:QHGL.",
-        "ZNC:Dhnq 1/2",
-        "NQQE:830 CENVEVR PRAGRE QE",
-        "CYNPR:Snveivrj Rqra Pragre Pyvavp",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Pneqvnp",
-        "VQ:2015-00003635");
-
-    qbGrfg("G27",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 2/1 11325 IVXVAT QE SNVESVRYQRqra Cenvevr Fghpx va Ryringbe 2015-00000154",
-        "PU:QHGL..",
-        "ZNC:Dhnq 2/1",
-        "NQQE:11325 IVXVAT QE",
-        "CYNPR:SNVESVRYQ",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Fghpx va Ryringbe",
-        "VQ:2015-00000154");
-
-    qbGrfg("G28",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 1/2 13625 GRPUABYBTL QE BCGHZ URNYGUPNERRqra Cenvevr Nynez - Sver 2015-00000153",
-        "PU:QHGL...",
-        "ZNC:Dhnq 1/2",
-        "NQQE:13625 GRPUABYBTL QE",
-        "CYNPR:BCGHZ URNYGUPNER",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000153");
-
-    qbGrfg("G29",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 1/3 6429 PVGL JRFG CXJL Cnex ng Pvgl Jrfg - 6429 PVGL JRFG CXJLRqra Cenvevr Nynez - Jngresybj 2015-00000151",
-        "PU:QHGL..",
-        "ZNC:Dhnq 1/3",
-        "NQQE:6429 PVGL JRFG CXJL",
-        "CYNPR:Cnex ng Pvgl Jrfg - 6429 PVGL JRFG CXJL",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Jngresybj",
-        "VQ:2015-00000151");
-
-    qbGrfg("G30",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 2/1 431 CENVEVR PRAGRE QE Gur Pbybal - 431 CENVEVR PRAGRE QERqra Cenvevr Nynez - Sver 2015-00000150",
-        "PU:QHGL",
-        "ZNC:Dhnq 2/1",
-        "NQQE:431 CENVEVR PRAGRE QE",
-        "CYNPR:Gur Pbybal - 431 CENVEVR PRAGRE QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000150");
-
-    qbGrfg("G31",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 11995 FVATYRGERR YA 120 BEGUBYBTL - 11995 FVATYRGERR YA 120Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000149",
-        "PU:QHGL...",
-        "ZNC:Dhnq 2/1",
-        "NQQE:11995 FVATYRGERR YA",
-        "NCG:120",
-        "CYNPR:BEGUBYBTL - 11995 FVATYRGERR YA 120",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Fzryy bs Tnf, Fzbxr",
-        "VQ:2015-00000149");
-
-    qbGrfg("G32",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 2/1 9840 UBZRJNEQ UVYYF EQ Rqra Cenvevr Zrqvpny - Bgure 2015-00003483",
-        "PU:QHGL.",
-        "ZNC:Dhnq 2/1",
-        "NQQE:9840 UBZRJNEQ UVYYF EQ",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00003483");
-
-    qbGrfg("G33",
-        "(Qvfcngpu Vasbezngvba) SV4  Dhnq 1/2 13000 GRPUABYBTL QE FNAGBEVAVRqra Cenvevr Nynez - Sver 2015-00003457",
-        "PU:SV4",
-        "ZNC:Dhnq 1/2",
-        "NQQE:13000 GRPUABYBTL QE",
-        "CYNPR:FNAGBEVAV",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00003457");
-
-    qbGrfg("G34",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 3/4 7285 UHAGREF EHA Rqra Cenvevr Sver - Zvfp 2015-00000146",
-        "PU:QHGL..",
-        "ZNC:Dhnq 3/4",
-        "NQQE:7285 UHAGREF EHA",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Zvfp",
-        "VQ:2015-00000146");
-
-    qbGrfg("G35",
-        "(Qvfcngpu Vasbezngvba) R11  Dhnq 2/1 12100 CVBARRE GEY CNK PUEVFGVRqra Cenvevr Zrqvpny - Bgure 2015-00003390",
-        "PU:R11",
-        "ZNC:Dhnq 2/1",
-        "NQQE:12100 CVBARRE GEY",
-        "CYNPR:CNK PUEVFGV",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00003390");
-
-    qbGrfg("G36",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 3/4 17416 CNIRYXN QE Rqra Cenvevr Nynez - PB j/Flzcgbzf 2015-00003387",
-        "PU:QHGL",
-        "ZNC:Dhnq 3/4",
-        "NQQE:17416 CNIRYXN QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - PB j/ Flzcgbzf",
-        "VQ:2015-00003387");
-
-    qbGrfg("G37",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 3/4 7198 QRYY EQ FBPF Ubzr - 7198 QRYY EQRqra Cenvevr Nynez - Sver 2015-00000143",
-        "PU:QHGL...",
-        "ZNC:Dhnq 3/4",
-        "NQQE:7198 QRYY EQ",
-        "CYNPR:FBPF Ubzr - 7198 QRYY EQ",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000143");
-
-    qbGrfg("G38",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 2/1 9200 GNYHF PVE Rqra Cenvevr Zrqvpny - Bgure 2015-00003354",
-        "PU:QHGL",
-        "ZNC:Dhnq 2/1",
-        "NQQE:9200 GNYHF PVE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00003354");
-
-    qbGrfg("G39",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 1/3 7475 SYLVAT PYBHQ QE OyhssfRqra Cenvevr Nynez - Sver 2015-00000141",
-        "PU:QHGL.",
-        "ZNC:Dhnq 1/3",
-        "NQQE:7475 SYLVAT PYBHQ QE",
-        "CYNPR:Oyhssf",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000141");
-
-    qbGrfg("G40",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 1/3 7475 SYLVAT PYBHQ QE OyhssfRqra Cenvevr Nynez - Sver 2015-00000140",
-        "PU:QHGL..",
-        "ZNC:Dhnq 1/3",
-        "NQQE:7475 SYLVAT PYBHQ QE",
-        "CYNPR:Oyhssf",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000140");
-
-    qbGrfg("G41",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 11997 FVATYRGERR YA Xban TevyyRqra Cenvevr Nynez - Jngresybj 2015-00000139",
-        "PU:QHGL...",
-        "ZNC:Dhnq 2/1",
-        "NQQE:11997 FVATYRGERR YA",
-        "CYNPR:Xban Tevyy",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Jngresybj",
-        "VQ:2015-00000139");
-
-    qbGrfg("G42",
-        "(Qvfcngpu Vasbezngvba)  Dhnq 1/3 HF UVTUJNL 212 FUNQL BNX EQ Rqra Cenvevr NBN - Sver 2015-00003309",
-        "ZNC:Dhnq 1/3",
-        "NQQE:HF UVTUJNL 212",
-        "ZNQQE:HF 212",
-        "CYNPR:FUNQL BNX EQ",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:NBN - Sver",
-        "VQ:2015-00003309");
-
-    qbGrfg("G43",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 2/1 11325 IVXVAT QE SnvesvryqRqra Cenvevr Nynez - Jngresybj 2015-00000137",
-        "PU:QHGL.",
-        "ZNC:Dhnq 2/1",
-        "NQQE:11325 IVXVAT QE",
-        "CYNPR:Snvesvryq",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Jngresybj",
-        "VQ:2015-00000137");
-
-    qbGrfg("G44",
-        "(Qvfcngpu Vasbezngvba)  Dhnq 2/1 8740 QNEARY EQ Rqra Cenvevr Zrqvpny - Pneqvnp 2015-00003296",
-        "ZNC:Dhnq 2/1",
-        "NQQE:8740 QNEARY EQ",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Pneqvnp",
-        "VQ:2015-00003296");
-
-    qbGrfg("G45",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 2/1 8740 QNEARY EQ Rqra Cenvevr Zrqvpny - Bgure 2015-00003296",
-        "PU:QHGL",
-        "ZNC:Dhnq 2/1",
-        "NQQE:8740 QNEARY EQ",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00003296");
-
-    qbGrfg("G46",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 1/2 12619 INYYRL IVRJ EQ Ubyvqnl Tnf Fgngvba - 12619 INYYRL IVRJ EQRqra Cenvevr Sver - Zvfp 2015-00000135",
-        "PU:QHGL..",
-        "ZNC:Dhnq 1/2",
-        "NQQE:12619 INYYRL IVRJ EQ",
-        "CYNPR:Ubyvqnl Tnf Fgngvba - 12619 INYYRL IVRJ EQ",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Zvfp",
-        "VQ:2015-00000135");
-
-    qbGrfg("G47",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 11800 FUNAABA PG Rqra Pbzzbaf - 11800 FUNAABARqra Cenvevr Nynez - Sver 2015-00000133",
-        "PU:QHGL...",
-        "ZNC:Dhnq 2/1",
-        "NQQE:11800 FUNAABA PG",
-        "CYNPR:Rqra Pbzzbaf - 11800 FUNAABA",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000133");
-
-    qbGrfg("G48",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 3/4 16700 INYYRL IVRJ EQ Pbzzhavgl PragreRqra Cenvevr Zrqvpny - Bgure 2015-00003103",
-        "PU:QHGL",
-        "ZNC:Dhnq 3/4",
-        "NQQE:16700 INYYRL IVRJ EQ",
-        "CYNPR:Pbzzhavgl Pragre",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00003103");
-
-    qbGrfg("G49",
-        "(Qvfcngpu Vasbezngvba) PU5  Dhnq 2/1 11100 NAQREFBA YNXRF CXJL Cerfreir CynprRqra Cenvevr Nynez - Sver 2015-00000130",
-        "PU:PU5",
-        "ZNC:Dhnq 2/1",
-        "NQQE:11100 NAQREFBA YNXRF CXJL",
-        "CYNPR:Cerfreir Cynpr",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000130");
-
-    qbGrfg("G50",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 2/1 11100 NAQREFBA YNXRF CXJL Cerfreir CynprRqra Cenvevr Nynez - Sver 2015-00003101",
-        "PU:QHGL..",
-        "ZNC:Dhnq 2/1",
-        "NQQE:11100 NAQREFBA YNXRF CXJL",
-        "CYNPR:Cerfreir Cynpr",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00003101");
-
-    qbGrfg("G51",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 431 CENVEVR PRAGRE QE Gur Pbybal - 431 CENVEVR PRAGRE QERqra Cenvevr Nynez - Sver 2015-00000128",
-        "PU:QHGL...",
-        "ZNC:Dhnq 2/1",
-        "NQQE:431 CENVEVR PRAGRE QE",
-        "CYNPR:Gur Pbybal - 431 CENVEVR PRAGRE QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000128");
+        "VQ:2016-00010231");
 
     qbGrfg("G52",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 1/2 12615 INYYRL IVRJ EQ ZVYVB'F - 12615 INYYRL IVRJ EQRqra Cenvevr Vaqhfgevny Nppvqrag 2015-00003082",
-        "PU:QHGL.",
-        "ZNC:Dhnq 1/2",
-        "NQQE:12615 INYYRL IVRJ EQ",
-        "CYNPR:ZVYVB'F - 12615 INYYRL IVRJ EQ",
+        "{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 1/3 VAGREFGNGR 494 FGNGR UVTUJNL 62 Rqra Cenvevr Sver - Iruvpyr 2016-00010224",
+        "PU:QHGL..",
+        "ZNC:Dhnq 1/3",
+        "NQQE:VAGREFGNGR 494",
+        "CYNPR:FGNGR UVTUJNL 62",
         "PVGL:Rqra Cenvevr",
-        "PNYY:Vaqhfgevny Nppvqrag",
-        "VQ:2015-00003082");
+        "PNYY:Sver - Iruvpyr",
+        "VQ:2016-00010224");
 
     qbGrfg("G53",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 4/1 18353 SEBAGVRE CY Rqra Cenvevr Zrqvpny - Pneqvnp 2015-00003045",
-        "PU:QHGL",
+        "{Qvfcngpu Vasbezngvba} R31  Dhnq 4/1 17448 XVYQNER JNL Rqra Cenvevr Zrqvpny - Bgure 2016-00010199",
+        "PU:R31",
         "ZNC:Dhnq 4/1",
-        "NQQE:18353 SEBAGVRE CY",
+        "NQQE:17448 XVYQNER JNL",
         "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Pneqvnp",
-        "VQ:2015-00003045");
+        "PNYY:Zrqvpny - Bgure",
+        "VQ:2016-00010199");
 
     qbGrfg("G54",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 4/1 17648 ONYYNAGENR PVE Rqra Cenvevr Nynez - Sver 2015-00000123",
-        "PU:QHGL",
-        "ZNC:Dhnq 4/1",
-        "NQQE:17648 ONYYNAGENR PVE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000123");
-
-    qbGrfg("G55",
-        "(Qvfcngpu Vasbezngvba) R41  Dhnq 3/4 16396 JNTARE JNL GNIREA 4NAQ5Rqra Cenvevr Zrqvpny - Bgure 2015-00003010",
-        "PU:R41",
-        "ZNC:Dhnq 3/4",
-        "NQQE:16396 JNTARE JNL",
-        "CYNPR:GNIREA 4NAQ5",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00003010");
-
-    qbGrfg("G56",
-        "(Qvfcngpu Vasbezngvba) QHGL.. BF3 OBK1  Dhnq 2/1 10659 FBABZN EQT Rqra Cenvevr Sver - Tenff 2015-00000121",
-        "PU:QHGL.. BF3 OBK1",
-        "ZNC:Dhnq 2/1",
-        "NQQE:10659 FBABZN EQT",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Tenff",
-        "VQ:2015-00000121");
-
-    qbGrfg("G57",
-        "(Qvfcngpu Vasbezngvba)  Dhnq 2/1 8501 SYLVAT PYBHQ QE Fhzzvg Cynpr Fravbe Zrzbel - 8501 SYLVAT PYBHQ QERqra Cenvevr Zrqvpny - Bgure 2015-00000120",
-        "ZNC:Dhnq 2/1",
-        "NQQE:8501 SYLVAT PYBHQ QE",
-        "CYNPR:Fhzzvg Cynpr Fravbe Zrzbel - 8501 SYLVAT PYBHQ QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00000120");
-
-    qbGrfg("G58",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 4/1 8995 NIVYN PI Rqra Cenvevr Nynez - Sver 2015-00000119",
-        "PU:QHGL.",
-        "ZNC:Dhnq 4/1",
-        "NQQE:8995 NIVYN PI",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000119");
-
-    qbGrfg("G59",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 2/1 11800 FUNAABA PG Rqra Pbzzbaf - 11800 FUNAABARqra Cenvevr Nynez - Sver 2015-00000118",
-        "PU:QHGL",
-        "ZNC:Dhnq 2/1",
-        "NQQE:11800 FUNAABA PG",
-        "CYNPR:Rqra Pbzzbaf - 11800 FUNAABA",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000118");
-
-    qbGrfg("G60",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 1/2 8842 UNJGUBEAR QE Rqra Cenvevr Zrqvpny - Bgure 2015-00002866",
-        "PU:QHGL..",
-        "ZNC:Dhnq 1/2",
-        "NQQE:8842 UNJGUBEAR QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00002866");
-
-    qbGrfg("G61",
-        "(Qvfcngpu Vasbezngvba) TRARENY  Dhnq 1/4 8080 ZVGPURYY EQ Rqra Cenvevr SVER - TRARENY",
-        "PU:TRARENY",
-        "ZNC:Dhnq 1/4",
-        "NQQE:8080 ZVGPURYY EQ",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:SVER - TRARENY");
-
-    qbGrfg("G62",
-        "(Qvfcngpu Vasbezngvba)  Dhnq 1/2 CYNMN QE CENVEVR PRAGRE QE Rqra Cenvevr Penfu ZI Vawhel 2015-00002826",
-        "ZNC:Dhnq 1/2",
-        "NQQE:CYNMN QE",
-        "CYNPR:CENVEVR PRAGRE QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Penfu ZI Vawhel",
-        "VQ:2015-00002826");
-
-    qbGrfg("G63",
-        "(Qvfcngpu Vasbezngvba)  Dhnq 1/2 935 CENVEVR PRAGRE QE JRYYF SNETB ONAXRqra Cenvevr Penfu ZI Vawhel 2015-00002826",
-        "ZNC:Dhnq 1/2",
-        "NQQE:935 CENVEVR PRAGRE QE",
-        "CYNPR:JRYYF SNETB ONAX",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Penfu ZI Vawhel",
-        "VQ:2015-00002826");
-
-    qbGrfg("G64",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 1/2 CENVEVR PRAGRE QE CYNMN QE Rqra Cenvevr Penfu ZI Vawhel 2015-00002826",
-        "PU:QHGL...",
-        "ZNC:Dhnq 1/2",
-        "NQQE:CENVEVR PRAGRE QE",
-        "CYNPR:CYNMN QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Penfu ZI Vawhel",
-        "VQ:2015-00002826");
-
-    qbGrfg("G65",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 2/1 9685 PYBIRE PVE Rqra Cenvevr Zrqvpny - Bgure 2015-00002795",
-        "PU:QHGL.",
-        "ZNC:Dhnq 2/1",
-        "NQQE:9685 PYBIRE PVE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00002795");
-
-    qbGrfg("G66",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 2/1 8505 SYLVAT PYBHQ QE Fhzzvg Cynpr Fravbe Yvivat - 8505 SYLVAT PYBHQ QERqra Cenvevr Zrqvpny - Pneqvnp 2015-00002742",
-        "PU:QHGL",
-        "ZNC:Dhnq 2/1",
-        "NQQE:8505 SYLVAT PYBHQ QE",
-        "CYNPR:Fhzzvg Cynpr Fravbe Yvivat - 8505 SYLVAT PYBHQ QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Pneqvnp",
-        "VQ:2015-00002742");
-
-    qbGrfg("G67",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 2/1 11625 JVYQRE QE Rqra Pbzzbaf - 11625 JVYQRERqra Cenvevr Nynez - Sver 2015-00000113",
-        "PU:QHGL..",
-        "ZNC:Dhnq 2/1",
-        "NQQE:11625 JVYQRE QE",
-        "CYNPR:Rqra Pbzzbaf - 11625 JVYQRE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000113");
-
-    qbGrfg("G68",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 4/1 18190 QNAR QE Rqra Cenvevr Sver - Zvfp 2015-00000112",
-        "PU:QHGL...",
-        "ZNC:Dhnq 4/1",
-        "NQQE:18190 QNAR QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Zvfp",
-        "VQ:2015-00000112");
-
-    qbGrfg("G69",
-        "(Qvfcngpu Vasbezngvba)  Dhnq 3/1 6345 ORNPU EQ Vagreangvbany Fpubby Qbez OhvyqvatRqra Cenvevr Vaqhfgevny Nppvqrag 2015-00000111",
-        "ZNC:Dhnq 3/1",
-        "NQQE:6345 ORNPU EQ",
-        "CYNPR:Vagreangvbany Fpubby Qbez Ohvyqvat",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Vaqhfgevny Nppvqrag",
-        "VQ:2015-00000111");
-
-    qbGrfg("G70",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 3/1 6345 ORNPU EQ Vagreangvbany Fpubby Qbez OhvyqvatRqra Cenvevr Zrqvpny - Bgure 2015-00000111",
-        "PU:QHGL.",
-        "ZNC:Dhnq 3/1",
-        "NQQE:6345 ORNPU EQ",
-        "CYNPR:Vagreangvbany Fpubby Qbez Ohvyqvat",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00000111");
-
-    qbGrfg("G71",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 1/2 HF UVTUJNL 212 CENVEVR PRAGRE QE Rqra Cenvevr Penfu ZI Vawhel 2015-00002625",
-        "PU:QHGL",
-        "ZNC:Dhnq 1/2",
-        "NQQE:HF UVTUJNL 212",
-        "ZNQQE:HF 212",
-        "CYNPR:CENVEVR PRAGRE QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Penfu ZI Vawhel",
-        "VQ:2015-00002625");
-
-    qbGrfg("G72",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 3/4 15303 GEVYYVHZ PVE Rqra Cenvevr Sver - Zvfp 2015-00002593",
-        "PU:QHGL..",
-        "ZNC:Dhnq 3/4",
-        "NQQE:15303 GEVYYVHZ PVE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Zvfp",
-        "VQ:2015-00002593");
-
-    qbGrfg("G73",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 11095 IVXVAT QE 210 Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000108",
-        "PU:QHGL...",
-        "ZNC:Dhnq 2/1",
-        "NQQE:11095 IVXVAT QE",
-        "NCG:210",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Fzryy bs Tnf, Fzbxr",
-        "VQ:2015-00000108");
-
-    qbGrfg("G74",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 2/1 12100 CVBARRE GEY CNK PUEVFGVRqra Cenvevr Sver - Iruvpyr 2015-00000107",
-        "PU:QHGL.",
-        "ZNC:Dhnq 2/1",
-        "NQQE:12100 CVBARRE GEY",
-        "CYNPR:CNK PUEVFGV",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Iruvpyr",
-        "VQ:2015-00000107");
-
-    qbGrfg("G75",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 1/2 12001 GRPUABYBTL QE Rzrefba  - 12001 GRPUABYBTL QERqra Cenvevr Nynez - Sver 2015-00000106",
-        "PU:QHGL",
-        "ZNC:Dhnq 1/2",
-        "NQQE:12001 GRPUABYBTL QE",
-        "CYNPR:Rzrefba - 12001 GRPUABYBTL QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000106");
-
-    qbGrfg("G76",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 1/3 6429 PVGL JRFG CXJL Cnex ng Pvgl Jrfg - 6429 PVGL JRFG CXJLRqra Cenvevr Nynez - Sver 2015-00000105",
-        "PU:QHGL..",
-        "ZNC:Dhnq 1/3",
-        "NQQE:6429 PVGL JRFG CXJL",
-        "CYNPR:Cnex ng Pvgl Jrfg - 6429 PVGL JRFG CXJL",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000105");
-
-    qbGrfg("G77",
-        "(Qvfcngpu Vasbezngvba)  Dhnq 2/1 8505 SYLVAT PYBHQ QE V329 Fhzzvg Cynpr Fravbe Yvivat - 8505 SYLVAT PYBHQ QERqra Cenvevr Zrqvpny - Bgure 2015-00002467",
-        "ZNC:Dhnq 2/1",
-        "NQQE:8505 SYLVAT PYBHQ QE",
-        "CYNPR:V329 Fhzzvg Cynpr Fravbe Yvivat - 8505 SYLVAT PYBHQ QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00002467");
-
-    qbGrfg("G78",
-        "(Qvfcngpu Vasbezngvba) PU5  Dhnq 2/1 8505 SYLVAT PYBHQ QE V329 Fhzzvg Cynpr Fravbe Yvivat - 8505 SYLVAT PYBHQ QERqra Cenvevr Yvsg Nffvfg 2015-00002467",
-        "PU:PU5",
-        "ZNC:Dhnq 2/1",
-        "NQQE:8505 SYLVAT PYBHQ QE",
-        "CYNPR:V329 Fhzzvg Cynpr Fravbe Yvivat - 8505 SYLVAT PYBHQ QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Yvsg Nffvfg",
-        "VQ:2015-00002467");
-
-    qbGrfg("G79",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 2/1 12300 FVATYRGERR YA Jngre Gbjre Ncgf - 12300 FVATYRGERRRqra Cenvevr Fghpx va Ryringbe 2015-00000103",
-        "PU:QHGL.",
-        "ZNC:Dhnq 2/1",
-        "NQQE:12300 FVATYRGERR YA",
-        "CYNPR:Jngre Gbjre Ncgf - 12300 FVATYRGERR",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Fghpx va Ryringbe",
-        "VQ:2015-00000103");
-
-    qbGrfg("G80",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 1/4 14530 ZNEGVA QE 120 Pbzzvggrr SvyzfRqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000102",
+        "{Qvfcngpu Vasbezngvba} QHGL  Dhnq 1/4 16280 UVYYGBC EQ Rqra Cenvevr Nynez - PB Ab Flzcgbzf 2016-00000336",
         "PU:QHGL",
         "ZNC:Dhnq 1/4",
-        "NQQE:14530 ZNEGVA QE",
-        "NCG:120",
-        "CYNPR:Pbzzvggrr Svyzf",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Fzryy bs Tnf, Fzbxr",
-        "VQ:2015-00000102");
-
-    qbGrfg("G81",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 3/4 16315 JNTARE JNL Fgreyvat Cbaqf Ncgf - 16315 JNTARERqra Cenvevr Nynez - Sver 2015-00000101",
-        "PU:QHGL..",
-        "ZNC:Dhnq 3/4",
-        "NQQE:16315 JNTARE JNL",
-        "CYNPR:Fgreyvat Cbaqf Ncgf - 16315 JNTARE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000101");
-
-    qbGrfg("G82",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 11013 NAQREFBA YNXRF CXJL Tenavgr Cynpr - 11013 NYCRqra Cenvevr Nynez - Sver 2015-00000100",
-        "PU:QHGL...",
-        "ZNC:Dhnq 2/1",
-        "NQQE:11013 NAQREFBA YNXRF CXJL",
-        "CYNPR:Tenavgr Cynpr - 11013 NYC",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000100");
-
-    qbGrfg("G83",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 1/3 13720 WRAAVSRE PG Rqra Cenvevr Zrqvpny - Bgure 2015-00002293",
-        "PU:QHGL.",
-        "ZNC:Dhnq 1/3",
-        "NQQE:13720 WRAAVSRE PG",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00002293");
-
-    qbGrfg("G84",
-        "(Qvfcngpu Vasbezngvba)  Dhnq 3/4 18708 ANGHER YA Rqra Cenvevr Zrqvpny - Pneqvnp 2015-00002289",
-        "ZNC:Dhnq 3/4",
-        "NQQE:18708 ANGHER YA",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Pneqvnp",
-        "VQ:2015-00002289");
-
-    qbGrfg("G85",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 3/4 18708 ANGHER YA Rqra Cenvevr Zrqvpny - Bgure 2015-00002289",
-        "PU:QHGL",
-        "ZNC:Dhnq 3/4",
-        "NQQE:18708 ANGHER YA",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00002289");
-
-    qbGrfg("G86",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 2/1 9673 UNZCFUVER YA Rqra Cenvevr Zrqvpny - Bgure 2015-00002262",
-        "PU:QHGL..",
-        "ZNC:Dhnq 2/1",
-        "NQQE:9673 UNZCFUVER YA",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00002262");
-
-    qbGrfg("G87",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 8564 ZNTABYVN GEY Sbhagnva Cynpr - 8564 ZNTABYVNRqra Cenvevr Nynez - Sver 2015-00000096",
-        "PU:QHGL...",
-        "ZNC:Dhnq 2/1",
-        "NQQE:8564 ZNTABYVN GEY",
-        "CYNPR:Sbhagnva Cynpr - 8564 ZNTABYVN",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000096");
-
-    qbGrfg("G88",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 2/1 8580 ZNTABYVN GEY 406 Sbhagnva Cynpr - 8580 ZNTABYVNRqra Cenvevr Zrqvpny - Pneqvnp 2015-00002115",
-        "PU:QHGL.",
-        "ZNC:Dhnq 2/1",
-        "NQQE:8580 ZNTABYVN GEY",
-        "NCG:406",
-        "CYNPR:Sbhagnva Cynpr - 8580 ZNTABYVN",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Pneqvnp",
-        "VQ:2015-00002115");
-
-    qbGrfg("G89",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 2/1 9929 JVAQFBE GRE Rqra Cenvevr Nynez - Sver 2015-00000094",
-        "PU:QHGL",
-        "ZNC:Dhnq 2/1",
-        "NQQE:9929 JVAQFBE GRE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Nynez - Sver",
-        "VQ:2015-00000094");
-
-    qbGrfg("G90",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 1/2 HF UVTUJNL 212 CENVEVR PRAGRE QE Rqra Cenvevr Penfu ZI Vawhel 2015-00002067",
-        "PU:QHGL..",
-        "ZNC:Dhnq 1/2",
-        "NQQE:HF UVTUJNL 212",
-        "ZNQQE:HF 212",
-        "CYNPR:CENVEVR PRAGRE QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Penfu ZI Vawhel",
-        "VQ:2015-00002067");
-
-    qbGrfg("G91",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 3/4 16345 J  78GU FG OHETRE XVAT - 16345 J 78GU FGRqra Cenvevr Penfu ZI Vawhel 2015-00002062",
-        "PU:QHGL...",
-        "ZNC:Dhnq 3/4",
-        "NQQE:16345 J 78GU FG",
-        "CYNPR:OHETRE XVAT - 16345 J 78GU FG",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Penfu ZI Vawhel",
-        "VQ:2015-00002062");
-
-    qbGrfg("G92",
-        "(Qvfcngpu Vasbezngvba) QHGL.  Dhnq 3/1 15021 FHZZREUVYY QE Rqra Cenvevr Sver - Iruvpyr 2015-00000091",
-        "PU:QHGL.",
-        "ZNC:Dhnq 3/1",
-        "NQQE:15021 FHZZREUVYY QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Iruvpyr",
-        "VQ:2015-00000091");
-
-    qbGrfg("G93",
-        "(Qvfcngpu Vasbezngvba) QHGL  Dhnq 2/1 429 CENVEVR PRAGRE QE 112 Gur Pbybal - Eruno Havg - 429 CENVEVR PRAGRE QERqra Cenvevr Zrqvpny - Bgure 2015-00002032",
-        "PU:QHGL",
-        "ZNC:Dhnq 2/1",
-        "NQQE:429 CENVEVR PRAGRE QE",
-        "NCG:112",
-        "CYNPR:Gur Pbybal - Eruno Havg - 429 CENVEVR PRAGRE QE",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00002032");
-
-    qbGrfg("G94",
-        "(Qvfcngpu Vasbezngvba)  Dhnq 2/1 8751 CERFREIR OYIQ Cvbarre RfgngrfRqra Cenvevr Qrngu Vairfgvtngvba 2015-00001993",
-        "ZNC:Dhnq 2/1",
-        "NQQE:8751 CERFREIR OYIQ",
-        "CYNPR:Cvbarre Rfgngrf",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Qrngu Vairfgvtngvba",
-        "VQ:2015-00001993");
-
-    qbGrfg("G95",
-        "(Qvfcngpu Vasbezngvba) QHGL..  Dhnq 2/1 8751 CERFREIR OYIQ Cvbarre RfgngrfRqra Cenvevr Zrqvpny - Bgure 2015-00001993",
-        "PU:QHGL..",
-        "ZNC:Dhnq 2/1",
-        "NQQE:8751 CERFREIR OYIQ",
-        "CYNPR:Cvbarre Rfgngrf",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Zrqvpny - Bgure",
-        "VQ:2015-00001993");
-
-    qbGrfg("G96",
-        "(Qvfcngpu Vasbezngvba) QHGL...  Dhnq 2/1 9021 FPNEYRG TYBOR QE Rqra Cenvevr Nynez - PB Ab Flzcgbzf 2015-00000088",
-        "PU:QHGL...",
-        "ZNC:Dhnq 2/1",
-        "NQQE:9021 FPNEYRG TYBOR QE",
+        "NQQE:16280 UVYYGBC EQ",
         "PVGL:Rqra Cenvevr",
         "PNYY:Nynez - PB Ab Flzcgbzf",
-        "VQ:2015-00000088");
+        "VQ:2016-00000336");
 
-    qbGrfg("G97",
-        "(Qvfcngpu Vasbezngvba)  Dhnq 2/1 10331 ONYFNZ YA Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000087",
+    qbGrfg("G55",
+        "{Qvfcngpu Vasbezngvba} R21  Dhnq 2/1 9685 UNZCFUVER YA Rqra Cenvevr Zrqvpny - Bgure 2016-00010020",
+        "PU:R21",
         "ZNC:Dhnq 2/1",
-        "NQQE:10331 ONYFNZ YA",
+        "NQQE:9685 UNZCFUVER YA",
         "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Fzryy bs Tnf, Fzbxr",
-        "VQ:2015-00000087");
+        "PNYY:Zrqvpny - Bgure",
+        "VQ:2016-00010020");
 
-    qbGrfg("G98",
-        "(Qvfcngpu Vasbezngvba)  Dhnq 2/1 10331 WHAVCRE YA Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000087",
+    qbGrfg("G56",
+        "{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 2/1 8090 RQRA EQ Yvapbya Cnep 8090 Rqra Cenvevr Nynez - Sver 2016-00000332",
+        "PU:QHGL...",
         "ZNC:Dhnq 2/1",
-        "NQQE:10331 WHAVCRE YA",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Fzryy bs Tnf, Fzbxr",
-        "VQ:2015-00000087");
-
-    qbGrfg("G99",
-        "(Qvfcngpu Vasbezngvba) PU5  Dhnq 2/1 WHAVCRE YA ONYFNZ YA Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2015-00000087",
-        "PU:PU5",
-        "ZNC:Dhnq 2/1",
-        "NQQE:WHAVCRE YA",
-        "CYNPR:ONYFNZ YA",
-        "PVGL:Rqra Cenvevr",
-        "PNYY:Sver - Fzryy bs Tnf, Fzbxr",
-        "VQ:2015-00000087");
-
-    qbGrfg("G100",
-        "(Qvfcngpu Vasbezngvba) PU5  Dhnq 2/1 12310 FVATYRGERR YA Jngre Gbjre Ncgf - 12310 FVATYRGERRRqra Cenvevr Nynez - Sver 2015-00000086",
-        "PU:PU5",
-        "ZNC:Dhnq 2/1",
-        "NQQE:12310 FVATYRGERR YA",
-        "CYNPR:Jngre Gbjre Ncgf - 12310 FVATYRGERR",
+        "NQQE:8090 RQRA EQ",
+        "CYNPR:Yvapbya Cnep 8090",
         "PVGL:Rqra Cenvevr",
         "PNYY:Nynez - Sver",
-        "VQ:2015-00000086");
+        "VQ:2016-00000332");
+
+    qbGrfg("G57",
+        "{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 3/4 16355 JNTARE JNL Fgreyvat Cbaqf Ncgf - 16355 JNTARE Rqra Cenvevr Nynez - Sver 2016-00000330",
+        "PU:QHGL.",
+        "ZNC:Dhnq 3/4",
+        "NQQE:16355 JNTARE JNL",
+        "CYNPR:Fgreyvat Cbaqf Ncgf - 16355 JNTARE",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000330");
+
+    qbGrfg("G58",
+        "{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 2/1 10785 INYYRL IVRJ EQ 308 ERNY YVSR PB-BC Rqra Cenvevr Zrqvpny - Bgure 2016-00009893",
+        "PU:QHGL..",
+        "ZNC:Dhnq 2/1",
+        "NQQE:10785 INYYRL IVRJ EQ",
+        "NCG:308",
+        "CYNPR:ERNY YVSR PB-BC",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Bgure",
+        "VQ:2016-00009893");
+
+    qbGrfg("G59",
+        "{Qvfcngpu Vasbezngvba} D11  Dhnq 2/1 10389 FUREZNA QE Rqra Cenvevr Zrqvpny - Bgure 2016-00009865",
+        "PU:D11",
+        "ZNC:Dhnq 2/1",
+        "NQQE:10389 FUREZNA QE",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Bgure",
+        "VQ:2016-00009865");
+
+    qbGrfg("G60",
+        "{Qvfcngpu Vasbezngvba} PU5  Dhnq 3/4 18246 PBARSYBJRE YA Rqra Cenvevr Pbzzhavgl RZG 2016-00000327",
+        "PU:PU5",
+        "ZNC:Dhnq 3/4",
+        "NQQE:18246 PBARSYBJRE YA",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Pbzzhavgl RZG",
+        "VQ:2016-00000327");
+
+    qbGrfg("G61",
+        "{Qvfcngpu Vasbezngvba} QHGL  Dhnq 2/1 11160 NAQREFBA YNXRF CXJL 201 Cerfreir Pbaqbzvavhzf Rqra Cenvevr Zrqvpny - Pneqvnp 2016-00000326",
+        "PU:QHGL",
+        "ZNC:Dhnq 2/1",
+        "NQQE:11160 NAQREFBA YNXRF CXJL",
+        "NCG:201",
+        "CYNPR:Cerfreir Pbaqbzvavhzf",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Pneqvnp",
+        "VQ:2016-00000326");
+
+    qbGrfg("G62",
+        "{Qvfcngpu Vasbezngvba}  Dhnq 3/4 J  78GU FG RQRA CENVEVR EQ Rqra Cenvevr Penfu ZI Vawhel 2016-00009726",
+        "PU:Dhnq 3/4 J",
+        "NQQE:78GU FG",
+        "CYNPR:RQRA CENVEVR EQ",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Penfu ZI Vawhel",
+        "VQ:2016-00009726");
+
+    qbGrfg("G63",
+        "{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 3/4 RQRA CENVEVR EQ J  78GU FG Rqra Cenvevr Penfu ZI Vawhel 2016-00009726",
+        "PU:QHGL...",
+        "ZNC:Dhnq 3/4",
+        "NQQE:RQRA CENVEVR EQ J",
+        "NCG:78GU",
+        "CYNPR:FG",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Penfu ZI Vawhel",
+        "VQ:2016-00009726");
+
+    qbGrfg("G64",
+        "{Qvfcngpu Vasbezngvba} R41 ST3  Dhnq 3/4 16355 JNTARE JNL 203 Fgreyvat Cbaqf Ncgf - 16355 JNTARE Rqra Cenvevr Zrqvpny - Bgure 2016-00009722",
+        "PU:R41 ST3",
+        "ZNC:Dhnq 3/4",
+        "NQQE:16355 JNTARE JNL",
+        "NCG:203",
+        "CYNPR:Fgreyvat Cbaqf Ncgf - 16355 JNTARE",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Bgure",
+        "VQ:2016-00009722");
+
+    qbGrfg("G65",
+        "{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 1/4 9301 RQRA CENVEVR EQ Tenpr Puhepu Rqra Cenvevr Nynez - Jngresybj 2016-00000323",
+        "PU:QHGL.",
+        "ZNC:Dhnq 1/4",
+        "NQQE:9301 RQRA CENVEVR EQ",
+        "CYNPR:Tenpr Puhepu",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Jngresybj",
+        "VQ:2016-00000323");
+
+    qbGrfg("G66",
+        "{Qvfcngpu Vasbezngvba} PU5  Dhnq 3/4 16180 JRFGTNGR GEY Rqra Cenvevr Yvsg Nffvfg 2016-00009647",
+        "PU:PU5",
+        "ZNC:Dhnq 3/4",
+        "NQQE:16180 JRFGTNGR GEY",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00009647");
+
+    qbGrfg("G67",
+        "{Qvfcngpu Vasbezngvba} E31  14550 ZVAARGBAXN OYIQ Zvaargbaxn NBN - Sver 2016-00000320",
+        "PU:E31",
+        "NQQE:14550 ZVAARGBAXN OYIQ",
+        "PVGL:Zvaargbaxn",
+        "PNYY:NBN - Sver",
+        "VQ:2016-00000320");
+
+    qbGrfg("G68",
+        "{Qvfcngpu Vasbezngvba}  Zvaargbaxn 1555 YVAARE Zvaargbaxn NBN - Sver",
+        "ZNC:Zvaargbaxn",
+        "NQQE:1555 YVAARE",
+        "PVGL:Zvaargbaxn",
+        "PNYY:NBN - Sver");
+
+    qbGrfg("G70",
+        "{Qvfcngpu Vasbezngvba}  Zvaargbaxn 1555 YVAARE EQ Zvaargbaxn NBN - Sver",
+        "ZNC:Zvaargbaxn",
+        "NQQE:1555 YVAARE EQ",
+        "PVGL:Zvaargbaxn",
+        "PNYY:NBN - Sver");
+
+    qbGrfg("G71",
+        "{Qvfcngpu Vasbezngvba} PU1  14550 ZVAARGBAXN OYIQ Zvaargbaxn NBN - Sver 2016-00000320",
+        "PU:PU1",
+        "NQQE:14550 ZVAARGBAXN OYIQ",
+        "PVGL:Zvaargbaxn",
+        "PNYY:NBN - Sver",
+        "VQ:2016-00000320");
+
+    qbGrfg("G72",
+        "{Qvfcngpu Vasbezngvba} PU5  Zvaargbaxn 1555 YVAARE EQ Zvaargbaxn <ARJ>",
+        "PU:PU5",
+        "ZNC:Zvaargbaxn",
+        "NQQE:1555 YVAARE EQ",
+        "PVGL:Zvaargbaxn",
+        "PNYY:<ARJ>");
+
+    qbGrfg("G73",
+        "{Qvfcngpu Vasbezngvba} QHGL  14550 ZVAARGBAXN OYIQ Zvaargbaxn NBN - Sver 2016-00000320",
+        "PU:QHGL",
+        "NQQE:14550 ZVAARGBAXN OYIQ",
+        "PVGL:Zvaargbaxn",
+        "PNYY:NBN - Sver",
+        "VQ:2016-00000320");
+
+    qbGrfg("G74",
+        "{Qvfcngpu Vasbezngvba} QHGL  Dhnq 1/2 13945 NAQREFBA YNXRF CXJL Cnexjnl Ncgf - 13945 NYC Rqra Cenvevr Fghpx va Ryringbe 2016-00000319",
+        "PU:QHGL",
+        "ZNC:Dhnq 1/2",
+        "NQQE:13945 NAQREFBA YNXRF CXJL",
+        "CYNPR:Cnexjnl Ncgf - 13945 NYC",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Fghpx va Ryringbe",
+        "VQ:2016-00000319");
+
+    qbGrfg("G75",
+        "{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 3/4 16355 JNTARE JNL 309 Fgreyvat Cbaqf Ncgf - 16355 JNTARE Rqra Cenvevr Zrqvpny - Pneqvnp 2016-00009534",
+        "PU:QHGL...",
+        "ZNC:Dhnq 3/4",
+        "NQQE:16355 JNTARE JNL",
+        "NCG:309",
+        "CYNPR:Fgreyvat Cbaqf Ncgf - 16355 JNTARE",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Pneqvnp",
+        "VQ:2016-00009534");
+
+    qbGrfg("G76",
+        "{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 1/3 7330 FPBG GRE Rqra Cenvevr Nynez - Sver 2016-00000317",
+        "PU:QHGL.",
+        "ZNC:Dhnq 1/3",
+        "NQQE:7330 FPBG GRE",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000317");
+
+    qbGrfg("G77",
+        "{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 3/4 7915 GVZORE YNXR QE Rqra Cenvevr Zrqvpny - Bgure 2016-00000316",
+        "PU:QHGL..",
+        "ZNC:Dhnq 3/4",
+        "NQQE:7915 GVZORE YNXR QE",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Bgure",
+        "VQ:2016-00000316");
+
+    qbGrfg("G78",
+        "{Qvfcngpu Vasbezngvba} QHGL  Dhnq 3/4 15620 F  RQRA QE Rqra Cenvevr Nynez - Zrqvpny Rzretrapl 2016-00009306",
+        "PU:QHGL",
+        "ZNC:Dhnq 3/4",
+        "NQQE:15620 F RQRA QE",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Zrqvpny Rzretrapl",
+        "VQ:2016-00009306");
+
+    qbGrfg("G79",
+        "{Qvfcngpu Vasbezngvba}  Dhnq 2/1 8935 CERFREIR OYIQ Rqra Cenvevr Sver - Zvfp 2016-00000314",
+        "ZNC:Dhnq 2/1",
+        "NQQE:8935 CERFREIR OYIQ",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Sver - Zvfp",
+        "VQ:2016-00000314");
+
+    qbGrfg("G80",
+        "{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 2/1 NAQREFBA YNXRF CXJL CERFREIR OYIQ Rqra Cenvevr Sver - Zvfp 2016-00000314",
+        "PU:QHGL...",
+        "ZNC:Dhnq 2/1",
+        "NQQE:NAQREFBA YNXRF CXJL",
+        "CYNPR:CERFREIR OYIQ",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Sver - Zvfp",
+        "VQ:2016-00000314");
+
+    qbGrfg("G81",
+        "{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 2/1 8627 PBYHZOVAR EQ Rqra Cenvevr Zrqvpny - Bgure 2016-00009291",
+        "PU:QHGL..",
+        "ZNC:Dhnq 2/1",
+        "NQQE:8627 PBYHZOVAR EQ",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Bgure",
+        "VQ:2016-00009291");
+
+    qbGrfg("G82",
+        "{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 4/1 9559 ZNEFUNYY EQ Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2016-00000312",
+        "PU:QHGL.",
+        "ZNC:Dhnq 4/1",
+        "NQQE:9559 ZNEFUNYY EQ",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Sver - Fzryy bs Tnf, Fzbxr",
+        "VQ:2016-00000312");
+
+    qbGrfg("G83",
+        "{Qvfcngpu Vasbezngvba} QHGL  Dhnq 3/4 17879 RIRARE JNL Rqra Cenvevr Zrqvpny - Pneqvnp 2016-00009259",
+        "PU:QHGL",
+        "ZNC:Dhnq 3/4",
+        "NQQE:17879 RIRARE JNL",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Pneqvnp",
+        "VQ:2016-00009259");
+
+    qbGrfg("G84",
+        "{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 1/3 6233 ONXRE EQ Yvsrgvzr Onxre Rqra Cenvevr Zrqvpny - Pneqvnp 2016-00009244",
+        "PU:QHGL...",
+        "ZNC:Dhnq 1/3",
+        "NQQE:6233 ONXRE EQ",
+        "CYNPR:Yvsrgvzr Onxre",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Zrqvpny - Pneqvnp",
+        "VQ:2016-00009244");
+
+    qbGrfg("G85",
+        "{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 1/4 7665 PBZZREPR JNL Rqra Cenvevr Sver - Fzryy bs Tnf, Fzbxr 2016-00000309",
+        "PU:QHGL..",
+        "ZNC:Dhnq 1/4",
+        "NQQE:7665 PBZZREPR JNL",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Sver - Fzryy bs Tnf, Fzbxr",
+        "VQ:2016-00000309");
+
+    qbGrfg("G86",
+        "{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 2/1 11790 JVYQRE QE Rqra Pbzzbaf - 11790 JVYQRE Rqra Cenvevr Nynez - Sver 2016-00000308",
+        "PU:QHGL.",
+        "ZNC:Dhnq 2/1",
+        "NQQE:11790 JVYQRE QE",
+        "CYNPR:Rqra Pbzzbaf - 11790 JVYQRE",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000308");
+
+    qbGrfg("G87",
+        "{Qvfcngpu Vasbezngvba} R31  Dhnq 2/1 431 CENVEVR PRAGRE QE Gur Pbybal Rqra Cenvevr Nynez - Sver 2016-00000306",
+        "PU:R31",
+        "ZNC:Dhnq 2/1",
+        "NQQE:431 CENVEVR PRAGRE QE",
+        "CYNPR:Gur Pbybal",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000306");
+
+    qbGrfg("G88",
+        "{Qvfcngpu Vasbezngvba} QHGL  Dhnq 2/1 15512 YVYNP QE Rqra Cenvevr Nynez - Sver 2016-00000307",
+        "PU:QHGL",
+        "ZNC:Dhnq 2/1",
+        "NQQE:15512 YVYNP QE",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000307");
+
+    qbGrfg("G89",
+        "{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 2/1 431 CENVEVR PRAGRE QE Gur Pbybal Rqra Cenvevr Nynez - Sver 2016-00000306",
+        "PU:QHGL...",
+        "ZNC:Dhnq 2/1",
+        "NQQE:431 CENVEVR PRAGRE QE",
+        "CYNPR:Gur Pbybal",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000306");
+
+    qbGrfg("G90",
+        "{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 1/2 7427 ZVGPURYY EQ Chetngbel Perrx GU - 7427 ZVGPURYY EQ Rqra Cenvevr Sver - Zvfp 2016-00000305",
+        "PU:QHGL..",
+        "ZNC:Dhnq 1/2",
+        "NQQE:7427 ZVGPURYY EQ",
+        "CYNPR:Chetngbel Perrx GU - 7427 ZVGPURYY EQ",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Sver - Zvfp",
+        "VQ:2016-00000305");
+
+    qbGrfg("G91",
+        "{Qvfcngpu Vasbezngvba}  Dhnq 2/1 8090 RQRA EQ 126 Yvapbya Cnep 8090 Rqra Cenvevr Sver - Zvfp 2016-00000304",
+        "ZNC:Dhnq 2/1",
+        "NQQE:8090 RQRA EQ",
+        "NCG:126",
+        "CYNPR:Yvapbya Cnep 8090",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Sver - Zvfp",
+        "VQ:2016-00000304");
+
+    qbGrfg("G92",
+        "{Qvfcngpu Vasbezngvba}  Dhnq 2/1 8090 RQRA EQ Yvapbya Cnep 8090 Rqra Cenvevr Sver - Zvfp 2016-00000304",
+        "ZNC:Dhnq 2/1",
+        "NQQE:8090 RQRA EQ",
+        "CYNPR:Yvapbya Cnep 8090",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Sver - Zvfp",
+        "VQ:2016-00000304");
+
+    qbGrfg("G93",
+        "{Qvfcngpu Vasbezngvba} QHGL.  Dhnq 2/1 8090 RQRA EQ Yvapbya Cnep 8090 Rqra Cenvevr Nynez - Sver 2016-00000304",
+        "PU:QHGL.",
+        "ZNC:Dhnq 2/1",
+        "NQQE:8090 RQRA EQ",
+        "CYNPR:Yvapbya Cnep 8090",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000304");
+
+    qbGrfg("G94",
+        "{Qvfcngpu Vasbezngvba} QHGL...  Dhnq 1/3 6470 PVGL JRFG CXJL Nezoehfg Rqra Cenvevr Vaqhfgevny Nppvqrag 2016-00008992",
+        "PU:QHGL...",
+        "ZNC:Dhnq 1/3",
+        "NQQE:6470 PVGL JRFG CXJL",
+        "CYNPR:Nezoehfg",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Vaqhfgevny Nppvqrag",
+        "VQ:2016-00008992");
+
+    qbGrfg("G95",
+        "{Qvfcngpu Vasbezngvba} QHGL  Dhnq 2/1 7737 SYLVAT PYBHQ QE Fhzzvg Ubzr Pragre Rqra Cenvevr Sver - Qhzcfgre 2016-00000302",
+        "PU:QHGL",
+        "ZNC:Dhnq 2/1",
+        "NQQE:7737 SYLVAT PYBHQ QE",
+        "CYNPR:Fhzzvg Ubzr Pragre",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Sver - Qhzcfgre",
+        "VQ:2016-00000302");
+
+    qbGrfg("G96",
+        "{Qvfcngpu Vasbezngvba} QHGL..  Dhnq 1/3 6889 EBJYNAQ EQ ZNETNERG N PNETVYY SBHAQNGVBA Rqra Cenvevr Nynez - Sver 2016-00000301",
+        "PU:QHGL..",
+        "ZNC:Dhnq 1/3",
+        "NQQE:6889 EBJYNAQ EQ",
+        "CYNPR:ZNETNERG N PNETVYY SBHAQNGVBA",
+        "PVGL:Rqra Cenvevr",
+        "PNYY:Nynez - Sver",
+        "VQ:2016-00000301");
+
   }
-  
+
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj ZARqraCenvevrCnefreGrfg().trarengrGrfgf("G1");
   }
