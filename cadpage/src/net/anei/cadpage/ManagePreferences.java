@@ -40,7 +40,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 43;
+  private static final int PREFERENCE_VERSION = 44;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -93,6 +93,12 @@ public class ManagePreferences {
     // user upgrades from an earlier version of Cadpage.  None of these have
     // to be done if there was no previous version of Cadpage.
     if (oldVersion > 0) {
+      
+      // If old version < 42, fix old problem with wrong default value for 
+      if (oldVersion < 44) {
+        String value = prefs.getString(R.string.pref_enable_msg_type_key, "");
+        if (value.equals("S")) prefs.putString(R.string.pref_enable_msg_type_key, "CS");
+      }
       
       // If old version < 43 create the auto-backup check file
       if (oldVersion < 43) {

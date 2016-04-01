@@ -428,7 +428,7 @@ choyvp pynff YNJrfgSryvpvnanCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:ISVER",
         "PNYY:IRUVPYR SVER",
         "NQQE:FGNE UVYY GEPR",
-        "ZNQQE:FGNE UVYY GEPR & YA CRGVGR YA FG",
+        "ZNQQE:FGNE UVYY GEPR & YN CRGVGR YA FG",
         "K:YN CRGVGR YA FG",
         "PVGL:SENAPVFIVYYR",
         "VQ:2014-0000003795");
@@ -438,7 +438,7 @@ choyvp pynff YNJrfgSryvpvnanCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:ISVER",
         "PNYY:IRUVPYR SVER",
         "NQQE:FGNE UVYY GEPR",
-        "ZNQQE:FGNE UVYY GEPR & YA CRGVGR YA FG",
+        "ZNQQE:FGNE UVYY GEPR & YN CRGVGR YA FG",
         "K:YN CRGVGR YA FG",
         "PVGL:SENAPVFIVYYR",
         "VQ:2014-0000003795");

@@ -19,7 +19,7 @@ public class PASusquehannaCountyParser extends DispatchB2Parser {
   
   @Override
   public String getFilter() {
-    return "@susqco.alertpa.org";
+    return "@susqco.alertpa.org,777";
   }
   
   private boolean good;

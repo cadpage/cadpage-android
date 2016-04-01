@@ -101,7 +101,6 @@ choyvp pynff AZQbanNanPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:(N)FISQ",
         "VQ:FISQ2013-00285",
         "NQQE:2605 YN YHM FG",
-        "ZNQQE:2605 YA YHM FG",
         "PVGL:88007",
         "K:PVRYB PVE");
 
@@ -276,7 +275,6 @@ choyvp pynff AZQbanNanPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:(N)FISQ",
         "VQ:FISQ2013-00241",
         "NQQE:100 YN SR NIR",
-        "ZNQQE:100 YA SR NIR",
         "PVGL:88048",
         "K:CYNMN NIR/BWVGB NIR");
 

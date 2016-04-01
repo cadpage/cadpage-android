@@ -6,8 +6,17 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class ARWashingtonCountyBParser extends FieldProgramParser {
   
   public ARWashingtonCountyBParser() {
-    super("WASHINGTON COUNTY", "AR", 
+    this("WASHINGTON COUNTY", "AR");
+  }
+  
+  protected ARWashingtonCountyBParser(String defCity, String defState) {
+    super(defCity, defState,
           "CALL:CALL! PLACE:PLACE! ADDR:ADDR! APT:APT! City:CITY! TIME:TIME! CROSSSTREET:X! NOTE:INFO! LAT:GPS1! LON:GPS2!");
+  }
+  
+  @Override
+  public String getAliasCode() {
+    return "ARWashingtonCountyB";
   }
   
   @Override

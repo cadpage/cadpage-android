@@ -5,15 +5,11 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
+Fbzreivyyr Pbhagl, GKP
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fbzreiryy Pbhagl SQ
 Ybpngvba: Tyra Ebfr, GK, Havgrq Fgngrf
-Fraqre: zycerq125 <zycerq125@lnubb.pbz>
-Fraqre: obool rccf <orccf305@tznvy.pbz>
-Fraqre: Znex Penjsbeq <penjsbeq@Genvavatqvivfvba.pbz>
-Fraqre: Obool Rccf <orccf305@lnubb.pbz>
-Fraqre: Oevna Wbarf <anveowbarf@ubgznvy.pbz>
 
 3420 A SZ 200*\a*\a*\aFBZREIRYY PB*\aPBHAGL EBNQ 300*\aFGNGR UVTUJNL 144*\a*\a*\a52Y*\aABA-RZRETRAPL YVSG NFFVFGNAPR*\aZHYPNUL,GREEL*\a817-578-1420*\aFRZF*\aYvar15=2Q*\aYvar16=Zrqvpny: Ab*\aYvar17=Unmneqf: Ab*\aYvar18=*
 203 R TVOOF OYIQ*\a*\a*\aTYRA EBFR*\aGRKNF QE*\a*\a*\a*\a52N*\aRZRETRAPL RZF*\aPUREBXRR EBFR*\a254-897-7361*\aFRZF*\aYvar15=VAQC*\aYvar16=Zrqvpny: Ab*\aYvar17=Unmneqf: Ab*\aYvar18=*
