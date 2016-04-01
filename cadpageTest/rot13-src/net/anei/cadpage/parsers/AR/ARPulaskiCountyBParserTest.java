@@ -92,7 +92,7 @@ choyvp pynff NEChynfxvPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:CPFB",
         "PBQR:NPPQ",
         "PNYY:Nppvqrag Genssvp",
-        "NQQE:530ao",
+        "NQQE:530ao", //abg na nqqerff
         "ZNQQE:530",
         "PVGL:Yvggyr Ebpx",
         "FG:NE",

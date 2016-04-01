@@ -142,6 +142,7 @@
     <string name="pref_publish_pages_key">publish_pages</string>
     <string name="pref_passthrusms_key">passthrusms</string>
     <string name="pref_disclaimer_key">disclaimer</string>
+    <string name="pref_privacy_policy_key">privacy_policy</string>
     <string name="pref_textsize_key">textsize</string>
     <string name="pref_direct_paging_key">direct_paging</string>
     <string name="pref_reconnect_key">reconnect</string>

@@ -412,6 +412,11 @@
   <string name="pref_disclaimer_title">Friskrivning</string>
   <string name="pref_disclaimer_summary">Läs friskrivningsavtal</string>
   <string name="pref_disclaimer_url">http://www.cadpage.org/disclaimer</string>
+  
+  <string name="pref_privacy_policy_title">Privacy Policy</string>                     <!-- Translate -->
+  <string name="pref_privacy_policy_summary">View Cadpage privacy policy.</string>     <!-- Translate -->
+  <string name="pref_privacy_policy_url">http://http://www.cadpage.org/privacy-policy</string>
+  
   <!-- Location settings -->
   <string name="pref_location_screen_title">Lokala anpassningar</string>
   <string name="pref_location_screen_summary">Larmbehandlingsdetaljer</string>
