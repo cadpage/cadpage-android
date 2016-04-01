@@ -9,9 +9,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 
-public class TXHuntCountyParser extends DispatchProQAParser {
+public class TXHuntCountyAParser extends DispatchProQAParser {
     
-  public TXHuntCountyParser() {
+  public TXHuntCountyAParser() {
     super(CITY_LIST, "HUNT COUNTY", "TX",
           "CALL+? ID! ( UNIT1 CALL CALL+?  ADDR1! ADDR_EXT? Created:TIME1! " +
                      "| ( FIRE_SERVICE PRI CALL | ) ADDR! ( EXTRA/Z CITY UNKNOWN? | CITY UNKNOWN? | EXTRA/Z UNKNOWN | EXTRA? UNKNOWN? ) INFO+ )");

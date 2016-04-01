@@ -14,9 +14,17 @@ choyvp pynff GKGneenagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
       frgCnefre(arj GKGneenagPbhaglCnefre());
     }
   }
+  
   choyvp fgngvp pynff GrfgO rkgraqf GKGneenagPbhaglOCnefreGrfg {
     choyvp GrfgO() {
       frgCnefre(arj GKGneenagPbhaglCnefre());
     }
   }
+  
+  choyvp fgngvp pynff GrfgP rkgraqf GKGneenagPbhaglPCnefreGrfg {
+    choyvp GrfgP() {
+      frgCnefre(arj GKGneenagPbhaglCnefre());
+    }
+  }
+  
 }

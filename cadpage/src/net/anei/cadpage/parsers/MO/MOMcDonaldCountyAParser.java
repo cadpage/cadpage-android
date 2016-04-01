@@ -3,9 +3,9 @@ package net.anei.cadpage.parsers.MO;
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 
-public class MOMcDonaldCountyParser extends DispatchA48Parser {
+public class MOMcDonaldCountyAParser extends DispatchA48Parser {
   
-  public MOMcDonaldCountyParser() {
+  public MOMcDonaldCountyAParser() {
     super(CITY_LIST, "MCDONALD COUNTY", "MO", FieldType.TRASH);
     setupCallList(CALL_LIST);
   }

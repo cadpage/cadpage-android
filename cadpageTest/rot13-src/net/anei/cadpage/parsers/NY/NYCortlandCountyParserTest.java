@@ -17,4 +17,11 @@ choyvp pynff ALPbegynaqPbhaglCnefreGrfg {
       frgCnefre(arj ALPbegynaqPbhaglCnefre());
     }
   }
+  
+  choyvp fgngvp pynff GrfgP rkgraqf ALPbegynaqPbhaglPCnefreGrfg {
+    choyvp GrfgP() {
+      frgCnefre(arj ALPbegynaqPbhaglCnefre());
+    }
+  }
+  
 }

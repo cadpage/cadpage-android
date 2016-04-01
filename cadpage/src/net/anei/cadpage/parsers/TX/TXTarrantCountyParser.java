@@ -9,7 +9,8 @@ import net.anei.cadpage.parsers.GroupBestParser;
 public class TXTarrantCountyParser extends GroupBestParser {
   
   public TXTarrantCountyParser() {
-    super(new TXTarrantCountyAParser(), new TXTarrantCountyBParser());
+    super(new TXTarrantCountyAParser(), new TXTarrantCountyBParser(),
+        new TXTarrantCountyCParser());
   }
  
 }

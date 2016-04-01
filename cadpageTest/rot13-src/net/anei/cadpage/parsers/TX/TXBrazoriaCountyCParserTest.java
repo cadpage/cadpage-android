@@ -5,8 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /* 
-Oenmbevn Pbhagl, GK
-
+Oenmbevn Pbhagl, GK (P)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Blfgre Perrx CQ
