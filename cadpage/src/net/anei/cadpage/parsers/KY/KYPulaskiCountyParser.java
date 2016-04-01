@@ -8,6 +8,11 @@ public class KYPulaskiCountyParser extends DispatchA65Parser {
     super(CITY_LIST, "PULASKI COUNTY", "KY");
   }
   
+  @Override
+  public String getFilter() {
+    return "pulaskicoky@911email.net";
+  }
+  
   private static final String[] CITY_LIST = new String[]{
     
       "BURNSIDE",

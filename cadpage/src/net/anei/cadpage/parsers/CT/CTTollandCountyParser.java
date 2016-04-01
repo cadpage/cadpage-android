@@ -44,6 +44,18 @@ public class CTTollandCountyParser extends GroupBestParser {
     "WINDHAM",
     
     // Hartford County
-    "BROAD BROOK"
+    "BROAD BROOK",
+    "EAST WINDSOR",
+    "ENFIELD",
+    "GLASTONBURY",
+    "HARTFORD",
+    "MANCHESTER",
+    "SOUTH WINDSOR",
+    "WINDSOR LOCKS",
+    "WINDSOR LOCKS EAST",
+    
+    // New London County
+    "LEBANON"
+    
   };
 }
