@@ -918,6 +918,7 @@ class Active911Vendor extends Vendor {
       "US/OH/MeigsCounty",                "OHMeigsCounty",
       "US/OH/MercerCounty",               "OHMercerCounty",
       "US/OH/PerryCounty",                "OHPerryCounty",
+      "US/OH/PickawayCounty",             "OHPickawayCounty",
       "US/OH/PrebleCounty",               "OHPrebleCounty",
       "US/OH/Sebring",                    "OHMahoningCounty",
       "US/OH/Secc911",                    "OHCuyahogaCountyA",
