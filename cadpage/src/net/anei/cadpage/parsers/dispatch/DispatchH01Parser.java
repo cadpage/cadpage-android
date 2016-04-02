@@ -17,7 +17,7 @@ public class DispatchH01Parser extends HtmlProgramParser {
   }
   
   public DispatchH01Parser(Properties cityCodes, String defCity, String defState, String program) {
-    super(defCity, defState, program);
+    super(defCity, defState, program, "tr");
     this.cityCodes = cityCodes;
   }
   
@@ -129,38 +129,72 @@ public class DispatchH01Parser extends HtmlProgramParser {
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\\d\\d/\\d\\d/\\d{4} +\\d\\d:\\d\\d:\\d\\d");
   private class RunReportNotes extends InfoField {
     
+    private int type = 0;
     private String unit = null;
     private String status = null;
+    private String dateTime = null;
+    
+    @Override
+    public boolean isHtmlTag() {
+      return true;
+    }
     
     @Override
     public void parse(String field, Data data) {
+      
+      if (field.startsWith("<|")) {
+        type = 0;
+        unit = status = dateTime = null;
+      }
+      
+      if (type == 0) {
+        String st = STATUS_CODES.getProperty(field);
+        if (st != null) {
+          type = 2;
+          status = st;
+          return;
+        }
+      }
+      
       if (UNIT_PTN.matcher(field).matches()) {
-        unit = field;
-        status = null;
+        if (type == 0) type = 1;
+        if (unit == null) unit = field;
         return;
       }
       
-      if (STATUS_PTN.matcher(field).matches()) {
+      if (status == null && STATUS_PTN.matcher(field).matches()) {
         status = field;
         return;
       }
       
-      if (DATE_TIME_PTN.matcher(field).matches()) {
-        if (status != null) {
-          StringBuilder sb = new StringBuilder();
-          if (unit != null) {
-            sb.append(unit);
-            while (sb.length() < 10) sb.append(' ');
-          }
-          int mark = sb.length() + 14;
-          sb.append(status);
-          while (sb.length() < mark) sb.append(' ');
-          sb.append(field);
-          
-          data.strSupp = append(data.strSupp, "\n", sb.toString());
-        }
+      if (dateTime == null && DATE_TIME_PTN.matcher(field).matches()) {
+        dateTime = field;
       }
-      unit = status = null;
+      
+      if (type > 0 && unit != null && status != null && dateTime != null) {
+        StringBuilder sb = new StringBuilder();
+        if (unit != null) {
+          sb.append(unit);
+          while (sb.length() < 10) sb.append(' ');
+        }
+        int mark = sb.length() + 14;
+        sb.append(status);
+        while (sb.length() < mark) sb.append(' ');
+        sb.append(dateTime);
+        
+        data.strSupp = append(data.strSupp, "\n", sb.toString());
+        
+        type = 0;
+        unit = status = dateTime = null;
+      }
     }
   }
+  
+  private static final Properties STATUS_CODES = buildCodeTable(new String[]{
+      "DISPATCHED",         "Dispatched",        
+      "ENROUTETOSCENE",     "Enroute",
+      "ONSCENE",            "On Scene",
+      "ENROUTETOHOSPITAL",  "Enroute ED",
+      "COMPLETED",          "Completed"
+  });
 }

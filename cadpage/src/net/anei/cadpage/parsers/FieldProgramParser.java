@@ -1205,6 +1205,7 @@ public class FieldProgramParser extends SmartAddressParser {
         field = getField(name);
         field.setQual(qual);
         field.setTrigger(trigger);
+        if (field.isHtmlTag()) this.htmlTag = true;
       }
       this.required = info.required;
       this.optional = (tag != null) && info.optional;
@@ -1954,6 +1955,10 @@ public class FieldProgramParser extends SmartAddressParser {
     
     protected boolean isNoVerify() {
       return noVerify;
+    }
+    
+    public boolean isHtmlTag() {
+      return false;
     }
     
     /**
@@ -3650,6 +3655,24 @@ public class FieldProgramParser extends SmartAddressParser {
     }
   }
   
+  public class EndTableField extends SkipField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean isHtmlTag() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      return field.equals("<|\table|>");
+    }
+  }
+  
   /**
    * Convert qual string to connection string
    * @param qual field qualifier
@@ -3737,6 +3760,7 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("END")) return new EndField();
     if (name.equals("ENDMARK")) return new EndMarkField();
     if (name.equals("SELECT")) return new SelectField();
+    if (name.equals("END_TABLE")) return new EndTableField();
     
     throw new RuntimeException("Invalid field name: " + name);
   }
