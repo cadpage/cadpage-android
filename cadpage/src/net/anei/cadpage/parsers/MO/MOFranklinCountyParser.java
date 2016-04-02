@@ -11,7 +11,7 @@ public class MOFranklinCountyParser extends DispatchH01Parser {
   public MOFranklinCountyParser() {
     super("FRANKLIN COUNTY", "MO",
           "( MARK1! Workstation:SKIP! Print_Time:SKIP! User:SKIP! Location:ADDR! Response_Type:CALL! Zone_Name:MAP! Status_Name:SKIP! Status_Time:DATETIME! Handling_Unit:UNIT! Agency:SRC! NOTES+ " +
-          "| MARK2/R! Location:ADDR! Response_Type:CALL! Agency:SRC! HandlingResource:UNIT! ZoneName:MAP! Resource_Activities%EMPTY RR_NOTES+? END_TABLE " +
+          "| MARK2/R! Location:ADDR! Response_Type:CALL! Agency:SRC! HandlingResource:UNIT! ZoneName:MAP! Response_State_Logs%EMPTY RR_NOTES/G+? END_TABLE Resource_Activities%EMPTY RR_NOTES+? END_TABLE " +
           "| EMPTY CALL ADDR! END )");
   }
   

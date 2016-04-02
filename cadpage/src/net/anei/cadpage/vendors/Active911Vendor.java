@@ -94,6 +94,13 @@ class Active911Vendor extends Vendor {
     return new String[]{sb.toString(), missingParsers};
   }
 
+  @Override
+  protected boolean isTestMsg(String msg) {
+    return msg.equals("This is a test message from Active911");
+  }
+
+
+
   private static final Set<String> PHONE_SET = new HashSet<String>(Arrays.asList(new String[]{
       "15123376259",
       "19145173586",
