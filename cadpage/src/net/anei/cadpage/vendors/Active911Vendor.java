@@ -1156,6 +1156,7 @@ class Active911Vendor extends Vendor {
       "US/TX/Seguin",                     "TXSeguin",
       "US/TX/Smhcems",                    "TXHaysCounty",
       "US/TX/SmithCounty",                "TXSmithCounty",
+      "US/TX/SomervellCounty",            "TXSomervellCounty",
       "US/TX/StaffordPD",                 "TXStafford",
       "US/TX/Stationalerting",            "TXFortBendCountyB",
       "US/TX/TarrantCounty",              "TXTarrantCountyA",
