@@ -4,9 +4,9 @@ import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
 
-public class OKClevelandCountyParser extends FieldProgramParser {
+public class OKClevelandCountyAParser extends FieldProgramParser {
   
-  public OKClevelandCountyParser() {
+  public OKClevelandCountyAParser() {
     super("CLEVELAND COUNTY", "OK",
            "ADDR/SC! ESN:ID!");
     setupMultiWordStreets(
