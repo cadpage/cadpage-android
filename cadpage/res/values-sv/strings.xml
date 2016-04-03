@@ -246,6 +246,10 @@
   <string name="pref_lock_google_map_summaryon">Google Maps kommer att användas för alla kartförfrågningar</string>      
   <string name="pref_lock_google_map_summaryoff">Andra kartapplikationer kan användas för kartförfrågningar</string>      
   
+  <string name="pref_navigate_map_title">Map Navigate Option</string>                            <!-- Translate -->
+  <string name="pref_navigate_map_summaryon">Map button opens navigation directions</string>     <!-- Translate -->
+  <string name="pref_navigate_map_summaryoff">Map button displays map</string>                   <!-- Translate -->
+  
   <string name="pref_delete_unopen_title">Ta bort oöppnade larm</string>
   <string name="pref_delete_unopen_summaryon">Tillåt att oöppnade larm tas bort</string>
   <string name="pref_delete_unopen_summaryoff">Tillåt inte att oöppnade larm tas bort</string>
