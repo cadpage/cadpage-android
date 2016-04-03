@@ -24,8 +24,8 @@ public class MTStillwaterCountyParser extends DispatchA16Parser {
   private static final Pattern HWY_10_PTN = Pattern.compile("\\b(?:HIGHWAY 10(?: HWY)?|(?:HIGHWAY )?HWY 10)\\b");
 
   @Override
-  public boolean parseMsg(String body, Data data) {
-    if (!super.parseMsg(body, data)) return false;
+  public boolean parseMsg(String subject, String body, Data data) {
+    if (!super.parseMsg(subject, body, data)) return false;
     
     // Clean up some odd address conventions
     data.strAddress = EXTRA_SUFFIX_PTN.matcher(data.strAddress).replaceAll("$1 $2");
