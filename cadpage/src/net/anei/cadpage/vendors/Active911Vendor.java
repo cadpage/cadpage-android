@@ -1117,6 +1117,7 @@ class Active911Vendor extends Vendor {
       "US/TX/CityofNavasota",             "TXNavasota",
       "US/TX/CityofNorthRichlandHills",   "TXTarrantCountyB",
       "US/TX/CityofOverton",              "TXOverton",
+      "US/TX/CityofPlano",                "TXDentonCountyB",
       "US/TX/CityofPortAransas",          "TXPortAransas",
       "US/TX/CityofWilmer",               "TXDallasCountyB",
       "US/TX/CityofWylie",                "TXCollinCountyA",
