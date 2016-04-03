@@ -776,8 +776,6 @@ public class MsgOptionManager {
   }
   private static final Pattern GPS_LOC_PTN = Pattern.compile("[+-]?\\d+\\..*");
   private static final String GOOGLE_MAP_PKG = "com.google.android.apps.maps";
-  private static final ComponentName GOOGLE_MAPS_COMPONENT_NAME = 
-      new ComponentName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
   
   private void viewMapPage(Context context) {
     MapPageStatus mapPageStatus = message.getMapPageStatus();
