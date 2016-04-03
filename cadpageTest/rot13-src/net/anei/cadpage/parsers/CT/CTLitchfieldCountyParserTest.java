@@ -18,10 +18,15 @@ choyvp pynff PGYvgpusvryqPbhaglCnefreGrfg {
     }
   }
   
-  choyvp fgngvp pynff GrfgArjZvyysbeq rkgraqf PGArjZvysbeqCnefreGrfg {
-    choyvp GrfgArjZvyysbeq() {
+  choyvp fgngvp pynff GrfgArjZvysbeq rkgraqf PGArjZvysbeqCnefreGrfg {
+    choyvp GrfgArjZvysbeq() {
       frgCnefre(arj PGYvgpusvryqPbhaglCnefre());
     }
   }
   
+  choyvp fgngvp pynff GrfgO rkgraqf PGYvgpusvryqPbhaglOCnefreGrfg {
+    choyvp GrfgO() {
+      frgCnefre(arj PGYvgpusvryqPbhaglCnefre());
+    }
+  }
 }

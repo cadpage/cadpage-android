@@ -6,9 +6,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-public class MTCascadeCountyParser extends FieldProgramParser {
+public class MTCascadeCountyAParser extends FieldProgramParser {
   
-  public MTCascadeCountyParser() {
+  public MTCascadeCountyAParser() {
     super("CASCADE COUNTY", "MT",
           "DATETIME UNIT ADDR EMPTY CALL! INFO+");
   }
