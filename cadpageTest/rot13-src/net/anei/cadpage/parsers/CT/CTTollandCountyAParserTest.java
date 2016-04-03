@@ -1267,6 +1267,7 @@ choyvp pynff PGGbyynaqPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Bireevqr
   cebgrpgrq obbyrna purpxPnyyPbqr(Fgevat pnyy, ZftCnefre cnefre) {
     PbqrFrg pnyyYvfg = cnefre.trgPnyyYvfg();
+    vs (pnyyYvfg == ahyy) erghea gehr;
     erghea pnyyYvfg.trgPbqr(pnyy) != ahyy;
   }
 

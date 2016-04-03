@@ -1,35 +1,13 @@
 package net.anei.cadpage.parsers.OK;
 
-import net.anei.cadpage.parsers.CodeSet;
-import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.GroupBestParser;
 
+/**
+Cleveland County, OK
 
-public class OKClevelandCountyParser extends FieldProgramParser {
-  
+ */
+public class OKClevelandCountyParser extends GroupBestParser {
   public OKClevelandCountyParser() {
-    super("CLEVELAND COUNTY", "OK",
-           "ADDR/SC! ESN:ID!");
-    setupMultiWordStreets(
-        "CROOKED OAK",
-        "RED OAK",
-        "PECAN CREEK",
-        "ROLLING MEADOWS",
-        "VALLEY VIEW");
-    setupCallList(CALL_SET);
+    super(new OKClevelandCountyAParser(), new OKClevelandCountyBParser());
   }
-  
-  @Override
-  public String getFilter() {
-    return "dispatch.info@normanok.gov";
-  }
-  
-  private static final CodeSet CALL_SET = new CodeSet(
-      "FIRE ALARM RESIDENTIAL",
-      "FIRE CONTROL BURN",
-      "FIRE GRASS",
-      "FIRE MUTUAL AIDE",
-      "FIRE RESIDENTIAL",
-      "PUBLIC ASSIST",
-      "SMOKE INVESTIGATION"
-  );
 }

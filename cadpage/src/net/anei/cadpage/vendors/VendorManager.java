@@ -572,9 +572,9 @@ public class VendorManager {
    * Update last contact time for specified vendor
    * @param vendorCode vendor code
    */
-  public void updateLastContactTime(String vendorCode) {
+  public void updateLastContactTime(String vendorCode, String msg) {
     Vendor vendor = findVendor(vendorCode);
-    if (vendor != null) vendor.updateLastContactTime();
+    if (vendor != null) vendor.updateLastContactTime(msg);
   }
   
   /**

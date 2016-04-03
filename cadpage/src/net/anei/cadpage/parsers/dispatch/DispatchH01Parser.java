@@ -129,6 +129,8 @@ public class DispatchH01Parser extends HtmlProgramParser {
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\\d\\d/\\d\\d/\\d{4} +\\d\\d:\\d\\d:\\d\\d");
   private class RunReportNotes extends InfoField {
     
+    private boolean noUnit = false;
+    
     private int type = 0;
     private String unit = null;
     private String status = null;
@@ -139,6 +141,12 @@ public class DispatchH01Parser extends HtmlProgramParser {
       return true;
     }
     
+    @Override
+    public void setQual(String qual) {
+      super.setQual(qual);
+      if (qual != null && qual.indexOf("G")>= 0) noUnit = true;
+    }
+
     @Override
     public void parse(String field, Data data) {
       
@@ -156,13 +164,14 @@ public class DispatchH01Parser extends HtmlProgramParser {
         }
       }
       
-      if (UNIT_PTN.matcher(field).matches()) {
+      if (!noUnit && unit == null && UNIT_PTN.matcher(field).matches()) {
         if (type == 0) type = 1;
-        if (unit == null) unit = field;
+        unit = field;
         return;
       }
       
       if (status == null && STATUS_PTN.matcher(field).matches()) {
+        if (type == 0) type = 1;
         status = field;
         return;
       }
@@ -171,7 +180,7 @@ public class DispatchH01Parser extends HtmlProgramParser {
         dateTime = field;
       }
       
-      if (type > 0 && unit != null && status != null && dateTime != null) {
+      if ((type == 1 || noUnit || unit != null) && status != null && dateTime != null) {
         StringBuilder sb = new StringBuilder();
         if (unit != null) {
           sb.append(unit);

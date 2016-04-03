@@ -289,7 +289,7 @@ abstract class Vendor {
     disableTextPageCheck = prefs.getBoolean("disableTextPageCheck", false);
     
     long lastTime = prefs.getLong("lastContactTime", 0L);
-    if (enabled && lastTime == 0) updateLastContactTime();
+    if (enabled && lastTime == 0) updateLastContactTime(null);
     
     publishAccountInfo(context);
   }
@@ -314,7 +314,19 @@ abstract class Vendor {
     editor.commit();
   }
   
-  void updateLastContactTime() {
+  /**
+   * Check to see if this is a vendor generated test message
+   * @param msg received alert message
+   * @return true if this is a vendor generated test message
+   */
+  protected boolean isTestMsg(String msg) {
+    return false;
+  }
+  
+  void updateLastContactTime(String msg) {
+    
+    if (msg != null && isTestMsg(msg)) return;
+    
     SharedPreferences.Editor editor = prefs.edit();
     editor.putLong("lastContactTime", new Date().getTime());
     editor.commit();

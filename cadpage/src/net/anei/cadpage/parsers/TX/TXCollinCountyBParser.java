@@ -12,11 +12,21 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class TXCollinCountyBParser extends FieldProgramParser {
   
   private static final Pattern SPECIAL_COMMENT_PTN = Pattern.compile("^Comment:(.*?),  +");
-  private static final Pattern DELIM = Pattern.compile(" */ *(?=ADDR:|Comment:|XST:|City:|Map Page:|All Response Comments:)");
+  private static final Pattern DELIM = Pattern.compile("/ *(?=PROB:|ADDR:|TEXT:|Comment:|XST:|City:|Map Page:|All Response Comments:)");
 
   public TXCollinCountyBParser() {
-    super("COLLIN COUNTY", "TX", 
-          "CALL! ( ADDR:ADDR! ADDR+ Comment:INFO! | Comment:INFO! ADDR:ADDR! ) XST:X? City:CITY? Map_Page:MAP? All_Response_Comments:INFO");
+    this("COLLIN COUNTY", "TX"); 
+  }
+
+  public TXCollinCountyBParser(String defCity, String defState) {
+    super(defCity, defState, 
+          "( PROB:CALL ADDR:ADDR! TEXT:INFO " +
+          "| CALL! ( ADDR:ADDR! ADDR+ Comment:INFO! | Comment:INFO! ADDR:ADDR! ) XST:X? City:CITY? Map_Page:MAP? All_Response_Comments:INFO )");
+  }
+  
+  @Override
+  public String getAliasCode() {
+    return "TXCollinCountyB";
   }
   
   @Override
@@ -29,6 +39,7 @@ public class TXCollinCountyBParser extends FieldProgramParser {
     return MAP_FLG_SUPPR_LA;
   }
 
+  private static final Pattern LEAD_CITY_PTN = Pattern.compile("([A-Z ]+) // ", Pattern.CASE_INSENSITIVE);
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
@@ -42,12 +53,21 @@ public class TXCollinCountyBParser extends FieldProgramParser {
       body = body.substring(match.end());
     }
     
+    // Pick off leading city name
+    match = LEAD_CITY_PTN.matcher(body);
+    if (match.lookingAt()) {
+      data.strCity = match.group(1).trim();
+      body = body.substring(match.end()).trim();
+    }
+    
+    body = body.replace("MAP PAGE:", "Map Page:");
+    
     return parseFields(DELIM.split(body), data);
   }
   
   @Override
   public String getProgram() {
-    return "PLACE " + super.getProgram();
+    return "PLACE CITY? " + super.getProgram();
   }
   
   private class MyAddressField extends AddressField {
@@ -56,7 +76,7 @@ public class TXCollinCountyBParser extends FieldProgramParser {
       Parser p = new Parser(field);
       String city = p.getLastOptional(',');
       if (city.equals("TX")) city = p.getLastOptional(',');
-      data.strCity = city;
+      if (city.length() > 0) data.strCity = city;
       parseAddress(p.get(), data);
     }
     

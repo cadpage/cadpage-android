@@ -99,7 +99,7 @@ Fraqre: jvapurfgrecqqvfcngpu@lnubb.pbz
 choyvp pynff PGYvgpusvryqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp PGYvgpusvryqPbhaglOCnefreGrfg() {
-    frgCnefre(arj PGYvgpuSvryqPbhaglOCnefre(), "YVGPUSVRYQ PBHAGL", "PG");
+    frgCnefre(arj PGYvgpusvryqPbhaglOCnefre(), "YVGPUSVRYQ PBHAGL", "PG");
   }
 
   @Grfg

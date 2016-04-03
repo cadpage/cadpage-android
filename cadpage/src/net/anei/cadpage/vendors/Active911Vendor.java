@@ -94,6 +94,13 @@ class Active911Vendor extends Vendor {
     return new String[]{sb.toString(), missingParsers};
   }
 
+  @Override
+  protected boolean isTestMsg(String msg) {
+    return msg.equals("This is a test message from Active911");
+  }
+
+
+
   private static final Set<String> PHONE_SET = new HashSet<String>(Arrays.asList(new String[]{
       "15123376259",
       "19145173586",
@@ -625,6 +632,7 @@ class Active911Vendor extends Vendor {
       "US/MN/ScottCounty",                "MNScottCounty",
       "US/MN/SherburneCounty",            "MNSherburneCounty",
       "US/MN/SibleyCounty",               "MNSibleyCounty",
+      "US/MN/StevensCounty",              "MNStevensCounty",
       "US/MN/StPaul",                     "MNMinneapolisStPaul",
       "US/MN/WabashaCounty",              "MNWabashaCounty",
       "US/MN/WadenaCounty",               "MNWadenaCounty",
@@ -918,6 +926,7 @@ class Active911Vendor extends Vendor {
       "US/OH/MeigsCounty",                "OHMeigsCounty",
       "US/OH/MercerCounty",               "OHMercerCounty",
       "US/OH/PerryCounty",                "OHPerryCounty",
+      "US/OH/PickawayCounty",             "OHPickawayCounty",
       "US/OH/PrebleCounty",               "OHPrebleCounty",
       "US/OH/Sebring",                    "OHMahoningCounty",
       "US/OH/Secc911",                    "OHCuyahogaCountyA",
@@ -1108,6 +1117,7 @@ class Active911Vendor extends Vendor {
       "US/TX/CityofNavasota",             "TXNavasota",
       "US/TX/CityofNorthRichlandHills",   "TXTarrantCountyB",
       "US/TX/CityofOverton",              "TXOverton",
+      "US/TX/CityofPlano",                "TXDentonCountyB",
       "US/TX/CityofPortAransas",          "TXPortAransas",
       "US/TX/CityofWilmer",               "TXDallasCountyB",
       "US/TX/CityofWylie",                "TXCollinCountyA",
@@ -1154,6 +1164,7 @@ class Active911Vendor extends Vendor {
       "US/TX/Seguin",                     "TXSeguin",
       "US/TX/Smhcems",                    "TXHaysCounty",
       "US/TX/SmithCounty",                "TXSmithCounty",
+      "US/TX/SomervellCounty",            "TXSomervellCounty",
       "US/TX/StaffordPD",                 "TXStafford",
       "US/TX/Stationalerting",            "TXFortBendCountyB",
       "US/TX/TarrantCounty",              "TXTarrantCountyA",
@@ -1258,6 +1269,7 @@ class Active911Vendor extends Vendor {
       "US/WI/WaukeshaCounty",             "WIWaukeshaCountyA",
       "US/WV/BerkeleyCounty",             "WVBerkeleyCounty",
       "US/WV/Centrale911",                "WVHarrisonCountyB",
+      "US/WV/Centrale911RitchieCounty",   "WVRichieCounty",
       "US/WV/HampshireCounty",            "WVHampshireCounty",
       "US/WV/HarrisonCounty",             "WVHarrisonCountyA",
       "US/WV/LincolnCounty",              "WVLincolnCounty",

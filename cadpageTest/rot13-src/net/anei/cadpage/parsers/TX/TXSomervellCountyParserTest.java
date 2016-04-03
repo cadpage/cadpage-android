@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Fbzreivyyr Pbhagl, GKP
+Fbzreiryy Pbhagl, GK
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fbzreiryy Pbhagl SQ
@@ -25,7 +25,7 @@ Ybpngvba=750 R TVOOF OYIQ*\a*\a*\aTYRA EBFR*\aCEBTERFF FG*\a*\a*\a*\a52O*\aQrfpe
 choyvp pynff GKFbzreiryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp GKFbzreiryyPbhaglCnefreGrfg() {
-    frgCnefre(arj GKFbzzreiryyPbhaglCnefre(), "FBZZREIRYY PBHAGL", "GK");
+    frgCnefre(arj GKFbzreiryyPbhaglCnefre(), "FBZREIRYY PBHAGL", "GK");
   }
   
   @Grfg
