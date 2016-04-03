@@ -8,6 +8,6 @@ public class NVClarkCountyParser extends GroupBestParser {
   
   public NVClarkCountyParser() {
     super(new NVClarkCountyAParser(), new NVClarkCountyBParser(),
-          new NVClarkCountyDParser());
+          new NVClarkCountyDParser(), new NVClarkCountyEParser());
   }
 }

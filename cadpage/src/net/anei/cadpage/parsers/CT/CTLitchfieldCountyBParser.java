@@ -6,9 +6,9 @@ import java.text.SimpleDateFormat;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-public class CTLitchFieldCountyBParser extends FieldProgramParser {
+public class CTLitchfieldCountyBParser extends FieldProgramParser {
   
-  public CTLitchFieldCountyBParser() {
+  public CTLitchfieldCountyBParser() {
     super("LITCHFIELD COUNTY", "CT", 
           "CALL:CALL! PLACE:PLACE! ADDR:ADDR/S6! CITY:CITY! ID:ID! PRI:PRI! DATE:DATE! TIME:TIME! UNIT:UNIT! INFO:INFO/N+");
   }
