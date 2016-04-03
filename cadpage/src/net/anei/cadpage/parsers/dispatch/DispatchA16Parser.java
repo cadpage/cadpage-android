@@ -11,14 +11,24 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchA16Parser extends FieldProgramParser {
   
+  private static final String DEFAULT_SUBJECT = "Imc Solutions Page";
+  
+  private String chkSubject;
+  
   public DispatchA16Parser(String[] cityList, String defCity, String defState) {
+    this(DEFAULT_SUBJECT, cityList, defCity, defState);
+  }
+  
+  public DispatchA16Parser(String chkSubject, String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
-          "CALL STATUS? ( DATETIME2!  UNIT? ( ADDR/Z! CITY | PLACE ADDR STATUS/Z+? CITY | ADDR! STATUS/Z+? CITY | PLACE ADDR! STATUS/Z+? CITY | PLACE ADDR/Z! STATUS/Z CITY | PLACE? ADDR/Z! CITY ) | " + 
-                 "( PLACENAME ADDR/Z CITY | ADDR/Z CITY | PLACENAME? ADDR! ) INFO+? ( UNIT DATETIME1? | DATETIME1 ) ) INFO+");
+          "CALL STATUS? ( DATETIME2!  UNIT? ( ADDR/Z! CITY | PLACE ADDR STATUS/Z+? CITY | ADDR! STATUS/Z+? CITY | PLACE ADDR! STATUS/Z+? CITY | PLACE ADDR/Z! STATUS/Z CITY | PLACE? ADDR/Z! CITY ) " + 
+                       "| ( PLACENAME ADDR/Z CITY | ADDR/Z CITY | PLACENAME? ADDR! ) INFO+? ( UNIT DATETIME1? | DATETIME1 ) ) INFO+");
+    this.chkSubject = chkSubject;
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
+    if (chkSubject != null && !subject.equals(chkSubject)) return false;
     return parseFields(body.split("\n"), 4, data);
   }
   
