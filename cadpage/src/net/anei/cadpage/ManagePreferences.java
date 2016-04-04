@@ -2294,6 +2294,7 @@ public class ManagePreferences {
       R.string.pref_map_network_chk_key,
       R.string.pref_gps_map_option_key,
       R.string.pref_lock_google_map_key,
+      R.string.pref_navigate_map_key,
       R.string.pref_report_position_key,
       
       R.string.pref_popup_enabled_key,
