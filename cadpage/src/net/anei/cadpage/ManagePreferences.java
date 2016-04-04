@@ -44,7 +44,7 @@ public class ManagePreferences {
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
-  // Name of file we build on a nobackup directory.  It's absense indicates that
+  // Name of file we build on a nobackup directory.  It's absence indicates that
   // Cadpage is starting up after an auto-restore
   private static final String CHECK_FILENAME = "HERE_I_AM";
   
@@ -654,6 +654,10 @@ public class ManagePreferences {
   
   public static boolean lockGoogleMap() {
     return prefs.getBoolean(R.string.pref_lock_google_map_key);
+  }
+  
+  public static boolean navigateMap() {
+    return prefs.getBoolean(R.string.pref_navigate_map_key);
   }
   
   public static String reportPosition() {

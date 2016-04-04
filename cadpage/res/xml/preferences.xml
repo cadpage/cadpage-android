@@ -196,6 +196,12 @@
         android:summaryOn="@string/pref_lock_google_map_summaryon"
         android:summaryOff="@string/pref_lock_google_map_summaryoff"
         android:defaultValue="true" />
+      <CheckBoxPreference
+        android:key="@string/pref_navigate_map_key"
+        android:title="@string/pref_navigate_map_title"
+        android:summaryOn="@string/pref_navigate_map_summaryon"
+        android:summaryOff="@string/pref_navigate_map_summaryoff"
+        android:defaultValue="false" />
       <net.anei.cadpage.preferences.ListPreference
           android:key="@string/pref_report_position_key"
           android:title="@string/pref_report_position_title"

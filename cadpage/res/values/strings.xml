@@ -280,6 +280,10 @@
   <string name="pref_lock_google_map_title">Only use Google mapping</string>
   <string name="pref_lock_google_map_summaryon">Google Map will be used for all map requests</string>
   <string name="pref_lock_google_map_summaryoff">Other Map apps can be used for map requests</string>
+
+  <string name="pref_navigate_map_title">Map Navigate Option</string>
+  <string name="pref_navigate_map_summaryon">Map button opens navigation directions</string>
+  <string name="pref_navigate_map_summaryoff">Map button displays map</string>
   
   <string name="pref_delete_unopen_title">Delete Unopened Calls</string>
   <string name="pref_delete_unopen_summaryon">Allow unopened calls to be deleted</string>
@@ -484,7 +488,7 @@
 
   <string name="pref_privacy_policy_title">Privacy Policy</string>
   <string name="pref_privacy_policy_summary">View Cadpage privacy policy.</string>
-  <string name="pref_privacy_policy_url">http://http://www.cadpage.org/privacy-policy</string>
+  <string name="pref_privacy_policy_url">http://www.cadpage.org/privacy-policy</string>
   
   <!-- Location settings -->
   <string name="pref_location_screen_title">Location Settings</string>

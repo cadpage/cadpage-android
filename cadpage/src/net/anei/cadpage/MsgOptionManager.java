@@ -734,30 +734,36 @@ public class MsgOptionManager {
     
     if (!SmsPopupUtils.haveNet(context)) return;
     
-    // We do things differently for GPS coordinates
-    if (GPS_LOC_PTN.matcher(searchStr).matches()) {
-      searchStr = "geo:0,0?q=" + searchStr;
-      
-      // Add real address as title
-      String addr = message.getAddress();
-      if (addr.length() > 0) {
-        searchStr = searchStr + '(' + addr + ')';
-      }
-    } 
+    // Should we jump straight to navigation
+    if (ManagePreferences.navigateMap()) {
+      searchStr = "google.navigation:q=" + Uri.encode(searchStr);
+    }
     
-    // Regular address parsing
+    // Regular mapping
     else {
-      searchStr = searchStr.replaceAll(" *& *", " AT ");
-      searchStr = "geo:0,0?q=" + Uri.encode(searchStr);
+      // We do things differently for GPS coordinates
+      if (GPS_LOC_PTN.matcher(searchStr).matches()) {
+        searchStr = "geo:0,0?q=" + Uri.encode(searchStr);
+        
+        // Add real address as title
+        String addr = message.getAddress();
+        if (addr.length() > 0) {
+          searchStr = searchStr + '(' + Uri.encode(addr) + ')';
+        }
+      }
+      
+      // Regular address parsing
+      else {
+        searchStr = searchStr.replaceAll(" *& *", " AT ");
+        searchStr = "geo:0,0?q=" + Uri.encode(searchStr);
+      }
     }
     
     // Build and launch map request
     Uri uri = Uri.parse(searchStr);
     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
     
-    if (ManagePreferences.lockGoogleMap()) {
-      intent.setComponent(GOOGLE_MAPS_COMPONENT_NAME);
-    }
+    if (ManagePreferences.lockGoogleMap()) intent.setPackage(GOOGLE_MAP_PKG);
     
     Log.w("Map Request:");
     ContentQuery.dumpIntent(intent);
@@ -769,8 +775,7 @@ public class MsgOptionManager {
     }
   }
   private static final Pattern GPS_LOC_PTN = Pattern.compile("[+-]?\\d+\\..*");
-  private static final ComponentName GOOGLE_MAPS_COMPONENT_NAME = 
-      new ComponentName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
+  private static final String GOOGLE_MAP_PKG = "com.google.android.apps.maps";
   
   private void viewMapPage(Context context) {
     MapPageStatus mapPageStatus = message.getMapPageStatus();

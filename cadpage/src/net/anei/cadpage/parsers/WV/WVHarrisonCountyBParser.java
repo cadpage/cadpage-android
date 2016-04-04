@@ -21,6 +21,11 @@ public class WVHarrisonCountyBParser extends SmartAddressParser {
   }
   
   @Override
+  public String getAliasCode() {
+    return "WVHarrisonCountyB";
+  }
+  
+  @Override
   public String getFilter() {
     return "dispatch@centrale911.com";
   }

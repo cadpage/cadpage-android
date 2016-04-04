@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03272016</string>
+  <string name="release_date">04032016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.06.15\n
+Added privacy policy notice\n
+\n
+New Locations:\n
+Benton County, AR (alt)\n
+Washington County, AR (alt)\n
+Litchfield County, CT (alt)\n
+Warren County, IA (alt)\n
+Pulaski County, KY\n
+Hubbard County, MN\n
+McDonald County, MO (alt)\n
+Nodaway County, MO\n
+Clark County, NV (alt)\n
+Cleveland County, OK (alt)\n
+Hunt County, TX (alt)\n
+Somervell County, TX\n
+Tarrant County, TX (alt)\n
+Richie County, WV\n
+\n
+Location Fixes:\n
+Tolland County, CT\n
+Northglen EMS, CO\n
+Eden Prairie, MN\n
+Franklin County, MO\n
+Cascade County, MT\n
+Harrison County, WV\n
+\n
 v1.9.06.14\n
 Location Fixes:\n
 Wichita, KS\n
@@ -41,18 +68,7 @@ Hamilton County, OH\n
 Dickenson County, VA\n
 Galax, VA\n
 Wise County, VA\n
-Fond Du Lac County, WI\n
-\n
-v1.9.06.09\n
-Location Fixes:\n
-Contra Costa County, CA\n
-Stanislaus County, CA\n
-Middletown, CT\n
-Lake County, IN\n
-Washtenaw County, MI\n
-Warren County, MO\n
-Clatsop County, OR\n
-Webber County, UT
+Fond Du Lac County, WI
   </string>
 </resources>
   

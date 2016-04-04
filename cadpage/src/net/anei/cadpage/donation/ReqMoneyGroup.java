@@ -13,6 +13,9 @@ public class ReqMoneyGroup extends EventGroup {
           AndroidDonateBetaEvent.instance(),
           AndroidDonateProblemEvent.instance(),
           DonateResetMarketEvent.instance(),
+          NeedAcctPermissionDonateEvent.instance(),
+          NoUserDonateEvent.instance(), 
+          WrongUserDonateEvent.instance(),
           SobStoryDonateEvent.instance());
   }
   
