@@ -18,7 +18,6 @@ public class IAMitchellCountyParser extends DispatchA47Parser {
     "MITCHELL",
     "ORCHARD",
     "OSAGE",
-    "ST. ANSGAR",
     "ST ANSGAR",
     "STACYVILLE",
     "RICEVILLE",
@@ -41,11 +40,14 @@ public class IAMitchellCountyParser extends DispatchA47Parser {
     "OSAGE",
     "OTRANTO",
     "ROCK",
-    "ST. ANSGAR",
+    "ST ANSGAR",
     "STACYVILLE",
     "UNION",
     "WAYNE",
     "WEST LINCOLN",
+    
+    // Floyd County
+    "RUDD"
     
   };
 }
