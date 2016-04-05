@@ -1077,6 +1077,7 @@ class Active911Vendor extends Vendor {
       "US/SD/LincolnCounty",              "SDLincolnCounty",
       "US/SD/MinnehahaCounty",            "SDMinnehahaCounty",
       "US/TN/BedfordCounty",              "TNBedfordCounty",
+      "US/TN/BlountCounty",               "TNBlountCountyB",
       "US/TN/CampbellCounty",             "TNCampbellCounty",
       "US/TN/CarterCounty",               "TNCarterCounty",
       "US/TN/CityofKingsport",            "TNKingsport",
