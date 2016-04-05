@@ -4097,9 +4097,4 @@ Jean ~ Cadpage Administrator
 Useful search expressions...
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT|X):.*\r?\n)*+(?! +"CITY:)
 ***************************************************************************************
- Give us a call, we have something you really really need....
-
-We publish Cadpage, which you may or may not have heard of.  It's an Android app that processes dispatch alerts and displays maps to incident locations.  The app itself is of little or no use to you.  But you can really use the alert message parsing library that is is built on.
-
-As your tech people will tell you, integration with CAD systems can be a hassle.  Almost all CAD systems can be configured to send you their alert information, there is no standard format for these alerts.  Pretty much every dispatch center in the country has their own format.  We have a parsing library that currently handles over 2000 different page formats, and can be quickly extended to handle new ones as needed.  It is especially good at handling the difficult page formats that do not add nice delimiters between different data fields.
  
