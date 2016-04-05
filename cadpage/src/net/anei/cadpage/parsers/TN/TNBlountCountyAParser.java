@@ -5,9 +5,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 
-public class TNBlountCountyParser extends FieldProgramParser {
+public class TNBlountCountyAParser extends FieldProgramParser {
   
-  public TNBlountCountyParser() {
+  public TNBlountCountyAParser() {
     super("BLOUNT COUNTY", "TN",
            "CALL ADDR INFO DATETIME!");
   }
