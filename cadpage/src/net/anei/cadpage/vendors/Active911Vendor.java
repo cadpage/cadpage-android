@@ -1241,6 +1241,7 @@ class Active911Vendor extends Vendor {
       "US/WA/ClallamCounty",              "WAClallamCounty",
       "US/WA/CowlitzCounty",              "WACowlitzCounty",
       "US/WA/GraysHarborCounty",          "WAGraysHarborCounty",
+      "US/WA/IslandCounty",               "WAIslandCounty",
       "US/WA/KingCounty",                 "WAKingCountyA",
       "US/WA/KitsapCounty",               "WAKitsapCounty",
       "US/WA/LewisCounty",                "WALewisCounty",
