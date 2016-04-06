@@ -32,7 +32,7 @@ QT911\a269 Unyrf Ynaqvat Eq \aFgehpgher sver - 269 Unyrf Ynaqvat Eq - Fzbxr va g
 
 QT911\aERD ERPBREL \a446 QRYY EQ  ... YNJ RASBEPRZRAG ERD SBE RKUNHFG SNAF.. GURL NER BHG BA N JNEENAG PURPX ... ERD ERPBIREL
 QT911\a224 Evire Eq\aErpbirel svefg erfcbaqref erdhrfgrq ng 224 Evire Eq sbe qvssvphygl oernguvat.
-
+QT911\aErfvqragvny Sver Nynez \aErfvqragvny sver nynez ng 156 Pneevr Oryy Qe.
 
 */
 
@@ -159,7 +159,12 @@ choyvp pynff TNQrpnghePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QT911\a224 Evire Eq\aErpbirel svefg erfcbaqref erdhrfgrq ng 224 Evire Eq sbe qvssvphygl oernguvat.",
         "NQQE:224 Evire Eq",
         "VASB:Erpbirel svefg erfcbaqref erdhrfgrq ng 224 Evire Eq sbe qvssvphygl oernguvat.");
- 
+
+    qbGrfg("G20",
+        "QT911\aErfvqragvny Sver Nynez \aErfvqragvny sver nynez ng 156 Pneevr Oryy Qe.",
+        "PNYY:Erfvqragvny Sver Nynez",
+        "NQQE:156 Pneevr Oryy Qe");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

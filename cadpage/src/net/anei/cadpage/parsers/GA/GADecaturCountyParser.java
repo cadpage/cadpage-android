@@ -46,8 +46,8 @@ public class GADecaturCountyParser extends SmartAddressParser {
     StartType st = StartType.START_CALL;
     if (data.strCall.length() > 0) {
       st = StartType.START_ADDR;
-      if (body.startsWith(data.strCall)) {
-        body = body.substring(data.strCall.length());
+      if (body.toUpperCase().startsWith(data.strCall.toUpperCase())) {
+        body = body.substring(data.strCall.length()).trim();
         body = JUNK_PTN.matcher(body).replaceFirst("");
       }
       
