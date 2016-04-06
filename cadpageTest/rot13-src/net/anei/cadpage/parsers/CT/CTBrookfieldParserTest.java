@@ -82,7 +82,7 @@ choyvp pynff PGOebbxsvryqCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:6/7/2014",
         "GVZR:09:54:00",
         "ZNC:GJ",
-        "ANZR:PBFGN,QNAVRYYR",
+        "CYNPR:PBFGN,QNAVRYYR",
         "NQQE:4 TERRAEVQTR QE",
         "PVGL:Oebbxsvryq",
         "FG:PG");
@@ -118,7 +118,7 @@ choyvp pynff PGOebbxsvryqCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:6/5/2014",
         "GVZR:17:49:00",
         "ZNC:GJ",
-        "ANZR:CVAURVEB",
+        "CYNPR:CVAURVEB",
         "NQQE:13 ZVFG UVYY QE",
         "PVGL:Oebbxsvryq",
         "FG:PG");
@@ -133,7 +133,7 @@ choyvp pynff PGOebbxsvryqCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Nzohynapr - N Y F Erfcbafr",
         "QNGR:7/10/2014",
         "GVZR:10:14:00",
-        "ANZR:RNFGREA NPPBHAG FLFGRZF",
+        "CYNPR:RNFGREA NPPBHAG FLFGRZF",
         "NQQE:111 CNEX EVQTR EQ",
         "PVGL:Oebbxsvryq",
         "FG:PG");
@@ -144,7 +144,7 @@ choyvp pynff PGOebbxsvryqCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:7/10/2014",
         "GVZR:12:16:00",
         "ZNC:GJ",
-        "ANZR:CVAGB",
+        "CYNPR:CVAGB",
         "NQQE:9 ZNCYR YA",
         "PVGL:Oebbxsvryq",
         "FG:PG");

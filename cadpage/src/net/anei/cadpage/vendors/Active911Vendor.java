@@ -782,6 +782,7 @@ class Active911Vendor extends Vendor {
       "US/ND/CityofFargo",                "NDCassCounty",
       "US/ND/PierceCounty",               "NDPierceCounty",
       "US/NE/GrandIslandPolice",          "NEGrandIsland",
+      "US/NH/GraftonCounty",              "NHGraftonCountyB",
       "US/NH/Hanover",                    "NHHanover,Cadpage2",
       "US/NH/HollisDispatch",             "NHHollis",
       "US/NH/LRMFA",                      "NHGraftonCounty",
