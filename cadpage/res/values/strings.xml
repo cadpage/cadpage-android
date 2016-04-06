@@ -285,13 +285,13 @@
   <string name="pref_navigate_map_summaryon">Map button opens navigation directions</string>
   <string name="pref_navigate_map_summaryoff">Map button displays map</string>
 
-  <string name="pref_auto_open_map_title">Preload map</string>
-  <string name="pref_auto_open_map_summaryon">Map view will be preloaded when call is opened</string>
-  <string name="pref_auto_open_map_summaryoff">Normal operation</string>
+  <string name="pref_auto_open_map_title">Automatic Map Option</string>
+  <string name="pref_auto_open_map_summaryon">Map automatically opens under call detail window</string>
+  <string name="pref_auto_open_map_summaryoff">Map is not automatically opened</string>
 
-  <string name="pref_auto_open_map_page_title">Preload map page</string>
-  <string name="pref_auto_open_map_page_summaryon">Map page will be preloaded when call is opened</string>
-  <string name="pref_auto_open_map_page_summaryoff">Normal operation</string>
+  <string name="pref_auto_open_map_page_title">Automatic Map Page Option</string>
+  <string name="pref_auto_open_map_page_summaryon">Map page automatically opens under map</string>
+  <string name="pref_auto_open_map_page_summaryoff">Map page is not automatically opened</string>
   
   <string name="pref_delete_unopen_title">Delete Unopened Calls</string>
   <string name="pref_delete_unopen_summaryon">Allow unopened calls to be deleted</string>

@@ -202,18 +202,6 @@
         android:summaryOn="@string/pref_navigate_map_summaryon"
         android:summaryOff="@string/pref_navigate_map_summaryoff"
         android:defaultValue="false" />
-      <CheckBoxPreference
-        android:key="@string/pref_auto_open_map_key"
-        android:title="@string/pref_auto_open_map_title"
-        android:summaryOn="@string/pref_auto_open_map_summaryon"
-        android:summaryOff="@string/pref_auto_open_map_summaryoff"
-        android:defaultValue="false" />
-      <CheckBoxPreference
-        android:key="@string/pref_auto_open_map_page_key"
-        android:title="@string/pref_auto_open_map_page_title"
-        android:summaryOn="@string/pref_auto_open_map_page_summaryon"
-        android:summaryOff="@string/pref_auto_open_map_page_summaryoff"
-        android:defaultValue="false" />
       <net.anei.cadpage.preferences.ListPreference
           android:key="@string/pref_report_position_key"
           android:title="@string/pref_report_position_title"
