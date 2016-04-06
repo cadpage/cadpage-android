@@ -860,6 +860,7 @@ class Active911Vendor extends Vendor {
       "US/NY/OrleansCounty",              "NYOrleansCounty",
       "US/NY/OswegoCounty",               "NYOswegoCountyB",
       "US/NY/OtsegoCounty",               "NYOtsegoCounty",
+      "US/NY/PerintonVolAmbulance",       "NYMonroeCountyWebster",
       "US/NY/PortWashingtonFD",           "NYNassauCountyG",
       "US/NY/RocklandCounty",             "NYRocklandCountyB",
       "US/NY/Ronkonkoma",                 "NYSuffolkCountyB",
