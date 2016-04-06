@@ -2,6 +2,7 @@ package net.anei.cadpage;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,13 +12,13 @@ import android.app.Activity;
 import android.app.PendingIntent;
 import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
+import android.os.Handler;
 import android.telephony.SmsManager;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -45,7 +46,11 @@ public class MsgOptionManager {
   private List<ButtonHandler> mainButtonList = new ArrayList<ButtonHandler>();
   
   // Broadcast receiver logging results of text send messages
-  private SendSMSReceiver receiver = null;;
+  private SendSMSReceiver receiver = null;
+  
+  public MsgOptionManager(SmsMmsMessage message) {
+    this(null, message);
+  }
   
   public MsgOptionManager(Activity activity, SmsMmsMessage message) {
     this.activity = activity;
@@ -622,20 +627,19 @@ public class MsgOptionManager {
       return true;
       
     case R.id.open_item:
-      if (Log.DEBUG) Log.v("MsgOptionManager User launch SmsPopup for " + message.getMsgId()); 
-      SmsPopupActivity.launchActivity(activity, message);
+      openCall();
       return true;
       
     case R.id.map_addr_item:
-      mapMessage(activity, false);
+      mapMessage(false);
       return true;
       
     case R.id.map_gps_item:
-      mapMessage(activity, true);
+      mapMessage(true);
       return true;
       
     case R.id.map_page_item:
-      viewMapPage(activity);
+      viewMapPage();
       return true;
       
     case R.id.toggle_lock_item:
@@ -720,22 +724,59 @@ public class MsgOptionManager {
       return false;
     }
   }
+  
+  /**
+   * Request open call detail window
+   * @param context current context
+   * @param message message to be opened
+   */
+  public static void openCall(Context context, SmsMmsMessage message) {
+    new MsgOptionManager(message).openCall();
+  }
+
+  /**
+   * Open call detail window
+   */
+  public void openCall() {
+    Stack<Runnable> launchers = new Stack<Runnable>();
+    addOpenCallLauncher(launchers);
+    if (ManagePreferences.autoOpenMap()) addMapLauncher(launchers, message.isPreferGPSLoc(), true);
+    if (ManagePreferences.autoOpenMapPage()) addMapPageLauncher(launchers);
+    runLaunchers(launchers);
+  }
+  
+  private void addOpenCallLauncher(Stack<Runnable> launchers) {
+    launchers.push(new Runnable(){
+      @Override
+      public void run() {
+        if (Log.DEBUG) Log.v("Launching call detail window");
+        SmsPopupActivity.launchActivity(CadPageApplication.getContext(), message);
+      }
+    });
+  }
 
   /**
    * Request map location for message
-   * @param context current context
    * @param useGPS use GPS location instead regular address
    */
-  private void  mapMessage(Context context, boolean useGPS)  {
-    if (Log.DEBUG) Log.v("Request Received to Map Call");
+  private void  mapMessage(boolean useGPS)  {
+    
+    Stack<Runnable> launchers = new Stack<Runnable>();
+    addMapLauncher(launchers, useGPS, false);
+    runLaunchers(launchers);
+  }
+  
+  private void addMapLauncher(Stack<Runnable> launchers, boolean useGPS, boolean forceMap) {
     
     String searchStr = message.getMapAddress(useGPS);
     if (searchStr == null) return;
     
+    final Context context = CadPageApplication.getContext();
     if (!SmsPopupUtils.haveNet(context)) return;
     
     // Should we jump straight to navigation
-    if (ManagePreferences.navigateMap()) {
+    // For some reason this doesn't work in preload mode, so we just do not allow it
+    if (!forceMap && ManagePreferences.navigateMap()) {
       searchStr = "google.navigation:q=" + Uri.encode(searchStr);
     }
     
@@ -761,31 +802,50 @@ public class MsgOptionManager {
     
     // Build and launch map request
     Uri uri = Uri.parse(searchStr);
-    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+    final Intent intent = new Intent(Intent.ACTION_VIEW, uri);
     
     if (ManagePreferences.lockGoogleMap()) intent.setPackage(GOOGLE_MAP_PKG);
+    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK |
+                    Intent.FLAG_ACTIVITY_SINGLE_TOP |
+                    Intent.FLAG_ACTIVITY_CLEAR_TOP | 
+                    Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
     
-    Log.w("Map Request:");
-    ContentQuery.dumpIntent(intent);
-    
-    try {
-        context.startActivity(intent);
-    } catch (ActivityNotFoundException ex) {
-        Log.e("Could not find com.google.android.maps.Maps activity");
-    }
+    launchers.push(new Runnable(){
+      @Override
+      public void run() {
+        
+        Log.w("Map Request:");
+        ContentQuery.dumpIntent(intent);
+
+        try {
+            context.startActivity(intent);
+        } catch (ActivityNotFoundException ex) {
+            Log.e("Could not find com.google.android.maps.Maps activity");
+        }
+      }
+    });
   }
   private static final Pattern GPS_LOC_PTN = Pattern.compile("[+-]?\\d+\\..*");
   private static final String GOOGLE_MAP_PKG = "com.google.android.apps.maps";
   
-  private void viewMapPage(Context context) {
-    MapPageStatus mapPageStatus = message.getMapPageStatus();
+  private void viewMapPage() {
+    Stack<Runnable> launchers = new Stack<Runnable>();
+    addMapPageLauncher(launchers);
+    runLaunchers(launchers);
+  }
+  
+  private void addMapPageLauncher(Stack<Runnable> launchers) {
+    final MapPageStatus mapPageStatus = message.getMapPageStatus();
     if (mapPageStatus == null) return;
     String url = message.getMapPageURL();
     if (url == null) return;
     
     Uri uri = Uri.parse(url);
-    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+    final Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | 
+                    Intent.FLAG_ACTIVITY_SINGLE_TOP | 
+                    Intent.FLAG_ACTIVITY_CLEAR_TOP | 
+                    Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
     switch (mapPageStatus) {
     case ADOBE:
       intent.setClassName("com.adobe.reader", "com.adobe.reader.AdobeReader");
@@ -795,20 +855,53 @@ public class MsgOptionManager {
       break;
     }
     
-    Log.w("Launching Map Page Viewer");
-    ContentQuery.dumpIntent(intent);
-    try {
-      context.startActivity(intent);
-    } catch (ActivityNotFoundException ex) {
-      switch (mapPageStatus) {
-      case ADOBE:
-        NoticeActivity.showMissingReaderNotice(context, R.string.missing_map_page_reader_adobe, "com.adobe.reader");
-        break;
+    launchers.push(new Runnable(){
+      @Override
+      public void run() {
         
-      case ANY:
-        Log.e(ex);
+        Log.w("Launching Map Page Viewer");
         ContentQuery.dumpIntent(intent);
+        Context context = CadPageApplication.getContext();
+        try {
+          context.getApplicationContext().startActivity(intent);
+        } catch (ActivityNotFoundException ex) {
+          switch (mapPageStatus) {
+          case ADOBE:
+            NoticeActivity.showMissingReaderNotice(context, R.string.missing_map_page_reader_adobe, "com.adobe.reader");
+            break;
+            
+          case ANY:
+            Log.e(ex);
+            ContentQuery.dumpIntent(intent);
+          }
+        }
       }
+    });
+  }
+  
+  /**
+   * Run set of stacked launchers
+   * @param launchers launcher stack
+   */
+  private void runLaunchers(Stack<Runnable> launchers) {
+
+    // Run the stacked launchers in reverse schedule order at
+    // 100 msec intervals so the first windows end up on top of 
+    // subsequent ones
+    long delay = 0L;
+    while (!launchers.isEmpty()) {
+      
+      // First launcher can be run directly
+      Runnable launcher = launchers.pop();
+      if (delay == 0) {
+        launcher.run();
+      }
+      
+      // Rest have to be scheduled
+      else {
+        new Handler().postDelayed(launcher, delay);
+      }
+      delay += 100L;
     }
   }
 
@@ -904,10 +997,6 @@ public class MsgOptionManager {
                     Intent.FLAG_ACTIVITY_SINGLE_TOP |
                     Intent.FLAG_ACTIVITY_CLEAR_TOP);
     intent.setClassName("com.active911.app", "com.active911.app.MainActivity");
-    
-    // See if we can extract the message ID from the ack URL
-//    String code = msg.getActive911MsgCode();
-//    if (code != null) intent.putExtra("q", code);
     
     PackageManager pm = context.getPackageManager();
     List<ResolveInfo> list = pm.queryIntentActivities(intent, 0);

@@ -250,6 +250,14 @@
   <string name="pref_navigate_map_summaryon">Kartknapp öppnar ruttning</string>     
   <string name="pref_navigate_map_summaryoff">Kartknapp visar karta </string>                   
   
+  <string name="pref_auto_open_map_title">Preload map</string> <!-- Translate -->
+  <string name="pref_auto_open_map_summaryon">Map view will be preloaded when call is opened</string> <!-- Translate -->
+  <string name="pref_auto_open_map_summaryoff">Normal operation</string> <!-- Translate -->
+
+  <string name="pref_auto_open_map_page_title">Preload map page</string> <!-- Translate -->
+  <string name="pref_auto_open_map_page_summaryon">Map page will be preloaded when call is opened</string> <!-- Translate -->
+  <string name="pref_auto_open_map_page_summaryoff">Normal operation</string> <!-- Translate -->
+  
   <string name="pref_delete_unopen_title">Ta bort oöppnade larm</string>
   <string name="pref_delete_unopen_summaryon">Tillåt att oöppnade larm tas bort</string>
   <string name="pref_delete_unopen_summaryoff">Tillåt inte att oöppnade larm tas bort</string>

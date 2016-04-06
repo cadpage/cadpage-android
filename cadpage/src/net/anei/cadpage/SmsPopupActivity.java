@@ -574,21 +574,13 @@ public class SmsPopupActivity extends Safe40Activity {
    * @return
    */
   public static void launchActivity(Context context, SmsMmsMessage message) {
-    launchActivity(context, message.getMsgId());
-  }
-  
-  /**
-   * Launch call display popup activity
-   * @param context context
-   * @param msgId message ID of message to be displayed
-   * @return
-   */
-  public static void launchActivity(Context context, int msgId) {
     Intent popup = new Intent(context, SmsPopupActivity.class);
-    popup.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-    popup.putExtra(EXTRAS_MSG_ID, msgId);
+    popup.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | 
+                   Intent.FLAG_ACTIVITY_SINGLE_TOP | 
+                   Intent.FLAG_ACTIVITY_CLEAR_TOP | 
+                   Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+    popup.putExtra(EXTRAS_MSG_ID, message.getMsgId());
     context.startActivity(popup);
   }
-
 }
 

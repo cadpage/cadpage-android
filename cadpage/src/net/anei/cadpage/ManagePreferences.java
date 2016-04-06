@@ -660,6 +660,14 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_navigate_map_key);
   }
   
+  public static boolean autoOpenMap() {
+    return prefs.getBoolean(R.string.pref_auto_open_map_key);
+  }
+  
+  public static boolean autoOpenMapPage() {
+    return prefs.getBoolean(R.string.pref_auto_open_map_page_key);
+  }
+  
   public static String reportPosition() {
     return prefs.getString(R.string.pref_report_position_key);
   }
@@ -2295,6 +2303,8 @@ public class ManagePreferences {
       R.string.pref_gps_map_option_key,
       R.string.pref_lock_google_map_key,
       R.string.pref_navigate_map_key,
+      R.string.pref_auto_open_map_key,
+      R.string.pref_auto_open_map_page_key,
       R.string.pref_report_position_key,
       
       R.string.pref_popup_enabled_key,
