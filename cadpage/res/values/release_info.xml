@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">04032016</string>
+  <string name="release_date">04052016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.07.01\n
+New option to have map requests jump directly to turn by turn navigation.  Use at your
+own risk.  Don\'t blame us if you drive into the next county before discovering Google has mismapped the call location\n
+\n
+Location Fixes:\n
+Mitchell County, IA\n
+Blount County, TN\n
+\n
+General Fixes:\n
+Fixed problem reporting payment status for users that have registered with both the CodeMessaging and
+Cadpage paging services.\n
+\n
 v1.9.06.15\n
 Added privacy policy notice\n
 \n
@@ -60,15 +72,7 @@ v1.9.06.11\n
 Location Fixes:\n
 St Louis County, MO\n
 Jefferson County, NY\n
-Dallas County, TX\n
-\n
-v1.9.06.10\n
-Location Fixes:\n
-Hamilton County, OH\n
-Dickenson County, VA\n
-Galax, VA\n
-Wise County, VA\n
-Fond Du Lac County, WI
+Dallas County, TX
   </string>
 </resources>
   

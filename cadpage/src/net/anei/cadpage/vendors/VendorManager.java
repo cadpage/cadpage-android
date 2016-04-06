@@ -94,15 +94,7 @@ public class VendorManager {
    * a pad subscription
    */
   public boolean isPaidSubRequired() {
-    return isRegistered("Cadpage");
-  }
-  
-  /**
-   * @return true if user is registered with a vendor automatically
-   * supports the Cadpage paging service
-   */
-  public boolean isPaidSubSupported() {
-    return isRegistered("CodeMessaging");
+    return isRegistered("Cadpage") && !isRegistered("CodeMessaging");
   }
   
   /**
