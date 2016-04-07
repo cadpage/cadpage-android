@@ -225,7 +225,7 @@ choyvp pynff JNVfynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "FEP:Q3SQ",
         "PNYY:Zrqvpny",
-        "NQQE:3926 NQBOR EQ",
+        "NQQE:3926 NQBOR EQ", 
         "PVGL:PYVAGBA",
         "ZNC:F32",
         "HAVG:NVQ32",
