@@ -10,8 +10,10 @@ import net.anei.cadpage.parsers.MsgParser;
 
 public class COElPasoCountyAParser extends MsgParser {
   
+  private static final Pattern JUNK_PTN = Pattern.compile("\\[[_A-Za-z]+\\]\\d+ chars\\.");
+  
   private static final Pattern MASTER = 
-      Pattern.compile("\\[([-A-Z0-9 ]+): *([^\\]]+?)\\] *([^~]+?)~([^~]+?)~([^#]+?)\\.?#([^~]*?)~([^~]*?)~(?:x:([^~]*?)(?:   +~?|~|$))?(?:ALRM:([\\d ])~)?(?:CMD:([^~]*)~?)?(?:([-A-Z0-9]+))?(?: +[A-Z0-9]+)? *~*");
+      Pattern.compile("(?:(FC PMO):|\\[([-A-Z0-9 ]+): *([^\\]]+?)\\]) *([^~]*?)~([^~]+?)~([^#]+?)\\.?#([^~]*?)~([^~]*?)~(?:x:([^~]*?)(?:   +~?|~|$))?(?:ALRM:([\\d ])~)?(?:CMD:([^~]*)~?)?(?:([-A-Z0-9]+))?(?: +[A-Z0-9]+)? *~*");
   
   private static final Pattern MASTER2 =
       Pattern.compile("INFO from EPSO: (.*?)  (.*?)  (.*?)  (.*?)  +(?:JURIS: )?(.*?)(?:  ALRM: (\\d*))?(?: *CMD:(.*))?");
@@ -34,28 +36,36 @@ public class COElPasoCountyAParser extends MsgParser {
     // Square bracket got turned into a subject and needs to be turned back
     if (subject.length() > 0) body = '[' + subject + "] " + body;
     
-    // STrip off extra trailer
+    // Strip off extra trailer
     body = stripFieldStart(body,  "Txt:");
     int pt = body.indexOf("\n\n");
     if (pt >= 0) body = body.substring(0,pt).trim();
+    
+    // And a new junk construct
+    body = JUNK_PTN.matcher(body).replaceAll("");
     
     // Not everyone is using it, but see if this is the new standard dispatch format
     Matcher match = MASTER.matcher(body);
     if (match.matches()) {
       setFieldList("SRC MAP UNIT CALL ADDR APT PLACE X PRI INFO ID");
-      data.strSource = match.group(1).trim();
-      data.strMap = match.group(2).trim();
-      data.strUnit = match.group(3).trim();
-      data.strCall = match.group(4).trim();
-      String addr = match.group(5).trim();
-      if (addr.startsWith("0 ")) addr =  addr.substring(2).trim();
+      String src = match.group(1);
+      if (src != null) {
+        data.strSource = src;
+      } else {
+        data.strSource = match.group(2).trim();
+        data.strMap = match.group(3).trim();
+      }
+      data.strUnit = match.group(4).trim();
+      data.strCall = match.group(5).trim();
+      String addr = match.group(6).trim();
+      addr =stripFieldStart(addr, "0 ");
       parseAddress(addr, data);
-      data.strApt = match.group(6).trim();
-      data.strPlace = match.group(7).trim();
-      data.strCross = getOptGroup(match.group(8));
-      data.strPriority = getOptGroup(match.group(9));
-      data.strSupp = getOptGroup(match.group(10));
-      data.strCallId = getOptGroup(match.group(11));
+      data.strApt = match.group(7).trim();
+      data.strPlace = match.group(8).trim();
+      data.strCross = getOptGroup(match.group(9));
+      data.strPriority = getOptGroup(match.group(10));
+      data.strSupp = getOptGroup(match.group(11));
+      data.strCallId = getOptGroup(match.group(12));
       return true;
     }
     
