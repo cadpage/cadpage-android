@@ -346,6 +346,7 @@ class Active911Vendor extends Vendor {
       "US/FL/BayCounty",                  "FLBayCounty",
       "US/FL/CalhounCounty",              "FLCalhounCounty",
       "US/FL/CharlotteCountySheriff",     "FLCharlotteCounty",
+      "US/FL/CitrusCounty",               "FLCitrusCounty",
       "US/FL/CityofCocoa",                "FLCocoa",
       "US/FL/CityofSatelliteBeach",       "FLSatelliteBeach",
       "US/FL/CityofWinterPark",           "FLOrangeCounty",
