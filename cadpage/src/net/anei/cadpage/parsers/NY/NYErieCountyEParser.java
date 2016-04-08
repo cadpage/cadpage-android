@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.NY;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.Message;
 import net.anei.cadpage.parsers.SmartAddressParser;
@@ -31,7 +33,20 @@ public class NYErieCountyEParser extends SmartAddressParser {
     return false;
   }
 
+  private static final Pattern ERIE_MASTER1_PTN = Pattern.compile("~([A-Z][-/ A-Z0-9]*[A-Z])~ ([^~]+) ~([A-Z][ A-Z]*[A-Z])~ *(.*)");
   private boolean parseErieMsg(String body, Data data) {
+    
+    // Check for squiggle delimited fromat
+    Matcher match = ERIE_MASTER1_PTN.matcher(body);
+    if (match.matches()) {
+      data.strCall = match.group(1);
+      parseAddress(StartType.START_CALL, FLAG_NO_CITY | FLAG_ANCHOR_END, match.group(2).trim(), data);
+      data.strCity = match.group(3);
+      data.strSupp = match.group(4);
+      return true;
+    }
+    
+    // Otherwise, parse the old way
     parseAddress(StartType.START_CALL, body, data);
     data.strSupp = getLeft();
     if (data.strAddress.length() == 0) return false;

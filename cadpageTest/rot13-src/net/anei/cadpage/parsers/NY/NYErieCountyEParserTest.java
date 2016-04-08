@@ -46,6 +46,10 @@ Pbagnpg: Trbetr Tregm <t6w6@zfa.pbz>
 Fraqre: NYREG@REVR.TBI
 NYREG@REVR.TBI: ZRQVPNY NYNEZ NPGVINGVBA 11547 CBEGREIVYYR EBNQ
 
+Pbagnpg: Wba Zbaxryonna <wzbaxryonna59@tznvy.pbz>
+Fraqre: NYREG@REVR.TBI
+NYREG@REVR.TBI: ~RZF BIREQBFR~ 132 FROEVAT QE NCG: YB ~PURRXGBJNTN~ 24L/Z UREBVAR
+
 Abg lrg vzcyrzragrq!
 Pbagnpg: crgre chganz <zrqvp4451@tznvy.pbz>
 Fraqre: 17165415102
@@ -237,6 +241,19 @@ choyvp pynff ALRevrPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY NYNEZ NPGVINGVBA",
         "NQQE:11547 CBEGREIVYYR EBNQ");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWbaZnxryonna() {
+
+    qbGrfg("G1",
+        "NYREG@REVR.TBI: ~RZF BIREQBFR~ 132 FROEVAT QE NCG: YB ~PURRXGBJNTN~ 24L/Z UREBVAR",
+        "PNYY:RZF BIREQBFR",
+        "NQQE:132 FROEVAT QE",
+        "NCG:YB",
+        "PVGL:PURRXGBJNTN",
+        "VASB:24L/Z UREBVAR");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
