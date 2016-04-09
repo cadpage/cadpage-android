@@ -357,6 +357,7 @@ class Active911Vendor extends Vendor {
       "US/FL/LevyCounty",                 "FLLevyCounty",
       "US/FL/LongboatKey",                "FLManateeCounty",
       "US/FL/ManateeCounty",              "FLManateeCounty",
+      "US/FL/OkaloosaCounty",             "FLOkaloosaCounty",
       "US/FL/PalmBeachCounty",            "FLPalmBeachCounty",
       "US/FL/PutnamSheriff",              "FLPutnamCounty",
       "US/FL/RegionalPsi",                "FLBrowardCounty",
