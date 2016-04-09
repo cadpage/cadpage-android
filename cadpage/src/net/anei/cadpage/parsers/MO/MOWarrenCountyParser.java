@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.MO;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -11,23 +12,27 @@ public class MOWarrenCountyParser extends FieldProgramParser {
 
   public MOWarrenCountyParser() {
     super(CITY_TABLE, "WARREN COUNTY", "MO", 
-          "ADDRCITY CALL INFO/N+");
+          "ADDRCITY CALL! DATETIME? INFO/N+");
     setupSpecialStreets("BROOKVIEW");
   }
   
   @Override
   public String getFilter() {
-    return "DISPATCH@WARRENCOUNTY911.ORG";
+    return "DISPATCH@WARRENCOUNTY911.ORG,WarrenCo911@publicsafetysoftware.net";
   }
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    
+    // Pretty loose format, so check for a positive ID
+    if (!isPositiveId()) return false;
     return parseFields(body.split("\n"), data);
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
@@ -58,6 +63,28 @@ public class MOWarrenCountyParser extends FieldProgramParser {
   protected boolean isNotExtraApt(String apt) {
     if (apt.startsWith("OFF")) return true;
     return super.isNotExtraApt(apt);
+  }
+  
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("Call Received on (\\d\\d/\\d\\d/\\d{4}) @ (\\d\\d?:\\d\\d)");
+  private class MyDateTimeField extends DateTimeField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = DATE_TIME_PTN.matcher(field);
+      if (!match.matches()) return false;
+      data.strDate = match.group(1);
+      data.strTime = match.group(2);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
   }
 
   private static final Pattern INFO_DASH_PTN = Pattern.compile("-+");
