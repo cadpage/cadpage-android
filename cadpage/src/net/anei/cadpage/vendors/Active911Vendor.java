@@ -216,6 +216,7 @@ class Active911Vendor extends Vendor {
       "US/AR/HotSpringCounty",            "ARHotSpringCounty",
       "US/AR/LifeNetEms",                 "ARGarlandCounty",
       "US/AR/PopeCounty",                 "ARPopeCounty",
+      "US/AL/PrichardFire",               "ALMobileCounty",
       "US/AR/PulaskiCounty",              "ARPulaskiCounty",
       "US/AZ/CityofCottonwood",           "AZYavapaiCountyC",
       "US/AZ/CityofShowLow",              "AZNavajoCountyB",
