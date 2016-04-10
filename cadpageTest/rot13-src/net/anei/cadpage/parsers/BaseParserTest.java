@@ -438,7 +438,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     nffregGehr(gvgyr + ":harkcrpgrq pnyy pbqr:" + vasb.trgPnyy(), purpxPnyyPbqr(zft, cnefre));
     
     // Vs erdhrfgrq, pbasvez gung pvgl vf va pvgl gnoyr
-    vs (purpxPvgl()) {
+    vs (purpxPvgl() && cnefre vafgnaprbs FznegNqqerffCnefre) {
       Fgevat pvgl = vasb.trgPvgl();
       vs (pvgl.yratgu() > 0) {
         nffregGehr("Haqrsvarq pvgl: " + pvgl, ((FznegNqqerffCnefre)cnefre).vfPvgl(pvgl));
