@@ -913,7 +913,7 @@ class Active911Vendor extends Vendor {
       "US/OH/Fairfield",                  "OHFairfieldCounty",
       "US/OH/FultonCounty",               "OHFultonCounty",
       "US/OH/GalliaCounty",               "OHGalliaCounty",
-      "US/OH/GeaugaCounty",               "OHGeaugaCountyB",
+      "US/OH/GeaugaCounty",               "OHGeaugaCounty",
       "US/OH/HamiltonCounty",             "OHHamiltonCountyA",
       "US/OH/Harveysburg",                "OHWarrenCountyC",
       "US/OH/HighlandCounty",             "OHHighlandCounty",

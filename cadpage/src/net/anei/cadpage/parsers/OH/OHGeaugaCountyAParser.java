@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.OH;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -25,7 +26,7 @@ public class OHGeaugaCountyAParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "777,888";
+    return "777,888,alerts@wensnetwork.com,OH_GC_ENS@CO.GEAUGA.OH.US";
   }
   
   @Override
@@ -76,8 +77,8 @@ public class OHGeaugaCountyAParser extends SmartAddressParser {
       body = body.replace(',', ' ');
       Result res = parseAddress(st, FLAG_NO_IMPLIED_APT, body);
       if (!res.isValid()) {
-        if (data.strCall.length() == 0) data.strCall = "GENERAL ALERT";
-        data.strPlace = body;
+        data.msgType = MsgType.GEN_ALERT;
+        data.strSupp = body;
       } else {
         res.getData(data);
         String sExtra = res.getLeft();
