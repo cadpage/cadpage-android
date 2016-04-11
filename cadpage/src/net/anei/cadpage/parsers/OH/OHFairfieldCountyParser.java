@@ -9,7 +9,7 @@ public class OHFairfieldCountyParser extends FieldProgramParser {
 
   public OHFairfieldCountyParser() {
     super("FAIRFIELD COUNTY", "OH",
-          "CALL ADDR CITY ST? X! INFO/CS+");
+          "CALL ADDR ( X! | CITY X! | CITY ST X! ) INFO/CS+");
   }
   
   @Override
@@ -25,7 +25,6 @@ public class OHFairfieldCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("CALL")) return new CallField(".* \\([EF]\\)", true);
     if (name.equals("ST")) return new StateField("([A-Z]{2})(?: +\\d{5})?", true);
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
@@ -33,12 +32,23 @@ public class OHFairfieldCountyParser extends FieldProgramParser {
   
   private class MyCrossField extends CrossField {
     @Override
-    public void parse(String field, Data data) {
-      if (!field.contains("//")) abort();
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.contains("//")) return false;
       field = field.replace("//", "/");
       field = stripFieldStart(field, "/");
       field = stripFieldEnd(field, "/");
       super.parse(field, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
   }
 }
