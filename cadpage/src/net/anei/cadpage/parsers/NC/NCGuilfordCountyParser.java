@@ -92,6 +92,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     }
   }
 
+  private static final Pattern UNIT_CALL_PTN = Pattern.compile("\\{(\\S+)\\} *(.*)");
   private class MyCall2Field extends MyCallField {
     
     @Override
@@ -101,9 +102,29 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      if (field.length() < 6) return false;
-      parse(field, data);
-      return true;
+      Matcher match = UNIT_CALL_PTN.matcher(field);
+      if (match.matches()) {
+        data.strUnit = match.group(1);
+        data.strCall = match.group(2);
+        return true;
+      }
+      
+      if (field.length() >= 6) {
+        data.strCall = field;
+        return true;
+      }
+      
+      return false;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "UNIT CALL";
     }
   }
   

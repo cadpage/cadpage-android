@@ -27,7 +27,7 @@ public class OHCuyahogaCountyDParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       
       // There should be a city.  If it wasn't found in it's own field
-      // see if it can be found at the beginig of the info field
+      // see if it can be found at the begining of the info field
       if (data.strCity.length() == 0) {
         parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, field, data);
         if (data.strCity.length() == 0) abort();

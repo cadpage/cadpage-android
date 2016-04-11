@@ -257,9 +257,18 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
       Fgevat gzcFhowrpg = fhowrpg;
       vs (cnefrFhowrpg()) {
         vs (cneg.fgnegfJvgu("{")) {
-          vag cg = cneg.vaqrkBs('}');
-          gzcFhowrpg = cneg.fhofgevat(1,cg);
-          cneg = cneg.fhofgevat(cg+1).gevz();
+          vag oenprPag = 0;
+          sbe (vag ww = 0; ww<cneg.yratgu(); ww++) {
+            pune pue = cneg.puneNg(ww);
+            vs (pue == '{') oenprPag++;
+            ryfr vs (pue == '}') {
+              vs (--oenprPag == 0) {
+                gzcFhowrpg = cneg.fhofgevat(1,ww).gevz();
+                cneg = cneg.fhofgevat(ww+1).gevz();
+                oernx;
+              }
+            }
+          }
         }
       }
       Zrffntr zft = arj Zrffntr(gehr, sebzNqqerff, gzcFhowrpg, cneg, trgFcyvgZftBcgvbaf(), snyfr);

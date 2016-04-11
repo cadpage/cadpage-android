@@ -4803,7 +4803,7 @@ choyvp pynff ZBJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "48 LBS N/L O/L",
 
         "NQQE:210 OEBBXRIVRJ",
-        "PVGL:O11",
+        "NCG:O11",
         "PNYY:PURFG CNVA 10",
         "QNGR:04/02/2016",
         "GVZR:13:11",
@@ -5754,14 +5754,6 @@ choyvp pynff ZBJneeraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:JEVTUG PVGL",
         "PNYY:QRPRNFRQ CREFBA",
         "VASB:UBFCVPR QRNGU\aCREFBA- QBEVF W YRTNEAQ\aQBO- 06-11-1935");
-
-    qbGrfg("G11",
-        "{Qvfcngpu} Pnyy Ahzore: 1343464 FHQQRA QRNGU 14750 ZNQVFBA YA JEVTUG PVGL PebffFgerrgf: F FGENPXF PUHEPU EQ 0.17 zv FJ F FGENPXF PUHEPU EQ 0.17 zv FJ  Qrfpevcgvba: CBJRYY, GNEYGBA Y 68 LB ZNYR\a" +
-        "ARRQ GB ABGVSL 400",
-
-        "NQQE:Pnyy Ahzore: 1343464 FHQQRA QRNGU 14750 ZNQVFBA YA JEVTUG PVGL PebffFgerrgf: F FGENPXF PUHEPU EQ 0.17 zv FJ F FGENPXF PUHEPU EQ 0.17 zv FJ",
-        "PVGL:Qrfpevcgvba: CBJRYY, GNEYGBA Y 68 LB ZNYR",
-        "PNYY:ARRQ GB ABGVSL 400");
 
   }
 

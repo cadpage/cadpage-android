@@ -37,6 +37,7 @@ public class MOWarrenCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
 
+  private static final Pattern ADDR_APT_PTN = Pattern.compile("[A-Z]?\\d+[A-Z]?");
   private class MyAddressCityField extends AddressCityField {
     @Override
     public void parse(String field, Data data) {
@@ -45,12 +46,20 @@ public class MOWarrenCountyParser extends FieldProgramParser {
       // space delimiter between the address and city
       int pt = field.lastIndexOf("  ");
       int flags = FLAG_ALLOW_DUAL_DIRECTIONS | FLAG_RECHECK_APT | FLAG_ANCHOR_END;
+      String city = null;
       if (pt >= 0) {
-        data.strCity = field.substring(pt+2).trim();
+        city = field.substring(pt+2).trim();
         field = field.substring(0,pt).trim();
         flags |= FLAG_NO_CITY;
       }
       parseAddress(StartType.START_ADDR, flags, field, data);
+      if (city != null) {
+        if (ADDR_APT_PTN.matcher(city).matches()) {
+          data.strApt = append(data.strApt, "-", city);
+        } else {
+          data.strCity = city;
+        }
+      }
     }
     
     @Override
@@ -137,7 +146,13 @@ public class MOWarrenCountyParser extends FieldProgramParser {
     "WENTZVILLE",
     
     // Independent cities
-    "ST LOUIS"
+    "ST LOUIS",
+    
+    // Places recognized by Google
+    "LAKE SHERWOOD",
+    
+    // Gasconade County
+    "HERMANN"
     
     
   };
