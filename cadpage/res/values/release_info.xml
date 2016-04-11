@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">04052016</string>
+  <string name="release_date">04102016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.07.02\n
+Location Fixes:\n
+Mobile County, AL\n
+El Paso County, CO\n
+Decatur County, GA\n
+Madison County, IN\n
+Warren County, MO\n
+Erie County, NY\n
+Guilford County, NC\n
+Washington County, NC\n
+Fairfield County, OH\n
+Geauga County, OH\n
+Perry County, PA\n
+Dallas County, TX\n
+\n
 v1.9.07.01\n
 New option to have map requests jump directly to turn by turn navigation.  Use at your
 own risk.  Don\'t blame us if you drive into the next county before discovering Google has mismapped the call location\n
@@ -66,13 +81,7 @@ Location Fixes:\n
 Suffolk County, NY\n
 Jones County, NC\n
 Lenoir County, NC\n
-Midlothian, TX\n
-\n
-v1.9.06.11\n
-Location Fixes:\n
-St Louis County, MO\n
-Jefferson County, NY\n
-Dallas County, TX
+Midlothian, TX
   </string>
 </resources>
   

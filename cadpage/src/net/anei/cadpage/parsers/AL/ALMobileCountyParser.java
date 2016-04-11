@@ -24,6 +24,7 @@ public class ALMobileCountyParser extends SmartAddressParser {
   private static final Pattern CITY_ADDR_PTN1 = Pattern.compile("([A-Z]{4}): @(.*)");
   private static final Pattern CITY_ADDR_PTN2 = Pattern.compile("(.*?) ([A-Z]{4})(?:,(\\S*))?:[, ]*(.*)");
   private static final Pattern APT_PTN = Pattern.compile("(?:LOT|APT|#) *(\\S+)\\b *(.*)");
+  private static final Pattern PLACE_BRK_PTN = Pattern.compile(": *(?:(?:LOT|APT|#)? *(\\S+))? *@");
   private static final Pattern TRAIL_APT_PTN = Pattern.compile("(.*), *([^ ]+)");
 
   public ALMobileCountyParser() {
@@ -122,15 +123,26 @@ public class ALMobileCountyParser extends SmartAddressParser {
       }
     }
     
-    boolean endAddr = (place != null || data.strCall.length() > 0);
-    if (endAddr) {
-      if (!addr.endsWith(")")) {
-        int pt = addr.lastIndexOf(',');
-        if (pt >= 0) {
-          if (apt == null) apt = "";
-          apt = append(addr.substring(pt+1).trim(), " ", apt);
-          addr = addr.substring(0,pt).trim();
+    if (addr.startsWith("LL(")) {
+      int pt = addr.indexOf(')', 3);
+      if (pt >= 0) {
+        String tmp = addr.substring(pt+1).trim();
+        addr = addr.substring(0,pt).trim();
+        if (tmp.length() > 0) {
+          tmp = stripFieldStart(tmp, ": @");
+          if (place == null) place = "";
+          place = append(tmp, " - ", place);
         }
+      }
+    }
+    
+    boolean endAddr = (place != null || data.strCall.length() > 0);
+    if (endAddr && !addr.startsWith("LL(")) {
+      int pt = addr.lastIndexOf(',');
+      if (pt >= 0) {
+        if (apt == null) apt = "";
+        apt = append(addr.substring(pt+1).trim(), " ", apt);
+        addr = addr.substring(0,pt).trim();
       }
     }
 
@@ -138,12 +150,12 @@ public class ALMobileCountyParser extends SmartAddressParser {
     if (data.strCity.length() > 0) flags |= FLAG_NO_CITY;
     if (endAddr) flags |= FLAG_ANCHOR_END;
     parseAddress(StartType.START_ADDR, flags, addr, data);
-    if (!addr.endsWith(")") && data.strCity.length() == 0) return false;
+    if (!addr.startsWith("LL(") && data.strCity.length() == 0) return false;
     if (data.strCity.equals("MOBILE COUNTY")) data.strCity = "";
     
     // So  many different choices
     
-    // If we found an postive end address, either we found a place marker or call 
+    // If we found an positive end address, either we found a place marker or call 
     // description or both
     if (endAddr) {
       
@@ -158,25 +170,44 @@ public class ALMobileCountyParser extends SmartAddressParser {
           place = place.substring(0,pt).trim();
         } 
         
-        // No go there, treat first word as place name, rest as call description
+        // No go there, make it all a call description
         else {
-          pt = place.indexOf(' ');
-          if (pt < 0) return false;
-          data.strCall = place.substring(pt+1).trim();
-          place = place.substring(0,pt).trim();
+          data.strCall = place;
+          place = null;
         }
       }
       
       // However we got here, see if there is a remaining place name
       // and if there is strip off a possible apt field before saving it
       if (place != null) {
-        match = TRAIL_APT_PTN.matcher(place);
-        if (match.matches()) {
-          place = match.group(1).trim();
+        
+        match = PLACE_BRK_PTN.matcher(place);
+        int col = 0;
+        while (match.find()) {
+          String part = place.substring(col,match.start()).trim();
+          Matcher mat2 = TRAIL_APT_PTN.matcher(part);
+          if (mat2.matches()) {
+            part = mat2.group(1).trim();
+            if (apt == null) apt = "";
+            apt = append(apt, "-", mat2.group(2));
+          }
+          if (!part.equals(data.strPlace)) data.strPlace = append(data.strPlace, " - ", part);
+          String tmp = match.group(1);
+          if (tmp != null) {
+            if(apt == null) apt = "";
+            apt = append(apt, "-", tmp);
+          }
+          col = match.end();
+        }
+        
+        String part = place.substring(col).trim();
+        Matcher mat2 = TRAIL_APT_PTN.matcher(part);
+        if (mat2.matches()) {
+          part = match.group(1).trim();
           if (apt == null) apt = "";
           apt = append(apt, "-", match.group(2));
         }
-        data.strPlace = place;
+        if (!part.equals(data.strPlace)) data.strPlace = append(data.strPlace, " - ", part);
       }
     }
     
@@ -282,14 +313,16 @@ public class ALMobileCountyParser extends SmartAddressParser {
       "BODY RECOVERY",
       "BOILS",
       "BOMB THREAT",
+      "BREATHING PROBLEMS",
       "BREATHING PROBLEMS / DIFFICULTY SPEAKING",
       "BREATHING PROBLEMS / NOT ALERT",
-      "BREATHING PROBLEMS",
+      "BREATHING PROBLEMS- ALS RESPONSE",
       "BREATHING PROBLEMS: CHANGING COLOR",
       "BREATHING PROBLEMS: CLAMMY",
       "BREATHING PROBLEMS: INEFFECTIVE BREATHING",
       "BRUSH / GRASS FIRE",
       "BRUSH, GRASS, WOODS FIRE",
+      "BRUSH FIRE",
       "BUILDING FIRE",
       "BUMPS",
       "BURNS (SCALDS)/EXPLOSION",
@@ -374,12 +407,14 @@ public class ALMobileCountyParser extends SmartAddressParser {
       "CONSTIPATION",
       "CONTROLLED BURN",
       "CONVULSIONS / SEIZURES",
+      "CONVULSIONS / SEIZURES- ALS RESPONSE",
       "CRAMPS/SPASMS: IN EXTREMITIES",
       "CUT-OFF RING REQUEST",
       "DEAFNESS",
       "DEFECATION/DIARRHEA",
-      "DIABETIC PROBLEMS / ALTERED MENTAL STATUS",
       "DIABETIC PROBLEMS",
+      "DIABETIC PROBLEMS (ABNORMAL BREATHING)",
+      "DIABETIC PROBLEMS / ALTERED MENTAL STATUS",
       "DIABETIC PROBLEMS/ BEHAVING ABNORMALLY",
       "DIABETIC PROBLEMS/ UNCONSCIOUS",
       "DIABETIC PROBLEMS/ABNORMAL BREATHING",
@@ -412,6 +447,7 @@ public class ALMobileCountyParser extends SmartAddressParser {
       "ELECTROCUTION  / LIGHTNING / NOT BREATHING",
       "ELECTROCUTION  / LIGHTNING / NOT DISCONN FROM POWER",
       "ELECTROCUTION  / LIGHTNING / UNCONSCIOUS",
+      "ELECTROCUTION -- ALTERED LOC",
       "ELECTROCUTION / LIGHTNING / UNK STATUS",
       "ELECTROCUTION / LIGHTNING",
       "ELECTROCUTION",
@@ -583,6 +619,7 @@ public class ALMobileCountyParser extends SmartAddressParser {
       "INDUSTRIAL COMPLEX FIRE",
       "INSPECTION FIRE / SMOKE",
       "ITCHING",
+      "LARGE OUTSIDE FIRE",
       "LARGE OUTSIDE FIRE -- HAZARDOUS MATERIALS PRESENT",
       "LAW ENFORCEMENT STANDBY",
       "LIGHTNING STRIKE (NO FIRE) -- COMMERCIAL STRUCTURE",
@@ -612,6 +649,7 @@ public class ALMobileCountyParser extends SmartAddressParser {
       "MEDICAL ALARM ACTIVATION",
       "MOTEL FIRE",
       "MOTOR VEHICLE COLLISION",
+      "MOTOR VEHICLE COLLISION - TRAIN INVOLVED",
       "MOTOR VEHICLE COLLISION WITH ENTRAPMENT",
       "MOTOR VEHICLE COLLISION HIGH VELOCITY IMPACT",
       "MOTOR VEHICLE COLLISION WITH UNKNOWN INJURIES",
@@ -645,6 +683,7 @@ public class ALMobileCountyParser extends SmartAddressParser {
       "OUTSIDE FIRE (LARGE)",
       "OUTSIDE FIRE -- REPORTED EXTINGUISHED",
       "OUTSIDE FIRE -- UNKNOWN SITUATION",
+      "OUTSIDE GAS ODOR",
       "OUTSIDE TANK LEAK <5 GALLONS",
       "OVERDOSE / ANTIDEPRESEANTS",
       "OVERDOSE / COCAINE or METHAMPHETAMINE",
@@ -658,6 +697,7 @@ public class ALMobileCountyParser extends SmartAddressParser {
       "OVERDOSE / POISONING / UNCONSCIOUS",
       "OVERDOSE / WITHOUT PRIORITY SYMPTOMS",
       "OVERDOSE/ POISONING  / NOT ALERT",
+      "OVERDOSE/ POISONING / NOT ALERT",
       "OVERDOSE/ POISONING / UNK STATUS",
       "PAINFUL URINATION",
       "PANDEMIC OUTBREAK / ABNORMAL BREATHING MULTI SYMPT",
@@ -711,6 +751,7 @@ public class ALMobileCountyParser extends SmartAddressParser {
       "SEIZURE / EFFECTIVE BREATHING NOT VERIFIED <35",
       "SEIZURE / EFFECTIVE BREATHING UNVERIFIED",
       "SEIZURE / INEFFECTIVE BREATHING",
+      "SEIZURE / NO LONGER SEIZING & BREATHING NORMALLY",
       "SEIZURE / NO LONGER SEIZING & BREATHING NORMALLY (KNOWN SEIZURE DISORDER)",
       "SEIZURE / NO LONGER SZ, BREATHING",
       "SEIZURE / NOT BREATHING",
@@ -817,6 +858,7 @@ public class ALMobileCountyParser extends SmartAddressParser {
       "TRAFFIC  ACCIDENT / HAZARDOUS MATERIALS INCIDENT",
       "TRAFFIC  ACCIDENT / MINOR INJURIES",
       "TRAFFIC  ACCIDENT / NO INJURIES",
+      "TRAFFIC ACCIDENT / NO INJURIES",
       "TRAFFIC ACCIDENT / HAZARDOUS SCENE",
       "TRAFFIC ACCIDENT / HIGH MECHANISM / PEDESTRIAN",
       "TRAFFIC ACCIDENT / MINOR INJURIES",

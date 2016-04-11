@@ -156,6 +156,7 @@ public class OHLickingCountyParser extends SmartAddressParser {
     "MISTY MEADOWS",
     "MORGAN CENTER",
     "MT VERNON",
+    "NORTH BANK",
     "NORTH ST",
     "NORTH VILLAGE",
     "PHIL LINN",
@@ -193,6 +194,7 @@ public class OHLickingCountyParser extends SmartAddressParser {
     "WEST VIEW",
     "WESTLEY CHAPEL",
     "WHITE CHAPEL"
+
 
     
   };

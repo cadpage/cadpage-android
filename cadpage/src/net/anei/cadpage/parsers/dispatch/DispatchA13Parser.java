@@ -18,7 +18,7 @@ public class DispatchA13Parser extends FieldProgramParser {
   public static final int A13_FLG_LEAD_PLACE = 2;
   public static final int A13_FLG_TRAIL_PLACE = 4;
   
-  private static final String PROGRAM = "SRCID+? STATUS CALL/SDS! ADDR X:GPS1 Y:GPS2";
+  private static final String PROGRAM = "SRCID+? STATUS CALL/SDS! ADDR X:GPS1 Y:GPS2 INFO/N+";
   
   private Properties cityCodes = null;
   private boolean checkCity;
@@ -75,6 +75,7 @@ public class DispatchA13Parser extends FieldProgramParser {
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("GPS1")) return new BaseGPSField(1);
     if (name.equals("GPS2")) return new BaseGPSField(2);
+    if (name.equals("INFO")) return new BaseInfoField();
     return super.getField(name);
   }
   
@@ -501,6 +502,17 @@ public class DispatchA13Parser extends FieldProgramParser {
         data.strGPSLoc = "";
         setGPSLoc(field, data);
       }
+    }
+  }
+  
+  private static final Pattern INFO_PREFIX_PTN = Pattern.compile("^\\[\\d{3,}\\] *");
+  private class BaseInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals("Response Notes:")) return;
+      if (field.equals("Incident Notes:")) return;
+      field = INFO_PREFIX_PTN.matcher(field).replaceFirst("");
+      super.parse(field, data);
     }
   }
 }

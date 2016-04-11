@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 public class NCWashingtonCountyParser extends DispatchSouthernParser {
   
   public NCWashingtonCountyParser() {
-    super(CITY_LIST, "WASHINGTON COUNTY", "NC", DSFLAG_NO_PLACE);
+    super(CITY_LIST, "WASHINGTON COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID | DSFLAG_NO_PLACE);
     addExtendedDirections();
   }
 

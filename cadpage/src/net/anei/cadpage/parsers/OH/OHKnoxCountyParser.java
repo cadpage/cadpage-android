@@ -94,7 +94,8 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
       "9420 GREEN VALLEY RD",                 "+40.425096,-82.574815",
       "13141 HYATT RD",                       "+40.459844,-82.508014",
       "14991 OLD MANSFIELD RD",               "+40.452370,-82.487466",
-      "8938 OVERLY RD",                       "+40.499124,-82.570308"
+      "8938 OVERLY RD",                       "+40.499124,-82.570308",
+      "11580 YANKEE ST",                      "+40.532342,-82.528948"
 
   });
   

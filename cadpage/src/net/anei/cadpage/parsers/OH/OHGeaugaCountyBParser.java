@@ -10,12 +10,12 @@ public class OHGeaugaCountyBParser extends FieldProgramParser {
  
   public OHGeaugaCountyBParser() {
     super("GEAUGA COUNTY", "OH",
-          "SRC! Addr:ADDR! Type:CALL!");
+          "SRC! Addr:ADDR! Type:CALL_INFO!");
   }
   
   @Override
   public String getFilter() {
-    return "OH_GC_ENS@CO.GEAUGA.OH.US";
+    return "OH_GC_ENS@CO.GEAUGA.OH.US,CAD@co.geauga.oh.us";
   }
   
   @Override
@@ -25,14 +25,15 @@ public class OHGeaugaCountyBParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Alert Notification")) return false;
+    body = stripFieldStart(body, "CAD:");
     return super.parseMsg(body, data);
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("SRC")) return new SourceField("[A-Z]{4}");
+    if (name.equals("SRC")) return new SourceField("[A-Z]{4}", true);
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CALL_INFO")) return new MyCallInfoField();
     return super.getField(name);
   }
   
@@ -69,6 +70,35 @@ public class OHGeaugaCountyBParser extends FieldProgramParser {
     public String getFieldNames() {
       return super.getFieldNames() + " PLACE APT CITY";
     }
+  }
+  
+  private static final Pattern INFO_BRK_PTN = Pattern.compile(" *\\d\\d:\\d\\d:\\d\\d \\d\\d/\\d\\d/\\d{4} - (?:[A-Za-z' ]+(?: (?:BB|CHPD|GCSO|SO)|\\.\\.\\.))? *");
+  private static final Pattern CALL_INFO_PTN = Pattern.compile("([-A-Za-z0-9 ]+?) - "); 
+  private class MyCallInfoField extends Field {
+
+    @Override
+    public void parse(String field, Data data) {
+      field = INFO_BRK_PTN.matcher(field).replaceAll("\n");
+      Matcher match = CALL_INFO_PTN.matcher(field);
+      if (match.lookingAt()) {
+        data.strCall = match.group(1).trim();
+        data.strSupp = field.substring(match.end()).trim();
+      } else {
+        int pt = field.indexOf('\n');
+        if (pt >= 0) {
+          data.strCall = stripFieldEnd(field.substring(0,pt).trim(), "-");
+          data.strSupp = field.substring(pt+1).trim();
+        } else {
+          data.strCall = stripFieldEnd(field, "-");
+        }
+      }
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "CALL INFO";
+    }
+    
   }
 
   private String cleanCityName(String city) {

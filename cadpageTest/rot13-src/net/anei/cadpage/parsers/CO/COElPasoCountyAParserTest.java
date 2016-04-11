@@ -10,6 +10,7 @@ Ry Cnfb Pbhagl, PB
 Unaqyrf Npgvir911 cnefref 
 HF/PB/RyCnfbPbhagl
 HF/PB/PvglbsSbegPnefba
+HF/PB/SbegPnefbaCQ
 
 Pbagnpg: Rq Irffre <cnfgbe.rq79@tznvy.pbz>
 Fraqre: rcg@rcg911.vasb
@@ -1240,6 +1241,69 @@ SPSRF : ~UM - Tnf Yrnx angheny tnf/YCT           ~5567 Zpphyybhtu Pve           
 SPSRF : ~JS -  Oehfu/Tenff Zvk                   ~E119                               ~
 SPSRF : ~Fvpx Crefba                             ~8160 CVHGR EQ                 195  ~
 SPSRF : ~CHO - Bqbe Vairfgvtngvba                ~8300 Bpbaaryy Oyiq                 ~
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Sbeg Pnefba CQ
+Ybpngvba: SBEG PNEFBA, PB, Havgrq Fgngrf
+Fraqre: <rcg@rcg911.vasb>
+
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~NYNEZ - VPVQF                           ~2620 Neqraarf Fg                                  #          ~PBS - 2620 SBEG PNEFBA                            ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~GENSSVP NPPVQRAG ABA VAWHEL             ~9067 ZVAVPX NIR                                   #          ~9067 ZVAVPX NIR                                   ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~GENSSVP NPPVQRAG ABA VAWHEL             ~9067 Zvavpx Nir                                   #          ~9067 ZVAVPX NIR                                   ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~TNGR NFFVFGNAPR                         ~7600 Gvghf Oyiq                                   #          ~TNGR 5                                            ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~JNEENAG PBASVEZNGVBA                    ~6012 Aryfba Oyiq                                  #          ~6012 ARYFBA OYIQ (IPP)                            ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~UNENFFZRAG - PBYQ                       ~Aryfba Oyiq / Jner Fg                             #          ~                                                  ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~ERPBEQF PURPX                           ~2700 Puevfgl Fg                                   #          ~2700 PUEVFGL FG                                   ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~BCRA/HAFRPHERQ SNPVYVGL                 ~9447 Jnesvtugre Eq                                #106       ~9447 SBEG PNEFBA                                  ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~O&R - PBYQ                              ~1280 Zntengu Nir                                  #          ~1280 ZNTENGU NIR                                  ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~NYNEZ - OHFVARFF                        ~1210 Rinaf Fg                                     #          ~1210 RINAF FG                                     ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~OHFL                                    ~Jvyqyvsr Bssvpr                                   #          ~                                                  ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~JNEENAG PBASVEZNGVBA                    ~6012 Aryfba Oyiq                                  #          ~6012 ARYFBA OYIQ                                  ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~CNEXVAT CEBOYRZ                         ~1363 Zntengu Nir                                  #          ~1363 SBEG PNEFBA                                  ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~JY - AHVFNAPR JVYQYVSR                  ~Enatr 121p                                        #          ~JY PNYY ENATR PBAGEBY                             ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~NFFNHYG - PBYQ                          ~7500 J Pbpuenar Pve                               #          ~RINAF NEZL UBFCVGNY                               ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~GENSSVP NPPVQRAG ABA VAWHEL             ~Pbggbajbbq Wpg                                    #          ~                                                  ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~NTRAPL NFFVFG - BA CBFG NTRAPL          ~5644 PUREOBHET PVE                                #          ~5644O SBEG PNEFBA                                 ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~ERPBEQF PURPX                           ~1805 Jrgmry Ni                                    #          ~PBHEG PURPXF                                      ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~ERPBEQF PURPX                           ~1805 Jrgmry Ni                                    #          ~JRNCBAF PURPXF                                    ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~PBHEGRFL RFPBEG                         ~2700 Puevfgl Fg                                   #          ~2700 PUEVFGL FG                                   ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~QVFGHEONAPR - VA CEBT                   ~4681 Fbhgu Nyyjbegu Pg                            #S         ~4681 SBEG PNEFBA                                  ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~QEHTF                                   ~102 Onexryrl Ni                                   #          ~TNGR 4   102 ONEXRYRL NIR                         ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~GENSSVP FGBC                            ~6011 Aryfba Oyiq                                  #          ~TNGR 1 - 6011 ARYFBA OYIQ                         ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~ERPBEQF PURPX                           ~9209 Zntengu Nir                                  #          ~TNGR 20                                           ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~QEHTF                                   ~150 Puvyrf Nir                                    #          ~TNGR 3 - 150 PUVYRF NIR                           ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~EBI -WHFG BPPHERQ                       ~6172 Znear Ybbc                                   #N         ~6172N ZNEAR YBBC                                  ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~TNGR NFFVFGNAPR                         ~6011 Aryfba Oyiq                                  #          ~TNGR 1 - 6011 ARYFBA OYIQ                         ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~QVFGHEONAPR - VA CEBT                   ~7931 Onlbarg Pve                                  #P         ~7931P SBEG PNEFBA                                 ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~UNENFFZRAG - PBYQ                       ~4543 Lnorf Pg                                     #          ~4543S SBEG PNEFBA                                 ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~JRYSNER PURPX - TRARENY                 ~900 Zntengu Nir                                   #          ~900 ZNTENGU NIR                                   ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~CNEXVAT CEBOYRZ                         ~9459 Jnesvtugre Eq                                #          ~9459 JNESVTUGRE EQ                                ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~911 UNATHC                              ~4523 Xnebcpmlp Pve                                #          ~4523 SBEG PNEFBA                                  ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~JRYSNER PURPX - TRARENY                 ~6983 Wbry Fg                                      #N         ~6983N WBRY FG                                     ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~GENSSVP NPPVQRAG - PBYQ                 ~2700 Puevfgl Fg                                   #          ~2700 PUEVFGL FG                                   ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~QVFGHEONAPR - VA CEBT                   ~7219 Nggh Qe                                      #O         ~7219O SBEG PNEFBA                                 ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~JNYX VA PNFR                            ~2700 Puevfgl Fg                                   #          ~2700 PUEVFGL FG                                   ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~TNGR NFFVFGNAPR                         ~102 Onexryrl Ni                                   #          ~TNGR 4   102 ONEXRYRL NIR                         ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~TNGR NFFVFGNAPR                         ~8699 Ujl 115                                      #          ~TNGR 6                                            ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~UVG NAQ EHA                             ~8300 Bpbaaryy Oyiq                                #          ~8300 SBEG PNEFBA                                  ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~QVFBEQREYL PBAQHPG                      ~1800 Jrgmry Nir                                   #          ~PBZZVFFNEL - 1800                                 ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~PVGVMRA PBAGNPG                         ~1668 Zntengu Nir                                  #          ~1668 SBEG PNEFBA                                  ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~CNEXVAT CEBOYRZ                         ~9449 Jnesvtugre Eq                                #          ~9449 JNESVTUGRE EQ                                ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~TNGR NFFVFGNAPR                         ~150 Puvyrf Nir                                    #          ~TNGR 3 - 150 PUVYRF NIR                           ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~TNGR NFFVFGNAPR                         ~9209 Zntengu Nir                                  #          ~TNGR 20                                           ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~CNEXVAT CEBOYRZ                         ~2132 Hgnu Ornpu Qe                                #          ~2132  SBEG PNEFBA                                 ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~NONAQBARQ IRUVPYR                       ~5600 Nnpura Qe                                    #          ~5600N NNPURA QE                                   ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~NGGRZCG GB YBPNGR                       ~6110 Znegvarm Fg                                  #          ~QVNM, WRFFVPN YLAA                                ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~NYNEZ - VPVQF                           ~7464 Qriraf Fg                                    #130       ~7464 QRIRAF FG                                    ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~PBQR -  ZBARL RFPBEG                    ~1800 Jrgmry Nir                                   #          ~PBZZVFFNEL - 1800                                 ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~CNEXVAT CEBOYRZ                         ~9604 Fba Gnl Eq                                   #          ~9604 Fba Gnl Eq                                   ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~ERPBEQF PURPX                           ~1805 Jrgmry Ni                                    #          ~NYRKNAQRE, PENVT YNOEBAR                          ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~UVG NAQ EHA                             ~2057 Zntengu Nir                                  #          ~2057 SBEG PNEFBA                                  ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~GENSSVP NPPVQRAG - HAX VAW              ~150 PUVYRF NIR                                    #          ~TNGR 3 - 150 PUVYRF NIR                           ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~GENSSVP NPPVQRAG - HAX VAW              ~150 Puvyrf Nir                                    #          ~TNGR 3 - 150 PUVYRF NIR                           ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~JRYSNER PURPX - TRARENY                 ~5657 Abeznaql Eq                                  #Q         ~5657Q SBEG PNEFBA                                 ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~JRYSNER PURPX - TRARENY                 ~5657 Abeznaql Eq                                  #          ~5657Q SBEG PNEFBA                                 ~k:[Pbzzragf]500 punef.
+SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~GENSSVP FGBC                            ~2410                                              #          ~                                                  ~k:[Pbzzragf]500 punef.
 
 */
 
@@ -12638,6 +12702,419 @@ choyvp pynff PBRyCnfbPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "SPSRF : ~CHO - Bqbe Vairfgvtngvba                ~8300 Bpbaaryy Oyiq                 ~",
         "PNYY:CHO - Bqbe Vairfgvtngvba",
         "NQQE:8300 Bpbaaryy Oyiq");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgSbegPnefbaCQ() {
+
+    qbGrfg("G1",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~NYNEZ - VPVQF                           ~2620 Neqraarf Fg                                  #          ~PBS - 2620 SBEG PNEFBA                            ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:NYNEZ - VPVQF",
+        "NQQE:2620 Neqraarf Fg",
+        "CYNPR:PBS - 2620 SBEG PNEFBA");
+
+    qbGrfg("G2",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~GENSSVP NPPVQRAG ABA VAWHEL             ~9067 ZVAVPX NIR                                   #          ~9067 ZVAVPX NIR                                   ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:GENSSVP NPPVQRAG ABA VAWHEL",
+        "NQQE:9067 ZVAVPX NIR",
+        "CYNPR:9067 ZVAVPX NIR");
+
+    qbGrfg("G3",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~GENSSVP NPPVQRAG ABA VAWHEL             ~9067 Zvavpx Nir                                   #          ~9067 ZVAVPX NIR                                   ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:GENSSVP NPPVQRAG ABA VAWHEL",
+        "NQQE:9067 Zvavpx Nir",
+        "CYNPR:9067 ZVAVPX NIR");
+
+    qbGrfg("G4",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~TNGR NFFVFGNAPR                         ~7600 Gvghf Oyiq                                   #          ~TNGR 5                                            ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:TNGR NFFVFGNAPR",
+        "NQQE:7600 Gvghf Oyiq",
+        "CYNPR:TNGR 5");
+
+    qbGrfg("G5",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~JNEENAG PBASVEZNGVBA                    ~6012 Aryfba Oyiq                                  #          ~6012 ARYFBA OYIQ (IPP)                            ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:JNEENAG PBASVEZNGVBA",
+        "NQQE:6012 Aryfba Oyiq",
+        "CYNPR:6012 ARYFBA OYIQ (IPP)");
+
+    qbGrfg("G6",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~UNENFFZRAG - PBYQ                       ~Aryfba Oyiq / Jner Fg                             #          ~                                                  ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:UNENFFZRAG - PBYQ",
+        "NQQE:Aryfba Oyiq & Jner Fg");
+
+    qbGrfg("G7",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~ERPBEQF PURPX                           ~2700 Puevfgl Fg                                   #          ~2700 PUEVFGL FG                                   ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:ERPBEQF PURPX",
+        "NQQE:2700 Puevfgl Fg",
+        "CYNPR:2700 PUEVFGL FG");
+
+    qbGrfg("G8",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~BCRA/HAFRPHERQ SNPVYVGL                 ~9447 Jnesvtugre Eq                                #106       ~9447 SBEG PNEFBA                                  ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:BCRA/HAFRPHERQ SNPVYVGL",
+        "NQQE:9447 Jnesvtugre Eq",
+        "NCG:106",
+        "CYNPR:9447 SBEG PNEFBA");
+
+    qbGrfg("G9",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~O&R - PBYQ                              ~1280 Zntengu Nir                                  #          ~1280 ZNTENGU NIR                                  ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:O&R - PBYQ",
+        "NQQE:1280 Zntengu Nir",
+        "CYNPR:1280 ZNTENGU NIR");
+
+    qbGrfg("G10",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~NYNEZ - OHFVARFF                        ~1210 Rinaf Fg                                     #          ~1210 RINAF FG                                     ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:NYNEZ - OHFVARFF",
+        "NQQE:1210 Rinaf Fg",
+        "CYNPR:1210 RINAF FG");
+
+    qbGrfg("G11",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~OHFL                                    ~Jvyqyvsr Bssvpr                                   #          ~                                                  ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:OHFL",
+        "NQQE:Jvyqyvsr Bssvpr");
+
+    qbGrfg("G12",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~JNEENAG PBASVEZNGVBA                    ~6012 Aryfba Oyiq                                  #          ~6012 ARYFBA OYIQ                                  ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:JNEENAG PBASVEZNGVBA",
+        "NQQE:6012 Aryfba Oyiq",
+        "CYNPR:6012 ARYFBA OYIQ");
+
+    qbGrfg("G13",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~CNEXVAT CEBOYRZ                         ~1363 Zntengu Nir                                  #          ~1363 SBEG PNEFBA                                  ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:CNEXVAT CEBOYRZ",
+        "NQQE:1363 Zntengu Nir",
+        "CYNPR:1363 SBEG PNEFBA");
+
+    qbGrfg("G14",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~JY - AHVFNAPR JVYQYVSR                  ~Enatr 121p                                        #          ~JY PNYY ENATR PBAGEBY                             ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:JY - AHVFNAPR JVYQYVSR",
+        "NQQE:Enatr 121p",
+        "CYNPR:JY PNYY ENATR PBAGEBY");
+
+    qbGrfg("G15",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~NFFNHYG - PBYQ                          ~7500 J Pbpuenar Pve                               #          ~RINAF NEZL UBFCVGNY                               ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:NFFNHYG - PBYQ",
+        "NQQE:7500 J Pbpuenar Pve",
+        "CYNPR:RINAF NEZL UBFCVGNY");
+
+    qbGrfg("G16",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~GENSSVP NPPVQRAG ABA VAWHEL             ~Pbggbajbbq Wpg                                    #          ~                                                  ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:GENSSVP NPPVQRAG ABA VAWHEL",
+        "NQQE:Pbggbajbbq Wpg");
+
+    qbGrfg("G17",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~NTRAPL NFFVFG - BA CBFG NTRAPL          ~5644 PUREOBHET PVE                                #          ~5644O SBEG PNEFBA                                 ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:NTRAPL NFFVFG - BA CBFG NTRAPL",
+        "NQQE:5644 PUREOBHET PVE",
+        "CYNPR:5644O SBEG PNEFBA");
+
+    qbGrfg("G18",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~ERPBEQF PURPX                           ~1805 Jrgmry Ni                                    #          ~PBHEG PURPXF                                      ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:ERPBEQF PURPX",
+        "NQQE:1805 Jrgmry Ni",
+        "ZNQQE:1805 Jrgmry Nir",
+        "CYNPR:PBHEG PURPXF");
+
+    qbGrfg("G19",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~ERPBEQF PURPX                           ~1805 Jrgmry Ni                                    #          ~JRNCBAF PURPXF                                    ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:ERPBEQF PURPX",
+        "NQQE:1805 Jrgmry Ni",
+        "ZNQQE:1805 Jrgmry Nir",
+        "CYNPR:JRNCBAF PURPXF");
+
+    qbGrfg("G20",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~PBHEGRFL RFPBEG                         ~2700 Puevfgl Fg                                   #          ~2700 PUEVFGL FG                                   ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:PBHEGRFL RFPBEG",
+        "NQQE:2700 Puevfgl Fg",
+        "CYNPR:2700 PUEVFGL FG");
+
+    qbGrfg("G21",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~QVFGHEONAPR - VA CEBT                   ~4681 Fbhgu Nyyjbegu Pg                            #S         ~4681 SBEG PNEFBA                                  ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:QVFGHEONAPR - VA CEBT",
+        "NQQE:4681 Fbhgu Nyyjbegu Pg",
+        "NCG:S",
+        "CYNPR:4681 SBEG PNEFBA");
+
+    qbGrfg("G22",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~QEHTF                                   ~102 Onexryrl Ni                                   #          ~TNGR 4   102 ONEXRYRL NIR                         ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:QEHTF",
+        "NQQE:102 Onexryrl Ni",
+        "ZNQQE:102 Onexryrl Nir",
+        "CYNPR:TNGR 4   102 ONEXRYRL NIR");
+
+    qbGrfg("G23",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~GENSSVP FGBC                            ~6011 Aryfba Oyiq                                  #          ~TNGR 1 - 6011 ARYFBA OYIQ                         ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:GENSSVP FGBC",
+        "NQQE:6011 Aryfba Oyiq",
+        "CYNPR:TNGR 1 - 6011 ARYFBA OYIQ");
+
+    qbGrfg("G24",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~ERPBEQF PURPX                           ~9209 Zntengu Nir                                  #          ~TNGR 20                                           ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:ERPBEQF PURPX",
+        "NQQE:9209 Zntengu Nir",
+        "CYNPR:TNGR 20");
+
+    qbGrfg("G25",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~QEHTF                                   ~150 Puvyrf Nir                                    #          ~TNGR 3 - 150 PUVYRF NIR                           ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:QEHTF",
+        "NQQE:150 Puvyrf Nir",
+        "CYNPR:TNGR 3 - 150 PUVYRF NIR");
+
+    qbGrfg("G26",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~EBI -WHFG BPPHERQ                       ~6172 Znear Ybbc                                   #N         ~6172N ZNEAR YBBC                                  ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:EBI -WHFG BPPHERQ",
+        "NQQE:6172 Znear Ybbc",
+        "NCG:N",
+        "CYNPR:6172N ZNEAR YBBC");
+
+    qbGrfg("G27",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~TNGR NFFVFGNAPR                         ~6011 Aryfba Oyiq                                  #          ~TNGR 1 - 6011 ARYFBA OYIQ                         ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:TNGR NFFVFGNAPR",
+        "NQQE:6011 Aryfba Oyiq",
+        "CYNPR:TNGR 1 - 6011 ARYFBA OYIQ");
+
+    qbGrfg("G28",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~QVFGHEONAPR - VA CEBT                   ~7931 Onlbarg Pve                                  #P         ~7931P SBEG PNEFBA                                 ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:QVFGHEONAPR - VA CEBT",
+        "NQQE:7931 Onlbarg Pve",
+        "NCG:P",
+        "CYNPR:7931P SBEG PNEFBA");
+
+    qbGrfg("G29",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~UNENFFZRAG - PBYQ                       ~4543 Lnorf Pg                                     #          ~4543S SBEG PNEFBA                                 ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:UNENFFZRAG - PBYQ",
+        "NQQE:4543 Lnorf Pg",
+        "CYNPR:4543S SBEG PNEFBA");
+
+    qbGrfg("G30",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~JRYSNER PURPX - TRARENY                 ~900 Zntengu Nir                                   #          ~900 ZNTENGU NIR                                   ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:JRYSNER PURPX - TRARENY",
+        "NQQE:900 Zntengu Nir",
+        "CYNPR:900 ZNTENGU NIR");
+
+    qbGrfg("G31",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~CNEXVAT CEBOYRZ                         ~9459 Jnesvtugre Eq                                #          ~9459 JNESVTUGRE EQ                                ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:CNEXVAT CEBOYRZ",
+        "NQQE:9459 Jnesvtugre Eq",
+        "CYNPR:9459 JNESVTUGRE EQ");
+
+    qbGrfg("G32",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~911 UNATHC                              ~4523 Xnebcpmlp Pve                                #          ~4523 SBEG PNEFBA                                  ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:911 UNATHC",
+        "NQQE:4523 Xnebcpmlp Pve",
+        "CYNPR:4523 SBEG PNEFBA");
+
+    qbGrfg("G33",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~JRYSNER PURPX - TRARENY                 ~6983 Wbry Fg                                      #N         ~6983N WBRY FG                                     ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:JRYSNER PURPX - TRARENY",
+        "NQQE:6983 Wbry Fg",
+        "NCG:N",
+        "CYNPR:6983N WBRY FG");
+
+    qbGrfg("G34",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~GENSSVP NPPVQRAG - PBYQ                 ~2700 Puevfgl Fg                                   #          ~2700 PUEVFGL FG                                   ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:GENSSVP NPPVQRAG - PBYQ",
+        "NQQE:2700 Puevfgl Fg",
+        "CYNPR:2700 PUEVFGL FG");
+
+    qbGrfg("G35",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~QVFGHEONAPR - VA CEBT                   ~7219 Nggh Qe                                      #O         ~7219O SBEG PNEFBA                                 ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:QVFGHEONAPR - VA CEBT",
+        "NQQE:7219 Nggh Qe",
+        "NCG:O",
+        "CYNPR:7219O SBEG PNEFBA");
+
+    qbGrfg("G36",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~JNYX VA PNFR                            ~2700 Puevfgl Fg                                   #          ~2700 PUEVFGL FG                                   ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:JNYX VA PNFR",
+        "NQQE:2700 Puevfgl Fg",
+        "CYNPR:2700 PUEVFGL FG");
+
+    qbGrfg("G37",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~TNGR NFFVFGNAPR                         ~102 Onexryrl Ni                                   #          ~TNGR 4   102 ONEXRYRL NIR                         ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:TNGR NFFVFGNAPR",
+        "NQQE:102 Onexryrl Ni",
+        "ZNQQE:102 Onexryrl Nir",
+        "CYNPR:TNGR 4   102 ONEXRYRL NIR");
+
+    qbGrfg("G38",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~TNGR NFFVFGNAPR                         ~8699 Ujl 115                                      #          ~TNGR 6                                            ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:TNGR NFFVFGNAPR",
+        "NQQE:8699 Ujl 115",
+        "CYNPR:TNGR 6");
+
+    qbGrfg("G39",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~UVG NAQ EHA                             ~8300 Bpbaaryy Oyiq                                #          ~8300 SBEG PNEFBA                                  ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:UVG NAQ EHA",
+        "NQQE:8300 Bpbaaryy Oyiq",
+        "CYNPR:8300 SBEG PNEFBA");
+
+    qbGrfg("G40",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~QVFBEQREYL PBAQHPG                      ~1800 Jrgmry Nir                                   #          ~PBZZVFFNEL - 1800                                 ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:QVFBEQREYL PBAQHPG",
+        "NQQE:1800 Jrgmry Nir",
+        "CYNPR:PBZZVFFNEL - 1800");
+
+    qbGrfg("G41",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~PVGVMRA PBAGNPG                         ~1668 Zntengu Nir                                  #          ~1668 SBEG PNEFBA                                  ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:PVGVMRA PBAGNPG",
+        "NQQE:1668 Zntengu Nir",
+        "CYNPR:1668 SBEG PNEFBA");
+
+    qbGrfg("G42",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~CNEXVAT CEBOYRZ                         ~9449 Jnesvtugre Eq                                #          ~9449 JNESVTUGRE EQ                                ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:CNEXVAT CEBOYRZ",
+        "NQQE:9449 Jnesvtugre Eq",
+        "CYNPR:9449 JNESVTUGRE EQ");
+
+    qbGrfg("G43",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~TNGR NFFVFGNAPR                         ~150 Puvyrf Nir                                    #          ~TNGR 3 - 150 PUVYRF NIR                           ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:TNGR NFFVFGNAPR",
+        "NQQE:150 Puvyrf Nir",
+        "CYNPR:TNGR 3 - 150 PUVYRF NIR");
+
+    qbGrfg("G44",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~TNGR NFFVFGNAPR                         ~9209 Zntengu Nir                                  #          ~TNGR 20                                           ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:TNGR NFFVFGNAPR",
+        "NQQE:9209 Zntengu Nir",
+        "CYNPR:TNGR 20");
+
+    qbGrfg("G45",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~CNEXVAT CEBOYRZ                         ~2132 Hgnu Ornpu Qe                                #          ~2132  SBEG PNEFBA                                 ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:CNEXVAT CEBOYRZ",
+        "NQQE:2132 Hgnu Ornpu Qe",
+        "CYNPR:2132  SBEG PNEFBA");
+
+    qbGrfg("G46",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~NONAQBARQ IRUVPYR                       ~5600 Nnpura Qe                                    #          ~5600N NNPURA QE                                   ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:NONAQBARQ IRUVPYR",
+        "NQQE:5600 Nnpura Qe",
+        "CYNPR:5600N NNPURA QE");
+
+    qbGrfg("G47",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~NGGRZCG GB YBPNGR                       ~6110 Znegvarm Fg                                  #          ~QVNM, WRFFVPN YLAA                                ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:NGGRZCG GB YBPNGR",
+        "NQQE:6110 Znegvarm Fg",
+        "CYNPR:QVNM, WRFFVPN YLAA");
+
+    qbGrfg("G48",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~NYNEZ - VPVQF                           ~7464 Qriraf Fg                                    #130       ~7464 QRIRAF FG                                    ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:NYNEZ - VPVQF",
+        "NQQE:7464 Qriraf Fg",
+        "NCG:130",
+        "CYNPR:7464 QRIRAF FG");
+
+    qbGrfg("G49",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~PBQR -  ZBARL RFPBEG                    ~1800 Jrgmry Nir                                   #          ~PBZZVFFNEL - 1800                                 ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:PBQR -  ZBARL RFPBEG",
+        "NQQE:1800 Jrgmry Nir",
+        "CYNPR:PBZZVFFNEL - 1800");
+
+    qbGrfg("G50",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~CNEXVAT CEBOYRZ                         ~9604 Fba Gnl Eq                                   #          ~9604 Fba Gnl Eq                                   ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:CNEXVAT CEBOYRZ",
+        "NQQE:9604 Fba Gnl Eq",
+        "CYNPR:9604 Fba Gnl Eq");
+
+    qbGrfg("G51",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~ERPBEQF PURPX                           ~1805 Jrgmry Ni                                    #          ~NYRKNAQRE, PENVT YNOEBAR                          ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:ERPBEQF PURPX",
+        "NQQE:1805 Jrgmry Ni",
+        "ZNQQE:1805 Jrgmry Nir",
+        "CYNPR:NYRKNAQRE, PENVT YNOEBAR");
+
+    qbGrfg("G52",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~UVG NAQ EHA                             ~2057 Zntengu Nir                                  #          ~2057 SBEG PNEFBA                                  ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:UVG NAQ EHA",
+        "NQQE:2057 Zntengu Nir",
+        "CYNPR:2057 SBEG PNEFBA");
+
+    qbGrfg("G53",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~GENSSVP NPPVQRAG - HAX VAW              ~150 PUVYRF NIR                                    #          ~TNGR 3 - 150 PUVYRF NIR                           ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:GENSSVP NPPVQRAG - HAX VAW",
+        "NQQE:150 PUVYRF NIR",
+        "CYNPR:TNGR 3 - 150 PUVYRF NIR");
+
+    qbGrfg("G54",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~GENSSVP NPPVQRAG - HAX VAW              ~150 Puvyrf Nir                                    #          ~TNGR 3 - 150 PUVYRF NIR                           ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:GENSSVP NPPVQRAG - HAX VAW",
+        "NQQE:150 Puvyrf Nir",
+        "CYNPR:TNGR 3 - 150 PUVYRF NIR");
+
+    qbGrfg("G55",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~JRYSNER PURPX - TRARENY                 ~5657 Abeznaql Eq                                  #Q         ~5657Q SBEG PNEFBA                                 ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:JRYSNER PURPX - TRARENY",
+        "NQQE:5657 Abeznaql Eq",
+        "NCG:Q",
+        "CYNPR:5657Q SBEG PNEFBA");
+
+    qbGrfg("G56",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~JRYSNER PURPX - TRARENY                 ~5657 Abeznaql Eq                                  #          ~5657Q SBEG PNEFBA                                 ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:JRYSNER PURPX - TRARENY",
+        "NQQE:5657 Abeznaql Eq",
+        "CYNPR:5657Q SBEG PNEFBA");
+
+    qbGrfg("G57",
+        "SP CZB:[Nyy_Havgf_Nffvtarq]30 punef.~GENSSVP FGBC                            ~2410                                              #          ~                                                  ~k:[Pbzzragf]500 punef.",
+        "FEP:SP CZB",
+        "PNYY:GENSSVP FGBC",
+        "NQQE:2410");
 
   }
 
