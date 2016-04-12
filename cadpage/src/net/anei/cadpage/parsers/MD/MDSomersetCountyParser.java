@@ -15,7 +15,7 @@ public class MDSomersetCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "CAD@somerset911.local";
+    return "CAD@somerset911.local,CAD@somersetmd.us";
   }
   
   @Override

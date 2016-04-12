@@ -21,6 +21,10 @@ Fraqre: PNQ@fbzrefrg911.ybpny
 PNQ:FG3;BHGFVQR SVER;30549 ZNEHZFPB EQ;ZNEV;[Sver Cevbevgl Vasb] ERFCBAFR: Oenib ERFCBAQRE FPEVCG: Bhgfvqr Sver. FZNYY BHGFVQR sver (Haxabja).Pnyyre Fgngrzrag
 PNQ:ZHGHNY NVQ NFFVFG BHGFVQR NTRA;24666 FVYIRE YA
 
+Pbagnpg: fabsbk_68 <fabsbk_68@lnubb.pbz>
+Fraqre: PNQ@fbzrefrgzq.hf
+(Fbzrefrg 911) PNQ:FG3;ZRQVPNY NFFVFG;28152 PEVFSVRYQ ZNEVBA EQ;ZNEV
+
 */
 
 choyvp pynff ZQFbzrefrgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -72,6 +76,18 @@ choyvp pynff ZQFbzrefrgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNQ:ZHGHNY NVQ NFFVFG BHGFVQR NTRA;24666 FVYIRE YA",
         "PNYY:ZHGHNY NVQ NFFVFG BHGFVQR NTRA",
         "NQQE:24666 FVYIRE YA");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgFabsnk68() {
+
+    qbGrfg("G5",
+        "(Fbzrefrg 911) PNQ:FG3;ZRQVPNY NFFVFG;28152 PEVFSVRYQ ZNEVBA EQ;ZNEV",
+        "FEP:FG3",
+        "PNYY:ZRQVPNY NFFVFG",
+        "NQQE:28152 PEVFSVRYQ ZNEVBA EQ",
+        "PVGL:ZNEVBA FGNGVBA");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
