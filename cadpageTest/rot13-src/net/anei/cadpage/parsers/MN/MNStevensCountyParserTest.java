@@ -72,7 +72,7 @@ choyvp pynff ZAFgrirafPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY: Nzohynapr-Nzohynapr Genafsre;CYNPR: FG PYBHQ UBFCVGNY;NQQE: 1406 6gu NIR A;PVGL: FG PYBHQ;VQ: 20160002018;CEV: 1",
         "PNYY:Nzohynapr-Nzohynapr Genafsre",
         "CYNPR:FG PYBHQ UBFCVGNY",
-        "NQQE:1406 6gu NIR A", //qbrf abg znc
+        "NQQE:1406 6gu NIR A",
         "PVGL:FG PYBHQ",
         "VQ:20160002018",
         "CEV:1");
@@ -81,7 +81,7 @@ choyvp pynff ZAFgrirafPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY: Nzohynapr-Nzohynapr Genafsre;CYNPR: NOOBGG ABEGUJRFGREA UBFCVGNY;NQQE: 800 R 28gu FG;PVGL: ZVAARNCBYVF;VQ: 20160002004;CEV: 1;VASB: NYF GENAFSRE SEBZ RE GB NOOBG NFNC",
         "PNYY:Nzohynapr-Nzohynapr Genafsre",
         "CYNPR:NOOBGG ABEGUJRFGREA UBFCVGNY",
-        "NQQE:800 R 28gu FG", //qbrf abg znc
+        "NQQE:800 R 28gu FG",
         "PVGL:ZVAARNCBYVF",
         "VQ:20160002004",
         "CEV:1",
@@ -91,7 +91,7 @@ choyvp pynff ZAFgrirafPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY: Nzohynapr-Nzohynapr Genafsre;CYNPR: QBHTYNF PB UBFCVGNY;NQQE: 111 17gu NIR R;PVGL: NYRKNAQEVN;VQ: 20160002003;CEV: 1;VASB: OYF KSRE SEBZ RE GB QBHTYNF PB UBFC RE",
         "PNYY:Nzohynapr-Nzohynapr Genafsre",
         "CYNPR:QBHTYNF PB UBFCVGNY",
-        "NQQE:111 17gu NIR R", //qbrf abg znc
+        "NQQE:111 17gu NIR R",
         "PVGL:NYRKNAQEVN",
         "VQ:20160002003",
         "CEV:1",
