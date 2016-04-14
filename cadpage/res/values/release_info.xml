@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">04102016</string>
+  <string name="release_date">04122016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.07.03\n
+Location Fixes:\n
+Citrus County, FL\n
+SOmerset County, MD\n
+Adams County, PA\n
+PennStarr, PA\n
+\n
 v1.9.07.02\n
 Location Fixes:\n
 Mobile County, AL\n
@@ -74,14 +81,7 @@ Chatham-Kent, Ontario\n
 \n
 Location Fixes:\n
 Broome County, NY\n
-Susquehanna County, PA\n
-\n
-v1.9.06.12\n
-Location Fixes:\n
-Suffolk County, NY\n
-Jones County, NC\n
-Lenoir County, NC\n
-Midlothian, TX
+Susquehanna County, PA
   </string>
 </resources>
   

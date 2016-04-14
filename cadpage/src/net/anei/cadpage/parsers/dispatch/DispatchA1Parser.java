@@ -23,17 +23,26 @@ public class DispatchA1Parser extends FieldProgramParser {
   
   public DispatchA1Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState, 
-           "ALRM_LVL:PRI? RUN_CARD:BOX? LOC:PLACE PLACE2? ADDR! APT? CITY BTWN:X INCIDENT:ID? COM:INFO INFO+? CT:INFO INFO+? UNITS:UNIT INCIDENT:ID DATE/TIME:DATETIME RPT_#:EMPTY ID");
+           "( CANCEL_INCIDENT:ID! LOC:ADDR! UNITS:UNIT! CALL! INFO/N+ " +
+           "| ALRM_LVL:PRI? RUN_CARD:BOX? LOC:PLACE PLACE2? ADDR! APT? CITY BTWN:X INCIDENT:ID? COM:INFO INFO+? CT:INFO INFO+? UNITS:UNIT INCIDENT:ID DATE/TIME:DATETIME RPT_#:EMPTY ID )");
   }
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (! subject.startsWith("Alert:")) return false;
-    data.strCall = subject.substring(6).trim();
-    if (data.strCall.length() == 0) data.strCall = "ALERT";
-    body = body.replace(", RUN CARD:", "\nRUN CARD:");
-    return parseFields(body.split("\n"), data);
+    if (subject.startsWith("Alert:")) {
+      data.strCall = subject.substring(6).trim();
+      if (data.strCall.length() == 0) data.strCall = "ALERT";
+      body = body.replace(", RUN CARD:", "\nRUN CARD:");
+      return parseFields(body.split("\n"), data);
+    }
+    
+    if (subject.endsWith("Cancel Message")) {
+      if (!parseFields(body.split("\n"), data)) return false;
+      data.strCall = append("CANCEL", " - ", data.strCall);
+      return true;
+    }
+    return false;
   }
   
   @Override

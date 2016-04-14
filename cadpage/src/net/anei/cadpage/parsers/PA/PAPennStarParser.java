@@ -5,10 +5,12 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
 public class PAPennStarParser extends FieldProgramParser {
   
-  private static final Pattern PTN_CALL_ID = Pattern.compile("^([0-9]{2}-[0-9]{2}-[0-9]+): +");
+  private static final Pattern CALL_ID_PTN = Pattern.compile("\\b([0-9]{2}-[0-9]{2}-[0-9]+): +");
   
   public PAPennStarParser() {
     super("", "PA", 
@@ -26,13 +28,20 @@ public class PAPennStarParser extends FieldProgramParser {
   }
   
   @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom();
+  }
+
+  @Override
   public boolean parseMsg(String body, Data data) {
     
     // Extract the Call ID (ex: 23-13-21515:), ':' is always the delimiter for this field
-    Matcher match = PTN_CALL_ID.matcher(body);
-    if(!match.find()) return false;
+    Matcher match = CALL_ID_PTN.matcher(body);
+    if(!match.lookingAt()) return false;
     data.strCallId = match.group(1);
     body = body.substring(match.end());
+
+    body = CALL_ID_PTN.matcher(body).replaceAll("");
     String saveBody = body;
     
     if (body.startsWith("(STANDBY)")) {
@@ -46,6 +55,7 @@ public class PAPennStarParser extends FieldProgramParser {
     }
     
     else {
+      setFieldList("ID INFO");
       String id = data.strCallId;
       data.parseGeneralAlert(this, saveBody);
       data.strCallId = id;
@@ -61,7 +71,7 @@ public class PAPennStarParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR_GPS")) return new MyAddressField("[NSEW]\\d+ \\d+\\.\\d+", " ");
-    if (name.equals("ADDR_DIST")) return new MyAddressField("\\d+\\.\\d+ nm", ", ");
+    if (name.equals("ADDR_DIST")) return new MyAddressField("\\d+(?:\\.\\d+)? nm", ", ");
     if (name.equals("ADDR_DEG")) return new MyAddressField("\\d+(?:\\.\\d+)? deg", ", ");
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("APT")) return new AptField(".{1,3}", true);

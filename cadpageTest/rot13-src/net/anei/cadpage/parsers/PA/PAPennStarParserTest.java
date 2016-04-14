@@ -5,48 +5,171 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: CraaFGNE Syvtug
 Ybpngvba: Cuvynqrycuvn, CN, Havgrq Fgngrf
 Fraqre: PBZZ@hcuf.hcraa.rqh
 
-23-15-41176: CraaFGNE 6, A40 56.979, J75 57.87, 58.27 az, 339.13 qrt, Yruvtu Inyyrl Ubfcvgny - Unmyrgba, Gb: UHC - Ubfc bs Havi bs Craa
-23-15-41172: CraaFGNE 6, A40 13.06, J74 44.21, 24.86 az, 90.5 qrt, Fnvag Senapvf Zrqvpny Pragre - Geragba, Gb: UHC - Ubfc bs Havi bs Craa
-23-15-41172: CraaFGNE 2, A40 13.06, J74 44.21, 46.16 az, 2.89 qrt, Fnvag Senapvf Zrqvpny Pragre - Geragba, Gb: UHC -_1 bs 2
-23-15-41173: CraaFGNE 5, A40 48.72, J75 36.33, 7.11 az, 100.74 qrt, YGJ Cnyzregba Uvtu Fpubby, Gb: FYU - Fnvag Yhxrf Ubfcvgny
-23-15-41174: CraaFGNE 1, A40 19.54, J75 57.23, 33.61 az, 302.15 qrt, EUZP - Ernqvat Ubfcvgny ZP, Gb: Zvygba F Urefurl Zrqvpny Pragre
-23-15-41170: CraaFGNE PPG 1, Craaflyinavn Ubfcvgny, 800 Fcehpr Fgerrg, Cuvynqrycuvn, CN, Gb: UHC - Ubfc bs Havi bs Craa
-23-15-41164: CraaFGNE 6, A40 6.71, J75 4.55, 11.13 az, 39.63 qrt, Ubyl Erqrrzre Ubfcvgny, Gb: UHC - Ubfc bs Havi bs Craa
-23-15-41162: CraaFGNE 3, A40 14.11, J74 45.02, 40.35 az, 150.45 qrt, Pncvgny Urnygu - Ertvbany Zrqvpny Pragre, Gb: UHC- Ubfc bs Havi bs Craa
-23-15-41163: (FGNAQOL) CraaFGNE 2, A39 44.04, J75 3.71, 27.92 az, 318.65 qrt, Xraarql Havi Ubfcvgny - Jnfuvatgba Gjc, Gb: UHC - Ubfc bs Havi bs Craa
-23-15-41162: (FGNAQOL) CraaFGNE 3, A40 14.11, J74 45.02, 40.35 az, 150.45 qrt, Pncvgny Urnygu - Ertvbany Zrqvpny Ubfcvgny
-23-15-41160: CraaFGNE 1, A40 6.28, J75 12.76, 3.15 az, 139.44 qrt, Sybhegbja Sver Pbzcnal (#06), Gb: CCZP - Craa Cerfolgrevna ZP
-23-15-41161: CraaFGNE PPG 1, Purfgahg Uvyy Ubfcvgny, 8835 Treznagbja Nirahr, Cuvynqrycuvn, CN RQ Ebbz 16. Ynfg anzr: Oebjaonpx
-23-15-41159: CraaFGNE 6, A39 58.14, J75 36.12, 18.42 az, 249.19 qrt, Purfgre Pbhagl Ubfcvgny, Gb: UHC - Ubfc bs Havi bs Craa
-23-15-41158: CraaFGNE 3, Syg # 23-15-41158  BPP# 3430 Cg Jtg 17 Xt_1 bs 1
-23-15-41158: CraaFGNE 3, A40 19.54, J75 57.23, 25.45 az, 247.08 qrt, EUZP - Ernqvat Ubfcvgny ZP, Gb: Zvygba F Urefurl Zrqvpny Pragre
-23-15-41157: CraaFGNE 3, A40 36.5, J75 23.6, 8.17 az, 211.42 qrt, FYU - Fnvag Yhxrf Ubfcvgny, Gb: Yruvtu Inyyrl Ubfcvgny
-23-15-41154: CraaFGNE 4, A40 19.2, J76 25.16, 21.37 az, 281.24 qrt, Tbbq Fnznevgna Ubfcvgny - Yronaba, Gb: UHC - Ubfc bs Havi bs Craa
-23-15-41156: CraaFGNE 1, A40 7.9, J75 20.9, 3.75 az, 277.58 qrt, Abeevfgbja Fgngr Ubfcvgny, Gb: UHC - Ubfc bs Havi bs_1 bs 2
-23-15-41155: CraaFGNE 5, A40 49.1, J75 54.7, 6.86 az, 286.49 qrt, Zvaref Zrzbevny Ubfcvgny, Gb: FYU - Fnvag Yhxrf Ubfcvgny
-23-15-41156: (FGNAQOL) CraaFGNE 1, A40 7.9, J75 20.9, 3.75 az, 277.58 qrt, Abeevfgbja Fgngr Ubfcvgny_1 bs 1
-23-15-41153: CraaFGNE PPG 1, UHC - Ubfc bs Havi bs Craa, 3400 Fcehpr Fgerrg, Cuvynqrycuvn, CN, Gb: CCZP - Craa_1 bs 2
-23-15-41152: (FGNAQOL) CraaFGNE 2, A39 35.26, J75 10.78, 29.04 az, 297.82 qrt, Vafcven Zrqvpny Pragre - Ryzre, Gb: UHC - Ubfc bs Havi bs Craa
-23-15-41151: CraaFGNE 4, A40 19.54, J75 57.23, 0.31 az, 228.52 qrt, EUZP - Ernqvat Ubfcvgny ZP, Gb: Gubznf Wrssrefba_1 bs 2
-23-15-41148: CraaFGNE 6, A40 21.77, J75 19.73, 13.87 az, 0.24 qrt, Tenaqivrj Ubfcvgny, Gb: PUBC Puvyqeraf Ubfcvgny bs Havirefvgl Ubfcvgny
-23-15-41147: CraaFGNE 1, A40 21.77, J75 19.73, 13.87 az, 0.24 qrt, Tenaqivrj Ubfcvgny, Gb: PUBC Puvyqeraf Ubfcvgny bs Cuvynqrycuvn
-23-15-41145: CraaFGNE 4, A40 19.54, J75 57.23, 12 qrt, EUZP - Ernqvat Ubfcvgny ZP_1 bs 1
-23-15-41144: (FGNAQOL) CraaFGNE 1, A39 58.14, J75 36.12, 18.41 az, 248.95 qrt, Purfgre Pbhagl Ubfcvgny, Gb: CCZP - Craa Cerfolgrevna ZP
-23-15-41143: CraaFGNE PPG 1, Purfgre Pbhagl Ubfcvgny, 701 Rnfg Znefunyy Fgerrg, Jrfg Purfgre, CN, Gb: UHC - Ubfc bs Havi bs Craa
-23-15-41135: CraaFGNE 4, A40 22.71, J75 57.92, 3.01 az, 358.38 qrt, Ernqvat Ertvbany Nvecbeg, Gb: EUZP - Ernqvat Ubfcvgny
-23-15-41132: CraaFGNE 1, A39 5.26, J74 49.01, 66.26 az, 173.56 qrt, Pncr Ertvbany Zrqvpny Pragre, Gb: CCZP - Craa Cerfolgrevna ZP
-23-15-41133: CraaFGNE PPG 1, Nevn Urnygu - Senaxsbeq, 4900 Senaxsbeq Nirahr, Cuvynqrycuvn, CN, Gb: Craaflyinavn Ubfcvgny
-23-15-41131: CraaFGNE 5, A40 49.1, J75 54.7, 6.86 az, 286.49 qrt, Zvaref Zrzbevny Ubfcvgny, Gb: FYU - Fnvag Yhxrf Ubfcvgny
-23-15-41130: CraaFGNE 3, A40 4.18, J74 58.95, 43.12 az, 170.04 qrt, Nevn Urnygu - Gbeerfqnyr, Gb: UHC - Ubfc bs Havi_1 bs 2
-23-15-41129: (FGNAQOL) CraaFGNE 1, A39 58.14, J75 36.12, 18.41 az, 248.95 qrt, Purfgre Pbhagl Ubfcvgny, 306, Gb: UHC - Ubfc bs Havi bs Craa
-23-15-41126: CraaFGNE 4, A40 15.476, J76 52.885, 42.99 az, 276.53 qrt, Uneevfohet Ubfcvgny - CvaanpyrUrnygu, Gb: UHC - Ubfc bs Havi bs Craa
-23-15-41127: (FGNAQOL) CraaFGNE 2, A40 16.6, J74 48.81, 50.3 az, 359.59 qrt, Geragba Zrepre Nvecbeg, 2152, Gb: UHC - Ubfc bs Havi bs Craa
-23-15-41128: CraaFGNE PPG 1, Zrepl Ubfcvgny - Cuvynqrycuvn, 501 Fbhgu 54gu Fgerrg, Cuvynqrycuvn, CN, Gb: UHC - Ubfc bs Havi bs Craa
+{{{
+23-16-49181: Craaflyinavn Ubfcvgny_2 bs 2
+23-16-49181: Fninaanu Yrr, Srznyr, 04-11-1994, 22 le, 127.0 xt, Nqhyg - Aba-Genhzn Arheb, Erdhrfgrq ol Culfvpvna,_1 bs 2
+}}}
+23-16-49181: (FGNAQOL) CraaFGNE NYF/Z108-7O, UHC - Ubfc bs Havi bs Craa, 3400 Fcehpr Fgerrg, Cuvynqrycuvn, CN, Gb:_1 bs 2
+23-16-49181: (FGNAQOL) CraaFGNE PPG 1, UHC - Ubfc bs Havi bs Craa, 3400 Fcehpr Fgerrg, Cuvynqrycuvn, CN, Gb:_1 bs 2
+23-16-49180: CraaFGNE PPG 1, Ynaxranh Ubfcvgny, 100 Ynapnfgre Nirahr, Jlaarjbbq, CN, Gb: CCZP - Craa Cerfolgrevna ZP_1 bs 1
+23-16-49175: Cg. Wnzne Jnyxre va 4014 gb 567 ...cg ba Nzvbqnebar, fnyvar,  + sbe zrepre , 91/66, 77 veert, 21 99%ez_1 bs 1
+{{{
+23-16-49175: CraaFGNE NYF/Z108-7O, Pebmre Purfgre Zrqvpny Pragre, 1 Zrqvpny Pragre Obhyrineq, Hcynaq, CN, Gb: UHC -_1 bs 2
+23-16-49175: Ubfc bs Havi bs Craa_2 bs 2
+}}}
+{{{
+23-16-49174: Cerfolgrevna ZP_2 bs 2
+23-16-49174: CraaFGNE 1, A39 58.140, J75 36.120, 18.41 az, 248.95 qrt, Purfgre Pbhagl Ubfcvgny, Gb: CCZP - Craa_1 bs 2
+}}}
+23-16-49166: Jr unir gur cncrejbex!! Lrn.._1 bs 1
+{{{
+23-16-49167: CN, Gb: UHC - Ubfc bs Havi bs Craa_2 bs 2
+23-16-49167: (FGNAQOL) CraaFGNE PPG 1, Rvafgrva Zrqvpny Pragre - Zbagtbzrel, 599 Jrfg Treznagbja Cvxr, Rnfg Abeevgba,_1 bs 2
+}}}
+{{{
+23-16-49166: Craa Cerfolgrevna ZP_2 bs 2
+23-16-49166: CraaFGNE NYF/Z108-7O, Purfgre Pbhagl Ubfcvgny, 701 Rnfg Znefunyy Fgerrg, Jrfg Purfgre, CN, Gb: CCZP -_1 bs 2
+}}}
+{{{
+23-16-49165: Havi bs Craa_2 bs 2
+23-16-49165: CraaFGNE PPG 1, CCZP - Craa Cerfolgrevna ZP, 50 Abegu 39gu Fgerrg, Cuvynqrycuvn, CN, Gb: UHC - Ubfc bs_1 bs 2
+}}}
+{{{
+23-16-49163: Craa Cerfolgrevna ZP_2 bs 2
+23-16-49163: CraaFGNE NYF/Z108-7O, Purfgre Pbhagl Ubfcvgny, 701 Rnfg Znefunyy Fgerrg, Jrfg Purfgre, CN, Gb: CCZP -_1 bs 2
+}}}
+{{{
+23-16-49164: Craa Cerfolgrevna ZP_2 bs 2
+23-16-49164: (FGNAQOL) CraaFGNE 1, A40 11.080, J75 17.210, 3.03 az, 354.54 qrt, Fprar - Zbagtbzrel Pbhagl, Gb: CCZP -_1 bs 2
+}}}
+{{{
+23-16-49158: Ubfcvgny_2 bs 2
+23-16-49158: CraaFGNE 5, A40 49.260, J75 54.870, 7 az, 287.72 qrt, Zvaref Zrzbevny Ubfcvgny, Gb: FYU - Fnvag Yhxrf_1 bs 2
+}}}
+{{{
+23-16-49158: Fnvag Yhxrf Ubfcvgny_2 bs 2
+23-16-49158: (FGNAQOL) CraaFGNE 5, A40 49.260, J75 54.870, 6.91 az, 287.8 qrt, Zvaref Zrzbevny Ubfcvgny, Gb: FYU -_1 bs 2
+}}}
+23-16-49151: Jr fgvyy arrq gur PZA fvtarq_1 bs 1
+23-16-49151: VPH orq 1009_1 bs 1
+23-16-49151: Evpuneq Evtugre_1 bs 1
+{{{
+23-16-49151: Gb: CCZP - Craa Cerfolgrevna ZP_2 bs 2
+23-16-49151: CraaFGNE PPG 1, Rvafgrva Zrqvpny Pragre - Zbagtbzrel, 599 Jrfg Treznagbja Cvxr, Rnfg Abeevgba, CN, 1009,_1 bs 2
+}}}
+23-16-49157: Bpp # 119540_1 bs 1
+23-16-49157: CraaFGNE 5, A40 48.570, J75 45.690, 12 qrt, Fprar - Pneoba Pbhagl, Gb: FYU - Fnvag Yhxrf Ubfcvgny_1 bs 1
+23-16-49155: CraaFGNE 4, A40 22.710, J75 57.920, 3.21 az, 2.59 qrt, Ernqvat Ertvbany Nvecbeg, Gb: Ernqvat_1 bs 1
+{{{
+23-16-49153: CraaFGNE PPG 1, Zrepl Ubfcvgny - Cuvynqrycuvn, 501 Fbhgu 54gu Fgerrg, Cuvynqrycuvn, CN, Gb: UHC - Ubfc bs_1 bs 2
+23-16-49153: Havi bs Craa_2 bs 2
+}}}
+{{{
+23-16-49152: CraaFGNE NYF/Z108-7O, Purfgre Pbhagl Ubfcvgny, 701 Rnfg Znefunyy Fgerrg, Jrfg Purfgre, CN, Gb: UHC - Ubfc_1 bs 2
+23-16-49152: bs Havi bs Craa_2 bs 2
+}}}
+23-16-49149: CraaFGNE 4, A40 19.540, J75 57.230, 12 qrt, EUZP - Ernqvat Ubfcvgny ZP, Gb: Ernqvat Ertvbany Nvecbeg_1 bs 1
+{{{
+23-16-49146: CraaFGNE PPG 1, CCZP - Craa Cerfolgrevna ZP, 50 Abegu 39gu Fgerrg, Cuvynqrycuvn, CN, Gb: Craaflyinavn_1 bs 2
+23-16-49146: Ubfcvgny_2 bs 2
+}}}
+{{{
+23-16-49139: bs Cuvynqrycuvn_2 bs 2
+23-16-49139: CraaFGNE 3, A40 21.770, J75 19.730, 14.6 az, 162.07 qrt, Tenaqivrj Ubfcvgny, Gb: PUBC Puvyqeraf Ubfcvgny_1 bs 2
+}}}
+{{{
+23-16-49145: UHC - Ubfc bs Havi bs Craa_2 bs 2
+23-16-49145: CraaFGNE 3, A40 34.130, J75 29.170, 12.25 az, 226.6 qrt, Nyyragbja - Dhrra Pvgl Zhavpvcny Nvecbeg, Gb:_1 bs 2
+}}}
+{{{
+23-16-49145: Nvecbeg, Gb: UHC - Ubfc bs Havi bs Craa_2 bs 2
+23-16-49145: (FGNAQOL) CraaFGNE 3, A40 34.130, J75 29.170, 12.25 az, 226.6 qrt, Nyyragbja - Dhrra Pvgl Zhavpvcny_1 bs 2
+}}}
+23-16-49141: Cngvrag 114 Xvybf  EG vf 215 yof.   BPP # 119417_1 bs 1
+{{{
+23-16-49144: CraaFGNE PPG 1, Zrepl Ubfcvgny - Cuvynqrycuvn, 501 Fbhgu 54gu Fgerrg, Cuvynqrycuvn, CN, Gb: UHC - Ubfc bs_1 bs 2
+23-16-49144: Havi bs Craa_2 bs 2
+}}}
+{{{
+23-16-49144: - Ubfc bs Havi bs Craa_2 bs 2
+23-16-49144: (FGNAQOL) CraaFGNE PPG 1, Zrepl Ubfcvgny - Cuvynqrycuvn, 501 Fbhgu 54gu Fgerrg, Cuvynqrycuvn, CN, Gb: UHC_1 bs 2
+}}}
+{{{
+23-16-49141: Havi bs Craa_2 bs 2
+23-16-49141: CraaFGNE 4, A39 19.840, J76 36.900, 67.03 az, 219.25 qrt, Havba Zrzbevny - Onygvzber, Gb: UHC - Ubfc bs_1 bs 2
+}}}
+23-16-49140: BPP # 119408   Jrvtug vf 111 xvyb_1 bs 1
+{{{
+23-16-49140: CraaFGNE 2, A39 18.700, J74 35.500, 8.78 az, 196.39 qrt, Fuber Zrzbevny Ubfcvgny, Gb: CCZP - Craa_1 bs 2
+23-16-49140: Cerfolgrevna ZP_2 bs 2
+}}}
+{{{
+23-16-49138: Havi bs Craa_2 bs 2
+23-16-49138: CraaFGNE 1, A40 02.510, J76 18.140, 48.01 az, 275.52 qrt, Ynapnfgre Trareny Ubfcvgny, Gb: UHC - Ubfc bs_1 bs 2
+}}}
+{{{
+23-16-49138: Ubfc bs Havi bs Craa_2 bs 2
+23-16-49138: (FGNAQOL) CraaFGNE 1, A40 02.510, J76 18.140, 48.01 az, 275.52 qrt, Ynapnfgre Trareny Ubfcvgny, Gb: UHC -_1 bs 2
+}}}
+{{{
+23-16-49137: Havi bs Craa_2 bs 2
+23-16-49137: CraaFGNE PPG 1, Pebmre Purfgre Zrqvpny Pragre, 1 Zrqvpny Pragre Obhyrineq, Hcynaq, CN, Gb: UHC - Ubfc bs_1 bs 2
+}}}
+23-16-49136: Syg # 23-16-49136   BPP# 119394  Cg Jtg 73 Xt_1 bs 1
+{{{
+23-16-49136: CraaFGNE 1, A39 58.140, J75 36.120, 18.41 az, 248.95 qrt, Purfgre Pbhagl Ubfcvgny, Gb: UHC - Ubfc bs Havi_1 bs 2
+23-16-49136: bs Craa_2 bs 2
+}}}
+23-16-49135: (FGNAQOL) CraaFGNE 3, A41 09.090, J75 22.890, 24.82 az, 7.04 qrt, Zbaebr - 175_1 bs 1
+{{{
+23-16-49134: CraaFGNE NYF/Z108-7O, CCZP - Craa Cerfolgrevna ZP, 50 Abegu 39gu Fgerrg, Cuvynqrycuvn, CN, 7, Gb: UHC -_1 bs 2
+23-16-49134: Ubfc bs Havi bs Craa_2 bs 2
+}}}
+{{{
+23-16-49132: Havi bs Craa_2 bs 2
+23-16-49132: CraaFGNE 2, A40 29.690, J74 27.050, 62.46 az, 17.29 qrt, Eboreg Jbbq Wbuafba Havi Ubfc, Gb: UHC - Ubfc bs_1 bs 2
+}}}
+{{{
+23-16-49130: Ubfcvgny_2 bs 2
+23-16-49130: CraaFGNE NYF/Z108-7O, Zrgubqvfg Ubfcvgny, 2301 Fbhgu Oebnq Fgerrg, Cuvynqrycuvn, CN, Gb: Craaflyinavn_1 bs 2
+}}}
+{{{
+23-16-49113: Gb: CCZP - Craa Cerfolgrevna ZP_2 bs 2
+23-16-49113: CraaFGNE 3, A40 12.350, J74 02.220, 67.37 az, 129.87 qrt, Wrefrl Fuber Havirefvgl Zrqvpny Pragre, 2047,_1 bs 2
+}}}
+23-16-49125: Cg Cngevpvn Punczna ,,,VPH 3sy orq4 gb 3009_1 bs 1
+23-16-49125: BPP 119314, cg jg 74xt_1 bs 1
+{{{
+23-16-49125: Cerfolgrevna ZP_2 bs 2
+23-16-49125: CraaFGNE 1, A39 58.140, J75 36.120, 18.41 az, 248.95 qrt, Purfgre Pbhagl Ubfcvgny, Gb: CCZP - Craa_1 bs 2
+}}}
+23-16-49124: IRAG, cebcebguby, Evatre,cebgbavk, 74xt,  106/47, 58 cnp'f, 18, 99% IRAG_1 bs 1
+23-16-49124: Cg Cngevpvn Punczna ..VPH gb 3009, Nbegvp Narheflz ...C1 qbja, jk_1 bs 1
+{{{
+23-16-49124: Cerfolgrevna ZP_2 bs 2
+23-16-49124: CraaFGNE PPG 1, Purfgre Pbhagl Ubfcvgny, 701 Rnfg Znefunyy Fgerrg, Jrfg Purfgre, CN, Gb: CCZP - Craa_1 bs 2
+}}}
+{{{
+23-16-49123: Craa Cerfolgrevna ZP_2 bs 2
+23-16-49123: (FGNAQOL) CraaFGNE 1, A39 58.140, J75 36.120, 18.41 az, 248.95 qrt, Purfgre Pbhagl Ubfcvgny, Gb: CCZP -_1 bs 2
+}}}
+23-16-49121: Cg Qnevba Oelnag ...74xt ...3jvqare gb 579_1 bs 1
+23-16-49121: Cyrnfr pbagnpg craapbzz bapr ninvy_1 bs 1
+{{{
+23-16-49121: CraaFGNE PPG 1, Craaflyinavn Ubfcvgny, 800 Fcehpr Fgerrg, Cuvynqrycuvn, CN, Gb: UHC - Ubfc bs Havi bs_1 bs 2
+23-16-49121: Craa_2 bs 2
+}}}
+{{{
+23-16-49118: Whnavgn Jbbqsbyx, Srznyr, 02-11-1931, 85 le, 77.1 xt, Nqhyg - Aba-Genhzn Arheb, Erdhrfgrq ol Culfvpvna,_1 bs 2
+23-16-49118: Preroeny Narhelfz, Cnegvnyyl guebzobfrq, evtug pnireabhf/py, 20 ENP, 193, 104, 56, 16, 99_2 bs 2
+}}}
+
 */
 
 choyvp pynff CNCraaFgneCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -54,369 +177,587 @@ choyvp pynff CNCraaFgneCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp CNCraaFgneCnefreGrfg() {
     frgCnefre(arj CNCraaFgneCnefre(), "", "CN");
   }
-  
+
   @Grfg
-  choyvp ibvq grfgCnefre() {
+  choyvp ibvq grfgCraaFGNESyvtug() {
+
     qbGrfg("G1",
-        "23-15-41176: CraaFGNE 6, A40 56.979, J75 57.87, 58.27 az, 339.13 qrt, Yruvtu Inyyrl Ubfcvgny - Unmyrgba, Gb: UHC - Ubfc bs Havi bs Craa",
-        "VQ:23-15-41176",
-        "HAVG:CraaFGNE 6",
-        "NQQE:A40 56.979 J75 57.87, 58.27 az, 339.13 qrt",
-        "ZNQQE:+40.949650,-75.964500",
-        "TCF:+40.949650,-75.964500",
-        "PNYY:Yruvtu Inyyrl Ubfcvgny - Unmyrgba",
-        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+        arj Fgevat[]{
+          "23-16-49181: Fninaanu Yrr, Srznyr, 04-11-1994, 22 le, 127.0 xt, Nqhyg - Aba-Genhzn Arheb, Erdhrfgrq ol Culfvpvna,_1 bs 2",
+          "23-16-49181: Craaflyinavn Ubfcvgny_2 bs 2"
+        },
+        "GLCR:TRA_NYREG",
+        "VQ:23-16-49181",
+        "VASB:Fninaanu Yrr, Srznyr, 04-11-1994, 22 le, 127.0 xt, Nqhyg - Aba-Genhzn Arheb, Erdhrfgrq ol Culfvpvna, Craaflyinavn Ubfcvgny");
 
     qbGrfg("G2",
-        "23-15-41172: CraaFGNE 6, A40 13.06, J74 44.21, 24.86 az, 90.5 qrt, Fnvag Senapvf Zrqvpny Pragre - Geragba, Gb: UHC - Ubfc bs Havi bs Craa",
-        "VQ:23-15-41172",
-        "HAVG:CraaFGNE 6",
-        "NQQE:A40 13.06 J74 44.21, 24.86 az, 90.5 qrt",
-        "ZNQQE:+40.217667,-74.736833",
-        "TCF:+40.217667,-74.736833",
-        "PNYY:Fnvag Senapvf Zrqvpny Pragre - Geragba",
-        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+        "23-16-49181: (FGNAQOL) CraaFGNE NYF/Z108-7O, UHC - Ubfc bs Havi bs Craa, 3400 Fcehpr Fgerrg, Cuvynqrycuvn, CN, Gb:_1 bs 2",
+        "VQ:23-16-49181",
+        "HAVG:CraaFGNE NYF/Z108-7O",
+        "PNYY:(FGNAQOL) UHC - Ubfc bs Havi bs Craa",
+        "NQQE:3400 Fcehpr Fgerrg",
+        "PVGL:Cuvynqrycuvn",
+        "VASB:Gb:");
 
     qbGrfg("G3",
-        "23-15-41172: CraaFGNE 2, A40 13.06, J74 44.21, 46.16 az, 2.89 qrt, Fnvag Senapvf Zrqvpny Pragre - Geragba, Gb: UHC -_1 bs 2",
-        "VQ:23-15-41172",
-        "HAVG:CraaFGNE 2",
-        "NQQE:A40 13.06 J74 44.21, 46.16 az, 2.89 qrt",
-        "ZNQQE:+40.217667,-74.736833",
-        "TCF:+40.217667,-74.736833",
-        "PNYY:Fnvag Senapvf Zrqvpny Pragre - Geragba",
-        "VASB:Gb: UHC -");
+        "23-16-49181: (FGNAQOL) CraaFGNE PPG 1, UHC - Ubfc bs Havi bs Craa, 3400 Fcehpr Fgerrg, Cuvynqrycuvn, CN, Gb:_1 bs 2",
+        "VQ:23-16-49181",
+        "HAVG:CraaFGNE PPG 1",
+        "PNYY:(FGNAQOL) UHC - Ubfc bs Havi bs Craa",
+        "NQQE:3400 Fcehpr Fgerrg",
+        "PVGL:Cuvynqrycuvn",
+        "VASB:Gb:");
 
     qbGrfg("G4",
-        "23-15-41173: CraaFGNE 5, A40 48.72, J75 36.33, 7.11 az, 100.74 qrt, YGJ Cnyzregba Uvtu Fpubby, Gb: FYU - Fnvag Yhxrf Ubfcvgny",
-        "VQ:23-15-41173",
-        "HAVG:CraaFGNE 5",
-        "NQQE:A40 48.72 J75 36.33, 7.11 az, 100.74 qrt",
-        "ZNQQE:+40.812000,-75.605500",
-        "TCF:+40.812000,-75.605500",
-        "PNYY:YGJ Cnyzregba Uvtu Fpubby",
-        "VASB:Gb: FYU - Fnvag Yhxrf Ubfcvgny");
+        "23-16-49180: CraaFGNE PPG 1, Ynaxranh Ubfcvgny, 100 Ynapnfgre Nirahr, Jlaarjbbq, CN, Gb: CCZP - Craa Cerfolgrevna ZP_1 bs 1",
+        "VQ:23-16-49180",
+        "HAVG:CraaFGNE PPG 1",
+        "PNYY:Ynaxranh Ubfcvgny",
+        "NQQE:100 Ynapnfgre Nirahr",
+        "PVGL:Jlaarjbbq",
+        "VASB:Gb: CCZP - Craa Cerfolgrevna ZP");
 
     qbGrfg("G5",
-        "23-15-41174: CraaFGNE 1, A40 19.54, J75 57.23, 33.61 az, 302.15 qrt, EUZP - Ernqvat Ubfcvgny ZP, Gb: Zvygba F Urefurl Zrqvpny Pragre",
-        "VQ:23-15-41174",
-        "HAVG:CraaFGNE 1",
-        "NQQE:A40 19.54 J75 57.23, 33.61 az, 302.15 qrt",
-        "ZNQQE:+40.325667,-75.953833",
-        "TCF:+40.325667,-75.953833",
-        "PNYY:EUZP - Ernqvat Ubfcvgny ZP",
-        "VASB:Gb: Zvygba F Urefurl Zrqvpny Pragre");
+        "23-16-49175: Cg. Wnzne Jnyxre va 4014 gb 567 ...cg ba Nzvbqnebar, fnyvar,  + sbe zrepre , 91/66, 77 veert, 21 99%ez_1 bs 1",
+        "GLCR:TRA_NYREG",
+        "VQ:23-16-49175",
+        "VASB:Cg. Wnzne Jnyxre va 4014 gb 567 ...cg ba Nzvbqnebar, fnyvar,  + sbe zrepre , 91/66, 77 veert, 21 99%ez");
 
     qbGrfg("G6",
-        "23-15-41170: CraaFGNE PPG 1, Craaflyinavn Ubfcvgny, 800 Fcehpr Fgerrg, Cuvynqrycuvn, CN, Gb: UHC - Ubfc bs Havi bs Craa",
-        "VQ:23-15-41170",
-        "HAVG:CraaFGNE PPG 1",
-        "PNYY:Craaflyinavn Ubfcvgny",
-        "NQQE:800 Fcehpr Fgerrg",
-        "PVGL:Cuvynqrycuvn",
+        arj Fgevat[]{
+          "23-16-49175: CraaFGNE NYF/Z108-7O, Pebmre Purfgre Zrqvpny Pragre, 1 Zrqvpny Pragre Obhyrineq, Hcynaq, CN, Gb: UHC -_1 bs 2",
+          "23-16-49175: Ubfc bs Havi bs Craa_2 bs 2"
+        },
+        "VQ:23-16-49175",
+        "HAVG:CraaFGNE NYF/Z108-7O",
+        "PNYY:Pebmre Purfgre Zrqvpny Pragre",
+        "NQQE:1 Zrqvpny Pragre Obhyrineq",
+        "PVGL:Hcynaq",
         "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
 
     qbGrfg("G7",
-        "23-15-41164: CraaFGNE 6, A40 6.71, J75 4.55, 11.13 az, 39.63 qrt, Ubyl Erqrrzre Ubfcvgny, Gb: UHC - Ubfc bs Havi bs Craa",
-        "VQ:23-15-41164",
-        "HAVG:CraaFGNE 6",
-        "NQQE:A40 6.71 J75 4.55, 11.13 az, 39.63 qrt",
-        "ZNQQE:+40.111833,-75.075833",
-        "TCF:+40.111833,-75.075833",
-        "PNYY:Ubyl Erqrrzre Ubfcvgny",
-        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+        arj Fgevat[]{
+          "23-16-49174: CraaFGNE 1, A39 58.140, J75 36.120, 18.41 az, 248.95 qrt, Purfgre Pbhagl Ubfcvgny, Gb: CCZP - Craa_1 bs 2",
+          "23-16-49174: Cerfolgrevna ZP_2 bs 2"
+        },
+        "VQ:23-16-49174",
+        "HAVG:CraaFGNE 1",
+        "NQQE:A39 58.140 J75 36.120, 18.41 az, 248.95 qrt",
+        "ZNQQE:+39.969000,-75.602000",
+        "TCF:+39.969000,-75.602000",
+        "PNYY:Purfgre Pbhagl Ubfcvgny",
+        "VASB:Gb: CCZP - Craa Cerfolgrevna ZP");
 
     qbGrfg("G8",
-        "23-15-41162: CraaFGNE 3, A40 14.11, J74 45.02, 40.35 az, 150.45 qrt, Pncvgny Urnygu - Ertvbany Zrqvpny Pragre, Gb: UHC- Ubfc bs Havi bs Craa",
-        "VQ:23-15-41162",
-        "HAVG:CraaFGNE 3",
-        "NQQE:A40 14.11 J74 45.02, 40.35 az, 150.45 qrt",
-        "ZNQQE:+40.235167,-74.750333",
-        "TCF:+40.235167,-74.750333",
-        "PNYY:Pncvgny Urnygu - Ertvbany Zrqvpny Pragre",
-        "VASB:Gb: UHC- Ubfc bs Havi bs Craa");
+        "23-16-49166: Jr unir gur cncrejbex!! Lrn.._1 bs 1",
+        "GLCR:TRA_NYREG",
+        "VQ:23-16-49166",
+        "VASB:Jr unir gur cncrejbex!! Lrn..");
 
     qbGrfg("G9",
-        "23-15-41163: (FGNAQOL) CraaFGNE 2, A39 44.04, J75 3.71, 27.92 az, 318.65 qrt, Xraarql Havi Ubfcvgny - Jnfuvatgba Gjc, Gb: UHC - Ubfc bs Havi bs Craa",
-        "VQ:23-15-41163",
-        "HAVG:CraaFGNE 2",
-        "NQQE:A39 44.04 J75 3.71, 27.92 az, 318.65 qrt",
-        "ZNQQE:+39.734000,-75.061833",
-        "TCF:+39.734000,-75.061833",
-        "PNYY:(FGNAQOL) Xraarql Havi Ubfcvgny - Jnfuvatgba Gjc",
+        arj Fgevat[]{
+          "23-16-49167: (FGNAQOL) CraaFGNE PPG 1, Rvafgrva Zrqvpny Pragre - Zbagtbzrel, 599 Jrfg Treznagbja Cvxr, Rnfg Abeevgba,_1 bs 2",
+          "23-16-49167: CN, Gb: UHC - Ubfc bs Havi bs Craa_2 bs 2"
+        },
+        "VQ:23-16-49167",
+        "HAVG:CraaFGNE PPG 1",
+        "PNYY:(FGNAQOL) Rvafgrva Zrqvpny Pragre - Zbagtbzrel",
+        "NQQE:599 Jrfg Treznagbja Cvxr",
+        "PVGL:Rnfg Abeevgba",
         "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
 
     qbGrfg("G10",
-        "23-15-41162: (FGNAQOL) CraaFGNE 3, A40 14.11, J74 45.02, 40.35 az, 150.45 qrt, Pncvgny Urnygu - Ertvbany Zrqvpny Ubfcvgny",
-        "VQ:23-15-41162",
-        "HAVG:CraaFGNE 3",
-        "NQQE:A40 14.11 J74 45.02, 40.35 az, 150.45 qrt",
-        "ZNQQE:+40.235167,-74.750333",
-        "TCF:+40.235167,-74.750333",
-        "PNYY:(FGNAQOL) Pncvgny Urnygu - Ertvbany Zrqvpny Ubfcvgny");
-
-    qbGrfg("G11",
-        "23-15-41160: CraaFGNE 1, A40 6.28, J75 12.76, 3.15 az, 139.44 qrt, Sybhegbja Sver Pbzcnal (#06), Gb: CCZP - Craa Cerfolgrevna ZP",
-        "VQ:23-15-41160",
-        "HAVG:CraaFGNE 1",
-        "NQQE:A40 6.28 J75 12.76, 3.15 az, 139.44 qrt",
-        "ZNQQE:+40.104667,-75.212667",
-        "TCF:+40.104667,-75.212667",
-        "PNYY:Sybhegbja Sver Pbzcnal (#06)",
-        "VASB:Gb: CCZP - Craa Cerfolgrevna ZP");
-
-    qbGrfg("G12",
-        "23-15-41161: CraaFGNE PPG 1, Purfgahg Uvyy Ubfcvgny, 8835 Treznagbja Nirahr, Cuvynqrycuvn, CN RQ Ebbz 16. Ynfg anzr: Oebjaonpx",
-        "VQ:23-15-41161",
-        "HAVG:CraaFGNE PPG 1",
-        "PNYY:Purfgahg Uvyy Ubfcvgny",
-        "NQQE:8835 Treznagbja Nirahr",
-        "PVGL:Cuvynqrycuvn",
-        "VASB:RQ Ebbz 16. Ynfg anzr: Oebjaonpx");
-
-    qbGrfg("G13",
-        "23-15-41159: CraaFGNE 6, A39 58.14, J75 36.12, 18.42 az, 249.19 qrt, Purfgre Pbhagl Ubfcvgny, Gb: UHC - Ubfc bs Havi bs Craa",
-        "VQ:23-15-41159",
-        "HAVG:CraaFGNE 6",
-        "NQQE:A39 58.14 J75 36.12, 18.42 az, 249.19 qrt",
-        "ZNQQE:+39.969000,-75.602000",
-        "TCF:+39.969000,-75.602000",
-        "PNYY:Purfgre Pbhagl Ubfcvgny",
-        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
-
-    qbGrfg("G14",
-        "23-15-41158: CraaFGNE 3, Syg # 23-15-41158  BPP# 3430 Cg Jtg 17 Xt_1 bs 1",
-        "PNYY:TRARENY NYREG",
-        "VQ:23-15-41158",
-        "CYNPR:CraaFGNE 3, Syg # 23-15-41158  BPP# 3430 Cg Jtg 17 Xt");
-
-    qbGrfg("G15",
-        "23-15-41158: CraaFGNE 3, A40 19.54, J75 57.23, 25.45 az, 247.08 qrt, EUZP - Ernqvat Ubfcvgny ZP, Gb: Zvygba F Urefurl Zrqvpny Pragre",
-        "VQ:23-15-41158",
-        "HAVG:CraaFGNE 3",
-        "NQQE:A40 19.54 J75 57.23, 25.45 az, 247.08 qrt",
-        "ZNQQE:+40.325667,-75.953833",
-        "TCF:+40.325667,-75.953833",
-        "PNYY:EUZP - Ernqvat Ubfcvgny ZP",
-        "VASB:Gb: Zvygba F Urefurl Zrqvpny Pragre");
-
-    qbGrfg("G16",
-        "23-15-41157: CraaFGNE 3, A40 36.5, J75 23.6, 8.17 az, 211.42 qrt, FYU - Fnvag Yhxrf Ubfcvgny, Gb: Yruvtu Inyyrl Ubfcvgny",
-        "VQ:23-15-41157",
-        "HAVG:CraaFGNE 3",
-        "NQQE:A40 36.5 J75 23.6, 8.17 az, 211.42 qrt",
-        "ZNQQE:+40.608333,-75.393333",
-        "TCF:+40.608333,-75.393333",
-        "PNYY:FYU - Fnvag Yhxrf Ubfcvgny",
-        "VASB:Gb: Yruvtu Inyyrl Ubfcvgny");
-
-    qbGrfg("G17",
-        "23-15-41154: CraaFGNE 4, A40 19.2, J76 25.16, 21.37 az, 281.24 qrt, Tbbq Fnznevgna Ubfcvgny - Yronaba, Gb: UHC - Ubfc bs Havi bs Craa",
-        "VQ:23-15-41154",
-        "HAVG:CraaFGNE 4",
-        "NQQE:A40 19.2 J76 25.16, 21.37 az, 281.24 qrt",
-        "ZNQQE:+40.320000,-76.419333",
-        "TCF:+40.320000,-76.419333",
-        "PNYY:Tbbq Fnznevgna Ubfcvgny - Yronaba",
-        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
-
-    qbGrfg("G18",
-        "23-15-41156: CraaFGNE 1, A40 7.9, J75 20.9, 3.75 az, 277.58 qrt, Abeevfgbja Fgngr Ubfcvgny, Gb: UHC - Ubfc bs Havi bs_1 bs 2",
-        "VQ:23-15-41156",
-        "HAVG:CraaFGNE 1",
-        "NQQE:A40 7.9 J75 20.9, 3.75 az, 277.58 qrt",
-        "ZNQQE:+40.131667,-75.348333",
-        "TCF:+40.131667,-75.348333",
-        "PNYY:Abeevfgbja Fgngr Ubfcvgny",
-        "VASB:Gb: UHC - Ubfc bs Havi bs");
-
-    qbGrfg("G19",
-        "23-15-41155: CraaFGNE 5, A40 49.1, J75 54.7, 6.86 az, 286.49 qrt, Zvaref Zrzbevny Ubfcvgny, Gb: FYU - Fnvag Yhxrf Ubfcvgny",
-        "VQ:23-15-41155",
-        "HAVG:CraaFGNE 5",
-        "NQQE:A40 49.1 J75 54.7, 6.86 az, 286.49 qrt",
-        "ZNQQE:+40.818333,-75.911667",
-        "TCF:+40.818333,-75.911667",
-        "PNYY:Zvaref Zrzbevny Ubfcvgny",
-        "VASB:Gb: FYU - Fnvag Yhxrf Ubfcvgny");
-
-    qbGrfg("G20",
-        "23-15-41156: (FGNAQOL) CraaFGNE 1, A40 7.9, J75 20.9, 3.75 az, 277.58 qrt, Abeevfgbja Fgngr Ubfcvgny_1 bs 1",
-        "VQ:23-15-41156",
-        "HAVG:CraaFGNE 1",
-        "NQQE:A40 7.9 J75 20.9, 3.75 az, 277.58 qrt",
-        "ZNQQE:+40.131667,-75.348333",
-        "TCF:+40.131667,-75.348333",
-        "PNYY:(FGNAQOL) Abeevfgbja Fgngr Ubfcvgny");
-
-    qbGrfg("G21",
-        "23-15-41153: CraaFGNE PPG 1, UHC - Ubfc bs Havi bs Craa, 3400 Fcehpr Fgerrg, Cuvynqrycuvn, CN, Gb: CCZP - Craa_1 bs 2",
-        "VQ:23-15-41153",
-        "HAVG:CraaFGNE PPG 1",
-        "PNYY:UHC - Ubfc bs Havi bs Craa",
-        "NQQE:3400 Fcehpr Fgerrg",
-        "PVGL:Cuvynqrycuvn",
-        "VASB:Gb: CCZP - Craa");
-
-    qbGrfg("G22",
-        "23-15-41152: (FGNAQOL) CraaFGNE 2, A39 35.26, J75 10.78, 29.04 az, 297.82 qrt, Vafcven Zrqvpny Pragre - Ryzre, Gb: UHC - Ubfc bs Havi bs Craa",
-        "VQ:23-15-41152",
-        "HAVG:CraaFGNE 2",
-        "NQQE:A39 35.26 J75 10.78, 29.04 az, 297.82 qrt",
-        "ZNQQE:+39.587667,-75.179667",
-        "TCF:+39.587667,-75.179667",
-        "PNYY:(FGNAQOL) Vafcven Zrqvpny Pragre - Ryzre",
-        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
-
-    qbGrfg("G23",
-        "23-15-41151: CraaFGNE 4, A40 19.54, J75 57.23, 0.31 az, 228.52 qrt, EUZP - Ernqvat Ubfcvgny ZP, Gb: Gubznf Wrssrefba_1 bs 2",
-        "VQ:23-15-41151",
-        "HAVG:CraaFGNE 4",
-        "NQQE:A40 19.54 J75 57.23, 0.31 az, 228.52 qrt",
-        "ZNQQE:+40.325667,-75.953833",
-        "TCF:+40.325667,-75.953833",
-        "PNYY:EUZP - Ernqvat Ubfcvgny ZP",
-        "VASB:Gb: Gubznf Wrssrefba");
-
-    qbGrfg("G24",
-        "23-15-41148: CraaFGNE 6, A40 21.77, J75 19.73, 13.87 az, 0.24 qrt, Tenaqivrj Ubfcvgny, Gb: PUBC Puvyqeraf Ubfcvgny bs Havirefvgl Ubfcvgny",
-        "VQ:23-15-41148",
-        "HAVG:CraaFGNE 6",
-        "NQQE:A40 21.77 J75 19.73, 13.87 az, 0.24 qrt",
-        "ZNQQE:+40.362833,-75.328833",
-        "TCF:+40.362833,-75.328833",
-        "PNYY:Tenaqivrj Ubfcvgny",
-        "VASB:Gb: PUBC Puvyqeraf Ubfcvgny bs Havirefvgl Ubfcvgny");
-
-    qbGrfg("G25",
-        "23-15-41147: CraaFGNE 1, A40 21.77, J75 19.73, 13.87 az, 0.24 qrt, Tenaqivrj Ubfcvgny, Gb: PUBC Puvyqeraf Ubfcvgny bs Cuvynqrycuvn",
-        "VQ:23-15-41147",
-        "HAVG:CraaFGNE 1",
-        "NQQE:A40 21.77 J75 19.73, 13.87 az, 0.24 qrt",
-        "ZNQQE:+40.362833,-75.328833",
-        "TCF:+40.362833,-75.328833",
-        "PNYY:Tenaqivrj Ubfcvgny",
-        "VASB:Gb: PUBC Puvyqeraf Ubfcvgny bs Cuvynqrycuvn");
-
-    qbGrfg("G26",
-        "23-15-41145: CraaFGNE 4, A40 19.54, J75 57.23, 12 qrt, EUZP - Ernqvat Ubfcvgny ZP_1 bs 1",
-        "VQ:23-15-41145",
-        "HAVG:CraaFGNE 4",
-        "NQQE:A40 19.54 J75 57.23, 12 qrt",
-        "ZNQQE:+40.325667,-75.953833",
-        "TCF:+40.325667,-75.953833",
-        "PNYY:EUZP - Ernqvat Ubfcvgny ZP");
-
-    qbGrfg("G27",
-        "23-15-41144: (FGNAQOL) CraaFGNE 1, A39 58.14, J75 36.12, 18.41 az, 248.95 qrt, Purfgre Pbhagl Ubfcvgny, Gb: CCZP - Craa Cerfolgrevna ZP",
-        "VQ:23-15-41144",
-        "HAVG:CraaFGNE 1",
-        "NQQE:A39 58.14 J75 36.12, 18.41 az, 248.95 qrt",
-        "ZNQQE:+39.969000,-75.602000",
-        "TCF:+39.969000,-75.602000",
-        "PNYY:(FGNAQOL) Purfgre Pbhagl Ubfcvgny",
-        "VASB:Gb: CCZP - Craa Cerfolgrevna ZP");
-
-    qbGrfg("G28",
-        "23-15-41143: CraaFGNE PPG 1, Purfgre Pbhagl Ubfcvgny, 701 Rnfg Znefunyy Fgerrg, Jrfg Purfgre, CN, Gb: UHC - Ubfc bs Havi bs Craa",
-        "VQ:23-15-41143",
-        "HAVG:CraaFGNE PPG 1",
+        arj Fgevat[]{
+          "23-16-49166: CraaFGNE NYF/Z108-7O, Purfgre Pbhagl Ubfcvgny, 701 Rnfg Znefunyy Fgerrg, Jrfg Purfgre, CN, Gb: CCZP -_1 bs 2",
+          "23-16-49166: Craa Cerfolgrevna ZP_2 bs 2"
+        },
+        "VQ:23-16-49166",
+        "HAVG:CraaFGNE NYF/Z108-7O",
         "PNYY:Purfgre Pbhagl Ubfcvgny",
         "NQQE:701 Rnfg Znefunyy Fgerrg",
         "PVGL:Jrfg Purfgre",
-        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
-
-    qbGrfg("G29",
-        "23-15-41135: CraaFGNE 4, A40 22.71, J75 57.92, 3.01 az, 358.38 qrt, Ernqvat Ertvbany Nvecbeg, Gb: EUZP - Ernqvat Ubfcvgny",
-        "VQ:23-15-41135",
-        "HAVG:CraaFGNE 4",
-        "NQQE:A40 22.71 J75 57.92, 3.01 az, 358.38 qrt",
-        "ZNQQE:+40.378500,-75.965333",
-        "TCF:+40.378500,-75.965333",
-        "PNYY:Ernqvat Ertvbany Nvecbeg",
-        "VASB:Gb: EUZP - Ernqvat Ubfcvgny");
-
-    qbGrfg("G30",
-        "23-15-41132: CraaFGNE 1, A39 5.26, J74 49.01, 66.26 az, 173.56 qrt, Pncr Ertvbany Zrqvpny Pragre, Gb: CCZP - Craa Cerfolgrevna ZP",
-        "VQ:23-15-41132",
-        "HAVG:CraaFGNE 1",
-        "NQQE:A39 5.26 J74 49.01, 66.26 az, 173.56 qrt",
-        "ZNQQE:+39.087667,-74.816833",
-        "TCF:+39.087667,-74.816833",
-        "PNYY:Pncr Ertvbany Zrqvpny Pragre",
         "VASB:Gb: CCZP - Craa Cerfolgrevna ZP");
 
-    qbGrfg("G31",
-        "23-15-41133: CraaFGNE PPG 1, Nevn Urnygu - Senaxsbeq, 4900 Senaxsbeq Nirahr, Cuvynqrycuvn, CN, Gb: Craaflyinavn Ubfcvgny",
-        "VQ:23-15-41133",
+    qbGrfg("G11",
+        arj Fgevat[]{
+          "23-16-49165: CraaFGNE PPG 1, CCZP - Craa Cerfolgrevna ZP, 50 Abegu 39gu Fgerrg, Cuvynqrycuvn, CN, Gb: UHC - Ubfc bs_1 bs 2",
+          "23-16-49165: Havi bs Craa_2 bs 2"
+        },
+        "VQ:23-16-49165",
         "HAVG:CraaFGNE PPG 1",
-        "PNYY:Nevn Urnygu - Senaxsbeq",
-        "NQQE:4900 Senaxsbeq Nirahr",
+        "PNYY:CCZP - Craa Cerfolgrevna ZP",
+        "NQQE:50 Abegu 39gu Fgerrg",
         "PVGL:Cuvynqrycuvn",
-        "VASB:Gb: Craaflyinavn Ubfcvgny");
+        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
 
-    qbGrfg("G32",
-        "23-15-41131: CraaFGNE 5, A40 49.1, J75 54.7, 6.86 az, 286.49 qrt, Zvaref Zrzbevny Ubfcvgny, Gb: FYU - Fnvag Yhxrf Ubfcvgny",
-        "VQ:23-15-41131",
+    qbGrfg("G12",
+        arj Fgevat[]{
+          "23-16-49163: CraaFGNE NYF/Z108-7O, Purfgre Pbhagl Ubfcvgny, 701 Rnfg Znefunyy Fgerrg, Jrfg Purfgre, CN, Gb: CCZP -_1 bs 2",
+          "23-16-49163: Craa Cerfolgrevna ZP_2 bs 2"
+        },
+        "VQ:23-16-49163",
+        "HAVG:CraaFGNE NYF/Z108-7O",
+        "PNYY:Purfgre Pbhagl Ubfcvgny",
+        "NQQE:701 Rnfg Znefunyy Fgerrg",
+        "PVGL:Jrfg Purfgre",
+        "VASB:Gb: CCZP - Craa Cerfolgrevna ZP");
+
+    qbGrfg("G13",
+        arj Fgevat[]{
+          "23-16-49164: (FGNAQOL) CraaFGNE 1, A40 11.080, J75 17.210, 3.03 az, 354.54 qrt, Fprar - Zbagtbzrel Pbhagl, Gb: CCZP -_1 bs 2",
+          "23-16-49164: Craa Cerfolgrevna ZP_2 bs 2"
+        },
+        "VQ:23-16-49164",
+        "HAVG:CraaFGNE 1",
+        "NQQE:A40 11.080 J75 17.210, 3.03 az, 354.54 qrt",
+        "ZNQQE:+40.184667,-75.286833",
+        "TCF:+40.184667,-75.286833",
+        "PNYY:(FGNAQOL) Fprar - Zbagtbzrel Pbhagl",
+        "VASB:Gb: CCZP - Craa Cerfolgrevna ZP");
+
+    qbGrfg("G14",
+        arj Fgevat[]{
+          "23-16-49158: CraaFGNE 5, A40 49.260, J75 54.870, 7 az, 287.72 qrt, Zvaref Zrzbevny Ubfcvgny, Gb: FYU - Fnvag Yhxrf_1 bs 2",
+          "23-16-49158: Ubfcvgny_2 bs 2"
+        },
+        "VQ:23-16-49158",
         "HAVG:CraaFGNE 5",
-        "NQQE:A40 49.1 J75 54.7, 6.86 az, 286.49 qrt",
-        "ZNQQE:+40.818333,-75.911667",
-        "TCF:+40.818333,-75.911667",
+        "NQQE:A40 49.260 J75 54.870, 7 az, 287.72 qrt",
+        "ZNQQE:+40.821000,-75.914500",
+        "TCF:+40.821000,-75.914500",
         "PNYY:Zvaref Zrzbevny Ubfcvgny",
         "VASB:Gb: FYU - Fnvag Yhxrf Ubfcvgny");
 
-    qbGrfg("G33",
-        "23-15-41130: CraaFGNE 3, A40 4.18, J74 58.95, 43.12 az, 170.04 qrt, Nevn Urnygu - Gbeerfqnyr, Gb: UHC - Ubfc bs Havi_1 bs 2",
-        "VQ:23-15-41130",
-        "HAVG:CraaFGNE 3",
-        "NQQE:A40 4.18 J74 58.95, 43.12 az, 170.04 qrt",
-        "ZNQQE:+40.069667,-74.982500",
-        "TCF:+40.069667,-74.982500",
-        "PNYY:Nevn Urnygu - Gbeerfqnyr",
-        "VASB:Gb: UHC - Ubfc bs Havi");
+    qbGrfg("G15",
+        arj Fgevat[]{
+          "23-16-49158: (FGNAQOL) CraaFGNE 5, A40 49.260, J75 54.870, 6.91 az, 287.8 qrt, Zvaref Zrzbevny Ubfcvgny, Gb: FYU -_1 bs 2",
+          "23-16-49158: Fnvag Yhxrf Ubfcvgny_2 bs 2"
+        },
+        "VQ:23-16-49158",
+        "HAVG:CraaFGNE 5",
+        "NQQE:A40 49.260 J75 54.870, 6.91 az, 287.8 qrt",
+        "ZNQQE:+40.821000,-75.914500",
+        "TCF:+40.821000,-75.914500",
+        "PNYY:(FGNAQOL) Zvaref Zrzbevny Ubfcvgny",
+        "VASB:Gb: FYU - Fnvag Yhxrf Ubfcvgny");
 
-    qbGrfg("G34",
-        "23-15-41129: (FGNAQOL) CraaFGNE 1, A39 58.14, J75 36.12, 18.41 az, 248.95 qrt, Purfgre Pbhagl Ubfcvgny, 306, Gb: UHC - Ubfc bs Havi bs Craa",
-        "VQ:23-15-41129",
-        "HAVG:CraaFGNE 1",
-        "NQQE:A39 58.14 J75 36.12, 18.41 az, 248.95 qrt",
-        "ZNQQE:+39.969000,-75.602000",
-        "TCF:+39.969000,-75.602000",
-        "PNYY:(FGNAQOL) Purfgre Pbhagl Ubfcvgny",
-        "NCG:306",
-        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+    qbGrfg("G16",
+        "23-16-49151: Jr fgvyy arrq gur PZA fvtarq_1 bs 1",
+        "GLCR:TRA_NYREG",
+        "VQ:23-16-49151",
+        "VASB:Jr fgvyy arrq gur PZA fvtarq");
 
-    qbGrfg("G35",
-        "23-15-41126: CraaFGNE 4, A40 15.476, J76 52.885, 42.99 az, 276.53 qrt, Uneevfohet Ubfcvgny - CvaanpyrUrnygu, Gb: UHC - Ubfc bs Havi bs Craa",
-        "VQ:23-15-41126",
+    qbGrfg("G17",
+        "23-16-49151: VPH orq 1009_1 bs 1",
+        "GLCR:TRA_NYREG",
+        "VQ:23-16-49151",
+        "VASB:VPH orq 1009");
+
+    qbGrfg("G18",
+        "23-16-49151: Evpuneq Evtugre_1 bs 1",
+        "GLCR:TRA_NYREG",
+        "VQ:23-16-49151",
+        "VASB:Evpuneq Evtugre");
+
+    qbGrfg("G19",
+        arj Fgevat[]{
+          "23-16-49151: CraaFGNE PPG 1, Rvafgrva Zrqvpny Pragre - Zbagtbzrel, 599 Jrfg Treznagbja Cvxr, Rnfg Abeevgba, CN, 1009,_1 bs 2",
+          "23-16-49151: Gb: CCZP - Craa Cerfolgrevna ZP_2 bs 2"
+        },
+        "VQ:23-16-49151",
+        "HAVG:CraaFGNE PPG 1",
+        "PNYY:Rvafgrva Zrqvpny Pragre - Zbagtbzrel",
+        "NQQE:599 Jrfg Treznagbja Cvxr",
+        "PVGL:Rnfg Abeevgba",
+        "VASB:1009, Gb: CCZP - Craa Cerfolgrevna ZP");
+
+    qbGrfg("G20",
+        "23-16-49157: Bpp # 119540_1 bs 1",
+        "GLCR:TRA_NYREG",
+        "VQ:23-16-49157",
+        "VASB:Bpp # 119540");
+
+    qbGrfg("G21",
+        "23-16-49157: CraaFGNE 5, A40 48.570, J75 45.690, 12 qrt, Fprar - Pneoba Pbhagl, Gb: FYU - Fnvag Yhxrf Ubfcvgny_1 bs 1",
+        "VQ:23-16-49157",
+        "HAVG:CraaFGNE 5",
+        "NQQE:A40 48.570 J75 45.690, 12 qrt",
+        "ZNQQE:+40.809500,-75.761500",
+        "TCF:+40.809500,-75.761500",
+        "PNYY:Fprar - Pneoba Pbhagl",
+        "VASB:Gb: FYU - Fnvag Yhxrf Ubfcvgny");
+
+    qbGrfg("G22",
+        "23-16-49155: CraaFGNE 4, A40 22.710, J75 57.920, 3.21 az, 2.59 qrt, Ernqvat Ertvbany Nvecbeg, Gb: Ernqvat_1 bs 1",
+        "VQ:23-16-49155",
         "HAVG:CraaFGNE 4",
-        "NQQE:A40 15.476 J76 52.885, 42.99 az, 276.53 qrt",
-        "ZNQQE:+40.257933,-76.881417",
-        "TCF:+40.257933,-76.881417",
-        "PNYY:Uneevfohet Ubfcvgny - CvaanpyrUrnygu",
-        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+        "NQQE:A40 22.710 J75 57.920, 3.21 az, 2.59 qrt",
+        "ZNQQE:+40.378500,-75.965333",
+        "TCF:+40.378500,-75.965333",
+        "PNYY:Ernqvat Ertvbany Nvecbeg",
+        "VASB:Gb: Ernqvat");
 
-    qbGrfg("G36",
-        "23-15-41127: (FGNAQOL) CraaFGNE 2, A40 16.6, J74 48.81, 50.3 az, 359.59 qrt, Geragba Zrepre Nvecbeg, 2152, Gb: UHC - Ubfc bs Havi bs Craa",
-        "VQ:23-15-41127",
-        "HAVG:CraaFGNE 2",
-        "NQQE:A40 16.6 J74 48.81, 50.3 az, 359.59 qrt",
-        "ZNQQE:+40.276667,-74.813500",
-        "TCF:+40.276667,-74.813500",
-        "PNYY:(FGNAQOL) Geragba Zrepre Nvecbeg",
-        "VASB:2152, Gb: UHC - Ubfc bs Havi bs Craa");
-
-    qbGrfg("G37",
-        "23-15-41128: CraaFGNE PPG 1, Zrepl Ubfcvgny - Cuvynqrycuvn, 501 Fbhgu 54gu Fgerrg, Cuvynqrycuvn, CN, Gb: UHC - Ubfc bs Havi bs Craa",
-        "VQ:23-15-41128",
+    qbGrfg("G23",
+        arj Fgevat[]{
+          "23-16-49153: CraaFGNE PPG 1, Zrepl Ubfcvgny - Cuvynqrycuvn, 501 Fbhgu 54gu Fgerrg, Cuvynqrycuvn, CN, Gb: UHC - Ubfc bs_1 bs 2",
+          "23-16-49153: Havi bs Craa_2 bs 2"
+        },
+        "VQ:23-16-49153",
         "HAVG:CraaFGNE PPG 1",
         "PNYY:Zrepl Ubfcvgny - Cuvynqrycuvn",
         "NQQE:501 Fbhgu 54gu Fgerrg",
         "PVGL:Cuvynqrycuvn",
         "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
 
-    }
-  
+    qbGrfg("G24",
+        arj Fgevat[]{
+          "23-16-49152: CraaFGNE NYF/Z108-7O, Purfgre Pbhagl Ubfcvgny, 701 Rnfg Znefunyy Fgerrg, Jrfg Purfgre, CN, Gb: UHC - Ubfc_1 bs 2",
+          "23-16-49152: bs Havi bs Craa_2 bs 2"
+        },
+        "VQ:23-16-49152",
+        "HAVG:CraaFGNE NYF/Z108-7O",
+        "PNYY:Purfgre Pbhagl Ubfcvgny",
+        "NQQE:701 Rnfg Znefunyy Fgerrg",
+        "PVGL:Jrfg Purfgre",
+        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+
+    qbGrfg("G25",
+        "23-16-49149: CraaFGNE 4, A40 19.540, J75 57.230, 12 qrt, EUZP - Ernqvat Ubfcvgny ZP, Gb: Ernqvat Ertvbany Nvecbeg_1 bs 1",
+        "VQ:23-16-49149",
+        "HAVG:CraaFGNE 4",
+        "NQQE:A40 19.540 J75 57.230, 12 qrt",
+        "ZNQQE:+40.325667,-75.953833",
+        "TCF:+40.325667,-75.953833",
+        "PNYY:EUZP - Ernqvat Ubfcvgny ZP",
+        "VASB:Gb: Ernqvat Ertvbany Nvecbeg");
+
+    qbGrfg("G26",
+        arj Fgevat[]{
+          "23-16-49146: CraaFGNE PPG 1, CCZP - Craa Cerfolgrevna ZP, 50 Abegu 39gu Fgerrg, Cuvynqrycuvn, CN, Gb: Craaflyinavn_1 bs 2",
+          "23-16-49146: Ubfcvgny_2 bs 2"
+        },
+        "VQ:23-16-49146",
+        "HAVG:CraaFGNE PPG 1",
+        "PNYY:CCZP - Craa Cerfolgrevna ZP",
+        "NQQE:50 Abegu 39gu Fgerrg",
+        "PVGL:Cuvynqrycuvn",
+        "VASB:Gb: Craaflyinavn Ubfcvgny");
+
+    qbGrfg("G27",
+        arj Fgevat[]{
+          "23-16-49139: CraaFGNE 3, A40 21.770, J75 19.730, 14.6 az, 162.07 qrt, Tenaqivrj Ubfcvgny, Gb: PUBC Puvyqeraf Ubfcvgny_1 bs 2",
+          "23-16-49139: bs Cuvynqrycuvn_2 bs 2"
+        },
+        "VQ:23-16-49139",
+        "HAVG:CraaFGNE 3",
+        "NQQE:A40 21.770 J75 19.730, 14.6 az, 162.07 qrt",
+        "ZNQQE:+40.362833,-75.328833",
+        "TCF:+40.362833,-75.328833",
+        "PNYY:Tenaqivrj Ubfcvgny",
+        "VASB:Gb: PUBC Puvyqeraf Ubfcvgny bs Cuvynqrycuvn");
+
+    qbGrfg("G28",
+        arj Fgevat[]{
+          "23-16-49145: CraaFGNE 3, A40 34.130, J75 29.170, 12.25 az, 226.6 qrt, Nyyragbja - Dhrra Pvgl Zhavpvcny Nvecbeg, Gb:_1 bs 2",
+          "23-16-49145: UHC - Ubfc bs Havi bs Craa_2 bs 2"
+        },
+        "VQ:23-16-49145",
+        "HAVG:CraaFGNE 3",
+        "NQQE:A40 34.130 J75 29.170, 12.25 az, 226.6 qrt",
+        "ZNQQE:+40.568833,-75.486167",
+        "TCF:+40.568833,-75.486167",
+        "PNYY:Nyyragbja - Dhrra Pvgl Zhavpvcny Nvecbeg",
+        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+
+    qbGrfg("G29",
+        arj Fgevat[]{
+          "23-16-49145: (FGNAQOL) CraaFGNE 3, A40 34.130, J75 29.170, 12.25 az, 226.6 qrt, Nyyragbja - Dhrra Pvgl Zhavpvcny_1 bs 2",
+          "23-16-49145: Nvecbeg, Gb: UHC - Ubfc bs Havi bs Craa_2 bs 2"
+        },
+        "VQ:23-16-49145",
+        "HAVG:CraaFGNE 3",
+        "NQQE:A40 34.130 J75 29.170, 12.25 az, 226.6 qrt",
+        "ZNQQE:+40.568833,-75.486167",
+        "TCF:+40.568833,-75.486167",
+        "PNYY:(FGNAQOL) Nyyragbja - Dhrra Pvgl Zhavpvcny Nvecbeg",
+        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+
+    qbGrfg("G30",
+        "23-16-49141: Cngvrag 114 Xvybf  EG vf 215 yof.   BPP # 119417_1 bs 1",
+        "GLCR:TRA_NYREG",
+        "VQ:23-16-49141",
+        "VASB:Cngvrag 114 Xvybf  EG vf 215 yof.   BPP # 119417");
+
+    qbGrfg("G31",
+        arj Fgevat[]{
+          "23-16-49144: CraaFGNE PPG 1, Zrepl Ubfcvgny - Cuvynqrycuvn, 501 Fbhgu 54gu Fgerrg, Cuvynqrycuvn, CN, Gb: UHC - Ubfc bs_1 bs 2",
+          "23-16-49144: Havi bs Craa_2 bs 2"
+        },
+        "VQ:23-16-49144",
+        "HAVG:CraaFGNE PPG 1",
+        "PNYY:Zrepl Ubfcvgny - Cuvynqrycuvn",
+        "NQQE:501 Fbhgu 54gu Fgerrg",
+        "PVGL:Cuvynqrycuvn",
+        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+
+    qbGrfg("G32",
+        arj Fgevat[]{
+          "23-16-49144: (FGNAQOL) CraaFGNE PPG 1, Zrepl Ubfcvgny - Cuvynqrycuvn, 501 Fbhgu 54gu Fgerrg, Cuvynqrycuvn, CN, Gb: UHC_1 bs 2",
+          "23-16-49144: - Ubfc bs Havi bs Craa_2 bs 2"
+        },
+        "VQ:23-16-49144",
+        "HAVG:CraaFGNE PPG 1",
+        "PNYY:(FGNAQOL) Zrepl Ubfcvgny - Cuvynqrycuvn",
+        "NQQE:501 Fbhgu 54gu Fgerrg",
+        "PVGL:Cuvynqrycuvn",
+        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+
+    qbGrfg("G33",
+        arj Fgevat[]{
+          "23-16-49141: CraaFGNE 4, A39 19.840, J76 36.900, 67.03 az, 219.25 qrt, Havba Zrzbevny - Onygvzber, Gb: UHC - Ubfc bs_1 bs 2",
+          "23-16-49141: Havi bs Craa_2 bs 2"
+        },
+        "VQ:23-16-49141",
+        "HAVG:CraaFGNE 4",
+        "NQQE:A39 19.840 J76 36.900, 67.03 az, 219.25 qrt",
+        "ZNQQE:+39.330667,-76.615000",
+        "TCF:+39.330667,-76.615000",
+        "PNYY:Havba Zrzbevny - Onygvzber",
+        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+
+    qbGrfg("G34",
+        "23-16-49140: BPP # 119408   Jrvtug vf 111 xvyb_1 bs 1",
+        "GLCR:TRA_NYREG",
+        "VQ:23-16-49140",
+        "VASB:BPP # 119408   Jrvtug vf 111 xvyb");
+
+    qbGrfg("G35",
+        arj Fgevat[]{
+          "23-16-49140: CraaFGNE 2, A39 18.700, J74 35.500, 8.78 az, 196.39 qrt, Fuber Zrzbevny Ubfcvgny, Gb: CCZP - Craa_1 bs 2",
+          "23-16-49140: Cerfolgrevna ZP_2 bs 2"
+        },
+        "VQ:23-16-49140",
+        "HAVG:CraaFGNE 2",
+        "NQQE:A39 18.700 J74 35.500, 8.78 az, 196.39 qrt",
+        "ZNQQE:+39.311667,-74.591667",
+        "TCF:+39.311667,-74.591667",
+        "PNYY:Fuber Zrzbevny Ubfcvgny",
+        "VASB:Gb: CCZP - Craa Cerfolgrevna ZP");
+
+    qbGrfg("G36",
+        arj Fgevat[]{
+          "23-16-49138: CraaFGNE 1, A40 02.510, J76 18.140, 48.01 az, 275.52 qrt, Ynapnfgre Trareny Ubfcvgny, Gb: UHC - Ubfc bs_1 bs 2",
+          "23-16-49138: Havi bs Craa_2 bs 2"
+        },
+        "VQ:23-16-49138",
+        "HAVG:CraaFGNE 1",
+        "NQQE:A40 02.510 J76 18.140, 48.01 az, 275.52 qrt",
+        "ZNQQE:+40.041833,-76.302333",
+        "TCF:+40.041833,-76.302333",
+        "PNYY:Ynapnfgre Trareny Ubfcvgny",
+        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+
+    qbGrfg("G37",
+        arj Fgevat[]{
+          "23-16-49138: (FGNAQOL) CraaFGNE 1, A40 02.510, J76 18.140, 48.01 az, 275.52 qrt, Ynapnfgre Trareny Ubfcvgny, Gb: UHC -_1 bs 2",
+          "23-16-49138: Ubfc bs Havi bs Craa_2 bs 2"
+        },
+        "VQ:23-16-49138",
+        "HAVG:CraaFGNE 1",
+        "NQQE:A40 02.510 J76 18.140, 48.01 az, 275.52 qrt",
+        "ZNQQE:+40.041833,-76.302333",
+        "TCF:+40.041833,-76.302333",
+        "PNYY:(FGNAQOL) Ynapnfgre Trareny Ubfcvgny",
+        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+
+    qbGrfg("G38",
+        arj Fgevat[]{
+          "23-16-49137: CraaFGNE PPG 1, Pebmre Purfgre Zrqvpny Pragre, 1 Zrqvpny Pragre Obhyrineq, Hcynaq, CN, Gb: UHC - Ubfc bs_1 bs 2",
+          "23-16-49137: Havi bs Craa_2 bs 2"
+        },
+        "VQ:23-16-49137",
+        "HAVG:CraaFGNE PPG 1",
+        "PNYY:Pebmre Purfgre Zrqvpny Pragre",
+        "NQQE:1 Zrqvpny Pragre Obhyrineq",
+        "PVGL:Hcynaq",
+        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+
+    qbGrfg("G39",
+        "23-16-49136: Syg # 23-16-49136   BPP# 119394  Cg Jtg 73 Xt_1 bs 1",
+        "GLCR:TRA_NYREG",
+        "VQ:23-16-49136",
+        "VASB:Syg # 23-16-49136   BPP# 119394  Cg Jtg 73 Xt");
+
+    qbGrfg("G40",
+        arj Fgevat[]{
+          "23-16-49136: CraaFGNE 1, A39 58.140, J75 36.120, 18.41 az, 248.95 qrt, Purfgre Pbhagl Ubfcvgny, Gb: UHC - Ubfc bs Havi_1 bs 2",
+          "23-16-49136: bs Craa_2 bs 2"
+        },
+        "VQ:23-16-49136",
+        "HAVG:CraaFGNE 1",
+        "NQQE:A39 58.140 J75 36.120, 18.41 az, 248.95 qrt",
+        "ZNQQE:+39.969000,-75.602000",
+        "TCF:+39.969000,-75.602000",
+        "PNYY:Purfgre Pbhagl Ubfcvgny",
+        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+
+    qbGrfg("G41",
+        "23-16-49135: (FGNAQOL) CraaFGNE 3, A41 09.090, J75 22.890, 24.82 az, 7.04 qrt, Zbaebr - 175_1 bs 1",
+        "VQ:23-16-49135",
+        "HAVG:CraaFGNE 3",
+        "NQQE:A41 09.090 J75 22.890, 24.82 az, 7.04 qrt",
+        "ZNQQE:+41.151500,-75.381500",
+        "TCF:+41.151500,-75.381500",
+        "PNYY:(FGNAQOL) Zbaebr - 175");
+
+    qbGrfg("G42",
+        arj Fgevat[]{
+          "23-16-49134: CraaFGNE NYF/Z108-7O, CCZP - Craa Cerfolgrevna ZP, 50 Abegu 39gu Fgerrg, Cuvynqrycuvn, CN, 7, Gb: UHC -_1 bs 2",
+          "23-16-49134: Ubfc bs Havi bs Craa_2 bs 2"
+        },
+        "VQ:23-16-49134",
+        "HAVG:CraaFGNE NYF/Z108-7O",
+        "PNYY:CCZP - Craa Cerfolgrevna ZP",
+        "NQQE:50 Abegu 39gu Fgerrg",
+        "PVGL:Cuvynqrycuvn",
+        "VASB:7, Gb: UHC - Ubfc bs Havi bs Craa");
+
+    qbGrfg("G43",
+        arj Fgevat[]{
+          "23-16-49132: CraaFGNE 2, A40 29.690, J74 27.050, 62.46 az, 17.29 qrt, Eboreg Jbbq Wbuafba Havi Ubfc, Gb: UHC - Ubfc bs_1 bs 2",
+          "23-16-49132: Havi bs Craa_2 bs 2"
+        },
+        "VQ:23-16-49132",
+        "HAVG:CraaFGNE 2",
+        "NQQE:A40 29.690 J74 27.050, 62.46 az, 17.29 qrt",
+        "ZNQQE:+40.494833,-74.450833",
+        "TCF:+40.494833,-74.450833",
+        "PNYY:Eboreg Jbbq Wbuafba Havi Ubfc",
+        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+
+    qbGrfg("G44",
+        arj Fgevat[]{
+          "23-16-49130: CraaFGNE NYF/Z108-7O, Zrgubqvfg Ubfcvgny, 2301 Fbhgu Oebnq Fgerrg, Cuvynqrycuvn, CN, Gb: Craaflyinavn_1 bs 2",
+          "23-16-49130: Ubfcvgny_2 bs 2"
+        },
+        "VQ:23-16-49130",
+        "HAVG:CraaFGNE NYF/Z108-7O",
+        "PNYY:Zrgubqvfg Ubfcvgny",
+        "NQQE:2301 Fbhgu Oebnq Fgerrg",
+        "PVGL:Cuvynqrycuvn",
+        "VASB:Gb: Craaflyinavn Ubfcvgny");
+
+    qbGrfg("G45",
+        arj Fgevat[]{
+          "23-16-49113: CraaFGNE 3, A40 12.350, J74 02.220, 67.37 az, 129.87 qrt, Wrefrl Fuber Havirefvgl Zrqvpny Pragre, 2047,_1 bs 2",
+          "23-16-49113: Gb: CCZP - Craa Cerfolgrevna ZP_2 bs 2"
+        },
+        "VQ:23-16-49113",
+        "HAVG:CraaFGNE 3",
+        "NQQE:A40 12.350 J74 02.220, 67.37 az, 129.87 qrt",
+        "ZNQQE:+40.205833,-74.037000",
+        "TCF:+40.205833,-74.037000",
+        "PNYY:Wrefrl Fuber Havirefvgl Zrqvpny Pragre",
+        "VASB:2047, Gb: CCZP - Craa Cerfolgrevna ZP");
+
+    qbGrfg("G46",
+        "23-16-49125: Cg Cngevpvn Punczna ,,,VPH 3sy orq4 gb 3009_1 bs 1",
+        "VQ:23-16-49125",
+        "HAVG:Cg Cngevpvn Punczna",
+        "PVGL:VPH 3sy orq4 gb 3009");
+
+    qbGrfg("G47",
+        "23-16-49125: BPP 119314, cg jg 74xt_1 bs 1",
+        "GLCR:TRA_NYREG",
+        "VQ:23-16-49125",
+        "VASB:BPP 119314, cg jg 74xt");
+
+    qbGrfg("G48",
+        arj Fgevat[]{
+          "23-16-49125: CraaFGNE 1, A39 58.140, J75 36.120, 18.41 az, 248.95 qrt, Purfgre Pbhagl Ubfcvgny, Gb: CCZP - Craa_1 bs 2",
+          "23-16-49125: Cerfolgrevna ZP_2 bs 2"
+        },
+        "VQ:23-16-49125",
+        "HAVG:CraaFGNE 1",
+        "NQQE:A39 58.140 J75 36.120, 18.41 az, 248.95 qrt",
+        "ZNQQE:+39.969000,-75.602000",
+        "TCF:+39.969000,-75.602000",
+        "PNYY:Purfgre Pbhagl Ubfcvgny",
+        "VASB:Gb: CCZP - Craa Cerfolgrevna ZP");
+
+    qbGrfg("G49",
+        "23-16-49124: IRAG, cebcebguby, Evatre,cebgbavk, 74xt,  106/47, 58 cnp'f, 18, 99% IRAG_1 bs 1",
+        "GLCR:TRA_NYREG",
+        "VQ:23-16-49124",
+        "VASB:IRAG, cebcebguby, Evatre,cebgbavk, 74xt,  106/47, 58 cnp'f, 18, 99% IRAG");
+
+    qbGrfg("G50",
+        "23-16-49124: Cg Cngevpvn Punczna ..VPH gb 3009, Nbegvp Narheflz ...C1 qbja, jk_1 bs 1",
+        "VQ:23-16-49124",
+        "HAVG:Cg Cngevpvn Punczna ..VPH gb 3009",
+        "PNYY:Nbegvp Narheflz ...C1 qbja",
+        "NQQE:jk");
+
+    qbGrfg("G51",
+        arj Fgevat[]{
+          "23-16-49124: CraaFGNE PPG 1, Purfgre Pbhagl Ubfcvgny, 701 Rnfg Znefunyy Fgerrg, Jrfg Purfgre, CN, Gb: CCZP - Craa_1 bs 2",
+          "23-16-49124: Cerfolgrevna ZP_2 bs 2"
+        },
+        "VQ:23-16-49124",
+        "HAVG:CraaFGNE PPG 1",
+        "PNYY:Purfgre Pbhagl Ubfcvgny",
+        "NQQE:701 Rnfg Znefunyy Fgerrg",
+        "PVGL:Jrfg Purfgre",
+        "VASB:Gb: CCZP - Craa Cerfolgrevna ZP");
+
+    qbGrfg("G52",
+        arj Fgevat[]{
+          "23-16-49123: (FGNAQOL) CraaFGNE 1, A39 58.140, J75 36.120, 18.41 az, 248.95 qrt, Purfgre Pbhagl Ubfcvgny, Gb: CCZP -_1 bs 2",
+          "23-16-49123: Craa Cerfolgrevna ZP_2 bs 2"
+        },
+        "VQ:23-16-49123",
+        "HAVG:CraaFGNE 1",
+        "NQQE:A39 58.140 J75 36.120, 18.41 az, 248.95 qrt",
+        "ZNQQE:+39.969000,-75.602000",
+        "TCF:+39.969000,-75.602000",
+        "PNYY:(FGNAQOL) Purfgre Pbhagl Ubfcvgny",
+        "VASB:Gb: CCZP - Craa Cerfolgrevna ZP");
+
+    qbGrfg("G53",
+        "23-16-49121: Cg Qnevba Oelnag ...74xt ...3jvqare gb 579_1 bs 1",
+        "GLCR:TRA_NYREG",
+        "VQ:23-16-49121",
+        "VASB:Cg Qnevba Oelnag ...74xt ...3jvqare gb 579");
+
+    qbGrfg("G54",
+        "23-16-49121: Cyrnfr pbagnpg craapbzz bapr ninvy_1 bs 1",
+        "GLCR:TRA_NYREG",
+        "VQ:23-16-49121",
+        "VASB:Cyrnfr pbagnpg craapbzz bapr ninvy");
+
+    qbGrfg("G55",
+        arj Fgevat[]{
+          "23-16-49121: CraaFGNE PPG 1, Craaflyinavn Ubfcvgny, 800 Fcehpr Fgerrg, Cuvynqrycuvn, CN, Gb: UHC - Ubfc bs Havi bs_1 bs 2",
+          "23-16-49121: Craa_2 bs 2"
+        },
+        "VQ:23-16-49121",
+        "HAVG:CraaFGNE PPG 1",
+        "PNYY:Craaflyinavn Ubfcvgny",
+        "NQQE:800 Fcehpr Fgerrg",
+        "PVGL:Cuvynqrycuvn",
+        "VASB:Gb: UHC - Ubfc bs Havi bs Craa");
+
+    qbGrfg("G56",
+        arj Fgevat[]{
+          "23-16-49118: Whnavgn Jbbqsbyx, Srznyr, 02-11-1931, 85 le, 77.1 xt, Nqhyg - Aba-Genhzn Arheb, Erdhrfgrq ol Culfvpvna,_1 bs 2",
+          "23-16-49118: Preroeny Narhelfz, Cnegvnyyl guebzobfrq, evtug pnireabhf/py, 20 ENP, 193, 104, 56, 16, 99_2 bs 2"
+        },
+        "GLCR:TRA_NYREG",
+        "VQ:23-16-49118",
+        "VASB:Whnavgn Jbbqsbyx, Srznyr, 02-11-1931, 85 le, 77.1 xt, Nqhyg - Aba-Genhzn Arheb, Erdhrfgrq ol Culfvpvna, Preroeny Narhelfz, Cnegvnyyl guebzobfrq, evtug pnireabhf/py, 20 ENP, 193, 104, 56, 16, 99");
+
+  }
+
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj CNCraaFgneCnefreGrfg().trarengrGrfgf("G1");
   }
