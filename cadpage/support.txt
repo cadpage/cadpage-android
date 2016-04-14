@@ -712,7 +712,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-VQTOBKCA or vqtobkca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+WJICHOGA or wjichoga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support, 
 Jean ~ Cadpage Administrator
@@ -3933,6 +3933,7 @@ If they are, use the Cadpage "Email the Developer" setting to send us a new supp
 * Free subscription request using general or null location
 * If authorized run days > 10, add 30 day authorization code
 **************************************************************************
+
 Apparently, you are using the General location setting, which is no longer free. We prefer that you switch to a real location-specific parser for a more effective Cadpage experience.
 
 The general location doesn't really know anything about how your text messages are structured and can only pull a limited amount of information from them. To really get the full benefit of Cadpage you need to specify a location setting that will know more about your specific message format and can get a lot more information from it.
