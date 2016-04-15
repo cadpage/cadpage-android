@@ -12,9 +12,9 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
  * Pulaski County, AR
  */
 
-public class ARPulaskiCountyParser extends DispatchSouthernParser {
+public class ARPulaskiCountyAParser extends DispatchSouthernParser {
   
-  public ARPulaskiCountyParser() {
+  public ARPulaskiCountyAParser() {
     super(getKeywords(CITY_CODES), "PULASKI COUNTY", "AR", DSFLAG_LEAD_PLACE | DSFLAG_FOLLOW_CROSS);
     setupMultiWordStreets(MWORD_STREET_LIST);
   }

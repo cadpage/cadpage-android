@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Babaqntn Pbhagl, AL (Q)
+Babaqntn Pbhagl, AL (R)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Flenphfr Havirefvgl Nzohynapr

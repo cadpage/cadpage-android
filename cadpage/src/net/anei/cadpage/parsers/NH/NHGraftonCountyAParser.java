@@ -8,9 +8,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.dispatch.DispatchArchonixParser;
 
-public class NHGraftonCountyParser extends DispatchArchonixParser {
+public class NHGraftonCountyAParser extends DispatchArchonixParser {
 
-  public NHGraftonCountyParser() {
+  public NHGraftonCountyAParser() {
     super(CITY_CODES, "GRAFTON COUNTY", "NH");
     setupGpsLookupTable(buildGPSLookupTable());
     setupMultiWordStreets("TE LO CA");

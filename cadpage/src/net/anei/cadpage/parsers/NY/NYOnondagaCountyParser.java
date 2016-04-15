@@ -16,7 +16,8 @@ public class NYOnondagaCountyParser extends GroupBestParser {
            new NYOnondagaCountyBParser(),
            new NYOnondagaCountyCParser(),
            new NYOnondagaCountyDParser(),
-           new NYOnondagaCountyMetroWestParser());
+           new NYOnondagaCountyMetroWestParser(),
+           new NYOnondagaCountyEParser());
   }
 }
 	

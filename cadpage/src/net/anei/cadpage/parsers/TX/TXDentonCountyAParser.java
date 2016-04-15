@@ -8,11 +8,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 
-public class TXDentonCountyParser extends DispatchOSSIParser {
+public class TXDentonCountyAParser extends DispatchOSSIParser {
 
   private static final Pattern SUBJECT_PTN = Pattern.compile("FYI|Update|Cancel|\\d{9};\\d\\d/\\d\\d/\\d{4} \\d\\d");
   
-  public TXDentonCountyParser() {
+  public TXDentonCountyAParser() {
     super(CITY_LIST, "DENTON COUNTY", "TX",
           "ID?: ( CANCEL ADDR SHORT_CITY! " +
                "| FYI? DATIME? ID DATIME? ( SRC CALL PLACE? ADDR X/Z+? CITY " + 
