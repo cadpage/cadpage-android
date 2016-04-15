@@ -911,6 +911,7 @@ class Active911Vendor extends Vendor {
       "US/OH/ClermontCounty",             "OHClermontCountyA",
       "US/OH/ClintonCounty",              "OHClintonCounty",
       "US/OH/CrawfordCountySheriff",      "OHCrawfordCounty",
+      "US/OH/CuyahogaCounty",             "OHCuyahogaCountyA",
       "US/OH/DarkeCountySheriff",         "OHDarkeCounty",
       "US/OH/Fairfield",                  "OHFairfieldCounty",
       "US/OH/FultonCounty",               "OHFultonCounty",

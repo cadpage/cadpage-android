@@ -182,7 +182,7 @@ choyvp pynff BUCbegntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Gehpx ba Sver",
         "NQQE:200 RO",  // Abg znccvat
         "ZNQQE:200",
-        "VASB:01/02/2014 20:11:58 Qvfc  947  Puril Fhoheona ba Sver");
+        "VASB:Puril Fhoheona ba Sver");
 
     qbGrfg("G13",
         "(Qvfcngpu Zrffntr) SVER  \e20  CVARPERFG     \ezhghny nvq   jngre fuhggyr",
@@ -260,7 +260,7 @@ choyvp pynff BUCbegntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FDHNQ ERDHRFG",
         "NQQE:CNEXZNA EQ & FGNGR EG 82",
         "ZNQQE:CNEXZNA EQ & FGNGR 82",
-        "VASB:12/16/2013 06:49:41 Qvfc  947  Cntrq Gjb Pne ZIN");
+        "VASB:Cntrq Gjb Pne ZIN");
 
     qbGrfg("G25",
         "(Qvfcngpu Zrffntr)  \agenssvp penfu\azvyr rnfg bs Cnexzna..vawhevrf FE 422",
@@ -299,7 +299,7 @@ choyvp pynff BUCbegntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpu Zrffntr) ** QVFERTNEQ **\aSNYFR NYNEZ \a8077  SERRQBZ EQ   \aSVER NYNEZ, UNYYJNL FZBXR QRGRPGBE",
         "PNYY:** QVFERTNEQ **",
         "NQQE:SNYFR NYNEZ",
-        "VASB:8077  SERRQBZ EQ / SVER NYNEZ, UNYYJNL FZBXR QRGRPGBE");
+        "VASB:8077  SERRQBZ EQ\aSVER NYNEZ, UNYYJNL FZBXR QRGRPGBE");
 
     qbGrfg("G31",
         "(Qvfcngpu Zrffntr) SVER \a8077  SERRQBZ EQ   \aSVER NYNEZ, UNYYJNL FZBXR QRGRPGBE :-(",
@@ -457,7 +457,7 @@ choyvp pynff BUCbegntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Qvfcngpu Zrffntr) FDHNQ ERDHRFG \e8005  FGNGR FG  \e11/06/2013 16:46:32 Qvfc  947  Ryqreyl zna sryy",
         "PNYY:FDHNQ ERDHRFG",
         "NQQE:8005 FGNGR FG",
-        "VASB:11/06/2013 16:46:32 Qvfc  947  Ryqreyl zna sryy");
+        "VASB:Ryqreyl zna sryy");
 
     qbGrfg("G56",
         "(Qvfcngpu Zrffntr) FDHNQ ERDHRFG \a10228  FGNGR EG 82   \aznacbjre arrqrq ng nobir",
@@ -478,7 +478,7 @@ choyvp pynff BUCbegntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZIN Ab Vawhel",
         "NQQE:ABEGU BS NQNZF FGNGR EG 88",
         "ZNQQE:ABEGU BS NQNZF FGNGR 88",
-        "VASB:11/04/2013 05:44:00 Qvfc  947  Cebqhpr Gehpx Yrnxvat Shry");
+        "VASB:Cebqhpr Gehpx Yrnxvat Shry");
 
     qbGrfg("G59",
         "(Qvfcngpu Zrffntr) FGBEZ QNZNTR \eERLABYQF EQ  FGNGR EG 422   \eGERR QBJA NPEBFF GUR EBNQJNL",
