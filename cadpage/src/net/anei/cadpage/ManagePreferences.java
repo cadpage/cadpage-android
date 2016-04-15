@@ -1327,7 +1327,7 @@ public class ManagePreferences {
   public static class InitialPermissionChecker extends PermissionChecker {
     
     // List of checkers that reported permission failures
-    List<PermissionChecker> failedCheckers;
+    List<PermissionChecker> failedCheckers = null;
     
     public InitialPermissionChecker() {
       super(PERM_REQ_INITIAL);
@@ -1367,7 +1367,10 @@ public class ManagePreferences {
       }
       
       // No failures, life is good
-      if (failedCheckers.isEmpty()) return;
+      if (failedCheckers.isEmpty()) {
+        failedCheckers = null;
+        return;
+      }
 
       // Otherwise run through all of the failed checkers and accumulate
       // their missing permissions in our requested permission list
@@ -1382,6 +1385,8 @@ public class ManagePreferences {
 
     @Override
     public void onRequestPermissionResult(String[] permissions, int[] granted) {
+      
+      if (failedCheckers == null) return;
  
       // When we get the final permission granted result
       // Loop back through all of the failed permission checkers reported
@@ -1401,6 +1406,8 @@ public class ManagePreferences {
         }
         checker.onRequestPermissionResult(perms, stats);
       }
+      
+      failedCheckers = null;
     }
   }
   
