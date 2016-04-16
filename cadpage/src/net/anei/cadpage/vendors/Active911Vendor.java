@@ -939,6 +939,7 @@ class Active911Vendor extends Vendor {
       "US/OH/PerryTwp",                   "OHStarkCountyCencomm",
       "US/OH/PickawayCounty",             "OHPickawayCounty",
       "US/OH/PrebleCounty",               "OHPrebleCounty",
+      "US/OH/RichfieldPD",                "OHSummitCountyG",
       "US/OH/Sebring",                    "OHMahoningCounty",
       "US/OH/Secc911",                    "OHCuyahogaCountyA",
       "US/OH/StarkCounty",                "OHStarkCountyRedcenter2",
