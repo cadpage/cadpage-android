@@ -14,27 +14,30 @@ public class OHStarkCountyRedcenter2Parser extends FieldProgramParser {
   public OHStarkCountyRedcenter2Parser() {
     super("STARK COUNTY", "OH", 
           "( Call:CALL! Date/Time:DATETIME1! ( Place:PLACE! Address:ADDRCITY! | Address:ADDRCITY! Place:PLACE ) Crosses:X! Section:MAP? Run_Num:ID? Unit:SKIP? Alert:INFO1! Info:INFO1! Map:TIMES1+ " +
-          "| Call_Address:ADDRCITY! Radio_Channel:CH! Common_Name:PLACE! Qualifier:EMPTY! Cross_Streets:X Local_Information:INFO! Custom_Layer:EMPTY! Census_Tract:EMPTY! Call_Type:CALL! Call_Priority:PRI! Nature_Of_Call:CALL/SDS! Units_Assigned:UNIT! Fire_Quadrant:MAP! Incident_Number(s):ID! Caller_Name:NAME! Caller_Phone:PHONE! Caller_Address:CADDR! Alerts:SKIP! Narratives:INFO1! Status_Times:TIMES1+ Google_Maps_Hyperlink:SKIP " +
-          "| CALL:CALL! PLACE:PLACE! ADDR:ADDRCITY! ( ID:ID! DATE:DATETIME1! MAP:MAP_X! UNIT:SKIP? INFO:INFO1! TIMES1+ " +
-                                                   "| CITY:CITY! ID:ID! PRI:PRI! DATE:DATE! TIME:TIME! UNIT:UNIT? INFO:INFO ) )");
+          "| Address:ADDRCITY! Grid:MAP! Cross_Streets:X! Nature_Of_Call:CALL! DATETIME1! Incident_Number:ID! SKIP! INFO+? TIMES1! TIMES1+ " +
+          "| Call_Address:ADDRCITY! Radio_Channel:CH! Common_Name:PLACE! Qualifier:EMPTY! Cross_Streets:X Local_Information:INFO! Custom_Layer:SKIP! Census_Tract:EMPTY! Call_Type:CALL! Call_Priority:PRI! Call_Date/Time:DATETIME1? Nature_Of_Call:CALL/SDS! Units_Assigned:UNIT! Fire_Quadrant:MAP! Incident_Number(s):ID! Caller_Name:NAME! Caller_Phone:PHONE! Caller_Address:CADDR! Alerts:SKIP! Narratives:INFO1! Status_Times:TIMES1+ Google_Maps_Hyperlink:SKIP " +
+          "| CALL:CALL! PLACE:PLACE! ADDR:ADDRCITY! XST:X? ( ID:ID! PRI:PRI? DATE:DATETIME1! MAP:MAP_X! UNIT:SKIP? INFO:INFO1! TIMES1+ " +
+                                                          "| CITY:CITY! ID:ID! PRI:PRI! DATE:DATE! TIME:TIME! UNIT:UNIT? INFO:INFO ) " + 
+          "| INC_ID DATE:DATE! TIME:TIME! BLDG:PLACE! LOC:ADDRCITY! APT:APT! XST:X! TRU:UNIT! NAT:CALL! )");
   }
   
   @Override
   public String getFilter() {
-    return "NWS@starksheriff.org,@redcenter.us,dispatch@neo-comm.org,cad@neo-comm.org,7127390583,messaging@iamresponding.com";
+    return "@starksheriff.org,@redcenter.us,@neo-comm.org,cad@neo-comm.org,7127390583,messaging@iamresponding.com,@cantonohio.gov";
   }
 
   String unit;
   String times;
   
   private static final Pattern JUNK_BRK_PTN = Pattern.compile("\n~ *\n|, *\n");
+  private static final Pattern DELIM = Pattern.compile("\n(?: +\n)*");
   
   @Override
   protected boolean parseMsg(String body, Data data) {
     unit = null;
     times = "";
     body = JUNK_BRK_PTN.matcher(body).replaceAll("\n");
-    if (!parseFields(body.split("\n"), data)) return false;
+    if (!parseFields(DELIM.split(body), data)) return false;
     if (data.msgType == MsgType.RUN_REPORT) data.strSupp = append(times, "\n", data.strSupp);
     return true;
   }
@@ -47,6 +50,11 @@ public class OHStarkCountyRedcenter2Parser extends FieldProgramParser {
     if (name.equals("TIMES1")) return new MyTimes1Field();
     if (name.equals("CADDR")) return new MyCallerAddressField();
     if (name.equals("MAP_X")) return new MyMapCrossField();
+    
+    if (name.equals("INC_ID")) return new IdField("INC# *(.*)", true);
+    if (name.equals("DATE")) return new DateField("\\d\\d?/\\d\\d?/\\d\\d", true);
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
+    
     return super.getField(name);
   }
   
@@ -85,6 +93,18 @@ public class OHStarkCountyRedcenter2Parser extends FieldProgramParser {
   }
 
   private class MyTimes1Field extends InfoField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.startsWith("Unit:")) return false;
+      parse(field, data);
+      return true;
+    }
+    
     @Override
     public void parse(String field, Data data) {
       if (field.startsWith("Unit:")) {

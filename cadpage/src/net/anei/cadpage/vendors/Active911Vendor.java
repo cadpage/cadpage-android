@@ -890,6 +890,7 @@ class Active911Vendor extends Vendor {
       "US/OH/CityofAvonLake",             "OHLorainCountyA",
       "US/OH/CityofBroadviewHeights",     "OHCuyahogaCountyA",
       "US/OH/CityofCanfield",             "OHMahoningCounty",
+      "US/OH/CityofCanton",               "OHStarkCountyRedcent2",
       "US/OH/CityofCenterville",          "OHCenterville",
       "US/OH/CityofFairfield",            "OHFairfield",
       "US/OH/CityofFairlawn",             "OHSummitCountyE",

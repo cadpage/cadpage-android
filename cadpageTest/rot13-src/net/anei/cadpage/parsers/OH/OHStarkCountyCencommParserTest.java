@@ -8,7 +8,6 @@ vzcbeg bet.whavg.Grfg;
 Fgnex Pbhagl, BU (Prapbzz)
 
 Npgvir911 Cnefref:
-HF/BU/FgnexPbhagl
 BUFgnexPbhagl
 HF/GA/FhyyvinaPbhagl
 
