@@ -114,6 +114,7 @@ Ntrapl anzr: Zbhag Nvel Ibyhagrre Sver Pbzcnal
 Ybpngvba: Zbhag Nvel, ZQ, Havgrq Fgngrf
 Fraqre: ep.382@p-zft.arg
 
+[Fgn 1 RZF]07:12 PG:ZHGHNY NVQ NYNEZ 25-13 12345 SVATREOBNEQ EQ / PNEQVNP CG / 9O  OBK:SP QHR:Z1\e\a
 PG:OYF 202 YBBXBHG NI NVEL OBK:0101 QHR:K18 [24]
 14:50 PG:OYF ZRQVPNY PNYY 202 YBBXBHG NI  OBK:0101 QHR:K18
 PG:NYF 203 IVYYNTR JL NVEL OBK:0115 QHR:K19 [23]
@@ -266,6 +267,7 @@ Ntrapl anzr: Jrfgzvafgre ISQ
 Ybpngvba: Jrfgzvafgre, ZQ, Havgrq Fgngrf
 Fraqre: ep.383@p-zft.arg
 
+[Fgn 3 RZF]12:34 PG:GEBHOYR OERNGUVAT 1112 FVATRE QE  OBK:0322 QHR:K38
 PG:NYF 225 SEBPX QE @FHAALOEBBX NCG 240 JRFG OBK:0367 QHR:K37 K99 [43]
 PG:NYF 144 R ZNVA FG JRFG OBK:0301 QHR:K39 [42]
 PG:NYF 2541 PRQNE EVQTR QE JRFG OBK:0306 QHR:K38 H3 [41]
@@ -1434,6 +1436,16 @@ choyvp pynff ZQPneebyyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgZbhagNvelIbyhagrreSverPbzcnal() {
+
+    qbGrfg("K1",
+        "[Fgn 1 RZF]07:12 PG:ZHGHNY NVQ NYNEZ 25-13 12345 SVATREOBNEQ EQ / PNEQVNP CG / 9O  OBK:SP QHR:Z1\e\a",
+        "GVZR:07:12",
+        "PNYY:ZN - PNEQVNP CG",
+        "OBK:25-13",
+        "NQQE:12345 SVATREOBNEQ EQ",
+        "PVGL:SERQREVPX PBHAGL",
+        "PU:9O",
+        "HAVG:Z1");
 
     qbGrfg("G1",
         "PG:OYF 202 YBBXBHG NI NVEL OBK:0101 QHR:K18 [24]",
@@ -2745,6 +2757,14 @@ choyvp pynff ZQPneebyyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgJrfgzvavfgreISQ() {
+
+    qbGrfg("G1",
+        "[Fgn 3 RZF]12:34 PG:GEBHOYR OERNGUVAT 1112 FVATRE QE  OBK:0322 QHR:K38",
+        "GVZR:12:34",
+        "PNYY:GEBHOYR OERNGUVAT",
+        "OBK:0322",
+        "NQQE:1112 FVATRE QE",
+        "HAVG:K38");
 
     qbGrfg("G1",
         "PG:NYF 225 SEBPX QE @FHAALOEBBX NCG 240 JRFG OBK:0367 QHR:K37 K99 [43]",

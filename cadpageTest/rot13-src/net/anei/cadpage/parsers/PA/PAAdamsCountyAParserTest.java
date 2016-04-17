@@ -1412,6 +1412,7 @@ Ntrapl anzr: Nycun SP #1
 Ybpngvba: Yvggyrfgbja, CN, Havgrq Fgngrf
 Fraqre: "nqnzf911@nqnzfpbhagl.hf" <nqnzf911@nqnzfpbhagl.hf>
 
+{Nyreg: Sver - Oehfu / Jvyq Vzct ba Fgehpg} NYEZ YIY: 1, EHA PNEQ: OBK 20-3\e\aYBP:\e\a135 CVAR GBJA EQ\e\aHAVBA GJC\e\aOGJA: CVAR TEBIR EQ & BYQ JRFGZVAFGRE EQ\e\aVAPVQRAG: 16-00020807\e\aHAVGF: N20-1,O20,R20-1,R20-2,RG20,BSP20,E20,R29,DG29,LPR49-1\e\aQNGR/GVZR: 04/15/2016 16:08:30
 {Nyreg: Sver - Oehfu / Jvyqynaq} NYEZ YIY: SC, EHA PNEQ: OBK 20-3\aYBP:\a190 CVAR GBJA EQ\aHAVBA GJC\aOGJA: CVAR TEBIR EQ & BYQ JRFGZVAFGRE EQ\aVAPVQRAG: 16-00020015\aHAVGF: SC29\aQNGR/GVZR: 04/12/2016 14:16:48
 {Nyreg: Sver - Oehfu / Jvyqynaq} NYEZ YIY: SC, EHA PNEQ: OBK 20-3\aYBP:\a190 CVAR GBJA EQ\aHAVBA GJC\aOGJA: CVAR TEBIR EQ & BYQ JRFGZVAFGRE EQ\aVAPVQRAG: 16-00020015\aHAVGF: SC20\aQNGR/GVZR: 04/12/2016 14:16:48
 {Nyreg: Sver - Oehfu / Jvyqynaq} NYEZ YIY: 1, EHA PNEQ: OBK 20-3\aYBP:\a190 CVAR GBJA EQ\aHAVBA GJC\aOGJA: CVAR TEBIR EQ & BYQ JRFGZVAFGRE EQ\aVAPVQRAG: 16-00020015\aHAVGF: PNO6-5,R20-2,RG20,LPO52\aQNGR/GVZR: 04/12/2016 14:16:48
@@ -29249,6 +29250,27 @@ choyvp pynff CNNqnzfPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgNycunSP1() {
+
+    qbGrfg("K1",
+        "{Nyreg: Sver - Oehfu / Jvyq Vzct ba Fgehpg} NYEZ YIY: 1, EHA PNEQ: OBK 20-3\e\a" +
+        "YBP:\e\a" +
+        "135 CVAR GBJA EQ\e\a" +
+        "HAVBA GJC\e\a" +
+        "OGJA: CVAR TEBIR EQ & BYQ JRFGZVAFGRE EQ\e\a" +
+        "VAPVQRAG: 16-00020807\e\a" +
+        "HAVGF: N20-1,O20,R20-1,R20-2,RG20,BSP20,E20,R29,DG29,LPR49-1\e\a" +
+        "QNGR/GVZR: 04/15/2016 16:08:30",
+
+        "PNYY:Sver - Oehfu / Jvyq Vzct ba Fgehpg",
+        "CEV:1",
+        "OBK:20-3",
+        "NQQE:135 CVAR GBJA EQ",
+        "PVGL:HAVBA GJC",
+        "K:CVAR TEBIR EQ & BYQ JRFGZVAFGRE EQ",
+        "VQ:16-00020807",
+        "HAVG:N20-1,O20,R20-1,R20-2,RG20,BSP20,E20,R29,DG29,LPR49-1",
+        "QNGR:04/15/2016",
+        "GVZR:16:08:30");
 
     qbGrfg("G1",
         "{Nyreg: Sver - Oehfu / Jvyqynaq} NYEZ YIY: SC, EHA PNEQ: OBK 20-3\a" +
