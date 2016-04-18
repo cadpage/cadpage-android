@@ -1261,7 +1261,7 @@ class Active911Vendor extends Vendor {
       "US/WA/OkanoganCounty",             "WAOkanoganCounty",
       "US/WA/PendOreilleCounty",          "WAPendOreilleCounty",
       "US/WA/RiverComm911",               "WAChelanCounty",
-      "US/WA/SNOCOM",                     "WASnohomishCountyA,WASnohomishCountyD",
+      "US/WA/SNOCOM",                     "WASnohomishCountyD",
       "US/WA/SnohomishCounty",            "WASnohomishCountyA",
       "US/WA/SnohomishCountyNW",          "WASnohomishCountyB",
       "US/WA/SpokaneCounty",              "WASpokaneCounty",

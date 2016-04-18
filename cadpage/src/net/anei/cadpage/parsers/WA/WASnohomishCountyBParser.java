@@ -28,7 +28,7 @@ public class WASnohomishCountyBParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CALL_CH")) return new MyCallChannelField();
-    if (name.equals("CH")) return new ChannelField("(?:FIRE|NC F) TAC \\d+|", true);
+    if (name.equals("CH")) return new ChannelField("((?:FIRE|NC F) TAC \\d+(?:/\\d+)?|) */?", true);
     if (name.equals("CALL")) return new CallField(">>([A-Z]+)<<", true);
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
     if (name.equals("MAP2")) return new MapField("\\d{3}(?:[A-Z]\\d)?|", true);
