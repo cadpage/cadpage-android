@@ -10,7 +10,8 @@ import net.anei.cadpage.parsers.MsgInfo.MsgType;
 public class MIWashtenawCountyParser extends FieldProgramParser {
 
   public MIWashtenawCountyParser() {
-    super("WASHTENAW COUNTY", "MI", "ADDR CITY_ST_ZIP APT! EMPTY+? PRI Cross:X! INFO+");
+    super("WASHTENAW COUNTY", "MI", 
+          "ADDR CITY_ST_ZIP APT! EMPTY+? PRI Cross:X! INFO+");
   }
   
   @Override
