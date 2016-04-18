@@ -6,9 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   choyvp fgngvp svany Cnggrea ZNFGRE =
-      Cnggrea.pbzcvyr("(?:-- +)?\\q\\q/\\q\\q/\\q{4} \\q\\q:\\q\\q:\\q\\q Qvfc +\\q+[- ]*|[- ]+");
+      Cnggrea.pbzcvyr(" \\\\?Ncg:");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("-- 04/14/2016 16:57:40 Qvfc  843  --");
+    qbGrfg("PNQ:Grfg Sver Qrgnvy *ST03=5241 Pebbxfunax Eq Oyq: \\Ncg: .TEGC CBFG BSSVPR - 5241 PEBBXFTerra Gjc SQ 15:37TEGS2,TEGS2,TEGS2,ZVYV2 Kfg:TYRAJNL NI/NAQREFBA SREEL");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
