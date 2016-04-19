@@ -8,6 +8,7 @@ import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgInfo.MsgType;
+import net.anei.cadpage.parsers.ReverseCodeTable;
 
 
 public class OHHamiltonCountyAParser extends FieldProgramParser {
@@ -48,10 +49,13 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     return WILLIAM_HENRY_HARR.matcher(addr).replaceAll("WILLIAM HENRY HARRISON");
   }
   private static final Pattern WILLIAM_HENRY_HARR = Pattern.compile("\\bWILLIAM HENRY HARR\\b", Pattern.CASE_INSENSITIVE);
-
   
   private static final Pattern PREFIX_PTN = Pattern.compile("(?:HC|CAD|DIRECT):");
-  private static final Pattern MASTER = Pattern.compile("HC:(.*?)(?: \\*\\*? (.*?) \\*\\*( .*?)??)?(?: (\\d{1,2}:\\d\\d)( .*)?)?");
+  private static final Pattern MASTER2 = Pattern.compile("CAD:(.*?) Bld: *(.*?) \\\\?Apt: *(.*) (\\d\\d:\\d\\d) *([A-Z][A-Z0-9,]*) (?:(\\d[A-Z]\\d\\d) )?(?:(.*))?Xst:(.*)");
+  private static final Pattern CALL_PFX_PTN = Pattern.compile("(2ND CALL) *(.*)");
+  private static final Pattern CALL_CH_ADDR_PTN = Pattern.compile("(.*?) \\*?(FG\\d{1,2})=?(.*)");
+  
+  private static final Pattern MASTER1 = Pattern.compile("HC:(.*?)(?: \\*\\*? (.*?) \\*\\*( .*?)??)?(?: (\\d{1,2}:\\d\\d)( .*)?)?");
   private static final Pattern APT_PTN = Pattern.compile("(.*?) +APT: *([^ ]+) +(.*)");
   private static final Pattern ORIG_LOC_PTN = Pattern.compile(" *\\bOriginal Location : *");
   private static final Pattern YMCA_PTN = Pattern.compile("\\bY ?M ?C ?A\\b", Pattern.CASE_INSENSITIVE);
@@ -66,116 +70,163 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       return true;
     }
     
-    // See if this is the new pipe delimited format
+    // See if this is the (no longer) new pipe delimited format
     String[] flds = body.split("\\|");
     if (flds.length >= 5) {
       Matcher match = PREFIX_PTN.matcher(flds[0]);
       if (!match.lookingAt()) return false;
       flds[0] = flds[0].substring(match.end()).trim();
-      if (!parseFields(flds, data)) return false;
       
-      String city = DEPT_CITY_TABLE.getProperty(data.strSource);
+      String prefix = "";
+      match = CALL_PFX_PTN.matcher(flds[0]);
+      if (match.matches()) {
+        prefix = match.group(1);
+        flds[0] = match.group(2);
+      }
+      if (!parseFields(flds, data)) return false;
+      data.strCall = append(prefix, " ", data.strCall);
+      
+      String city = DEPT_CITY_TABLE.getCodeDescription(data.strSource);
       if (city != null) data.strCity = city;
+      return true;
     }
     
     // Otherwise we have to do this the hard way :(
     else {
-      setFieldList("ADDR CITY ST APT PLACE CALL INFO TIME UNIT X");
-      
-      Matcher match = MASTER.matcher(body);
-      if (!match.matches()) return false;
-      String addr = match.group(1).trim();
-      String call = match.group(2);
-      String info = match.group(3);
-      String time = match.group(4);
-      String extra = match.group(5);
-      
-      // Clean blanks out of YMCA RD
-      addr = YMCA_PTN.matcher(addr).replaceAll("YMCA");
-      
-      // Old format had an asterisk delimited call field with a place
-      // name in front of it and a info field behind.  There is another
-      // call description in front of the address that duplicates the
-      // asterisk delimited field so we just skip it
-      if (call != null) {
-        parseAddress(StartType.START_OTHER, FLAG_IGNORE_AT | FLAG_CROSS_FOLLOWS, addr, data);
-        String sPlace = fixCity(getLeft(), data);
-        if (sPlace.startsWith("APT ")) {
-          Parser p = new Parser(sPlace.substring(4).trim());
-          data.strApt = p.get(' ');
-          sPlace = p.get();
-        }
-        data.strPlace = sPlace;
-        data.strCall = call.trim();
-        data.strSupp = getOptGroup(info);
-        if (data.strSupp.startsWith("Original Location :")) data.strSupp = "";
-      }
-      
-      // New format just has one field with a call description, address, and additional information
-      else {
-        
-        // Sometimes the put an APT: label and field between the call and address
-        // which makes things easier
-        StartType st = StartType.START_CALL;
-        int flags = FLAG_START_FLD_REQ;
-        match = APT_PTN.matcher(addr);
+      Matcher match = MASTER2.matcher(body);
+      if (match.matches()) {
+        setFieldList("CALL CH ADDR APT PLACE SRC CITY TIME UNIT MAP NAME X");
+        String callAddr = match.group(1).trim();
+        String apt = match.group(2).trim();
+        String placeSource = match.group(3).trim();
+        data.strTime = match.group(4);
+        data.strUnit = match.group(5);
+        data.strMap = getOptGroup(match.group(6));
+        data.strName = getOptGroup(match.group(7));
+        data.strCross = match.group(8).trim();
+
+        // Strip off possibly call prefix
+        String prefix = "";
+        match = CALL_PFX_PTN.matcher(callAddr);
         if (match.matches()) {
-          st = StartType.START_ADDR;
-          flags = 0;
-          data.strCall = match.group(1);
-          data.strApt = match.group(2);
-          addr = match.group(3);
+          prefix = match.group(1);
+          callAddr = match.group(2);
         }
         
-        // otherwise we have to do this the hard way.
-        
-        parseAddress(st, flags | FLAG_IGNORE_AT | FLAG_CROSS_FOLLOWS, addr, data);
-        if (data.strAddress.length() == 0) {
-          data.msgType = MsgType.GEN_ALERT;
-          data.strSupp = append(data.strCall, " - ", getLeft());
-          data.strCall = "";
-          return true;
-        }
-        info = fixCity(getLeft(), data);
-        if (info.startsWith("LOC:")) {
-          info = info.substring(4).trim();
-          match = ORIG_LOC_PTN.matcher(info);
-          if (match.find()) info = info.substring(0,match.start());
-          data.strPlace = info;
+        // If we are lucky, there is a channel separating the call and address
+        // Otherwise use the SAP to split them
+        match = CALL_CH_ADDR_PTN.matcher(callAddr);
+        if (match.matches()) {
+          data.strCall = match.group(1).trim();
+          data.strChannel = match.group(2);
+          parseAddress(match.group(3).trim(), data);
         } else {
-          match = ORIG_LOC_PTN.matcher(info);
-          if (match.find()) {
-            String place = info.substring(match.end());
-            if (!data.strAddress.contains(place)) data.strPlace = place;
-            info = info.substring(0,match.start());
-          }
-          data.strSupp = info;
+          parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_NO_CITY | FLAG_ANCHOR_END, callAddr, data);
         }
-      }
-  
-      // Fix some Dispatch address typos
-      data.strAddress = data.strAddress.replace("DE SOTO", "DESOTO");
-      
-      // Process time if present
-      if (time  != null) data.strTime = time;
-  
-      // Process leftover stuff
-      if (extra != null) {
-        Parser p = new Parser(extra.trim());
-        String x2 = p.getLastOptional(" XST2:");
-        String x1 = p.getLastOptional(" XST:");
-        data.strUnit = p.get();
-        data.strCross = append(x1, " & ", x2);
+        data.strCall = append(prefix, " ", data.strCall);
+        data.strApt = append(data.strApt, "-", apt);
+        
+        // Split place name from  source
+        ReverseCodeTable.Result res = DEPT_CITY_TABLE.getResult(placeSource);
+        if (res == null) return false;
+        data.strSource = res.getCode();
+        data.strCity = res.getDescription();
+        data.strPlace = res.getRemainder();
+        
+        return true;
       }
       
-      // Last check to clean up mystery NECC city code
-      if (data.strCity.equals("NECC")) {
-        data.strPlace = append(data.strCity, " - ", data.strPlace);
-        data.strCity = "";
+      else if ((match = MASTER1.matcher(body)).matches()) {
+        setFieldList("ADDR CITY ST APT PLACE CALL INFO TIME UNIT X");
+        
+        String addr = match.group(1).trim();
+        String call = match.group(2);
+        String info = match.group(3);
+        String time = match.group(4);
+        String extra = match.group(5);
+        
+        // Clean blanks out of YMCA RD
+        addr = YMCA_PTN.matcher(addr).replaceAll("YMCA");
+        
+        // Old format had an asterisk delimited call field with a place
+        // name in front of it and a info field behind.  There is another
+        // call description in front of the address that duplicates the
+        // asterisk delimited field so we just skip it
+        if (call != null) {
+          parseAddress(StartType.START_OTHER, FLAG_IGNORE_AT | FLAG_CROSS_FOLLOWS, addr, data);
+          String sPlace = fixCity(getLeft(), data);
+          if (sPlace.startsWith("APT ")) {
+            Parser p = new Parser(sPlace.substring(4).trim());
+            data.strApt = p.get(' ');
+            sPlace = p.get();
+          }
+          data.strPlace = sPlace;
+          data.strCall = call.trim();
+          data.strSupp = getOptGroup(info);
+          if (data.strSupp.startsWith("Original Location :")) data.strSupp = "";
+        }
+        
+        // New format just has one field with a call description, address, and additional information
+        else {
+          
+          // Sometimes the put an APT: label and field between the call and address
+          // which makes things easier
+          StartType st = StartType.START_CALL;
+          int flags = FLAG_START_FLD_REQ;
+          match = APT_PTN.matcher(addr);
+          if (match.matches()) {
+            st = StartType.START_ADDR;
+            flags = 0;
+            data.strCall = match.group(1);
+            data.strApt = match.group(2);
+            addr = match.group(3);
+          }
+          
+          // otherwise we have to do this the hard way.
+          
+          parseAddress(st, flags | FLAG_IGNORE_AT | FLAG_CROSS_FOLLOWS, addr, data);
+          if (data.strAddress.length() == 0) {
+            data.msgType = MsgType.GEN_ALERT;
+            data.strSupp = append(data.strCall, " - ", getLeft());
+            data.strCall = "";
+            return true;
+          }
+          info = fixCity(getLeft(), data);
+          if (info.startsWith("LOC:")) {
+            info = info.substring(4).trim();
+            match = ORIG_LOC_PTN.matcher(info);
+            if (match.find()) info = info.substring(0,match.start());
+            data.strPlace = info;
+          } else {
+            match = ORIG_LOC_PTN.matcher(info);
+            if (match.find()) {
+              String place = info.substring(match.end());
+              if (!data.strAddress.contains(place)) data.strPlace = place;
+              info = info.substring(0,match.start());
+            }
+            data.strSupp = info;
+          }
+        }
+    
+        // Fix some Dispatch address typos
+        data.strAddress = data.strAddress.replace("DE SOTO", "DESOTO");
+        
+        // Process time if present
+        if (time  != null) data.strTime = time;
+    
+        // Process leftover stuff
+        if (extra != null) {
+          Parser p = new Parser(extra.trim());
+          String x2 = p.getLastOptional(" XST2:");
+          String x1 = p.getLastOptional(" XST:");
+          data.strUnit = p.get();
+          data.strCross = append(x1, " & ", x2);
+        }
+        return true;
       }
     }
     
-    return true;
+    return false;
   }
   
   private static String fixCity(String left, Data data) {
@@ -634,7 +685,6 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "MRMT", "MARIEMONT",
       "MTHL", "MOUNT HEALTHY",
       "NCHL", "NORTH COLLEGE HILL",
-      "NECC", "NECC",   // No idea what this is.  We will save it in place field
       "NEWT", "NEWTOWN",
       "NORW", "NORWOOD",
       "NRBN", "NORTH BEND",
@@ -674,9 +724,6 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       
   });
   
-  // The multi word street list and call list are only needed for the old
-  // undelimited format.  We can drop them when we drop that logic.
-  
   private static final CodeSet CALL_LIST = new CodeSet(
       "A/A-BUILDING STRUCK",
       "A/A-FIRE/FUEL LEAK",
@@ -704,12 +751,14 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "CHOKING",
       "CO ALARM",
       "CO ALARM - SICK PERS",
+      "CO ALARM-ILLNESS",
       "DIABETIC EMERGENCY",
       "DROWNING",
       "DUMPSTER FIRE",
       "ELECTRICAL FIRE",
       "ELECTRICAL INJURY",
       "ELEVATOR ALARM/RESCU",
+      "ELEVATOR ALARM/RESCUE",
       "EMERGENCY TO PROPERTY",
       "EMS / LIFT ASSISTANCE",
       "EMS LIFT ASSIST",
@@ -720,6 +769,7 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "GENERAL ALERT",
       "GENERAL RESPONSE",
       "GYNECOLOGICAL EMER",
+      "GYNECOLOGICAL EMERGENCY",
       "HEADACHE",
       "HEAD INJURY",
       "HEART ATTACK",
@@ -728,6 +778,7 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "HIGH FEVER",
       "HYPERTHERMIA",
       "HYPOTHERMIA",
+      "INDUSTRIAL ACCIDENT",
       "INJ DURING ROBBERY",
       "INJURED PERSON",
       "INJURY FROM A FALL",
@@ -769,7 +820,10 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "RECORDED FIRE ALARM",
       "SEIZURES",
       "SEXUAL ASSAULT",
+      "SEXUAL ASSAULT-INJURED",
+      "SHOOTING",
       "SICKLE CELL EMER",
+      "SICKLE CELL EMERGENCY",
       "SICK PERSON",
       "SMELL OF GAS",
       "SMOKE/ODOR INDOORS",
@@ -789,7 +843,7 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "WIRES DOWN/ARCING/FIRE"
   );
   
-  private static final Properties DEPT_CITY_TABLE = buildCodeTable(new String[]{
+  private static final ReverseCodeTable DEPT_CITY_TABLE = new ReverseCodeTable(
       "Amberly Village FD",         "Amberly Village",
       "Anderson Twp FD",            "Cincinnati",
       "Blue Ash FD",                "Blue Ash",
@@ -830,5 +884,5 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "Whitewater Twp FD",          "Whitewater Twp",
       "Woodlawn FD",                "Woodlawn",
       "Wyoming FD",                 "Wyoming"
-  });
+  );
 }

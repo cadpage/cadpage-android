@@ -17,11 +17,11 @@ public class TXDallasCountyCParser extends DispatchOSSIParser {
           "( CANCEL ADDR CITY " +
           "| FYI ( CODE1 SRC! " +
                 "| SRC UNIT? PLACE? CODE CALL X2+? P ONE! " +
-                "| ADDR ( CITY CITY2? | ) ( CODE1 SRC! " +
-                                         "| SRC MAP? UNIT? PLACE? CODE CALL X2+? P ONE! " +
-                                         ") " +
+                "| ADDR PLACE1? ( CITY CITY2? | ) ( CODE1 SRC! " +
+                                                 "| SRC MAP? UNIT? PLACE? CODE CALL X2+? P ONE! " +
+                                                 ") " +
                 ") INFO+? MARK X2+? P ONE CITY? CALL BOX ID? INFO+ " +
-         ")");
+          ")");
   }
   
   @Override
@@ -63,6 +63,7 @@ public class TXDallasCountyCParser extends DispatchOSSIParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("PLACE1")) return new MyPlace1Field();
     if (name.equals("CITY2")) return new MyCity2Field();
     if (name.equals("CODE")) return new CodeField("[A-Z]{2,6}", true);
     if (name.equals("SRC")) return new SourceField("[A-Z]{3,4}", true);
@@ -79,6 +80,34 @@ public class TXDallasCountyCParser extends DispatchOSSIParser {
     if (name.equals("BOX")) return new BoxField("\\d+", true);
     if (name.equals("ID")) return new IdField("\\d{10}", true);
     return super.getField(name);
+  }
+  
+  private static final Pattern PLACE_PTN = Pattern.compile("\\(S\\) *(.*?) *\\(N\\)");
+  private static final Pattern NOT_PLACE_PTN = Pattern.compile("[A-Z]{3,4}");
+  private class MyPlace1Field extends PlaceField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = PLACE_PTN.matcher(field);
+      if (match.matches()) {
+        data.strPlace = match.group(1);
+        return true;
+      }
+      
+      if (NOT_PLACE_PTN.matcher(field).matches()) return false;
+      data.strPlace = field;
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
   }
   
   private class MyCity2Field extends SkipField {

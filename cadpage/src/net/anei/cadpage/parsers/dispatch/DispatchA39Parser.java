@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.dispatch;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -10,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class DispatchA39Parser extends FieldProgramParser {
 
-  private static final String PROGRAM_STR = "( ADDR/S CALLINFO | CALL ADDR/iS5XXa! ) INFO+";
+  private static final String PROGRAM_STR = "( ADDR/S CALLINFO | CALL ADDR/iS5XXa! ) INFO/N+";
 
   public DispatchA39Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState, PROGRAM_STR);
@@ -31,6 +33,7 @@ public class DispatchA39Parser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CALLINFO")) return new BaseCallInfoField();
+    if (name.equals("INFO")) return new BaseInfoField();
     return super.getField(name);
   }
   
@@ -48,6 +51,17 @@ public class DispatchA39Parser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "CALL INFO";
+    }
+  }
+  
+  private static final Pattern INFO_JUNK_PTN = Pattern.compile("(?:-- +)?\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d Disp +\\S+[- ]*|[- ]+");
+  private class BaseInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      
+      Matcher match = INFO_JUNK_PTN.matcher(field);
+      if (match.lookingAt()) field = field.substring(match.end());
+      super.parse(field, data);
     }
   }
 }

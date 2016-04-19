@@ -10,22 +10,51 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class PAYorkCountyDParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_SRC_PTN = Pattern.compile("Station \\d+");
-  private static final Pattern DELIM = Pattern.compile(", |(?<!,) +(?=(?:box|cross streets|units):)", Pattern.CASE_INSENSITIVE);
-  
   public PAYorkCountyDParser() {
     super("YORK COUNTY", "PA",
           "DATE_TIME BOX:BOX_CALL! ADDR! CITY! APT_PLACE CROSS_STREETS:X_INFO! UNITS:UNIT! UNIT+", FLDPROG_IGNORE_CASE);
+    setupProtectedNames("FISH AND GAME");
   }
   
   @Override
   public String getFilter() {
     return "york911alert@comcast.net,paging@ycdes.org,paging@zoominternet.net,messaging@iamresponding.com,j.bankert712@gmail.com,dtfdfilter@yahoo.com,pager@fairviewems.org";
   }
+  
+  private static final Pattern SUBJECT_SRC_PTN = Pattern.compile("Station \\d+");
+  private static final Pattern TRAIL_JUNK_PTN = Pattern.compile("[ \n]\\[\\d{4}\\](?:$| *[-\n]| {3})");
+  private static final Pattern IAR_PTN1 = Pattern.compile("(?!:BOX:|box:).*\n.*\n.*");
+  private static final Pattern IAR_PTN2 = Pattern.compile("(?!BOX:|box:)(.*), ([^,]*) :(?: |$)(.*)");
+  private static final Pattern BOX_PTN = Pattern.compile("BOX:", Pattern.CASE_INSENSITIVE);
+  private static final Pattern DELIM = Pattern.compile(", |(?<!,) +(?=(?:box|cross streets|units):)", Pattern.CASE_INSENSITIVE);
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (SUBJECT_SRC_PTN.matcher(subject).matches()) data.strSource = subject;
+    
+    // Trim trailing garbage
+    int pt = body.indexOf('\04');
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    Matcher match = TRAIL_JUNK_PTN.matcher(body);
+    if (match.find()) body = body.substring(0,match.start()).trim();
+    
+    // Undo IAR edits :(
+    if (IAR_PTN1.matcher(body).lookingAt()) {
+      body = "box: " + body.replace('\n', ',');
+    } else {
+      body = body.replace('\n', ' ');
+    }
+    
+    if (subject.equals("WMTFD")) {
+      if (!BOX_PTN.matcher(body).lookingAt()) body = "box: " + body;
+    }
+    else if (subject.equals("Station 68")) {
+      match = IAR_PTN2.matcher(body);
+      if (match.matches()) {
+        body = "box: " + match.group(1) + ", cross streets:" + match.group(2) + " units:" + match.group(3);
+      }
+    }
+    
     return parseFields(DELIM.split(body), data);
   }
   

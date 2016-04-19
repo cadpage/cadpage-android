@@ -858,6 +858,20 @@ J Fhafrg Jnl / Arjcbeg Jnl Aj                     #          VFFNDHNU           
 23927 AR 20gu Fg                                  #          FNZZNZVFU                          Oehfu - Sver                  SGNP2     R81,R82,O71,GR74#YNG:47627537  #YBA:122019543
 2206 239gu Cy Ar                                  #          FNZZNZVFU                          Oehfu - Sver                  SGNP2     R82,O71,GR74#YNG:47629550  #YBA:122018698
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Fabubzvfu Pbhagl Sver Qvfgevpg #26
+Ybpngvba: Tbyq One, JN, Havgrq Fgngrf
+Fraqre: <IvfvPNQ@abepbz.bet>
+
+92701 Fgriraf Cnff Ujl                            #          Zrqvp                         FCZ54     N295,FCZ54#YNG:47746060  #YBA:121094494
+Fgriraf Cnff Ujl / AR Byq Pnfpnqr Ujl             #          Zrqvp                         FCZ54     N295,N295,FCZ54#YNG:47713417  #YBA:121335114
+107 Byq Pnfpnqr Ujl J                             #          Zrqvp                         FCZ54     N295,FCZ54#YNG:47707641  #YBA:121363442
+92701 Fgriraf Cnff Ujl                            #          Zrqvp                         FCZ54     295FG,295FG,N297,FCZ54#YNG:47746060  #YBA:121094494
+93000 Fgriraf Cnff Ujl                            #          Zrqvp                         FCZ54     N295,FCZ54#YNG:47745269  #YBA:121090456
+210 Envyebnq Nir R                                #          Zrqvp                         FCZ54     N295,FCZ54#YNG:47709595  #YBA:121358566
+19649 634gu Nir Ar                                #          Nvq - Rzretrapl               FCN54     N295,FCN54,N296,295FG#YNG:47773926  #YBA:121488706
+92701 Fgriraf Cnff Ujl                            #          Nvq - Rzretrapl               FCZ54     FCZ54,N295#YNG:47746060  #YBA:121094494
+
 */
 
 choyvp pynff JNXvatPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -7575,6 +7589,67 @@ choyvp pynff JNXvatPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:SGNP2",
         "HAVG:R82,O71,GR74",
         "TCF:+47.629550,-122.018698");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgFabubzvfuPbhaglSverQvfgevpg26() {
+
+    qbGrfg("G1",
+        "92701 Fgriraf Cnff Ujl                            #          Zrqvp                         FCZ54     N295,FCZ54#YNG:47746060  #YBA:121094494",
+        "NQQE:92701 Fgriraf Cnff Ujl",
+        "PNYY:Zrqvp",
+        "HAVG:N295,FCZ54",
+        "TCF:+47.746060,-121.094494");
+
+    qbGrfg("G2",
+        "Fgriraf Cnff Ujl / AR Byq Pnfpnqr Ujl             #          Zrqvp                         FCZ54     N295,N295,FCZ54#YNG:47713417  #YBA:121335114",
+        "NQQE:Fgriraf Cnff Ujl & AR Byq Pnfpnqr Ujl",
+        "PNYY:Zrqvp",
+        "HAVG:N295,N295,FCZ54",
+        "TCF:+47.713417,-121.335114");
+
+    qbGrfg("G3",
+        "107 Byq Pnfpnqr Ujl J                             #          Zrqvp                         FCZ54     N295,FCZ54#YNG:47707641  #YBA:121363442",
+        "NQQE:107 Byq Pnfpnqr Ujl J",
+        "PNYY:Zrqvp",
+        "HAVG:N295,FCZ54",
+        "TCF:+47.707641,-121.363442");
+
+    qbGrfg("G4",
+        "92701 Fgriraf Cnff Ujl                            #          Zrqvp                         FCZ54     295FG,295FG,N297,FCZ54#YNG:47746060  #YBA:121094494",
+        "NQQE:92701 Fgriraf Cnff Ujl",
+        "PNYY:Zrqvp",
+        "HAVG:295FG,295FG,N297,FCZ54",
+        "TCF:+47.746060,-121.094494");
+
+    qbGrfg("G5",
+        "93000 Fgriraf Cnff Ujl                            #          Zrqvp                         FCZ54     N295,FCZ54#YNG:47745269  #YBA:121090456",
+        "NQQE:93000 Fgriraf Cnff Ujl",
+        "PNYY:Zrqvp",
+        "HAVG:N295,FCZ54",
+        "TCF:+47.745269,-121.090456");
+
+    qbGrfg("G6",
+        "210 Envyebnq Nir R                                #          Zrqvp                         FCZ54     N295,FCZ54#YNG:47709595  #YBA:121358566",
+        "NQQE:210 Envyebnq Nir R",
+        "PNYY:Zrqvp",
+        "HAVG:N295,FCZ54",
+        "TCF:+47.709595,-121.358566");
+
+    qbGrfg("G7",
+        "19649 634gu Nir Ar                                #          Nvq - Rzretrapl               FCN54     N295,FCN54,N296,295FG#YNG:47773926  #YBA:121488706",
+        "NQQE:19649 634gu Nir Ar",
+        "PNYY:Nvq - Rzretrapl",
+        "HAVG:N295,FCN54,N296,295FG",
+        "TCF:+47.773926,-121.488706");
+
+    qbGrfg("G8",
+        "92701 Fgriraf Cnff Ujl                            #          Nvq - Rzretrapl               FCZ54     FCZ54,N295#YNG:47746060  #YBA:121094494",
+        "NQQE:92701 Fgriraf Cnff Ujl",
+        "PNYY:Nvq - Rzretrapl",
+        "HAVG:FCZ54,N295",
+        "TCF:+47.746060,-121.094494");
 
   }
 
