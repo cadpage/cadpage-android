@@ -13,7 +13,7 @@ public class IDShoshoneCountyParser extends DispatchA16Parser {
 
   @Override
   public String getFilter() {
-    return "administrator@shoshoneso.com";
+    return "administrator@shoshoneso.com,internal@shoshoneso.com";
   }
   
   private static final String[] CITY_LIST= new String[]{
