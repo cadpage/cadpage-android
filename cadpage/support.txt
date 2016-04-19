@@ -3015,7 +3015,7 @@ Can you long press some of the calls that are coming in late and select
 ***************************************************************************
 switch to Active911 Android app
 
-Apparently, your department has paid for Active911, and your device is currently registered to use the new Active911 Android app. Since that new system is in place, your pages will no longer be sent to the Cadpage app.
+Apparently, your department has paid for Active, and your device is currently registered to use the new Active911 Android app. Since that new system is in place, your pages will no longer be sent to the Cadpage app.
 
 If you want to switch back to using Cadpage instead of the Active911 app, you need to re-register Cadpage with Active911.
 To do that, go into Cadpage Settings and select
