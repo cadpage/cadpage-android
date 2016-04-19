@@ -14,24 +14,28 @@ import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 public class DispatchArchonixParser extends FieldProgramParser {
   
+  public static final int ARCH_FLG_TWO_PART_CITY = 1;
+  
   private static final Pattern SUBJECT_PTN = Pattern.compile("(?:Dispatch|Free) (.*)"); 
   private static final Pattern SUBJECT3_PTN = Pattern.compile("Sta +(.+)");
   private static final Pattern SINGLE_LINE_BRK = Pattern.compile("(?<!\n)\n(?!\n)");
   private static final Pattern TWP_ADDR_PTN = Pattern.compile("([ A-Z]+ TWP) +(.*)");
-  
+
+  private boolean twoPartCity;
   private Properties cityCodes;
   private Properties maCityCodes;
 
   public DispatchArchonixParser(Properties cityCodes, String defCity, String defState) {
-    this(cityCodes, null, defCity, defState);
+    this(cityCodes, null, defCity, defState, 0);
   }
 
-  public DispatchArchonixParser(Properties cityCodes, Properties maCityCodes, String defCity, String defState) {
+  public DispatchArchonixParser(Properties cityCodes, Properties maCityCodes, String defCity, String defState, int flags) {
     super(defCity, defState,
           "( ADDRCITY/ZaSXP! MI#:ID! TIMES! TIMES+? RES#:UNIT " +
           "| CALL ADDRCITY/aSXP! #:APT X:X! BOX:BOX? ZN:MAP? CP:PLACE UNIT Time:DATETIME? MI#:ID Lat/Lon:GPS? RES#:UNIT )");
     this.cityCodes = cityCodes;
     this.maCityCodes = maCityCodes;
+    twoPartCity = (flags & ARCH_FLG_TWO_PART_CITY) != 0;
   }
   
   @Override
@@ -52,7 +56,7 @@ public class DispatchArchonixParser extends FieldProgramParser {
     if (!parseFields(body.split("\n"), data)) return false;
     
     // Lots of special handling goes into mutual aid calls
-    if (data.strCall.startsWith("MUTUAL AID") && data.strAddress.length() <= 3) {
+    if (data.strAddress.length() <= 3) {
       String addr = data.strPlace;
       String place = data.strPlace = "";
       int pt = addr.indexOf(" - ");
@@ -108,13 +112,14 @@ public class DispatchArchonixParser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  private static final Pattern CITY_CODE_PTN = Pattern.compile("([A-Z0-9]{2}) [A-Z-0-9]{2}");
   protected class BaseAddressCityField extends AddressField {
 
     @Override
     public void parse(String field, Data data) {
       parse(field, data, true);
     }
-    
+
     public void parse(String field, Data data, boolean cityRequired) {
       String place = "";
       int pt = field.lastIndexOf(';');
@@ -124,8 +129,13 @@ public class DispatchArchonixParser extends FieldProgramParser {
       }
       pt = field.lastIndexOf(',');
       if (pt >= 0) {
-        data.strCity = convertCodes(field.substring(pt + 1).trim(), cityCodes);
+        String city = field.substring(pt+1).trim();
         field = field.substring(0, pt).trim();
+        if (!twoPartCity) {
+          Matcher match = CITY_CODE_PTN.matcher(city);
+          if (match.matches()) city = match.group(1);
+        }
+        data.strCity = convertCodes(city, cityCodes);
       } else if (field.contains("//")) {
         field = field.replace("//", ",");
       } else if (cityRequired) abort();

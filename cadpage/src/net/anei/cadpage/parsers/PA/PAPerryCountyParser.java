@@ -55,7 +55,8 @@ public class PAPerryCountyParser extends DispatchArchonixParser {
       "34",   "SUSQUEHANNA TWP JC",
 
       "51",   "",
-      "52",   ""
+      "52",   "",
+      "55",   ""
       
       
   });

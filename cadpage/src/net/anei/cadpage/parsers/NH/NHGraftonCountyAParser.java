@@ -47,14 +47,10 @@ public class NHGraftonCountyAParser extends DispatchArchonixParser {
     return super.getField(name);
   }
     
-  private static final Pattern CITY_CODE_PTN = Pattern.compile("(?<=,)([A-Z0-9]{2}) [A-Z-0-9]{2} *(?=$|;)");
   private class MyAddressCityField extends BaseAddressCityField {
 
     @Override
     public void parse(String field, Data data) {
-      
-      // Condense 2 part city codes to first part
-      field = CITY_CODE_PTN.matcher(field).replaceFirst("$1");
       
       // the false makes the following city construct optional
       super.parse(field, data, false);
