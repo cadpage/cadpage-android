@@ -394,6 +394,7 @@ public class VARoanokeCountyParser extends SmartAddressParser {
       "COMMERCIAL FIRE ALARM",
       "COMMERCIAL GAS LEAK",
       "COMMERCIAL STRUCTURE FIRE",
+      "DISREGARD",
       "DUMPSTER",
       "ELEVATOR",
       "EMS SERVICE CALL",
@@ -413,6 +414,7 @@ public class VARoanokeCountyParser extends SmartAddressParser {
       "RESIDENTIAL STRUCTURE FIRE",
       "SECOND EMERGENCY CALL ALS",
       "SERVICE CALL",
+      "SMOKE",
       "SMOKE REPORT",
       "STANDBY",
       "STRUCTC",
@@ -434,7 +436,6 @@ public class VARoanokeCountyParser extends SmartAddressParser {
       "WIREDOWN",
       
       // One time call descriptions
-      "LADDER 2 CAN DISREGARD FIRE ALARM",
-      "SECOND REQUEST TO RESPOND TO GASR"
+      "HIKER DRAGONS TOOTH"
   );
 }
