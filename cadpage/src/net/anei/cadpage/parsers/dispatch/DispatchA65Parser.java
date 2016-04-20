@@ -10,13 +10,13 @@ public class DispatchA65Parser extends FieldProgramParser {
   
   public DispatchA65Parser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState, 
-          "CFS:ID! MSG:CALL! CALL/SDS+? EMPTY! ( ADDR/Z EMPTY! | CITY? ADDR! APT:APT? CS:X? EMPTY ) SRC! END");
+          "CFS:ID! MSG:CALL! CALL/SDS+? EMPTY! EMPTY+? ( ADDR/Z EMPTY! | CITY? ADDR! APT:APT? CS:X? EMPTY ) SRC! END");
   }
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("E911-Page")) return false;
-    body = body.replace(" X:", " CS:");
+    body = body.replace("\nX:", "\nCS:").replace("\nApt:", "\nAPT:");
     return parseFields(body.split("\n"), 6, data);
   }
   
@@ -29,6 +29,7 @@ public class DispatchA65Parser extends FieldProgramParser {
     return super.getField(name);
   }
   
+  private static final Pattern CITY_ST_PTN = Pattern.compile("(.*), *([A-Z]{2})");
   private static final Pattern BORO_PTN = Pattern.compile("([ A-Z]+) (?:BORO|BOROUGH)");
   private static final Pattern TWP_PTN = Pattern.compile(".* (?:TWP|TOWNSHIP)");
   private static final Pattern COUNTY_PTN = Pattern.compile("(?:(.*) )?([A-Z]+) (?:COUNTY|COUTNY)");
@@ -42,7 +43,15 @@ public class DispatchA65Parser extends FieldProgramParser {
       
       field = field.toUpperCase();
       
-      Matcher match = BORO_PTN.matcher(field);
+      boolean force = false;
+      Matcher match = CITY_ST_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1).trim();
+        data.strState = match.group(2);
+        force = true;
+      }
+      
+      match = BORO_PTN.matcher(field);
       if (match.matches()) {
         data.strCity = match.group(1).trim();
         return true;
@@ -65,7 +74,19 @@ public class DispatchA65Parser extends FieldProgramParser {
         return true;
       }
       
-      return super.checkParse(field, data);
+      if (force) {
+        super.parse(field, data);
+        return true;
+      }
+      
+      else {
+        return super.checkParse(field, data);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CITY ST";
     }
   }
   

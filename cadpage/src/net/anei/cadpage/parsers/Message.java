@@ -140,6 +140,7 @@ public class Message {
     Pattern.compile("^([\\w\\.]+@[\\w\\.]+) /(\\d)/(\\d) /"),
     Pattern.compile("^(\\d)/(\\d)\n+"),
     Pattern.compile("^(\\d)/(\\d)(?![/\\d])"),
+    Pattern.compile("^(?:\\(Con't\\) )?(\\d) of (\\d)\n"),
     Pattern.compile("^(\\d)/(\\d)(?=\\d{3,}:)"),  // This one is scarry !!!
     Pattern.compile("^[A-Z]+ +\\((\\d)/(\\d)\\) +(.*?) +STOP\\s*$"),
     Pattern.compile("^\\( *([^\\)]*?) +(\\d) *of *(\\d)\\)(.*)\\s*$", Pattern.DOTALL)
@@ -319,6 +320,7 @@ public class Message {
         if (match.find()) pt1 = match.end();
       }
       if (pt1 >= 0) {
+        msgIndex = msgCount = -1;
         String[] lines = body.substring(pt1).split("\n");
         if (lines.length > 1) {
           lines[0] = lines[0].trim();
@@ -564,14 +566,16 @@ public class Message {
     // Finally, leading values in square or round brackets are turned into
     // message subjects.  There may be more than one of these, in which case
     // only the last is retained
-    int pt1 = 0;
     
     // First skip leading dots and spaces
+    int pt1 = 0;
     while (pt1 < body.length() && " .".indexOf(body.charAt(pt1))>=0) pt1++;
     while (pt1 < body.length()) {
       while (pt1 < body.length() && body.charAt(pt1) == ' ') pt1++;
       if (pt1 >= body.length()) break;
       
+      if (body.substring(pt1).startsWith("(Con't)")) break;
+
       char d1 = body.charAt(pt1);
       if (d1 != '(' && d1 != '[') break;
       
