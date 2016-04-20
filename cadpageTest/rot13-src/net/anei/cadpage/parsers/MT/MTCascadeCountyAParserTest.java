@@ -47,6 +47,8 @@ Ntrapl anzr: Tber Uvyy Sver Erfphr
 Ybpngvba: Terng Snyyf, ZG, Havgrq Fgngrf
 Fraqre: <911grkg@911vaga.bet>
 
+{Rzretrapl Zrffntr} 04/13 1054\aES6\a6 fgbarevqtr ya\a\a yvsg nffvfg 300 cbhaqf
+{Rzretrapl Zrffntr} 04/03 2251\aES6\a127 evpuneqf ya\a\a 22 lbz sryy qbja n uvyy cbff vawherq xarr
 (Rzretrapl Zrffntr) 07/17 2339\aES6\a73 unjx qe\a\a genafsbezre ba sver
 (Rzretrapl Zrffntr) 07/12 2132\aES6\a5301 6gu nir fj\a\acneg bs n qvgpu ba sver nybat jvgu na nern bs tenff
 (Rzretrapl Zrffntr) 07/12 0543\aES6\aqvpx eq/sbksnez eq\a\a ebyybire iru
@@ -308,6 +310,22 @@ choyvp pynff ZGPnfpnqrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgTberUvyySverErfphr() {
+
+    qbGrfg("K1",
+        "{Rzretrapl Zrffntr} 04/13 1054\aES6\a6 fgbarevqtr ya\a\a yvsg nffvfg 300 cbhaqf",
+        "QNGR:04/13",
+        "GVZR:10:54",
+        "HAVG:ES6",
+        "NQQE:6 fgbarevqtr ya",
+        "PNYY:yvsg nffvfg 300 cbhaqf");
+
+    qbGrfg("K2",
+        "{Rzretrapl Zrffntr} 04/03 2251\aES6\a127 evpuneqf ya\a\a 22 lbz sryy qbja n uvyy cbff vawherq xarr",
+        "QNGR:04/03",
+        "GVZR:22:51",
+        "HAVG:ES6",
+        "NQQE:127 evpuneqf ya",
+        "PNYY:22 lbz sryy qbja n uvyy cbff vawherq xarr");
 
     qbGrfg("G1",
         "(Rzretrapl Zrffntr) 07/17 2339\aES6\a73 unjx qe\a\a genafsbezre ba sver",
