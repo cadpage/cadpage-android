@@ -67,6 +67,10 @@ public class PAYorkCountyAParser extends SmartAddressParser {
       body = body.substring(match.end()).trim();
     }
     
+    // Rule out PAYorkCountyD messages
+    String uBody = body.toUpperCase();
+    if (uBody.startsWith("BOX:") || uBody.contains("CROSS STREETS:")) return false;
+    
     // Check for trailing time/date
     match = TIME_DATE_PTN2.matcher(body);
     if (match.find()) {

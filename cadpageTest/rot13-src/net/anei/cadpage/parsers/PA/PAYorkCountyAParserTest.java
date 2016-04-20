@@ -286,6 +286,11 @@ choyvp pynff CNLbexPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
+  choyvp ibvq grfgOnqZftf() {
+    qbOnqGrfg("{!} obk:  06-01  SVER CBYVPR  ,  PVGL UNYY QE@ R PNANY FG , QBIRE OBEB,    pebff fgerrgf:  Ab Pebff Fgerrgf Sbhaq  genssvp pbageby arrqrq  havgf:  SC6,SC9,SC66");
+  }
+  
+  @Grfg
   choyvp ibvq grfgCnefre1() {
 
     qbGrfg("G1",

@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">04122016</string>
+  <string name="release_date">04192016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.07.04\n
+New Location:\n
+Pulaski County, AR (alt)\n
+Stevens County, MN\n
+Grafton County, NY\n
+Onondaga County, NY (alt)\n
+Cuyahoga County, OH\n
+Pickaway County, OH\n
+Denton County, TX\n
+Island County, WA\n
+\n
+Location Fixes:\n
+Shasta County, CA\n
+Grafton County, NH\n
+Pender County, NC\n
+Hamilton County, OH\n
+Stark County, OH\n
+Cumberland County, PA\n
+Fulton County, PA\n
+Perry County, PA\n
+York County, PA\n
+Dallas County, TX\n
+Snohomish County, WA\n
+\n
 v1.9.07.03\n
 Location Fixes:\n
 Citrus County, FL\n
@@ -70,18 +94,7 @@ Location Fixes:\n
 Wichita, KS\n
 Frederick County, MD\n
 Grafton County, NH\n
-Major enhancements to overall message parsing\n
-\n
-v1.9.06.13\n
-New Locations:\n
-Cook County, IL (alt)\n
-St Tammany Parish, LA (alt)\n
-Mansfield, TX\n
-Chatham-Kent, Ontario\n
-\n
-Location Fixes:\n
-Broome County, NY\n
-Susquehanna County, PA
+Major enhancements to overall message parsing
   </string>
 </resources>
   

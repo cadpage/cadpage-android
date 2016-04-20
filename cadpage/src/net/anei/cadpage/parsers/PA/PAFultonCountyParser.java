@@ -9,37 +9,31 @@ import net.anei.cadpage.parsers.dispatch.DispatchArchonixParser;
 public class PAFultonCountyParser extends DispatchArchonixParser {
   
   public PAFultonCountyParser() {
-    super(CITY_CODES, MA_CITY_CODES, "FULTON COUNTY", "PA");
+    super(CITY_CODES, "FULTON COUNTY", "PA");
   }
   
   @Override
   public String getFilter() {
     return "EP911@ccpa.net";
   }
-  
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
 
-      "AR FC", "AYR TWP", 
-      "BC FC", "BRUSH CREEK TWP",
-      "BL FC", "BELFAST TWP",
-      "BT FC", "BETHEL TWP",
-      "DB FC", "DUBLIN TWP",
-      "LC FC", "LICKING CREEK TWP",
-      "MC FC", "MCCONNELLSBURG",
-      "TD FC", "TODD TWP",
-      "TH FC", "THOMPSON TWP",
-      "TY FC", "TAYLOR TWP",
-      "UN FC", "UNION TWP",
-      "VH FC", "VALLEY-HI",
-      "WL FC", "WELLS TWP",
+      "AR", "AYR TWP", 
+      "BC", "BRUSH CREEK TWP",
+      "BL", "BELFAST TWP",
+      "BT", "BETHEL TWP",
+      "DB", "DUBLIN TWP",
+      "LC", "LICKING CREEK TWP",
+      "MC", "MCCONNELLSBURG",
+      "TD", "TODD TWP",
+      "TH", "THOMPSON TWP",
+      "TY", "TAYLOR TWP",
+      "UN", "UNION TWP",
+      "VH", "VALLEY-HI",
+      "WL", "WELLS TWP",
       
-      "FC FR", "FRANKLIN COUNTY",
-      "HC HU", "HUNTINGDON COUNTY"
+      "FC", "FRANKLIN COUNTY",
+      "HC", "HUNTINGDON COUNTY"
   });
-  
-  private static final Properties MA_CITY_CODES = buildCodeTable(new String[]{
-      
-  });
-
 }

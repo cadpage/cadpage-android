@@ -14,7 +14,7 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
   private static final Pattern CODE_CALL_PTN = Pattern.compile("(\\d{2}[A-Z]\\d{2}) +(.*)");
   
   public PACumberlandCountyParser() {
-    super(CITY_CODES, MA_CITY_CODES, "CUMBERLAND COUNTY", "PA");
+    super(CITY_CODES, MA_CITY_CODES, "CUMBERLAND COUNTY", "PA", ARCH_FLG_TWO_PART_CITY);
   }
   
   @Override
@@ -129,7 +129,8 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
       "DC DC", "DAUPHIN COUNTY",
       "FCR",   "FRANKLIN COUNTY",
       "FC FR", "FRANKLIN COUNTY",
-      "PC PC", "PERRY COUNTY"
+      "PC PC", "PERRY COUNTY",
+      "YC YC", "YORK COUNTY"
   });
 
   private static final Properties MA_CITY_CODES = buildCodeTable(new String[]{
