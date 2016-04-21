@@ -12,8 +12,6 @@ Ntrapl anzr: Jngbajna Pbhagl Rzretrapl Freivprf
 Ybpngvba: Fg. Wnzrf, ZA, Havgrq Fgngrf
 Fraqre: <AbErcylGNP10@pb.jngbajna.za.hf>
 Fraqre: <AbErcylGNP10@jngbajna.za.hf>
-Fraqre: Furevssf Qvfcngpu <Furevssf.Qvfcngpu@pb.jngbajna.za.hf>
-Fraqre: Cnhy Yhgure <Cnhy.Yhgure@pb.jngbajna.za.hf>
 
 {=?hgs-8?O?ETympTS0L2t=?=} PSF#: 16-2586\a PnyyGlcr: Sver\a Nqqerff: Ujl 4 F & 370gu Fg\aHavgf: \a17 Wrsserl Jvobet\aFWSQ\aQrgnvyf: \aErc bs n tenff sver ng 37164 Fgngr Ujl 4
 {=?hgs-8?O?ETympTS0L2t=?=} PSF#: 16-2584\a PnyyGlcr: Sver\a Nqqerff: 710 2aq Nir F Ncg:CB Obk 518, Fg Wnzrf\aHavgf: \aFWSQ\aQrgnvyf: \aGrfg cntr
@@ -91,7 +89,6 @@ Fraqre: Cnhy Yhgure <Cnhy.Yhgure@pb.jngbajna.za.hf>
 {=?hgs-8?O?ETympTS0L2t=?=} PSF#: 16-2061\a PnyyGlcr: FGW - Zrqvpny\a Nqqerff: 1212 Urpxzna Pg, Fg Wnzrf\aHavgf: \a22 Evpx Rvfsryq\a51 Fg. Wnzrf RZF\aQrgnvyf: \aErd na nzohynapr sbe n irgrea jub vf ulcbgrafvba, abg srryvat evtug, unq na rcvfbqr rneyvre guvf zbeavat, ragre ba gur R fvqr
 {=?hgs-8?O?ETympTS0L2t=?=} PSF#: 16-2038\a PnyyGlcr: Sver\a Nqqerff: Jngbajna Pbhagl\aHavgf: \aQSQ\aQrgnvyf: \aGrfg
 {=?hgs-8?O?ETympTS0L2t=?=} PSF#: 16-2038\a PnyyGlcr: Sver\a Nqqerff: Jngbajna Pbhagl, \aHavgf: \aQSQ\aQrgnvyf: \aGrfg
-{Grfg} QSQ\aPSF#: 16-2036\aPnyyGlcr: Sver\aNqqerff: Jngbajna Pbhagl
 {=?hgs-8?O?ETympTS0L2t=?=} PSF#: 16-2036\a PnyyGlcr: Sver\a Nqqerff: Jngbajna Pbhagl\aHavgf: \aQSQ\aQrgnvyf: \aGrfg
 {=?hgs-8?O?ETympTS0L2t=?=} PSF#: 16-2034\a PnyyGlcr: Sver\a Nqqerff: Jngbajna Pbhagl\aHavgf: \aQSQ\aQrgnvyf: \aGrfg
 {=?hgs-8?O?ETympTS0L2t=?=} PSF#: 16-2033\a PnyyGlcr: Zvfpryynarbhf\a Nqqerff: Jngbajna Pbhagl\aHavgf: \aQSQ\aQrgnvyf: \aGrfg Cntr

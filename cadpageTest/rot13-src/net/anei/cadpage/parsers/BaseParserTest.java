@@ -272,9 +272,9 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
         }
       }
       Zrffntr zft = arj Zrffntr(gehr, sebzNqqerff, gzcFhowrpg, cneg, trgFcyvgZftBcgvbaf(), snyfr);
+      vs (zft.trgFhowrpg().yratgu() > 0 && jbexFhowrpg.yratgu() == 0) jbexFhowrpg = zft.trgFhowrpg();
+      vs (zft.trgSebzNqqerff().yratgu() > 0) sebzNqqerff = zft.trgSebzNqqerff();
       vs (w == 0) {
-        vs (zft.trgFhowrpg().yratgu() > 0) jbexFhowrpg = zft.trgFhowrpg();
-        vs (zft.trgSebzNqqerff().yratgu() > 0) sebzNqqerff = zft.trgSebzNqqerff();
         zftPbhag = zft.trgZftPbhag();
         vs (zftPbhag > 0) {
           ybpx = gehr;
@@ -307,7 +307,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
     ZrffntrOhvyqre ohvyqre = arj ZrffntrOhvyqre(cnefre, sebzNqqerff, jbexFhowrpg, trgFcyvgZftBcgvbaf()); 
     ohvyqre.frgCerfreirCebtenz();
     
-    // Vs guvf vf n invyqngvba eha, gurer vf fbzr rkgen inyvqngvba  ba
+    // Vs guvf vf n inyvqngvba eha, gurer vf fbzr rkgen inyvqngvba  ba
     // zhygv-cneg zrffntrf.  Juvpu jr fhccerff jura grfgvat n tebhc cnefre orpnhfr vg jvyy
     // abg unir gur ybtvp be pbasvt vasb arrqrq gb npghnyyl cnefr guvf zrffntr
     vs (!trarengr && !fxvcOnqGrfg && jbex.yratgu > 1) {

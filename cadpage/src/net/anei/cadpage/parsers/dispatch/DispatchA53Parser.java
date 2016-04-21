@@ -16,7 +16,7 @@ public class DispatchA53Parser extends SmartAddressParser {
   
   private static Pattern ID_CALL = Pattern.compile(".*?CFS#? *(\\d+) *- *(.*)");
   private static Pattern SRC_DISP = Pattern.compile("- ([A-Z]{3,4}) [A-Z0-9]+");
-  private static Pattern CITY_ST_ZIP_PTN = Pattern.compile("([ A-Z]+) TX(?: \\d{5}(?:-?\\d{4})?)?");
+  private static Pattern CITY_ST_ZIP_PTN = Pattern.compile("([ A-Z]+?)(?: (TX))?(?: (\\d{5}(?:-?\\d{4})?))?");
   private static Pattern TIME = Pattern.compile("(\\d{2}:\\d{2}:\\d{2}) *-{3,4} *");
   
   @Override
@@ -27,10 +27,15 @@ public class DispatchA53Parser extends SmartAddressParser {
     data.strCallId = mat.group(1);
     
     //get \n\n index to split page by
+    String trail = "";
     int nni = body.indexOf("\n\n");
+    if (nni >= 0) {
+      trail = body.substring(nni+2).trim();
+      body = body.substring(0,nni).trim();
+    }
     
     //split first line of body by commas, return false if more fields than we know what to do with
-    String[] fields = body.substring(0, nni).split(",");
+    String[] fields = body.split(",");
     if (fields.length > 5 || fields.length < 3) return false; //fail if abnormal # of fields
     
     //CALL ADDR
@@ -48,8 +53,13 @@ public class DispatchA53Parser extends SmartAddressParser {
     // Optional city 
     Matcher match = CITY_ST_ZIP_PTN.matcher(fields[iEnd].trim());
     if (match.matches()) {
-      data.strCity = match.group(1).trim();
-      iEnd--;
+      
+      // This match never fails any more, so we have to make sure that
+      // a stat or zip code was found
+      if (match.group(2) != null || match.group(3) != null) {
+        data.strCity = match.group(1).trim();
+        iEnd--;
+      }
     }
     
     // If we haven't used anything up, we have room for one cross street
@@ -57,7 +67,6 @@ public class DispatchA53Parser extends SmartAddressParser {
     if (iEnd == 2) data.strCross = fields[2].trim();
     
     //INFO
-    String trail = body.substring(nni+2);
     mat = TIME.matcher(trail);
     if (mat.find()) data.strTime = mat.group(1);
     data.strSupp = mat.replaceAll("");
