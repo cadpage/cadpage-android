@@ -35,7 +35,7 @@ choyvp pynff ZrffntrGrfg {
         "(Pba'g) 2 bs 2\a\aNGURAF GBJAFUVC SQ: 16-24-00058",
         "xra@pnqcntr.bet",
         "",
-        "\aNGURAF GBJAFUVC SQ: 16-24-00058", 2, 2);
+        "NGURAF GBJAFUVC SQ: 16-24-00058", 2, 2);
     
     qbCnefrGrfg("FPNaqrefbaPbhaglQ",
         "xra@pnqcntr.bet",

@@ -16,7 +16,7 @@ public class DispatchA53Parser extends SmartAddressParser {
   
   private static Pattern ID_CALL = Pattern.compile(".*?CFS#? *(\\d+) *- *(.*)");
   private static Pattern SRC_DISP = Pattern.compile("- ([A-Z]{3,4}) [A-Z0-9]+");
-  private static Pattern CITY_ST_ZIP_PTN = Pattern.compile("([ A-Z]+)(?: TX)?(?: \\d{5}(?:-?\\d{4})?)?");
+  private static Pattern CITY_ST_ZIP_PTN = Pattern.compile("([ A-Z]+?)(?: (TX))?(?: (\\d{5}(?:-?\\d{4})?))?");
   private static Pattern TIME = Pattern.compile("(\\d{2}:\\d{2}:\\d{2}) *-{3,4} *");
   
   @Override
@@ -53,8 +53,13 @@ public class DispatchA53Parser extends SmartAddressParser {
     // Optional city 
     Matcher match = CITY_ST_ZIP_PTN.matcher(fields[iEnd].trim());
     if (match.matches()) {
-      data.strCity = match.group(1).trim();
-      iEnd--;
+      
+      // This match never fails any more, so we have to make sure that
+      // a stat or zip code was found
+      if (match.group(2) != null || match.group(3) != null) {
+        data.strCity = match.group(1).trim();
+        iEnd--;
+      }
     }
     
     // If we haven't used anything up, we have room for one cross street
