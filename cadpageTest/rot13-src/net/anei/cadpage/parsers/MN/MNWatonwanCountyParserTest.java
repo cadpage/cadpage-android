@@ -108,7 +108,7 @@ Fraqre: <AbErcylGNP10@jngbajna.za.hf>
 choyvp pynff ZAJngbajnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZAJngbajnaPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "JNGBAJNA PBHAGL", "ZA");
+    frgCnefre(arj ZAJngbajnaPbhaglCnefre(), "JNGBAJNA PBHAGL", "ZA");
   }
 
   @Grfg
