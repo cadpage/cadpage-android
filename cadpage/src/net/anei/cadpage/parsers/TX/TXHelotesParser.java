@@ -16,7 +16,9 @@ public class TXHelotesParser extends DispatchA53Parser {
   }
   
   private static final String[] CITY_LIST = new String[]{
-    "HELOTES"
+    "GREY FOREST",
+    "HELOTES",
+    "SAN ANTONIO"
   };
   
 }

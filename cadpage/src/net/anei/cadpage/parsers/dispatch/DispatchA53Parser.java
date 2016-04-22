@@ -9,7 +9,11 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class DispatchA53Parser extends SmartAddressParser {
   
   public DispatchA53Parser(String city, String state) {
-    super(city, state);
+    this(null, city, state);
+  }
+  
+  public DispatchA53Parser(String[] cityList, String city, String state) {
+    super(cityList, city, state);
     
     setFieldList("ID CALL ADDR APT X CITY SRC TIME INFO");
   }
@@ -56,8 +60,9 @@ public class DispatchA53Parser extends SmartAddressParser {
       
       // This match never fails any more, so we have to make sure that
       // a stat or zip code was found
-      if (match.group(2) != null || match.group(3) != null) {
-        data.strCity = match.group(1).trim();
+      String city = match.group(1).trim();
+      if (match.group(2) != null || match.group(3) != null || isCity(city)) {
+        data.strCity = city;
         iEnd--;
       }
     }

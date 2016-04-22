@@ -6,9 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   choyvp fgngvp svany Cnggrea ZNFGRE =
-      Cnggrea.pbzcvyr(" \\\\?Ncg:");
+      Cnggrea.pbzcvyr("Pnyy Glcr +([N-M0-9]+) +\\(([^)]+)\\) +Vapvqrag Ab +(\\q+)");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("PNQ:Grfg Sver Qrgnvy *ST03=5241 Pebbxfunax Eq Oyq: \\Ncg: .TEGC CBFG BSSVPR - 5241 PEBBXFTerra Gjc SQ 15:37TEGS2,TEGS2,TEGS2,ZVYV2 Kfg:TYRAJNL NI/NAQREFBA SREEL");
+    qbGrfg("Pnyy Glcr HAX      (HAXABJA ANGHER OYF  )                Vapvqrag Ab 16006175");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
