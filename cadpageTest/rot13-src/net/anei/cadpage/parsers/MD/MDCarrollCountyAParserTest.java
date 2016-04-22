@@ -645,6 +645,76 @@ Fraqre: pneebyynyreg@pneebyy911.zltovm.pbz
 (PNQ) 18:59 PG:UBHFR SVER 5100 BYQ UNABIRE EQ  OBK:0610 QHR:NR201 ND29 Y5
 (PNQ) 18:50 PG:UBHFR SVER 5100 BYQ UNABIRE EQ  OBK:0610 QHR:R61 NR201 LR52-1 R31 GB3 LG49 GG6 NRG20 FH6 K69 PF3
 
+Pbagnpg: Npgvir911
+Ntrapl anzr: Unzcfgrnq ISQ
+Ybpngvba: Unzcfgrnq, ZQ, Havgrq Fgngrf
+Fraqre: pneebyynyreg@pneebyy911.zltovm.pbz
+
+{PNQ} 19:24          VAPVQRAG HAVG UVFGBEL SBE: 16006175  CNTR 1\a                       QNGR: 042016  PNYYGLCR: HAX     \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    190848 Q  4422 OYNPX EBPX EQ     \aK29    191038 R  4422 OYNPX EBPX EQ     \aK29    191044 ER ZRQVP                  \aK29    191247 N  4422 OYNPX EBPX EQ     \aK29    192149 NE 4422 OYNPX EBPX EQ     \aK29    192158 EG CNGVRAG NFFVFG BAYL    \aK29    192401 P  4422 OYNPX EBPX EQ
+{PNQ} 19:08                               QVFCNGPU VASB \a\aPnyy Glcr HAX      (HAXABJA ANGHER OYF  )                Vapvqrag Ab 16006175\a\aYbp 4422 OYNPX EBPX EQ                                   UNZC  \a    FHRYYRA QE                   YBJRE ORPXYRLFIVYYR EQ          14-X12  \aAnzr    ZLGERK - BCE QP413            \aNqqerff                                          Cubar 801-0697   Nern 877\aErznexf ANAPL JBBQ NCG 6 410-374-1909 PNYYRQ URE ZRQVPNY NYNEZ // ZNYR FHOW AN\a        ZRQ 70 LBZ QNIVQ YNLVAT BA TEBHAQ NG PBZCYRK                          \aCegl 2 Yri 59 Fep C Eq 0222   Fgn 02    Gnxref Vq QBANYG Erp 19:08:40\aQngr 04/20/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 19:08:48\aEnqvb Puf:                    Ery S#:         \a\aHavgf K29    \a\a*** Cerzvfr Vasb ***\a09/17/13 12:43 OYF      (OYF ZRQVPNY PNYY    ) NCG      4      13013508       \a09/17/13 22:30 OYF      (OYF ZRQVPNY PNYY    ) NCG      1      13013533       \a09/24/13 13:39 OYF      (OYF ZRQVPNY PNYY    ) NCG      1      13013859       \a10/08/13 08:44 OYF      (OYF ZRQVPNY PNYY    ) NCG         1   13014599       \a10/20/13 17:49 PN       (PNEQVNP NEERFG      ) NCG      1      13015242       \a03/29/14 10:55 OYF      (OYF ZRQVPNY PNYY    ) NCG      4      14005055       \a04/17/14 22:05 OYF      (OYF ZRQVPNY PNYY    ) NCG      4      14006118       \a08/03/14 20:50 PURFG    (PURFG CNVA/NYF      ) NCG      3      14011665
+{PNQ} 19:09 10/16/14 09:30 VAWSNYY  (VAW CRE/SNYY/OYF    ) NCG      1      14015369       \a11/06/14 09:39 VAWSNYY  (VAW CRE/SNYY/OYF    ) NCG      1      14016465       \a03/21/15 04:29 PNEQ     (PNEQVNP CNGVRAG/NYF ) NCG      3      15004693       \a11/07/15 07:59 ERFC     (GEBHOYR OERNGUVAT   ) NCG      1      15017512       \a03/29/16 14:06 VAWSNYY  (VAW CRE/SNYY/OYF    ) NCG      1      16004868       \a04/20/16 19:08 HAX      (HAXABJA ANGHER OYF  ) NCG             16006175       \a\a*** Unmneq Vasbezngvba ***\a** FHCEN OBK YBPNGRQ NG ERAGNY BSSVPR JVGU XRL SBE PBZCYRK **                 \a\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - 9 - 7 - 3 - OP41 - OP40 - OP49 - LP52 - 13 - OP44 - OP53\a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 09:22          VAPVQRAG HAVG UVFGBEL SBE: 16006150  CNTR 1\a                       QNGR: 042016  PNYYGLCR: FVPX    \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    081102 Q  OEBQORPX EQ / UNZCFG   \aK29    081302 R  OEBQORPX EQ / UNZCFG   \aK29    081305 ER Z                      \aK29    081530 N  OEBQORPX EQ / UNZCFG   \aK29    082710 RU C1 PUP                 \aK29    083656 NU C1 PUP                 \aK29    090536 NE C1 PUP                 \aK29    092206 P  C1 PUP
+{PNQ} 08:11                 CebDn Qngn sbe Vapvqrag: 16006150\a\aBS VZZBOVYVGL)                                                                \aERFCBAFR: FVPX                                                                \a1. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).                         \a2. UR VF OERNGUVAT ABEZNYYL.                                                  \a3. UR QBRF ABG UNIR NAL CNVA.                                                 \a4. UR VF ABG OYRRQVAT (BE IBZVGVAT OYBBQ).                                    \a5. UR UNF N ARJ BAFRG BS VZZBOVYVGL.                                          \a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 08:11                               QVFCNGPU VASB \a\aPnyy Glcr FVPX     (FVPX CREFBA/OYF     )                Vapvqrag Ab 16006150\a\aYbp OEBQORPX EQ / UNZCFGRNQ ZRKVPB EQ                    UNZC  \a          /                                                      14-Q11  \aAnzr    ZNEGL                         \aNqqerff JUVGR PBAFGHPGVBA GEHPX PURIL            Cubar 657-8317   Nern 202\aErznexf 36-LRNE-BYQ, ZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: ABG SRRYVAT\a         JRYY BA FVQR BS EBNQ VA JBEX GEHPX QVFCNGPU PBQR: 26N07  (ARJ BAFRG  \aCegl 2 Yri 59 Fep 1 Eq 0221   Fgn 02    Gnxref Vq PBAEVF Erp 08:10:51\aQngr 04/20/16 Nynez Vq                  Qvfcng Vq EZF    Qvf 08:11:02\aEnqvb Puf:                    Ery S#:         \a\aHavgf K29    \a\a*** Cerzvfr Vasb ***\a04/08/08 18:20 FREIVPR  (EBHG FREIVPR NYNEZ  ) NCG             08005078       \a04/20/16 08:10 FVPX     (FVPX CREFBA/OYF     ) NCG             16006150       \a\a*** Sver Obk Vasb ***\a2 - 4 - OP43 - 3 - OP42 - 7 - 9 - LP52 - OP41 - OP40 - OP49 - 6 - 13 - OP44
+{PNQ} 06:22          VAPVQRAG HAVG UVFGBEL SBE: 16006146  CNTR 1\a                       QNGR: 042016  PNYYGLCR: URZVIG  \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    050924 Q  1714 ZNE FHR QE        \aK29    051207 R  1714 ZNE FHR QE        \aK29    051213 ER VIG                    \aK29    052044 N  1714 ZNE FHR QE        \aK29    053259 RU CEV3 PUP               \aK29    054345 NU CEV3 PUP               \aK29    061326 NE CEV3 PUP               \aK29    062211 P  CEV3 PUP
+{PNQ} 05:09                 CebDn Qngn sbe Vapvqrag: 16006146\a\a1. GUR PNHFR BS GUR OYRRQVAT VF ABA-GENHZNGVP.                                \a2. FUR UNF OYRRQVAT SEBZ GUR ERPGHZ.                                          \a3. FUR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).                        \a4. FUR VF OERNGUVAT ABEZNYYL.                                                 \a5. GURER VF FREVBHF OYRRQVAT.                                                 \a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 05:09                               QVFCNGPU VASB \a\aPnyy Glcr URZVIG   (URZBEEUNTR/VIG      )                Vapvqrag Ab 16006146\a\aYbp 1714 ZNE FHR QE                                      UNZC  \a    PNCR UBEA EQ A               ZVYYNEQ QE                      14-O9   \aAnzr    YVM                           \aNqqerff                                          Cubar 375-1824   Nern 443\aErznexf 72-LRNE-BYQ, SRZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: ERPGNY   \a        OYRRQ QVFCNGPU PBQR: 21Q03  (QNATREBHF URZBEEUNTR) ERFCBAFR: URZVIG   \aCegl 2 Yri 59 Fep 1 Eq 0205   Fgn 02    Gnxref Vq ELNZRH Erp 05:09:18\aQngr 04/20/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 05:09:24\aEnqvb Puf:                    Ery S#:         \a\aHavgf K29    \a\a*** Sver Obk Vasb ***\a2 - 4 - 3 - OP43 - 7 - 9 - OP42 - 6 - LP52 - 10 - OP41 - OP40 - OP49 - LP49
+{PNQ} 18:21          VAPVQRAG HAVG UVFGBEL SBE: 16006114  CNTR 1\a                       QNGR: 041916  PNYYGLCR: IPE     \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    162615 Q  934 F ZNVA FG @RYVAR   RG24   163303 ER ABJ 4 CRBCYR         \aR23    162615 Q  934 F ZNVA FG @RYVAR   RG24   163430 N  934 F ZNVA FG @RYVAR \aG2     162615 Q  934 F ZNVA FG @RYVAR   EF4    163437 N  934 F ZNVA FG @RYVAR \aEF4    162615 Q  934 F ZNVA FG @RYVAR   G2     163650 EG CG RKGEVPNGRQ ERYRNF \aEF4    162800 R  934 F ZNVA FG @RYVAR   EF4    163800 NE 934 F ZNVA FG @RYVAR \aK29    162806 R  934 F ZNVA FG @RYVAR   RG24   164631 NE 934 F ZNVA FG @RYVAR \aK29    162810 ER CNENZRQVP              K29    165148 RU PUP C3               \aG2     162907 R  934 F ZNVA FG @RYVAR   G2     165218 EG NYFB 1 ERSHFNY       \aPS2-1  162935 OH 934 F ZNVA FG @RYVAR   G2     165223 NE 934 F ZNVA FG @RYVAR \aPS2-1  162942 R  934 F ZNVA FG @RYVAR   RG24   165238 P  934 F ZNVA FG @RYVAR \aK29    163011 N  934 F ZNVA FG @RYVAR   PS2-1  165319 P  934 F ZNVA FG @RYVAR \aG2     163039 N  934 F ZNVA FG @RYVAR   EF4    165536 P  934 F ZNVA FG @RYVAR \aG2     163129 EG 1 GENCCRQ              G2     170145 P  934 F ZNVA FG @RYVAR \aR23    163230 EG RKPUNATRQ SBE: RG24    K29    171656 NU PUP C3               \aR23    163230 RK 934 F ZNVA FG @RYVAR   K29    180514 NE PUP C3               \aRG24   163230 R  934 F ZNVA FG @RYVAR   K29    182113 P  PUP C3               \aPS2-1  163245 N  934 F ZNVA FG @RYVAR
+{PNQ} 17:01          VAPVQRAG HAVG UVFGBEL SBE: 16006114  CNTR 1\a                       QNGR: 041916  PNYYGLCR: IPE     \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    162615 Q  934 F ZNVA FG @RYVAR   RG24   163303 ER ABJ 4 CRBCYR         \aR23    162615 Q  934 F ZNVA FG @RYVAR   RG24   163430 N  934 F ZNVA FG @RYVAR \aG2     162615 Q  934 F ZNVA FG @RYVAR   EF4    163437 N  934 F ZNVA FG @RYVAR \aEF4    162615 Q  934 F ZNVA FG @RYVAR   G2     163650 EG CG RKGEVPNGRQ ERYRNF \aEF4    162800 R  934 F ZNVA FG @RYVAR   EF4    163800 NE 934 F ZNVA FG @RYVAR \aK29    162806 R  934 F ZNVA FG @RYVAR   RG24   164631 NE 934 F ZNVA FG @RYVAR \aK29    162810 ER CNENZRQVP              K29    165148 RU PUP C3               \aG2     162907 R  934 F ZNVA FG @RYVAR   G2     165218 EG NYFB 1 ERSHFNY       \aPS2-1  162935 OH 934 F ZNVA FG @RYVAR   G2     165223 NE 934 F ZNVA FG @RYVAR \aPS2-1  162942 R  934 F ZNVA FG @RYVAR   RG24   165238 P  934 F ZNVA FG @RYVAR \aK29    163011 N  934 F ZNVA FG @RYVAR   PS2-1  165319 P  934 F ZNVA FG @RYVAR \aG2     163039 N  934 F ZNVA FG @RYVAR   EF4    165536 P  934 F ZNVA FG @RYVAR \aG2     163129 EG 1 GENCCRQ              G2     170145 P  934 F ZNVA FG @RYVAR \aR23    163230 EG RKPUNATRQ SBE: RG24    \aR23    163230 RK 934 F ZNVA FG @RYVAR   \aRG24   163230 R  934 F ZNVA FG @RYVAR   \aPS2-1  163245 N  934 F ZNVA FG @RYVAR
+{PNQ} 16:26 11/14/15 04:33 NYNEZ 1  (ERF SVER NYNEZ      ) NCG      2O     15017893       \a11/19/15 09:22 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             15018185       \a12/09/15 12:25 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             15019259       \a04/19/16 16:25 IPE      (IP ERFPHR           ) NCG             16006114       \a04/19/16 16:25 IPE      (IP ERFPHR           ) NCG             16006115       \a\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - 9 - OP41 - OP40 - 7 - 3 - OP49 - 13 - OP44 - OP53 - LP52\a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 16:24          VAPVQRAG HAVG UVFGBEL SBE: 16006106  CNTR 1\a                       QNGR: 041916  PNYYGLCR: PN      \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    144039 Q  1900 YNAT EQ           \aH2     144039 Q  1900 YNAT EQ           \aK29    144211 R  1900 YNAT EQ           \aK29    144215 ER CNENZRQVP              \aH2     144354 R  1900 YNAT EQ           \aK29    144613 N  1900 YNAT EQ           \aH2     144711 N  1900 YNAT EQ           \aK29    150935 RU PUP C1                 \aH2     150941 NE 1900 YNAT EQ           \aH2     151439 P  1900 YNAT EQ           \aK29    152529 NU PUP C1                 \aK29    161114 NE PUP C1                 \aK29    162418 P  PUP C1
+{PNQ} 16:26                               QVFCNGPU VASB \a\aPnyy Glcr IPE      (IP ERFPHR           )                Vapvqrag Ab 16006114\a\aYbp 934 F ZNVA FG @RYVAR SHARENY UBZR                    UNZC  \a    YBJRE ORPXYRLFIVYYR EQ       ZBGG NI J                       14-W12  \aAnzr    JVERYRFF-IREVMBA(GPF)         \aNqqerff 422 UNABIRE CVXR                         Cubar 832-2921   Nern 240\aErznexf PNE VAGB FPUBBYOHF                                                    \a                                                                              \aCegl 2 Yri 62 Fep 1 Eq 0217   Fgn 02    Gnxref Vq TNE    Erp 16:25:05\aQngr 04/19/16 Nynez Vq                  Qvfcng Vq YJB    Qvf 16:26:15\aEnqvb Puf:                    Ery S#:         \a\aHavgf K29    R23    G2     EF4    \a\a*** Cerzvfr Vasb ***\a06/15/05 11:29 OYF      (OYF ZRQVPNY PNYY    ) NCG             05007353       \a04/26/09 17:25 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             09005721       \a10/04/09 13:34 OYF      (OYF ZRQVPNY PNYY    ) NCG             09013773       \a02/20/11 17:32 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             11002747       \a10/23/11 20:00 NYF      (NYF ZRQVPNY PNYY    ) NCG             11015223       \a04/10/12 17:04 NYF      (NYF ZRQVPNY PNYY    ) NCG             12004921       \a12/10/12 18:05 IP       (IRUVPYR PBYYVFVBA   ) NCG             12017637       \a08/15/14 16:23 FGEBXR   (FGEBXR/OYF          ) NCG             14012300
+{PNQ} 15:14          VAPVQRAG HAVG UVFGBEL SBE: 16006106  CNTR 1\a                       QNGR: 041916  PNYYGLCR: PN      \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    144039 Q  1900 YNAT EQ           \aH2     144039 Q  1900 YNAT EQ           \aK29    144211 R  1900 YNAT EQ           \aK29    144215 ER CNENZRQVP              \aH2     144354 R  1900 YNAT EQ           \aK29    144613 N  1900 YNAT EQ           \aH2     144711 N  1900 YNAT EQ           \aK29    150935 RU PUP C1                 \aH2     150941 NE 1900 YNAT EQ           \aH2     151439 P  1900 YNAT EQ
+{PNQ} 14:41                 CebDn Qngn sbe Vapvqrag: 16006106\a\aERFCBAFR: PN                                                                  \a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 14:40                               QVFCNGPU VASB \a\aPnyy Glcr PN       (PNEQVNP NEERFG      )                Vapvqrag Ab 16006106\a\aYbp 1900 YNAT EQ                                         UNZC  \a    ZNEVNA NI                    (QRNQ RAQ)                      14-X8   \aAnzr    ZNAVF PBYYRRA                 \aNqqerff                                          Cubar 374-3677   Nern 410\aErznexf 78-LRNE-BYQ, ZNYR, ABG PBAFPVBHF, ABG OERNGUVAT. PNYYRE FGNGRZRAG:    \a        PNEQVNP  NEERFG QVFCNGPU PBQR: 09R01  (ABG OERNGUVAT NG NYY)          \aCegl 1 Yri 76 Fep 1 Eq 0206   Fgn 02    Gnxref Vq TNE    Erp 14:40:31\aQngr 04/19/16 Nynez Vq                  Qvfcng Vq YJB    Qvf 14:40:39\aEnqvb Puf:                    Ery S#:         \a\aHavgf K29    H2     \a\a*** Cerzvfr Vasb ***\a12/06/11 23:45 OYF      (OYF ZRQVPNY PNYY    ) NCG             11017424       \a01/06/12 15:18 NYF      (NYF ZRQVPNY PNYY    ) NCG             12000280       \a01/23/13 19:46 PB       (PB QRGRPGBE FBHAQVAT) NCG             13001282       \a02/21/16 20:25 ERFC     (GEBHOYR OERNGUVAT   ) NCG             16002922       \a04/11/16 14:43 ERFC     (GEBHOYR OERNGUVAT   ) NCG             16005632       \a04/19/16 14:40 PN       (PNEQVNP NEERFG      ) NCG             16006106       \a\a*** Sver Obk Vasb ***\a2 - 4 - OP43 - OP42 - 7 - 3 - 9 - LP52 - OP41 - OP40 - OP49 - 13 - 6 - OP56
+{PNQ} 09:24          VAPVQRAG HAVG UVFGBEL SBE: 16006093  CNTR 1\a                       QNGR: 041916  PNYYGLCR: VYYRT   \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aR23    085743 Q  4550 YRTVBA YN         \aR23    090413 EG RKPUNATRQ SBE: O25     \aR23    090413 RK 4550 YRTVBA YN         \aO25    090413 R  4550 YRTVBA YN         \aO25    091123 N  4550 YRTVBA YN         \aO25    091645 EG ONEERYY FZCYQREVAT /   \aO25    091647 NE 4550 YRTVBA YN         \aO25    092426 P  4550 YRTVBA YN
+{PNQ} 08:57                 CebDn Qngn sbe Vapvqrag: 16006093\a\aPNYYRE VF BA FPRAR (2AQ CNEGL).                                               \a2. GUVF VF N PBAGEBYYRQ OHEA.                                                 \a3. GUR FVMR BS NERN VF: 55 TNY QEHZ                                           \a4. GUR SVER UNF ABG ORRA RKGVATHVFURQ.                                        \a5. VG VF ABG XABJA VS GUR SVER VF GUERNGRAVAT NALGUVAT.                       \a6. A/N                                                                        \a7. VG VF ABG XABJA VS NALBAR VF VA QNATRE.                                    \a8. GUR SVER VF ABG FCERNQVAT.                                                 \a9. AB BAR VF ERCBEGRQ GB OR VAWHERQ.                                          \a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 08:57                               QVFCNGPU VASB \a\aPnyy Glcr VYYRT    (VYYRTNY BCRA OHEAVAT)                Vapvqrag Ab 16006093\a\aYbp 4550 YRTVBA YN                                       UNZC  \a    PRQNEOEBBX EQ                (QRNQ RAQ)                      15-N12  \aAnzr    SBBGR, TRBETR J               \aNqqerff                                          Cubar 374-5461   Nern 410\aErznexf PNYYRE FGNGRZRAG: OHEA ONEERYY FZBXVAT QVFCNGPU PBQR: 67B01           \a        (PBAGEBYYRQ OHEA) FHSSVK: H  (HAXABJA) ERFCBAFR: FREIVPR 1. GUR       \aCegl 5 Yri 55 Fep 1 Eq 0216   Fgn 02    Gnxref Vq WBUAVP Erp 08:57:17\aQngr 04/19/16 Nynez Vq                  Qvfcng Vq YJB    Qvf 08:57:43\aEnqvb Puf:                    Ery S#:         \a\aHavgf R23    \a\a*** Cerzvfr Vasb ***\a06/29/05 18:05 JVERF    (JVERF BA SVER       ) NCG             05007992       \a01/15/14 10:01 OYF      (OYF ZRQVPNY PNYY    ) NCG             14000897       \a04/19/16 08:57 VYYRT    (VYYRTNY BCRA OHEAVAT) NCG             16006093       \a\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - 9 - OP49 - 7 - 3 - OP41 - OP40 - OP44 - OP53 - LP52 - 13
+{PNQ} 00:36          VAPVQRAG HAVG UVFGBEL SBE: 16006072  CNTR 1\a                       QNGR: 041816  PNYYGLCR: FVPX    \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    231847 Q  4424 OYNPX EBPX EQ @   \aK29    232254 R  4424 OYNPX EBPX EQ @   \aK29    232257 ER Z                      \aK29    232601 N  4424 OYNPX EBPX EQ @   \aK29    233556 RU PUP C-3                \aK29    235454 NU PUP C-3                \aK29    001927 NE PUP C-3                \aK29    003558 P  PUP C-3
+{PNQ} 23:19 07/24/15 07:49 CN       (CNGVRAG NFFVFG      ) NCG      5      15011719       \a08/13/15 16:56 CN       (CNGVRAG NFFVFG      )          4      15012759       \a11/24/15 01:28 FVPX     (FVPX CREFBA/OYF     ) NCG      3      15018450       \a02/23/16 12:29 VAWSNYY  (VAW CRE/SNYY/OYF    ) NCG      3      16003003       \a03/14/16 10:40 CN       (CNGVRAG NFFVFG      ) NCG      7      16004063       \a04/18/16 23:18 FVPX     (FVPX CREFBA/OYF     ) NCG      7      16006072       \a\a*** Unmneq Vasbezngvba ***\a** FHCEN OBK YBPNGRQ NG ERAGNY BSSVPR JVGU XRL SBE PBZCYRK **                 \a\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - 9 - 7 - 3 - OP41 - OP40 - OP49 - LP52 - 13 - OP44 - OP53\a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 23:18                               QVFCNGPU VASB \a\aPnyy Glcr FVPX     (FVPX CREFBA/OYF     )                Vapvqrag Ab 16006072\a\aYbp 4424 OYNPX EBPX EQ @EVQTRYL UBHFR                    Ncg 7     UNZC  \a    FHRYYRA QE                   YBJRE ORPXYRLFIVYYR EQ          14-X12  \aAnzr    NFUYRL YVSR NYREG             \aNqqerff                                          Cubar 382-7882   Nern 866\aErznexf 68 LBS OBBAR // FXVA VF YRNXVAT HAXBJA GLCR BS SYHVQ // OERNGU NAQ PBA\a        FPVBHF                                                                \aCegl 2 Yri 59 Fep C Eq 0222   Fgn 02    Gnxref Vq ZVPPEB Erp 23:18:33\aQngr 04/18/16 Nynez Vq                  Qvfcng Vq PQY    Qvf 23:18:47\aEnqvb Puf:                    Ery S#:         \a\aHavgf K29    \a\a*** Cerzvfr Vasb ***\a02/13/14 13:38 NYF      (NYF ZRQVPNY PNYY    ) NCG      3      14002738       \a08/05/14 19:49 VAWSNYY  (VAW CRE/SNYY/OYF    ) NCG      3      14011768       \a08/12/14 18:56 PURFG    (PURFG CNVA/NYF      ) NCG      3      14012136       \a08/29/14 18:35 NOQBZNYF (NOQBZVANY CNVA/NYF  ) NCG      3      14012977       \a09/09/14 12:12 FGEBXR   (FGEBXR/OYF          ) NCG      3      14013521       \a10/26/14 13:50 NOQBZ    (NOQBZVANY CNVA/OYF  ) NCG             14015899       \a01/06/15 20:39 CN       (CNGVRAG NFFVFG      ) NCG      7      15000347       \a01/23/15 21:58 VAW      (VAW CREFBA/OYF      ) NCG      7      15001383
+{PNQ} 20:44          VAPVQRAG HAVG UVFGBEL SBE: 16006063  CNTR 1\a                       QNGR: 041816  PNYYGLCR: PURFG   \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    193248 Q  4428 OYNPX EBPX EQ     \aK29    193439 R  4428 OYNPX EBPX EQ     \aK29    193441 ER C                      \aK29    193650 N  4428 OYNPX EBPX EQ     \aK29    194911 RU PUP C-1                \aK29    200311 NU PUP C-1                \aK29    202813 NE PUP C-1                \aK29    204445 P  PUP C-1
+{PNQ} 19:33 11/27/14 21:45 ERFC     (GEBHOYR OERNGUVAT   ) NCG      4      14017510       \a12/11/14 18:30 ERFC     (GEBHOYR OERNGUVAT   ) NCG      7      14018241       \a07/04/15 12:16 QYBP     (QRPERNFRQ YBP/NYF   ) NCG      N      15010651       \a08/24/15 11:08 CN       (CNGVRAG NFFVFG      ) NCG             15013338       \a03/06/16 17:01 QYBP     (QRPERNFRQ YBP/NYF   ) NCG             16003632       \a04/18/16 19:32 PURFG    (PURFG CNVA/NYF      ) NCG      3      16006063       \a\a*** Unmneq Vasbezngvba ***\a** FHCEN OBK YBPNGRQ NG ERAGNY BSSVPR JVGU XRL SBE PBZCYRK **                 \a\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - 9 - 7 - 3 - OP41 - OP40 - OP49 - LP52 - 13 - OP44 - OP53
+{PNQ} 19:32                               QVFCNGPU VASB \a\aPnyy Glcr PURFG    (PURFG CNVA/NYF      )                Vapvqrag Ab 16006063\a\aYbp 4428 OYNPX EBPX EQ                                   Ncg 3     UNZC  \a    FHRYYRA QE                   YBJRE ORPXYRLFIVYYR EQ          14-X12  \aAnzr    WHNAVGN YBJR                  \aNqqerff                                          Cubar 507-6094   Nern 443\aErznexf 76-LRNE-BYQ, SRZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: PURFG    \a        CNVA QVFCNGPU PBQR: 10Q04  (PYNZZL) ERFCBAFR: PURFG 1. FUR VF         \aCegl 1 Yri 60 Fep 1 Eq 0222   Fgn 02    Gnxref Vq EZF    Erp 19:32:38\aQngr 04/18/16 Nynez Vq                  Qvfcng Vq PQY    Qvf 19:32:48\aEnqvb Puf:                    Ery S#:         \a\aHavgf K29    \a\a*** Cerzvfr Vasb ***\a02/16/11 20:39 OYF      (OYF ZRQVPNY PNYY    ) NCG      2      11002523       \a06/10/11 11:17 NYF      (NYF ZRQVPNY PNYY    ) NCG      2      11008222       \a01/10/13 17:20 NYF      (NYF ZRQVPNY PNYY    ) NCG      8      13000553       \a09/15/13 18:11 NYF      (NYF ZRQVPNY PNYY    ) NCG             13013431       \a05/03/14 10:23 NYF      (NYF ZRQVPNY PNYY    )          4      14006915       \a06/03/14 10:36 NYF      (NYF ZRQVPNY PNYY    ) NCG      8      14008503       \a06/14/14 19:42 NYF      (NYF ZRQVPNY PNYY    ) NCG      N      14009075       \a09/19/14 21:56 URZVIG   (URZBEEUNTR/VIG      ) NCG      7      14014067
+{PNQ} 19:33                 CebDn Qngn sbe Vapvqrag: 16006063\a\aPBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).                                  \a2. FUR VF ABG OERNGUVAT ABEZNYYL.                                             \a3. FUR QBRF ABG UNIR NAL QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF.                 \a4. FUR VF PYNZZL.                                                             \a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 16:56          VAPVQRAG HAVG UVFGBEL SBE: 16006049  CNTR 1\a                       QNGR: 041816  PNYYGLCR: VAWNYF  \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    152314 Q  626 UNABIRE CXR @WBF   \aK29    152503 R  626 UNABIRE CXR @WBF   \aK29    152508 ER CNENZRQVP              \aK29    152918 N  626 UNABIRE CXR @WBF   \aK29    154723 RU CEV3 PUP               \aK29    161137 NU CEV3 PUP               \aK29    163245 NE CEV3 PUP               \aK29    165558 P  CEV3 PUP
+{PNQ} 15:23                               QVFCNGPU VASB \a\aPnyy Glcr VAWNYF   (VAW CREFBA/NYF      )                Vapvqrag Ab 16006049\a\aYbp 626 UNABIRE CXR @WBF N ONAXF                         UNZC  \a    UNZCFUVER EQ                                                 21-W1   \aAnzr    EVPX FHGGBA                   \aNqqerff 422 EBHGR 30                             Cubar 797-2012   Nern 415\aErznexf 55-LRNE-BYQ, SRZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: SRYY BS  \a        FGBBY, UVG URNQ QVFCNGPU PBQR: 17Q03  (ABG NYREG) FHSSVK: T  (BA GUR  \aCegl 1 Yri 60 Fep 1 Eq 0219   Fgn 02    Gnxref Vq ZWZ    Erp 15:23:07\aQngr 04/18/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 15:23:14\aEnqvb Puf:                    Ery S#:         \a\aHavgf K29    \a\a*** Cerzvfr Vasb ***\a06/28/14 01:28 OYF      (OYF ZRQVPNY PNYY    ) NCG             14009762       \a07/28/14 17:44 OYF      (OYF ZRQVPNY PNYY    ) NCG             14011383       \a10/19/14 12:46 HAPQVNO  (HAPBAFPVBHF QVNORGVP) NCG             14015533       \a10/25/14 08:47 ERFC     (GEBHOYR OERNGUVAT   ) NCG             14015846       \a11/07/14 16:48 QYBP     (QRPERNFRQ YBP/NYF   ) NCG             14016543       \a11/24/14 17:18 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             14017363       \a01/21/15 10:47 VAWNYF   (VAW CREFBA/NYF      ) NCG             15001234       \a03/17/15 07:12 QYBP     (QRPERNFRQ YBP/NYF   ) NCG      600    15004461
+{PNQ} 15:23                 CebDn Qngn sbe Vapvqrag: 16006049\a\aTEBHAQ BE SYBBE)                                                              \aERFCBAFR: VAWNYF                                                              \a1. GUVF UNCCRARQ ABJ (YRFF GUNA 6UEF NTB).                                    \a2. GUR SNYY JNF YRFF GUNA 10SG/3Z (YRFF GUNA 1 FGBEL).                        \a3. GUR ERNFBA SBE GUR SNYY VF ABG XABJA.                                      \a4. GURER VF FBZR OYRRQVAT, ABG FREVBHF.                                       \a5. FUR VF ABG PBZCYRGRYL NYREG (ABG ERFCBAQVAT NCCEBCEVNGRYL).                \a6. GUR VAWHEL VF GB GUR URNQ.                                                 \a7. FUR VF FGVYY BA GUR SYBBE (TEBHAQ).                                        \a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 15:23 05/06/15 19:01 FVPX     (FVPX CREFBA/OYF     ) NCG             15007274       \a05/11/15 08:17 PURFG    (PURFG CNVA/NYF      ) NCG             15007532       \a09/06/15 03:59 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             15014050       \a12/10/15 17:25 FVPX     (FVPX CREFBA/OYF     ) NCG             15019331       \a02/04/16 00:54 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             16002008       \a04/18/16 15:23 VAWNYF   (VAW CREFBA/NYF      ) NCG             16006049       \a\a*** Unmneq Vasbezngvba ***\aOYNPX & QRPXRE - NQQ UZ30 GB NYY OHVYQVAT SVERF - GVRE GJB UNM-ZNG SNPVYVGL   \aQHGL FRPHEVGL THNEQ PRYY #443-375-6913                                        \a\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - 9 - OP41 - OP40 - 7 - 3 - OP49 - 13 - OP56 - LP52 - OP44
+{PNQ} 14:49          VAPVQRAG HAVG UVFGBEL SBE: 16006043  CNTR 1\a                       QNGR: 041816  PNYYGLCR: ZN      \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aRG24   135015 Q  43-6 OYNPX EBPX EQ /   \aRG24   135256 R  43-6 OYNPX EBPX EQ /   \aRG24   143939 NE 43-6 OYNPX EBPX EQ /   \aRG24   144947 P  43-6 OYNPX EBPX EQ /
+{PNQ} 13:50                               QVFCNGPU VASB \a\aPnyy Glcr ZN       (ZHGHNY NVQ NYNEZ    )                Vapvqrag Ab 16006043\a\aYbp 43-6 OYNPX EBPX EQ / EVQTR EQ / IRU SVE J/RKCBF JRFG       \a                                                                         \aAnzr    RG24                          \aNqqerff                                          Cubar    -       Nern    \aCegl 3 Yri 99 Fep C Eq OP     Fgn 15    Gnxref Vq FUS    Erp 13:49:31\aQngr 04/18/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 13:50:15\aEnqvb Puf:                    Ery S#:         \a\aHavgf RG24   \a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 09:11          VAPVQRAG HAVG UVFGBEL SBE: 16006017  CNTR 1\a                       QNGR: 041816  PNYYGLCR: FRVM    \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    074154 Q  2704 BIREIVRJ EQ       \aK29    074356 R  2704 BIREIVRJ EQ       \aK29    074401 ER CNENZRQVP              \aK29    075114 N  2704 BIREIVRJ EQ       \aH2     075337 Q  2704 BIREIVRJ EQ       \aH2     075647 R  2704 BIREIVRJ EQ       \aH2     080332 N  2704 BIREIVRJ EQ       \aH2     081429 NE 2704 BIREIVRJ EQ       \aK29    081500 RU CEV2 PUP               \aH2     082500 P  2704 BIREIVRJ EQ       \aK29    083320 NU CEV2 PUP               \aK29    085150 NE CEV2 PUP               \aK29    091115 P  CEV2 PUP
+{PNQ} 09:11          VAPVQRAG HAVG UVFGBEL SBE: 16006022  CNTR 1\a                       QNGR: 041816  PNYYGLCR: PURFG   \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK48    085653 Q  ZNVA FG F / FUVYBU N   \aSE2    085653 Q  ZNVA FG F / FUVYBU N   \aK48    085809 R  ZNVA FG F / FUVYBU N   \aK48    085813 ER ZRQVP                  \aSE2    090039 EG RKPUNATRQ SBE: H2      \aSE2    090039 RK ZNVA FG F / FUVYBU N   \aH2     090039 R  ZNVA FG F / FUVYBU N   \aH2     090201 N  ZNVA FG F / FUVYBU N   \aK48    090443 N  ZNVA FG F / FUVYBU N   \aH2     090617 NE ZNVA FG F / FUVYBU N   \aH2     091103 P  ZNVA FG F / FUVYBU N
+{PNQ} 08:57                 CebDn Qngn sbe Vapvqrag: 16006022\a\aPURFG                                                                         \a1. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).                         \a2. UR VF ABG OERNGUVAT ABEZNYYL.                                              \a3. UR UNF PURFG CNVA.                                                         \a4. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).                         \a5. UR VF ABG OERNGUVAT ABEZNYYL.                                              \a6. UR QBRF ABG UNIR NAL QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF.                  \a7. UR VF ABG PYNZZL.                                                          \a8. UR UNF ABG UNQ N URNEG NGGNPX BE NATVAN (URNEG CNVAF) ORSBER.              \a9. UR GBBX N CERFPEVORQ ZRQVPNGVBA VA GUR CNFG 12 UEF: OYBBQ GUVAARE          \aCEBDN PBZCYRGRQ                                                               \a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 08:57                               QVFCNGPU VASB \a\aPnyy Glcr PURFG    (PURFG CNVA/NYF      )                Vapvqrag Ab 16006022\a\aYbp ZNVA FG F / FUVYBU NI                                UNZC  \a          /                                                      14-W12  \aAnzr    EBA EBZR                      \aNqqerff                                          Cubar 599-2160   Nern 443\aErznexf 47-LRNE-BYQ, ZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: QVMML NOBHG\a         GB CNFF BHG QVFCNGPU PBQR: 10P01  (NOABEZNY OERNGUVAT) ERFCBAFR:     \aCegl 1 Yri 60 Fep 1 Eq 0208   Fgn 02    Gnxref Vq ORAEBO Erp 08:56:03\aQngr 04/18/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 08:56:53\aEnqvb Puf:                    Ery S#:         \a\aHavgf K48    SE2    \a\a*** Cerzvfr Vasb ***\a07/19/06 06:42 NYF 2    (NYF QVFC CEVBEVGL 2 ) NCG      (410)  06008956       \a03/06/10 23:50 NYF      (NYF ZRQVPNY PNYY    ) NCG             10003345       \a10/09/15 17:52 IP       (IRUVPYR PBYYVFVBA   ) NCG             15015949       \a01/05/16 18:17 JVERF    (JVERF QBJA          ) NCG             16000282       \a04/18/16 08:56 PURFG    (PURFG CNVA/NYF      ) NCG             16006022       \a\a*** Sver Obk Vasb ***\a2 - 4 - OP43 - OP42(AB GENA) - 3 - 7 - 9 - OP41 - LP52 - 13 - OP44 - OP56 - 6
+{PNQ} 08:33          VAPVQRAG HAVG UVFGBEL SBE: 16006017  CNTR 1\a                       QNGR: 041816  PNYYGLCR: FRVM    \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    074154 Q  2704 BIREIVRJ EQ       \aK29    074356 R  2704 BIREIVRJ EQ       \aK29    074401 ER CNENZRQVP              \aK29    075114 N  2704 BIREIVRJ EQ       \aH2     075337 Q  2704 BIREIVRJ EQ       \aH2     075647 R  2704 BIREIVRJ EQ       \aH2     080332 N  2704 BIREIVRJ EQ       \aH2     081429 NE 2704 BIREIVRJ EQ       \aK29    081500 RU CEV2 PUP               \aH2     082500 P  2704 BIREIVRJ EQ
+{PNQ} 07:53                 CebDn Qngn sbe Vapvqrag: 16006017\a\aIREVSVRQ (XABJA F                                                             \aFHSSVK: R  (RCVYRCGVP BE CERIVBHF FRVMHER QVNTABFVF)                          \aERFCBAFR: FRVM                                                                \a1. GUVF VF NCCNERAGYL N TRARENYVMRQ (TENAQ ZNY) FRVMHER.                      \a2. FUR UNF ABG UNQ ZBER GUNA BAR FRVMHER VA N EBJ.                            \a3. VG'F ABG XABJA VS FUR VF CERTANAG.                                         \a4. VG'F ABG XABJA VS FUR VF QVNORGVP.                                         \a5. FUR VF NA RCVYRCGVP (QVNTABFRQ JVGU N FRVMHER QVFBEQRE).                   \a6. FUR QBRF ABG UNIR N UVFGBEL BS FGEBXR BE OENVA GHZBE.                      \a7. GUR WREXVAT (GJVGPUVAT) UNF FGBCCRQ.                                       \a8. FUR VF OERNGUVAT ABJ.                                                      \a9. FUR VF OERNGUVAT ABEZNYYL.                                                 \aCEBDN PBZCYRGRQ                                                               \a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 07:53                               QVFCNGPU VASB \a\aPnyy Glcr FRVM     (FRVMHER/OYF         )                Vapvqrag Ab 16006017\a\aYbp 2704 BIREIVRJ EQ                                     UNZC  \a    UBHPX EQ                     (QRNQ RAQ)                      21-N4   \aAnzr    WBUAFBA,WRAAVSRE              \aNqqerff                                          Cubar 291-6434   Nern 443\aErznexf 38-LRNE-BYQ, SRZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: FRVMHER Q\a        VFCNGPU PBQR: 12N01  (ABG FRVMVAT ABJ NAQ RSSRPGVIR OERNGUVAT         \aCegl 2 Yri 59 Fep 1 Eq 0209   Fgn 02    Gnxref Vq YJB    Erp 07:41:46\aQngr 04/18/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 07:41:54\aEnqvb Puf:                    Ery S#:         \a\aHavgf K29    H2     \a\a*** Cerzvfr Vasb ***\a01/16/14 22:22 HP       (HAPBAFPVBHF FHOWRPG ) NCG             14000988       \a05/06/14 18:57 PN       (PNEQVNP NEERFG      ) NCG             14007088       \a08/07/14 22:01 PNEQ     (PNEQVNP CNGVRAG/NYF ) NCG             14011878       \a03/18/15 16:09 QYBP     (QRPERNFRQ YBP/NYF   ) NCG             15004542       \a07/20/15 18:01 FRVMNYF  (FRVMHER/NYF         ) NCG             15011562       \a02/25/16 12:14 FGEBXNYF (FGEBXR/NYF          ) NCG             16003106       \a04/18/16 07:41 FRVM     (FRVMHER/OYF         ) NCG             16006017       \a\a*** Sver Obk Vasb ***\a2 - 9 - OP43 - OP42 - 3 - 4 - OP41 - OP40 - OP40 - 13 - 6 - OP49 - 7 - OP56
+{PNQ} 07:42                 CebDn Qngn sbe Vapvqrag: 16006017\a\aIREVSVRQ (XABJA F                                                             \aFHSSVK: R  (RCVYRCGVP BE CERIVBHF FRVMHER QVNTABFVF)                          \aERFCBAFR: FRVM                                                                \a1. GUVF VF NCCNERAGYL N TRARENYVMRQ (TENAQ ZNY) FRVMHER.                      \a2. FUR UNF ABG UNQ ZBER GUNA BAR FRVMHER VA N EBJ.                            \a3. VG'F ABG XABJA VS FUR VF CERTANAG.                                         \a4. VG'F ABG XABJA VS FUR VF QVNORGVP.                                         \a5. FUR VF NA RCVYRCGVP (QVNTABFRQ JVGU N FRVMHER QVFBEQRE).                   \a6. FUR QBRF ABG UNIR N UVFGBEL BS FGEBXR BE OENVA GHZBE.                      \a7. GUR WREXVAT (GJVGPUVAT) UNF FGBCCRQ.                                       \a8. FUR VF OERNGUVAT ABJ.                                                      \a9. FUR VF OERNGUVAT ABEZNYYL.                                                 \a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 07:42                               QVFCNGPU VASB \a\aPnyy Glcr FRVM     (FRVMHER/OYF         )                Vapvqrag Ab 16006017\a\aYbp 2704 BIREIVRJ EQ                                     UNZC  \a    UBHPX EQ                     (QRNQ RAQ)                      21-N4   \aAnzr    WBUAFBA,WRAAVSRE              \aNqqerff                                          Cubar 291-6434   Nern 443\aErznexf 38-LRNE-BYQ, SRZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: FRVMHER Q\a        VFCNGPU PBQR: 12N01  (ABG FRVMVAT ABJ NAQ RSSRPGVIR OERNGUVAT         \aCegl 2 Yri 59 Fep 1 Eq 0209   Fgn 02    Gnxref Vq YJB    Erp 07:41:46\aQngr 04/18/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 07:41:54\aEnqvb Puf:                    Ery S#:         \a\aHavgf K29    \a\a*** Cerzvfr Vasb ***\a01/16/14 22:22 HP       (HAPBAFPVBHF FHOWRPG ) NCG             14000988       \a05/06/14 18:57 PN       (PNEQVNP NEERFG      ) NCG             14007088       \a08/07/14 22:01 PNEQ     (PNEQVNP CNGVRAG/NYF ) NCG             14011878       \a03/18/15 16:09 QYBP     (QRPERNFRQ YBP/NYF   ) NCG             15004542       \a07/20/15 18:01 FRVMNYF  (FRVMHER/NYF         ) NCG             15011562       \a02/25/16 12:14 FGEBXNYF (FGEBXR/NYF          ) NCG             16003106       \a04/18/16 07:41 FRVM     (FRVMHER/OYF         ) NCG             16006017       \a\a*** Sver Obk Vasb ***\a2 - 9 - OP43 - OP42 - 3 - 4 - OP41 - OP40 - OP40 - 13 - 6 - OP49 - 7 - OP56
+{PNQ} 20:40          VAPVQRAG HAVG UVFGBEL SBE: 16006004  CNTR 1\a                       QNGR: 041716  PNYYGLCR: FCVYYFZ \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aR23    201141 Q  4439 GERAGBA ZVYY EQ   \aR23    201626 R  4439 GERAGBA ZVYY EQ   \aR23    201634 NE 4439 GERAGBA ZVYY EQ   \aRG24   201650 OH 4439 GERAGBA ZVYY EQ   \aRG24   201650 R  4439 GERAGBA ZVYY EQ   \aR23    201658 P  4439 GERAGBA ZVYY EQ   \aRG24   202104 N  4439 GERAGBA ZVYY EQ   \aRG24   203510 NE 4439 GERAGBA ZVYY EQ   \aRG24   203528 EG ZQR BA FPRAR           \aRG24   203954 P  4439 GERAGBA ZVYY EQ
+{PNQ} 20:11                 CebDn Qngn sbe Vapvqrag: 16006004\a\aGUR PNYYRE VF BA FPRAR (1FG CNEGL).                                           \a2. GUR PNYYRE VF ERCBEGVAT N SHRY FCVYY.                                      \a3. VG VF ABG XABJA VS GUR FCVYY VF FCERNQVAT.                                 \a4. VG VF ABG XABJA VS GUR FCVYY VF VA BE ARNE N JNGREJNL.                     \a5. GUR FVMR BS GUR FCVYY VF ABG XABJA.                                        \a6. GUR SHRY FCVYY VF BHGFVQR.                                                 \a7. GUR SHRY VAIBYIRQ VF TNFBYVAR.                                             \a8. A/N                                                                        \a9. GUR SHRY VF PBZVAT SEBZ: SEBZ GUR PNE                                      \a10. A/N                                                                       \a11. AB BAR VF ERCBEGRQYL FVPX BE VAWHERQ.                                     \aCEBDN PBZCYRGRQ                                                               \a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 20:11                               QVFCNGPU VASB \a\aPnyy Glcr FCVYYFZ  (FZ SHRY FCVYY       )                Vapvqrag Ab 16006004\a\aYbp 4439 GERAGBA ZVYY EQ                                 HCPB  \a    JZ EJL                       PBHAGL OQEL                     21-X2   \aAnzr    QBAAN                         \aNqqerff 422 UNABIRE CXR ; A FRPGBE               Cubar 271-8582   Nern 443\aErznexf PNYYRE FGNGRZRAG: PNE YRNXVAT TNF QVFCNGPU PBQR: 59P03  (HAXABJA      \a        FVGHNGVBA (VAIRFGVTNGVBA)) FHSSVK: B  (BHGFVQR) ERFCBAFR: UNFZNG 1.   \aCegl 2 Yri 5R Fep 1 Eq 0223   Fgn 02    Gnxref Vq XNC    Erp 20:11:04\aQngr 04/17/16 Nynez Vq                  Qvfcng Vq PBEZVY Qvf 20:11:41\aEnqvb Puf:                    Ery S#:         \a\aHavgf R23    \a\a*** Cerzvfr Vasb ***\a08/17/08 14:20 VIG      (VIG ZRQVPNY NYNEZ   ) NCG      10     08011617       \a12/06/09 00:42 NYF      (NYF ZRQVPNY PNYY    ) NCG      6      09016871       \a07/29/10 17:25 NYF      (NYF ZRQVPNY PNYY    ) NCG      3      10010652       \a04/06/12 07:25 NYF      (NYF ZRQVPNY PNYY    ) NCG      5      12004663       \a04/17/16 20:11 FCVYY    (YT SHRY FCVYY       ) NCG             16006004       \a\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - OP41 - 9 - OP40 - OP49 - 7 - 3 - 13 - OP56 - LP52 - OP44
+{PNQ} 17:48          VAPVQRAG HAVG UVFGBEL SBE: 16005989  CNTR 1\a                       QNGR: 041716  PNYYGLCR: VAW     \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    160816 Q  PNCR UBEA CNEX @2300   \aSE4    160816 Q  PNCR UBEA CNEX @2300   \aK29    160951 R  PNCR UBEA CNEX @2300   \aK29    160953 ER CZ                     \aSE4    161205 EG RKPUNATRQ SBE: QGL4    \aSE4    161205 RK PNCR UBEA CNEX @2300   \aQGL4   161205 R  PNCR UBEA CNEX @2300   \aK29    161457 N  PNCR UBEA CNEX @2300   \aQGL4   162000 N  PNCR UBEA CNEX @2300   \aK29    163104 RU CEV 3 PUP              \aQGL4   163230 P  PNCR UBEA CNEX @2300   \aK29    164857 NU CEV 3 PUP              \aK29    173228 NE CEV 3 PUP              \aK29    174800 P  CEV 3 PUP
+{PNQ} 16:08                 CebDn Qngn sbe Vapvqrag: 16005989\a\aERFCBAFR: VAW                                                                 \a1. GUVF UNCCRARQ ABJ (YRFF GUNA 6UEF NTB).                                    \a2. GURER VF AB OYRRQVAT ABJ.                                                  \a3. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).                         \a4. GUR VAWHEL VF GB N ABG QNATREBHF NERN.                                     \a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 16:08                               QVFCNGPU VASB \a\aPnyy Glcr VAW      (VAW CREFBA/OYF      )                Vapvqrag Ab 16005989\a\aYbp PNCR UBEA CNEX @2300 A PNCR UBEA EQ                  UNZC  \a    FHFNANAA QE                  QNEYRAR EQ                      14-Q6   \aAnzr    FGRIR                         \aNqqerff                                          Cubar 808-8311   Nern 410\aErznexf 14-LRNE-BYQ, ZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: JEVFG      \a        VAWHEL NG YNPEBFFR QVFCNGPU PBQR: 30N01  (ABG QNATREBHF OBQL NERN)    \aCegl 2 Yri 59 Fep C Eq 0409   Fgn 04    Gnxref Vq XNC    Erp 16:08:04\aQngr 04/17/16 Nynez Vq                  Qvfcng Vq ELNZRH Qvf 16:08:16\aEnqvb Puf:                    Ery S#:         \a\aHavgf K29    SE4    \a\a*** Cerzvfr Vasb ***\a\a*** Sver Obk Vasb ***\a4 - 2 - OP43 - 7 - 3 - LP52 - 9 - OP42 - 6 - LP49 - OP49 - OP41 - OP40 - LP46
+{PNQ} 14:30          VAPVQRAG HAVG UVFGBEL SBE: 16005980  CNTR 1\a                       QNGR: 041716  PNYYGLCR: VAW     \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    132113 Q  UNZCFGRNQ ZHAVPVCNY    RG24   143004 P  UNZCFGRNQ ZHAVPVCNY  \aK29    132235 R  UNZCFGRNQ ZHAVPVCNY    \aK29    132237 ER CZ                     \aK29    132502 N  UNZCFGRNQ ZHAVPVCNY    \aR23    133817 Q  UNZCFGRNQ ZHAVPVCNY    \aU3     133823 OH UNZCFGRNQ ZHAVPVCNY    \aU3     133823 R  UNZCFGRNQ ZHAVPVCNY    \aU3     133841 EG 24ZVA                  \aR23    134042 EG RKPUNATRQ SBE: RG24    \aR23    134042 RK UNZCFGRNQ ZHAVPVCNY    \aRG24   134042 R  UNZCFGRNQ ZHAVPVCNY    \aRG24   134256 N  UNZCFGRNQ ZHAVPVCNY    \aU3     141300 N  UNZCFGRNQ ZHAVPVCNY    \aU3     142219 P  UNZCFGRNQ ZHAVPVCNY    \aRG24   142224 NE UNZCFGRNQ ZHAVPVCNY    \aK29    142300 YU UNZCFGRNQ ZHAVPVCNY    \aK29    142648 P  UNZCFGRNQ ZHAVPVCNY
+{PNQ} 13:38                 CebDn Qngn sbe Vapvqrag: 16005980\a\aVAW                                                                           \a1. GUVF UNCCRARQ ABJ (YRFF GUNA 6UEF NTB).                                    \a2. GURER VF AB OYRRQVAT ABJ.                                                  \a3. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).                         \a4. GUR VAWHEL VF GB GUR ARPX.                                                 \a5. UR VF ABG UNIVAT QVSSVPHYGL OERNGUVAT.                                     \aCEBDN PBZCYRGRQ                                                               \a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 13:38                               QVFCNGPU VASB \a\aPnyy Glcr VAW      (VAW CREFBA/OYF      )                Vapvqrag Ab 16005980\a\aYbp UNZCFGRNQ ZHAVPVCNY CNEX @ FUBRZNXRE QE                    \a    QNXBGN EQ                                                            \aAnzr    WBUA                          \aNqqerff FBPPRE SVRYQ                             Cubar    -       Nern    \aErznexf 11-LRNE-BYQ, ZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: XARR GB GUR\a         URNQ QVFCNGPU PBQR: 30O01  (CBFFVOYL QNATREBHF OBQL NERN) ERFCBAFR:  \aCegl 2 Yri 59 Fep C Eq 0208   Fgn 02    Gnxref Vq FUS    Erp 13:21:03\aQngr 04/17/16 Nynez Vq                  Qvfcng Vq ELNZRH Qvf 13:21:13\aEnqvb Puf:                    Ery S#:         \a\aHavgf K29    R23    \a\a*** Cerzvfr Vasb ***\a\a*** Sver Obk Vasb ***\a2 - 4 - OP43 - OP42(AB GENA) - 3 - 7 - 9 - OP41 - LP52 - 13 - OP44 - OP56 - 6
+{PNQ} 13:21                 CebDn Qngn sbe Vapvqrag: 16005980\a\aVAW                                                                           \a1. GUVF UNCCRARQ ABJ (YRFF GUNA 6UEF NTB).                                    \a2. GURER VF AB OYRRQVAT ABJ.                                                  \a3. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).                         \a4. GUR VAWHEL VF GB GUR ARPX.                                                 \a5. UR VF ABG UNIVAT QVSSVPHYGL OERNGUVAT.                                     \aCEBDN PBZCYRGRQ                                                               \a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 13:21                               QVFCNGPU VASB \a\aPnyy Glcr VAW      (VAW CREFBA/OYF      )                Vapvqrag Ab 16005980\a\aYbp UNZCFGRNQ ZHAVPVCNY CNEX @ FUBRZNXRE QE                    \a    QNXBGN EQ                                                            \aAnzr    WBUA                          \aNqqerff FBPPRE SVRYQ                             Cubar    -       Nern    \aErznexf 11-LRNE-BYQ, ZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: XARR GB GUR\a         URNQ QVFCNGPU PBQR: 30O01  (CBFFVOYL QNATREBHF OBQL NERN) ERFCBAFR:  \aCegl 2 Yri 59 Fep C Eq 0208   Fgn 02    Gnxref Vq FUS    Erp 13:21:03\aQngr 04/17/16 Nynez Vq                  Qvfcng Vq ELNZRH Qvf 13:21:13\aEnqvb Puf:                    Ery S#:         \a\aHavgf K29    \a\a*** Cerzvfr Vasb ***\a\a*** Sver Obk Vasb ***\a2 - 4 - OP43 - OP42(AB GENA) - 3 - 7 - 9 - OP41 - LP52 - 13 - OP44 - OP56 - 6
+{PNQ} 02:44          VAPVQRAG HAVG UVFGBEL SBE: 16005962  CNTR 1\a                       QNGR: 041716  PNYYGLCR: IPE     \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    014726 Q  3817 FNVAG CNHY EQ     EF9    015800 P  3817 FNVAG CNHY EQ   \aOZ435  014726 Q  3817 FNVAG CNHY EQ     RG24   015904 N  3817 FNVAG CNHY EQ   \aR23    014726 Q  3817 FNVAG CNHY EQ     G2     020031 N  3817 FNVAG CNHY EQ   \aOR432  014726 Q  3817 FNVAG CNHY EQ     OR432  020514 P  3817 FNVAG CNHY EQ   \aG2     014726 Q  3817 FNVAG CNHY EQ     K29    023122 NE 3817 FNVAG CNHY EQ   \aEF9    014726 Q  3817 FNVAG CNHY EQ     RG24   023509 NE 3817 FNVAG CNHY EQ   \aK29    015029 EG FTG2-2 RAEBHGR GB FP   G2     023527 NE 3817 FNVAG CNHY EQ   \aK29    015102 R  3817 FNVAG CNHY EQ     K29    023928 P  3817 FNVAG CNHY EQ   \aK29    015104 ER Z                      RG24   024449 P  3817 FNVAG CNHY EQ   \aR23    015227 EG RKPUNATRQ SBE: RG24    G2     024450 P  3817 FNVAG CNHY EQ   \aR23    015227 RK 3817 FNVAG CNHY EQ     \aRG24   015227 R  3817 FNVAG CNHY EQ     \aOZ435  015242 P  3817 FNVAG CNHY EQ     \aG2     015409 R  3817 FNVAG CNHY EQ     \aEF9    015411 R  3817 FNVAG CNHY EQ     \aEF9    015624 NE 3817 FNVAG CNHY EQ     \aK29    015635 N  3817 FNVAG CNHY EQ
+{PNQ} 01:47                               QVFCNGPU VASB \a\aPnyy Glcr IPE      (IP ERFPHR           )                Vapvqrag Ab 16005962\a\aYbp 3817 FNVAG CNHY EQ                                   UNZC  \a    UBHPXFIVYYR EQ               OYHR TENFF YN                   21-R5   \aAnzr    CNHY FGEVPXRE                 \aNqqerff                                          Cubar 205-3244   Nern 410\aErznexf 1 CVPX HC SYVCCRQ BSS GUR EBNQ // 1 GENCCRQ                           \a                                                                              \aCegl 2 Yri 4T Fep 1 Eq 0225   Fgn 02    Gnxref Vq XLYQRQ Erp 01:47:15\aQngr 04/17/16 Nynez Vq                  Qvfcng Vq GYZ    Qvf 01:47:26\aEnqvb Puf:                    Ery S#:         \a\aHavgf K29    OZ435  R23    OR432  G2     EF9    \a\a*** Cerzvfr Vasb ***\a08/13/14 14:35 FVPX     (FVPX CREFBA/OYF     ) NCG             14012189       \a08/31/14 20:25 URZ      (URZBEEUNTR/OYF      ) NCG             14013088       \a04/17/16 01:47 IPE      (IP ERFPHR           ) NCG             16005962       \a\a*** Sver Obk Vasb ***\a2 - OP43 - OP42 - 9 - 13 - OP41 - OP40 - 4 - 3 - OP49 - OP56 - 7 - 12 - OP31  \a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 20:09          VAPVQRAG HAVG UVFGBEL SBE: 16005946  CNTR 1\a                       QNGR: 041616  PNYYGLCR: NYNEZ 1 \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aR23    194234 Q  2809 JVYYBJ IVRJ PG    \aR23    194547 EG RKPUNATRQ SBE: RG24    \aR23    194547 RK 2809 JVYYBJ IVRJ PG    \aRG24   194547 R  2809 JVYYBJ IVRJ PG    \aRG24   195210 N  2809 JVYYBJ IVRJ PG    \aRG24   195622 NE 2809 JVYYBJ IVRJ PG    \aRG24   200917 P  2809 JVYYBJ IVRJ PG
+{PNQ} 19:42                 CebDn Qngn sbe Vapvqrag: 16005946\a\aPNYYRE VF NA NYNEZ ZBAVGBEVAT PBZCNAL.                                        \a2. VG VF N XRLCNQ (ZNAHNY) NYNEZ.                                             \a3. GUR RKNPG NERN BE MBAR NPGVINGRQ VF ABG XABJA.                             \a4. GUR ANZR BS GUR OHFVARFF/ERFVQRAG/BJARE VF: ORIREYL QBABUHR                \a5. GUR VAPVQRAG VAIBYIRF N FVATYR-SNZVYL ERFVQRAGVNY FGEHPGHER.               \a6. GUR CUBAR AHZORE BS GUR OHFVARFF/ERFVQRAG/BJARE VF: 4102297521             \aCEBDN PBZCYRGRQ                                                               \a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 19:42                               QVFCNGPU VASB \a\aPnyy Glcr NYNEZ 1  (ERF SVER NYNEZ      )                Vapvqrag Ab 16005946\a\aYbp 2809 JVYYBJ IVRJ PG                                  UNZC  \a    JVYYBJ IVRJ FG               (QRNQ RAQ)                      15-N4   \aAnzr    NQG/137328                    \aNqqerff                                          Cubar 285-7397   Nern 877\aErznexf PNYYRE FGNGRZRAG: SVER NYNZE QVFCNGPU PBQR: 52O01  (ERFVQRAGVNY       \a        (FVATYR)) FHSSVK: X  (XRLCNQ (ZNAHNY)) ERFCBAFR: NYNEZ 1 1. GUR       \aCegl 3 Yri 55 Fep C Eq 0215   Fgn 02    Gnxref Vq NFUPEB Erp 19:42:24\aQngr 04/16/16 Nynez Vq                  Qvfcng Vq GYZ    Qvf 19:42:34\aEnqvb Puf:                    Ery S#:         \a\aHavgf R23    \a\a*** Sver Obk Vasb ***\a2 - 4 - OP43 - 7 - OP42 - 3 - 9 - OP49 - LP52 - OP44 - OP53 - OP41 - OP40- OP6
+{PNQ} 17:36          VAPVQRAG HAVG UVFGBEL SBE: 16005939  CNTR 1\a                       QNGR: 041616  PNYYGLCR: QVNO    \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    170022 Q  JRVF ZNEXRG @720 UNA   \aK29    170250 R  JRVF ZNEXRG @720 UNA   \aK29    170251 ER Z                      \aK29    170515 N  JRVF ZNEXRG @720 UNA   \aK29    173305 EG CG ERSHFNY             \aK29    173611 P  JRVF ZNEXRG @720 UNA
+{PNQ} 17:00                               QVFCNGPU VASB \a\aPnyy Glcr QVNO     (QVNORGVP/NYF        )                Vapvqrag Ab 16005939\a\aYbp JRVF ZNEXRG @720 UNABIRE CXR                         UNZC  \a    JZ EJL                       ABEGUJBBQF GEY                  21-W1   \aAnzr    U6405                         \aNqqerff                                          Cubar    -       Nern    \aErznexf ZNYR QVNORGVP                                                         \a                                                                              \aCegl 1 Yri 60 Fep C Eq 0217   Fgn 02    Gnxref Vq NFUPEB Erp 17:00:15\aQngr 04/16/16 Nynez Vq                  Qvfcng Vq XFW    Qvf 17:00:22\aEnqvb Puf:                    Ery S#:         \a\aHavgf K29    \a\a*** Cerzvfr Vasb ***\a\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - 9 - OP41 - OP40 - 7 - 3 - OP49 - 13 - OP44 - OP53 - LP52\a\a<< RAQ BS ZRFFNTR >>
+{PNQ} 14:47          VAPVQRAG HAVG UVFGBEL SBE: 16005928  CNTR 1\a                       QNGR: 041616  PNYYGLCR: PURFG   \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    125503 Q  4240 PELFGNY PG @PEL   \aK29    125654 R  4240 PELFGNY PG @PEL   \aK29    125657 ER Z                      \aK29    125955 N  4240 PELFGNY PG @PEL   \aK29    131737 RU PUP CEV2               \aK29    133234 NU PUP CEV2               \aK29    141500 NE PUP CEV2               \aK29    144700 P  PUP CEV2
+{PNQ} 13:33          VAPVQRAG HAVG UVFGBEL SBE: 16005929  CNTR 1\a                       QNGR: 041616  PNYYGLCR: CRQ     \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aOZ435  125906 Q  ABEGUJBBQF GEY / EG    OZ435  132438 RU PUP CEV3             \aSE2    125906 Q  ABEGUJBBQF GEY / EG    R23    132652 NE ABEGUJBBQF GEY / EG  \aR23    125906 Q  ABEGUJBBQF GEY / EG    R23    133344 P  ABEGUJBBQF GEY / EG  \aRG24   130148 OH ABEGUJBBQF GEY / EG    \aRG24   130148 R  ABEGUJBBQF GEY / EG    \aFTG2-1 130205 OH ABEGUJBBQF GEY / EG    \aFTG2-1 130205 R  ABEGUJBBQF GEY / EG    \aR23    130246 R  ABEGUJBBQF GEY / EG    \aFTG2-1 130329 N  ABEGUJBBQF GEY / EG    \aOZ435  130339 R  ABEGUJBBQF GEY / EG    \aOZ435  130342 ER VIG                    \aOZ435  130343 N  ABEGUJBBQF GEY / EG    \aSE2    130420 P  ABEGUJBBQF GEY / EG    \aRG24   130427 NE ABEGUJBBQF GEY / EG    \aRG24   130428 OH ABEGUJBBQF GEY / EG    \aR23    130449 N  ABEGUJBBQF GEY / EG    \aFTG2-1 131055 P  ABEGUJBBQF GEY / EG
+{PNQ} 13:40          VAPVQRAG HAVG UVFGBEL SBE: 16005919  CNTR 1\a                       QNGR: 041616  PNYYGLCR: FREIVPR \aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aR23    103831 Q  1116 F ZNVA FG         GE1    133505 P  1116 F ZNVA FG       \aR43    104745 Q  1116 F ZNVA FG         RG24   134029 P  1116 F ZNVA FG       \aOR432  105722 Q  1116 F ZNVA FG         \aOR432  110427 R  1116 F ZNVA FG         \aR23    110757 EG RKPUNATRQ SBE: RG24    \aR23    110757 RK 1116 F ZNVA FG         \aRG24   110757 R  1116 F ZNVA FG         \aR43    110801 P  1116 F ZNVA FG         \aOR432  110814 P  1116 F ZNVA FG         \aRG24   111442 N  1116 F ZNVA FG         \aRG24   130143 NE 1116 F ZNVA FG         \aRG24   130148 OH 1116 F ZNVA FG         \aGE1    130416 Q  1116 F ZNVA FG         \aRG24   130428 OH 1116 F ZNVA FG         \aRG24   130428 R  1116 F ZNVA FG         \aRG24   130431 N  1116 F ZNVA FG         \aRG24   133501 NE 1116 F ZNVA FG
+{PNQ} 12:59                               QVFCNGPU VASB \a\aPnyy Glcr CRQ      (CRQRFGEVNA FGEHPX   )                Vapvqrag Ab 16005929\a\aYbp ABEGUJBBQF GEY / EG 30 OHFA                          UNZC  \a          /                                                      14-W13  \aAnzr    JVERYRFF-NG&G ZBOVYVGL(GPF)   \aNqqerff QBANYQ                                   Cubar 204-1127   Nern 443\aErznexf ZNYR BA OVXR UVG OL PNE / PBA NYREG / OERNGUVAT  / 50 LB ZNYR / PNE FG\a        VYY BA FPRAR                                                          \aCegl 2 Yri 30 Fep 1 Eq 0217   Fgn 02    Gnxref Vq PQY    Erp 12:58:12\aQngr 04/16/16 Nynez Vq                  Qvfcng Vq XFW    Qvf 12:59:06\aEnqvb Puf:                    Ery S#:         \a\aHavgf OZ435  SE2    R23    \a\a*** Cerzvfr Vasb ***\a10/17/09 13:10 IP       (IRUVPYR PBYYVFVBA   ) NCG             09014419       \a12/16/10 18:44 FREIVPR  (ABA RZRE FREIVPR    ) NCG             10017531       \a04/26/13 08:57 FREIVPR  (ABA RZRE FREIVPR    ) NCG             13006152       \a05/10/14 03:16 IP       (IRUVPYR PBYYVFVBA   ) NCG             14007284       \a09/22/15 22:54 IP       (IRUVPYR PBYYVFVBA   ) NCG             15014987       \a04/16/16 12:58 CRQ      (CRQRFGEVNA FGEHPX   ) NCG             16005929       \a\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - 9 - OP41 - OP40 - 7 - 3 - OP49 - 13 - OP44 - OP53 - LP52
+
 */
 choyvp pynff ZQPneebyyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
@@ -5969,7 +6039,1534 @@ choyvp pynff ZQPneebyyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:R61 NR201 LR52-1 R31 GB3 LG49 GG6 NRG20 FH6 K69 PF3");
 
   }
- 
+
+  @Grfg
+  choyvp ibvq grfgUnzcfgrnqISQYbat() {
+
+    qbGrfg("G1",
+        "{PNQ} 19:24          VAPVQRAG HAVG UVFGBEL SBE: 16006175  CNTR 1\a" +
+        "                       QNGR: 042016  PNYYGLCR: HAX     \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    190848 Q  4422 OYNPX EBPX EQ     \a" +
+        "K29    191038 R  4422 OYNPX EBPX EQ     \a" +
+        "K29    191044 ER ZRQVP                  \a" +
+        "K29    191247 N  4422 OYNPX EBPX EQ     \a" +
+        "K29    192149 NE 4422 OYNPX EBPX EQ     \a" +
+        "K29    192158 EG CNGVRAG NFFVFG BAYL    \a" +
+        "K29    192401 P  4422 OYNPX EBPX EQ",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:19:24",
+        "VQ:16006175",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16006175  CNTR 1\aQNGR: 042016  PNYYGLCR: HAX\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    190848 Q  4422 OYNPX EBPX EQ\aK29    191038 R  4422 OYNPX EBPX EQ\aK29    191044 ER ZRQVP\aK29    191247 N  4422 OYNPX EBPX EQ\aK29    192149 NE 4422 OYNPX EBPX EQ\aK29    192158 EG CNGVRAG NFFVFG BAYL\aK29    192401 P  4422 OYNPX EBPX EQ");
+
+    qbGrfg("G2",
+        "{PNQ} 19:08                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr HAX      (HAXABJA ANGHER OYF  )                Vapvqrag Ab 16006175\a\a" +
+        "Ybp 4422 OYNPX EBPX EQ                                   UNZC  \a" +
+        "    FHRYYRA QE                   YBJRE ORPXYRLFIVYYR EQ          14-X12  \a" +
+        "Anzr    ZLGERK - BCE QP413            \a" +
+        "Nqqerff                                          Cubar 801-0697   Nern 877\a" +
+        "Erznexf ANAPL JBBQ NCG 6 410-374-1909 PNYYRQ URE ZRQVPNY NYNEZ // ZNYR FHOW AN\a" +
+        "        ZRQ 70 LBZ QNIVQ YNLVAT BA TEBHAQ NG PBZCYRK                          \a" +
+        "Cegl 2 Yri 59 Fep C Eq 0222   Fgn 02    Gnxref Vq QBANYG Erp 19:08:40\a" +
+        "Qngr 04/20/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 19:08:48\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf K29    \a\a" +
+        "*** Cerzvfr Vasb ***\a" +
+        "09/17/13 12:43 OYF      (OYF ZRQVPNY PNYY    ) NCG      4      13013508       \a" +
+        "09/17/13 22:30 OYF      (OYF ZRQVPNY PNYY    ) NCG      1      13013533       \a" +
+        "09/24/13 13:39 OYF      (OYF ZRQVPNY PNYY    ) NCG      1      13013859       \a" +
+        "10/08/13 08:44 OYF      (OYF ZRQVPNY PNYY    ) NCG         1   13014599       \a" +
+        "10/20/13 17:49 PN       (PNEQVNP NEERFG      ) NCG      1      13015242       \a" +
+        "03/29/14 10:55 OYF      (OYF ZRQVPNY PNYY    ) NCG      4      14005055       \a" +
+        "04/17/14 22:05 OYF      (OYF ZRQVPNY PNYY    ) NCG      4      14006118       \a" +
+        "08/03/14 20:50 PURFG    (PURFG CNVA/NYF      ) NCG      3      14011665",
+
+        "GVZR:19:08",
+        "PBQR:HAX",
+        "PNYY:HAXABJA ANGHER OYF",
+        "VQ:16006175",
+        "NQQE:4422 OYNPX EBPX EQ",
+        "PVGL:UNZCFGRNQ",
+        "K:FHRYYRA QE / YBJRE ORPXYRLFIVYYR EQ",
+        "ZNC:14-X12",
+        "ANZR:ZLGERK - BCE QP413",
+        "CUBAR:(877) 801-0697",
+        "VASB:ANAPL JBBQ NCG 6 410-374-1909 PNYYRQ URE ZRQVPNY NYNEZ // ZNYR FHOW AN\aZRQ 70 LBZ QNIVQ YNLVAT BA TEBHAQ NG PBZCYRK\aCegl 2 Yri 59 Fep C Eq 0222   Fgn 02    Gnxref Vq QBANYG Erp 19:08:40\aQngr 04/20/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 19:08:48\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a09/17/13 12:43 OYF      (OYF ZRQVPNY PNYY    ) NCG      4      13013508\a09/17/13 22:30 OYF      (OYF ZRQVPNY PNYY    ) NCG      1      13013533\a09/24/13 13:39 OYF      (OYF ZRQVPNY PNYY    ) NCG      1      13013859\a10/08/13 08:44 OYF      (OYF ZRQVPNY PNYY    ) NCG         1   13014599\a10/20/13 17:49 PN       (PNEQVNP NEERFG      ) NCG      1      13015242\a03/29/14 10:55 OYF      (OYF ZRQVPNY PNYY    ) NCG      4      14005055\a04/17/14 22:05 OYF      (OYF ZRQVPNY PNYY    ) NCG      4      14006118\a08/03/14 20:50 PURFG    (PURFG CNVA/NYF      ) NCG      3      14011665",
+        "HAVG:K29");
+
+    qbGrfg("G3",
+        "{PNQ} 19:09 10/16/14 09:30 VAWSNYY  (VAW CRE/SNYY/OYF    ) NCG      1      14015369       \a" +
+        "11/06/14 09:39 VAWSNYY  (VAW CRE/SNYY/OYF    ) NCG      1      14016465       \a" +
+        "03/21/15 04:29 PNEQ     (PNEQVNP CNGVRAG/NYF ) NCG      3      15004693       \a" +
+        "11/07/15 07:59 ERFC     (GEBHOYR OERNGUVAT   ) NCG      1      15017512       \a" +
+        "03/29/16 14:06 VAWSNYY  (VAW CRE/SNYY/OYF    ) NCG      1      16004868       \a" +
+        "04/20/16 19:08 HAX      (HAXABJA ANGHER OYF  ) NCG             16006175       \a\a" +
+        "*** Unmneq Vasbezngvba ***\a" +
+        "** FHCEN OBK YBPNGRQ NG ERAGNY BSSVPR JVGU XRL SBE PBZCYRK **                 \a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - OP43 - 4 - OP42 - 9 - 7 - 3 - OP41 - OP40 - OP49 - LP52 - 13 - OP44 - OP53\a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:19:09",
+        "VASB:10/16/14 09:30 VAWSNYY  (VAW CRE/SNYY/OYF    ) NCG      1      14015369\a11/06/14 09:39 VAWSNYY  (VAW CRE/SNYY/OYF    ) NCG      1      14016465\a03/21/15 04:29 PNEQ     (PNEQVNP CNGVRAG/NYF ) NCG      3      15004693\a11/07/15 07:59 ERFC     (GEBHOYR OERNGUVAT   ) NCG      1      15017512\a03/29/16 14:06 VAWSNYY  (VAW CRE/SNYY/OYF    ) NCG      1      16004868\a04/20/16 19:08 HAX      (HAXABJA ANGHER OYF  ) NCG             16006175\a\a*** Unmneq Vasbezngvba ***\a** FHCEN OBK YBPNGRQ NG ERAGNY BSSVPR JVGU XRL SBE PBZCYRK **\a\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - 9 - 7 - 3 - OP41 - OP40 - OP49 - LP52 - 13 - OP44 - OP53");
+
+    qbGrfg("G4",
+        "{PNQ} 09:22          VAPVQRAG HAVG UVFGBEL SBE: 16006150  CNTR 1\a" +
+        "                       QNGR: 042016  PNYYGLCR: FVPX    \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    081102 Q  OEBQORPX EQ / UNZCFG   \a" +
+        "K29    081302 R  OEBQORPX EQ / UNZCFG   \a" +
+        "K29    081305 ER Z                      \a" +
+        "K29    081530 N  OEBQORPX EQ / UNZCFG   \a" +
+        "K29    082710 RU C1 PUP                 \a" +
+        "K29    083656 NU C1 PUP                 \a" +
+        "K29    090536 NE C1 PUP                 \a" +
+        "K29    092206 P  C1 PUP",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:09:22",
+        "VQ:16006150",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16006150  CNTR 1\aQNGR: 042016  PNYYGLCR: FVPX\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    081102 Q  OEBQORPX EQ / UNZCFG\aK29    081302 R  OEBQORPX EQ / UNZCFG\aK29    081305 ER Z\aK29    081530 N  OEBQORPX EQ / UNZCFG\aK29    082710 RU C1 PUP\aK29    083656 NU C1 PUP\aK29    090536 NE C1 PUP\aK29    092206 P  C1 PUP");
+
+    qbGrfg("G5",
+        "{PNQ} 08:11                 CebDn Qngn sbe Vapvqrag: 16006150\a\a" +
+        "BS VZZBOVYVGL)                                                                \a" +
+        "ERFCBAFR: FVPX                                                                \a" +
+        "1. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).                         \a" +
+        "2. UR VF OERNGUVAT ABEZNYYL.                                                  \a" +
+        "3. UR QBRF ABG UNIR NAL CNVA.                                                 \a" +
+        "4. UR VF ABG OYRRQVAT (BE IBZVGVAT OYBBQ).                                    \a" +
+        "5. UR UNF N ARJ BAFRG BS VZZBOVYVGL.                                          \a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:TRA_NYREG",
+        "GVZR:08:11",
+        "VQ:16006150",
+        "VASB:CebDn Qngn sbe Vapvqrag: 16006150\a\aBS VZZBOVYVGL)\aERFCBAFR: FVPX\a1. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).\a2. UR VF OERNGUVAT ABEZNYYL.\a3. UR QBRF ABG UNIR NAL CNVA.\a4. UR VF ABG OYRRQVAT (BE IBZVGVAT OYBBQ).\a5. UR UNF N ARJ BAFRG BS VZZBOVYVGL.");
+
+    qbGrfg("G6",
+        "{PNQ} 08:11                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr FVPX     (FVPX CREFBA/OYF     )                Vapvqrag Ab 16006150\a\a" +
+        "Ybp OEBQORPX EQ / UNZCFGRNQ ZRKVPB EQ                    UNZC  \a" +
+        "          /                                                      14-Q11  \a" +
+        "Anzr    ZNEGL                         \a" +
+        "Nqqerff JUVGR PBAFGHPGVBA GEHPX PURIL            Cubar 657-8317   Nern 202\a" +
+        "Erznexf 36-LRNE-BYQ, ZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: ABG SRRYVAT\a" +
+        "         JRYY BA FVQR BS EBNQ VA JBEX GEHPX QVFCNGPU PBQR: 26N07  (ARJ BAFRG  \a" +
+        "Cegl 2 Yri 59 Fep 1 Eq 0221   Fgn 02    Gnxref Vq PBAEVF Erp 08:10:51\a" +
+        "Qngr 04/20/16 Nynez Vq                  Qvfcng Vq EZF    Qvf 08:11:02\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf K29    \a\a" +
+        "*** Cerzvfr Vasb ***\a" +
+        "04/08/08 18:20 FREIVPR  (EBHG FREIVPR NYNEZ  ) NCG             08005078       \a" +
+        "04/20/16 08:10 FVPX     (FVPX CREFBA/OYF     ) NCG             16006150       \a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - 4 - OP43 - 3 - OP42 - 7 - 9 - LP52 - OP41 - OP40 - OP49 - 6 - 13 - OP44",
+
+        "GVZR:08:11",
+        "PBQR:FVPX",
+        "PNYY:FVPX CREFBA/OYF",
+        "VQ:16006150",
+        "NQQE:OEBQORPX EQ & UNZCFGRNQ ZRKVPB EQ",
+        "PVGL:UNZCFGRNQ",
+        "ZNC:14-Q11",
+        "ANZR:ZNEGL",
+        "CYNPR:JUVGR PBAFGHPGVBA GEHPX PURIL",
+        "CUBAR:(202) 657-8317",
+        "VASB:36-LRNE-BYQ, ZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: ABG SRRYVAT\aJRYY BA FVQR BS EBNQ VA JBEX GEHPX QVFCNGPU PBQR: 26N07  (ARJ BAFRG\aCegl 2 Yri 59 Fep 1 Eq 0221   Fgn 02    Gnxref Vq PBAEVF Erp 08:10:51\aQngr 04/20/16 Nynez Vq                  Qvfcng Vq EZF    Qvf 08:11:02\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a04/08/08 18:20 FREIVPR  (EBHG FREIVPR NYNEZ  ) NCG             08005078\a04/20/16 08:10 FVPX     (FVPX CREFBA/OYF     ) NCG             16006150\a*** Sver Obk Vasb ***\a2 - 4 - OP43 - 3 - OP42 - 7 - 9 - LP52 - OP41 - OP40 - OP49 - 6 - 13 - OP44",
+        "HAVG:K29");
+
+    qbGrfg("G7",
+        "{PNQ} 06:22          VAPVQRAG HAVG UVFGBEL SBE: 16006146  CNTR 1\a" +
+        "                       QNGR: 042016  PNYYGLCR: URZVIG  \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    050924 Q  1714 ZNE FHR QE        \a" +
+        "K29    051207 R  1714 ZNE FHR QE        \a" +
+        "K29    051213 ER VIG                    \a" +
+        "K29    052044 N  1714 ZNE FHR QE        \a" +
+        "K29    053259 RU CEV3 PUP               \a" +
+        "K29    054345 NU CEV3 PUP               \a" +
+        "K29    061326 NE CEV3 PUP               \a" +
+        "K29    062211 P  CEV3 PUP",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:06:22",
+        "VQ:16006146",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16006146  CNTR 1\aQNGR: 042016  PNYYGLCR: URZVIG\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    050924 Q  1714 ZNE FHR QE\aK29    051207 R  1714 ZNE FHR QE\aK29    051213 ER VIG\aK29    052044 N  1714 ZNE FHR QE\aK29    053259 RU CEV3 PUP\aK29    054345 NU CEV3 PUP\aK29    061326 NE CEV3 PUP\aK29    062211 P  CEV3 PUP");
+
+    qbGrfg("G8",
+        "{PNQ} 05:09                 CebDn Qngn sbe Vapvqrag: 16006146\a\a" +
+        "1. GUR PNHFR BS GUR OYRRQVAT VF ABA-GENHZNGVP.                                \a" +
+        "2. FUR UNF OYRRQVAT SEBZ GUR ERPGHZ.                                          \a" +
+        "3. FUR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).                        \a" +
+        "4. FUR VF OERNGUVAT ABEZNYYL.                                                 \a" +
+        "5. GURER VF FREVBHF OYRRQVAT.                                                 \a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:TRA_NYREG",
+        "GVZR:05:09",
+        "VQ:16006146",
+        "VASB:CebDn Qngn sbe Vapvqrag: 16006146\a\a1. GUR PNHFR BS GUR OYRRQVAT VF ABA-GENHZNGVP.\a2. FUR UNF OYRRQVAT SEBZ GUR ERPGHZ.\a3. FUR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).\a4. FUR VF OERNGUVAT ABEZNYYL.\a5. GURER VF FREVBHF OYRRQVAT.");
+
+    qbGrfg("G9",
+        "{PNQ} 05:09                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr URZVIG   (URZBEEUNTR/VIG      )                Vapvqrag Ab 16006146\a\a" +
+        "Ybp 1714 ZNE FHR QE                                      UNZC  \a" +
+        "    PNCR UBEA EQ A               ZVYYNEQ QE                      14-O9   \a" +
+        "Anzr    YVM                           \a" +
+        "Nqqerff                                          Cubar 375-1824   Nern 443\a" +
+        "Erznexf 72-LRNE-BYQ, SRZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: ERPGNY   \a" +
+        "        OYRRQ QVFCNGPU PBQR: 21Q03  (QNATREBHF URZBEEUNTR) ERFCBAFR: URZVIG   \a" +
+        "Cegl 2 Yri 59 Fep 1 Eq 0205   Fgn 02    Gnxref Vq ELNZRH Erp 05:09:18\a" +
+        "Qngr 04/20/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 05:09:24\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf K29    \a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - 4 - 3 - OP43 - 7 - 9 - OP42 - 6 - LP52 - 10 - OP41 - OP40 - OP49 - LP49",
+
+        "GVZR:05:09",
+        "PBQR:URZVIG",
+        "PNYY:URZBEEUNTR/VIG",
+        "VQ:16006146",
+        "NQQE:1714 ZNE FHR QE",
+        "PVGL:UNZCFGRNQ",
+        "K:PNCR UBEA EQ A / ZVYYNEQ QE",
+        "ZNC:14-O9",
+        "ANZR:YVM",
+        "CUBAR:(443) 375-1824",
+        "VASB:72-LRNE-BYQ, SRZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: ERPGNY\aOYRRQ QVFCNGPU PBQR: 21Q03  (QNATREBHF URZBEEUNTR) ERFCBAFR: URZVIG\aCegl 2 Yri 59 Fep 1 Eq 0205   Fgn 02    Gnxref Vq ELNZRH Erp 05:09:18\aQngr 04/20/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 05:09:24\aEnqvb Puf:                    Ery S#:\a*** Sver Obk Vasb ***\a2 - 4 - 3 - OP43 - 7 - 9 - OP42 - 6 - LP52 - 10 - OP41 - OP40 - OP49 - LP49",
+        "HAVG:K29");
+
+    qbGrfg("G10",
+        "{PNQ} 18:21          VAPVQRAG HAVG UVFGBEL SBE: 16006114  CNTR 1\a" +
+        "                       QNGR: 041916  PNYYGLCR: IPE     \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    162615 Q  934 F ZNVA FG @RYVAR   RG24   163303 ER ABJ 4 CRBCYR         \a" +
+        "R23    162615 Q  934 F ZNVA FG @RYVAR   RG24   163430 N  934 F ZNVA FG @RYVAR \a" +
+        "G2     162615 Q  934 F ZNVA FG @RYVAR   EF4    163437 N  934 F ZNVA FG @RYVAR \a" +
+        "EF4    162615 Q  934 F ZNVA FG @RYVAR   G2     163650 EG CG RKGEVPNGRQ ERYRNF \a" +
+        "EF4    162800 R  934 F ZNVA FG @RYVAR   EF4    163800 NE 934 F ZNVA FG @RYVAR \a" +
+        "K29    162806 R  934 F ZNVA FG @RYVAR   RG24   164631 NE 934 F ZNVA FG @RYVAR \a" +
+        "K29    162810 ER CNENZRQVP              K29    165148 RU PUP C3               \a" +
+        "G2     162907 R  934 F ZNVA FG @RYVAR   G2     165218 EG NYFB 1 ERSHFNY       \a" +
+        "PS2-1  162935 OH 934 F ZNVA FG @RYVAR   G2     165223 NE 934 F ZNVA FG @RYVAR \a" +
+        "PS2-1  162942 R  934 F ZNVA FG @RYVAR   RG24   165238 P  934 F ZNVA FG @RYVAR \a" +
+        "K29    163011 N  934 F ZNVA FG @RYVAR   PS2-1  165319 P  934 F ZNVA FG @RYVAR \a" +
+        "G2     163039 N  934 F ZNVA FG @RYVAR   EF4    165536 P  934 F ZNVA FG @RYVAR \a" +
+        "G2     163129 EG 1 GENCCRQ              G2     170145 P  934 F ZNVA FG @RYVAR \a" +
+        "R23    163230 EG RKPUNATRQ SBE: RG24    K29    171656 NU PUP C3               \a" +
+        "R23    163230 RK 934 F ZNVA FG @RYVAR   K29    180514 NE PUP C3               \a" +
+        "RG24   163230 R  934 F ZNVA FG @RYVAR   K29    182113 P  PUP C3               \a" +
+        "PS2-1  163245 N  934 F ZNVA FG @RYVAR",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:18:21",
+        "VQ:16006114",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16006114  CNTR 1\aQNGR: 041916  PNYYGLCR: IPE\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    162615 Q  934 F ZNVA FG @RYVAR   RG24   163303 ER ABJ 4 CRBCYR\aR23    162615 Q  934 F ZNVA FG @RYVAR   RG24   163430 N  934 F ZNVA FG @RYVAR\aG2     162615 Q  934 F ZNVA FG @RYVAR   EF4    163437 N  934 F ZNVA FG @RYVAR\aEF4    162615 Q  934 F ZNVA FG @RYVAR   G2     163650 EG CG RKGEVPNGRQ ERYRNF\aEF4    162800 R  934 F ZNVA FG @RYVAR   EF4    163800 NE 934 F ZNVA FG @RYVAR\aK29    162806 R  934 F ZNVA FG @RYVAR   RG24   164631 NE 934 F ZNVA FG @RYVAR\aK29    162810 ER CNENZRQVP              K29    165148 RU PUP C3\aG2     162907 R  934 F ZNVA FG @RYVAR   G2     165218 EG NYFB 1 ERSHFNY\aPS2-1  162935 OH 934 F ZNVA FG @RYVAR   G2     165223 NE 934 F ZNVA FG @RYVAR\aPS2-1  162942 R  934 F ZNVA FG @RYVAR   RG24   165238 P  934 F ZNVA FG @RYVAR\aK29    163011 N  934 F ZNVA FG @RYVAR   PS2-1  165319 P  934 F ZNVA FG @RYVAR\aG2     163039 N  934 F ZNVA FG @RYVAR   EF4    165536 P  934 F ZNVA FG @RYVAR\aG2     163129 EG 1 GENCCRQ              G2     170145 P  934 F ZNVA FG @RYVAR\aR23    163230 EG RKPUNATRQ SBE: RG24    K29    171656 NU PUP C3\aR23    163230 RK 934 F ZNVA FG @RYVAR   K29    180514 NE PUP C3\aRG24   163230 R  934 F ZNVA FG @RYVAR   K29    182113 P  PUP C3\aPS2-1  163245 N  934 F ZNVA FG @RYVAR");
+
+    qbGrfg("G11",
+        "{PNQ} 17:01          VAPVQRAG HAVG UVFGBEL SBE: 16006114  CNTR 1\a" +
+        "                       QNGR: 041916  PNYYGLCR: IPE     \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    162615 Q  934 F ZNVA FG @RYVAR   RG24   163303 ER ABJ 4 CRBCYR         \a" +
+        "R23    162615 Q  934 F ZNVA FG @RYVAR   RG24   163430 N  934 F ZNVA FG @RYVAR \a" +
+        "G2     162615 Q  934 F ZNVA FG @RYVAR   EF4    163437 N  934 F ZNVA FG @RYVAR \a" +
+        "EF4    162615 Q  934 F ZNVA FG @RYVAR   G2     163650 EG CG RKGEVPNGRQ ERYRNF \a" +
+        "EF4    162800 R  934 F ZNVA FG @RYVAR   EF4    163800 NE 934 F ZNVA FG @RYVAR \a" +
+        "K29    162806 R  934 F ZNVA FG @RYVAR   RG24   164631 NE 934 F ZNVA FG @RYVAR \a" +
+        "K29    162810 ER CNENZRQVP              K29    165148 RU PUP C3               \a" +
+        "G2     162907 R  934 F ZNVA FG @RYVAR   G2     165218 EG NYFB 1 ERSHFNY       \a" +
+        "PS2-1  162935 OH 934 F ZNVA FG @RYVAR   G2     165223 NE 934 F ZNVA FG @RYVAR \a" +
+        "PS2-1  162942 R  934 F ZNVA FG @RYVAR   RG24   165238 P  934 F ZNVA FG @RYVAR \a" +
+        "K29    163011 N  934 F ZNVA FG @RYVAR   PS2-1  165319 P  934 F ZNVA FG @RYVAR \a" +
+        "G2     163039 N  934 F ZNVA FG @RYVAR   EF4    165536 P  934 F ZNVA FG @RYVAR \a" +
+        "G2     163129 EG 1 GENCCRQ              G2     170145 P  934 F ZNVA FG @RYVAR \a" +
+        "R23    163230 EG RKPUNATRQ SBE: RG24    \a" +
+        "R23    163230 RK 934 F ZNVA FG @RYVAR   \a" +
+        "RG24   163230 R  934 F ZNVA FG @RYVAR   \a" +
+        "PS2-1  163245 N  934 F ZNVA FG @RYVAR",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:17:01",
+        "VQ:16006114",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16006114  CNTR 1\aQNGR: 041916  PNYYGLCR: IPE\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    162615 Q  934 F ZNVA FG @RYVAR   RG24   163303 ER ABJ 4 CRBCYR\aR23    162615 Q  934 F ZNVA FG @RYVAR   RG24   163430 N  934 F ZNVA FG @RYVAR\aG2     162615 Q  934 F ZNVA FG @RYVAR   EF4    163437 N  934 F ZNVA FG @RYVAR\aEF4    162615 Q  934 F ZNVA FG @RYVAR   G2     163650 EG CG RKGEVPNGRQ ERYRNF\aEF4    162800 R  934 F ZNVA FG @RYVAR   EF4    163800 NE 934 F ZNVA FG @RYVAR\aK29    162806 R  934 F ZNVA FG @RYVAR   RG24   164631 NE 934 F ZNVA FG @RYVAR\aK29    162810 ER CNENZRQVP              K29    165148 RU PUP C3\aG2     162907 R  934 F ZNVA FG @RYVAR   G2     165218 EG NYFB 1 ERSHFNY\aPS2-1  162935 OH 934 F ZNVA FG @RYVAR   G2     165223 NE 934 F ZNVA FG @RYVAR\aPS2-1  162942 R  934 F ZNVA FG @RYVAR   RG24   165238 P  934 F ZNVA FG @RYVAR\aK29    163011 N  934 F ZNVA FG @RYVAR   PS2-1  165319 P  934 F ZNVA FG @RYVAR\aG2     163039 N  934 F ZNVA FG @RYVAR   EF4    165536 P  934 F ZNVA FG @RYVAR\aG2     163129 EG 1 GENCCRQ              G2     170145 P  934 F ZNVA FG @RYVAR\aR23    163230 EG RKPUNATRQ SBE: RG24\aR23    163230 RK 934 F ZNVA FG @RYVAR\aRG24   163230 R  934 F ZNVA FG @RYVAR\aPS2-1  163245 N  934 F ZNVA FG @RYVAR");
+
+    qbGrfg("G12",
+        "{PNQ} 16:26 11/14/15 04:33 NYNEZ 1  (ERF SVER NYNEZ      ) NCG      2O     15017893       \a" +
+        "11/19/15 09:22 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             15018185       \a" +
+        "12/09/15 12:25 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             15019259       \a" +
+        "04/19/16 16:25 IPE      (IP ERFPHR           ) NCG             16006114       \a" +
+        "04/19/16 16:25 IPE      (IP ERFPHR           ) NCG             16006115       \a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - OP43 - 4 - OP42 - 9 - OP41 - OP40 - 7 - 3 - OP49 - 13 - OP44 - OP53 - LP52\a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:16:26",
+        "VASB:11/14/15 04:33 NYNEZ 1  (ERF SVER NYNEZ      ) NCG      2O     15017893\a11/19/15 09:22 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             15018185\a12/09/15 12:25 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             15019259\a04/19/16 16:25 IPE      (IP ERFPHR           ) NCG             16006114\a04/19/16 16:25 IPE      (IP ERFPHR           ) NCG             16006115\a\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - 9 - OP41 - OP40 - 7 - 3 - OP49 - 13 - OP44 - OP53 - LP52");
+
+    qbGrfg("G13",
+        "{PNQ} 16:24          VAPVQRAG HAVG UVFGBEL SBE: 16006106  CNTR 1\a" +
+        "                       QNGR: 041916  PNYYGLCR: PN      \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    144039 Q  1900 YNAT EQ           \a" +
+        "H2     144039 Q  1900 YNAT EQ           \a" +
+        "K29    144211 R  1900 YNAT EQ           \a" +
+        "K29    144215 ER CNENZRQVP              \a" +
+        "H2     144354 R  1900 YNAT EQ           \a" +
+        "K29    144613 N  1900 YNAT EQ           \a" +
+        "H2     144711 N  1900 YNAT EQ           \a" +
+        "K29    150935 RU PUP C1                 \a" +
+        "H2     150941 NE 1900 YNAT EQ           \a" +
+        "H2     151439 P  1900 YNAT EQ           \a" +
+        "K29    152529 NU PUP C1                 \a" +
+        "K29    161114 NE PUP C1                 \a" +
+        "K29    162418 P  PUP C1",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:16:24",
+        "VQ:16006106",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16006106  CNTR 1\aQNGR: 041916  PNYYGLCR: PN\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    144039 Q  1900 YNAT EQ\aH2     144039 Q  1900 YNAT EQ\aK29    144211 R  1900 YNAT EQ\aK29    144215 ER CNENZRQVP\aH2     144354 R  1900 YNAT EQ\aK29    144613 N  1900 YNAT EQ\aH2     144711 N  1900 YNAT EQ\aK29    150935 RU PUP C1\aH2     150941 NE 1900 YNAT EQ\aH2     151439 P  1900 YNAT EQ\aK29    152529 NU PUP C1\aK29    161114 NE PUP C1\aK29    162418 P  PUP C1");
+
+    qbGrfg("G14",
+        "{PNQ} 16:26                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr IPE      (IP ERFPHR           )                Vapvqrag Ab 16006114\a\a" +
+        "Ybp 934 F ZNVA FG @RYVAR SHARENY UBZR                    UNZC  \a" +
+        "    YBJRE ORPXYRLFIVYYR EQ       ZBGG NI J                       14-W12  \a" +
+        "Anzr    JVERYRFF-IREVMBA(GPF)         \a" +
+        "Nqqerff 422 UNABIRE CVXR                         Cubar 832-2921   Nern 240\a" +
+        "Erznexf PNE VAGB FPUBBYOHF                                                    \a" +
+        "                                                                              \a" +
+        "Cegl 2 Yri 62 Fep 1 Eq 0217   Fgn 02    Gnxref Vq TNE    Erp 16:25:05\a" +
+        "Qngr 04/19/16 Nynez Vq                  Qvfcng Vq YJB    Qvf 16:26:15\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf K29    R23    G2     EF4    \a\a" +
+        "*** Cerzvfr Vasb ***\a" +
+        "06/15/05 11:29 OYF      (OYF ZRQVPNY PNYY    ) NCG             05007353       \a" +
+        "04/26/09 17:25 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             09005721       \a" +
+        "10/04/09 13:34 OYF      (OYF ZRQVPNY PNYY    ) NCG             09013773       \a" +
+        "02/20/11 17:32 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             11002747       \a" +
+        "10/23/11 20:00 NYF      (NYF ZRQVPNY PNYY    ) NCG             11015223       \a" +
+        "04/10/12 17:04 NYF      (NYF ZRQVPNY PNYY    ) NCG             12004921       \a" +
+        "12/10/12 18:05 IP       (IRUVPYR PBYYVFVBA   ) NCG             12017637       \a" +
+        "08/15/14 16:23 FGEBXR   (FGEBXR/OYF          ) NCG             14012300",
+
+        "GVZR:16:26",
+        "PBQR:IPE",
+        "PNYY:IP ERFPHR",
+        "VQ:16006114",
+        "NQQE:934 F ZNVA FG",
+        "CYNPR:RYVAR SHARENY UBZR",
+        "PVGL:UNZCFGRNQ",
+        "K:YBJRE ORPXYRLFIVYYR EQ / ZBGG NI J",
+        "ZNC:14-W12",
+        "CUBAR:(240) 832-2921",
+        "VASB:PNE VAGB FPUBBYOHF\aCegl 2 Yri 62 Fep 1 Eq 0217   Fgn 02    Gnxref Vq TNE    Erp 16:25:05\aQngr 04/19/16 Nynez Vq                  Qvfcng Vq YJB    Qvf 16:26:15\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a06/15/05 11:29 OYF      (OYF ZRQVPNY PNYY    ) NCG             05007353\a04/26/09 17:25 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             09005721\a10/04/09 13:34 OYF      (OYF ZRQVPNY PNYY    ) NCG             09013773\a02/20/11 17:32 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             11002747\a10/23/11 20:00 NYF      (NYF ZRQVPNY PNYY    ) NCG             11015223\a04/10/12 17:04 NYF      (NYF ZRQVPNY PNYY    ) NCG             12004921\a12/10/12 18:05 IP       (IRUVPYR PBYYVFVBA   ) NCG             12017637\a08/15/14 16:23 FGEBXR   (FGEBXR/OYF          ) NCG             14012300",
+        "HAVG:K29    R23    G2     EF4");
+
+    qbGrfg("G15",
+        "{PNQ} 15:14          VAPVQRAG HAVG UVFGBEL SBE: 16006106  CNTR 1\a" +
+        "                       QNGR: 041916  PNYYGLCR: PN      \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    144039 Q  1900 YNAT EQ           \a" +
+        "H2     144039 Q  1900 YNAT EQ           \a" +
+        "K29    144211 R  1900 YNAT EQ           \a" +
+        "K29    144215 ER CNENZRQVP              \a" +
+        "H2     144354 R  1900 YNAT EQ           \a" +
+        "K29    144613 N  1900 YNAT EQ           \a" +
+        "H2     144711 N  1900 YNAT EQ           \a" +
+        "K29    150935 RU PUP C1                 \a" +
+        "H2     150941 NE 1900 YNAT EQ           \a" +
+        "H2     151439 P  1900 YNAT EQ",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:15:14",
+        "VQ:16006106",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16006106  CNTR 1\aQNGR: 041916  PNYYGLCR: PN\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    144039 Q  1900 YNAT EQ\aH2     144039 Q  1900 YNAT EQ\aK29    144211 R  1900 YNAT EQ\aK29    144215 ER CNENZRQVP\aH2     144354 R  1900 YNAT EQ\aK29    144613 N  1900 YNAT EQ\aH2     144711 N  1900 YNAT EQ\aK29    150935 RU PUP C1\aH2     150941 NE 1900 YNAT EQ\aH2     151439 P  1900 YNAT EQ");
+
+    qbGrfg("G16",
+        "{PNQ} 14:41                 CebDn Qngn sbe Vapvqrag: 16006106\a\a" +
+        "ERFCBAFR: PN                                                                  \a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:TRA_NYREG",
+        "GVZR:14:41",
+        "VQ:16006106",
+        "VASB:CebDn Qngn sbe Vapvqrag: 16006106\a\aERFCBAFR: PN");
+
+    qbGrfg("G17",
+        "{PNQ} 14:40                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr PN       (PNEQVNP NEERFG      )                Vapvqrag Ab 16006106\a\a" +
+        "Ybp 1900 YNAT EQ                                         UNZC  \a" +
+        "    ZNEVNA NI                    (QRNQ RAQ)                      14-X8   \a" +
+        "Anzr    ZNAVF PBYYRRA                 \a" +
+        "Nqqerff                                          Cubar 374-3677   Nern 410\a" +
+        "Erznexf 78-LRNE-BYQ, ZNYR, ABG PBAFPVBHF, ABG OERNGUVAT. PNYYRE FGNGRZRAG:    \a" +
+        "        PNEQVNP  NEERFG QVFCNGPU PBQR: 09R01  (ABG OERNGUVAT NG NYY)          \a" +
+        "Cegl 1 Yri 76 Fep 1 Eq 0206   Fgn 02    Gnxref Vq TNE    Erp 14:40:31\a" +
+        "Qngr 04/19/16 Nynez Vq                  Qvfcng Vq YJB    Qvf 14:40:39\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf K29    H2     \a\a" +
+        "*** Cerzvfr Vasb ***\a" +
+        "12/06/11 23:45 OYF      (OYF ZRQVPNY PNYY    ) NCG             11017424       \a" +
+        "01/06/12 15:18 NYF      (NYF ZRQVPNY PNYY    ) NCG             12000280       \a" +
+        "01/23/13 19:46 PB       (PB QRGRPGBE FBHAQVAT) NCG             13001282       \a" +
+        "02/21/16 20:25 ERFC     (GEBHOYR OERNGUVAT   ) NCG             16002922       \a" +
+        "04/11/16 14:43 ERFC     (GEBHOYR OERNGUVAT   ) NCG             16005632       \a" +
+        "04/19/16 14:40 PN       (PNEQVNP NEERFG      ) NCG             16006106       \a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - 4 - OP43 - OP42 - 7 - 3 - 9 - LP52 - OP41 - OP40 - OP49 - 13 - 6 - OP56",
+
+        "GVZR:14:40",
+        "PBQR:PN",
+        "PNYY:PNEQVNP NEERFG",
+        "VQ:16006106",
+        "NQQE:1900 YNAT EQ",
+        "PVGL:UNZCFGRNQ",
+        "K:ZNEVNA NI / (QRNQ RAQ)",
+        "ZNC:14-X8",
+        "ANZR:ZNAVF PBYYRRA",
+        "CUBAR:(410) 374-3677",
+        "VASB:78-LRNE-BYQ, ZNYR, ABG PBAFPVBHF, ABG OERNGUVAT. PNYYRE FGNGRZRAG:\aPNEQVNP  NEERFG QVFCNGPU PBQR: 09R01  (ABG OERNGUVAT NG NYY)\aCegl 1 Yri 76 Fep 1 Eq 0206   Fgn 02    Gnxref Vq TNE    Erp 14:40:31\aQngr 04/19/16 Nynez Vq                  Qvfcng Vq YJB    Qvf 14:40:39\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a12/06/11 23:45 OYF      (OYF ZRQVPNY PNYY    ) NCG             11017424\a01/06/12 15:18 NYF      (NYF ZRQVPNY PNYY    ) NCG             12000280\a01/23/13 19:46 PB       (PB QRGRPGBE FBHAQVAT) NCG             13001282\a02/21/16 20:25 ERFC     (GEBHOYR OERNGUVAT   ) NCG             16002922\a04/11/16 14:43 ERFC     (GEBHOYR OERNGUVAT   ) NCG             16005632\a04/19/16 14:40 PN       (PNEQVNP NEERFG      ) NCG             16006106\a*** Sver Obk Vasb ***\a2 - 4 - OP43 - OP42 - 7 - 3 - 9 - LP52 - OP41 - OP40 - OP49 - 13 - 6 - OP56",
+        "HAVG:K29    H2");
+
+    qbGrfg("G18",
+        "{PNQ} 09:24          VAPVQRAG HAVG UVFGBEL SBE: 16006093  CNTR 1\a" +
+        "                       QNGR: 041916  PNYYGLCR: VYYRT   \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "R23    085743 Q  4550 YRTVBA YN         \a" +
+        "R23    090413 EG RKPUNATRQ SBE: O25     \a" +
+        "R23    090413 RK 4550 YRTVBA YN         \a" +
+        "O25    090413 R  4550 YRTVBA YN         \a" +
+        "O25    091123 N  4550 YRTVBA YN         \a" +
+        "O25    091645 EG ONEERYY FZCYQREVAT /   \a" +
+        "O25    091647 NE 4550 YRTVBA YN         \a" +
+        "O25    092426 P  4550 YRTVBA YN",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:09:24",
+        "VQ:16006093",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16006093  CNTR 1\aQNGR: 041916  PNYYGLCR: VYYRT\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aR23    085743 Q  4550 YRTVBA YN\aR23    090413 EG RKPUNATRQ SBE: O25\aR23    090413 RK 4550 YRTVBA YN\aO25    090413 R  4550 YRTVBA YN\aO25    091123 N  4550 YRTVBA YN\aO25    091645 EG ONEERYY FZCYQREVAT /\aO25    091647 NE 4550 YRTVBA YN\aO25    092426 P  4550 YRTVBA YN");
+
+    qbGrfg("G19",
+        "{PNQ} 08:57                 CebDn Qngn sbe Vapvqrag: 16006093\a\a" +
+        "PNYYRE VF BA FPRAR (2AQ CNEGL).                                               \a" +
+        "2. GUVF VF N PBAGEBYYRQ OHEA.                                                 \a" +
+        "3. GUR FVMR BS NERN VF: 55 TNY QEHZ                                           \a" +
+        "4. GUR SVER UNF ABG ORRA RKGVATHVFURQ.                                        \a" +
+        "5. VG VF ABG XABJA VS GUR SVER VF GUERNGRAVAT NALGUVAT.                       \a" +
+        "6. A/N                                                                        \a" +
+        "7. VG VF ABG XABJA VS NALBAR VF VA QNATRE.                                    \a" +
+        "8. GUR SVER VF ABG FCERNQVAT.                                                 \a" +
+        "9. AB BAR VF ERCBEGRQ GB OR VAWHERQ.                                          \a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:TRA_NYREG",
+        "GVZR:08:57",
+        "VQ:16006093",
+        "VASB:CebDn Qngn sbe Vapvqrag: 16006093\a\aPNYYRE VF BA FPRAR (2AQ CNEGL).\a2. GUVF VF N PBAGEBYYRQ OHEA.\a3. GUR FVMR BS NERN VF: 55 TNY QEHZ\a4. GUR SVER UNF ABG ORRA RKGVATHVFURQ.\a5. VG VF ABG XABJA VS GUR SVER VF GUERNGRAVAT NALGUVAT.\a6. A/N\a7. VG VF ABG XABJA VS NALBAR VF VA QNATRE.\a8. GUR SVER VF ABG FCERNQVAT.\a9. AB BAR VF ERCBEGRQ GB OR VAWHERQ.");
+
+    qbGrfg("G20",
+        "{PNQ} 08:57                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr VYYRT    (VYYRTNY BCRA OHEAVAT)                Vapvqrag Ab 16006093\a\a" +
+        "Ybp 4550 YRTVBA YN                                       UNZC  \a" +
+        "    PRQNEOEBBX EQ                (QRNQ RAQ)                      15-N12  \a" +
+        "Anzr    SBBGR, TRBETR J               \a" +
+        "Nqqerff                                          Cubar 374-5461   Nern 410\a" +
+        "Erznexf PNYYRE FGNGRZRAG: OHEA ONEERYY FZBXVAT QVFCNGPU PBQR: 67B01           \a" +
+        "        (PBAGEBYYRQ OHEA) FHSSVK: H  (HAXABJA) ERFCBAFR: FREIVPR 1. GUR       \a" +
+        "Cegl 5 Yri 55 Fep 1 Eq 0216   Fgn 02    Gnxref Vq WBUAVP Erp 08:57:17\a" +
+        "Qngr 04/19/16 Nynez Vq                  Qvfcng Vq YJB    Qvf 08:57:43\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf R23    \a\a" +
+        "*** Cerzvfr Vasb ***\a" +
+        "06/29/05 18:05 JVERF    (JVERF BA SVER       ) NCG             05007992       \a" +
+        "01/15/14 10:01 OYF      (OYF ZRQVPNY PNYY    ) NCG             14000897       \a" +
+        "04/19/16 08:57 VYYRT    (VYYRTNY BCRA OHEAVAT) NCG             16006093       \a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - OP43 - 4 - OP42 - 9 - OP49 - 7 - 3 - OP41 - OP40 - OP44 - OP53 - LP52 - 13",
+
+        "GVZR:08:57",
+        "PBQR:VYYRT",
+        "PNYY:VYYRTNY BCRA OHEAVAT",
+        "VQ:16006093",
+        "NQQE:4550 YRTVBA YN",
+        "ZNQQE:4550 YRTVBA YA",
+        "PVGL:UNZCFGRNQ",
+        "K:PRQNEOEBBX EQ / (QRNQ RAQ)",
+        "ZNC:15-N12",
+        "ANZR:SBBGR, TRBETR J",
+        "CUBAR:(410) 374-5461",
+        "VASB:PNYYRE FGNGRZRAG: OHEA ONEERYY FZBXVAT QVFCNGPU PBQR: 67B01\a(PBAGEBYYRQ OHEA) FHSSVK: H  (HAXABJA) ERFCBAFR: FREIVPR 1. GUR\aCegl 5 Yri 55 Fep 1 Eq 0216   Fgn 02    Gnxref Vq WBUAVP Erp 08:57:17\aQngr 04/19/16 Nynez Vq                  Qvfcng Vq YJB    Qvf 08:57:43\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a06/29/05 18:05 JVERF    (JVERF BA SVER       ) NCG             05007992\a01/15/14 10:01 OYF      (OYF ZRQVPNY PNYY    ) NCG             14000897\a04/19/16 08:57 VYYRT    (VYYRTNY BCRA OHEAVAT) NCG             16006093\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - 9 - OP49 - 7 - 3 - OP41 - OP40 - OP44 - OP53 - LP52 - 13",
+        "HAVG:R23");
+
+    qbGrfg("G21",
+        "{PNQ} 00:36          VAPVQRAG HAVG UVFGBEL SBE: 16006072  CNTR 1\a" +
+        "                       QNGR: 041816  PNYYGLCR: FVPX    \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    231847 Q  4424 OYNPX EBPX EQ @   \a" +
+        "K29    232254 R  4424 OYNPX EBPX EQ @   \a" +
+        "K29    232257 ER Z                      \a" +
+        "K29    232601 N  4424 OYNPX EBPX EQ @   \a" +
+        "K29    233556 RU PUP C-3                \a" +
+        "K29    235454 NU PUP C-3                \a" +
+        "K29    001927 NE PUP C-3                \a" +
+        "K29    003558 P  PUP C-3",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:00:36",
+        "VQ:16006072",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16006072  CNTR 1\aQNGR: 041816  PNYYGLCR: FVPX\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    231847 Q  4424 OYNPX EBPX EQ @\aK29    232254 R  4424 OYNPX EBPX EQ @\aK29    232257 ER Z\aK29    232601 N  4424 OYNPX EBPX EQ @\aK29    233556 RU PUP C-3\aK29    235454 NU PUP C-3\aK29    001927 NE PUP C-3\aK29    003558 P  PUP C-3");
+
+    qbGrfg("G22",
+        "{PNQ} 23:19 07/24/15 07:49 CN       (CNGVRAG NFFVFG      ) NCG      5      15011719       \a" +
+        "08/13/15 16:56 CN       (CNGVRAG NFFVFG      )          4      15012759       \a" +
+        "11/24/15 01:28 FVPX     (FVPX CREFBA/OYF     ) NCG      3      15018450       \a" +
+        "02/23/16 12:29 VAWSNYY  (VAW CRE/SNYY/OYF    ) NCG      3      16003003       \a" +
+        "03/14/16 10:40 CN       (CNGVRAG NFFVFG      ) NCG      7      16004063       \a" +
+        "04/18/16 23:18 FVPX     (FVPX CREFBA/OYF     ) NCG      7      16006072       \a\a" +
+        "*** Unmneq Vasbezngvba ***\a" +
+        "** FHCEN OBK YBPNGRQ NG ERAGNY BSSVPR JVGU XRL SBE PBZCYRK **                 \a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - OP43 - 4 - OP42 - 9 - 7 - 3 - OP41 - OP40 - OP49 - LP52 - 13 - OP44 - OP53\a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:23:19",
+        "VASB:07/24/15 07:49 CN       (CNGVRAG NFFVFG      ) NCG      5      15011719\a08/13/15 16:56 CN       (CNGVRAG NFFVFG      )          4      15012759\a11/24/15 01:28 FVPX     (FVPX CREFBA/OYF     ) NCG      3      15018450\a02/23/16 12:29 VAWSNYY  (VAW CRE/SNYY/OYF    ) NCG      3      16003003\a03/14/16 10:40 CN       (CNGVRAG NFFVFG      ) NCG      7      16004063\a04/18/16 23:18 FVPX     (FVPX CREFBA/OYF     ) NCG      7      16006072\a\a*** Unmneq Vasbezngvba ***\a** FHCEN OBK YBPNGRQ NG ERAGNY BSSVPR JVGU XRL SBE PBZCYRK **\a\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - 9 - 7 - 3 - OP41 - OP40 - OP49 - LP52 - 13 - OP44 - OP53");
+
+    qbGrfg("G23",
+        "{PNQ} 23:18                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr FVPX     (FVPX CREFBA/OYF     )                Vapvqrag Ab 16006072\a\a" +
+        "Ybp 4424 OYNPX EBPX EQ @EVQTRYL UBHFR                    Ncg 7     UNZC  \a" +
+        "    FHRYYRA QE                   YBJRE ORPXYRLFIVYYR EQ          14-X12  \a" +
+        "Anzr    NFUYRL YVSR NYREG             \a" +
+        "Nqqerff                                          Cubar 382-7882   Nern 866\a" +
+        "Erznexf 68 LBS OBBAR // FXVA VF YRNXVAT HAXBJA GLCR BS SYHVQ // OERNGU NAQ PBA\a" +
+        "        FPVBHF                                                                \a" +
+        "Cegl 2 Yri 59 Fep C Eq 0222   Fgn 02    Gnxref Vq ZVPPEB Erp 23:18:33\a" +
+        "Qngr 04/18/16 Nynez Vq                  Qvfcng Vq PQY    Qvf 23:18:47\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf K29    \a\a" +
+        "*** Cerzvfr Vasb ***\a" +
+        "02/13/14 13:38 NYF      (NYF ZRQVPNY PNYY    ) NCG      3      14002738       \a" +
+        "08/05/14 19:49 VAWSNYY  (VAW CRE/SNYY/OYF    ) NCG      3      14011768       \a" +
+        "08/12/14 18:56 PURFG    (PURFG CNVA/NYF      ) NCG      3      14012136       \a" +
+        "08/29/14 18:35 NOQBZNYF (NOQBZVANY CNVA/NYF  ) NCG      3      14012977       \a" +
+        "09/09/14 12:12 FGEBXR   (FGEBXR/OYF          ) NCG      3      14013521       \a" +
+        "10/26/14 13:50 NOQBZ    (NOQBZVANY CNVA/OYF  ) NCG             14015899       \a" +
+        "01/06/15 20:39 CN       (CNGVRAG NFFVFG      ) NCG      7      15000347       \a" +
+        "01/23/15 21:58 VAW      (VAW CREFBA/OYF      ) NCG      7      15001383",
+
+        "GVZR:23:18",
+        "PBQR:FVPX",
+        "PNYY:FVPX CREFBA/OYF",
+        "VQ:16006072",
+        "NQQE:4424 OYNPX EBPX EQ",
+        "CYNPR:EVQTRYL UBHFR",
+        "NCG:7",
+        "PVGL:UNZCFGRNQ",
+        "K:FHRYYRA QE / YBJRE ORPXYRLFIVYYR EQ",
+        "ZNC:14-X12",
+        "ANZR:NFUYRL YVSR NYREG",
+        "CUBAR:(866) 382-7882",
+        "VASB:68 LBS OBBAR // FXVA VF YRNXVAT HAXBJA GLCR BS SYHVQ // OERNGU NAQ PBA\aFPVBHF\aCegl 2 Yri 59 Fep C Eq 0222   Fgn 02    Gnxref Vq ZVPPEB Erp 23:18:33\aQngr 04/18/16 Nynez Vq                  Qvfcng Vq PQY    Qvf 23:18:47\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a02/13/14 13:38 NYF      (NYF ZRQVPNY PNYY    ) NCG      3      14002738\a08/05/14 19:49 VAWSNYY  (VAW CRE/SNYY/OYF    ) NCG      3      14011768\a08/12/14 18:56 PURFG    (PURFG CNVA/NYF      ) NCG      3      14012136\a08/29/14 18:35 NOQBZNYF (NOQBZVANY CNVA/NYF  ) NCG      3      14012977\a09/09/14 12:12 FGEBXR   (FGEBXR/OYF          ) NCG      3      14013521\a10/26/14 13:50 NOQBZ    (NOQBZVANY CNVA/OYF  ) NCG             14015899\a01/06/15 20:39 CN       (CNGVRAG NFFVFG      ) NCG      7      15000347\a01/23/15 21:58 VAW      (VAW CREFBA/OYF      ) NCG      7      15001383",
+        "HAVG:K29");
+
+    qbGrfg("G24",
+        "{PNQ} 20:44          VAPVQRAG HAVG UVFGBEL SBE: 16006063  CNTR 1\a" +
+        "                       QNGR: 041816  PNYYGLCR: PURFG   \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    193248 Q  4428 OYNPX EBPX EQ     \a" +
+        "K29    193439 R  4428 OYNPX EBPX EQ     \a" +
+        "K29    193441 ER C                      \a" +
+        "K29    193650 N  4428 OYNPX EBPX EQ     \a" +
+        "K29    194911 RU PUP C-1                \a" +
+        "K29    200311 NU PUP C-1                \a" +
+        "K29    202813 NE PUP C-1                \a" +
+        "K29    204445 P  PUP C-1",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:20:44",
+        "VQ:16006063",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16006063  CNTR 1\aQNGR: 041816  PNYYGLCR: PURFG\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    193248 Q  4428 OYNPX EBPX EQ\aK29    193439 R  4428 OYNPX EBPX EQ\aK29    193441 ER C\aK29    193650 N  4428 OYNPX EBPX EQ\aK29    194911 RU PUP C-1\aK29    200311 NU PUP C-1\aK29    202813 NE PUP C-1\aK29    204445 P  PUP C-1");
+
+    qbGrfg("G25",
+        "{PNQ} 19:33 11/27/14 21:45 ERFC     (GEBHOYR OERNGUVAT   ) NCG      4      14017510       \a" +
+        "12/11/14 18:30 ERFC     (GEBHOYR OERNGUVAT   ) NCG      7      14018241       \a" +
+        "07/04/15 12:16 QYBP     (QRPERNFRQ YBP/NYF   ) NCG      N      15010651       \a" +
+        "08/24/15 11:08 CN       (CNGVRAG NFFVFG      ) NCG             15013338       \a" +
+        "03/06/16 17:01 QYBP     (QRPERNFRQ YBP/NYF   ) NCG             16003632       \a" +
+        "04/18/16 19:32 PURFG    (PURFG CNVA/NYF      ) NCG      3      16006063       \a\a" +
+        "*** Unmneq Vasbezngvba ***\a" +
+        "** FHCEN OBK YBPNGRQ NG ERAGNY BSSVPR JVGU XRL SBE PBZCYRK **                 \a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - OP43 - 4 - OP42 - 9 - 7 - 3 - OP41 - OP40 - OP49 - LP52 - 13 - OP44 - OP53",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:19:33",
+        "VASB:11/27/14 21:45 ERFC     (GEBHOYR OERNGUVAT   ) NCG      4      14017510\a12/11/14 18:30 ERFC     (GEBHOYR OERNGUVAT   ) NCG      7      14018241\a07/04/15 12:16 QYBP     (QRPERNFRQ YBP/NYF   ) NCG      N      15010651\a08/24/15 11:08 CN       (CNGVRAG NFFVFG      ) NCG             15013338\a03/06/16 17:01 QYBP     (QRPERNFRQ YBP/NYF   ) NCG             16003632\a04/18/16 19:32 PURFG    (PURFG CNVA/NYF      ) NCG      3      16006063\a\a*** Unmneq Vasbezngvba ***\a** FHCEN OBK YBPNGRQ NG ERAGNY BSSVPR JVGU XRL SBE PBZCYRK **\a\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - 9 - 7 - 3 - OP41 - OP40 - OP49 - LP52 - 13 - OP44 - OP53");
+
+    qbGrfg("G26",
+        "{PNQ} 19:32                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr PURFG    (PURFG CNVA/NYF      )                Vapvqrag Ab 16006063\a\a" +
+        "Ybp 4428 OYNPX EBPX EQ                                   Ncg 3     UNZC  \a" +
+        "    FHRYYRA QE                   YBJRE ORPXYRLFIVYYR EQ          14-X12  \a" +
+        "Anzr    WHNAVGN YBJR                  \a" +
+        "Nqqerff                                          Cubar 507-6094   Nern 443\a" +
+        "Erznexf 76-LRNE-BYQ, SRZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: PURFG    \a" +
+        "        CNVA QVFCNGPU PBQR: 10Q04  (PYNZZL) ERFCBAFR: PURFG 1. FUR VF         \a" +
+        "Cegl 1 Yri 60 Fep 1 Eq 0222   Fgn 02    Gnxref Vq EZF    Erp 19:32:38\a" +
+        "Qngr 04/18/16 Nynez Vq                  Qvfcng Vq PQY    Qvf 19:32:48\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf K29    \a\a" +
+        "*** Cerzvfr Vasb ***\a" +
+        "02/16/11 20:39 OYF      (OYF ZRQVPNY PNYY    ) NCG      2      11002523       \a" +
+        "06/10/11 11:17 NYF      (NYF ZRQVPNY PNYY    ) NCG      2      11008222       \a" +
+        "01/10/13 17:20 NYF      (NYF ZRQVPNY PNYY    ) NCG      8      13000553       \a" +
+        "09/15/13 18:11 NYF      (NYF ZRQVPNY PNYY    ) NCG             13013431       \a" +
+        "05/03/14 10:23 NYF      (NYF ZRQVPNY PNYY    )          4      14006915       \a" +
+        "06/03/14 10:36 NYF      (NYF ZRQVPNY PNYY    ) NCG      8      14008503       \a" +
+        "06/14/14 19:42 NYF      (NYF ZRQVPNY PNYY    ) NCG      N      14009075       \a" +
+        "09/19/14 21:56 URZVIG   (URZBEEUNTR/VIG      ) NCG      7      14014067",
+
+        "GVZR:19:32",
+        "PBQR:PURFG",
+        "PNYY:PURFG CNVA/NYF",
+        "VQ:16006063",
+        "NQQE:4428 OYNPX EBPX EQ",
+        "NCG:3",
+        "PVGL:UNZCFGRNQ",
+        "K:FHRYYRA QE / YBJRE ORPXYRLFIVYYR EQ",
+        "ZNC:14-X12",
+        "ANZR:WHNAVGN YBJR",
+        "CUBAR:(443) 507-6094",
+        "VASB:76-LRNE-BYQ, SRZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: PURFG\aCNVA QVFCNGPU PBQR: 10Q04  (PYNZZL) ERFCBAFR: PURFG 1. FUR VF\aCegl 1 Yri 60 Fep 1 Eq 0222   Fgn 02    Gnxref Vq EZF    Erp 19:32:38\aQngr 04/18/16 Nynez Vq                  Qvfcng Vq PQY    Qvf 19:32:48\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a02/16/11 20:39 OYF      (OYF ZRQVPNY PNYY    ) NCG      2      11002523\a06/10/11 11:17 NYF      (NYF ZRQVPNY PNYY    ) NCG      2      11008222\a01/10/13 17:20 NYF      (NYF ZRQVPNY PNYY    ) NCG      8      13000553\a09/15/13 18:11 NYF      (NYF ZRQVPNY PNYY    ) NCG             13013431\a05/03/14 10:23 NYF      (NYF ZRQVPNY PNYY    )          4      14006915\a06/03/14 10:36 NYF      (NYF ZRQVPNY PNYY    ) NCG      8      14008503\a06/14/14 19:42 NYF      (NYF ZRQVPNY PNYY    ) NCG      N      14009075\a09/19/14 21:56 URZVIG   (URZBEEUNTR/VIG      ) NCG      7      14014067",
+        "HAVG:K29");
+
+    qbGrfg("G27",
+        "{PNQ} 19:33                 CebDn Qngn sbe Vapvqrag: 16006063\a\a" +
+        "PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).                                  \a" +
+        "2. FUR VF ABG OERNGUVAT ABEZNYYL.                                             \a" +
+        "3. FUR QBRF ABG UNIR NAL QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF.                 \a" +
+        "4. FUR VF PYNZZL.                                                             \a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:TRA_NYREG",
+        "GVZR:19:33",
+        "VQ:16006063",
+        "VASB:CebDn Qngn sbe Vapvqrag: 16006063\a\aPBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).\a2. FUR VF ABG OERNGUVAT ABEZNYYL.\a3. FUR QBRF ABG UNIR NAL QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF.\a4. FUR VF PYNZZL.");
+
+    qbGrfg("G28",
+        "{PNQ} 16:56          VAPVQRAG HAVG UVFGBEL SBE: 16006049  CNTR 1\a" +
+        "                       QNGR: 041816  PNYYGLCR: VAWNYF  \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    152314 Q  626 UNABIRE CXR @WBF   \a" +
+        "K29    152503 R  626 UNABIRE CXR @WBF   \a" +
+        "K29    152508 ER CNENZRQVP              \a" +
+        "K29    152918 N  626 UNABIRE CXR @WBF   \a" +
+        "K29    154723 RU CEV3 PUP               \a" +
+        "K29    161137 NU CEV3 PUP               \a" +
+        "K29    163245 NE CEV3 PUP               \a" +
+        "K29    165558 P  CEV3 PUP",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:16:56",
+        "VQ:16006049",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16006049  CNTR 1\aQNGR: 041816  PNYYGLCR: VAWNYF\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    152314 Q  626 UNABIRE CXR @WBF\aK29    152503 R  626 UNABIRE CXR @WBF\aK29    152508 ER CNENZRQVP\aK29    152918 N  626 UNABIRE CXR @WBF\aK29    154723 RU CEV3 PUP\aK29    161137 NU CEV3 PUP\aK29    163245 NE CEV3 PUP\aK29    165558 P  CEV3 PUP");
+
+    qbGrfg("G29",
+        "{PNQ} 15:23                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr VAWNYF   (VAW CREFBA/NYF      )                Vapvqrag Ab 16006049\a\a" +
+        "Ybp 626 UNABIRE CXR @WBF N ONAXF                         UNZC  \a" +
+        "    UNZCFUVER EQ                                                 21-W1   \a" +
+        "Anzr    EVPX FHGGBA                   \a" +
+        "Nqqerff 422 EBHGR 30                             Cubar 797-2012   Nern 415\a" +
+        "Erznexf 55-LRNE-BYQ, SRZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: SRYY BS  \a" +
+        "        FGBBY, UVG URNQ QVFCNGPU PBQR: 17Q03  (ABG NYREG) FHSSVK: T  (BA GUR  \a" +
+        "Cegl 1 Yri 60 Fep 1 Eq 0219   Fgn 02    Gnxref Vq ZWZ    Erp 15:23:07\a" +
+        "Qngr 04/18/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 15:23:14\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf K29    \a\a" +
+        "*** Cerzvfr Vasb ***\a" +
+        "06/28/14 01:28 OYF      (OYF ZRQVPNY PNYY    ) NCG             14009762       \a" +
+        "07/28/14 17:44 OYF      (OYF ZRQVPNY PNYY    ) NCG             14011383       \a" +
+        "10/19/14 12:46 HAPQVNO  (HAPBAFPVBHF QVNORGVP) NCG             14015533       \a" +
+        "10/25/14 08:47 ERFC     (GEBHOYR OERNGUVAT   ) NCG             14015846       \a" +
+        "11/07/14 16:48 QYBP     (QRPERNFRQ YBP/NYF   ) NCG             14016543       \a" +
+        "11/24/14 17:18 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             14017363       \a" +
+        "01/21/15 10:47 VAWNYF   (VAW CREFBA/NYF      ) NCG             15001234       \a" +
+        "03/17/15 07:12 QYBP     (QRPERNFRQ YBP/NYF   ) NCG      600    15004461",
+
+        "GVZR:15:23",
+        "PBQR:VAWNYF",
+        "PNYY:VAW CREFBA/NYF",
+        "VQ:16006049",
+        "NQQE:626 UNABIRE CXR",
+        "ZNQQE:626 UNABIRE CVXR",
+        "CYNPR:WBF N ONAXF",
+        "PVGL:UNZCFGRNQ",
+        "K:UNZCFUVER EQ",
+        "ZNC:21-W1",
+        "ANZR:EVPX FHGGBA",
+        "CUBAR:(415) 797-2012",
+        "VASB:55-LRNE-BYQ, SRZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: SRYY BS\aFGBBY, UVG URNQ QVFCNGPU PBQR: 17Q03  (ABG NYREG) FHSSVK: T  (BA GUR\aCegl 1 Yri 60 Fep 1 Eq 0219   Fgn 02    Gnxref Vq ZWZ    Erp 15:23:07\aQngr 04/18/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 15:23:14\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a06/28/14 01:28 OYF      (OYF ZRQVPNY PNYY    ) NCG             14009762\a07/28/14 17:44 OYF      (OYF ZRQVPNY PNYY    ) NCG             14011383\a10/19/14 12:46 HAPQVNO  (HAPBAFPVBHF QVNORGVP) NCG             14015533\a10/25/14 08:47 ERFC     (GEBHOYR OERNGUVAT   ) NCG             14015846\a11/07/14 16:48 QYBP     (QRPERNFRQ YBP/NYF   ) NCG             14016543\a11/24/14 17:18 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             14017363\a01/21/15 10:47 VAWNYF   (VAW CREFBA/NYF      ) NCG             15001234\a03/17/15 07:12 QYBP     (QRPERNFRQ YBP/NYF   ) NCG      600    15004461",
+        "HAVG:K29");
+
+    qbGrfg("G30",
+        "{PNQ} 15:23                 CebDn Qngn sbe Vapvqrag: 16006049\a\a" +
+        "TEBHAQ BE SYBBE)                                                              \a" +
+        "ERFCBAFR: VAWNYF                                                              \a" +
+        "1. GUVF UNCCRARQ ABJ (YRFF GUNA 6UEF NTB).                                    \a" +
+        "2. GUR SNYY JNF YRFF GUNA 10SG/3Z (YRFF GUNA 1 FGBEL).                        \a" +
+        "3. GUR ERNFBA SBE GUR SNYY VF ABG XABJA.                                      \a" +
+        "4. GURER VF FBZR OYRRQVAT, ABG FREVBHF.                                       \a" +
+        "5. FUR VF ABG PBZCYRGRYL NYREG (ABG ERFCBAQVAT NCCEBCEVNGRYL).                \a" +
+        "6. GUR VAWHEL VF GB GUR URNQ.                                                 \a" +
+        "7. FUR VF FGVYY BA GUR SYBBE (TEBHAQ).                                        \a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:TRA_NYREG",
+        "GVZR:15:23",
+        "VQ:16006049",
+        "VASB:CebDn Qngn sbe Vapvqrag: 16006049\a\aTEBHAQ BE SYBBE)\aERFCBAFR: VAWNYF\a1. GUVF UNCCRARQ ABJ (YRFF GUNA 6UEF NTB).\a2. GUR SNYY JNF YRFF GUNA 10SG/3Z (YRFF GUNA 1 FGBEL).\a3. GUR ERNFBA SBE GUR SNYY VF ABG XABJA.\a4. GURER VF FBZR OYRRQVAT, ABG FREVBHF.\a5. FUR VF ABG PBZCYRGRYL NYREG (ABG ERFCBAQVAT NCCEBCEVNGRYL).\a6. GUR VAWHEL VF GB GUR URNQ.\a7. FUR VF FGVYY BA GUR SYBBE (TEBHAQ).");
+
+    qbGrfg("G31",
+        "{PNQ} 15:23 05/06/15 19:01 FVPX     (FVPX CREFBA/OYF     ) NCG             15007274       \a" +
+        "05/11/15 08:17 PURFG    (PURFG CNVA/NYF      ) NCG             15007532       \a" +
+        "09/06/15 03:59 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             15014050       \a" +
+        "12/10/15 17:25 FVPX     (FVPX CREFBA/OYF     ) NCG             15019331       \a" +
+        "02/04/16 00:54 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             16002008       \a" +
+        "04/18/16 15:23 VAWNYF   (VAW CREFBA/NYF      ) NCG             16006049       \a\a" +
+        "*** Unmneq Vasbezngvba ***\a" +
+        "OYNPX & QRPXRE - NQQ UZ30 GB NYY OHVYQVAT SVERF - GVRE GJB UNM-ZNG SNPVYVGL   \a" +
+        "QHGL FRPHEVGL THNEQ PRYY #443-375-6913                                        \a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - OP43 - 4 - OP42 - 9 - OP41 - OP40 - 7 - 3 - OP49 - 13 - OP56 - LP52 - OP44",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:15:23",
+        "VASB:05/06/15 19:01 FVPX     (FVPX CREFBA/OYF     ) NCG             15007274\a05/11/15 08:17 PURFG    (PURFG CNVA/NYF      ) NCG             15007532\a09/06/15 03:59 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             15014050\a12/10/15 17:25 FVPX     (FVPX CREFBA/OYF     ) NCG             15019331\a02/04/16 00:54 NYNEZ 2  (PBZZ SVER NYNEZ     ) NCG             16002008\a04/18/16 15:23 VAWNYF   (VAW CREFBA/NYF      ) NCG             16006049\a\a*** Unmneq Vasbezngvba ***\aOYNPX & QRPXRE - NQQ UZ30 GB NYY OHVYQVAT SVERF - GVRE GJB UNM-ZNG SNPVYVGL\aQHGL FRPHEVGL THNEQ PRYY #443-375-6913\a\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - 9 - OP41 - OP40 - 7 - 3 - OP49 - 13 - OP56 - LP52 - OP44");
+
+    qbGrfg("G32",
+        "{PNQ} 14:49          VAPVQRAG HAVG UVFGBEL SBE: 16006043  CNTR 1\a" +
+        "                       QNGR: 041816  PNYYGLCR: ZN      \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "RG24   135015 Q  43-6 OYNPX EBPX EQ /   \a" +
+        "RG24   135256 R  43-6 OYNPX EBPX EQ /   \a" +
+        "RG24   143939 NE 43-6 OYNPX EBPX EQ /   \a" +
+        "RG24   144947 P  43-6 OYNPX EBPX EQ /",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:14:49",
+        "VQ:16006043",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16006043  CNTR 1\aQNGR: 041816  PNYYGLCR: ZN\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aRG24   135015 Q  43-6 OYNPX EBPX EQ /\aRG24   135256 R  43-6 OYNPX EBPX EQ /\aRG24   143939 NE 43-6 OYNPX EBPX EQ /\aRG24   144947 P  43-6 OYNPX EBPX EQ /");
+
+    qbGrfg("G33",
+        "{PNQ} 13:50                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr ZN       (ZHGHNY NVQ NYNEZ    )                Vapvqrag Ab 16006043\a\a" +
+        "Ybp 43-6 OYNPX EBPX EQ / EVQTR EQ / IRU SVE J/RKCBF JRFG       \a" +
+        "                                                                         \a" +
+        "Anzr    RG24                          \a" +
+        "Nqqerff                                          Cubar    -       Nern    \a" +
+        "Cegl 3 Yri 99 Fep C Eq OP     Fgn 15    Gnxref Vq FUS    Erp 13:49:31\a" +
+        "Qngr 04/18/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 13:50:15\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf RG24   \a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GVZR:13:50",
+        "PBQR:ZN",
+        "PNYY:ZHGHNY NVQ NYNEZ",
+        "VQ:16006043",
+        "NQQE:43-6 OYNPX EBPX EQ & EVQTR EQ & IRU SVE J & RKCBF",
+        "ZNQQE:43 OYNPX EBPX EQ",
+        "PVGL:JRFGZVAFGRE",
+        "ANZR:RG24",
+        "VASB:Cegl 3 Yri 99 Fep C Eq OP     Fgn 15    Gnxref Vq FUS    Erp 13:49:31\aQngr 04/18/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 13:50:15\aEnqvb Puf:                    Ery S#:",
+        "HAVG:RG24");
+
+    qbGrfg("G34",
+        "{PNQ} 09:11          VAPVQRAG HAVG UVFGBEL SBE: 16006017  CNTR 1\a" +
+        "                       QNGR: 041816  PNYYGLCR: FRVM    \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    074154 Q  2704 BIREIVRJ EQ       \a" +
+        "K29    074356 R  2704 BIREIVRJ EQ       \a" +
+        "K29    074401 ER CNENZRQVP              \a" +
+        "K29    075114 N  2704 BIREIVRJ EQ       \a" +
+        "H2     075337 Q  2704 BIREIVRJ EQ       \a" +
+        "H2     075647 R  2704 BIREIVRJ EQ       \a" +
+        "H2     080332 N  2704 BIREIVRJ EQ       \a" +
+        "H2     081429 NE 2704 BIREIVRJ EQ       \a" +
+        "K29    081500 RU CEV2 PUP               \a" +
+        "H2     082500 P  2704 BIREIVRJ EQ       \a" +
+        "K29    083320 NU CEV2 PUP               \a" +
+        "K29    085150 NE CEV2 PUP               \a" +
+        "K29    091115 P  CEV2 PUP",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:09:11",
+        "VQ:16006017",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16006017  CNTR 1\aQNGR: 041816  PNYYGLCR: FRVM\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    074154 Q  2704 BIREIVRJ EQ\aK29    074356 R  2704 BIREIVRJ EQ\aK29    074401 ER CNENZRQVP\aK29    075114 N  2704 BIREIVRJ EQ\aH2     075337 Q  2704 BIREIVRJ EQ\aH2     075647 R  2704 BIREIVRJ EQ\aH2     080332 N  2704 BIREIVRJ EQ\aH2     081429 NE 2704 BIREIVRJ EQ\aK29    081500 RU CEV2 PUP\aH2     082500 P  2704 BIREIVRJ EQ\aK29    083320 NU CEV2 PUP\aK29    085150 NE CEV2 PUP\aK29    091115 P  CEV2 PUP");
+
+    qbGrfg("G35",
+        "{PNQ} 09:11          VAPVQRAG HAVG UVFGBEL SBE: 16006022  CNTR 1\a" +
+        "                       QNGR: 041816  PNYYGLCR: PURFG   \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K48    085653 Q  ZNVA FG F / FUVYBU N   \a" +
+        "SE2    085653 Q  ZNVA FG F / FUVYBU N   \a" +
+        "K48    085809 R  ZNVA FG F / FUVYBU N   \a" +
+        "K48    085813 ER ZRQVP                  \a" +
+        "SE2    090039 EG RKPUNATRQ SBE: H2      \a" +
+        "SE2    090039 RK ZNVA FG F / FUVYBU N   \a" +
+        "H2     090039 R  ZNVA FG F / FUVYBU N   \a" +
+        "H2     090201 N  ZNVA FG F / FUVYBU N   \a" +
+        "K48    090443 N  ZNVA FG F / FUVYBU N   \a" +
+        "H2     090617 NE ZNVA FG F / FUVYBU N   \a" +
+        "H2     091103 P  ZNVA FG F / FUVYBU N",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:09:11",
+        "VQ:16006022",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16006022  CNTR 1\aQNGR: 041816  PNYYGLCR: PURFG\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK48    085653 Q  ZNVA FG F / FUVYBU N\aSE2    085653 Q  ZNVA FG F / FUVYBU N\aK48    085809 R  ZNVA FG F / FUVYBU N\aK48    085813 ER ZRQVP\aSE2    090039 EG RKPUNATRQ SBE: H2\aSE2    090039 RK ZNVA FG F / FUVYBU N\aH2     090039 R  ZNVA FG F / FUVYBU N\aH2     090201 N  ZNVA FG F / FUVYBU N\aK48    090443 N  ZNVA FG F / FUVYBU N\aH2     090617 NE ZNVA FG F / FUVYBU N\aH2     091103 P  ZNVA FG F / FUVYBU N");
+
+    qbGrfg("G36",
+        "{PNQ} 08:57                 CebDn Qngn sbe Vapvqrag: 16006022\a\a" +
+        "PURFG                                                                         \a" +
+        "1. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).                         \a" +
+        "2. UR VF ABG OERNGUVAT ABEZNYYL.                                              \a" +
+        "3. UR UNF PURFG CNVA.                                                         \a" +
+        "4. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).                         \a" +
+        "5. UR VF ABG OERNGUVAT ABEZNYYL.                                              \a" +
+        "6. UR QBRF ABG UNIR NAL QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF.                  \a" +
+        "7. UR VF ABG PYNZZL.                                                          \a" +
+        "8. UR UNF ABG UNQ N URNEG NGGNPX BE NATVAN (URNEG CNVAF) ORSBER.              \a" +
+        "9. UR GBBX N CERFPEVORQ ZRQVPNGVBA VA GUR CNFG 12 UEF: OYBBQ GUVAARE          \a" +
+        "CEBDN PBZCYRGRQ                                                               \a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:TRA_NYREG",
+        "GVZR:08:57",
+        "VQ:16006022",
+        "VASB:CebDn Qngn sbe Vapvqrag: 16006022\a\aPURFG\a1. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).\a2. UR VF ABG OERNGUVAT ABEZNYYL.\a3. UR UNF PURFG CNVA.\a4. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).\a5. UR VF ABG OERNGUVAT ABEZNYYL.\a6. UR QBRF ABG UNIR NAL QVSSVPHYGL FCRNXVAT ORGJRRA OERNGUF.\a7. UR VF ABG PYNZZL.\a8. UR UNF ABG UNQ N URNEG NGGNPX BE NATVAN (URNEG CNVAF) ORSBER.\a9. UR GBBX N CERFPEVORQ ZRQVPNGVBA VA GUR CNFG 12 UEF: OYBBQ GUVAARE\aCEBDN PBZCYRGRQ");
+
+    qbGrfg("G37",
+        "{PNQ} 08:57                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr PURFG    (PURFG CNVA/NYF      )                Vapvqrag Ab 16006022\a\a" +
+        "Ybp ZNVA FG F / FUVYBU NI                                UNZC  \a" +
+        "          /                                                      14-W12  \a" +
+        "Anzr    EBA EBZR                      \a" +
+        "Nqqerff                                          Cubar 599-2160   Nern 443\a" +
+        "Erznexf 47-LRNE-BYQ, ZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: QVMML NOBHG\a" +
+        "         GB CNFF BHG QVFCNGPU PBQR: 10P01  (NOABEZNY OERNGUVAT) ERFCBAFR:     \a" +
+        "Cegl 1 Yri 60 Fep 1 Eq 0208   Fgn 02    Gnxref Vq ORAEBO Erp 08:56:03\a" +
+        "Qngr 04/18/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 08:56:53\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf K48    SE2    \a\a" +
+        "*** Cerzvfr Vasb ***\a" +
+        "07/19/06 06:42 NYF 2    (NYF QVFC CEVBEVGL 2 ) NCG      (410)  06008956       \a" +
+        "03/06/10 23:50 NYF      (NYF ZRQVPNY PNYY    ) NCG             10003345       \a" +
+        "10/09/15 17:52 IP       (IRUVPYR PBYYVFVBA   ) NCG             15015949       \a" +
+        "01/05/16 18:17 JVERF    (JVERF QBJA          ) NCG             16000282       \a" +
+        "04/18/16 08:56 PURFG    (PURFG CNVA/NYF      ) NCG             16006022       \a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - 4 - OP43 - OP42(AB GENA) - 3 - 7 - 9 - OP41 - LP52 - 13 - OP44 - OP56 - 6",
+
+        "GVZR:08:57",
+        "PBQR:PURFG",
+        "PNYY:PURFG CNVA/NYF",
+        "VQ:16006022",
+        "NQQE:ZNVA FG F & FUVYBU NI",
+        "ZNQQE:ZNVA FG F & FUVYBU NIR",
+        "PVGL:UNZCFGRNQ",
+        "ZNC:14-W12",
+        "ANZR:EBA EBZR",
+        "CUBAR:(443) 599-2160",
+        "VASB:47-LRNE-BYQ, ZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: QVMML NOBHG\aGB CNFF BHG QVFCNGPU PBQR: 10P01  (NOABEZNY OERNGUVAT) ERFCBAFR:\aCegl 1 Yri 60 Fep 1 Eq 0208   Fgn 02    Gnxref Vq ORAEBO Erp 08:56:03\aQngr 04/18/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 08:56:53\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a07/19/06 06:42 NYF 2    (NYF QVFC CEVBEVGL 2 ) NCG      (410)  06008956\a03/06/10 23:50 NYF      (NYF ZRQVPNY PNYY    ) NCG             10003345\a10/09/15 17:52 IP       (IRUVPYR PBYYVFVBA   ) NCG             15015949\a01/05/16 18:17 JVERF    (JVERF QBJA          ) NCG             16000282\a04/18/16 08:56 PURFG    (PURFG CNVA/NYF      ) NCG             16006022\a*** Sver Obk Vasb ***\a2 - 4 - OP43 - OP42(AB GENA) - 3 - 7 - 9 - OP41 - LP52 - 13 - OP44 - OP56 - 6",
+        "HAVG:K48    SE2");
+
+    qbGrfg("G38",
+        "{PNQ} 08:33          VAPVQRAG HAVG UVFGBEL SBE: 16006017  CNTR 1\a" +
+        "                       QNGR: 041816  PNYYGLCR: FRVM    \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    074154 Q  2704 BIREIVRJ EQ       \a" +
+        "K29    074356 R  2704 BIREIVRJ EQ       \a" +
+        "K29    074401 ER CNENZRQVP              \a" +
+        "K29    075114 N  2704 BIREIVRJ EQ       \a" +
+        "H2     075337 Q  2704 BIREIVRJ EQ       \a" +
+        "H2     075647 R  2704 BIREIVRJ EQ       \a" +
+        "H2     080332 N  2704 BIREIVRJ EQ       \a" +
+        "H2     081429 NE 2704 BIREIVRJ EQ       \a" +
+        "K29    081500 RU CEV2 PUP               \a" +
+        "H2     082500 P  2704 BIREIVRJ EQ",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:08:33",
+        "VQ:16006017",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16006017  CNTR 1\aQNGR: 041816  PNYYGLCR: FRVM\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    074154 Q  2704 BIREIVRJ EQ\aK29    074356 R  2704 BIREIVRJ EQ\aK29    074401 ER CNENZRQVP\aK29    075114 N  2704 BIREIVRJ EQ\aH2     075337 Q  2704 BIREIVRJ EQ\aH2     075647 R  2704 BIREIVRJ EQ\aH2     080332 N  2704 BIREIVRJ EQ\aH2     081429 NE 2704 BIREIVRJ EQ\aK29    081500 RU CEV2 PUP\aH2     082500 P  2704 BIREIVRJ EQ");
+
+    qbGrfg("G39",
+        "{PNQ} 07:53                 CebDn Qngn sbe Vapvqrag: 16006017\a\a" +
+        "IREVSVRQ (XABJA F                                                             \a" +
+        "FHSSVK: R  (RCVYRCGVP BE CERIVBHF FRVMHER QVNTABFVF)                          \a" +
+        "ERFCBAFR: FRVM                                                                \a" +
+        "1. GUVF VF NCCNERAGYL N TRARENYVMRQ (TENAQ ZNY) FRVMHER.                      \a" +
+        "2. FUR UNF ABG UNQ ZBER GUNA BAR FRVMHER VA N EBJ.                            \a" +
+        "3. VG'F ABG XABJA VS FUR VF CERTANAG.                                         \a" +
+        "4. VG'F ABG XABJA VS FUR VF QVNORGVP.                                         \a" +
+        "5. FUR VF NA RCVYRCGVP (QVNTABFRQ JVGU N FRVMHER QVFBEQRE).                   \a" +
+        "6. FUR QBRF ABG UNIR N UVFGBEL BS FGEBXR BE OENVA GHZBE.                      \a" +
+        "7. GUR WREXVAT (GJVGPUVAT) UNF FGBCCRQ.                                       \a" +
+        "8. FUR VF OERNGUVAT ABJ.                                                      \a" +
+        "9. FUR VF OERNGUVAT ABEZNYYL.                                                 \a" +
+        "CEBDN PBZCYRGRQ                                                               \a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:TRA_NYREG",
+        "GVZR:07:53",
+        "VQ:16006017",
+        "VASB:CebDn Qngn sbe Vapvqrag: 16006017\a\aIREVSVRQ (XABJA F\aFHSSVK: R  (RCVYRCGVP BE CERIVBHF FRVMHER QVNTABFVF)\aERFCBAFR: FRVM\a1. GUVF VF NCCNERAGYL N TRARENYVMRQ (TENAQ ZNY) FRVMHER.\a2. FUR UNF ABG UNQ ZBER GUNA BAR FRVMHER VA N EBJ.\a3. VG'F ABG XABJA VS FUR VF CERTANAG.\a4. VG'F ABG XABJA VS FUR VF QVNORGVP.\a5. FUR VF NA RCVYRCGVP (QVNTABFRQ JVGU N FRVMHER QVFBEQRE).\a6. FUR QBRF ABG UNIR N UVFGBEL BS FGEBXR BE OENVA GHZBE.\a7. GUR WREXVAT (GJVGPUVAT) UNF FGBCCRQ.\a8. FUR VF OERNGUVAT ABJ.\a9. FUR VF OERNGUVAT ABEZNYYL.\aCEBDN PBZCYRGRQ");
+
+    qbGrfg("G40",
+        "{PNQ} 07:53                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr FRVM     (FRVMHER/OYF         )                Vapvqrag Ab 16006017\a\a" +
+        "Ybp 2704 BIREIVRJ EQ                                     UNZC  \a" +
+        "    UBHPX EQ                     (QRNQ RAQ)                      21-N4   \a" +
+        "Anzr    WBUAFBA,WRAAVSRE              \a" +
+        "Nqqerff                                          Cubar 291-6434   Nern 443\a" +
+        "Erznexf 38-LRNE-BYQ, SRZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: FRVMHER Q\a" +
+        "        VFCNGPU PBQR: 12N01  (ABG FRVMVAT ABJ NAQ RSSRPGVIR OERNGUVAT         \a" +
+        "Cegl 2 Yri 59 Fep 1 Eq 0209   Fgn 02    Gnxref Vq YJB    Erp 07:41:46\a" +
+        "Qngr 04/18/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 07:41:54\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf K29    H2     \a\a" +
+        "*** Cerzvfr Vasb ***\a" +
+        "01/16/14 22:22 HP       (HAPBAFPVBHF FHOWRPG ) NCG             14000988       \a" +
+        "05/06/14 18:57 PN       (PNEQVNP NEERFG      ) NCG             14007088       \a" +
+        "08/07/14 22:01 PNEQ     (PNEQVNP CNGVRAG/NYF ) NCG             14011878       \a" +
+        "03/18/15 16:09 QYBP     (QRPERNFRQ YBP/NYF   ) NCG             15004542       \a" +
+        "07/20/15 18:01 FRVMNYF  (FRVMHER/NYF         ) NCG             15011562       \a" +
+        "02/25/16 12:14 FGEBXNYF (FGEBXR/NYF          ) NCG             16003106       \a" +
+        "04/18/16 07:41 FRVM     (FRVMHER/OYF         ) NCG             16006017       \a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - 9 - OP43 - OP42 - 3 - 4 - OP41 - OP40 - OP40 - 13 - 6 - OP49 - 7 - OP56",
+
+        "GVZR:07:53",
+        "PBQR:FRVM",
+        "PNYY:FRVMHER/OYF",
+        "VQ:16006017",
+        "NQQE:2704 BIREIVRJ EQ",
+        "PVGL:UNZCFGRNQ",
+        "K:UBHPX EQ / (QRNQ RAQ)",
+        "ZNC:21-N4",
+        "ANZR:WBUAFBA,WRAAVSRE",
+        "CUBAR:(443) 291-6434",
+        "VASB:38-LRNE-BYQ, SRZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: FRVMHER Q\aVFCNGPU PBQR: 12N01  (ABG FRVMVAT ABJ NAQ RSSRPGVIR OERNGUVAT\aCegl 2 Yri 59 Fep 1 Eq 0209   Fgn 02    Gnxref Vq YJB    Erp 07:41:46\aQngr 04/18/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 07:41:54\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a01/16/14 22:22 HP       (HAPBAFPVBHF FHOWRPG ) NCG             14000988\a05/06/14 18:57 PN       (PNEQVNP NEERFG      ) NCG             14007088\a08/07/14 22:01 PNEQ     (PNEQVNP CNGVRAG/NYF ) NCG             14011878\a03/18/15 16:09 QYBP     (QRPERNFRQ YBP/NYF   ) NCG             15004542\a07/20/15 18:01 FRVMNYF  (FRVMHER/NYF         ) NCG             15011562\a02/25/16 12:14 FGEBXNYF (FGEBXR/NYF          ) NCG             16003106\a04/18/16 07:41 FRVM     (FRVMHER/OYF         ) NCG             16006017\a*** Sver Obk Vasb ***\a2 - 9 - OP43 - OP42 - 3 - 4 - OP41 - OP40 - OP40 - 13 - 6 - OP49 - 7 - OP56",
+        "HAVG:K29    H2");
+
+    qbGrfg("G41",
+        "{PNQ} 07:42                 CebDn Qngn sbe Vapvqrag: 16006017\a\a" +
+        "IREVSVRQ (XABJA F                                                             \a" +
+        "FHSSVK: R  (RCVYRCGVP BE CERIVBHF FRVMHER QVNTABFVF)                          \a" +
+        "ERFCBAFR: FRVM                                                                \a" +
+        "1. GUVF VF NCCNERAGYL N TRARENYVMRQ (TENAQ ZNY) FRVMHER.                      \a" +
+        "2. FUR UNF ABG UNQ ZBER GUNA BAR FRVMHER VA N EBJ.                            \a" +
+        "3. VG'F ABG XABJA VS FUR VF CERTANAG.                                         \a" +
+        "4. VG'F ABG XABJA VS FUR VF QVNORGVP.                                         \a" +
+        "5. FUR VF NA RCVYRCGVP (QVNTABFRQ JVGU N FRVMHER QVFBEQRE).                   \a" +
+        "6. FUR QBRF ABG UNIR N UVFGBEL BS FGEBXR BE OENVA GHZBE.                      \a" +
+        "7. GUR WREXVAT (GJVGPUVAT) UNF FGBCCRQ.                                       \a" +
+        "8. FUR VF OERNGUVAT ABJ.                                                      \a" +
+        "9. FUR VF OERNGUVAT ABEZNYYL.                                                 \a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:TRA_NYREG",
+        "GVZR:07:42",
+        "VQ:16006017",
+        "VASB:CebDn Qngn sbe Vapvqrag: 16006017\a\aIREVSVRQ (XABJA F\aFHSSVK: R  (RCVYRCGVP BE CERIVBHF FRVMHER QVNTABFVF)\aERFCBAFR: FRVM\a1. GUVF VF NCCNERAGYL N TRARENYVMRQ (TENAQ ZNY) FRVMHER.\a2. FUR UNF ABG UNQ ZBER GUNA BAR FRVMHER VA N EBJ.\a3. VG'F ABG XABJA VS FUR VF CERTANAG.\a4. VG'F ABG XABJA VS FUR VF QVNORGVP.\a5. FUR VF NA RCVYRCGVP (QVNTABFRQ JVGU N FRVMHER QVFBEQRE).\a6. FUR QBRF ABG UNIR N UVFGBEL BS FGEBXR BE OENVA GHZBE.\a7. GUR WREXVAT (GJVGPUVAT) UNF FGBCCRQ.\a8. FUR VF OERNGUVAT ABJ.\a9. FUR VF OERNGUVAT ABEZNYYL.");
+
+    qbGrfg("G42",
+        "{PNQ} 07:42                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr FRVM     (FRVMHER/OYF         )                Vapvqrag Ab 16006017\a\a" +
+        "Ybp 2704 BIREIVRJ EQ                                     UNZC  \a" +
+        "    UBHPX EQ                     (QRNQ RAQ)                      21-N4   \a" +
+        "Anzr    WBUAFBA,WRAAVSRE              \a" +
+        "Nqqerff                                          Cubar 291-6434   Nern 443\a" +
+        "Erznexf 38-LRNE-BYQ, SRZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: FRVMHER Q\a" +
+        "        VFCNGPU PBQR: 12N01  (ABG FRVMVAT ABJ NAQ RSSRPGVIR OERNGUVAT         \a" +
+        "Cegl 2 Yri 59 Fep 1 Eq 0209   Fgn 02    Gnxref Vq YJB    Erp 07:41:46\a" +
+        "Qngr 04/18/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 07:41:54\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf K29    \a\a" +
+        "*** Cerzvfr Vasb ***\a" +
+        "01/16/14 22:22 HP       (HAPBAFPVBHF FHOWRPG ) NCG             14000988       \a" +
+        "05/06/14 18:57 PN       (PNEQVNP NEERFG      ) NCG             14007088       \a" +
+        "08/07/14 22:01 PNEQ     (PNEQVNP CNGVRAG/NYF ) NCG             14011878       \a" +
+        "03/18/15 16:09 QYBP     (QRPERNFRQ YBP/NYF   ) NCG             15004542       \a" +
+        "07/20/15 18:01 FRVMNYF  (FRVMHER/NYF         ) NCG             15011562       \a" +
+        "02/25/16 12:14 FGEBXNYF (FGEBXR/NYF          ) NCG             16003106       \a" +
+        "04/18/16 07:41 FRVM     (FRVMHER/OYF         ) NCG             16006017       \a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - 9 - OP43 - OP42 - 3 - 4 - OP41 - OP40 - OP40 - 13 - 6 - OP49 - 7 - OP56",
+
+        "GVZR:07:42",
+        "PBQR:FRVM",
+        "PNYY:FRVMHER/OYF",
+        "VQ:16006017",
+        "NQQE:2704 BIREIVRJ EQ",
+        "PVGL:UNZCFGRNQ",
+        "K:UBHPX EQ / (QRNQ RAQ)",
+        "ZNC:21-N4",
+        "ANZR:WBUAFBA,WRAAVSRE",
+        "CUBAR:(443) 291-6434",
+        "VASB:38-LRNE-BYQ, SRZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: FRVMHER Q\aVFCNGPU PBQR: 12N01  (ABG FRVMVAT ABJ NAQ RSSRPGVIR OERNGUVAT\aCegl 2 Yri 59 Fep 1 Eq 0209   Fgn 02    Gnxref Vq YJB    Erp 07:41:46\aQngr 04/18/16 Nynez Vq                  Qvfcng Vq RZVSEN Qvf 07:41:54\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a01/16/14 22:22 HP       (HAPBAFPVBHF FHOWRPG ) NCG             14000988\a05/06/14 18:57 PN       (PNEQVNP NEERFG      ) NCG             14007088\a08/07/14 22:01 PNEQ     (PNEQVNP CNGVRAG/NYF ) NCG             14011878\a03/18/15 16:09 QYBP     (QRPERNFRQ YBP/NYF   ) NCG             15004542\a07/20/15 18:01 FRVMNYF  (FRVMHER/NYF         ) NCG             15011562\a02/25/16 12:14 FGEBXNYF (FGEBXR/NYF          ) NCG             16003106\a04/18/16 07:41 FRVM     (FRVMHER/OYF         ) NCG             16006017\a*** Sver Obk Vasb ***\a2 - 9 - OP43 - OP42 - 3 - 4 - OP41 - OP40 - OP40 - 13 - 6 - OP49 - 7 - OP56",
+        "HAVG:K29");
+
+    qbGrfg("G43",
+        "{PNQ} 20:40          VAPVQRAG HAVG UVFGBEL SBE: 16006004  CNTR 1\a" +
+        "                       QNGR: 041716  PNYYGLCR: FCVYYFZ \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "R23    201141 Q  4439 GERAGBA ZVYY EQ   \a" +
+        "R23    201626 R  4439 GERAGBA ZVYY EQ   \a" +
+        "R23    201634 NE 4439 GERAGBA ZVYY EQ   \a" +
+        "RG24   201650 OH 4439 GERAGBA ZVYY EQ   \a" +
+        "RG24   201650 R  4439 GERAGBA ZVYY EQ   \a" +
+        "R23    201658 P  4439 GERAGBA ZVYY EQ   \a" +
+        "RG24   202104 N  4439 GERAGBA ZVYY EQ   \a" +
+        "RG24   203510 NE 4439 GERAGBA ZVYY EQ   \a" +
+        "RG24   203528 EG ZQR BA FPRAR           \a" +
+        "RG24   203954 P  4439 GERAGBA ZVYY EQ",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:20:40",
+        "VQ:16006004",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16006004  CNTR 1\aQNGR: 041716  PNYYGLCR: FCVYYFZ\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aR23    201141 Q  4439 GERAGBA ZVYY EQ\aR23    201626 R  4439 GERAGBA ZVYY EQ\aR23    201634 NE 4439 GERAGBA ZVYY EQ\aRG24   201650 OH 4439 GERAGBA ZVYY EQ\aRG24   201650 R  4439 GERAGBA ZVYY EQ\aR23    201658 P  4439 GERAGBA ZVYY EQ\aRG24   202104 N  4439 GERAGBA ZVYY EQ\aRG24   203510 NE 4439 GERAGBA ZVYY EQ\aRG24   203528 EG ZQR BA FPRAR\aRG24   203954 P  4439 GERAGBA ZVYY EQ");
+
+    qbGrfg("G44",
+        "{PNQ} 20:11                 CebDn Qngn sbe Vapvqrag: 16006004\a\a" +
+        "GUR PNYYRE VF BA FPRAR (1FG CNEGL).                                           \a" +
+        "2. GUR PNYYRE VF ERCBEGVAT N SHRY FCVYY.                                      \a" +
+        "3. VG VF ABG XABJA VS GUR FCVYY VF FCERNQVAT.                                 \a" +
+        "4. VG VF ABG XABJA VS GUR FCVYY VF VA BE ARNE N JNGREJNL.                     \a" +
+        "5. GUR FVMR BS GUR FCVYY VF ABG XABJA.                                        \a" +
+        "6. GUR SHRY FCVYY VF BHGFVQR.                                                 \a" +
+        "7. GUR SHRY VAIBYIRQ VF TNFBYVAR.                                             \a" +
+        "8. A/N                                                                        \a" +
+        "9. GUR SHRY VF PBZVAT SEBZ: SEBZ GUR PNE                                      \a" +
+        "10. A/N                                                                       \a" +
+        "11. AB BAR VF ERCBEGRQYL FVPX BE VAWHERQ.                                     \a" +
+        "CEBDN PBZCYRGRQ                                                               \a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:TRA_NYREG",
+        "GVZR:20:11",
+        "VQ:16006004",
+        "VASB:CebDn Qngn sbe Vapvqrag: 16006004\a\aGUR PNYYRE VF BA FPRAR (1FG CNEGL).\a2. GUR PNYYRE VF ERCBEGVAT N SHRY FCVYY.\a3. VG VF ABG XABJA VS GUR FCVYY VF FCERNQVAT.\a4. VG VF ABG XABJA VS GUR FCVYY VF VA BE ARNE N JNGREJNL.\a5. GUR FVMR BS GUR FCVYY VF ABG XABJA.\a6. GUR SHRY FCVYY VF BHGFVQR.\a7. GUR SHRY VAIBYIRQ VF TNFBYVAR.\a8. A/N\a9. GUR SHRY VF PBZVAT SEBZ: SEBZ GUR PNE\a10. A/N\a11. AB BAR VF ERCBEGRQYL FVPX BE VAWHERQ.\aCEBDN PBZCYRGRQ");
+
+    qbGrfg("G45",
+        "{PNQ} 20:11                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr FCVYYFZ  (FZ SHRY FCVYY       )                Vapvqrag Ab 16006004\a\a" +
+        "Ybp 4439 GERAGBA ZVYY EQ                                 HCPB  \a" +
+        "    JZ EJL                       PBHAGL OQEL                     21-X2   \a" +
+        "Anzr    QBAAN                         \a" +
+        "Nqqerff 422 UNABIRE CXR ; A FRPGBE               Cubar 271-8582   Nern 443\a" +
+        "Erznexf PNYYRE FGNGRZRAG: PNE YRNXVAT TNF QVFCNGPU PBQR: 59P03  (HAXABJA      \a" +
+        "        FVGHNGVBA (VAIRFGVTNGVBA)) FHSSVK: B  (BHGFVQR) ERFCBAFR: UNFZNG 1.   \a" +
+        "Cegl 2 Yri 5R Fep 1 Eq 0223   Fgn 02    Gnxref Vq XNC    Erp 20:11:04\a" +
+        "Qngr 04/17/16 Nynez Vq                  Qvfcng Vq PBEZVY Qvf 20:11:41\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf R23    \a\a" +
+        "*** Cerzvfr Vasb ***\a" +
+        "08/17/08 14:20 VIG      (VIG ZRQVPNY NYNEZ   ) NCG      10     08011617       \a" +
+        "12/06/09 00:42 NYF      (NYF ZRQVPNY PNYY    ) NCG      6      09016871       \a" +
+        "07/29/10 17:25 NYF      (NYF ZRQVPNY PNYY    ) NCG      3      10010652       \a" +
+        "04/06/12 07:25 NYF      (NYF ZRQVPNY PNYY    ) NCG      5      12004663       \a" +
+        "04/17/16 20:11 FCVYY    (YT SHRY FCVYY       ) NCG             16006004       \a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - OP43 - 4 - OP42 - OP41 - 9 - OP40 - OP49 - 7 - 3 - 13 - OP56 - LP52 - OP44",
+
+        "GVZR:20:11",
+        "PBQR:FCVYYFZ",
+        "PNYY:FZ SHRY FCVYY",
+        "VQ:16006004",
+        "NQQE:4439 GERAGBA ZVYY EQ",
+        "PVGL:HCCREPB",
+        "K:JZ EJL / PBHAGL OQEL",
+        "ZNC:21-X2",
+        "ANZR:QBAAN",
+        "CUBAR:(443) 271-8582",
+        "VASB:PNYYRE FGNGRZRAG: PNE YRNXVAT TNF QVFCNGPU PBQR: 59P03  (HAXABJA\aFVGHNGVBA (VAIRFGVTNGVBA)) FHSSVK: B  (BHGFVQR) ERFCBAFR: UNFZNG 1.\aCegl 2 Yri 5R Fep 1 Eq 0223   Fgn 02    Gnxref Vq XNC    Erp 20:11:04\aQngr 04/17/16 Nynez Vq                  Qvfcng Vq PBEZVY Qvf 20:11:41\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a08/17/08 14:20 VIG      (VIG ZRQVPNY NYNEZ   ) NCG      10     08011617\a12/06/09 00:42 NYF      (NYF ZRQVPNY PNYY    ) NCG      6      09016871\a07/29/10 17:25 NYF      (NYF ZRQVPNY PNYY    ) NCG      3      10010652\a04/06/12 07:25 NYF      (NYF ZRQVPNY PNYY    ) NCG      5      12004663\a04/17/16 20:11 FCVYY    (YT SHRY FCVYY       ) NCG             16006004\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - OP41 - 9 - OP40 - OP49 - 7 - 3 - 13 - OP56 - LP52 - OP44",
+        "HAVG:R23");
+
+    qbGrfg("G46",
+        "{PNQ} 17:48          VAPVQRAG HAVG UVFGBEL SBE: 16005989  CNTR 1\a" +
+        "                       QNGR: 041716  PNYYGLCR: VAW     \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    160816 Q  PNCR UBEA CNEX @2300   \a" +
+        "SE4    160816 Q  PNCR UBEA CNEX @2300   \a" +
+        "K29    160951 R  PNCR UBEA CNEX @2300   \a" +
+        "K29    160953 ER CZ                     \a" +
+        "SE4    161205 EG RKPUNATRQ SBE: QGL4    \a" +
+        "SE4    161205 RK PNCR UBEA CNEX @2300   \a" +
+        "QGL4   161205 R  PNCR UBEA CNEX @2300   \a" +
+        "K29    161457 N  PNCR UBEA CNEX @2300   \a" +
+        "QGL4   162000 N  PNCR UBEA CNEX @2300   \a" +
+        "K29    163104 RU CEV 3 PUP              \a" +
+        "QGL4   163230 P  PNCR UBEA CNEX @2300   \a" +
+        "K29    164857 NU CEV 3 PUP              \a" +
+        "K29    173228 NE CEV 3 PUP              \a" +
+        "K29    174800 P  CEV 3 PUP",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:17:48",
+        "VQ:16005989",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16005989  CNTR 1\aQNGR: 041716  PNYYGLCR: VAW\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    160816 Q  PNCR UBEA CNEX @2300\aSE4    160816 Q  PNCR UBEA CNEX @2300\aK29    160951 R  PNCR UBEA CNEX @2300\aK29    160953 ER CZ\aSE4    161205 EG RKPUNATRQ SBE: QGL4\aSE4    161205 RK PNCR UBEA CNEX @2300\aQGL4   161205 R  PNCR UBEA CNEX @2300\aK29    161457 N  PNCR UBEA CNEX @2300\aQGL4   162000 N  PNCR UBEA CNEX @2300\aK29    163104 RU CEV 3 PUP\aQGL4   163230 P  PNCR UBEA CNEX @2300\aK29    164857 NU CEV 3 PUP\aK29    173228 NE CEV 3 PUP\aK29    174800 P  CEV 3 PUP");
+
+    qbGrfg("G47",
+        "{PNQ} 16:08                 CebDn Qngn sbe Vapvqrag: 16005989\a\a" +
+        "ERFCBAFR: VAW                                                                 \a" +
+        "1. GUVF UNCCRARQ ABJ (YRFF GUNA 6UEF NTB).                                    \a" +
+        "2. GURER VF AB OYRRQVAT ABJ.                                                  \a" +
+        "3. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).                         \a" +
+        "4. GUR VAWHEL VF GB N ABG QNATREBHF NERN.                                     \a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:TRA_NYREG",
+        "GVZR:16:08",
+        "VQ:16005989",
+        "VASB:CebDn Qngn sbe Vapvqrag: 16005989\a\aERFCBAFR: VAW\a1. GUVF UNCCRARQ ABJ (YRFF GUNA 6UEF NTB).\a2. GURER VF AB OYRRQVAT ABJ.\a3. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).\a4. GUR VAWHEL VF GB N ABG QNATREBHF NERN.");
+
+    qbGrfg("G48",
+        "{PNQ} 16:08                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr VAW      (VAW CREFBA/OYF      )                Vapvqrag Ab 16005989\a\a" +
+        "Ybp PNCR UBEA CNEX @2300 A PNCR UBEA EQ                  UNZC  \a" +
+        "    FHFNANAA QE                  QNEYRAR EQ                      14-Q6   \a" +
+        "Anzr    FGRIR                         \a" +
+        "Nqqerff                                          Cubar 808-8311   Nern 410\a" +
+        "Erznexf 14-LRNE-BYQ, ZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: JEVFG      \a" +
+        "        VAWHEL NG YNPEBFFR QVFCNGPU PBQR: 30N01  (ABG QNATREBHF OBQL NERN)    \a" +
+        "Cegl 2 Yri 59 Fep C Eq 0409   Fgn 04    Gnxref Vq XNC    Erp 16:08:04\a" +
+        "Qngr 04/17/16 Nynez Vq                  Qvfcng Vq ELNZRH Qvf 16:08:16\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf K29    SE4    \a\a" +
+        "*** Cerzvfr Vasb ***\a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "4 - 2 - OP43 - 7 - 3 - LP52 - 9 - OP42 - 6 - LP49 - OP49 - OP41 - OP40 - LP46",
+
+        "GVZR:16:08",
+        "PBQR:VAW",
+        "PNYY:VAW CREFBA/OYF",
+        "VQ:16005989",
+        "CYNPR:PNCR UBEA CNEX",
+        "NQQE:2300 A PNCR UBEA EQ",
+        "PVGL:UNZCFGRNQ",
+        "K:FHFNANAA QE / QNEYRAR EQ",
+        "ZNC:14-Q6",
+        "ANZR:FGRIR",
+        "CUBAR:(410) 808-8311",
+        "VASB:14-LRNE-BYQ, ZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: JEVFG\aVAWHEL NG YNPEBFFR QVFCNGPU PBQR: 30N01  (ABG QNATREBHF OBQL NERN)\aCegl 2 Yri 59 Fep C Eq 0409   Fgn 04    Gnxref Vq XNC    Erp 16:08:04\aQngr 04/17/16 Nynez Vq                  Qvfcng Vq ELNZRH Qvf 16:08:16\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a*** Sver Obk Vasb ***\a4 - 2 - OP43 - 7 - 3 - LP52 - 9 - OP42 - 6 - LP49 - OP49 - OP41 - OP40 - LP46",
+        "HAVG:K29    SE4");
+
+    qbGrfg("G49",
+        "{PNQ} 14:30          VAPVQRAG HAVG UVFGBEL SBE: 16005980  CNTR 1\a" +
+        "                       QNGR: 041716  PNYYGLCR: VAW     \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    132113 Q  UNZCFGRNQ ZHAVPVCNY    RG24   143004 P  UNZCFGRNQ ZHAVPVCNY  \a" +
+        "K29    132235 R  UNZCFGRNQ ZHAVPVCNY    \a" +
+        "K29    132237 ER CZ                     \a" +
+        "K29    132502 N  UNZCFGRNQ ZHAVPVCNY    \a" +
+        "R23    133817 Q  UNZCFGRNQ ZHAVPVCNY    \a" +
+        "U3     133823 OH UNZCFGRNQ ZHAVPVCNY    \a" +
+        "U3     133823 R  UNZCFGRNQ ZHAVPVCNY    \a" +
+        "U3     133841 EG 24ZVA                  \a" +
+        "R23    134042 EG RKPUNATRQ SBE: RG24    \a" +
+        "R23    134042 RK UNZCFGRNQ ZHAVPVCNY    \a" +
+        "RG24   134042 R  UNZCFGRNQ ZHAVPVCNY    \a" +
+        "RG24   134256 N  UNZCFGRNQ ZHAVPVCNY    \a" +
+        "U3     141300 N  UNZCFGRNQ ZHAVPVCNY    \a" +
+        "U3     142219 P  UNZCFGRNQ ZHAVPVCNY    \a" +
+        "RG24   142224 NE UNZCFGRNQ ZHAVPVCNY    \a" +
+        "K29    142300 YU UNZCFGRNQ ZHAVPVCNY    \a" +
+        "K29    142648 P  UNZCFGRNQ ZHAVPVCNY",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:14:30",
+        "VQ:16005980",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16005980  CNTR 1\aQNGR: 041716  PNYYGLCR: VAW\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    132113 Q  UNZCFGRNQ ZHAVPVCNY    RG24   143004 P  UNZCFGRNQ ZHAVPVCNY\aK29    132235 R  UNZCFGRNQ ZHAVPVCNY\aK29    132237 ER CZ\aK29    132502 N  UNZCFGRNQ ZHAVPVCNY\aR23    133817 Q  UNZCFGRNQ ZHAVPVCNY\aU3     133823 OH UNZCFGRNQ ZHAVPVCNY\aU3     133823 R  UNZCFGRNQ ZHAVPVCNY\aU3     133841 EG 24ZVA\aR23    134042 EG RKPUNATRQ SBE: RG24\aR23    134042 RK UNZCFGRNQ ZHAVPVCNY\aRG24   134042 R  UNZCFGRNQ ZHAVPVCNY\aRG24   134256 N  UNZCFGRNQ ZHAVPVCNY\aU3     141300 N  UNZCFGRNQ ZHAVPVCNY\aU3     142219 P  UNZCFGRNQ ZHAVPVCNY\aRG24   142224 NE UNZCFGRNQ ZHAVPVCNY\aK29    142300 YU UNZCFGRNQ ZHAVPVCNY\aK29    142648 P  UNZCFGRNQ ZHAVPVCNY");
+
+    qbGrfg("G50",
+        "{PNQ} 13:38                 CebDn Qngn sbe Vapvqrag: 16005980\a\a" +
+        "VAW                                                                           \a" +
+        "1. GUVF UNCCRARQ ABJ (YRFF GUNA 6UEF NTB).                                    \a" +
+        "2. GURER VF AB OYRRQVAT ABJ.                                                  \a" +
+        "3. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).                         \a" +
+        "4. GUR VAWHEL VF GB GUR ARPX.                                                 \a" +
+        "5. UR VF ABG UNIVAT QVSSVPHYGL OERNGUVAT.                                     \a" +
+        "CEBDN PBZCYRGRQ                                                               \a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:TRA_NYREG",
+        "GVZR:13:38",
+        "VQ:16005980",
+        "VASB:CebDn Qngn sbe Vapvqrag: 16005980\a\aVAW\a1. GUVF UNCCRARQ ABJ (YRFF GUNA 6UEF NTB).\a2. GURER VF AB OYRRQVAT ABJ.\a3. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).\a4. GUR VAWHEL VF GB GUR ARPX.\a5. UR VF ABG UNIVAT QVSSVPHYGL OERNGUVAT.\aCEBDN PBZCYRGRQ");
+
+    qbGrfg("G51",
+        "{PNQ} 13:38                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr VAW      (VAW CREFBA/OYF      )                Vapvqrag Ab 16005980\a\a" +
+        "Ybp UNZCFGRNQ ZHAVPVCNY CNEX @ FUBRZNXRE QE                    \a" +
+        "    QNXBGN EQ                                                            \a" +
+        "Anzr    WBUA                          \a" +
+        "Nqqerff FBPPRE SVRYQ                             Cubar    -       Nern    \a" +
+        "Erznexf 11-LRNE-BYQ, ZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: XARR GB GUR\a" +
+        "         URNQ QVFCNGPU PBQR: 30O01  (CBFFVOYL QNATREBHF OBQL NERN) ERFCBAFR:  \a" +
+        "Cegl 2 Yri 59 Fep C Eq 0208   Fgn 02    Gnxref Vq FUS    Erp 13:21:03\a" +
+        "Qngr 04/17/16 Nynez Vq                  Qvfcng Vq ELNZRH Qvf 13:21:13\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf K29    R23    \a\a" +
+        "*** Cerzvfr Vasb ***\a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - 4 - OP43 - OP42(AB GENA) - 3 - 7 - 9 - OP41 - LP52 - 13 - OP44 - OP56 - 6",
+
+        "GVZR:13:38",
+        "PBQR:VAW",
+        "PNYY:VAW CREFBA/OYF",
+        "VQ:16005980",
+        "CYNPR:UNZCFGRNQ ZHAVPVCNY CNEX - FBPPRE SVRYQ",
+        "NQQE:FUBRZNXRE QE",
+        "ZNQQE:FUBRZNXRE QE & QNXBGN EQ",
+        "K:QNXBGN EQ",
+        "ANZR:WBUA",
+        "VASB:11-LRNE-BYQ, ZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: XARR GB GUR\aURNQ QVFCNGPU PBQR: 30O01  (CBFFVOYL QNATREBHF OBQL NERN) ERFCBAFR:\aCegl 2 Yri 59 Fep C Eq 0208   Fgn 02    Gnxref Vq FUS    Erp 13:21:03\aQngr 04/17/16 Nynez Vq                  Qvfcng Vq ELNZRH Qvf 13:21:13\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a*** Sver Obk Vasb ***\a2 - 4 - OP43 - OP42(AB GENA) - 3 - 7 - 9 - OP41 - LP52 - 13 - OP44 - OP56 - 6",
+        "HAVG:K29    R23");
+
+    qbGrfg("G52",
+        "{PNQ} 13:21                 CebDn Qngn sbe Vapvqrag: 16005980\a\a" +
+        "VAW                                                                           \a" +
+        "1. GUVF UNCCRARQ ABJ (YRFF GUNA 6UEF NTB).                                    \a" +
+        "2. GURER VF AB OYRRQVAT ABJ.                                                  \a" +
+        "3. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).                         \a" +
+        "4. GUR VAWHEL VF GB GUR ARPX.                                                 \a" +
+        "5. UR VF ABG UNIVAT QVSSVPHYGL OERNGUVAT.                                     \a" +
+        "CEBDN PBZCYRGRQ                                                               \a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:TRA_NYREG",
+        "GVZR:13:21",
+        "VQ:16005980",
+        "VASB:CebDn Qngn sbe Vapvqrag: 16005980\a\aVAW\a1. GUVF UNCCRARQ ABJ (YRFF GUNA 6UEF NTB).\a2. GURER VF AB OYRRQVAT ABJ.\a3. UR VF PBZCYRGRYL NYREG (ERFCBAQVAT NCCEBCEVNGRYL).\a4. GUR VAWHEL VF GB GUR ARPX.\a5. UR VF ABG UNIVAT QVSSVPHYGL OERNGUVAT.\aCEBDN PBZCYRGRQ");
+
+    qbGrfg("G53",
+        "{PNQ} 13:21                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr VAW      (VAW CREFBA/OYF      )                Vapvqrag Ab 16005980\a\a" +
+        "Ybp UNZCFGRNQ ZHAVPVCNY CNEX @ FUBRZNXRE QE                    \a" +
+        "    QNXBGN EQ                                                            \a" +
+        "Anzr    WBUA                          \a" +
+        "Nqqerff FBPPRE SVRYQ                             Cubar    -       Nern    \a" +
+        "Erznexf 11-LRNE-BYQ, ZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: XARR GB GUR\a" +
+        "         URNQ QVFCNGPU PBQR: 30O01  (CBFFVOYL QNATREBHF OBQL NERN) ERFCBAFR:  \a" +
+        "Cegl 2 Yri 59 Fep C Eq 0208   Fgn 02    Gnxref Vq FUS    Erp 13:21:03\a" +
+        "Qngr 04/17/16 Nynez Vq                  Qvfcng Vq ELNZRH Qvf 13:21:13\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf K29    \a\a" +
+        "*** Cerzvfr Vasb ***\a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - 4 - OP43 - OP42(AB GENA) - 3 - 7 - 9 - OP41 - LP52 - 13 - OP44 - OP56 - 6",
+
+        "GVZR:13:21",
+        "PBQR:VAW",
+        "PNYY:VAW CREFBA/OYF",
+        "VQ:16005980",
+        "CYNPR:UNZCFGRNQ ZHAVPVCNY CNEX - FBPPRE SVRYQ",
+        "NQQE:FUBRZNXRE QE",
+        "ZNQQE:FUBRZNXRE QE & QNXBGN EQ",
+        "K:QNXBGN EQ",
+        "ANZR:WBUA",
+        "VASB:11-LRNE-BYQ, ZNYR, PBAFPVBHF, OERNGUVAT. PNYYRE FGNGRZRAG: XARR GB GUR\aURNQ QVFCNGPU PBQR: 30O01  (CBFFVOYL QNATREBHF OBQL NERN) ERFCBAFR:\aCegl 2 Yri 59 Fep C Eq 0208   Fgn 02    Gnxref Vq FUS    Erp 13:21:03\aQngr 04/17/16 Nynez Vq                  Qvfcng Vq ELNZRH Qvf 13:21:13\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a*** Sver Obk Vasb ***\a2 - 4 - OP43 - OP42(AB GENA) - 3 - 7 - 9 - OP41 - LP52 - 13 - OP44 - OP56 - 6",
+        "HAVG:K29");
+
+    qbGrfg("G54",
+        "{PNQ} 02:44          VAPVQRAG HAVG UVFGBEL SBE: 16005962  CNTR 1\a" +
+        "                       QNGR: 041716  PNYYGLCR: IPE     \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    014726 Q  3817 FNVAG CNHY EQ     EF9    015800 P  3817 FNVAG CNHY EQ   \a" +
+        "OZ435  014726 Q  3817 FNVAG CNHY EQ     RG24   015904 N  3817 FNVAG CNHY EQ   \a" +
+        "R23    014726 Q  3817 FNVAG CNHY EQ     G2     020031 N  3817 FNVAG CNHY EQ   \a" +
+        "OR432  014726 Q  3817 FNVAG CNHY EQ     OR432  020514 P  3817 FNVAG CNHY EQ   \a" +
+        "G2     014726 Q  3817 FNVAG CNHY EQ     K29    023122 NE 3817 FNVAG CNHY EQ   \a" +
+        "EF9    014726 Q  3817 FNVAG CNHY EQ     RG24   023509 NE 3817 FNVAG CNHY EQ   \a" +
+        "K29    015029 EG FTG2-2 RAEBHGR GB FP   G2     023527 NE 3817 FNVAG CNHY EQ   \a" +
+        "K29    015102 R  3817 FNVAG CNHY EQ     K29    023928 P  3817 FNVAG CNHY EQ   \a" +
+        "K29    015104 ER Z                      RG24   024449 P  3817 FNVAG CNHY EQ   \a" +
+        "R23    015227 EG RKPUNATRQ SBE: RG24    G2     024450 P  3817 FNVAG CNHY EQ   \a" +
+        "R23    015227 RK 3817 FNVAG CNHY EQ     \a" +
+        "RG24   015227 R  3817 FNVAG CNHY EQ     \a" +
+        "OZ435  015242 P  3817 FNVAG CNHY EQ     \a" +
+        "G2     015409 R  3817 FNVAG CNHY EQ     \a" +
+        "EF9    015411 R  3817 FNVAG CNHY EQ     \a" +
+        "EF9    015624 NE 3817 FNVAG CNHY EQ     \a" +
+        "K29    015635 N  3817 FNVAG CNHY EQ",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:02:44",
+        "VQ:16005962",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16005962  CNTR 1\aQNGR: 041716  PNYYGLCR: IPE\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    014726 Q  3817 FNVAG CNHY EQ     EF9    015800 P  3817 FNVAG CNHY EQ\aOZ435  014726 Q  3817 FNVAG CNHY EQ     RG24   015904 N  3817 FNVAG CNHY EQ\aR23    014726 Q  3817 FNVAG CNHY EQ     G2     020031 N  3817 FNVAG CNHY EQ\aOR432  014726 Q  3817 FNVAG CNHY EQ     OR432  020514 P  3817 FNVAG CNHY EQ\aG2     014726 Q  3817 FNVAG CNHY EQ     K29    023122 NE 3817 FNVAG CNHY EQ\aEF9    014726 Q  3817 FNVAG CNHY EQ     RG24   023509 NE 3817 FNVAG CNHY EQ\aK29    015029 EG FTG2-2 RAEBHGR GB FP   G2     023527 NE 3817 FNVAG CNHY EQ\aK29    015102 R  3817 FNVAG CNHY EQ     K29    023928 P  3817 FNVAG CNHY EQ\aK29    015104 ER Z                      RG24   024449 P  3817 FNVAG CNHY EQ\aR23    015227 EG RKPUNATRQ SBE: RG24    G2     024450 P  3817 FNVAG CNHY EQ\aR23    015227 RK 3817 FNVAG CNHY EQ\aRG24   015227 R  3817 FNVAG CNHY EQ\aOZ435  015242 P  3817 FNVAG CNHY EQ\aG2     015409 R  3817 FNVAG CNHY EQ\aEF9    015411 R  3817 FNVAG CNHY EQ\aEF9    015624 NE 3817 FNVAG CNHY EQ\aK29    015635 N  3817 FNVAG CNHY EQ");
+
+    qbGrfg("G55",
+        "{PNQ} 01:47                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr IPE      (IP ERFPHR           )                Vapvqrag Ab 16005962\a\a" +
+        "Ybp 3817 FNVAG CNHY EQ                                   UNZC  \a" +
+        "    UBHPXFIVYYR EQ               OYHR TENFF YN                   21-R5   \a" +
+        "Anzr    CNHY FGEVPXRE                 \a" +
+        "Nqqerff                                          Cubar 205-3244   Nern 410\a" +
+        "Erznexf 1 CVPX HC SYVCCRQ BSS GUR EBNQ // 1 GENCCRQ                           \a" +
+        "                                                                              \a" +
+        "Cegl 2 Yri 4T Fep 1 Eq 0225   Fgn 02    Gnxref Vq XLYQRQ Erp 01:47:15\a" +
+        "Qngr 04/17/16 Nynez Vq                  Qvfcng Vq GYZ    Qvf 01:47:26\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf K29    OZ435  R23    OR432  G2     EF9    \a\a" +
+        "*** Cerzvfr Vasb ***\a" +
+        "08/13/14 14:35 FVPX     (FVPX CREFBA/OYF     ) NCG             14012189       \a" +
+        "08/31/14 20:25 URZ      (URZBEEUNTR/OYF      ) NCG             14013088       \a" +
+        "04/17/16 01:47 IPE      (IP ERFPHR           ) NCG             16005962       \a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - OP43 - OP42 - 9 - 13 - OP41 - OP40 - 4 - 3 - OP49 - OP56 - 7 - 12 - OP31  \a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GVZR:01:47",
+        "PBQR:IPE",
+        "PNYY:IP ERFPHR",
+        "VQ:16005962",
+        "NQQE:3817 FNVAG CNHY EQ",
+        "PVGL:UNZCFGRNQ",
+        "K:UBHPXFIVYYR EQ / OYHR TENFF YN",
+        "ZNC:21-R5",
+        "ANZR:CNHY FGEVPXRE",
+        "CUBAR:(410) 205-3244",
+        "VASB:1 CVPX HC SYVCCRQ BSS GUR EBNQ // 1 GENCCRQ\aCegl 2 Yri 4T Fep 1 Eq 0225   Fgn 02    Gnxref Vq XLYQRQ Erp 01:47:15\aQngr 04/17/16 Nynez Vq                  Qvfcng Vq GYZ    Qvf 01:47:26\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a08/13/14 14:35 FVPX     (FVPX CREFBA/OYF     ) NCG             14012189\a08/31/14 20:25 URZ      (URZBEEUNTR/OYF      ) NCG             14013088\a04/17/16 01:47 IPE      (IP ERFPHR           ) NCG             16005962\a*** Sver Obk Vasb ***\a2 - OP43 - OP42 - 9 - 13 - OP41 - OP40 - 4 - 3 - OP49 - OP56 - 7 - 12 - OP31",
+        "HAVG:K29    OZ435  R23    OR432  G2     EF9");
+
+    qbGrfg("G56",
+        "{PNQ} 20:09          VAPVQRAG HAVG UVFGBEL SBE: 16005946  CNTR 1\a" +
+        "                       QNGR: 041616  PNYYGLCR: NYNEZ 1 \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "R23    194234 Q  2809 JVYYBJ IVRJ PG    \a" +
+        "R23    194547 EG RKPUNATRQ SBE: RG24    \a" +
+        "R23    194547 RK 2809 JVYYBJ IVRJ PG    \a" +
+        "RG24   194547 R  2809 JVYYBJ IVRJ PG    \a" +
+        "RG24   195210 N  2809 JVYYBJ IVRJ PG    \a" +
+        "RG24   195622 NE 2809 JVYYBJ IVRJ PG    \a" +
+        "RG24   200917 P  2809 JVYYBJ IVRJ PG",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:20:09",
+        "VQ:16005946",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16005946  CNTR 1\aQNGR: 041616  PNYYGLCR: NYNEZ 1\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aR23    194234 Q  2809 JVYYBJ IVRJ PG\aR23    194547 EG RKPUNATRQ SBE: RG24\aR23    194547 RK 2809 JVYYBJ IVRJ PG\aRG24   194547 R  2809 JVYYBJ IVRJ PG\aRG24   195210 N  2809 JVYYBJ IVRJ PG\aRG24   195622 NE 2809 JVYYBJ IVRJ PG\aRG24   200917 P  2809 JVYYBJ IVRJ PG");
+
+    qbGrfg("G57",
+        "{PNQ} 19:42                 CebDn Qngn sbe Vapvqrag: 16005946\a\a" +
+        "PNYYRE VF NA NYNEZ ZBAVGBEVAT PBZCNAL.                                        \a" +
+        "2. VG VF N XRLCNQ (ZNAHNY) NYNEZ.                                             \a" +
+        "3. GUR RKNPG NERN BE MBAR NPGVINGRQ VF ABG XABJA.                             \a" +
+        "4. GUR ANZR BS GUR OHFVARFF/ERFVQRAG/BJARE VF: ORIREYL QBABUHR                \a" +
+        "5. GUR VAPVQRAG VAIBYIRF N FVATYR-SNZVYL ERFVQRAGVNY FGEHPGHER.               \a" +
+        "6. GUR CUBAR AHZORE BS GUR OHFVARFF/ERFVQRAG/BJARE VF: 4102297521             \a" +
+        "CEBDN PBZCYRGRQ                                                               \a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GLCR:TRA_NYREG",
+        "GVZR:19:42",
+        "VQ:16005946",
+        "VASB:CebDn Qngn sbe Vapvqrag: 16005946\a\aPNYYRE VF NA NYNEZ ZBAVGBEVAT PBZCNAL.\a2. VG VF N XRLCNQ (ZNAHNY) NYNEZ.\a3. GUR RKNPG NERN BE MBAR NPGVINGRQ VF ABG XABJA.\a4. GUR ANZR BS GUR OHFVARFF/ERFVQRAG/BJARE VF: ORIREYL QBABUHR\a5. GUR VAPVQRAG VAIBYIRF N FVATYR-SNZVYL ERFVQRAGVNY FGEHPGHER.\a6. GUR CUBAR AHZORE BS GUR OHFVARFF/ERFVQRAG/BJARE VF: 4102297521\aCEBDN PBZCYRGRQ");
+
+    qbGrfg("G58",
+        "{PNQ} 19:42                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr NYNEZ 1  (ERF SVER NYNEZ      )                Vapvqrag Ab 16005946\a\a" +
+        "Ybp 2809 JVYYBJ IVRJ PG                                  UNZC  \a" +
+        "    JVYYBJ IVRJ FG               (QRNQ RAQ)                      15-N4   \a" +
+        "Anzr    NQG/137328                    \a" +
+        "Nqqerff                                          Cubar 285-7397   Nern 877\a" +
+        "Erznexf PNYYRE FGNGRZRAG: SVER NYNZE QVFCNGPU PBQR: 52O01  (ERFVQRAGVNY       \a" +
+        "        (FVATYR)) FHSSVK: X  (XRLCNQ (ZNAHNY)) ERFCBAFR: NYNEZ 1 1. GUR       \a" +
+        "Cegl 3 Yri 55 Fep C Eq 0215   Fgn 02    Gnxref Vq NFUPEB Erp 19:42:24\a" +
+        "Qngr 04/16/16 Nynez Vq                  Qvfcng Vq GYZ    Qvf 19:42:34\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf R23    \a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - 4 - OP43 - 7 - OP42 - 3 - 9 - OP49 - LP52 - OP44 - OP53 - OP41 - OP40- OP6",
+
+        "GVZR:19:42",
+        "PBQR:NYNEZ 1",
+        "PNYY:ERF SVER NYNEZ",
+        "VQ:16005946",
+        "NQQE:2809 JVYYBJ IVRJ PG",
+        "PVGL:UNZCFGRNQ",
+        "K:JVYYBJ IVRJ FG / (QRNQ RAQ)",
+        "ZNC:15-N4",
+        "ANZR:NQG/137328",
+        "CUBAR:(877) 285-7397",
+        "VASB:PNYYRE FGNGRZRAG: SVER NYNZE QVFCNGPU PBQR: 52O01  (ERFVQRAGVNY\a(FVATYR)) FHSSVK: X  (XRLCNQ (ZNAHNY)) ERFCBAFR: NYNEZ 1 1. GUR\aCegl 3 Yri 55 Fep C Eq 0215   Fgn 02    Gnxref Vq NFUPEB Erp 19:42:24\aQngr 04/16/16 Nynez Vq                  Qvfcng Vq GYZ    Qvf 19:42:34\aEnqvb Puf:                    Ery S#:\a*** Sver Obk Vasb ***\a2 - 4 - OP43 - 7 - OP42 - 3 - 9 - OP49 - LP52 - OP44 - OP53 - OP41 - OP40- OP6",
+        "HAVG:R23");
+
+    qbGrfg("G59",
+        "{PNQ} 17:36          VAPVQRAG HAVG UVFGBEL SBE: 16005939  CNTR 1\a" +
+        "                       QNGR: 041616  PNYYGLCR: QVNO    \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    170022 Q  JRVF ZNEXRG @720 UNA   \a" +
+        "K29    170250 R  JRVF ZNEXRG @720 UNA   \a" +
+        "K29    170251 ER Z                      \a" +
+        "K29    170515 N  JRVF ZNEXRG @720 UNA   \a" +
+        "K29    173305 EG CG ERSHFNY             \a" +
+        "K29    173611 P  JRVF ZNEXRG @720 UNA",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:17:36",
+        "VQ:16005939",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16005939  CNTR 1\aQNGR: 041616  PNYYGLCR: QVNO\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    170022 Q  JRVF ZNEXRG @720 UNA\aK29    170250 R  JRVF ZNEXRG @720 UNA\aK29    170251 ER Z\aK29    170515 N  JRVF ZNEXRG @720 UNA\aK29    173305 EG CG ERSHFNY\aK29    173611 P  JRVF ZNEXRG @720 UNA");
+
+    qbGrfg("G60",
+        "{PNQ} 17:00                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr QVNO     (QVNORGVP/NYF        )                Vapvqrag Ab 16005939\a\a" +
+        "Ybp JRVF ZNEXRG @720 UNABIRE CXR                         UNZC  \a" +
+        "    JZ EJL                       ABEGUJBBQF GEY                  21-W1   \a" +
+        "Anzr    U6405                         \a" +
+        "Nqqerff                                          Cubar    -       Nern    \a" +
+        "Erznexf ZNYR QVNORGVP                                                         \a" +
+        "                                                                              \a" +
+        "Cegl 1 Yri 60 Fep C Eq 0217   Fgn 02    Gnxref Vq NFUPEB Erp 17:00:15\a" +
+        "Qngr 04/16/16 Nynez Vq                  Qvfcng Vq XFW    Qvf 17:00:22\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf K29    \a\a" +
+        "*** Cerzvfr Vasb ***\a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - OP43 - 4 - OP42 - 9 - OP41 - OP40 - 7 - 3 - OP49 - 13 - OP44 - OP53 - LP52\a\a" +
+        "<< RAQ BS ZRFFNTR >>",
+
+        "GVZR:17:00",
+        "PBQR:QVNO",
+        "PNYY:QVNORGVP/NYF",
+        "VQ:16005939",
+        "CYNPR:JRVF ZNEXRG",
+        "NQQE:720 UNABIRE CXR",
+        "ZNQQE:720 UNABIRE CVXR",
+        "PVGL:UNZCFGRNQ",
+        "K:JZ EJL / ABEGUJBBQF GEY",
+        "ZNC:21-W1",
+        "ANZR:U6405",
+        "VASB:ZNYR QVNORGVP\aCegl 1 Yri 60 Fep C Eq 0217   Fgn 02    Gnxref Vq NFUPEB Erp 17:00:15\aQngr 04/16/16 Nynez Vq                  Qvfcng Vq XFW    Qvf 17:00:22\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - 9 - OP41 - OP40 - 7 - 3 - OP49 - 13 - OP44 - OP53 - LP52",
+        "HAVG:K29");
+
+    qbGrfg("G61",
+        "{PNQ} 14:47          VAPVQRAG HAVG UVFGBEL SBE: 16005928  CNTR 1\a" +
+        "                       QNGR: 041616  PNYYGLCR: PURFG   \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "K29    125503 Q  4240 PELFGNY PG @PEL   \a" +
+        "K29    125654 R  4240 PELFGNY PG @PEL   \a" +
+        "K29    125657 ER Z                      \a" +
+        "K29    125955 N  4240 PELFGNY PG @PEL   \a" +
+        "K29    131737 RU PUP CEV2               \a" +
+        "K29    133234 NU PUP CEV2               \a" +
+        "K29    141500 NE PUP CEV2               \a" +
+        "K29    144700 P  PUP CEV2",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:14:47",
+        "VQ:16005928",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16005928  CNTR 1\aQNGR: 041616  PNYYGLCR: PURFG\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aK29    125503 Q  4240 PELFGNY PG @PEL\aK29    125654 R  4240 PELFGNY PG @PEL\aK29    125657 ER Z\aK29    125955 N  4240 PELFGNY PG @PEL\aK29    131737 RU PUP CEV2\aK29    133234 NU PUP CEV2\aK29    141500 NE PUP CEV2\aK29    144700 P  PUP CEV2");
+
+    qbGrfg("G62",
+        "{PNQ} 13:33          VAPVQRAG HAVG UVFGBEL SBE: 16005929  CNTR 1\a" +
+        "                       QNGR: 041616  PNYYGLCR: CRQ     \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "OZ435  125906 Q  ABEGUJBBQF GEY / EG    OZ435  132438 RU PUP CEV3             \a" +
+        "SE2    125906 Q  ABEGUJBBQF GEY / EG    R23    132652 NE ABEGUJBBQF GEY / EG  \a" +
+        "R23    125906 Q  ABEGUJBBQF GEY / EG    R23    133344 P  ABEGUJBBQF GEY / EG  \a" +
+        "RG24   130148 OH ABEGUJBBQF GEY / EG    \a" +
+        "RG24   130148 R  ABEGUJBBQF GEY / EG    \a" +
+        "FTG2-1 130205 OH ABEGUJBBQF GEY / EG    \a" +
+        "FTG2-1 130205 R  ABEGUJBBQF GEY / EG    \a" +
+        "R23    130246 R  ABEGUJBBQF GEY / EG    \a" +
+        "FTG2-1 130329 N  ABEGUJBBQF GEY / EG    \a" +
+        "OZ435  130339 R  ABEGUJBBQF GEY / EG    \a" +
+        "OZ435  130342 ER VIG                    \a" +
+        "OZ435  130343 N  ABEGUJBBQF GEY / EG    \a" +
+        "SE2    130420 P  ABEGUJBBQF GEY / EG    \a" +
+        "RG24   130427 NE ABEGUJBBQF GEY / EG    \a" +
+        "RG24   130428 OH ABEGUJBBQF GEY / EG    \a" +
+        "R23    130449 N  ABEGUJBBQF GEY / EG    \a" +
+        "FTG2-1 131055 P  ABEGUJBBQF GEY / EG",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:13:33",
+        "VQ:16005929",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16005929  CNTR 1\aQNGR: 041616  PNYYGLCR: CRQ\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aOZ435  125906 Q  ABEGUJBBQF GEY / EG    OZ435  132438 RU PUP CEV3\aSE2    125906 Q  ABEGUJBBQF GEY / EG    R23    132652 NE ABEGUJBBQF GEY / EG\aR23    125906 Q  ABEGUJBBQF GEY / EG    R23    133344 P  ABEGUJBBQF GEY / EG\aRG24   130148 OH ABEGUJBBQF GEY / EG\aRG24   130148 R  ABEGUJBBQF GEY / EG\aFTG2-1 130205 OH ABEGUJBBQF GEY / EG\aFTG2-1 130205 R  ABEGUJBBQF GEY / EG\aR23    130246 R  ABEGUJBBQF GEY / EG\aFTG2-1 130329 N  ABEGUJBBQF GEY / EG\aOZ435  130339 R  ABEGUJBBQF GEY / EG\aOZ435  130342 ER VIG\aOZ435  130343 N  ABEGUJBBQF GEY / EG\aSE2    130420 P  ABEGUJBBQF GEY / EG\aRG24   130427 NE ABEGUJBBQF GEY / EG\aRG24   130428 OH ABEGUJBBQF GEY / EG\aR23    130449 N  ABEGUJBBQF GEY / EG\aFTG2-1 131055 P  ABEGUJBBQF GEY / EG");
+
+    qbGrfg("G63",
+        "{PNQ} 13:40          VAPVQRAG HAVG UVFGBEL SBE: 16005919  CNTR 1\a" +
+        "                       QNGR: 041616  PNYYGLCR: FREIVPR \a" +
+        "HAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\a" +
+        "R23    103831 Q  1116 F ZNVA FG         GE1    133505 P  1116 F ZNVA FG       \a" +
+        "R43    104745 Q  1116 F ZNVA FG         RG24   134029 P  1116 F ZNVA FG       \a" +
+        "OR432  105722 Q  1116 F ZNVA FG         \a" +
+        "OR432  110427 R  1116 F ZNVA FG         \a" +
+        "R23    110757 EG RKPUNATRQ SBE: RG24    \a" +
+        "R23    110757 RK 1116 F ZNVA FG         \a" +
+        "RG24   110757 R  1116 F ZNVA FG         \a" +
+        "R43    110801 P  1116 F ZNVA FG         \a" +
+        "OR432  110814 P  1116 F ZNVA FG         \a" +
+        "RG24   111442 N  1116 F ZNVA FG         \a" +
+        "RG24   130143 NE 1116 F ZNVA FG         \a" +
+        "RG24   130148 OH 1116 F ZNVA FG         \a" +
+        "GE1    130416 Q  1116 F ZNVA FG         \a" +
+        "RG24   130428 OH 1116 F ZNVA FG         \a" +
+        "RG24   130428 R  1116 F ZNVA FG         \a" +
+        "RG24   130431 N  1116 F ZNVA FG         \a" +
+        "RG24   133501 NE 1116 F ZNVA FG",
+
+        "GLCR:EHA_ERCBEG",
+        "GVZR:13:40",
+        "VQ:16005919",
+        "VASB:VAPVQRAG HAVG UVFGBEL SBE: 16005919  CNTR 1\aQNGR: 041616  PNYYGLCR: FREIVPR\aHAVG   GVZR   PP ERZNEXF                HAVG   GVZR   PP ERZNEXF\aR23    103831 Q  1116 F ZNVA FG         GE1    133505 P  1116 F ZNVA FG\aR43    104745 Q  1116 F ZNVA FG         RG24   134029 P  1116 F ZNVA FG\aOR432  105722 Q  1116 F ZNVA FG\aOR432  110427 R  1116 F ZNVA FG\aR23    110757 EG RKPUNATRQ SBE: RG24\aR23    110757 RK 1116 F ZNVA FG\aRG24   110757 R  1116 F ZNVA FG\aR43    110801 P  1116 F ZNVA FG\aOR432  110814 P  1116 F ZNVA FG\aRG24   111442 N  1116 F ZNVA FG\aRG24   130143 NE 1116 F ZNVA FG\aRG24   130148 OH 1116 F ZNVA FG\aGE1    130416 Q  1116 F ZNVA FG\aRG24   130428 OH 1116 F ZNVA FG\aRG24   130428 R  1116 F ZNVA FG\aRG24   130431 N  1116 F ZNVA FG\aRG24   133501 NE 1116 F ZNVA FG");
+
+    qbGrfg("G64",
+        "{PNQ} 12:59                               QVFCNGPU VASB \a\a" +
+        "Pnyy Glcr CRQ      (CRQRFGEVNA FGEHPX   )                Vapvqrag Ab 16005929\a\a" +
+        "Ybp ABEGUJBBQF GEY / EG 30 OHFA                          UNZC  \a" +
+        "          /                                                      14-W13  \a" +
+        "Anzr    JVERYRFF-NG&G ZBOVYVGL(GPF)   \a" +
+        "Nqqerff QBANYQ                                   Cubar 204-1127   Nern 443\a" +
+        "Erznexf ZNYR BA OVXR UVG OL PNE / PBA NYREG / OERNGUVAT  / 50 LB ZNYR / PNE FG\a" +
+        "        VYY BA FPRAR                                                          \a" +
+        "Cegl 2 Yri 30 Fep 1 Eq 0217   Fgn 02    Gnxref Vq PQY    Erp 12:58:12\a" +
+        "Qngr 04/16/16 Nynez Vq                  Qvfcng Vq XFW    Qvf 12:59:06\a" +
+        "Enqvb Puf:                    Ery S#:         \a\a" +
+        "Havgf OZ435  SE2    R23    \a\a" +
+        "*** Cerzvfr Vasb ***\a" +
+        "10/17/09 13:10 IP       (IRUVPYR PBYYVFVBA   ) NCG             09014419       \a" +
+        "12/16/10 18:44 FREIVPR  (ABA RZRE FREIVPR    ) NCG             10017531       \a" +
+        "04/26/13 08:57 FREIVPR  (ABA RZRE FREIVPR    ) NCG             13006152       \a" +
+        "05/10/14 03:16 IP       (IRUVPYR PBYYVFVBA   ) NCG             14007284       \a" +
+        "09/22/15 22:54 IP       (IRUVPYR PBYYVFVBA   ) NCG             15014987       \a" +
+        "04/16/16 12:58 CRQ      (CRQRFGEVNA FGEHPX   ) NCG             16005929       \a\a" +
+        "*** Sver Obk Vasb ***\a" +
+        "2 - OP43 - 4 - OP42 - 9 - OP41 - OP40 - 7 - 3 - OP49 - 13 - OP44 - OP53 - LP52",
+
+        "GVZR:12:59",
+        "PBQR:CRQ",
+        "PNYY:CRQRFGEVNA FGEHPX",
+        "VQ:16005929",
+        "NQQE:ABEGUJBBQF GEY & EG 30 OHFA",
+        "PVGL:UNZCFGRNQ",
+        "ZNC:14-W13",
+        "CUBAR:(443) 204-1127",
+        "CYNPR:QBANYQ",
+        "VASB:ZNYR BA OVXR UVG OL PNE / PBA NYREG / OERNGUVAT  / 50 LB ZNYR / PNE FG\aVYY BA FPRAR\aCegl 2 Yri 30 Fep 1 Eq 0217   Fgn 02    Gnxref Vq PQY    Erp 12:58:12\aQngr 04/16/16 Nynez Vq                  Qvfcng Vq XFW    Qvf 12:59:06\aEnqvb Puf:                    Ery S#:\a*** Cerzvfr Vasb ***\a10/17/09 13:10 IP       (IRUVPYR PBYYVFVBA   ) NCG             09014419\a12/16/10 18:44 FREIVPR  (ABA RZRE FREIVPR    ) NCG             10017531\a04/26/13 08:57 FREIVPR  (ABA RZRE FREIVPR    ) NCG             13006152\a05/10/14 03:16 IP       (IRUVPYR PBYYVFVBA   ) NCG             14007284\a09/22/15 22:54 IP       (IRUVPYR PBYYVFVBA   ) NCG             15014987\a04/16/16 12:58 CRQ      (CRQRFGEVNA FGEHPX   ) NCG             16005929\a*** Sver Obk Vasb ***\a2 - OP43 - 4 - OP42 - 9 - OP41 - OP40 - 7 - 3 - OP49 - 13 - OP44 - OP53 - LP52",
+        "HAVG:OZ435  SE2    R23");
+
+  }
+
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj ZQPneebyyPbhaglNCnefreGrfg().trarengrGrfgf("G1");
   }

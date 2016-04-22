@@ -7,6 +7,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 /**
  * Carroll County, MD
@@ -36,6 +37,9 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    
+    // Try to parse long format
+    if (parseLongForm(subject, body, data)) return true;
     
     do {
       if (subject.equals("!")) break;
@@ -76,7 +80,6 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
 
   private static final Pattern MA_PTN = Pattern.compile("^(?:MA|MUTUAL AID ALARM) (?:BOX |[A-Z]{2} )?(?:(\\d{1,2}-\\d{1,2}(?:-\\d{1,2})?) )?|^([A-Z]+) +(\\d+-\\d+) +");
   private static final Pattern MA_SEPARATOR_PTN = Pattern.compile(" +- +| */ *| *; *");
-  private static final Pattern APT_PTN = Pattern.compile("(?:\\bAPT\\b|#) *([^ ]+)$");
   private static final Pattern CHANNEL_PTN = Pattern.compile("(?:[ \\.]+(CP|TB|TG|FC) *| +)(\\d{1,2}(?:-?[A-Z])?|WEST)$");
   private static final Pattern BOX_PTN = Pattern.compile("\\d{1,2}-\\d{1,2}(?:-\\d{1,2})?");
   private static final Pattern BOX_PTN2 = Pattern.compile("(?: +BOX)? +(\\d{1,2}-\\d{1,2}(?:-\\d{1,2})?)$");
@@ -204,62 +207,7 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
           fld = res.getRemainder();
         }
         
-        // Next check if the last token is a recognized city and
-        // strip it off if it is, otherwise it messes up the following logic
-        Parser p = new Parser(fld);
-        String city = CITY_CODES.getProperty(p.getLast(' '));
-        if (city != null) {
-          data.strCity = city;
-          fld = p.get();
-        }
-        
-        // Rest of address could include a place name separated by a ; or @
-        // Unfortunately, the two fields might be in either order :(
-        // Worse, there could be 3 or  more :(  In which case we only
-        // check the first two and force the last one into a place field
-        // And the place name might contain an apartment
-        String[] flds = fld.split(" *[;@] *", 3);
-        if (flds.length == 1) {
-          parseAddress(st, flags, fld, data);
-          if (data.strPlace.endsWith("/")) {
-            data.strAddress =  append(data.strPlace.substring(0,data.strPlace.length()-1).trim(), " & ", data.strAddress);
-            data.strPlace = "";
-          }
-        }
-        else {
-          String fld1 = flds[0];
-          String fld2 = flds[1];
-          String savePlace = flds.length > 2 ? flds[2] : "";
-          Result res1 = parseAddress(st, flags | FLAG_CHECK_STATUS, fld1);
-          Result res2 = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, fld2);
-          if (res2.getStatus() > res1.getStatus()) {
-            res1 = res2;
-            fld2 = fld1;
-          }
-          res1.getData(data);
-          if (data.strPlace.endsWith("/")) {
-            data.strAddress =  append(data.strPlace.substring(0,data.strPlace.length()-1).trim(), " & ", data.strAddress);
-            data.strPlace = "";
-          }
-          match = APT_PTN.matcher(fld2);
-          if (match.find()) {
-            data.strApt = match.group(1);
-            fld2 = fld2.substring(0,match.start()).trim();
-          }
-          if (data.strCall.length() == 0) {
-            data.strCall = fld;
-          } else {
-            data.strPlace = append(data.strPlace, " - ", fld2);
-          }
-          if (savePlace.length() > 0) {
-            match = APT_PTN.matcher(savePlace);
-            if (match.find()) {
-              data.strApt = append(data.strApt, "-", match.group(1));
-              savePlace =  savePlace.substring(0,match.start()).trim();
-            }
-            data.strPlace = append(data.strPlace, " - ", savePlace);
-          }
-        }
+        parseOurAddress(st, flags, fld, data);
       }
     }
     
@@ -288,6 +236,177 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "BOX CITY ST";
+    }
+  }
+  
+  private static final Pattern PREFIX_PTN = Pattern.compile("(\\d\\d:\\d\\d) +");
+  private static final Pattern TRIM_SPACE_PTN = Pattern.compile(" +\n *| *\n +");
+  private static final Pattern CALL_ID_PTN = Pattern.compile("Call Type +([ A-Z0-9]+?) +\\(([^)]+)\\) +Incident No +(\\d+)");
+  private static final Pattern ADDR_PTN = Pattern.compile("Loc *\\b(.*?)");
+  private static final Pattern CROSS_MAP_PTN = Pattern.compile("(.*?) *(\\d+-[A-Z]\\d+)?");
+  private static final Pattern MBLANK_PTN = Pattern.compile(" {3,}");
+  private static final Pattern NAME_PTN = Pattern.compile("Name *(.*?)");
+  private static final Pattern PLACE_PHONE_PTN = Pattern.compile("Address (.*) Phone (.*) Area *(.*)");
+  private static final Pattern HOUSE_NBR_PTN = Pattern.compile("\\d+ .*");
+  private static final Pattern LONG_ID_PTN = Pattern.compile("(?:INCIDENT UNIT HISTORY FOR:|ProQa Data for Incident:) *(\\d+)\\b|\\d\\d/\\d\\d/\\d\\d +");
+  private static final Pattern UNIT_PTN = Pattern.compile("\nUnits *(.*)(?=\n|$)");
+
+  private boolean parseLongForm(String subject, String body, Data data) {
+    
+    // Check subject and message prfix
+    if (!subject.equals("CAD")) return false;
+    Matcher match = PREFIX_PTN.matcher(body);
+    if (!match.lookingAt()) return false;
+    
+    setFieldList("TIME CODE CALL ID ADDR APT CITY X MAP NAME PHONE PLACE INFO UNIT");
+    
+    data.strTime = match.group(1);
+    body = body.substring(match.end());
+    
+    // remove extraneous blanks
+    body = TRIM_SPACE_PTN.matcher(body).replaceAll("\n");
+    
+    // and message trailer
+    body = stripFieldEnd(body, "<< END OF MESSAGE >>");
+    
+    
+    // Parse dispatch alert
+    if (body.startsWith("DISPATCH INFO\n\n")) {
+      Parser p = new Parser(body.substring(15).replace("\n\n", "\n"));
+      match = CALL_ID_PTN.matcher(p.getLine());
+      if (!match.matches()) return false;
+      data.strCode = match.group(1);
+      data.strCall = match.group(2).trim();
+      data.strCallId = match.group(3);
+      
+      match = ADDR_PTN.matcher(p.getLine());
+      if (!match.matches()) return false;
+      String addr = match.group(1).trim();
+      int pt = addr.lastIndexOf(' ');
+      String city = CITY_CODES.getProperty(addr.substring(pt+1));
+      if (city != null) {
+        data.strCity = city;
+        addr = addr.substring(0,pt).trim();
+      }
+      parseOurAddress(StartType.START_ADDR, FLAG_ANCHOR_END, addr, data);
+      
+      String line = p.getLine();
+      if (!line.startsWith("Name")) {
+        match = CROSS_MAP_PTN.matcher(line);
+        if (!match.matches()) return false;
+        String cross = match.group(1);
+        cross = MBLANK_PTN.matcher(cross).replaceAll(" / ");
+        cross = stripFieldStart(cross, "/");
+        cross = stripFieldEnd(cross, "/");
+        data.strCross = cross;
+        data.strMap = getOptGroup(match.group(2));
+        
+        line = p.getLine();
+      }
+      
+      match = NAME_PTN.matcher(line);
+      if (!match.matches()) return false;
+      data.strName = cleanWirelessCarrier(match.group(1).trim());
+      
+      match = PLACE_PHONE_PTN.matcher(p.getLine());
+      if (!match.matches()) return false;
+      // Places that look like street addresses are probably
+      // cell tower location that we can ignore
+      String place = match.group(1).trim();
+      if (!HOUSE_NBR_PTN.matcher(place).matches()) {
+        if (!data.strPlace.equals(place)) {
+          data.strPlace = append(data.strPlace, " - ", place);
+        }
+      }
+      String phone = match.group(2).trim();
+      if (phone.length() > 1) {
+        String ac = match.group(3).trim();
+        if (ac.length() > 0) phone = '(' + ac + ") " + phone;
+        data.strPhone = phone;
+      }
+      
+      String info = stripFieldStart(p.get(), "Remarks");
+      match = UNIT_PTN.matcher(info);
+      if (match.find()) {
+        data.strUnit = match.group(1).trim();
+        info = info.substring(0,match.start()) + info.substring(match.end());
+      }
+      data.strSupp = info;
+      return true;
+    }
+    
+    // Try to find a call ID
+    match = LONG_ID_PTN.matcher(body);
+    if (!match.lookingAt()) return false;
+    data.strCallId = getOptGroup(match.group(1));
+    
+    // Set the message type
+    data.msgType = (body.startsWith("ProQa Data for Incident:") ? MsgType.GEN_ALERT : MsgType.RUN_REPORT);
+    
+    // Everything goes into info
+    data.strSupp = body;
+    return true;
+  }
+
+  private static final Pattern APT_PTN = Pattern.compile("(?:\\bAPT\\b|#) *([^ ]+)$", Pattern.CASE_INSENSITIVE);
+  
+  private void parseOurAddress(StartType st, int flags, String fld, Data data) {
+    
+    // Next check if the last token is a recognized city and
+    // strip it off if it is, otherwise it messes up the following logic
+    Parser p = new Parser(fld);
+    String city = CITY_CODES.getProperty(p.getLast(' '));
+    if (city != null) {
+      data.strCity = city;
+      fld = p.get();
+    }
+    
+    // Rest of address could include a place name separated by a ; or @
+    // Unfortunately, the two fields might be in either order :(
+    // Worse, there could be 3 or  more :(  In which case we only
+    // check the first two and force the last one into a place field
+    // And the place name might contain an apartment
+    String[] flds = fld.split(" *[;@] *", 3);
+    if (flds.length == 1) {
+      parseAddress(st, flags, fld, data);
+      if (data.strPlace.endsWith("/")) {
+        data.strAddress =  append(data.strPlace.substring(0,data.strPlace.length()-1).trim(), " & ", data.strAddress);
+        data.strPlace = "";
+      }
+    }
+    else {
+      String fld1 = flds[0];
+      String fld2 = flds[1];
+      String savePlace = flds.length > 2 ? flds[2] : "";
+      Result res1 = parseAddress(st, flags | FLAG_CHECK_STATUS, fld1);
+      Result res2 = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, fld2);
+      if (res2.getStatus() > res1.getStatus()) {
+        res1 = res2;
+        fld2 = fld1;
+      }
+      res1.getData(data);
+      if (data.strPlace.endsWith("/")) {
+        data.strAddress =  append(data.strPlace.substring(0,data.strPlace.length()-1).trim(), " & ", data.strAddress);
+        data.strPlace = "";
+      }
+      Matcher match = APT_PTN.matcher(fld2);
+      if (match.find()) {
+        data.strApt = match.group(1);
+        fld2 = fld2.substring(0,match.start()).trim();
+      }
+      if (data.strCall.length() == 0) {
+        data.strCall = fld;
+      } else {
+        data.strPlace = append(data.strPlace, " - ", fld2);
+      }
+      if (savePlace.length() > 0) {
+        match = APT_PTN.matcher(savePlace);
+        if (match.find()) {
+          data.strApt = append(data.strApt, "-", match.group(1));
+          savePlace =  savePlace.substring(0,match.start()).trim();
+        }
+        data.strPlace = append(data.strPlace, " - ", savePlace);
+      }
     }
   }
   

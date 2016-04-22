@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA53Parser;
 public class TXHelotesParser extends DispatchA53Parser {
 
   public TXHelotesParser() {
-    super(CITY_LIST, "HELOTES", "TX");
+    super("HELOTES", "TX");
   }
   
   @Override
