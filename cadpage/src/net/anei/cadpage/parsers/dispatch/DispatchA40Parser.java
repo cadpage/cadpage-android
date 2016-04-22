@@ -13,7 +13,7 @@ public class DispatchA40Parser extends SmartAddressParser {
     setFieldList("SRC CALL PLACE ADDR APT CITY X GPS INFO");
   }
 
-  private static Pattern NAT_LOC_COM = Pattern.compile("(?:(?:([A-Za-z]+):)?(?:\\[[A-Z0-9]+\\])?[- ]*- Nature:? )?(.*) - Location:? *(.*?)(?: [-.] (?:Comments:?)? *(.*))?");
+  private static Pattern NAT_LOC_COM = Pattern.compile("(?:(?:([A-Za-z]+):)?(?:\\[[A-Z0-9]+\\])?[- ]*- Nature:? *)?(.*) - Location:? *(.*?)(?: [-.] (?:Comments:?)? *(.*))?");
   private static Pattern DECIMAL_ADDR = Pattern.compile("(.+)\\b(\\d+\\.\\d{2} .*?)");
   private static Pattern INFO_GPS_PTN = Pattern.compile("([-+]\\d{3}\\.\\d{6} [-+]\\d{3}\\.\\d{6}) CF= *\\d*%? *");
 
