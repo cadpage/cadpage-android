@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA38Parser;
 public class MNWatonwanCountyParser extends DispatchA38Parser {
  
   public MNWatonwanCountyParser() {
-    super("BECKER COUNTY", "MN");
+    super("WATONWAN COUNTY", "MN");
   }
 
   @Override
