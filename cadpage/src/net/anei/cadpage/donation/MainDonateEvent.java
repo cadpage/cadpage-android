@@ -45,7 +45,9 @@ public class MainDonateEvent extends DonateScreenEvent {
         DemoDonateEvent.instance(),
         DemoExpireDonateEvent.instance(),
         Active911MissingParserDonateEvent.instance(),
-        Active911ParseWarnDonateEvent.instance());
+        Active911ParseWarnDonateEvent.instance(),
+        ObsoleteSupportDonateEvent.instance(),
+        GeneralParserDonateEvent.instance());
   }
 
   /**

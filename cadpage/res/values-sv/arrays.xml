@@ -39,6 +39,7 @@
     <item>Okänd användare</item>
     <item>market problem</item>
     <item>Gratis abonnemang</item>
+    <item>support old system</item> <!-- Translate -->
   </string-array>
   <string-array name="email_devel_text">
     <item>Vill du skicka ett email till utvecklarna av CadPage gällande generella fel eller kommentarer?</item>
