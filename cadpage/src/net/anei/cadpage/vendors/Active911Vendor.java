@@ -175,6 +175,7 @@ class Active911Vendor extends Vendor {
       "NZ/NI/Waikato",                    "ZNZNewZealand",
       "US/AK/CityofJuneau",               "AKJuneau",
       "US/AK/Fairbanks",                  "AKFairbanks",
+      "US/AK/MatanuskaSusitna",           "AKMatanuskaSusitnaBorough",
       "US/AL/AthensLimestoneCounty",      "ALLimestoneCounty",
       "US/AL/CalhounCounty",              "ALCalhounCounty",
       "US/AL/ChambersCounty",             "ALChambersCounty",
