@@ -743,6 +743,7 @@ class Active911Vendor extends Vendor {
       "US/NC/FranklinCounty",             "NCFranklinCounty",
       "US/NC/GastonCounty",               "NCGastonCounty",
       "US/NC/GatesCounty",                "NCGatesCounty",
+      "US/NC/GranvilleCounty",            "NCGranvilleCounty",
       "US/NC/GuilfordCounty",             "NCGuilfordCounty",
       "US/NC/HarnettCounty",              "NCHarnettCountyC",
       "US/NC/Havelock",                   "NCHavelock",
