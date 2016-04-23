@@ -668,6 +668,7 @@ class Active911Vendor extends Vendor {
       "US/MO/CityofMonett",               "MOMonett",
       "US/MO/CityofRolla",                "MOPhelpsCounty",
       "US/MO/CityofStJoseph",             "MOBuchananCountyA",
+      "US/MO/ClayCounty",                 "MOClayCounty",
       "US/MO/ClintonCounty",              "MOClintonCounty",
       "US/MO/ColeCounty",                 "MOColeCounty",
       "US/MO/CrawfordCounty",             "MOCrawfordCountyB",
