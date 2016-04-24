@@ -181,6 +181,13 @@ public class GroupBestParser extends GroupBaseParser {
     super.setTestMode(testMode);
     for (MsgParser parser : parsers) parser.setTestMode(testMode);
   }
+  
+  /**
+   * @return list of component subparsers
+   */
+  MsgParser[] getParsers() {
+    return parsers;
+  }
 
   @Override
   protected Data parseMsg(Message msg, int parserFlags) {
