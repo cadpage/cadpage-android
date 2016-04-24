@@ -40,7 +40,11 @@ public class NCHydeCountyParser extends DispatchB2Parser {
       "NEBRASKA",
       "OCRACOKE",
       "SCRANTON",
-      "SWAN QUARTER" 
+      "SWAN QUARTER",
+      
+      // Beafort County
+      "BELHAVEN",
+      "PANTEGO"
       
   };
 

@@ -6,30 +6,28 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
-public class ALJeffersonCountyGParser extends DispatchSouthernParser {
+public class ALJeffersonCountyHParser extends DispatchSouthernParser {
     
-  public ALJeffersonCountyGParser() {
+  public ALJeffersonCountyHParser() {
     super(ALJeffersonCountyParser.CITY_LIST, "JEFFERSON COUNTY", "AL",
-          "ADDR/S APT EMPTY EMPTY EMPTY UNIT ID TIME CALL! INFO+");
-    setupCities("UNINCORPORATED");
-     
+          "ADDR/S APT EMPTY EMPTY ID TIME CALL! INFO+");
   }
   
   private static final Pattern OCA_PTN = Pattern.compile("\\bOCA: *[\\d-]+$");
-      
+  private static final Pattern MM_PTN = Pattern.compile(" MM, *");
   
   @Override
   protected boolean parseMsg(String body, Data data) {
     Matcher match = OCA_PTN.matcher(body);
     if (match.find()) body = body.substring(0,match.start()).trim();
+    body = MM_PTN.matcher(body).replaceAll(" MM ");
     if (!super.parseMsg(body, data)) return false;
-    if (data.strCity.equalsIgnoreCase("UNINCORPORATED")) data.strCity = "";
     return true;
   }
 
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d{6}-\\d{6}");
+    if (name.equals("ID")) return new IdField("\\d{9}");
     return super.getField(name);
   }
 

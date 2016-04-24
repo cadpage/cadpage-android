@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">04192016</string>
+  <string name="release_date">04232016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.07.05\n
+Location Fixes:\n
+Shoshone County, ID\n
+Granville County, NC\n
+Northampton County, PA\n
+Helotes, TX\n
+Canmore, AB (Canada)\n
+\n
 v1.9.07.04\n
 New Location:\n
 Pulaski County, AR (alt)\n
@@ -87,14 +95,7 @@ Northglen EMS, CO\n
 Eden Prairie, MN\n
 Franklin County, MO\n
 Cascade County, MT\n
-Harrison County, WV\n
-\n
-v1.9.06.14\n
-Location Fixes:\n
-Wichita, KS\n
-Frederick County, MD\n
-Grafton County, NH\n
-Major enhancements to overall message parsing
+Harrison County, WV
   </string>
 </resources>
   

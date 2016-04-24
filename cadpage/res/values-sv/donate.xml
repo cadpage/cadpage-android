@@ -168,6 +168,22 @@
     Cadpage har för närvarande inte någon meddelandeanpassning som kan hantera detta larm. Vänligen använd "Rapportera problem"-knappen nedan för att rapportera detta så vi kan fixa det.
   </string>
   
+  <string name="donate_obsolete_support_parser_title">We need to hear from you!!!</string>  <!-- Translate -->
+  <string name="donate_obsolete_support_parser_text"> <!-- Translate -->
+    We are considering dropping Cadpage support for some very old versions of Android.
+    Your device is currently running one of these old versions, and we need to hear from
+    you want us to continue supporting Cadpage on your device.
+  </string>
+   
+  <string name="donate_email_support_text">Please continue supporting my device</string> <!-- Translate -->
+  
+  <string name="donate_general_parser_title">General parser warning</string> <!-- Translate -->
+  <string name="donate_general_parser_text"> <!-- Translate -->
+    This alert was processed by a generic location parser.
+    Please use the "Report Problem button below to report this so we can set up a better
+    location specific parser for you.
+  </string>
+  
   <string name="paging_sub_required_title">Larmvisningen förutsätter en betald prenumeration</string>
   <string name="paging_sub_required_text">
     Cadpages larmvisningstjänst är endast tillgänglig för användare med en aktuell prenumeration. Vi måste betala för att kunna ge support till varje användare och vi har inte råd att göra det gratis.    

@@ -316,6 +316,22 @@
     Please use the "Report Problem button below to report this so we can get it fixed.
   </string>
   
+  <string name="donate_obsolete_support_parser_title">We need to hear from you!!!</string>
+  <string name="donate_obsolete_support_parser_text">
+    We are considering dropping Cadpage support for some very old versions of Android.
+    Your device is currently running one of these old versions, and we need to hear from
+    you want us to continue supporting Cadpage on your device.
+  </string>
+  
+  <string name="donate_email_support_text">Please continue supporting my device</string>
+  
+  <string name="donate_general_parser_title">General parser warning</string>
+  <string name="donate_general_parser_text">
+    This alert was processed by a generic location parser.
+    Please use the "Report Problem button below to report this so we can set up a better
+    location specific parser for you.
+  </string>
+  
   <string name="paging_sub_required_title">Paging service requires a paid subscription</string>
   <string name="paging_sub_required_text">
     Cadpage paging service is only available to users with current paid subscriptions.

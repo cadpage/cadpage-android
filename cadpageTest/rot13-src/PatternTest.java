@@ -6,9 +6,9 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   choyvp fgngvp svany Cnggrea ZNFGRE =
-      Cnggrea.pbzcvyr("Pnyy Glcr +([N-M0-9]+) +\\(([^)]+)\\) +Vapvqrag Ab +(\\q+)");
+      Cnggrea.pbzcvyr("(?:\\[FCNZ\\]:)?PNQ Cntr sbe PSF ([-\\q]+)");
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("Pnyy Glcr HAX      (HAXABJA ANGHER OYF  )                Vapvqrag Ab 16006175");
+    qbGrfg("PNQ Cntr sbe PSF 042216-77");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

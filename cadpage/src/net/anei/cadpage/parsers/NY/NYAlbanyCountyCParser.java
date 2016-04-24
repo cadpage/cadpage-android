@@ -13,7 +13,7 @@ public class NYAlbanyCountyCParser extends DispatchA40Parser {
 
   public NYAlbanyCountyCParser() {
     super(CITY_LIST, "ALBANY COUNTY", "NY");
-    setFieldList("CALL PLACE ADDR APT CITY INFO DATE TIME");
+    setFieldList("SRC CALL PLACE ADDR APT CITY INFO DATE TIME");
     setupMultiWordStreets("NORTH GREENBUSH");
   }
 
