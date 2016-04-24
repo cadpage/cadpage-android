@@ -4093,6 +4093,26 @@ register your department with Cadpage.
 
 Thanks for your consideration, 
 Jean ~ Cadpage Administrator
+*************************************************************************************
+no User email address
+
+Presumably you do have a Google account configured for your device.  But
+you have not granted the Cadpage app permission to access your account
+information, and without that, we can not identify who you are and
+whether or not you have a paid Cadpage subscription.
+
+To grant that permission, open your main Android Settings and select
+Apps > Cadpage > App Permissions
+and enable the "Contacts" permission.
+
+After that, you can open Cadpage settings and select
+Payment Status > I already paid for this
+
+That generates a new support email to us, which hopefully will now
+contain your email account, which Jean will use to set up your subscription.
+
+Thank you for your support,
+
 **************************************************************************************
 Useful search expressions...
 ^ +"ADDR:.*\r?\n(?: +"(?:MADDR|APT|X):.*\r?\n)*+(?! +"CITY:)
