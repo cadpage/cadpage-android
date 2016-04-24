@@ -1045,30 +1045,54 @@ public class ManagePreferences {
     else return !regId.equals(oldRegId);
   }
   
+  /**
+   * Determine our startup status
+   * @param versionCode current version code
+   * @return true if something has changed requiring a new registration ID
+   */
   public static boolean newVersion(int versionCode) {
-    boolean reset = false;
     
-    // What this really does is determine if we need to request a new GCM
-    // registration ID.  There are two circumstances where this is required
-    // The first is when a new version of Cadpage has been installed.
+    boolean result = false;
+    
+    // Check to see if the installed version has changed.  If it has
+    // a new registration ID needs to be requested
     int prevVersion = prefs.getInt(R.string.pref_prev_version_code, 0);
     if (versionCode != prevVersion) {
-      reset = true;
+      result = true;
       prefs.putInt(R.string.pref_prev_version_code, versionCode);
     }
 
-    // The second is when Cadpage has been installed on a new device and
-    // is running on auto-reloaded data.  We detect this be checking for
-    // the absence of a file in the no-backup directory.
+    // We are going to need the old and new MEID numbers, so lets get them now
+    String meid = UserAcctManager.instance().getMEID();
+    String oldMeid = prefs.getString(R.string.pref_prev_meid_key, null);
+
+    // Next see if Cadpage has been restored to the same or another device.  We
+    // determine this by checking for the non-existence of a file in the no-backup
+    // directory.
     try {
       if (checkFile.createNewFile()) {
-        reset = true;
+        
+        // If this is the case, we are going to have to request a new registration
+        // ID.  And the current saved registration ID is clearly invalid and should
+        // be cleared
+        result = true;
         setRegistrationId(null);
+        
+        // If there was an old registration ID, that is different from the current
+        // registration ID, then set the transfer flag indicating the Cadpage
+        // configuration has been transfered to another device
+        if (oldMeid != null && meid != null && !meid.equals(oldMeid)) {
+          prefs.putBoolean(R.string.pref_transfer_flag_key, true);
+        }
       }
     } catch (IOException ex) {
       Log.e(ex);
     }
-    return reset;
+
+    // In any case, save the prev MEID value, just it case it
+    // changes for other reasons like permission changes
+    prefs.putString(R.string.pref_prev_meid_key, oldMeid);
+    return result;
   }
   
   public static boolean registerReqActive() {
@@ -1202,6 +1226,16 @@ public class ManagePreferences {
   
   public static void setUseOldGcm(boolean newVal) {
     prefs.putBoolean(R.string.pref_use_old_gcm, newVal);
+  }
+  
+  public static boolean transferFlag() {
+    boolean result = prefs.getBoolean(R.string.pref_transfer_flag_key);
+    if (result) prefs.putBoolean(R.string.pref_transfer_flag_key, false);
+    return result;
+  }
+  
+  public static void setPrevMEID(String newVal) {
+    prefs.putString(R.string.pref_prev_meid_key, newVal);
   }
   
   public static void clearAll() {
@@ -2383,6 +2417,9 @@ public class ManagePreferences {
       R.string.pref_last_gcm_event_time_key,
       R.string.pref_restore_vol,
       
-      R.string.pref_use_old_gcm
+      R.string.pref_use_old_gcm,
+      
+      R.string.pref_prev_meid_key,
+      R.string.pref_transfer_flag_key
   };
 }
