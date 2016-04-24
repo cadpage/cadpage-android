@@ -12,7 +12,7 @@ Base parser with methods needed by all Bucks COunty Parsers
  */
 
 
-public class PABucksCountyBaseParser extends DispatchA7Parser {
+abstract class PABucksCountyBaseParser extends DispatchA7Parser {
   
   public PABucksCountyBaseParser() {
     this(null);
