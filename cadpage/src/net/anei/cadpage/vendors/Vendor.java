@@ -450,7 +450,7 @@ abstract class Vendor {
     
     // If already enabled, we don't have to do anything
     if (enabled) {
-      sendReregister(context, ManagePreferences.registrationId(), true);
+      sendReregister(context, ManagePreferences.registrationId(), true, false);
       return;
     }
 
@@ -471,7 +471,7 @@ abstract class Vendor {
     // gotten stale from long periods of unuse.
     String regId = ManagePreferences.registrationId();
     if (regId != null) {
-      registerC2DMId(context, regId, true);
+      registerC2DMId(context, regId, true, false);
       C2DMService.register(context, true);
     }
     
@@ -519,9 +519,10 @@ abstract class Vendor {
    * @param context current context
    * @param registrationId registration ID
    * @param userReq true if user requested this action
+   * @param transfer cadpage configuration has been transfered from another device
    * @return true if we actually did anything
    */
-  boolean registerC2DMId(final Context context, String registrationId, boolean userReq) {
+  boolean registerC2DMId(final Context context, String registrationId, boolean userReq, boolean transfer) {
     
     // If we are in process of registering with server, send the web registration request
     if (inProgress) {
@@ -535,7 +536,7 @@ abstract class Vendor {
     // Otherwise, if we are registered with this server, pass the new registration
     // ID to them
     else if (enabled) {
-      sendReregister(context, registrationId, userReq);
+      sendReregister(context, registrationId, userReq, transfer);
       return true;
     }
     
@@ -571,11 +572,6 @@ abstract class Vendor {
    * registered
    */
   boolean checkVendorStatus(Context context) {
-    // If we are enabled, nothing needs to be done
-    if (enabled) return true;
-    
-    // Otherwise send a reg_query to this vendor
-    sendRegQuery(context, ManagePreferences.registrationId());
     return true;
   }
   
@@ -583,10 +579,15 @@ abstract class Vendor {
    * Send reregister request to vendor
    * @param context current context
    * @param registrationId registration ID
+   * @param userReq true if user requested this action
+   * @param transfer cadpage configuration has been transfered from another device
    */
-  private void sendReregister(final Context context, String registrationId, boolean userReq) {
+  private void sendReregister(final Context context, String registrationId, boolean userReq, boolean transfer) {
     Uri uri = buildRequestUri("reregister", registrationId, userReq);
-    uri = uri.buildUpon().appendQueryParameter("userReq", (userReq ? "Y" : "N")).build();
+    Uri.Builder b = uri.buildUpon();
+    b.appendQueryParameter("userReq", (userReq ? "Y" : "N"));
+    if (transfer) b.appendQueryParameter("transfer", "Y");
+    uri = b.build();
     HttpService.addHttpRequest(context, new HttpService.HttpRequest(uri){
       
       @Override
@@ -616,16 +617,6 @@ abstract class Vendor {
         // drastic if the reregister request fails
         return;
       }});
-  }
-  
-  /**
-   * Send reg_query request to vendor
-   * @param context current context
-   * @param registrationId registration ID
-   */
-  void sendRegQuery(Context context, String registrationId) {
-    Uri uri = buildRequestUri("req_query", registrationId);
-    HttpService.addHttpRequest(context, new HttpService.HttpRequest(uri));
   }
 
   /**

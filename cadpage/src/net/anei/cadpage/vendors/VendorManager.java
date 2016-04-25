@@ -249,17 +249,11 @@ public class VendorManager {
     boolean reconect = ManagePreferences.reconnect();
     if (!change && !reconect) return;
     
-    // Pass new reg ID to all vendors and see if any of the respond
-    boolean done = false;
-    for (Vendor vendor : vendorList) {
-      if (vendor.registerC2DMId(context, registrationId, reconect)) done = true;
-    }
+    boolean transfer = ManagePreferences.transferFlag();
     
-    // If no vendors are currently enabled, send a reg_query to all of them
-    if (!done) {
-      for (Vendor vendor : vendorList) {
-        vendor.sendRegQuery(context, registrationId);
-      }
+    // Pass new reg ID to all vendors and see if any of the respond
+    for (Vendor vendor : vendorList) {
+      vendor.registerC2DMId(context, registrationId, reconect, transfer);
     }
     
     // Reset the connect flag
