@@ -178,8 +178,7 @@
   <string name="donate_general_parser_title">Varning för generell lokalanpassing</string>
   <string name="donate_general_parser_text">  <!-- Translate -->
     Det här larmet hanterades av en generell lokalanpassning.
-    Please use the "Report Problem button below to report this so we can set up a better
-    location specific parser for you.
+    Vänligen använd "Rapportera problem" knappen nedan för att rapportera det så vi kan fixa en bättre lokalanpassning för dig.
   </string>
   
   <string name="paging_sub_required_title">Larmvisningen förutsätter en betald prenumeration</string>
