@@ -772,6 +772,8 @@ abstract class Vendor {
   private void viewPage(Context context, Uri uri) {
     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+    Log.w("View web page");
+    ContentQuery.dumpIntent(intent);
     try {
       context.startActivity(intent);
     } catch (ActivityNotFoundException ex) {
