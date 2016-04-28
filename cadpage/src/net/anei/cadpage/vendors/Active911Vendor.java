@@ -177,6 +177,7 @@ class Active911Vendor extends Vendor {
       "US/AK/Fairbanks",                  "AKFairbanks",
       "US/AK/MatanuskaSusitna",           "AKMatanuskaSusitnaBorough",
       "US/AL/AthensLimestoneCounty",      "ALLimestoneCounty",
+      "US/AL/BlountCounty",               "ALBlountCounty",
       "US/AL/CalhounCounty",              "ALCalhounCounty",
       "US/AL/ChambersCounty",             "ALChambersCounty",
       "US/AL/Cherokee",                   "ALCherokeeCounty",
