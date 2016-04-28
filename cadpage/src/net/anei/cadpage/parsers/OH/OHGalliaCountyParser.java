@@ -32,12 +32,18 @@ public class OHGalliaCountyParser extends DispatchEmergitechParser {
     // ANd finally, see if this is in West Virginia
     if (WV_CITY_TABLE.contains(data.strCity)) data.strState = "WV";
     
+    // See if there is a callback phone number in the APT field
+    if (data.strApt.startsWith("CALLBK=")) {
+      data.strPhone = data.strApt.substring(7).trim();
+      data.strApt = "";
+    }
+    
     return true;
   }
   
   @Override
   public String getProgram() {
-    return super.getProgram().replace("CITY", "CITY ST");
+    return super.getProgram().replace("CITY", "CITY ST").replace("APT", "APT PHONE");
   }
 
   private static final String[] CITY_LIST = new String[]{
