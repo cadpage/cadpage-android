@@ -3131,7 +3131,7 @@ choyvp pynff NYOybhagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NFFVFG BPPHCNAG",
         "NQQE:925 INHTUA EQ",
         "K:PBHAGL YVAR EQ",
-        "PVGL:GENSBEQ",
+        "PVGL:GENSSBEQ",
         "ANZR:CEVAPR CYNPR",
         "CUBAR:2056815933",
         "VQ:2016-0000010684");

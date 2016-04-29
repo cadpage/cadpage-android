@@ -49,6 +49,11 @@ public class WIRockCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
+  }
+  
+  @Override
   public Field getField(String name) {
     if (name.equals("STATUS")) return new SkipField("Open", true);
     return super.getField(name);

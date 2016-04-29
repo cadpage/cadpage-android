@@ -49,8 +49,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       if (pt < 0) return false;
       body = body.substring(pt);
       pt = body.indexOf('\n');
-      if (pt < 0) return false;
-      body = body.substring(0,pt).trim();
+      if (pt >= 0) body = body.substring(0,pt).trim();
     }
     boolean good = body.startsWith("TYPE:");
     if (!good) body = "TYPE:" + body;

@@ -387,8 +387,8 @@ public class DispatchEmergitechParser extends FieldProgramParser {
       String compField = field.replace(" ", "");
       Matcher match = INFO_GPS_PTN1.matcher(compField);
       if (match.lookingAt()) {
+        found = true;
         if (match.group(1) != null) {
-          found = true;
           setGPSLoc(match.group(1)+','+match.group(2), data);
           data.strPhone = getOptGroup(match.group(3));
         }
