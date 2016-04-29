@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -9,10 +10,16 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 public class DispatchA46Parser extends SmartAddressParser {
   
   String defState;
+  Properties callCodes;
 
   public DispatchA46Parser(String defState, String defCity) {
+    this(null, defState, defCity);
+  }
+
+  public DispatchA46Parser(Properties callCodes, String defState, String defCity) {
     super(defState, defCity);
     this.defState = defState;
+    this.callCodes = callCodes;
   }
 
   private static Pattern SUBJECT_PTN1 = Pattern.compile("(?:([A-Z]{3,4}) +- +)?(.*?) +- +(\\d{10})\\b[- ]*(.*)");
@@ -50,6 +57,13 @@ public class DispatchA46Parser extends SmartAddressParser {
         if (!call.equals(data.strCall)) {
           data.strCode = data.strCall;
           data.strCall = call;
+        }
+        if (callCodes != null) {
+          call = callCodes.getProperty(data.strCall);
+          if (call != null) {
+            data.strCode = data.strCall;
+            data.strCall = call;
+          }
         }
         String place = mat.group(2);
         if (!place.equals("at")) data.strPlace = place;
@@ -91,6 +105,14 @@ public class DispatchA46Parser extends SmartAddressParser {
       if (!mat.matches()) return false;
       data.strCall = mat.group(1).trim();
       String addr = mat.group(2).trim();
+
+      if (callCodes != null) {
+        String call = callCodes.getProperty(data.strCall);
+        if (call != null) {
+          data.strCode = data.strCall;
+          data.strCall = call;
+        }
+      }
 
       mat = ADDR_PTN2.matcher(addr);
       if (mat.matches()) {
