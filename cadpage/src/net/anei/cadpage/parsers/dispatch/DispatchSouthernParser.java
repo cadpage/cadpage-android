@@ -59,7 +59,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("(?:[A-Z]+:)?(\\d{8}); *([- A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.@]+:");
   private static final Pattern NAKED_TIME_PTN = Pattern.compile("([ ,;]) *(\\d\\d:\\d\\d:\\d\\d)(?:\\1|$)");
-  private static final Pattern OCA_TRAIL_PTN = Pattern.compile("\\bOCA: *([-0-9]+)$");
+  private static final Pattern OCA_TRAIL_PTN = Pattern.compile("\\bOCA: *([-A-Z0-9]+)$");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{2,4}-?(?:\\d\\d-)?\\d{4,8}$");
   private static final Pattern CALL_PTN = Pattern.compile("^([A-Z0-9\\- /()]+)\\b[ \\.,-]*");
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
@@ -245,9 +245,11 @@ public class DispatchSouthernParser extends FieldProgramParser {
     // workaround.
     if (data.strAddress.startsWith("1 ") || data.strAddress.startsWith("0 ")) {
       data.strAddress = data.strAddress.substring(2).trim();
-      String cross = data.strCross.replace('/', '&').replace("&", " & ").replaceAll("  +", " ").trim();
-      data.strAddress = append(data.strAddress, " & ", cross);
-      data.strCross = "";
+      String cross = data.strCross;
+      if (!cross.contains("/") && !cross.contains("&")) {
+        data.strAddress = append(data.strAddress, " & ", cross);
+        data.strCross = "";
+      }
     }
     
     //  Occasional implied intersections end up in the apt field
@@ -381,7 +383,6 @@ public class DispatchSouthernParser extends FieldProgramParser {
         return;
       }
     }
-
     
     match = CALL_PTN.matcher(sExtra);
     if (match.find() && match.end() > 0 && match.end() < sExtra.length()) {

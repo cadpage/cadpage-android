@@ -18,7 +18,7 @@ public class NCDavieCountyParser extends DispatchA3Parser {
   
   @Override
   public String getFilter() {
-    return "911@co.davie.nc.us";
+    return "911@co.davie.nc.us,911@daviecountync.gov";
   }
   
   @Override

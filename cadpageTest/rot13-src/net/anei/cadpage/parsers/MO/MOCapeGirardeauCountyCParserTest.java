@@ -8,12 +8,13 @@ vzcbeg bet.whavg.Grfg;
 /*
 Pncr Tveneqrnh Pbhagl, ZB
 
+Npgvir911 Cnefref:
+HF/ZB/ZvyyrefivyyrEheny
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Rnfg Pbhagl Sver Cebgrpgvba Qvfgevpg
 Ybpngvba: Pncr Tveneqrnh, ZB, Havgrq Fgngrf
 Fraqre: Qvfcngpu3 <qvfcngpu3@pncrpbhaglfurevss.bet>
-Fraqre: Mnpu Qvyyneq <mqvyyneq@pncrpbhaglfurevss.bet>
-Fraqre: Xryyl Nyyra <rpsq3920@tznvy.pbz>
 
 <UGZY><OBQL><OE><OE>-------- Sbejneqrq Zrffntr --------<GNOYR PRYYCNQQVAT=0 PRYYFCNPVAT=0 OBEQRE=0 pynff="zbm-rznvy-urnqref-gnoyr"><GE><GU INYVTA=ONFRYVAR NYVTA=EVTUG ABJENC>Sebz: </GU><GQ>qvfcngpu3@pncrpbhaglfurevss.bet</GQ></GE><GE><GU INYVTA=ONFRYVAR NYVTA=EVTUG ABJENC>Gb: </GU><GQ>qvfcngpu3@pncrpbhaglfurevss.bet</GQ></GE></GNOYR>\a<OE><OE><CER>(6) R:SVER2016000387, RG:SVER, FG:ZRQVPNY NFFVFG,  Y:119 N FG, ZNC: G:12:35:45, N:RSQ1, A, CU:601 595 3607,  P:4/13/2016 12:36:49 CZ 56 LBN SRZNYR UNF SNYYRA\a4/13/2016 12:38:27 CZ NZO : QFCGPU &nzc; cevznel havg.\a4/13/2016 12:39:36 CZ RSQ : QFCGPU \a\a</CER>
 <UGZY><OBQL><OE><OE>-------- Sbejneqrq Zrffntr --------<GNOYR PRYYCNQQVAT=0 PRYYFCNPVAT=0 OBEQRE=0 pynff="zbm-rznvy-urnqref-gnoyr"><GE><GU INYVTA=ONFRYVAR NYVTA=EVTUG ABJENC>Sebz: </GU><GQ>qvfcngpu3@pncrpbhaglfurevss.bet</GQ></GE><GE><GU INYVTA=ONFRYVAR NYVTA=EVTUG ABJENC>Gb: </GU><GQ>qvfcngpu3@pncrpbhaglfurevss.bet</GQ></GE></GNOYR>\a<OE><OE><CER>(6) R:SVER2016000387, RG:SVER, FG:ZRQVPNY NFFVFG,  Y:119 N FG, ZNC: G:12:35:45, N:RSQ1, A, CU:601 595 3607,  P:4/13/2016 12:36:49 CZ 56 LBN SRZNYR UNF SNYYRA\a4/13/2016 12:38:27 CZ NZO : QFCGPU &nzc; cevznel havg. \a\a</CER>

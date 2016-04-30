@@ -373,22 +373,33 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   
   private static final Pattern INFO_GPS_PTN1 = Pattern.compile("((?:LON:)?[-+]?\\d{1,3}\\.\\d{5,6}) *(?:LAT:)?([-+]?\\d{1,3}\\.\\d{5,6})(?:CO?F[:=]\\d+%?)?(?:CPF:[A-Z0-9]*)?(?:CALLBK=(\\(\\d{3}\\)\\d{3}-\\d{4}))?|CNF=\\d*UNC=\\d*");
   private static final Pattern INFO_GPS_PTN2 = Pattern.compile("ALT#=([- 0-9]+) X=([-+]?\\d+\\.\\d+) Y=([-+]?\\d+\\.\\d+) (?:AT&T )?[A-Z]+ *");
+  private static final Pattern INFO_GPS_PTN3 = Pattern.compile("CF=\\d+%([-+]\\d{1,3}\\.\\d{6,})([-+]\\d{1,3}\\.\\d{6,})CO=[A-Z]+\n");
   private class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       
-      // What should be a simple pattern check for GPS coordinates gets complicaated
+      // What should be a simple pattern check for GPS coordinates gets complicated
       // because random blanks get inserted anywhere.  We solve this by squeezing
-      // all blanks out of the field first, then doign our pattern check, then
+      // all blanks out of the field first, then doing our pattern check, then
       // counting how many non-blank characters need to be removed from the front
       // of the field :(
-      Matcher match = INFO_GPS_PTN1.matcher(field.replace(" ", ""));
+      boolean found = false;
+      String compField = field.replace(" ", "");
+      Matcher match = INFO_GPS_PTN1.matcher(compField);
       if (match.lookingAt()) {
+        found = true;
         if (match.group(1) != null) {
           setGPSLoc(match.group(1)+','+match.group(2), data);
           data.strPhone = getOptGroup(match.group(3));
         }
-        
+      } 
+      
+      else if ((match = INFO_GPS_PTN3.matcher(compField)).lookingAt()) {
+        found = true;
+        setGPSLoc(match.group(1)+','+match.group(2), data);
+      }
+      
+      if (found) {
         int pos = 0;
         for (int ii = 0; ii<match.end(); ii++) {
           while (field.charAt(pos) == ' ') pos++;
@@ -398,17 +409,15 @@ public class DispatchEmergitechParser extends FieldProgramParser {
         field = field.substring(pos).trim();
       }
       
+      // Alas, version 2 requires space terminators so we can't get a way with the compressed search trick.
       // Thankfully, the extra space logic seems to be fading a way.  Haven't seen it in any recent Emergitech formats
-      // and with a bit of luck, we never will.  So we far we are not going to bother using it to check the second
-      // GPS format
-      else { 
-        match = INFO_GPS_PTN2.matcher(field);
-        if (match.lookingAt()) {
-          data.strPhone = match.group(1).trim();
-          setGPSLoc(match.group(2)+','+match.group(3), data);
-          field = field.substring(match.end());
-        }
+      // and with a bit of luck, we never will.  So we will just try to do without it
+      else if ((match = INFO_GPS_PTN2.matcher(field)).lookingAt()) {
+        data.strPhone = match.group(1).trim();
+        setGPSLoc(match.group(2)+','+match.group(3), data);
+        field = field.substring(match.end());
       }
+      
       super.parse(field, data);
     }
 

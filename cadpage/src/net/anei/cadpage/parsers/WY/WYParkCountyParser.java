@@ -13,7 +13,7 @@ public class WYParkCountyParser extends DispatchA20Parser {
   
   @Override
   public String getFilter() {
-    return "@parkcounty.us";
+    return "@parkcounty.us,chief@pvfd.net";
   }
 
 }

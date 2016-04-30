@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">04232016</string>
+  <string name="release_date">04292016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.07.06\n
+Added warning messages for users running Android 2.2 or
+using the general location parser.\n
+\n
+New Locations:\n
+Hinsdale County, CO\n
+Montrose County, CO\n
+Cook County, IL (alt)\n
+Shelby County, KY\n
+Simpson County, KY\n
+Montgomery County, MD (alt)\n
+Gogebic County, MI
+Hyde County, NC\n
+Port Aransas, TX\n
+\n
+Location Fixes:\n
+Tangipahoa Parish, LA\n
+Hancock County, IN\n
+Marion County, IN\n
+Cass County, MI\n
+Duplin County, NC\n
+Gallia County, OH\n
+\n
 v1.9.07.05\n
 Location Fixes:\n
 Shoshone County, ID\n
@@ -56,46 +79,7 @@ Washington County, NC\n
 Fairfield County, OH\n
 Geauga County, OH\n
 Perry County, PA\n
-Dallas County, TX\n
-\n
-v1.9.07.01\n
-New option to have map requests jump directly to turn by turn navigation.  Use at your
-own risk.  Don\'t blame us if you drive into the next county before discovering Google has mismapped the call location\n
-\n
-Location Fixes:\n
-Mitchell County, IA\n
-Blount County, TN\n
-\n
-General Fixes:\n
-Fixed problem reporting payment status for users that have registered with both the CodeMessaging and
-Cadpage paging services.\n
-\n
-v1.9.06.15\n
-Added privacy policy notice\n
-\n
-New Locations:\n
-Benton County, AR (alt)\n
-Washington County, AR (alt)\n
-Litchfield County, CT (alt)\n
-Warren County, IA (alt)\n
-Pulaski County, KY\n
-Hubbard County, MN\n
-McDonald County, MO (alt)\n
-Nodaway County, MO\n
-Clark County, NV (alt)\n
-Cleveland County, OK (alt)\n
-Hunt County, TX (alt)\n
-Somervell County, TX\n
-Tarrant County, TX (alt)\n
-Richie County, WV\n
-\n
-Location Fixes:\n
-Tolland County, CT\n
-Northglen EMS, CO\n
-Eden Prairie, MN\n
-Franklin County, MO\n
-Cascade County, MT\n
-Harrison County, WV
+Dallas County, TX
   </string>
 </resources>
   

@@ -482,6 +482,7 @@ public class Message {
     int headerCnt = 0;
     
     int spt = 0;
+    boolean extFrom = false;
     while (true) {
       while (spt < body.length() && Character.isWhitespace(body.charAt(spt))) spt++;
       int ept = spt;
@@ -489,16 +490,23 @@ public class Message {
       if (ept == body.length()) break;
       
       String line = body.substring(spt, ept).trim();
-      Matcher match;
-      if (!JUNK_HEADER_PTN.matcher(line).matches()) {
-        if ((match = SENDER_HEADER_PTN.matcher(line)).matches()) {
-          address = match.group(1);
-        } else if ((match = SUBJECT_HEADER_PTN.matcher(line)).matches()) {
-          subject = match.group(1);
-        } else if (!OTHER_HEADER_PTN.matcher(line).matches()) {
-          break;
+      if (extFrom && line.endsWith(">")) {
+        address = address + line;
+        extFrom = false;
+      } else {
+        extFrom = false;
+        Matcher match;
+        if (!JUNK_HEADER_PTN.matcher(line).matches()) {
+          if ((match = SENDER_HEADER_PTN.matcher(line)).matches()) {
+            address = match.group(1);
+            if (!address.endsWith(">") && address.contains("<")) extFrom = true;
+          } else if ((match = SUBJECT_HEADER_PTN.matcher(line)).matches()) {
+            subject = match.group(1);
+          } else if (!OTHER_HEADER_PTN.matcher(line).matches()) {
+            break;
+          }
+          headerCnt++;
         }
-        headerCnt++;
       }
       spt = ept+1;
     }
@@ -512,7 +520,7 @@ public class Message {
   private static final Pattern SENDER_HEADER_PTN = Pattern.compile("(?:From|Sender): *(.*)");
   private static final Pattern SUBJECT_HEADER_PTN = Pattern.compile("(?:Subject): *(.*)");
   private static final Pattern OTHER_HEADER_PTN = Pattern.compile("\\[?mailto:.*\\]|(?:Content-Type|Date|Importance|Reply-To|Return-Path|Sent|SentTo|To|X-Mailer):.*");
-  private static final Pattern JUNK_HEADER_PTN = Pattern.compile("_{5,}|-{5,}|--+(?:Original Message)?--+|Auto forwarded by a Rule");
+  private static final Pattern JUNK_HEADER_PTN = Pattern.compile("_{5,}|-{5,}|--+(?:Original Message)?--+|Auto forwarded by a Rule|--+ Forwarded message --+");
 
   private static String trimLead(String str, boolean keepLeadBreak) {
     int pt = 0;

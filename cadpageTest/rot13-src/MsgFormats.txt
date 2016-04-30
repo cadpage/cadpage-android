@@ -3585,6 +3585,11 @@ Zrqfgne FJ, VY (VYZrqfgneCnefre)
 [- cneg 1 bs 1]  EP:Eha# 34859/505 YRZNAF JNL///FPP CT 15/SNVEIVRJ URVTUGF///55lbs hap qvss o cbffvoyr bireqbfr ba cvyyf - nqnina genznqby/<CEBDN_QRG>
 [- cneg 1 bs 1]  EP:Eha# 34577/20 XVAQRE FG//pnu/FPP CT 11/RNFG FNVAG YBHVF///31s p/o purfg naq onpx ck pneqvnp uk  CebDN pbzzragf: purfg ck/10Q04
 *******************************************************************************
+Zbagtbzrel Pbhagl, ZQ (ZQZbagtbzrelPbhaglO)
+1 bs 2\aSEZ:qvfcngpu@ohgyrezrqvpnygenafcbeg.pbz\aFHOW:- cneg 1 bs 1\aZFT:EP:Cevbevgl 12 (NFNC Erdhrfg)/12:55/Eha# 14307/XENZRE/ EVPUNEQ/ZQ -\a(Pba'g) 2 bs 2\aOYF/UBYL PEBFF FVYIRE FCEVAT UBFCVGNY/RE 22/Bnxivrj bs Fvyire Fcevat//65xt\e\a(Raq)
+1 bs 2\aSEZ:qvfcngpu@ohgyrezrqvpnygenafcbeg.pbz\aFHOW:- cneg 1 bs 1\aZFT:EP:Cevbevgl 13 (Fpurqhyrq Genaf)/16:00/Eha# 14332/GUBZNF/ RVYRRA/ZQ -\a(Pba'g) 2 bs 2\aOYF/NQIRAGVFG UP - JNFUVATGBA NQIRAGVFG UBFCVGNY/2504/Bnxivrj bs Fvyire Fcevat//132yof  B2\a(Raq)
+1 bs 2\aSEZ:qvfcngpu@ohgyrezrqvpnygenafcbeg.pbz\aFHOW:- cneg 1 bs 1\aZFT:EP:Cevbevgl 13 (Fpurqhyrq Genaf)/17:00/Eha# 14343/OBHYQRA/ EBOREG/ZQ -\a(Pba'g) 2 bs 2\aOYF/UBYL PEBFF TREZNAGBJA UBFCVGNY/4122/Zbagtbzrel Ivyyntr Pner & Erunovyvgngvba//260yof 2YB2 ovyngreny nxn\a(Raq)
+*******************************************************************************
 Zbovyr Zrqvpny Erfcbafr, ZV (ZVZbovyrZrqvpnyErfcbafr)
 Fhowrpg:<PNQ> - cneg 1 bs 1\aEP:Eha# 17656/11775 A VFNORYYN EQ/C-2 Rzretrapl Ab Yvtugf//Purfg Cnva (Aba-Genhzngvp)/ureevpx naq crer znedhrggr
 Fhowrpg:<PNQ> - cneg 1 bs 1\aEP:Eha# 17612/7800 YHQVATGBA QE/C-3 Qbjatenqr  (Ab Ygf/Fveraf)//Snyyf/k tvofba naq ynxr fgngvba nir ba 
@@ -5804,8 +5809,7 @@ PG:NFFNHYG 835 UVTU FG  OBK:6001 QHR:N8 CZ1-1
 PG:ZIP/CG ABG NYREG J PNZCHF NIR / JNFUVATGBA NIR  OBK:6001 QHR:R6 E6 N8 CZ1-1
 PG:PNEQVNP NEERFG 25129 JLZBAG CNEX EQ  OBK:5005 QHR:N8
 ***************************************************************************
-Zbagtbzrel Pbhagl, ZQ (ZQZbagtbzrelPbhaglCnefre)
-Arrqf erirefr zretr fhccbeg
+Zbagtbzrel Pbhagl, ZQ (ZQZbagtbzrelPbhaglNCnefre)
 ZPb / [zPNQ] * Q * 2301 * OHVYQVAT SVER * 1620 R WRSSREFBA FG ,EB * R723 R703 R721 R726 R705O NG723 NG703 EF703 N723 OP703 OP704 Q3 Q5 QSEF VAI PRNYEZ PBQR OPABG
 ZPb / [zPNQ] * Q * 0302 * OHVYQVAT SVER * 733 ZBAEBR FG ,EB * R723 R733 R726 R725 R721 NG703 NG723 EF741O Z723 OP703 OP704 Q3 Q5 QSEF VAI PRNYEZ PBQR OPABG
 ZPb / [zPNQ] * Q * 0301 * UBHFR SVER * 1006 QR ORPX QE ,EB * R703 R723 R721 R725 R733 NG703 G731 EF703 N703 OP703 OP704 Q3 Q5 QSEF VAI PRNYEZ PBQR OPABG

@@ -782,9 +782,11 @@ choyvp pynff INObgrgbhegPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G9",
         "PNQ:1 TENIRY UVYY EQ ORTVA GEBHGIVYYR; YRR UJL K YRR UJL; 15022974; 14:39:29; S - FZBXR ERCBEG; YBBXVAT BSS TENIRY UVYY EQ BAGB 220 AO FVQR FUR PNA FRR FZBXR HAFHER BS JURER VG VF PBZVAT SEBZ",
-        "NQQE:TENIRY UVYY EQ & YRR UJL & YRR UJL",
+        "NQQE:TENIRY UVYY EQ",
+        "ZNQQE:TENIRY UVYY EQ & YRR UJL",
         "NCG:ORTVA",
         "PVGL:GEBHGIVYYR",
+        "K:YRR UJL / YRR UJL",
         "VQ:15022974",
         "GVZR:14:39:29",
         "PNYY:S - FZBXR ERCBEG",
@@ -2900,8 +2902,10 @@ choyvp pynff INObgrgbhegPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G31",
         "NEZ:1 JRFG ZNVA FG SVAPNFGYR PVEPHVG PBHEG; F EBNABXR FG K F EBNABXR FG; 15019580; 23:18:49; S - SVER NYNEZ-NYNEZ ONAX BE O-; NYNEZ TBVAT BSS NG BYQ WNVY NAQ PVEPHVG PBHEGUBHFR",
-        "NQQE:JRFG ZNVA FG & F EBNABXR FG & F EBNABXR FG",
+        "NQQE:JRFG ZNVA FG",
+        "ZNQQE:JRFG ZNVA FG & F EBNABXR FG",
         "PVGL:SVAPNFGYR",
+        "K:F EBNABXR FG / F EBNABXR FG",
         "CYNPR:PVEPHVG PBHEG",
         "VQ:15019580",
         "GVZR:23:18:49",
@@ -6681,16 +6685,20 @@ choyvp pynff INObgrgbhegPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G56",
         "XQF:1 UHZOREG EQ GEBHGIVYYR; YRR UJL K YRR UJL; 15022970; 14:18:10; OYF - ZRQVPNY FREIVPR PNYY;",
-        "NQQE:UHZOREG EQ & YRR UJL & YRR UJL",
+        "NQQE:UHZOREG EQ",
+        "ZNQQE:UHZOREG EQ & YRR UJL",
         "PVGL:GEBHGIVYYR",
+        "K:YRR UJL / YRR UJL",
         "VQ:15022970",
         "GVZR:14:18:10",
         "PNYY:OYF - ZRQVPNY FREIVPR PNYY");
 
     qbGrfg("G57",
         "XQF:1 UHZOREG EQ GEBHGIVYYR; YRR UJL K YRR UJL; 15022970; 14:18:10; OYF - ZRQVPNY F-;",
-        "NQQE:UHZOREG EQ & YRR UJL & YRR UJL",
+        "NQQE:UHZOREG EQ",
+        "ZNQQE:UHZOREG EQ & YRR UJL",
         "PVGL:GEBHGIVYYR",
+        "K:YRR UJL / YRR UJL",
         "VQ:15022970",
         "GVZR:14:18:10",
         "PNYY:OYF - ZRQVPNY F");

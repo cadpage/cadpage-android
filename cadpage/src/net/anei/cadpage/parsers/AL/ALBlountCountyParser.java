@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.AL;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
@@ -10,6 +11,8 @@ public class ALBlountCountyParser extends DispatchB2Parser {
   
   public ALBlountCountyParser() {
     super(CITY_LIST, "BLOUNT COUNTY", "AL");
+    setupCallList((CodeSet)null);
+    removeWords("PLACE");
   }
   
   @Override
