@@ -443,7 +443,7 @@ Take care,
 **********************************************************************
 
 Q:  I have been unable to get the key and activation code from my admin for
-active 911 if you could help me I would greatly appreciate it.
+Active911 if you could help me I would greatly appreciate it.
 
 A-- Alas, the Active911 support people have asked us not to do that as a
 security precaution.  They want to make sure that anyone registering to
@@ -711,7 +711,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-WJICHOGA or wjichoga.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+WRGBFICA or wrgbfica.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support, 
 Jean ~ Cadpage Administrator
@@ -932,7 +932,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-XVSAEFAA or xvsaefaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+WRGBFICA or wrgbfica.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean ~ Cadpage Administrator
@@ -1485,7 +1485,7 @@ Take care,
 ******************************************************************
 *** Scanner problems
 
-Everything looks like it is set up correctly. Check to make sure that the scanner channel you are trying to active is still online.  If it is not, Scanner cannot play it.
+Everything looks like it is set up correctly. Check to make sure that the scanner channel you are trying to activate is still online.  If it is not, Scanner cannot play it.
 
 If that isn't it, I need to see a copy of the system log recording one of these launch failures.  You can install any number of log viewing apps, I use Logcat myself, and use it to email a copy of the log to support@cadpage.org.  This needs to be done right after you get a call that fails to launch scanner radio.
 
@@ -3014,7 +3014,7 @@ Can you long press some of the calls that are coming in late and select
 ***************************************************************************
 switch to Active911 Android app
 
-Apparently, your department has paid for Active, and your device is currently registered to use the new Active911 Android app. Since that new system is in place, your pages will no longer be sent to the Cadpage app.
+Apparently, your department has paid for Active911, and your device is currently registered to use the new Active911 Android app. Since that new system is in place, your pages will no longer be sent to the Cadpage app.
 
 If you want to switch back to using Cadpage instead of the Active911 app, you need to re-register Cadpage with Active911.
 To do that, go into Cadpage Settings and select
