@@ -11,36 +11,8 @@ Xrag Pbhagl, ZV
 Pbagnpg: Npgvir911
 Ntrapl anzr: NYCVAR GJC SQ
 Ybpngvba: PBZFGBPX CNEX, ZV, Havgrq Fgngrf
-Fraqre: XPPP Nyreg <xpppnyreg@tznvy.pbz>
-Fraqre: "pfpbgg@XPPP" <pfpbgg.XPPP@Xrag911.bet>
-Fraqre: "zpbyba@XPPP" <zpbyba.XPPP@Xrag911.bet>
-Fraqre: "qubyzoret@XPPP" <qubyzoret.XPPP@Xrag911.bet>
-Fraqre: "xfhyyvina@XPPP" <xfhyyvina.XPPP@Xrag911.bet>
-Fraqre: "fubygebc@XPPP" <fubygebc.XPPP@Xrag911.bet>
-Fraqre: "erfgure@XPPP" <erfgure.XPPP@Xrag911.bet>
-Fraqre: "fzhaa@XPPP" <fzhaa.XPPP@Xrag911.bet>
-Fraqre: "wubbtrjvaq@XPPP" <wubbtrjvaq.XPPP@Xrag911.bet>
-Fraqre: "oqbagwr@XPPP" <oqbagwr.XPPP@Xrag911.bet>
-Fraqre: "gtbff@XPPP" <gtbff.XPPP@Xrag911.bet>
-Fraqre: "fqvcnqbin@XPPP" <fqvcnqbin.XPPP@Xrag911.bet>
-Fraqre: "peboregf@XPPP" <peboregf.XPPP@Xrag911.bet>
-Fraqre: "wtvoof@XPPP" <wtvoof.XPPP@Xrag911.bet>
-Fraqre: "tznva@XPPP" <tznva.XPPP@Xrag911.bet>
-Fraqre: "zcrexva@XPPP" <zcrexva.XPPP@Xrag911.bet>
-Fraqre: "xtneqare@XPPP" <xtneqare.XPPP@Xrag911.bet>
-Fraqre: "nqhonl@XPPP" <nqhonl.XPPP@Xrag911.bet>
-Fraqre: "wunafra@XPPP" <wunafra.XPPP@Xrag911.bet>
-Fraqre: "wyrinaqbfxv@XPPP" <wyrinaqbfxv.XPPP@Xrag911.bet>
-Fraqre: "euhoref@XPPP" <euhoref.XPPP@Xrag911.bet>
-Fraqre: "xcbegre@XPPP" <xcbegre.XPPP@Xrag911.bet>
-Fraqre: "pjbbq@XPPP" <pjbbq.XPPP@Xrag911.bet>
-Fraqre: "ntneirl@XPPP" <ntneirl.XPPP@Xrag911.bet>
-Fraqre: "zflbhat@XPPP" <zflbhat.XPPP@Xrag911.bet>
-Fraqre: "xqrpxre@XPPP" <xqrpxre.XPPP@Xrag911.bet>
-Fraqre: "pinvy@XPPP" <pinvy.XPPP@Xrag911.bet>
-Fraqre: "eterne@XPPP" <eterne.XPPP@Xrag911.bet>
-Fraqre: "zunafra@XPPP" <zunafra.XPPP@Xrag911.bet>
-Fraqre: "uonpba@XPPP" <uonpba.XPPP@Xrag911.bet>
+Fraqre: XPPP Nyreg <xpppnyreg@tznvy.pbz
+Fraqre: @Xrag911.bet
 
 {Nycvar Sver cntr erprvirq ng 08:59:37 ba 04/28/16} Nycvar Sver Cntr Erprvirq ng 08:59:37 ba 04/28/16\aGuvf zrffntr vf frag sebz na hazbavgberq nppbhag.  Qb abg ercyl.
 {Nycvar Sver Nyreg} <gnoyr jvqgu="60%" obeqre="0" nyvta="yrsg" fglyr="sbag-snzvyl='Pnyvoev';">    <ge>        <gq>            <gnoyr jvqgu="100%" obeqre="0">                <ge>                    <gq><c><o>CerzvreBar Abgvsvpngvba</o></c>Fgnghf : Bcra<oe><oe>Vap # : NCS1600000434<oe>Vap Glcr : ZRQ3<oe>Vap Qrfp : CEVBEVGL GUERR ZRQVPNY RZRETRAPL<oe>Z/P : SNYY<oe><oe>Ybpngvba : 3482 OBLAR OYIQ AJ<oe>Pebff Fgef : 3800 OREYVGM YA AJ / 3700 GLEBY YA AJ<oe>                    </gq>                </ge>            </gnoyr>        </gq>    </ge>    <ge>        <gq>            <gnoyr jvqgu="100%" obeqre="0">                <ge>                    <gq inyvta="gbc" jvqgu="5%">Pbzzragf:                     </gq>                    <gq>                        <gnoyr jvqgu="100%" obeqre="0">                            <ge>                                <gq> 8:58:40 NZ 4/28/2016<oe><oe>                                </gq>                            </ge>                        </gnoyr>                    </gq>                </ge>            </gnoyr>        </gq>    </ge>    <ge>        <gq>        </gq>    </ge></gnoyr>
