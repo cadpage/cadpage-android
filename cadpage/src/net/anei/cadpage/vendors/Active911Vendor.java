@@ -719,6 +719,7 @@ class Active911Vendor extends Vendor {
       "US/MT/StillwaterCounty",           "MTStillwaterCounty",
       "US/MT/WYSAR",                      "MTGallatinCounty",
       "US/NC/AlamanceCounty",             "NCAlamanceCounty",
+      "US/NC/AnsonCounty",                "NCAnsonCounty",
       "US/NC/AlexanderCounty",            "NCAlexanderCounty",
       "US/NC/AlleghanyCounty",            "NCAlleghanyCounty",
       "US/NC/BeaufortCounty",             "NCBeaufortCounty",

@@ -56,7 +56,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   // This is the default behavior in space delimited mode
   public static final int DSFLAG_TRAIL_PLACE = 0x2000;
 
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("(?:[A-Z]+:)?(\\d{8}); *([- A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("(?:[A-Z]+:)?(\\d{8,10})[ ;] *([- A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.@]+:");
   private static final Pattern NAKED_TIME_PTN = Pattern.compile("([ ,;]) *(\\d\\d:\\d\\d:\\d\\d)(?:\\1|$)");
   private static final Pattern OCA_TRAIL_PTN = Pattern.compile("\\bOCA: *([-A-Z0-9]+)$");
@@ -171,11 +171,10 @@ public class DispatchSouthernParser extends FieldProgramParser {
     
     Matcher match = RUN_REPORT_PTN.matcher(body);
     if (match.lookingAt()) {
-      setFieldList("ID UNIT INFO");
+      setFieldList("ID INFO");
       data.msgType = MsgType.RUN_REPORT;
       data.strCallId = match.group(1);
-      data.strUnit = match.group(2);
-      data.strSupp = body.substring(match.end(2)).trim();
+      data.strSupp = body.substring(match.start(2)).replace('|', '\n').trim();
       return true;
     }
     

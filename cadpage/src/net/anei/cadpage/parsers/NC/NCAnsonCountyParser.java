@@ -22,6 +22,8 @@ public class NCAnsonCountyParser extends DispatchSouthernParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    if (!body.startsWith("notifyuser:")) return false;
+    body = body.substring(11).trim();
     if (! super.parseMsg(body, data)) return false;
     if (data.strAddress.startsWith("0 ")) data.strAddress = data.strAddress.substring(2).trim();
     return true;
