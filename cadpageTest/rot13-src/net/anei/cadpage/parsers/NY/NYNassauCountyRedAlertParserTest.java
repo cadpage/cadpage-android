@@ -105,6 +105,10 @@ Pbagnpg: Qnivq Njreohpu <qnjreohpu02@tznvy.pbz>
 Fraqre: abeguoryyzber@erqazkpnq.pbz
 ERFPHR: UVTU OYBBQ CERFFHER ng 1182 BFFVCRR EBNQ, JRFG URZCFGRNQ  p/f: FRARPN EBNQ . . 10:50:41
 
+Pbagnpg: ysq731 <ysq731@nby.pbz>
+Fraqre: yrivggbja@erqazkpnq.pbz
+SEZ:yrivggbja@erqazkpnq.pbz\aZFT:Pbzzrepvny Sverf (Nhgb Nynez) ng 45 JNAGNTU NI #FBHGU, YRIVGGBJA  p/f: URZCFGRNQ GCXR . . 07:04:09
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Onyqjva SQ
 Ybpngvba: Onyqjva, AL, Havgrq Fgngrf
@@ -1702,6 +1706,23 @@ choyvp pynff ALAnffnhPbhaglErqNyregCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:FRARPN EBNQ",
         "GVZR:10:50:41");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgYSQ731() {
+
+    qbGrfg("G1",
+        "SEZ:yrivggbja@erqazkpnq.pbz\a" +
+        "ZFT:Pbzzrepvny Sverf (Nhgb Nynez) ng 45 JNAGNTU NI #FBHGU, YRIVGGBJA  p/f: URZCFGRNQ GCXR . . 07:04:09",
+
+        "PNYY:Pbzzrepvny Sverf (Nhgb Nynez)",
+        "NQQE:45 JNAGNTU NI",
+        "ZNQQE:45 JNAGNTU NIR",
+        "NCG:FBHGU",
+        "PVGL:YRIVGGBJA",
+        "K:URZCFGRNQ GCXR",
+        "GVZR:07:04:09");
+   
   }
 
   @Grfg
