@@ -308,6 +308,10 @@ Fraqre: nyregf@prager.rnyreg911.pbz
 (Prager Pbhagl Nyregf) OBK 2511; RZF-SNYYF/NPPVQRAGF OYF; 132 NOVTNVY YA [@TRVFVATRE - TENLF JBBQF [_CNGGBA GJC;
 (Prager Pbhagl Nyregf) OBK 2531; RZF-PURFG CNVA/URNEG CEBOYRZF-NYF ?; 120 ENQABE EQ [@ZBHAG AVGGNAL ZRQVPNY PRAGRE JBHAQ PNER PYVAVP [_PBYYRTR GJC;
 
+Pbagnpg: Enaql Errfr <enaqbycure62@tznvy.pbz>
+Fraqre: nyregf@prager.rnyreg911.pbz
+(Prager Pbhagl Nyregf) OBK 2310; RZF-FVPX/HAXABJA OYF; 400 A FVKGU FG [_CUVYVCFOHET; ANZR-ZNVARF TYBEVN;
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zvyyurvz SP
 Ybpngvba: Zvyyurvz, CN, Havgrq Fgngrf
@@ -2911,6 +2915,18 @@ choyvp pynff CNPragerPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:ZBHAG AVGGNAL ZRQVPNY PRAGRE JBHAQ PNER PYVAVP",
         "PVGL:PBYYRTR GJC");
     
+  }
+
+  @Grfg
+  choyvp ibvq grfgEnaqlErrfr() {
+    
+    qbGrfg("G1",
+        "(Prager Pbhagl Nyregf) OBK 2310; RZF-FVPX/HAXABJA OYF; 400 A FVKGU FG [_CUVYVCFOHET; ANZR-ZNVARF TYBEVN;",
+        "OBK:2310",
+        "PNYY:RZF-FVPX/HAXABJA OYF",
+        "NQQE:400 A FVKGU FG",
+        "PVGL:CUVYVCFOHET",
+        "ANZR:ZNVARF TYBEVN");
   }
 
   @Grfg
