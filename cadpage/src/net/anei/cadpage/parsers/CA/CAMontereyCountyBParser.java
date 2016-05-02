@@ -7,12 +7,13 @@ public class CAMontereyCountyBParser extends FieldProgramParser {
   
   public CAMontereyCountyBParser() {
     super("MONTEREY COUNTY", "CA", 
-          "CALL ADDRCITY UNIT EMPTY X MAP GPS! ID! Tac:CH! AIR/N GRD/N UNIT! INFO/N");
+          "( RES:UNIT! CLOSE:ID! CALL! ADDRCITY! DSP:TIME! AIQ:SKIP! END " +
+          "| CALL ADDRCITY UNIT EMPTY X MAP GPS! ID! Tac:CH! AIR/N GRD/N UNIT! INFO/N )");
   }
   
   @Override
   public String getFilter() {
-    return "8319983288";
+    return "8319983288,beuecc@fire.ca.gov";
   }
   
   @Override
