@@ -9,4 +9,9 @@ public class WVJeffersonCountyParser extends DispatchA19Parser {
   public WVJeffersonCountyParser() {
     super("JEFFERSON COUNTY", "WV");
   }
+  
+  @Override
+  public String getFilter() {
+    return "CAD911@jeffersoncountywv.org";
+  }
 }
