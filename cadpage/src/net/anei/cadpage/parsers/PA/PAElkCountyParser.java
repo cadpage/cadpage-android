@@ -48,6 +48,15 @@ public class PAElkCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("DATETIME")) return new DateTimeField(DATE_TIME_FMT, true);
+    if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace("*", "/");
+      super.parse(field, data);
+    }
   }
 }
