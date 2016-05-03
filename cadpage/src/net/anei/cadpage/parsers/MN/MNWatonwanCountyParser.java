@@ -11,7 +11,7 @@ public class MNWatonwanCountyParser extends DispatchA38Parser {
 
   @Override
   public String getFilter() {
-    return "NoReplyTAC10@co.watonwan.mn.us,NoReplyTAC10@co.watonwan.mn.us";
+    return "NoReplyTAC10@co.watonwan.mn.us";
   }
 
 }
