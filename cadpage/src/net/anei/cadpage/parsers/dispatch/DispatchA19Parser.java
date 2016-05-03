@@ -170,7 +170,7 @@ public class DispatchA19Parser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern LAT_LON_PTN = Pattern.compile("Lat= *(\\S+) +Lon= *(\\S+)");
+  private static final Pattern LAT_LON_PTN = Pattern.compile("Lat= *(\\S*) +Lon= *(\\S*)");
   private class BaseLatLonField extends GPSField {
     
     @Override
