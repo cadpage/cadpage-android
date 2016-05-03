@@ -1091,7 +1091,7 @@ public class ManagePreferences {
 
     // In any case, save the prev MEID value, just it case it
     // changes for other reasons like permission changes
-    prefs.putString(R.string.pref_prev_meid_key, oldMeid);
+    prefs.putString(R.string.pref_prev_meid_key, meid);
     return result;
   }
   
