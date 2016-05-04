@@ -17,7 +17,7 @@ public class EmailReportProblemEvent extends DonateEvent {
 
   @Override
   protected void doEvent(Activity activity, SmsMmsMessage msg) {
-    EmailDeveloperActivity.sendEmailRequest(activity, EmailType.MESSAGE, true, msg.getMsgId(), false);
+    EmailDeveloperActivity.sendEmailRequest(activity, EmailType.MESSAGE, true, msg.getMsgId(), true);
     closeEvents(activity);
   }
   
