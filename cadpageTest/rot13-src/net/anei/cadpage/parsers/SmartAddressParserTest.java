@@ -50,14 +50,14 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgCeboyrz() {
-    qbGrfg(PNYY, SYNT_VZCYVRQ_VAGREFRPG, "Iruvpyr Sver 41 FG FR 148 NIR FR XRAFOHET",
-        "PNYY:Iruvpyr Sver",
-        "NQQE:41 FG FR & 148 NIR FR",
-        "PVGL:XRAFOHET");
   }
 
   @Grfg
   choyvp ibvq grfgCeboyrzf() {
+    
+    qbGrfg(NQQE, SYNT_PURPX_FGNGHF, "611 J XRAFOHET XRA GBJA YRSG BIRE",
+        "NQQE:611 J XRAFOHET",
+        "PVGL:XRA GBJA");
     
     qbGrfg(NQQE, SYNT_VZCYVRQ_VAGREFRPG, "3510 A FGUL 11 XRA GBJA  KF: ORNE GEY / OEVQTR 1 OEVQTR QBYYNE TRARENY A FGUL 11",
         "NQQE:3510 A FGUL 11",

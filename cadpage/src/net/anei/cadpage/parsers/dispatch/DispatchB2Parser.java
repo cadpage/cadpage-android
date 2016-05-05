@@ -191,9 +191,13 @@ public class DispatchB2Parser extends DispatchBParser {
     String left = null;
     match = PHONE_PTN.matcher(field);
     if (match.find()) {
-      data.strPhone = match.group(1).trim();
-      left = field.substring(match.end());
-      field = field.substring(0,match.start());
+      int pt;
+      do {
+        data.strPhone = match.group(1).trim();
+        left = field.substring(match.end());
+        pt = match.start();
+      } while (match.find());
+      field = field.substring(0, pt);
       if (left.length() == 0) left = null;
     }
     

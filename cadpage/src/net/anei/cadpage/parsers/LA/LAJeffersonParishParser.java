@@ -22,7 +22,7 @@ public class LAJeffersonParishParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@dispatchtext.com";
+    return "@dispatchtext.com,CAD@JEFFPARISH.NET";
   }
   
   @Override

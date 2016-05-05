@@ -18,7 +18,7 @@ public class MNCassCountyParser extends MsgParser {
     return "no-reply@ledsportal.com";
   }
   
-  private static final Pattern MASTER = Pattern.compile("(.*?) RESPOND (?:None|(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d:\\d\\d) - *(.*))");
+  private static final Pattern MASTER = Pattern.compile("(.*?) RESPOND(?: (?:None|(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d:\\d\\d) - *(.*)))?");
   private static final Pattern ADDR_PTN = Pattern.compile("(.*?)(?:\\((.*?)\\))?(?:, *([ A-Z]{3,}))?(?:, *([A-Z]{2}))?(?: (\\d{5}))?");
   
   @Override

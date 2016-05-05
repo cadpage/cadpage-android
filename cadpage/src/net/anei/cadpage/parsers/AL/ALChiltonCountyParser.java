@@ -19,7 +19,7 @@ public class ALChiltonCountyParser extends DispatchSouthernPlusParser {
   private static final Pattern ADDR_EXIT_PTN = Pattern.compile("(\\d+ +EXIT) +(.*)");
 
   public ALChiltonCountyParser() {
-    super(CITY_LIST, "CHILTON COUNTY", "AL", DSFLAG_LEAD_PLACE | DSFLAG_NO_NAME_PHONE | DSFLAG_LEAD_UNIT);
+    super(CITY_LIST, "CHILTON COUNTY", "AL", DSFLAG_BOTH_PLACE | DSFLAG_FOLLOW_CROSS | DSFLAG_LEAD_UNIT);
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
   }
   
@@ -35,6 +35,8 @@ public class ALChiltonCountyParser extends DispatchSouthernPlusParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+
+    body = stripFieldStart(body, "dispatch:");
     
     Matcher match = GENERAL_ALERT_PTN.matcher(body);
     if (match.matches()) {

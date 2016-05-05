@@ -1512,7 +1512,12 @@ public abstract class SmartAddressParser extends MsgParser {
       // sEnd points to end of street name if identified, or -1 if not.
       
       // If we found a city beyond this start point, just use that as the terminator
-      if (! padField && parseAddressToCity(sAddr, (sEnd > 0 ? sEnd : sAddr+2), result)) {
+      int sTmp = sEnd;
+      if (sTmp < 0) {
+        sTmp = sAddr+2;
+        if (isType(sTmp-1, ID_DIRECTION)) sTmp++;
+      }
+      if (! padField && parseAddressToCity(sAddr, sTmp, result)) {
 
         // if FLAG_ANCHOR_END is set, an apt number in front of the trailing city name
         // will be mistakenly interpreted as a regular address.  So we need to check to
