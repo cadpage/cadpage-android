@@ -17,7 +17,7 @@ public class MTCascadeCountyBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@greatfallsmt.net";
+    return "911Text@911intn.org,@greatfallsmt.net";
   }
   
   @Override
