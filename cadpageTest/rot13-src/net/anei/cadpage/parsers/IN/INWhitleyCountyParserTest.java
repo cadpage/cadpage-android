@@ -303,7 +303,7 @@ choyvp pynff VAJuvgyrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "60423102355 ;  !5649 F ERQOHQ YA ZRQVP NFFVFG  HAERFCBAFVIR 70LE, CBFFVOYR PNEQVNP.",
         "VQ:60423102355",
-        "NQQE:5649 F ERQOHQ YA",
+        "NQQE:5649 F ERQOHQ YA", //qbrf abg znc. erqohq pg znlor?
         "PNYY:ZRQVP NFFVFG",
         "VASB:HAERFCBAFVIR 70LE, CBFFVOYR PNEQVNP.");
 
