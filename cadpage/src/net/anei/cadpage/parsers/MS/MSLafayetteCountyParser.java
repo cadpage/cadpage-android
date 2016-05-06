@@ -101,5 +101,6 @@ public class MSLafayetteCountyParser extends DispatchGlobalDispatchParser {
       "TA EMS",
       "TA TRAFFIC ACCIDENT",
       "WELFARE CONCERN"
+      
  );
 }
