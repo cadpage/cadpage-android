@@ -56,6 +56,7 @@ public class WAPendOreilleCountyParser extends FieldProgramParser {
     }
   }
 
+  private static final Pattern STATE_ROUTE_2_PTN = Pattern.compile("\\bSTATE ROUTE 2\\b", Pattern.CASE_INSENSITIVE);
   private class MyAddressCityField extends AddressCityField {
     @Override
     public void parse(String field, Data data) {
@@ -68,8 +69,11 @@ public class WAPendOreilleCountyParser extends FieldProgramParser {
         city = city.substring(0,pt);
       }
       data.strCity = city;
-      parseAddress(p.get(';'), data);
+      String addr = p.get(';');
       data.strPlace = p.get();
+      
+      addr = STATE_ROUTE_2_PTN.matcher(addr).replaceAll("US 2");
+      parseAddress(addr, data);
     }
     
     @Override

@@ -716,6 +716,7 @@ class Active911Vendor extends Vendor {
       "US/MS/Southaven",                  "MSDeSotoCountyB",
       "US/MT/CityofBlackEagle",           "MTCascadeCounty",
       "US/MT/GallatinCounty",             "MTGallatinCounty",
+      "US/MT/GreatFalls",                 "MTCascadeCountyB",
       "US/MT/MissoulaCounty",             "MTMissoulaCounty",
       "US/MT/ParkCounty",                 "MTParkCounty",
       "US/MT/RavalliCounty",              "MTRavalliCounty",

@@ -133,7 +133,7 @@ choyvp pynff TNRssvatunzPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Guvf r-znvy vf sbe gur fbyr hfr bs gur vagraqrq erpvcvrag(f) naq znl pbagnva pbasvqragvny be cevivyrtrq vasbezngvba. Nal hanhgubevmrq erivrj, hfr, qvfgevohgvba be qvfpybfher vf cebuvovgrq. Vs lbh ner abg gur vagraqrq erpvcvrag, cyrnfr ercyl gb gur fraqre naq qrfgebl nyy bevtvany pbcvrf bs guvf zrffntr.",
 
         "PNYY:P77",
-        "NQQE:400 FNAQL UVYY EQ",
+        "NQQE:400 FNAQL UVYY EQ", //(tbbtyr fnlf "fnaqluvyy")
         "PVGL:OYBBZVATQNYR",
         "VASB:JBHYQ YVXR N QRC GB EVQR GUR NERN VA ERSRERAPR GB PQ77 QRNYVAT BA FNAQL UVYY EQ, PBZC NQIVFRQ GB JNGPU BHG SBE ZHQ BA GUR EBNQ");
 
