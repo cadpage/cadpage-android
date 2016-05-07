@@ -264,7 +264,9 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
             ryfr vs (pue == '}') {
               vs (--oenprPag == 0) {
                 gzcFhowrpg = cneg.fhofgevat(1,ww).gevz();
-                cneg = cneg.fhofgevat(ww+1).gevz();
+                ww++;
+                juvyr (ww < cneg.yratgu() && cneg.puneNg(ww) == ' ') ww++;
+                cneg = cneg.fhofgevat(ww);
                 oernx;
               }
             }
@@ -282,7 +284,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
         }
       }
       vs (jbex2 != ahyy) jbex2[w] = arj VaqrkrqZrffntr(zft.trgZftVaqrk(), zft.trgZrffntrObql(), grfgYvar);
-      ryfr jbex[w] = zft.trgZrffntrObql();
+      ryfr jbex[w] = zft.trgZrffntrObql(gehr);
       
       // Vs inyvqngvba zbqr, purpx zrffntr pbhag/vaqrk
       vs (!trarengr && zftPbhag > 0) {

@@ -93,7 +93,8 @@ choyvp pynff APTnfgbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PBQR:29Q4",
         "PNYY:ZIN jvgu ebyybire, ragenczrag, rwrpgvba, rgp..",
-        "NQQE:F V 85 & F RKVG 23 ZPNQRAIVYYR",
+        "NQQE:F V 85 & F RKVG 23",
+        "PVGL:ZPNQRAIVYYR",
         "FEP:40",
         "ZNC:40Q",
         "QNGR:08/30/2011",

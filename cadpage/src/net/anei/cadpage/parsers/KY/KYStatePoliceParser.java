@@ -47,6 +47,7 @@ public class KYStatePoliceParser extends DispatchB3Parser {
         "PIKE TECHNICAL SERVICES"
     );
     removeWords("UNKNOWN", "STREET");
+    allowBadChars("()");
   }
   
   @Override

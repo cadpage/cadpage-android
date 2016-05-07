@@ -5521,9 +5521,8 @@ choyvp pynff APLnqxvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G46",
         "1 601 AO LNQXVAIVYYR;Y Bgure;JUVGR SRZNYR JNYXVAT NAQ JUVGR ZNYR SBYYBJVAT URE",
         "CYNPR:1",
-        "NQQE:601 AO",
-        "ZNQQE:601",
-        "PVGL:LNQXVAIVYYR",
+        "NQQE:601 AO LNQXVAIVYYR",
+        "ZNQQE:601 LNQXVAIVYYR",
         "PNYY:Y Bgure",
         "VASB:JUVGR SRZNYR JNYXVAT NAQ JUVGR ZNYR SBYYBJVAT URE");
 

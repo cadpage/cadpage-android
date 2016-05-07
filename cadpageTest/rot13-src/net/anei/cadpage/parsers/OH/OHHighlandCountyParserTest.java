@@ -2022,9 +2022,8 @@ choyvp pynff BUUvtuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Argjbexnqzva:[YNR]- ANGHER: SVER - SVRYQ YBPNGVBA: 2040 A UBYYBJGBJA FNYRZ GJC",
         "HAVG:YNR",
         "PNYY:SVER - SVRYQ",
-        "NQQE:2040 A",
-        "PVGL:UBYYBJGBJA",
-        "ANZR:FNYRZ GJC");
+        "NQQE:2040 A UBYYBJGBJA",
+        "PVGL:FNYRZ GJC");
 
     qbGrfg("G41",
         "Argjbexnqzva:[PGP]- ANGHER: ZRAGNY FGNGHF PUNATR YBPNGVBA: 155 F ZNVA FG YLAPUOHET ORGJRRA CRNEY FG / JNFUVATGBA FG PBZZRAGF: RYQREYL ZNYR QVFBERAGRQ",

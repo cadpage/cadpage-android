@@ -18,7 +18,7 @@ public class NCGastonCountyAParser extends FieldProgramParser {
   private static final Pattern CODE_PTN = Pattern.compile("^\\d{1,2}[A-Z]\\d{1,2}[A-Z]?\\b");
   
   public NCGastonCountyAParser() {
-    super("GASTON COUNTY", "NC",
+    super(CITY_LIST, "GASTON COUNTY", "NC",
            "ADDR/SC! X-ST:X! Phone:PHONE? Station:SRC Quadrant:MAP");
   }
   
@@ -177,4 +177,47 @@ public class NCGastonCountyAParser extends FieldProgramParser {
       "31D",     "Unconscious / Fainting (Near)",
       "32D",     "Unknown Problem (Man Down)"
   });
+  
+  private static final String[] CITY_LIST = new  String[]{
+    
+    // Cities
+    "BELMONT",
+    "BESSEMER CITY",
+    "CHERRYVILLE",
+    "GASTONIA",
+    "KINGS MOUNTAIN",
+    "LOWELL",
+    "MOUNT HOLLY",
+
+    // Towns
+    "CRAMERTON",
+    "DALLAS",
+    "DELLVIEW",
+    "HIGH SHOALS",
+    "MCADENVILLE",
+    "RANLO",
+    "SPENCER MOUNTAIN",
+    "STANLEY",
+
+    // Townships
+    "CHERRYVILLE",
+    "CROWDERS MOUNTAIN",
+    "DALLAS",
+    "GASTONIA",
+    "RIVERBEND",
+    "SOUTH POINT",
+
+    // Unincorporated communities
+    "ALEXIS",
+    "ASHEBROOK PARK",
+    "BOOGERTOWN",
+    "BROWN TOWN",
+    "CROWDERS",
+    "HARDINS",
+    "LUCIA",
+    "MOUNTAIN ISLAND",
+    "SOUTH GASTONIA",
+    "SPRINGDALE",
+    "TRYON"
+  };
 }

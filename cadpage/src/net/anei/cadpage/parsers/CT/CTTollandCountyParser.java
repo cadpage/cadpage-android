@@ -40,6 +40,7 @@ public class CTTollandCountyParser extends GroupBestParser {
     // Windham county
     "ASHFORD",
     "EASTFORD",
+    "NORTH WINDHAM",
     "WILLIMANTIC",
     "WINDHAM",
     

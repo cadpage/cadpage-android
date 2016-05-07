@@ -432,7 +432,8 @@ public abstract class MsgParser {
     
     // Decode the call page and place the data in the database
     String strSubject = msg.getSubject();
-    String strMessage = htmlFilter(msg.getMessageBody());
+    String strMessage = msg.getMessageBody(keepLeadBreak());
+    strMessage = htmlFilter(strMessage);
     Data data = new Data(this);
     if (strMessage == null) return data;
     if (parseHtmlMsg(strSubject, strMessage, data)) return data;
@@ -445,6 +446,14 @@ public abstract class MsgParser {
       return ManageParsers.getInstance().getAlertParser().parseMsg(msg, parseFlags);
     }
     return null;
+  }
+  
+  /**
+   * Determine if leading line breaks should be preserved
+   * @return true if they should
+   */
+  protected boolean keepLeadBreak() {
+    return false;
   }
 
   /**

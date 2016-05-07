@@ -15,6 +15,7 @@ public class NYAlbanyCountyCParser extends DispatchA40Parser {
     super(CITY_LIST, "ALBANY COUNTY", "NY");
     setFieldList("SRC CALL PLACE ADDR APT CITY INFO DATE TIME");
     setupMultiWordStreets("NORTH GREENBUSH");
+    addInvalidWords("HRS");
   }
 
   private static Pattern BODY_TIME = Pattern.compile("(.*?)-[A-Z]{3}\\((\\d{1,2}/\\d{1,2}/\\d{4}) (\\d{1,2}:\\d{2}:\\d{2} [AP]M)\\)");

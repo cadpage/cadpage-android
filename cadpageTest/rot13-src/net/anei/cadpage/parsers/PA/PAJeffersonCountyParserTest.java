@@ -478,7 +478,8 @@ choyvp pynff CNWrssrefbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:R20 E20 G20 R30 FD30 R40 GX40 E40 ZRQ50",
         "NQQE:105 A TVYCVA FG",
         "PVGL:Chakfhgnjarl",
-        "K:TENPR CYNPR NCNEGZRAGFCVAR FG / PENAORE");
+        "CYNPR:TENPR CYNPR NCNEGZRAGF",
+        "K:CVAR FG / PENAORE");
 
     qbGrfg("G29",
         "(Vapvqrag) Fgehpgher Sver R30 R20 R40 GX40 G20 G40 ZRQ50  507 TENSSVHF NIR Chakfhgnjarl BEPUNEQ NIR / ZNP FG 30-N Falqre Uvyy\a\a" +
