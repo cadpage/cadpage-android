@@ -129,6 +129,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     if (impliedApt) sb.append('6');
     sb.append(leadPlace ? 'P' : 'X');
     if (trailPlace2) sb.append("P");
+    sb.append(" ST?");
     if (inclCall) sb.append(" CALL");
     if (inclCross || inclCrossNamePhone) sb.append(" X?");
     if (!inclCross && !noNamePhone) sb.append(" NAME+? PHONE?");
