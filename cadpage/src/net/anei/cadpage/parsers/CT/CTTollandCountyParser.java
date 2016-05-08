@@ -40,8 +40,10 @@ public class CTTollandCountyParser extends GroupBestParser {
     // Windham county
     "ASHFORD",
     "EASTFORD",
+    "NORTH WINDHAM",
     "WILLIMANTIC",
     "WINDHAM",
+    "WOODSTOCK",
     
     // Hartford County
     "BROAD BROOK",
@@ -55,7 +57,10 @@ public class CTTollandCountyParser extends GroupBestParser {
     "WINDSOR LOCKS EAST",
     
     // New London County
-    "LEBANON"
+    "LEBANON",
+    
+    // Tolland County
+    "VERNON"
     
   };
 }

@@ -11,20 +11,27 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class CTTollandCountyAParser extends SmartAddressParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("[A-Z]+");
-  private static final Pattern TIME_PTN = Pattern.compile("\\b\\d\\d:\\d\\d\\b");
-  private static final Pattern ID_PTN = Pattern.compile("\\b\\d{4}-\\d{8}$");
-  
   public CTTollandCountyAParser() {
     super(CTTollandCountyParser.CITY_LIST, "TOLLAND COUNTY", "CT");
     setFieldList("SRC ADDR APT CITY PLACE CALL TIME X ID");
-    removeWords("COURT", "ROAD", "STREET", "TERRACE");
+    removeWords("COURT", "KNOLL", "ROAD", "STREET", "TERRACE");
+    addRoadSuffixTerms("CMNS", "COMMONS");
+    setupSaintNames("PHILIPS");
+    setupMultiWordStreets(
+        "WHITNEY T FERGUSON III"
+    );
   }
   
   @Override
   public String getFilter() {
     return "@TollandCounty911.org,@TollandCounty911.com,messaging@iamresponding.com";
   }
+  
+  private static final Pattern SUBJECT_PTN = Pattern.compile("[A-Z]+");
+  private static final Pattern FLR_PTN = Pattern.compile("(\\d+)(?:ST|ND|RD|TH) *(?:FLOOR|FLR?)");
+  private static final Pattern APT_PTN = Pattern.compile("(?:UNIT|TRLR|TRAILER|APT|LOT|FLR?)[- ]*(.*)|[A-Z] *\\d*|\\d+[A-Z]?|\\d+FL");
+  private static final Pattern TIME_PTN = Pattern.compile("\\b\\d\\d:\\d\\d\\b");
+  private static final Pattern ID_PTN = Pattern.compile("\\b\\d{4}-\\d{8}$");
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
@@ -50,6 +57,7 @@ public class CTTollandCountyAParser extends SmartAddressParser {
     // shouldn't have to do much parsing.  If it doesn't find a city, bail out.
     // The slash confuses the parse logic, so switch it to something unusual
     // Ditto for parrens
+    body = FLR_PTN.matcher(body).replaceAll("FLR $1");
     body = escape(body);
     parseAddress(StartType.START_ADDR, FLAG_EMPTY_ADDR_OK, body, data);
     if (data.strCity.length() == 0) return false;
@@ -67,14 +75,20 @@ public class CTTollandCountyAParser extends SmartAddressParser {
       data.strApt = append(data.strApt, " - ", getLeft());
       
       sAddr = sAddr.substring(pt+1).trim();
+      sAddr = stripFieldEnd(sAddr, "/");
       
-      // if what comes after the slash is a street name, append it to address
+      // if what comes after the slash is a street name
       // If not, put it in the apt field
-      Result res = parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr);
-      if (res.isValid()) {
+      Matcher match = APT_PTN.matcher(sAddr);
+      if (match.matches()) {
+        String apt = match.group(1);
+        if (apt == null) apt = sAddr;
+        if (!data.strApt.equals(apt)) data.strApt = append(apt, "-", data.strApt);
+      }
+      else if (isValidAddress(sAddr)) {
         data.strAddress = append(data.strAddress, " & ", sAddr);
       } else {
-        data.strApt = append(data.strApt, " - ", sAddr);
+        data.strPlace = append(data.strPlace, " - ", sAddr);
       }
     }
     
@@ -114,7 +128,8 @@ public class CTTollandCountyAParser extends SmartAddressParser {
       if (Character.isLetter(body.charAt(j))) {
         String call = CALL_LIST.getCode(body.substring(j));
         if (call != null) {
-          data.strPlace = stripFieldEnd(body.substring(0,j).trim(), "<New Call>");
+          String place = stripFieldEnd(body.substring(0,j).trim(), "<New Call>");
+          data.strPlace = append(data.strPlace, " - ", place);
           data.strCall = body.substring(j);
           return true;
         }
@@ -176,6 +191,7 @@ public class CTTollandCountyAParser extends SmartAddressParser {
       "Mutual Aid Fire",
       "Natural Gas/Propane Leak",
       "Officer Call",
+      "OFFICER CALL TN.",
       "Outside Fire",
       "Search and Rescue",
       "Service Call",

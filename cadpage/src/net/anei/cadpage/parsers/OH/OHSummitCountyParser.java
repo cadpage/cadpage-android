@@ -45,6 +45,7 @@ public class OHSummitCountyParser extends GroupBestParser {
     
     // Villages
     "BOSTON HEIGHTS",
+    "BOSTON HTS",
     "CLINTON",
     "LAKEMORE",
     "MOGADORE",

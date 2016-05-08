@@ -1137,9 +1137,8 @@ choyvp pynff BUShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "([929]- ANGHER) QVSSVPHYGL OERNGUVAT YBPNGVBA: 306 A SNLRGGR SNLRGGR ORGJRRA GBYRQB / NYYRA PBZZRAGF: K L PS HAP",
         "HAVG:929",
         "PNYY:QVSSVPHYGL OERNGUVAT",
-        "NQQE:306 A",
+        "NQQE:306 A SNLRGGR",
         "PVGL:SNLRGGR",
-        "ANZR:SNLRGGR",
         "K:GBYRQB / NYYRA",
         "VASB:K L PS HAP");
 
@@ -1147,9 +1146,8 @@ choyvp pynff BUShygbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "([930]- ANGHER) QVSSVPHYGL OERNGUVAT YBPNGVBA: 306 A SNLRGGR SNLRGGR ORGJRRA GBYRQB / NYYRA PBZZRAGF: K L PS HAP",
         "HAVG:930",
         "PNYY:QVSSVPHYGL OERNGUVAT",
-        "NQQE:306 A",
+        "NQQE:306 A SNLRGGR",
         "PVGL:SNLRGGR",
-        "ANZR:SNLRGGR",
         "K:GBYRQB / NYYRA",
         "VASB:K L PS HAP");
 

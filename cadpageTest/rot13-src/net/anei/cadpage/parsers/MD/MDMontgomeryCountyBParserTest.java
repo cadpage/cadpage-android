@@ -12,6 +12,7 @@ Fraqre: qvfcngpu@ohgyrezrqvpnygenafcbeg.pbz
 1 bs 2\aSEZ:qvfcngpu@ohgyrezrqvpnygenafcbeg.pbz\aFHOW:- cneg 1 bs 1\aZFT:EP:Cevbevgl 12 (NFNC Erdhrfg)/12:55/Eha# 14307/XENZRE/ EVPUNEQ/ZQ -\a(Pba'g) 2 bs 2\aOYF/UBYL PEBFF FVYIRE FCEVAT UBFCVGNY/RE 22/Bnxivrj bs Fvyire Fcevat//65xt\e\a(Raq)
 1 bs 2\aSEZ:qvfcngpu@ohgyrezrqvpnygenafcbeg.pbz\aFHOW:- cneg 1 bs 1\aZFT:EP:Cevbevgl 13 (Fpurqhyrq Genaf)/16:00/Eha# 14332/GUBZNF/ RVYRRA/ZQ -\a(Pba'g) 2 bs 2\aOYF/NQIRAGVFG UP - JNFUVATGBA NQIRAGVFG UBFCVGNY/2504/Bnxivrj bs Fvyire Fcevat//132yof  B2\a(Raq)
 1 bs 2\aSEZ:qvfcngpu@ohgyrezrqvpnygenafcbeg.pbz\aFHOW:- cneg 1 bs 1\aZFT:EP:Cevbevgl 13 (Fpurqhyrq Genaf)/17:00/Eha# 14343/OBHYQRA/ EBOREG/ZQ -\a(Pba'g) 2 bs 2\aOYF/UBYL PEBFF TREZNAGBJA UBFCVGNY/4122/Zbagtbzrel Ivyyntr Pner & Erunovyvgngvba//260yof 2YB2 ovyngreny nxn\a(Raq)
+1 bs 2\aSEZ:qvfcngpu@ohgyrezrqvpnygenafcbeg.pbz\aFHOW:- cneg 1 bs 1\aZFT:EP:Cevbevgl 13 (Fpurqhyrq Genaf)/18:30/Eha# 15224/TEBO/ FLYIVN/ZQ -\a(Pba'g) 2 bs 2\aOYF/UBYL PEBFF TREZNAGBJA UBFCVGNY/4109/Fhaevfr Nffvfgrq Yvivat - Zbagtbzrel Ivyyntr//163yof B2\e\a(Raq)
 
  */
 
@@ -77,7 +78,25 @@ choyvp pynff ZQZbagtbzrelPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:UBYL PEBFF TREZNAGBJA UBFCVGNY",
         "NCG:4122",
         "VASB:Zbagtbzrel Ivyyntr Pner & Erunovyvgngvba\a260yof 2YB2 ovyngreny nxn");
-   
+
+    qbGrfg("G4",
+        "1 bs 2\a" +
+        "SEZ:qvfcngpu@ohgyrezrqvpnygenafcbeg.pbz\a" +
+        "FHOW:- cneg 1 bs 1\a" +
+        "ZFT:EP:Cevbevgl 13 (Fpurqhyrq Genaf)/18:30/Eha# 15224/TEBO/ FLYIVN/ZQ -\a" +
+        "(Pba'g) 2 bs 2\a" +
+        "OYF/UBYL PEBFF TREZNAGBJA UBFCVGNY/4109/Fhaevfr Nffvfgrq Yvivat - Zbagtbzrel Ivyyntr//163yof B2\e\a" +
+        "(Raq)",
+
+        "CEV:13",
+        "GVZR:18:30",
+        "VQ:15224",
+        "ANZR:TEBO FLYIVN",
+        "PNYY:ZQ - OYF",
+        "NQQE:UBYL PEBFF TREZNAGBJA UBFCVGNY",
+        "NCG:4109",
+        "VASB:Fhaevfr Nffvfgrq Yvivat - Zbagtbzrel Ivyyntr\a163yof B2");
+  
   }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

@@ -389,9 +389,7 @@ choyvp pynff FQYvapbyaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:13-08212",
         "PNYY:NZO : Nzohynapr Pnyy",
-        "NQQE:Pnfrl'f Trareny Fgber -",
-        "ZNQQE:Pnfrl'f Trareny Fgber",
-        "PVGL:Pnagba",
+        "NQQE:Pnfrl'f Trareny Fgber - Pnagba",
         "VASB:50 lb. z. Snyyra pbzcynvavat bs xarr cnva.");
 
     qbGrfg("G8",

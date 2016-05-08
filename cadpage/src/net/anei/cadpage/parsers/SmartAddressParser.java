@@ -1722,15 +1722,21 @@ public abstract class SmartAddressParser extends MsgParser {
     }
     
     // When we get here, 
+    // good true if we have a good solid first street name
     // saddr points to beginning of address
     // ndx points to the token following the connector
 
     // If there is a city terminating the address, just parse up to it
-    if (!padField && parseAddressToCity(sAddr, ndx+1, result)) return true;
+    if (good && !padField && parseAddressToCity(sAddr, ndx+1, result)) return true;
     
     // Otherwise find end of second road
     ndx = findRoadEnd(ndx, good ? 2 : 0);
     if (ndx < 0) return false;
+    
+    // If we did not try to parse to a trailing city previously because
+    // we did not have a solid first street name, we can try again now
+    // that we have a solid second street name
+    if (!good && parseAddressToCity(sAddr, ndx, result)) return true;
     
     // If we found that, we have a successful intersection parse
     result.addressField = new FieldSpec(sAddr, ndx);
@@ -1744,7 +1750,7 @@ public abstract class SmartAddressParser extends MsgParser {
   /**
    * Find beginning of street name once we have identified a legitimate street suffix
    * @param start hard beginning of possible street name
-   * @param sAddr tentative begining of possible street name
+   * @param sAddr tentative beginning of possible street name
    * @return
    */
   private int findRoadStart(int start, int sAddr) {
@@ -2125,30 +2131,6 @@ public abstract class SmartAddressParser extends MsgParser {
   }
   
   /**
-   * Called when we have identified the start of an street/highway and want to parse out to the end of
-   * the address
-   * @param stAddr prospective start of address field
-   * @param srcNdx index to start searching
-   * @param strict true if street names must be terminated with a proper suffix
-   * false if ternimation by apt or cross street keyword is acceptable
-   * @param result Result object where results will be stored
-   * @return true if successful and results have been updated,
-   * false if unsuccessful and nothing has been updated
-   */
-//  private boolean parseEndAddress(int stAddr, int srcNdx, boolean strict, Result result) {
-//    
-//    // Start by looking for a normal city
-//    if (parseAddressToCity(stAddr, srcNdx, result)) return true;
-//    
-//    // No luck, see if we can find a normal end of road
-//    int tmp = findRoadEnd(srcNdx, 1, strict);
-//    if (tmp >= 0) {
-//      
-//    }
-//    
-//  }
-  
-  /**
    * Parse address field to city
    * @param stAddr prospective start of address field
    * @param srcNdx index to start searching
@@ -2212,8 +2194,8 @@ public abstract class SmartAddressParser extends MsgParser {
    * @param addrFld true if fldSpec is destined to be an address field spec
    * @param aptFld true if fldSPec is destined to be an apartment field
    * @param cityOpt search option<br>
-   * 1 - succeeed only if real city found, or at EOL if FLAG_ANCHOR_END is set
-   * 2 - succeeed if we find an apt or cross street indicator
+   * 1 - succeed only if real city found, or at EOL if FLAG_ANCHOR_END is set
+   * 2 - succeed if we find an apt or cross street indicator
    * 3 - always succeed 
    * @param srcNdx start looking for city here
    * @return true if  city was identified and all fields have been set
@@ -2236,7 +2218,17 @@ public abstract class SmartAddressParser extends MsgParser {
     // If FLAG_SIMPLE_FOLLOWS is set, for city option from 1 to 2
     if (cityOpt == 1 && isFlagSet(FLAG_SIMPLE_FOLLOWS)) cityOpt = 2;
 
-    if (srcNdx >= tokens.length) return false;
+    // Starting at or after the end of the field is usually an automatic failure
+    // But if the anchor end flag is set, and ending here will produce a
+    // legitimate data field, close out that field
+    if (srcNdx >= tokens.length) {
+      if (srcNdx > tokens.length) return false;
+      if (!anchorEnd) return false;
+      if (fldSpec == null || fldSpec.fldStart >= tokens.length) return false;
+      fldSpec.end(tokens.length);
+      result.endAll = tokens.length;
+      return true;
+    }
     if ((cityOpt == 1 || checkStatus) && !parseToEnd && !nearToEnd && lastCity < srcNdx) return false;
     
     // Notice: If the FLAG_ANY_PAD_FIELD was set, some of these fields might have
@@ -2518,7 +2510,7 @@ public abstract class SmartAddressParser extends MsgParser {
   /**
    * Parse apt and cross street information after we have parsed
    * a complete address
-   * @param result
+   * @param result returns result information
    * @return true if final address parse should be considered successful
    */
   private boolean parseTrailingData(Result result) {

@@ -31,6 +31,7 @@ public class SDLincolnCountyParser extends FieldProgramParser {
   public SDLincolnCountyParser() {
     super(CITY_LIST, "LINCOLN COUNTY", "SD",
           "( SELECT/2 ADDR INFO CALL! | SRC ADDR! ) DATETIME? INFO+ ");
+    addInvalidWords("-", ":");
   }
   
   @Override

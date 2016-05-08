@@ -83,7 +83,7 @@ Fraqre: <Fpbggfobeb,NYQvfcngpu@fpbggfobeb.bet>
 choyvp pynff NYWnpxfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp NYWnpxfbaPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "WNPXFBA PBHAGL", "NY");
+    frgCnefre(arj NYWnpxfbaPbhaglCnefre(), "WNPXFBA PBHAGL", "NY");
   }
 
   @Grfg

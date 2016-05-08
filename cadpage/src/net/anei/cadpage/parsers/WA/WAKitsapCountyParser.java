@@ -31,7 +31,7 @@ public class WAKitsapCountyParser extends SmartAddressParser {
   public static Pattern TAIL = Pattern.compile("(?:(.*?) *\\*\\* *)?(?:Case number|PACIFIC SURGERY) ([A-Z]+(?:\\d *){8})(?:has been assigned for .*?  +\\*\\* >>>> by: +.*? +on terminal: *?.*?(?:  +(.*))?|.*)?");
   
   @Override
-  public boolean parseUntrimmedMsg(String subject, String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
     
     //check for CENCOM, remove from body
     if (!subject.equals("CENCOM")) {

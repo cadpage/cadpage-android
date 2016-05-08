@@ -14,6 +14,7 @@ public class Message {
   private String parseAddress;
   private String parseSubject;
   private String parseMessageBody;
+  private int leadBrkCount = 0;
   private int msgIndex = -1;
   private int msgCount = -1;
 
@@ -92,13 +93,21 @@ public class Message {
     return parseSubject;
   }
   
-  public String getMessageBody() {
-    return parseMessageBody;
-  }
-  
   public void setMessageBody(String body) {
     parseMessageBody = body;
     info = null;
+  }
+  
+  public String getMessageBody() {
+    return getMessageBody(false);
+  }
+  
+  public String getMessageBody(boolean keepLeadBreak) {
+    if (!keepLeadBreak || leadBrkCount == 0) return parseMessageBody;
+    StringBuilder sb = new StringBuilder();
+    for (int j = 0; j<leadBrkCount; j++) sb.append('\n');
+    sb.append(parseMessageBody);
+    return sb.toString();
   }
   
   public int getMsgIndex() {
@@ -199,11 +208,11 @@ public class Message {
       addSubject(subject);
     }
     
-    // Start by decoding common HTML sequences
-    body = trimLead(body, keepLeadBreak);
-    
     // Get rid of any \r characters
     body = RETURN_PTN.matcher(body).replaceAll("\n");
+    
+    // Start by decoding common HTML sequences
+    body = trimLead(body, keepLeadBreak);
     
     // Change spurious '¡' characters back to the @ there were originally intended to be
     body = body.replace('¡', '@');
@@ -226,7 +235,7 @@ public class Message {
     }
     
     // Clean up leading subject in parens, unless this is a followup message
-    // and we have been requested to no extract subjects from followup messages
+    // and we have been requested to not extract subjects from followup messages
     if (!(options.noParseSubjectFollow() && follow)) body = cleanParenSubject(body);
     
     // Drop FWD: prefix
@@ -522,10 +531,17 @@ public class Message {
   private static final Pattern OTHER_HEADER_PTN = Pattern.compile("\\[?mailto:.*\\]|(?:Content-Type|Date|Importance|Reply-To|Return-Path|Sent|SentTo|To|X-Mailer):.*");
   private static final Pattern JUNK_HEADER_PTN = Pattern.compile("_{5,}|-{5,}|--+(?:Original Message)?--+|Auto forwarded by a Rule|--+ Forwarded message --+");
 
-  private static String trimLead(String str, boolean keepLeadBreak) {
+  private String trimLead(String str, boolean keepLeadBreak) {
     int pt = 0;
-    while (pt < str.length() && 
-            (keepLeadBreak ? str.charAt(pt) == ' ' : Character.isWhitespace(str.charAt(pt)))) pt++;
+    while (pt < str.length()) {
+      char chr = str.charAt(pt);
+      if (!Character.isWhitespace(chr)) break;
+      if (chr != ' ') {
+        if (keepLeadBreak) break;
+        if (chr == '\n') leadBrkCount++;
+      }
+      pt++;
+    }
     return str.substring(pt);
   }
   
