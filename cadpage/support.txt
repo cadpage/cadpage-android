@@ -3934,7 +3934,7 @@ If they are, use the Cadpage "Email the Developer" setting to send us a new supp
 * If authorized run days > 10, add 30 day authorization code
 **************************************************************************
 
-Apparently, you are using the General location setting, which is no longer free. We prefer that you switch to a real location-specific parser for a more effective Cadpage experience.
+Apparently, you are using the General location setting.  For a more effective Cadpage experience, we encourage you to select a specific location.
 
 The general location doesn't really know anything about how your text messages are structured and can only pull a limited amount of information from them. To really get the full benefit of Cadpage you need to specify a location setting that will know more about your specific message format and can get a lot more information from it.
 
