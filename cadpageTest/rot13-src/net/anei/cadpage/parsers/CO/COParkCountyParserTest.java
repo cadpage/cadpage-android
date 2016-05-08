@@ -183,8 +183,10 @@ PNQ / ZZ200 UVTUJNL 285 CNEX PBHAGL NPPVQRAG/PENFU
 PNQ / 238 ZPQBHTNY EQ UNEEVF CNEX RFGNGRF ZRQVPNY
 PNQ / ZZ185 UVTUJNL 285 CNEX PBHAGL NPPVQRAG/PENFU
 
-(GUVF VF VA BHE PNQ FLFGRZ NF ORVAT VA JRFGREA HAVBA ENAPU, UBJRIRE, GUR FHOQVIVFVBA VF ABJ PNYYRQ ENAPU BS GUR EBPXVRF) 
 
+Pbagnpg: Y. Ebovafba <yebovafbacpsq@tznvy.pbz>
+Fraqre: cnexpbqvfcngpu@cnexpb.hf
+(PNQ) 34687 FVYIRE FCEVAT OYIQ FVYIRE FCEVATF ZRQVPNY
 
 */
 
@@ -1308,6 +1310,17 @@ choyvp pynff PBCnexPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:CNEX PBHAGL",
         "PNYY:NPPVQRAG/PENFU");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgYEbovafba() {
+
+    qbGrfg("G1",
+        "(PNQ) 34687 FVYIRE FCEVAT OYIQ FVYIRE FCEVATF ZRQVPNY",
+        "NQQE:34687 FVYIRE FCEVAT OYIQ",
+        "CYNPR:FVYIRE FCEVATF",
+        "PNYY:ZRQVPNY");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

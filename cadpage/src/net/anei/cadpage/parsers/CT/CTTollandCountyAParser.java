@@ -14,8 +14,9 @@ public class CTTollandCountyAParser extends SmartAddressParser {
   public CTTollandCountyAParser() {
     super(CTTollandCountyParser.CITY_LIST, "TOLLAND COUNTY", "CT");
     setFieldList("SRC ADDR APT CITY PLACE CALL TIME X ID");
-    removeWords("COURT", "ROAD", "STREET", "TERRACE");
+    removeWords("COURT", "KNOLL", "ROAD", "STREET", "TERRACE");
     addRoadSuffixTerms("CMNS", "COMMONS");
+    setupSaintNames("PHILIPS");
     setupMultiWordStreets(
         "WHITNEY T FERGUSON III"
     );

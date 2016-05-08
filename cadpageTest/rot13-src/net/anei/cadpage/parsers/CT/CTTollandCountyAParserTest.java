@@ -525,7 +525,6 @@ Fraqre: <GA@GbyynaqPbhagl911.pbz>
 {GA Nyreg} 52 CREEL UVYY EQ /  NCG 3T Nfusbeq Creel Uvyy RfgngrfOYF ONPX CNVA - 57 L/B ZNYR  07:42 Pebff Fgerrg YNHERY YA / JRFGSBEQ EQ 2016-00000195
 {GA Nyreg} 119 NZVQBA EQ / Nfusbeq OYF SNYY SEBZ JURRYPUNVE, NEZ VAWHEL 06:20 Pebff Fgerrg FRPXNE EQ / MNVPRX EQ 2016-00000194
 {GA Nyreg} 574 NFUSBEQ PRAGRE EQ / NCG N2 Nfusbeq Rinatryvpny Oncgvfg PnzcOYF YVSRYVAR NPGVINGVBA 00:26 Pebff Fgerrg RNFGSBEQ GBJA YVAR / TENAG EQ 2016-00000193
-{GA Nyreg} <HAXABJA> / Iruvpyr Nppvqrag 2 PNE-NERN BS JRFGSBEQ EQ 17:08 Pebff Fgerrg 2016-00000192
 {GA Nyreg} 44 NFUSBEQ YNXR QE / Nfusbeq NYF 18 LBS: PNEQVNP CG/ UNAQ AHZOARFF 11:08 Pebff Fgerrg BNXIVRJ QE / UVYYPERFG QE 2016-00000191
 {GA Nyreg} 574 NFUSBEQ PRAGRE EQ / Nfusbeq Rinatryvpny Oncgvfg PnzcOYF 72 LBZ: CFLPU RINY: UBZR SBE GUR NTRQ- HAVG 4  11:15 Pebff Fgerrg RNFGSBEQ GBJA YVAR / TENAG EQ 2016-00000190
 {GA Nyreg} 149 NFUSBEQ PRAGRE EQ / NCG O7 Nfusbeq Ovepu Uvyy PbaqbfNYF QVNORGVP CEBOYRZ 33 L/B ZNYR 23:39 Pebff Fgerrg ZNAFSVRYQ EQ, JRFGSBEQ EQ, CBZCRL UBYYBJ EQ / CHZCXVA UVYY EQ 2016-00000189
@@ -5343,9 +5342,6 @@ choyvp pynff PGGbyynaqPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:RNFGSBEQ GBJA YVAR / TENAG EQ",
         "VQ:2016-00000193");
 
-// ************************ CNEFR SNVYHER *****************************
-// {GA Nyreg} <HAXABJA> / Iruvpyr Nppvqrag 2 PNE-NERN BS JRFGSBEQ EQ 17:08 Pebff Fgerrg 2016-00000192
-
     qbGrfg("G6",
         "{GA Nyreg} 44 NFUSBEQ YNXR QE / Nfusbeq NYF 18 LBS: PNEQVNP CG/ UNAQ AHZOARFF 11:08 Pebff Fgerrg BNXIVRJ QE / UVYYPERFG QE 2016-00000191",
         "NQQE:44 NFUSBEQ YNXR QE",
@@ -5750,8 +5746,14 @@ choyvp pynff PGGbyynaqPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:UNCCL UVYY YA, MNVPRX EQ / TENUNZ EQ",
         "VQ:2016-00000155");
 
-// ************************ CNEFR SNVYHER *****************************
-// {GA Nyreg} 64 CBZCRL UBYYBJ EQ / Nfusbeq NYF fg cuvyvcf puhepu - cbff pin - 2aq pnyy 17:01 Pebff Fgerrg GERZXB YA / CBZCRL EQ 2016-00000154
+    qbGrfg("G52",
+        "{GA Nyreg} 64 CBZCRL UBYYBJ EQ / Nfusbeq NYF fg cuvyvcf puhepu - cbff pin - 2aq pnyy 17:01 Pebff Fgerrg GERZXB YA / CBZCRL EQ 2016-00000154",
+        "NQQE:64 CBZCRL UBYYBJ EQ",
+        "PVGL:Nfusbeq",
+        "PNYY:NYF fg cuvyvcf puhepu - cbff pin - 2aq pnyy",
+        "GVZR:17:01",
+        "K:GERZXB YA / CBZCRL EQ",
+        "VQ:2016-00000154");
 
     qbGrfg("G53",
         "{GA Nyreg} 43 FRPXNE EQ / Nfusbeq NYF SNYY?/NYG.ZRAG.FGNG 16:53 Pebff Fgerrg UBJRL EQ / NZVQBA EQ 2016-00000153",
@@ -5842,8 +5844,14 @@ choyvp pynff PGGbyynaqPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:UNCCL UVYY YA, MNVPRX EQ / TENUNZ EQ",
         "VQ:2016-00000145");
 
-// ************************ CNEFR SNVYHER *****************************
-// {GA Nyreg} 80 UNJXVAF EQ / Jbbqfgbpx OYF FVPX / QVMML (NZOHYNAPR 520) 09:48 Pebff Fgerrg OEBPXJNL EQ / EBHGR 198 2016-00000144
+    qbGrfg("G64",
+        "{GA Nyreg} 80 UNJXVAF EQ / Jbbqfgbpx OYF FVPX / QVMML (NZOHYNAPR 520) 09:48 Pebff Fgerrg OEBPXJNL EQ / EBHGR 198 2016-00000144",
+        "NQQE:80 UNJXVAF EQ",
+        "PVGL:Jbbqfgbpx",
+        "PNYY:OYF FVPX / QVMML (NZOHYNAPR 520)",
+        "GVZR:09:48",
+        "K:OEBPXJNL EQ / EBHGR 198",
+        "VQ:2016-00000144");
 
     qbGrfg("G65",
         "{GA Nyreg} 201 INETN EQ / Nfusbeq OYF 65 L/BZ - YRT CNVA  15:35 Pebff Fgerrg JBEZJBBQ UVYY EQ / PHFUZNA EQ 2016-00000143",
@@ -8651,8 +8659,16 @@ choyvp pynff PGGbyynaqPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:JBBQZRER CYNPR NCGF / PBHAGELJBBQ NCGF",
         "VQ:2016-00001526");
 
-// ************************ CNEFR SNVYHER *****************************
-// {GA Nyreg} 401 GNYPBGGIVYYR EQ /  HAVG 89 Ireaba Oevne Xabyy NcgfNYF gebhoyr oernguvat - 4jrrxf byq 18:34 Pebff Fgerrg OEVNE XABYY NCGF. / JVYFUVER EQ, UBPXNAHZ OYIQ 2016-00001525
+    qbGrfg("G95",
+        "{GA Nyreg} 401 GNYPBGGIVYYR EQ /  HAVG 89 Ireaba Oevne Xabyy NcgfNYF gebhoyr oernguvat - 4jrrxf byq 18:34 Pebff Fgerrg OEVNE XABYY NCGF. / JVYFUVER EQ, UBPXNAHZ OYIQ 2016-00001525",
+        "NQQE:401 GNYPBGGIVYYR EQ",
+        "NCG:89",
+        "PVGL:Ireaba",
+        "CYNPR:Oevne Xabyy Ncgf",
+        "PNYY:NYF gebhoyr oernguvat - 4jrrxf byq",
+        "GVZR:18:34",
+        "K:OEVNE XABYY NCGF. / JVYFUVER EQ, UBPXNAHZ OYIQ",
+        "VQ:2016-00001525");
 
     qbGrfg("G96",
         "{GA Nyreg} 46 JRYYRF EQ / NCG 216 Ireaba Jryyrf Pbhagl IvyyntrOYF SNYY 18:05 Pebff Fgerrg ZVYY FGERNZ QE / NPBEA EQ 2016-00001524",
