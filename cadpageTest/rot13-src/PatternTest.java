@@ -6,10 +6,10 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   choyvp fgngvp svany Cnggrea ZNFGRE =
-      Cnggrea.pbzcvyr("NHGB ABGVSV?PNGVBA(?: BAYL BS)?: *([-N-M0-9]+) +QVFCNGPURQ NG");
+      Cnggrea.pbzcvyr("([N-M ]+) [-+]\\q{3}\\.\\q{6} [-+]\\q{3}\\.\\q{6}");
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("NHGB ABGVSPNGVBA: SH QVFCNGPURQ NG 10864 Znamnavgn Eq ,NCC");
+    qbGrfg("FBHGU UHAGVATQBA -079.688001 +040.18421 Ceboyrz: QVNORGVP TRARENY JRNXARFF Cngvrag Ahzore: 1 Puvrs Pbzcynvag: Fvpx Crefba (Fcrpvsvp Qvntabfvf) 72-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat. Qvfcngpu PNQ Pbqr: 26N05 Erfcbafr Grkg: Nycun XD: Fur unf bgure cnva: YRT CNVA XD: Ure cevznel ceboyrz vf trareny jrnxarff. XD: Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). XD: Vg'f abg xabja vs fur vf oernguvat abeznyyl. XD: Fur vf abg oyrrqvat (be ibzvgvat oybbq). PNYYRE VF GUR QNHTUGRE.. FUR VF ABG BA FPRAR. JNF HAFHER BS NQQERFF.. FNVQ VG JNF GUR 3EQ BA YRSG PBZVAT VA BSS UHAGVATQBA EQ.. TERRA UBHFR & GURER VF N GENVYRE NPEBFF FG CG VF N QVNORGVP & SRYY FRIRENY QNLF NTB.. UNFA'G ORRA BHG BS ORQ FVAPR GURA");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
