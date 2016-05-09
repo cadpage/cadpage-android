@@ -31,9 +31,29 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
   public int getMapFlags() {
     return MAP_FLG_PREFER_GPS | MAP_FLG_SUPPR_LA;
   }
+  
+  private static final Pattern AUTO_NOTIFICATION_PTN = Pattern.compile("AUTO NOTIFI?CATION(?: ONLY OF)?: *([-A-Z0-9]+) +DISPATCHED AT[: ]*(.*?)(?:, *([A-Z]{1,4}))?(?: (?:LAT|Lat): +(\\d*) +(?:LONG|Long): *(\\d*))?");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    // Parse special auto-notification alert
+    Matcher match = AUTO_NOTIFICATION_PTN.matcher(body);
+    if (match.matches()) {
+      setFieldList("CALL UNIT ADDR APT CITY GPS");
+      data.strCall = "AUTO ALERT";
+      data.strUnit = match.group(1);
+      parseAddress(match.group(2).trim(), data);
+      String city =match.group(3);
+      if (city != null) {
+        String tmp = CITY_CODES.getCodeDescription(city, true);
+        if (tmp != null) city = tmp;
+        data.strCity = city;
+      }
+      setGPSLoc(convGPS(match.group(4))+','+convGPS(match.group(5)), data);
+      return true;
+    }
+    
     if (body.startsWith("|")) body = body.substring(1).trim();
     body = body.replace(">XST:", ">X ST:");
     if (parseFields(body.split(">"), data)) {
@@ -56,7 +76,7 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
     
     // If body starts with something that looks like a unit
     // parse the unit field and report result as general alert
-    Matcher match = GEN_ALT_UNIT_PTN.matcher(body);
+    match = GEN_ALT_UNIT_PTN.matcher(body);
     if (!match.find()) return false;
     data.initialize(this);
     setFieldList("CALL UNIT INFO");
@@ -66,6 +86,13 @@ public class CASanBernardinoCountyAParser extends FieldProgramParser {
     return true;
   }
   
+  private String convGPS(String coord) {
+    if (coord == null) return "";
+    int pt = coord.length()-6;
+    if (pt < 2) return "";
+    return coord.substring(0,pt) + '.' + coord.substring(pt);
+  }
+
   @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
