@@ -55,6 +55,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
   // Flag indicating a place follows the address, even in field delimited mode
   // This is the default behavior in space delimited mode
   public static final int DSFLAG_TRAIL_PLACE = 0x2000;
+  
+  // Flag indicating a state may follow the address
+  public static final int DSFLAG_STATE = 0x4000;
 
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("(?:[A-Z]+:)?(\\d{8,10})[ ;] *([- A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.@]+:");
@@ -82,6 +85,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private boolean impliedApt;
   private boolean inclCall;
   private boolean leadUnitId;
+  private boolean state;
   private CodeSet callSet;
   private Pattern unitPtn;
   
@@ -120,6 +124,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     this.noNamePhone = (flags & DSFLAG_NO_NAME_PHONE) != 0;
     this.inclCall = (flags & DSFLAG_FOLLOW_CALL) != 0;
     this.leadUnitId = (flags & DSFLAG_LEAD_UNIT) != 0;
+    this.state = (flags & DSFLAG_STATE) != 0;
     this.unitPtn = (unitPtnStr == null ? null : Pattern.compile(unitPtnStr));
     
     
@@ -129,7 +134,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     if (impliedApt) sb.append('6');
     sb.append(leadPlace ? 'P' : 'X');
     if (trailPlace2) sb.append("P");
-    sb.append(" ST?");
+    if (state) sb.append(" ST?");
     if (inclCall) sb.append(" CALL");
     if (inclCross || inclCrossNamePhone) sb.append(" X?");
     if (!inclCross && !noNamePhone) sb.append(" NAME+? PHONE?");

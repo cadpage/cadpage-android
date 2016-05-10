@@ -9,7 +9,8 @@ public class RIWashingtonCountyParser extends FieldProgramParser {
  
   public RIWashingtonCountyParser() {
     super(CITY_LIST, "WASHINGTON COUNTY", "RI",
-           "URL? DATETIME ADDR PLACE? CITY CALL CALL ( ASGN_UNIT UNIT EMPTY | ) NOTES INFO");
+           "URL? DATETIME ADDR/S6 PLACE? CITY CALL CALL ( ASGN_UNIT UNIT EMPTY | ) NOTES INFO");
+    setupSpecialStreets("COLUMBIA HTS OVAL");
   }
   
   @Override
