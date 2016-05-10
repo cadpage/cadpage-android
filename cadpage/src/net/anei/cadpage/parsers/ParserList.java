@@ -695,6 +695,7 @@ public class ParserList {
               ,"MNWadenaCounty"                 ,"Wadena County, MN"
               ,"MNWasecaCounty"                 ,"Waseca County, MN"
               ,"MNWashingtonCounty"             ,"Washington County, MN"
+              ,"MNWatonwanCounty"               ,"Watonwan County, MN"
               ,"MNWinonaCounty"                 ,"Winona County, MN"
               ,"MNWrightCounty"                 ,"Wright County, MN"
           ),
@@ -878,6 +879,7 @@ public class ParserList {
               ,"NYStLawrenceCounty"             ,"St Lawrence County, NY"
               ,"NYSuffolkCountyAll"             ,"Suffolk County, NY"
               ,"NYSullivanCounty"               ,"Sullivan County, NY"
+              ,"NYTiogaCounty"                  ,"Tioga County, NY"
               ,"NYUlsterCounty"                 ,"Ulster County, NY"
               ,"NYWarrenCounty"                 ,"Warren County, NY"
               ,"NYWashingtonCounty"             ,"Washington County, NY"
@@ -1448,6 +1450,7 @@ public class ParserList {
               ,"WVHampshireCounty"              ,"Hampshire County, WV"
               ,"WVHardyCounty"                  ,"Hardy County, WV"
               ,"WVHarrisonCounty"               ,"Harrison County, WV"
+              ,"WVJeffersonCounty"              ,"Jefferson County, WV"
               ,"WVKanawhaCounty"                ,"Kanawha County, WV"
               ,"WVLincolnCounty"                ,"Lincoln County, WV"
               ,"WVMarionCounty"                 ,"Marion County, WV"
