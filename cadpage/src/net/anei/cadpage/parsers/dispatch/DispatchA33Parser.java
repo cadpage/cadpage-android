@@ -16,8 +16,15 @@ public class DispatchA33Parser extends FieldProgramParser {
   public static final int A33_FIX_LINE_BREAKS = 0x1;
   
   private boolean fixLineBreaks; 
-  private String closeStatus;
   private String times;
+
+  public DispatchA33Parser(String defCity, String defState) {
+    this(defCity, defState, null, 0);
+  }
+
+  public DispatchA33Parser(String defCity, String defState, int flags) {
+    this(defCity, defState, null, flags);
+  }
 
   public DispatchA33Parser(String defCity, String defState, String closeStatus) {
     this(defCity, defState, closeStatus, 0);
@@ -27,10 +34,8 @@ public class DispatchA33Parser extends FieldProgramParser {
     super(defCity, defState, 
           "Event_No:ID! Status:SKIP! Disposition:SKIP! Category:CALL! CALL+? Address:ADDR! Precinct:SKIP! Sector:MAP! GEO:SKIP! Ward:SKIP! Intersection:X? Open:DATETIME1! Dispatch:DATETIME1! Law_Enf.:SKIP! Enroute:DATETIME2! Fire:SKIP! Arrival:DATETIME2! EMS:SKIP! Departure:DATETIME3? Source:SKIP? Closed:DATETIME3! Source:SKIP? Name_Address_Phone%EMPTY NAME_PHONE Business%EMPTY PLACE Vehicle(s)%EMPTY Incident_Notes:INFO/N+");
     this.fixLineBreaks = (flags & A33_FIX_LINE_BREAKS) != 0;
-    this.closeStatus =  closeStatus;
   }
 
-  private static final Pattern RUN_REPORT_PATTERN = Pattern.compile("Event No: (\\d{4}-?\\d{5,8}) (Status: ([A-Za-z]+) .*)");
   private static final Pattern DELIM = Pattern.compile("\n| +(?=Status:|Disposition:|Category:|Precinct:|Sector:|GEO:|ESZ:|Ward:|Law Enf\\.:|Fire:|EMS:|Source:)");
 
   @Override
@@ -51,16 +56,6 @@ public class DispatchA33Parser extends FieldProgramParser {
     if (ei >= 0) body = body.substring(0, ei).trim();
     
     if (fixLineBreaks) body = fixLineBreaks(body);
-    
-    // detect and parse run reports, else continue    
-    Matcher mat = RUN_REPORT_PATTERN.matcher(body);
-    if (mat.matches() && mat.group(3).equals(closeStatus)) {
-      setFieldList("ID INFO");
-      data.msgType = MsgType.RUN_REPORT;
-      data.strCallId = mat.group(1);
-      data.strSupp = mat.group(2);
-      return true;
-    }
 
     times = "";
     if (!parseFields(DELIM.split(body), data)) return false;

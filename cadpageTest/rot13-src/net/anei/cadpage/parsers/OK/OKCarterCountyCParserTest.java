@@ -1659,7 +1659,7 @@ choyvp pynff BXPnegrePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:NEQZBER_CBYVPR_QRCNEGZRAG",
         "ANZR:FXVAARE, ZNEL",
         "CUBAR:(580) 223-3155",
-        "VASB:**02/19/2015 19:23:13 2159** 66 LB ZNYR QVSSVPHYGL OERNGUVAT. **02/19/2015 19:24:26 2159** 903 914 RA FG 2 **02/19/2015 19:24:57 2159** QSQ E3 RA K2 **02/19/2015 19:27:42 2159** QSQ E5 RA K1 **02/19/2015 19:28:31 2159** QSQ E2 RA K3 **02/19/2015 19:32:28 2159** QSQ E3 97 **02/19/2015 19:36:16 2159** QSQ E2 97 **02/19/2015 19:37:53 2159** E5 97 **02/19/2015 20:41:05 2159** Qvfcbfvgvba: PYFQ Cntr 1 bs 2 Cevagrq 02/19/2015 2041 © 1994 - 2014, Vasbezngvba Grpuabybtvrf, Vap. uggc://jjj.vgvhfn.pbz Neqzber Cbyvpr Qrcnegzrag 23 F Jnfuvatgba, Neqzber, BX 73402 Rirag Ercbeg");
+        "VASB:Bcra:   02/19/2015 19:22:40\aRaebhgr:   02/19/2015 19:25:01\aNeeviny:   02/19/2015 19:32:31\aPybfrq:   02/19/2015 20:41:05\a**02/19/2015 19:23:13 2159** 66 LB ZNYR QVSSVPHYGL OERNGUVAT. **02/19/2015 19:24:26 2159** 903 914 RA FG 2 **02/19/2015 19:24:57 2159** QSQ E3 RA K2 **02/19/2015 19:27:42 2159** QSQ E5 RA K1 **02/19/2015 19:28:31 2159** QSQ E2 RA K3 **02/19/2015 19:32:28 2159** QSQ E3 97 **02/19/2015 19:36:16 2159** QSQ E2 97 **02/19/2015 19:37:53 2159** E5 97 **02/19/2015 20:41:05 2159** Qvfcbfvgvba: PYFQ Cntr 1 bs 2 Cevagrq 02/19/2015 2041 © 1994 - 2014, Vasbezngvba Grpuabybtvrf, Vap. uggc://jjj.vgvhfn.pbz Neqzber Cbyvpr Qrcnegzrag 23 F Jnfuvatgba, Neqzber, BX 73402 Rirag Ercbeg");
 
     qbGrfg("G2",
         "(ZRQVPNY) <ugzy>\a" +
@@ -4517,7 +4517,7 @@ choyvp pynff BXPnegrePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:1",
         "QNGR:02/16/2015",
         "GVZR:15:01:25",
-        "VASB:**02/16/2015 15:02:16 3787** CVPXHC BA SVER.... FGEHPGHER VF PYBFR GB GUR SVER... **02/16/2015 15:48:29 3787** Qvfcbfvgvba: PYFQ");
+        "VASB:Bcra:   02/16/2015 15:01:25\aPybfrq:   02/16/2015 15:48:29\a**02/16/2015 15:02:16 3787** CVPXHC BA SVER.... FGEHPGHER VF PYBFR GB GUR SVER... **02/16/2015 15:48:29 3787** Qvfcbfvgvba: PYFQ");
 
     qbGrfg("G4",
         "(SVER) <ugzy>\a" +
@@ -7420,7 +7420,7 @@ choyvp pynff BXPnegrePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:4423 QVPXFBA EQ",
         "QNGR:02/14/2015",
         "GVZR:20:14:49",
-        "VASB:**02/14/2015 20:17:19 4308** **02/14/2015 20:17 4308** **02/14/2015 20:17 4308** 4 F BS HF70 1/2-3/4 F BS GNGRE UVYY EQ **02/14/2015 20:19:43 4308** 903 RAEG GB FGN 2 **02/14/2015 20:20:39 4308** 902 RAEG GB FPRAR **02/14/2015 20:22:22 4308** ERF5 RAEG 2 ZNA PERJ **02/14/2015 20:40:18 4308** Qvfcbfvgvba: PYFQ Cntr 1 bs 2 Cevagrq 02/14/2015 2040 © 1994 - 2014, Vasbezngvba Grpuabybtvrf, Vap. uggc://jjj.vgvhfn.pbz Neqzber Cbyvpr Qrcnegzrag 23 F Jnfuvatgba, Neqzber, BX 73402 Rirag Ercbeg");
+        "VASB:Bcra:   02/14/2015 20:14:49\aRaebhgr:   02/14/2015 20:20:30\aPybfrq:   02/14/2015 20:40:18\a**02/14/2015 20:17:19 4308** **02/14/2015 20:17 4308** **02/14/2015 20:17 4308** 4 F BS HF70 1/2-3/4 F BS GNGRE UVYY EQ **02/14/2015 20:19:43 4308** 903 RAEG GB FGN 2 **02/14/2015 20:20:39 4308** 902 RAEG GB FPRAR **02/14/2015 20:22:22 4308** ERF5 RAEG 2 ZNA PERJ **02/14/2015 20:40:18 4308** Qvfcbfvgvba: PYFQ Cntr 1 bs 2 Cevagrq 02/14/2015 2040 © 1994 - 2014, Vasbezngvba Grpuabybtvrf, Vap. uggc://jjj.vgvhfn.pbz Neqzber Cbyvpr Qrcnegzrag 23 F Jnfuvatgba, Neqzber, BX 73402 Rirag Ercbeg");
 
     qbGrfg("G6",
         "(SVER) <ugzy>\a" +
@@ -10316,7 +10316,7 @@ choyvp pynff BXPnegrePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:02/12/2015",
         "GVZR:04:27:53",
         "CUBAR:(580) 222-1962",
-        "VASB:**02/12/2015 04:28:53 0313** 87 LE BYQ ZNYR SRYY / FYHEERQ FCRRPU 2 JUVGR PNEF VA GUR QEVIRJNL **02/12/2015 05:04:42 0313** Qvfcbfvgvba: PYFQ Cntr 1 bs 2 Cevagrq 02/12/2015 0504 © 1994 - 2014, Vasbezngvba Grpuabybtvrf, Vap. uggc://jjj.vgvhfn.pbz Neqzber Cbyvpr Qrcnegzrag 23 F Jnfuvatgba, Neqzber, BX 73402 Rirag Ercbeg");
+        "VASB:Bcra:   02/12/2015 04:27:53\aRaebhgr:   02/12/2015 04:30:34\aNeeviny:   02/12/2015 04:46:36\aQrcnegher:   02/12/2015 05:04:40\aPybfrq:   02/12/2015 05:04:42\a**02/12/2015 04:28:53 0313** 87 LE BYQ ZNYR SRYY / FYHEERQ FCRRPU 2 JUVGR PNEF VA GUR QEVIRJNL **02/12/2015 05:04:42 0313** Qvfcbfvgvba: PYFQ Cntr 1 bs 2 Cevagrq 02/12/2015 0504 © 1994 - 2014, Vasbezngvba Grpuabybtvrf, Vap. uggc://jjj.vgvhfn.pbz Neqzber Cbyvpr Qrcnegzrag 23 F Jnfuvatgba, Neqzber, BX 73402 Rirag Ercbeg");
 
     qbGrfg("G8",
         "(ZRQVPNY) <ugzy>\a" +
@@ -11885,7 +11885,7 @@ choyvp pynff BXPnegrePbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:04:05:54",
         "ANZR:YBERAF, FNASBEQ",
         "CUBAR:(580) 224-0070",
-        "VASB:**02/12/2015 04:07:00 0313** YNFG ZBQHYNE UBZR BA GUR RNFG FVQR ZNYR QVSSVPHYGL OERNGUVAT/ UK BS NFGUZN/QVNORGVP/CEBFGNGR PNAPRE **02/12/2015 05:01:58 2159** Qvfcbfvgvba: PYFQ Cntr 1 bs 2 Cevagrq 02/12/2015 0501 © 1994 - 2014, Vasbezngvba Grpuabybtvrf, Vap. uggc://jjj.vgvhfn.pbz Neqzber Cbyvpr Qrcnegzrag 23 F Jnfuvatgba, Neqzber, BX 73402 Rirag Ercbeg");
+        "VASB:Bcra:   02/12/2015 04:05:54\aRaebhgr:   02/12/2015 04:10:34\aNeeviny:   02/12/2015 04:28:52\aPybfrq:   02/12/2015 05:01:58\a**02/12/2015 04:07:00 0313** YNFG ZBQHYNE UBZR BA GUR RNFG FVQR ZNYR QVSSVPHYGL OERNGUVAT/ UK BS NFGUZN/QVNORGVP/CEBFGNGR PNAPRE **02/12/2015 05:01:58 2159** Qvfcbfvgvba: PYFQ Cntr 1 bs 2 Cevagrq 02/12/2015 0501 © 1994 - 2014, Vasbezngvba Grpuabybtvrf, Vap. uggc://jjj.vgvhfn.pbz Neqzber Cbyvpr Qrcnegzrag 23 F Jnfuvatgba, Neqzber, BX 73402 Rirag Ercbeg");
 
     qbGrfg("G9",
         "(ZRQVPNY) <ugzy>\a" +

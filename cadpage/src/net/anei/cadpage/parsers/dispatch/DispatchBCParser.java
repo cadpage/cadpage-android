@@ -37,7 +37,8 @@ public class DispatchBCParser extends DispatchA3Parser {
     if (flds == null) return false;
     times = "";
     if (! parseFields(flds, data)) return false;
-    return true;
+    if (data.msgType == MsgType.RUN_REPORT) data.strSupp = append(times, "\n", data.strSupp);
+   return true;
   }
   
   @Override
