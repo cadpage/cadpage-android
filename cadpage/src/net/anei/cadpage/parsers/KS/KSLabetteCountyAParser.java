@@ -3,9 +3,9 @@ package net.anei.cadpage.parsers.KS;
 import net.anei.cadpage.parsers.dispatch.DispatchA33Parser;
 
 
-public class KSLabetteCountyParser extends DispatchA33Parser {
+public class KSLabetteCountyAParser extends DispatchA33Parser {
   
-  public KSLabetteCountyParser() {
+  public KSLabetteCountyAParser() {
     super("LABETTE COUNTY", "KS", "X");
   }
   
