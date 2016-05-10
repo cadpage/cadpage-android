@@ -7,7 +7,7 @@ public class MOCameronParser extends DispatchA33Parser {
   
   
   public MOCameronParser() {
-    super("CAMERON", "MO", "X");
+    super("CAMERON", "MO");
   }
   
   @Override

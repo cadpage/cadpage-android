@@ -6,7 +6,7 @@ public class COFremontCountyParser extends DispatchA33Parser {
 
 
   public COFremontCountyParser() {
-    super("FREMONT COUNTY", "CO", "Closed");
+    super("FREMONT COUNTY", "CO");
   }
   
   @Override

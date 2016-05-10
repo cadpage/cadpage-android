@@ -9,7 +9,7 @@ public class COGunnisonCountyParser extends DispatchA33Parser {
   }
 
   public COGunnisonCountyParser(String county) {
-    super(county, "CO", "Closed");
+    super(county, "CO");
   }
   
   @Override

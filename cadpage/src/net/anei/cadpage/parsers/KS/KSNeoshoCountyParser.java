@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA33Parser;
 public class KSNeoshoCountyParser extends DispatchA33Parser {
   
   public KSNeoshoCountyParser() {
-    super("NEOSHO COUNTY", "KS", "X");
+    super("NEOSHO COUNTY", "KS");
   }
   
   @Override

@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA33Parser;
 public class KSLabetteCountyAParser extends DispatchA33Parser {
   
   public KSLabetteCountyAParser() {
-    super("LABETTE COUNTY", "KS", "X");
+    super("LABETTE COUNTY", "KS");
   }
   
   @Override
