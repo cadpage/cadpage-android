@@ -15,24 +15,12 @@ import net.anei.cadpage.parsers.dispatch.DispatchB3Parser;
 public class KYStatePoliceParser extends DispatchB3Parser {
   
   private static final Pattern REJECT_PREFIX_PTN = Pattern.compile("(?:CARROLLCOUNTY911|HARRISON_COUNTY_911|PIKEVILLE9-1-1):");
-  private static final Pattern PREFIX_PTN = Pattern.compile("(?:KSP DRY RIDGE E-911|KSP CAMPBELLSBURG|911-CENTER|KSP POST 9):");
+  private static final Pattern PREFIX_PTN = Pattern.compile("(?:KSP CAMPBELLSBURG|KSP DRY RIDGE E-911|KSP FRANKFORT|KSP POST 9|911-CENTER):");
   
   private boolean srcFound;
   
   public KYStatePoliceParser() {
     this("");
-  }
-  
-  @Override
-  public SplitMsgOptions getActive911SplitMsgOptions() {
-    return new SplitMsgOptionsCustom(){
-      @Override public boolean splitBlankIns() { return false; }
-    };
-  }
-
-  @Override
-  protected int getExtraParseAddressFlags() {
-    return FLAG_CHECK_STATUS | FLAG_AT_PLACE;
   }
 
   public KYStatePoliceParser(String defCity) {
@@ -63,6 +51,18 @@ public class KYStatePoliceParser extends DispatchB3Parser {
   @Override
   public String getFilter() {
     return "KSPCAMPBELLSBURG@P05.gov,KSPCAMPBELLSBURG@P05.org,KSPDRYRIDGEE-911@P06.gov,911-CENTER@P13.gov,KSPPOST9@P09.gov";
+  }
+  
+  @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom(){
+      @Override public boolean splitBlankIns() { return false; }
+    };
+  }
+
+  @Override
+  protected int getExtraParseAddressFlags() {
+    return FLAG_CHECK_STATUS | FLAG_AT_PLACE;
   }
   
   private boolean subPrefix;
@@ -249,6 +249,7 @@ public class KYStatePoliceParser extends DispatchB3Parser {
       "COW CREEK",
       "CRACKER BOTTOM",
       "CRAFT COLLY",
+      "CRESCENT RIDGE",
       "CRIPPLE CREEK",
       "CRITTENDEN MT ZION",
       "CROSS MAIN",
@@ -262,6 +263,7 @@ public class KYStatePoliceParser extends DispatchB3Parser {
       "DAYS INN",
       "DELLA RILEY",
       "DINAH BLAIR",
+      "DIRTY TURTLE OFF",
       "DIVIDE RIDGE",
       "DIVIDED RIDGE",
       "DOE RIDGE",
@@ -320,6 +322,7 @@ public class KYStatePoliceParser extends DispatchB3Parser {
       "FOREST HILLS",
       "FORTNER RIDGE",
       "FOX CREEK",
+      "FOX LAIR",
       "FOX RUN",
       "FRANK ADKINS",
       "FREEL TACKETT",
@@ -466,6 +469,8 @@ public class KYStatePoliceParser extends DispatchB3Parser {
       "LINCOLN RIDGE",
       "LITTLE BLUE SPRINGS",
       "LITTLE FORK",
+      "LITTLE MOUNT CHURCH",
+      "LITTLE MOUNT",
       "LITTLE OAK",
       "LOCUST GROVE",
       "LOGSDON VALLEY",
@@ -524,11 +529,13 @@ public class KYStatePoliceParser extends DispatchB3Parser {
       "MT OLIVET",
       "MT PLEASANT",
       "MT VERNON",
+      "MT WASHINGTON",
       "MULLINS BRANCH",
       "MURPHY BOTTOM",
       "NAPOLEON ZION STATION",
       "NEALY CREEK",
       "NIM SMITH",
+      "NORMANDY RD",
       "NORTH MAYO",
       "NORTH POINT",
       "NORTH SECOND RIVER",
@@ -563,6 +570,7 @@ public class KYStatePoliceParser extends DispatchB3Parser {
       "PINE RIDGE",
       "PLEASANT GROVE",
       "PLEASANT VALLEY",
+      "PLUM RIDGE",
       "POINT OF ROCK",
       "POINT PLEASANT CEMETARY",
       "POINT PLEASANT",
@@ -597,6 +605,7 @@ public class KYStatePoliceParser extends DispatchB3Parser {
       "REGINA BELCHER",
       "RICHMOND HILL",
       "RIDGE LINE",
+      "RIGHT FORK CANEY CREEK",
       "RIGHT FORK OF BRUSHY",
       "RIGHT FORK PETER FORK",
       "RIGHT FORK ROCKHOUSE",
@@ -734,6 +743,7 @@ public class KYStatePoliceParser extends DispatchB3Parser {
       "WRIGHTS HOLW",
       "YELLOW HILL",
       "ZION HILL"
+     
   };
   
   private static final CodeSet CALL_LIST = new CodeSet(
@@ -745,6 +755,7 @@ public class KYStatePoliceParser extends DispatchB3Parser {
       "AIRCRAFT ACCIDENT",
       "ALARMS",
       "ALL EMS/MEDICAL CALLS",
+      "ALL EMS TRANSPORTS",
       "ANIMAL BITE",
       "ANIMAL COMPLAINT",
       "ARREST BLOTTER",
@@ -802,6 +813,7 @@ public class KYStatePoliceParser extends DispatchB3Parser {
       "FIRE - GENERAL USE",
       "FIRE STRUCTURE HOUSE OR BUSINE",
       "FIRE STRUCTURE HOUSE OR BUSN",
+      "FIREWORKS COMPLAINT",
       "FORGERY",
       "FOR INFORMATIONAL PURPOSES",
       "FRAUD INCIDENTS",
@@ -1651,6 +1663,18 @@ public class KYStatePoliceParser extends DispatchB3Parser {
     "PROVIDENCE",
     "SALMONS",
     
+    // Spencer County
+    "SPENCER",
+    "SPENCER CO",
+    "SPENCER COUNTY",
+    "ELK CREEK",
+    "LITTLE MOUNT",
+    "MOUNT EDEN",
+    "RIVALS",
+    "TAYLORSVILLE",
+    "WATERFORD",
+    "YODER",
+  
     // Trigg County
     "TRIGG",
     "TRIGG CO",
