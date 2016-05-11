@@ -4,6 +4,18 @@
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.07.08\n
+New Locations:\n
+Watonwan County, MN\n
+Tioga County, NY\n
+Jefferson County, WV\n
+\n
+Location Fixes:\n
+Labette County, KS\n
+Ottawa County, MI\n
+Carter County, OK\n
+Washington County, PA\n
+\n
 v1.9.07.07\n
 Location Fixes:\n
 Chilton County, AL\n
@@ -72,14 +84,7 @@ Fulton County, PA\n
 Perry County, PA\n
 York County, PA\n
 Dallas County, TX\n
-Snohomish County, WA\n
-\n
-v1.9.07.03\n
-Location Fixes:\n
-Citrus County, FL\n
-SOmerset County, MD\n
-Adams County, PA\n
-PennStarr, PA
+Snohomish County, WA
   </string>
 </resources>
   
