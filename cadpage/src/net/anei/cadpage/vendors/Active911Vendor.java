@@ -536,6 +536,7 @@ class Active911Vendor extends Vendor {
       "US/LA/JeffersonParish",            "LAJeffersonParish",
       "US/LA/LafayetteParish",            "LALafayetteParish",
       "US/LA/LafourcheParish",            "LALafourcheParish",
+      "US/LA/LivingstonCounty",           "LALivingstonParish",
       "US/LA/OuachitaParish",             "LAOuachitaParish",
       "US/LA/StCharlesParish",            "LAStCharlesParish",
       "US/LA/StTammanyParish",            "LAStTammanyParish",
