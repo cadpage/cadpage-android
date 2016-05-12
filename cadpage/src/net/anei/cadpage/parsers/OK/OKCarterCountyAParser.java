@@ -5,7 +5,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA33Parser;
 public class OKCarterCountyAParser extends DispatchA33Parser {
 
   public OKCarterCountyAParser() {
-    super("CARTER COUNTY", "OK", "X");
+    super("CARTER COUNTY", "OK");
   }
   
   @Override

@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA33Parser;
 public class MOFestusBParser extends DispatchA33Parser {
     
   public MOFestusBParser() {
-    super("FESTUS", "MO", "Closed");
+    super("FESTUS", "MO");
   }
   
   @Override

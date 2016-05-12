@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA33Parser;
 public class MOPoplarBluffParser extends DispatchA33Parser {
     
   public MOPoplarBluffParser() {
-    super("POPLAR BLUFF", "MO", "Closed", A33_FIX_LINE_BREAKS);
+    super("POPLAR BLUFF", "MO", A33_FIX_LINE_BREAKS);
   }
   
   @Override

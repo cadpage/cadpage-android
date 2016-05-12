@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.PA;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -11,19 +12,16 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class PAWashingtonCountyParser extends FieldProgramParser {
   
   public PAWashingtonCountyParser() {
-    super("WASHINGTON COUNTY", "PA",
-           "Loc:ADDR/S? Xsts:X? Type:CALL! Time:TIME Loc_Com:INFO Comments:INFO");
+    super(CITY_CODES, "WASHINGTON COUNTY", "PA",
+           "Loc:ADDR/S4? Xsts:X? Type:CALL! Time:TIME Loc_Com:INFO Comments:INFO");
     setupSpecialStreets("NEW ALY");
+    setupCityValues(CITY_CODES);
+    setupCities(CITY_LIST);
   }
   
   @Override
   public String getFilter() {
     return "company10paging,mptfire,WashCo911,@washingtoncounty911.com";
-  }
-  
-  @Override
-  public int getMapFlags() {
-    return MAP_FLG_REMOVE_EXT;
   }
 
   @Override
@@ -53,10 +51,20 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
   }
   
   // Address field parser
+  private static final Pattern EX_PTN = Pattern.compile("\\bEX\\b");
   private class MyAddressField extends AddressField {
     
     @Override
     public void parse(String fld, Data data) {
+      fld = stripFieldStart(fld, "/");
+      String prefix = "";
+      if (fld.startsWith("LL(")) {
+        int pt = fld.indexOf(')');
+        if (pt >= 0) { 
+          prefix = fld.substring(0,pt+1);
+          fld = fld.substring(pt+1);
+        }
+      }
       Parser p = new Parser(fld);
       while (true) {
         String place = p.getLastOptional(':');
@@ -64,8 +72,8 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
         if (place.startsWith("@")) place = place.substring(1).trim();
         data.strPlace = append(place, " - ", data.strPlace);
       }
-      data.strCity = convertCodes(p.getLast(' '), CITY_CODES); 
-      fld = p.get();
+      fld = append(prefix, " ", p.get());
+      fld = EX_PTN.matcher(fld).replaceAll("EXT");
       super.parse(fld, data);
     }
     
@@ -79,7 +87,8 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
-      int flags = FLAG_ANCHOR_END | FLAG_IMPLIED_INTERSECT;
+      field = EX_PTN.matcher(field).replaceAll("EXT");
+      int flags = FLAG_ANCHOR_END | FLAG_IMPLIED_INTERSECT | FLAG_PREF_TRAILING_BOUND | FLAG_ALLOW_DUAL_DIRECTIONS;
       if (data.strAddress.length() > 0) flags |= FLAG_ONLY_CROSS;
       parseAddress(StartType.START_ADDR, flags, field, data);
     }
@@ -89,7 +98,7 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
       return "ADDR APT CITY X";
     }
   }
-  
+
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ALLE", "ALLENPORT",
       "AMWE", "AMWELL TWP",
@@ -145,6 +154,7 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
       "ROSC", "ROSCOE",
       "SFRA", "SOUTH FRANKLIN TWP",
       "SMIT", "SMITH TWP",
+      "SMITH", "SMITH TWP",
       "SOME", "SOMERSET TWP",
       "SPEE", "SPEERS",
       "SSTR", "SOUTH STRABANE TWP",
@@ -159,6 +169,11 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
       "WMID", "WEST MIDDLETOWN",
       "WPIK", "WEST PIKE RUN TWP"
   });
+  
+  private static final String[] CITY_LIST = new String[]{
+      "ATLASBURG",
+      "SOUTHVIEW"
+  };
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
                   

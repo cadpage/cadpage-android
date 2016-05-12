@@ -12,7 +12,7 @@ public class OKGarfieldCountyParser extends DispatchA33Parser {
   private static final Pattern INFO_DATE_TIME_PTN = Pattern.compile("^\\*\\*\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d \\d\\*\\* *");
   
   public OKGarfieldCountyParser() {
-    super("GARFIELD COUNTY", "OK", "Closed");
+    super("GARFIELD COUNTY", "OK");
   }
   
   @Override

@@ -203,7 +203,7 @@ public abstract class SmartAddressParser extends MsgParser {
   public static final int FLAG_AT_MEANS_CROSS = 0x1000000;
   
   /** 
-   * Flag indicating city name may occur before @ sign.  This is only signficant
+   * Flag indicating city name may occur before @ sign.  This is only significant
    * if FLAG_AT_PLACE or FLAG_AT_BOTH have been specified
    */
   public static final int FLAG_AT_INCL_CITY = 0x2000000;

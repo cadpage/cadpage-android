@@ -7,7 +7,7 @@ public class MOAudrainCountyParser extends DispatchA33Parser {
   
   
   public MOAudrainCountyParser() {
-    super("AUDRAIN COUNTY", "MO", "X");
+    super("AUDRAIN COUNTY", "MO");
   }
   
   @Override
