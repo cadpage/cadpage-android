@@ -22,13 +22,14 @@ public class NYWyomingCountyParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     String[] flds = body.split("\n");
-    if (flds.length != 2) return false;
+    if (flds.length < 2) return false;
 
     data.strCall = flds[0];
     Parser p = new Parser(flds[1]);
     String sAddr = p.get("(Between ");
     data.strCross = p.get(')');
     data.strSupp = p.get();
+    for (int j = 2; j<flds.length; j++) data.strSupp = append(data.strSupp,"\n", flds[j].trim());
     
     parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr, data);
     return true;
