@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.AL;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA37Parser;
 
@@ -10,8 +13,26 @@ public class ALJacksonCountyParser extends DispatchA37Parser {
   }
   
   @Override
+  public boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.equals("Text Message")) return false;
+    return super.parseMsg(body, data);
+  }
+
+  @Override
   public String getFilter() { 
     return "ALDispatch@scottsboro.org"; 
+  }
+
+  private static final Pattern ADDR_ST_ZIP_PTN = Pattern.compile("(.*) (AL|GA|TN)(?: \\d{5})?");
+  
+  @Override
+  protected boolean parseLocationField(String field, Data data) {
+    Matcher match = ADDR_ST_ZIP_PTN.matcher(field);
+    if (match.matches()) {
+      field = match.group(1).trim();
+      data.strState = match.group(2);
+    }
+    return super.parseLocationField(field, data);
   }
 
   @Override
@@ -19,6 +40,11 @@ public class ALJacksonCountyParser extends DispatchA37Parser {
     
     data.strSupp = field;
     return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " ST";
   }
   
   private static final String[] CITY_LIST = new String[]{
