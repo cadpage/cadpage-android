@@ -532,6 +532,7 @@ class Active911Vendor extends Vendor {
       "US/KY/TriggCounty",                "KYTriggCounty",
       "US/LA/AscensionParish",            "LAAscensionParish",
       "US/LA/AvoyellesCounty",            "LAAvoyellesParish",
+      "US/LA/BeauregardParish",           "LABeauregardParish",
       "US/LA/CityofCovington",            "LAStTammanyParishB",
       "US/LA/CityofLakeCharles",          "LACalcasieuParish",
       "US/LA/EastFelicianaParish",        "LAEastFelicianaParish",

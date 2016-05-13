@@ -6,6 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 /**
@@ -21,18 +22,18 @@ public class LABeauregardParishParser extends SmartAddressParser {
   
   public LABeauregardParishParser() {
     super("BEAUREGARD PARISH", "LA");
-    setFieldList("SRC DATE TIME CALL ADDR APT INFO");
+    setFieldList("SRC DATE TIME CALL ADDR APT X INFO");
   }
   
   @Override
   public String getFilter() {
-    return "CAD ALERTS";
+    return "CAD ALERTS,alerts@cssofla.com>";
   }
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    if (subject.length() == 0 || subject.contains(" ")) return false;
+    if (subject.length() == 0) return false;
     data.strSource = subject;
     
     Matcher match = MASTER.matcher(body);
@@ -41,11 +42,17 @@ public class LABeauregardParishParser extends SmartAddressParser {
     setTime(TIME_FMT, match.group(2), data);
     body = match.group(3).trim();
     
+    String saveBody = body;
     body = LINE_BREAK_PTN.matcher(body).replaceAll(" ");
     body = BETWEEN_AND_PTN.matcher(body).replaceAll("$1-$2 ");
     body = body.replace(" INTERSECTION OF ", " @ ");
     parseAddress(StartType.START_CALL, body, data);
-    if (data.strAddress.length() == 0) return false;
+    if (data.strAddress.length() == 0) {
+      data.msgType = MsgType.GEN_ALERT;
+      data.strCall = "";
+      data.strSupp = saveBody;
+      return true;
+    }
     String info = getLeft();
     if (info.startsWith(",") || info.startsWith("-")) info = info.substring(1).trim();
     if (data.strCall.length() == 0) {
