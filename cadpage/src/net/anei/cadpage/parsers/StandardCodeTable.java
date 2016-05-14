@@ -2,6 +2,16 @@ package net.anei.cadpage.parsers;
 
 /**
  * Code table containing the predefined standard MPDS medical and fire codes
+ * 
+ * Missing codes
+ * 12c00
+ * 25d01
+ * 60b03
+ * 60b03o
+ * 67c01
+ * 67c01r
+ * 67c01u
+ * 77b00
  */
 public class StandardCodeTable extends CodeTable {
   
@@ -110,15 +120,15 @@ public class StandardCodeTable extends CodeTable {
         /// 9. Cardiac or Respiratory Arrest/Death 
         "09",       "Cardiac or Respiratory Arrest - Prealert",
         "09B01",    "Obvious death (unquestionable)",
-        "09B01a",   "Obvious death: Cold & stiff in a warm environment",
-        "09B01b",   "Obvious death: Decapitation",
-        "09B01c",   "Obvious death: Decomposition",
-        "09B01d",   "Obvious death: Incineration",
-        "09B01e",   "Obvious death: Non-recent death",
-        "09B01g",   "Obvious death: Severe injuries incompatible w/ life",
-        "09B01g",   "Obvious death: Submersion (>6 hours)",
-        "09B01h",   "Obvious death: User defined",
-        "09B01i",   "Obvious death: User defined",
+        "09B01A",   "Obvious death: Cold & stiff in a warm environment",
+        "09B01B",   "Obvious death: Decapitation",
+        "09B01C",   "Obvious death: Decomposition",
+        "09B01D",   "Obvious death: Incineration",
+        "09B01E",   "Obvious death: Non-recent death",
+        "09B01F",   "Obvious death: Severe injuries incompatible w/ life",
+        "09B01G",   "Obvious death: Submersion (>6 hours)",
+        "09B01H",   "Obvious death: User defined",
+        "09B01I",   "Obvious death: User defined",
         "09D01",    "Ineffective breathing",
         "09D02",    "Obvious death or expected death questionable",
         "09E01",    "Suspected workable arrest – not breathing at all",
@@ -395,6 +405,10 @@ public class StandardCodeTable extends CodeTable {
         "28C06",     "Stroke - Sudden onset of severe headache",
         "28C07",     "Stroke - Stroke history",
         "28C08",     "Stroke - Breathing normally ≥35",
+        "28C09",     "Stroke - Stroke history",
+        "28C10",     "Stroke - TIA (mini stroke) history",
+        "28C11",     "Stroke - Breathing normally ?35",
+        "28C12",     "Stroke - Unknown status",
         
         // 29. Traffic/Transportation Accidents 
         "29",        "MVA - Prealert",
@@ -1664,7 +1678,30 @@ public class StandardCodeTable extends CodeTable {
         "75O01P", "Train and rail fire - Moving train - Passenger train",
         "75O01S", "Train and rail fire - Moving train - Subway",
         "75O01T", "Train and rail fire - Moving train - Trolley",
-        "75O01U", "Train and rail fire - Moving train - Unknown"
+        "75O01U", "Train and rail fire - Moving train - Unknown",
+        "76B01",  "Bomb Threat",
+        "76C01",  "Bomb Threat - Suspect caller",
+        "77A01",  "Motor Vehicle Collision - Low Mechanism",
+        "77A02",  "Motor Vehicle Collision - No injuries with Hazard",
+        "77B01",  "Motor Vehicle Collision - Injuries",
+        "77B02",  "Motor Vehicle Collision - Unknown situation",
+        "77C01",  "Motor Vehicle Collision - Injuries with Hazard",
+        "77C02",  "Motor Vehicle Collision - Fuel/Fluid Leak",
+        "77D01",  "Motor Vehicle Collision - High Occupancy vehicle (High Mechanism)",
+        "77D02",  "Motor Vehicle Collision - High Mechanism",
+        "77D03",  "Motor Vehicle Collision - Multi-vehicle pile up",
+        "77D04",  "Motor Vehicle Collision - Pinned (trapped) victim",
+        "77D05",  "Motor Vehicle Collision - Ejection",
+        "77D06",  "Motor Vehicle Collision - Vehicle vs pedestrian/bicycle/motorcycle",
+        "77D07",  "Motor Vehicle Collision - Vehicle vs Building",
+        "77D08",  "Motor Vehicle Collision - Unstable vehicle",
+        "77D09",  "Motor Vehicle Collision - Commercial vehicle",
+        "90",     "Cardiac/Respiratory Arrest - Not breathing",
+        "900",    "Cardiac/Respiratory Arrest - Breathing uncertain",
+        "9000",   "Cardiac/Respiratory Arrest - Hanging",
+        "90000",  "Cardiac/Respiratory Arrest - Strangulation",
+        "900000", "Cardiac/Respiratory Arrest - Suffocation",
+        "9000000","Cardiac/Respiratory Arrest - Underwater"
         
     );
     

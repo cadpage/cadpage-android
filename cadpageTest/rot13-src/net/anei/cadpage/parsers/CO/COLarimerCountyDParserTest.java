@@ -31,6 +31,10 @@ Pbagnpg: Na E <nesp123@tznvy.pbz>
 Fraqre: ??
 (PNQ Cntr) QVFCNGPU:QRGRPG, QRGRPGBE, 1245 R YVAPBYA NI #215, SGP, ogja A YRZNL NI naq 12GU FG, SPSQ, C06O0C, 29Z3 O7, CBFF PB YRNX / VASG NAQ SNZVYL ZRZOREF
 
+Pbagnpg: Ovyy Svfure <sversvfu8@tznvy.pbz>
+Fraqre: pevfccntvat@sptbi.pbz
+(PNQ Cntr) QVFCNGPU:FGEHPG, FGEHPG PBZOVARQ, R PE54/AR SEBAGNTR EQ, YSP,  <4104/ 3700>, SPSQ, CS6TVC, 26C2 O8, OERNXF BA SVER BA N FRZV, Havgf:ONG1, RA1, RA12
+
  */
 
 choyvp pynff PBYnevzrePbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -125,8 +129,8 @@ choyvp pynff PBYnevzrePbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(PNQ Cntr) QVFCNGPU:ZRQVP, ZRQVPNY RZRE, NZREVPNF ORFG INYHR VAA #202, YSP, ng 4333 R ZHYOREEL RO FG #202, YSP, ogja RKVG 269 FR naq AR SEBAGNTR EQ, SPSQ, C06",
         "PBQR:ZRQVP",
         "PNYY:ZRQVPNY RZRE",
-        "CYNPR:NZREVPNF ORFG INYHR VAA #202 - YSP",
-        "PVGL:YSP",
+        "CYNPR:NZREVPNF ORFG INYHR VAA #202",
+        "PVGL:SBEG PBYYVAF",
         "NQQE:4333 R ZHYOREEL RO FG",
         "ZNQQE:4333 R ZHYOREEL FG",
         "NCG:202",
@@ -139,7 +143,8 @@ choyvp pynff PBYnevzrePbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:NYNEZ",
         "PNYY:SVER NYNEZ",
         "NQQE:1512 JROFGRE PG",
-        "CYNPR:YSP - * CER PYVAVPNY FREIVPRF *",
+        "PVGL:SBEG PBYYVAF",
+        "CYNPR:* CER PYVAVPNY FREIVPRF *",
         "K:A YVAX YA naq RAQ",
         "PU:SPSQ",
         "ZNC:29Z3 O7/C06O0C",
@@ -204,6 +209,23 @@ choyvp pynff PBYnevzrePbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PU:SPSQ",
         "ZNC:29Z3 O7/C06O0C",
         "VASB:CBFF PB YRNX / VASG NAQ SNZVYL ZRZOREF");
+    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOvyySvfure() {
+
+    qbGrfg("G1",
+        "(PNQ Cntr) QVFCNGPU:FGEHPG, FGEHPG PBZOVARQ, R PE54/AR SEBAGNTR EQ, YSP,  <4104/ 3700>, SPSQ, CS6TVC, 26C2 O8, OERNXF BA SVER BA N FRZV, Havgf:ONG1, RA1, RA12",
+        "PBQR:FGEHPG",
+        "PNYY:FGEHPG PBZOVARQ",
+        "NQQE:R PE54 & AR SEBAGNTR EQ",
+        "ZNQQE:R PBHAGL EBNQ 54 & AR SEBAGNTR EQ",
+        "PVGL:SBEG PBYYVAF",
+        "PU:SPSQ",
+        "ZNC:26C2 O8/CS6TVC",
+        "VASB:OERNXF BA SVER BA N FRZV",
+        "HAVG:ONG1 RA1 RA12");
     
   }
   

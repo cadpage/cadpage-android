@@ -35,14 +35,17 @@ public class NCWashingtonCountyParser extends DispatchSouthernParser {
   }
   
   private static final String[] CITY_LIST = new String[]{
-    
       "CRESWELL",
       "LEES MILL",
       "PEA RIDGE",
       "PLYMOUTH",
       "ROPER",
       "SCUPPERNONG",
-      "SKINNERSVILLE"
+      "SKINNERSVILLE",
+      
+      // Tyrell County
+      "TYRELL CO",
+      "COLUMBIA"
 
   };
 }

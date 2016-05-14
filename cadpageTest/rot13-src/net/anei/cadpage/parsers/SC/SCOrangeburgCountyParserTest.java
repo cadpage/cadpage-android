@@ -7,6 +7,16 @@ vzcbeg bet.whavg.Grfg;
 /*
 Benatrohet Pbhagl, FP
 
+Pbagnpg: Wrss Znlaneq <wrsszvafp@tznvy.pbz>
+Fraqre: bopqvfcngpu@benatrohetpbhagl.bet
+SEZ:bopqvfcngpu@benatrohetpbhagl.bet\aZFT::bopqvfcngpu:**ERZVAQRE** ERTHYNE ZRRGVAT @ 7 C.Z. NG GUR FGNGVBA
+SEZ:bopqvfcngpu@benatrohetpbhagl.bet\aZFT::bopqvfcngpu:HAXABJA ERS GB CNGVRAG ABG SRRYVAT JRYY @ 105 OENAPU IVYYN YA | PEBFF: QBENATR EQ | TEVQ: 72-Q5
+SEZ:bopqvfcngpu@benatrohetpbhagl.bet\aZFT::bopqvfcngpu:IRUVPYR NPPVQRAG AB VAWHEVRF VA SEBAG BS 4058 OBJZNA OENAPU UJL/PEBFF BS RIRAFGBPX JNL/TEVQF 73-N4
+SEZ:bopqvfcngpu@benatrohetpbhagl.bet\aZFT::bopqvfcngpu:**ERZVAQRE** GENVATVA @ SVER PBZCYRK GBZBEEBJ @ 8 N.Z./ OEVAT NYY 800 ENQVBF
+SEZ:bopqvfcngpu@benatrohetpbhagl.bet\aZFT::bopqvfcngpu:JRNXARFF @ 281 THAGRE PG/ PEBFF BS GHEARE PG/ TEVQ 72-P5
+SEZ:bopqvfcngpu@benatrohetpbhagl.bet\aZFT::bopqvfcngpu:805 errirf oen eq pebff bs oevtugba ya tevqf 83-n1 hapbafpvbhf
+SEZ:bopqvfcngpu@benatrohetpbhagl.bet\aZFT::bopqvfcngpu:CBFFVOYR URNQ VAWHEL @ 1349 QBENATR EQ @ OENAPUIVYYR UVTU FPUBBY
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Cvar Uvyy Sver & Erfphr
 Ybpngvba: Benatrohet, FP, Havgrq Fgngrf
@@ -94,6 +104,61 @@ choyvp pynff FPBenatrohetPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp FPBenatrohetPbhaglCnefreGrfg() {
     frgCnefre(arj FPBenatrohetPbhaglCnefre(), "BENATROHET PBHAGL", "FP");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWrssZnlaneq() {
+
+    qbGrfg("G1",
+        "SEZ:bopqvfcngpu@benatrohetpbhagl.bet\aZFT::bopqvfcngpu:**ERZVAQRE** ERTHYNE ZRRGVAT @ 7 C.Z. NG GUR FGNGVBA",
+        "GLCR:TRA_NYREG",
+        "VASB:**ERZVAQRE** ERTHYNE ZRRGVAT @ 7 C.Z. NG GUR FGNGVBA");
+
+    qbGrfg("G2",
+        "SEZ:bopqvfcngpu@benatrohetpbhagl.bet\a" +
+        "ZFT::bopqvfcngpu:HAXABJA ERS GB CNGVRAG ABG SRRYVAT JRYY @ 105 OENAPU IVYYN YA | PEBFF: QBENATR EQ | TEVQ: 72-Q5",
+
+        "PNYY:HAXABJA ERS GB CNGVRAG ABG SRRYVAT JRYY",
+        "NQQE:105 OENAPU IVYYN YA",
+        "K:QBENATR EQ",
+        "ZNC:72-Q5");
+
+    qbGrfg("G3",
+        "SEZ:bopqvfcngpu@benatrohetpbhagl.bet\a" +
+        "ZFT::bopqvfcngpu:IRUVPYR NPPVQRAG AB VAWHEVRF VA SEBAG BS 4058 OBJZNA OENAPU UJL/PEBFF BS RIRAFGBPX JNL/TEVQF 73-N4",
+
+        "PNYY:IRUVPYR NPPVQRAG AB VAWHEVRF VA SEBAG BS",
+        "NQQE:4058 OBJZNA OENAPU UJL",
+        "K:RIRAFGBPX JNL",
+        "ZNC:73-N4");
+
+    qbGrfg("G4",
+        "SEZ:bopqvfcngpu@benatrohetpbhagl.bet\a" +
+        "ZFT::bopqvfcngpu:**ERZVAQRE** GENVATVA @ SVER PBZCYRK GBZBEEBJ @ 8 N.Z./ OEVAT NYY 800 ENQVBF",
+
+        "GLCR:TRA_NYREG",
+        "VASB:**ERZVAQRE** GENVATVA @ SVER PBZCYRK GBZBEEBJ @ 8 N.Z./ OEVAT NYY 800 ENQVBF");
+
+    qbGrfg("G5",
+        "SEZ:bopqvfcngpu@benatrohetpbhagl.bet\aZFT::bopqvfcngpu:JRNXARFF @ 281 THAGRE PG/ PEBFF BS GHEARE PG/ TEVQ 72-P5",
+        "PNYY:JRNXARFF",
+        "NQQE:281 THAGRE PG",
+        "K:GHEARE PG",
+        "ZNC:72-P5");
+
+    qbGrfg("G6",
+        "SEZ:bopqvfcngpu@benatrohetpbhagl.bet\aZFT::bopqvfcngpu:805 errirf oen eq pebff bs oevtugba ya tevqf 83-n1 hapbafpvbhf",
+        "PNYY:hapbafpvbhf",
+        "NQQE:805 errirf oen eq",
+        "K:oevtugba ya",
+        "ZNC:83-N1");
+
+    qbGrfg("G7",
+        "SEZ:bopqvfcngpu@benatrohetpbhagl.bet\aZFT::bopqvfcngpu:CBFFVOYR URNQ VAWHEL @ 1349 QBENATR EQ @ OENAPUIVYYR UVTU FPUBBY",
+        "PNYY:CBFFVOYR URNQ VAWHEL",
+        "NQQE:1349 QBENATR EQ",
+        "VASB:@ OENAPUIVYYR UVTU FPUBBY");
+
   }
 
   @Grfg
