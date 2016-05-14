@@ -452,7 +452,7 @@ class Active911Vendor extends Vendor {
       "US/IN/KosciuskoCounty",            "INKosciuskoCounty",
       "US/IN/LakeCounty",                 "INLakeCounty",
       "US/IN/MadisonCounty",              "INMadisonCountyB,INMadisonCountyC",
-      "US/IN/MadisonCountyAHIMT",         "INMadisonCountyD",
+      "US/IN/MadisonCountyAHIMT",         "INMadisonCountyC",
       "US/IN/MarshallCounty",             "INMarshallCounty",
       "US/IN/ParkeCounty",                "INParkeCounty",
       "US/IN/PorterCounty",               "INPorterCounty",

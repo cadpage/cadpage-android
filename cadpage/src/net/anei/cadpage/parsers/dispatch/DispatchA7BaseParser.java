@@ -62,7 +62,8 @@ public class DispatchA7BaseParser extends FieldProgramParser {
     // Strip the odd parren trailer
     Matcher match = ADDR_TRAIL_MARK.matcher(sAddr);
     if (match.find()) sAddr = sAddr.substring(0,match.start());
-    if (sAddr.endsWith(",")) sAddr = sAddr.substring(0,sAddr.length()-1).trim();
+    match = ADDR_TRAIL_JUNK.matcher(sAddr);
+    if (match.matches()) sAddr = match.group(1);
     
     // There are several unrelated markers identifying a cross street
     match = CROSS_MARK.matcher(sAddr);
@@ -132,8 +133,9 @@ public class DispatchA7BaseParser extends FieldProgramParser {
     data.strPlace = append(data.strPlace, " - ", place);
   }
   private static final Pattern ADDR_TRAIL_MARK = Pattern.compile(" *\\([A-Z]{1,2}\\)?$");
+  private static final Pattern ADDR_TRAIL_JUNK = Pattern.compile("(.*?)[-, ]+");
   private static final Pattern CROSS_MARK = Pattern.compile(" X/| s?btwn[: ]");
-  private static final Pattern APT_MARK = Pattern.compile(" *-? *\\bAPT(?!S) *#? *([^ ,]+)$");
+  private static final Pattern APT_MARK = Pattern.compile("[- ]*\\bAPT(?!S) *#? *([^ ,]+)$");
   private static final Pattern PLACE_MARK = Pattern.compile(" -+ ");
 
   /**
