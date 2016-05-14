@@ -466,6 +466,7 @@ class Active911Vendor extends Vendor {
       "US/IN/WayneCounty",                "INWayneCountyB",
       "US/KS/AndersonCounty",             "KSAndersonCounty",
       "US/KS/BartonCounty",               "KSBartonCounty",
+      "US/KS/BourbonCounty",              "KSBourbonCounty",
       "US/KS/BrownCounty",                "KSBrownCounty",
       "US/KS/ButlerCounty",               "KSButlerCounty",
       "US/KS/CityofElkhart",              "KSMortonCounty",

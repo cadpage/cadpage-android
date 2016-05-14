@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 /**
  * Abstract combination parser that accepts the results of the first parser
@@ -201,9 +202,7 @@ public class GroupBestParser extends GroupBaseParser {
       // we have found anything so far, excepting anything with
       // a general alert or run report status.  If we have, return it
       if (parser instanceof GroupBlockParser) {
-        if (bestData != null && 
-            !bestData.strCall.equals("GENERAL ALERT") && 
-            !bestData.strCall.equals("RUN REPORT")) return bestData;
+        if (bestData != null && bestData.msgType == MsgType.PAGE) return bestData;
       }
       
       // Otherwise invoke this parser and see what kind of result it returns.
