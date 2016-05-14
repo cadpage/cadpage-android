@@ -28,7 +28,7 @@ public class ObsoleteSupportDonateEvent extends DonateScreenEvent {
 
   @Override
   public boolean isEnabled(SmsMmsMessage msg) {
-    return msg != null && Build.VERSION.SDK_INT <= 8;
+    return msg != null && Build.VERSION.SDK_INT <= 9;
   }
   
   private static final ObsoleteSupportDonateEvent instance = new ObsoleteSupportDonateEvent();
