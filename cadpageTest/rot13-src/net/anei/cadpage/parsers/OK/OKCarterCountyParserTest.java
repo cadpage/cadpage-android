@@ -18,11 +18,4 @@ choyvp pynff BXPnegrePbhaglCnefreGrfg {
       frgCnefre(arj BXPnegrePbhaglCnefre());
     }
   } 
-  
-  choyvp fgngvp pynff GrfgP rkgraqf BXPnegrePbhaglPCnefreGrfg {
-    choyvp GrfgP() {
-      frgCnefre(arj BXPnegrePbhaglCnefre());
-    }
-  } 
-  
 }
