@@ -1,17 +1,15 @@
 package net.anei.cadpage.parsers.KS;
 
-import net.anei.cadpage.parsers.dispatch.DispatchA33Parser;
+import net.anei.cadpage.parsers.dispatch.DispatchBCParser;
 
-
-public class KSLabetteCountyParser extends DispatchA33Parser {
+public class KSLabetteCountyParser extends DispatchBCParser {
   
   public KSLabetteCountyParser() {
-    super("LABETTE COUNTY", "KS", "X");
+    super("LABETTE COUNTY", "KS");
   }
   
   @Override
   public String getFilter() {
     return "DISPATCH@LABETTECOUNTY.COM";
   }
-  
- }
+}

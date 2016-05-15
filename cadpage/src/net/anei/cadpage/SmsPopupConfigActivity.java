@@ -328,8 +328,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     
     // Set up C2DM vendor preference screen
     PreferenceScreen vendorPref = (PreferenceScreen)findPreference(getString(R.string.pref_direct_paging_key));
-    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.FROYO ||
-        DonationManager.instance().isFreeVersion()) {
+    if (DonationManager.instance().isFreeVersion()) {
       vendorPref.setEnabled(false);
     } else {
       VendorManager.instance().setupPreference(this, vendorPref);

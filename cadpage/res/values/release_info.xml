@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">05092016</string>
+  <string name="release_date">05142016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.07.09\n
+Location Fixes:\n
+Larimer County, CO\n
+Charlotte County, FL\n
+Madison County, IN\n
+Beauregard Parish, LA\n
+Wyoming County, NY\n
+Chatham-Kent, Ontario, Canada\n
+\n
+v1.9.07.08\n
+New Locations:\n
+Watonwan County, MN\n
+Tioga County, NY\n
+Jefferson County, WV\n
+\n
+Location Fixes:\n
+Labette County, KS\n
+Ottawa County, MI\n
+Carter County, OK\n
+Washington County, PA\n
+\n
 v1.9.07.07\n
 Location Fixes:\n
 Chilton County, AL\n
@@ -48,38 +69,7 @@ Shoshone County, ID\n
 Granville County, NC\n
 Northampton County, PA\n
 Helotes, TX\n
-Canmore, AB (Canada)\n
-\n
-v1.9.07.04\n
-New Location:\n
-Pulaski County, AR (alt)\n
-Stevens County, MN\n
-Grafton County, NY\n
-Onondaga County, NY (alt)\n
-Cuyahoga County, OH\n
-Pickaway County, OH\n
-Denton County, TX\n
-Island County, WA\n
-\n
-Location Fixes:\n
-Shasta County, CA\n
-Grafton County, NH\n
-Pender County, NC\n
-Hamilton County, OH\n
-Stark County, OH\n
-Cumberland County, PA\n
-Fulton County, PA\n
-Perry County, PA\n
-York County, PA\n
-Dallas County, TX\n
-Snohomish County, WA\n
-\n
-v1.9.07.03\n
-Location Fixes:\n
-Citrus County, FL\n
-SOmerset County, MD\n
-Adams County, PA\n
-PennStarr, PA
+Canmore, AB (Canada)
   </string>
 </resources>
   

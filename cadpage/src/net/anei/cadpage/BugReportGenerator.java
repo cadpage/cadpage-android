@@ -27,12 +27,6 @@ public class BugReportGenerator {
     
     Log.v("BugReportGenerator: Generating bug report");
     
-    // We don't go through the minimal trouble needed to support API 7 and below
-    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.FROYO) {
-      Log.v("BugReportGenerator: Not supported for API: " + Build.VERSION.SDK_INT);
-      return;
-    }
-    
     //  Check that external card is mounted for write access
     String state = Environment.getExternalStorageState();
     if (!Environment.MEDIA_MOUNTED.equals(state)) {

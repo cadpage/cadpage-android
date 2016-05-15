@@ -1220,7 +1220,6 @@ public class ManagePreferences {
   }
   
   public static boolean useOldGcm() {
-    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.GINGERBREAD) return true;
     return prefs.getBoolean(R.string.pref_use_old_gcm);
   }
   

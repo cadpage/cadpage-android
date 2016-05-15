@@ -7,7 +7,7 @@ public class GAEffinghamCountyBParser extends FieldProgramParser {
   
   public GAEffinghamCountyBParser() {
     super("EFFINGHAM COUNTY", "GA", 
-          "CALL:CALL! ADDR:ADDR! CITY:CITY! INFO:INFO/N+");
+          "CALL:CALL! ( ADDR:ADDR! | LOCATION:ADDR! ) CITY:CITY! INFO:INFO/N+");
   }
   
   @Override

@@ -752,7 +752,7 @@ public class ORBentonCountyParser extends FieldProgramParser {
   
   @Override
   public MapPageStatus getMapPageStatus() {
-    return MapPageStatus.ADOBE;
+    return MapPageStatus.ANY;
   }
 
   @Override

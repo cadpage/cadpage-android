@@ -14,7 +14,7 @@ public class DispatchA49Parser extends FieldProgramParser {
 
   public DispatchA49Parser(String defCity, String defState) {
     super(defCity, defState, 
-        "DATE_TIME_SRC! Addr:ADDR! Cross:X? Inc_Type:CODE! Juris:SKIP? REMARKS! EXTRA+");
+        "DATE_TIME_SRC! Addr:ADDR! Cross:X? Inc_Type:CODE! Juris:SKIP? Report_#:ID? REMARKS! EXTRA+");
   }
   
   private static final Pattern REMARKS_PTN = Pattern.compile("(\nRemarks) +");
@@ -32,7 +32,7 @@ public class DispatchA49Parser extends FieldProgramParser {
     return super.getField(name);
   }
 
-  private static final Pattern DATE_TIME_SRC_PTN = Pattern.compile("Date:(\\d\\d/\\d\\d/\\d{4}) Time:(\\d\\d:\\d\\d)(?:EQPT:(\\d+)| Num:(\\d+))");
+  private static final Pattern DATE_TIME_SRC_PTN = Pattern.compile("Date:(\\d\\d/\\d\\d/\\d{4}) Time:(\\d\\d:\\d\\d)(?:EQPT:(\\S+)| Num:(\\S+))");
   private class MyDateTimeSourceField extends Field {
     @Override
     public void parse(String field, Data data) {

@@ -39,6 +39,7 @@ public class COLarimerCountyDParser extends DispatchA41Parser {
   }
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "FTC", "FORT COLLINS"
+      "FTC", "FORT COLLINS",
+      "LFC", "FORT COLLINS"
   });
 }

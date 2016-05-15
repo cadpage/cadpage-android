@@ -1,7 +1,6 @@
 package net.anei.cadpage.parsers.KS;
 
-import java.util.regex.Pattern;
-
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA25Parser;
 
 public class KSJacksonCountyParser extends DispatchA25Parser {
@@ -16,10 +15,11 @@ public class KSJacksonCountyParser extends DispatchA25Parser {
     return "CADAlerts@jasoks.org";
   }
   
+  
   @Override
-  public String adjustMapAddress(String addr) {
-    addr = K_NN_HWY_PTN.matcher(addr).replaceAll("KS $1");
-    return super.adjustMapAddress(addr);
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (!super.parseMsg(subject, body, data)) return false;
+    if (data.strCity.equalsIgnoreCase("County")) data.strCity = "";
+    return true;
   }
-  private static final Pattern K_NN_HWY_PTN = Pattern.compile("\\bK (\\d+) HWY\\b", Pattern.CASE_INSENSITIVE);
 }
