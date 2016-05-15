@@ -24,6 +24,7 @@ public class ALJacksonCountyParser extends DispatchA37Parser {
   private static final String[] CITY_LIST = new String[]{
       
       "JACKSON COUNTY",
+      
   //Cities
 
       "BRIDGEPORT",
