@@ -1,9 +1,9 @@
 package net.anei.cadpage.parsers.OK;
 
-import net.anei.cadpage.parsers.dispatch.DispatchA33Parser;
+import net.anei.cadpage.parsers.dispatch.DispatchBCParser;
 
-public class OKCarterCountyAParser extends DispatchA33Parser {
-
+public class OKCarterCountyAParser extends DispatchBCParser {
+  
   public OKCarterCountyAParser() {
     super("CARTER COUNTY", "OK");
   }

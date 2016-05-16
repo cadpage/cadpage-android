@@ -77,6 +77,7 @@ public class FLCharlotteCountyBParser extends MsgParser {
       setGPSLoc(match.group(1)+'.'+match.group(2)+','+match.group(3)+'.'+match.group(4), data);
     }
     
+    fp.skip(12);
     data.strSupp = fp.get();
     return true;
   }

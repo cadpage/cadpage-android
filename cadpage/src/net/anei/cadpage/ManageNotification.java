@@ -35,21 +35,11 @@ public class ManageNotification {
   
   private static MediaPlayer mMediaPlayer = null;
   
-  private static AudioFocusManager afm = null;
+  private static AudioFocusChangeListener afm = new AudioFocusChangeListener();
   
   private static boolean phoneMuted = false;
   
   private static boolean activeNotice = false;
-  
-  static {
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO) {
-      try {
-        afm = (AudioFocusManager)Class.forName("net.anei.cadpage.ManageNotification$AudioFocusManagerImpl").newInstance();
-      } catch (Exception ex) {
-        throw new RuntimeException(ex);
-      }
-    }
-  }
   
   @SuppressWarnings("serial")
   private static class MediaFailureException extends RuntimeException {
@@ -243,7 +233,9 @@ public class ManageNotification {
     if (ManagePreferences.notifyOverrideVolume()) return;
     
     // Grab audio focus
-    if (afm != null) afm.grabAudioFocus(context);
+    Log.v("Grab Audio Focus");
+    AudioManager am = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
+    am.requestAudioFocus(afm, AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
     
     // If a restore volume is already set, assume that we have already
     // forced maximum volume and do nothing
@@ -253,7 +245,6 @@ public class ManageNotification {
       // Otherwise get the max and current volume for the music stream
       // If they are not equal, save the current stream volume and set
       // it to the max value
-      AudioManager am = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
       int maxVol = am.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
       int curVol = am.getStreamVolume(AudioManager.STREAM_MUSIC);
       if (curVol != maxVol) {
@@ -532,7 +523,9 @@ public class ManageNotification {
     }
     
     // And release audio focus
-    if (afm != null) afm.releaseAudioFocus(context);
+    Log.v("Release Audio Focus");
+    AudioManager am = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
+    am.abandonAudioFocus(afm);
 
   }
   
@@ -711,35 +704,16 @@ public class ManageNotification {
     // Otherwise, we really do not know, so follow user recomendation
     return ManagePreferences.notifyReqAck();
   }
-  
-  
-  private static interface AudioFocusManager extends AudioManager.OnAudioFocusChangeListener {
-    
-    public void grabAudioFocus(Context context);
-    
-    public void releaseAudioFocus(Context context);
-    
-  }
-  
-  public static class AudioFocusManagerImpl implements AudioFocusManager {
+
+  /**
+   * Audio focus change listener
+   */
+  public static class AudioFocusChangeListener implements AudioManager.OnAudioFocusChangeListener {
 
     @Override
     public void onAudioFocusChange(int focusChange) {
-      // We want the focus and will not honor requests to give it up !!
-    }
-
-    @Override
-    public void grabAudioFocus(Context context) {
-      Log.v("Grab Audio Focus");
-      AudioManager am = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
-      am.requestAudioFocus(this, AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
-    }
-
-    @Override
-    public void releaseAudioFocus(Context context) {
-      Log.v("Release Audio Focus");
-      AudioManager am = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
-      am.abandonAudioFocus(this);
+      // We consider ourselves to be the ultimate power and won't release
+      // audio control for anyone
     }
   }
 }

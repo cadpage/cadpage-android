@@ -4,15 +4,24 @@ import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 import net.anei.cadpage.parsers.HtmlDecoder;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgInfo.MsgType;
+import net.anei.cadpage.parsers.MsgParser;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
 public class DispatchBCParser extends DispatchA3Parser {
+  
   private HtmlDecoder decoder = new HtmlDecoder();
+  private AuxA33Parser auxA33Parser;
+  private boolean useAuxParser;
   
   public DispatchBCParser(String defCity, String defState) {
+    this(defCity, defState, 0);
+  }
+
+  
+  public DispatchBCParser(String defCity, String defState, int flags) {
     super(defCity, defState,
           "Event_No:EMPTY! ID! Status:EMPTY! Disposition:EMPTY! Category:EMPTY! CALL! " +
           "( Complaint_Numbers%EMPTY! Unit:EMPTY! UNIT Reporting_DSN:EMPTY Agency:EMPTY SRC | ) " +
@@ -21,6 +30,8 @@ public class DispatchBCParser extends DispatchA3Parser {
           "Source:EMPTY! Departure:EMPTY! DATETIME3? Closed:EMPTY! DATETIME3? " + 
           "( Person(s)_Involved%EMPTY! Name_Address_Phone%EMPTY! NAME_PHONE Business%EMPTY! | ) " + 
           "Incident_Notes:EMPTY INFO+ Event_Log%EMPTY");
+    
+    auxA33Parser = new AuxA33Parser(defCity, defState, flags);
   }
   
   private static final Pattern BR_TAG = Pattern.compile("</?br/?>", Pattern.CASE_INSENSITIVE);
@@ -29,6 +40,14 @@ public class DispatchBCParser extends DispatchA3Parser {
 
   @Override
   protected boolean parseHtmlMsg(String subject, String body, Data data) {
+    
+    // Lately a lot of agencies have been mixing the standard HTML format we usually process with
+    // a non-html version processed by DispatchA33Parser.  As a result, we split out non-html looking
+    // messages and pass them to an auxiliary DispatchA33Parser subclass.
+    if (!isHtmlMsg(body)) {
+      useAuxParser = true;
+      return auxA33Parser.parseThisMsg(subject,  body, data);
+    }
     
     // Inappropriate <br> tags get inserted in the wierdest places, so we 
     // will just get rid of them
@@ -39,6 +58,23 @@ public class DispatchBCParser extends DispatchA3Parser {
     if (! parseFields(flds, data)) return false;
     if (data.msgType == MsgType.RUN_REPORT) data.strSupp = append(times, "\n", data.strSupp);
    return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    if (useAuxParser) return auxA33Parser.getProgram();
+    return super.getProgram();
+  }
+  
+  private static final Pattern HTML_PTN = Pattern.compile("<html>", Pattern.CASE_INSENSITIVE);
+  
+  /**
+   * Determine if message is legitimate HTML message
+   * @param body message body
+   * @return true if this looks like an HTML message
+   */
+  protected boolean isHtmlMsg(String body) {
+    return HTML_PTN.matcher(body).lookingAt();
   }
   
   @Override
@@ -164,6 +200,17 @@ public class DispatchBCParser extends DispatchA3Parser {
     public void parse(String field, Data data) {
       if (INFO_DASHES_PTN.matcher(field).matches()) return;
       data.strSupp = append(data.strSupp, " ", field);
+    }
+  }
+  
+  private static class AuxA33Parser extends DispatchA33Parser {
+    
+    public AuxA33Parser(String defCity, String defState, int flags) {
+      super(defCity, defState, flags);
+    }
+    
+    public boolean parseThisMsg(String subject, String body, Data data) {
+      return super.parseMsg(subject, body, data);
     }
   }
 }

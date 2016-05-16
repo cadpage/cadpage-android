@@ -236,31 +236,8 @@ public class UserAcctManager {
   }
   
   private String getSerialID() {
-    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.GINGERBREAD) return null;
-    try {
-      SerialID obj = (SerialID)Class.forName("net.anei.cadpage.donation.UserAcctManager$SerialSDK9").newInstance();
-      return obj.getSerialId();
-    } catch (Exception ex) {
-      Log.e(ex);
-      return null;
-    }
-    
+    return android.os.Build.SERIAL;
   }
-  
-  private interface SerialID {
-    public String getSerialId();
-  }
-  
-  @TargetApi(Build.VERSION_CODES.GINGERBREAD)
-  static class SerialSDK9 implements SerialID {
-
-    @Override
-    public String getSerialId() {
-      return android.os.Build.SERIAL;
-    }
-    
-  }
- 
   
   private static UserAcctManager instance = null;
   
