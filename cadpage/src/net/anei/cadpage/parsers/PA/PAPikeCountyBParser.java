@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.PA;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA45Parser;
@@ -13,13 +14,26 @@ public class PAPikeCountyBParser extends DispatchA45Parser {
   
   @Override
   public String getFilter() {
-    return "@pike.alertpa.org";
+    return "@pike.alertpa.org,messaging@iamresponding.com";
   }
+
+  private static final Pattern SPECIAL_BRK_PTN = Pattern.compile("> *\n *>");
+  private static final Pattern MBLANK_PTN = Pattern.compile(" {2,}");
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Pike CAD")) return false;
+    
+    // Fix usual IAR silliness
+    body = SPECIAL_BRK_PTN.matcher(body).replaceAll(" ");
+    body = MBLANK_PTN.matcher(body).replaceAll(" ");
+
+    if (subject.equals("Pike CAD")) data.strSource = subject;
     return super.parseMsg(body, data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
   }
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{

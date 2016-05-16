@@ -7,6 +7,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 Cvxr Pbhagl, CN
 
+Pbagnpg: cwsversvtugre52@lnubb.pbz <cwsversvtugre52@lnubb.pbz>
+Fraqre: zrffntvat@vnzerfcbaqvat.pbz
+(Fgngvba 29) 117 SNVEJNL QE * OTI * FGEBXR PIN- NYF * Qvfcngpu: 29 NZO 1 ,405-9 US   > \a>405 URZYBPX,FDHNQ
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Cbeg Wreivf Ibyhagrre Nzohynapr Pbecf.
 Ybpngvba: Cbeg Wreivf, AL, Havgrq Fgngrf
@@ -55,6 +59,18 @@ choyvp pynff CNCvxrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp CNCvxrPbhaglOCnefreGrfg() {
     frgCnefre(arj CNCvxrPbhaglOCnefre(), "CVXR PBHAGL", "CN");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgCWSversvtugre() {
+
+    qbGrfg("G1",
+        "(Fgngvba 29) 117 SNVEJNL QE * OTI * FGEBXR PIN- NYF * Qvfcngpu: 29 NZO 1 ,405-9 US   > \a>405 URZYBPX,FDHNQ",
+        "NQQE:117 SNVEJNL QE",
+        "PVGL:OYBBZVAT TEBIR",
+        "PNYY:FGEBXR PIN- NYF",
+        "HAVG:29 NZO_1 ,405-9 US_405 URZYBPX,FDHNQ");
+    
   }
 
   @Grfg
