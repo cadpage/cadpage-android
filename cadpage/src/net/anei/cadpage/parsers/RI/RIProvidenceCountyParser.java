@@ -8,6 +8,11 @@ public class RIProvidenceCountyParser extends DispatchA32Parser {
     super(CITY_LIST, "PROVIDENCE COUNTY", "RI");
   }
   
+  @Override
+  public String getFilter() {
+    return "woonsocketdispatch@gmail.com>";
+  }
+  
   private static final String[] CITY_LIST = new String[]{
 
       //Cities
