@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">05142016</string>
+  <string name="release_date">05162016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.07.10\n
+Dropped support for Android 2.2\n
+Added warning for users running Android 2.3\n
+\n
+Location Fixes:
+LPulaski County, MO\n
+Pike County, PA\n
+\n
 v1.9.07.09\n
 Location Fixes:\n
 Larimer County, CO\n
@@ -61,15 +69,7 @@ Hancock County, IN\n
 Marion County, IN\n
 Cass County, MI\n
 Duplin County, NC\n
-Gallia County, OH\n
-\n
-v1.9.07.05\n
-Location Fixes:\n
-Shoshone County, ID\n
-Granville County, NC\n
-Northampton County, PA\n
-Helotes, TX\n
-Canmore, AB (Canada)
+Gallia County, OH
   </string>
 </resources>
   
