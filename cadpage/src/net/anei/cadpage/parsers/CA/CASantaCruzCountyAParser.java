@@ -12,7 +12,6 @@ import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
 public class CASantaCruzCountyAParser extends DispatchPrintrakParser {
   
   private static final Pattern MASTER_FIX1_PTN = Pattern.compile("([^ ]{3}) (\\d) ([A-Z]{3}\\d{12}) ([^ ]+(?: [EF])?) +(.*)");
-  private static final Pattern CITY_AREA_PTN = Pattern.compile("BIG REDWOOD PRK|MISSION SPRINGS|PASATIEMPO|ZAYANTE|.* AREA?|.* AR|.* BYPASS|.* CORR?IDOR");
   
   public CASantaCruzCountyAParser() {
     super("SANTA CRUZ COUNTY", "CA");
@@ -41,17 +40,20 @@ public class CASantaCruzCountyAParser extends DispatchPrintrakParser {
     // Place sometimes duplicates address
     if (data.strPlace.equals(data.strAddress)) data.strPlace = "";
     
-    // And there are a lot of city names that describe broad areas rather than 
-    // something Google recognizes.  If this looks like one, move it to place
-    // field.
-    if (CITY_AREA_PTN.matcher(data.strCity).matches()) {
-      data.strPlace = append(data.strPlace, " - ", data.strCity);
-      data.strCity = "";
-    }
-    
     // And some just plain wrong city names
     else if (data.strCity.equals("AP/LA SELVA")) data.strCity = "APTOS";
     
     return true;
+  }
+  
+  private static final Pattern CITY_AREA_PTN = Pattern.compile("BIG REDWOOD PRK|MISSION SPRINGS|PASATIEMPO|ZAYANTE|.* AREA?|.* AR|.* BYPASS|.* CORR?IDOR");
+  
+  @Override
+  public String adjustMapCity(String city) {
+    
+    // And there are a lot of city names that describe broad areas rather than 
+    // something Google recognizes.  
+    if (CITY_AREA_PTN.matcher(city).matches()) return "";
+    return city;
   }
 }
