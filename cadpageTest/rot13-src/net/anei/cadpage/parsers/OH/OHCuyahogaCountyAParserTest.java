@@ -2520,7 +2520,8 @@ choyvp pynff BUPhlnubtnPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G1",
         "{Qvfcngpu Zrffntr} 23065  OEBNQJNL NIR   BNXJBBQ IVY \aTRARENY SVER NYNEZ NG GUR IVYYNF",
         "NQQE:23065 OEBNQJNL NIR",
-        "PVGL:BNXJBBQ");
+        "PVGL:BNXJBBQ",
+        "PNYY:TRARENY SVER NYNEZ NG GUR IVYYNF");
 
     qbGrfg("G2",
         "{Qvfcngpu Zrffntr} NFFVFG ERFPHR FDHNQ  \a7325  YNZFBA EQ    BNXJBBQ IVY \a70 LBN SRZNYR CBFFVOYR OEBXRA NAXYR",
