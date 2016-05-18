@@ -88,6 +88,7 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
       "N Hanover",  "North Hanover",
       "NewHanover", "New Hanover",
       "Ocean Co",   "Ocean County",
+      "Pembtn Bor", "Pemberton",
       "Pembtn Twp", "Pemberton Twp",
       "Southamptn", "Southampton",
       "Springfld",  "Springfield",
@@ -96,6 +97,8 @@ public class NJBurlingtonCountyCParser extends DispatchA5Parser {
       
       "Alarm List", "",
       "NJTP",       ""
+      
+
   });
   
   private static final CodeTable CALL_CODES = new CodeTable(
