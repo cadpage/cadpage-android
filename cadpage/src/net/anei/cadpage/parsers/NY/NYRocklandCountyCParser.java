@@ -36,7 +36,6 @@ public class NYRocklandCountyCParser extends FieldProgramParser {
         break;
       }
       
-      return false;
     } while (false);
     
     if (body.startsWith("Add:")) body = "Addr:" + body.substring(4);
