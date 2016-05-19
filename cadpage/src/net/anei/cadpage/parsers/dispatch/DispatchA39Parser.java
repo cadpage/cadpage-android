@@ -77,7 +77,6 @@ public class DispatchA39Parser extends FieldProgramParser {
   private class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      
       Matcher match = INFO_JUNK_PTN.matcher(field);
       if (match.lookingAt()) field = field.substring(match.end());
       if (data.strCall.length() == 0 && data.strSupp.length() == 0 && field.length() <= 40) {
@@ -85,6 +84,11 @@ public class DispatchA39Parser extends FieldProgramParser {
       } else {
         super.parse(field, data);
       }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CALL " + super.getFieldNames();
     }
   }
 }

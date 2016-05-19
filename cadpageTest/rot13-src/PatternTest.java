@@ -6,11 +6,13 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   choyvp fgngvp svany Cnggrea ZNFGRE =
-      Cnggrea.pbzcvyr("(.*?[n-m.].*?) (?![AF]?[RJ]?(?: |$))([^n-m.]+)");
+      Cnggrea.pbzcvyr("|(?:G )?[N-M]{3,6}");
 
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("12gu Fg 0.03 zv F 11gu Fg 0.08 zv AR QRYNABF PEBPXRE");
+    qbGrfg("");
+    qbGrfg("KLM");
+    qbGrfg("G KLM");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

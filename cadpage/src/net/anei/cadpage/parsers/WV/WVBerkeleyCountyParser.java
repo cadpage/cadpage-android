@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.WV;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -18,11 +19,25 @@ public class WVBerkeleyCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "alert@berkeleywv.org";
+    return "alerts@berkeleywv.org,alert@berkeleywv.org";
   }
+  
+  private static final Pattern MASTER1 = Pattern.compile("Address(.*?) Title(?:(\\d\\d) +)?(.*)");
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // Probably transient new format
+    Matcher match = MASTER1.matcher(body);
+    if (match.matches()) {
+      setFieldList("ADDR APT CODE CALL");
+      parseAddress(match.group(1).trim(), data);
+      data.strCode = getOptGroup(match.group(2));
+      data.strCall = match.group(3);
+      return true;
+    }
+    
+    // Older and much cooler format
     if (!subject.startsWith("Alert")) return false;
     
     // Someone is terminating the subject with a colon instead of a newline.  
