@@ -1,11 +1,15 @@
 package net.anei.cadpage.parsers.MO;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgInfo.MsgType;
+import net.anei.cadpage.parsers.ReverseCodeSet;
 
 
 /**
@@ -13,18 +17,21 @@ import net.anei.cadpage.parsers.MsgInfo.MsgType;
  */
 public class MOPulaskiCountyParser extends FieldProgramParser {
   
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("Call Number: *(\\d+) +Call Received Time: *(\\d\\d?/\\d\\d?/\\d{4}) (\\d\\d?:\\d\\d:\\d\\d) (.*?)\n(.*?) (Dispatch:.*)");
-  private static final Pattern RUN_REPORT_BRK_PTN = Pattern.compile(" +(?=[A-Z][a-z]+:)");
-  
   public MOPulaskiCountyParser() {
     super(CITY_TABLE, "PULASKI COUNTY", "MO",
-           "ADDR/SC! CrossStreets:X! Call_Received_Time:SKIP Dispatch:DATETIME Dispatch:SKIP");
+           "ADDR/S CrossStreets:X! Call_Received_Time:SKIP Dispatch:DATETIME Dispatch:SKIP");
   }
   
   @Override
   public String getFilter() {
-    return "911dispatch@embarqmail.com";
+    return "911dispatch@embarqmail.com,messaging@iamresponding.com";
   }
+  
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("Call Number: *(\\d+) +Call Received Time: *(\\d\\d?/\\d\\d?/\\d{4}) (\\d\\d?:\\d\\d:\\d\\d(?: [AP]M)?) (.*?)\n(.*?) (Dispatch:.*)");
+  private static final Pattern RUN_REPORT_BRK_PTN = Pattern.compile(" +(?=[A-Z][a-z.]+:)");
+  private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
+  
+  String saveAddress;
   
   @Override
   protected boolean parseMsg(String body, Data data) {
@@ -34,25 +41,29 @@ public class MOPulaskiCountyParser extends FieldProgramParser {
       data.msgType = MsgType.RUN_REPORT;
       data.strCallId = match.group(1);
       data.strDate = match.group(2);
-      data.strTime = match.group(3);
+      String time = match.group(3);
+      if (time.endsWith("M")) {
+        setTime(TIME_FMT, time, data);
+      } else {
+        data.strTime = time;
+      }
       data.strCall = match.group(4).trim();
       data.strUnit = match.group(5).trim();
       data.strSupp = RUN_REPORT_BRK_PTN.matcher(match.group(6).trim()).replaceAll("\n");
       return true;
     }
-    return super.parseMsg(body, data);
-  }
-  
-  @Override
-  public String getProgram() {
-    return super.getProgram() + " PLACE";
-  }
-  
-  private class MyAddressField extends AddressField {
-    @Override
-    public void parse(String field, Data data) {
-      field = field.replace(", ", " ");
-      String[] parts = field.split("  +");
+    
+    saveAddress = null;
+    if (!super.parseMsg(body, data)) return false;
+    
+    // In the old format, the call was imbedded in the address field
+    // and not the cross street field.  If we didn't find a call description
+    // re-parser the address field using the old logic
+    if (data.strCall.length() == 0) {
+      if (saveAddress == null) return false;
+      data.strAddress = data.strApt = "";
+      saveAddress = saveAddress.replace(", ", " ");
+      String[] parts = saveAddress.split("  +");
       if (parts.length == 3) {
         data.strCall = parts[0];
         parseAddress(parts[1], data);
@@ -61,16 +72,11 @@ public class MOPulaskiCountyParser extends FieldProgramParser {
         data.strCall = parts[0];
         parseAddress(StartType.START_ADDR, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, parts[1], data);
       } else {
-        super.parse(field, data);
+        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, saveAddress, data);
       }
-      
-      if (data.strCity.equalsIgnoreCase("PULASKI COUNTY")) data.strCity = "";
-      if (data.strAddress.endsWith(" UNIT")) {
-        data.strAddress = data.strAddress.substring(0, data.strAddress.length()-5).trim();
-      }
-      if (data.strApt.endsWith("UNIT")) {
-        data.strApt = data.strApt.substring(0, data.strApt.length()-4).trim();
-      }
+
+      data.strAddress = stripFieldEnd(data.strAddress, "UNIT");
+      data.strApt = stripFieldEnd(data.strApt, "UNIT");
       
       int pt = data.strAddress.indexOf(" - ");
       if (pt >= 0) {
@@ -78,28 +84,7 @@ public class MOPulaskiCountyParser extends FieldProgramParser {
         data.strAddress = data.strAddress.substring(0,pt).trim();
       }
     }
-  }
-  
-  // Unit codes will be nnnn, or xFDn, or Mnn
-  private static final Pattern UNIT_PTN = Pattern.compile("\\b(\\d{4}(?!\\.)|[A-Z]{1,2}[FP]D\\d?|M\\d\\d|MARIES|DAD)\\b");
-  private class MyCrossField extends CrossField {
-    @Override
-    public void parse(String field, Data data) {
-      
-      // Cross street field contains cross streets and units and extra stuff that we discard
-      Matcher match = UNIT_PTN.matcher(field);
-      if (!match.find()) {
-        data.strCross = field;
-      } else {
-        data.strCross = field.substring(0,match.start()).trim();
-        data.strUnit = field.substring(match.start());
-      }
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "X UNIT";
-    }
+    return true;
   }
   
   @Override
@@ -107,6 +92,60 @@ public class MOPulaskiCountyParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      saveAddress = field;
+      super.parse(field, data);
+    }
+  }
+  
+  // Unit codes will be nnnn, or xFDn, or Mnn
+  private static final Pattern UNIT_PTN = Pattern.compile("(?: *\\b(?:[A-Z]+\\d+|\\d{3,4}|[A-Z]{1,2}[FP]D\\d?|DAD|LIFELINE|MARIES|MILLER|RESCUE|STAFF)\\b)+$");
+  
+  // Place/Call portion never has any lower case characters
+  private static final Pattern CROSS_CALL_PTN = Pattern.compile("(.*?[a-z.].*?) (?![NS]?[EW]?(?: |$))([^a-z.]+)"); 
+  private static final Pattern CROSS_PTN = Pattern.compile(".*?[a-z.].*"); 
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      
+      // Extract unit codes from end of field
+      Matcher match = UNIT_PTN.matcher(field);
+      if (match.find()) {
+        data.strUnit = match.group(0).trim();
+        field = field.substring(0,match.start()).trim();
+      }
+      
+      // Split out the lower case cross street information
+      match = CROSS_CALL_PTN.matcher(field);
+      if (match.matches()) {
+        super.parse(match.group(1).trim(), data);
+        field = match.group(2).trim();
+      }
+      
+      else if (CROSS_PTN.matcher(field).matches()) {
+        super.parse(field, data);
+        return;
+      }
+      
+      // Split what is left into place name and call description
+      String call = CALL_LIST.getCode(field, true);
+      if (call != null) {
+        data.strCall = call;
+        data.strPlace = field.substring(0,field.length()-call.length()).trim();
+      } else {
+        data.strCall = field;
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "X PLACE CALL UNIT";
+    }
   }
   
   @Override
@@ -118,18 +157,68 @@ public class MOPulaskiCountyParser extends FieldProgramParser {
   private static final Pattern HIST_PTN = Pattern.compile("\\bHIST\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern HIST_RT_PTN = Pattern.compile("HISTORIC RT", Pattern.CASE_INSENSITIVE);
   
+  @Override
+  public CodeSet getCallList() {
+    return CALL_LIST;
+  }
+  
+  private static final ReverseCodeSet CALL_LIST = new ReverseCodeSet(
+      "ABDOMINAL/BACK PAIN",
+      "ALLERGIC REACTION",
+      "BREATHING DIFFICULTY",
+      "BURN PERMIT",
+      "CARBON MONOXIDE ALARM",
+      "CHEST PAIN/DISCOMFORT/HEART PROBLEMS",
+      "DIABETIC",
+      "FALLS/ ACCIDENTS",
+      "FIRE ALARM - COMMERCIAL",
+      "FIRE ALARM - RESIDENTIAL",
+      "FIRE - MISCELLANEOUS",
+      "GAS ODOR",
+      "HAZARDOUS MATERIAL INCIDENT",
+      "HAZMAT - FUEL SPILL",
+      "LIFT ASSIST",
+      "MOTOR VEHICLE ACCIDENT NO INJURY",
+      "MOTOR VEHICLE ACCIDENT WITH INJURY",
+      "NATURAL COVER FIRE",
+      "SEIZURES",
+      "SMOKE INVESTIGATION",
+      "STRUCTURE FIRE COMMERCIAL",
+      "STRUCTURE FIRE RESIDENTIAL",
+      "SUICIDE ATTEMPTED",
+      "TRAFFIC STOP",
+      "TRAUMA WITH INJURY",
+      "UNCLEAR SYMPTOMS",
+      "UNCONSCIOUS/UNRESPONSIVE",
+      "VEHICLE FIRE",
+      "WEATHER",
+      
+      // Supporting old call format
+      "FIRE ALARM - COMMERCIAL MASONIC LODGE - WAYNESVILLE",
+      "FIRE ALARM - COMMERCIAL WESTSIDE BAPTIST CHURCH",
+      "BUCKHORN P"
+  );
+  
   private static final String[] CITY_TABLE = new String[]{
     "PULASKI COUNTY",
     "BIG PINEY",
     "CROCKER",
     "DEVILS ELBOW",
     "DIXON",
+    "FORT LEONARD WOOD",
     "GASCOZARK",
     "HOOKER",
     "LAQUEY",
     "RICHLAND",
     "ST ROBERT",
     "SWEDEBORG",
-    "WAYNESVILLE"
+    "WAYNESVILLE",
+    
+    "CAMDEN COUNTY",
+    "LACLEDE COUNTY",
+    "MARIES COUNTY",
+    "MILLER COUNTY",
+    "PHELPS COUNTY",
+    "TEXAS COUNTY"
   };
 }

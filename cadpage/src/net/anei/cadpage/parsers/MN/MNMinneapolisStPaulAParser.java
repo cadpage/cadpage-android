@@ -29,9 +29,10 @@ public class MNMinneapolisStPaulAParser extends DispatchPrintrakParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    body = stripFieldStart(body, "RESPONSE INFORMATION PAGE //");
     if (ID_PTN.matcher(body).find()) {
       body = "INC: " + body;
-    } else if (!body.contains("TYP: ")) {
+    } else if (!body.contains("TYP:")) {
       body = "TYP: " + body;
     }
     return super.parseMsg(body, data);

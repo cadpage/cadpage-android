@@ -258,7 +258,8 @@ public class DispatchA14Parser extends FieldProgramParser {
   private class MyAddressField2 extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      data.strAddress = data.strApt = "";
+      String saveCity = data.strCity;
+      data.strAddress = data.strApt = data.strCity = "";
       int pt = field.indexOf('@');
       if (pt >= 0) {
         data.strPlace = field.substring(pt+1).trim();
@@ -284,6 +285,8 @@ public class DispatchA14Parser extends FieldProgramParser {
       else {
         super.parse(field, data);
       }
+      
+      if (data.strCity.length() == 0) data.strCity = saveCity;
     }
     
     private void appendField(boolean cross, String fld, Data data) {
