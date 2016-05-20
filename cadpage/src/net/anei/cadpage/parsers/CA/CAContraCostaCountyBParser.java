@@ -10,7 +10,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class CAContraCostaCountyBParser extends FieldProgramParser {
 
   public CAContraCostaCountyBParser() {
-    super(CITY_CODES, "CONTRA COSTA COUNTY", "CA", "CALL! ALARM:PRI! LOC:ADDR/S? XST1:X! XST2:X! MAP:MAP! TIME:TIME! EMD:CODE! PLACE:CITY! LAT:GPS1! LONG:GPS2! STA:SRC!");
+    super(CITY_CODES, "CONTRA COSTA COUNTY", "CA", 
+          "CALL! ALARM:PRI! LOC:ADDR/S? XST1:X! XST2:X! MAP:MAP! TIME:TIME! EMD:CODE! PLACE:CITY! LAT:GPS1! LONG:GPS2! STA:SRC!");
   }
   
   @Override

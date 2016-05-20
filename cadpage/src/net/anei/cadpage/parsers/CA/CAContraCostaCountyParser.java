@@ -7,6 +7,8 @@ import net.anei.cadpage.parsers.GroupBestParser;
  */
 public class CAContraCostaCountyParser extends GroupBestParser {
   public CAContraCostaCountyParser() {
-    super(new CAContraCostaCountyAParser(), new CAContraCostaCountyBParser());
+    super(new CAContraCostaCountyAParser(), 
+          new CAContraCostaCountyBParser(),
+          new CAContraCostaCountyCParser());
   }
 }
