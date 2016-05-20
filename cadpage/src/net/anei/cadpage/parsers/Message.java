@@ -231,8 +231,11 @@ public class Message {
       msgIndex = Integer.parseInt(match.group(1));
       msgCount = Integer.parseInt(match.group(2));
       body = trimLead(body.substring(0,match.start()),keepLeadBreak);
-      if (msgIndex > 1) follow = true;
     }
+    
+    // If we found some message indexing that indicates this is not the first message
+    // in the sequence, set the follow flag
+    if (msgIndex > 1) follow = true;
     
     // Clean up leading subject in parens, unless this is a followup message
     // and we have been requested to not extract subjects from followup messages
