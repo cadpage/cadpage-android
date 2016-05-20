@@ -4,6 +4,15 @@
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.07.12\n
+Location Fixes:\n
+Jefferson County, AL\n
+Contra Costa County, CA\n
+El Paso County, CO\n
+Roscommon County, MI\n
+Rockland County, NY\n
+
+\n
 v1.9.07.11\n
 Location Fixes:\n
 Minneapolis/St Paul, MN\n
@@ -38,22 +47,7 @@ Location Fixes:\n
 Labette County, KS\n
 Ottawa County, MI\n
 Carter County, OK\n
-Washington County, PA\n
-\n
-v1.9.07.07\n
-Location Fixes:\n
-Chilton County, AL\n
-Monterey County, CA\n
-San Bernardino County, CA\n
-El Paso County, CO\n
-Tolland County, CT\n
-State Police, KY\n
-Cass County, MN\n
-Anson County, NC\n
-Elk County, PA\n
-Westmoreland County, PA\n
-Washington County, RI\n
-Kaufman County, TX
+Washington County, PA
   </string>
 </resources>
   
