@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 
 public class DispatchA25Parser extends FieldProgramParser {
@@ -26,28 +27,31 @@ public class DispatchA25Parser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (subject.startsWith("HISTORY FOR ")) {
+      setFieldList("ID INFO");
+      data.msgType = MsgType.RUN_REPORT;
       Matcher match = RUN_REPORT_ID_PTN.matcher(subject);
       if (match.find()) data.strCallId = match.group(1);
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
+      data.strSupp = body;
       return true;
     }
     
     if (subject.startsWith("NEW 911 CALL HISTORY FOR UNIT #")) {
-      data.strCall = "RUN REPORT";
+      setFieldList("UNIT ID INFO");
+      data.msgType = MsgType.RUN_REPORT;
       data.strUnit = subject.substring(32).trim();
       Matcher match = RUN_REPORT_ID_PTN2.matcher(body);
       if (match.find()) data.strCallId = match.group(1);
-      data.strPlace = body;
+      data.strSupp = body;
       return true;
       
     }
     
     Matcher match = RUN_REPORT_PTN2.matcher(body);
     if (match.find()) {
+      setFieldList("ID INFO");
+      data.msgType = MsgType.RUN_REPORT;
       data.strCallId = match.group(1);
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
+      data.strSupp = body;
       return true;
     }
     

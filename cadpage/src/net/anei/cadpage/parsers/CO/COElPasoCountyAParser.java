@@ -21,6 +21,8 @@ public class COElPasoCountyAParser extends MsgParser {
   private static final Pattern MASTER3 = 
       Pattern.compile("([ A-Z]+) - (.*?)  +(.*?) - (.*)");
   
+  private static final Pattern TIME_PTN = Pattern.compile("\\d\\d:\\d\\d");
+  
   public COElPasoCountyAParser() {
     super("EL PASO COUNTY", "CO");
   }
@@ -147,6 +149,23 @@ public class COElPasoCountyAParser extends MsgParser {
       parseAddress(p.get(30), data);
       data.strApt = p.get(5);
       if (!p.check("~")) return false;
+      data.strSupp = p.get();
+      return true;
+    }
+    
+    if (p.check("AD:")) {
+      setFieldList("ADDR APT CALL ID TIME INFO");
+      parseAddress(p.get(25), data);
+      if (!p.check("Unit:")) return false;
+      data.strApt = append(data.strApt, "-", p.get(3));
+      if (!p.check("RE:")) return false;
+      data.strCall = p.get(15);
+      if (!p.check("Call#:")) return false;
+      data.strCallId = p.get(9);
+      if (!p.check(" ")) return false;
+      String time = p.get(5);
+      if (!TIME_PTN.matcher(time).matches()) return false;
+      data.strTime = time;
       data.strSupp = p.get();
       return true;
     }
