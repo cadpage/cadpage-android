@@ -1488,6 +1488,7 @@ choyvp pynff BUJneeraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G3",
         "FPBGGFIVYY GVZR: 09:13 PNYY GB 3002 JUVGR EBPX EQ VA OHPXVATUNZ PBHAGL UNF ORRA PNAPRYYRQRPP/NFUYRL",
+        "GLCR:TRA_NYREG",
         "FEP:FPBGGFIVYY",
         "GVZR:09:13",
         "VASB:PNYY GB 3002 JUVGR EBPX EQ VA OHPXVATUNZ PBHAGL UNF ORRA PNAPRYYRQRPP/NFUYRL");
@@ -1700,6 +1701,7 @@ choyvp pynff BUJneeraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G5",
         "FPBGGFIVYY GVZR: 02:43 NGGRAGVBA NYY FGNGVBA 7 ZRZOREF GUR PNYY SEBZ SYHINAAN PBHAGL UNF ORRA PNAPRYYRQ.",
+        "GLCR:TRA_NYREG",
         "FEP:FPBGGFIVYY",
         "GVZR:02:43",
         "VASB:NGGRAGVBA NYY FGNGVBA 7 ZRZOREF GUR PNYY SEBZ SYHINAAN PBHAGL UNF ORRA PNAPRYYRQ.");
@@ -2453,18 +2455,21 @@ choyvp pynff BUJneeraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G63",
         "FIEFCNTREF GVZR: 11:47 GRFG GBAR SBE ERFPHR 7",
+        "GLCR:TRA_NYREG",
         "FEP:FIEFCNTREF",
         "GVZR:11:47",
         "VASB:GRFG GBAR SBE ERFPHR 7");
 
     qbGrfg("G64",
         "FIEFCNTREF GVZR: 11:46 GRFG GBAR SBE ERFPHR 7",
+        "GLCR:TRA_NYREG",
         "FEP:FIEFCNTREF",
         "GVZR:11:46",
         "VASB:GRFG GBAR SBE ERFPHR 7");
 
     qbGrfg("G65",
         "FIEFCNTREF GVZR: 09:12 RPP GRFGVAT",
+        "GLCR:TRA_NYREG",
         "FEP:FIEFCNTREF",
         "GVZR:09:12",
         "VASB:RPP GRFGVAT");
@@ -2642,6 +2647,7 @@ choyvp pynff BUJneeraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G80",
         "FIEFCNTREF GVZR: 10:07 GRFG BAYL AB ERFCBAFR. RPP/NFUYRL",
+        "GLCR:TRA_NYREG",
         "FEP:FIEFCNTREF",
         "GVZR:10:07",
         "VASB:GRFG BAYL AB ERFCBAFR. RPP/NFUYRL");

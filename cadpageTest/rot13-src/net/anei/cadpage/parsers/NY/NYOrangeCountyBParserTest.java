@@ -27369,6 +27369,7 @@ choyvp pynff ALBenatrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G65",
         "{BP911 NYREG} GVZR: 10:35 GRFGVAT SBE PBEAJNYY BA UHQFBA",
+        "GLCR:TRA_NYREG",
         "GVZR:10:35",
         "VASB:GRFGVAT SBE PBEAJNYY BA UHQFBA");
 
