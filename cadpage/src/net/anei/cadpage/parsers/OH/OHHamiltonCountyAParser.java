@@ -15,7 +15,8 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
  
   public OHHamiltonCountyAParser() {
     super(CITY_CODES, "HAMILTON COUNTY", "OH", 
-          "CALL! Bld:APT! Apt:APT/D! ADDR PLACE SRC TIME UNIT CH Alarm:PRI! Xst:X! END");
+          "CALL! ( SELECT/2 CH ADDR! Bld:APT! Apt:APT! PLACE SRC TIME UNIT NAME! " +
+                "| Bld:APT! Apt:APT/D! ADDR PLACE SRC TIME UNIT CH Alarm:PRI! ) Xst:X! END");
     setupDoctorNames("FELDMAN", "KATIE");
     setupMultiWordStreets(MWORD_STREET_LIST);
     setupDoctorNames(
@@ -51,9 +52,12 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
   private static final Pattern WILLIAM_HENRY_HARR = Pattern.compile("\\bWILLIAM HENRY HARR\\b", Pattern.CASE_INSENSITIVE);
   
   private static final Pattern PREFIX_PTN = Pattern.compile("(?:HC|CAD|DIRECT):");
-  private static final Pattern MASTER2 = Pattern.compile("CAD:(.*?) Bld: *(.*?) \\\\?Apt: *(.*) (\\d\\d:\\d\\d) *([A-Z][A-Z0-9,]*) (?:(\\d[A-Z]\\d\\d) )?(?:(.*))?Xst:(.*)");
+//  private static final Pattern MASTER3 = Pattern.compile("CAD:(.*?) Bld: *(.*?) Apt: *(.*) ([A-Z][A-Z0-9]):([A-Z][A-Z0-9,]*) (?:(.*) )?Xst:(.*)");
+  private static final Pattern CALL_CH_ADDR_PTN = Pattern.compile("(.*?) \\*?((?:AM|FG)\\d{1,2})=?(.*)");
+  
+  
+  private static final Pattern MASTER2 = Pattern.compile("CAD:(.*?) Bld: *(.*?) \\\\?Apt: *(.*?) *(\\d\\d:\\d\\d) *([A-Z][A-Z0-9,]*) (?:(\\d[A-Z]\\d\\d) )?(?:(.*))?Xst:(.*)");
   private static final Pattern CALL_PFX_PTN = Pattern.compile("(2ND CALL) *(.*)");
-  private static final Pattern CALL_CH_ADDR_PTN = Pattern.compile("(.*?) \\*?(FG\\d{1,2})=?(.*)");
   
   private static final Pattern MASTER1 = Pattern.compile("HC:(.*?)(?: \\*\\*? (.*?) \\*\\*( .*?)??)?(?: (\\d{1,2}:\\d\\d)( .*)?)?");
   private static final Pattern APT_PTN = Pattern.compile("(.*?) +APT: *([^ ]+) +(.*)");
@@ -70,9 +74,18 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       return true;
     }
     
-    // See if this is the (no longer) new pipe delimited format
+    // There are two different field delimited formats.
+    // One uses pipe delimiters, the other users either \ or > delimiters
     String[] flds = body.split("\\|");
     if (flds.length >= 5) {
+      setSelectValue("1");
+    } else {
+      flds = body.split(">");
+      if (flds.length < 5) flds = body.split("\\\\");
+      if (flds.length >= 5) setSelectValue("2");
+      else flds = null;
+    }
+    if (flds != null) {
       Matcher match = PREFIX_PTN.matcher(flds[0]);
       if (!match.lookingAt()) return false;
       flds[0] = flds[0].substring(match.end()).trim();
@@ -93,8 +106,49 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
     
     // Otherwise we have to do this the hard way :(
     else {
-      Matcher match = MASTER2.matcher(body);
-      if (match.matches()) {
+      Matcher match;
+//      if ((match = MASTER3.matcher(body)).matches()) {
+//        setFieldList("CALL CH ADDR APT PLACE SRC CITY TIME UNIT MAP NAME X");
+//        String callAddr = match.group(1).trim();
+//        String apt = match.group(2).trim();
+//        String aptCity = match.group(3).trim();
+//        data.strSource = match.group(4);
+//        data.strUnit = match.group(5);
+//        data.strName = getOptGroup(match.group(6));
+//        data.strCross = match.group(7).trim();
+//
+//        // Strip off possibly call prefix
+//        String prefix = "";
+//        match = CALL_PFX_PTN.matcher(callAddr);
+//        if (match.matches()) {
+//          prefix = match.group(1);
+//          callAddr = match.group(2);
+//        }
+//        
+//        // If we are lucky, there is a channel separating the call and address
+//        // Otherwise use the SAP to split them
+//        match = CALL_CH_ADDR_PTN.matcher(callAddr);
+//        if (match.matches()) {
+//          data.strCall = match.group(1).trim();
+//          data.strChannel = match.group(2);
+//          parseAddress(match.group(3).trim(), data);
+//        } else {
+//          parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_NO_CITY | FLAG_ANCHOR_END, callAddr, data);
+//        }
+//        data.strCall = append(prefix, " ", data.strCall);
+//        data.strApt = append(data.strApt, "-", apt);
+//        
+//        // Split place name from  source
+//        ReverseCodeTable.Result res = DEPT_CITY_TABLE.getResult(placeSource);
+//        if (res == null) return false;
+//        data.strSource = res.getCode();
+//        data.strCity = res.getDescription();
+//        data.strPlace = res.getRemainder();
+//        
+//        return true;
+//      }
+      
+      if ((match = MASTER2.matcher(body)).matches()) {
         setFieldList("CALL CH ADDR APT PLACE SRC CITY TIME UNIT MAP NAME X");
         String callAddr = match.group(1).trim();
         String apt = match.group(2).trim();
@@ -245,6 +299,13 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
   @Override
   public String getProgram() {
     return super.getProgram().replace("SRC", "SRC CITY");
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CH")) return new ChannelField("[A-Z]{2}\\d{2}|", true);
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
+    return super.getField(name);
   }
   
   private static final String[] MWORD_STREET_LIST = new String[]{
@@ -743,8 +804,11 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "ASSAULT-INJURED",
       "ATTEMPT/THREAT SUICIDE",
       "BACK PAIN",
+      "BOMB THREAT/DEVICE",
       "BRUSH/MULCH/FIELD FIRE",
+      "BURNED PERSON",
       "CHECK TAZED PERSON",
+      "CHEMICAL BURN",
       "CHEMICAL SPILL",
       "CHEST PAIN",
       "CHIMNEY FIRE",
@@ -763,6 +827,7 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "EMS / LIFT ASSISTANCE",
       "EMS LIFT ASSIST",
       "EYE INJURY",
+      "EXPOSURE TO HAZMAT",
       "FIELD/BRUSH/MULCH",
       "FIRE ALARM",
       "FUEL SPILL",
@@ -770,6 +835,7 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "GENERAL RESPONSE",
       "GYNECOLOGICAL EMER",
       "GYNECOLOGICAL EMERGENCY",
+      "HAZMAT INCIDENT",
       "HEADACHE",
       "HEAD INJURY",
       "HEART ATTACK",
@@ -818,7 +884,9 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
       "REC ELEVATOR ALARM",
       "RECORDED ELEVATOR ALARM",
       "RECORDED FIRE ALARM",
+      "ROBBERY-INJURY",
       "SEIZURES",
+      "SET UP L/Z",
       "SEXUAL ASSAULT",
       "SEXUAL ASSAULT-INJURED",
       "SHOOTING",
@@ -844,44 +912,59 @@ public class OHHamiltonCountyAParser extends FieldProgramParser {
   );
   
   private static final ReverseCodeTable DEPT_CITY_TABLE = new ReverseCodeTable(
-      "Amberly Village FD",         "Amberly Village",
+      "Amberly Village FD",         "Amberley Village",
+      "Amberley Villag",            "Amberley Village",
       "Anderson Twp FD",            "Cincinnati",
       "Blue Ash FD",                "Blue Ash",
       "Cheviot FD",                 "Cheviot",
+      "Cincinnati FD",              "Cincinnati",
       "Clermont CO FD",             "Clermont County",
       "Cleves FD",                  "Cleves",
       "Colerain Twp FD",            "Colerain Twp",
       "Crosby Twp FD",              "Crosby Twp",
       "Deerpark/Silverton FD",      "Deer Park",
+      "Deerpark-Silver",            "Deer Park",
       "Delhi Twp FD",               "Delhi Twp",
+      "Elmwood F",                  "Elmwood",
       "Elmwood FD",                 "Elmwood",
+      "Elmwood Place F",            "Elmwood Place",
       "Evendale FD",                "Evendale",
+      "Fairfield FD",               "Fairfield",
       "Forest Park FD",             "Forest Park",
       "Glendale FD",                "Glendale",
       "Golf Manor FD",              "Golf Manor",
       "Green Twp FD",               "Green Twp",
       "Greenhills FD",              "Greenhills",
       "Harrison FD",                "Harrison Twp",
+      "Lincoln Heights",            "Lincoln Heights",
       "Lincoln Heights FD",         "Lincoln Heights",
       "Little Miami JFD",           "Fairfax",
+      "Little Miami JF",            "Fairfax",
       "Lockland FD",                "Lockland",
       "Madeira/Indian Hill JFD",    "Madeira",
+      "Madeira-Indian",             "Madeira",
       "Mariemont FD",               "Mariemont",
       "Miami Twp FD",               "North Bend",
       "Milford FD",                 "Milford",
       "Montgomery FD",              "Montgomery",
       "Mt Healthy FD",              "Mt Healthy",
+      "N College Hill",             "N College Hill",
       "N College Hill FD",          "N College Hill",
+      "Norwood FD",                 "Norwood",
       "Reading FD",                 "Reading",
       "Sharonville FD",             "Sharonville",
-      "Sprindale FD",               "Springdale",
+      "Springdale FD",              "Springdale",
       "Springfield Twp FD",         "Springfield Twp",
+      "Springfield Twp",            "Springfield Twp",
       "St Bernard FD",              "St Bernard",
       "Sycamore Twp FD",            "Sycamore Twp",
       "Sycamore Twp",               "Sycamore Twp",
       "Terrace Park FD",            "Terrace Park",
+      "Union Twp FD",               "Union Twp",
       "Warren CO FD",               "Warren County",
+      "West Chester FD",            "West Chester",
       "Whitewater Twp FD",          "Whitewater Twp",
+      "Whitewater Twp",             "Whitewater Twp",
       "Woodlawn FD",                "Woodlawn",
       "Wyoming FD",                 "Wyoming"
   );
