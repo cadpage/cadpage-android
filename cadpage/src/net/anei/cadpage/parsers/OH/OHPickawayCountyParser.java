@@ -14,6 +14,11 @@ public class OHPickawayCountyParser extends DispatchEmergitechParser {
   public SplitMsgOptions getActive911SplitMsgOptions() {
     return new SplitMsgOptionsCustom();
   }
+  
+  @Override
+  public String getFilter() {
+    return "911@pickawaysheriff.com";
+  }
 
   private static final String[] CITY_LIST = new String[]{
     
