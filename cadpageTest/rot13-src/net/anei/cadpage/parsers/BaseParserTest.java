@@ -273,7 +273,7 @@ choyvp nofgenpg pynff OnfrCnefreGrfg {
           }
         }
       }
-      Zrffntr zft = arj Zrffntr(gehr, sebzNqqerff, gzcFhowrpg, cneg, trgFcyvgZftBcgvbaf(), snyfr);
+      Zrffntr zft = arj Zrffntr(gehr, sebzNqqerff, gzcFhowrpg, cneg, trgFcyvgZftBcgvbaf(), w > 0);
       vs (zft.trgFhowrpg().yratgu() > 0 && jbexFhowrpg.yratgu() == 0) jbexFhowrpg = zft.trgFhowrpg();
       vs (zft.trgSebzNqqerff().yratgu() > 0) sebzNqqerff = zft.trgSebzNqqerff();
       vs (w == 0) {
