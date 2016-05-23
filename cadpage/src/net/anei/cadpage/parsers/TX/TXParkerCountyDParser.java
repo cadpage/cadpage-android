@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.TX;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA18Parser;
 
 
@@ -10,12 +11,18 @@ public class TXParkerCountyDParser extends DispatchA18Parser {
   }
  
   @Override
+  protected boolean parseMsg(String body, Data data) {
+    int pt = body.indexOf("\n\n___");
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    return super.parseMsg(body, data);
+  }
+
+  @Override
   public String getFilter() {
     return "mbaldwin@weatherfordtx.gov,pddispatch@weatherfordtx.gov";
   }
 
   private static String[] CITY_LIST = new String[]{
-    
       "ADELL",
       "AGNES",
       "ALEDO",
@@ -42,7 +49,6 @@ public class TXParkerCountyDParser extends DispatchA18Parser {
       "WESTERN LAKE",
       "WHITT",
       "WILLOW PARK"
-      
   };
 }
   
