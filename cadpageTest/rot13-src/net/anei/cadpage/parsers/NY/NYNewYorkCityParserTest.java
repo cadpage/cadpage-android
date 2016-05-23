@@ -344,7 +344,13 @@ choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgVxrXnverl() {
-    
+
+    qbGrfg("G1",
+        "1987 R 14Gu Fg -- Orgjrra Nirahr F & Nirahr G (Cig) - Pnyy VQ: 605-220-771",
+        "NQQE:1987 R 14Gu Fg",
+        "K:Nirahr F & Nirahr G (Cig)",
+        "VQ:605-220-771");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
