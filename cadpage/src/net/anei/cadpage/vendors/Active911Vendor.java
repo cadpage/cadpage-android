@@ -649,6 +649,7 @@ class Active911Vendor extends Vendor {
       "US/MN/McLeodCounty",               "MNMcLeodCounty",
       "US/MN/MilleLacsCounty",            "Cadpage2",
       "US/MN/MowerCounty",                "Cadpage2",
+      "US/MN/NicolletCounty",             "MNNicolletCounty",
       "US/MN/NormanCounty",               "Cadpage2",
       "US/MN/OtterTailCounty",            "MNOtterTailCounty",
       "US/MN/PenningtonCounty",           "MNPenningtonCounty",
