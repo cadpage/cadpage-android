@@ -536,17 +536,13 @@ public class SmsMmsMessage implements Serializable {
     parseInfo = bldParseInfo();
     if (extraMsgBody != null) {
       boolean lock = getMsgCount() > 0;
-      String[] msgParts = new String[extraMsgBody.size()+1];
-      msgParts[0] = parseInfo.getMessageBody();
-      String workSubject = parseInfo.getSubject();
+      Message[] msgParts = new Message[extraMsgBody.size()+1];
+      msgParts[0] = parseInfo;
       for (int jj = 0; jj<extraMsgBody.size(); jj++) {
-        Message pInfo = bldParseInfo(true, subject, extraMsgBody.get(jj));
-        String tmpSubject = pInfo.getSubject();
-        if (tmpSubject.length() > workSubject.length()) tmpSubject = workSubject;
-        msgParts[jj+1] = pInfo.getMessageBody();
+        msgParts[jj+1] = bldParseInfo(true, subject, extraMsgBody.get(jj));
       }
       MsgParser parser = getParser();
-      parseInfo = new MessageBuilder(parser, fromAddress, workSubject, getSplitMsgOptions()).buildMessage(msgParts, lock);
+      parseInfo = new MessageBuilder(parser, getSplitMsgOptions()).buildMessage(msgParts, lock);
       MsgInfo info = parseInfo.getInfo();
       if (info != null) location = info.getParserCode();
     }
@@ -557,7 +553,7 @@ public class SmsMmsMessage implements Serializable {
   }
   
   private Message bldParseInfo(boolean preParse, String msgSubject, String body) {
-    return new Message(preParse, fromAddress, msgSubject, body, getSplitMsgOptions(), false);
+    return new Message(preParse, fromAddress, msgSubject, body, getSplitMsgOptions());
   }
 
   public boolean isPageMsg() {
