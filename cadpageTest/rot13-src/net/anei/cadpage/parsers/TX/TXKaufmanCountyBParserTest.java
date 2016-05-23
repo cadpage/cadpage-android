@@ -72,7 +72,6 @@ F PNGUREVAR FG / J TEBIR FG GREERYY;;;;16-012512;17:16:47;Zrqvpny Svefg Erfc;trb
 RYZ QE / EBOREGF NIR GREERYY;;;;16-012398;16:38:50;Zrqvpny Svefg Erfc;trb:32.7463531284386, -96.2800167426706;nqivfrq gung n znyr fhowrpg whfg tbg fghat ol 100f bs orrf BPN: S16-01299
 811 TEVSSVGU NIR GREERYY;;;;16-012396;16:30:17;Nppvqrag-Znwbe;trb:32.750406, -96.290275;Ec fgngrq gung gurerf n pne syvccrq bire - vagb gur qvgpu - Haxabja Vawhevrf BPN: S16-01298
 1900 J ZBBER NIR GREERYY JNY-ZNEG #265;;;;16-012397;16:29:28;Grfg Pnyy;trb:32.739622, -96.30602;Fbhgurea Fbsgjner GRFG BAYL BPN: S16-01297
-{Grkg Zrffntr} Sebz FF grfg bayl
 */
 choyvp pynff GKXnhsznaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   

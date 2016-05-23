@@ -909,6 +909,7 @@ class Active911Vendor extends Vendor {
       "US/NY/WashingtonCounty",           "NYWashingtonCounty",
       "US/NY/WayneCounty",                "NYWayneCountyB",
       "US/NY/WestchesterCounty",          "NYWestchesterCounty",
+      "US/NY/WLVACEMS",                   "NYNassauCountyN",
       "US/NY/WyCo911",                    "NYWyomingCounty",
       "US/OH/AdamsCounty",                "OHAdamsCounty",
       "US/OH/AllenCounty",                "OHAllenCountyA",
