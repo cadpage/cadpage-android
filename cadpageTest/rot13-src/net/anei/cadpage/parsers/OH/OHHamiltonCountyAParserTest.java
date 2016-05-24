@@ -12,6 +12,7 @@ Pbagnpg: Npgvir911
 Ntrapl anzr: Zvysbeq Pbzzhavgl SQ
 Ybpngvba: Zvysbeq, BU, Havgrq Fgngrf
 
+up@unzvygba-pb.bet:PNQ:Hapbafpvbhf 824 Znva Fg Oyq: Ncg: XEBTRE ZVYS Zvysbeq SQ 15:25 Z71,R72 XEBTRE PB Kfg:Onxre Qe/Xvetna Ya
 up@unzvygba-pb.bet:PNQ:Fvpx Crefba >ST04>19 Pyregbzn Qe >Oyq: >Ncg: > >Zvysbeq SQ >19:08>Z71,Z72,R72,Z67 >QVNAAR >Kfg:Cbgbjngbzvr Gey/Tnesvryq
 up@unzvygba-pb.bet:PNQ:Fvpx Crefba >ST04>19 Pyregbzn Qe >Oyq: >Ncg: > >Zvysbeq SQ >19:08>Z71,R72,Z67 >QVNAAR >Kfg:Cbgbjngbzvr Gey/Tnesvryq
 up@unzvygba-pb.bet:PNQ:Fvpx Crefba > >19 Pyregbzn Qe >Oyq: >Ncg: > >Zvysbeq SQ >19:08>R72,Z67 >QVNAAR >Kfg:Cbgbjngbzvr Gey/Tnesvryq
@@ -3353,6 +3354,18 @@ choyvp pynff BUUnzvygbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgZvysbeqPbzzhavglSQ() {
+
+    qbGrfg("K1",
+        "up@unzvygba-pb.bet:PNQ:Hapbafpvbhf 824 Znva Fg Oyq: Ncg: XEBTRE ZVYS Zvysbeq SQ 15:25 Z71,R72 XEBTRE PB Kfg:Onxre Qe/Xvetna Ya",
+        "PNYY:Hapbafpvbhf",
+        "NQQE:824 Znva Fg",
+        "CYNPR:XEBTRE ZVYS",
+        "FEP:Zvysbeq SQ",
+        "PVGL:Zvysbeq",
+        "GVZR:15:25",
+        "HAVG:Z71,R72",
+        "ANZR:XEBTRE PB",
+        "K:Onxre Qe/Xvetna Ya");
 
     qbGrfg("G1",
         "up@unzvygba-pb.bet:PNQ:Fvpx Crefba >ST04>19 Pyregbzn Qe >Oyq: >Ncg: > >Zvysbeq SQ >19:08>Z71,Z72,R72,Z67 >QVNAAR >Kfg:Cbgbjngbzvr Gey/Tnesvryq",

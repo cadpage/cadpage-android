@@ -14,10 +14,10 @@ public class KYPulaskiCountyParser extends DispatchA65Parser {
   }
   
   private static final String[] CITY_LIST = new String[]{
-    
       "BURNSIDE",
       "ETNA",
       "EUBANK",
+      "FAUBUSH",
       "FERGUSON",
       "INGLE",
       "NANCY",
@@ -27,6 +27,5 @@ public class KYPulaskiCountyParser extends DispatchA65Parser {
       "SOMERSET",
       "VALLEY OAK",
       "WOODSTOCK"
-
   };
 }
