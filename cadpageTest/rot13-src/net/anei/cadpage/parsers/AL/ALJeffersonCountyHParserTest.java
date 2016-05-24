@@ -6,7 +6,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.NY.NYWrssrefbaPbhaglUCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Wrssrefba Pbhagl, NY (T)
+Wrssrefba Pbhagl, NY (U)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Tneqraqnyr Sver naq Erfphr

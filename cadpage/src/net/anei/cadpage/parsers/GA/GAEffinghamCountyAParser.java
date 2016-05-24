@@ -4,9 +4,9 @@ package net.anei.cadpage.parsers.GA;
 import net.anei.cadpage.parsers.dispatch.DispatchA12Parser;
 
 
-public class GAEffinghamCountyParser extends DispatchA12Parser {
+public class GAEffinghamCountyAParser extends DispatchA12Parser {
   
-  public GAEffinghamCountyParser() {
+  public GAEffinghamCountyAParser() {
     super("EFFINGHAM COUNTY", "GA");
   }
   

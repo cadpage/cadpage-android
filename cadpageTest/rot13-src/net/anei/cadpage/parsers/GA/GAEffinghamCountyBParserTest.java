@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /* 
-Rssvatunz Pbhagl, TN
+Rssvatunz Pbhagl, TN (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Rssvatunz Pbhagl Furevss'f Bssvpr P-Jngpu

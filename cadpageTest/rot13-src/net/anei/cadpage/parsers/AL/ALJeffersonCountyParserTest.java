@@ -51,4 +51,10 @@ choyvp pynff NYWrssrefbaPbhaglCnefreGrfg {
       frgCnefre(arj NYWrssrefbaPbhaglCnefre());
     }
   }
+  
+  choyvp fgngvp pynff GrfgU rkgraqf NYWrssrefbaPbhaglUCnefreGrfg {
+    choyvp GrfgU() {
+      frgCnefre(arj NYWrssrefbaPbhaglCnefre());
+    }
+  }
 }
