@@ -82,6 +82,7 @@ public class PAMontgomeryCountyCParser extends FieldProgramParser {
     }
 
     body = body.replace(",MAP/BOX-PLAN:", " BOX:");
+    body = body.replace(", MAP/BOX:", " BOX:");
     body = COMMA_DELIM.matcher(body).replaceAll(" ");
     if (super.parseMsg(body, data)) {
       if (data.strAddress.length() == 0 || data.strAddress.equals("&")) {

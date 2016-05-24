@@ -6,19 +6,21 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
 /**
  * Washington County, MD
  */
 public class MDWashingtonCountyParser extends FieldProgramParser {
   
-  private static final Pattern CALL_QUAL_PTN = Pattern.compile("^((?:Recall Reason|Completed|Cancel Reason):.*?)\n");
+  private static final Pattern CALL_QUAL_PTN = Pattern.compile("(?:Recall Reason|Completed|Cancel Reason):.*\n|(?:CANCEL|CANCELL?ED|CALL CANCELL?ED|FAILED!).*\n|[- A-Za-z0-9!\\.\\*',]+\n");
   private static final Pattern CROSS_PTN = Pattern.compile("\\[([^\\[\\]]*) - ([^\\[\\]]*)\\]");
   private static final Pattern DELIM = Pattern.compile(" *(?<= )- +|  ,");
  
   public MDWashingtonCountyParser() {
     super(CITY_LIST, "WASHINGTON COUNTY", "MD",
-        "ADDR/SXP CITY? X? CALL! CALL+? ( TRAIL1! END | UNIT UNIT+? ( TRAIL2! END | INFO+? TRAIL3! END ) )");
+        "ADDR/SXP CITY? X? CALL! CALL+? ( TRAIL1% END | UNIT UNIT+? ( TRAIL2% END | INFO+? TRAIL3% END ) )");
     addExtendedDirections();
     removeWords("CV");
   }
@@ -29,12 +31,19 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom(){
+      @Override public boolean noParseSubjectFollow() { return true; }
+    };
+  }
+
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
     // Look for call qualifier prefix
     Matcher match = CALL_QUAL_PTN.matcher(body);
-    if (match.find()) {
-      data.strCall = match.group(1).trim();
+    if (match.lookingAt()) {
+      data.strCall = match.group().trim();
       body = body.substring(match.end()).trim();
     }
     
@@ -88,6 +97,9 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
+      
+      // Kill off partial results
+      if (field.contains("ProQA")) abort();
 
       // Strip trailing box
       Matcher match = BOX_PTN.matcher(field);
@@ -147,6 +159,10 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
+      
+      // Kill off partial results
+      if (field.contains("ProQA")) abort();
+      
       data.strCall = append(data.strCall, " - ", field);
     }
   }
@@ -199,15 +215,19 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
         } else if (type == 1) abort();
       }
       
+      String sPart1, sPart2;
       Matcher match = TIME_PTN.matcher(field);
       if (match.find()) {
         data.strTime = match.group(1);
+        sPart1 = field.substring(0,match.start()).trim();
+        sPart2 = field.substring(match.end()).trim();
       } else {
+        data.expectMore = true;
+        sPart1 = field;
+        sPart2 = "";
         match = TIME2_PTN.matcher(field);
-        if (!match.find()) abort();
+        if (match.find()) sPart1 = field.substring(0,match.start()).trim();
       }
-      String sPart1 = field.substring(0,match.start()).trim();
-      String sPart2 = field.substring(match.end()).trim();
       
       match = ID_PTN.matcher(sPart1);
       if (match.find()) {

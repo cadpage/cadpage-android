@@ -141,6 +141,7 @@ public class OHCuyahogaCountyParser extends GroupBestParser {
     "SOLON",
     "SOUTH EUCLID",
     "STRONGSVILLE",
+    "TWINSBURG",
     "UNIVERSITY HEIGHTS",
     "WARRENSVILLE HEIGHTS",
     "WESTLAKE",
@@ -171,6 +172,8 @@ public class OHCuyahogaCountyParser extends GroupBestParser {
     "OLMSTED TWP",
     
     // Summit County
+    "MACEDONIA",
+    "NORTHFIELD",
     "RICHFIELD"
   };
 }

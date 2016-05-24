@@ -181,6 +181,7 @@ public class MOPulaskiCountyParser extends FieldProgramParser {
       "MOTOR VEHICLE ACCIDENT NO INJURY",
       "MOTOR VEHICLE ACCIDENT WITH INJURY",
       "NATURAL COVER FIRE",
+      "OTHER",
       "SEIZURES",
       "SMOKE INVESTIGATION",
       "STRUCTURE FIRE COMMERCIAL",

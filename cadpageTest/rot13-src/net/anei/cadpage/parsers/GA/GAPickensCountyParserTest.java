@@ -71,9 +71,10 @@ choyvp pynff TNCvpxrafPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CVPXRAF_PB.911:76P3 >CREFBA FVPX PBQR 3 110 NFUQNYR EQ KF: UVTUJNL 53 R/QNJFBA PBHAGL YVAR QNJFBAIVYYR WBEQNAAN FGVREF Znc: Tevqf:0,0 Pnq: 2016-0000021034",
         "PBQR:76P3",
         "PNYY:CREFBA FVPX PBQR 3",
-        "NQQE:110 NFUQNYR EQ & QNJFBA PBHAGL YVAR QNJFBAIVYYR WBEQNAAN FGVREF",
-        "ZNQQE:110 NFUQNYR EQ",
-        "K:UVTUJNL 53 R",
+        "NQQE:110 NFUQNYR EQ",
+        "K:UVTUJNL 53 R / QNJFBA PBHAGL YVAR",
+        "PVGL:QNJFBAIVYYR",
+        "ANZR:WBEQNAAN FGVREF",
         "VQ:2016-0000021034");
 
     qbGrfg("G3",
@@ -238,9 +239,10 @@ choyvp pynff TNCvpxrafPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:41H/V",
         "PNYY:ZIN HAXABJA VAWHEVRF",
         "NQQE:BYQ SRQRENY EQ",
-        "ZNQQE:BYQ SRQRENY EQ & PUHZOYRL EQ",
-        "K:PUHZOYRL EQ",
-        "ANZR:BSS 53 R QNJFBAIVYYR FHR PBK",
+        "ZNQQE:BYQ SRQRENY EQ & PUHZOYRL EQ & 53 R",
+        "K:PUHZOYRL EQ BSS 53 R",
+        "PVGL:QNJFBAIVYYR",
+        "ANZR:FHR PBK",
         "VQ:2016-0000017293");
 
     qbGrfg("G20",

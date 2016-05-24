@@ -6,19 +6,17 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   choyvp fgngvp svany Cnggrea ZNFGRE =
-      Cnggrea.pbzcvyr("|(?:G )?[N-M]{3,6}");
+      Cnggrea.pbzcvyr("(?:PNAPRY|PNAPRYY?RQ|PNYY PNAPRYY?RQ)[ -N-M0-9]*\a");
 
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("");
-    qbGrfg("KLM");
-    qbGrfg("G KLM");
+    qbGrfg("PNAPRYYRQ OL R02 BA FPRAR\a1503 CBGBZNP NIR, PIF CUNEZNPL # 1435 - [ABEGUREA NIR - PVGL YVZVG HC GB PBEGYNAQ QE] - CVP, CREF VAWHEL PBYYVFVBA, CRQ FGEHPX - R02,PB27,E75,C751,EFDR272 - CebDN Qrgrezvanag: 29N01 - **OYF-NYCUN* 1fg cnegl pnyyre jvgu vawhel gb ABG QNATREBHF obql nern R161310012 1610190 06:51");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
     Zngpure zngpu = ZNFGRE.zngpure(grfg);
     Flfgrz.bhg.cevagya(grfg);
-    vs (! zngpu.zngpurf()) {
+    vs (! zngpu.ybbxvatNg()) {
       Flfgrz.bhg.cevagya(" ab zngpu");
     } ryfr {
       sbe (vag t = 0; t<=zngpu.tebhcPbhag(); t++) {

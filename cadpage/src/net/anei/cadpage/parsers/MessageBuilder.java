@@ -3,18 +3,14 @@ package net.anei.cadpage.parsers;
 public class MessageBuilder {
 
   private MsgParser parser;
-  private String fromAddress;
-  private String subject;
   private SplitMsgOptions options;
   
   private boolean preserveProgram = false;
   
-  private String[] msgBodyList;
+  private Message [] msgList;
   
-  public MessageBuilder(MsgParser parser, String fromAddress, String subject, SplitMsgOptions options) {
+  public MessageBuilder(MsgParser parser, SplitMsgOptions options) {
     this.parser = parser;
-    this.fromAddress = fromAddress;
-    this.subject = subject;
     this.options = options;
   }
   
@@ -31,51 +27,53 @@ public class MessageBuilder {
   
   /**
    * Accumulate one or more message parts into a single Message object
-   * @param msgBodyList array of message parts
+   * @param msgList array of message parts
    * @param lock true of message order is locked
    * @return
    */
-  public Message buildMessage(String[] msgBodyList, boolean lock) {
+  public Message buildMessage(Message[] msgList, boolean lock) {
     
     // Life gets easy if there is only one message
-    if (msgBodyList.length == 1) return  bldMessage(msgBodyList[0]);
+    if (msgList.length == 1) {
+      Message msg = msgList[0];
+      return bldMessage(msg.getFromAddress(), msg.getSubject(false), msg.getMessageBody(true, false));
+    }
     
     // Reverse the message order is so requested
     if (options.revMsgOrder()) {
-      String[] tmp = new String[msgBodyList.length];
-      for (int j = 0; j<msgBodyList.length; j++) {
-        tmp[j] = msgBodyList[msgBodyList.length-j-1];
+      Message[] tmp = new Message[msgList.length];
+      for (int j = 0; j<msgList.length; j++) {
+        tmp[j] = msgList[msgList.length-j-1];
       }
-      msgBodyList = tmp;
+      msgList = tmp;
     }
     
     // Only slightly less easier if the message order is known
     if (lock || !options.mixedMsgOrder()) {
-      String body = buildMsgBody(msgBodyList);
-      return bldMessage(body);
+      return bldMessage(msgList);
     }
     
     // Otherwise life gets complicated.
-    this.msgBodyList = msgBodyList;
+    this.msgList = msgList;
     
-    int[] msgOrder = new int[msgBodyList.length];
+    int[] msgOrder = new int[msgList.length];
     
     // Now thing get complicated.  We are going to step through each
     // position by pairs.  Stopping just before the last one because
     // the last position can always be autofilled
-    for (int n = 1; n < msgBodyList.length; n+=2) {
+    for (int n = 1; n < msgList.length; n+=2) {
       
       // for each pair, try all combinations of two
       // parts from the remaining parts
       resetBestResult();
-      for (int p1 = 0; p1 < msgBodyList.length; p1++) {
+      for (int p1 = 0; p1 < msgList.length; p1++) {
         if (isIndexUsed(p1, msgOrder, n-1)) continue;
         msgOrder[n-1] = p1;
-        if (n+1 == msgBodyList.length) {
+        if (n+1 == msgList.length) {
           trialParse(msgOrder, n);
         }
         else {
-          for (int p2 = 0; p2 < msgBodyList.length; p2++) {
+          for (int p2 = 0; p2 < msgList.length; p2++) {
             if (isIndexUsed(p2, msgOrder, n)) continue;
             msgOrder[n] = p2;
             trialParse(msgOrder, n+1);
@@ -140,7 +138,7 @@ public class MessageBuilder {
    * @param msgOrder message index array
    */
   private void fillLast(int[] msgOrder) {
-    if (msgOrder.length != msgBodyList.length) return;
+    if (msgOrder.length != msgList.length) return;
     int n = msgOrder.length-1;
     for (int ii = 0; ii < msgOrder.length; ii++) {
       if (isIndexUsed(ii, msgOrder, n)) continue;
@@ -188,9 +186,9 @@ public class MessageBuilder {
       // last segment is significantly shorter than the others
       int minLen = Integer.MAX_VALUE;
       for (int j = 0; j<msgOrder.length-1; j++) {
-        minLen = Math.min(minLen, msgBodyList[msgOrder[j]].length());
+        minLen = Math.min(minLen, msgList[msgOrder[j]].getMessageBody(true, j>0).length());
       }
-      if (msgBodyList[msgOrder[msgOrder.length-1]].length() < minLen-5) score++;
+      if (msgList[msgOrder[msgOrder.length-1]].getMessageBody(true, true).length() < minLen-5) score++;
     }
     
     public int[] getMsgOrder() {
@@ -207,22 +205,14 @@ public class MessageBuilder {
   }
 
   /**
-   * Construct a Message object from trying the message parts in a
-   * particular message order
-   * @param msgOrder array continuing the message part indexes to be used
-   * @return result Message object
-   */
-  private Message bldMessage(int[] msgOrder) {
-    return bldMessage(buildMsgBody(msgOrder));
-  }
-
-  /**
    * Construct a Message object from a text message
+   * @param fromAddress message sender
+   * @param subject message subject
    * @param body the text message
    * @return result Message object
    */
-  private Message bldMessage(String body) {
-    Message result = new Message(false, fromAddress, subject, body, options, false);
+  private Message bldMessage(String fromAddress, String subject, String body) {
+    Message result = new Message(false, fromAddress, subject, body, options);
     parser.isPageMsg(result, MsgParser.PARSE_FLG_FORCE | MsgParser.PARSE_FLG_SKIP_FILTER);
     return result;
   }
@@ -232,26 +222,39 @@ public class MessageBuilder {
    * @param msgOrder array containing the message indexes to be used
    * @return the complete text message
    */
-  private String buildMsgBody(int[] msgOrder) {
-    String[] msgList = new String[msgOrder.length];
+  private Message bldMessage(int[] msgOrder) {
+    Message[] mList = new Message[msgOrder.length];
     for (int jj = 0; jj < msgOrder.length; jj++) {
-      msgList[jj] = msgBodyList[msgOrder[jj]];
+      mList[jj] = msgList[msgOrder[jj]];
     }
-    return buildMsgBody(msgList);
+    return bldMessage(mList);
   }
 
   /**
-   * Construct a text message from an array of message parts
+   * Construct a message from an array of message parts
    * @param msgBodyList array of message parts
    * @return the complete text message
    */
-  private String buildMsgBody(String[] msgBodyList) {
+  private Message bldMessage(Message[] msgList) {
     boolean insBlank = options.splitBlankIns();
     int breakLen = options.splitBreakLength();
     int breakPad = options.splitBreakPad();
     int lastLen = -1;
+    
+    String fromAddress = null;
+    String subject = "";
+    
+    boolean follow = false;
     StringBuilder sb = new StringBuilder();
-    for (String msg : msgBodyList) {
+    for (Message msg : msgList) {
+      
+      if (fromAddress == null) fromAddress = msg.getFromAddress();
+      
+      String tmp = msg.getSubject(follow);
+      if (tmp.length() > subject.length()) subject = tmp;
+      String msgText = msg.getMessageBody(parser.keepLeadBreak(), follow);
+      follow = true;
+      
       if (sb.length() > 0) {
         if (breakLen > 0 && breakPad > 0) {
           int delta = breakLen-lastLen;
@@ -262,9 +265,9 @@ public class MessageBuilder {
         else if (insBlank) sb.append(' ');
       }
       
-      sb.append(msg);
-      lastLen = msg.length();
+      sb.append(msgText);
+      lastLen = msgText.length();
     }
-    return sb.toString();
+    return bldMessage(fromAddress, subject, sb.toString());
   }
 }

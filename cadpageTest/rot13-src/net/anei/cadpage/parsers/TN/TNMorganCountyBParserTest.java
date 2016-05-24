@@ -32,6 +32,7 @@ Ntrapl anzr: Qrre Ybqtr ISQ
 Ybpngvba: Qrre Ybqtr, GA, Havgrq Fgngrf
 Fraqre: qvfcngpu@911rznvy.bet
 
+(R911-Cntr)\e\e\aPSF: 20160519-000607\e\e\aZFT: NZOHYNAPR ARRQ/ERDHR\e\e\aOEBXRA YRT\e\e\a\e\e\aYNAPVAT\e\e\a122 YVAQFRL UBJNEQ EQ\e\e\a\e\e\aQYISQ: 16-QYISQ-00111\e\a\e\a
 (R911-Cntr)\aPSF: 20160229-000905\aZFT: NPPVQRAG-VAW\a\aFHAOEVTUG\a9018 ZBETNA PB UJL\a\aQYISQ: 16-QYISQ-00031
 (R911-Cntr)\aPSF: 20160229-000898\aZFT: BGURE\aGRFG GUVF VF BAYL N GRFG GB FRR VS NPGVIR 911 VF JBEXVAT NTNVA\a\a274 ENYCU UNZOL YA\a\aQYISQ: 16-QYISQ-00030
 
@@ -175,6 +176,24 @@ choyvp pynff GAZbetnaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgQrreYbqtrISQ() {
+
+    qbGrfg("K1",
+        "(R911-Cntr)\e\e\a" +
+        "PSF: 20160519-000607\e\e\a" +
+        "ZFT: NZOHYNAPR ARRQ/ERDHR\e\e\a" +
+        "OEBXRA YRT\e\e\a" +
+        "\e\e\a" +
+        "YNAPVAT\e\e\a" +
+        "122 YVAQFRL UBJNEQ EQ\e\e\a" +
+        "\e\e\a" +
+        "QYISQ: 16-QYISQ-00111\e\a" +
+        "\e\a",
+
+        "VQ:20160519-000607",
+        "PNYY:NZOHYNAPR ARRQ/ERDHR - OEBXRA YRT",
+        "PVGL:YNAPVAT",
+        "NQQE:122 YVAQFRL UBJNEQ EQ",
+        "FEP:QYISQ");
 
     qbGrfg("G1",
         "(R911-Cntr)\aPSF: 20160229-000905\aZFT: NPPVQRAG-VAW\a\aFHAOEVTUG\a9018 ZBETNA PB UJL\a\aQYISQ: 16-QYISQ-00031",

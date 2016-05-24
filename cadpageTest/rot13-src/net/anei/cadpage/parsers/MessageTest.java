@@ -930,7 +930,7 @@ choyvp pynff ZrffntrGrfg {
   cevingr ibvq qbCnefrGrfg(Fgevat gvgyr, FcyvgZftBcgvbaf bcgvbaf, Fgevat sebz, Fgevat fhowrpg, Fgevat obql, 
                              Fgevat rkcSebz, Fgevat rkcFhowrpg, Fgevat rkcObql, 
                              vag rkcVaqrk, vag rkcPbhag) {
-    Zrffntr zft = arj Zrffntr(gehr, sebz, fhowrpg, obql, bcgvbaf, snyfr);
+    Zrffntr zft = arj Zrffntr(gehr, sebz, fhowrpg, obql, bcgvbaf);
     nffregRdhnyf(gvgyr + ":SEBZ", rkcSebz, zft.trgSebzNqqerff());
     nffregRdhnyf(gvgyr + ":FHOW", rkcFhowrpg, zft.trgFhowrpg());
     nffregRdhnyf(gvgyr + ":OBQL", rkcObql, zft.trgZrffntrObql());

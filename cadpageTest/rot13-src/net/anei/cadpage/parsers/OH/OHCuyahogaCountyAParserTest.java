@@ -1907,7 +1907,8 @@ choyvp pynff BUPhlnubtnPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "{Qvfcngpu Zrffntr} \e       \eGRFG SBE NPGVIR 911",
-        "PNYY:GRFG SBE NPGVIR 911");
+        "PNYY:NYREG",
+        "NQQE:GRFG SBE NPGVIR 911");
 
     qbGrfg("G2",
         "{Qvfcngpu Zrffntr} SVER/FZBXR/RKCYBFVBA \a" +

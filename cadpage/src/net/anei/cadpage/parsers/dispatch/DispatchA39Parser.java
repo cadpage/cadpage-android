@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class DispatchA39Parser extends FieldProgramParser {
 
-  private static final String PROGRAM_STR = "CALL? ADDR/iSXXa! APT? INFO/N+";
+  private static final String PROGRAM_STR = "DEMPTY+? CALL? ADDR/iSXXa! APT? INFO/N+";
 
   public DispatchA39Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState, PROGRAM_STR);
@@ -37,10 +37,23 @@ public class DispatchA39Parser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("DEMPTY")) return new MyDoubleEmptyField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("APT")) return new BaseAptField();
     if (name.equals("INFO")) return new BaseInfoField();
     return super.getField(name);
+  }
+  
+  private class MyDoubleEmptyField extends SkipField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      return field.length() == 0 && getRelativeField(+1).length() == 0;
+    }
   }
   
   private static final Pattern DIR_BOUND_PTN = Pattern.compile("\\b([NSEW])/B\\b");

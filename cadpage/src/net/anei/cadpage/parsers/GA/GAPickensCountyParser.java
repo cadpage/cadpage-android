@@ -6,14 +6,38 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 public class GAPickensCountyParser extends DispatchB2Parser {
 
   public GAPickensCountyParser() {
-    super("PICKENS_CO.911:", CITY_LIST, "PICKENS COUNTY", "GA");
+    this("PICKENS COUNTY", "GA");
+  }
+  
+  protected GAPickensCountyParser(String defCity, String defState) {
+    super("PICKENS_CO.911:", CITY_LIST, defCity, defState);
     setupCallList(CALL_LIST);
+    setupMultiWordStreets(MWORD_STREET_LIST);
+  }
+  
+  @Override
+  public String getAliasCode() {
+    return "GAPickensCounty";
   }
   
   @Override
   public String getFilter() {
     return "PICKENS_CO.911@pickenscountyga.gov";
   }
+  
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "CHEROKEE WOOD HOLLOW",
+    "EAGLE NEST",
+    "EAGLE PERCH",
+    "FOUR MILE CHURCH",
+    "MOUNTAIN OAK",
+    "PEA RIDGE",
+    "SANDY BOTTOM",
+    "SPLIT ROCK",
+    "STEVE TATE",
+    "TEDDY BEAR",
+    "YELLOW CREEK"
+  };
   
   private static final CodeSet CALL_LIST = new CodeSet(
       
@@ -32,8 +56,7 @@ public class GAPickensCountyParser extends DispatchB2Parser {
 
   private static final String[] CITY_LIST = new String[]{
       
-//pickens county
-
+      // Pickens county
       "BENT TREE",
       "BETHANY",
       "BIG CANOE", 
@@ -49,8 +72,7 @@ public class GAPickensCountyParser extends DispatchB2Parser {
       "TATE",
       "WHITESTONE",
       
-//cherokee county
-          
+      // Cherokee county
       "AVERY",
       "BALL GROUND",
       "BATESVILLE",
@@ -87,8 +109,10 @@ public class GAPickensCountyParser extends DispatchB2Parser {
       "UNIVETER",
       "VICTORIA",
       "WALESKA",
-      "WOODSTOCK"
+      "WOODSTOCK",
 
+      // Dawson County
+      "DAWSONVILLE"
 
     };
   

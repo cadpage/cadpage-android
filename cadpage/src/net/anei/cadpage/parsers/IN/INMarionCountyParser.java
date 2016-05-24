@@ -35,7 +35,7 @@ public class INMarionCountyParser extends MsgParser {
   private static final Pattern MASTER1 = Pattern.compile("([^,]+), *([A-Z]{3}) " + APT_PTN + "?" + MAP_PTN + "?(.*)");
   private static final Pattern MASTER2 = Pattern.compile("([^,]+?) " + APT_PTN + "?" + MAP_PTN + "(.*)");
   private static final Pattern CALL_ID_PTN = Pattern.compile("\\b(I\\d{5})\\.?$");
-  private static final Pattern UNIT_PTN = Pattern.compile("\\b((?:(?:[A-Z]+[0-9]+[A-Z]?|\\d+CIV|\\d+FF|\\d+GRP|[A-Z]+GRP|\\d+TN|\\d+WAY|[A-Z]+FYI|[A-Z]{2}FD|[A-Z]{3}ADM|[A-Z]{2}TF|ALS|AMO|BKCREG|BKCRMD|COMM|COMVAN|DHS|FYI[A-Z]+|CMND|HMEDIA|IFDEDO|IFSPOP|INDOT|IPAGE|IUPAGE|MANPOW|MAYDAY|MEDIA|NONEMG|PVTBLS|PVTMED|SFDOPS|STI|WPAGE|WRKFIR|XLFCHF|XLFINV|XLMCOR|WAYVIC|WRTFWY|(?:IFD|PIK)[A-Z]{1,3}|99\\d|(?:1ST|2ND|3RD)[A-Z]{3})\\b *)+)[\\., ]*(.*)");
+  private static final Pattern UNIT_PTN = Pattern.compile("\\b((?:(?:[A-Z]+[0-9]+[A-Z]?|BC\\d+[A-Z]?|\\d+CIV|\\d+FF|\\d+GRP|[A-Z]+GRP|\\d+TN|\\d+WAY|[A-Z]+FYI|[A-Z]{2}FD|[A-Z]{3}ADM|[A-Z]{2}TF|ALS|AMO|BKCREG|BKCRMD|COMM|COMVAN|DHS|FYI[A-Z]+|CMND|HMEDIA|IFDEDO|IFSPOP|INDOT|IPAGE|IUPAGE|MANPOW|MAYDAY|MEDIA|NONEMG|PVTBLS|PVTMED|SFDOPS|STI|WPAGE|WRKFIR|XLFCHF|XLFINV|XLMCOR|WAYVIC|WRTFWY|(?:IFD|PIK)[A-Z]{1,3}|99\\d|(?:1ST|2ND|3RD)[A-Z]{3})\\b *)+)[\\., ]*(.*)");
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
@@ -226,7 +226,18 @@ public class INMarionCountyParser extends MsgParser {
       "16300 TERMINAL WAY",                   "+39.714466,-86.298459",
       "16312 TERMINAL WAY",                   "+39.714466,-86.298459",
       "16315 TERMINAL WAY",                   "+39.714466,-86.298459",
-      "17324 TERMINAL WAY",                   "+39.714466,-86.298459"
+      "17324 TERMINAL WAY",                   "+39.714466,-86.298459",
+      
+      "I465 011 RAMP A",                      "+39.728231,-86.263175",
+      "I465 012 RAMP A",                      "+39.746920,-86.263479",
+      "I465 013 RAMP A",                      "+39.763286,-86.265185",
+      "I465 014 RAMP A",                      "+39.777480,-86.269702",
+      "I465 017 RAMP A",                      "+39.821698,-86.274513",
+      "I465 017 RAMP D",                      "+39.822587,-86.276850",
+      "I70 075 RAMP A",                       "+39.729952,-86.242714",
+      "I70 077 RAMP A",                       "+39.751322,-86.227014",
+      "I70 077 RAMP B",                       "+39.751810,-86.223286"
+
   });
 
   private static final CodeSet CODE_SET = new CodeSet(

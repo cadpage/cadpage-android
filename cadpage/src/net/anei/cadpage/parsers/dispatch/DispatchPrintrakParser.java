@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 
 public class DispatchPrintrakParser extends FieldProgramParser {
@@ -75,7 +76,7 @@ public class DispatchPrintrakParser extends FieldProgramParser {
             "( TIME:TIME_INFO! TYP:CALL " +
             "| AD:ADDR! LOC:CITY TIME:TIME_INFO! TYP:CALL " +
             "| LOC:ADDR! AD:PLACE! DESC:CALL! BLD:APT! FLR:APT/D? APT:APT/D! TYP:CODE! MODCIR:CALL/SDS! CMT1:INFO/N+ " +
-            "| PRI:PRI INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY MAP:MAP LOC:PLACE XST:X CN:NAME CMT1:" + cmt1Fld +  
+            "| PRI:PRI INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! APT:APT CTY:CITY MAP:MAP LOC:PLACE CALLER:NAME XST:X CN:NAME CMT1:" + cmt1Fld +  
               " Original_Location:PLACE2? CMT2:INFO/N CMT3:INFO/N CMT4:INFO/N CMT5:INFO/N Original_Location:PLACE2? CE:INFO? CMT2:INFO CALLER_STATEMENT:INFO? STATEMENT:INFO? TIME:TIME UNTS:UNIT XST:X XST2:X UNTS:UNIT XST:X XST2:X )"
         : version == FLG_VERSION_2 ?
             "TYP:CALL! LOC:PLACE! AD:ADDR/S! XST:X! CMT1:INFO! UNTS:UNIT!"
@@ -83,17 +84,30 @@ public class DispatchPrintrakParser extends FieldProgramParser {
     return setExpectFlag(program, expTerm);
   }
 
+  private static final Pattern GEN_ALERT_PTN = Pattern.compile("(?:([-A-Z0-9]+) +)?TIME: *(\\d\\d:\\d\\d)\\b *(.*)", Pattern.DOTALL);
   private static final Pattern BREAK_PTN = Pattern.compile(" *[\n\t]+ *");
   private static final Pattern SRC_PTN = Pattern.compile("([^:]+?) +([A-Z0-9]+:.*)");
+  
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    Matcher match = GEN_ALERT_PTN.matcher(body);
+    if (match.matches()) {
+      setFieldList("SRC TIME INFO");
+      data.msgType = MsgType.GEN_ALERT;
+      data.strSource = getOptGroup(match.group(1));
+      data.strTime = match.group(2);
+      data.strSupp = match.group(3).trim();
+      return true;
+    }
+    
     body = BREAK_PTN.matcher(body).replaceAll(" ");
-    Matcher match = SRC_PTN.matcher(body);
+    match = SRC_PTN.matcher(body);
     if (match.matches()) {
       data.strSource = match.group(1);
       body = match.group(2);
     }
-    body = body.replace(" CMTS:", " CMT1:").replace("CMT:",  " CMT1:").replace("AD:", " AD:");
+    body = body.replace(" CMTS:", " CMT1:").replace("CMT:",  " CMT1:").replace("AD:", " AD:").replace("UNITS:", " UNTS:").replace(" X-ST:", " XST:");
     body = body.replace(" CALLER / STATEMENT:", " CALLER STATEMENT:");
     body = body.replace(" CALLER CMT2:", " CMT2:");
     return super.parseMsg(body.trim(), data);

@@ -342,8 +342,9 @@ choyvp pynff BUFhzzvgPbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G24",
         "(Qvfcngpu Zrffntr)  \e       \e10424 ENIRAAN EQ\aYBJ OYBBQ CERFFHER   66/46\aERANY SNVYHER\aPUS\a59 LBN SRZNYR",
-        "PNYY:10424 ENIRAAN EQ",
-        "VASB:YBJ OYBBQ CERFFHER   66/46\aERANY SNVYHER\aPUS\a59 LBN SRZNYR");
+        "PNYY:YBJ OYBBQ CERFFHER   66/46",
+        "NQQE:10424 ENIRAAN EQ",
+        "VASB:ERANY SNVYHER\aPUS\a59 LBN SRZNYR");
 
     qbGrfg("G25",
         "(Qvfcngpu Zrffntr) N ERFPHR \e2640  PERRXFVQR QE   GJVAFOHET \e20LBN SRZNYR CNFFRQ BHG BA SYBBE VA ONPX    ABG NJNXR OHG OERNGUVAT",
