@@ -371,6 +371,7 @@ Ntrapl anzr: Jnfuvatgba Pbhagl Sver & RZF (JP/ZQ)
 Ybpngvba: Untrefgbja, ZQ, Havgrq Fgngrf
 Fraqre: Qvfcngpu <Qvfcngpu@jnfupb-zq.arg>
 
+12814N FUNAX SNEZ JNL, SEVRAQYL'F ERFGNHENAG - [FGBAR UBHFR JNL - PBEGYNAQ QE] - ANG TNF BQBE - R02,PB27,GEX1,OP1 - CebDN Qrgrezvanag: 60Q03B - PBZZREPVNY/VAQHFGEVNY ohvyqvat - Bqbe bayl S161440001 1611097 05:19
 18 CEVAPRGBA CY - [ - ] - HAPBAFPVBHFARFF, SNVAGVAT - E75 - CebDN Qrgrezvanag: 31Q03 - **NYF UBG*- Abg nyreg R161430001 1611035 00:43
 pnapry\a16505 IVETVAVN NIR, UBZRJBBQ PBGGNTRF - [UBZRJBBQ CEBCREGL - BAYL!] - URZBEEUNTR, YNPRENGVBAF - E49,RZF1811,N28 - CebDN Qrgrezvanag: 33P03G - **NYF UBG*-Fvtavsvpnag Urzbeeuntr be Fubpx - Genafsre/Vagresnpvyvgl R161420061 1611034 23:56
 16505 IVETVAVN NIR, UBZRJBBQ PBGGNTRF - [UBZRJBBQ CEBCREGL - BAYL!] - URZBEEUNTR, YNPRENGVBAF - E49,RZF1811 - CebDN Qrgrezvanag: 33P03G - **NYF UBG*-Fvtavsvpnag Urzbeeuntr be Fubpx - Genafsre/Vagresnpvyvgl R161420061 1611034 23:56
@@ -5725,6 +5726,17 @@ choyvp pynff ZQJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgJnfuvatgbaPbhaglSverRZFJPZQ() {
+
+    qbGrfg("K1",
+        "12814N FUNAX SNEZ JNL, SEVRAQYL'F ERFGNHENAG - [FGBAR UBHFR JNL - PBEGYNAQ QE] - ANG TNF BQBE - R02,PB27,GEX1,OP1 - CebDN Qrgrezvanag: 60Q03B - PBZZREPVNY/VAQHFGEVNY ohvyqvat - Bqbe bayl S161440001 1611097 05:19",
+        "NQQE:12814N FUNAX SNEZ JNL",
+        "CYNPR:SEVRAQYL'F ERFGNHENAG",
+        "K:FGBAR UBHFR JNL & PBEGYNAQ QE",
+        "PNYY:ANG TNF BQBE",
+        "HAVG:R02,PB27,GEX1,OP1",
+        "VASB:CebDN Qrgrezvanag: 60Q03B - PBZZREPVNY/VAQHFGEVNY ohvyqvat - Bqbe bayl S161440001",
+        "VQ:1611097",
+        "GVZR:05:19");
 
     qbGrfg("G1",
         "18 CEVAPRGBA CY - [ - ] - HAPBAFPVBHFARFF, SNVAGVAT - E75 - CebDN Qrgrezvanag: 31Q03 - **NYF UBG*- Abg nyreg R161430001 1611035 00:43",
