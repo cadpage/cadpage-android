@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">05202016</string>
+  <string name="release_date">05252016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.07.13\n
+New Locations:\n
+Jackson County, AL\n
+Jefferson County, AL (alt)\n
+Matanuska-susitna Borough, AK\n
+Cherokee County, GA\n
+Effingham County, GA (alt)\n
+Butts County, GA\n
+Pickens County, GA\n
+Whitley County, IN\n
+Livingston Parish, LA\n
+Bourbon County, KS\n
+Jackson County, KS\n
+Wyandotte County, KS\n
+Spencer County, KY\n
+Clay County, MO\n
+Ashe County, NC\n
+Providence County, RI\n
+Parker County, TX (alt)\n
+Rock County, WI\n
+Shropshire County, UK\n
+\n
+Location Fixes:\n
+Washington County, MD\n
+Minneapolis/St Paul, MN\n
+Hamilton County, OH\n
+Montgomery County, PA\n
+\n
 v1.9.07.12\n
 Location Fixes:\n
 Jefferson County, AL\n
@@ -11,7 +39,6 @@ Contra Costa County, CA\n
 El Paso County, CO\n
 Roscommon County, MI\n
 Rockland County, NY\n
-
 \n
 v1.9.07.11\n
 Location Fixes:\n
@@ -35,19 +62,7 @@ Charlotte County, FL\n
 Madison County, IN\n
 Beauregard Parish, LA\n
 Wyoming County, NY\n
-Chatham-Kent, Ontario, Canada\n
-\n
-v1.9.07.08\n
-New Locations:\n
-Watonwan County, MN\n
-Tioga County, NY\n
-Jefferson County, WV\n
-\n
-Location Fixes:\n
-Labette County, KS\n
-Ottawa County, MI\n
-Carter County, OK\n
-Washington County, PA
+Chatham-Kent, Ontario, Canada
   </string>
 </resources>
   
