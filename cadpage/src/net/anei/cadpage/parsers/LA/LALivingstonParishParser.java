@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA49Parser;
 
 /*
-Lafayette Parish, LA
+Livingston Parish, LA
 */
 
 public class LALivingstonParishParser extends DispatchA49Parser {
