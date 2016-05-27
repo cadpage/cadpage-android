@@ -107,7 +107,7 @@ public class SmsReceiver extends BroadcastReceiver {
     
     // We can be called on different working threads and need to find a 
     // context and get back on the working thread.
-    CadPageApplication.getMainHandler().post(new Runnable(){
+    CadPageApplication.runOnMainThread(new Runnable(){
       @Override
       public void run() {
         SmsReceiver.processCadPage(CadPageApplication.getContext(), message);

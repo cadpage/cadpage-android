@@ -198,11 +198,12 @@ public class HttpService extends Service {
         
         // Otherwise, run result processing on the UI thread
         else {
-          CadPageApplication.getMainHandler().post(new Runnable(){
+          CadPageApplication.runOnMainThread(new Runnable(){
             @Override
             public void run() {
               process();
-           }});
+            }
+          });
         }
       }
     }

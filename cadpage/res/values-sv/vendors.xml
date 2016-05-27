@@ -23,6 +23,7 @@ Fullvärdig meddelandeplattform för larmmedelanden som får ut ärenden till re
   <string name="vendor_register">Registrera dig</string>
   <string name="vendor_unregister">Avregistrera dig</string>
   <string name="vendor_registered">Du är nu registrerad för en meddelandeservice</string>
+  <string name="vendor_registered_inactive">You are registered for direct paging services but the account appears to be inactive</string>  <!-- Translate -->
   <string name="vendor_should_register">Du bör registrera dig till en meddelandeservice</string>
   <string name="vendor_confirm_unregister">
 Det här kommer att blockera att din meddelandeservice skickar larm till dig. Är du säker att du vill göra detta?his?

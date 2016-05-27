@@ -76,6 +76,13 @@
   <string name="donate_wrong_user_text">
     Ber hemskt mycket om ursäkt.  Tryck på knappen nedan för att generera ett mail.  
     Det underlättar om mailet hela ditt namn någonstans så vi kan undersöka i vår betalningshistorik. Vi ska göra vårt bästa för att fixa til det här.
+  
+  <string name="donate_inactive_sponsor_title">"I am registered with %s"</string> <!-- Translate -->
+  <string name="donate_inactive_sponsor_text"> <!-- Translate -->
+    You have not received an alert from %s for more than 60 days, leading us to believe
+    that your account with them is no longer active.  If we are wrong about this, use the
+    "Send Email" button to contact us and we will get this fixed.
+  </string>
 
   </string>
   <string name="donate_android_title">Köpt genom Android market</string>

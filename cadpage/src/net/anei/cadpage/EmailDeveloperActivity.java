@@ -32,7 +32,7 @@ import android.widget.TextView;
  */
 public class EmailDeveloperActivity extends Safe40Activity {
   
-  public static enum EmailType { GENERAL, MESSAGE, CRASH, INIT_FAILURE, WRONG_USER, MARKET_PROBLEM, SOB_STORY, OLD_SUPPORT };
+  public static enum EmailType { GENERAL, MESSAGE, CRASH, INIT_FAILURE, WRONG_USER, MARKET_PROBLEM, SOB_STORY, OLD_SUPPORT, INACTIVE_SPONSOR };
   
   private final static String EXTRA_PREFIX="net.anei.cadpage.EmailDeveloperActivity.";
   private final static String EXTRA_TYPE = EXTRA_PREFIX + "EMAIL_TYPE";
@@ -291,7 +291,11 @@ public class EmailDeveloperActivity extends Safe40Activity {
       String msg = message;
       int pt = msg.indexOf("\n********");
       if (pt >= 0) msg = msg.substring(0,pt);
-      Log.w(LogCollector.START_MARKER + '\n' + msg + '\n' + LogCollector.END_MARKER);
+      Log.w(LogCollector.START_MARKER);
+      for (String line : msg.split("\n"))
+        if (line.length() == 0) Log.w(" ");
+        else Log.w(line);
+      Log.w(LogCollector.END_MARKER);
     }
     
     // Build send email intent and launch it
@@ -405,6 +409,17 @@ public class EmailDeveloperActivity extends Safe40Activity {
     // This one sends a request directly to the email client, without
     // bring up a request screen first.
     sendEmailRequest(context, EmailType.SOB_STORY, false, 0, true);
+  }
+  
+  /**
+   * Send Email about incorrectly designated inactive sponsor account
+   * @param context current context
+   */
+  public static void sendInactiveSponsorEmail(Context context) {
+    
+    // This one sends a request directly to the email client, without
+    // bring up a request screen first.
+    sendEmailRequest(context, EmailType.INACTIVE_SPONSOR, false, 0, true);
   }
 
   /**
