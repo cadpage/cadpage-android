@@ -28,6 +28,13 @@ import net.anei.cadpage.BroadcastBindings;
 
 abstract class Vendor {
 
+  // Vendor accounts go inactive if no alerts are received
+  // within 60 days of last alert, or if no alert received
+  // within 30 days of last successful registration
+  private static final long ONE_DAY_MSECS = 24*60*60*1000;
+  private static final long LAST_CONTACT_TIMEOUT = 60*ONE_DAY_MSECS;
+  private static final long LAST_REGISTER_TIMEOUT = 30*ONE_DAY_MSECS;
+
   private String vendorCode;
   private int titleId;
   private int summaryId;
@@ -63,6 +70,8 @@ abstract class Vendor {
   // Account and security token used to identify user account to vendor
   private String account;
   private String token;
+  
+  private boolean inactive = false;
   
   // Vendor preference that may need to be updated when status changes
   private VendorPreference preference = null;
@@ -288,8 +297,36 @@ abstract class Vendor {
     textPage = prefs.getBoolean("textPage", false);
     disableTextPageCheck = prefs.getBoolean("disableTextPageCheck", false);
     
-    long lastTime = prefs.getLong("lastContactTime", 0L);
-    if (enabled && lastTime == 0) updateLastContactTime(null);
+    inactive = prefs.getBoolean("inactive", false);
+    
+    if (enabled) {
+      long registerTime = prefs.getLong("lastRegisterTime", 0L);
+      long lastTime = prefs.getLong("lastContactTime", 0L);
+      if (registerTime == 0 && lastTime == 0) updateLastRegisterTime();
+    }
+    
+    // See if we need to switch vendor to inactive status
+    if (enabled && !inactive) {
+      long curTime = new Date().getTime();
+      long expTime = 0L;
+      long tmp = prefs.getLong("lastContactTime", 0L);
+      if (tmp > 0L) expTime = tmp + LAST_CONTACT_TIMEOUT;
+      else {
+        tmp = prefs.getLong("lastRegisterTime",  0L);
+        if (tmp > 0L) expTime = tmp + LAST_REGISTER_TIMEOUT;
+      }
+      if (expTime > 0L && curTime > expTime) {
+        inactive = true;
+        saveStatus();
+        
+        // If this is a sponsored vendor, going inactive may drop the sponsored
+        // payment status, so reset the demo period to give them another 30 days
+        // for an alert to come in.
+        if (isSponsored()) {
+          ManagePreferences.setAuthRunDays(0);
+        }
+      }
+    }
     
     publishAccountInfo(context);
   }
@@ -298,7 +335,15 @@ abstract class Vendor {
    * @return Name of sponsoring agency if an active vendor is sponsoring Cadpage
    */
   String getSponsor() {
-    if (isSponsored() && isEnabled()) return title;
+    if (isSponsored() && isEnabled() && !isInactive()) return title;
+    return null;
+  }
+  
+  /**
+   * @return Name of sponsoring agency if an inactive vendor is sponsoring Cadpage
+   */
+  String getInactiveSponsor() {
+    if (isSponsored() && isEnabled() && isInactive()) return title;
     return null;
   }
   
@@ -311,6 +356,7 @@ abstract class Vendor {
     editor.putString("account", account);
     editor.putString("token", token);
     editor.putString("dispatchEmail", emailAddress);
+    editor.putBoolean("inactive", inactive);
     editor.commit();
   }
   
@@ -328,7 +374,21 @@ abstract class Vendor {
     if (msg != null && isTestMsg(msg)) return;
     
     SharedPreferences.Editor editor = prefs.edit();
-    editor.putLong("lastContactTime", new Date().getTime());
+    editor.putLong("lastContactTime", new Date().getTime()); 
+    boolean reactivate = inactive;
+    if (reactivate) {
+      inactive = false;
+      editor.putBoolean("inactive", inactive);
+    }
+    editor.commit();
+    
+    if (reactivate) reportStatusChange();
+  }
+  
+  void updateLastRegisterTime() {
+    SharedPreferences.Editor editor = prefs.edit();
+    editor.putLong("lastRegisterTime", new Date().getTime());
+    editor.putLong("lastContactTime", 0L);
     editor.commit();
   }
   
@@ -368,17 +428,26 @@ abstract class Vendor {
   void addStatusInfo(StringBuilder sb) {
     sb.append("\n\nVendor:" + vendorCode);
     sb.append("\nenabled:" + enabled);
+    sb.append("\ninactive:" + inactive);
     sb.append("\ntextPage:" + textPage);
     sb.append("\ndisableTextPageCheck:" + disableTextPageCheck);
     sb.append("\naccount:" + account);
     sb.append("\ntoken:" + token);
     if (emailAddress != null) sb.append("\ndispatchEmail:" + emailAddress);
+    
     long lastContactTime = prefs.getLong("lastContactTime", 0L);
     String timeStr = "NEVER";
     if (lastContactTime > 0) {
       timeStr = DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.SHORT).format(new Date(lastContactTime));
     }
     sb.append("\nlastContactTime:" + timeStr);
+    
+    long lastRegisterTime = prefs.getLong("lastRegisterTime", 0L);
+    timeStr = "NEVER";
+    if (lastRegisterTime > 0) {
+      timeStr = DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.SHORT).format(new Date(lastRegisterTime));
+    }
+    sb.append("\nlastRegisterTime:" + timeStr);
   }
 
   /**
@@ -386,6 +455,13 @@ abstract class Vendor {
    */
   boolean isEnabled() {
     return enabled;
+  }
+  
+  /**
+   * @return inactive status of vendor
+   */
+  boolean isInactive() {
+    return inactive;
   }
   
   /**
@@ -644,7 +720,10 @@ abstract class Vendor {
     if (change) {
       reportStatusChange();
       if (!showProfile) showNotice(context, register ? R.string.vendor_connect_msg : R.string.vendor_disconnect_msg, null);
-      if (register) setTextPage(false);
+      if (register) {
+        setTextPage(false);
+        updateLastRegisterTime();
+      }
       else {
         C2DMService.unregister(context);
         ManagePreferences.setAuthRunDays(0);
@@ -700,11 +779,16 @@ abstract class Vendor {
    * Report enabled status change to all interested parties
    */
   private void reportStatusChange() {
-    DonationManager.instance().reset();
-    MainDonateEvent.instance().refreshStatus();
-    
-    if (preference != null) preference.update();
-    if (activity != null) activity.update();
+    CadPageApplication.runOnMainThread(new Runnable(){
+      @Override
+      public void run() {
+        DonationManager.instance().reset();
+        MainDonateEvent.instance().refreshStatus();
+        
+        if (preference != null) preference.update();
+        if (activity != null) activity.update();
+     }
+    });
   }
 
   /**

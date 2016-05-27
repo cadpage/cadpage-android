@@ -56,7 +56,6 @@ public class MmsTransactionService extends Service {
   // Timer interval, negative to disable timer
   private static final int TIMER_INTERVAL = -1;
   
-  private Handler mainHandler = CadPageApplication.getMainHandler();
   private ServiceHandler mServiceHandler;
   private Looper mServiceLooper;
   private PowerManager.WakeLock mWakeLock;
@@ -194,11 +193,12 @@ public class MmsTransactionService extends Service {
         
         // If the message queue is empty, it is time to shut down
         if (msgList.size() == 0) {
-          mainHandler.post(new Runnable(){
+          CadPageApplication.runOnMainThread(new Runnable(){
             @Override
             public void run() {
               stopSelf();
-            }});
+            }
+          });
           return;
         }
       } 
@@ -206,7 +206,7 @@ public class MmsTransactionService extends Service {
       // Exceptions thrown on this thread should be caught and rethrown on the
       // main thread where our top level exception handler will catch them.
       catch (final RuntimeException ex) {
-        mainHandler.post(new Runnable(){
+        CadPageApplication.runOnMainThread(new Runnable(){
           @Override
           public void run() {
             throw(ex);
@@ -304,7 +304,7 @@ public class MmsTransactionService extends Service {
           intent.setClassName("com.android.mms", "com.android.mms.transaction.TransactionService");
           intent.putExtra("type", 1);
           intent.putExtra("uri", ContentUris.withAppendedId(MMS_URI, recNo).toString());
-          mainHandler.post(new Runnable(){
+          CadPageApplication.runOnMainThread(new Runnable(){
             @Override
             public void run() {
               try {
@@ -368,7 +368,7 @@ public class MmsTransactionService extends Service {
         
         // Pop back to the main thread to perform the rest of the CAD page 
         // message processing
-        mainHandler.post(new Runnable(){
+        CadPageApplication.runOnMainThread(new Runnable(){
           @Override
           public void run() {
             SmsReceiver.processCadPage(message);

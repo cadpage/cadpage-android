@@ -278,6 +278,7 @@
     <item>market problem</item>
     <item>free subscription</item>
     <item>support old system</item>
+    <item>inactive sponsor acct</item>
   </string-array>
   <string-array name="email_devel_text">
     <item>Would you like to send an email to the CadPage developers about general issues or comments?</item>

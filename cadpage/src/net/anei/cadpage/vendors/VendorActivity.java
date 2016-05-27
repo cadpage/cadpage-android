@@ -168,7 +168,7 @@ public class VendorActivity extends Safe40Activity {
   public void update() {
     
     if (vendor.isEnabled()) {
-      infoTextView.setText(R.string.vendor_registered);
+      infoTextView.setText(vendor.isInactive() ? R.string.vendor_registered_inactive : R.string.vendor_registered);
       infoTextView.setVisibility(View.VISIBLE);
       moreInfoButton.setVisibility(View.GONE);
       profileButton.setVisibility(View.VISIBLE);

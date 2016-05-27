@@ -16,6 +16,7 @@ public class ReqMoneyGroup extends EventGroup {
           NeedAcctPermissionDonateEvent.instance(),
           NoUserDonateEvent.instance(), 
           WrongUserDonateEvent.instance(),
+          InactiveSponsorDonateEvent.instance(),
           SobStoryDonateEvent.instance());
   }
   
