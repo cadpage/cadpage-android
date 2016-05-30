@@ -1081,8 +1081,10 @@ public abstract class MsgParser {
   public String adjustMapAddress(String sAddress) {
     sAddress = protectNames(sAddress);
     
-    for (PatternReplace pr : adjustMapAddressList ) {
-      sAddress = pr.replace(sAddress);
+    if (adjustMapAddressList != null) {
+      for (PatternReplace pr : adjustMapAddressList ) {
+        sAddress = pr.replace(sAddress);
+      }
     }
     return sAddress;
   }
