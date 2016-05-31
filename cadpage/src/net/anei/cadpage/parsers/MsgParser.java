@@ -47,149 +47,149 @@ public abstract class MsgParser {
     
     private int gpsFlags;
     
-   CountryCode(int gpsFlags) {
+    CountryCode(int gpsFlags) {
       this.gpsFlags = gpsFlags;
     }
 
-   /**
-    * Look for GPS coordinates in address line.  If found, parse them into a
-    * set of coordinates that Google Maps will recognize
-    */
-   public String parseGPSCoords(String address) {
-     Matcher match = GPS_PATTERN.matcher(address);
-     if (!match.find()) return null;
-     
-     return parseGPSCoords(match);
-   }
-   
-   /**
-    * Extract GPS coordiantes from pattern matcher.  The Matcher
-    * object must have been created by calling GPS_PATTERN.matcher()
-    * @param match Pattern match
-    * @return parsed GPS coordinates
-    */
-   public String parseGPSCoords(Matcher match) {
+    /**
+     * Look for GPS coordinates in address line.  If found, parse them into a
+     * set of coordinates that Google Maps will recognize
+     */
+    public String parseGPSCoords(String address) {
+      Matcher match = GPS_PATTERN.matcher(address);
+      if (!match.find()) return null;
 
-     // Calculate the coordinate values
-     double c1 = cvtGpsCoord(match.group(2));
-     double c2 = cvtGpsCoord(match.group(4));
-     
-     // If they used the X: ... Y: ... labels, swap the parameters
-     // because we and google expect the latitude to come first
-     if (match.group(1) != null && match.group(3) != null && match.group(3).startsWith("Y:")) {
-       double tmp = c1;
-       c1 = c2;
-       c2 = tmp;
-     }
-     
-     // There isn't a consistent standard as to which is latitude and
-     // which is longitude, so we will have to make some guesses.
-     double latitude, longitude;
-     
-     // First step is to identify which is latitude and which is longitude
-     // If one must be larger hat the other, we can use their relative sizes
-     // to determine that
-     double ac1 = Math.abs(c1);
-     double ac2 = Math.abs(c2);
-     if (ac1 == 1.0 && ac2 == 1.0) return null;
-     if (ac1 == 0.0 && ac2 == 0.0) return null;
-     if ((gpsFlags & GPS_LARGE_LAT) != 0) {
-       if (ac1 > ac2) {
-         latitude = c1;
-         longitude = c2;
-       } else {
-         latitude = c2;
-         longitude = c1;
-       }
-     } else if ((gpsFlags & GPS_LARGE_LONG) != 0) {
-       if (ac2 > ac1) {
-         latitude = c1;
-         longitude = c2;
-       } else {
-         latitude = c2;
-         longitude = c1;
-       }
-     } 
-     
-     // No luck there  there are some other tricks we can try if one
-     // coordinate is negative but the other is not.  Then check to
-     // see which coordinate is supposed to be negative
-     else if (c1 < 0 ^ c2 < 0) {
-       if ((gpsFlags & GPS_NEG_LAT|GPS_NEG_LONG) == GPS_NEG_LAT) {
-         if (c1 < 0) {
-           latitude = c1;
-           longitude = c2;
-         } else {
-           latitude = c2;
-           longitude = c1;
-         }
-       } else if ((gpsFlags & (GPS_NEG_LAT|GPS_NEG_LONG)) == GPS_NEG_LONG) {
-         if (c2 < 0) {
-           latitude = c1;
-           longitude = c2;
-         } else {
-           latitude = c2;
-           longitude = c1;
-         }
-       } else {
-         latitude = c1;
-         longitude = c2;
-       }
-     } 
-     
-     // Lacking any other information, assume first is lattitude and second is longitude
-     else {
-       latitude = c1;
-       longitude = c2;
-     }
-     
-     // Rest is easy, make sure anything that should be negative is negative
-     if ((gpsFlags & GPS_NEG_LAT) != 0) {
-       if (latitude > 0) latitude = - latitude;
-     }
-     if ((gpsFlags & GPS_NEG_LONG) != 0) {
-       if (longitude > 0) longitude = - longitude;
-     }
-     
-     // And anything that should be positive is positive
-     if ((gpsFlags & GPS_POS_LAT) != 0) {
-       if (latitude < 0) latitude = - latitude;
-     }
-     if ((gpsFlags & GPS_POS_LONG) != 0) {
-       if (longitude < 0) longitude = - longitude;
-     }
-     // And convert the result to a GPS string
-     return String.format(Locale.US, "%+8.6f,%+8.6f", latitude, longitude);
-   }
+      return parseGPSCoords(match);
+    }
 
-   /**
-    * Convert GPS coordinate in degree:min:sec form  or degree min form to strait degrees
-    */
-   private static double cvtGpsCoord(String coord) {
-     Matcher match = GPS_COORD_PTN.matcher(coord);
-     if (!match.matches()) throw new RuntimeException("This cannot possibly fail");
-     String tmp = match.group(1);
-     if (tmp != null) return Double.parseDouble(tmp);
-     
-     String sign;
-     double degrees;
-     double minutes;
-     sign = match.group(2);
-     if (sign != null) {
-       degrees = Double.parseDouble(match.group(3));
-       minutes = Double.parseDouble(match.group(4));
-     } else {
-       sign = match.group(5);
-       degrees = Double.parseDouble(match.group(6));
-       minutes = Double.parseDouble(match.group(7));
-       double seconds = Double.parseDouble(match.group(8));
-       minutes += seconds/60.0;
-     }
-     
-     degrees += minutes/60;
-     if (sign.equals("-")) degrees = - degrees;
-     return degrees;
-   }
+    /**
+     * Extract GPS coordiantes from pattern matcher.  The Matcher
+     * object must have been created by calling GPS_PATTERN.matcher()
+     * @param match Pattern match
+     * @return parsed GPS coordinates
+     */
+    public String parseGPSCoords(Matcher match) {
+
+      // Calculate the coordinate values
+      double c1 = cvtGpsCoord(match.group(2));
+      double c2 = cvtGpsCoord(match.group(4));
+
+      // If they used the X: ... Y: ... labels, swap the parameters
+      // because we and google expect the latitude to come first
+      if (match.group(1) != null && match.group(3) != null && match.group(3).startsWith("Y:")) {
+        double tmp = c1;
+        c1 = c2;
+        c2 = tmp;
+      }
+
+      // There isn't a consistent standard as to which is latitude and
+      // which is longitude, so we will have to make some guesses.
+      double latitude, longitude;
+
+      // First step is to identify which is latitude and which is longitude
+      // If one must be larger hat the other, we can use their relative sizes
+      // to determine that
+      double ac1 = Math.abs(c1);
+      double ac2 = Math.abs(c2);
+      if (ac1 == 1.0 && ac2 == 1.0) return null;
+      if (ac1 == 0.0 && ac2 == 0.0) return null;
+      if ((gpsFlags & GPS_LARGE_LAT) != 0) {
+        if (ac1 > ac2) {
+          latitude = c1;
+          longitude = c2;
+        } else {
+          latitude = c2;
+          longitude = c1;
+        }
+      } else if ((gpsFlags & GPS_LARGE_LONG) != 0) {
+        if (ac2 > ac1) {
+          latitude = c1;
+          longitude = c2;
+        } else {
+          latitude = c2;
+          longitude = c1;
+        }
+      } 
+
+      // No luck there  there are some other tricks we can try if one
+      // coordinate is negative but the other is not.  Then check to
+      // see which coordinate is supposed to be negative
+      else if (c1 < 0 ^ c2 < 0) {
+        if ((gpsFlags & GPS_NEG_LAT|GPS_NEG_LONG) == GPS_NEG_LAT) {
+          if (c1 < 0) {
+            latitude = c1;
+            longitude = c2;
+          } else {
+            latitude = c2;
+            longitude = c1;
+          }
+        } else if ((gpsFlags & (GPS_NEG_LAT|GPS_NEG_LONG)) == GPS_NEG_LONG) {
+          if (c2 < 0) {
+            latitude = c1;
+            longitude = c2;
+          } else {
+            latitude = c2;
+            longitude = c1;
+          }
+        } else {
+          latitude = c1;
+          longitude = c2;
+        }
+      } 
+
+      // Lacking any other information, assume first is lattitude and second is longitude
+      else {
+        latitude = c1;
+        longitude = c2;
+      }
+
+      // Rest is easy, make sure anything that should be negative is negative
+      if ((gpsFlags & GPS_NEG_LAT) != 0) {
+        if (latitude > 0) latitude = - latitude;
+      }
+      if ((gpsFlags & GPS_NEG_LONG) != 0) {
+        if (longitude > 0) longitude = - longitude;
+      }
+
+      // And anything that should be positive is positive
+      if ((gpsFlags & GPS_POS_LAT) != 0) {
+        if (latitude < 0) latitude = - latitude;
+      }
+      if ((gpsFlags & GPS_POS_LONG) != 0) {
+        if (longitude < 0) longitude = - longitude;
+      }
+      // And convert the result to a GPS string
+      return String.format(Locale.US, "%+8.6f,%+8.6f", latitude, longitude);
+    }
+
+    /**
+     * Convert GPS coordinate in degree:min:sec form  or degree min form to strait degrees
+     */
+    private static double cvtGpsCoord(String coord) {
+      Matcher match = GPS_COORD_PTN.matcher(coord);
+      if (!match.matches()) throw new RuntimeException("This cannot possibly fail");
+      String tmp = match.group(1);
+      if (tmp != null) return Double.parseDouble(tmp);
+
+      String sign;
+      double degrees;
+      double minutes;
+      sign = match.group(2);
+      if (sign != null) {
+        degrees = Double.parseDouble(match.group(3));
+        minutes = Double.parseDouble(match.group(4));
+      } else {
+        sign = match.group(5);
+        degrees = Double.parseDouble(match.group(6));
+        minutes = Double.parseDouble(match.group(7));
+        double seconds = Double.parseDouble(match.group(8));
+        minutes += seconds/60.0;
+      }
+
+      degrees += minutes/60;
+      if (sign.equals("-")) degrees = - degrees;
+      return degrees;
+    }
   };
   
   /**
@@ -712,459 +712,493 @@ public abstract class MsgParser {
   public SplitMsgOptions getActive911SplitMsgOptions() {
     return null;
   }
- 
- /** 
-  * General purpose parser for formats where there is not a clear delimiter
-  * between key: value item pairs.
-  * @param body message body to be parsed
-  * @param keyWords list of expected keywords
-  * @return Properties object containing the parsed key: value pairs
-  */
- protected static Properties parseMessage(String body, String[] keyWords) {
-   
-   Properties props = new Properties();
-   String[] flds = parseMessageFields(body, keyWords);
-   for (String fld : flds) {
-     int pt = fld.indexOf(':');
-     if (pt > 0) {
-       String key = fld.substring(0,pt).trim();
-       String value = fld.substring(pt+1).trim();
-       props.setProperty(key, value);
-     }
-   }
-   return props;
- }
- 
- 
- /** 
-  * General purpose parser for formats where there is not a clear delimiter
-  * between key: value item pairs.
-  * @param body message body to be parsed
-  * @param keyWords list of expected keywords
-  * @return Array of data fields broken up by defined keywords
-  */
- protected static String[] parseMessageFields(String body, String[] keyWords) {
-   return parseMessageFields(body, keyWords, ':', false, false);
- }
- 
- /** 
-  * General purpose parser for formats where there is not a clear delimiter
-  * between key: value item pairs.
-  * @param body message body to be parsed
-  * @param keyWords list of expected keywords
-  * @param breakChar character that marks the end of all keywords
-  * @param anyOrder true if if keywords can occur in any order
-  * @param ignoreCase true if case should be ignored when comparing keywords
-  * @return Array of data fields broken up by defined keywords
-  */
- protected static String[] parseMessageFields(String body, String[] keyWords, 
-                                              char breakChar, boolean anyOrder, boolean ignoreCase) {
-   
-   List<String> fields = new ArrayList<String>();
-   int iKey = -1;  // Current key table pointer
-   int iStartPt = 0;   // current data field start index
-   int iColonPt = -1;
-   int iNxtKey;
-   
-   // Loop processing each keyword found
-   do {
-     
-     // Start searching for the next keyword starting at the current data field
-     int iEndPt = -1;
-     iNxtKey = -1;
-     
-     // This loop checks each break characters looking for one that
-     // matches an available keyword
-     while (true) {
-       
-       // Find the next colon character, if there isn't one, bail out
-       int iDataPt = iColonPt+1;
-       iColonPt = body.indexOf(breakChar, iDataPt);
-       if (iColonPt < 0) break;
-       
-       int ipt = iColonPt;
-       while (ipt>iDataPt && body.charAt(ipt-1)==' ') ipt--;
-       
-       // Next search the available keywords to see if this colon
-       // defines one of them
-       for (int ndx = iKey+1; ndx < keyWords.length; ndx++) {
-         String key = keyWords[ndx];
-         int len = key.length();
-         int iTempPt = ipt - len;
-         if (iTempPt < iDataPt) continue;
-         if (iTempPt > iDataPt) {
-           char chr = body.charAt(iTempPt-1);
-           if (!Character.isWhitespace(chr)) continue;
-         }
-         String keyword = body.substring(iTempPt, ipt);
-         if (ignoreCase) keyword = keyword.toUpperCase();
-         if (!keyword.equals(key)) continue;
-         iNxtKey = ndx;
-         iEndPt = iTempPt;
-         break;
-       }
-       
-       // If we found a keyword for this colon, bail out of loop
-       // Otherwise try looking for another colon
-       if (iEndPt >= 0) break;
-     }
-     
-     // Coming up of the preceding loop, we either found a valid keyword
-     // with index iNextPt, starting at iEndPT and ending at iColonPt.
-     // Or we didn't.  If we didn't we need to go through some more
-     // cleverness to find the end of the current field.
-     if (iNxtKey < 0) {
-       
-       // Normally this would be the end of the message body
-       // But we are going to be clever and see if the last token in 
-       // the message body looks like a truncated available keyword.
-       // if it is, we will trim that part off.
-       iEndPt = body.length();
-       int iTempPt = iEndPt;
-       String[] trailers = new String[]{null, null, null};
-       for (int cnt = 0; cnt < trailers.length; cnt++) {
-         iTempPt = body.lastIndexOf(' ', iTempPt-1);
-         if (iTempPt < 0) break;
-         String key = body.substring(iTempPt+1);
-         if (ignoreCase) key = key.toUpperCase();
-         trailers[cnt] = key;
-       }
-       boolean found = false;
-       for (int ndx = iKey+1; ndx < keyWords.length; ndx++) {
-         for (String tail : trailers) {
-           if (tail != null && keyWords[ndx].startsWith(tail)) {
-             iEndPt = body.length()-tail.length()-1;
-             found = true;
-             break;
-           }
-         }
-         if (found) break;
-       }
-     }
-     
-     // By this point we have identified 
-     //   iKey     current keyword index (or -1 if none)
-     //   iNxtKey  Next keyword index (or -1 if none)
-     //   iStartPt Start of data field associated with iKey
-     //   iEndPt   End of data field associated with iKey
-     //   iColonPn Colon terminating next keyword
-     
-     // Save current field and get ready to start looking for the
-     // end of the next keyword
-     if (iEndPt > 0) fields.add(body.substring(iStartPt, iEndPt).trim());
-     if (!anyOrder) iKey = iNxtKey;
-     iStartPt = iEndPt;
-   } while (iNxtKey >= 0);
-   
-   return fields.toArray(new String[fields.size()]);
- }
 
- /**
-  * General purpose message parser for formats where there is a clear delimiter
-  * between key: value data pairs 
-  * @param body
-  * @param delim line delimiter
-  * @return
-  */
- protected static Properties parseMessage(String body, String delim) {
-   return parseMessage(body, delim, null);
- }
- 
- /**
-  * General purpose parser
-  * @param body of message to be parsed
-  * @param delim expression to be used to separate lines in message
-  * @param missedKeys if not null, an array of keywords to be assigned to
-  * lines that are missing a keyword
-  * @return Properties object containing the parsed line tokens
-  */
- protected static Properties parseMessage(String body, String delim, String[] missedKeys) {
-   
-     Properties props = new Properties();
-     String[] lines = body.split(delim);
-     int missed = 0;
-     for (String line : lines) {
-         line = line.trim();
-         int ndx = line.indexOf(':');
-         if (ndx < 0) {
-           if (missedKeys != null && missed < missedKeys.length) {
-             props.put(missedKeys[missed++], line);
-           }
-           continue;
-         }
-         String key = line.substring(0, ndx).trim();
-         String value = line.substring(ndx+1).trim();
-         props.put(key, value);
-     }
-     return props;
- }
+  /** 
+   * General purpose parser for formats where there is not a clear delimiter
+   * between key: value item pairs.
+   * @param body message body to be parsed
+   * @param keyWords list of expected keywords
+   * @return Properties object containing the parsed key: value pairs
+   */
+  protected static Properties parseMessage(String body, String[] keyWords) {
 
- /**
-  * Parse address line into address and city fields treating anything behind a
-  * dash as a city
-  * @param addressLine address line to be parsed
-  * @param data message info object to be filled
-  */
- protected static void parseAddressCity(String addressLine, MsgInfo.Data data) {
-   parseAddress(addressLine, data, true); 
- }
+    Properties props = new Properties();
+    String[] flds = parseMessageFields(body, keyWords);
+    for (String fld : flds) {
+      int pt = fld.indexOf(':');
+      if (pt > 0) {
+        String key = fld.substring(0,pt).trim();
+        String value = fld.substring(pt+1).trim();
+        props.setProperty(key, value);
+      }
+    }
+    return props;
+  }
 
- /**
-  * Parse address line into address fields
-  * @param addressLine address line to be parsed
-  * @param data message info object to be filled
-  */
- protected void parseAddress(String addressLine, MsgInfo.Data data) {
-   parseAddress(addressLine, data, false); 
- }
- 
- /**
-  * Internal class used to support street names that have to be protected
-  * from being treated as individual name values, usually because they 
-  * contain the word "AND".
-  */
- public static class PatternReplace {
-   private Pattern pattern;
-   boolean reverse;
-   
-   
-   /**
-    * Constructor
-    * @param name  String containing pattern to match.  Any expression matching this 
-    * pattern will have blanks changed to underscores
-    */
-   public PatternReplace(String name) {
-     this(name, false);
-   }
-   
-   /**
-    * Constructor
-    * @param name  String containing pattern to match.  Any expression matching this 
-    * pattern will have blanks changed to underscores or vice versa
-    * @param reverse false to change blanks to underscores, true to change underscores to blanks
-    */
-   public PatternReplace(String name, boolean reverse) {
-     if (reverse) name = name.replace(' ', '_');
-     pattern = Pattern.compile("\\b" + name + "\\b", Pattern.CASE_INSENSITIVE);
-     this.reverse = reverse;
-   }
-   
-   public String replace(String address) {
-     Matcher match = pattern.matcher(address);
-     if (match.find()) {
-       StringBuffer sb = new StringBuffer();
-       do {
-         String replace = match.group();
-         if (!reverse) {
-           replace = replace.replace(' ', '_');
-         } else {
-           replace = replace.replace('_', ' ');
-         }
-         match.appendReplacement(sb, replace);
-       } while (match.find());
-       match.appendTail(sb);
-       address = sb.toString();
-     }
-     return address;
-   }
-   
-   /**
-    * Construct array of PatternReplace objects
-    * @param patterns array of patterns to match
-    * @return array of constructed PatternReplace objects
-    */
-   public static PatternReplace[] buildArray(String ... patterns) {
-     return buildArray(patterns, false);
-   }
-   
-   /**
-    * Construct array of PatternReplace objects
-    * @param patterns array of patterns to match
-    * @param reverse false to convert blank to underscore, true to convert underscore to blank
-    * @return array of constructed PatternReplace objects
-    */
-   public static PatternReplace[] buildArray(String[] patterns, boolean reverse) {
-     PatternReplace[] result = new PatternReplace[patterns.length];
-     for (int jj = 0; jj < patterns.length; jj++) {
-      result[jj] = new PatternReplace(patterns[jj], reverse); 
-     }
-     return result;
-   }
 
-   /**
-    * Apply array of PatternReplace objects to line
-    * @param line line to be converted
-    * @param patterns array of PatternReplace objects to apply to line
-    * @return final result
-    */
-   public static String replaceArray(String line, PatternReplace[] patterns) {
-     if (patterns != null) {
-       for (PatternReplace pr : patterns) {
-         line = pr.replace(line);
-       }
-     }
-     return line;
-   }
- }
- 
- private PatternReplace[] protectList = null;
- private PatternReplace[] reverseProtectList = null;
- 
- /**
-  * Setup protected name list.  These are street names that have to be
-  * protected from being treated as individual words, usually because
-  * they contain the word "AND"
-  * @param nameList list of street names that need to be protected
-  */
- protected void setupProtectedNames(String ... nameList) {
-   
-   protectList = PatternReplace.buildArray(nameList, false);
-   reverseProtectList = PatternReplace.buildArray(nameList, true);
- }
- 
- /**
-  * Perform any parser specific customizations involved in calculating a
-  * map address
-  * @param sAddress original map address
-  * @param city parsed city name
-  * @param cross true if we are adjusting a cross street instead of the main address
-  * @return customized map address
-  */
- public String adjustMapAddress(String sAddress, String city, boolean cross) {
-   return adjustMapAddress(sAddress, cross);
- }
- 
- /**
-  * Perform any parser specific customizations involved in calculating a
-  * map address
-  * @param sAddress original map address
-  * @param cross true if we are adjusting a cross street instead of the main address
-  * @return customized map address
-  */
- public String adjustMapAddress(String sAddress, boolean cross) {
-   return adjustMapAddress(sAddress);
- }
- 
- /**
-  * Perform any parser specific customizations involved in calculating a
-  * map address
-  * @param sAddress original map address
-  * @return customized map address
-  */
- public String adjustMapAddress(String sAddress) {
-   return protectNames(sAddress);
- }
+  /** 
+   * General purpose parser for formats where there is not a clear delimiter
+   * between key: value item pairs.
+   * @param body message body to be parsed
+   * @param keyWords list of expected keywords
+   * @return Array of data fields broken up by defined keywords
+   */
+  protected static String[] parseMessageFields(String body, String[] keyWords) {
+    return parseMessageFields(body, keyWords, ':', false, false);
+  }
 
- /**
-  * Perform an final parser specific custom adjustments to the calculated
-  * map search address 
-  * @param sAddress calculated map search address
-  * @return adjusted map search address
-  */
- public String postAdjustMapAddress(String sAddress) {
-   return unprotectNames(sAddress);
- }
- 
- /**
-  * Protect any declared protected names in string field
-  * @param String field
-  * @return protected string field
-  */
- protected String protectNames(String field) {
-   return PatternReplace.replaceArray(field,  protectList);
- }
+  /** 
+   * General purpose parser for formats where there is not a clear delimiter
+   * between key: value item pairs.
+   * @param body message body to be parsed
+   * @param keyWords list of expected keywords
+   * @param breakChar character that marks the end of all keywords
+   * @param anyOrder true if if keywords can occur in any order
+   * @param ignoreCase true if case should be ignored when comparing keywords
+   * @return Array of data fields broken up by defined keywords
+   */
+  protected static String[] parseMessageFields(String body, String[] keyWords, 
+      char breakChar, boolean anyOrder, boolean ignoreCase) {
 
- /**
-  * Restore any previously protected names in string field
-  * @param protected string field
-  * @return original unprotected string field
-  */
- protected String unprotectNames(String field) {
-   return PatternReplace.replaceArray(field,  reverseProtectList);
- }
+    List<String> fields = new ArrayList<String>();
+    int iKey = -1;  // Current key table pointer
+    int iStartPt = 0;   // current data field start index
+    int iColonPt = -1;
+    int iNxtKey;
 
-/**
-  * Perform parser specific conversions to city field before it is used to 
-  * generate the map address
-  * @param city city field
-  * @return adjusted city field
-  */
- public String adjustMapCity(String city) {
-   return city;
- }
- 
- public String lookupGpsCoordinates(String address, String apt) {
-   if (gpsLookupTable == null) return null;
-   address = adjustGpsLookupAddress(address, apt);
-   if (address == null) return null;
-   return gpsLookupTable.getProperty(address);
- }
+    // Loop processing each keyword found
+    do {
 
- /**
-  * Call to perform any adjustments on the raw address field before
-  * trying to match it to an GPS location table entry
-  * @param address raw address field
-  * @return adjusted address field
-  */
- protected String adjustGpsLookupAddress(String address) {
-   return address;
- }
+      // Start searching for the next keyword starting at the current data field
+      int iEndPt = -1;
+      iNxtKey = -1;
 
- /**
-  * Call to perform any adjustments on the raw address field before
-  * trying to match it to an GPS location table entry
-  * @param address raw address field
-  * @param address apt/lot number
-  * @return adjusted address field
-  */
- protected String adjustGpsLookupAddress(String address, String apt) {
-   return adjustGpsLookupAddress(address);
- }
- 
-/**
-  * Parse address line into address and city fields
-  * @param addressLine address line to be parsed
-  * @param data message info object to be filled
-  * @param parseCity true if cities should be parsed with dashes
-  */
- private static final Pattern INTERSECT = Pattern.compile("/|&");
- private static final Pattern APT = Pattern.compile("(?!^)(?!RMP|SUITES)((?:APTS|\\bAPT(?!S)|\\bUNIT|\\bSUITE|\\bROOM|\\bSTE|\\bRM|\\bFLOOR|\\bFLRS?|\\bLOT)(?![A-Z].)|#APT|#)[ #\\.:]*(.+)$",Pattern.CASE_INSENSITIVE);
- private static final Pattern DOT = Pattern.compile("\\.(?!\\d)");
- private static final Pattern DOUBLE_SLASH = Pattern.compile("//+");
- private static void parseAddress(String addressLine, MsgInfo.Data data, 
-                                     boolean parseCity) {
-   addressLine = addressLine.trim();
-   
-   // Periods used with abbreviations also cause trouble.  Just get rid of all periods
-   // except those followed by a digit which are presumed to be decimal points
-   addressLine = DOT.matcher(addressLine).replaceAll("");
-   
-   addressLine = stripLeadingZero(addressLine);
-   addressLine = DOUBLE_SLASH.matcher(addressLine).replaceAll("/");
-   
-   // Pick off trailing apartment
-   Matcher match = APT.matcher(addressLine);
-   if (match.find()) {
-     String sPrefix = match.group(1);
-     if (!sPrefix.toUpperCase().startsWith("FL")) sPrefix = "";
-     data.strApt = append(sPrefix, " ", match.group(2));
-     addressLine = addressLine.substring(0,match.start()).trim();
-   }
+      // This loop checks each break characters looking for one that
+      // matches an available keyword
+      while (true) {
 
-   addressLine = addressLine.replace("1/2", "1%2");
-   for (String addr : INTERSECT.split(addressLine)) {
-     addr = addr.trim();
-     if (parseCity) {
-       int pt = addr.lastIndexOf('-');
-       if (pt > 0) {
-         if (data.strCity.length() == 0) data.strCity = addr.substring(pt+1).trim();
-         addr = addr.substring(0, pt).trim();
-       }
-     }
-     data.strAddress = append(data.strAddress, " & ", addr);
-   }
-   data.strAddress = data.strAddress.replace("1%2", "1/2");
- }
+        // Find the next colon character, if there isn't one, bail out
+        int iDataPt = iColonPt+1;
+        iColonPt = body.indexOf(breakChar, iDataPt);
+        if (iColonPt < 0) break;
+
+        int ipt = iColonPt;
+        while (ipt>iDataPt && body.charAt(ipt-1)==' ') ipt--;
+
+        // Next search the available keywords to see if this colon
+        // defines one of them
+        for (int ndx = iKey+1; ndx < keyWords.length; ndx++) {
+          String key = keyWords[ndx];
+          int len = key.length();
+          int iTempPt = ipt - len;
+          if (iTempPt < iDataPt) continue;
+          if (iTempPt > iDataPt) {
+            char chr = body.charAt(iTempPt-1);
+            if (!Character.isWhitespace(chr)) continue;
+          }
+          String keyword = body.substring(iTempPt, ipt);
+          if (ignoreCase) keyword = keyword.toUpperCase();
+          if (!keyword.equals(key)) continue;
+          iNxtKey = ndx;
+          iEndPt = iTempPt;
+          break;
+        }
+
+        // If we found a keyword for this colon, bail out of loop
+        // Otherwise try looking for another colon
+        if (iEndPt >= 0) break;
+      }
+
+      // Coming up of the preceding loop, we either found a valid keyword
+      // with index iNextPt, starting at iEndPT and ending at iColonPt.
+      // Or we didn't.  If we didn't we need to go through some more
+      // cleverness to find the end of the current field.
+      if (iNxtKey < 0) {
+
+        // Normally this would be the end of the message body
+        // But we are going to be clever and see if the last token in 
+        // the message body looks like a truncated available keyword.
+        // if it is, we will trim that part off.
+        iEndPt = body.length();
+        int iTempPt = iEndPt;
+        String[] trailers = new String[]{null, null, null};
+        for (int cnt = 0; cnt < trailers.length; cnt++) {
+          iTempPt = body.lastIndexOf(' ', iTempPt-1);
+          if (iTempPt < 0) break;
+          String key = body.substring(iTempPt+1);
+          if (ignoreCase) key = key.toUpperCase();
+          trailers[cnt] = key;
+        }
+        boolean found = false;
+        for (int ndx = iKey+1; ndx < keyWords.length; ndx++) {
+          for (String tail : trailers) {
+            if (tail != null && keyWords[ndx].startsWith(tail)) {
+              iEndPt = body.length()-tail.length()-1;
+              found = true;
+              break;
+            }
+          }
+          if (found) break;
+        }
+      }
+
+      // By this point we have identified 
+      //   iKey     current keyword index (or -1 if none)
+      //   iNxtKey  Next keyword index (or -1 if none)
+      //   iStartPt Start of data field associated with iKey
+      //   iEndPt   End of data field associated with iKey
+      //   iColonPn Colon terminating next keyword
+
+      // Save current field and get ready to start looking for the
+      // end of the next keyword
+      if (iEndPt > 0) fields.add(body.substring(iStartPt, iEndPt).trim());
+      if (!anyOrder) iKey = iNxtKey;
+      iStartPt = iEndPt;
+    } while (iNxtKey >= 0);
+
+    return fields.toArray(new String[fields.size()]);
+  }
+
+  /**
+   * General purpose message parser for formats where there is a clear delimiter
+   * between key: value data pairs 
+   * @param body
+   * @param delim line delimiter
+   * @return
+   */
+  protected static Properties parseMessage(String body, String delim) {
+    return parseMessage(body, delim, null);
+  }
+
+  /**
+   * General purpose parser
+   * @param body of message to be parsed
+   * @param delim expression to be used to separate lines in message
+   * @param missedKeys if not null, an array of keywords to be assigned to
+   * lines that are missing a keyword
+   * @return Properties object containing the parsed line tokens
+   */
+  protected static Properties parseMessage(String body, String delim, String[] missedKeys) {
+
+    Properties props = new Properties();
+    String[] lines = body.split(delim);
+    int missed = 0;
+    for (String line : lines) {
+      line = line.trim();
+      int ndx = line.indexOf(':');
+      if (ndx < 0) {
+        if (missedKeys != null && missed < missedKeys.length) {
+          props.put(missedKeys[missed++], line);
+        }
+        continue;
+      }
+      String key = line.substring(0, ndx).trim();
+      String value = line.substring(ndx+1).trim();
+      props.put(key, value);
+    }
+    return props;
+  }
+
+  /**
+   * Parse address line into address and city fields treating anything behind a
+   * dash as a city
+   * @param addressLine address line to be parsed
+   * @param data message info object to be filled
+   */
+  protected static void parseAddressCity(String addressLine, MsgInfo.Data data) {
+    parseAddress(addressLine, data, true); 
+  }
+
+  /**
+   * Parse address line into address fields
+   * @param addressLine address line to be parsed
+   * @param data message info object to be filled
+   */
+  protected void parseAddress(String addressLine, MsgInfo.Data data) {
+    parseAddress(addressLine, data, false); 
+  }
+
+  /**
+   * Internal class used to perform case insensitive pattern replacesments
+   * where the replacement string must be terminated by a break sequence on both ends
+   */
+  public static class PatternReplace {
+    private Pattern pattern;
+    private String replace;
+
+    public PatternReplace(String pattern, String replace) {
+      this.pattern = Pattern.compile("\\b" + pattern + "\\b", Pattern.CASE_INSENSITIVE);
+      this.replace = replace;
+    }
+
+    public String replace(String field) {
+      return pattern.matcher(field).replaceAll(replace);
+    }
+  }
+
+  /**
+   * Internal class used to support street names that have to be protected
+   * from being treated as individual name values, usually because they 
+   * contain the word "AND".
+   */
+  public static class ProtectPatternReplace {
+    private Pattern pattern;
+    boolean reverse;
+
+
+    /**
+     * Constructor
+     * @param name  String containing pattern to match.  Any expression matching this 
+     * pattern will have blanks changed to underscores
+     */
+    public ProtectPatternReplace(String name) {
+      this(name, false);
+    }
+
+    /**
+     * Constructor
+     * @param name  String containing pattern to match.  Any expression matching this 
+     * pattern will have blanks changed to underscores or vice versa
+     * @param reverse false to change blanks to underscores, true to change underscores to blanks
+     */
+    public ProtectPatternReplace(String name, boolean reverse) {
+      if (reverse) name = name.replace(' ', '_');
+      pattern = Pattern.compile("\\b" + name + "\\b", Pattern.CASE_INSENSITIVE);
+      this.reverse = reverse;
+    }
+
+    public String replace(String address) {
+      Matcher match = pattern.matcher(address);
+      if (match.find()) {
+        StringBuffer sb = new StringBuffer();
+        do {
+          String replace = match.group();
+          if (!reverse) {
+            replace = replace.replace(' ', '_');
+          } else {
+            replace = replace.replace('_', ' ');
+          }
+          match.appendReplacement(sb, replace);
+        } while (match.find());
+        match.appendTail(sb);
+        address = sb.toString();
+      }
+      return address;
+    }
+
+    /**
+     * Construct array of PatternReplace objects
+     * @param patterns array of patterns to match
+     * @return array of constructed PatternReplace objects
+     */
+    public static ProtectPatternReplace[] buildArray(String ... patterns) {
+      return buildArray(patterns, false);
+    }
+
+    /**
+     * Construct array of PatternReplace objects
+     * @param patterns array of patterns to match
+     * @param reverse false to convert blank to underscore, true to convert underscore to blank
+     * @return array of constructed PatternReplace objects
+     */
+    public static ProtectPatternReplace[] buildArray(String[] patterns, boolean reverse) {
+      ProtectPatternReplace[] result = new ProtectPatternReplace[patterns.length];
+      for (int jj = 0; jj < patterns.length; jj++) {
+        result[jj] = new ProtectPatternReplace(patterns[jj], reverse); 
+      }
+      return result;
+    }
+
+    /**
+     * Apply array of PatternReplace objects to line
+     * @param line line to be converted
+     * @param patterns array of PatternReplace objects to apply to line
+     * @return final result
+     */
+    public static String replaceArray(String line, ProtectPatternReplace[] patterns) {
+      if (patterns != null) {
+        for (ProtectPatternReplace pr : patterns) {
+          line = pr.replace(line);
+        }
+      }
+      return line;
+    }
+  }
+
+  private ProtectPatternReplace[] protectList = null;
+  private ProtectPatternReplace[] reverseProtectList = null;
+
+  /**
+   * Setup protected name list.  These are street names that have to be
+   * protected from being treated as individual words, usually because
+   * they contain the word "AND"
+   * @param nameList list of street names that need to be protected
+   */
+  protected void setupProtectedNames(String ... nameList) {
+
+    protectList = ProtectPatternReplace.buildArray(nameList, false);
+    reverseProtectList = ProtectPatternReplace.buildArray(nameList, true);
+  }
+
+  private  PatternReplace[] adjustMapAddressList = null;
+
+  protected void setupMapAdjustReplacements(String ... mapAdjustments) {
+    adjustMapAddressList = new PatternReplace[mapAdjustments.length/2];
+    for (int j = 0; j<mapAdjustments.length; j+=2) {
+      adjustMapAddressList[j/2] = new PatternReplace(mapAdjustments[j], mapAdjustments[j+1]);
+    }
+  }
+
+  /**
+   * Perform any parser specific customizations involved in calculating a
+   * map address
+   * @param sAddress original map address
+   * @param city parsed city name
+   * @param cross true if we are adjusting a cross street instead of the main address
+   * @return customized map address
+   */
+  public String adjustMapAddress(String sAddress, String city, boolean cross) {
+    return adjustMapAddress(sAddress, cross);
+  }
+
+  /**
+   * Perform any parser specific customizations involved in calculating a
+   * map address
+   * @param sAddress original map address
+   * @param cross true if we are adjusting a cross street instead of the main address
+   * @return customized map address
+   */
+  public String adjustMapAddress(String sAddress, boolean cross) {
+    return adjustMapAddress(sAddress);
+  }
+
+  /**
+   * Perform any parser specific customizations involved in calculating a
+   * map address
+   * @param sAddress original map address
+   * @return customized map address
+   */
+  public String adjustMapAddress(String sAddress) {
+    sAddress = protectNames(sAddress);
+    
+    if (adjustMapAddressList != null) {
+      for (PatternReplace pr : adjustMapAddressList ) {
+        sAddress = pr.replace(sAddress);
+      }
+    }
+    return sAddress;
+  }
+
+  /**
+   * Perform an final parser specific custom adjustments to the calculated
+   * map search address 
+   * @param sAddress calculated map search address
+   * @return adjusted map search address
+   */
+  public String postAdjustMapAddress(String sAddress) {
+    return unprotectNames(sAddress);
+  }
+
+  /**
+   * Protect any declared protected names in string field
+   * @param String field
+   * @return protected string field
+   */
+  protected String protectNames(String field) {
+    return ProtectPatternReplace.replaceArray(field,  protectList);
+  }
+
+  /**
+   * Restore any previously protected names in string field
+   * @param protected string field
+   * @return original unprotected string field
+   */
+  protected String unprotectNames(String field) {
+    return ProtectPatternReplace.replaceArray(field,  reverseProtectList);
+  }
+
+  /**
+   * Perform parser specific conversions to city field before it is used to 
+   * generate the map address
+   * @param city city field
+   * @return adjusted city field
+   */
+  public String adjustMapCity(String city) {
+    return city;
+  }
+
+  public String lookupGpsCoordinates(String address, String apt) {
+    if (gpsLookupTable == null) return null;
+    address = adjustGpsLookupAddress(address, apt);
+    if (address == null) return null;
+    return gpsLookupTable.getProperty(address);
+  }
+
+  /**
+   * Call to perform any adjustments on the raw address field before
+   * trying to match it to an GPS location table entry
+   * @param address raw address field
+   * @return adjusted address field
+   */
+  protected String adjustGpsLookupAddress(String address) {
+    return address;
+  }
+
+  /**
+   * Call to perform any adjustments on the raw address field before
+   * trying to match it to an GPS location table entry
+   * @param address raw address field
+   * @param address apt/lot number
+   * @return adjusted address field
+   */
+  protected String adjustGpsLookupAddress(String address, String apt) {
+    return adjustGpsLookupAddress(address);
+  }
+
+  /**
+   * Parse address line into address and city fields
+   * @param addressLine address line to be parsed
+   * @param data message info object to be filled
+   * @param parseCity true if cities should be parsed with dashes
+   */
+  private static final Pattern INTERSECT = Pattern.compile("/|&");
+  private static final Pattern APT = Pattern.compile("(?!^)(?!RMP|SUITES)((?:APTS|\\bAPT(?!S)|\\bUNIT|\\bSUITE|\\bROOM|\\bSTE|\\bRM|\\bFLOOR|\\bFLRS?|\\bLOT)(?![A-Z].)|#APT|#)[ #\\.:]*(.+)$",Pattern.CASE_INSENSITIVE);
+  private static final Pattern DOT = Pattern.compile("\\.(?!\\d)");
+  private static final Pattern DOUBLE_SLASH = Pattern.compile("//+");
+  private static void parseAddress(String addressLine, MsgInfo.Data data, 
+      boolean parseCity) {
+    addressLine = addressLine.trim();
+
+    // Periods used with abbreviations also cause trouble.  Just get rid of all periods
+    // except those followed by a digit which are presumed to be decimal points
+    addressLine = DOT.matcher(addressLine).replaceAll("");
+
+    addressLine = stripLeadingZero(addressLine);
+    addressLine = DOUBLE_SLASH.matcher(addressLine).replaceAll("/");
+
+    // Pick off trailing apartment
+    Matcher match = APT.matcher(addressLine);
+    if (match.find()) {
+      String sPrefix = match.group(1);
+      if (!sPrefix.toUpperCase().startsWith("FL")) sPrefix = "";
+      data.strApt = append(sPrefix, " ", match.group(2));
+      addressLine = addressLine.substring(0,match.start()).trim();
+    }
+
+    addressLine = addressLine.replace("1/2", "1%2");
+    for (String addr : INTERSECT.split(addressLine)) {
+      addr = addr.trim();
+      if (parseCity) {
+        int pt = addr.lastIndexOf('-');
+        if (pt > 0) {
+          if (data.strCity.length() == 0) data.strCity = addr.substring(pt+1).trim();
+          addr = addr.substring(0, pt).trim();
+        }
+      }
+      data.strAddress = append(data.strAddress, " & ", addr);
+    }
+    data.strAddress = data.strAddress.replace("1%2", "1/2");
+  }
   
   protected static String stripLeadingZero(String addressLine) {
     return LEAD_ZERO_PTN.matcher(addressLine).replaceFirst("");
