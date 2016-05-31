@@ -145,13 +145,7 @@
     Our sincere apologies.  Please click the button below to generate an email.  
     It helps if the email includes your full name somewhere so we can use it to
     look you up in our payment records.  We will do our best to get this fixed.
-  </string>
-  
-  <string name="donate_inactive_sponsor_title">"I am registered with %s"</string>
-  <string name="donate_inactive_sponsor_text">
-    You have not received an alert from %s for more than 60 days, leading us to believe
-    that your account with them is no longer active.  If we are wrong about this, use the
-    "Send Email" button to contact us and we will get this fixed.
+
   </string>
   
   <string name="donate_android_title">Purchase through Google Play Store</string>

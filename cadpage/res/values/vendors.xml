@@ -43,7 +43,6 @@
   <string name="vendor_unregister">Unregister</string>
   
   <string name="vendor_registered">You are registered for direct paging services</string>
-  <string name="vendor_registered_inactive">You are registered for direct paging services but the account appears to be inactive</string>
   <string name="vendor_should_register">You should register for direct paging services</string>
   
   <string name="vendor_confirm_unregister">

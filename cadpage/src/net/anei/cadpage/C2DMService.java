@@ -104,7 +104,7 @@ public class C2DMService extends IntentService {
     ContentQuery.dumpIntent(intent);
     
     // VendorManager calls may hit the UI, so we need to jump back to the UI thread
-    CadPageApplication.runOnMainThread(new Runnable(){
+    CadPageApplication.getMainHandler().post(new Runnable(){
       @Override
       public void run() {
         
@@ -164,7 +164,7 @@ public class C2DMService extends IntentService {
         final String account = intent.getStringExtra("account");
         final String token = intent.getStringExtra("token");
         final String dispatchEmail = intent.getStringExtra("dispatchEmail");
-        CadPageApplication.runOnMainThread(new Runnable(){
+        CadPageApplication.getMainHandler().post(new Runnable(){
           @Override
           public void run() {
             VendorManager.instance().vendorRequest(C2DMService.this, type2, vendorCode2, account, token, dispatchEmail);

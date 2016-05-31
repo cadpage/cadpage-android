@@ -135,13 +135,9 @@ public class ManagePreferences {
       // different from direct and text pages.  We will do the best we can by
       // assuming all alerts are direct pages if any direct paging vendor is
       // enabled
-      
-      // Recent changes require that ManagePreferences be initialized before 
-      // VendorManager, and the above logic becomes problematic.  So now we assume
-      // that everything is a text message.  But what we are really trusting is 
-      // that there are very very few, if any, Cadpage upgrades to to this old version
       if (oldVersion < 38 && oldVersion > 0) {
-        boolean oldGenAlert = prefs.getBoolean(R.string.pref_gen_alert_key);
+        boolean oldGenAlert = prefs.getBoolean(R.string.pref_gen_alert_key) ||
+                              VendorManager.instance().isRegistered();
         prefs.putString(R.string.pref_gen_alert_option_key, 
                         oldGenAlert ? "" : "BHNP");
       }

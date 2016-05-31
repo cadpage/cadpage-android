@@ -17,7 +17,6 @@ import android.os.Handler;
 public class CadPageApplication extends Application {
   
   private static Context context = null;
-  private static Thread mainThread = null;
   private static Handler mainHandler = null;
 
   /* (non-Javadoc)
@@ -27,7 +26,6 @@ public class CadPageApplication extends Application {
   public void onCreate() {
     super.onCreate();
     context = this;
-    mainThread = Thread.currentThread();
     mainHandler = new Handler();
     Log.v("Intialization startup");
     getVersionInfo(this);
@@ -35,8 +33,8 @@ public class CadPageApplication extends Application {
 
       UserAcctManager.setup(this);
       BillingManager.instance().initialize(this);
-      ManagePreferences.setupPreferences(this);
       VendorManager.instance().setup(this);
+      ManagePreferences.setupPreferences(this);
       UserAcctManager.instance().reset();
       
       // Reload log buffer queue
@@ -112,14 +110,9 @@ public class CadPageApplication extends Application {
     return versionCode % 10 > 0;
   }
   
-  public static void runOnMainThread(Runnable runnable) {
-    if (mainThread == Thread.currentThread()) {
-      runnable.run();
-    } else {
-      mainHandler.post(runnable);
-    }
+  public static Handler getMainHandler() {
+    return mainHandler;
   }
-
   
   public static Context getContext() {
     return context;

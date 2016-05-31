@@ -118,22 +118,6 @@ public class VendorManager {
   }
   
   /**
-   * @return Name of inactive sponsoring agency or null
-   * if there is no inactive sponsoring agency, or if there is
-   * another active sponsoring agency
-   */
-  public String getInactiveSponsor() {
-    String inactiveSponsor = null;
-    for (Vendor vendor : vendorList) {
-      String sponsor = vendor.getSponsor();
-      if (sponsor != null) return null;
-      sponsor = vendor.getInactiveSponsor();
-      if (sponsor != null) inactiveSponsor = sponsor;
-    }
-    return inactiveSponsor;
-  }
-  
-  /**
    * Return main icon ID associated with vendor code 
    * @param vendorCode vendor code
    * @return icon resource ID
