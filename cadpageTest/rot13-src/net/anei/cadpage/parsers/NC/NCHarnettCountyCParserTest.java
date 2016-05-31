@@ -11,11 +11,6 @@ Npgvir911 Cnefref:
 HF/AP/UnearggPbhagl
 HF/AP/QhaaCQ
 
-Pbagnpg: Xrvgu Pbzof <xrvgupbzof2007@tznvy.pbz>
-Fraqre: PnqCntr@uneargg.bet
-F:Grkg Zrffntr Z:1605-051515\a400 R X FG\a\a\aREJVA\aA 10GU FG\aA 9GU FG\a\a\a26Q01\a\a\a\aR0551\a\a\a\a
-F:Grkg Zrffntr Z:1605-060886\a22 F GUBZNF PG\a\a\aREJVA\aJNYGRE QE (63)\aQRNQ RAQ\a\a\aRZF FVPX\a\a\a\aR0552\a\a\a\a
-
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fcbhg Fcevatf Rzretrapl Freivpr
 Ybpngvba: Pnzreba, AP, Havgrq Fgngrf
@@ -1290,30 +1285,6 @@ choyvp pynff APUnearggPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp APUnearggPbhaglPCnefreGrfg() {
     frgCnefre(arj APUnearggPbhaglPCnefre(), "UNEARGG PBHAGL", "AP");
-  }
-  
-  @Grfg
-  choyvp ibvq grfgXrvguPbzof() {
-
-    qbGrfg("G1",
-        "F:Grkg Zrffntr Z:1605-051515\a400 R X FG\a\a\aREJVA\aA 10GU FG\aA 9GU FG\a\a\a26Q01\a\a\a\aR0551\a\a\a\a",
-        "VQ:1605-051515",
-        "NQQE:400 R X FG",
-        "PVGL:REJVA",
-        "K:A 10GU FG & A 9GU FG",
-        "PBQR:26Q01",
-        "PNYY:Fvpx - Abg nyreg",
-        "HAVG:R0551");
-
-    qbGrfg("G2",
-        "F:Grkg Zrffntr Z:1605-060886\a22 F GUBZNF PG\a\a\aREJVA\aJNYGRE QE (63)\aQRNQ RAQ\a\a\aRZF FVPX\a\a\a\aR0552\a\a\a\a",
-        "VQ:1605-060886",
-        "NQQE:22 F GUBZNF PG",
-        "PVGL:REJVA",
-        "K:JNYGRE QE (63) & QRNQ RAQ",
-        "PNYY:RZF FVPX",
-        "HAVG:R0552");
-  
   }
 
   @Grfg

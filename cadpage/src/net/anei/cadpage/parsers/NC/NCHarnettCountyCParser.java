@@ -20,7 +20,7 @@ public class NCHarnettCountyCParser extends FieldProgramParser {
     super(NCHarnettCountyParser.CITY_LIST, "HARNETT COUNTY", "NC",
            "( SELECT/DASHFMT ID ADDR APT+? CITY/Y X/Z+? EMPTY EMPTY+? CALL EMPTY+? UNIT " +
            "| CITY/Y X X EMPTY EMPTY CALL! EMPTY EMPTY EMPTY UNIT% INFO+ " +
-           "| ID ADDR EMPTY+? CITY/Y X/Z+? ( EMPTY EMPTY+? CALL EMPTY+? UNIT EMPTY+? END | CALL UNIT! END ) )");
+           "| ID ADDR EMPTY+? CITY/Y X/Z+? CALL UNIT! END )");
   
   }
   
