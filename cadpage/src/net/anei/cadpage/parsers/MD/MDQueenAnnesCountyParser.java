@@ -162,10 +162,10 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
       // No @ -  If there is a TRANSFER/COVER tag, it marks the end of the address 
       pt = body.indexOf("TRANSFER/COVER");
       if (pt >= 0) {
-        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, body.substring(0,pt).trim(), data);
+        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_NO_IMPLIED_APT | FLAG_ANCHOR_END, body.substring(0,pt).trim(), data);
         data.strSupp = body.substring(pt).trim();
       } else {
-        parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_REQ, body, data);
+        parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_REQ | FLAG_NO_IMPLIED_APT , body, data);
         data.strSupp = getLeft();
       }
     } 
@@ -176,8 +176,8 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
       // both sides as an address
       String part1 = body.substring(0,pt).trim();
       String part2 = body.substring(pt+1).trim();
-      Result res1 = parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_REQ | FLAG_IGNORE_AT | FLAG_OPT_STREET_SFX | FLAG_ANCHOR_END, part1);
-      Result res2 = parseAddress(StartType.START_ADDR, FLAG_IGNORE_AT | FLAG_OPT_STREET_SFX, part2);
+      Result res1 = parseAddress(StartType.START_CALL_PLACE, FLAG_START_FLD_REQ | FLAG_IGNORE_AT | FLAG_OPT_STREET_SFX | FLAG_NO_IMPLIED_APT | FLAG_ANCHOR_END, part1);
+      Result res2 = parseAddress(StartType.START_ADDR, FLAG_IGNORE_AT | FLAG_OPT_STREET_SFX | FLAG_NO_IMPLIED_APT, part2);
       if (res2.getStatus() > res1.getStatus()) {
         
         // Second part is the address
