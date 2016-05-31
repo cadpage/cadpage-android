@@ -77,11 +77,9 @@
     Ber hemskt mycket om ursäkt.  Tryck på knappen nedan för att generera ett mail.  
     Det underlättar om mailet hela ditt namn någonstans så vi kan undersöka i vår betalningshistorik. Vi ska göra vårt bästa för att fixa til det här.
   
-  <string name="donate_inactive_sponsor_title">"I am registered with %s"</string> <!-- Translate -->
-  <string name="donate_inactive_sponsor_text"> <!-- Translate -->
-    You have not received an alert from %s for more than 60 days, leading us to believe
-    that your account with them is no longer active.  If we are wrong about this, use the
-    "Send Email" button to contact us and we will get this fixed.
+  <string name="donate_inactive_sponsor_title">"Jag är registrerad hos %s"</string>
+  <string name="donate_inactive_sponsor_text">
+    Du har inte fått larm från %s på mer än 60 dagar vilket får oss att tro att ditt konto inte längre är aktivt.  Har vi fel om det, använd "Skicka epost"-knappen för att kontakta oss så fixar vi det.
   </string>
 
   </string>
@@ -183,7 +181,7 @@
   <string name="donate_email_support_text">Snälla, fortsätt stödja min enhet</string>
   
   <string name="donate_general_parser_title">Varning för generell lokalanpassing</string>
-  <string name="donate_general_parser_text">  <!-- Translate -->
+  <string name="donate_general_parser_text"> 
     Det här larmet hanterades av en generell lokalanpassning.
     Vänligen använd "Rapportera problem" knappen nedan för att rapportera det så vi kan fixa en bättre lokalanpassning för dig.
   </string>
