@@ -4,14 +4,7 @@
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
-v1.9.08.02\n
-Roll back to 1.9.07.13\n
-\n
-v1.9.08.01\n
-Cadpage will no longer report a sponsored status if you have registered Cadpage with an
-inactive Active911 or CodeMessaging account.  If you are getting alerts, your account is
-active and everything is cool.\n
-\n
+v1.9.08.03\n
 New Location:\n
 Peoria County, IL (alt)\n
 \n
@@ -19,7 +12,13 @@ Location Fixes:\n
 Dorchester County, MD\n
 Franklin County, MO\n
 Hunterdon County, NJ\n
-harnett County, NC\n
+Harnett County, NC\n
+\n
+v1.9.08.02\n
+Roll back all of the bad stuff\n
+\n
+v1.9.08.01\n
+Lots of bad stuff!!!!\n
 \n
 v1.9.07.13\n
 New Locations:\n
