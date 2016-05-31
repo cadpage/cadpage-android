@@ -1,3 +1,17 @@
+
+**************************************************************************
+* v1.8.09.01 crash!!!!
+**************************************************************************
+
+That isn't good!!!
+
+I still haven't figured out just what went wrong here. Until I do I am publishing a new version of Cadpage that basically rolls back everything that was in this version. It should be available as a normal update in a couple hours.
+
+If you want a faster fix, the new release is also available as a beta release from http://www.cadpage.org/download-cadpage.
+
+Terribly sorry about that.
+-Ken
+
 **************************************************************************
 * No email address & Android 6.0 & GET_ACCOUNTS permission denied
 **************************************************************************
