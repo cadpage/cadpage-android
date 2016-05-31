@@ -76,11 +76,6 @@
   <string name="donate_wrong_user_text">
     Ber hemskt mycket om ursäkt.  Tryck på knappen nedan för att generera ett mail.  
     Det underlättar om mailet hela ditt namn någonstans så vi kan undersöka i vår betalningshistorik. Vi ska göra vårt bästa för att fixa til det här.
-  
-  <string name="donate_inactive_sponsor_title">"Jag är registrerad hos %s"</string>
-  <string name="donate_inactive_sponsor_text">
-    Du har inte fått larm från %s på mer än 60 dagar vilket får oss att tro att ditt konto inte längre är aktivt.  Har vi fel om det, använd "Skicka epost"-knappen för att kontakta oss så fixar vi det.
-  </string>
 
   </string>
   <string name="donate_android_title">Köpt genom Android market</string>
@@ -181,7 +176,7 @@
   <string name="donate_email_support_text">Snälla, fortsätt stödja min enhet</string>
   
   <string name="donate_general_parser_title">Varning för generell lokalanpassing</string>
-  <string name="donate_general_parser_text"> 
+  <string name="donate_general_parser_text">  <!-- Translate -->
     Det här larmet hanterades av en generell lokalanpassning.
     Vänligen använd "Rapportera problem" knappen nedan för att rapportera det så vi kan fixa en bättre lokalanpassning för dig.
   </string>
