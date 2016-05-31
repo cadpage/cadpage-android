@@ -3,9 +3,9 @@
 * v1.8.09.01 crash!!!!
 **************************************************************************
 
-That isn't good!!!
+Yea, my bad..
 
-I still haven't figured out just what went wrong here. Until I do I am publishing a new version of Cadpage that basically rolls back everything that was in this version. It should be available as a normal update in a couple hours.
+I still haven't figured out just what went wrong here. Until I do I am publishing a new version of Cadpage that basically rolls back everything that was in this version. It has been out for a couple hours and should be available by now. But apparently is not?
 
 If you want a faster fix, the new release is also available as a beta release from http://www.cadpage.org/download-cadpage.
 
