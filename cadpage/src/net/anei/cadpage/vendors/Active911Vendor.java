@@ -1175,6 +1175,7 @@ class Active911Vendor extends Vendor {
       "US/TX/CityofWilmer",               "TXDallasCountyB",
       "US/TX/CityofWylie",                "TXCollinCountyA",
       "US/TX/CollinCounty",               "TXCollinCounty",
+      "US/TX/CookeCounty",                "TXCookeCounty",
       "US/TX/CyCreekCommCenter",          "TXCyCreekCommCenter",
       "US/TX/DallasCounty",               "TXDallasCountyC",
       "US/TX/DentonCounty",               "TXDentonCounty",
