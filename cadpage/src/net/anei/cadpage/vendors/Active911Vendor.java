@@ -452,6 +452,7 @@ class Active911Vendor extends Vendor {
       "US/IN/Indianapolis",               "INMarionCounty",
       "US/IN/JasperCounty",               "INJasperCounty",
       "US/IN/JeffersonCounty",            "INJeffersonCounty",
+      "US/IN/JohnsonCounty",              "INJohnsonCounty",
       "US/IN/KnoxCounty",                 "INKnoxCounty",
       "US/IN/KosciuskoCounty",            "INKosciuskoCounty",
       "US/IN/LakeCounty",                 "INLakeCounty",
