@@ -19,7 +19,7 @@ public class NCMecklenburgCountyAParser extends MsgParser {
   
   public NCMecklenburgCountyAParser() {
     super("MECKLENBURG COUNTY", "NC");
-    setFieldList("ADDR APT PLACE INFO CODE CALL X CH MAP ID");
+    setFieldList("ADDR APT PLACE INFO CODE CALL X UNIT MAP ID");
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
   }
   
@@ -47,7 +47,7 @@ public class NCMecklenburgCountyAParser extends MsgParser {
     data.strSupp = substring(body,70,100);
     data.strCall = substring(body,100,130);
     data.strCross = substring(body,130,190);
-    data.strChannel = substring(body,190,200);
+    data.strUnit = substring(body,190,200);
     data.strMap = substring(body,205,215);
     data.strCallId = substring(body,215);
 
