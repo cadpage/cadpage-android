@@ -3,13 +3,9 @@
 * v1.8.09.01 crash!!!!
 **************************************************************************
 
-Yea, my bad..
+This should be fixed in the latest version of Cadpage available in Google Play store.
 
-I still haven't figured out just what went wrong here. Until I do I am publishing a new version of Cadpage that basically rolls back everything that was in this version. It has been out for a couple hours and should be available by now. But apparently is not?
-
-If you want a faster fix, the new release is also available as a beta release from http://www.cadpage.org/download-cadpage.
-
-Terribly sorry about that.
+Terribly sorry for the inconvenience,
 -Ken
 
 **************************************************************************
