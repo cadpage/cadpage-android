@@ -72,7 +72,17 @@ public class DispatchPremierOneParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("STATUS")) return new SkipField("Open", true);
+    if (name.equals("X")) return new BaseCrossField();
     return super.getField(name);
+  }
+  
+  private class BaseCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldStart(field, "/");
+      field = stripFieldEnd(field, "/");
+      super.parse(field, data);
+    }
   }
 
 }
