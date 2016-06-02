@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">05252016</string>
+  <string name="release_date">05312016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.08.03\n
+New Location:\n
+Peoria County, IL (alt)\n
+\n
+Location Fixes:\n
+Dorchester County, MD\n
+Franklin County, MO\n
+Hunterdon County, NJ\n
+Harnett County, NC\n
+\n
+v1.9.08.02\n
+Roll back all of the bad stuff\n
+\n
+v1.9.08.01\n
+Lots of bad stuff!!!!\n
+\n
 v1.9.07.13\n
 New Locations:\n
 Jackson County, AL\n
@@ -45,24 +61,7 @@ Location Fixes:\n
 Minneapolis/St Paul, MN\n
 Fulton County, NY\n
 Suffolk County, NY\n
-Berkeley County, WV\n
-\n
-v1.9.07.10\n
-Dropped support for Android 2.2\n
-Added warning for users running Android 2.3\n
-\n
-Location Fixes:\n
-Pulaski County, MO\n
-Pike County, PA\n
-\n
-v1.9.07.09\n
-Location Fixes:\n
-Larimer County, CO\n
-Charlotte County, FL\n
-Madison County, IN\n
-Beauregard Parish, LA\n
-Wyoming County, NY\n
-Chatham-Kent, Ontario, Canada
+Berkeley County, WV
   </string>
 </resources>
   

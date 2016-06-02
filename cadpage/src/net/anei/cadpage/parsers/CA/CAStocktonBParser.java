@@ -9,6 +9,8 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
 public class CAStocktonBParser extends FieldProgramParser {
   
@@ -29,10 +31,32 @@ public class CAStocktonBParser extends FieldProgramParser {
   }
   
   @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom();
+  }
+
+  private static final Pattern MARKER = Pattern.compile("CAD Page for CFS [-0-9]+\\b *");
+  private static final Pattern MISSING_BRK_PTN = Pattern.compile(" (?=(?:LOCATION|Received|CFS|Cross Streets|APPARATUS|Lat/Long|Notes) *:)");
+  
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.startsWith("CAD Page for CFS ")) return false;
+
+    do {
+      if (MARKER.matcher(subject).matches()) break;
+  
+      Matcher match = MARKER.matcher(body);
+      if (match.lookingAt()) {
+        body = body.substring(match.end());
+        body = MISSING_BRK_PTN.matcher(body).replaceAll("\n");
+        break;
+      }
+      
+      return false;
+    } while (false);
+    
     subfieldList.clear();
     return parseFields(body.split("\n"), data);
+
   }
   
   @Override

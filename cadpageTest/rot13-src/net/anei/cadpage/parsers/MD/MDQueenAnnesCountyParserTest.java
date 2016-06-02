@@ -489,8 +489,8 @@ choyvp pynff ZQDhrraNaarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Q 3-7 ZIP J/EBYYBIRE JLR VFYNAQ EQ 1 ZVYR SEBZ JLR UNYY QE ERFPHR OBK D03 QHR:R32 E3 E2 N30 C300 RZF3 P3",
         "OBK:ERFPHR 3-7",
         "PNYY:ZIP J/EBYYBIRE",
-        "NQQE:JLR VFYNAQ",
-        "VASB:EQ 1 ZVYR SEBZ JLR UNYY QE",
+        "NQQE:JLR VFYNAQ EQ",
+        "VASB:1 ZVYR SEBZ JLR UNYY QE",
         "PU:D03",
         "HAVG:R32 E3 E2 N30 C300 RZF3 P3");
 

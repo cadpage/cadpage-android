@@ -1399,6 +1399,8 @@ Ntrapl anzr: Fzvgufohet Rzretrapl Zrqvpny Freivprf
 Ybpngvba: Fzvgufohet, ZQ, Havgrq Fgngrf
 Fraqre: Qvfcngpu <Qvfcngpu@jnfupb-zq.arg>
 
+25 F ZNVA FG, FZVGUFOHET - [R JNGRE FG - ENVYEBNQ YA] - ZRQVPNY RZRETRAPL - E79 - CebDN Qrgrezvanag: 26Q01 - **NYF UBG* - Abg nyreg R161470030 1611409 12:07
+21900 YRVGREFOHET FZVGUFOHET EQ - [QHEOREEL EQ - FGVYY ZRNQBJ EQ] - HAPBAFPVBHFARFF, SNVAGVAT - E79,PB9 R161460038 1611319 14:49
 22935 WRSSREFBA OYIQ, IVYYNTR FCVEVGF - [PNIRGBJA PUHEPU EQ - SBKIVYYR EQ] - CVP, CREF VAWHEL PBYYVFVBA, CRQ FGEHPX - PB7,EFDR7,E79,C792,PN79 - CebDN Qrgrezvanag: 29O01K - **OYF UBG* - Vawhevrf - Haxabja ahzore bs cngvragf & Nqqvgvbany erfcbafr erdhverq R161420022 1610995 14:45
 64 J JNGRE FG, IRGRENAF CNEX, FZVGUFOHET - [ZNVA FG - BYQ ZVYY EQ] - CHOYVP FREIVPR - HGI79,NP79 S161420004 1610980 08:59
 SER PB, 201 SERQREVPX EQ - [ - ] - HAPBAFPVBHFARFF, SNVAGVAT - Pbzcyrgrq: Pnapryyrq Ol Pnyyre, Punatrq Zvaq - E79,C7910 R161410066 1610962 22:47
@@ -3873,6 +3875,27 @@ choyvp pynff ZQJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgFzvgufohetPbzzhavglISPJPZQ() {
+
+    qbGrfg("K1",
+        "25 F ZNVA FG, FZVGUFOHET - [R JNGRE FG - ENVYEBNQ YA] - ZRQVPNY RZRETRAPL - E79 - CebDN Qrgrezvanag: 26Q01 - **NYF UBG* - Abg nyreg R161470030 1611409 12:07",
+        "NQQE:25 F ZNVA FG",
+        "PVGL:FZVGUFOHET",
+        "K:R JNGRE FG & ENVYEBNQ YA",
+        "PNYY:ZRQVPNY RZRETRAPL",
+        "HAVG:E79",
+        "VASB:CebDN Qrgrezvanag: 26Q01 - **NYF UBG* - Abg nyreg R161470030",
+        "VQ:1611409",
+        "GVZR:12:07");
+
+    qbGrfg("K2",
+        "21900 YRVGREFOHET FZVGUFOHET EQ - [QHEOREEL EQ - FGVYY ZRNQBJ EQ] - HAPBAFPVBHFARFF, SNVAGVAT - E79,PB9 R161460038 1611319 14:49",
+        "NQQE:21900 YRVGREFOHET FZVGUFOHET EQ",
+        "K:QHEOREEL EQ & FGVYY ZRNQBJ EQ",
+        "PNYY:HAPBAFPVBHFARFF, SNVAGVAT",
+        "HAVG:E79,PB9",
+        "VQ:1611319",
+        "VASB:R161460038",
+        "GVZR:14:49");
 
     qbGrfg("G1",
         "22935 WRSSREFBA OYIQ, IVYYNTR FCVEVGF - [PNIRGBJA PUHEPU EQ - SBKIVYYR EQ] - CVP, CREF VAWHEL PBYYVFVBA, CRQ FGEHPX - PB7,EFDR7,E79,C792,PN79,R74 - CebDN Qrgrezvanag: 29O01K - **OYF UBG* - Vawhevrf - Haxabja ahzore bs cngvragf & Nqqvgvbany erfcbafr erdhverq R161420022 1610995 14:45",
