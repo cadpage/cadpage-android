@@ -112,7 +112,7 @@ Fraqre: <CubravkAbgvsvpngvba@ryztebirjv.bet>
 choyvp pynff JVJnhxrfunPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp JVJnhxrfunPbhaglPCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "JNHXRFUN PBHAGL", "JV");
+    frgCnefre(arj JVJnhxrfunPbhaglPCnefre(), "JNHXRFUN PBHAGL", "JV");
   }
   
   @Grfg

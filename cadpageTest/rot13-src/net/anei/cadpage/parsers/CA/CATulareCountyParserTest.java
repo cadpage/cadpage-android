@@ -83,7 +83,7 @@ Fraqre: "NQFv PNQ" <NQFV_PNQ@pb.ghyner.pn.hf>
 choyvp pynff PNGhynerPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp PNGhynerPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "GHYNER PBHAGL", "PN");
+    frgCnefre(arj PNGhynerPbhaglCnefre(), "GHYNER PBHAGL", "PN");
   }
 
   @Grfg
