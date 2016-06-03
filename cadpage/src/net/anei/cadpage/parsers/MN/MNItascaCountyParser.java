@@ -32,12 +32,14 @@ public class MNItascaCountyParser extends DispatchA41Parser {
     data.strMap = data.strChannel;
     data.strChannel = data.strApt;
     data.strApt = "";
+    
+    if (data.strCity.equals("Superior")) data.strState = "WI";
     return true;
   }
   
   @Override
   public String getProgram() {
-    return super.getProgram().replace("CH", "MAP").replace("APT", "CH");
+    return super.getProgram().replace("CH", "MAP").replace("APT", "CH").replace("CITY", "CITY ST");
   }
   
   @Override
@@ -434,7 +436,7 @@ public class MNItascaCountyParser extends DispatchA41Parser {
       "PL",     "Perch Lake Twp",
       "SI",     "Silica",
       "SL",     "St Louis County",
-      "SU",     "Town of Superior",
+      "SU",     "Superior",
       "XX",     "Highways South Psap", // ??
       "YY",     "Highways North Psap", // ??
 
