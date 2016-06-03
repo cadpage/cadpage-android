@@ -28,6 +28,8 @@ public class ZCABCNanaimoParser extends DispatchA51Parser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("New Incident Alert")) return false;
-    return super.parseMsg(body,  data);
+    if (!super.parseMsg(body,  data)) return false;
+    if (data.strCity.equals("GABRIOLA ISLD")) data.strCity = "GABRIOLA";
+    return true;
   }
 }
