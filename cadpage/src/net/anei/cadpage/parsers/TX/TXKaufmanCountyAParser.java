@@ -7,9 +7,9 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
 
-public class TXKaufmanCountyParser extends DispatchSouthernParser {
+public class TXKaufmanCountyAParser extends DispatchSouthernParser {
 
-  public TXKaufmanCountyParser() {
+  public TXKaufmanCountyAParser() {
     super(CITY_LIST, "KAUFMAN COUNTY", "TX", DSFLAG_NO_IMPLIED_APT | DSFLAG_NO_NAME_PHONE | DSFLAG_NO_PLACE | DSFLAG_STATE);
   }
   
