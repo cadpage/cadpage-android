@@ -1351,6 +1351,7 @@ class Active911Vendor extends Vendor {
       "Vendor/Cadpage/Default",           "Cadpage2",
       "Vendor/Cadpage/StandardA",         "StandardA",
       "Vendor/ComputerArts",              "IDAdaCounty",
+      "Vendor/CTC/Default",               "MIInghamCountyC",
       "Vendor/NewZealandPager/Revised",   "ZNZNewZealand",
       "Vendor/Sweden/Zenit",              "ZSESweden"
   });
