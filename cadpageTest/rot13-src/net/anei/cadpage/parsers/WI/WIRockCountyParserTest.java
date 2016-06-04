@@ -205,7 +205,7 @@ choyvp pynff JVEbpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SVER",
         "PNYY:SVER",
         "NQQE:4323 OBEQRNHK PG",
-        "K:/ 1200 NYCVAR QE",
+        "K:1200 NYCVAR QE",
         "GVZR:12:25:23",
         "QNGR:5/29/2016");
 
@@ -222,7 +222,7 @@ choyvp pynff JVEbpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SVER",
         "PNYY:SVER",
         "NQQE:4323 OBEQRNHK PG",
-        "K:/ 1200 NYCVAR QE",
+        "K:1200 NYCVAR QE",
         "GVZR:12:19:37",
         "QNGR:5/29/2016");
 
@@ -239,7 +239,7 @@ choyvp pynff JVEbpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SVER",
         "PNYY:SVER",
         "NQQE:4323 OBEQRNHK PG",
-        "K:/ 1200 NYCVAR QE",
+        "K:1200 NYCVAR QE",
         "GVZR:12:17:02",
         "QNGR:5/29/2016");
 
@@ -256,7 +256,7 @@ choyvp pynff JVEbpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SVER",
         "PNYY:SVER",
         "NQQE:4323 OBEQRNHK PG",
-        "K:/ 1200 NYCVAR QE",
+        "K:1200 NYCVAR QE",
         "GVZR:12:16:50",
         "QNGR:5/29/2016");
 
@@ -273,7 +273,7 @@ choyvp pynff JVEbpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SVER",
         "PNYY:SVER",
         "NQQE:4323 OBEQRNHK PG",
-        "K:/ 1200 NYCVAR QE",
+        "K:1200 NYCVAR QE",
         "GVZR:12:11:12",
         "QNGR:5/29/2016");
 
@@ -290,7 +290,7 @@ choyvp pynff JVEbpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SVER",
         "PNYY:SVER",
         "NQQE:4323 OBEQRNHK PG",
-        "K:/ 1200 NYCVAR QE",
+        "K:1200 NYCVAR QE",
         "GVZR:12:10:57",
         "QNGR:5/29/2016");
 
@@ -307,7 +307,7 @@ choyvp pynff JVEbpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:SVER",
         "PNYY:SVER",
         "NQQE:4323 OBEQRNHK PG",
-        "K:/ 1200 NYCVAR QE",
+        "K:1200 NYCVAR QE",
         "GVZR:12:10:43",
         "QNGR:5/29/2016");
 

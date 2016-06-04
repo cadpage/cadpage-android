@@ -255,7 +255,7 @@ choyvp pynff PBFnaWhnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:GRFGZ",
         "PNYY:GRFG ZRQVPNY",
         "NQQE:750 UBFCVGNY YBBC",
-        "K:GZU /",
+        "K:GZU",
         "GVZR:16:33:04",
         "QNGR:4/5/2016");
 
@@ -265,7 +265,7 @@ choyvp pynff PBFnaWhnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:GRFGZ",
         "PNYY:GRFG ZRQVPNY",
         "NQQE:750 UBFCVGNY YBBC",
-        "K:GZU /",
+        "K:GZU",
         "GVZR:16:01:40",
         "QNGR:4/5/2016");
 
@@ -332,7 +332,7 @@ choyvp pynff PBFnaWhnaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:NZO",
         "PNYY:NZOHYNAPR PNYY",
         "NQQE:1529 FABJQRA FG",
-        "K:/ 15GU FG",
+        "K:15GU FG",
         "GVZR:22:47:14",
         "QNGR:3/23/2016");
 

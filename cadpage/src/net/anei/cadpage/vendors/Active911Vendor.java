@@ -659,6 +659,7 @@ class Active911Vendor extends Vendor {
       "US/MN/NormanCounty",               "Cadpage2",
       "US/MN/OtterTailCounty",            "MNOtterTailCounty",
       "US/MN/PenningtonCounty",           "MNPenningtonCounty",
+      "US/MN/PopeCounty",                 "MNPopeCounty",
       "US/MN/RamseyCounty",               "MNRamseyCounty",
       "US/MN/RenvilleCounty",             "MNRenvilleCounty",
       "US/MN/ScottCounty",                "MNScottCounty",
@@ -1349,6 +1350,8 @@ class Active911Vendor extends Vendor {
       "Utility/General/Fail",             "N/A",
       "Vendor/Cadpage/Default",           "Cadpage2",
       "Vendor/Cadpage/StandardA",         "StandardA",
+      "Vendor/ComputerArts",              "IDAdaCounty",
+      "Vendor/CTC/Default",               "MIInghamCountyC",
       "Vendor/NewZealandPager/Revised",   "ZNZNewZealand",
       "Vendor/Sweden/Zenit",              "ZSESweden"
   });

@@ -20,7 +20,7 @@ public class NJOceanCountyAParser extends DispatchA9Parser {
   
   @Override
   public String getFilter() {
-    return "Fire_Records,FireRecords";
+    return "Fire_Records,FireRecords,EMS_Records,EMS_Info,Police_Records";
   }
   
   @Override

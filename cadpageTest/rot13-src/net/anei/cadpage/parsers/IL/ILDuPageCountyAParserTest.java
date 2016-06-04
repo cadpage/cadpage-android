@@ -27,6 +27,7 @@ Ntrapl anzr: Onegyrgg Sver Cebgrpgvba Qvfgevpg (VY/QP)
 Ybpngvba: Onegyrgg, VY, Havgrq Fgngrf
 Fraqre: <QH-PBZZ@qhpbzz.bet>
 
+*!* OE *!*  NHGB NVQ SVER RDHVCZ  @  1323 NATRYVAR...FR               [Qvfgevpg:      ]
 VAP01 1.0 RI-KKK 0       SOE150710001919FPUNHZOHET EQ&VEIVAT CNEX EQ    N010GENSSVP NPPVQRAGF                                                                                                                    29Z   Z3                                                                                        2                  7753367 SOE150710001916RA
 *!* OE *!*  GENSSVP NPPVQRAGF     @  FPUNHZOHET EQ&VEIVAT CNEX EQ     [Qvfgevpg:  N010]
 *!* OE *!*  PNEQVNP/ERFCVENGBEL   @  1287 GVZOREYVAR QE               [Qvfgevpg:  N033]
@@ -2682,6 +2683,11 @@ choyvp pynff VYQhCntrPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgOnegyrggSverCebgrpgvbaQvfgevpgVYQP() {
+
+    qbGrfg("K1",
+        "*!* OE *!*  NHGB NVQ SVER RDHVCZ  @  1323 NATRYVAR...FR               [Qvfgevpg:      ]",
+        "PNYY:NHGB NVQ SVER RDHVCZ",
+        "NQQE:1323 NATRYVARFR");
 
     qbGrfg("G1",
         "VAP01 1.0 RI-KKK 0       SOE150710001919FPUNHZOHET EQ&VEIVAT CNEX EQ    N010GENSSVP NPPVQRAGF                                                                                                                    29Z   Z3                                                                                        2                  7753367 SOE150710001916RA",

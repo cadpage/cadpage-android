@@ -10,6 +10,11 @@ public class TXKaufmanCountyBParser extends DispatchSouthernParser {
     super(CITY_LIST, "KAUFMAN COUNTY", "TX", DSFLAG_TRAIL_PLACE);
   }
   
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS | MAP_FLG_SUPPR_LA;
+  }
+  
   private static final String[] CITY_LIST = new String[]{
 
       //Cities

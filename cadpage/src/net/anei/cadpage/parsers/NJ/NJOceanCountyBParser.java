@@ -10,7 +10,7 @@ public class NJOceanCountyBParser extends DispatchA19Parser {
 
   @Override
   public String getFilter() {
-    return "Fire_Records,@trpolice.org";
+    return "@trpolice.org,@alert.active911.com";
   }
  
 }

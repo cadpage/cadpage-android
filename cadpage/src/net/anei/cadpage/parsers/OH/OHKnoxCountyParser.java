@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHKnoxCountyParser extends DispatchEmergitechParser {
   
   public OHKnoxCountyParser() {
-    super(null, new int[]{59,60}, CITY_LIST, "KNOX COUNTY", "OH");
+    super(0, CITY_LIST, "KNOX COUNTY", "OH");
     addSpecialWords("HYATT");
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
     
@@ -36,10 +36,6 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
       body = stripFieldStart(body, "-");
     }
     else if (subject.length() > 0) body = '[' + subject + ']' + body;
-    
-    // Fix some word breaks the basic logic won't catch
-    body = body.replace(" SP ARTA ", " SPARTA ");
-    body = body.replace(" FREDERICKTOW N ", " FREDERICKTOWN ");
     
     // M/A for mutual aid tends to get into the address, which messes things up
     body = body.replace(" M/A ", " MA ");
