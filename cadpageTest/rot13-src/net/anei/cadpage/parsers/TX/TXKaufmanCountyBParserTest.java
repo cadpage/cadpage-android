@@ -5,8 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /* 
-Greeryy, GK  (Xnhszna Pbhagl)
-
+Xnhszna Pbhagl, GK (O) 
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pvgl bs Greeryy SQ
