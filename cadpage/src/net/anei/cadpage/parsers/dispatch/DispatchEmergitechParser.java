@@ -172,7 +172,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   public DispatchEmergitechParser(String prefix, boolean optUnit, int[] extraSpacePosList,
                           String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
-           "( Nature:CALL Location:ADDR/S2! Comments:INFO | ( ID NATURE:CALL | NATURE:CALL | CALL ) LOCATION:ADDR/S2PN! BETWEEN:X? COMMENTS:INFO )");
+           "( Nature:CALL Location:ADDR/S2! Comments:INFO | ( CALL:ID NATURE:CALL | ID NATURE:CALL | NATURE:CALL | CALL ) LOCATION:ADDR/S2PN! BETWEEN:X? COMMENTS:INFO )");
     
     if (!optUnit) {
       markerPattern = Pattern.compile("^" + prefix + UNIT_PTN);
