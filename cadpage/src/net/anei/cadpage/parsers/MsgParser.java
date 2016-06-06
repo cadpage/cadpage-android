@@ -688,7 +688,7 @@ public abstract class MsgParser {
     boolean upshift = true;
     for (int j = 0; j<carry.length; j++) {
       char chr = carry[j];
-      if (chr == ' ') {
+      if (chr == ' ' || chr == '-') {
         upshift = true;
       } else if (upshift) {
         chr = Character.toUpperCase(chr);
