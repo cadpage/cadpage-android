@@ -688,7 +688,7 @@ public abstract class MsgParser {
     boolean upshift = true;
     for (int j = 0; j<carry.length; j++) {
       char chr = carry[j];
-      if (chr == ' ') {
+      if (chr == ' ' || chr == '-') {
         upshift = true;
       } else if (upshift) {
         chr = Character.toUpperCase(chr);
@@ -1602,6 +1602,31 @@ public static void addCodeTable(Properties props, String[] table) {
      int mlen = marker.length();
      if (!lookahead(0, mlen).equals(marker.trim())) return false;
      skip(mlen);
+     return true;
+   }
+   
+   /**
+    * Check for matching pattern
+    * This does not work properly if called after setOptional()
+    * @param ptn Pattern to be matched
+    * @return true if pattern matched current data position
+    */
+   public boolean check(Pattern ptn) {
+     if (spt >= line.length()) return false;
+     Matcher match = ptn.matcher(line.substring(spt));
+     if (!match.lookingAt()) return false;
+     skip(match.end());
+     return true;
+   }
+   
+   /**
+    * Check for fixed number of blanks
+    * @param len number of required blanks
+    * @return true if successful
+    */
+   public boolean checkBlanks(int len) {
+     if (lookahead(0,len).length() > 0) return false;
+     skip(len);
      return true;
    }
    

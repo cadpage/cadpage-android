@@ -1,6 +1,7 @@
 
 package net.anei.cadpage.parsers.TX;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
 
@@ -15,6 +16,15 @@ public class TXKaufmanCountyBParser extends DispatchSouthernParser {
     return MAP_FLG_PREFER_GPS | MAP_FLG_SUPPR_LA;
   }
   
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    
+    // Reject any TXKaufmanCountyA alerts
+    if (body.startsWith("kaufmancotx911:") || body.startsWith("Dispatch:")) return false;
+
+    return super.parseMsg(body, data);
+  }
+
   private static final String[] CITY_LIST = new String[]{
 
       //Cities

@@ -14,6 +14,11 @@ public class ZUKShropshireCountyParser extends FieldProgramParser {
   public String getFilter() {
     return "@medaidservices.co.uk,@medaidgroup.net";
   }
+
+  @Override
+  public String getLocName() {
+    return "Shropshire County, UK";
+  }
   
   @Override
   protected boolean parseMsg(String body, Data data) {

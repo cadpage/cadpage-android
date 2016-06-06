@@ -1,6 +1,7 @@
 
 package net.anei.cadpage.parsers.TX;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -13,12 +14,14 @@ public class TXKaufmanCountyAParser extends DispatchSouthernParser {
     super(CITY_LIST, "KAUFMAN COUNTY", "TX", DSFLAG_NO_IMPLIED_APT | DSFLAG_NO_NAME_PHONE | DSFLAG_NO_PLACE | DSFLAG_STATE);
   }
   
+  private static final Pattern MARKER = Pattern.compile("Dispatch:|kaufmancotx911:");
   private static final Pattern VZ_PTN = Pattern.compile("\\bVZ(?= ?C[OR]\\b)");
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    body = stripFieldStart(body, "Dispatch:");
-    body = stripFieldStart(body, "kaufmancotx911:");
+    Matcher match = MARKER.matcher(body);
+    if (!match.lookingAt()) return false;
+    body = body.substring(match.end()).trim();
     int pt = body.indexOf("\n");
     if (pt >= 0) body = body.substring(0,pt).trim();
     body = body.replace('@', '&');
