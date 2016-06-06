@@ -1606,6 +1606,31 @@ public static void addCodeTable(Properties props, String[] table) {
    }
    
    /**
+    * Check for matching pattern
+    * This does not work properly if called after setOptional()
+    * @param ptn Pattern to be matched
+    * @return true if pattern matched current data position
+    */
+   public boolean check(Pattern ptn) {
+     if (spt >= line.length()) return false;
+     Matcher match = ptn.matcher(line.substring(spt));
+     if (!match.lookingAt()) return false;
+     skip(match.end());
+     return true;
+   }
+   
+   /**
+    * Check for fixed number of blanks
+    * @param len number of required blanks
+    * @return true if successful
+    */
+   public boolean checkBlanks(int len) {
+     if (lookahead(0,len).length() > 0) return false;
+     skip(len);
+     return true;
+   }
+   
+   /**
     * Return fixed length value terminated by fixed marker
     * @param marker fixed marker value
     * @param lengths possible lengths of field value
