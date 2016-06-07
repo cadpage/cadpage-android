@@ -82,9 +82,7 @@ public class VendorActivity extends Safe40Activity {
     btn.setOnClickListener(new OnClickListener(){
       @Override
       public void onClick(View v) {
-        if (SmsPopupUtils.haveNet(VendorActivity.this)) {
-          VendorActivity.this.finish();
-        }
+        VendorActivity.this.finish();
       }
     });
   }
