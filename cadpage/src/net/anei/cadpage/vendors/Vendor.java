@@ -306,7 +306,7 @@ abstract class Vendor {
     }
     
     // See if we need to switch vendor to inactive status
-    if (enabled && !inactive) {
+    if (enabled && !inactive  && !isActiveSponsor(account, token)) {
       long curTime = new Date().getTime();
       long expTime = 0L;
       long tmp = prefs.getLong("lastContactTime", 0L);
@@ -331,6 +331,15 @@ abstract class Vendor {
     publishAccountInfo(context);
   }
   
+  /**
+   * @param account account information
+   * @param token token information
+   * @return true if confirmed active sponsor
+   */
+  protected boolean isActiveSponsor(String account, String token) {
+    return false;
+  }
+
   /**
    * @return Name of sponsoring agency if an active vendor is sponsoring Cadpage
    */

@@ -4105,7 +4105,8 @@ register your department with Cadpage.
 Thanks for your consideration, 
 Jean ~ Cadpage Administrator
 *************************************************************************************
-no User email address
+* no User email address
+*************************************************************************************
 
 Presumably you do have a Google account configured for your device.  But
 you have not granted the Cadpage app permission to access your account
@@ -4123,6 +4124,26 @@ That generates a new support email to us, which hopefully will now
 contain your email account, which Jean will use to set up your subscription.
 
 Thank you for your support,
+
+**************************************************************************************
+* Inactive account - Active911 account - page type:active911_gcm
+**************************************************************************************
+You do have Cadpage registered with Active911.  And your department is
+paying for an Active911 subscription.  The problem is that your
+Active911 alerts are being sent to the Active911 app, not to Cadpage.
+Since you are not using Cadpage to process Active911 alerts, Active911
+does not pay us anything.
+
+You can restore the sponsored payment status by re-registering Cadpage
+with Active911.  This will result in your dispatch alerts being sent to
+the Cadpage app and not to the Active911 app.
+
+To do that, go into Cadpage Settings and select
+Direct Paging Vendors > Active911.com > Unregister > Register
+then enter your device code: _______________.
+
+Have a nice day,
+-Ken
 
 **************************************************************************************
 Useful search expressions...
