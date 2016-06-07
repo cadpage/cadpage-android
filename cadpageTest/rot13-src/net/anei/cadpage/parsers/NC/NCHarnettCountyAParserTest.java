@@ -70,6 +70,7 @@ Pbagnpg: Xrvgu pbzof <xrvgupbzof2007@tznvy.pbz>
 Fraqre: PnqCntr@uneargg.bet
 F:Grkg Zrffntr Z:1605-051515\a400 R X FG\a\a\aREJVA\aA 10GU FG\aA 9GU FG\a\a\a26Q01\a\a\a\aR0551\a\a\a\a
 F:Grkg Zrffntr Z:1605-060886\a22 F GUBZNF PG\a\a\aREJVA\aJNYGRE QE (63)\aQRNQ RAQ\a\a\aRZF FVPX\a\a\a\aR0552\a\a\a\a
+F:Grkg Zrffntr Z:1606-063828\a641 QHXR EQ\a\a\aQHAA\aCEVPR YA\aCEBFCRPG PUHEPU EQ\a\a\aRZF PURFG CA\a\a\a\aR0551,ZRQ5\a\a\a\a
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Naqrefba Perrx Rzretrapl Freivprf
@@ -1693,7 +1694,16 @@ choyvp pynff APUnearggPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:JNYGRE QE (63) & QRNQ RAQ",
         "PNYY:RZF FVPX",
         "HAVG:R0552");
-  
+
+    qbGrfg("G3",
+        "F:Grkg Zrffntr Z:1606-063828\a641 QHXR EQ\a\a\aQHAA\aCEVPR YA\aCEBFCRPG PUHEPU EQ\a\a\aRZF PURFG CA\a\a\a\aR0551,ZRQ5\a\a\a\a",
+        "VQ:1606-063828",
+        "NQQE:641 QHXR EQ",
+        "PVGL:QHAA",
+        "K:CEVPR YA & CEBFCRPG PUHEPU EQ",
+        "PNYY:RZF PURFG CA",
+        "HAVG:R0551,ZRQ5");
+ 
   }
 
   @Grfg
