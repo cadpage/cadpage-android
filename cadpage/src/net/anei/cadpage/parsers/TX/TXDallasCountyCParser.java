@@ -36,6 +36,7 @@ public class TXDallasCountyCParser extends DispatchOSSIParser {
  
   
   private static final Pattern TRAIL_MARK_PTN = Pattern.compile("(.*\\])(.*;[P12](?:$|;1.*))");
+  private static final Pattern STREET_APT_ADDR_PTN = Pattern.compile("(\\d+)-(\\d+) +(.*)");
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -52,6 +53,21 @@ public class TXDallasCountyCParser extends DispatchOSSIParser {
     if (data.strCall.length() == 0) {
       data.strCall = data.strCode;
       data.strCode = "";
+    }
+    
+    // A leading nnn-nnn address might be a regular address range
+    // but more often that not it will be address-apt combination.
+    // See if we can figure them out
+    match = STREET_APT_ADDR_PTN.matcher(data.strAddress);
+    if (match.matches()) {
+      String stno1 = match.group(1);
+      String stno2 = match.group(2);
+      if (stno1.length() != stno2.length() ||
+          stno1.length() < 3 ||
+          !stno1.substring(0,2).equals(stno2.substring(0,2))) {
+        data.strApt = append(stno2, "-", data.strApt);
+        data.strAddress = stno1 + ' ' + match.group(3);
+      }
     }
     return true;
   }
