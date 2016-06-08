@@ -37,6 +37,7 @@ public class C2DMService extends IntentService {
   // Refresh ID timeout.  We will automatically request a new registration ID if
   // nothing is received for this amount of time
   private static final int REFRESH_ID_TIMEOUT = 24*60*60*1000; // 1 day
+  private static final int REGISTER_LOCK_TIMEOUT = 60*1000;    // 1 min
   
   private static final String GSF_PACKAGE = "com.google.android.gsf";
   private static final String ACTION_C2DM_REGISTER = "com.google.android.c2dm.intent.REGISTER";
@@ -446,11 +447,9 @@ public class C2DMService extends IntentService {
     if (reqCode == 1) resetRefreshIDTimer(context, "REGISTER");
     
     // Don't do anything if we already have an active ongoing request for this type
-    if (ManagePreferences.registerReqActive() && ManagePreferences.registerReq() == reqCode) return true;
+    if (!ManagePreferences.registerReqLock(reqCode, REGISTER_LOCK_TIMEOUT)) return true;
     
-    // Set the current registration status and launch the request
-    ManagePreferences.setRegisterReq(reqCode);
-    ManagePreferences.setRegisterReqActive(true);
+    // Launch the request
     return startRegisterRequest(context, reqCode, (auto ? INIT_REREGISTER_DELAY : 0));
   }
   
@@ -463,6 +462,7 @@ public class C2DMService extends IntentService {
    */
   private static boolean startRegisterRequest(Context context, int reqCode, int delayMS) {
 
+    if (Log.DEBUG) Log.v("startRegisterRequest:" + reqCode + " - " + delayMS);
     ManagePreferences.setReregisterDelay(delayMS);
     
     if (isNewGCMActive(context)) {
@@ -540,7 +540,7 @@ public class C2DMService extends IntentService {
   private static void registrationSuccess(String regId) {
     Log.w("C2DM registration succeeded: " + regId);
     boolean change = ManagePreferences.setRegistrationId(regId);
-    ManagePreferences.setRegisterReqActive(false);
+    ManagePreferences.registerReqRelease();
     VendorManager.instance().registerC2DMId(CadPageApplication.getContext(), change, regId);
   }
 
@@ -548,7 +548,7 @@ public class C2DMService extends IntentService {
     Log.w("C2DM registration cancelled");
     Context context = CadPageApplication.getContext();
     ManagePreferences.setRegistrationId(null);
-    ManagePreferences.setRegisterReqActive(false);
+    ManagePreferences.registerReqRelease();
     VendorManager.instance().unregisterC2DMId(context);
     EmailDeveloperActivity.logSnapshot(context, "GCM Registration unregister report");
   }
@@ -559,7 +559,7 @@ public class C2DMService extends IntentService {
     error = retryRegistration(error);
     if (error != null) {
       ManagePreferences.setRegistrationId(null);
-      ManagePreferences.setRegisterReqActive(false);
+      ManagePreferences.registerReqRelease();
       VendorManager.instance().failureC2DMId(context, error);
     }
     EmailDeveloperActivity.logSnapshot(context, "GCM Registration failure report");

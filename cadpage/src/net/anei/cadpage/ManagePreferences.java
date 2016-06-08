@@ -219,7 +219,7 @@ public class ManagePreferences {
     setInstallDate();
     
     // Clear GCM registration in progress flag
-    if (registerReqActive()) setRegisterReqActive(false);
+    registerReqRelease();
     
     // Finally set the application enable status
     String enableStr = (enabled() ? enableMsgType() : "");
@@ -1099,12 +1099,30 @@ public class ManagePreferences {
     return result;
   }
   
-  public static boolean registerReqActive() {
-    return prefs.getBoolean(R.string.pref_register_req_active_key);
+  /**
+   * Request GCM Registration request lock
+   * @param type register request type
+   * @param timeout register lock timeout in msecs
+   * @return true if request has been granted
+   */
+  public static boolean registerReqLock(int type, long lockTimeout) {
+    long curTime = System.currentTimeMillis();
+    int lockType = prefs.getInt(R.string.pref_register_req_key, 0);
+    boolean force = (type != lockType);
+    if (!force) {
+      long lockTime = prefs.getLong(R.string.pref_register_req_lock_time_key, 0L);
+      if (lockTime > 0L && curTime-lockTime <= lockTimeout) return false;
+    }
+    if (force) prefs.putInt(R.string.pref_register_req_key, type);
+    prefs.putLong(R.string.pref_register_req_lock_time_key, curTime);
+    return true;
   }
-  
-  public static void setRegisterReqActive(boolean newVal) {
-    prefs.putBoolean(R.string.pref_register_req_active_key, newVal);
+
+  /**
+   * Release GCM registration lock
+   */
+  public static void registerReqRelease() {
+    prefs.putLong(R.string.pref_register_req_lock_time_key, 0L);
   }
   
   public static int registerReq() {
@@ -1272,7 +1290,7 @@ public class ManagePreferences {
       if (key == R.string.pref_prev_registration_id_key) {
         if (value != null && value.equals(regId)) value = "< Same >";
       }
-      if (key == R.string.pref_last_gcm_event_time_key){
+      if (key == R.string.pref_last_gcm_event_time_key || key == R.string.pref_register_req_lock_time_key){
         try {
           long time = (Long)value;
           if (time > 0) {
@@ -2406,7 +2424,7 @@ public class ManagePreferences {
       R.string.pref_registration_id_key,
       R.string.pref_prev_registration_id_key,
       R.string.pref_prev_version_code,
-      R.string.pref_register_req_active_key,
+      R.string.pref_register_req_lock_time_key,
       R.string.pref_register_req_key,
       R.string.pref_reregister_delay_key,
       R.string.pref_register_date_key,
