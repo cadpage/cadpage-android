@@ -4126,8 +4126,20 @@ contain your email account, which Jean will use to set up your subscription.
 Thank you for your support,
 
 **************************************************************************************
-* Inactive account - Active911 account - page type:active911_gcm
+* Inactive Active911 account - no subscription
 **************************************************************************************
+
+You do have Cadpage registered with Active911, but it appears that the Active911 account you registered with is no longer active. Which means nobody is paying for it, which means Active911 isn't paying us.
+
+If you think this is incorrect, let us know and we can contact Active911 support to make sure we are reading your status information correctly.
+
+Have a nice day,
+-Ken
+
+**************************************************************************************
+* Inactive Active911 account - page type:active911_gcm
+**************************************************************************************
+
 You do have Cadpage registered with Active911.  And your department is
 paying for an Active911 subscription.  The problem is that your
 Active911 alerts are being sent to the Active911 app, not to Cadpage.
