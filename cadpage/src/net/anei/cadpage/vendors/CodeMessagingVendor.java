@@ -45,7 +45,8 @@ class CodeMessagingVendor extends Vendor {
 
   @Override
   protected boolean isActiveSponsor(String account, String token) {
-    return account != null && ACTIVE_ACCTS.getProperty(account) != null;
+    return true;
+//    return account != null && ACTIVE_ACCTS.getProperty(account) != null;
   }
   
   private static final Properties ACTIVE_ACCTS = MsgParser.buildCodeTable(new String[]{

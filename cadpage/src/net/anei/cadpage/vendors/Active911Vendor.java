@@ -99,6 +99,15 @@ class Active911Vendor extends Vendor {
     return msg.equals("This is a test message from Active911");
   }
 
+  @Override
+  protected boolean isActiveSponsor(String account, String token) {
+    return account != null && ACTIVE_ACCTS.getProperty(account) != null;
+  }
+  
+  private static final Properties ACTIVE_ACCTS = MsgParser.buildCodeTable(new String[]{
+      "21301",   "06082016",
+  });
+
 
 
   private static final Set<String> PHONE_SET = new HashSet<String>(Arrays.asList(new String[]{

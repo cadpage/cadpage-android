@@ -306,24 +306,33 @@ abstract class Vendor {
     }
     
     // See if we need to switch vendor to inactive status
-    if (enabled && !inactive  && !isActiveSponsor(account, token)) {
-      long curTime = new Date().getTime();
-      long expTime = 0L;
-      long tmp = prefs.getLong("lastContactTime", 0L);
-      if (tmp > 0L) expTime = tmp + LAST_CONTACT_TIMEOUT;
-      else {
-        tmp = prefs.getLong("lastRegisterTime",  0L);
-        if (tmp > 0L) expTime = tmp + LAST_REGISTER_TIMEOUT;
+    if (enabled) {
+      if (isActiveSponsor(account, token)) {
+        if (inactive) {
+          inactive = false;
+          saveStatus();
+        }
       }
-      if (expTime > 0L && curTime > expTime) {
-        inactive = true;
-        saveStatus();
-        
-        // If this is a sponsored vendor, going inactive may drop the sponsored
-        // payment status, so reset the demo period to give them another 30 days
-        // for an alert to come in.
-        if (isSponsored()) {
-          ManagePreferences.setAuthRunDays(0);
+      
+      else if (!inactive) {
+        long curTime = new Date().getTime();
+        long expTime = 0L;
+        long tmp = prefs.getLong("lastContactTime", 0L);
+        if (tmp > 0L) expTime = tmp + LAST_CONTACT_TIMEOUT;
+        else {
+          tmp = prefs.getLong("lastRegisterTime",  0L);
+          if (tmp > 0L) expTime = tmp + LAST_REGISTER_TIMEOUT;
+        }
+        if (expTime > 0L && curTime > expTime) {
+          inactive = true;
+          saveStatus();
+          
+          // If this is a sponsored vendor, going inactive may drop the sponsored
+          // payment status, so reset the demo period to give them another 30 days
+          // for an alert to come in.
+          if (isSponsored()) {
+            ManagePreferences.setAuthRunDays(0);
+          }
         }
       }
     }
@@ -718,6 +727,7 @@ abstract class Vendor {
     boolean change = (this.enabled != register);
     boolean changeEmail = (emailAddress != null && !emailAddress.equals(this.emailAddress));
     this.enabled = register;
+    if (register) this.inactive = false;
     this.account = account;
     this.token = token;
     this.emailAddress = emailAddress;
