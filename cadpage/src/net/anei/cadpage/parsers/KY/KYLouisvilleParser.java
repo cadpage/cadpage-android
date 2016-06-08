@@ -15,7 +15,8 @@ public class KYLouisvilleParser extends FieldProgramParser {
   
   public KYLouisvilleParser() {
     super(CITY_CODES, "LOUISVILLE", "KY",
-           "Location:ADDR/S? TYPE_CODE:CODE! SUB_TYPE:CALL! TIME:TIME! Comments:INFO INFO+");
+           "Location:ADDR/S? JTN:PLACE? TYPE_CODE:CODE! SUB_TYPE:CALL! TIME:TIME? Comments:INFO INFO+");
+//    setupGpsLookupTable(GPS_LOOKUP_TABLE);
   }
   
   @Override
@@ -26,6 +27,15 @@ public class KYLouisvilleParser extends FieldProgramParser {
   @Override
   public int getMapFlags() {
     return MAP_FLG_SUPPR_LA;
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CODE")) return new MyCodeField();
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
   
   private class MyCodeField extends CodeField {
@@ -88,17 +98,15 @@ public class KYLouisvilleParser extends FieldProgramParser {
       return "CODE INFO";
     }
   }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CODE")) return new MyCodeField();
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
-  }
 
   private static CodeTable CALL_CODES = new StandardCodeTable();
+  
+  private static final Properties GPS_LOOKUP_TABLE = buildCodeTable(new String[]{
+      "LEFLORE AVE",                          "+38.130719,-85.875992",
+      "MISTY LN",                             "+38.130724,-85.876780",
+      "TALLAHATCHEE ST",                      "+38.130719,-85.875992",
+      "YAZOO ST",                             "+38.130656,-85.876378"
+  });
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ANC",  "ANCHORAGE",
