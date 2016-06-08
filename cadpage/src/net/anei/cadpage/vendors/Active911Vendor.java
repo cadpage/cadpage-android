@@ -1038,6 +1038,7 @@ class Active911Vendor extends Vendor {
       "US/OR/ShermanCounty",              "ORShermanCounty",
       "US/OR/TillamookCounty",            "ORTillamookCounty",
       "US/OR/UmatillaCounty",             "ORUmatillaCounty",
+      "US/OR/WarmSprings",                "ORJeffersonCounty",
       "US/OR/WashingtonCounty",           "ORWashingtonCounty",
       "US/OR/WheelerCounty",              "ORWheelerCounty",
       "US/OR/Woodburn",                   "ORMarionCounty",
