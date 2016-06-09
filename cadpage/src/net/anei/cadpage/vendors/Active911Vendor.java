@@ -737,6 +737,7 @@ class Active911Vendor extends Vendor {
       "US/MO/WarrenCounty",               "MOWarrenCounty",
       "US/MO/WashingtonCity",             "MOWashingtonCity",
       "US/MO/WCCD911",                    "MOWashingtonCounty",
+      "US/MO/WCCD911IronCounty",          "MOIronCounty",
       "US/MS/Biloxi",                     "MSBiloxi",
       "US/MS/CityofHernando",             "MSHernando",
       "US/MS/DesotoCounty",               "MSDeSotoCountyA",
