@@ -445,7 +445,7 @@ choyvp pynff ZBVebaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Qvfcngpu: 5/26/2016 22:36:51 \a" +
         "R7160 R7161 C313 C309 O7180",
 
-        "NQQE:17153 UVTUJNL P",
+        "NQQE:17153 UVTUJNL P", //jnagf n pvgl (vebagba)
         "PNYY:CBJRE YVARF QBJA / GENAFSBEZRE SVER",
         "VASB:CBJRE YVARF QBJA BA UJL P NOBHG UNYS N ZVYR SEBZ GUR PNYYRE - NPEBFF GUR EBNQJNL - JNF ABG NEPVAT",
         "QNGR:5/26/2016",
@@ -482,7 +482,7 @@ choyvp pynff ZBVebaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G4",
         "{PNQ PNYY} J SEBAG FG & NAAVR FG \aYNAQVAT MBAR \aQrfpevcgvba: FRPHER YM SBE 8231 \aQvfcngpu: 5/23/2016 09:56:52 \aR7160",
-        "NQQE:J SEBAG FG & NAAVR FG",
+        "NQQE:J SEBAG FG & NAAVR FG", //qbrf abg znc
         "PNYY:YNAQVAT MBAR",
         "VASB:FRPHER YM SBE 8231",
         "QNGR:5/23/2016",
