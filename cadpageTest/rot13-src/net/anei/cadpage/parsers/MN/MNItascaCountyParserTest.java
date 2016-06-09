@@ -91,7 +91,7 @@ choyvp pynff ZAVgnfpnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVFCNGPU:STENF, TENFF/JVYQSVER, 3950 UJL 7, 7PY, ogja UJL 37 naq JVYRL EQ, 7S, 7PYNPYIV, znccntr,KKKK, YNJA ZBJRE BA SVER - 4 SG SEBZ TNENTR NAQ UBHFR, Havgf:PYSQ1, QAEU1 - Sebz SVER2 05/23/2016 14:21:57",
         "PBQR:STENF",
         "PNYY:TENFF/JVYQSVER",
-        "NQQE:3950 UJL 7", //qbrf abg znc
+        "NQQE:3950 UJL 7",
         "PU:7S",
         "PVGL:Pyvagba Gjc",
         "K:UJL 37 naq JVYRL EQ",
@@ -135,7 +135,7 @@ choyvp pynff ZAVgnfpnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVFCNGPU:STENF, TENFF/JVYQSVER, 1205 14GU FG, 6PYD, ogja JNFUVATGBA NIR naq FGNAYRL NIR, 6S, 6PYD471, znccntr,KKKK, OEHFU NAQ CVAR GERRF BA SVER/ABG ARNE NAL FGEHPGHERF NG GUVF GVZR, Havg:6PQAE - Sebz 6QFC01 05/22/2016 09:02:15",
         "PBQR:STENF",
         "PNYY:TENFF/JVYQSVER",
-        "NQQE:1205 14GU FG", //qbrf abg znc
+        "NQQE:1205 14GU FG",
         "PU:6S",
         "PVGL:Pybdhrg",
         "K:JNFUVATGBA NIR naq FGNAYRL NIR",
@@ -224,7 +224,7 @@ choyvp pynff ZAVgnfpnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:TENFF/JVYQSVER",
         "NQQE:7484 JVYFBA EQ",
         "PU:7S",
-        "PVGL:HABET 56-17", // :/ zncf j/b guvf
+        "PVGL:HABET 56-17",
         "ZPVGL:",
         "K:PYLQR EQ naq UJL 53",
         "ZNC:712NPRRI",
