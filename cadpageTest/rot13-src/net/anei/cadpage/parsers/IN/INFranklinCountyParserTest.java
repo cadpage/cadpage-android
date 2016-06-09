@@ -61,7 +61,7 @@ Fraqre: "Oebbxivyyr Sver Qrcg. Grnz" <sbejneqvat-abercyl@tbbtyr.pbz>
 choyvp pynff VASenaxyvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp VASenaxyvaPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "SENAXYVAPBHAGL", "VA");
+    frgCnefre(arj QhzzlCnefre(), "SENAXYVA PBHAGL", "VA");
   }
 
   @Grfg

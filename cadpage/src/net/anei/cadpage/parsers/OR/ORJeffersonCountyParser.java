@@ -19,7 +19,7 @@ public class ORJeffersonCountyParser extends DispatchA22Parser {
   
   @Override
   public String getAliasCode() {
-    return "ORJeffersonCounty";
+    return "ORJeffersonCounty,eis@wstribes.org";
   }
 
   @Override

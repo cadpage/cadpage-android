@@ -1,6 +1,9 @@
 package net.anei.cadpage.vendors;
 
+import java.util.Properties;
+
 import net.anei.cadpage.R;
+import net.anei.cadpage.parsers.MsgParser;
 
 class CodeMessagingVendor extends Vendor {
   
@@ -39,5 +42,15 @@ class CodeMessagingVendor extends Vendor {
   int getMoreInfoResId() {
     return R.string.response_check_text;
   }
+
+  @Override
+  protected boolean isActiveSponsor(String account, String token) {
+    return true;
+//    return account != null && ACTIVE_ACCTS.getProperty(account) != null;
+  }
   
+  private static final Properties ACTIVE_ACCTS = MsgParser.buildCodeTable(new String[]{
+      "895", "06072016",
+      "187", "06072016",
+  });
 }

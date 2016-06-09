@@ -13,6 +13,7 @@ Ntrapl anzr: Yvivatfgba Pbhagl Furevss'f Bssvpr
 Ybpngvba: Trarfrb, AL, Havgrq Fgngrf
 Fraqre: qbabgerfcbaq@pb.yvivatfgba.al.hf
 
+{Vap:21O1 Ybp:1727 ZVYY FG Pbzz Anzr: Orgjrra:BNXYNAQ FG/ABEGU FG Irahr:G/AHAQN A} Vap:21O1 Ybp:1727 ZVYY FG Pbzz Anzr: Orgjrra:BNXYNAQ FG/ABEGU FG Irahr:G/AHAQN\e\a Angher:38 LBS QVMML/PBHTURQ HC OYBBQ/EG FVQRQ JRNXAR Nqqgy1:FF- Nqqgy2: Cegl:\e\a4 Pnyyre:UBHTU-JBBQ,PUEVFGVAN,Z, Vap#:2016-00000194 Cubar:585-476-0000
 (Vap:SNZ GEBO Ybp:5639 OVT GERR EQ Pbzz Anzr: Orgjrra:J YNXR EQ/GHEGYR EBPX EQ Ir) Vap:SNZ GEBO Ybp:5639 OVT GERR EQ Pbzz Anzr: Orgjrra:J YNXR EQ/GHEGYR EBPX EQ \aIrahr:G/YVIBAVN Angher:OS FGEHPX URE, PBZCY JNAGF UVZ BHG Nqqgy1:ART VAGBK BE \aJRNCF Nqqgy2: Cegl:1 Pnyyre:GEHNK,NZNAQN,, Vap#:2015-00005320 Cubar:585-281-31\a91
 (Vap:QEHT VAIFG Ybp:6505 CHPXRE FG Pbzz Anzr: Orgjrra:FYVXRE UVYY EQ/WBARF UVYY E) Vap:QEHT VAIFG Ybp:6505 CHPXRE FG Pbzz Anzr: Orgjrra:FYVXRE UVYY EQ/WBARF UVYY\a EQ Irahr:G/PBARFHF Angher:12 CYNAGF Nqqgy1: Nqqgy2: Cegl:4 Pnyyre:JVRQEVPX,WR\aSSERL,Q, Vap#:2014-00015618 Cubar:
 (Vap:JNGRE CEBO Ybp:3902 ZNVA FG Pbzz Anzr:JNQFJBEGU TEVYY Orgjrra:ENVYEBNQ GENPX) Vap:JNGRE CEBO Ybp:3902 ZNVA FG Pbzz Anzr:JNQFJBEGU TEVYY Orgjrra:ENVYEBNQ GEN\aPXF/OBLQ YA Irahr:G/LBEX Angher:JNGRE OERNX 36 JNQFJBEGU QBJA GB 1 YNAR SEBZ N\aqqgy1:ENVYEBNQ GENPXF GB PUNAQYRE EQ Nqqgy2: Cegl:4 Pnyyre:JBEQRA,TRBETR,E, Va\ap#:2015-00005319 Cubar:585-329-7757
@@ -112,6 +113,21 @@ choyvp pynff ALYvivatfgbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgYvivatfgbaPbhaglFurevssfBssvpr() {
+
+    qbGrfg("K1",
+        "{Vap:21O1 Ybp:1727 ZVYY FG Pbzz Anzr: Orgjrra:BNXYNAQ FG/ABEGU FG Irahr:G/AHAQN A} Vap:21O1 Ybp:1727 ZVYY FG Pbzz Anzr: Orgjrra:BNXYNAQ FG/ABEGU FG Irahr:G/AHAQN\e\a" +
+        " Angher:38 LBS QVMML/PBHTURQ HC OYBBQ/EG FVQRQ JRNXAR Nqqgy1:FF- Nqqgy2: Cegl:\e\a" +
+        "4 Pnyyre:UBHTU-JBBQ,PUEVFGVAN,Z, Vap#:2016-00000194 Cubar:585-476-0000",
+
+        "PNYY:21O1",
+        "NQQE:1727 ZVYY FG",
+        "K:BNXYNAQ FG/ABEGU FG",
+        "PVGL:AHAQN",
+        "VASB:38 LBS QVMML/PBHTURQ HC OYBBQ/EG FVQRQ JRNXAR / FF-",
+        "CEV:4",
+        "ANZR:UBHTU-JBBQ,PUEVFGVAN,Z",
+        "VQ:2016-00000194",
+        "CUBAR:585-476-0000");
 
     qbGrfg("G1",
         "(Vap:SNZ GEBO Ybp:5639 OVT GERR EQ Pbzz Anzr: Orgjrra:J YNXR EQ/GHEGYR EBPX EQ Ir) Vap:SNZ GEBO Ybp:5639 OVT GERR EQ Pbzz Anzr: Orgjrra:J YNXR EQ/GHEGYR EBPX EQ \a" +

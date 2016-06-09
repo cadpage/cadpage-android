@@ -721,6 +721,7 @@ Ntrapl anzr: Zbeyrl Nern Sver naq Erfphr
 Ybpngvba: Zbeyrl, ZV, Havgrq Fgngrf
 Fraqre: <Zrprbyn Qvfcngpu@ZPQ911.bet>
 
+Zrprbyn Qvfcngpu:2672 200GU NI NRGAN GJC OENIB YNSBAQ, ZNGGURJ ZE45 r RZQ Erpbzzraqrq Qvfcngpu Erfcbafr Grkg: Cevbevgl 1 Qvfcngpu Yriry: 28P02 Fhssvk: Y Yrff guna \"K\" ubhef fvapr gur flzcgbzf fgnegrq PNQ Vapvqrag Pbqr: Oenib Qrgrezvanag: Noabezny oernguvat 4 Pbzznaqzragf: 58-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Fgebxr (PIN) / Genafvrag Vfpurzvp Nggnpx (GVN) Xrl Dhrfgvbaf: 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur vf abg oernguvat abeznyyl. 3. Ur vf univat n fhqqra ybff bs onynapr be pbbeqvangvba. 4. Gurfr flzcgbzf fgnegrq jvguva gur nccebirq gerngzrag jvaqbj
 Zrprbyn Qvfcngpu:1155 125GU NI QRRESVRYQ GJC NYNEZ Z ZRQVPNY NYREG NY2,ZE45 YBPX OBK - YRSG FVQR BS SEBAG QBBE HAQRE ENVYVAT.. 12/19/2014 10:17:57 : cbf6 : ERZ Pebff fgerrgf: -//WRSSREFBA EQ TYNQVF YBPXJBBQ..989-352-6340..ZRQ NYNEZ ABG NOYR GB ERNPU NALBAR..
 Zrprbyn Qvfcngpu:2467 PBERL QE QRRESVRYQ GJC SVER FGEHPG PNZREBA ZBS Pebff fgerrgf: //ZBAEBR EQ UNQ NA RYRPGEVPNY SVER VA BAR BS GUR JNYYF BS GUR ORQEBBZ...;ORYVRIRF VGF BHG JBHYQ YVXR GUR SVER QRCG GB PX VG BHG
 Zrprbyn Qvfcngpu:261 F FPBGG FG ZBEYRL IYT OENIB AVXXV WBUAFGBA NY2,ZE45 RZQ Pnfr Pbzcyrgr 12/18/2014 03:27:00 : cbf5 : NYQ RZQ Xrl Dhrfgvbaf Svavfurq Xrl Dhrfgvbaf: 6. Fur unf n cerfpevorq vaunyre. 7. Fur unf hfrq n cerfpevorq vaunyre. 8. A/N 12/18/2014 03:26:54 : cbf5 : NYQ RZQ Erpbasvther Erfcbafr Grkg: Cevbevgl 1 Qvfcngpu Yriry: 06Q02 Fhssvk: N Nfguzn PNQ Vapvqrag Pbqr: Oenib Xrl Dhrfgvbaf: 3. Fur vf abg punatvat pbybe. 4. Fur vf pynzzl. 5. Fur unf nfguzn. 12/18/2014 03:26:37 : cbf5 : NYQ RZQ Erpbzzraqrq Qvfcngpu Erfcbafr Grkg: Cevbevgl 1 Qvfcngpu Yriry: 06Q02 PNQ Vapvqrag Pbqr: Oenib Qrgr
@@ -8618,6 +8619,16 @@ choyvp pynff ZVZrpbfgnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgZbeyrlNernSverNaqErfphr() {
+
+    qbGrfg("K1",
+        "Zrprbyn Qvfcngpu:2672 200GU NI NRGAN GJC OENIB YNSBAQ, ZNGGURJ ZE45 r RZQ Erpbzzraqrq Qvfcngpu Erfcbafr Grkg: Cevbevgl 1 Qvfcngpu Yriry: 28P02 Fhssvk: Y Yrff guna \\\"K\\\" ubhef fvapr gur flzcgbzf fgnegrq PNQ Vapvqrag Pbqr: Oenib Qrgrezvanag: Noabezny oernguvat 4 Pbzznaqzragf: 58-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Fgebxr (PIN) / Genafvrag Vfpurzvp Nggnpx (GVN) Xrl Dhrfgvbaf: 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur vf abg oernguvat abeznyyl. 3. Ur vf univat n fhqqra ybff bs onynapr be pbbeqvangvba. 4. Gurfr flzcgbzf fgnegrq jvguva gur nccebirq gerngzrag jvaqbj",
+        "NQQE:2672 200GU NI",
+        "ZNQQE:2672 200GU NIR",
+        "PVGL:NRGAN GJC",
+        "PNYY:OENIB",
+        "ANZR:YNSBAQ, ZNGGURJ",
+        "HAVG:ZE45",
+        "VASB:Cevbevgl 1 Qvfcngpu Yriry: 28P02 Fhssvk: Y Yrff guna \\\"K\\\" ubhef fvapr gur flzcgbzf fgnegrq PNQ Vapvqrag Pbqr: Oenib Qrgrezvanag: Noabezny oernguvat 4 Pbzznaqzragf: 58-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. Puvrs Pbzcynvag: Fgebxr (PIN) / Genafvrag Vfpurzvp Nggnpx (GVN) / 1. Ur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl). 2. Ur vf abg oernguvat abeznyyl. 3. Ur vf univat n fhqqra ybff bs onynapr be pbbeqvangvba. 4. Gurfr flzcgbzf fgnegrq jvguva gur nccebirq gerngzrag jvaqbj");
 
     qbGrfg("G1",
         "Zrprbyn Qvfcngpu:1155 125GU NI QRRESVRYQ GJC NYNEZ Z ZRQVPNY NYREG NY2,ZE45 YBPX OBK - YRSG FVQR BS SEBAG QBBE HAQRE ENVYVAT.. 12/19/2014 10:17:57 : cbf6 : ERZ Pebff fgerrgf: -//WRSSREFBA EQ TYNQVF YBPXJBBQ..989-352-6340..ZRQ NYNEZ ABG NOYR GB ERNPU NALBAR..",

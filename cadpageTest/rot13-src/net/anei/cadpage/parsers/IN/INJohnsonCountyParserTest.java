@@ -363,7 +363,7 @@ choyvp pynff VAWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:RT53,ZQ53",
         "PNYY:SQZ-VAWHERQ CRE",
-        "NQQE:1229 A OYHSS EQ; PVEPYR X",
+        "NQQE:1229 A OYHSS EQ; PVEPYR X", //znl jnag gb nqq n cynpr znexre
         "ZNC:JES53");
 
     qbGrfg("G3",
@@ -4040,7 +4040,7 @@ choyvp pynff VAWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:FGN61,ZQ201",
         "PNYY:SQ-NPP CV",
-        "NQQE:J 550F & F 500J; 550F",
+        "NQQE:J 550F & F 500J; 550F", //qbrf abg znc
         "ZNC:GSQ");
 
     qbGrfg("G94",

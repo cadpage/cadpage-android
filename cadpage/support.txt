@@ -4105,7 +4105,8 @@ register your department with Cadpage.
 Thanks for your consideration, 
 Jean ~ Cadpage Administrator
 *************************************************************************************
-no User email address
+* no User email address
+*************************************************************************************
 
 Presumably you do have a Google account configured for your device.  But
 you have not granted the Cadpage app permission to access your account
@@ -4123,6 +4124,73 @@ That generates a new support email to us, which hopefully will now
 contain your email account, which Jean will use to set up your subscription.
 
 Thank you for your support,
+
+**************************************************************************************
+* Inactive Active911 account - Current user paid subscription
+**************************************************************************************
+
+This is interesting..
+
+You are registered with an Active911 account, which is current paid up. But you do not appear to be using it. The last direct page you received from Active911 was back last October or later, which lead Cadpage to suspect the Active911 account was no longer active.
+
+Clearly Cadpage should be reporting a Sponsored status. This will be fixed in the next Cadpage release which should be out later today.
+
+But it does make me wonder why you appear to be paying for an Active911 subscription that you are not using.
+
+Thanks for contacting us,
+-Ken
+
+**************************************************************************************
+* Inactive Active911 account - no subscription
+**************************************************************************************
+
+You do have Cadpage registered with Active911, but it appears that the Active911 account you registered with is no longer active. Which means nobody is paying for it, which means Active911 isn't paying us.
+
+If you think this is incorrect, let us know and we can contact Active911 support to make sure we are reading your status information correctly.
+
+Have a nice day,
+-Ken
+
+**************************************************************************************
+* Inactive Active911 account - page type:active911_gcm - paid personal subscription
+**************************************************************************************
+
+You do have Cadpage registered with Active911. And you are
+paying for an Active911 subscription. The problem is that your
+Active911 alerts are being sent to the Active911 app, not to Cadpage.
+Since you are not using Cadpage to process Active911 alerts, Active911
+does not pay us anything.
+
+You can restore the sponsored payment status by re-registering Cadpage
+with Active911. This will result in your dispatch alerts being sent to
+the Cadpage app and not to the Active911 app.
+
+To do that, go into Cadpage Settings and select
+Direct Paging Vendors > Active911.com > Unregister > Register
+then enter your device code: ______________.
+Have a nice day,
+-Ken
+
+**************************************************************************************
+* Inactive Active911 account - page type:active911_gcm - paid agency subscription
+**************************************************************************************
+
+You do have Cadpage registered with Active911.  And your department is
+paying for an Active911 subscription.  The problem is that your
+Active911 alerts are being sent to the Active911 app, not to Cadpage.
+Since you are not using Cadpage to process Active911 alerts, Active911
+does not pay us anything.
+
+You can restore the sponsored payment status by re-registering Cadpage
+with Active911.  This will result in your dispatch alerts being sent to
+the Cadpage app and not to the Active911 app.
+
+To do that, go into Cadpage Settings and select
+Direct Paging Vendors > Active911.com > Unregister > Register
+then enter your device code: _______________.
+
+Have a nice day,
+-Ken
 
 **************************************************************************************
 Useful search expressions...
