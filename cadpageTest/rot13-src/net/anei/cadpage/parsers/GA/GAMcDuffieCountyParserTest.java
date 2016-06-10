@@ -1774,7 +1774,7 @@ choyvp pynff TNZpQhssvrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G99",
         "{1 EFC/PVGL} Ybp:207 QRNAF NYL KFg:ZNEGVA YHGURE X TBEQBA FG Tevq:7002 Havgf:R705 Ezx:34 LBZ YBJ OYBBQ FHTNE UK BS QVNORGRF",
         "PNYY:1 EFC/PVGL",
-        "NQQE:207 QRNAF NYL", //vf guvf ubj nyyrl vf nooerivngrq? zncf bxnl.
+        "NQQE:207 QRNAF NYL",
         "K:ZNEGVA YHGURE X / TBEQBA FG",
         "ZNC:7002",
         "HAVG:R705",
