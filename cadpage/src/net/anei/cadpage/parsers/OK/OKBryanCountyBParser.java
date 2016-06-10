@@ -6,23 +6,30 @@ import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 public class OKBryanCountyBParser extends DispatchB2Parser {
 
   public OKBryanCountyBParser() {
-    super("911-CENTER:",CITY_LIST, "HYDE COUNTY", "NC");
+    super("0:",CITY_LIST, "BRYAN COUNTY", "OK");
     setupCallList(CALL_LIST);
   }
   
+  @Override
+  public String getFilter() {
+    return "lakewood1051@yahoo.com,15803801917@tmomail.net";
+  }
+
   private static final CodeSet CALL_LIST = new CodeSet(
-      
-      "blank"
- 
+      "BRUSH FIRE",
+      "DFD PAGER TEST SCHEDULE",
+      "FIRE MISC. UNKNOWN TYPE",
+      "FOUND PROPERTY",
+      "MEDICAL CALL",
+      "MVC - UNK INJ"
   );
+  
   static final String[] CITY_LIST = new String[]{
       
       //Cities
-      
       "DURANT",
 
       //Towns
-
       "ACHILLE",
       "ARMSTRONG",
       "BENNINGTON",
@@ -37,13 +44,11 @@ public class OKBryanCountyBParser extends DispatchB2Parser {
       "SILO",
 
       //Census-designated places
-
       "ALBANY",
       "BLUE",
       "CARTWRIGHT",
 
       //Unincorporated communities
-
       "ALLISON",
       "BANTY",
       "BROWN",
