@@ -548,6 +548,7 @@ class Active911Vendor extends Vendor {
       "US/KY/ScottCounty",                "KYScottCountyB",
       "US/KY/ToddCounty",                 "KYToddCounty",
       "US/KY/TriggCounty",                "KYTriggCounty",
+      "US/KY/WoodfordCounty",             "KYWoodfordCounty",
       "US/LA/AscensionParish",            "LAAscensionParish",
       "US/LA/AvoyellesCounty",            "LAAvoyellesParish",
       "US/LA/BeauregardParish",           "LABeauregardParish",
