@@ -48,7 +48,7 @@ choyvp pynff ZVVatunzPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "{PNQ Nyreg} PNYY: Ohetynel<oe/>CYNPR: PBER<oe/>NQQE: 7435 JRFGFUVER<oe/>PVGL: YNAFVAT<oe/>VQ: 16000002<oe/>CEV: Ybj<oe/>QNGR: 2016-05-27<oe/>GVZR: 09:06:00<oe/>HAVG: 106<oe/>VASB: Grfg bs Npgvir911 vagresnpr<oe/>Ubj ner zhygvcyr yvarf unaqyrq?<oe/>",
         "PNYY:Ohetynel",
-        "NQQE:7435 JRFGFUVER",//qbrf abg znc
+        "NQQE:7435 JRFGFUVER",
         "PVGL:YNAFVAT",
         "VQ:16000002",
         "CEV:Ybj",

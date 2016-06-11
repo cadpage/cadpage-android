@@ -11,7 +11,6 @@ import android.app.Activity;
 import android.app.PendingIntent;
 import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -45,7 +44,7 @@ public class MsgOptionManager {
   private List<ButtonHandler> mainButtonList = new ArrayList<ButtonHandler>();
   
   // Broadcast receiver logging results of text send messages
-  private SendSMSReceiver receiver = null;;
+  private SendSMSReceiver receiver = null;
   
   public MsgOptionManager(Activity activity, SmsMmsMessage message) {
     this.activity = activity;
@@ -720,6 +719,8 @@ public class MsgOptionManager {
       return false;
     }
   }
+  
+  private static final Pattern BAD_LABEL_PTN = Pattern.compile("[! ]+");
 
   /**
    * Request map location for message
@@ -748,7 +749,10 @@ public class MsgOptionManager {
         // Add real address as title
         String addr = message.getAddress();
         if (addr.length() > 0) {
-          searchStr = searchStr + '(' + Uri.encode(addr) + ')';
+          String label = addr;
+          Matcher match = BAD_LABEL_PTN.matcher(label);
+          if (match.lookingAt()) label = label.substring(match.end());
+          searchStr = searchStr + '(' + Uri.encode(label) + ')';
         }
       }
       
