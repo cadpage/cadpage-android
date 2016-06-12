@@ -24,10 +24,12 @@ public class MTRavalliCountyParser extends FieldProgramParser {
   }
 
   public String getFilter() {
-    return "911@rc.mt.gov";
+    return "911@rc.mt.gov,2082524569";
   }
 
   protected boolean parseMsg(String subject, String body, Data data) {
+    body = stripFieldStart(body, "RAVALLI COUNTY:");
+    body = stripFieldEnd(body, "\nUNSUBSCRIBE");
     if (!super.parseFields(body.split(BODY_SPLIT_PTN.pattern()), data)) return false;
     return data.strAddress.length() > 0 && data.strCall.length() > 0;
   }
