@@ -15,7 +15,7 @@ public class MIOaklandCountyCParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "no_reply_clemis@oakgov.com";
+    return "@oakgov.com";
   }
   
   private static final String SIGNATURE = "https://apps.clemis.org/";
