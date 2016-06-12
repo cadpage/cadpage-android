@@ -4124,6 +4124,7 @@ That generates a new support email to us, which hopefully will now
 contain your email account, which Jean will use to set up your subscription.
 
 Thank you for your support,
+-Ken
 
 **************************************************************************************
 * Inactive Active911 account - Current user paid subscription
