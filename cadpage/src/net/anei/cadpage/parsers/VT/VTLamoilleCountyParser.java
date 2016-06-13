@@ -39,7 +39,7 @@ public class VTLamoilleCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
-    if (name.equals("ID")) return new IdField("\\d\\d[A-Z]{2,4}\\d{6}", true);
+    if (name.equals("ID")) return new IdField("\\d\\d[A-Z]{2,5}\\d{6}", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }

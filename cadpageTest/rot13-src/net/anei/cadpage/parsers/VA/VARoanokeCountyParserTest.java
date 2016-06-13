@@ -191,6 +191,8 @@ Ybpngvba: Fnyrz, IN, Havgrq Fgngrf
 Fraqre: "qvfcngpu@pnirfcevatsver.bet" <qvfcngpu@pnirfcevatsver.bet>
 Fraqre: "Npgvir911freire@Ivagbarzf.pbz" <Npgvir911freire@Ivagbarzf.pbz>
 
+{Rzretrapl Pnyy} ERF2 Z22  OYF   1044 OEBNQ UVYY QE kfg: NENTBAN QE / QVYYBA QE
+{Rzretrapl Pnyy} ERF5 Z52  OYF ABEGUIVRJ ZBOVYR UBZR CNEX   7004 CRGREF PERRX EQ kfg: 12 JVYYVNZFBA EQ / JVYYVNZFBA EQ
 ERF9 Z92  NYF   3624 OBJYVAT QE kfg  NYYRTUNAL QE   NYYRTUNAL QE4/19/2016 9:10:40 CZ
 {Sbeg Yrjvf RZF Npgvir 911} Erprvirq: sebz qhxrpzvzcb01.pbkznvy.pbz ([68.99.120.134])\a          ol qhxrpzsrc05.pbkznvy.pbz\a          (VagreZnvy iZ.8.01.05.08 201-2260-151-120-20120517) jvgu RFZGC\a          vq <20160420010909.IYWN87.qhxrpzsrc05.pbkznvy.pbz@qhxrpzvzcb01.pbkznvy.pbz>\a          sbe <ws14313-de3lgxqfnpuzc2ap@nyreg.npgvir911.pbz>;\a          Ghr, 19 Nce 2016 21:09:09 -0400\aErprvirq: sebz Npgvir_911 ([70.183.177.215])\a\gol qhxrpzvzcb01.pbkznvy.pbz jvgu ovmfzgc\a\gvq xE991f0044sQGdJ01E996L; Ghr, 19 Nce 2016 21:09:09 -0400\aNhguragvpngvba-Erfhygf: pbkznvy.pbz; nhgu=cnff YBTVA\a fzgc.nhgu=Npgvir911@ivagbasvefgnvq.ebnpbkznvy.pbz\aSebz: "Npgvir911freire@Ivagbarzf.pbz" <Npgvir911freire@Ivagbarzf.pbz>\aFhowrpg: Sbeg Yrjvf RZF Npgvir 911\aGb: WS14313-DE3lGXQfnpuZc2aP@nyreg.npgvir911.pbz\aPbagrag-Genafsre-Rapbqvat: 8ovg\aPbagrag-Glcr: zhygvcneg/zvkrq\aQngr: Jrq, 20 Nce 2016 01:09:11 +0000\aZrffntr-Vq: <20160420010909.IYWN87.qhxrpzsrc05.pbkznvy.pbz@qhxrpzvzcb01.pbkznvy.pbz>\a\aERF9 Z92  NYF   3624 OBJYVAT QE kfg  NYYRTUNAL QE   NYYRTUNAL QE
 QVFERTNEQ RYYVFBA NIR    TBEGU4/19/2016 6:24:31 CZ
@@ -1730,6 +1732,22 @@ choyvp pynff INEbnabxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgSbegYrjvfSverErfphr() {
+
+    qbGrfg("K1",
+        "{Rzretrapl Pnyy} ERF2 Z22  OYF   1044 OEBNQ UVYY QE kfg: NENTBAN QE / QVYYBA QE",
+        "HAVG:ERF2 Z22",
+        "PNYY:OYF",
+        "NQQE:1044 OEBNQ UVYY QE",
+        "K:NENTBAN QE / QVYYBA QE");
+
+    qbGrfg("K2",
+        "{Rzretrapl Pnyy} ERF5 Z52  OYF ABEGUIVRJ ZBOVYR UBZR CNEX   7004 CRGREF PERRX EQ kfg: 12 JVYYVNZFBA EQ / JVYYVNZFBA EQ",
+        "HAVG:ERF5 Z52",
+        "PNYY:OYF",
+        "CYNPR:ABEGUIVRJ ZBOVYR UBZR CNEX",
+        "NQQE:7004 CRGREF PERRX EQ",
+        "NCG:12",
+        "K:JVYYVNZFBA EQ / JVYYVNZFBA EQ");
 
     qbGrfg("G1",
         "ERF9 Z92  NYF   3624 OBJYVAT QE kfg  NYYRTUNAL QE   NYYRTUNAL QE4/19/2016 9:10:40 CZ",

@@ -7,7 +7,7 @@ public class IDAdaCountyParser extends FieldProgramParser {
   
   public IDAdaCountyParser() {
     super("ADA COUNTY", "ID", 
-          "ID:ID! CALL:CALL! ADDR:ADDR! CITY:CITY! PRI:PRI! DATE:DATE! TIME:TIME! UNIT:UNIT! END");
+          "ID:ID! CALL:CALL! ADDR:ADDR! CITY:CITY! LAT:GPS1? LONG:GPS2? PRI:PRI! DATE:DATE! TIME:TIME! INFO:INFO/N+ UNIT:UNIT! END");
   }
   
   @Override

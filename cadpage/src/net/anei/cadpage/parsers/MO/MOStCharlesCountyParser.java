@@ -66,19 +66,23 @@ public class MOStCharlesCountyParser extends FieldProgramParser {
     
     if (!p.check("MAP:")) return false;
     String map = p.getOptional("CHL:", 10);
-    if (map == null) map = p.getOptional("CH:", 10);
     if (map != null) {
       data.strMap = map;
-      data.strChannel = p.get(5);
+      fLen = p.checkAhead("Units:", 35, 39);
+      if (fLen < 0) return false;
+      data.strChannel = p.get(fLen-30);
+      data.strSource = p.get(30);
+      if (!p.check("Units:")) return false;
+      data.strUnit = p.get();
+      return true;
+      
     } else {
       data.strMap = p.get(15);
+      data.strSource = p.get(30);
+      if (!p.check("Units:")) return false;
+      data.strUnit = p.get();
+      return true;
     }
-    data.strSource = p.get(30);
-    
-    p.check("Units:");
-    data.strUnit = p.get();
-    
-    return true;
   }
   
   @Override

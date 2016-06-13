@@ -7,6 +7,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 Eniryyv Pbhagl, ZG
 
+Pbagnpg: Qrzcfrl Ivpx <qrzcfrl.ivpx@tznvy.pbz>
+Fraqre: 12082524569
+ENINYYV PBHAGL: F5 FDEH; 164 CVAR UBYYBJ EQ; FGRIRAFIVYYR;  OYF ERQ 91 LB Z YBJ ONPX CNVA SVER PUNAARY 2\aHAFHOFPEVOR
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Cvarfqnyr Iby. Sver Qrcnegzrag
 Ybpngvba: Cvarfqnyr, ZG, Havgrq Fgngrf
@@ -149,6 +153,18 @@ choyvp pynff ZGEninyyvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZGEninyyvPbhaglCnefreGrfg() {
     frgCnefre(arj ZGEninyyvPbhaglCnefre(), "ENINYYV PBHAGL", "ZG");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQrzcfrlIvpx() {
+
+    qbGrfg("G1",
+        "ENINYYV PBHAGL: F5 FDEH; 164 CVAR UBYYBJ EQ; FGRIRAFIVYYR;  OYF ERQ 91 LB Z YBJ ONPX CNVA SVER PUNAARY 2\aHAFHOFPEVOR",
+        "HAVG:F5 FDEH",
+        "NQQE:164 CVAR UBYYBJ EQ",
+        "PVGL:FGRIRAFIVYYR",
+        "PNYY:OYF ERQ 91 LB Z YBJ ONPX CNVA SVER PUNAARY 2");
+   
   }
 
   @Grfg
