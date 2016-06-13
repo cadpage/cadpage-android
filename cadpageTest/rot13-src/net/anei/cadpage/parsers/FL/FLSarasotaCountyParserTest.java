@@ -33,6 +33,10 @@ Pbagnpg: Wbua Onff <wbuaonff08@tznvy.pbz>
 Fraqre: 777
 FPTBI RIRAG GLCR: BHGFVQR SVER-OEHFU Ybpngvba: 36 ZRQNYVFG CY NERN: 1524 ZHA: PUNE GVZR: 18:17:25  Qvfc: OA7,R74,R75
 
+Pbagnpg: rqoneosvercvk@pbzpnfg.arg
+Fraqre: 93001023
+RIRAG GLCR: NYNEZF-PRAGENY FGN. Ybpngvba: 5785 ORARIN EQ T166 APGL GVZR: 11:10:11 Qvfc: OA3,R12,GEX11
+
 *** SERR SBEZ - ABG CNEFRQ ***
 JBEXVAT OEHFU SVER @ 3261 GBJA GRE ABEGU CBEG, KFG LRNQBA GRE, NCK 1/4 NPER// ZRQ GB URNIL SHRY// SNFG ZBIVAT// HAVGF BA FPRAR // SQ3 QVFCNGPU 2641 O82 O83 OA8 QBS R81 ENI84 G83 GEX84
 ONLSYVTUG ERS QEBJAVAT NG 2125 JRABAN QE ACEG T524//OA8, R83, E84, GEX84 BA FPRAR JVGU 2LBZ PBAF/OERNGUVAT//QVFCNGPURE #2675
@@ -188,6 +192,19 @@ choyvp pynff SYFnenfbgnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:18:17:25",
         "HAVG:OA7,R74,R75");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgRqOneoSver() {
+
+    qbGrfg("G1",
+        "RIRAG GLCR: NYNEZF-PRAGENY FGN. Ybpngvba: 5785 ORARIN EQ T166 APGL GVZR: 11:10:11 Qvfc: OA3,R12,GEX11",
+        "PNYY:NYNEZF-PRAGENY FGN.",
+        "NQQE:5785 ORARIN EQ",
+        "ZNC:T166",
+        "GVZR:11:10:11",
+        "HAVG:OA3,R12,GEX11");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
