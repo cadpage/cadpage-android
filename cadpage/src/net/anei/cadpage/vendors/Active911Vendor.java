@@ -236,7 +236,7 @@ class Active911Vendor extends Vendor {
       "US/AR/PulaskiCountyPageReceived",  "ARPulaskiCountyB",
       "US/AZ/CityofCottonwood",           "AZYavapaiCountyC",
       "US/AZ/CityofShowLow",              "AZNavajoCountyB",
-      "US/AZ/NavajoCounty",               "AZNavajoCounty",
+      "US/AZ/NavajoCounty",               "AZNavajoCountyA",
       "US/AZ/RuralMetro",                 "AZYavapaiCountyD",
       "US/CA/AmadorCounty",               "CAAmadorCounty",
       "US/CA/Bducad",                     "CASanBernardinoCountyC",
