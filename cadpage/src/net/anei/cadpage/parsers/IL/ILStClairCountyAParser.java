@@ -67,8 +67,9 @@ public class ILStClairCountyAParser extends FieldProgramParser {
   }
   
   private static final Pattern PTN_CROSS_STREET = Pattern.compile("(.*?)\\(/?(.*)\\)(.*?)");
-  private static final Pattern PTN_FULL_ADDR = Pattern.compile("(.*, .*), *\\d{5}(?: +#(.*))?");
+  private static final Pattern PTN_FULL_ADDR = Pattern.compile("(.*?, .*?)(?:, *(IL|MO))?, *\\d{5}(?: +#(.*))?");
   private static final Pattern PTN_FULL_ADDR2 = Pattern.compile("(\\d+ )+#([^ ]+) +(.*)");
+  private static final Pattern PTN_INTERSECT = Pattern.compile(",[ A-Z]+/");
   private static final Pattern PTN_APT = Pattern.compile("(.*)# *([^ ]+) (.*)");
   private class MyAddressField extends AddressCityField {
     
@@ -99,12 +100,17 @@ public class ILStClairCountyAParser extends FieldProgramParser {
       match = PTN_FULL_ADDR.matcher(field);   // This will match address, city, and zip
       if (match.matches()) {
         field = match.group(1).trim();                       // Remove the zipcode
-        apt = getOptGroup(match.group(2));
+        data.strState = getOptGroup(match.group(2));
+        apt = getOptGroup(match.group(3));
       } 
       else if ((match = PTN_FULL_ADDR2.matcher(field)).matches()) {
         field = match.group(1) + match.group(3);
         apt = append(match.group(2), "-", apt);
       }
+      
+      // Intersections usually have cities following both street names, so get rid
+      // of the first one
+      field = PTN_INTERSECT.matcher(field).replaceFirst("/");
       
       // Then there are the free floating apt fields behind the street number :(
       match = PTN_APT.matcher(field);
@@ -119,7 +125,7 @@ public class ILStClairCountyAParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return super.getFieldNames() + " X";
+      return super.getFieldNames() + " ST X";
     }
   }
 }
