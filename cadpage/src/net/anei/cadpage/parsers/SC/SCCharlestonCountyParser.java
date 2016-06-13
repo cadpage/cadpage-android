@@ -48,7 +48,7 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
     FParser p = new FParser(body);
     
     int callLen;
-    if (p.check("*")) callLen = 28;
+    if (p.check("Response Group*") || p.check("*")) callLen = 28;
     else if (p.check("CHARLESTON COUNTY: ")) callLen = 29;
     else callLen = -1;
     if (callLen > 0) {
