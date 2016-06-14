@@ -719,8 +719,6 @@ public class MsgOptionManager {
       return false;
     }
   }
-  
-  private static final Pattern BAD_LABEL_PTN = Pattern.compile("[! ]+");
 
   /**
    * Request map location for message
@@ -747,13 +745,10 @@ public class MsgOptionManager {
         searchStr = "geo:0,0?q=" + Uri.encode(searchStr);
         
         // Add real address as title
-        String addr = message.getAddress();
-        if (addr.length() > 0) {
-          String label = addr;
-          Matcher match = BAD_LABEL_PTN.matcher(label);
-          if (match.lookingAt()) label = label.substring(match.end());
-          searchStr = searchStr + '(' + Uri.encode(label) + ')';
-        }
+//        String addr = message.getAddress();
+//        if (addr.length() > 0) {
+//          searchStr = searchStr + '(' + Uri.encode(addr) + ')';
+//        }
       }
       
       // Regular address parsing
