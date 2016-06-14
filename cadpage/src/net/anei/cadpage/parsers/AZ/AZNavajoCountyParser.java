@@ -7,6 +7,6 @@ import net.anei.cadpage.parsers.GroupBestParser;
  */
 public class AZNavajoCountyParser extends GroupBestParser {
   public AZNavajoCountyParser() {
-    super(new AZNavajoCountyAParser(), new AZNavajoCountyBParser());
+    super(new AZNavajoCountyAParser(), new AZNavajoCountyBParser(), new AZNavajoCountyCParser());
   }
 }

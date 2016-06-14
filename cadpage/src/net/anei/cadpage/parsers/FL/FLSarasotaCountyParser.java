@@ -33,6 +33,12 @@ public class FLSarasotaCountyParser extends FieldProgramParser {
     return super.parseMsg(body, data);
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
+  }
+  
   private static final Pattern MAP_PTN = Pattern.compile(" (G\\d{3})$");
   private class MyAddressField extends AddressField {
     @Override
@@ -50,18 +56,20 @@ public class FLSarasotaCountyParser extends FieldProgramParser {
         field = field.substring(0,match.start()).trim();
       }
       super.parse(field, data);
+      
+      if (data.strMap.length() == 0) {
+        match = MAP_PTN.matcher(data.strAddress);
+        if (match.find()) {
+          data.strMap = match.group(1);
+          data.strAddress = data.strAddress.substring(0,match.start()).trim();
+        }
+      }
     }
     
     @Override
     public String getFieldNames() {
       return super.getFieldNames() + " MAP PLACE";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    return super.getField(name);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
