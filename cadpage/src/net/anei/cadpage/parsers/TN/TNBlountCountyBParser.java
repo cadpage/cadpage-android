@@ -28,7 +28,7 @@ public class TNBlountCountyBParser extends DispatchA66Parser {
       "MA1", "MARYVILLE",
       "MA2", "MARYVILLE",
       "MA3", "MARYVILLE",
-      "MA3", "MARYVILLE",
+      "MA4", "MARYVILLE",
       "MA5", "MARYVILLE",
       "MA6", "MARYVILLE",
       "ROC", "ROCKFORD",
