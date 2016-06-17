@@ -12,7 +12,7 @@ public class MIShiawasseeCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "ALPENACOUNTY.ORG@alpenacounty.org";
+    return "CAD@shiawassee.net,CAD@shiawassee.local";
   }
   
   @Override

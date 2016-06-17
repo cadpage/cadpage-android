@@ -61,7 +61,6 @@ public class OKBryanCountyBParser extends DispatchB2Parser {
       "UTICA",
       "YARNABY",
       "YUBA"
-     
   };
 
 }

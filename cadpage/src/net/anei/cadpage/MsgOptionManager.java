@@ -745,9 +745,11 @@ public class MsgOptionManager {
         searchStr = "geo:0,0?q=" + Uri.encode(searchStr);
         
         // Add real address as title
-        String addr = message.getAddress();
-        if (addr.length() > 0) {
-          searchStr = searchStr + '(' + Uri.encode(addr) + ')';
+        if (!ManagePreferences.noMapGpsLabel()) {
+          String addr = message.getAddress();
+          if (addr.length() > 0) {
+            searchStr = searchStr + '(' + Uri.encode(addr) + ')';
+          }
         }
       }
       

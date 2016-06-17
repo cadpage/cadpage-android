@@ -1258,6 +1258,14 @@ public class ManagePreferences {
   public static void setPrevMEID(String newVal) {
     prefs.putString(R.string.pref_prev_meid_key, newVal);
   }
+
+  public static boolean noMapGpsLabel() {
+    return prefs.getBoolean(R.string.pref_no_map_gps_label);
+  }
+  
+  public static void setNoMapGpsLabel(boolean newVal) {
+    prefs.putBoolean(R.string.pref_no_map_gps_label, newVal);
+  }
   
   public static void clearAll() {
     SharedPreferences.Editor settings = prefs.mPrefs.edit();
@@ -2441,6 +2449,8 @@ public class ManagePreferences {
       R.string.pref_use_old_gcm,
       
       R.string.pref_prev_meid_key,
-      R.string.pref_transfer_flag_key
+      R.string.pref_transfer_flag_key,
+      
+      R.string.pref_no_map_gps_label
   };
 }
