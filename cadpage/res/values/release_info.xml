@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">06132016</string>
+  <string name="release_date">06162016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.09.04\n
+New Locations:\n
+Carlton County, MN\n
+Cook County, MN\n
+McDuffie County, GA\n
+Johnson County, IN\n
+Itasca County, MN\n
+Koochiching County, MN\n
+Lake County, MN\n
+Lake of the Woods County, MN\n
+Pine County, MN\n
+Pope County, MN\n
+St Louis County, MN\n
+Iron County, MO\n
+Cooke County, TX\n
+\n
+Location Fixes:\n
+Lorain County, OH\n
+Blount County, TN\n
+\n
 v1.9.09.03\n
 Location Fixes:\n
 Navajo County, AZ\n
@@ -48,41 +68,7 @@ Location Fixes:\n
 Dorchester County, MD\n
 Franklin County, MO\n
 Hunterdon County, NJ\n
-Harnett County, NC\n
-\n
-v1.9.08.02\n
-Roll back all of the bad stuff\n
-\n
-v1.9.08.01\n
-Lots of bad stuff!!!!\n
-\n
-v1.9.07.13\n
-New Locations:\n
-Jackson County, AL\n
-Jefferson County, AL (alt)\n
-Matanuska-susitna Borough, AK\n
-Cherokee County, GA\n
-Effingham County, GA (alt)\n
-Butts County, GA\n
-Pickens County, GA\n
-Whitley County, IN\n
-Livingston Parish, LA\n
-Bourbon County, KS\n
-Jackson County, KS\n
-Wyandotte County, KS\n
-Spencer County, KY\n
-Clay County, MO\n
-Ashe County, NC\n
-Providence County, RI\n
-Parker County, TX (alt)\n
-Rock County, WI\n
-Shropshire County, UK\n
-\n
-Location Fixes:\n
-Washington County, MD\n
-Minneapolis/St Paul, MN\n
-Hamilton County, OH\n
-Montgomery County, PA
+Harnett County, NC
   </string>
 </resources>
   
