@@ -20,15 +20,6 @@ public class MagicWordEvent extends DonateQueryEvent {
   public MagicWordEvent() {
     super(null, R.string.donate_magic_word_title, R.string.donate_magic_word_text);
   }
-//
-//  @Override
-//  public boolean isEnabled() {
-//    DonationManager.DonationStatus status = DonationManager.instance().status();
-//    return status != DonationManager.DonationStatus.LIFE &&
-//            status != DonationManager.DonationStatus.PAID &&
-//            status != DonationManager.DonationStatus.AUTH_DEPT &&
-//            status != DonationManager.DonationStatus.SPONSOR;
-//  }
 
   @Override
   protected boolean process(Activity activity, String input) {
@@ -63,6 +54,16 @@ public class MagicWordEvent extends DonateQueryEvent {
     
     if (input.equalsIgnoreCase("BT2")) {
       ManageBluetooth.instance().probe(activity);
+      return true;
+    }
+    
+    if (input.equalsIgnoreCase("NOGPSLABEL")) {
+      ManagePreferences.setNoMapGpsLabel(true);
+      return true;
+    }
+    
+    if (input.equalsIgnoreCase("YESGPSLABEL")) {
+      ManagePreferences.setNoMapGpsLabel(false);
       return true;
     }
     

@@ -158,5 +158,6 @@
     <string name="pref_use_old_gcm">use_old_gcm</string>
     <string name="pref_prev_meid_key">prev_meid</string>
     <string name="pref_transfer_flag_key">transfer_flag</string>
+    <string name="pref_no_map_gps_label">no_map_gps_label</string>
 
 </resources>
