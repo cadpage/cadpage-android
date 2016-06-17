@@ -44,7 +44,7 @@ choyvp pynff BXOelnaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:OEHFU SVER",
         "NQQE:2656 ZPVAGBFU EQ",
         "K:YRNIRAJBEGU GE",
-        "ANZR:OELNA PBHAGL",
+        "ANZR:OELNA PBHAGL", //guvf vf rireljurer. vs v chg vg va pvgl vg qbag jbex evtug, ohg vgf fybccl urer. nqqerffrf cna bhg nyyevtug
         "CUBAR:5802300017",
         "ZNC:1416",
         "VQ:20");
