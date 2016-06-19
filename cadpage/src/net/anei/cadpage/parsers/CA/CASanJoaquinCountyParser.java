@@ -40,6 +40,7 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
   
   private static final Pattern RUN_REPORT_PTN1 = Pattern.compile("([-A-Z0-9]+) +(?:(\\d{8}|[A-Z]{2,3}-\\d{6}) +)?(Dispatched:.*?Enroute:.*?On Scene:.*?(?:AOR|Clear Call):.*)");
   private static final Pattern RUN_REPORT_PTN2 = Pattern.compile("RUN REPORT CAD ?#(\\d{8}|[A-Z]{2,3}-\\d{6}) +([-\\(\\)A-Z0-9]{1,10}) *((?:Dispatched:.*Enroute:.*On Scene:.*AOR:|Disp:.*Resp:.*On Scene:.*TX:.*Dest:.*AOR:).*)");
+  private static final Pattern RUN_REPORT_PTN3 = Pattern.compile("([-A-Z0-9]+) +CAD ID #: +Run \\(PCR#\\):(\\d+)\\*RUN REPORT\\*(.*?)STmiles/Emiles/Grid/\\S* *Map/(\\S*) *Area/.*");
   private static final Pattern RR_ID1_PTN = Pattern.compile("[A-Z]{2,3}-\\d{6}");
   private static final Pattern RR_UNIT_PTN = Pattern.compile("[A-Z0-9]+");
   private static final Pattern RR_TIME_PTN = Pattern.compile("\\d\\d:\\d\\d:\\d\\d|");
@@ -76,6 +77,17 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
       data.strCallId = match.group(1);
       data.strUnit = match.group(2);
       data.strSupp = cleanRunReportText(match.group(3));
+      return true;
+    }
+    
+    match = RUN_REPORT_PTN3.matcher(body);
+    if (match.matches()) {
+      setFieldList("UNIT ID INFO MAP");
+      data.msgType = MsgType.RUN_REPORT;
+      data.strCallId = match.group(1);
+      data.strUnit = match.group(2);
+      data.strSupp = cleanRunReportText(match.group(3));
+      data.strMap = match.group(4);
       return true;
     }
     
@@ -230,6 +242,26 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
         
       }
       if (!p.check(RUN_PCR_PTN)) break;
+      if (p.check("Loc:")) {
+        String place = p.get(50);
+        String addr = p.get(50);
+        String cross = p.get(20);
+        if (!p.check("Bldg:")) break;
+        String apt = p.get(10);
+        if (!p.check("Apt:")) break;
+        apt = append(apt, "-", p.get(10));
+        if (!p.check("City:")) break;
+        String city = p.get();
+
+        setFieldList("UNIT ID PLACE ADDR X APT CITY");
+        data.strPlace = place;
+        parseAddress(addr, data);
+        data.strCross = cross;
+        data.strApt = apt;
+        data.strCity = city;
+        return true;
+      }
+        
       callId = append(callId, "/", p.get(8));
       if (p.check("*RUN REPORT*") || p.check("                      *RUN REPORT*")) {
         setFieldList("UNIT ID INFO");

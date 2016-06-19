@@ -298,6 +298,7 @@ class Active911Vendor extends Vendor {
       "US/CA/Suisun",                     "CASuisunCityA",
       "US/CA/Vallejo",                    "CASolanoCountyA",
       "US/CA/VRECC",                      "CASanJoaquinCounty",
+      "US/CA/VRECCEMS",                   "CASanJoaquinCounty",
       "US/CA/YoloCounty",                 "CAYoloCountyB",
       "US/CO/AdamsCounty",                "COAdamsCounty",
       "US/CO/ArchuletaCounty",            "COArchuletaCounty",
