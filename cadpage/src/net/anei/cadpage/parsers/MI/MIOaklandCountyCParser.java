@@ -9,8 +9,17 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class MIOaklandCountyCParser extends FieldProgramParser {
 
   public MIOaklandCountyCParser() {
-    super("OAKLAND COUNTY", "MI", 
+    this("OAKLAND COUNTY", "MI");
+  }
+
+  MIOaklandCountyCParser(String defCity, String defState) {
+    super(defCity, defState, 
           "CALL ADDR ADDR2? APT? PLACE+? PHONE END");
+  }
+  
+  @Override
+  public String getAliasCode() {
+    return "MIOaklandCounty";
   }
   
   @Override
