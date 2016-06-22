@@ -1319,7 +1319,7 @@ class Active911Vendor extends Vendor {
       "US/WA/BentonCounty",               "WABentonCounty",
       "US/WA/CityofFife",                 "WAPierceCountyC",
       "US/WA/ClallamCounty",              "WAClallamCounty",
-      "US/WA/Cowlitz911",                 "US/WA/CowlitzCounty",
+      "US/WA/Cowlitz911",                 "WACowlitzCounty",
       "US/WA/CowlitzCounty",              "WACowlitzCounty",
       "US/WA/GraysHarborCounty",          "WAGraysHarborCounty",
       "US/WA/IslandCounty",               "WAIslandCounty",
