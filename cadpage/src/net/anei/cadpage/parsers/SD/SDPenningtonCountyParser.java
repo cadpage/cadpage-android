@@ -18,7 +18,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
   
   public SDPenningtonCountyParser() {
     super(CITY_LIST, "PENNINGTON COUNTY", "SD",
-          "SRC UNIT CALL ADDR! INFODATETIME+");
+          "SRC EMPTY? UNIT CALL ADDR! INFODATETIME+");
     setupCallList(CALL_LIST);
   }
 
@@ -272,16 +272,24 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
     }
   }
   
+  // Call list is only needed for old format calls that are (probably) no longer sued
+  // so we aren't bothering to maintain it any more
   private static final CodeSet CALL_LIST = new CodeSet(
       "AB",
       "AB-C",
       "AB-C",
       "ACC",
+      "ACCHR",
       "ACCI",
       "ACCUI",
+      "ALLERGY",
       "ALLERGY-C",
+      "ALT3",
       "ASLT",
+      "ASSIST",
       "BACK",
+      "BACK-C",
+      "BLEED",
       "BLEED-B",
       "BLEED-D",
       "BREATH",
@@ -294,6 +302,8 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "CIV",
       "DIABETIC",
       "DIABETIC-C",
+      "DOA",
+      "ELE",
       "ELEVATOR",
       "EMS",
       "EXPOSURE-A",
@@ -304,9 +314,11 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "FALL-B",
       "FALL-D",
       "FALL-D2",
+      "FATAL",
       "FIGHT",
       "FIRE",
       "FUEL",
+      "FUEL-C",
       "GRASSF",
       "HEAD",
       "HEART-C",
@@ -315,30 +327,40 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "MP",
       "MUTUAL",
       "PG-C",
+      "PG-D",
       "POISON",
+      "RESCUE-D",
+      "ROAD HAZARD",
       "SEIZURE",
       "SEIZURE-C",
+      "SEIZURE-D",
       "SEIZURE-D2",
       "SICK PERSON DELTA LEVEL",
       "SICK",
       "SICK-C",
       "SICK-D",
+      "SIG1",
+      "SIG2",
       "SMFIRE",
       "SMFIRE-B1B",
       "SMOKE",
       "SRV",
       "STBY",
       "STROKE-C",
+      "STROKE-C1",
       "STROKE-C3",
       "STROKE-C4",
       "STRUCF",
       "STRUCF-D4",
       "STRUCF-D9",
+      "STRUCF2",
       "SUIC",
       "TRANSFER",
       "TRAUMA",
       "TRAUMA-B",
       "TRAUMA-D",
+      "TRAUMA-D1",
+      "TX",
       "TX2",
       "TX3",
       "UNCON CHILD",
@@ -349,7 +371,10 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "VEHF",
       "VEHF-B1",
       "VEHF-D4",
-      "WAR"
+      "WAR",
+      "WATER-D6",
+      "WEATHER",
+      "WILDF"
   );
   
   private static final String[] CITY_LIST = new String[]{

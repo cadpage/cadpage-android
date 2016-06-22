@@ -204,6 +204,7 @@ class Active911Vendor extends Vendor {
       "US/AL/Colbert",                    "ALColbertCounty",
       "US/AL/DallasCounty",               "ALDallasCounty",
       "US/AL/Dothan",                     "ALDothan",
+      "US/AL/EmergencyCallWorx",          "ALBaldwinCounty",
       "US/AL/Gardendale",                 "ALJeffersonCountyH",
       "US/AL/Hoover",                     "ALHoover",
       "US/AL/JacksonCounty",              "ALJacksonCounty",

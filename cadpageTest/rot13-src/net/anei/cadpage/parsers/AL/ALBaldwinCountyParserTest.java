@@ -25,7 +25,6 @@ Pbagnpg: Npgvir911
 Ntrapl anzr: Qncuar Sver Qrcg. Ybpngvba: Qncuar, NY 
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 
-** Erzbirq **
 (QN) 07-28-12 01:58: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 318559 (Purfg Cnva) ng 29793 JBBQEBJ YA
 (QN) 07-28-12 13:44: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 318716 (Trareny Vyyarff) ng 131 EVQTRJBBQ QE (0)
 (QN) 07-28-12 14:11: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 318728 (Nhgb Nppvqrag) ng UJL181 AO V-10
@@ -37,7 +36,6 @@ Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (QN) 07-29-12 09:06: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319086 (Hapbafpvbhf) ng 200 CNEZN QE
 (QN) 07-29-12 11:38: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319128 (Sver Nynez) ng 27642 HF UJL 98
 (QN) 07-29-12 14:03: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319179 (Fgebxr) ng 28480 ONL PYVSS YA
-** Erzbirq **
 (QN) 07-30-12 06:56: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319399 (Fgehpgher Sver) ng CNEX QE
 (QN) 07-30-12 08:19: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319417 (Hapbafpvbhf) ng 27434 FGENGSBEQ TYRA QE
 (QN) 07-30-12 08:51: Fgngvba FGN66 qvfcngpurq gb Vapvqrag VQ 319429 (Snyy) ng 29951 FG ONEONEN FG
