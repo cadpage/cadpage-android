@@ -449,6 +449,11 @@ public class ManagePreferences {
     public int splitBreakPad() {
       return 0;
     }
+
+    @Override
+    public boolean subjectColonField() {
+      return false;
+    }
   }
   
   public static boolean suppressDupMsg() {

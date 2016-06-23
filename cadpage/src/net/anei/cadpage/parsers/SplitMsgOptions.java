@@ -66,4 +66,9 @@ public interface SplitMsgOptions {
    * @return
    */
   public int splitBreakPad();
+  
+  /**
+   * @return true if subject should be treated as part of the message text with a trailing colon
+   */
+  public boolean subjectColonField();
 }
