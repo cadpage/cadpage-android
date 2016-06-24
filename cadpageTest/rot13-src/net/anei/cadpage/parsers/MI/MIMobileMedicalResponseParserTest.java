@@ -72,6 +72,7 @@ Pbagnpg: Xvoorl, Xnyvo <xxvoorl@zbovyrzrqvpny.bet>
 Fraqre: znvytubfg@zbovyrzrqvpny.bet
 (<PNQ> - cneg 1 bs 1) EP:700 PBBCRE NIR/12/255 ZNLRE EQ/SBJYRE/ YNJERAPR/Eha# 63879/Ab rkgenf//qrovyvgl/18:03
 (<PNQ> - cneg 1 bs 1) EP:3601 F JNFUVATGBA NIR///<Haxabja>/Eha# 64328/fgehpgher sver rirelbar trggvat bhg bs gur ubhfr/21:07
+(<PNQ> - cneg 1 bs 1) EP:5142 ZNLOEBBX QE///<Haxabja>/Eha# 64368/Libaar Tneergg//5934 tnentr pbqr//Ers 8167598//Zrqvpny Nynez/00:07
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zbovyr Zrqvpny Erfcbafr
@@ -331,6 +332,14 @@ choyvp pynff ZVZbovyrZrqvpnyErfcbafrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:64328",
         "PNYY:fgehpgher sver rirelbar trggvat bhg bs gur ubhfr",
         "GVZR:21:07");
+
+    qbGrfg("G3",
+        "(<PNQ> - cneg 1 bs 1) EP:5142 ZNLOEBBX QE///<Haxabja>/Eha# 64368/Libaar Tneergg//5934 tnentr pbqr//Ers 8167598//Zrqvpny Nynez/00:07",
+        "NQQE:5142 ZNLOEBBX QE",
+        "VASB:5934 tnentr pbqr / Ers 8167598 / Zrqvpny Nynez",
+        "VQ:64368",
+        "PNYY:Libaar Tneergg",
+        "GVZR:00:07");
  
   }
 
