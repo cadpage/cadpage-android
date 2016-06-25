@@ -106,6 +106,7 @@ class Active911Vendor extends Vendor {
   
   private static final Properties ACTIVE_ACCTS = MsgParser.buildCodeTable(new String[]{
       "21301",   "06082016",
+      "191976",  "06232016"
   });
 
 
@@ -1055,7 +1056,7 @@ class Active911Vendor extends Vendor {
       "US/OR/WheelerCounty",              "ORWheelerCounty",
       "US/OR/Woodburn",                   "ORMarionCounty",
       "US/OR/Yamhill",                    "ORYamhillCountyB",
-      "US/PA/AdamsCounty",                "PAAdamsCounty",
+      "US/PA/AdamsCounty",                "PAAdamsCountyA",
       "US/PA/AlleghenyCounty",            "PAAlleghenyCountyA",
       "US/PA/ArmstrongCounty",            "PAArmstrongCounty",
       "US/PA/BeaverCounty",               "PABeaverCounty",
