@@ -1,25 +1,25 @@
 package net.anei.cadpage.parsers.CA;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 /**
  * Shasta County, CA
  */
-public class CAShastaCountyAParser extends SmartAddressParser {
-
-  private static final Pattern GPS_PTN = Pattern.compile(" <a href=\"http://maps.google.com/\\?q=([-+]?\\d+\\.\\d{4,},[-+]?\\d+\\.\\d{4,})\"");
-  private static final String GPS_STR = " <a href=\"http://maps.google.com/?q=40.618995,-122.436166\">Map</a>";
+public class CAShastaCountyAParser extends FieldProgramParser {
   
   public CAShastaCountyAParser() {
-    super("SHASTA COUNTY", "CA");
-    setFieldList("CALL PLACE ADDR APT SRC CITY X MAP ID UNIT INFO GPS");
+    super("SHASTA COUNTY", "CA", 
+          "( ID2 CALL ADDR1 ADDR2 ADDR3! Remarks:INFO INFO/N+? GPS2 Resources:UNIT " +
+          "| CALL ADDR1 ADDR2 ADDR3! Map:MAP! ID1! UNIT INFO/N+? GPS1 )");
   }
   
   @Override
@@ -33,74 +33,95 @@ public class CAShastaCountyAParser extends SmartAddressParser {
   }
 
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
     
-    // Strip GPS or partial GPS URL from end of text
-    Matcher match = GPS_PTN.matcher(body);
-    if (match.find()) {
-      setGPSLoc(match.group(1), data);
-      body = body.substring(0,match.start()).trim();
-    } else {
-      int pt = body.lastIndexOf(" <a");
-      if (pt >= 0) {
-        String part = body.substring(pt);
-        if (GPS_STR.startsWith(part) || part.startsWith(GPS_STR)) {
-          body = body.substring(0,pt).trim();
+    int pt = body.indexOf("\n-- \n");
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    String[] flds = body.replace('\n', ' ').trim().split(" *; *");
+    if (flds.length < 6) flds = body.split("\n");
+    return parseFields(flds,  6, data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ID2")) return new IdField("Incident #(\\d+)", true);
+    if (name.equals("ID1")) return new IdField("Inc# +(\\d+)", true);
+    if (name.equals("ADDR1")) return new MyAddressField(1);
+    if (name.equals("ADDR2")) return new MyAddressField(2);
+    if (name.equals("ADDR3")) return new MyAddressField(3);
+    if (name.equals("GPS2")) return new MyGPSField(2);
+    if (name.equals("GPS1")) return new MyGPSField(1);
+    return super.getField(name);
+  }
+
+  private List<AddrStat> addressLines = new ArrayList<AddrStat>();
+  
+  private class MyAddressField extends AddressField {
+    
+    private int type;
+    
+    public MyAddressField(int type) {
+      this.type = type;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+
+      // First address line resets the address list
+      // and does some extra parsing
+      if (type == 1) {
+        addressLines.clear();
+        
+        int pt = field.indexOf('@');
+        if (pt >= 0) {
+          data.strPlace = field.substring(0,pt).trim();
+          field = field.substring(pt+1).trim();
+        }
+        
+        int limit = 0;
+        if (field.startsWith("=L(")) {
+          limit = field.indexOf(')')+1;
+          if (limit <= 0) limit = field.length();
+        }
+        if (limit < field.length() && field.endsWith(")")) {
+          pt = field.lastIndexOf('(');
+          if (pt < limit) abort();
+          data.strPlace = append(data.strPlace, " - ", field.substring(pt+1, field.length()-1).trim());
+          field = field.substring(0,pt).trim();
+        }
+        pt = field.lastIndexOf(',');
+        if (pt >= limit) {
+          String src = field.substring(pt+1).trim();
+          field = field.substring(0,pt).trim();
+          if (src.startsWith("STA")) {
+            data.strSource = src;
+          } else {
+            data.strCity = convertCodes(src, CITY_CODES);
+          }
+        }
+      }
+      
+      // All address lines go into the address line table
+      if (field.length() > 0) addressLines.add(new AddrStat(field));
+      
+      // And the last address line gets to work out just what goes where
+      // Life gets complicated, we have up to three address fields, but the best address
+      // is not necessarily the first.  Sort them by address quality, the first
+      // one will be the address, others will be cross streets
+      if (type == 3) {
+        Collections.sort(addressLines);
+        if (addressLines.size() == 0) return;
+        parseAddress(addressLines.get(0).address, data);
+        for (int ndx = 1; ndx < addressLines.size(); ndx++) {
+          data.strCross = append(data.strCross, " & ", addressLines.get(ndx).address);
         }
       }
     }
     
-    String[] flds = body.replace('\n', ' ').trim().split(" *; *");
-    if (flds.length < 6) return false;
-    
-    String[] addressList = new String[3];
-    
-    data.strCall = flds[0];
-    String addr =  flds[1];
-    if (addr.endsWith(")")) {
-      int pt = addr.lastIndexOf('(');
-      if (pt < 0) return false;
-      data.strPlace = addr.substring(pt+1, addr.length()-1).trim();
-      addr = addr.substring(0,pt).trim();
+    @Override
+    public String getFieldNames() {
+      return "ADDR APT SRC CITY PLACE X";
     }
-    Parser p = new Parser(addr);
-    data.strPlace = append(p.getOptional('@'), " - ", data.strPlace);
-    String src = p.getLastOptional(',');
-    if (src.length() == 0) return false;
-    if (src.startsWith("STA")) {
-      data.strSource = src;
-    } else {
-      data.strCity = convertCodes(src, CITY_CODES);
-    }
-    addressList[0] = p.get();
-    addressList[1] = flds[2];
-    addressList[2] = flds[3];
-    
-    // Life gets complicated, we have three address fields, but the best address
-    // is not necessarily the first.  Sort them by address quality, the first
-    // one will be the address, others will be cross streets
-    AddrStat[] statList = new AddrStat[3];
-    for (int j = 0; j< 3; j++) {
-      statList[j] = new AddrStat(addressList[j]);
-    }
-    Arrays.sort(statList);
-    parseAddress(statList[0].address, data);
-    data.strCross = append(statList[1].address, " & ", statList[2].address);
-    
-    // Parse rest of fields
-    if (!flds[4].startsWith("Map:")) return false;
-    data.strMap = flds[4].substring(5).trim();
-    
-    if (!flds[5].startsWith("Inc# ")) return false;
-    data.strCallId = flds[5].substring(5).trim();
-    
-    if (flds.length <= 6) return true;
-    data.strUnit = flds[6];
-    
-    if (flds.length <= 7) return true;
-    data.strSupp =flds[7];
-    
-    return true;
   }
   
   private class AddrStat implements Comparable<AddrStat>{
@@ -123,6 +144,49 @@ public class CAShastaCountyAParser extends SmartAddressParser {
     }
   }
 
+  private static final Pattern[] GPS_PTNS = new Pattern[]{
+    Pattern.compile("<a href=\"http://maps.google.com/\\?q=([-+]?\\d+\\.\\d{4,},[-+]?\\d+\\.\\d{4,})\""),
+    Pattern.compile("http://maps.google.com/\\?q=([-+]?\\d+\\.\\d{4,},[-+]?\\d+\\.\\d{4,})")
+  };
+  private static final String[] GPS_STRS = new String[]{
+    "<a href=\"http://maps.google.com/?q=",
+    "http://maps.google.com/?q="
+  };
+  private class MyGPSField extends GPSField {
+    
+    private Pattern gpsPtn;
+    private String gpsStr;
+    
+    public MyGPSField(int type) {
+      gpsPtn = GPS_PTNS[type-1];
+      gpsStr = GPS_STRS[type-1];
+    }
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      
+      Matcher match = gpsPtn.matcher(field);
+      if (match.find()) {
+        setGPSLoc(match.group(1), data);
+        return true;
+      } 
+      
+      // Check for truncated GPS field
+      if (gpsStr.startsWith(field) || field.startsWith(gpsStr)) return true;
+      return false;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+  }
+
   @Override
   public String adjustMapCity(String city) {
     city = convertCodes(city, CITY_MAP);
@@ -141,9 +205,11 @@ public class CAShastaCountyAParser extends SmartAddressParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "BELLAVISTA",   "BELLA VISTA",
+      "BIGBEND",      "BIG BEND",
       "JONESVALLEY",  "JONES VALLEY",
       "MONTGOMERYCK", "MONTGOMERY CREEK",
       "MTNGATE",      "MOUNTAIN GATE",
+      "OLDSTA",       "OLD STATION",
       "PALOCEDRO",    "PALO CEDRO",
       "REDDINGCTY",   "REDDING",
       "SHASTACOLL",   "SHASTA COLLEGE",
