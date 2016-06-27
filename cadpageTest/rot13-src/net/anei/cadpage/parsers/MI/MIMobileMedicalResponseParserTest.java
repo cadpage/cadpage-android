@@ -67,12 +67,19 @@ Fraqre: znvytubfg@zbovyrzrqvpny.bet
 Pbagnpg: qnivq penzgba <nzoref_qrpbe@foptybony.arg>
 Fraqre: znvytubfg@zbovyrzrqvpny.bet
 ( - cneg 1 bs 1) EP:Eha# 83836/14:21/2600 FPUHFG EQ/10/cnaperngvgvf// vi-af jvqr bcra// vz erfvqragf npprcgvat///800 F JNFUVATGBA NIR/JNGFBA/ NLFUN
+(<PNQ> - cneg 1 bs 1) EP:Tb gb cbfg FNT-FGNGVBA 15
+(<PNQ> - cneg 1 bs 1) EP:Wbo# 0187-N (Eha# 64542) ng 14:45 jnf hanffvtarq.
+(<PNQ> - cneg 1 bs 1) EP:0237-N/Eha#64587/16:17/16:18/16:18/16:22/16:35/16:35/16:35/16:35/CHMVC:48601
 
 Pbagnpg: Xvoorl, Xnyvo <xxvoorl@zbovyrzrqvpny.bet>
 Fraqre: znvytubfg@zbovyrzrqvpny.bet
 (<PNQ> - cneg 1 bs 1) EP:700 PBBCRE NIR/12/255 ZNLRE EQ/SBJYRE/ YNJERAPR/Eha# 63879/Ab rkgenf//qrovyvgl/18:03
 (<PNQ> - cneg 1 bs 1) EP:3601 F JNFUVATGBA NIR///<Haxabja>/Eha# 64328/fgehpgher sver rirelbar trggvat bhg bs gur ubhfr/21:07
 (<PNQ> - cneg 1 bs 1) EP:5142 ZNLOEBBX QE///<Haxabja>/Eha# 64368/Libaar Tneergg//5934 tnentr pbqr//Ers 8167598//Zrqvpny Nynez/00:07
+
+Pbagnpg: Uvpxzbgg, Gubznf <guvpxzbgg@zbovyrzrqvpny.bet>
+Fraqre: znvytubfg@zbovyrzrqvpny.bet
+Fhowrpg:<PNQ> - cneg 1 bs 1\aEP:1114 NZRF FG///<Haxabja>/Eha# 64644//19:27
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zbovyr Zrqvpny Erfcbafr
@@ -311,6 +318,23 @@ choyvp pynff ZVZbovyrZrqvpnyErfcbafrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NCG:10",
         "PNYY:cnaperngvgvf",
         "VASB:vi-af jvqr bcra / vz erfvqragf npprcgvat / 800 F JNFUVATGBA NIR / JNGFBA / NLFUN");
+
+    qbGrfg("G2",
+        "(<PNQ> - cneg 1 bs 1) EP:Tb gb cbfg FNT-FGNGVBA 15",
+        "GLCR:TRA_NYREG",
+        "VASB:Tb gb cbfg FNT-FGNGVBA 15");
+
+    qbGrfg("G3",
+        "(<PNQ> - cneg 1 bs 1) EP:Wbo# 0187-N (Eha# 64542) ng 14:45 jnf hanffvtarq.",
+        "GLCR:EHA_ERCBEG",
+        "VQ:64542",
+        "VASB:jnf hanffvtarq");
+
+    qbGrfg("G4",
+        "(<PNQ> - cneg 1 bs 1) EP:0237-N/Eha#64587/16:17/16:18/16:18/16:22/16:35/16:35/16:35/16:35/CHMVC:48601",
+        "GLCR:EHA_ERCBEG",
+        "VQ:64587",
+        "VASB:16:17\a16:18\a16:18\a16:22\a16:35\a16:35\a16:35\a16:35\aCHMVC:48601");
   
   }
   
@@ -341,6 +365,17 @@ choyvp pynff ZVZbovyrZrqvpnyErfcbafrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Libaar Tneergg",
         "GVZR:00:07");
  
+  }
+  
+  @Grfg
+  choyvp ibvq grfgGubznfUvpxzbgg() {
+
+    qbGrfg("G1",
+        "Fhowrpg:<PNQ> - cneg 1 bs 1\aEP:1114 NZRF FG///<Haxabja>/Eha# 64644//19:27",
+        "NQQE:1114 NZRF FG",
+        "VQ:64644",
+        "PNYY:19:27");
+
   }
 
   @Grfg
