@@ -12,10 +12,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  * Albemarle County, VA
  */
 
-public class VAAlbermarleCountyCParser extends FieldProgramParser {
+public class VAAlbemarleCountyCParser extends FieldProgramParser {
   
-  public VAAlbermarleCountyCParser() {
-    super("ALBERMARLE COUNTY", "VA",
+  public VAAlbemarleCountyCParser() {
+    super("ALBEMARLE COUNTY", "VA",
           "DATETIME! Pri:PRI_CALL! PLACE! AD:ADDRCITY/S6! X! INFO/N+");
     setupProtectedNames("LEWIS AND CLARK");
   }

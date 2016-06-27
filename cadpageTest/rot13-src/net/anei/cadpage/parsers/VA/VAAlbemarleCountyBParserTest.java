@@ -276,7 +276,7 @@ Fraqre: pnq2@nphrpp.bet
 choyvp pynff INNyorzneyrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp INNyorzneyrPbhaglOCnefreGrfg() {
-    frgCnefre(arj INNyorezneyrPbhaglOCnefre(), "NYOREZNEYR PBHAGL", "IN");
+    frgCnefre(arj INNyorzneyrPbhaglOCnefre(), "NYORZNEYR PBHAGL", "IN");
   }
   
   @Grfg

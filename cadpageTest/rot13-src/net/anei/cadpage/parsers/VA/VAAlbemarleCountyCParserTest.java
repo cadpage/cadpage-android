@@ -80,7 +80,7 @@ Fraqre: pnq2@nphrpp.bet
 choyvp pynff INNyorzneyrPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp INNyorzneyrPbhaglPCnefreGrfg() {
-    frgCnefre(arj INNyorezneyrPbhaglPCnefre(), "NYOREZNEYR PBHAGL", "IN");
+    frgCnefre(arj INNyorzneyrPbhaglPCnefre(), "NYORZNEYR PBHAGL", "IN");
   }
 
   @Grfg

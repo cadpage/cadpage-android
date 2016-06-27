@@ -12,15 +12,15 @@ import net.anei.cadpage.parsers.MsgInfo.MsgType;
  * Albemarle County, VA
  */
 
-public class VAAlbermarleCountyParser extends FieldProgramParser {
+public class VAAlbemarleCountyAParser extends FieldProgramParser {
   
   private static final Pattern SRC_PTN = Pattern.compile("((?:ALL )?[A-Z0-9]+) +(.*)");
   private static final Pattern TAIL_JUNK_PTN = Pattern.compile(":?[?=<>;][?=<>;:\\d]*$");
   private static final Pattern GEN_ALERT_PTN = Pattern.compile("TIME: (\\d\\d:\\d\\d) +(.*)");
   private static final Pattern COUNTY_ADDR_PTN = Pattern.compile("([A-Z]+) +\\d+");
   
-  public VAAlbermarleCountyParser() {
-    super(CITY_CODES, "ALBERMARLE COUNTY", "VA",
+  public VAAlbemarleCountyAParser() {
+    super(CITY_CODES, "ALBEMARLE COUNTY", "VA",
           "( PRI:PRI_ID! TYP:CALL | CALL! ) APT:APT? AD:ADDR! CTY:CITY! LOC:PLACE? CMT1:INFO? CMT2:INFO? TIME:TIME_UNIT XST:X? XST2:X?");
   }
   
