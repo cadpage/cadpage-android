@@ -1265,7 +1265,7 @@ class Active911Vendor extends Vendor {
       "US/UT/SaltLakeCounty",             "UTSaltLakeCounty",
       "US/UT/TooeleCounty",               "UTTooeleCounty",
       "US/UT/WeberCounty",                "UTWeberCounty",
-      "US/VA/AlbermarleCounty",           "VAAlbermarleCounty",
+      "US/VA/AlbermarleCounty",           "VAAlbemarleCounty",
       "US/VA/Alexandria",                 "VAAlexandria",
       "US/VA/AppomattoxCounty",           "VAAppomattoxCounty",
       "US/VA/Arcatus",                    "VALoudounCountyB",
