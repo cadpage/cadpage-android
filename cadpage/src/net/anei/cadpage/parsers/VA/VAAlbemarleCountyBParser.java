@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
- * Albemarle County, VA
+ * Albemarle County, VA (B)
  */
 
 public class VAAlbemarleCountyBParser extends FieldProgramParser {

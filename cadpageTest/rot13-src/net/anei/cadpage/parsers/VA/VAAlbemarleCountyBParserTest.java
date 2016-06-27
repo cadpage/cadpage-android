@@ -5,7 +5,8 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Nyorzneyr Pbhagl, IN
+Nyorzneyr Pbhagl, IN (O) 
+
 Pbagnpg: Wbr Befbyvav <zhmm3256@tznvy.pbz>
 Pnfrl Gnlybe <pgnlybe1341@tznvy.pbz>
 Arnyr Avpxryf <arnyr.avpxryf@tznvy.pbz>
