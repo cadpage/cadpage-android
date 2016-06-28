@@ -4,6 +4,7 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.HashSet;
+import java.util.Properties;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -15,7 +16,11 @@ import net.anei.cadpage.parsers.MsgInfo.MsgType;
 public class DispatchSPKParser extends HtmlProgramParser {
 
   public DispatchSPKParser(String defCity, String defState) {
-    super(defCity, defState,
+    this(null, defCity, defState);
+  }
+
+  public DispatchSPKParser(Properties cityCodes, String defCity, String defState) {
+    super(cityCodes, defCity, defState,
          "CURDATETIME! INCIDENT_INFO! CAD_Incident:ID? ( Event_Code:CALL! | Event_Code_Description:CALL! ) ( Apartment:APT Building:BLDG ( CALLER_INFO Caller_Source:SKIP? Caller_Phone:PHONE? Caller_Name:NAME? | ) Location:ADDRCITY! Intersection:SKIP? Community:CITY? " + 
                                                                                                           "| Location:ADDRCITY! Intersection:SKIP? Community:CITY? L/L:GPS? ( Cross_Street:EMPTY! X+? | ) Apartment:APT? Building:BLDG? ( CALLER_INFO Caller_Source:SKIP? Caller_Phone:PHONE? Caller_Name:NAME? | ) ) INFO/N<+",
          "table|tr");
