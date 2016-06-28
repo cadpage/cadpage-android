@@ -8,8 +8,8 @@ vzcbeg bet.whavg.Grfg;
 Nyorzneyr Pbhagl, IN (O) 
 
 Pbagnpg: Wbr Befbyvav <zhmm3256@tznvy.pbz>
-Pnfrl Gnlybe <pgnlybe1341@tznvy.pbz>
-Arnyr Avpxryf <arnyr.avpxryf@tznvy.pbz>
+Pbagnpg: Pnfrl Gnlybe <pgnlybe1341@tznvy.pbz>
+Pbagnpg: Arnyr Avpxryf <arnyr.avpxryf@tznvy.pbz>
 Pbagnpg: Wnzrf Jlnag <wjlnag15@tznvy.pbz>
 Pbagnpg: Nyrknaqre Pbyyrl <svfu3170@tznvy.pbz>
 Pbagnpg: Wbr Befbyvav <befbyvav@rneylfivyyrsver.bet>

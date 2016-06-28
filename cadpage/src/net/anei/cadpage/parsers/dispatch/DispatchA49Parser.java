@@ -14,10 +14,13 @@ public class DispatchA49Parser extends FieldProgramParser {
 
   public DispatchA49Parser(String defCity, String defState) {
     super(defCity, defState, 
-        "DATE_TIME_SRC! Addr:ADDR! Cross:X? Inc_Type:CODE? Juris:SKIP? Report_#:ID? REMARKS! EXTRA+");
+        "( CAD_Num:SKIP! Addr:ADDR! Times:EMPTY! INFO/R! INFO/N+ Rpt#:ID END " +
+        "| ( Rpt#:ID! Addr:ADDR! Inc_Type:CODE! " +
+          "| DATE_TIME_SRC! Addr:ADDR! Cross:X? Inc_Type:CODE? Juris:SKIP? Report_#:ID? ) REMARKS! EXTRA+ )");
   }
   
   private static final Pattern REMARKS_PTN = Pattern.compile("(\nRemarks)[: ]+");
+  
   @Override
   protected boolean parseMsg(String body, Data data) {
     body = REMARKS_PTN.matcher(body).replaceFirst("$1:\n");
@@ -27,6 +30,7 @@ public class DispatchA49Parser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("DATE_TIME_SRC")) return new MyDateTimeSourceField();
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("REMARKS")) return new SkipField("Remarks:", true);;
     if (name.equals("EXTRA")) return new MyExtraField();
     return super.getField(name);
@@ -47,6 +51,14 @@ public class DispatchA49Parser extends FieldProgramParser {
     @Override
     public String getFieldNames() {
       return "DATE TIME SRC ID";
+    }
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldStart(field, "\".");
+      super.parse(field, data);
     }
   }
 
