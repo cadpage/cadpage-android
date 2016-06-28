@@ -21,8 +21,8 @@ public class DispatchSPKParser extends HtmlProgramParser {
 
   public DispatchSPKParser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState,
-         "CURDATETIME! INCIDENT_INFO! CAD_Incident:ID? ( Event_Code:CALL! | Event_Code_Description:CALL! ) ( Apartment:APT Building:BLDG ( CALLER_INFO Caller_Source:SKIP? Caller_Phone:PHONE? Caller_Name:NAME? | ) Location:ADDRCITY! Intersection:SKIP? Community:CITY? " + 
-                                                                                                          "| Location:ADDRCITY! Intersection:SKIP? Community:CITY? L/L:GPS? ( Cross_Street:EMPTY! X+? | ) Apartment:APT? Building:BLDG? ( CALLER_INFO Caller_Source:SKIP? Caller_Phone:PHONE? Caller_Name:NAME? | ) ) INFO/N<+",
+         "CURDATETIME! INCIDENT_INFO! CAD_Incident:ID? ( Event_Code:CALL! | Event_Code_Description:CALL! ) ( Location:ADDRCITY! Intersection:SKIP? Community:CITY? Location_Information:MAP? L/L:GPS? ( Cross_Street:EMPTY! X+? | ) Apartment:APT? Building:BLDG? ( CALLER_INFO Caller_Source:SKIP? Caller_Phone:PHONE? Caller_Name:NAME? | ) " +  
+                                                                                                          "| Location_Information:MAP? Apartment:APT Building:BLDG ( CALLER_INFO Caller_Source:SKIP? Caller_Phone:PHONE? Caller_Name:NAME? | ) Location:ADDRCITY! Intersection:SKIP? Community:CITY? ) INFO/N<+",
          "table|tr");
   }
   
