@@ -184,6 +184,7 @@ class Active911Vendor extends Vendor {
       "NZ/Auckland/AucklandREOC",         "ZNZAuckland",
       "NZ/NI/Auckland",                   "ZNZNewZealand",
       "NZ/NI/Northland",                  "ZNZNewZealand",
+      "NZ/NI/Rotorua",                    "ZNZNewZealand",
       "NZ/NI/Waikato",                    "ZNZNewZealand",
       "US/AK/CityofJuneau",               "AKJuneau",
       "US/AK/Fairbanks",                  "AKFairbanks",
