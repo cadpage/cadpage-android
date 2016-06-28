@@ -944,6 +944,7 @@ class Active911Vendor extends Vendor {
       "US/NY/WyCo911",                    "NYWyomingCounty",
       "US/OH/AdamsCounty",                "OHAdamsCounty",
       "US/OH/AllenCounty",                "OHAllenCountyA",
+      "US/OH/AshlandCounty",              "OHAshlandCounty",
       "US/OH/AshtabulaCounty",            "OHAshtabulaCounty",
       "US/OH/AuglaizeCounty",             "OHAuglaizeCounty",
       "US/OH/BelmontCounty",              "OHBelmontCounty",
