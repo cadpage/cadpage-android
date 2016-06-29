@@ -1027,6 +1027,7 @@ class Active911Vendor extends Vendor {
       "US/OK/CityofTulsa",                "OKTulsaA",
       "US/OK/CityofYukon",                "OKYukon",
       "US/OK/FaxConnections",             "OKTulsaB",
+      "US/OK/LakewoodFD",                 "OKBryanCountyB",
       "US/OK/LoveCounty",                 "OKLoveCounty",
       "US/OK/MayesCounty",                "OKMayesCounty",
       "US/OR/Benton",                     "ORBentonCounty",
