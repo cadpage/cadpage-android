@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers.FL;
 
-import java.util.regex.Pattern;
-
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -10,7 +8,16 @@ public class FLLakeCountyParser extends FieldProgramParser {
   
   public FLLakeCountyParser() {
     super(CITY_LIST, "LAKE COUNTY", "FL",
-        "CH? SRC CALL UNK? ADDR! MISC+? CITY");
+        "BOX? CH? SRC CALL UNK? ADDR/S! ( SELECT_NOCITY MISC+? CITY! | ) PRI GPS1 GPS2 INFO+");
+    removeWords("PARK");
+  }
+  
+  public String getFilter() {
+    return "CAD@lakeems.org";
+  }
+  
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
   }
   
   @Override
@@ -18,47 +25,42 @@ public class FLLakeCountyParser extends FieldProgramParser {
     if (body.startsWith("/ ")) body = body.substring(2).trim();
     if (!body.startsWith("CAD:")) return false;
     body = body.substring(4).trim();
-    if (body.endsWith("*")) body = body.substring(0,body.length()-1).trim();
-    return parseFields(body.split("\\*"), data);
+    if (!parseFields(body.split("\\*"), data)) return false;
+    return data.strCity.length() > 0;
   }
   
-  private static final Pattern CHANNEL_PTN = Pattern.compile("PS.*"); 
-  private class MyChannelField extends ChannelField {
-    public MyChannelField() {
-      setPattern(CHANNEL_PTN);
+  @Override
+  public Field getField(String name) {
+    if (name.equals("BOX")) return new BoxField("\\d{3}", true);
+    if (name.equals("CH")) return new ChannelField("PS.*|", true);
+    if (name.equals("UNK")) return new SkipField("UNKNOWN", true);
+    if (name.equals("SELECT_NOCITY")) return new MySelectNoCityField();
+    if (name.equals("MISC")) return new MyMiscField();
+    return super.getField(name);
+  }
+  
+  private class MySelectNoCityField extends SelectField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      return data.strCity.length() == 0;
     }
   }
   
-  private static final Pattern UNKNOWN_PTN = Pattern.compile("UNKNOWN");
-  private class UnknownField extends SkipField {
-    public UnknownField() {
-      setPattern(UNKNOWN_PTN);
-    }
-  }
-  
-  private class MiscField extends Field {
+  private class MyMiscField extends Field {
 
     @Override
     public void parse(String field, Data data) {
       if (field.startsWith("APT ")) {
-        data.strApt = field.substring(4).trim();
+        data.strApt = append(data.strApt, "-", field.substring(4).trim());
       } else {
-        data.strName = field;
+        data.strPlace = append(data.strPlace, "/", field);
       }
     }
     
     @Override
     public String getFieldNames() {
-      return "NAME APT";
+      return "PLACE APT";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CH")) return new MyChannelField();
-    if (name.equals("UNK")) return new UnknownField();
-    if (name.equals("MISC")) return new MiscField();
-    return super.getField(name);
   }
   
   private static final String[] CITY_LIST = new String[] {
