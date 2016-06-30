@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.FL;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -8,12 +10,12 @@ public class FLLakeCountyParser extends FieldProgramParser {
   
   public FLLakeCountyParser() {
     super(CITY_LIST, "LAKE COUNTY", "FL",
-        "BOX? CH? SRC CALL UNK? ADDR/S! ( SELECT_NOCITY MISC+? CITY! | ) PRI GPS1 GPS2 INFO+");
+        "ID? CH? SRC CALL UNK? ( GEO_PENDING PEND_ADDR INFO INFO | ADDR/S! (  SELECT_NOCITY MISC+? CITY! | ) ) PRI GPS1 GPS2 INFO+");
     removeWords("PARK");
   }
   
   public String getFilter() {
-    return "CAD@lakeems.org";
+    return "@lakeems.org";
   }
   
   public int getMapFlags() {
@@ -25,18 +27,52 @@ public class FLLakeCountyParser extends FieldProgramParser {
     if (body.startsWith("/ ")) body = body.substring(2).trim();
     if (!body.startsWith("CAD:")) return false;
     body = body.substring(4).trim();
-    if (!parseFields(body.split("\\*"), data)) return false;
-    return data.strCity.length() > 0;
+    return parseFields(body.split("\\*"), data);
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("BOX")) return new BoxField("\\d{3}", true);
+    if (name.equals("ID")) return new IdField("\\d+", true);
     if (name.equals("CH")) return new ChannelField("PS.*|", true);
     if (name.equals("UNK")) return new SkipField("UNKNOWN", true);
+    if (name.equals("GEO_PENDING")) return new SkipField("GEO-PENDING", true);
+    if (name.equals("PEND_ADDR")) return new MyPendingAddressField();
     if (name.equals("SELECT_NOCITY")) return new MySelectNoCityField();
     if (name.equals("MISC")) return new MyMiscField();
     return super.getField(name);
+  }
+  
+  private static final Pattern PADDR_APT_PTN = Pattern.compile("\\d{1,4}[A-Z]?|[A-Z]");
+  private class MyPendingAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      boolean first = true;
+      for (String part : field.split(",")) {
+        part = part.trim();
+        if (first) {
+          super.parse(part, data);
+          first = false;
+          continue;
+        } 
+        
+        if (isCity(part)) {
+          data.strCity = part;
+          continue;
+        }
+        
+        if (PADDR_APT_PTN.matcher(part).matches()) {
+          data.strApt = append(data.strApt, "-", part);
+          continue;
+        }
+        
+        data.strPlace = append(data.strPlace, " - ", part);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR APT PLACE CITY";
+    }
   }
   
   private class MySelectNoCityField extends SelectField {
@@ -69,6 +105,7 @@ public class FLLakeCountyParser extends FieldProgramParser {
     "EUSTIS",
     "FRUITLAND PARK",
     "GROVELAND",
+    "HOWEY IN THE HILLS",
     "HOWEY-IN-THE-HILLS",
     "LADY LAKE",
     "LEESBURG",
@@ -96,6 +133,9 @@ public class FLLakeCountyParser extends FieldProgramParser {
     "PITTMAN",
     "SILVER LAKE",
     "SORRENTO",
-    "YALAHA"
+    "YALAHA",
+    
+    // Volusa County
+    "DELAND"
   };
 }
