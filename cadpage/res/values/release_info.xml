@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">06272016</string>
+  <string name="release_date">06302016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.09.07\n
+Location Fixes:\n
+Lake County, FL\n
+\n
 v1.9.09.06\n
 New Locations:\n
 Rhea County, TN\n
@@ -54,11 +58,7 @@ Charles County, MO\n
 Cascade County, MT\n
 Ravalli County,  MT\n
 Charleston County, SC\n
-Lomoille County, VT\n
-\n
-v1.9.09.02\n
-Location Fixes:\n
-Louisville, KY
+Lomoille County, VT
   </string>
 </resources>
   
