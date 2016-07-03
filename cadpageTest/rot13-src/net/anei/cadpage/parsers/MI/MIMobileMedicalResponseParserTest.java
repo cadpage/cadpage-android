@@ -90,6 +90,10 @@ Pbagnpg: ZpPbeel, Fgrira <fzppbeel@zbovyrzrqvpny.bet>
 Fraqre: znvytubfg@zbovyrzrqvpny.bet
 (<PNQ> - cneg 1 bs 1) EP:Tb gb cbfg TC 40 Eboreg G & Nirevyy
 
+Pbagnpg: Ubjrl, Oevna <oubjrl@zbovyrzrqvpny.bet>
+Fraqre: znvytubfg@zbovyrzrqvpny.bet
+znvytubfg@zbovyrzrqvpny.bet / <PNQ> - cneg 1 bs 1 / EP:320 J FNTVANJ FG///<Haxabja>/Eha# 67521/erfphr raebhgr/ srznyr jnf jnyxvat/ cnva va arpx hc fvqr bs snpr/ gebhoyr oernguvat- gerzbe va unaqf/19:04
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zbovyr Zrqvpny Erfcbafr
 Ybpngvba: Fntvanj, ZV, Havgrq Fgngrf
@@ -413,6 +417,18 @@ choyvp pynff ZVZbovyrZrqvpnyErfcbafrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(<PNQ> - cneg 1 bs 1) EP:Tb gb cbfg TC 40 Eboreg G & Nirevyy",
         "GLCR:TRA_NYREG",
         "VASB:Tb gb cbfg TC 40 Eboreg G & Nirevyy");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOevnaUbjrl() {
+
+    qbGrfg("G1",
+        "znvytubfg@zbovyrzrqvpny.bet / <PNQ> - cneg 1 bs 1 / EP:320 J FNTVANJ FG///<Haxabja>/Eha# 67521/erfphr raebhgr/ srznyr jnf jnyxvat/ cnva va arpx hc fvqr bs snpr/ gebhoyr oernguvat- gerzbe va unaqf/19:04",
+        "VASB:<PNQ> - cneg 1 bs 1 / EP:320 J FNTVANJ FG / srznyr jnf jnyxvat / cnva va arpx hc fvqr bs snpr / gebhoyr oernguvat- gerzbe va unaqf",
+        "VQ:67521",
+        "PNYY:erfphr raebhgr",
+        "GVZR:19:04");
 
   }
 
