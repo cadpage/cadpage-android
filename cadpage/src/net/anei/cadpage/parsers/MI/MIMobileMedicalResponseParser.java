@@ -39,6 +39,10 @@ public class MIMobileMedicalResponseParser extends DispatchProQAParser {
         body = body.substring(5).trim();
         break;
       }
+      if (body.startsWith("/ <CAD> - part 1 of 1 / ")) {
+        body = body.substring(24).trim();
+        break;
+      }
     } while (false);
     
     body = body.replace("\\b", "\n");

@@ -425,7 +425,8 @@ choyvp pynff ZVZbovyrZrqvpnyErfcbafrCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G1",
         "znvytubfg@zbovyrzrqvpny.bet / <PNQ> - cneg 1 bs 1 / EP:320 J FNTVANJ FG///<Haxabja>/Eha# 67521/erfphr raebhgr/ srznyr jnf jnyxvat/ cnva va arpx hc fvqr bs snpr/ gebhoyr oernguvat- gerzbe va unaqf/19:04",
-        "VASB:<PNQ> - cneg 1 bs 1 / EP:320 J FNTVANJ FG / srznyr jnf jnyxvat / cnva va arpx hc fvqr bs snpr / gebhoyr oernguvat- gerzbe va unaqf",
+        "NQQE:320 J FNTVANJ FG",
+        "VASB:srznyr jnf jnyxvat / cnva va arpx hc fvqr bs snpr / gebhoyr oernguvat- gerzbe va unaqf",
         "VQ:67521",
         "PNYY:erfphr raebhgr",
         "GVZR:19:04");
