@@ -1205,6 +1205,7 @@ public class ParserList {
               ,"RIWestWarwick"                  ,"West Warwick, RI"
           ),
           new ParserCategory("South Carolina"
+              ,"SCAbbevilleCounty"              ,"Abbeville County, SC"
               ,"SCAndersonCounty"               ,"Anderson County, SC"
               ,"SCCharlestonCounty"             ,"Charleston County, SC"
               ,"SCCherokeeCounty"               ,"Cherokee County, SC"

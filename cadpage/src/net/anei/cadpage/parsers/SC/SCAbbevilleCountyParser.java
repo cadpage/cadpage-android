@@ -10,6 +10,11 @@ public class SCAbbevilleCountyParser extends DispatchB2Parser {
     setupCallList(CALL_LIST);
   }
   
+  @Override
+  public String getFilter() {
+    return "E911@abbeville911.com";
+  }
+  
   private static CodeSet CALL_LIST = new CodeSet(
       "52C-CARDIAC ARREST",
       "50PI-TRAFFIC ACCIDENT W/INJURY"
