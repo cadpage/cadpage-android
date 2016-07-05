@@ -17,7 +17,8 @@ public class SCAbbevilleCountyParser extends DispatchB2Parser {
   
   private static CodeSet CALL_LIST = new CodeSet(
       "52C-CARDIAC ARREST",
-      "50PI-TRAFFIC ACCIDENT W/INJURY"
+      "50PI-TRAFFIC ACCIDENT W/INJURY",
+      "TREE DOWN"
   );
   
   private static final String[] CITY_LIST = new String[]{
