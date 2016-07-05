@@ -20,10 +20,10 @@ public class FLMarionCountyParser extends MsgParser {
   
   private static final Pattern MASTER2 = Pattern.compile("/ ([^/]+) / (?:From )?([A-Za-z0-9 ]+) (\\d\\d:\\d\\d) EST (.*)");
   private static final Pattern ALERT_PREFIX_PTN = Pattern.compile("\\**([A-Za-z0-9 ]+)\\*+ *([A-Za-z0-9]+) *#(\\d{4}-\\d{6}) +(.*)");
-  private static final Pattern ALERT_INFO_PTN = Pattern.compile("ref:(.*?)address:(.*?)apt/lot/rm#:(.*?)bldg/wing:(.*?)zip (.*?) map page pg *(.*)");
+  private static final Pattern ALERT_INFO_PTN = Pattern.compile("ref:(.*?)address:(.*?)apt/lot/rm#:(.*?)bldg/wing:(.*?)zip (.*?) map page pg *(\\S*) *.*");
   private static final Pattern MBLANK_PTN = Pattern.compile(" {3,}");
   
-  private static final Pattern MASTER1 = Pattern.compile("\\*{3}CALL ALERT\\*{3} (\\S+) Case #(\\d{4}-\\d{6}) Ref:(.*?)Address:(.*?)Loc Name:(.*?)Apt/Lot/Rm#:(.*?)Bldg/Wing:(.*?)Zip (\\d*) Map Page pg (.*)");
+  private static final Pattern MASTER1 = Pattern.compile("\\*{3}CALL ALERT\\*{3} (\\S+) Case #(\\d{4}-\\d{6}) Ref:(.*?)Address:(.*?)Loc Name:(.*?)Apt/Lot/Rm#:(.*?)Bldg/Wing:(.*?)Zip (\\d*) Map Page pg +(\\S*)(?: *.*)?");
   
   @Override
   protected boolean parseMsg(String body, Data data) {
@@ -47,7 +47,13 @@ public class FLMarionCountyParser extends MsgParser {
         if (match.matches()) {
           setFieldList("SRC TIME CALL UNIT ID ADDR APT CITY MAP");
           data.strCall = append(data.strCall, " - ", match.group(1).trim());
-          parseAddress(match.group(2).trim(), data);
+          String addr = match.group(2).trim();
+          int pt = addr.indexOf("   ");
+          if (pt >= 0) {
+            data.strPlace = addr.substring(pt+3).trim();
+            addr = addr.substring(0,pt);
+          }
+          parseAddress(addr, data);
           String apt = append(match.group(3).trim(), "-", match.group(4).trim());
           data.strApt = append(data.strApt, "-", apt);
           data.strCity = match.group(5).trim();
