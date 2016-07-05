@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.FL;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -27,12 +28,14 @@ public class FLLakeCountyParser extends FieldProgramParser {
     if (body.startsWith("/ ")) body = body.substring(2).trim();
     if (!body.startsWith("CAD:")) return false;
     body = body.substring(4).trim();
-    return parseFields(body.split("\\*"), data);
+    if (!parseFields(body.split("\\*"), data)) return false;
+    if (data.strCallId.startsWith("-")) data.strCallId = "";
+    return true;
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d+", true);
+    if (name.equals("ID")) return new IdField("-?\\d+", true);
     if (name.equals("CH")) return new ChannelField("PS.*|", true);
     if (name.equals("UNK")) return new SkipField("UNKNOWN", true);
     if (name.equals("GEO_PENDING")) return new SkipField("GEO-PENDING", true);
@@ -81,15 +84,21 @@ public class FLLakeCountyParser extends FieldProgramParser {
       return data.strCity.length() == 0;
     }
   }
-  
+
+  private static final Pattern MISC_APT_PTN = Pattern.compile("(?:APT|LOT|RM|ROOM|SUITE) *(\\S+)|\\d{1,4}[A-Z]?|[A-Z]");
   private class MyMiscField extends Field {
 
     @Override
     public void parse(String field, Data data) {
-      if (field.startsWith("APT ")) {
-        data.strApt = append(data.strApt, "-", field.substring(4).trim());
+      Matcher match = MISC_APT_PTN.matcher(field);
+      if (match.matches()) {
+        String apt = match.group(1);
+        if (apt == null) apt = field;
+        data.strApt = append(data.strApt, " - ", apt);
+      } else if (data.strPlace.length() > 0) {
+        data.strApt = append(data.strApt, " - ", field);
       } else {
-        data.strPlace = append(data.strPlace, "/", field);
+        data.strPlace = append(data.strPlace, " / ", field);
       }
     }
     
