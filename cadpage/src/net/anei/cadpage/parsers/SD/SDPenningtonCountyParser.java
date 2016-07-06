@@ -12,8 +12,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class SDPenningtonCountyParser extends FieldProgramParser {
   
-  private static final Pattern VALID_ADDRESS_PTN = Pattern.compile("[+-]?\\d+\\..*|\\d+ .*|MM .*|EXIT .*|.*&.*", Pattern.CASE_INSENSITIVE);
-  
   private boolean nextIntersect;
   
   public SDPenningtonCountyParser() {
@@ -31,9 +29,16 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
   public int getMapFlags() {
     return MAP_FLG_SUPPR_LA;
   }
+
+  private static final Pattern DELIM = Pattern.compile("- |\\b--\\b");
+  private static final Pattern VALID_ADDRESS_PTN = Pattern.compile("[+-]?\\d+\\..*|\\d+ .*|MM .*|EXIT .*|.*&.*", Pattern.CASE_INSENSITIVE);
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    int pt = body.indexOf("\n\n\n");
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    
     nextIntersect = false;
     String[] flds = body.split("\\|");
     if (flds.length >= 4) {
@@ -46,7 +51,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       if (!parseMedicalCall(body, data)) return false;
     }
     else if (body.startsWith(":")) {
-      if (!parseFields(body.substring(1).split("- "), data)) return false;
+      if (!parseFields(DELIM.split(body.substring(1)), data)) return false;
     }
     else return false;
     
@@ -109,6 +114,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
   private static final Pattern INFO_INTERSECT_PTN= Pattern.compile("Nearest Inter +- *(.*)");
   private static final Pattern INFO_AND_PTN = Pattern.compile("\\bAND\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern INFO_DATE_TIME_PTN = Pattern.compile("(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d(?::\\d\\d)?)(?: +- *(.*))?");
+  private static final Pattern INFO_APT_PTN = Pattern.compile("(?:APT|RM|ROOM|LOT) *(\\S+)");
   private static final String TRUNC_DATE_TIME_MARK = "NN/NN/NN NN:NN:NN";
   private class MyInfoDateTimeField extends InfoField {
     @Override
@@ -141,21 +147,27 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
         part = part.trim();
         if (part.length() == 0) continue;
         if (part.equalsIgnoreCase("None")) continue;
+        match = INFO_APT_PTN.matcher(part);
+        if (match.matches()) {
+          data.strApt = append(data.strApt, "-", match.group(1));
+          continue;
+        }
         match = INFO_DATE_TIME_PTN.matcher(part);
         if (match.matches()) {
           data.strDate = match.group(1);
           data.strTime = match.group(2);
           data.strSupp = append(data.strSupp, "\n", getOptGroup(match.group(3)));
+          continue;
         }
-        else if (TRUNC_DATE_TIME_MARK.startsWith(part.replaceAll("\\d", "N"))) continue;
-        else data.strSupp = append(data.strSupp, connect, part);
+        if (TRUNC_DATE_TIME_MARK.startsWith(part.replaceAll("\\d", "N"))) continue;
+        data.strSupp = append(data.strSupp, connect, part);
         connect = "; ";
       }
     }
     
     @Override
     public String getFieldNames() {
-      return "INFO X DATE TIME";
+      return "INFO X APT DATE TIME";
     }
   }
 
@@ -299,6 +311,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "CHEST",
       "CHEST-D",
       "CHOKE",
+      "CHOKE-D",
       "CIV",
       "DIABETIC",
       "DIABETIC-C",
@@ -320,9 +333,11 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "FUEL",
       "FUEL-C",
       "GRASSF",
+      "GRASSF2",
       "HEAD",
       "HEART-C",
       "HEART-D",
+      "INTOX",
       "LGFIRE",
       "MP",
       "MUTUAL",
@@ -367,11 +382,13 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       "UNCON",
       "UNCON-C",
       "UNCON-D",
+      "UNCON-D1",
       "UNK",
       "VEHF",
       "VEHF-B1",
       "VEHF-D4",
       "WAR",
+      "WATER",
       "WATER-D6",
       "WEATHER",
       "WILDF"
