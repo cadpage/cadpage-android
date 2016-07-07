@@ -127,7 +127,7 @@ choyvp pynff PNGhynerPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:2016-0100005867",
         "NQQE:20800 N56 NI",
-        "ZNQQE:20800 N56 NIR",
+        "ZNQQE:20800 N56 NIR", //qbrf abg znc
         "PBQR:ZRQ",
         "CYNPR:SBHAGNVA FCEVATF NIRAHR",
         "CUBAR:661 778-2234",
@@ -173,7 +173,7 @@ choyvp pynff PNGhynerPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:06/28/2016",
         "GVZR:09:55",
         "VQ:806",
-        "NQQE:5400 E38 EQ",
+        "NQQE:5400 E38 EQ", //jung ner gurfr?
         "K:3750 N54 NI",
         "PBQR:CJE",
         "VASB:EC VF QVFXVAT N SVRYQ NAQ ENA VAGB N CBJRE CBYR\aEC NQIQ THVQR JVERF NER UNATVAT\aRDdhvczrag: R9");
@@ -236,7 +236,7 @@ choyvp pynff PNGhynerPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "S>VN< Havg Va Nern = R21 , Qngr = 06-28-16 Gvzr = 09:47:04",
 
         "VQ:2016-0100005863",
-        "NQQE:27108 N100 NI",
+        "NQQE:27108 N100 NI", //vg vf hfvat n ahzore bs gurfr naq v qbag xabj jung gurl ner. qb abg znc
         "ZNQQE:27108 N100 NIR",
         "PBQR:ZRQ",
         "CUBAR:559 542-7106",
