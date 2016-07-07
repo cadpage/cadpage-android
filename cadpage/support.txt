@@ -518,7 +518,7 @@ Is it possible that you or your department have paid for an account with Active9
 
 Please let me know how I can help you successfully continue to use Cadpage.
 
-Take care,
+Thanks for your support,
 Jean ~ Cadpage Administrator
 
 ********************************************************************
@@ -541,6 +541,7 @@ Jean ~ Cadpage Administrator
 ****************************************************************
 
 Thanks for your PayPal payment! You have been added to a paid subscriber list with a one-year Cadpage subscription.
+
 Please: 
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
