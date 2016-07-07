@@ -2,8 +2,6 @@ package net.anei.cadpage.parsers.IN;
 
 import java.util.Properties;
 
-import net.anei.cadpage.parsers.MsgInfo.Data;
-
 import net.anei.cadpage.parsers.dispatch.DispatchSPKParser;
 
 public class INLaporteCountyParser extends DispatchSPKParser {
