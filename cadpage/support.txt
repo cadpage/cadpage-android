@@ -541,6 +541,7 @@ Jean ~ Cadpage Administrator
 ****************************************************************
 
 Thanks for your PayPal payment! You have been added to a paid subscriber list with a one-year Cadpage subscription.
+
 Please: 
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
