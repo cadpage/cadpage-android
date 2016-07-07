@@ -557,6 +557,7 @@ public class ParserList {
               ,"KYToddCounty"                   ,"Todd County, KY"
               ,"KYTriggCounty"                  ,"Trigg County, KY"
               ,"KYTrimbleCounty"                ,"Trimble County, KY"
+              ,"KYWoodfordCounty"               ,"Woodford County, KY"
           ),
           new ParserCategory("Louisiana"
               ,"LAAcadianAmbulance"             ,"Acadian Ambulance, LA"

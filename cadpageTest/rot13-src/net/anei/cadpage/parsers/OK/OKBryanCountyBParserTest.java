@@ -5,7 +5,7 @@ vzcbeg bet.whavg.Grfg;
 vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 
 /*
-Oelna Pbhagl, BX
+Oelna Pbhagl, BX (O)
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Ynxrjbbq SQ

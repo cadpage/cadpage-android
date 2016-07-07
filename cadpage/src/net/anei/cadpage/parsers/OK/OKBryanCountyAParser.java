@@ -7,11 +7,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 
-public class OKBryanCountyParser extends DispatchB2Parser {
+public class OKBryanCountyAParser extends DispatchB2Parser {
   
   private static final Pattern PTN_CODE = Pattern.compile("0:[-/A-Z]+ ?>");
   
-  public OKBryanCountyParser() {
+  public OKBryanCountyAParser() {
     super("0:", CITY_LIST, "BRYAN COUNTY", "OK");
   }
   
