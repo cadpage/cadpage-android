@@ -58,17 +58,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   // Flag indicating a state may follow the address
   public static final int DSFLAG_STATE = 0x4000;
-
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("(?:[A-Z]+:)?(\\d{8,10})[ ;] *([- A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
-  private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.@]+:");
-  private static final Pattern NAKED_TIME_PTN = Pattern.compile("([ ,;]) *(\\d\\d:\\d\\d:\\d\\d)(?:\\1|$)");
-  private static final Pattern OCA_TRAIL_PTN = Pattern.compile("\\bOCA: *([-A-Z0-9]+)$");
-  private static final Pattern ID_PTN = Pattern.compile("\\b\\d{2,4}-?(?:\\d\\d-)?\\d{4,8}$");
-  private static final Pattern CALL_PTN = Pattern.compile("^([A-Z0-9\\- /()]+)\\b[ \\.,-]*");
-  private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
-  private static final Pattern EXTRA_CROSS_PTN = Pattern.compile("(?:AND +|[/&] *)(.*)", Pattern.CASE_INSENSITIVE);
-  private static final Pattern CALL_BRK_PTN = Pattern.compile(" +/+ *");
-  private static final Pattern VERIFY_X_PTN = Pattern.compile(" *\\(Verify\\) *");
+  
+  // Flag indicating time is optional :(
+  public static final int DSFLAG_TIME_OPTIONAL = 0x8000;
 
   private boolean parseFieldOnly;
 
@@ -86,6 +78,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private boolean inclCall;
   private boolean leadUnitId;
   private boolean state;
+  private boolean timeOptional;
   private CodeSet callSet;
   private Pattern unitPtn;
   
@@ -125,8 +118,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
     this.inclCall = (flags & DSFLAG_FOLLOW_CALL) != 0;
     this.leadUnitId = (flags & DSFLAG_LEAD_UNIT) != 0;
     this.state = (flags & DSFLAG_STATE) != 0;
+    this.timeOptional = (flags & DSFLAG_TIME_OPTIONAL) != 0;
     this.unitPtn = (unitPtnStr == null ? null : Pattern.compile(unitPtnStr));
-    
+
     
     // Program string needs to be built at run time
     StringBuilder sb = new StringBuilder();
@@ -143,6 +137,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     sb.append(" ID");
     if (idOptional) sb.append('?');
     sb.append(" TIME");
+    if (timeOptional) sb.append('?');
     sb.append(" INFO+ OCA:ID2");
     String program = sb.toString();
     setProgram(program, 0);
@@ -172,10 +167,22 @@ public class DispatchSouthernParser extends FieldProgramParser {
     super.setupCallList(callSet);
   }
 
+  private static final Pattern RUN_REPORT_PTN1 = Pattern.compile("(?:[A-Z]+:)?(\\d{8,10})[ ;] *([- A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
+  private static final Pattern RUN_REPORT_PTN2 = Pattern.compile("CFS: *(\\S+), *Unit: *(\\S+), *(Status:.*)");
+  private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.@]+:");
+  private static final Pattern NAKED_TIME_PTN = Pattern.compile("([ ,;]) *(\\d\\d:\\d\\d:\\d\\d)(?:\\1|$)");
+  private static final Pattern OCA_TRAIL_PTN = Pattern.compile("\\bOCA: *([-A-Z0-9]+)$");
+  private static final Pattern ID_PTN = Pattern.compile("\\b\\d{2,4}-?(?:\\d\\d-)?\\d{4,8}$");
+  private static final Pattern CALL_PTN = Pattern.compile("^([A-Z0-9\\- /()]+)\\b[ \\.,-]*");
+  private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
+  private static final Pattern EXTRA_CROSS_PTN = Pattern.compile("(?:AND +|[/&] *)(.*)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern CALL_BRK_PTN = Pattern.compile(" +/+ *");
+  private static final Pattern VERIFY_X_PTN = Pattern.compile(" *\\(Verify\\) *");
+
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    Matcher match = RUN_REPORT_PTN.matcher(body);
+    Matcher match = RUN_REPORT_PTN1.matcher(body);
     if (match.lookingAt()) {
       setFieldList("ID INFO");
       data.msgType = MsgType.RUN_REPORT;
@@ -184,8 +191,18 @@ public class DispatchSouthernParser extends FieldProgramParser {
       return true;
     }
     
+    match = RUN_REPORT_PTN2.matcher(body);
+    if (match.matches()) {
+      setFieldList("ID UNIT INFO");
+      data.msgType= MsgType.RUN_REPORT;
+      data.strCallId = match.group(1);
+      data.strUnit = match.group(2);
+      data.strSupp = match.group(3).replaceAll(", +", "\n");
+      return true;
+    }
+    
     if (parseFieldOnly) {
-      if (!parseFields(body.split(";"), data)) return false;
+      return parseDelimitedFields(body, data);
     }
     
     else {
@@ -200,7 +217,11 @@ public class DispatchSouthernParser extends FieldProgramParser {
       // See if this looks like one of the new comma delimited page formats
       // If it is, let FieldProgramParser handle it.
       match = NAKED_TIME_PTN.matcher(body);
-      if (!match.find()) return false;
+      if (!match.find()) {
+        if (!timeOptional) return false;
+        if (!parseDelimitedFields(body, data)) return false;
+        return (data.strCallId.length() > 0 || data.strTime.length() > 0 || data.strCode.length() > 0 || data.strGPSLoc.length() > 0);
+      }
       String delim = match.group(1);
       if (delim.charAt(0) != ' ') {
         body = body.replace(" OCA:", delim + "OCA:");
@@ -270,6 +291,25 @@ public class DispatchSouthernParser extends FieldProgramParser {
     }
     
     return true;
+  }
+
+  private boolean parseDelimitedFields(String body, Data data) {
+    String ocaField = null;
+    int pt = body.lastIndexOf(" OCA:");
+    if (pt >= 0) {
+      ocaField = body.substring(pt+1);
+      body = body.substring(0,pt);
+    }
+    String[] flds = body.split(";");
+    String[] flds2 = body.split(",");
+    if (flds2.length > flds.length) flds = flds2;
+    if (ocaField != null) {
+      flds2 = flds;
+      flds = new String[flds2.length+1];
+      System.arraycopy(flds2, 0, flds, 0, flds2.length);
+      flds[flds2.length] = ocaField;
+    }
+    return parseFields(flds, data);
   }
   
   @Override

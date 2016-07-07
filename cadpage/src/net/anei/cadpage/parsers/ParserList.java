@@ -557,6 +557,7 @@ public class ParserList {
               ,"KYToddCounty"                   ,"Todd County, KY"
               ,"KYTriggCounty"                  ,"Trigg County, KY"
               ,"KYTrimbleCounty"                ,"Trimble County, KY"
+              ,"KYWoodfordCounty"               ,"Woodford County, KY"
           ),
           new ParserCategory("Louisiana"
               ,"LAAcadianAmbulance"             ,"Acadian Ambulance, LA"
@@ -1205,6 +1206,7 @@ public class ParserList {
               ,"RIWestWarwick"                  ,"West Warwick, RI"
           ),
           new ParserCategory("South Carolina"
+              ,"SCAbbevilleCounty"              ,"Abbeville County, SC"
               ,"SCAndersonCounty"               ,"Anderson County, SC"
               ,"SCCharlestonCounty"             ,"Charleston County, SC"
               ,"SCCherokeeCounty"               ,"Cherokee County, SC"
@@ -1260,6 +1262,7 @@ public class ParserList {
               ,"TNOakRidge"                     ,"Oak Ridge, TN"
               ,"TNOliverSprings"                ,"Oliver Springs, TN"
               ,"TNOvertonCounty"                ,"Overton County, TN"
+              ,"TNRheaCounty"                   ,"Rhea County, TN"
               ,"TNRoaneCounty"                  ,"Roane County, TN"
               ,"TNSevierCounty"                 ,"Sevier County, TN"
               ,"TNSumnerCounty"                 ,"Sumner County, TN"
@@ -1370,7 +1373,7 @@ public class ParserList {
           ),
           new ParserCategory("Virginia"
               ,"VAAccomackCounty"               ,"Accomack County, VA"
-              ,"VAAlbermarleCounty"             ,"Albermarle County, VA"
+              ,"VAAlbemarleCounty"              ,"Albemarle County, VA"
               ,"VAAlexandria"                   ,"Alexandria, VA"
               ,"VAAmeliaCounty"                 ,"Amelia County, VA"
               ,"VAAppomattoxCounty"             ,"Appomattox County, VA"

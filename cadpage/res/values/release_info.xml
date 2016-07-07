@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">06162016</string>
+  <string name="release_date">07032016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.09.08\n
+New Locations:\n
+Abbeville County, SC\n
+\n
+Location Fixes:\n
+Marion County, FL\n
+Mobile Medical Response, MI\n
+Pennington County, SC\n
+\n
+v1.9.09.07\n
+Location Fixes:\n
+Lake County, FL\n
+\n
+v1.9.09.06\n
+New Locations:\n
+Rhea County, TN\n
+\n
+Location Fixes:\n
+Mobile Medical Response, MI\n
+Adams County, PA\n
+Albemarle County, VA\n
+Chatham-Kent, ON\n
+\n
 v1.9.09.05\n
 Location Fixes:\n
 San Joaquin County, CA\n
@@ -32,43 +55,7 @@ Cooke County, TX\n
 \n
 Location Fixes:\n
 Lorain County, OH\n
-Blount County, TN\n
-\n
-v1.9.09.03\n
-Location Fixes:\n
-Navajo County, AZ\n
-Sarasota County, FL\n
-Ada County, ID\n
-St Clair County, IL\n
-Charles County, MO\n
-Cascade County, MT\n
-Ravalli County,  MT\n
-Charleston County, SC\n
-Lomoille County, VT\n
-\n
-v1.9.09.02\n
-Location Fixes:\n
-Louisville, KY\n
-\n
-v1.9.09.01\n
-Cadpage will no longer report a sponsored status if you have registered Cadpage with an inactive Active911 or CodeMessaging account. 
-If you are getting alerts, your account is active and everything is cool.\n
-\n
-New Locations:\n
-San Juan County, CO\n
-Ada County, ID\n
-Kent County, MI\n
-Nicollet County, MN\n
-Iron County, MO\n
-Nassau County, NY (alt)\n
-Kaufman County, TX (alt)\n
-Nanaimo, BC Canada\n
-\n
-Location Fixes:\n
-San Joaquin County, CA\n
-Ocean County, NJ\n
-Mecklenburg County, NC\n
-Knox County, OH
+Blount County, TN
   </string>
 </resources>
   

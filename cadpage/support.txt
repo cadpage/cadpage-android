@@ -518,7 +518,7 @@ Is it possible that you or your department have paid for an account with Active9
 
 Please let me know how I can help you successfully continue to use Cadpage.
 
-Take care,
+Thanks for your support,
 Jean ~ Cadpage Administrator
 
 ********************************************************************
@@ -541,6 +541,7 @@ Jean ~ Cadpage Administrator
 ****************************************************************
 
 Thanks for your PayPal payment! You have been added to a paid subscriber list with a one-year Cadpage subscription.
+
 Please: 
 Go to Cadpage settings and press Payment Status, then press "Recalculate Payment Status"
 
@@ -702,7 +703,7 @@ Jean ~ Cadpage Administrator
 Thanks for considering the purchase of a Cadpage subscription!  A one-year Cadpage subscription is $10.
 
 The usual, and preferred method of purchasing a Cadpage subscription is through the Google Play Store.  You do this by going into the Cadpage Settings and pressing
-Payment Status > Purchase through Android Market.
+Payment Status > Purchase through Android Market.  Often you can pay through your phone service at Google Play Store.
 Purchases made this way will update your payment status almost immediately.
 
 If that does not work, the web page at 
@@ -722,7 +723,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-ZRICKIEA or zrickiea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+ATVONGEA or atvongea.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support, 
 Jean ~ Cadpage Administrator
@@ -943,7 +944,7 @@ Philomath, OR 97370
 If you do this, please include your Cadpage User email address (usually a gmail account) so I can make sure you get credit for it.
 
 If you need a 30-day extension, open the Cadpage settings and press Payment Status, then press the "I have an authorization code" button, and enter an authorization code of
-BBUNLAAA or bbunlaaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
+MXPMGOAA or mxpmgoaa.  It is a time-sensitive code and will expire by midnight on ____.  Once you use it, it will be good for about 30 days.
 
 Thanks for your support,
 Jean ~ Cadpage Administrator

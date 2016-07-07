@@ -25,6 +25,8 @@ public class OKBryanCountyBParser extends DispatchB2Parser {
   );
   
   static final String[] CITY_LIST = new String[]{
+    
+      "BRYAN COUNTY",
       
       //Cities
       "DURANT",

@@ -9,7 +9,7 @@ public class ZCAONChathamKentParser extends FieldProgramParser {
   
   public ZCAONChathamKentParser() {
     super("CHATHAM-KENT", "ON", 
-          "CALL:CALL! PLACE:PLACE! ADDR:ADDR! CITY:CITY! ID:ID! DATE:DATE! TIME:TIME! ( LATITUDE:GPS1! LONGITUDE:GPS2! UNITS:UNIT! SOURCE:SKIP! | ) INFO:INFO");
+          "CALL:CALL! PLACE:PLACE! ADDR:ADDR! XSTR:X CITY:CITY! ID:ID! DATE:DATE! TIME:TIME! ( LATITUDE:GPS1! LONGITUDE:GPS2! UNITS:UNIT! SOURCE:SKIP! | ) INFO:INFO");
     addRoadSuffixTerms("LI");
   }
   
