@@ -202,7 +202,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     }
     
     if (parseFieldOnly) {
-      return parseDelimitedFields(body, data);
+      if (!parseDelimitedFields(body, data)) return false;
     }
     
     else {
@@ -220,42 +220,43 @@ public class DispatchSouthernParser extends FieldProgramParser {
       if (!match.find()) {
         if (!timeOptional) return false;
         if (!parseDelimitedFields(body, data)) return false;
-        return (data.strCallId.length() > 0 || data.strTime.length() > 0 || data.strCode.length() > 0 || data.strGPSLoc.length() > 0);
-      }
-      String delim = match.group(1);
-      if (delim.charAt(0) != ' ') {
-        body = body.replace(" OCA:", delim + "OCA:");
-        if (!parseFields(body.split(delim + '+'), data)) return false;
-      }
-      
-      // Blank delimited fields get complicated
-      // We already found a time field.  Use that to split the message 
-      // into and address and extra versions 
-      else {
-        setFieldList(defaultFieldList);
-        data.strTime = match.group(2);
-        String sAddr = body.substring(0,match.start()).trim();
-        String sExtra = body.substring(match.end()).trim();
-        
-        // See if there is an ID field immediate in front of the time field
-        match = ID_PTN.matcher(sAddr);
-        if (match.find()) {
-          data.strCallId = match.group();
-          sAddr = sAddr.substring(0,match.start()).trim();
-        } else if (!idOptional) return false;
-        
-        // See if there is a labeled OCA field at the end of the extra block
-        match = OCA_TRAIL_PTN.matcher(sExtra);
-        if (match.find()) {
-          data.strCallId = match.group(1).trim();
-          sExtra = sExtra.substring(0,match.start()).trim();
+        if (data.strCallId.length() == 0 && data.strTime.length() == 0 && data.strCode.length() == 0 && data.strGPSLoc.length() == 0) return false;
+      } else {
+        String delim = match.group(1);
+        if (delim.charAt(0) != ' ') {
+          body = body.replace(" OCA:", delim + "OCA:");
+          if (!parseFields(body.split(delim + '+'), data)) return false;
         }
         
-        if (sAddr.length() > 0) {
-          parseMain(sAddr, data);
-          parseExtra(sExtra, data);
-        } else {
-          parseExtra2(sExtra, data);
+        // Blank delimited fields get complicated
+        // We already found a time field.  Use that to split the message 
+        // into and address and extra versions 
+        else {
+          setFieldList(defaultFieldList);
+          data.strTime = match.group(2);
+          String sAddr = body.substring(0,match.start()).trim();
+          String sExtra = body.substring(match.end()).trim();
+          
+          // See if there is an ID field immediate in front of the time field
+          match = ID_PTN.matcher(sAddr);
+          if (match.find()) {
+            data.strCallId = match.group();
+            sAddr = sAddr.substring(0,match.start()).trim();
+          } else if (!idOptional) return false;
+          
+          // See if there is a labeled OCA field at the end of the extra block
+          match = OCA_TRAIL_PTN.matcher(sExtra);
+          if (match.find()) {
+            data.strCallId = match.group(1).trim();
+            sExtra = sExtra.substring(0,match.start()).trim();
+          }
+          
+          if (sAddr.length() > 0) {
+            parseMain(sAddr, data);
+            parseExtra(sExtra, data);
+          } else {
+            parseExtra2(sExtra, data);
+          }
         }
       }
     }
