@@ -14,6 +14,7 @@ public class DispatchA56Parser extends FieldProgramParser {
   }
   
   private static Pattern DISP_DATETIME_BODY = Pattern.compile("DISPATCH:.*? - (\\d{2}/\\d{2} \\d{2}:\\d{2}) - (.+)", Pattern.DOTALL);
+  private static final Pattern DELIM = Pattern.compile("\n\n|//");
   
   @Override
   public boolean parseMsg(String body, Data data) {
@@ -23,7 +24,7 @@ public class DispatchA56Parser extends FieldProgramParser {
     if (!mat.matches()) return false;
     body = mat.group(1) + "\n\n" + mat.group(2);
     
-    return parseFields(body.split("\n\n"), data);
+    return parseFields(DELIM.split(body), data);
   }
 
   @Override
