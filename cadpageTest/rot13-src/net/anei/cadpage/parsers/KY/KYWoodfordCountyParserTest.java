@@ -10,114 +10,132 @@ Jbbqsbeq Pbhagl, XL
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jbbqsbeq RZF
 Ybpngvba: IREFNVYYRF, XL, Havgrq Fgngrf
-Fraqre: <PNQ@icq.irefnvyyrfxl.pbz>
 
-{JPN} PNQ:R04 208 Fvzzbaf Fg 4 Irefnvyyrf 06/25/2016 23:49:40 nyyl terrar 12 lbs jnf orng hc ng gur snve ol frireny byqre whir pbzcynvavat bs evo cnva qreevpx terrar-sngure pnyyre vf snguref tsevraq. <<Ybtf>>00:03:06 qyrvavat:10-98; 00:03:10 qyrvavat:Vapvqrag Pybfrq 201601001657
-{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/25/2016 22:57:38 201601001656
-{JPN} PNQ:R22 319 Nvxra Eq IREFNVYYRF 06/25/2016 22:47:18 86 lbn znyr, hanoyr gb trg fhow bhg bs gur jurrypunve, arrqvat gb tb gb gur ubfcvgny 502-418-0001, pryy # bs pnyyre vs arrqrq 201601001654
-{JPN} PNQ:R31 101 F Znva Fg Irefnvyyrf 06/25/2016 21:24:23 lbhat srznyr hapbapbhvf 201601001653
-{JPN} PNQ:R17 1915 Zvqjnl Eq Irefnvyyrf 06/25/2016 19:44:03 ryqreyl znyr unf snyyra, hanoyr gb trg uvz hc, 87 lbn, havawherq jrag qbja fybjyl, jnf fvggvat ba n fgbby 201601001652
-{JPN} PNQ:RNFFG 139 Ehzfrl Pve Q Irefnvyyrf 06/25/2016 19:28:27 Yvsg nffvfg 81 lbn srznyr Ersrerapr # 37518819 201601001651
-{JPN} PNQ:R17 149 Fbhgu Uvyy Eq IREFNVYYRF 06/25/2016 17:35:06 Cbffvoyl oebxra uvc 92 lbn znyr 201601001649
-{JPN} PNQ:R30 516 Zhaqlf Ynaqvat Eq Irefnvyyrf 06/25/2016 14:31:09 sryy bhg bs n pneevntr cbffvoyr oebxra pbyyne obar 62 le byq znyr cnfg gur onea gb gur ubhfr 201601001648
-{JPN} PNQ:R1046 6842 Zvqjnl Eq Zvqjnl 06/25/2016 13:16:15 Avffna Nygvzn if gehpx va ebnqjnl 201601001647
-{JPN} PNQ:R10 310 Yniny Ugf 2 Irefnvyyrf 06/25/2016 11:57:58 eboreg phaavatunz. <<Ybtf>>11:59:00 ppnzcory:118 erd RP ers znyr fhow j purfg cnvaf 201601001646
-{JPN} PNQ:R01 556 Objzna Eq IREFNVYYRF 06/25/2016 09:23:30 R911 PYNFF: ERFQ JVA ba ure yrsg fvqr frirer cnva 71 le byq srznyr 201601001645
-{JPN} PNQ:RNFFG R Hf 60 Irefnvyyrf 06/24/2016 23:59:39 genafcbeg sbe zrepre 201601001644
-{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/24/2016 19:13:24 gb po senpgherq uvc 201601001643
-{JPN} PNQ:RNFFG 198 Senaxsbeg Fg IREFNVYYRF 06/24/2016 16:22:00 Pbageby cnary bhg onpx cbffvoyl 201601001642
-{JPN} PNQ:R10 192 Ivetvavn Nir Irefnvyyrf 06/24/2016 15:52:08 purfg 201601001641
-{JPN} PNQ:R17 145 Jnyahg Fg IREFNVYYRF 06/24/2016 14:34:16 R911 PYNFF: IBVC YNG/YBAT: +038.060364, -084.735382 201601001640
-{JPN} PNQ:RSVER 101 Frkgba Jnl Zvqjnl 06/24/2016 14:04:26 puevfgvna pner pbzz oyqt O, ubhfr 419. <<Ybtf>>14:05:05 ppnzcory:p12, cre nynez pbzcnal. havgf pna fvt8; 14:05:08 ppnzcory:Vapvqrag Pybfrq 201601001639
-{JPN} PNQ:R17 221 Jbbyqevqtr Ya Irefnvyyrf 06/24/2016 11:49:36 znyr fhow unf snyyra, 70 lbn, cbff oebxra yrt (??) 201601001638
-{JPN} PNQ:R22 378 Nzfqra Nir IREFNVYYRF 06/24/2016 08:05:46 znyr fhow hanoyr gb jnyx, funec cnvaf va uvf uvc tbvat nyy gur jnl qbja uvf yrt, 67 lbn--pna'g zbir uvz gb uvf jurrypunve. <<Ybtf>>08:09:26 XFzvgu:Erzbirq Havg - RP1; 08:09:26 XFzvgu:Erzbirq Bssvpre - RP1 201601001637
-{JPN} PNQ:R17 1001 Pebffsvryq Qe IREFNVYYRF 06/24/2016 03:37:54 R911 PYNFF: IBVC YNG/YBAT: +038.059376, -084.715469 201601001636
-{JPN} PNQ:RNFFG 109 Znprl Nir 3 Irefnvyyrf 06/23/2016 23:22:58 R911 PYNFF: JCU2 YBP: 350 XRAGHPXL NIR YNG: +038.049345 YBA: -084.731240 201601001635
-{JPN} PNQ:RSVER 331 Nzfqra Nir Irefnvyyrf 06/23/2016 23:11:46 R911 PYNFF: JCU2 YBP: 350 XRAGHPXL NIR - FR YNG: +038.054580 YBA: -084.724824 NGGZB 201601001634
-{JPN} PNQ:R23 109 Znprl Nir 3 Irefnvyyrf 06/23/2016 22:36:27 201601001633
-{JPN} PNQ:R26 1875 ZpPbjnaf Sreel Eq Irefnvyyrf 06/23/2016 15:33:04 Purpx ivgnyf 201601001632
-{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/23/2016 13:54:02 <<Ybtf>>13:54:23 qyrvavat:ab arrqrq; 13:54:25 qyrvavat:Vapvqrag Pybfrq 201601001631
-{JPN} PNQ:R10 304 F Ehffryy Nir Irefnvyyrf 06/23/2016 13:47:03 R911 PYNFF: JEYF YBP: 280 PEBFFSVRYQ QE - A YNG: +038.056404 YBA: -084.711971 NGGZB purfg cnvaf naq jrag qbja. <<Ybtf>>13:47:22 ppnzcory:Erzbirq Havg - RP1; 13:47:22 ppnzcory:Erzbirq Bssvpre - RP1; 13:47:22 ppnzcory:Frg Cevznel Bssvpre - RP4 201601001630
-{JPN} PNQ:R1046 101 F Znva Fg Irefnvyyrf 06/23/2016 13:39:05 rp6 juvgr pnzel ebfruvyy 201601001629
-{JPN} PNQ:R26 60 Ovt Fvax Eq Irefnvyyrf 06/23/2016 11:39:57 201601001628
-{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/23/2016 10:34:12 201601001627
-{JPN} PNQ:R1046 6540 Zppbjnaf Sreel Eq Irefnvyyrf 06/23/2016 10:34:02 R911 PYNFF: JEYF YBP: 2196 FPBGGF SREEL EQ - FR YNG: +038.006107 YBA: -084.798316 NGGZB snpr qevirjnl. <<Ybtf>>10:34:36 qyrvavat:Erzbirq Havg - RP1; 10:34:36 qyrvavat:Erzbirq Bssvpre - RP1 201601001626
-{JPN} PNQ:R06 825 Zvyqerq Fg Irefnvyyrf 06/23/2016 09:38:29 R911 PYNFF: JEYF YBP: 350 XRAGHPXL NIR - A YNG: +038.059000 YBA: -084.748020 NGGZB qbanyq 53lbz uneq gvzr oernguvat naq pbyq 201601001625
-{JPN} PNQ:R1046 Ybphfg Yrkvatgba Irefnvyyrf 06/23/2016 07:55:18 ybphfg yrk 201601001624
-{JPN} PNQ:R31 817 Rntyr Perfg Qe IREFNVYYRF 06/23/2016 05:37:13 nqi ure sngure vf abg erfcbaqvat ur vf oernguvat ba n pcnc tbg bhg bs gur ubfcvgny jvgu carhzbavn naq urneg pbaqvgbaf 81 lb znyr 201601001623
-{JPN} PNQ:R22 139 Fg Pynve Fg Irefnvyyrf 06/22/2016 20:59:11 fhetrel fjryyvat 201601001622
-{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/22/2016 19:13:26 fhow gb or sybja bhg, arrqvat gb tb gb pvapvaangv **gnxvat cngvrag gb pb sver fgngvba ba ovt fvax, nvezrgubqf jvyy or 97 va nobhg 5 zva**. <<Ybtf>>19:15:18 XFzvgu:Erzbirq Havg - RP1; 19:15:18 XFzvgu:Erzbirq Bssvpre - RP1; 19:15:18 XFzvgu:Frg Cevznel Bssvpre - RP5 201601001621
-{JPN} PNQ:R28 101 Xarrynaq Pg Irefnvyyrf 06/22/2016 11:07:08 zhygvcyr GVN'f fgebxr 77 byq srznyr arrqf gb or gnxra gb Oncgvfg 201601001620
-{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/22/2016 10:52:52 201601001619
-{JPN} PNQ:R1046 V 64 J Zvqjnl 06/22/2016 10:52:44 ina be n Fhoheona jrag bss vagb qvgpu 201601001618
-{JPN} PNQ:R22 114 Funj Nir IREFNVYYRF 06/22/2016 10:44:26 R911 PYNFF: ERFQ JVA fbzr glcr bs qvfgerff qvnorgvp 73 le byq znyr 201601001617
-{JPN} PNQ:R22 1055 Qhapna Eq Senaxsbeg 06/22/2016 07:37:56 86 lrne byq srznyr haxa ceboyrzf xrcg qvfpbaarpgvat sebz Senaxsbeg 201601001616
-{JPN} PNQ:R33 135 Ornfyrl Eq Irefnvyyrf 06/21/2016 23:30:26 rp nqivfrq gung 125 erdhrfg rp gb purpx n cbff oebxra abfr, v jnf hanoyr gb ybpngr n pnyy fb v ragrerq n arj bar. <<Ybtf>>23:31:33 qyrvavat:Vapvqrag Pybfrq 201601001615
-{JPN} PNQ:R01 139 Fg Pynve Fg Irefnvyyrf 06/21/2016 22:50:05 fjryyvat bbmvat. <<Ybtf>>22:51:18 owbarf:Erzbirq Havg - RP5; 22:51:18 owbarf:Erzbirq Bssvpre - RP5; 22:51:18 owbarf:Frg Cevznel Bssvpre - RP1 201601001614
-{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/21/2016 22:41:31 senpgherq arpx naq uvc erany snvyher gb fg wbr 201601001613
-{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/21/2016 16:30:19 sebz re gb HX re znyr fhow jvgu n senpgherq naxyr 201601001612
-{JPN} PNQ:R1046 00 XL 2113 Irefnvyyrf 06/21/2016 16:00:51 R911 PYNFF: JCU2 YBP: 1885 ZPPBJNAF SEL - A YNG: +038.043723 YBA: -084.757525 NGGZB 201601001611
-{JPN} PNQ:R22 5065 Zppbjnaf Sreel Eq Irefnvyyrf 06/21/2016 15:26:25 80 lbn srz fvpx (ibzvgvat), qvneuurn, frire qrulqengvba. <<Ybtf>>15:28:52 XFzvgu:Erzbirq Havg - RP2; 15:28:52 XFzvgu:Erzbirq Bssvpre - RP2; 15:28:52 XFzvgu:Frg Cevznel Bssvpre - RP1 201601001610
-{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/21/2016 13:24:12 201601001609
-{JPN} PNQ:R17 347 Cevaprff Pve IREFNVYYRF 06/21/2016 13:22:21 R911 PYNFF: ERFQ JVA 70 le byq unf snyyra cbffvoyr oebxra yrt 201601001608
-{JPN} PNQ:R17 00 Furcureqf Gepr Irefnvyyrf 06/21/2016 13:02:14 1fg ubhfr ba Furcureqf Genpr unf snyyra sebz fgnvef cbffvoyr oebxra naxyr 201601001607
-{JPN} PNQ:RNFFG 810 Glebar Cvxr YBG 9 IREFNVYYRF 06/21/2016 08:24:02 R911 PYNFF: ERFQ JVA 80 le byq znyr arrqf nffvfgnapr trggvat ure uhfonaq va gur pne 201601001606
-{JPN} PNQ:R17 8005 Neobe Zrnqbj Pg Irefnvyyrf 06/21/2016 06:15:09 R911 PYNFF: JEYF YBP: 1425 UHAGREGBJA EQ - J YNG: +038.030076 YBA: -084.704697 NGGZB 62lbz snyyra naq pnag trg hc 201601001605
-{JPN} PNQ:RSVER 3001 Cvftnu Cvxr Irefnvyyrf 06/21/2016 01:15:32 cnavp nhqvb znva ubhfr xrlubyqre ab sver nyez 201601001604
-{JPN} PNQ:R32 330 Sbkgnvy Eq Irefnvyyrf 06/20/2016 19:56:44 14 lbn znyr jvgu n srire, 192/134 oc, unq sbbgonyy cenpgvpr guvf zbeavat sbe 2.5 uef, grrgu uheg ahzoarff va uvf urnq,. <<Ybtf>>20:00:22 XFzvgu:cre rp--erdhrfgvat gb abgvsl naqrefba pb @ 1958; 20:01:54 XFzvgu:naqrefba pb abgvsvrq, jvyy or rae gb nffvfg; 20:05:42 XFzvgu:Erzbirq Havg - RP2; 20:05:42 XFzvgu:Erzbirq Bssvpre - RP2; 20:06:54 XFzvgu:naqrefba pb whfg pnyyrq onpx, nqivfrq gurl unir abbar gb fraq....pnyyre unq whfg uhat hc gb pnyy ubfcvgny 201601001602
-{JPN} PNQ:R06 900 Glebar Cvxr CYNAG TH IREFNVYYRF 06/20/2016 19:53:03 sebag bs ynzc cynag ol thneq funpx 201601001601
-{JPN} PNQ:R17 210 Sbkjbbq Qe Avpubynfivyyr 06/20/2016 19:07:54 169 27f yrsg bagb 29 pbhegubhfr fgenvtug 4 jnl fgbc ghea evtug ba fbhgu prageny gjb fgerrgf qbja evtug ba sbkjbbq. 201601001599
-{JPN} PNQ:R17 101 F Znva Fg Irefnvyyrf 06/20/2016 18:05:45 <<Ybtf>>18:06:34 owbarf:Erzbirq Havg - RP4; 18:06:34 owbarf:Erzbirq Bssvpre - RP4 201601001598
-{JPN} PNQ:R10 192 Ivetvavn Nir Irefnvyyrf 06/20/2016 15:55:42 PURFG CNVAF 201601001597
-{JPN} PNQ:R01 212 Xebtre Jnl IREFNVYYRF 06/20/2016 13:44:43 R911 PYNFF: IBVC YNG/YBAT: +038.007030, -084.724974 pbzcy vf ea ba fprar znyr fhow pnzr va naq vf qvmml, OC ybj, anhfrngrq. pbafpvbhf ng guvf gvzr 201601001596
-{JPN} PNQ:R13 104 Znpx Fg Irefnvyyrf 06/20/2016 11:39:55 66 le byq znyr qvnorgvp ceboyrzf 201601001595
-{JPN} PNQ:R25 240 Uvtu Fg 9 Irefnvyyrf 06/20/2016 07:56:54 R911 PYNFF: JEYF YBP: 280 PEBFFSVRYQ QE YNG: +038.056340 YBA: -084.712142 GZBO RYQREYL SRZNYR PBASHFRQ, SBHAQ JNAQREVAT NG URE ERFVQRAPR, NAQ OEBHTUG GB GUVF 10-20 OL N ARVTUOBE. OC UVTU(?). PBZCY VF CNGVRAG'F QNHTUGRE...ZBZ YVIRF BA CBCYNE. <<Ybtf>>07:57:15 ppnzcory:Erzbirq Havg - RP4; 07:57:15 ppnzcory:Erzbirq Bssvpre - RP4; 07:57:15 ppnzcory:Frg Cevznel Bssvpre - RP5 201601001594
-{JPN} PNQ:R19 107 Pbnpu Fgngvba Eq ZVQJNL 06/19/2016 22:25:46 znyr fhow cbff urneg nggnpx 89 lbn znyr 201601001593
-{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/19/2016 22:24:07 sebz re gb hx srz jvgu noprff bs pryyhvgvf ba noqbzra 201601001592
-{JPN} PNQ:R31 229 Pyvsgba Eq Irefnvyyrf 06/19/2016 16:48:48 56 lbn znyr unf ertnvarq pbapvbhfarff 201601001591
-{JPN} PNQ:R22 3501 Qrynarl Sreel Eq Irefnvyyrf 06/19/2016 13:48:46 201601001590
-{JPN} PNQ:R01 237 Neobe Cynpr Qe Irefnvyyrf 06/19/2016 05:57:32 frirer cnva 35 lb sz 201601001589
-{JPN} PNQ:R1046 963 V 64 R Zvqjnl 06/18/2016 23:36:07 PNYYRE VF VA 13 RDHVABK IF N QRRE 201601001588
-{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/18/2016 18:59:17 sebz re gb HX pneqvbybtl 201601001587
-{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/18/2016 18:23:11 201601001586
-{JPN} PNQ:R05 501 Znefnvyyrf Eq Irefnvyyrf 06/18/2016 17:23:54 fhow va n juvgr vzcnyn, pnyyre fgnaqvat bhgfvqr bs iru va n tera g-fuveg 43 lbn znyr va frirer cnva va uvf onpx naq yrt, hanoyr gb jnyx. <<Ybtf>>17:24:59 XFzvgu:Erzbirq Havg - RP1; 17:24:59 XFzvgu:Erzbirq Bssvpre - RP1 201601001584
-{JPN} PNQ:R1046 4390 Cnlarf Zvyy Eq Irefnvyyrf 06/18/2016 15:58:35 Plpyvfg uvg zbivat iruvpyr oyrrqvat sebz uvf snpr qvq abg ybfr pbapvbhfarff. <<Ybtf>>16:32:40 XFzvgu:10-12 1k gb HX; 17:00:58 XFzvgu:97 ng HX; 17:24:32 nznlrf:Vapvqrag Pybfrq 201601001579
-{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/18/2016 17:06:29 201601001583
-{JPN} PNQ:R26 117 Ryz Fg 103 Irefnvyyrf 06/18/2016 17:01:53 65 lbn srznyr Pbatrfgvir Urneg Snvyher Fjbyyra va srrg, yrtf naq fgbznpu 201601001582
-{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/18/2016 16:46:45 201601001581
-{JPN} PNQ:R26 221 Jbbyqevqtr Ya Irefnvyyrf 06/18/2016 16:43:04 70 lbn znyr Frirer arpx cnva 201601001580
-{JPN} PNQ:R1046 00 Nqran Gepr Irefnvyyrf 06/18/2016 13:36:52 iruvpyr if puvyq. <<Ybtf>>13:37:25 WYbat:Erzbirq Havg - RP5; 13:37:25 WYbat:Erzbirq Bssvpre - RP5 201601001578
-{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/18/2016 13:35:32 201601001577
-{JPN} PNQ:R26 25 J Uvttvaf Fg Zvqjnl 06/18/2016 13:20:19 Eha jnf pnyyrq va fgenvtug gb gur fgngvba. RP6 nqivfrq genssvp ba enqvb 201601001576
-{JPN} PNQ:R17 501 Znefnvyyrf Eq Irefnvyyrf 06/18/2016 12:07:46 R911 PYNFF: JCU2 YBP: 280 PEBFFSVRYQ QE - FR YNG: +038.049924 YBA: -084.708709 NGGZB Fhowrpg gbbx n uneq snyy, xabpxrq gur oerngu bhg. Pbzc hanoyr gb nqivfr nal fcrpvsvp vawhel 201601001575
-{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/18/2016 06:38:19 GB HXZP YRSG FVQR AHZOARFF 201601001574
-{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/17/2016 22:24:35 Sebz ebbz # 6 Fg Wbr VPH 201601001573
-{JPN} PNQ:R1046 7855 Zppenpxra Cvxr Irefnvyyrf 06/17/2016 19:24:40 201601001572
-{JPN} PNQ:RGFC 191 Ryz Fg Irefnvyyrf 06/17/2016 16:30:34 bkltra pbcq nyoreg punaqyre cbffvoyr oybbq pybg va yrk 201601001571
-{JPN} PNQ:R10 405 Elar Pg N IREFNVYYRF 06/17/2016 15:41:41 201601001570
-{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/17/2016 09:22:13 201601001569
-{JPN} PNQ:R22 149 Tbezyrl Qe IREFNVYYRF 06/17/2016 09:20:39 R911 PYNFF: ERFQ JVA 201601001568
-{JPN} PNQ:R06 810 Glebar Cvxr 13 Irefnvyyrf 06/17/2016 08:41:28 R911 PYNFF: JEYF YBP: 350 XRAGHPXL NIR - FR YNG: +038.059000 YBA: -084.748020 NGGZB 201601001567
-{JPN} PNQ:R10 4195 Yrkvatgba Eq IREFNVYYRF 06/17/2016 02:33:30 TENL SNEZ UBHFR 61 LB ZNYR PURFG CNVA PBAF NAQ NYREG 201601001566
-{JPN} PNQ:R17 1071 Ynxrjbbq Pve IREFNVYYRF 06/17/2016 00:15:59 ERS GB 52 LB ZNYR SNYYRA PNAABG NQI VS UR VF VAWHERQ UR VF NYREG 201601001565
-{JPN} PNQ:R33 3540 Yrkvatgba Eq IREFNVYYRF 06/16/2016 22:07:18 nez uheg unq arjfcncre znpuvar ghearq bire ba vg 201601001564
-{JPN} PNQ:R17 110 Senaxsbeg Fg Irefnvyyrf 06/16/2016 18:22:04 Srznyr uheg ure yrt nobhg 3 jrrxf ntb naq unf eruheg ure yrt 201601001563
-{JPN} PNQ:R10 254 Ylaajbbq Qe Irefnvyyrf 06/16/2016 17:42:50 R911 PYNFF: JCU2 YBP: 280 PEBFFSVRYQ QE YNG: +038.040482 YBA: -084.702765 GZBO 201601001562
-{JPN} PNQ:R33 301 A Jvagre Fg Zvqjnl 06/16/2016 17:13:35 gjvfgrq naxyr bss gur fvqrjnyx 201601001561
-{JPN} PNQ:R32 103 Xhuyzna Oyiq Irefnvyyrf 06/16/2016 16:01:05 fgngrq 101 ohg vgf abg 101 103 be 105 201601001560
-{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/16/2016 14:32:32 201601001559
-{JPN} PNQ:RNFFG 504 Orrpu Fg IREFNVYYRF 06/16/2016 14:29:50 R911 PYNFF: IBVC YNG/YBAT: +038.053690, -084.744093 Znyr fhowrpg unf snyyra bhg bs orq, qbrf abg nccrne gb or vawherq, erdhrfgvat yvsg nffvfg. 201601001558
-{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/16/2016 13:31:51 2aq sybbe 213 gb tgbja 201601001557
-{JPN} PNQ:RSVER 604 Bksbeq Eq Irefnvyyrf 06/16/2016 10:31:34 R911 PYNFF: JCU2 YBP: 1885 ZPPBJNAF SEL - A YNG: +038.039023 YBA: -084.742269 NGGZB 201601001556
-{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/16/2016 09:45:10 201601001555
-{JPN} PNQ:R22 100 Tbezyrl Qe R Irefnvyyrf 06/16/2016 08:44:12 R911 PYNFF: JCU2 YBP: 1425 UHAGREGBJA EQ YNG: +038.040472 YBA: -084.727464 75 LBN srznyr -anhfrn,jrnxarff, oernguvat ceboyrzf,hanoyr gb fgnaq hc 201601001554
-{JPN} PNQ:R17 300 Oreel Nir IREFNVYYRF 06/16/2016 05:46:25 erfq sryy pbzcy bs uvc cnva 201601001553
+PNQ:R28 425 Jvyfba Nir IREFNVYYRF 07/09/2016 12:07:11 R911 PYNFF: ERFQ  JVA    srznyr, cbffvoyr fgebxr. 201601001789
+PNQ:RNFFG 3590 Yrkvatgba Eq Irefnvyyrf 07/09/2016 07:31:42 oyx naq jug fhi fcrrqvat pbzvat vagb irefnvyyrf.    <<Ybtf>>06:23:50 CNkba:cnffvat znenguba; 06:25:40 CNkba:ng gur znenguba ol uhagregbja jvgu havirefvgl bs xl cq ng guvf gvzr naq gur fhi; 07:18:56 wpynex:hafher jung rknpgyl vf tbvat ba fvapr guvf jnf tbvat ba orsber 1fg fuvsg; 07:19:16 wpynex:havgf nqivfrq, bire gur enqvb, gung gurl jbhyq or pbagnpgvat Puvrs naq Sbegarl; 07:31:02 WYbat:135 -  gNFRE QRCYBLRQ; 07:32:31 WYbat:RP ra ebhgr  ng 135'f erdhrfg er: gnfre qrcyblzrag 201601001788
+PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 07/09/2016 02:12:19 aba urzbeentvp fgebxr gb hx 201601001787
+PNQ:R22 412 Dhnvy Eha Eq IREFNVYYRF 07/09/2016 00:38:47 R911 PYNFF: ERFQ  JVA 201601001786
+PNQ:RNFFG 529 Pyvsgba Eq Irefnvyyrf 07/08/2016 23:22:48 ERS GB FHOW OL GUR ANZR BS ZBAGR OREEL 2301 NAQ CBFF UNF CBFF BS 12T FUBGTHA NAQ NAQ GUNG UR VF ZNXVAT TRFGHERF GBJNEQ BSSVPREF   PNYYRE VF JVGU UVF TS JVYY OR NG SNFG FGBC TBYQ AVFFNA.    <<Ybtf>>23:12:34 CNkba:135 raeg gb snfg fgbc f2 jvgu pbzcy; 23:12:50 CNkba:123 97 snfg fgbc 201601001785
+PNQ:R17 412 Dhnvy Eha Eq IREFNVYYRF 07/08/2016 20:46:26 201601001784
+PNQ:R25 121 A Oenaq Fg 15 Zvqjnl 07/08/2016 17:14:23 fgno uvzfrys  eboreg uvyy    unf xavsr.    <<Ybtf>>17:15:50 owbarf:Erzbirq Havg - RP1; 17:15:50 owbarf:Erzbirq Bssvpre - RP1 201601001783
+PNQ:R33 317 Yniny Ugf Irefnvyyrf 07/08/2016 16:10:16 R911 PYNFF: JCU2  YBP: 1425 UHAGREGBJA EQ  YNG: +038.049281  YBA: -084.721477 201601001782
+PNQ:JPN R01 1831 Byq Senaxsbeg Cx Irefnvyyrf 07/08/2016 13:51:40 R911 PYNFF: ERFQ  JVA    sryy rneyvre, abj univat n uneq gvzr oernuvag  naq ab erfcbaqvat jryy 201601001781
+PNQ:JPN R17 115 A Znva Fg IREFNVYYRF 07/08/2016 11:48:29 R911 PYNFF: OHFA  JVA    Fhowrpg sryy or vf zbivat naq qbrf abg jnag na RP hagv.    <<Ybtf>>11:48:50 WYbat:Vapvqrag Pybfrq 201601001780
+PNQ:JPN RSVER 6120 Uvqqranjnl Ya Irefnvyyrf 07/08/2016 10:57:16 R911 PYNFF: JEYF  YBP: 2196 FPBGGF SREEL EQ - FR  YNG: +038.006376  YBA: -084.798252  NGGZB    Nyy fzbxr nynezf npgvingrq. Ab fzbxr be synzr bofreirq ng guvf gvzr 201601001779
+PNQ:JPN RGFC 300 Oreel Nir Irefnvyyrf 07/08/2016 10:39:09   <<Ybtf>>10:40:26 WYbat:Erzbirq Havg - RP1; 10:40:26 WYbat:Erzbirq Bssvpre - RP1; 10:40:26 WYbat:Frg Cevznel Bssvpre - RP4 201601001778
+PNQ:JPN R10 220 R Rntyr Qe IREFNVYYRF 07/08/2016 06:03:10 62 LB ZNYR QVFBEVRAGRQ NAQ FJRNGVAT UR VF PBAF BA ZRQF SBE ULCREGRAFVABANAQ URNEG VFFHRF /QVSS OERNGUVAT 201601001777
+PNQ:JPN RGFC 360 Nzfqra Ni Irefnvyyrf 07/08/2016 00:26:05 GENAF GB FG WBR 4GU SYBBE UVC SK 201601001776
+PNQ:JPN R17 4450 Byq Senaxsbeg Cvxr ZVQJNL 07/07/2016 19:00:56 92 lbn srznyr qvmml naq pna'g zbir 201601001775
+PNQ:JPN R26 135 Znprl Nir 3 Irefnvyyrf 07/07/2016 13:57:29 R911 PYNFF: JCU2  YBP: 350 XRAGHPXL NIR  YNG: +038.048937  YBA: -084.731798    30lbz hevangvat oybbq  xvqarl(?) cnva 201601001774
+PNQ:JPN R32 217 Jbbyqevqtr Ya Irefnvyyrf 07/07/2016 13:05:53 zrqvpny nynez sebz craqnag, ab pbagnpg  621-0244  anapl cnyzber erfvqrapr    znqr pbagnpg j ahzore tvira ol nynez pbzcnal, naq fur nqi ure zbgure whfg tbg vg gbqnl, naq fur'f ubzr, zhfg or na nppvqrag. znqr pbagnpg j erfvqrapr ng ynaqyvar ahzore, naq zef. cnyzber nqi vg jnf na nppvqrag, naq fur'f 10-4.    <<Ybtf>>13:07:41 ppnzcory:Vapvqrag Pybfrq 201601001773
+PNQ:JPN RNFFG 500 Abegufvqr Qe Zvqjnl 07/07/2016 12:50:02 raebhgr ers fcrpvny qrgnvy 201601001772
+PNQ:JPN R32 224 F Tengm Fg Zvqjnl 07/07/2016 11:10:22 ivetvavn engpyvss  846-5597 201601001771
+PNQ:JPN R17 133 Evqtr Ivrj Eq Irefnvyyrf 07/07/2016 10:56:16 201601001770
+PNQ:JPN RCNTR 86 Ovt Fvax Eq Irefnvyyrf 07/07/2016 10:45:59 201601001769
+PNQ:JPN R31 3805 Pyvsgba Eq Irefnvyyrf 07/07/2016 10:44:39 60 LBN Z Cahrzbavn cngvrag vf haerfcbafvir, ohg oernguvat 201601001768
+PNQ:JPN RGFC 220 Ornfyrl Eq Irefnvyyrf 07/07/2016 10:34:03 Gb Tbbq Fnz 201601001767
+PNQ:JPN RCNTR 86 Ovt Fvax Eq Irefnvyyrf 07/07/2016 09:06:33 201601001766
+PNQ:JPN R10 101 Frkgba Jnl Zvqjnl 07/07/2016 09:03:33 R911 PYNFF: OHFA  JVA    1fg oyqt ba yrsg, oyhr oyqt    oncgvfg urnygu    zhphf, pna'g pyrne vg.  pbafpvbhf, zvaznyyl erfcbafvir 201601001765
+PNQ:JPN R17 217 Jbbyqevqtr Ya Irefnvyyrf 07/07/2016 08:28:32 R911 PYNFF: JEYF  YBP: 350 XRAGHPXL NIR - FR  YNG: +038.059000  YBA: -084.748020  NGGZB    Srznyr unf snyyra, vf pbafpvbhf, nccrnef gb unir oehvfrq ure urnq..    <<Ybtf>>08:38:10 ppnzcory:98, cng nffvfg bayl; 08:38:18 ppnzcory:Vapvqrag Pybfrq 201601001764
+PNQ:JPN R1046 7855 Zppenpxra Cvxr Irefnvyyrf 07/07/2016 08:07:40 R911 PYNFF: JCU2  YBP: 6769 SENAXSBEG EBNQ - J  YNG: +038.112752  YBA: -084.814560  IMJ    ZBGBEPLPYR    OEBXRA JEVFG, PHGF 201601001763
+PNQ:JPN R04 326 Yniny Ugf Irefnvyyrf 07/06/2016 23:19:45 ERS GB FRIRENY FHOW SVTUGVAT VA UNYYJNL BA 2AQ SYBBE BAR ZY FHOW VF ZNEVB 201601001762
+PNQ:JPN R30 135 Ornfyrl Eq Irefnvyyrf 07/06/2016 18:06:24 Punaqyre svryq  Phg ba yrt be sbbg 201601001761
+PNQ:JPN RGFC 360 Nzfqra Ni Irefnvyyrf 07/06/2016 14:34:12 urevgntr unyy va naqrefba pbhagl.    <<Ybtf>>14:34:48 ppnzcory:Erzbirq Havg - RP1; 14:34:48 ppnzcory:Erzbirq Bssvpre - RP1 201601001760
+PNQ:JPN      R31      212            Xebtre      Jnl                                          IREFNVYYRF      07/06/2016      12:53:50      R911 PYNFF: IBVC  YNG/YBAT: +038.007030, -084.724974      201601001759
+PNQ:JPN      R32      211            Abeznaql      Pve                                          Irefnvyyrf      07/06/2016      11:16:38      Wnfba ZpQnanyq thafubg jbhaq gb urnq    cbffvoyr fhvpvqr      201601001758
+PNQ:JPN      R22      360            Jnggf Sreel      Eq                                          Senaxsbeg      07/06/2016      08:15:21      qvfbevragrq    raq fgntr yvire qvfrnfr    44 le byq znyr    1fg ubhfr.. yrsg unaq fvqr      201601001757
+PNQ:JPN      RCNTR      86            Ovt Fvax      Eq                                          Irefnvyyrf      07/05/2016      21:11:12            201601001756
+PNQ:JPN      R20      358      J      Qbzvab      Pg                                          Irefnvyyrf      07/05/2016      21:03:01      tha nppvqragnyl jrag bss naq fubg ure va gur jevfg    oyrrqvat, nyreg naq gnyxvat,.    <<Ybtf>>21:06:38 XFzvgu:Erzbirq Havg - RP1; 21:06:38 XFzvgu:Erzbirq Bssvpre - RP1; 21:06:38 XFzvgu:Frg Cevznel Bssvpre - RP4      201601001754
+PNQ:JPN      R13      928            Nygnzbag      Pg                                    Q      Irefnvyyrf      07/05/2016      20:56:19      fhow jvgu ybj oybbq fhtne, 26 lbn znyr    gbbx zrqf ng 1c, ynfg ngr fbzr bngzrny (qbrf gnxr vafhyva)      201601001753
+PNQ:JPN      RCNTR      86            Ovt Fvax      Eq                                          Irefnvyyrf      07/05/2016      12:53:58            201601001752
+PNQ:JPN      R19      231            Pyvsgba      Eq                                    NCG 1      IREFNVYYRF      07/05/2016      12:50:03      R911 PYNFF: IBVC  YNG/YBAT: +038.052832, -084.742527    63 byq le byq znyr    guvaxf ur'f univat n urneg nggnpx      201601001751
+PNQ:JPN      R12      247      R      Terra      Fg                                    O      Irefnvyyrf      07/05/2016      12:46:59      40 lrne byq srznyr      201601001750
+PNQ:JPN      R1046      00      R      Yrrfgbja      Eq                                          Zvqjnl      07/05/2016      10:23:38      arne furyy    gjb iruvpyrf vaibyirq    xarr naq ryobj phgf.    <<Ybtf>>10:22:15 wpynex:whfg orsber gur Fpbgg Pb yvar      201601001749
+PNQ:JPN      R22      100      F      Znva      Fg                                          Irefnvyyrf      07/04/2016      23:32:27      SRZNYR NGGNPXRQ OL N QBT      201601001748
+PNQ:JPN      R13      828            Rntyr Perfg      Qe                                          Irefnvyyrf      07/04/2016      21:51:41      qbt  qvnorgvp      8598791856  fhr gnlybe    gb po      201601001746
+PNQ:JPN      RNYZ      265            Gubznf      Ya                                          Irefnvyyrf      07/04/2016      21:31:37      pbzz sver nynez--tra sver nynez    jvyy or nggrzacgvat x/u      201601001745
+PNQ:JPN      R17      510            Bnx      Fg                                          Irefnvyyrf      07/04/2016      13:15:19      ryqreyl srznyr unf snyyra    uvg ure urnq    pbapvbhf naq oernguvat      201601001744
+PNQ:JPN      R17      164            Oryy      Nir                                          Irefnvyyrf      07/04/2016      08:08:21      sryy qbja fgnvef    pna'g srry yrtf    22 le byq znyr    urnq uhegf      201601001743
+PNQ:JPN      RCNTR      86            Ovt Fvax      Eq                                          Irefnvyyrf      07/04/2016      06:33:00            201601001742
+PNQ:JPN      R06      810            Glebar      Cvxr                                    9      IREFNVYYRF      07/04/2016      06:30:16      R911 PYNFF: ERFQ  JVA    unf n gerx va     unf chyyrq gur gerx bhg    abg erfcbaqvat.    <<Ybtf>>06:31:07 qyrvavat:Erzbirq Havg - RP2; 06:31:07 qyrvavat:Erzbirq Bssvpre - RP2      201601001741
+PNQ:JPN      R10      3525            Sbeqf Zvyy      Eq                                          IREFNVYYRF      07/04/2016      06:11:02      R911 PYNFF: ERFQ  JVA    uhfonaq purfg cnva    57lbz    cnffrq jvyfbaf gbjneqf abarfhpu      201601001740
+PNQ:JPN      R22      321            Qhaebira      Eq                                          Irefnvyyrf      07/03/2016      21:18:41      61 lbn znyr ibzvgvat, jrnx naq qvneeurn. Hanoyr gb fvg hc naq pbashfvba      201601001739
+PNQ:JPN      R02      305            Yrkvatgba      Fg                                          Irefnvyyrf      07/03/2016      19:57:50      25 lbn znyr univat na nyyretvp ernpgvba--fhow cnffrq bhg, fjbyyra yvcf, vf oernguvat    lryybj ubhfr, frireny fhow bhg sebag.    <<Ybtf>>20:00:09 XFzvgu:Erzbirq Havg - RP1; 20:00:09 XFzvgu:Erzbirq Bssvpre - RP1      201601001738
+PNQ:JPN      RGFC      360            Nzfqra      Nir                                          Irefnvyyrf      07/03/2016      17:15:21      Sebz RE gb HX      201601001737
+PNQ:JPN      R1046      00            Cvapxneq      Cvxr                                          Irefnvyyrf      07/03/2016      14:00:58      R911 PYNFF: JCU2  YBP: 1491 JBBQF EQ - J  YNG: +037.989242  YBA: -084.683818  IMJ    Nccebk 1.5 zvyrf cevbe gb gru Wrffnzvbar Pb yvar. 3 iruvpyrf, cbffvoyr 10-46      201601001736
+PNQ:JPN      RCNTR      86            Ovt Fvax      Eq                                          Irefnvyyrf      07/03/2016      11:59:01            201601001735
+PNQ:JPN      R10      412            Qhryy      Qe                                          Irefnvyyrf      07/03/2016      11:57:41      S jvgu purfg cnva naq fubegarff bs oerngu. Erpragyl unq nccraqrpgbzl      201601001734
+PNQ:JPN      R28      300            Oreel      Nir                                          IREFNVYYRF      07/03/2016      11:52:18      R911 PYNFF: OHFA  JVA    Znyr cngvrag cbffvoyr fgebxr  EZ 21  Fvt 2 ng sebag ragenapr      201601001733
+PNQ:JPN      R1046      175            Cvapxneq Cx                                                Irefnvyyrf      07/03/2016      10:19:25      R911 PYNFF: JCU2  YBP: 2196 FPBGGF SREEL EQ - FJ  YNG: +037.987343  YBA: -084.811856  NGGZB    169 orgjrra XL 33 naq Oblq'f Bepuneq, jug Sbeq Enatre syvccrq, fhowrpg vf bhg bs iruvpyr jvgu arpx cnva..    <<Ybtf>>10:21:52 wpynex:Erzbirq Havg - RP5; 10:21:52 wpynex:Erzbirq Bssvpre - RP5; 10:36:21 wpynex:gb OPU; 11:11:00 wpynex:Vapvqrag Pybfrq      201601001732
+PNQ:JPN      R26      810            Glebar      Cvxr                                    YBG 9      IREFNVYYRF      07/03/2016      08:32:58      R911 PYNFF: ERFQ  JVA      201601001731
+PNQ:JPN      RCNTR      86            Ovt Fvax      Eq                                          Irefnvyyrf      07/02/2016      20:07:19            201601001728
+PNQ:JPN      R17      378            Nzfqra      Nir                                          IREFNVYYRF      07/02/2016      20:03:24      67 lbn znyr bhg bs jurry punve      201601001727
+PNQ:JPN      R26      1125            Yrkvatgba      Eq                                                07/02/2016      19:57:02      **jrfyrl ivyyntr va jvyzber** 88 lbn srz jvgu fjryyvat va ure yrtf, jnf whfg va gur ubfcvgny ynfg jrrx jvgu oybbq pybgf    sebz 169: gnxr n evtug bagb 68, tb gbjneqf jvyzber, gnxr n yrsg ng gur "L" (fznyy tnf fgngvba gurer), 1 zvyr qbja gur eqjl, ba gur evtug--cngvb ubzr #208      201601001726
+PNQ:JPN      RNFFG      221            Jbbyqevqtr      Ya                                          Irefnvyyrf      07/02/2016      19:25:30      Oebxra fubhyqre unf erprvirq gerngzrag ohg arrqf nffvfgnapr chggvat ba fyvat      201601001725
+PNQ:JPN      RNFFG      200            Gnaonex      Qe                                                07/02/2016      16:08:05            201601001723
+PNQ:JPN      RSVER      419            Zvyy      Eq                                          Zvqjnl      07/02/2016      16:05:17      R911 PYNFF: JEYF  YBP: 424 FCEVAT FGNGVBA EQ - FR  YNG: +038.155238  YBA: -084.699633  NGGZB      201601001722
+PNQ:JPN      R13      815            Glebar      Cvxr                                    FHVGR 5      IREFNVYYRF      07/02/2016      11:59:53      R911 PYNFF: OHFA  JVA      201601001721
+PNQ:JPN      RCNTR      86            Ovt Fvax      Eq                                          Irefnvyyrf      07/02/2016      11:51:20            201601001720
+PNQ:JPN      R23      229            Pyvsgba      Eq                                    8      Irefnvyyrf      07/02/2016      11:50:18      R911 PYNFF: JEYF  YBP: 280 PEBFFSVRYQ QE  YNG: +038.056340  YBA: -084.712142  GZBO      201601001719
+PNQ:JPN      R22      00            Zvqjnl      Eq                                          Zvqjnl      07/02/2016      11:15:22      R911 PYNFF: JEYF  YBP: 424 FCEVAT FGNGVBA EQ - FJ  YNG: +038.155238  YBA: -084.699633  NGGZB    PBCQ NAQ PBATRFGVIR URNEG SNVYHER    PBHTUVAT HC OYBBQ    ryqreyl srznyr - gurl ner tbvat gb pnyy onpx jura gurl chyy bire      201601001718
+PNQ:JPN      RCNTR      86            Ovt Fvax      Eq                                          Irefnvyyrf      07/02/2016      07:49:10            201601001717
+PNQ:JPN      R22      102            Havgrq      Qe                                          IREFNVYYRF      07/02/2016      07:46:20      R911 PYNFF: OHFA  AHIBK    59 lrnef byq    qvmml  qbrfa'g srry evtug      201601001716
+PNQ:JPN      R22      00            Ebfr Uvyy      Nir                                          Irefnvyyrf      07/02/2016      07:39:45      R911 PYNFF: JEYF  YBP: 350 XRAGHPXL NIR - FR  YNG: +038.058979  YBA: -084.748041  IMJ    ryqreyl tragyrzna jvgu cnexvafbaf qvfrnfr frrzf ybfg naq qbrfa'g xabj jurer gb tb      201601001715
+PNQ:JPN      R22      791            Wnarg      Fg                                          IREFNVYYRF      07/02/2016      05:34:13      79 LB SZ ABG SRRYVAT JRYY SRYYF YVXR URNEG VF ORNGVAT SNFG.    <<Ybtf>>06:00:05 CNkba:CG ERSHFNY; 06:00:09 CNkba:Vapvqrag Pybfrq      201606033073
+PNQ:JPN      R10      132      A      Ybphfg      Fg                                          Irefnvyyrf      07/02/2016      04:29:02      JVYY OR BHGFVQR JNVGVAT UNIVAT PURFG CNVA   38 LB ZNYR QBRF UNIR URNEG QVFRNFR      201601001714
+PNQ:JPN      RGFC      360            Nzfqra      Nir                                          Irefnvyyrf      07/01/2016      22:45:56      sebz re gb HX      201601001713
+PNQ:JPN      R31      2210            Zppenpxra      Cvxr                                          Irefnvyyrf      07/01/2016      20:52:36      50 lbn znyr sryy va ongu gho hapbapvhbf.    <<Ybtf>>20:57:28 ppnzcory:RP1 raebhgr gb onpx RP5; 21:13:49 ppnzcory:ershfny NZN, 98; 21:13:51 ppnzcory:Erzbirq Havg - RP1; 21:13:51 ppnzcory:Erzbirq Bssvpre - RP1; 21:13:53 ppnzcory:Vapvqrag Pybfrq      201601001711
+PNQ:JPN      RGFC      360            Nzfqra Ni                                                Irefnvyyrf      07/01/2016      20:52:10      97 p19 ers genafsre gb HX      201601001712
+PNQ:JPN      R23      104            Ebfr Uvyy      Nir                                          Irefnvyyrf      07/01/2016      20:16:26      juvgr znyr va 60f    znyr jnyxvat j n pnar fvggvat ba gurve onpx fgbbc, naq ur gbbx uvf cnagf bss...vf 2301      201601001710
+PNQ:JPN      R17      300            Oreel      Nir                                          IREFNVYYRF      07/01/2016      18:29:44      69 lbn srznyr fyheerq fcrrpu ohg vf pbtavmnag      201601001709
+PNQ:JPN      R22      407            Abeznaql      Eq                                          Irefnvyyrf      07/01/2016      17:16:52      R911 PYNFF: JEYF  YBP: 1425 UHAGREGBJA EQ - A  YNG: +038.030000  YBA: -084.702658  NGGZB    69 le byq znyr    bireurngrq      201601001708
+PNQ:JPN      R10      210            Uvtu      Fg                                    2      Irefnvyyrf      07/01/2016      16:14:47      Znyr pbzcynvavat bs pbaphffvba.    <<Ybtf>>16:01:14 nznlrf:Rivpgvba      201601001707
+PNQ:JPN      RCNTR      86            Ovt Fvax      Eq                                          Irefnvyyrf      07/01/2016      15:03:34            201601001706
+PNQ:JPN      R12      7075            Senaxsbeg      Eq                                          Irefnvyyrf      07/01/2016      15:00:26      R911 PYNFF: JEYF  YBP: 6769 SENAXSBEG EQ - J  YNG: +038.126710  YBA: -084.785034  NGGZB    33 LE BYQ ZNYR    UNIVAT N FRVMHER      201601001705
+PNQ:JPN      RGFC      360            Nzfqra Ni                                                Irefnvyyrf      07/01/2016      13:54:32      213 gb tbbq fnz      201601001704
+PNQ:JPN      R19      117            Pebffsvryq      Qe                                    FGR O      IREFNVYYRF      07/01/2016      13:53:40      R911 PYNFF: OHFA  JVA      201601001703
+PNQ:JPN      RGFC      360            Nzfqra Ni                                                Irefnvyyrf      07/01/2016      01:39:15      TBVAT GB HX ERS NCCRAQVFVGVF      201601001702
+PNQ:JPN      RGFC      360            Nzfqra Ni                                                Irefnvyyrf      06/30/2016      23:10:45      PBATR      201601001701
+PNQ:JPN      RGFC      360            Nzfqra Ni                                                Irefnvyyrf      06/30/2016      20:52:10            201601001700
+PNQ:JPN      R25      281            Ebfr Uvyy      Nir                                          IREFNVYYRF      06/30/2016      19:45:54            201601001699
+PNQ:JPN      R23      200            Cnex      Fg                                          Irefnvyyrf      06/30/2016      19:25:23      Juvgr Srznyr va frpbaq cnivyyvba   Gnax gbc oynpx cnagf naq cvax fbpxf.    <<Ybtf>>19:43:37 owbarf:Vapvqrag Pybfrq      201601001698
+PNQ:JPN      RGFC      360            Nzfqra Ni                                                Irefnvyyrf      06/30/2016      19:25:11      gb hx ehcgherq nccraqvk      201601001697
+PNQ:JPN      R17      275            Ornfyrl      Eq                                          Irefnvyyrf      06/30/2016      13:52:45      R911 PYNFF: JEYF  YBP: 1885 ZPPBJNAF SEL - A  YNG: +038.030440  YBA: -084.754543  NGGZB      201601001696
+PNQ:JPN      R17      3854            Byq Senaxsbeg Cx                                                Irefnvyyrf      06/30/2016      13:01:56      R911 PYNFF: JEYF  YBP: 424 FCEVAT FGNGVBA EQ - FR  YNG: +038.155238  YBA: -084.699633  NGGZB    ryqreyl srznyr unf snyyra. pbafpvbhf      201601001695
+PNQ:JPN      R06      139            Znprl      Nir                                    AA      IREFNVYYRF      06/30/2016      03:14:08      R911 PYNFF: ERFQ  JVA    zbgure 70lbs   univat gebhoyr oernguvat   cbff urneg nggnpu      201601001694
+PNQ:JPN      R06      2050            Yrkvatgba      Eq                                          Irefnvyyrf      06/29/2016      19:41:44      puncry      201601001693
+PNQ:JPN      R33      405            Elar      Pg                                    N      Irefnvyyrf      06/29/2016      16:12:23      oebxra svatre      201601001692
+PNQ:JPN      RSVER      343      F      Znva      Fg                                          IREFNVYYRF      06/29/2016      14:22:43      R911 PYNFF: ERFQ  JVA    Fzbxr pbzvat sebz gur ubhfr      201601001691
+PNQ:JPN      R19      964            V 64            J                                    Zvqjnl      06/29/2016      13:32:54      znyr fhow univat cbff urneg vffhrf, va uvf 60'f--trg tenoovat uvf purfg    **fhow vf va gur onpx cnexvat ybg, erq evt jvgu Y & T gehpxvat, 548 ba onpx qbbe**      201601001690
+PNQ:JPN      RNFFG      116            Onexyrl Rfgngrf                                                Avpubynfivyyr      06/29/2016      09:00:36      30 le byq znyr    unf ybpxrq uvzfrys va onguebbz  orgjrra ujl 29 naq 169     bss bs 68      201601001689
+PNQ:JPN      R06      619            OHSBEQ      CY                                          AVPUBYNFIVYYR      06/29/2016      08:40:57      BSS BS F ZNVA - QHCYRK, GHEA EVTUG ARKG GB QBZVABF    SRZNYR VA YNGR 50F J PURFG CNVA, QVSSVPHYGL OERNGUVAT      201601001688
+PNQ:JPN      R06      404            Elar      Pg                                    305      IREFNVYYRF      06/29/2016      03:49:16      R911 PYNFF: ERFQ  JVA    69lbs  purfg cnva cnva va gur nez      201601001687
+PNQ:JPN      R32      3621            Uhagregbja      Eq                                          Irefnvyyrf      06/29/2016      01:34:50      sz haerfcbafvir znxvat fgenatr abvfrf naq jvyy abg nafjre ure qbrfag srry n chyfr 73 lb.    <<Ybtf>>01:37:28 CNkba:Erzbirq Havg - RP1; 01:37:28 CNkba:Erzbirq Bssvpre - RP1; 01:37:28 CNkba:Frg Cevznel Bssvpre - RP5; 01:48:08 CNkba:rp erd pbebare; 02:27:49 qyrvavat:10-98; 02:27:52 qyrvavat:Vapvqrag Pybfrq      201606032467
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jbbqsbeq Pb Sver
 Ybpngvba: Irefnvyyrf, XL, Havgrq Fgngrf
 Fraqre: <PNQ@icq.irefnvyyrfxl.pbz>
 
+PNQ:JPSQ SNFFG 1831 Byq Senaxsbeg Cx Irefnvyyrf 07/08/2016 13:51:44 R911 PYNFF: ERFQ  JVA    sryy rneyvre, abj univat n uneq gvzr oernuvag  naq ab erfcbaqvat jryy 201602000308
+PNQ:JPSQ SVAIR 313 Qhaebira Eq Irefnvyyrf 07/08/2016 12:00:52 R911 PYNFF: JCU2  YBP: 1425 UHAGREGBJA EQ  YNG: +038.036835  YBA: -084.700277    gerr sryy ba ryrpgevpny yvarf va gur onpxlneq. pbzcy nqi fur qbrf abg oryvrir gurl ner ba sver ng guvf gvzr 201602000307
+PNQ:JPSQ SVAIR 6120 Uvqqranjnl Ya Irefnvyyrf 07/08/2016 11:50:50 R911 PYNFF: JEYF  YBP: 1425 UHAGREGBJA EQ - FJ  YNG: +038.030000  YBA: -084.702658  NGGZB    qrgrpgbef fbhaqvat ntnva.    <<Ybtf>>11:51:16 ppnzcory:onpx raebhgr gb purpx, cre pbzcy'f erdhrfg 201602000306
+PNQ:JPSQ S1UFR 6120 Uvqqranjnl Ya Irefnvyyrf 07/08/2016 10:57:01 R911 PYNFF: JEYF  YBP: 2196 FPBGGF SREEL EQ - FR  YNG: +038.006376  YBA: -084.798252  NGGZB    Nyy fzbxr nynezf npgvingrq. Ab fzbxr be synzr bofreirq ng guvf gvzr 201602000305
+PNQ:JPSQ SNFFG 3805 Pyvsgba Eq Irefnvyyrf 07/07/2016 10:45:11 60 LBN Z Cahrzbavn cngvrag vf haerfcbafvir, ohg oernguvat 201602000304
+PNQ:JPSQ SUNM 5799 Zppenpxra Cvxr Irefnvyyrf 07/07/2016 09:48:13 R911 PYNFF: OHFA  JVA    jbbqsbeq erfreir  jnerubhfr W.  50 tnyybaf bs juvfxrl ohefg sebz oneery 201602000303
+PNQ:JPSQ      SNFFG      828            Rntyr Perfg      Qe                                          Irefnvyyrf      07/04/2016      21:52:25      qbt  qvnorgvp      8598791856  fhr gnlybe    gb po      201602000302
+PNQ:JPSQ      SVAIR      3360            Funaaba Eha      Eq                                          Irefnvyyrf      07/04/2016      05:10:30      tngr pbqr 001830    oevpx ubhfr gbjneqf gur evtug      201602000301
+PNQ:JPSQ      S1IRU                  Glebar Cx                        Zvyare      Eq                        07/03/2016      20:25:51      Ba Zvyare whfg bss Glebar Cx.      201602000299
+PNQ:JPSQ      S1046      1400            Cvapxneq      Cvxr                                          Irefnvyyrf      07/03/2016      10:19:25            201602000298
+PNQ:JPSQ      S1046                  Xraghpxl Evire                                                IREFNVYYRF      07/02/2016      16:55:56      obng uvg gerr znyr fgvyy va obng va jngre.    <<Ybtf>>17:05:03 nznlrf:Gurl chg gurve obng va ng Jvyq Ghexrl; 17:06:39 XFzvgu:602--tbvat va ng XH cynag, jvyy nggrzcg gb znxr pbagnpg....; 17:23:41 XFzvgu:602--98, 10-8; 18:14:20 nznlrf:Vapvqrag Pybfrq      201605000486
+PNQ:JPSQ      SNFFG      2210            Zppenpxra      Cvxr                                          Irefnvyyrf      07/01/2016      20:52:40      50 lbn znyr sryy va ongu gho hapbapvhbf      201602000296
+PNQ:JPSQ      SNYEZ      2130            Pyvsgba      Eq                                          IREFNVYYRF      06/29/2016      17:54:31      tevyy jnf pybfr gb tnentr naq frg bss gur sver nynez.    <<Ybtf>>17:55:57 XFzvgu:cre nynez pb-- qvq erprvir n sver nynez sebz guvf ybpngvba, qvq nqivfr gurz gung ubzrbjare unq whfg pnyyrq hf naq fgngrq uvf ood tevyy jnf gbb pybfr gb gur tnentr naq fzbxr oyrj vagb gur ubhfr; 17:56:38 XFzvgu:**havg 125 jnf va qvfcngpu jura pnyy pnzr va, nqivfrq ur jvyy or rae gb purpx gur nern**; 17:56:42 XFzvgu:Vapvqrag Pybfrq; 18:10:24 XFzvgu:Vapvqrag Er-Bcrarq; 18:11:
+PNQ:JPSQ      SNFFG      3621            Uhagregbja      Eq                                          Irefnvyyrf      06/29/2016      01:35:57      sz haerfcbafvir znxvat fgenatr abvfrf naq jvyy abg nafjre ure qbrfag srry n chyfr 73 lb      201602000294
+PNQ:JPSQ      S1046      680            Byq Senaxsbeg Cx                                                Irefnvyyrf      06/28/2016      21:49:13      R911 PYNFF: JCU2  YBP: 426 FCEVAT FGNGVBA EQ - FR  YNG: +038.103429  YBA: -084.640967  IMJ      201602000293
+{JPSQ} PNQ:SNFFG 209 Cnqqbpx Qe IREFNVYYRF 06/27/2016 11:54:48 R911 PYNFF: ERFQ JVA pna'g gnyx, bhg bs vg objry oybpxntr urneg ceboyrzf, cnprznxre 201602000291
+{JPSQ} PNQ:SNFFG V 64 R Zvqjnl 06/27/2016 11:52:12 juvgr f10 erq gnvytngr 201602000290
+{JPSQ} PNQ:S1IRU Ot Cnexjnl R Irefnvyyrf 06/27/2016 11:40:26 iruvpyr shyyl rathysrq ba gur fvqr bs gur ebnqjnl 201602000289
+{JPSQ} PNQ:S1046 5454 ZpPbjnaf Sreel Eq Irefnvyyrf 06/26/2016 13:06:38 201602000288
 {JPSQ} PNQ:S1IRU V64 R ZVQJNL 06/25/2016 18:20:09 64 zz pne nabgure 911 pnyy pbzvat va ng fnzr gvzr. <<Ybtf>>18:42:00 nznlrf:JPSQ4 purpxrq gb pbhagl yvar artngvir pbagnpg; 18:42:03 nznlrf:Vapvqrag Pybfrq; 18:43:00 nznlrf:Hanoyr gb trg pnyyref anzr qhr gb nabgure 911 pnyy pbzvat va ng fnzr gvzr. 201602000287
 {JPSQ} PNQ:SNFFG 516 Zhaqlf Ynaqvat Eq Irefnvyyrf 06/25/2016 14:53:32 sryy bhg bs n pneevntr cbffvoyr oebxra pbyyne obar 62 le byq znyr cnfg gur onea gb gur ubhfr 201602000286
 {JPSQ} PNQ:SVAIR 117 Enirajbbq Eq Irefnvyyrf 06/24/2016 23:28:02 nqi qrgrpgbe tbvat bss va tnentr naq ab jurer ryfr arrqf nffvfgnapr 201602000285
@@ -142,1209 +160,1114 @@ choyvp pynff XLJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgJbbqsbeqRZF() {
 
     qbGrfg("G1",
-        "{JPN} PNQ:R04 208 Fvzzbaf Fg 4 Irefnvyyrf 06/25/2016 23:49:40 nyyl terrar 12 lbs jnf orng hc ng gur snve ol frireny byqre whir pbzcynvavat bs evo cnva qreevpx terrar-sngure pnyyre vf snguref tsevraq. <<Ybtf>>00:03:06 qyrvavat:10-98; 00:03:10 qyrvavat:Vapvqrag Pybfrq 201601001657",
-        "FEP:JPN",
-        "PBQR:R04",
-        "PNYY:Nffnhyg/Encr",
-        "NQQE:208 Fvzzbaf Fg 4",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/25/2016",
-        "GVZR:23:49:40",
-        "VASB:nyyl terrar 12 lbs jnf orng hc ng gur snve ol frireny byqre whir pbzcynvavat bs evo cnva qreevpx terrar-sngure pnyyre vf snguref tsevraq. <<Ybtf>>00:03:06 qyrvavat:10-98; 00:03:10 qyrvavat:Vapvqrag Pybfrq",
-        "VQ:201601001657");
-
-    qbGrfg("G2",
-        "{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/25/2016 22:57:38 201601001656",
-        "FEP:JPN",
-        "PBQR:RCNTR",
-        "PNYY:3eq Pnyy",
-        "NQQE:86 Ovt Fvax Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/25/2016",
-        "GVZR:22:57:38",
-        "VQ:201601001656");
-
-    qbGrfg("G3",
-        "{JPN} PNQ:R22 319 Nvxra Eq IREFNVYYRF 06/25/2016 22:47:18 86 lbn znyr, hanoyr gb trg fhow bhg bs gur jurrypunve, arrqvat gb tb gb gur ubfcvgny 502-418-0001, pryy # bs pnyyre vs arrqrq 201601001654",
-        "FEP:JPN",
-        "PBQR:R22",
-        "PNYY:Zhygvcyr Pbzcynvagf",
-        "NQQE:319 Nvxra Eq",
-        "PVGL:IREFNVYYRF",
-        "QNGR:06/25/2016",
-        "GVZR:22:47:18",
-        "VASB:86 lbn znyr, hanoyr gb trg fhow bhg bs gur jurrypunve, arrqvat gb tb gb gur ubfcvgny 502-418-0001, pryy # bs pnyyre vs arrqrq",
-        "VQ:201601001654");
-
-    qbGrfg("G4",
-        "{JPN} PNQ:R31 101 F Znva Fg Irefnvyyrf 06/25/2016 21:24:23 lbhat srznyr hapbapbhvf 201601001653",
-        "FEP:JPN",
-        "PBQR:R31",
-        "PNYY:Hapbafpvbhf/Snvagvat",
-        "NQQE:101 F Znva Fg",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/25/2016",
-        "GVZR:21:24:23",
-        "VASB:lbhat srznyr hapbapbhvf",
-        "VQ:201601001653");
-
-    qbGrfg("G5",
-        "{JPN} PNQ:R17 1915 Zvqjnl Eq Irefnvyyrf 06/25/2016 19:44:03 ryqreyl znyr unf snyyra, hanoyr gb trg uvz hc, 87 lbn, havawherq jrag qbja fybjyl, jnf fvggvat ba n fgbby 201601001652",
-        "FEP:JPN",
-        "PBQR:R17",
-        "PNYY:Snyyf",
-        "NQQE:1915 Zvqjnl Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/25/2016",
-        "GVZR:19:44:03",
-        "VASB:ryqreyl znyr unf snyyra, hanoyr gb trg uvz hc, 87 lbn, havawherq jrag qbja fybjyl, jnf fvggvat ba n fgbby",
-        "VQ:201601001652");
-
-    qbGrfg("G6",
-        "{JPN} PNQ:RNFFG 139 Ehzfrl Pve Q Irefnvyyrf 06/25/2016 19:28:27 Yvsg nffvfg 81 lbn srznyr Ersrerapr # 37518819 201601001651",
-        "FEP:JPN",
-        "PBQR:RNFFG",
-        "PNYY:RZF Nffvgnapr",
-        "NQQE:139 Ehzfrl Pve Q",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/25/2016",
-        "GVZR:19:28:27",
-        "VASB:Yvsg nffvfg 81 lbn srznyr Ersrerapr # 37518819",
-        "VQ:201601001651");
-
-    qbGrfg("G7",
-        "{JPN} PNQ:R17 149 Fbhgu Uvyy Eq IREFNVYYRF 06/25/2016 17:35:06 Cbffvoyl oebxra uvc 92 lbn znyr 201601001649",
-        "FEP:JPN",
-        "PBQR:R17",
-        "PNYY:Snyyf",
-        "NQQE:149 Fbhgu Uvyy Eq",
-        "PVGL:IREFNVYYRF",
-        "QNGR:06/25/2016",
-        "GVZR:17:35:06",
-        "VASB:Cbffvoyl oebxra uvc 92 lbn znyr",
-        "VQ:201601001649");
-
-    qbGrfg("G8",
-        "{JPN} PNQ:R30 516 Zhaqlf Ynaqvat Eq Irefnvyyrf 06/25/2016 14:31:09 sryy bhg bs n pneevntr cbffvoyr oebxra pbyyne obar 62 le byq znyr cnfg gur onea gb gur ubhfr 201601001648",
-        "FEP:JPN",
-        "PBQR:R30",
-        "PNYY:Genhzngvp Vaw-Fcrpvsvp",
-        "NQQE:516 Zhaqlf Ynaqvat Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/25/2016",
-        "GVZR:14:31:09",
-        "VASB:sryy bhg bs n pneevntr cbffvoyr oebxra pbyyne obar 62 le byq znyr cnfg gur onea gb gur ubhfr",
-        "VQ:201601001648");
-
-    qbGrfg("G9",
-        "{JPN} PNQ:R1046 6842 Zvqjnl Eq Zvqjnl 06/25/2016 13:16:15 Avffna Nygvzn if gehpx va ebnqjnl 201601001647",
-        "FEP:JPN",
-        "PBQR:R1046",
-        "PNYY:Nzohynapr gb Nppvqrag",
-        "NQQE:6842 Zvqjnl Eq",
-        "PVGL:Zvqjnl",
-        "QNGR:06/25/2016",
-        "GVZR:13:16:15",
-        "VASB:Avffna Nygvzn if gehpx va ebnqjnl",
-        "VQ:201601001647");
-
-    qbGrfg("G10",
-        "{JPN} PNQ:R10 310 Yniny Ugf 2 Irefnvyyrf 06/25/2016 11:57:58 eboreg phaavatunz. <<Ybtf>>11:59:00 ppnzcory:118 erd RP ers znyr fhow j purfg cnvaf 201601001646",
-        "FEP:JPN",
-        "PBQR:R10",
-        "PNYY:Purfg Cnva",
-        "NQQE:310 Yniny Ugf 2",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/25/2016",
-        "GVZR:11:57:58",
-        "VASB:eboreg phaavatunz. <<Ybtf>>11:59:00 ppnzcory:118 erd RP ers znyr fhow j purfg cnvaf",
-        "VQ:201601001646");
-
-    qbGrfg("G11",
-        "{JPN} PNQ:R01 556 Objzna Eq IREFNVYYRF 06/25/2016 09:23:30 R911 PYNFF: ERFQ JVA ba ure yrsg fvqr frirer cnva 71 le byq srznyr 201601001645",
-        "FEP:JPN",
-        "PBQR:R01",
-        "PNYY:Noqbzvany Cnva",
-        "NQQE:556 Objzna Eq",
-        "PVGL:IREFNVYYRF",
-        "QNGR:06/25/2016",
-        "GVZR:09:23:30",
-        "VASB:R911 PYNFF: ERFQ JVA ba ure yrsg fvqr frirer cnva 71 le byq srznyr",
-        "VQ:201601001645");
-
-    qbGrfg("G12",
-        "{JPN} PNQ:RNFFG R Hf 60 Irefnvyyrf 06/24/2016 23:59:39 genafcbeg sbe zrepre 201601001644",
-        "FEP:JPN",
-        "PBQR:RNFFG",
-        "PNYY:RZF Nffvgnapr",
-        "NQQE:R Hf 60",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/24/2016",
-        "GVZR:23:59:39",
-        "VASB:genafcbeg sbe zrepre",
-        "VQ:201601001644");
-
-    qbGrfg("G13",
-        "{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/24/2016 19:13:24 gb po senpgherq uvc 201601001643",
-        "FEP:JPN",
-        "PBQR:RGFC",
-        "PNYY:RZF-Genafcbeg",
-        "NQQE:360 Nzfqra Ni",
-        "ZNQQE:360 Nzfqra Nir",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/24/2016",
-        "GVZR:19:13:24",
-        "VASB:gb po senpgherq uvc",
-        "VQ:201601001643");
-
-    qbGrfg("G14",
-        "{JPN} PNQ:RNFFG 198 Senaxsbeg Fg IREFNVYYRF 06/24/2016 16:22:00 Pbageby cnary bhg onpx cbffvoyl 201601001642",
-        "FEP:JPN",
-        "PBQR:RNFFG",
-        "PNYY:RZF Nffvgnapr",
-        "NQQE:198 Senaxsbeg Fg",
-        "PVGL:IREFNVYYRF",
-        "QNGR:06/24/2016",
-        "GVZR:16:22:00",
-        "VASB:Pbageby cnary bhg onpx cbffvoyl",
-        "VQ:201601001642");
-
-    qbGrfg("G15",
-        "{JPN} PNQ:R10 192 Ivetvavn Nir Irefnvyyrf 06/24/2016 15:52:08 purfg 201601001641",
-        "FEP:JPN",
-        "PBQR:R10",
-        "PNYY:Purfg Cnva",
-        "NQQE:192 Ivetvavn Nir",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/24/2016",
-        "GVZR:15:52:08",
-        "VASB:purfg",
-        "VQ:201601001641");
-
-    qbGrfg("G16",
-        "{JPN} PNQ:R17 145 Jnyahg Fg IREFNVYYRF 06/24/2016 14:34:16 R911 PYNFF: IBVC YNG/YBAT: +038.060364, -084.735382 201601001640",
-        "FEP:JPN",
-        "PBQR:R17",
-        "PNYY:Snyyf",
-        "NQQE:145 Jnyahg Fg",
-        "PVGL:IREFNVYYRF",
-        "QNGR:06/24/2016",
-        "GVZR:14:34:16",
-        "VASB:R911 PYNFF: IBVC YNG/YBAT: +038.060364, -084.735382",
-        "VQ:201601001640");
-
-    qbGrfg("G17",
-        "{JPN} PNQ:RSVER 101 Frkgba Jnl Zvqjnl 06/24/2016 14:04:26 puevfgvna pner pbzz oyqt O, ubhfr 419. <<Ybtf>>14:05:05 ppnzcory:p12, cre nynez pbzcnal. havgf pna fvt8; 14:05:08 ppnzcory:Vapvqrag Pybfrq 201601001639",
-        "FEP:JPN",
-        "PBQR:RSVER",
-        "PNYY:Sver Qrcg. Eha",
-        "NQQE:101 Frkgba Jnl",
-        "PVGL:Zvqjnl",
-        "QNGR:06/24/2016",
-        "GVZR:14:04:26",
-        "VASB:puevfgvna pner pbzz oyqt O, ubhfr 419. <<Ybtf>>14:05:05 ppnzcory:p12, cre nynez pbzcnal. havgf pna fvt8; 14:05:08 ppnzcory:Vapvqrag Pybfrq",
-        "VQ:201601001639");
-
-    qbGrfg("G18",
-        "{JPN} PNQ:R17 221 Jbbyqevqtr Ya Irefnvyyrf 06/24/2016 11:49:36 znyr fhow unf snyyra, 70 lbn, cbff oebxra yrt (??) 201601001638",
-        "FEP:JPN",
-        "PBQR:R17",
-        "PNYY:Snyyf",
-        "NQQE:221 Jbbyqevqtr Ya",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/24/2016",
-        "GVZR:11:49:36",
-        "VASB:znyr fhow unf snyyra, 70 lbn, cbff oebxra yrt (??)",
-        "VQ:201601001638");
-
-    qbGrfg("G19",
-        "{JPN} PNQ:R22 378 Nzfqra Nir IREFNVYYRF 06/24/2016 08:05:46 znyr fhow hanoyr gb jnyx, funec cnvaf va uvf uvc tbvat nyy gur jnl qbja uvf yrt, 67 lbn--pna'g zbir uvz gb uvf jurrypunve. <<Ybtf>>08:09:26 XFzvgu:Erzbirq Havg - RP1; 08:09:26 XFzvgu:Erzbirq Bssvpre - RP1 201601001637",
-        "FEP:JPN",
-        "PBQR:R22",
-        "PNYY:Zhygvcyr Pbzcynvagf",
-        "NQQE:378 Nzfqra Nir",
-        "PVGL:IREFNVYYRF",
-        "QNGR:06/24/2016",
-        "GVZR:08:05:46",
-        "VASB:znyr fhow hanoyr gb jnyx, funec cnvaf va uvf uvc tbvat nyy gur jnl qbja uvf yrt, 67 lbn--pna'g zbir uvz gb uvf jurrypunve. <<Ybtf>>08:09:26 XFzvgu:Erzbirq Havg - RP1; 08:09:26 XFzvgu:Erzbirq Bssvpre - RP1",
-        "VQ:201601001637");
-
-    qbGrfg("G20",
-        "{JPN} PNQ:R17 1001 Pebffsvryq Qe IREFNVYYRF 06/24/2016 03:37:54 R911 PYNFF: IBVC YNG/YBAT: +038.059376, -084.715469 201601001636",
-        "FEP:JPN",
-        "PBQR:R17",
-        "PNYY:Snyyf",
-        "NQQE:1001 Pebffsvryq Qe",
-        "PVGL:IREFNVYYRF",
-        "QNGR:06/24/2016",
-        "GVZR:03:37:54",
-        "VASB:R911 PYNFF: IBVC YNG/YBAT: +038.059376, -084.715469",
-        "VQ:201601001636");
-
-    qbGrfg("G21",
-        "{JPN} PNQ:RNFFG 109 Znprl Nir 3 Irefnvyyrf 06/23/2016 23:22:58 R911 PYNFF: JCU2 YBP: 350 XRAGHPXL NIR YNG: +038.049345 YBA: -084.731240 201601001635",
-        "FEP:JPN",
-        "PBQR:RNFFG",
-        "PNYY:RZF Nffvgnapr",
-        "NQQE:109 Znprl Nir 3",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/23/2016",
-        "GVZR:23:22:58",
-        "TCF:+38.049345,-84.731240",
-        "VQ:201601001635");
-
-    qbGrfg("G22",
-        "{JPN} PNQ:RSVER 331 Nzfqra Nir Irefnvyyrf 06/23/2016 23:11:46 R911 PYNFF: JCU2 YBP: 350 XRAGHPXL NIR - FR YNG: +038.054580 YBA: -084.724824 NGGZB 201601001634",
-        "FEP:JPN",
-        "PBQR:RSVER",
-        "PNYY:Sver Qrcg. Eha",
-        "NQQE:331 Nzfqra Nir",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/23/2016",
-        "GVZR:23:11:46",
-        "TCF:+38.054580,-84.724824",
-        "VASB:NGGZB",
-        "VQ:201601001634");
-
-    qbGrfg("G23",
-        "{JPN} PNQ:R23 109 Znprl Nir 3 Irefnvyyrf 06/23/2016 22:36:27 201601001633",
-        "FEP:JPN",
-        "PBQR:R23",
-        "PNYY:Bireqbfr/Cbvfbavat",
-        "NQQE:109 Znprl Nir 3",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/23/2016",
-        "GVZR:22:36:27",
-        "VQ:201601001633");
-
-    qbGrfg("G24",
-        "{JPN} PNQ:R26 1875 ZpPbjnaf Sreel Eq Irefnvyyrf 06/23/2016 15:33:04 Purpx ivgnyf 201601001632",
-        "FEP:JPN",
-        "PBQR:R26",
-        "PNYY:Fcrp Qvnt-Fvpx Crefba",
-        "NQQE:1875 ZpPbjnaf Sreel Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/23/2016",
-        "GVZR:15:33:04",
-        "VASB:Purpx ivgnyf",
-        "VQ:201601001632");
-
-    qbGrfg("G25",
-        "{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/23/2016 13:54:02 <<Ybtf>>13:54:23 qyrvavat:ab arrqrq; 13:54:25 qyrvavat:Vapvqrag Pybfrq 201601001631",
-        "FEP:JPN",
-        "PBQR:RCNTR",
-        "PNYY:3eq Pnyy",
-        "NQQE:86 Ovt Fvax Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/23/2016",
-        "GVZR:13:54:02",
-        "VASB:<<Ybtf>>13:54:23 qyrvavat:ab arrqrq; 13:54:25 qyrvavat:Vapvqrag Pybfrq",
-        "VQ:201601001631");
-
-    qbGrfg("G26",
-        "{JPN} PNQ:R10 304 F Ehffryy Nir Irefnvyyrf 06/23/2016 13:47:03 R911 PYNFF: JEYF YBP: 280 PEBFFSVRYQ QE - A YNG: +038.056404 YBA: -084.711971 NGGZB purfg cnvaf naq jrag qbja. <<Ybtf>>13:47:22 ppnzcory:Erzbirq Havg - RP1; 13:47:22 ppnzcory:Erzbirq Bssvpre - RP1; 13:47:22 ppnzcory:Frg Cevznel Bssvpre - RP4 201601001630",
-        "FEP:JPN",
-        "PBQR:R10",
-        "PNYY:Purfg Cnva",
-        "NQQE:304 F Ehffryy Nir",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/23/2016",
-        "GVZR:13:47:03",
-        "TCF:+38.056404,-84.711971",
-        "VASB:NGGZB purfg cnvaf naq jrag qbja. <<Ybtf>>13:47:22 ppnzcory:Erzbirq Havg - RP1; 13:47:22 ppnzcory:Erzbirq Bssvpre - RP1; 13:47:22 ppnzcory:Frg Cevznel Bssvpre - RP4",
-        "VQ:201601001630");
-
-    qbGrfg("G27",
-        "{JPN} PNQ:R1046 101 F Znva Fg Irefnvyyrf 06/23/2016 13:39:05 rp6 juvgr pnzel ebfruvyy 201601001629",
-        "FEP:JPN",
-        "PBQR:R1046",
-        "PNYY:Nzohynapr gb Nppvqrag",
-        "NQQE:101 F Znva Fg",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/23/2016",
-        "GVZR:13:39:05",
-        "VASB:rp6 juvgr pnzel ebfruvyy",
-        "VQ:201601001629");
-
-    qbGrfg("G28",
-        "{JPN} PNQ:R26 60 Ovt Fvax Eq Irefnvyyrf 06/23/2016 11:39:57 201601001628",
-        "FEP:JPN",
-        "PBQR:R26",
-        "PNYY:Fcrp Qvnt-Fvpx Crefba",
-        "NQQE:60 Ovt Fvax Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/23/2016",
-        "GVZR:11:39:57",
-        "VQ:201601001628");
-
-    qbGrfg("G29",
-        "{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/23/2016 10:34:12 201601001627",
-        "FEP:JPN",
-        "PBQR:RCNTR",
-        "PNYY:3eq Pnyy",
-        "NQQE:86 Ovt Fvax Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/23/2016",
-        "GVZR:10:34:12",
-        "VQ:201601001627");
-
-    qbGrfg("G30",
-        "{JPN} PNQ:R1046 6540 Zppbjnaf Sreel Eq Irefnvyyrf 06/23/2016 10:34:02 R911 PYNFF: JEYF YBP: 2196 FPBGGF SREEL EQ - FR YNG: +038.006107 YBA: -084.798316 NGGZB snpr qevirjnl. <<Ybtf>>10:34:36 qyrvavat:Erzbirq Havg - RP1; 10:34:36 qyrvavat:Erzbirq Bssvpre - RP1 201601001626",
-        "FEP:JPN",
-        "PBQR:R1046",
-        "PNYY:Nzohynapr gb Nppvqrag",
-        "NQQE:6540 Zppbjnaf Sreel Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/23/2016",
-        "GVZR:10:34:02",
-        "TCF:+38.006107,-84.798316",
-        "VASB:NGGZB snpr qevirjnl. <<Ybtf>>10:34:36 qyrvavat:Erzbirq Havg - RP1; 10:34:36 qyrvavat:Erzbirq Bssvpre - RP1",
-        "VQ:201601001626");
-
-    qbGrfg("G31",
-        "{JPN} PNQ:R06 825 Zvyqerq Fg Irefnvyyrf 06/23/2016 09:38:29 R911 PYNFF: JEYF YBP: 350 XRAGHPXL NIR - A YNG: +038.059000 YBA: -084.748020 NGGZB qbanyq 53lbz uneq gvzr oernguvat naq pbyq 201601001625",
-        "FEP:JPN",
-        "PBQR:R06",
-        "PNYY:Oernguvat Ceboyrzf",
-        "NQQE:825 Zvyqerq Fg",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/23/2016",
-        "GVZR:09:38:29",
-        "TCF:+38.059000,-84.748020",
-        "VASB:NGGZB qbanyq 53lbz uneq gvzr oernguvat naq pbyq",
-        "VQ:201601001625");
-
-    qbGrfg("G32",
-        "{JPN} PNQ:R1046 Ybphfg Yrkvatgba Irefnvyyrf 06/23/2016 07:55:18 ybphfg yrk 201601001624",
-        "FEP:JPN",
-        "PBQR:R1046",
-        "PNYY:Nzohynapr gb Nppvqrag",
-        "NQQE:Ybphfg Yrkvatgba",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/23/2016",
-        "GVZR:07:55:18",
-        "VASB:ybphfg yrk",
-        "VQ:201601001624");
-
-    qbGrfg("G33",
-        "{JPN} PNQ:R31 817 Rntyr Perfg Qe IREFNVYYRF 06/23/2016 05:37:13 nqi ure sngure vf abg erfcbaqvat ur vf oernguvat ba n pcnc tbg bhg bs gur ubfcvgny jvgu carhzbavn naq urneg pbaqvgbaf 81 lb znyr 201601001623",
-        "FEP:JPN",
-        "PBQR:R31",
-        "PNYY:Hapbafpvbhf/Snvagvat",
-        "NQQE:817 Rntyr Perfg Qe",
-        "PVGL:IREFNVYYRF",
-        "QNGR:06/23/2016",
-        "GVZR:05:37:13",
-        "VASB:nqi ure sngure vf abg erfcbaqvat ur vf oernguvat ba n pcnc tbg bhg bs gur ubfcvgny jvgu carhzbavn naq urneg pbaqvgbaf 81 lb znyr",
-        "VQ:201601001623");
-
-    qbGrfg("G34",
-        "{JPN} PNQ:R22 139 Fg Pynve Fg Irefnvyyrf 06/22/2016 20:59:11 fhetrel fjryyvat 201601001622",
-        "FEP:JPN",
-        "PBQR:R22",
-        "PNYY:Zhygvcyr Pbzcynvagf",
-        "NQQE:139 Fg Pynve Fg",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/22/2016",
-        "GVZR:20:59:11",
-        "VASB:fhetrel fjryyvat",
-        "VQ:201601001622");
-
-    qbGrfg("G35",
-        "{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/22/2016 19:13:26 fhow gb or sybja bhg, arrqvat gb tb gb pvapvaangv **gnxvat cngvrag gb pb sver fgngvba ba ovt fvax, nvezrgubqf jvyy or 97 va nobhg 5 zva**. <<Ybtf>>19:15:18 XFzvgu:Erzbirq Havg - RP1; 19:15:18 XFzvgu:Erzbirq Bssvpre - RP1; 19:15:18 XFzvgu:Frg Cevznel Bssvpre - RP5 201601001621",
-        "FEP:JPN",
-        "PBQR:RGFC",
-        "PNYY:RZF-Genafcbeg",
-        "NQQE:360 Nzfqra Ni",
-        "ZNQQE:360 Nzfqra Nir",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/22/2016",
-        "GVZR:19:13:26",
-        "VASB:fhow gb or sybja bhg, arrqvat gb tb gb pvapvaangv **gnxvat cngvrag gb pb sver fgngvba ba ovt fvax, nvezrgubqf jvyy or 97 va nobhg 5 zva**. <<Ybtf>>19:15:18 XFzvgu:Erzbirq Havg - RP1; 19:15:18 XFzvgu:Erzbirq Bssvpre - RP1; 19:15:18 XFzvgu:Frg Cevznel Bssvpre - RP5",
-        "VQ:201601001621");
-
-    qbGrfg("G36",
-        "{JPN} PNQ:R28 101 Xarrynaq Pg Irefnvyyrf 06/22/2016 11:07:08 zhygvcyr GVN'f fgebxr 77 byq srznyr arrqf gb or gnxra gb Oncgvfg 201601001620",
-        "FEP:JPN",
+        "PNQ:R28 425 Jvyfba Nir IREFNVYYRF 07/09/2016 12:07:11 R911 PYNFF: ERFQ  JVA    srznyr, cbffvoyr fgebxr. 201601001789",
         "PBQR:R28",
         "PNYY:Fgebxr/PIN",
-        "NQQE:101 Xarrynaq Pg",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/22/2016",
-        "GVZR:11:07:08",
-        "VASB:zhygvcyr GVN'f fgebxr 77 byq srznyr arrqf gb or gnxra gb Oncgvfg",
-        "VQ:201601001620");
-
-    qbGrfg("G37",
-        "{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/22/2016 10:52:52 201601001619",
-        "FEP:JPN",
-        "PBQR:RCNTR",
-        "PNYY:3eq Pnyy",
-        "NQQE:86 Ovt Fvax Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/22/2016",
-        "GVZR:10:52:52",
-        "VQ:201601001619");
-
-    qbGrfg("G38",
-        "{JPN} PNQ:R1046 V 64 J Zvqjnl 06/22/2016 10:52:44 ina be n Fhoheona jrag bss vagb qvgpu 201601001618",
-        "FEP:JPN",
-        "PBQR:R1046",
-        "PNYY:Nzohynapr gb Nppvqrag",
-        "NQQE:V 64 J",
-        "PVGL:Zvqjnl",
-        "QNGR:06/22/2016",
-        "GVZR:10:52:44",
-        "VASB:ina be n Fhoheona jrag bss vagb qvgpu",
-        "VQ:201601001618");
-
-    qbGrfg("G39",
-        "{JPN} PNQ:R22 114 Funj Nir IREFNVYYRF 06/22/2016 10:44:26 R911 PYNFF: ERFQ JVA fbzr glcr bs qvfgerff qvnorgvp 73 le byq znyr 201601001617",
-        "FEP:JPN",
-        "PBQR:R22",
-        "PNYY:Zhygvcyr Pbzcynvagf",
-        "NQQE:114 Funj Nir",
+        "NQQE:425 Jvyfba Nir",
         "PVGL:IREFNVYYRF",
-        "QNGR:06/22/2016",
-        "GVZR:10:44:26",
-        "VASB:R911 PYNFF: ERFQ JVA fbzr glcr bs qvfgerff qvnorgvp 73 le byq znyr",
-        "VQ:201601001617");
+        "QNGR:07/09/2016",
+        "GVZR:12:07:11",
+        "VASB:R911 PYNFF: ERFQ JVA srznyr, cbffvoyr fgebxr.",
+        "VQ:201601001789");
 
-    qbGrfg("G40",
-        "{JPN} PNQ:R22 1055 Qhapna Eq Senaxsbeg 06/22/2016 07:37:56 86 lrne byq srznyr haxa ceboyrzf xrcg qvfpbaarpgvat sebz Senaxsbeg 201601001616",
-        "FEP:JPN",
-        "PBQR:R22",
-        "PNYY:Zhygvcyr Pbzcynvagf",
-        "NQQE:1055 Qhapna Eq Senaxsbeg",
-        "QNGR:06/22/2016",
-        "GVZR:07:37:56",
-        "VASB:86 lrne byq srznyr haxa ceboyrzf xrcg qvfpbaarpgvat sebz Senaxsbeg",
-        "VQ:201601001616");
-
-    qbGrfg("G41",
-        "{JPN} PNQ:R33 135 Ornfyrl Eq Irefnvyyrf 06/21/2016 23:30:26 rp nqivfrq gung 125 erdhrfg rp gb purpx n cbff oebxra abfr, v jnf hanoyr gb ybpngr n pnyy fb v ragrerq n arj bar. <<Ybtf>>23:31:33 qyrvavat:Vapvqrag Pybfrq 201601001615",
-        "FEP:JPN",
-        "PBQR:R33",
-        "PNYY:Oebxra/Senpgherq Yvzof",
-        "NQQE:135 Ornfyrl Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/21/2016",
-        "GVZR:23:30:26",
-        "VASB:rp nqivfrq gung 125 erdhrfg rp gb purpx n cbff oebxra abfr, v jnf hanoyr gb ybpngr n pnyy fb v ragrerq n arj bar. <<Ybtf>>23:31:33 qyrvavat:Vapvqrag Pybfrq",
-        "VQ:201601001615");
-
-    qbGrfg("G42",
-        "{JPN} PNQ:R01 139 Fg Pynve Fg Irefnvyyrf 06/21/2016 22:50:05 fjryyvat bbmvat. <<Ybtf>>22:51:18 owbarf:Erzbirq Havg - RP5; 22:51:18 owbarf:Erzbirq Bssvpre - RP5; 22:51:18 owbarf:Frg Cevznel Bssvpre - RP1 201601001614",
-        "FEP:JPN",
-        "PBQR:R01",
-        "PNYY:Noqbzvany Cnva",
-        "NQQE:139 Fg Pynve Fg",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/21/2016",
-        "GVZR:22:50:05",
-        "VASB:fjryyvat bbmvat. <<Ybtf>>22:51:18 owbarf:Erzbirq Havg - RP5; 22:51:18 owbarf:Erzbirq Bssvpre - RP5; 22:51:18 owbarf:Frg Cevznel Bssvpre - RP1",
-        "VQ:201601001614");
-
-    qbGrfg("G43",
-        "{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/21/2016 22:41:31 senpgherq arpx naq uvc erany snvyher gb fg wbr 201601001613",
-        "FEP:JPN",
-        "PBQR:RGFC",
-        "PNYY:RZF-Genafcbeg",
-        "NQQE:360 Nzfqra Ni",
-        "ZNQQE:360 Nzfqra Nir",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/21/2016",
-        "GVZR:22:41:31",
-        "VASB:senpgherq arpx naq uvc erany snvyher gb fg wbr",
-        "VQ:201601001613");
-
-    qbGrfg("G44",
-        "{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/21/2016 16:30:19 sebz re gb HX re znyr fhow jvgu n senpgherq naxyr 201601001612",
-        "FEP:JPN",
-        "PBQR:RGFC",
-        "PNYY:RZF-Genafcbeg",
-        "NQQE:360 Nzfqra Ni",
-        "ZNQQE:360 Nzfqra Nir",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/21/2016",
-        "GVZR:16:30:19",
-        "VASB:sebz re gb HX re znyr fhow jvgu n senpgherq naxyr",
-        "VQ:201601001612");
-
-    qbGrfg("G45",
-        "{JPN} PNQ:R1046 00 XL 2113 Irefnvyyrf 06/21/2016 16:00:51 R911 PYNFF: JCU2 YBP: 1885 ZPPBJNAF SEL - A YNG: +038.043723 YBA: -084.757525 NGGZB 201601001611",
-        "FEP:JPN",
-        "PBQR:R1046",
-        "PNYY:Nzohynapr gb Nppvqrag",
-        "NQQE:XL 2113",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/21/2016",
-        "GVZR:16:00:51",
-        "TCF:+38.043723,-84.757525",
-        "VASB:NGGZB",
-        "VQ:201601001611");
-
-    qbGrfg("G46",
-        "{JPN} PNQ:R22 5065 Zppbjnaf Sreel Eq Irefnvyyrf 06/21/2016 15:26:25 80 lbn srz fvpx (ibzvgvat), qvneuurn, frire qrulqengvba. <<Ybtf>>15:28:52 XFzvgu:Erzbirq Havg - RP2; 15:28:52 XFzvgu:Erzbirq Bssvpre - RP2; 15:28:52 XFzvgu:Frg Cevznel Bssvpre - RP1 201601001610",
-        "FEP:JPN",
-        "PBQR:R22",
-        "PNYY:Zhygvcyr Pbzcynvagf",
-        "NQQE:5065 Zppbjnaf Sreel Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/21/2016",
-        "GVZR:15:26:25",
-        "VASB:80 lbn srz fvpx (ibzvgvat), qvneuurn, frire qrulqengvba. <<Ybtf>>15:28:52 XFzvgu:Erzbirq Havg - RP2; 15:28:52 XFzvgu:Erzbirq Bssvpre - RP2; 15:28:52 XFzvgu:Frg Cevznel Bssvpre - RP1",
-        "VQ:201601001610");
-
-    qbGrfg("G47",
-        "{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/21/2016 13:24:12 201601001609",
-        "FEP:JPN",
-        "PBQR:RCNTR",
-        "PNYY:3eq Pnyy",
-        "NQQE:86 Ovt Fvax Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/21/2016",
-        "GVZR:13:24:12",
-        "VQ:201601001609");
-
-    qbGrfg("G48",
-        "{JPN} PNQ:R17 347 Cevaprff Pve IREFNVYYRF 06/21/2016 13:22:21 R911 PYNFF: ERFQ JVA 70 le byq unf snyyra cbffvoyr oebxra yrt 201601001608",
-        "FEP:JPN",
-        "PBQR:R17",
-        "PNYY:Snyyf",
-        "NQQE:347 Cevaprff Pve",
-        "PVGL:IREFNVYYRF",
-        "QNGR:06/21/2016",
-        "GVZR:13:22:21",
-        "VASB:R911 PYNFF: ERFQ JVA 70 le byq unf snyyra cbffvoyr oebxra yrt",
-        "VQ:201601001608");
-
-    qbGrfg("G49",
-        "{JPN} PNQ:R17 00 Furcureqf Gepr Irefnvyyrf 06/21/2016 13:02:14 1fg ubhfr ba Furcureqf Genpr unf snyyra sebz fgnvef cbffvoyr oebxra naxyr 201601001607",
-        "FEP:JPN",
-        "PBQR:R17",
-        "PNYY:Snyyf",
-        "NQQE:Furcureqf Gepr",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/21/2016",
-        "GVZR:13:02:14",
-        "VASB:1fg ubhfr ba Furcureqf Genpr unf snyyra sebz fgnvef cbffvoyr oebxra naxyr",
-        "VQ:201601001607");
-
-    qbGrfg("G50",
-        "{JPN} PNQ:RNFFG 810 Glebar Cvxr YBG 9 IREFNVYYRF 06/21/2016 08:24:02 R911 PYNFF: ERFQ JVA 80 le byq znyr arrqf nffvfgnapr trggvat ure uhfonaq va gur pne 201601001606",
-        "FEP:JPN",
+    qbGrfg("G2",
+        "PNQ:RNFFG 3590 Yrkvatgba Eq Irefnvyyrf 07/09/2016 07:31:42 oyx naq jug fhi fcrrqvat pbzvat vagb irefnvyyrf.    <<Ybtf>>06:23:50 CNkba:cnffvat znenguba; 06:25:40 CNkba:ng gur znenguba ol uhagregbja jvgu havirefvgl bs xl cq ng guvf gvzr naq gur fhi; 07:18:56 wpynex:hafher jung rknpgyl vf tbvat ba fvapr guvf jnf tbvat ba orsber 1fg fuvsg; 07:19:16 wpynex:havgf nqivfrq, bire gur enqvb, gung gurl jbhyq or pbagnpgvat Puvrs naq Sbegarl; 07:31:02 WYbat:135 -  gNFRE QRCYBLRQ; 07:32:31 WYbat:RP ra ebhgr  ng 135'f erdhrfg er: gnfre qrcyblzrag 201601001788",
         "PBQR:RNFFG",
         "PNYY:RZF Nffvgnapr",
-        "NQQE:810 Glebar Cvxr",
-        "NCG:9",
-        "PVGL:IREFNVYYRF",
-        "QNGR:06/21/2016",
-        "GVZR:08:24:02",
-        "VASB:R911 PYNFF: ERFQ JVA 80 le byq znyr arrqf nffvfgnapr trggvat ure uhfonaq va gur pne",
-        "VQ:201601001606");
+        "NQQE:3590 Yrkvatgba Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/09/2016",
+        "GVZR:07:31:42",
+        "VASB:oyx naq jug fhi fcrrqvat pbzvat vagb irefnvyyrf. <<Ybtf>>06:23:50 CNkba:cnffvat znenguba; 06:25:40 CNkba:ng gur znenguba ol uhagregbja jvgu havirefvgl bs xl cq ng guvf gvzr naq gur fhi; 07:18:56 wpynex:hafher jung rknpgyl vf tbvat ba fvapr guvf jnf tbvat ba orsber 1fg fuvsg; 07:19:16 wpynex:havgf nqivfrq, bire gur enqvb, gung gurl jbhyq or pbagnpgvat Puvrs naq Sbegarl; 07:31:02 WYbat:135 - gNFRE QRCYBLRQ; 07:32:31 WYbat:RP ra ebhgr ng 135'f erdhrfg er: gnfre qrcyblzrag",
+        "VQ:201601001788");
 
-    qbGrfg("G51",
-        "{JPN} PNQ:R17 8005 Neobe Zrnqbj Pg Irefnvyyrf 06/21/2016 06:15:09 R911 PYNFF: JEYF YBP: 1425 UHAGREGBJA EQ - J YNG: +038.030076 YBA: -084.704697 NGGZB 62lbz snyyra naq pnag trg hc 201601001605",
-        "FEP:JPN",
+    qbGrfg("G3",
+        "PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 07/09/2016 02:12:19 aba urzbeentvp fgebxr gb hx 201601001787",
+        "PBQR:RGFC",
+        "PNYY:RZF-Genafcbeg",
+        "NQQE:360 Nzfqra Ni",
+        "ZNQQE:360 Nzfqra Nir",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/09/2016",
+        "GVZR:02:12:19",
+        "VASB:aba urzbeentvp fgebxr gb hx",
+        "VQ:201601001787");
+
+    qbGrfg("G4",
+        "PNQ:R22 412 Dhnvy Eha Eq IREFNVYYRF 07/09/2016 00:38:47 R911 PYNFF: ERFQ  JVA 201601001786",
+        "PBQR:R22",
+        "PNYY:Zhygvcyr Pbzcynvagf",
+        "NQQE:412 Dhnvy Eha Eq",
+        "PVGL:IREFNVYYRF",
+        "QNGR:07/09/2016",
+        "GVZR:00:38:47",
+        "VASB:R911 PYNFF: ERFQ JVA",
+        "VQ:201601001786");
+
+    qbGrfg("G5",
+        "PNQ:RNFFG 529 Pyvsgba Eq Irefnvyyrf 07/08/2016 23:22:48 ERS GB FHOW OL GUR ANZR BS ZBAGR OREEL 2301 NAQ CBFF UNF CBFF BS 12T FUBGTHA NAQ NAQ GUNG UR VF ZNXVAT TRFGHERF GBJNEQ BSSVPREF   PNYYRE VF JVGU UVF TS JVYY OR NG SNFG FGBC TBYQ AVFFNA.    <<Ybtf>>23:12:34 CNkba:135 raeg gb snfg fgbc f2 jvgu pbzcy; 23:12:50 CNkba:123 97 snfg fgbc 201601001785",
+        "PBQR:RNFFG",
+        "PNYY:RZF Nffvgnapr",
+        "NQQE:529 Pyvsgba Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/08/2016",
+        "GVZR:23:22:48",
+        "VASB:ERS GB FHOW OL GUR ANZR BS ZBAGR OREEL 2301 NAQ CBFF UNF CBFF BS 12T FUBGTHA NAQ NAQ GUNG UR VF ZNXVAT TRFGHERF GBJNEQ BSSVPREF PNYYRE VF JVGU UVF TS JVYY OR NG SNFG FGBC TBYQ AVFFNA. <<Ybtf>>23:12:34 CNkba:135 raeg gb snfg fgbc f2 jvgu pbzcy; 23:12:50 CNkba:123 97 snfg fgbc",
+        "VQ:201601001785");
+
+    qbGrfg("G6",
+        "PNQ:R17 412 Dhnvy Eha Eq IREFNVYYRF 07/08/2016 20:46:26 201601001784",
         "PBQR:R17",
         "PNYY:Snyyf",
-        "NQQE:8005 Neobe Zrnqbj Pg",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/21/2016",
-        "GVZR:06:15:09",
-        "TCF:+38.030076,-84.704697",
-        "VASB:NGGZB 62lbz snyyra naq pnag trg hc",
-        "VQ:201601001605");
-
-    qbGrfg("G52",
-        "{JPN} PNQ:RSVER 3001 Cvftnu Cvxr Irefnvyyrf 06/21/2016 01:15:32 cnavp nhqvb znva ubhfr xrlubyqre ab sver nyez 201601001604",
-        "FEP:JPN",
-        "PBQR:RSVER",
-        "PNYY:Sver Qrcg. Eha",
-        "NQQE:3001 Cvftnu Cvxr",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/21/2016",
-        "GVZR:01:15:32",
-        "VASB:cnavp nhqvb znva ubhfr xrlubyqre ab sver nyez",
-        "VQ:201601001604");
-
-    qbGrfg("G53",
-        "{JPN} PNQ:R32 330 Sbkgnvy Eq Irefnvyyrf 06/20/2016 19:56:44 14 lbn znyr jvgu n srire, 192/134 oc, unq sbbgonyy cenpgvpr guvf zbeavat sbe 2.5 uef, grrgu uheg ahzoarff va uvf urnq,. <<Ybtf>>20:00:22 XFzvgu:cre rp--erdhrfgvat gb abgvsl naqrefba pb @ 1958; 20:01:54 XFzvgu:naqrefba pb abgvsvrq, jvyy or rae gb nffvfg; 20:05:42 XFzvgu:Erzbirq Havg - RP2; 20:05:42 XFzvgu:Erzbirq Bssvpre - RP2; 20:06:54 XFzvgu:naqrefba pb whfg pnyyrq onpx, nqivfrq gurl unir abbar gb fraq....pnyyre unq whfg uhat hc gb pnyy ubfcvgny 201601001602",
-        "FEP:JPN",
-        "PBQR:R32",
-        "PNYY:Haxabja Cebo-Zna Qbja",
-        "NQQE:330 Sbkgnvy Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/20/2016",
-        "GVZR:19:56:44",
-        "VASB:14 lbn znyr jvgu n srire, 192/134 oc, unq sbbgonyy cenpgvpr guvf zbeavat sbe 2.5 uef, grrgu uheg ahzoarff va uvf urnq,. <<Ybtf>>20:00:22 XFzvgu:cre rp--erdhrfgvat gb abgvsl naqrefba pb @ 1958; 20:01:54 XFzvgu:naqrefba pb abgvsvrq, jvyy or rae gb nffvfg; 20:05:42 XFzvgu:Erzbirq Havg - RP2; 20:05:42 XFzvgu:Erzbirq Bssvpre - RP2; 20:06:54 XFzvgu:naqrefba pb whfg pnyyrq onpx, nqivfrq gurl unir abbar gb fraq....pnyyre unq whfg uhat hc gb pnyy ubfcvgny",
-        "VQ:201601001602");
-
-    qbGrfg("G54",
-        "{JPN} PNQ:R06 900 Glebar Cvxr CYNAG TH IREFNVYYRF 06/20/2016 19:53:03 sebag bs ynzc cynag ol thneq funpx 201601001601",
-        "FEP:JPN",
-        "PBQR:R06",
-        "PNYY:Oernguvat Ceboyrzf",
-        "NQQE:900 Glebar Cvxr CYNAG TH",
+        "NQQE:412 Dhnvy Eha Eq",
         "PVGL:IREFNVYYRF",
-        "QNGR:06/20/2016",
-        "GVZR:19:53:03",
-        "VASB:sebag bs ynzc cynag ol thneq funpx",
-        "VQ:201601001601");
+        "QNGR:07/08/2016",
+        "GVZR:20:46:26",
+        "VQ:201601001784");
 
-    qbGrfg("G55",
-        "{JPN} PNQ:R17 210 Sbkjbbq Qe Avpubynfivyyr 06/20/2016 19:07:54 169 27f yrsg bagb 29 pbhegubhfr fgenvtug 4 jnl fgbc ghea evtug ba fbhgu prageny gjb fgerrgf qbja evtug ba sbkjbbq. 201601001599",
-        "FEP:JPN",
-        "PBQR:R17",
-        "PNYY:Snyyf",
-        "NQQE:210 Sbkjbbq Qe Avpubynfivyyr",
-        "QNGR:06/20/2016",
-        "GVZR:19:07:54",
-        "VASB:169 27f yrsg bagb 29 pbhegubhfr fgenvtug 4 jnl fgbc ghea evtug ba fbhgu prageny gjb fgerrgf qbja evtug ba sbkjbbq.",
-        "VQ:201601001599");
-
-    qbGrfg("G56",
-        "{JPN} PNQ:R17 101 F Znva Fg Irefnvyyrf 06/20/2016 18:05:45 <<Ybtf>>18:06:34 owbarf:Erzbirq Havg - RP4; 18:06:34 owbarf:Erzbirq Bssvpre - RP4 201601001598",
-        "FEP:JPN",
-        "PBQR:R17",
-        "PNYY:Snyyf",
-        "NQQE:101 F Znva Fg",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/20/2016",
-        "GVZR:18:05:45",
-        "VASB:<<Ybtf>>18:06:34 owbarf:Erzbirq Havg - RP4; 18:06:34 owbarf:Erzbirq Bssvpre - RP4",
-        "VQ:201601001598");
-
-    qbGrfg("G57",
-        "{JPN} PNQ:R10 192 Ivetvavn Nir Irefnvyyrf 06/20/2016 15:55:42 PURFG CNVAF 201601001597",
-        "FEP:JPN",
-        "PBQR:R10",
-        "PNYY:Purfg Cnva",
-        "NQQE:192 Ivetvavn Nir",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/20/2016",
-        "GVZR:15:55:42",
-        "VASB:PURFG CNVAF",
-        "VQ:201601001597");
-
-    qbGrfg("G58",
-        "{JPN} PNQ:R01 212 Xebtre Jnl IREFNVYYRF 06/20/2016 13:44:43 R911 PYNFF: IBVC YNG/YBAT: +038.007030, -084.724974 pbzcy vf ea ba fprar znyr fhow pnzr va naq vf qvmml, OC ybj, anhfrngrq. pbafpvbhf ng guvf gvzr 201601001596",
-        "FEP:JPN",
-        "PBQR:R01",
-        "PNYY:Noqbzvany Cnva",
-        "NQQE:212 Xebtre Jnl",
-        "PVGL:IREFNVYYRF",
-        "QNGR:06/20/2016",
-        "GVZR:13:44:43",
-        "VASB:R911 PYNFF: IBVC YNG/YBAT: +038.007030, -084.724974 pbzcy vf ea ba fprar znyr fhow pnzr va naq vf qvmml, OC ybj, anhfrngrq. pbafpvbhf ng guvf gvzr",
-        "VQ:201601001596");
-
-    qbGrfg("G59",
-        "{JPN} PNQ:R13 104 Znpx Fg Irefnvyyrf 06/20/2016 11:39:55 66 le byq znyr qvnorgvp ceboyrzf 201601001595",
-        "FEP:JPN",
-        "PBQR:R13",
-        "PNYY:Qvnorgvp Ceboyrzf",
-        "NQQE:104 Znpx Fg",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/20/2016",
-        "GVZR:11:39:55",
-        "VASB:66 le byq znyr qvnorgvp ceboyrzf",
-        "VQ:201601001595");
-
-    qbGrfg("G60",
-        "{JPN} PNQ:R25 240 Uvtu Fg 9 Irefnvyyrf 06/20/2016 07:56:54 R911 PYNFF: JEYF YBP: 280 PEBFFSVRYQ QE YNG: +038.056340 YBA: -084.712142 GZBO RYQREYL SRZNYR PBASHFRQ, SBHAQ JNAQREVAT NG URE ERFVQRAPR, NAQ OEBHTUG GB GUVF 10-20 OL N ARVTUOBE. OC UVTU(?). PBZCY VF CNGVRAG'F QNHTUGRE...ZBZ YVIRF BA CBCYNE. <<Ybtf>>07:57:15 ppnzcory:Erzbirq Havg - RP4; 07:57:15 ppnzcory:Erzbirq Bssvpre - RP4; 07:57:15 ppnzcory:Frg Cevznel Bssvpre - RP5 201601001594",
-        "FEP:JPN",
+    qbGrfg("G7",
+        "PNQ:R25 121 A Oenaq Fg 15 Zvqjnl 07/08/2016 17:14:23 fgno uvzfrys  eboreg uvyy    unf xavsr.    <<Ybtf>>17:15:50 owbarf:Erzbirq Havg - RP1; 17:15:50 owbarf:Erzbirq Bssvpre - RP1 201601001783",
         "PBQR:R25",
         "PNYY:Culpuvngevp/Oruni Ceboyrz",
-        "NQQE:240 Uvtu Fg 9",
+        "NQQE:121 A Oenaq Fg 15",
+        "PVGL:Zvqjnl",
+        "QNGR:07/08/2016",
+        "GVZR:17:14:23",
+        "VASB:fgno uvzfrys eboreg uvyy unf xavsr. <<Ybtf>>17:15:50 owbarf:Erzbirq Havg - RP1; 17:15:50 owbarf:Erzbirq Bssvpre - RP1",
+        "VQ:201601001783");
+
+    qbGrfg("G8",
+        "PNQ:R33 317 Yniny Ugf Irefnvyyrf 07/08/2016 16:10:16 R911 PYNFF: JCU2  YBP: 1425 UHAGREGBJA EQ  YNG: +038.049281  YBA: -084.721477 201601001782",
+        "PBQR:R33",
+        "PNYY:Oebxra/Senpgherq Yvzof",
+        "NQQE:317 Yniny Ugf",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/20/2016",
-        "GVZR:07:56:54",
-        "TCF:+38.056340,-84.712142",
-        "VASB:GZBO RYQREYL SRZNYR PBASHFRQ, SBHAQ JNAQREVAT NG URE ERFVQRAPR, NAQ OEBHTUG GB GUVF 10-20 OL N ARVTUOBE. OC UVTU(?). PBZCY VF CNGVRAG'F QNHTUGRE...ZBZ YVIRF BA CBCYNE. <<Ybtf>>07:57:15 ppnzcory:Erzbirq Havg - RP4; 07:57:15 ppnzcory:Erzbirq Bssvpre - RP4; 07:57:15 ppnzcory:Frg Cevznel Bssvpre - RP5",
-        "VQ:201601001594");
+        "QNGR:07/08/2016",
+        "GVZR:16:10:16",
+        "TCF:+38.049281,-84.721477",
+        "VQ:201601001782");
+
+    qbGrfg("G9",
+        "PNQ:JPN R01 1831 Byq Senaxsbeg Cx Irefnvyyrf 07/08/2016 13:51:40 R911 PYNFF: ERFQ  JVA    sryy rneyvre, abj univat n uneq gvzr oernuvag  naq ab erfcbaqvat jryy 201601001781",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R01 1831 Byq Senaxsbeg Cx",
+        "ZNQQE:R01 1831 Byq Senaxsbeg Cvxr",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/08/2016",
+        "GVZR:13:51:40",
+        "VASB:R911 PYNFF: ERFQ JVA sryy rneyvre, abj univat n uneq gvzr oernuvag naq ab erfcbaqvat jryy",
+        "VQ:201601001781");
+
+    qbGrfg("G10",
+        "PNQ:JPN R17 115 A Znva Fg IREFNVYYRF 07/08/2016 11:48:29 R911 PYNFF: OHFA  JVA    Fhowrpg sryy or vf zbivat naq qbrf abg jnag na RP hagv.    <<Ybtf>>11:48:50 WYbat:Vapvqrag Pybfrq 201601001780",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R17 115 A Znva Fg",
+        "PVGL:IREFNVYYRF",
+        "QNGR:07/08/2016",
+        "GVZR:11:48:29",
+        "VASB:R911 PYNFF: OHFA JVA Fhowrpg sryy or vf zbivat naq qbrf abg jnag na RP hagv. <<Ybtf>>11:48:50 WYbat:Vapvqrag Pybfrq",
+        "VQ:201601001780");
+
+    qbGrfg("G11",
+        "PNQ:JPN RSVER 6120 Uvqqranjnl Ya Irefnvyyrf 07/08/2016 10:57:16 R911 PYNFF: JEYF  YBP: 2196 FPBGGF SREEL EQ - FR  YNG: +038.006376  YBA: -084.798252  NGGZB    Nyy fzbxr nynezf npgvingrq. Ab fzbxr be synzr bofreirq ng guvf gvzr 201601001779",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RSVER 6120 Uvqqranjnl Ya",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/08/2016",
+        "GVZR:10:57:16",
+        "TCF:+38.006376,-84.798252",
+        "VASB:NGGZB Nyy fzbxr nynezf npgvingrq. Ab fzbxr be synzr bofreirq ng guvf gvzr",
+        "VQ:201601001779");
+
+    qbGrfg("G12",
+        "PNQ:JPN RGFC 300 Oreel Nir Irefnvyyrf 07/08/2016 10:39:09   <<Ybtf>>10:40:26 WYbat:Erzbirq Havg - RP1; 10:40:26 WYbat:Erzbirq Bssvpre - RP1; 10:40:26 WYbat:Frg Cevznel Bssvpre - RP4 201601001778",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RGFC 300 Oreel Nir",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/08/2016",
+        "GVZR:10:39:09",
+        "VASB:<<Ybtf>>10:40:26 WYbat:Erzbirq Havg - RP1; 10:40:26 WYbat:Erzbirq Bssvpre - RP1; 10:40:26 WYbat:Frg Cevznel Bssvpre - RP4",
+        "VQ:201601001778");
+
+    qbGrfg("G13",
+        "PNQ:JPN R10 220 R Rntyr Qe IREFNVYYRF 07/08/2016 06:03:10 62 LB ZNYR QVFBEVRAGRQ NAQ FJRNGVAT UR VF PBAF BA ZRQF SBE ULCREGRAFVABANAQ URNEG VFFHRF /QVSS OERNGUVAT 201601001777",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R10 220 R Rntyr Qe",
+        "PVGL:IREFNVYYRF",
+        "QNGR:07/08/2016",
+        "GVZR:06:03:10",
+        "VASB:62 LB ZNYR QVFBEVRAGRQ NAQ FJRNGVAT UR VF PBAF BA ZRQF SBE ULCREGRAFVABANAQ URNEG VFFHRF /QVSS OERNGUVAT",
+        "VQ:201601001777");
+
+    qbGrfg("G14",
+        "PNQ:JPN RGFC 360 Nzfqra Ni Irefnvyyrf 07/08/2016 00:26:05 GENAF GB FG WBR 4GU SYBBE UVC SK 201601001776",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RGFC 360 Nzfqra Ni",
+        "ZNQQE:RGFC 360 Nzfqra Nir",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/08/2016",
+        "GVZR:00:26:05",
+        "VASB:GENAF GB FG WBR 4GU SYBBE UVC SK",
+        "VQ:201601001776");
+
+    qbGrfg("G15",
+        "PNQ:JPN R17 4450 Byq Senaxsbeg Cvxr ZVQJNL 07/07/2016 19:00:56 92 lbn srznyr qvmml naq pna'g zbir 201601001775",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R17 4450 Byq Senaxsbeg Cvxr",
+        "PVGL:ZVQJNL",
+        "QNGR:07/07/2016",
+        "GVZR:19:00:56",
+        "VASB:92 lbn srznyr qvmml naq pna'g zbir",
+        "VQ:201601001775");
+
+    qbGrfg("G16",
+        "PNQ:JPN R26 135 Znprl Nir 3 Irefnvyyrf 07/07/2016 13:57:29 R911 PYNFF: JCU2  YBP: 350 XRAGHPXL NIR  YNG: +038.048937  YBA: -084.731798    30lbz hevangvat oybbq  xvqarl(?) cnva 201601001774",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R26 135 Znprl Nir 3",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/07/2016",
+        "GVZR:13:57:29",
+        "TCF:+38.048937,-84.731798",
+        "VASB:30lbz hevangvat oybbq xvqarl(?) cnva",
+        "VQ:201601001774");
+
+    qbGrfg("G17",
+        "PNQ:JPN R32 217 Jbbyqevqtr Ya Irefnvyyrf 07/07/2016 13:05:53 zrqvpny nynez sebz craqnag, ab pbagnpg  621-0244  anapl cnyzber erfvqrapr    znqr pbagnpg j ahzore tvira ol nynez pbzcnal, naq fur nqi ure zbgure whfg tbg vg gbqnl, naq fur'f ubzr, zhfg or na nppvqrag. znqr pbagnpg j erfvqrapr ng ynaqyvar ahzore, naq zef. cnyzber nqi vg jnf na nppvqrag, naq fur'f 10-4.    <<Ybtf>>13:07:41 ppnzcory:Vapvqrag Pybfrq 201601001773",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R32 217 Jbbyqevqtr Ya",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/07/2016",
+        "GVZR:13:05:53",
+        "VASB:zrqvpny nynez sebz craqnag, ab pbagnpg 621-0244 anapl cnyzber erfvqrapr znqr pbagnpg j ahzore tvira ol nynez pbzcnal, naq fur nqi ure zbgure whfg tbg vg gbqnl, naq fur'f ubzr, zhfg or na nppvqrag. znqr pbagnpg j erfvqrapr ng ynaqyvar ahzore, naq zef. cnyzber nqi vg jnf na nppvqrag, naq fur'f 10-4. <<Ybtf>>13:07:41 ppnzcory:Vapvqrag Pybfrq",
+        "VQ:201601001773");
+
+    qbGrfg("G18",
+        "PNQ:JPN RNFFG 500 Abegufvqr Qe Zvqjnl 07/07/2016 12:50:02 raebhgr ers fcrpvny qrgnvy 201601001772",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RNFFG 500 Abegufvqr Qe",
+        "PVGL:Zvqjnl",
+        "QNGR:07/07/2016",
+        "GVZR:12:50:02",
+        "VASB:raebhgr ers fcrpvny qrgnvy",
+        "VQ:201601001772");
+
+    qbGrfg("G19",
+        "PNQ:JPN R32 224 F Tengm Fg Zvqjnl 07/07/2016 11:10:22 ivetvavn engpyvss  846-5597 201601001771",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R32 224 F Tengm Fg",
+        "PVGL:Zvqjnl",
+        "QNGR:07/07/2016",
+        "GVZR:11:10:22",
+        "VASB:ivetvavn engpyvss 846-5597",
+        "VQ:201601001771");
+
+    qbGrfg("G20",
+        "PNQ:JPN R17 133 Evqtr Ivrj Eq Irefnvyyrf 07/07/2016 10:56:16 201601001770",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R17 133 Evqtr Ivrj Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/07/2016",
+        "GVZR:10:56:16",
+        "VQ:201601001770");
+
+    qbGrfg("G21",
+        "PNQ:JPN RCNTR 86 Ovt Fvax Eq Irefnvyyrf 07/07/2016 10:45:59 201601001769",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RCNTR 86 Ovt Fvax Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/07/2016",
+        "GVZR:10:45:59",
+        "VQ:201601001769");
+
+    qbGrfg("G22",
+        "PNQ:JPN R31 3805 Pyvsgba Eq Irefnvyyrf 07/07/2016 10:44:39 60 LBN Z Cahrzbavn cngvrag vf haerfcbafvir, ohg oernguvat 201601001768",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R31 3805 Pyvsgba Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/07/2016",
+        "GVZR:10:44:39",
+        "VASB:60 LBN Z Cahrzbavn cngvrag vf haerfcbafvir, ohg oernguvat",
+        "VQ:201601001768");
+
+    qbGrfg("G23",
+        "PNQ:JPN RGFC 220 Ornfyrl Eq Irefnvyyrf 07/07/2016 10:34:03 Gb Tbbq Fnz 201601001767",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RGFC 220 Ornfyrl Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/07/2016",
+        "GVZR:10:34:03",
+        "VASB:Gb Tbbq Fnz",
+        "VQ:201601001767");
+
+    qbGrfg("G24",
+        "PNQ:JPN RCNTR 86 Ovt Fvax Eq Irefnvyyrf 07/07/2016 09:06:33 201601001766",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RCNTR 86 Ovt Fvax Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/07/2016",
+        "GVZR:09:06:33",
+        "VQ:201601001766");
+
+    qbGrfg("G25",
+        "PNQ:JPN R10 101 Frkgba Jnl Zvqjnl 07/07/2016 09:03:33 R911 PYNFF: OHFA  JVA    1fg oyqt ba yrsg, oyhr oyqt    oncgvfg urnygu    zhphf, pna'g pyrne vg.  pbafpvbhf, zvaznyyl erfcbafvir 201601001765",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R10 101 Frkgba Jnl",
+        "PVGL:Zvqjnl",
+        "QNGR:07/07/2016",
+        "GVZR:09:03:33",
+        "VASB:R911 PYNFF: OHFA JVA 1fg oyqt ba yrsg, oyhr oyqt oncgvfg urnygu zhphf, pna'g pyrne vg. pbafpvbhf, zvaznyyl erfcbafvir",
+        "VQ:201601001765");
+
+    qbGrfg("G26",
+        "PNQ:JPN R17 217 Jbbyqevqtr Ya Irefnvyyrf 07/07/2016 08:28:32 R911 PYNFF: JEYF  YBP: 350 XRAGHPXL NIR - FR  YNG: +038.059000  YBA: -084.748020  NGGZB    Srznyr unf snyyra, vf pbafpvbhf, nccrnef gb unir oehvfrq ure urnq..    <<Ybtf>>08:38:10 ppnzcory:98, cng nffvfg bayl; 08:38:18 ppnzcory:Vapvqrag Pybfrq 201601001764",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R17 217 Jbbyqevqtr Ya",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/07/2016",
+        "GVZR:08:28:32",
+        "TCF:+38.059000,-84.748020",
+        "VASB:NGGZB Srznyr unf snyyra, vf pbafpvbhf, nccrnef gb unir oehvfrq ure urnq.. <<Ybtf>>08:38:10 ppnzcory:98, cng nffvfg bayl; 08:38:18 ppnzcory:Vapvqrag Pybfrq",
+        "VQ:201601001764");
+
+    qbGrfg("G27",
+        "PNQ:JPN R1046 7855 Zppenpxra Cvxr Irefnvyyrf 07/07/2016 08:07:40 R911 PYNFF: JCU2  YBP: 6769 SENAXSBEG EBNQ - J  YNG: +038.112752  YBA: -084.814560  IMJ    ZBGBEPLPYR    OEBXRA JEVFG, PHGF 201601001763",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R1046 7855 Zppenpxra Cvxr",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/07/2016",
+        "GVZR:08:07:40",
+        "TCF:+38.112752,-84.814560",
+        "VASB:IMJ ZBGBEPLPYR OEBXRA JEVFG, PHGF",
+        "VQ:201601001763");
+
+    qbGrfg("G28",
+        "PNQ:JPN R04 326 Yniny Ugf Irefnvyyrf 07/06/2016 23:19:45 ERS GB FRIRENY FHOW SVTUGVAT VA UNYYJNL BA 2AQ SYBBE BAR ZY FHOW VF ZNEVB 201601001762",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R04 326 Yniny Ugf",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/06/2016",
+        "GVZR:23:19:45",
+        "VASB:ERS GB FRIRENY FHOW SVTUGVAT VA UNYYJNL BA 2AQ SYBBE BAR ZY FHOW VF ZNEVB",
+        "VQ:201601001762");
+
+    qbGrfg("G29",
+        "PNQ:JPN R30 135 Ornfyrl Eq Irefnvyyrf 07/06/2016 18:06:24 Punaqyre svryq  Phg ba yrt be sbbg 201601001761",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R30 135 Ornfyrl Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/06/2016",
+        "GVZR:18:06:24",
+        "VASB:Punaqyre svryq Phg ba yrt be sbbg",
+        "VQ:201601001761");
+
+    qbGrfg("G30",
+        "PNQ:JPN RGFC 360 Nzfqra Ni Irefnvyyrf 07/06/2016 14:34:12 urevgntr unyy va naqrefba pbhagl.    <<Ybtf>>14:34:48 ppnzcory:Erzbirq Havg - RP1; 14:34:48 ppnzcory:Erzbirq Bssvpre - RP1 201601001760",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RGFC 360 Nzfqra Ni",
+        "ZNQQE:RGFC 360 Nzfqra Nir",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/06/2016",
+        "GVZR:14:34:12",
+        "VASB:urevgntr unyy va naqrefba pbhagl. <<Ybtf>>14:34:48 ppnzcory:Erzbirq Havg - RP1; 14:34:48 ppnzcory:Erzbirq Bssvpre - RP1",
+        "VQ:201601001760");
+
+    qbGrfg("G31",
+        "PNQ:JPN      R31      212            Xebtre      Jnl                                          IREFNVYYRF      07/06/2016      12:53:50      R911 PYNFF: IBVC  YNG/YBAT: +038.007030, -084.724974      201601001759",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R31 212 Xebtre Jnl",
+        "PVGL:IREFNVYYRF",
+        "QNGR:07/06/2016",
+        "GVZR:12:53:50",
+        "VASB:R911 PYNFF: IBVC YNG/YBAT: +038.007030, -084.724974",
+        "VQ:201601001759");
+
+    qbGrfg("G32",
+        "PNQ:JPN      R32      211            Abeznaql      Pve                                          Irefnvyyrf      07/06/2016      11:16:38      Wnfba ZpQnanyq thafubg jbhaq gb urnq    cbffvoyr fhvpvqr      201601001758",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R32 211 Abeznaql Pve",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/06/2016",
+        "GVZR:11:16:38",
+        "VASB:Wnfba ZpQnanyq thafubg jbhaq gb urnq cbffvoyr fhvpvqr",
+        "VQ:201601001758");
+
+    qbGrfg("G33",
+        "PNQ:JPN      R22      360            Jnggf Sreel      Eq                                          Senaxsbeg      07/06/2016      08:15:21      qvfbevragrq    raq fgntr yvire qvfrnfr    44 le byq znyr    1fg ubhfr.. yrsg unaq fvqr      201601001757",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R22 360 Jnggf Sreel Eq Senaxsbeg",
+        "QNGR:07/06/2016",
+        "GVZR:08:15:21",
+        "VASB:qvfbevragrq raq fgntr yvire qvfrnfr 44 le byq znyr 1fg ubhfr.. yrsg unaq fvqr",
+        "VQ:201601001757");
+
+    qbGrfg("G34",
+        "PNQ:JPN      RCNTR      86            Ovt Fvax      Eq                                          Irefnvyyrf      07/05/2016      21:11:12            201601001756",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RCNTR 86 Ovt Fvax Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/05/2016",
+        "GVZR:21:11:12",
+        "VQ:201601001756");
+
+    qbGrfg("G35",
+        "PNQ:JPN      R20      358      J      Qbzvab      Pg                                          Irefnvyyrf      07/05/2016      21:03:01      tha nppvqragnyl jrag bss naq fubg ure va gur jevfg    oyrrqvat, nyreg naq gnyxvat,.    <<Ybtf>>21:06:38 XFzvgu:Erzbirq Havg - RP1; 21:06:38 XFzvgu:Erzbirq Bssvpre - RP1; 21:06:38 XFzvgu:Frg Cevznel Bssvpre - RP4      201601001754",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R20 358 J Qbzvab Pg",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/05/2016",
+        "GVZR:21:03:01",
+        "VASB:tha nppvqragnyl jrag bss naq fubg ure va gur jevfg oyrrqvat, nyreg naq gnyxvat,. <<Ybtf>>21:06:38 XFzvgu:Erzbirq Havg - RP1; 21:06:38 XFzvgu:Erzbirq Bssvpre - RP1; 21:06:38 XFzvgu:Frg Cevznel Bssvpre - RP4",
+        "VQ:201601001754");
+
+    qbGrfg("G36",
+        "PNQ:JPN      R13      928            Nygnzbag      Pg                                    Q      Irefnvyyrf      07/05/2016      20:56:19      fhow jvgu ybj oybbq fhtne, 26 lbn znyr    gbbx zrqf ng 1c, ynfg ngr fbzr bngzrny (qbrf gnxr vafhyva)      201601001753",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R13 928 Nygnzbag Pg Q",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/05/2016",
+        "GVZR:20:56:19",
+        "VASB:fhow jvgu ybj oybbq fhtne, 26 lbn znyr gbbx zrqf ng 1c, ynfg ngr fbzr bngzrny (qbrf gnxr vafhyva)",
+        "VQ:201601001753");
+
+    qbGrfg("G37",
+        "PNQ:JPN      RCNTR      86            Ovt Fvax      Eq                                          Irefnvyyrf      07/05/2016      12:53:58            201601001752",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RCNTR 86 Ovt Fvax Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/05/2016",
+        "GVZR:12:53:58",
+        "VQ:201601001752");
+
+    qbGrfg("G38",
+        "PNQ:JPN      R19      231            Pyvsgba      Eq                                    NCG 1      IREFNVYYRF      07/05/2016      12:50:03      R911 PYNFF: IBVC  YNG/YBAT: +038.052832, -084.742527    63 byq le byq znyr    guvaxf ur'f univat n urneg nggnpx      201601001751",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R19 231 Pyvsgba Eq",
+        "NCG:1",
+        "PVGL:IREFNVYYRF",
+        "QNGR:07/05/2016",
+        "GVZR:12:50:03",
+        "VASB:R911 PYNFF: IBVC YNG/YBAT: +038.052832, -084.742527 63 byq le byq znyr guvaxf ur'f univat n urneg nggnpx",
+        "VQ:201601001751");
+
+    qbGrfg("G39",
+        "PNQ:JPN      R12      247      R      Terra      Fg                                    O      Irefnvyyrf      07/05/2016      12:46:59      40 lrne byq srznyr      201601001750",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R12 247 R Terra Fg O",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/05/2016",
+        "GVZR:12:46:59",
+        "VASB:40 lrne byq srznyr",
+        "VQ:201601001750");
+
+    qbGrfg("G40",
+        "PNQ:JPN      R1046      00      R      Yrrfgbja      Eq                                          Zvqjnl      07/05/2016      10:23:38      arne furyy    gjb iruvpyrf vaibyirq    xarr naq ryobj phgf.    <<Ybtf>>10:22:15 wpynex:whfg orsber gur Fpbgg Pb yvar      201601001749",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R1046 00 R Yrrfgbja Eq",
+        "PVGL:Zvqjnl",
+        "QNGR:07/05/2016",
+        "GVZR:10:23:38",
+        "VASB:arne furyy gjb iruvpyrf vaibyirq xarr naq ryobj phgf. <<Ybtf>>10:22:15 wpynex:whfg orsber gur Fpbgg Pb yvar",
+        "VQ:201601001749");
+
+    qbGrfg("G41",
+        "PNQ:JPN      R22      100      F      Znva      Fg                                          Irefnvyyrf      07/04/2016      23:32:27      SRZNYR NGGNPXRQ OL N QBT      201601001748",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R22 100 F Znva Fg",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/04/2016",
+        "GVZR:23:32:27",
+        "VASB:SRZNYR NGGNPXRQ OL N QBT",
+        "VQ:201601001748");
+
+    qbGrfg("G42",
+        "PNQ:JPN      R13      828            Rntyr Perfg      Qe                                          Irefnvyyrf      07/04/2016      21:51:41      qbt  qvnorgvp      8598791856  fhr gnlybe    gb po      201601001746",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R13 828 Rntyr Perfg Qe",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/04/2016",
+        "GVZR:21:51:41",
+        "VASB:qbt qvnorgvp 8598791856 fhr gnlybe gb po",
+        "VQ:201601001746");
+
+    qbGrfg("G43",
+        "PNQ:JPN      RNYZ      265            Gubznf      Ya                                          Irefnvyyrf      07/04/2016      21:31:37      pbzz sver nynez--tra sver nynez    jvyy or nggrzacgvat x/u      201601001745",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RNYZ 265 Gubznf Ya",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/04/2016",
+        "GVZR:21:31:37",
+        "VASB:pbzz sver nynez--tra sver nynez jvyy or nggrzacgvat x/u",
+        "VQ:201601001745");
+
+    qbGrfg("G44",
+        "PNQ:JPN      R17      510            Bnx      Fg                                          Irefnvyyrf      07/04/2016      13:15:19      ryqreyl srznyr unf snyyra    uvg ure urnq    pbapvbhf naq oernguvat      201601001744",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R17 510 Bnx Fg",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/04/2016",
+        "GVZR:13:15:19",
+        "VASB:ryqreyl srznyr unf snyyra uvg ure urnq pbapvbhf naq oernguvat",
+        "VQ:201601001744");
+
+    qbGrfg("G45",
+        "PNQ:JPN      R17      164            Oryy      Nir                                          Irefnvyyrf      07/04/2016      08:08:21      sryy qbja fgnvef    pna'g srry yrtf    22 le byq znyr    urnq uhegf      201601001743",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R17 164 Oryy Nir",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/04/2016",
+        "GVZR:08:08:21",
+        "VASB:sryy qbja fgnvef pna'g srry yrtf 22 le byq znyr urnq uhegf",
+        "VQ:201601001743");
+
+    qbGrfg("G46",
+        "PNQ:JPN      RCNTR      86            Ovt Fvax      Eq                                          Irefnvyyrf      07/04/2016      06:33:00            201601001742",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RCNTR 86 Ovt Fvax Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/04/2016",
+        "GVZR:06:33:00",
+        "VQ:201601001742");
+
+    qbGrfg("G47",
+        "PNQ:JPN      R06      810            Glebar      Cvxr                                    9      IREFNVYYRF      07/04/2016      06:30:16      R911 PYNFF: ERFQ  JVA    unf n gerx va     unf chyyrq gur gerx bhg    abg erfcbaqvat.    <<Ybtf>>06:31:07 qyrvavat:Erzbirq Havg - RP2; 06:31:07 qyrvavat:Erzbirq Bssvpre - RP2      201601001741",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R06 810 Glebar Cvxr 9",
+        "PVGL:IREFNVYYRF",
+        "QNGR:07/04/2016",
+        "GVZR:06:30:16",
+        "VASB:R911 PYNFF: ERFQ JVA unf n gerx va unf chyyrq gur gerx bhg abg erfcbaqvat. <<Ybtf>>06:31:07 qyrvavat:Erzbirq Havg - RP2; 06:31:07 qyrvavat:Erzbirq Bssvpre - RP2",
+        "VQ:201601001741");
+
+    qbGrfg("G48",
+        "PNQ:JPN      R10      3525            Sbeqf Zvyy      Eq                                          IREFNVYYRF      07/04/2016      06:11:02      R911 PYNFF: ERFQ  JVA    uhfonaq purfg cnva    57lbz    cnffrq jvyfbaf gbjneqf abarfhpu      201601001740",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R10 3525 Sbeqf Zvyy Eq",
+        "PVGL:IREFNVYYRF",
+        "QNGR:07/04/2016",
+        "GVZR:06:11:02",
+        "VASB:R911 PYNFF: ERFQ JVA uhfonaq purfg cnva 57lbz cnffrq jvyfbaf gbjneqf abarfhpu",
+        "VQ:201601001740");
+
+    qbGrfg("G49",
+        "PNQ:JPN      R22      321            Qhaebira      Eq                                          Irefnvyyrf      07/03/2016      21:18:41      61 lbn znyr ibzvgvat, jrnx naq qvneeurn. Hanoyr gb fvg hc naq pbashfvba      201601001739",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R22 321 Qhaebira Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/03/2016",
+        "GVZR:21:18:41",
+        "VASB:61 lbn znyr ibzvgvat, jrnx naq qvneeurn. Hanoyr gb fvg hc naq pbashfvba",
+        "VQ:201601001739");
+
+    qbGrfg("G50",
+        "PNQ:JPN      R02      305            Yrkvatgba      Fg                                          Irefnvyyrf      07/03/2016      19:57:50      25 lbn znyr univat na nyyretvp ernpgvba--fhow cnffrq bhg, fjbyyra yvcf, vf oernguvat    lryybj ubhfr, frireny fhow bhg sebag.    <<Ybtf>>20:00:09 XFzvgu:Erzbirq Havg - RP1; 20:00:09 XFzvgu:Erzbirq Bssvpre - RP1      201601001738",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R02 305 Yrkvatgba Fg",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/03/2016",
+        "GVZR:19:57:50",
+        "VASB:25 lbn znyr univat na nyyretvp ernpgvba--fhow cnffrq bhg, fjbyyra yvcf, vf oernguvat lryybj ubhfr, frireny fhow bhg sebag. <<Ybtf>>20:00:09 XFzvgu:Erzbirq Havg - RP1; 20:00:09 XFzvgu:Erzbirq Bssvpre - RP1",
+        "VQ:201601001738");
+
+    qbGrfg("G51",
+        "PNQ:JPN      RGFC      360            Nzfqra      Nir                                          Irefnvyyrf      07/03/2016      17:15:21      Sebz RE gb HX      201601001737",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RGFC 360 Nzfqra Nir",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/03/2016",
+        "GVZR:17:15:21",
+        "VASB:Sebz RE gb HX",
+        "VQ:201601001737");
+
+    qbGrfg("G52",
+        "PNQ:JPN      R1046      00            Cvapxneq      Cvxr                                          Irefnvyyrf      07/03/2016      14:00:58      R911 PYNFF: JCU2  YBP: 1491 JBBQF EQ - J  YNG: +037.989242  YBA: -084.683818  IMJ    Nccebk 1.5 zvyrf cevbe gb gru Wrffnzvbar Pb yvar. 3 iruvpyrf, cbffvoyr 10-46      201601001736",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R1046 00 Cvapxneq Cvxr",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/03/2016",
+        "GVZR:14:00:58",
+        "TCF:+37.989242,-84.683818",
+        "VASB:IMJ Nccebk 1.5 zvyrf cevbe gb gru Wrffnzvbar Pb yvar. 3 iruvpyrf, cbffvoyr 10-46",
+        "VQ:201601001736");
+
+    qbGrfg("G53",
+        "PNQ:JPN      RCNTR      86            Ovt Fvax      Eq                                          Irefnvyyrf      07/03/2016      11:59:01            201601001735",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RCNTR 86 Ovt Fvax Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/03/2016",
+        "GVZR:11:59:01",
+        "VQ:201601001735");
+
+    qbGrfg("G54",
+        "PNQ:JPN      R10      412            Qhryy      Qe                                          Irefnvyyrf      07/03/2016      11:57:41      S jvgu purfg cnva naq fubegarff bs oerngu. Erpragyl unq nccraqrpgbzl      201601001734",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R10 412 Qhryy Qe",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/03/2016",
+        "GVZR:11:57:41",
+        "VASB:S jvgu purfg cnva naq fubegarff bs oerngu. Erpragyl unq nccraqrpgbzl",
+        "VQ:201601001734");
+
+    qbGrfg("G55",
+        "PNQ:JPN      R28      300            Oreel      Nir                                          IREFNVYYRF      07/03/2016      11:52:18      R911 PYNFF: OHFA  JVA    Znyr cngvrag cbffvoyr fgebxr  EZ 21  Fvt 2 ng sebag ragenapr      201601001733",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R28 300 Oreel Nir",
+        "PVGL:IREFNVYYRF",
+        "QNGR:07/03/2016",
+        "GVZR:11:52:18",
+        "VASB:R911 PYNFF: OHFA JVA Znyr cngvrag cbffvoyr fgebxr EZ 21 Fvt 2 ng sebag ragenapr",
+        "VQ:201601001733");
+
+    qbGrfg("G56",
+        "PNQ:JPN      R1046      175            Cvapxneq Cx                                                Irefnvyyrf      07/03/2016      10:19:25      R911 PYNFF: JCU2  YBP: 2196 FPBGGF SREEL EQ - FJ  YNG: +037.987343  YBA: -084.811856  NGGZB    169 orgjrra XL 33 naq Oblq'f Bepuneq, jug Sbeq Enatre syvccrq, fhowrpg vf bhg bs iruvpyr jvgu arpx cnva..    <<Ybtf>>10:21:52 wpynex:Erzbirq Havg - RP5; 10:21:52 wpynex:Erzbirq Bssvpre - RP5; 10:36:21 wpynex:gb OPU; 11:11:00 wpynex:Vapvqrag Pybfrq      201601001732",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R1046 175 Cvapxneq Cx",
+        "ZNQQE:R1046 175 Cvapxneq Cvxr",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/03/2016",
+        "GVZR:10:19:25",
+        "TCF:+37.987343,-84.811856",
+        "VASB:NGGZB 169 orgjrra XL 33 naq Oblq'f Bepuneq, jug Sbeq Enatre syvccrq, fhowrpg vf bhg bs iruvpyr jvgu arpx cnva.. <<Ybtf>>10:21:52 wpynex:Erzbirq Havg - RP5; 10:21:52 wpynex:Erzbirq Bssvpre - RP5; 10:36:21 wpynex:gb OPU; 11:11:00 wpynex:Vapvqrag Pybfrq",
+        "VQ:201601001732");
+
+    qbGrfg("G57",
+        "PNQ:JPN      R26      810            Glebar      Cvxr                                    YBG 9      IREFNVYYRF      07/03/2016      08:32:58      R911 PYNFF: ERFQ  JVA      201601001731",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R26 810 Glebar Cvxr",
+        "NCG:9",
+        "PVGL:IREFNVYYRF",
+        "QNGR:07/03/2016",
+        "GVZR:08:32:58",
+        "VASB:R911 PYNFF: ERFQ JVA",
+        "VQ:201601001731");
+
+    qbGrfg("G58",
+        "PNQ:JPN      RCNTR      86            Ovt Fvax      Eq                                          Irefnvyyrf      07/02/2016      20:07:19            201601001728",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RCNTR 86 Ovt Fvax Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/02/2016",
+        "GVZR:20:07:19",
+        "VQ:201601001728");
+
+    qbGrfg("G59",
+        "PNQ:JPN      R17      378            Nzfqra      Nir                                          IREFNVYYRF      07/02/2016      20:03:24      67 lbn znyr bhg bs jurry punve      201601001727",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R17 378 Nzfqra Nir",
+        "PVGL:IREFNVYYRF",
+        "QNGR:07/02/2016",
+        "GVZR:20:03:24",
+        "VASB:67 lbn znyr bhg bs jurry punve",
+        "VQ:201601001727");
+
+    qbGrfg("G60",
+        "PNQ:JPN      R26      1125            Yrkvatgba      Eq                                                07/02/2016      19:57:02      **jrfyrl ivyyntr va jvyzber** 88 lbn srz jvgu fjryyvat va ure yrtf, jnf whfg va gur ubfcvgny ynfg jrrx jvgu oybbq pybgf    sebz 169: gnxr n evtug bagb 68, tb gbjneqf jvyzber, gnxr n yrsg ng gur \"L\" (fznyy tnf fgngvba gurer), 1 zvyr qbja gur eqjl, ba gur evtug--cngvb ubzr #208      201601001726",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R26 1125 Yrkvatgba Eq",
+        "QNGR:07/02/2016",
+        "GVZR:19:57:02",
+        "VASB:**jrfyrl ivyyntr va jvyzber** 88 lbn srz jvgu fjryyvat va ure yrtf, jnf whfg va gur ubfcvgny ynfg jrrx jvgu oybbq pybgf sebz 169: gnxr n evtug bagb 68, tb gbjneqf jvyzber, gnxr n yrsg ng gur \"L\" (fznyy tnf fgngvba gurer), 1 zvyr qbja gur eqjl, ba gur evtug--cngvb ubzr #208",
+        "VQ:201601001726");
 
     qbGrfg("G61",
-        "{JPN} PNQ:R19 107 Pbnpu Fgngvba Eq ZVQJNL 06/19/2016 22:25:46 znyr fhow cbff urneg nggnpx 89 lbn znyr 201601001593",
-        "FEP:JPN",
-        "PBQR:R19",
-        "PNYY:Urneg Ceboyrzf",
-        "NQQE:107 Pbnpu Fgngvba Eq",
-        "PVGL:ZVQJNL",
-        "QNGR:06/19/2016",
-        "GVZR:22:25:46",
-        "VASB:znyr fhow cbff urneg nggnpx 89 lbn znyr",
-        "VQ:201601001593");
+        "PNQ:JPN      RNFFG      221            Jbbyqevqtr      Ya                                          Irefnvyyrf      07/02/2016      19:25:30      Oebxra fubhyqre unf erprvirq gerngzrag ohg arrqf nffvfgnapr chggvat ba fyvat      201601001725",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RNFFG 221 Jbbyqevqtr Ya",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/02/2016",
+        "GVZR:19:25:30",
+        "VASB:Oebxra fubhyqre unf erprvirq gerngzrag ohg arrqf nffvfgnapr chggvat ba fyvat",
+        "VQ:201601001725");
 
     qbGrfg("G62",
-        "{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/19/2016 22:24:07 sebz re gb hx srz jvgu noprff bs pryyhvgvf ba noqbzra 201601001592",
-        "FEP:JPN",
-        "PBQR:RGFC",
-        "PNYY:RZF-Genafcbeg",
-        "NQQE:360 Nzfqra Ni",
-        "ZNQQE:360 Nzfqra Nir",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/19/2016",
-        "GVZR:22:24:07",
-        "VASB:sebz re gb hx srz jvgu noprff bs pryyhvgvf ba noqbzra",
-        "VQ:201601001592");
+        "PNQ:JPN      RNFFG      200            Gnaonex      Qe                                                07/02/2016      16:08:05            201601001723",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RNFFG 200 Gnaonex Qe",
+        "QNGR:07/02/2016",
+        "GVZR:16:08:05",
+        "VQ:201601001723");
 
     qbGrfg("G63",
-        "{JPN} PNQ:R31 229 Pyvsgba Eq Irefnvyyrf 06/19/2016 16:48:48 56 lbn znyr unf ertnvarq pbapvbhfarff 201601001591",
-        "FEP:JPN",
-        "PBQR:R31",
-        "PNYY:Hapbafpvbhf/Snvagvat",
-        "NQQE:229 Pyvsgba Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/19/2016",
-        "GVZR:16:48:48",
-        "VASB:56 lbn znyr unf ertnvarq pbapvbhfarff",
-        "VQ:201601001591");
+        "PNQ:JPN      RSVER      419            Zvyy      Eq                                          Zvqjnl      07/02/2016      16:05:17      R911 PYNFF: JEYF  YBP: 424 FCEVAT FGNGVBA EQ - FR  YNG: +038.155238  YBA: -084.699633  NGGZB      201601001722",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RSVER 419 Zvyy Eq",
+        "PVGL:Zvqjnl",
+        "QNGR:07/02/2016",
+        "GVZR:16:05:17",
+        "TCF:+38.155238,-84.699633",
+        "VASB:NGGZB",
+        "VQ:201601001722");
 
     qbGrfg("G64",
-        "{JPN} PNQ:R22 3501 Qrynarl Sreel Eq Irefnvyyrf 06/19/2016 13:48:46 201601001590",
-        "FEP:JPN",
-        "PBQR:R22",
-        "PNYY:Zhygvcyr Pbzcynvagf",
-        "NQQE:3501 Qrynarl Sreel Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/19/2016",
-        "GVZR:13:48:46",
-        "VQ:201601001590");
+        "PNQ:JPN      R13      815            Glebar      Cvxr                                    FHVGR 5      IREFNVYYRF      07/02/2016      11:59:53      R911 PYNFF: OHFA  JVA      201601001721",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R13 815 Glebar Cvxr",
+        "NCG:5",
+        "PVGL:IREFNVYYRF",
+        "QNGR:07/02/2016",
+        "GVZR:11:59:53",
+        "VASB:R911 PYNFF: OHFA JVA",
+        "VQ:201601001721");
 
     qbGrfg("G65",
-        "{JPN} PNQ:R01 237 Neobe Cynpr Qe Irefnvyyrf 06/19/2016 05:57:32 frirer cnva 35 lb sz 201601001589",
-        "FEP:JPN",
-        "PBQR:R01",
-        "PNYY:Noqbzvany Cnva",
-        "NQQE:237 Neobe Cynpr Qe",
+        "PNQ:JPN      RCNTR      86            Ovt Fvax      Eq                                          Irefnvyyrf      07/02/2016      11:51:20            201601001720",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RCNTR 86 Ovt Fvax Eq",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/19/2016",
-        "GVZR:05:57:32",
-        "VASB:frirer cnva 35 lb sz",
-        "VQ:201601001589");
+        "QNGR:07/02/2016",
+        "GVZR:11:51:20",
+        "VQ:201601001720");
 
     qbGrfg("G66",
-        "{JPN} PNQ:R1046 963 V 64 R Zvqjnl 06/18/2016 23:36:07 PNYYRE VF VA 13 RDHVABK IF N QRRE 201601001588",
-        "FEP:JPN",
-        "PBQR:R1046",
-        "PNYY:Nzohynapr gb Nppvqrag",
-        "NQQE:963 V 64 R",
-        "PVGL:Zvqjnl",
-        "QNGR:06/18/2016",
-        "GVZR:23:36:07",
-        "VASB:PNYYRE VF VA 13 RDHVABK IF N QRRE",
-        "VQ:201601001588");
+        "PNQ:JPN      R23      229            Pyvsgba      Eq                                    8      Irefnvyyrf      07/02/2016      11:50:18      R911 PYNFF: JEYF  YBP: 280 PEBFFSVRYQ QE  YNG: +038.056340  YBA: -084.712142  GZBO      201601001719",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R23 229 Pyvsgba Eq 8",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/02/2016",
+        "GVZR:11:50:18",
+        "TCF:+38.056340,-84.712142",
+        "VASB:GZBO",
+        "VQ:201601001719");
 
     qbGrfg("G67",
-        "{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/18/2016 18:59:17 sebz re gb HX pneqvbybtl 201601001587",
-        "FEP:JPN",
-        "PBQR:RGFC",
-        "PNYY:RZF-Genafcbeg",
-        "NQQE:360 Nzfqra Ni",
-        "ZNQQE:360 Nzfqra Nir",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/18/2016",
-        "GVZR:18:59:17",
-        "VASB:sebz re gb HX pneqvbybtl",
-        "VQ:201601001587");
+        "PNQ:JPN      R22      00            Zvqjnl      Eq                                          Zvqjnl      07/02/2016      11:15:22      R911 PYNFF: JEYF  YBP: 424 FCEVAT FGNGVBA EQ - FJ  YNG: +038.155238  YBA: -084.699633  NGGZB    PBCQ NAQ PBATRFGVIR URNEG SNVYHER    PBHTUVAT HC OYBBQ    ryqreyl srznyr - gurl ner tbvat gb pnyy onpx jura gurl chyy bire      201601001718",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R22 00 Zvqjnl Eq",
+        "PVGL:Zvqjnl",
+        "QNGR:07/02/2016",
+        "GVZR:11:15:22",
+        "TCF:+38.155238,-84.699633",
+        "VASB:NGGZB PBCQ NAQ PBATRFGVIR URNEG SNVYHER PBHTUVAT HC OYBBQ ryqreyl srznyr - gurl ner tbvat gb pnyy onpx jura gurl chyy bire",
+        "VQ:201601001718");
 
     qbGrfg("G68",
-        "{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/18/2016 18:23:11 201601001586",
-        "FEP:JPN",
-        "PBQR:RCNTR",
-        "PNYY:3eq Pnyy",
-        "NQQE:86 Ovt Fvax Eq",
+        "PNQ:JPN      RCNTR      86            Ovt Fvax      Eq                                          Irefnvyyrf      07/02/2016      07:49:10            201601001717",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RCNTR 86 Ovt Fvax Eq",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/18/2016",
-        "GVZR:18:23:11",
-        "VQ:201601001586");
+        "QNGR:07/02/2016",
+        "GVZR:07:49:10",
+        "VQ:201601001717");
 
     qbGrfg("G69",
-        "{JPN} PNQ:R05 501 Znefnvyyrf Eq Irefnvyyrf 06/18/2016 17:23:54 fhow va n juvgr vzcnyn, pnyyre fgnaqvat bhgfvqr bs iru va n tera g-fuveg 43 lbn znyr va frirer cnva va uvf onpx naq yrt, hanoyr gb jnyx. <<Ybtf>>17:24:59 XFzvgu:Erzbirq Havg - RP1; 17:24:59 XFzvgu:Erzbirq Bssvpre - RP1 201601001584",
-        "FEP:JPN",
-        "PBQR:R05",
-        "PNYY:Onpx Cnva",
-        "NQQE:501 Znefnvyyrf Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/18/2016",
-        "GVZR:17:23:54",
-        "VASB:fhow va n juvgr vzcnyn, pnyyre fgnaqvat bhgfvqr bs iru va n tera g-fuveg 43 lbn znyr va frirer cnva va uvf onpx naq yrt, hanoyr gb jnyx. <<Ybtf>>17:24:59 XFzvgu:Erzbirq Havg - RP1; 17:24:59 XFzvgu:Erzbirq Bssvpre - RP1",
-        "VQ:201601001584");
+        "PNQ:JPN      R22      102            Havgrq      Qe                                          IREFNVYYRF      07/02/2016      07:46:20      R911 PYNFF: OHFA  AHIBK    59 lrnef byq    qvmml  qbrfa'g srry evtug      201601001716",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R22 102 Havgrq Qe",
+        "PVGL:IREFNVYYRF",
+        "QNGR:07/02/2016",
+        "GVZR:07:46:20",
+        "VASB:R911 PYNFF: OHFA AHIBK 59 lrnef byq qvmml qbrfa'g srry evtug",
+        "VQ:201601001716");
 
     qbGrfg("G70",
-        "{JPN} PNQ:R1046 4390 Cnlarf Zvyy Eq Irefnvyyrf 06/18/2016 15:58:35 Plpyvfg uvg zbivat iruvpyr oyrrqvat sebz uvf snpr qvq abg ybfr pbapvbhfarff. <<Ybtf>>16:32:40 XFzvgu:10-12 1k gb HX; 17:00:58 XFzvgu:97 ng HX; 17:24:32 nznlrf:Vapvqrag Pybfrq 201601001579",
-        "FEP:JPN",
-        "PBQR:R1046",
-        "PNYY:Nzohynapr gb Nppvqrag",
-        "NQQE:4390 Cnlarf Zvyy Eq",
+        "PNQ:JPN      R22      00            Ebfr Uvyy      Nir                                          Irefnvyyrf      07/02/2016      07:39:45      R911 PYNFF: JEYF  YBP: 350 XRAGHPXL NIR - FR  YNG: +038.058979  YBA: -084.748041  IMJ    ryqreyl tragyrzna jvgu cnexvafbaf qvfrnfr frrzf ybfg naq qbrfa'g xabj jurer gb tb      201601001715",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R22 00 Ebfr Uvyy Nir",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/18/2016",
-        "GVZR:15:58:35",
-        "VASB:Plpyvfg uvg zbivat iruvpyr oyrrqvat sebz uvf snpr qvq abg ybfr pbapvbhfarff. <<Ybtf>>16:32:40 XFzvgu:10-12 1k gb HX; 17:00:58 XFzvgu:97 ng HX; 17:24:32 nznlrf:Vapvqrag Pybfrq",
-        "VQ:201601001579");
+        "QNGR:07/02/2016",
+        "GVZR:07:39:45",
+        "TCF:+38.058979,-84.748041",
+        "VASB:IMJ ryqreyl tragyrzna jvgu cnexvafbaf qvfrnfr frrzf ybfg naq qbrfa'g xabj jurer gb tb",
+        "VQ:201601001715");
 
     qbGrfg("G71",
-        "{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/18/2016 17:06:29 201601001583",
-        "FEP:JPN",
-        "PBQR:RCNTR",
-        "PNYY:3eq Pnyy",
-        "NQQE:86 Ovt Fvax Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/18/2016",
-        "GVZR:17:06:29",
-        "VQ:201601001583");
+        "PNQ:JPN      R22      791            Wnarg      Fg                                          IREFNVYYRF      07/02/2016      05:34:13      79 LB SZ ABG SRRYVAT JRYY SRYYF YVXR URNEG VF ORNGVAT SNFG.    <<Ybtf>>06:00:05 CNkba:CG ERSHFNY; 06:00:09 CNkba:Vapvqrag Pybfrq      201606033073",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R22 791 Wnarg Fg",
+        "PVGL:IREFNVYYRF",
+        "QNGR:07/02/2016",
+        "GVZR:05:34:13",
+        "VASB:79 LB SZ ABG SRRYVAT JRYY SRYYF YVXR URNEG VF ORNGVAT SNFG. <<Ybtf>>06:00:05 CNkba:CG ERSHFNY; 06:00:09 CNkba:Vapvqrag Pybfrq",
+        "VQ:201606033073");
 
     qbGrfg("G72",
-        "{JPN} PNQ:R26 117 Ryz Fg 103 Irefnvyyrf 06/18/2016 17:01:53 65 lbn srznyr Pbatrfgvir Urneg Snvyher Fjbyyra va srrg, yrtf naq fgbznpu 201601001582",
-        "FEP:JPN",
-        "PBQR:R26",
-        "PNYY:Fcrp Qvnt-Fvpx Crefba",
-        "NQQE:117 Ryz Fg 103",
+        "PNQ:JPN      R10      132      A      Ybphfg      Fg                                          Irefnvyyrf      07/02/2016      04:29:02      JVYY OR BHGFVQR JNVGVAT UNIVAT PURFG CNVA   38 LB ZNYR QBRF UNIR URNEG QVFRNFR      201601001714",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R10 132 A Ybphfg Fg",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/18/2016",
-        "GVZR:17:01:53",
-        "VASB:65 lbn srznyr Pbatrfgvir Urneg Snvyher Fjbyyra va srrg, yrtf naq fgbznpu",
-        "VQ:201601001582");
+        "QNGR:07/02/2016",
+        "GVZR:04:29:02",
+        "VASB:JVYY OR BHGFVQR JNVGVAT UNIVAT PURFG CNVA 38 LB ZNYR QBRF UNIR URNEG QVFRNFR",
+        "VQ:201601001714");
 
     qbGrfg("G73",
-        "{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/18/2016 16:46:45 201601001581",
-        "FEP:JPN",
-        "PBQR:RCNTR",
-        "PNYY:3eq Pnyy",
-        "NQQE:86 Ovt Fvax Eq",
+        "PNQ:JPN      RGFC      360            Nzfqra      Nir                                          Irefnvyyrf      07/01/2016      22:45:56      sebz re gb HX      201601001713",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RGFC 360 Nzfqra Nir",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/18/2016",
-        "GVZR:16:46:45",
-        "VQ:201601001581");
+        "QNGR:07/01/2016",
+        "GVZR:22:45:56",
+        "VASB:sebz re gb HX",
+        "VQ:201601001713");
 
     qbGrfg("G74",
-        "{JPN} PNQ:R26 221 Jbbyqevqtr Ya Irefnvyyrf 06/18/2016 16:43:04 70 lbn znyr Frirer arpx cnva 201601001580",
-        "FEP:JPN",
-        "PBQR:R26",
-        "PNYY:Fcrp Qvnt-Fvpx Crefba",
-        "NQQE:221 Jbbyqevqtr Ya",
+        "PNQ:JPN      R31      2210            Zppenpxra      Cvxr                                          Irefnvyyrf      07/01/2016      20:52:36      50 lbn znyr sryy va ongu gho hapbapvhbf.    <<Ybtf>>20:57:28 ppnzcory:RP1 raebhgr gb onpx RP5; 21:13:49 ppnzcory:ershfny NZN, 98; 21:13:51 ppnzcory:Erzbirq Havg - RP1; 21:13:51 ppnzcory:Erzbirq Bssvpre - RP1; 21:13:53 ppnzcory:Vapvqrag Pybfrq      201601001711",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R31 2210 Zppenpxra Cvxr",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/18/2016",
-        "GVZR:16:43:04",
-        "VASB:70 lbn znyr Frirer arpx cnva",
-        "VQ:201601001580");
+        "QNGR:07/01/2016",
+        "GVZR:20:52:36",
+        "VASB:50 lbn znyr sryy va ongu gho hapbapvhbf. <<Ybtf>>20:57:28 ppnzcory:RP1 raebhgr gb onpx RP5; 21:13:49 ppnzcory:ershfny NZN, 98; 21:13:51 ppnzcory:Erzbirq Havg - RP1; 21:13:51 ppnzcory:Erzbirq Bssvpre - RP1; 21:13:53 ppnzcory:Vapvqrag Pybfrq",
+        "VQ:201601001711");
 
     qbGrfg("G75",
-        "{JPN} PNQ:R1046 00 Nqran Gepr Irefnvyyrf 06/18/2016 13:36:52 iruvpyr if puvyq. <<Ybtf>>13:37:25 WYbat:Erzbirq Havg - RP5; 13:37:25 WYbat:Erzbirq Bssvpre - RP5 201601001578",
-        "FEP:JPN",
-        "PBQR:R1046",
-        "PNYY:Nzohynapr gb Nppvqrag",
-        "NQQE:Nqran Gepr",
+        "PNQ:JPN      RGFC      360            Nzfqra Ni                                                Irefnvyyrf      07/01/2016      20:52:10      97 p19 ers genafsre gb HX      201601001712",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RGFC 360 Nzfqra Ni",
+        "ZNQQE:RGFC 360 Nzfqra Nir",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/18/2016",
-        "GVZR:13:36:52",
-        "VASB:iruvpyr if puvyq. <<Ybtf>>13:37:25 WYbat:Erzbirq Havg - RP5; 13:37:25 WYbat:Erzbirq Bssvpre - RP5",
-        "VQ:201601001578");
+        "QNGR:07/01/2016",
+        "GVZR:20:52:10",
+        "VASB:97 p19 ers genafsre gb HX",
+        "VQ:201601001712");
 
     qbGrfg("G76",
-        "{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/18/2016 13:35:32 201601001577",
-        "FEP:JPN",
-        "PBQR:RCNTR",
-        "PNYY:3eq Pnyy",
-        "NQQE:86 Ovt Fvax Eq",
+        "PNQ:JPN      R23      104            Ebfr Uvyy      Nir                                          Irefnvyyrf      07/01/2016      20:16:26      juvgr znyr va 60f    znyr jnyxvat j n pnar fvggvat ba gurve onpx fgbbc, naq ur gbbx uvf cnagf bss...vf 2301      201601001710",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R23 104 Ebfr Uvyy Nir",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/18/2016",
-        "GVZR:13:35:32",
-        "VQ:201601001577");
+        "QNGR:07/01/2016",
+        "GVZR:20:16:26",
+        "VASB:juvgr znyr va 60f znyr jnyxvat j n pnar fvggvat ba gurve onpx fgbbc, naq ur gbbx uvf cnagf bss...vf 2301",
+        "VQ:201601001710");
 
     qbGrfg("G77",
-        "{JPN} PNQ:R26 25 J Uvttvaf Fg Zvqjnl 06/18/2016 13:20:19 Eha jnf pnyyrq va fgenvtug gb gur fgngvba. RP6 nqivfrq genssvp ba enqvb 201601001576",
-        "FEP:JPN",
-        "PBQR:R26",
-        "PNYY:Fcrp Qvnt-Fvpx Crefba",
-        "NQQE:25 J Uvttvaf Fg",
-        "PVGL:Zvqjnl",
-        "QNGR:06/18/2016",
-        "GVZR:13:20:19",
-        "VASB:Eha jnf pnyyrq va fgenvtug gb gur fgngvba. RP6 nqivfrq genssvp ba enqvb",
-        "VQ:201601001576");
+        "PNQ:JPN      R17      300            Oreel      Nir                                          IREFNVYYRF      07/01/2016      18:29:44      69 lbn srznyr fyheerq fcrrpu ohg vf pbtavmnag      201601001709",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R17 300 Oreel Nir",
+        "PVGL:IREFNVYYRF",
+        "QNGR:07/01/2016",
+        "GVZR:18:29:44",
+        "VASB:69 lbn srznyr fyheerq fcrrpu ohg vf pbtavmnag",
+        "VQ:201601001709");
 
     qbGrfg("G78",
-        "{JPN} PNQ:R17 501 Znefnvyyrf Eq Irefnvyyrf 06/18/2016 12:07:46 R911 PYNFF: JCU2 YBP: 280 PEBFFSVRYQ QE - FR YNG: +038.049924 YBA: -084.708709 NGGZB Fhowrpg gbbx n uneq snyy, xabpxrq gur oerngu bhg. Pbzc hanoyr gb nqivfr nal fcrpvsvp vawhel 201601001575",
-        "FEP:JPN",
-        "PBQR:R17",
-        "PNYY:Snyyf",
-        "NQQE:501 Znefnvyyrf Eq",
+        "PNQ:JPN      R22      407            Abeznaql      Eq                                          Irefnvyyrf      07/01/2016      17:16:52      R911 PYNFF: JEYF  YBP: 1425 UHAGREGBJA EQ - A  YNG: +038.030000  YBA: -084.702658  NGGZB    69 le byq znyr    bireurngrq      201601001708",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R22 407 Abeznaql Eq",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/18/2016",
-        "GVZR:12:07:46",
-        "TCF:+38.049924,-84.708709",
-        "VASB:NGGZB Fhowrpg gbbx n uneq snyy, xabpxrq gur oerngu bhg. Pbzc hanoyr gb nqivfr nal fcrpvsvp vawhel",
-        "VQ:201601001575");
+        "QNGR:07/01/2016",
+        "GVZR:17:16:52",
+        "TCF:+38.030000,-84.702658",
+        "VASB:NGGZB 69 le byq znyr bireurngrq",
+        "VQ:201601001708");
 
     qbGrfg("G79",
-        "{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/18/2016 06:38:19 GB HXZP YRSG FVQR AHZOARFF 201601001574",
-        "FEP:JPN",
-        "PBQR:RGFC",
-        "PNYY:RZF-Genafcbeg",
-        "NQQE:360 Nzfqra Ni",
-        "ZNQQE:360 Nzfqra Nir",
+        "PNQ:JPN      R10      210            Uvtu      Fg                                    2      Irefnvyyrf      07/01/2016      16:14:47      Znyr pbzcynvavat bs pbaphffvba.    <<Ybtf>>16:01:14 nznlrf:Rivpgvba      201601001707",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R10 210 Uvtu Fg 2",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/18/2016",
-        "GVZR:06:38:19",
-        "VASB:GB HXZP YRSG FVQR AHZOARFF",
-        "VQ:201601001574");
+        "QNGR:07/01/2016",
+        "GVZR:16:14:47",
+        "VASB:Znyr pbzcynvavat bs pbaphffvba. <<Ybtf>>16:01:14 nznlrf:Rivpgvba",
+        "VQ:201601001707");
 
     qbGrfg("G80",
-        "{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/17/2016 22:24:35 Sebz ebbz # 6 Fg Wbr VPH 201601001573",
-        "FEP:JPN",
-        "PBQR:RGFC",
-        "PNYY:RZF-Genafcbeg",
-        "NQQE:360 Nzfqra Ni",
-        "ZNQQE:360 Nzfqra Nir",
+        "PNQ:JPN      RCNTR      86            Ovt Fvax      Eq                                          Irefnvyyrf      07/01/2016      15:03:34            201601001706",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RCNTR 86 Ovt Fvax Eq",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/17/2016",
-        "GVZR:22:24:35",
-        "VASB:Sebz ebbz # 6 Fg Wbr VPH",
-        "VQ:201601001573");
+        "QNGR:07/01/2016",
+        "GVZR:15:03:34",
+        "VQ:201601001706");
 
     qbGrfg("G81",
-        "{JPN} PNQ:R1046 7855 Zppenpxra Cvxr Irefnvyyrf 06/17/2016 19:24:40 201601001572",
-        "FEP:JPN",
-        "PBQR:R1046",
-        "PNYY:Nzohynapr gb Nppvqrag",
-        "NQQE:7855 Zppenpxra Cvxr",
+        "PNQ:JPN      R12      7075            Senaxsbeg      Eq                                          Irefnvyyrf      07/01/2016      15:00:26      R911 PYNFF: JEYF  YBP: 6769 SENAXSBEG EQ - J  YNG: +038.126710  YBA: -084.785034  NGGZB    33 LE BYQ ZNYR    UNIVAT N FRVMHER      201601001705",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R12 7075 Senaxsbeg Eq",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/17/2016",
-        "GVZR:19:24:40",
-        "VQ:201601001572");
+        "QNGR:07/01/2016",
+        "GVZR:15:00:26",
+        "TCF:+38.126710,-84.785034",
+        "VASB:NGGZB 33 LE BYQ ZNYR UNIVAT N FRVMHER",
+        "VQ:201601001705");
 
     qbGrfg("G82",
-        "{JPN} PNQ:RGFC 191 Ryz Fg Irefnvyyrf 06/17/2016 16:30:34 bkltra pbcq nyoreg punaqyre cbffvoyr oybbq pybg va yrk 201601001571",
-        "FEP:JPN",
-        "PBQR:RGFC",
-        "PNYY:RZF-Genafcbeg",
-        "NQQE:191 Ryz Fg",
+        "PNQ:JPN      RGFC      360            Nzfqra Ni                                                Irefnvyyrf      07/01/2016      13:54:32      213 gb tbbq fnz      201601001704",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RGFC 360 Nzfqra Ni",
+        "ZNQQE:RGFC 360 Nzfqra Nir",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/17/2016",
-        "GVZR:16:30:34",
-        "VASB:bkltra pbcq nyoreg punaqyre cbffvoyr oybbq pybg va yrk",
-        "VQ:201601001571");
+        "QNGR:07/01/2016",
+        "GVZR:13:54:32",
+        "VASB:213 gb tbbq fnz",
+        "VQ:201601001704");
 
     qbGrfg("G83",
-        "{JPN} PNQ:R10 405 Elar Pg N IREFNVYYRF 06/17/2016 15:41:41 201601001570",
-        "FEP:JPN",
-        "PBQR:R10",
-        "PNYY:Purfg Cnva",
-        "NQQE:405 Elar Pg N",
+        "PNQ:JPN      R19      117            Pebffsvryq      Qe                                    FGR O      IREFNVYYRF      07/01/2016      13:53:40      R911 PYNFF: OHFA  JVA      201601001703",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R19 117 Pebffsvryq Qe",
+        "NCG:O",
         "PVGL:IREFNVYYRF",
-        "QNGR:06/17/2016",
-        "GVZR:15:41:41",
-        "VQ:201601001570");
+        "QNGR:07/01/2016",
+        "GVZR:13:53:40",
+        "VASB:R911 PYNFF: OHFA JVA",
+        "VQ:201601001703");
 
     qbGrfg("G84",
-        "{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/17/2016 09:22:13 201601001569",
-        "FEP:JPN",
-        "PBQR:RCNTR",
-        "PNYY:3eq Pnyy",
-        "NQQE:86 Ovt Fvax Eq",
+        "PNQ:JPN      RGFC      360            Nzfqra Ni                                                Irefnvyyrf      07/01/2016      01:39:15      TBVAT GB HX ERS NCCRAQVFVGVF      201601001702",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RGFC 360 Nzfqra Ni",
+        "ZNQQE:RGFC 360 Nzfqra Nir",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/17/2016",
-        "GVZR:09:22:13",
-        "VQ:201601001569");
+        "QNGR:07/01/2016",
+        "GVZR:01:39:15",
+        "VASB:TBVAT GB HX ERS NCCRAQVFVGVF",
+        "VQ:201601001702");
 
     qbGrfg("G85",
-        "{JPN} PNQ:R22 149 Tbezyrl Qe IREFNVYYRF 06/17/2016 09:20:39 R911 PYNFF: ERFQ JVA 201601001568",
-        "FEP:JPN",
-        "PBQR:R22",
-        "PNYY:Zhygvcyr Pbzcynvagf",
-        "NQQE:149 Tbezyrl Qe",
-        "PVGL:IREFNVYYRF",
-        "QNGR:06/17/2016",
-        "GVZR:09:20:39",
-        "VASB:R911 PYNFF: ERFQ JVA",
-        "VQ:201601001568");
+        "PNQ:JPN      RGFC      360            Nzfqra Ni                                                Irefnvyyrf      06/30/2016      23:10:45      PBATR      201601001701",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RGFC 360 Nzfqra Ni",
+        "ZNQQE:RGFC 360 Nzfqra Nir",
+        "PVGL:Irefnvyyrf",
+        "QNGR:06/30/2016",
+        "GVZR:23:10:45",
+        "VASB:PBATR",
+        "VQ:201601001701");
 
     qbGrfg("G86",
-        "{JPN} PNQ:R06 810 Glebar Cvxr 13 Irefnvyyrf 06/17/2016 08:41:28 R911 PYNFF: JEYF YBP: 350 XRAGHPXL NIR - FR YNG: +038.059000 YBA: -084.748020 NGGZB 201601001567",
-        "FEP:JPN",
-        "PBQR:R06",
-        "PNYY:Oernguvat Ceboyrzf",
-        "NQQE:810 Glebar Cvxr 13",
+        "PNQ:JPN      RGFC      360            Nzfqra Ni                                                Irefnvyyrf      06/30/2016      20:52:10            201601001700",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RGFC 360 Nzfqra Ni",
+        "ZNQQE:RGFC 360 Nzfqra Nir",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/17/2016",
-        "GVZR:08:41:28",
-        "TCF:+38.059000,-84.748020",
-        "VASB:NGGZB",
-        "VQ:201601001567");
+        "QNGR:06/30/2016",
+        "GVZR:20:52:10",
+        "VQ:201601001700");
 
     qbGrfg("G87",
-        "{JPN} PNQ:R10 4195 Yrkvatgba Eq IREFNVYYRF 06/17/2016 02:33:30 TENL SNEZ UBHFR 61 LB ZNYR PURFG CNVA PBAF NAQ NYREG 201601001566",
-        "FEP:JPN",
-        "PBQR:R10",
-        "PNYY:Purfg Cnva",
-        "NQQE:4195 Yrkvatgba Eq",
+        "PNQ:JPN      R25      281            Ebfr Uvyy      Nir                                          IREFNVYYRF      06/30/2016      19:45:54            201601001699",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R25 281 Ebfr Uvyy Nir",
         "PVGL:IREFNVYYRF",
-        "QNGR:06/17/2016",
-        "GVZR:02:33:30",
-        "VASB:TENL SNEZ UBHFR 61 LB ZNYR PURFG CNVA PBAF NAQ NYREG",
-        "VQ:201601001566");
+        "QNGR:06/30/2016",
+        "GVZR:19:45:54",
+        "VQ:201601001699");
 
     qbGrfg("G88",
-        "{JPN} PNQ:R17 1071 Ynxrjbbq Pve IREFNVYYRF 06/17/2016 00:15:59 ERS GB 52 LB ZNYR SNYYRA PNAABG NQI VS UR VF VAWHERQ UR VF NYREG 201601001565",
-        "FEP:JPN",
-        "PBQR:R17",
-        "PNYY:Snyyf",
-        "NQQE:1071 Ynxrjbbq Pve",
-        "PVGL:IREFNVYYRF",
-        "QNGR:06/17/2016",
-        "GVZR:00:15:59",
-        "VASB:ERS GB 52 LB ZNYR SNYYRA PNAABG NQI VS UR VF VAWHERQ UR VF NYREG",
-        "VQ:201601001565");
+        "PNQ:JPN      R23      200            Cnex      Fg                                          Irefnvyyrf      06/30/2016      19:25:23      Juvgr Srznyr va frpbaq cnivyyvba   Gnax gbc oynpx cnagf naq cvax fbpxf.    <<Ybtf>>19:43:37 owbarf:Vapvqrag Pybfrq      201601001698",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R23 200 Cnex Fg",
+        "PVGL:Irefnvyyrf",
+        "QNGR:06/30/2016",
+        "GVZR:19:25:23",
+        "VASB:Juvgr Srznyr va frpbaq cnivyyvba Gnax gbc oynpx cnagf naq cvax fbpxf. <<Ybtf>>19:43:37 owbarf:Vapvqrag Pybfrq",
+        "VQ:201601001698");
 
     qbGrfg("G89",
-        "{JPN} PNQ:R33 3540 Yrkvatgba Eq IREFNVYYRF 06/16/2016 22:07:18 nez uheg unq arjfcncre znpuvar ghearq bire ba vg 201601001564",
-        "FEP:JPN",
-        "PBQR:R33",
-        "PNYY:Oebxra/Senpgherq Yvzof",
-        "NQQE:3540 Yrkvatgba Eq",
-        "PVGL:IREFNVYYRF",
-        "QNGR:06/16/2016",
-        "GVZR:22:07:18",
-        "VASB:nez uheg unq arjfcncre znpuvar ghearq bire ba vg",
-        "VQ:201601001564");
+        "PNQ:JPN      RGFC      360            Nzfqra Ni                                                Irefnvyyrf      06/30/2016      19:25:11      gb hx ehcgherq nccraqvk      201601001697",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RGFC 360 Nzfqra Ni",
+        "ZNQQE:RGFC 360 Nzfqra Nir",
+        "PVGL:Irefnvyyrf",
+        "QNGR:06/30/2016",
+        "GVZR:19:25:11",
+        "VASB:gb hx ehcgherq nccraqvk",
+        "VQ:201601001697");
 
     qbGrfg("G90",
-        "{JPN} PNQ:R17 110 Senaxsbeg Fg Irefnvyyrf 06/16/2016 18:22:04 Srznyr uheg ure yrt nobhg 3 jrrxf ntb naq unf eruheg ure yrt 201601001563",
-        "FEP:JPN",
-        "PBQR:R17",
-        "PNYY:Snyyf",
-        "NQQE:110 Senaxsbeg Fg",
+        "PNQ:JPN      R17      275            Ornfyrl      Eq                                          Irefnvyyrf      06/30/2016      13:52:45      R911 PYNFF: JEYF  YBP: 1885 ZPPBJNAF SEL - A  YNG: +038.030440  YBA: -084.754543  NGGZB      201601001696",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R17 275 Ornfyrl Eq",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/16/2016",
-        "GVZR:18:22:04",
-        "VASB:Srznyr uheg ure yrt nobhg 3 jrrxf ntb naq unf eruheg ure yrt",
-        "VQ:201601001563");
+        "QNGR:06/30/2016",
+        "GVZR:13:52:45",
+        "TCF:+38.030440,-84.754543",
+        "VASB:NGGZB",
+        "VQ:201601001696");
 
     qbGrfg("G91",
-        "{JPN} PNQ:R10 254 Ylaajbbq Qe Irefnvyyrf 06/16/2016 17:42:50 R911 PYNFF: JCU2 YBP: 280 PEBFFSVRYQ QE YNG: +038.040482 YBA: -084.702765 GZBO 201601001562",
-        "FEP:JPN",
-        "PBQR:R10",
-        "PNYY:Purfg Cnva",
-        "NQQE:254 Ylaajbbq Qe",
+        "PNQ:JPN      R17      3854            Byq Senaxsbeg Cx                                                Irefnvyyrf      06/30/2016      13:01:56      R911 PYNFF: JEYF  YBP: 424 FCEVAT FGNGVBA EQ - FR  YNG: +038.155238  YBA: -084.699633  NGGZB    ryqreyl srznyr unf snyyra. pbafpvbhf      201601001695",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R17 3854 Byq Senaxsbeg Cx",
+        "ZNQQE:R17 3854 Byq Senaxsbeg Cvxr",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/16/2016",
-        "GVZR:17:42:50",
-        "TCF:+38.040482,-84.702765",
-        "VASB:GZBO",
-        "VQ:201601001562");
+        "QNGR:06/30/2016",
+        "GVZR:13:01:56",
+        "TCF:+38.155238,-84.699633",
+        "VASB:NGGZB ryqreyl srznyr unf snyyra. pbafpvbhf",
+        "VQ:201601001695");
 
     qbGrfg("G92",
-        "{JPN} PNQ:R33 301 A Jvagre Fg Zvqjnl 06/16/2016 17:13:35 gjvfgrq naxyr bss gur fvqrjnyx 201601001561",
-        "FEP:JPN",
-        "PBQR:R33",
-        "PNYY:Oebxra/Senpgherq Yvzof",
-        "NQQE:301 A Jvagre Fg",
-        "PVGL:Zvqjnl",
-        "QNGR:06/16/2016",
-        "GVZR:17:13:35",
-        "VASB:gjvfgrq naxyr bss gur fvqrjnyx",
-        "VQ:201601001561");
+        "PNQ:JPN      R06      139            Znprl      Nir                                    AA      IREFNVYYRF      06/30/2016      03:14:08      R911 PYNFF: ERFQ  JVA    zbgure 70lbs   univat gebhoyr oernguvat   cbff urneg nggnpu      201601001694",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R06 139 Znprl Nir AA",
+        "PVGL:IREFNVYYRF",
+        "QNGR:06/30/2016",
+        "GVZR:03:14:08",
+        "VASB:R911 PYNFF: ERFQ JVA zbgure 70lbs univat gebhoyr oernguvat cbff urneg nggnpu",
+        "VQ:201601001694");
 
     qbGrfg("G93",
-        "{JPN} PNQ:R32 103 Xhuyzna Oyiq Irefnvyyrf 06/16/2016 16:01:05 fgngrq 101 ohg vgf abg 101 103 be 105 201601001560",
-        "FEP:JPN",
-        "PBQR:R32",
-        "PNYY:Haxabja Cebo-Zna Qbja",
-        "NQQE:103 Xhuyzna Oyiq",
+        "PNQ:JPN      R06      2050            Yrkvatgba      Eq                                          Irefnvyyrf      06/29/2016      19:41:44      puncry      201601001693",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R06 2050 Yrkvatgba Eq",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/16/2016",
-        "GVZR:16:01:05",
-        "VASB:fgngrq 101 ohg vgf abg 101 103 be 105",
-        "VQ:201601001560");
+        "QNGR:06/29/2016",
+        "GVZR:19:41:44",
+        "VASB:puncry",
+        "VQ:201601001693");
 
     qbGrfg("G94",
-        "{JPN} PNQ:RCNTR 86 Ovt Fvax Eq Irefnvyyrf 06/16/2016 14:32:32 201601001559",
-        "FEP:JPN",
-        "PBQR:RCNTR",
-        "PNYY:3eq Pnyy",
-        "NQQE:86 Ovt Fvax Eq",
+        "PNQ:JPN      R33      405            Elar      Pg                                    N      Irefnvyyrf      06/29/2016      16:12:23      oebxra svatre      201601001692",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R33 405 Elar Pg N",
         "PVGL:Irefnvyyrf",
-        "QNGR:06/16/2016",
-        "GVZR:14:32:32",
-        "VQ:201601001559");
+        "QNGR:06/29/2016",
+        "GVZR:16:12:23",
+        "VASB:oebxra svatre",
+        "VQ:201601001692");
 
     qbGrfg("G95",
-        "{JPN} PNQ:RNFFG 504 Orrpu Fg IREFNVYYRF 06/16/2016 14:29:50 R911 PYNFF: IBVC YNG/YBAT: +038.053690, -084.744093 Znyr fhowrpg unf snyyra bhg bs orq, qbrf abg nccrne gb or vawherq, erdhrfgvat yvsg nffvfg. 201601001558",
-        "FEP:JPN",
-        "PBQR:RNFFG",
-        "PNYY:RZF Nffvgnapr",
-        "NQQE:504 Orrpu Fg",
+        "PNQ:JPN      RSVER      343      F      Znva      Fg                                          IREFNVYYRF      06/29/2016      14:22:43      R911 PYNFF: ERFQ  JVA    Fzbxr pbzvat sebz gur ubhfr      201601001691",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RSVER 343 F Znva Fg",
         "PVGL:IREFNVYYRF",
-        "QNGR:06/16/2016",
-        "GVZR:14:29:50",
-        "VASB:R911 PYNFF: IBVC YNG/YBAT: +038.053690, -084.744093 Znyr fhowrpg unf snyyra bhg bs orq, qbrf abg nccrne gb or vawherq, erdhrfgvat yvsg nffvfg.",
-        "VQ:201601001558");
+        "QNGR:06/29/2016",
+        "GVZR:14:22:43",
+        "VASB:R911 PYNFF: ERFQ JVA Fzbxr pbzvat sebz gur ubhfr",
+        "VQ:201601001691");
 
     qbGrfg("G96",
-        "{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/16/2016 13:31:51 2aq sybbe 213 gb tgbja 201601001557",
-        "FEP:JPN",
-        "PBQR:RGFC",
-        "PNYY:RZF-Genafcbeg",
-        "NQQE:360 Nzfqra Ni",
-        "ZNQQE:360 Nzfqra Nir",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/16/2016",
-        "GVZR:13:31:51",
-        "VASB:2aq sybbe 213 gb tgbja",
-        "VQ:201601001557");
+        "PNQ:JPN      R19      964            V 64            J                                    Zvqjnl      06/29/2016      13:32:54      znyr fhow univat cbff urneg vffhrf, va uvf 60'f--trg tenoovat uvf purfg    **fhow vf va gur onpx cnexvat ybg, erq evt jvgu Y & T gehpxvat, 548 ba onpx qbbe**      201601001690",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R19 964 V 64 J",
+        "PVGL:Zvqjnl",
+        "QNGR:06/29/2016",
+        "GVZR:13:32:54",
+        "VASB:znyr fhow univat cbff urneg vffhrf, va uvf 60'f--trg tenoovat uvf purfg **fhow vf va gur onpx cnexvat ybg, erq evt jvgu Y & T gehpxvat, 548 ba onpx qbbe**",
+        "VQ:201601001690");
 
     qbGrfg("G97",
-        "{JPN} PNQ:RSVER 604 Bksbeq Eq Irefnvyyrf 06/16/2016 10:31:34 R911 PYNFF: JCU2 YBP: 1885 ZPPBJNAF SEL - A YNG: +038.039023 YBA: -084.742269 NGGZB 201601001556",
-        "FEP:JPN",
-        "PBQR:RSVER",
-        "PNYY:Sver Qrcg. Eha",
-        "NQQE:604 Bksbeq Eq",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/16/2016",
-        "GVZR:10:31:34",
-        "TCF:+38.039023,-84.742269",
-        "VASB:NGGZB",
-        "VQ:201601001556");
+        "PNQ:JPN      RNFFG      116            Onexyrl Rfgngrf                                                Avpubynfivyyr      06/29/2016      09:00:36      30 le byq znyr    unf ybpxrq uvzfrys va onguebbz  orgjrra ujl 29 naq 169     bss bs 68      201601001689",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:RNFFG 116 Onexyrl Rfgngrf Avpubynfivyyr",
+        "QNGR:06/29/2016",
+        "GVZR:09:00:36",
+        "VASB:30 le byq znyr unf ybpxrq uvzfrys va onguebbz orgjrra ujl 29 naq 169 bss bs 68",
+        "VQ:201601001689");
 
     qbGrfg("G98",
-        "{JPN} PNQ:RGFC 360 Nzfqra Ni Irefnvyyrf 06/16/2016 09:45:10 201601001555",
-        "FEP:JPN",
-        "PBQR:RGFC",
-        "PNYY:RZF-Genafcbeg",
-        "NQQE:360 Nzfqra Ni",
-        "ZNQQE:360 Nzfqra Nir",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/16/2016",
-        "GVZR:09:45:10",
-        "VQ:201601001555");
+        "PNQ:JPN      R06      619            OHSBEQ      CY                                          AVPUBYNFIVYYR      06/29/2016      08:40:57      BSS BS F ZNVA - QHCYRK, GHEA EVTUG ARKG GB QBZVABF    SRZNYR VA YNGR 50F J PURFG CNVA, QVSSVPHYGL OERNGUVAT      201601001688",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R06 619 OHSBEQ CY AVPUBYNFIVYYR",
+        "QNGR:06/29/2016",
+        "GVZR:08:40:57",
+        "VASB:BSS BS F ZNVA - QHCYRK, GHEA EVTUG ARKG GB QBZVABF SRZNYR VA YNGR 50F J PURFG CNVA, QVSSVPHYGL OERNGUVAT",
+        "VQ:201601001688");
 
     qbGrfg("G99",
-        "{JPN} PNQ:R22 100 Tbezyrl Qe R Irefnvyyrf 06/16/2016 08:44:12 R911 PYNFF: JCU2 YBP: 1425 UHAGREGBJA EQ YNG: +038.040472 YBA: -084.727464 75 LBN srznyr -anhfrn,jrnxarff, oernguvat ceboyrzf,hanoyr gb fgnaq hc 201601001554",
-        "FEP:JPN",
-        "PBQR:R22",
-        "PNYY:Zhygvcyr Pbzcynvagf",
-        "NQQE:100 Tbezyrl Qe R",
-        "PVGL:Irefnvyyrf",
-        "QNGR:06/16/2016",
-        "GVZR:08:44:12",
-        "TCF:+38.040472,-84.727464",
-        "VASB:75 LBN srznyr -anhfrn,jrnxarff, oernguvat ceboyrzf,hanoyr gb fgnaq hc",
-        "VQ:201601001554");
+        "PNQ:JPN      R06      404            Elar      Pg                                    305      IREFNVYYRF      06/29/2016      03:49:16      R911 PYNFF: ERFQ  JVA    69lbs  purfg cnva cnva va gur nez      201601001687",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R06 404 Elar Pg 305",
+        "PVGL:IREFNVYYRF",
+        "QNGR:06/29/2016",
+        "GVZR:03:49:16",
+        "VASB:R911 PYNFF: ERFQ JVA 69lbs purfg cnva cnva va gur nez",
+        "VQ:201601001687");
 
     qbGrfg("G100",
-        "{JPN} PNQ:R17 300 Oreel Nir IREFNVYYRF 06/16/2016 05:46:25 erfq sryy pbzcy bs uvc cnva 201601001553",
-        "FEP:JPN",
-        "PBQR:R17",
-        "PNYY:Snyyf",
-        "NQQE:300 Oreel Nir",
-        "PVGL:IREFNVYYRF",
-        "QNGR:06/16/2016",
-        "GVZR:05:46:25",
-        "VASB:erfq sryy pbzcy bs uvc cnva",
-        "VQ:201601001553");
+        "PNQ:JPN      R32      3621            Uhagregbja      Eq                                          Irefnvyyrf      06/29/2016      01:34:50      sz haerfcbafvir znxvat fgenatr abvfrf naq jvyy abg nafjre ure qbrfag srry n chyfr 73 lb.    <<Ybtf>>01:37:28 CNkba:Erzbirq Havg - RP1; 01:37:28 CNkba:Erzbirq Bssvpre - RP1; 01:37:28 CNkba:Frg Cevznel Bssvpre - RP5; 01:48:08 CNkba:rp erd pbebare; 02:27:49 qyrvavat:10-98; 02:27:52 qyrvavat:Vapvqrag Pybfrq      201606032467",
+        "PBQR:JPN",
+        "PNYY:JPN",
+        "NQQE:R32 3621 Uhagregbja Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:06/29/2016",
+        "GVZR:01:34:50",
+        "VASB:sz haerfcbafvir znxvat fgenatr abvfrf naq jvyy abg nafjre ure qbrfag srry n chyfr 73 lb. <<Ybtf>>01:37:28 CNkba:Erzbirq Havg - RP1; 01:37:28 CNkba:Erzbirq Bssvpre - RP1; 01:37:28 CNkba:Frg Cevznel Bssvpre - RP5; 01:48:08 CNkba:rp erd pbebare; 02:27:49 qyrvavat:10-98; 02:27:52 qyrvavat:Vapvqrag Pybfrq",
+        "VQ:201606032467");
 
   }
 
@@ -1352,6 +1275,222 @@ choyvp pynff XLJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgJbbqsbeqPbSver() {
 
     qbGrfg("G1",
+        "PNQ:JPSQ SNFFG 1831 Byq Senaxsbeg Cx Irefnvyyrf 07/08/2016 13:51:44 R911 PYNFF: ERFQ  JVA    sryy rneyvre, abj univat n uneq gvzr oernuvag  naq ab erfcbaqvat jryy 201602000308",
+        "PBQR:JPSQ",
+        "PNYY:JPSQ",
+        "NQQE:SNFFG 1831 Byq Senaxsbeg Cx",
+        "ZNQQE:SNFFG 1831 Byq Senaxsbeg Cvxr",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/08/2016",
+        "GVZR:13:51:44",
+        "VASB:R911 PYNFF: ERFQ JVA sryy rneyvre, abj univat n uneq gvzr oernuvag naq ab erfcbaqvat jryy",
+        "VQ:201602000308");
+
+    qbGrfg("G2",
+        "PNQ:JPSQ SVAIR 313 Qhaebira Eq Irefnvyyrf 07/08/2016 12:00:52 R911 PYNFF: JCU2  YBP: 1425 UHAGREGBJA EQ  YNG: +038.036835  YBA: -084.700277    gerr sryy ba ryrpgevpny yvarf va gur onpxlneq. pbzcy nqi fur qbrf abg oryvrir gurl ner ba sver ng guvf gvzr 201602000307",
+        "PBQR:JPSQ",
+        "PNYY:JPSQ",
+        "NQQE:SVAIR 313 Qhaebira Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/08/2016",
+        "GVZR:12:00:52",
+        "TCF:+38.036835,-84.700277",
+        "VASB:gerr sryy ba ryrpgevpny yvarf va gur onpxlneq. pbzcy nqi fur qbrf abg oryvrir gurl ner ba sver ng guvf gvzr",
+        "VQ:201602000307");
+
+    qbGrfg("G3",
+        "PNQ:JPSQ SVAIR 6120 Uvqqranjnl Ya Irefnvyyrf 07/08/2016 11:50:50 R911 PYNFF: JEYF  YBP: 1425 UHAGREGBJA EQ - FJ  YNG: +038.030000  YBA: -084.702658  NGGZB    qrgrpgbef fbhaqvat ntnva.    <<Ybtf>>11:51:16 ppnzcory:onpx raebhgr gb purpx, cre pbzcy'f erdhrfg 201602000306",
+        "PBQR:JPSQ",
+        "PNYY:JPSQ",
+        "NQQE:SVAIR 6120 Uvqqranjnl Ya",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/08/2016",
+        "GVZR:11:50:50",
+        "TCF:+38.030000,-84.702658",
+        "VASB:NGGZB qrgrpgbef fbhaqvat ntnva. <<Ybtf>>11:51:16 ppnzcory:onpx raebhgr gb purpx, cre pbzcy'f erdhrfg",
+        "VQ:201602000306");
+
+    qbGrfg("G4",
+        "PNQ:JPSQ S1UFR 6120 Uvqqranjnl Ya Irefnvyyrf 07/08/2016 10:57:01 R911 PYNFF: JEYF  YBP: 2196 FPBGGF SREEL EQ - FR  YNG: +038.006376  YBA: -084.798252  NGGZB    Nyy fzbxr nynezf npgvingrq. Ab fzbxr be synzr bofreirq ng guvf gvzr 201602000305",
+        "PBQR:JPSQ",
+        "PNYY:JPSQ",
+        "NQQE:S1UFR 6120 Uvqqranjnl Ya",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/08/2016",
+        "GVZR:10:57:01",
+        "TCF:+38.006376,-84.798252",
+        "VASB:NGGZB Nyy fzbxr nynezf npgvingrq. Ab fzbxr be synzr bofreirq ng guvf gvzr",
+        "VQ:201602000305");
+
+    qbGrfg("G5",
+        "PNQ:JPSQ SNFFG 3805 Pyvsgba Eq Irefnvyyrf 07/07/2016 10:45:11 60 LBN Z Cahrzbavn cngvrag vf haerfcbafvir, ohg oernguvat 201602000304",
+        "PBQR:JPSQ",
+        "PNYY:JPSQ",
+        "NQQE:SNFFG 3805 Pyvsgba Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/07/2016",
+        "GVZR:10:45:11",
+        "VASB:60 LBN Z Cahrzbavn cngvrag vf haerfcbafvir, ohg oernguvat",
+        "VQ:201602000304");
+
+    qbGrfg("G6",
+        "PNQ:JPSQ SUNM 5799 Zppenpxra Cvxr Irefnvyyrf 07/07/2016 09:48:13 R911 PYNFF: OHFA  JVA    jbbqsbeq erfreir  jnerubhfr W.  50 tnyybaf bs juvfxrl ohefg sebz oneery 201602000303",
+        "PBQR:JPSQ",
+        "PNYY:JPSQ",
+        "NQQE:SUNM 5799 Zppenpxra Cvxr",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/07/2016",
+        "GVZR:09:48:13",
+        "VASB:R911 PYNFF: OHFA JVA jbbqsbeq erfreir jnerubhfr W. 50 tnyybaf bs juvfxrl ohefg sebz oneery",
+        "VQ:201602000303");
+
+    qbGrfg("G7",
+        "PNQ:JPSQ      SNFFG      828            Rntyr Perfg      Qe                                          Irefnvyyrf      07/04/2016      21:52:25      qbt  qvnorgvp      8598791856  fhr gnlybe    gb po      201602000302",
+        "PBQR:JPSQ",
+        "PNYY:JPSQ",
+        "NQQE:SNFFG 828 Rntyr Perfg Qe",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/04/2016",
+        "GVZR:21:52:25",
+        "VASB:qbt qvnorgvp 8598791856 fhr gnlybe gb po",
+        "VQ:201602000302");
+
+    qbGrfg("G8",
+        "PNQ:JPSQ      SVAIR      3360            Funaaba Eha      Eq                                          Irefnvyyrf      07/04/2016      05:10:30      tngr pbqr 001830    oevpx ubhfr gbjneqf gur evtug      201602000301",
+        "PBQR:JPSQ",
+        "PNYY:JPSQ",
+        "NQQE:SVAIR 3360 Funaaba Eha Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/04/2016",
+        "GVZR:05:10:30",
+        "VASB:tngr pbqr 001830 oevpx ubhfr gbjneqf gur evtug",
+        "VQ:201602000301");
+
+    qbGrfg("G9",
+        "PNQ:JPSQ      S1IRU                  Glebar Cx                        Zvyare      Eq                        07/03/2016      20:25:51      Ba Zvyare whfg bss Glebar Cx.      201602000299",
+        "PBQR:JPSQ",
+        "PNYY:JPSQ",
+        "NQQE:S1IRU Glebar Cx Zvyare Eq",
+        "ZNQQE:S1IRU Glebar Cvxr Zvyare Eq",
+        "QNGR:07/03/2016",
+        "GVZR:20:25:51",
+        "VASB:Ba Zvyare whfg bss Glebar Cx.",
+        "VQ:201602000299");
+
+    qbGrfg("G10",
+        "PNQ:JPSQ      S1046      1400            Cvapxneq      Cvxr                                          Irefnvyyrf      07/03/2016      10:19:25            201602000298",
+        "PBQR:JPSQ",
+        "PNYY:JPSQ",
+        "NQQE:S1046 1400 Cvapxneq Cvxr",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/03/2016",
+        "GVZR:10:19:25",
+        "VQ:201602000298");
+
+    qbGrfg("G11",
+        "PNQ:JPSQ      S1046                  Xraghpxl Evire                                                IREFNVYYRF      07/02/2016      16:55:56      obng uvg gerr znyr fgvyy va obng va jngre.    <<Ybtf>>17:05:03 nznlrf:Gurl chg gurve obng va ng Jvyq Ghexrl; 17:06:39 XFzvgu:602--tbvat va ng XH cynag, jvyy nggrzcg gb znxr pbagnpg....; 17:23:41 XFzvgu:602--98, 10-8; 18:14:20 nznlrf:Vapvqrag Pybfrq      201605000486",
+        "PBQR:JPSQ",
+        "PNYY:JPSQ",
+        "NQQE:S1046 Xraghpxl Evire",
+        "PVGL:IREFNVYYRF",
+        "QNGR:07/02/2016",
+        "GVZR:16:55:56",
+        "VASB:obng uvg gerr znyr fgvyy va obng va jngre. <<Ybtf>>17:05:03 nznlrf:Gurl chg gurve obng va ng Jvyq Ghexrl; 17:06:39 XFzvgu:602--tbvat va ng XH cynag, jvyy nggrzcg gb znxr pbagnpg....; 17:23:41 XFzvgu:602--98, 10-8; 18:14:20 nznlrf:Vapvqrag Pybfrq",
+        "VQ:201605000486");
+
+    qbGrfg("G12",
+        "PNQ:JPSQ      SNFFG      2210            Zppenpxra      Cvxr                                          Irefnvyyrf      07/01/2016      20:52:40      50 lbn znyr sryy va ongu gho hapbapvhbf      201602000296",
+        "PBQR:JPSQ",
+        "PNYY:JPSQ",
+        "NQQE:SNFFG 2210 Zppenpxra Cvxr",
+        "PVGL:Irefnvyyrf",
+        "QNGR:07/01/2016",
+        "GVZR:20:52:40",
+        "VASB:50 lbn znyr sryy va ongu gho hapbapvhbf",
+        "VQ:201602000296");
+
+    qbGrfg("G13",
+        "PNQ:JPSQ      SNYEZ      2130            Pyvsgba      Eq                                          IREFNVYYRF      06/29/2016      17:54:31      tevyy jnf pybfr gb tnentr naq frg bss gur sver nynez.    <<Ybtf>>17:55:57 XFzvgu:cre nynez pb-- qvq erprvir n sver nynez sebz guvf ybpngvba, qvq nqivfr gurz gung ubzrbjare unq whfg pnyyrq hf naq fgngrq uvf ood tevyy jnf gbb pybfr gb gur tnentr naq fzbxr oyrj vagb gur ubhfr; 17:56:38 XFzvgu:**havg 125 jnf va qvfcngpu jura pnyy pnzr va, nqivfrq ur jvyy or rae gb purpx gur nern**; 17:56:42 XFzvgu:Vapvqrag Pybfrq; 18:10:24 XFzvgu:Vapvqrag Er-Bcrarq; 18:11:",
+        "PBQR:JPSQ",
+        "PNYY:JPSQ",
+        "NQQE:SNYEZ 2130 Pyvsgba Eq",
+        "PVGL:IREFNVYYRF",
+        "QNGR:06/29/2016",
+        "GVZR:17:54:31",
+        "VASB:tevyy jnf pybfr gb tnentr naq frg bss gur sver nynez. <<Ybtf>>17:55:57 XFzvgu:cre nynez pb-- qvq erprvir n sver nynez sebz guvf ybpngvba, qvq nqivfr gurz gung ubzrbjare unq whfg pnyyrq hf naq fgngrq uvf ood tevyy jnf gbb pybfr gb gur tnentr naq fzbxr oyrj vagb gur ubhfr; 17:56:38 XFzvgu:**havg 125 jnf va qvfcngpu jura pnyy pnzr va, nqivfrq ur jvyy or rae gb purpx gur nern**; 17:56:42 XFzvgu:Vapvqrag Pybfrq; 18:10:24 XFzvgu:Vapvqrag Er-Bcrarq; 18:11:");
+
+    qbGrfg("G14",
+        "PNQ:JPSQ      SNFFG      3621            Uhagregbja      Eq                                          Irefnvyyrf      06/29/2016      01:35:57      sz haerfcbafvir znxvat fgenatr abvfrf naq jvyy abg nafjre ure qbrfag srry n chyfr 73 lb      201602000294",
+        "PBQR:JPSQ",
+        "PNYY:JPSQ",
+        "NQQE:SNFFG 3621 Uhagregbja Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:06/29/2016",
+        "GVZR:01:35:57",
+        "VASB:sz haerfcbafvir znxvat fgenatr abvfrf naq jvyy abg nafjre ure qbrfag srry n chyfr 73 lb",
+        "VQ:201602000294");
+
+    qbGrfg("G15",
+        "PNQ:JPSQ      S1046      680            Byq Senaxsbeg Cx                                                Irefnvyyrf      06/28/2016      21:49:13      R911 PYNFF: JCU2  YBP: 426 FCEVAT FGNGVBA EQ - FR  YNG: +038.103429  YBA: -084.640967  IMJ      201602000293",
+        "PBQR:JPSQ",
+        "PNYY:JPSQ",
+        "NQQE:S1046 680 Byq Senaxsbeg Cx",
+        "ZNQQE:S1046 680 Byq Senaxsbeg Cvxr",
+        "PVGL:Irefnvyyrf",
+        "QNGR:06/28/2016",
+        "GVZR:21:49:13",
+        "TCF:+38.103429,-84.640967",
+        "VASB:IMJ",
+        "VQ:201602000293");
+
+    qbGrfg("G16",
+        "{JPSQ} PNQ:SNFFG 209 Cnqqbpx Qe IREFNVYYRF 06/27/2016 11:54:48 R911 PYNFF: ERFQ JVA pna'g gnyx, bhg bs vg objry oybpxntr urneg ceboyrzf, cnprznxre 201602000291",
+        "FEP:JPSQ",
+        "PBQR:SNFFG",
+        "PNYY:Sver Nffvfg Bgure Ntrapl",
+        "NQQE:209 Cnqqbpx Qe",
+        "PVGL:IREFNVYYRF",
+        "QNGR:06/27/2016",
+        "GVZR:11:54:48",
+        "VASB:R911 PYNFF: ERFQ JVA pna'g gnyx, bhg bs vg objry oybpxntr urneg ceboyrzf, cnprznxre",
+        "VQ:201602000291");
+
+    qbGrfg("G17",
+        "{JPSQ} PNQ:SNFFG V 64 R Zvqjnl 06/27/2016 11:52:12 juvgr f10 erq gnvytngr 201602000290",
+        "FEP:JPSQ",
+        "PBQR:SNFFG",
+        "PNYY:Sver Nffvfg Bgure Ntrapl",
+        "NQQE:V 64 R",
+        "PVGL:Zvqjnl",
+        "QNGR:06/27/2016",
+        "GVZR:11:52:12",
+        "VASB:juvgr f10 erq gnvytngr",
+        "VQ:201602000290");
+
+    qbGrfg("G18",
+        "{JPSQ} PNQ:S1IRU Ot Cnexjnl R Irefnvyyrf 06/27/2016 11:40:26 iruvpyr shyyl rathysrq ba gur fvqr bs gur ebnqjnl 201602000289",
+        "FEP:JPSQ",
+        "PBQR:S1IRU",
+        "PNYY:Sver-Iruvpyr",
+        "NQQE:Ot Cnexjnl R",
+        "PVGL:Irefnvyyrf",
+        "QNGR:06/27/2016",
+        "GVZR:11:40:26",
+        "VASB:iruvpyr shyyl rathysrq ba gur fvqr bs gur ebnqjnl",
+        "VQ:201602000289");
+
+    qbGrfg("G19",
+        "{JPSQ} PNQ:S1046 5454 ZpPbjnaf Sreel Eq Irefnvyyrf 06/26/2016 13:06:38 201602000288",
+        "FEP:JPSQ",
+        "PBQR:S1046",
+        "PNYY:Sver Havg gb Nppvqrag",
+        "NQQE:5454 ZpPbjnaf Sreel Eq",
+        "PVGL:Irefnvyyrf",
+        "QNGR:06/26/2016",
+        "GVZR:13:06:38",
+        "VQ:201602000288");
+
+    qbGrfg("G20",
         "{JPSQ} PNQ:S1IRU V64 R ZVQJNL 06/25/2016 18:20:09 64 zz pne nabgure 911 pnyy pbzvat va ng fnzr gvzr. <<Ybtf>>18:42:00 nznlrf:JPSQ4 purpxrq gb pbhagl yvar artngvir pbagnpg; 18:42:03 nznlrf:Vapvqrag Pybfrq; 18:43:00 nznlrf:Hanoyr gb trg pnyyref anzr qhr gb nabgure 911 pnyy pbzvat va ng fnzr gvzr. 201602000287",
         "FEP:JPSQ",
         "PBQR:S1IRU",
@@ -1364,7 +1503,7 @@ choyvp pynff XLJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:64 zz pne nabgure 911 pnyy pbzvat va ng fnzr gvzr. <<Ybtf>>18:42:00 nznlrf:JPSQ4 purpxrq gb pbhagl yvar artngvir pbagnpg; 18:42:03 nznlrf:Vapvqrag Pybfrq; 18:43:00 nznlrf:Hanoyr gb trg pnyyref anzr qhr gb nabgure 911 pnyy pbzvat va ng fnzr gvzr.",
         "VQ:201602000287");
 
-    qbGrfg("G2",
+    qbGrfg("G21",
         "{JPSQ} PNQ:SNFFG 516 Zhaqlf Ynaqvat Eq Irefnvyyrf 06/25/2016 14:53:32 sryy bhg bs n pneevntr cbffvoyr oebxra pbyyne obar 62 le byq znyr cnfg gur onea gb gur ubhfr 201602000286",
         "FEP:JPSQ",
         "PBQR:SNFFG",
@@ -1376,7 +1515,7 @@ choyvp pynff XLJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:sryy bhg bs n pneevntr cbffvoyr oebxra pbyyne obar 62 le byq znyr cnfg gur onea gb gur ubhfr",
         "VQ:201602000286");
 
-    qbGrfg("G3",
+    qbGrfg("G22",
         "{JPSQ} PNQ:SVAIR 117 Enirajbbq Eq Irefnvyyrf 06/24/2016 23:28:02 nqi qrgrpgbe tbvat bss va tnentr naq ab jurer ryfr arrqf nffvfgnapr 201602000285",
         "FEP:JPSQ",
         "PBQR:SVAIR",
@@ -1388,7 +1527,7 @@ choyvp pynff XLJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:nqi qrgrpgbe tbvat bss va tnentr naq ab jurer ryfr arrqf nffvfgnapr",
         "VQ:201602000285");
 
-    qbGrfg("G4",
+    qbGrfg("G23",
         "{JPSQ} PNQ:SPNEO 419 Jryyf Ya Irefnvyyrf 06/23/2016 21:45:47 fzryyf tnf 201602000284",
         "FEP:JPSQ",
         "PBQR:SPNEO",
@@ -1400,7 +1539,7 @@ choyvp pynff XLJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:fzryyf tnf",
         "VQ:201602000284");
 
-    qbGrfg("G5",
+    qbGrfg("G24",
         "{JPSQ} PNQ:S1046 6540 Zppbjnaf Sreel Eq Irefnvyyrf 06/23/2016 10:34:54 R911 PYNFF: JEYF YBP: 2196 FPBGGF SREEL EQ - FR YNG: +038.006107 YBA: -084.798316 NGGZB snpr qevirjnl. <<Ybtf>>10:34:36 qyrvavat:Erzbirq Havg - RP1; 10:34:36 qyrvavat:Erzbirq Bssvpre - RP1 201602000283",
         "FEP:JPSQ",
         "PBQR:S1046",
@@ -1413,7 +1552,7 @@ choyvp pynff XLJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:NGGZB snpr qevirjnl. <<Ybtf>>10:34:36 qyrvavat:Erzbirq Havg - RP1; 10:34:36 qyrvavat:Erzbirq Bssvpre - RP1",
         "VQ:201602000283");
 
-    qbGrfg("G6",
+    qbGrfg("G25",
         "{JPSQ} PNQ:SNFFG 817 Rntyr Perfg Qe IREFNVYYRF 06/23/2016 05:37:20 nqi ure sngure vf abg erfcbaqvat ur vf oernguvat ba n pcnc tbg bhg bs gur ubfcvgny jvgu carhzbavn naq urneg pbaqvgbaf 81 lb znyr 201602000282",
         "FEP:JPSQ",
         "PBQR:SNFFG",
@@ -1425,7 +1564,7 @@ choyvp pynff XLJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:nqi ure sngure vf abg erfcbaqvat ur vf oernguvat ba n pcnc tbg bhg bs gur ubfcvgny jvgu carhzbavn naq urneg pbaqvgbaf 81 lb znyr",
         "VQ:201602000282");
 
-    qbGrfg("G7",
+    qbGrfg("G26",
         "{JPSQ} PNQ:SVAIR 2981 Funaaba Eha Eq Irefnvyyrf 06/22/2016 11:05:38 gerr uvg va zvqqyr bs svryq. vg'f oheavat, ohg vf va gur zvqqyr bs n svryq, naq 10-4.... <<Ybtf>>11:07:13 ppnzcory:Vapvqrag Pybfrq 201602000281",
         "FEP:JPSQ",
         "PBQR:SVAIR",
@@ -1437,7 +1576,7 @@ choyvp pynff XLJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:gerr uvg va zvqqyr bs svryq. vg'f oheavat, ohg vf va gur zvqqyr bs n svryq, naq 10-4.... <<Ybtf>>11:07:13 ppnzcory:Vapvqrag Pybfrq",
         "VQ:201602000281");
 
-    qbGrfg("G8",
+    qbGrfg("G27",
         "{JPSQ} PNQ:S1046 V 64 J Zvqjnl 06/22/2016 10:53:21 ina be n Fhoheona jrag bss vagb qvgpu 201602000280",
         "FEP:JPSQ",
         "PBQR:S1046",
@@ -1449,7 +1588,7 @@ choyvp pynff XLJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:ina be n Fhoheona jrag bss vagb qvgpu",
         "VQ:201602000280");
 
-    qbGrfg("G9",
+    qbGrfg("G28",
         "{JPSQ} PNQ:SNFFG 00 Furcureqf Gepr Irefnvyyrf 06/21/2016 13:03:45 1fg ubhfr ba Furcureqf Genpr unf snyyra sebz fgnvef cbffvoyr oebxra naxyr 201602000279",
         "FEP:JPSQ",
         "PBQR:SNFFG",
@@ -1461,7 +1600,7 @@ choyvp pynff XLJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:1fg ubhfr ba Furcureqf Genpr unf snyyra sebz fgnvef cbffvoyr oebxra naxyr",
         "VQ:201602000279");
 
-    qbGrfg("G10",
+    qbGrfg("G29",
         "{JPSQ} PNQ:SNYEZ 3001 Cvftnu Cvxr Irefnvyyrf 06/21/2016 01:15:23 cnavp nhqvb znva ubhfr xrlubyqre ab sver nyez 201602000278",
         "FEP:JPSQ",
         "PBQR:SNYEZ",
@@ -1473,7 +1612,7 @@ choyvp pynff XLJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:cnavp nhqvb znva ubhfr xrlubyqre ab sver nyez",
         "VQ:201602000278");
 
-    qbGrfg("G11",
+    qbGrfg("G30",
         "{JPSQ} PNQ:S1046 320 Ubcr Ya Irefnvyyrf 06/18/2016 18:20:12 Juvgr Xvn naq 201602000277",
         "FEP:JPSQ",
         "PBQR:S1046",
@@ -1486,7 +1625,7 @@ choyvp pynff XLJbbqsbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:201602000277");
 
   }
-  
+
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj XLJbbqsbeqPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }

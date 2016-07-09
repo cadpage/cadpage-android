@@ -19,8 +19,9 @@ public class KYWoodfordCountyParser extends SmartAddressParser {
     return "CAD@vpd.versaillesky.com";
   }
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("[A-Z][A-Z0-9]+");
-  private static final Pattern MASTER = Pattern.compile("CAD:([A-Z0-9]+) +(.*?) +(\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d) (?:(.*) )?(\\d{12})");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("[A-Z][A-Z0-9]+|");
+  private static final Pattern MBLANK_PTN = Pattern.compile(" {2,}");
+  private static final Pattern MASTER = Pattern.compile("CAD:([A-Z0-9]+) (.*?) (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)(?: (.*?))??(?: (\\d{12}))?");
   private static final Pattern INFO_GPS_PTN = Pattern.compile("E911 CLASS: [A-Z0-9]+ .*? LAT: ([-+]\\d{2,3}\\.\\d{6}) LON: ([-+]\\d{2,3}\\.\\d{6})\\b *(.*)");
   
   @Override
@@ -29,6 +30,7 @@ public class KYWoodfordCountyParser extends SmartAddressParser {
     if (!SUBJECT_PTN.matcher(subject).matches()) return false;
     data.strSource = subject;
     
+    body = MBLANK_PTN.matcher(body).replaceAll(" ");
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
     
@@ -38,7 +40,7 @@ public class KYWoodfordCountyParser extends SmartAddressParser {
     data.strDate = match.group(3);
     data.strTime = match.group(4);
     String info = getOptGroup(match.group(5));
-    data.strCallId = match.group(6);
+    data.strCallId = getOptGroup(match.group(6));
     
     match = INFO_GPS_PTN.matcher(info);
     if (match.matches()) {
