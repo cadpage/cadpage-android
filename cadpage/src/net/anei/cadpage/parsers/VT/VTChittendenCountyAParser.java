@@ -2,9 +2,9 @@ package net.anei.cadpage.parsers.VT;
 
 import net.anei.cadpage.parsers.dispatch.DispatchA19Parser;
 
-public class VTChittendenCountyParser extends DispatchA19Parser {
+public class VTChittendenCountyAParser extends DispatchA19Parser {
   
-  public VTChittendenCountyParser() {
+  public VTChittendenCountyAParser() {
     super("CHITTENDEN COUNTY", "VT");
   }
 }
