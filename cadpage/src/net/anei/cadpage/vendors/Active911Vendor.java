@@ -426,6 +426,7 @@ class Active911Vendor extends Vendor {
       "US/IA/WarrenCounty",               "IAWarrenCountyB",
       "US/IA/Westcom",                    "IAWarrenCountyB",
       "US/IA/WorthCounty",                "IAWorthCounty",
+      "US/ID/BinghamCounty",              "IDBinghamCounty",
       "US/ID/BlaineCounty",               "IDBlaineCounty",
       "US/ID/BonnerCounty",               "IDBonnerCounty",
       "US/ID/KootenaiCounty",             "IDKootenaiCounty",
