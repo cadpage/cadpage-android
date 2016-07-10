@@ -1035,6 +1035,7 @@ class Active911Vendor extends Vendor {
       "US/OK/LakewoodFD",                 "OKBryanCounty",
       "US/OK/LoveCounty",                 "OKLoveCounty",
       "US/OK/MayesCounty",                "OKMayesCounty",
+      "US/OK/SandSprings",                "OKSandSprings",
       "US/OR/Benton",                     "ORBentonCounty",
       "US/OR/CityofSalem",                "ORMarionCountyB",
       "US/OR/ClackamasCounty",            "ORClackamasCountyA,ORClackamasCountyD",
