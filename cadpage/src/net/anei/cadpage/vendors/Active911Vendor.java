@@ -395,6 +395,7 @@ class Active911Vendor extends Vendor {
       "US/GA/ButtsCounty",                "GAButtsCounty",
       "US/GA/CamdenCounty",               "GACamdenCountyA",
       "US/GA/CarrollCounty",              "GACarrollCounty",
+      "US/GA/DoolyCounty",                "GADoolyCounty",
       "US/GA/EffinghamCounty",            "GAEffinghamCounty",
       "US/GA/EffinghamSheriffs",          "GAEffinghamCountyB",
       "US/GA/FanninCounty",               "GAFanninCounty",
