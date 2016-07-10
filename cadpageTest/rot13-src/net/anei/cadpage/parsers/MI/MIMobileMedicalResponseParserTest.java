@@ -94,6 +94,10 @@ Pbagnpg: Ubjrl, Oevna <oubjrl@zbovyrzrqvpny.bet>
 Fraqre: znvytubfg@zbovyrzrqvpny.bet
 znvytubfg@zbovyrzrqvpny.bet / <PNQ> - cneg 1 bs 1 / EP:320 J FNTVANJ FG///<Haxabja>/Eha# 67521/erfphr raebhgr/ srznyr jnf jnyxvat/ cnva va arpx hc fvqr bs snpr/ gebhoyr oernguvat- gerzbe va unaqf/19:04
 
+Pbagnpg: Evpx Onffrgg <evpxonffrgg59@tznvy.pbz>
+Fraqre: znvytubfg@zbovyrzrqvpny.bet
+(<PNQ> - cneg 1 bs 1) EP:Tb gb cbfg JUVGRJNGRE
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zbovyr Zrqvpny Erfcbafr
 Ybpngvba: Fntvanj, ZV, Havgrq Fgngrf
@@ -430,6 +434,16 @@ choyvp pynff ZVZbovyrZrqvpnyErfcbafrCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:67521",
         "PNYY:erfphr raebhgr",
         "GVZR:19:04");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEvpxOnffrgg() {
+
+    qbGrfg("G1",
+        "(<PNQ> - cneg 1 bs 1) EP:Tb gb cbfg JUVGRJNGRE",
+        "GLCR:TRA_NYREG",
+        "VASB:Tb gb cbfg JUVGRJNGRE");
 
   }
 

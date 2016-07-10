@@ -14,6 +14,12 @@ public class NCRobesonCountyParser extends DispatchOSSIParser{
   }
     
   @Override
+  protected boolean parseMsg(String body, Data data) {
+    body = stripFieldStart(body, "Text Message / ");
+    return super.parseMsg(body, data);
+  }
+
+  @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("ID")) return new IdField("\\d{8}", true);
