@@ -10,6 +10,6 @@ public class INRandolphCountyParser extends DispatchA19Parser {
   
   @Override
   public String getFilter() {
-    return "tyler.lyman@active911.com,randolph.hsem@randolph.in.gov,20704-z3XiTRXFTV8DvC6s@alert.active911.com,911@wayneco.us,dispatch@co.wayne.in.us";
+    return "andolph.hsem@randolph.in.gov";
   }
 }
