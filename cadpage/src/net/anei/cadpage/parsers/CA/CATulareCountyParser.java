@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.dispatch.DispatchA49Parser;
 
 /*
-Walker County, AL
+Tulare County, CA
 */
 
 public class CATulareCountyParser extends DispatchA49Parser {
