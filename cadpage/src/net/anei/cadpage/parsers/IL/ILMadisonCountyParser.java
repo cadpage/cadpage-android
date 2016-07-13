@@ -17,14 +17,16 @@ public class ILMadisonCountyParser extends FieldProgramParser {
   
   public ILMadisonCountyParser() {
     super("MADISON COUNTY", "IL", 
-          "SKIP ( EMPTY CALL EMPTY ( ADDRCITY/S6 EMPTY PLACE EMPTY APT EMPTY X | PLACE EMPTY ADDRCITY/S6 EMPTY ( PHONE | APT ) ) EMPTY INFO EMPTY ID EMPTY! ( URL EMPTY! | ) " + 
-               "| CALL EMPTY ADDRCITY/S6 EMPTY EMPTY EMPTY X EMPTY EMPTY EMPTY INFO EMPTY DATETIME EMPTY NAME EMPTY PHONE! ) TIMES+");
+          "CALL_RECEIVED_AT? EMPTY? CALL EMPTY ( SELECT/1 ( PLACE EMPTY/Z ADDRCITY/S6 EMPTY ( PHONE | APT ) | ADDRCITY/S6 EMPTY PLACE EMPTY APT EMPTY X ) EMPTY INFO EMPTY ID EMPTY! ( URL EMPTY! | ) " + 
+                                              "| ADDRCITY/S6 EMPTY PLACE EMPTY X EMPTY EMPTY EMPTY INFO+? DATETIME EMPTY NAME EMPTY PHONE! ) TIMES+"); 
   }
   
   @Override
   public String getFilter() {
-    return "@glen-carbon.il.us,@co.madison.il.us,@troypolice.us";
+    return "@glen-carbon.il.us,@co.madison.il.us,@troypolice.us,@cityofedwardsville.com";
   }
+
+  private static final Pattern FIND_ID_PTN = Pattern.compile("\\[(?:\\d{4}-\\d{8}|Incident not yet created) [A-Z]+\\d+\\]");
   
   String timeInfo;
 
@@ -32,6 +34,7 @@ public class ILMadisonCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.startsWith("Automatic R&R Notification:")) return false;
     timeInfo = "";
+    setSelectValue(FIND_ID_PTN.matcher(body).find() ? "1" : "2");
     if (!parseFields(body.split("\n"), data)) return false;
     if (data.msgType == MsgType.RUN_REPORT) {
       data.strSupp = append(timeInfo, "\n", data.strSupp);
@@ -48,6 +51,7 @@ public class ILMadisonCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("CALL_RECEIVED_AT")) return new SkipField("Call Received at|Call receieved at|Call Recieved at", true);
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("APT")) return new MyAptField();
@@ -55,6 +59,7 @@ public class ILMadisonCountyParser extends FieldProgramParser {
     if (name.equals("ID")) return new MyIdField();
     if (name.equals("URL")) return new SkipField("http://.*", true);
     if (name.equals("DATETIME")) return new DateTimeField(DATE_TIME_FMT, true);
+    if (name.equals("NAME")) return new MyNameField();
     if (name.equals("PHONE")) return new MyPhoneField();
     if (name.equals("TIMES")) return new MyTimesField();
     return super.getField(name);
@@ -69,6 +74,15 @@ public class ILMadisonCountyParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
+      return checkParse(field, data, false);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      checkParse(field, data, true);
+    }
+    
+    private boolean checkParse(String field, Data data, boolean force) {
       if (!field.equals("<UNKNOWN>")) {
         boolean good = false;
         int pt = field.lastIndexOf(',');
@@ -84,15 +98,10 @@ public class ILMadisonCountyParser extends FieldProgramParser {
           data.strPhone = match.group(2);
         }
         field = field.replace('@', '&');
-        if (!good && !isValidAddress(field)) return false;
+        if (!force && !good && !isValidAddress(field)) return false;
       }
       super.parse(field, data);
       return true;
-    }
-    
-    @Override
-    public void parse(String field, Data data) {
-      if (!checkParse(field, data)) abort();
     }
     
     @Override
@@ -130,6 +139,14 @@ public class ILMadisonCountyParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (!field.startsWith("[") || !field.endsWith("]")) abort();
       field = field.replace("[", "").replace("]", "");
+      super.parse(field, data);
+    }
+  }
+  
+  private class MyNameField extends NameField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldStart(field, ",");
       super.parse(field, data);
     }
   }
