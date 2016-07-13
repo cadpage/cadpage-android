@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07032016</string>
+  <string name="release_date">07112016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.09.09\n
+New Location:\n
+Tulare County, CA\n
+Randoph County, IN\n
+Woodford County, KY\n
+Livingston County, MO\n
+Ashland County, OH\n
+Abbeville County, SC\n
+Chittenden County, VT (alt)\n
+\n
+Location Fixes:\n
+Stanislaus County, CA\n
+Dooly County, GA\n
+Macon County, GA\n
+Marion County, GA\n
+Schley County, GA\n
+Sumter County, GA\n
+Tablot County, GA\n
+Taylor County, GA\n
+Webster County, GA\n
+Wilkes County, NC\n
+Beauregard Parish, LA\n
+Robeson County, NC\n
+\n
 v1.9.09.08\n
 New Locations:\n
 Abbeville County, SC\n
@@ -35,27 +59,7 @@ Ocean County, NJ\n
 Newberry County, SC\n
 Pennington County, SD\n
 Loudon County, TN\n
-Cowlitz County, WA\n
-\n
-v1.9.09.04\n
-New Locations:\n
-Carlton County, MN\n
-Cook County, MN\n
-McDuffie County, GA\n
-Johnson County, IN\n
-Itasca County, MN\n
-Koochiching County, MN\n
-Lake County, MN\n
-Lake of the Woods County, MN\n
-Pine County, MN\n
-Pope County, MN\n
-St Louis County, MN\n
-Iron County, MO\n
-Cooke County, TX\n
-\n
-Location Fixes:\n
-Lorain County, OH\n
-Blount County, TN
+Cowlitz County, WA
   </string>
 </resources>
   
