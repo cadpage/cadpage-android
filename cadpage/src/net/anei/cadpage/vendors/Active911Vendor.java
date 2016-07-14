@@ -1345,6 +1345,7 @@ class Active911Vendor extends Vendor {
       "US/WA/CowlitzCounty",              "WACowlitzCounty",
       "US/WA/GraysHarborCounty",          "WAGraysHarborCounty",
       "US/WA/IslandCounty",               "WAIslandCounty",
+      "US/WA/JeffersonCounty",            "WAJeffersonCounty",
       "US/WA/KentRegional",               "WAKingCounty",
       "US/WA/KingCounty",                 "WAKingCountyA",
       "US/WA/KitsapCounty",               "WAKitsapCounty",
