@@ -7300,6 +7300,11 @@ ARPP, BU (BUARPPCnefre)
 [ARPP] [S] YI:1 NYNEZ SVER\a/\aPUVYV'F TEVYY & ONE\a11329<gry:11329> ZBAGTBZREL EQ\a(FL)\aKF: UNECREFCBVAGR QE & R XRZCRE EQ\a\aEPIQ NF Cubar\a\aPBZ:\aS28 SVER QHPG NYNEZ\aR9
 (ARPP) [S] YI:1 NHGB NPPVQRAG VAWHEL\a/\aSVRYQF REGRY EQ/HAVBA PRZRGREL EQ\a(FL)\aKF: HAVBA PRZRGREL EQ & TERRA NEOBEF YA\a\aEPIQ NF Cubar\a\aPBZ:
 ***************************************************************************
+Jnlar Pbhagl, BU (BUJnlarPbhaglQ)
+{Sebz: JnePBTHfre} PNYY: SNYY IVPGVZ\aCYNPR: JRFG IVRJ ZNABE ERGVERZRAG PRAGRE\aNQQE: 1715 ZRPUNAVPFOHET EQ \aPVGL:JBBFGRE\aVQ: 16-09160\aHAVG: JSQ  \aVASB:  SverAb 0
+{Sebz: JnePBTHfre} PNYY: \aCYNPR: JERAF JNL NCNEGZRAGF\aNQQE: 2250 ZRYEBFR QE 101\aPVGL:JBBFGRE\aVQ: 16-09142\aHAVG: JSQ  \aVASB: \a\g60-lrne-byq, Znyr, Pbafpvbhfarff haxabja, Oernguvat fgnghf haxabja.\a\gPP Grkg: Fgebxr (PIN) / Genafvrag Vfpurzvp Nggnpx (GVN)\a\gCeboyrz: ZNYR CBFFVOYR FGEBXR, QVMML YVTUG URNQRQ\a SverAb 0
+{Sebz: JnePBTHfre} PNYY: \aCYNPR: \aNQQE: 743 FCVAX FG \aPVGL:JBBFGRE\aVQ: 16-09134\aHAVG: JSQ  \aVASB: \a\g56-lrne-byq, Znyr, Abg Pbafpvbhf, Oernguvat.\a\gPP Grkg: Hapbafpvbhf / Snvagvat (Arne)\a\gCeboyrz: ZNYR GBBX CVYYF, FJRNGVAT, VA BHG BS PBAFPVBHFARFF\a,\a\gQvfcngpu Pbqr: 31Q03 (Abg nyreg)\a\gErfcbafr: Qrygn\a\a\g   ** Oernguvat pbzcyrgryl ay.\a\g   ** Ab ybatre hapbafpvbhf.\a\g   ** Abg pbzcyrgryl nyreg.\a\g   ** Hax vs punatvat pbybe.\a,\a\g   ** Hax vs uk urneg cebof.\a SverAb 0
+***************************************************************************
 Cbegntr Pbhagl, BU (BUCbegntrPbhaglNCnefre)
 911@pv.eniraan.bu.hf:ohexri: 80S-NYNEZ QEBC - SVER,6062 FG NAQERJF JNL,,NYNEZ SVER FZBXR QRG,
 911@pv.eniraan.bu.hf:Gvssnal.Orerprx: 29-ZRQVPNY RZRETRAPL,4965 FGNGR EG 14,,,
