@@ -20,7 +20,7 @@ public class FLMarionCountyParser extends MsgParser {
   
   private static final Pattern MASTER2 = Pattern.compile("/ ([^/]+) / (?:From )?([A-Za-z0-9 ]+) (\\d\\d:\\d\\d) EST (.*)");
   private static final Pattern ALERT_PREFIX_PTN = Pattern.compile("\\**([A-Za-z0-9 ]+)\\*+ *([A-Za-z0-9]+) *#(\\d{4}-\\d{6}) +(.*)");
-  private static final Pattern ALERT_INFO_PTN = Pattern.compile("ref:(.*?)address:(.*?)apt/lot/rm#:(.*?)bldg/wing:(.*?)zip (.*?) map page pg *(\\S*) *.*");
+  private static final Pattern ALERT_INFO_PTN = Pattern.compile("(?:ref:)?(.*?)address:(.*?)apt/lot/rm#:(.*?)bldg/wing:(.*?)zip (.*?) map page (?:pg *(\\S*)|not found) *.*");
   private static final Pattern MBLANK_PTN = Pattern.compile(" {3,}");
   
   private static final Pattern MASTER1 = Pattern.compile("\\*{3}CALL ALERT\\*{3} (\\S+) Case #(\\d{4}-\\d{6}) Ref:(.*?)Address:(.*?)Loc Name:(.*?)Apt/Lot/Rm#:(.*?)Bldg/Wing:(.*?)Zip (\\d*) Map Page pg +(\\S*)(?: *.*)?");
@@ -57,7 +57,7 @@ public class FLMarionCountyParser extends MsgParser {
           String apt = append(match.group(3).trim(), "-", match.group(4).trim());
           data.strApt = append(data.strApt, "-", apt);
           data.strCity = match.group(5).trim();
-          data.strMap = match.group(6).trim();
+          data.strMap = getOptGroup(match.group(6));
           return true;
         }
         

@@ -29,6 +29,9 @@ en.209838375.329760@gpe.ernqlnyreg.pbz / Qvfcngpu Nyreg / Sebz Fgngvba 14 07:36 
 en.210482151.329760@gpe.ernqlnyreg.pbz / Mbar Pbirentr / Puvrs 07:32 RFG Arrq mbar pbirentr sbe Zbaqnl avtug vs nalbar vf vagrerfgrq. Grkg be pnyy Puvrs sbe vagrerfg sbe rvgure qhgl
 en.211174431.329760@gpe.ernqlnyreg.pbz / Qvfcngpu Nyreg / Sebz Fgngvba 14 10:12 RFG *pnyy nyreg*  t14         #2016-041641  ers:29 - genssvp pennqqerff: fj 180gu nirahr eq naq j ujl 40                 ncg/ybg/ez#:    oyqt/jvat:     mvc 34432 znc cntr ct 161/3o       ,
 en.211160640.329760@gpe.ernqlnyreg.pbz / Qvfcngpu Nyreg / Sebz Fgngvba 14 07:20 RFG *pnyy nyreg*  t14         #2016-041580  ers:fcrpvny qrgnvy nqqerff: 10055 fj 180gu nirahr eq    qhaaryyba uvtu fpubby     ncg/ybg/ez#:    oyqt/jvat:     mvc 34432 znc cntr ct 184/2p  fpubby  ,qhaaryyba18
+en.211827123.329760@gpe.ernqlnyreg.pbz / Qvfcngpu Nyreg / Sebz Fgngvba 14 04:34 RFG *pnyy nyreg*  t14         #2016-043862  bhgfvqr sver/jnqqerff: 20480 aj 27gu fg                       ncg/ybg/ez#:    oyqt/jvat:     mvc 32668 znc cntr ct 114/2o       ,
+en.211828033.329760@gpe.ernqlnyreg.pbz / Qvfcngpu Nyreg / Sebz Fgngvba 14 04:40 RFG pnapry vasbezngvba**t14         #2016-043862  pnapry ernfba:   qvq abg npxabjyrqtr cntr        q=16:34:46     e=         fg=         pnapry gvzr=16:39:50
+en.211914293.329760@gpe.ernqlnyreg.pbz / Qvfcngpu Nyreg / Sebz Fgngvba 14 07:53 RFG *pnyy nyreg*  r14         #2016-043938  zhghny nvq / nnqqerff: 21530 fr 68gu ya                       ncg/ybg/ez#:    oyqt/jvat:     mvc    znc cntr abg sbhaq       ,
 
  */
 
@@ -197,12 +200,40 @@ choyvp pynff SYZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:qhaaryyba uvtu fpubby",
         "PVGL:34432",
         "ZNC:184/2p");
-    
+
+    qbGrfg("G6",
+        "en.211827123.329760@gpe.ernqlnyreg.pbz / Qvfcngpu Nyreg / Sebz Fgngvba 14 04:34 RFG *pnyy nyreg*  t14         #2016-043862  bhgfvqr sver/jnqqerff: 20480 aj 27gu fg                       ncg/ybg/ez#:    oyqt/jvat:     mvc 32668 znc cntr ct 114/2o       ,",
+        "FEP:Fgngvba 14",
+        "GVZR:04:34",
+        "PNYY:pnyy nyreg - bhgfvqr sver/j",
+        "HAVG:t14",
+        "VQ:2016-043862",
+        "NQQE:20480 aj 27gu fg",
+        "PVGL:32668",
+        "ZNC:114/2o");
+
+    qbGrfg("G7",
+        "en.211828033.329760@gpe.ernqlnyreg.pbz / Qvfcngpu Nyreg / Sebz Fgngvba 14 04:40 RFG pnapry vasbezngvba**t14         #2016-043862  pnapry ernfba:   qvq abg npxabjyrqtr cntr        q=16:34:46     e=         fg=         pnapry gvzr=16:39:50",
+        "GLCR:EHA_ERCBEG",
+        "FEP:Fgngvba 14",
+        "GVZR:04:40",
+        "PNYY:pnapry vasbezngvba",
+        "HAVG:t14",
+        "VQ:2016-043862",
+        "VASB:pnapry ernfba:\aqvq abg npxabjyrqtr cntr\aq=16:34:46\ae=\afg=\apnapry gvzr=16:39:50");
+
+    qbGrfg("G8",
+        "en.211914293.329760@gpe.ernqlnyreg.pbz / Qvfcngpu Nyreg / Sebz Fgngvba 14 07:53 RFG *pnyy nyreg*  r14         #2016-043938  zhghny nvq / nnqqerff: 21530 fr 68gu ya                       ncg/ybg/ez#:    oyqt/jvat:     mvc    znc cntr abg sbhaq       ,",
+        "FEP:Fgngvba 14",
+        "GVZR:07:53",
+        "PNYY:pnyy nyreg - zhghny nvq / n",
+        "HAVG:r14",
+        "VQ:2016-043938",
+        "NQQE:21530 fr 68gu ya");
+
   }
  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-
-    
     arj SYZnevbaPbhaglCnefreGrfg().trarengrGrfgf("G1");
   }
 }
