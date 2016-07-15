@@ -17,7 +17,7 @@ public class NJSussexCountyDParser extends FieldProgramParser {
   
   public NJSussexCountyDParser() {
     super("SUSSEX COUNTY", "NJ",
-           "EMS_CAD#:ID! Time_of_Call:TIME! ADDR! Type_of_EMS_Call:CALL! Notes:INFO+");
+           "( EMS_CAD#:ID! | Fire_CAD#:ID! ) Time_of_Call:TIME! ADDR! ( Type_of_EMS_Call:CALL! | Type_of_Fire:CALL! ) Notes:INFO+");
   }
   
   @Override
@@ -27,7 +27,6 @@ public class NJSussexCountyDParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Fire Page")) return false;
     return parseFields(body.split("\n"), 4, data);
   }
   
