@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers.NY;
 
-import java.util.HashSet;
-import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -24,21 +22,7 @@ public class NYWashingtonCountyParser extends DispatchA56Parser {
     Matcher match = SUBJECT_PTN.matcher(subject);
     if (!match.matches()) return false;
     data.strSource = match.group(1);
-    
-    if (!super.parseMsg(body, data)) return false;
-    String oldUnit = data.strUnit;
-    data.strUnit = "";
-    Set<String> unitSet = new HashSet<String>();
-    for (String unit : oldUnit.split(",")) {
-      unit = unit.trim().toUpperCase();
-      int pt = unit.lastIndexOf(' ');
-      if (pt > 0 && "DISPATCH".startsWith(unit.substring(pt+1))) {
-        unit = unit.substring(0,pt).trim();
-      }
-      unit = unit.replace(' ', '_');
-      if (unitSet.add(unit)) data.strUnit = append(data.strUnit, ",", unit);
-    }
-    return true;
+    return super.parseMsg(body, data);
   }
   
   @Override

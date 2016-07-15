@@ -4,6 +4,15 @@
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.09.10\n
+Location Fixes:\n
+Madison County, IL\n
+Stark County, OH\n
+Wayne County, OH\n
+Davis County, UT\n
+Minnehaha County, SD\n
+Jefferson County, WA\n
+\n
 v1.9.09.09\n
 New Location:\n
 Tulare County, CA\n
@@ -49,17 +58,7 @@ Location Fixes:\n
 Mobile Medical Response, MI\n
 Adams County, PA\n
 Albemarle County, VA\n
-Chatham-Kent, ON\n
-\n
-v1.9.09.05\n
-Location Fixes:\n
-San Joaquin County, CA\n
-Hudson County, OH\n
-Ocean County, NJ\n
-Newberry County, SC\n
-Pennington County, SD\n
-Loudon County, TN\n
-Cowlitz County, WA
+Chatham-Kent, ON
   </string>
 </resources>
   
