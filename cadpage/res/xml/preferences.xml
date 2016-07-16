@@ -190,12 +190,14 @@
           android:entryValues="@array/pref_gps_map_option_values"
           android:dialogTitle="@string/pref_gps_map_option_title"
           android:defaultValue="@string/pref_gps_map_option_default" />
-      <CheckBoxPreference
-        android:key="@string/pref_lock_google_map_key"
-        android:title="@string/pref_lock_google_map_title"
-        android:summaryOn="@string/pref_lock_google_map_summaryon"
-        android:summaryOff="@string/pref_lock_google_map_summaryoff"
-        android:defaultValue="true" />
+      <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_app_map_option_key"
+          android:title="@string/pref_app_map_option_title"
+          android:summary="@string/pref_app_map_option_summary"
+          android:entries="@array/pref_app_map_option_values"
+          android:entryValues="@array/pref_app_map_option_entries"
+          android:dialogTitle="@string/pref_app_map_option_title"
+          android:defaultValue="@string/pref_app_map_option_default" />
       <CheckBoxPreference
         android:key="@string/pref_navigate_map_key"
         android:title="@string/pref_navigate_map_title"

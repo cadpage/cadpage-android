@@ -40,7 +40,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 44;
+  private static final int PREFERENCE_VERSION = 45;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -94,7 +94,13 @@ public class ManagePreferences {
     // to be done if there was no previous version of Cadpage.
     if (oldVersion > 0) {
       
-      // If old version < 42, fix old problem with wrong default value for 
+      // If old version < 45 convert old lock_google option to new app_map_option option
+      if (oldVersion < 45) {
+        boolean lockGoogle = prefs.getBoolean(R.string.pref_lock_google_map_key);
+        prefs.putString(R.string.pref_app_map_option_key, (lockGoogle ? "Google" : "Other"));
+      }
+      
+      // If old version < 44, fix old problem with wrong default value for msg type 
       if (oldVersion < 44) {
         String value = prefs.getString(R.string.pref_enable_msg_type_key, "");
         if (value.equals("S")) prefs.putString(R.string.pref_enable_msg_type_key, "CS");
@@ -661,8 +667,8 @@ public class ManagePreferences {
     return val.charAt(0) - '0';
   }
   
-  public static boolean lockGoogleMap() {
-    return prefs.getBoolean(R.string.pref_lock_google_map_key);
+  public static String appMapOption() {
+    return prefs.getString(R.string.pref_app_map_option_key);
   }
   
   public static boolean navigateMap() {

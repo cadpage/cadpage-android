@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07112016</string>
+  <string name="release_date">07152016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.09.11\n
+Location Fixes:\n
+Marion County, FL\n
+Sussex County, NJ\n
+\n
 v1.9.09.10\n
 Location Fixes:\n
 Madison County, IL\n
@@ -48,17 +53,7 @@ Pennington County, SC\n
 \n
 v1.9.09.07\n
 Location Fixes:\n
-Lake County, FL\n
-\n
-v1.9.09.06\n
-New Locations:\n
-Rhea County, TN\n
-\n
-Location Fixes:\n
-Mobile Medical Response, MI\n
-Adams County, PA\n
-Albemarle County, VA\n
-Chatham-Kent, ON
+Lake County, FL
   </string>
 </resources>
   

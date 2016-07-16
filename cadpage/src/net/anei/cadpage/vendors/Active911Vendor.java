@@ -875,6 +875,7 @@ class Active911Vendor extends Vendor {
       "US/NJ/GloucesterCounty",           "NJGloucesterCountyA",
       "US/NJ/GloucesterERCAlert",         "GeneralAlert",
       "US/NJ/HamiltonTownship",           "NJAtlanticCountyB",
+      "US/NJ/HopatcongPD",                "NJSussexCountyD",
       "US/NJ/HunterdonCounty",            "NJHunterdonCounty",
       "US/NJ/JeffersonPolice",            "NJMorrisCountyB",
       "US/NJ/LifeCommCad",                "NJMercerCountyA",

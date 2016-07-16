@@ -28,7 +28,6 @@ import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
@@ -282,6 +281,22 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
         return true;
       }
     });
+    
+    // mapping app preference only includes Waze if Waze is installed
+    boolean wazeInstalled = false;
+    PackageManager pkgMgr = getPackageManager();
+    String pkgName = "com.waze";
+    try {
+      pkgMgr.getPackageInfo(pkgName, 0);
+      wazeInstalled = true;
+    } catch (PackageManager.NameNotFoundException ex2) {}
+
+    ListPreference appMapPref = (ListPreference)findPreference(getString(R.string.pref_app_map_option_key));
+    String oldVal = appMapPref.getValue();
+    appMapPref.setEntryValues(wazeInstalled ? R.array.pref_waze_app_map_option_values : R.array.pref_app_map_option_values);
+    appMapPref.setEntries(wazeInstalled ? R.array.pref_waze_app_map_option_entries : R.array.pref_app_map_option_entries);
+    if (!wazeInstalled && oldVal.equals("Waze")) oldVal = "Google";
+    appMapPref.setValue(oldVal);
     
     // Set up the response button preferences
     PreferenceScreen parent = (PreferenceScreen)findPreference(getString(R.string.pref_resp_button_config_key));
