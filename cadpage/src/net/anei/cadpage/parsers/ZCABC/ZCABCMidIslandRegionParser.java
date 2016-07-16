@@ -9,11 +9,6 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class ZCABCMidIslandRegionParser extends FieldProgramParser {
-  
-  private static final Pattern SRC_PTN = Pattern.compile("(BEAVER CREEK|CAMPBELL RIVER|CHERRY CREEK|COMOX|COURTENAY|CUMBERLAND|DENMAN ISLAND|FANNY BAY|HORNBY ISLAND|OYSTER RIVER|PT ALBERNI|PT HARDY|SPROAT LAKE|TOFINO|UNION BAY) *(.*)");
-  private static final Pattern GPS_PTN = Pattern.compile("\\(?([-+]?[\\d:\\.]+),([-+]?[\\d:\\.]+)\\)");
-  private static final Pattern TRAIL_GPS_PTN = Pattern.compile("(.*)\\{(.*)\\}");
-  private static final Pattern GPS_PTN2 = Pattern.compile("([-+]?\\d+)(\\d{6}),([-+]?\\d+)(\\d{6})");
 
   public ZCABCMidIslandRegionParser() {
     this("", "BC");
@@ -23,88 +18,7 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
   public ZCABCMidIslandRegionParser(String defCity, String defState) {
     super(defCity, defState, "CALL? ADDR/ZSC CITY DATETIME!");
     setupCallList(CALL_LIST);
-    setupMultiWordStreets(
-        "ACLE BEACH",
-        "AVRO ARROW",
-        "BEAR CAT",
-        "BEAVER CK",
-        "BEAVER CREEK",
-        "BLACK BEAR",
-        "BUCKLEY BAY",
-        "BUENA VISTA",
-        "CAMPBELL RIVER",
-        "CENTRAL LAKE",
-        "CENTRAL LK",
-        "CHERRY CK",
-        "CHERRY CREEK",
-        "CHESTERMAN BEACH",
-        "COAL HARBOUR",
-        "COLLEGE CAMPUS",
-        "COMOX LAKE",
-        "COMOX LOGGING",
-        "COMOX VALLEY",
-        "COUGAR SMITH",
-        "CROWN ISLAND",
-        "CROWN ISLE",
-        "DISCOVERY HARBOUR",
-        "DOLLY VARDEN",
-        "FORBIDDEN PLATEAU",
-        "FOREST GROVE",
-        "GLACIER VIEW",
-        "GOLD RIVER",
-        "HARDY BAY",
-        "HORNE LAKE",
-        "INLAND ISLAND",
-        "IRON RIVER",
-        "JENSEN COVE",
-        "KEITH WAGNER",
-        "KYE BAY",
-        "LACEY LAKE",
-        "LACY LAKE",
-        "LAKE TRAIL",
-        "LEA SMITH",
-        "LITTLE RIVER",
-        "LITTLE TRIBUNE BAY",
-        "LONE CONE",
-        "LONG BEACH PARK ACCESS",
-        "MACKENZIE BEACH",
-        "MAPLE RIDGE",
-        "MARTIN PARK",
-        "MCCOY LAKE",
-        "MCIVOR LAKE",
-        "MIRACLE BEACH",
-        "MYSTERY BEACH",
-        "PACIFIC RIM",
-        "PARK ACCESS",
-        "PIDGEON LAKE",
-        "PORT AGUSTA",
-        "PORT ALBERNI",
-        "PORT AUGUSTA",
-        "PT ALBERNI",
-        "RADAR HILL",
-        "ROCK BAY",
-        "ROY CREEK",
-        "SALMON POINT",
-        "SEA LION",
-        "SHINGLE SPIT",
-        "SHIPS POINT",
-        "ST ANNS",
-        "ST JOHN'S POINT",
-        "ST JOHNS POINT",
-        "STIRLING ARM",
-        "TAYLOR ARM",
-        "THE POINT",
-        "TONQUIN PARK",
-        "TRIBUNE BAY PROVINCIAL",
-        "TSULQUATE IR",
-        "VALLEY VIEW",
-        "WALKER FRONTAGE",
-        "WALTER GAGE",
-        "WILLIAMS BEACH",
-        "WILLIAMS BEACH",
-        "YEW WOOD"
-
-    );
+    setupMultiWordStreets(MWORD_STREET_LIST);
   }
   
   @Override
@@ -117,22 +31,27 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
     return "Mid-Island Region, BC";
   }
   
+  private static final Pattern SRC_PTN = Pattern.compile("(BEAVER CREEK|CAMPBELL RIVER|CHERRY CREEK|COMOX|COURTENAY|CUMBERLAND|DENMAN ISLAND|FANNY BAY|HORNBY ISLAND|OYSTER RIVER|PT ALBERNI|PT HARDY|SPROAT LAKE|TOFINO|UCLUELET|UNION BAY) *(.*)");
+  private static final Pattern GPS_PTN = Pattern.compile("\\(?([-+]?[\\d:\\.]+),([-+]?[\\d:\\.]+)\\)");
+  private static final Pattern TRAIL_GPS_PTN = Pattern.compile("(.*)\\{(.*)\\}");
+  private static final Pattern GPS_PTN2 = Pattern.compile("([-+]?\\d+)(\\d{6}),([-+]?\\d+)(\\d{6})");
+  
   @Override 
   public boolean parseMsg(String subject, String body, Data data) {
     
     if(!subject.equals("Fire Dispatch")) return false;
+    
+    // Clean the body of any email text
+    int newLine = body.indexOf('\n');
+    if(newLine >= 0) {
+      body = body.substring(0, newLine);
+    }
 
     // Strip off leading source name
     Matcher match = SRC_PTN.matcher(body);
     if (match.matches()) {
       data.strSource = match.group(1);
       body = match.group(2);
-    }
-    
-    // Clean the body of any email text
-    int newLine = body.indexOf('\n');
-    if(newLine >= 0) {
-      body = body.substring(0, newLine);
     }
     
     // Process trailing GPS coordinates
@@ -167,7 +86,7 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
     return super.getField(name);
   }
 
-  private static final Pattern ADDR_GPS_PTN = Pattern.compile("(.*?) *(\\([^\\)A-Za-z]+\\))");
+  private static final Pattern ADDR_GPS_PTN = Pattern.compile("(.*?) *((?:\\bL)?\\([^\\)A-Za-z]+\\))");
   private static final Pattern ADDR_SPEC_PTN = Pattern.compile("(.*)\\{(.*)\\}");
   private class MyAddressField extends AddressField {
     
@@ -222,11 +141,114 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
     }
   }
   
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "ACLE BEACH",
+    "AVRO ARROW",
+    "BEAR CAT",
+    "BEAVER CK",
+    "BEAVER CREEK",
+    "BEAVER HARBOUR",
+    "BLACK BEAR",
+    "BLUE JAY",
+    "BOMBER BASE",
+    "BUCKLEY BAY FRONTAGE",
+    "BUCKLEY BAY",
+    "BUENA VISTA",
+    "CAMPBELL RIVER",
+    "CENTRAL LAKE",
+    "CENTRAL LK",
+    "CHERRY CK",
+    "CHERRY CREEK",
+    "CHESTERMAN BEACH",
+    "COAL HARBOUR",
+    "COLLEGE CAMPUS",
+    "COMOX LAKE",
+    "COMOX LOGGING",
+    "COMOX VALLEY",
+    "COUGAR SMITH",
+    "COUNTRY PLACE",
+    "CROWN ISLAND",
+    "CROWN ISLE",
+    "DISCOVERY HARBOUR",
+    "DOLLY VARDEN",
+    "DOVE CREEK",
+    "FORBIDDEN PLATEAU",
+    "FOREST GROVE",
+    "GARTLEY POINT",
+    "GLACIER VIEW",
+    "GLEN EAGLE",
+    "GOLD RIVER",
+    "HARDY BAY",
+    "HORNE LAKE",
+    "INLAND ISLAND",
+    "IRON RIVER",
+    "JENSEN COVE",
+    "JENSENS BAY",
+    "KEITH WAGNER",
+    "KYE BAY",
+    "LACEY LAKE",
+    "LACY LAKE",
+    "LAKE TRAIL",
+    "LEA SMITH",
+    "LITTLE RIVER",
+    "LITTLE TRIBUNE BAY",
+    "LONE CONE",
+    "LONG BEACH PARK ACCESS",
+    "MACKENZIE BEACH",
+    "MAPLE RIDGE",
+    "MARTIN PARK",
+    "MCCOY LAKE",
+    "MCIVOR LAKE",
+    "MIRACLE BEACH",
+    "MOX VALLEY",
+    "MYSTERY BEACH",
+    "OYSTER GARDEN",
+    "OYSTER RIVER",
+    "PACIFIC RIM",
+    "PAPER MILL",
+    "PARK ACCESS",
+    "PIDGEON LAKE",
+    "PORT AGUSTA",
+    "PORT ALBERNI",
+    "PORT AUGUSTA",
+    "PT ALBERNI",
+    "RADAR HILL",
+    "RIVER BEND",
+    "ROCK BAY",
+    "ROY CREEK",
+    "SALMON POINT",
+    "SAND PINES",
+    "SEA LION",
+    "SHINGLE SPIT",
+    "SHIPS POINT",
+    "SHOEMAKER BAY",
+    "SHOOTING STAR",
+    "ST ANNS",
+    "ST JOHN'S POINT",
+    "ST JOHNS POINT",
+    "STIRLING ARM",
+    "TAYLOR ARM",
+    "THE POINT",
+    "TONQUIN PARK",
+    "TRIBUNE BAY PROVINCIAL",
+    "TSULQUATE IR",
+    "VALLEY VIEW",
+    "VILLAGE CONNECTER",
+    "WALKER FRONTAGE",
+    "WALTER GAGE",
+    "WILLIAMS BEACH",
+    "WILLIAMS BEACH",
+    "YEW WOOD"
+
+  };
+  
   private static final CodeSet CALL_LIST = new CodeSet(
+      "911 ANSWER",
       "ABANDONED 911",
       "ALARMS NON EMERGENCY",
       "ALARMS",
       "AVIATION INCIDENT",
+      "BEACH/BRUSH NON EMERG",
       "BEACH/BRUSH/MISC OUT EMERG",
       "BEACH/BRUSH/MISC OUT NON EMERG",
       "BEACH/BRUSH/MISC OUT",
