@@ -20,9 +20,14 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
     return "911metrodispatch@911metro.org";
   }
   
-  private static final String MAP_PTN_STR = "\\b(Baltic \\d{1,2}|Brandon[- ]\\d{1,2}|Colton City|Colton \\d{1,2}|Crooks \\d{1,2}|Dell Rapids \\d|Garretson \\d{1,2}|Lyons \\d{1,2}|Splitrock \\d{1,2}|Valley Springs \\d{1,2})\\b";
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
+  private static final String MAP_PTN_STR = "\\b(Baltic \\d{1,2}|Brandon[- ]\\d{1,2}|Colton City|Colton \\d{1,2}|Crooks \\d{1,2}|Dell Rapids \\d|Garretson \\d{1,2}|Hartford \\d{1,2}|Humboldt \\d{1,2}|Lyons \\d{1,2}|Quad [A-Z0-9]{4}(?:_\\d+)?|Renner \\d{1,2}|Splitrock \\d{1,2}|Valley Springs \\d{1,2})\\b";
   private static final Pattern CAD_MSG_PTN = 
-    Pattern.compile("(?:((?:[A-Z]{2} +)+))?(?:(\\d{3}) +)?(?:((?:[A-Z]{2} +)+))?(?:(Quad \\d{3,4}) - ([A-Z]{2})|(\\d{4}-\\d{8}(?:, *\\d{4}-\\d{8})*)|" + MAP_PTN_STR + ")? *\\b(.+?)(?: (C\\d))?(?: (\\d{4}-\\d{8}))?");
+    Pattern.compile("(?:((?:[A-Z]{1,2}\\d* +)+))?(?:(\\d{3}) +)?(?:((?:[A-Z]{2} +)+))?(?:(Quad [A-Z0-9]{3,4}) - ([A-Z]{2})|(\\d{4}-\\d{8}(?:, *\\d{4}-\\d{8})*)|" + MAP_PTN_STR + ")? *\\b(.+?)(?: (C\\d))?(?: (\\d{4}-\\d{8}))?");
   private static final Pattern STREET_NO_ADDR_PTN = Pattern.compile("\\d+ (?!ST\\b|AVE?\\b).*");
   private static final Pattern DISPATCH_MSG_PTN = 
       Pattern.compile("(.*?) +(\\d{4}-\\d{8})((?:  Dispatch received by unit ([^ ]+))+)");
@@ -65,13 +70,13 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
       String pad;
       if (sCityCode.equals("DR")) pt = sAddrFld.lastIndexOf(" DR ");
       if (pt >= 0) {
-        parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, 
+        parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ALLOW_DUAL_DIRECTIONS, 
                      sAddrFld.substring(0,pt).trim(), data);
         pad = getLeft();
         data.strCall = sAddrFld.substring(pt+4).trim();
         data.strCity = "DELL RAPIDS";
       } else {
-        parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_PAD_FIELD, sAddrFld, data);
+        parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ALLOW_DUAL_DIRECTIONS | FLAG_PAD_FIELD, sAddrFld, data);
         pad = getPadField();
         data.strCall = getLeft();
       }
@@ -126,7 +131,7 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
       String addrFld = match.group(1);
       data.strCallId = match.group(2);
       data.strUnit = match.group(3).replace("Dispatch received by ", "").trim();
-      parseAddress(StartType.START_ADDR, addrFld, data);
+      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ALLOW_DUAL_DIRECTIONS, addrFld, data);
       data.strCall = getLeft();
       return data.strCall.length() > 0;
     }
