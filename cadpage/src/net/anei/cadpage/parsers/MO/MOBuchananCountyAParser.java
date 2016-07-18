@@ -53,13 +53,11 @@ public class MOBuchananCountyAParser extends FieldProgramParser {
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
-      int pt = field.lastIndexOf(' ');
-      if (pt >= 0) {
-        String city = CITY_CODES.getProperty(field.substring(pt+1));
-        if (city != null) {
-          field = field.substring(0,pt).trim();
-          data.strCity = city;
-        }
+      Parser p = new Parser(field);
+      String city = CITY_CODES.getProperty(p.getLast(' '));
+      if (city != null) {
+        data.strCity = city;
+        field = p.get();
       }
       if (!field.equals("No Cross Streets Found")) {
         data.strCross = field;
@@ -82,7 +80,13 @@ public class MOBuchananCountyAParser extends FieldProgramParser {
   }
   
   private static Properties CITY_CODES = buildCodeTable(new String[]{
+      "AGEN", "AGENCY",
       "CH",   "ST JOSEPH",
+      "DEAR", "DEAR",          // Faucett
+      "DEKA", "DE KALB",
+      "EAST", "EASTON",
+      "FAUC", "FAUCETT",
+      "SANA", "SANA",
       "SJ",   "ST JOSEPH",
       "RUSH", "RUSHVILLE",
       "SUGA", "RUSHVILLE",
