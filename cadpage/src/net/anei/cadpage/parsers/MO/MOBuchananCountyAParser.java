@@ -79,17 +79,26 @@ public class MOBuchananCountyAParser extends FieldProgramParser {
     }
   }
   
+  @Override
+  public String adjustMapCity(String city) {
+    if (city.equalsIgnoreCase("LAKE CONTRARY")) city = "ST JOSEPH";
+    return city;
+  }
+  
   private static Properties CITY_CODES = buildCodeTable(new String[]{
       "AGEN", "AGENCY",
       "CH",   "ST JOSEPH",
-      "DEAR", "DEAR",          // Faucett
+      "DEAR", "DEARBORN",
       "DEKA", "DE KALB",
       "EAST", "EASTON",
+      "EDGE", "EDGERTON",
       "FAUC", "FAUCETT",
-      "SANA", "SANA",
+      "GOWE", "GOWER",
+      "LC",   "LAKE CONTRARY",
+      "SANA", "SAN ANTONIO",
       "SJ",   "ST JOSEPH",
       "RUSH", "RUSHVILLE",
-      "SUGA", "RUSHVILLE",
+      "SUGA", "RUSHVILLE"
   });
 
 }
