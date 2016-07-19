@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.OH;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -15,10 +18,20 @@ public class OHWayneCountyDParser extends FieldProgramParser {
     return "info@sundance-sys.com";
   }
   
+  private static final Pattern FLAG_PTN = Pattern.compile("\\*{2,}([-/ A-Z0-9]+)\\*{2,} *");
+  
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("From: WarCOGUser")) return false;
-    return parseFields(body.split("\n"), data);
+    String flag = "";
+    Matcher match = FLAG_PTN.matcher(body);
+    if (match.lookingAt()) {
+      flag = match.group(1);
+      body = body.substring(match.end());
+    }
+    if (!parseFields(body.split("\n"), data)) return false;
+    data.strCall = append(flag, " - ", data.strCall);
+    return true;
   }
 
 }
