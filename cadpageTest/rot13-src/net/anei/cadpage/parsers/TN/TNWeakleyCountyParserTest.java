@@ -137,10 +137,6 @@ choyvp pynff GAJrnxyrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:rzf",
         "PNYY:RZF CNGVRAG GENAFSRE",
         "NQQE:161 ZG CRYVN EQ",
-<<<<<<< HEAD
-=======
-        "NCG:ZNVA AHZORE", //qrec qrec
->>>>>>> d25c3a8ada1f1e38230f5a1d7a2e66bbc773a265
         "PVGL:ZNEGVA",
         "K:UNAAVATF YA / J CRNPU FG 14370");
 

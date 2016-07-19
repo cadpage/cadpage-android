@@ -373,6 +373,8 @@ public class DENewCastleCountyEParser extends FieldProgramParser {
       "CHESTER COUNTY",
       "DELAWARE CO",
       "DELAWARE COUNTY",
+        "ASTON",
+        "ASTON TWP",
         "BETHEL TWNSHP",
         "BETHEL TWP",
         "GARNET VALLEY",
