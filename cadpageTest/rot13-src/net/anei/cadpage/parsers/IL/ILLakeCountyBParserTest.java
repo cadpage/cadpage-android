@@ -200,7 +200,7 @@ choyvp pynff VYYnxrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:1441 1458",
         "CYNPR:OEVFGBY SVER QRCNEGZRAG",
         "NQQE:8301 198GU NI",
-        "ZNQQE:8301 198GU NIR",
+        "ZNQQE:8301 198GU NIR", //v pnag trg guvf gb znc evtug, ohg gur tcf qbrf abg cbvag gb guvf nqqerff.
         "VQ:AS:160000561",
         "CEV:1",
         "QNGR:06/28/2016",
@@ -236,7 +236,7 @@ choyvp pynff VYYnxrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:1",
         "QNGR:06/28/2016",
         "GVZR:01:52:27",
-        "TCF:+42.438990,-87.884680",
+        "TCF:+42.438990,-87.884680", //gurfr ner obgu fcbg ba gubhtu
         "VASB:Vasb: FHVPVQNY FHOW -");
 
     qbGrfg("G3",

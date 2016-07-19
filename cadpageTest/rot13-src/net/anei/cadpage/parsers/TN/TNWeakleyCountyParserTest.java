@@ -137,6 +137,10 @@ choyvp pynff GAJrnxyrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:rzf",
         "PNYY:RZF CNGVRAG GENAFSRE",
         "NQQE:161 ZG CRYVN EQ",
+<<<<<<< HEAD
+=======
+        "NCG:ZNVA AHZORE", //qrec qrec
+>>>>>>> d25c3a8ada1f1e38230f5a1d7a2e66bbc773a265
         "PVGL:ZNEGVA",
         "K:UNAAVATF YA / J CRNPU FG 14370");
 
@@ -149,7 +153,7 @@ choyvp pynff GAJrnxyrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:14368",
         "PNYY:FVPX CREFBA",
         "NQQE:8724 UJL 22",
-        "NCG:ONXREL & QRYV",
+        "NCG:ONXREL & QRYV", // ...
         "PVGL:QERFQRA",
         "K:RFA PUNATR (OEVQTRF) / RFA PUNATR");
 

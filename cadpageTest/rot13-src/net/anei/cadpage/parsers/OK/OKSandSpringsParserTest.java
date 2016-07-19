@@ -137,7 +137,7 @@ choyvp pynff BXFnaqFcevatfCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PBQR:6932",
         "PNYY:ZRQVPNY RZRETRAPL / RZFN",
-        "NQQE:216 F 71 J NIR",
+        "NQQE:216 F 71 J NIR",  //qbrf abg znc
         "VQ:SQ:16-002258",
         "QNGR:07/07/2016",
         "GVZR:15:10:52",
@@ -225,7 +225,7 @@ choyvp pynff BXFnaqFcevatfCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PBQR:6932",
         "PNYY:ZRQVPNY RZRETRAPL / RZFN",
-        "NQQE:905 A VAQHFGEVNY NIR",
+        "NQQE:905 A VAQHFGEVNY NIR", //brf abg znc
         "VQ:SQ:16-002254",
         "QNGR:07/07/2016",
         "GVZR:11:32:09",
