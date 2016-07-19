@@ -42,7 +42,16 @@ public class TNWeakleyCountyParser extends DispatchEmergitechParser {
       }
     }
     
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    
+    // They put all kinds of odd things in the apt field
+    if (data.strApt.equals("MAIN NUMBER")) {
+      data.strApt = "";
+    } else {
+      data.strApt = stripFieldStart(data.strApt, "APT ");
+      data.strApt = stripFieldStart(data.strApt, "UNIT ");
+    }
+    return true;
   }
   
   @Override
