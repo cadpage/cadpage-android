@@ -361,6 +361,11 @@ public class DispatchEmergitechParser extends FieldProgramParser {
       }
       super.parse(field, data);
     }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " INFO?";
+    }
   }
   
   private class BaseCrossField extends CrossField {
@@ -374,6 +379,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   private static final Pattern INFO_GPS_PTN1 = Pattern.compile("((?:LON:)?[-+]?\\d{1,3}\\.\\d{5,6}) *(?:LAT:)?([-+]?\\d{1,3}\\.\\d{5,6})(?:CO?F[:=]\\d+%?)?(?:CPF:[A-Z0-9]*)?(?:CALLBK=(\\(\\d{3}\\)\\d{3}-\\d{4}))?|CNF=\\d*UNC=\\d*");
   private static final Pattern INFO_GPS_PTN2 = Pattern.compile("ALT#=([- 0-9]+) X=([-+]?\\d+\\.\\d+) Y=([-+]?\\d+\\.\\d+) (?:AT&T )?[A-Z]+ *");
   private static final Pattern INFO_GPS_PTN3 = Pattern.compile("CF=\\d+%([-+]\\d{1,3}\\.\\d{6,})([-+]\\d{1,3}\\.\\d{6,})CO=[A-Z]+\n");
+  private static final Pattern INFO_GPS_PTN4 = Pattern.compile("CPF:[A-Z]+([-+]?\\d{1,3}\\.\\d{5,6})([-+]?\\d{1,3}\\.\\d{5,6})COF:\\d+COP:\\d+(?:CALLBK=(\\(740\\)\\d{3}-\\d{4}))?");
   private class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
@@ -395,6 +401,11 @@ public class DispatchEmergitechParser extends FieldProgramParser {
       } 
       
       else if ((match = INFO_GPS_PTN3.matcher(compField)).lookingAt()) {
+        found = true;
+        setGPSLoc(match.group(1)+','+match.group(2), data);
+      }
+      
+      else if ((match = INFO_GPS_PTN4.matcher(compField)).lookingAt()) {
         found = true;
         setGPSLoc(match.group(1)+','+match.group(2), data);
       }
