@@ -40,7 +40,7 @@ public class OHWayneCountyAParser extends SmartAddressParser {
       if (body.startsWith("Dispatch:")) return false;
       
       // Anything starting with CALL: should go to the D parser
-      if (body.startsWith("CALL:")) return false;
+      if (body.contains("CALL:")) return false;
       
       // We'll take it as long as caller identified this as a dispatch msg :(
       if (isPositiveId()) break; 
