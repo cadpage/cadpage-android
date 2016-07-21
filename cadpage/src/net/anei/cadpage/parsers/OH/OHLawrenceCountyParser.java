@@ -13,7 +13,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHLawrenceCountyParser extends DispatchEmergitechParser {
   
   public OHLawrenceCountyParser() {
-    super("alert:", -26, CITY_LIST, "LAWRENCE COUNTY", "OH");
+    super("alert:", -26, CITY_LIST, "LAWRENCE COUNTY", "OH", TrailAddrType.INFO);
   }
   
   @Override

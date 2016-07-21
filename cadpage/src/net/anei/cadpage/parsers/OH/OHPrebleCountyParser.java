@@ -5,7 +5,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHPrebleCountyParser extends DispatchEmergitechParser {
   
   public OHPrebleCountyParser() {
-    super("PREBLESHERIFF:", 0, CITY_LIST, "PREBLE COUNTY", "OH");
+    super("PREBLESHERIFF:", CITY_LIST, "PREBLE COUNTY", "OH", TrailAddrType.PLACE);
   }
   
   @Override
@@ -48,6 +48,9 @@ public class OHPrebleCountyParser extends DispatchEmergitechParser {
     "CAMPBELLSTOWN",
     "FAIRHAVEN",
     "MORNING SUN",
-    "NEW HOPE"
+    "NEW HOPE",
+    
+    // Butler County
+    "SOMERVILLE"
   };
 }

@@ -117,6 +117,10 @@ Pbagnpg: ZVGPURYY QNJXVAF <ucpyvarzna@tznvy.pbz>
 Fraqre: PNQ@cfsq.pbz
 PNQ:HAQRE PBAGEBY;4103 FGVEEHC QE; T ;NCG P
 
+Pbagnpg: ucpyvarzna <ucpyvarzna@nby.pbz>
+Fraqre: pnq@cfsq.pbz
+PNQ:HAQRE PBAGEBY;111 JVAQJNEQ YA; W\a
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Whyvna SQ
 Ybpngvba: Whyvna, AP, Havgrq Fgngrf
@@ -2552,6 +2556,17 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4103 FGVEEHC QE",
         "NCG:P",
         "PVGL:TERRAFOBEB");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgUcPyvarzna() {
+
+    qbGrfg("G1",
+        "PNQ:HAQRE PBAGEBY;111 JVAQJNEQ YA; W\a",
+        "PNYY:HAQRE PBAGEBY",
+        "NQQE:111 JVAQJNEQ YA",
+        "PVGL:WNZRFGBJA");
 
   }
 

@@ -10,16 +10,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class CTNewHavenCountyBParser extends SmartAddressParser {
   
-  private static final Pattern MARKER = Pattern.compile("^(\\d{10}) +");
-  private static final Pattern DATE_TIME_PTN = Pattern.compile(" +(\\d{6}) (\\d\\d:\\d\\d)(?:[ ,]|$)"); 
-  private static final Pattern TRUNC_DATE_TIME_PTN = Pattern.compile(" +\\d{6} [\\d:]+$| +\\d{1,6}$"); 
-  private static final Pattern PRI_MARKER = Pattern.compile(" - PRI (\\d) - ");
-  private static final Pattern ADDR_ST_MARKER = Pattern.compile("(.*) (\\d{5} .*)");
-  private static final Pattern ADDR_END_MARKER = Pattern.compile("Apt ?#:|(?=(?:Prem )?Map -)");
-  private static final Pattern MAP_PFX_PTN =Pattern.compile("^(?: *(?:Prem )?Map -*)+");
-  private static final Pattern MAP_PTN = Pattern.compile("^\\d{1,2}(?: *[A-Z]{2} *\\d{1,3})?\\b");
-  private static final Pattern MAP_EXTRA_PTN = Pattern.compile("\\(Prem Map (.*?)\\)");
-  
   private static final String FIELD_LIST = "ID CALL PRI ADDR APT PLACE CITY MAP X UNIT DATE TIME";
   
   private Properties cityCodes = null;
@@ -57,6 +47,17 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
   public String getFilter() {
     return "paging@nbpolicect.org,paging@mail.nbpolicect.org,paging@easthavenfire.com,pdpaging@farmington-ct.org";
   }
+  
+  private static final Pattern MARKER = Pattern.compile("^(\\d{10}) +");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile(" +(\\d{6}) (\\d\\d:\\d\\d)(?:[ ,]|$)"); 
+  private static final Pattern TRUNC_DATE_TIME_PTN = Pattern.compile(" +\\d{6} [\\d:]+$| +\\d{1,6}$"); 
+  private static final Pattern PRI_MARKER = Pattern.compile(" - PRI (\\d) - ");
+  private static final Pattern ADDR_ST_MARKER = Pattern.compile("(.*) (\\d{5} .*)");
+  private static final Pattern I_NN_HWY_PTN = Pattern.compile("\\b(I-?\\d+) +HWY\\b");
+  private static final Pattern ADDR_END_MARKER = Pattern.compile("Apt ?#:|(?=(?:Prem )?Map -)");
+  private static final Pattern MAP_PFX_PTN =Pattern.compile("^(?: *(?:Prem )?Map -*)+");
+  private static final Pattern MAP_PTN = Pattern.compile("^\\d{1,2}(?: *[A-Z]{2} *\\d{1,3})?\\b");
+  private static final Pattern MAP_EXTRA_PTN = Pattern.compile("\\(Prem Map (.*?)\\)");
   
   @Override
   public boolean parseMsg(String body, Data data) {
@@ -107,6 +108,9 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
       data.strCall = match.group(1).trim();
       body = match.group(2);
     }
+    
+    // Remove I-nn HWY construct that causes problems
+    body = I_NN_HWY_PTN.matcher(body).replaceAll("$1");
     
     int flags = FLAG_PAD_FIELD | FLAG_CROSS_FOLLOWS;
     if (st == StartType.START_CALL) flags |= FLAG_START_FLD_REQ;

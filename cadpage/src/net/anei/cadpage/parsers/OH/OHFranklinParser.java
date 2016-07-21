@@ -13,12 +13,11 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHFranklinParser extends DispatchEmergitechParser {
   
   private static final Pattern ID_DATE_TIME_PTN = Pattern.compile(" *(?:-(\\d{7}))?\\((\\d\\d?/\\d\\d?/\\d{4}) +(\\d\\d?:\\d\\d?:\\d\\d? [AP]M)\\)$");
-  private static final Pattern GPS_PTN = Pattern.compile("^X([-+]\\d+\\.\\d{4,}) +Y([-+]\\d+\\.\\d{4,})\\b");
   
   private static DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
   
   public OHFranklinParser() {
-    super("", 0, CITY_LIST, "FRANKLIN", "OH");
+    super(true, CITY_LIST, "FRANKLIN", "OH", TrailAddrType.INFO);
     addSpecialWords("ASHGROVE", "MISSION", "THOMAS");
   }
   
@@ -48,12 +47,6 @@ public class OHFranklinParser extends DispatchEmergitechParser {
     if (!super.parseMsg(body, data)) return false;
     
     data.strUnit = "";
-    
-    match = GPS_PTN.matcher(data.strSupp);
-    if (match.find()) {
-      setGPSLoc(match.group(1) + ' ' + match.group(2), data);
-      data.strSupp = data.strSupp.substring(match.end()).trim();
-    }
     return true;
   }
   
@@ -61,7 +54,12 @@ public class OHFranklinParser extends DispatchEmergitechParser {
   public String getProgram() {
     return super.getProgram().replace("INFO", "GPS INFO") + " ID DATE TIME";
   }
-  
+//  
+//  @Override
+//  protected int getExtraParseAddressFlags() {
+//    return FLAG_CROSS_FOLLOWS;
+//  }
+
   private static final String[] CITY_LIST = new String[]{
     "FRANKLIN",
     "FRANKLIN TWP",

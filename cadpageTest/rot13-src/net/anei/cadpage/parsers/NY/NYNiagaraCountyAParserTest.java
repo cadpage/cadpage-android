@@ -273,7 +273,9 @@ choyvp pynff ALAvntnenPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G11",
         ".... (GPNF) 2711 nyqre perrx a ncg 1 69 z qvs oernguvat nyf-c",
         "FEP:GPNF",
-        "PNYY:2711 nyqre perrx a ncg 1 69 z qvs oernguvat nyf-c");
+        "PNYY:69 z qvs oernguvat nyf-c",
+        "NQQE:2711 nyqre perrx a",
+        "NCG:1");
 
     qbGrfg("G12",
         ".... (GPNF) 2752 Fnhaqref Frggyrzrag Eq ba qevirjnl fvqr sbe 87lbs pbashfrq naq abg pbzcyr",
@@ -653,8 +655,7 @@ choyvp pynff ALAvntnenPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G40",
         "{(932201) APSP ENLLHERX} 23N8 BHG BS FREIVPR HAGVY SHEGURE ABGVPR (RKCRPG N SRJ QNLF)",
         "VQ:932201",
-        "PNYY:23N8 BHG BS FREIVPR HAGVY SHEGURE ABGVPR",
-        "VASB:(RKCRPG N SRJ QNLF)");
+        "PNYY:23N8 BHG BS FREIVPR HAGVY SHEGURE ABGVPR (RKCRPG N SRJ QNLF)");
 
     qbGrfg("G41",
         "{(932170) APSP ENLLHERX} RZF - 6109 FGENHFF EQ N - 64S SRYY / YVSG NFFVFG / OYF F / BCF 1 / 0913 032515",
@@ -935,8 +936,7 @@ choyvp pynff ALAvntnenPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G73",
         "{(921544) APSP NGNLYBE} 23R1 BBF GSA, 23R4 VA FREIVPR NG UNYY 2. 03/16 15:03",
         "VQ:921544",
-        "PNYY:23R1 BBF GSA",
-        "VASB:23R4 VA FREIVPR NG UNYY 2.",
+        "PNYY:23R1 BBF GSA, 23R4 VA FREIVPR NG UNYY 2.",
         "QNGR:03/16",
         "GVZR:15:03");
 
@@ -1022,8 +1022,7 @@ choyvp pynff ALAvntnenPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G84",
         "{(916105) APSP ZFGRRA} bgo sbe 57 lbz univat purfg cnvaf bhgfvqr",
         "VQ:916105",
-        "PNYY:bgo sbe 57",
-        "VASB:lbz univat purfg cnvaf bhgfvqr");
+        "PNYY:bgo sbe 57 lbz univat purfg cnvaf bhgfvqr");
 
     qbGrfg("G85",
         "{(915949) APSP WFRRSRYQ} 6140 EHUYZNA EQ NCG 5  13LBZ PURFG CNVA/ENCVQ URNEG ENGR   NYFC    BCF 1  3/11\a  2155UEF",
@@ -1265,6 +1264,13 @@ choyvp pynff ALAvntnenPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:NYFC");
 
     qbGrfg("G14",
+        "{(905540) APSP QTHEARGG} FGNAQOL PERJ ERDHRFGRQ NG BYPBGG SQ SBE N JBEXVAT FGEHPGHER SVER 3/4/15 @ 0258\aUEF",
+        "VQ:905540",
+        "PNYY:FGNAQOL PERJ ERDHRFGRQ NG BYPBGG SQ SBE N JBEXVAT FGEHPGHER SVER",
+        "QNGR:3/4/15",
+        "GVZR:02:58");
+
+    qbGrfg("G1",
         "{(905540) APSP QTHEARGG} FGNAQOL PERJ ERDHRFGRQ NG BYPBGG SQ SBE N JBEXVAT FGEHPGHER SVER 3/4/15 @ 0258\aUEF",
         "VQ:905540",
         "PNYY:FGNAQOL PERJ ERDHRFGRQ NG BYPBGG SQ SBE N JBEXVAT FGEHPGHER SVER",

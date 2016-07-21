@@ -14,7 +14,7 @@ public class TNWarrenCountyParser extends DispatchEmergitechParser {
   private static final Pattern GEN_ALERT_PTN = Pattern.compile("WarrenCo911:\\[(\\d+)\\]--? *");
 
   public TNWarrenCountyParser() {
-    super("WarrenCo911:", true, 0, CITY_LIST, "WARREN COUNTY", "TN");
+    super("WarrenCo911:", true, CITY_LIST, "WARREN COUNTY", "TN");
   }
   
   @Override

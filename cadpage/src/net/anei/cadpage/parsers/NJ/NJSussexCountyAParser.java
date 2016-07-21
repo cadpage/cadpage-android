@@ -72,32 +72,36 @@ public class NJSussexCountyAParser extends SmartAddressParser {
       data.strCity = data.defCity = data.defState = "";
     }
     if (data.strAddress.equals("OUT OF TOWN")) {
-      String defCity = data.strCity;
-      data.strCity = "";
-      data.strAddress = "";
       sInfo = stripFieldStart(sInfo, "*");
       sInfo = END_STAR_PTN.matcher(sInfo).replaceFirst("$1 *");
-      parseAddress(StartType.START_OTHER, FLAG_IGNORE_AT, sInfo, data);
-      data.strCall = append(data.strCall, " - ", getStart());
-      data.strSupp = getLeft();
-      if (data.strAddress.length() == 0) data.strAddress = "OUT OF TOWN";
-      if (data.strCity.length() == 0) {
-        if (data.strSupp.startsWith("IN ")) {
-          Parser p = new Parser(data.strSupp.substring(3).trim());
-          data.strCity = p.get(' ');
-          if (data.strCity.length() > 0) {
-            data.strSupp = p.get();
+      Result res = parseAddress(StartType.START_OTHER, FLAG_IGNORE_AT, sInfo);
+      if (res.isValid()) {
+        String defCity = data.strCity;
+        data.strCity = "";
+        data.strAddress = "";
+        res.getData(data);
+        data.strCall = append(data.strCall, " - ", res.getStart());
+        data.strSupp = res.getLeft();
+        if (data.strCity.length() == 0) {
+          if (data.strSupp.startsWith("IN ")) {
+            Parser p = new Parser(data.strSupp.substring(3).trim());
+            data.strCity = p.get(' ');
+            if (data.strCity.length() > 0) {
+              data.strSupp = p.get();
+            }
           }
-        }
-        else if (data.strSupp.startsWith("(")) {
-          pt = data.strSupp.indexOf(')');
-          if (pt >= 0) {
-            data.strCity = data.strSupp.substring(1,pt).trim();
-            data.strSupp = data.strSupp.substring(pt+1).trim();
+          else if (data.strSupp.startsWith("(")) {
+            pt = data.strSupp.indexOf(')');
+            if (pt >= 0) {
+              data.strCity = data.strSupp.substring(1,pt).trim();
+              data.strSupp = data.strSupp.substring(pt+1).trim();
+            }
           }
+          if (data.strCity.length() == 0) data.strCity = defCity;
+          if (data.strCity.length() == 0) data.defCity = data.defState = "";
         }
-        if (data.strCity.length() == 0) data.strCity = defCity;
-        if (data.strCity.length() == 0) data.defCity = data.defState = "";
+      } else {
+        data.strSupp = sInfo;
       }
     } else {
       data.strSupp = sInfo;

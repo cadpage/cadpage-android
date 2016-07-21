@@ -13,7 +13,7 @@ public class NYNiagaraCountyAParser extends FieldProgramParser {
   public NYNiagaraCountyAParser() {
     super(CITY_LIST, "NIAGARA COUNTY", "NY", 
           "CALL? ADDR! INFO+");
-    removeWords("CORD");
+    removeWords("CORD", "UNIT");
   }
   
   @Override

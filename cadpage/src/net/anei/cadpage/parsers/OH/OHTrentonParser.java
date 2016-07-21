@@ -15,7 +15,7 @@ public class OHTrentonParser extends DispatchEmergitechParser {
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa"); 
   
   public OHTrentonParser() {
-    super("", 0, CITY_LIST, "TRENTON", "OH");
+    super("", CITY_LIST, "TRENTON", "OH");
   }
 
   @Override

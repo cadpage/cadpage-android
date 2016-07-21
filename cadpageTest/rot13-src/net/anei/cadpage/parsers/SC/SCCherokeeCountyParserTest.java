@@ -11197,7 +11197,8 @@ choyvp pynff FPPurebxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Pbebare",
         "VQ:2015:000077",
         "PNYY:QBN",
-        "NQQE:FCNEGNAOHET ERTVBANY");
+        "CYNPR:ERTVBANY",
+        "PVGL:FCNEGNAOHET");
 
     qbGrfg("G78",
         "{Abgvsvpngvba} ﻿<UGZY><obql>Pbebare:2015:000076<oe />Raebhgr<oe />QBN<oe />122 PBNPU UVYY QE, Tnssarl (ZREEVSVRYQ PG/SVYGRE CYNAG EQ)</obql></UGZY>",
@@ -11332,7 +11333,8 @@ choyvp pynff FPPurebxrrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:Pbebare",
         "VQ:2015:000064",
         "PNYY:QBN",
-        "NQQE:FCNEGNAOHET ERT");
+        "PVGL:FCNEGNAOHET",
+        "CYNPR:ERT");
 
     qbGrfg("G94",
         "{Abgvsvpngvba} ﻿<UGZY><obql>Pbebare:2015:000062<oe />Raebhgr<oe />QBN<oe />108 ZNFFRL QE, Fcnegnaohet (/JUVGR CYNVAF EQ)</obql></UGZY>",

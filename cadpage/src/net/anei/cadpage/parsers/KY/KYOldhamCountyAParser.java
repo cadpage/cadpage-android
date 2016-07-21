@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class KYOldhamCountyAParser extends DispatchEmergitechParser {
   
   public KYOldhamCountyAParser() {
-    super("DISPATCH:", 0, CITY_LIST, "OLDHAM COUNTY", "KY");
+    super("DISPATCH:", CITY_LIST, "OLDHAM COUNTY", "KY");
     addSpecialWords("COLTON");
   }
   

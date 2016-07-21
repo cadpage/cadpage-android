@@ -339,7 +339,8 @@ choyvp pynff BUZnubavatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver Qrcnegzrag Pnyy",
         "NQQE:92 BUYGBJA EQ",
         "PVGL:NHFGVAGBJA GJC",
-        "K:A PNASVRYQ AVYRF EQ / ABEDHRFG OY grfg grfg g rfg");
+        "K:A PNASVRYQ AVYRF EQ / ABEDHRFG OY",
+        "VASB:grfg grfg g rfg");
 
     qbGrfg("G16",
         "[SL0821]- ANGHER: S86 YBPNGVBA: 5461 ZNUBAVAT NI NHFGVA GBJA GJC ORGJRRA WNIVG PG / A PNASVRYQ AVYRF EQ -SL0821",
@@ -366,7 +367,7 @@ choyvp pynff BUZnubavatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny Pnyy Jvgu NSQ Erfcbafr",
         "NQQE:487 SBERFG UVYY QE",
         "PVGL:NHFGVAGBJA GJC",
-        "K:QNLGBAN QE / OHEXRL EQ ANGHER: S31 YBPNGVBA: 487 SBERFG UVYY QE NHFGVAGBJA GJC ORGJRRA: QNLGBAN QE / OHEXRL EQ");
+        "K:QNLGBAN QE / OHEXRL EQ");
 
     qbGrfg("G19",
         "[WG7564]- ANGHER: S31 YBPNGVBA: 55 F RQTRUVYY NI NHFGVA GBJA GJC ORGJRRA ZNUBAVAT NI / CBGBZNP NI PBZZRAGF: 37 LRNE BYQ SRZNYR F/3 -WG7564",
@@ -542,7 +543,8 @@ choyvp pynff BUZnubavatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Sver Qrcnegzrag Pnyy",
         "NQQE:384 A PNASVRYQ AVYRF EQ",
         "PVGL:NHFGVAGBJA GJC",
-        "K:ERQ NCCYR QE / QHAYNC EQ grfg grfg grfg");
+        "K:ERQ NCCYR QE / QHAYNC EQ",
+        "VASB:grfg grfg grfg");
 
     qbGrfg("G39",
         "[WC2760]- ANGHER: S31 YBPNGVBA: 131 A XVZOREYL NI FHVGR : 95 NHFGVAGBJA GJC ORGJRRA NETBAAR QE / ABEDHRFG OY -WC2760",
@@ -622,7 +624,7 @@ choyvp pynff BUZnubavatPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Zrqvpny Pnyy J/B NSQ Erfcbafr",
         "NQQE:4503 QRRE PERRX PG",
         "PVGL:NHFGVAGBJA GJC",
-        "K:F.ENPPBBA EQ / JNFUVATGBA FDHNER QE");
+        "K:F ENPPBBA EQ / JNFUVATGBA FDHNER QE");
 
     qbGrfg("G48",
         "[EX6562]- ANGHER: S31 YBPNGVBA: 5431.5 FRIRAGL FVK QE N HFGVAGBJA GJC ORGJRRA QRNQ RAQ / A PNASVRYQ AVYRF EQ -EX6562",

@@ -8,8 +8,10 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHAthensCountyParser extends DispatchEmergitechParser {
   
   public OHAthensCountyParser() {
-    super("911_Dispatch:", 73, CITY_LIST, "ATHENS COUNTY", "OH");
+    super("911_Dispatch:", 60, CITY_LIST, "ATHENS COUNTY", "OH", TrailAddrType.INFO);
     addSpecialWords("COLUMBUS");
+    setupMultiWordStreets("LIGHTFRITZ RIDGE");
+    setupSpecialStreets("LIGHTFRITZ RIDGE");
   }
   
   @Override

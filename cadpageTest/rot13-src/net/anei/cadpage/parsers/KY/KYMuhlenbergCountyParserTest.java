@@ -49,7 +49,8 @@ choyvp pynff XLZhuyraoretPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER-OEHFU/SVRYQ/JBBQF",
         "NQQE:420 BNXYRL YA",  // Abg znccvat
         "PVGL:CBJQREYL",
-        "K:THL FG / QRNQ RAQ NPPRFF OL THL FG");
+        "K:THL FG / QRNQ RAQ",
+        "VASB:NPPRFF OL THL FG");
 
     qbGrfg("G2",
         "PQS911:[0268]- ANGHER: JERPX-JVGU AB VAWHEVRF YBPNGVBA: 2233 J RIRE YL OEBGUREF OYIQ CBJQREYL ORGJRRA QBFF QE / PBCCRE PERRX QE",

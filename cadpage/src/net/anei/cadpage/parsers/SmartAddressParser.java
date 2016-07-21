@@ -1,4 +1,3 @@
-
 package net.anei.cadpage.parsers;
 
 import java.util.ArrayList;
@@ -386,6 +385,8 @@ public abstract class SmartAddressParser extends MsgParser {
 
   private static final long ID_SPECIAL_STREET_REV_END = 0x800000000000L;
   
+  private static final long ID_YEAR_OLD_NOT_ADDRESS = 0x1000000000000L;
+  
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[A-Z]?[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
   // Permanent parsing  flags
@@ -554,6 +555,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_FLOOR, "FLOOR", "FLR", "FL", "BLDG");
     setupDictionary(ID_STREET_NAME_PREFIX, "HIDDEN", "LAKE", "MT", "MOUNT", "SUNKEN");
     setupDictionary(ID_NOT_ADDRESS, "ENTRAPED", "ENTRAPPED", "YOM", "YOF", "YO");
+    setupDictionary(ID_YEAR_OLD_NOT_ADDRESS, "YOM", "YOF", "YO", "Y/O");
     setupDictionary(ID_SINGLE_WORD_ROAD, "TURNPIKE");
     setupDictionary(ID_BLOCK, "BLK", "BLOCK");
     setupDictionary(ID_NUMBER_SUFFIX, "ND", "RD", "TH");
@@ -1489,6 +1491,10 @@ public abstract class SmartAddressParser extends MsgParser {
                     }
                   }
                   
+                  // Last chance, see if this is an identified special street name
+                  sEnd = findSpecialRoadEnd(sAddr+1);
+                  if (sEnd > 0) break;
+                  
                   // Otherwise, this has been confirmed as a legitimate numbered road suffix following
                   // the house number which is a show stopper
                   return false;
@@ -2001,100 +2007,131 @@ public abstract class SmartAddressParser extends MsgParser {
     result.reset(startAddress);
     boolean crossOnly = isFlagSet(FLAG_ONLY_CROSS);
     boolean padField = isFlagSet(FLAG_PAD_FIELD | FLAG_PAD_FIELD_EXCL_CITY);
-    boolean parseToCity = false;
     
-    // Total failure, assign the entire field to either the call description
-    // or the address
-    int endAddr = result.tokens.length;
-    result.endAll = endAddr;
+    // Determine tentative start and end of address information
+    int stAddr = startAddress;
+    int endAddr = padField || !isFlagSet(FLAG_ANCHOR_END) ? -1 : result.tokens.length;
+
+    // Make a pass through the token string looking for interesting things
+    // (apt indicatres, cross street indicators, and invalid address tokens
+    int iApt = -1;
+    int iAptSt = -1;
+    int iAptEnd = -1;
     
-    // Check for any invalid tokens.  If we find any they mark the end of any
-    // possible address
-    if (!isFlagSet(FLAG_ANCHOR_END) || padField) {
-      int st = (startAddress >= 0 ? startAddress : 0);
-      for (int ndx = st; ndx < endAddr; ndx++) {
-        if (isType(ndx, ID_NOT_ADDRESS)) {
-          endAddr = ndx;
-          break;
-        }
-      }
-      result.endAll = endAddr;
-      if (padField && endAddr < result.tokens.length){
-        int tmpNdx = endAddr;
-        if (isComma(tmpNdx)) tmpNdx++;
-        parsePadToCity(tmpNdx, result);
-        parseToCity = true;
-      }
-    }
-    
-    if (!crossOnly) { 
+    int tmp = stAddr < 0 ? 0 : stAddr;
+    for (int ndx = tmp; ndx < tokens.length; ndx++) {
       
-      // If there is a cross street indicator, use it to set up the cross street
-      for (int ndx = 0; ndx<endAddr; ndx++) {
-        if (isType(ndx, ID_CROSS_STREET)) {
-          endAddr = ndx;
-          findCrossStreetEnd(ndx+1, true, result);
+      // Mark the location and type of the first apartment indicator
+      // Not a hard limit yet, just want to know where the first one is.
+      if (iApt < 0) {
+        if (isType(ndx, ID_APT)) {
+          iApt = ndx;
+          iAptSt = ndx+1;
+          iAptEnd = ndx+2;
+        }
+        else if (isType(ndx, ID_FLOOR)) {
+          iApt = iAptSt = ndx;
+          iAptEnd = ndx+2;
+        }
+        else if (isAptToken(tokens[ndx], false)) {
+          iApt = iAptSt = ndx;
+          iAptEnd = ndx+1;
         }
       }
       
-      // We are really getting desperate, but see if there is a valid house number
-      // in here, and if there is set the start address to it
-      int stIndex = (isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0);
-      if (result.addressField == null && startAddress < 0) {
-        for (int ndx = stIndex; ndx < endAddr-1; ndx++) {
+      // Stuff we only look for in  real address searches 
+      if (!crossOnly) {
+        
+        // If we have not yet identified the start address point, see if
+        // this looks like a house number, and if it does set the start
+        // address point here.  Oh, and wipe out any previously found
+        // apt indicators
+        if (stAddr < 0 && (ndx > 0 || !isFlagSet(FLAG_START_FLD_REQ)) && ndx < tokens.length-1) {
           if (isHouseNumber(ndx) && !isType(ndx+1, ID_NOT_ADDRESS)) {
             if (ndx == 0 || ! isType(ndx-1, ID_RELATION)) {
-              result.addressField = new FieldSpec(ndx, endAddr);
-              endAddr = ndx;
-              break;
+              stAddr = ndx;
+              iApt = -1;
             }
           }
         }
-      }
-    }
-    
-    // If we still don't have an address, see if this is an address or
-    // skip start type.  If so, assign all of the remaining line as an address
-    if (result.addressField == null) {
-      if (startAddress >= 0) {
-        result.addressField =  new FieldSpec(startAddress, endAddr);
-        endAddr = startAddress;
-      }
-    }
 
-    // However we managed to come up with an address, see if we can pick out a city
-    // at the end of it.  If that fails, see if last token is an apt
-    if (!crossOnly && !parseToCity && result.addressField != null) {
-      int sAddr = result.addressField.fldStart;
-      int reserve = 1;
-      if (isHouseNumber(sAddr)) reserve++;
-      if (!parseAddressToCity(sAddr, sAddr+reserve, result)) {
-        int tmpNdx = result.addressField.fldEnd-1;
-        if (tmpNdx > 0) {
-          if (isType(tmpNdx-1,ID_APT)) {
-            result.aptField = new FieldSpec(tmpNdx, tmpNdx+1);
-            result.addressField.fldEnd = tmpNdx-1;
-          }
-          else if (isType(tmpNdx-1, ID_FLOOR)) {
-            result.aptField = new FieldSpec(tmpNdx-1, tmpNdx+1);
-            result.addressField.fldEnd = tmpNdx-1;
-          }
-          else if (isAptToken(tokens[tmpNdx], false)) {
-            result.aptToken = true;
-            result.aptField = new FieldSpec(tmpNdx, tmpNdx+1);
-            result.addressField.fldEnd = tmpNdx;
-          }
+        // A cross street indicator, marks a hard end of address
+        if (isType(ndx, ID_CROSS_STREET)) {
+          endAddr = ndx;
+          findCrossStreetEnd(ndx+1, true, result);
+          break;
         }
       }
+
+      // An invalid address token works for all address searches.  It only 
+      // kicks in after we have identified an address start and if the end 
+      // address is not locked.  In which case it marks the end of the address
+      // info
+      if (stAddr >= 0 && endAddr < 0 && isType(ndx, ID_NOT_ADDRESS)) {
+        
+        // A YO type of not address also takes out a preceding numeric field
+        if (isType(ndx, ID_YEAR_OLD_NOT_ADDRESS) && ndx > stAddr && isType(ndx-1, ID_NUMBER)) ndx--;
+        endAddr = ndx;
+        break;
+      }
     }
     
-    // If we don't have an address, but are parsing to end of field,  see if we can
-    // find a city at end of field
-    else if (isFlagSet(FLAG_ANCHOR_END) && result.startField != null) {
-      if (parseStartToCity(0, true, result)) endAddr = result.startField.fldEnd;
+    // If we still haven't found the end of the address, see if we 
+    // have found apt marker, if we have, set the end address 2 past
+    // the apt marker.  We will get the actual apt field later.
+    if (endAddr < 0 && iApt >= 0 && iAptEnd <= tokens.length) {
+      result.endAll = endAddr = iAptEnd;
     }
     
-    if (result.startField != null && startAddress < 0) result.startField.end(endAddr);
+    // If we found and end of the address, and are looking for
+    // a pad field, try to extend the pad field out to the city
+    // name or EOL
+    if (endAddr >= 0 && padField && result.endAll < tokens.length) {
+      int tmpNdx = result.endAll;
+      if (isComma(tmpNdx)) tmpNdx++;
+      parsePadToCity(tmpNdx, result);
+    }
+    
+    // If we still haven't found a recognizable end address, take everything
+    if (endAddr < 0) {
+      result.endAll = endAddr = tokens.length;
+    }
+    
+    // However we identified the end of the address, see if it contains an
+    // apt indicator, and if it does, use that to set up the apartment field
+    if (iApt >= 0 && iAptEnd <= endAddr) {
+      if (iApt == iAptSt && iAptEnd == iApt+1) result.aptToken = true;
+      result.aptField = new FieldSpec(iAptSt, endAddr);
+      endAddr = iApt;
+    }
+    
+    // No luck picking up a start of address, time to give up 
+    // and assign everything to the start field
+    if (stAddr < 0) {
+      
+      if (result.startField != null) {
+        
+        // But first, if we are parsing to the end of the field, see if we can
+        // find a city at end of field
+        if (isFlagSet(FLAG_ANCHOR_END) && endAddr == tokens.length) {
+          int st = (isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0);
+          if (parseStartToCity(st, true, result)) return;
+        }
+        
+        result.startField.end(endAddr);
+        return;
+      }
+    }
+    
+    // If we did just identify a start address (beyond accepting the initial
+    // one, see if we can parse it to a city name.
+    if (stAddr > startAddress) {
+      if (result.startField != null) result.startField.end(stAddr);
+      if (parseAddressToCity(stAddr, stAddr+2, result)) return;
+    }
+    
+    // OK, we have an address
+    result.addressField = new FieldSpec(stAddr, endAddr);
   }
   
   /**
@@ -2611,7 +2648,7 @@ public abstract class SmartAddressParser extends MsgParser {
 
   /**
    * Locate end of cross street field
-   * @param sCross start of prospectivce cross streeet information
+   * @param sCross start of prospective cross street information
    * @param force true if cross street information is required
    * @param result parse results
    */
@@ -2633,8 +2670,17 @@ public abstract class SmartAddressParser extends MsgParser {
       ndx = tmp;
     }
     
-    // If we did not find anything, grab everything that is left
-    if (force && sEnd <= sCross) sEnd = tokens.length;
+    // If we did not find anything, grab everything that we can
+    // up to the first invalid address token
+    if (force && sEnd <= sCross) {
+      sEnd = tokens.length;
+      for (int ii = sCross; ii<tokens.length; ii++) {
+        if (isType(ii, ID_NOT_ADDRESS)) {
+          sEnd = ii;
+          break;
+        }
+      }
+    }
     
     // Save the cross street location if found
     if (sEnd > sCross) {
@@ -2727,9 +2773,9 @@ public abstract class SmartAddressParser extends MsgParser {
       // position
       int origStart = start;
       while (isType(start, ID_OPT_ROAD_PFX)) start++;
-    
-    // If we are out of tokens, the answer is no
-    if (start >= tokens.length) return -1; 
+      
+      // If we are out of tokens, the answer is no
+      if (start >= tokens.length) return -1; 
       
       // Compute the failure index that we return if we fail to find a proper road end.
       // If we are processing cross streets, check for a special cross street name and
@@ -2997,7 +3043,7 @@ public abstract class SmartAddressParser extends MsgParser {
   }
   
   // Sequence containing slashes that need to be protected
-  private static final Pattern PROTECTED_TOKEN_PTN = Pattern.compile("\\bC/S:|\\b(?:\\d/\\d|AT&T|C/S)\\b");
+  private static final Pattern PROTECTED_TOKEN_PTN = Pattern.compile("\\bC/S:|\\b(?:\\d/\\d|AT&T|C/S|Y/O)\\b");
   
   // Token delimiter pattern should find field breaks
   // 1) for any sequence of one or more blanks
@@ -3350,6 +3396,7 @@ public abstract class SmartAddressParser extends MsgParser {
   // Determine if token at index is a standalone apartment number
   private boolean isAptToken(int ndx) {
     if (ndx >= tokens.length) return false;
+    if (isType(ndx+1, ID_YEAR_OLD_NOT_ADDRESS)) return false;
     return isAptToken(tokens[ndx], !isFlagSet(FLAG_NO_IMPLIED_APT));
   }
   

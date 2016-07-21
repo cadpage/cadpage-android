@@ -11,16 +11,90 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchEmergitechParser extends FieldProgramParser {
   
-  private static final String UNIT_PTN = "\\[([-A-Z0-9]+)\\]-+ ?";
+  public enum TrailAddrType {
+    NONE,
+    NAME,
+    PLACE,
+    INFO,
+    PLACE_INFO(true);
+    
+    private boolean special;
+    
+    TrailAddrType() {
+      this (false);
+    }
+    
+    TrailAddrType(boolean special) {
+      this.special = special;
+    }
+    
+    public boolean isSpecial() {
+      return special;
+    }
+    
+    public TrailField getTrailField() {
+      switch (this) {
+      
+      case NONE: return null;
+      
+      case NAME: 
+        return new TrailField(){
+          @Override
+          public void parse(String field, Data data) {
+            data.strName = field;
+          }
+          @Override
+          public String getFieldNames() {
+            return "NAME";
+          }
+        };
+      
+      case PLACE: 
+      case PLACE_INFO:
+        return new TrailField(){
+          @Override
+          public void parse(String field, Data data) {
+            data.strPlace = append(data.strPlace, " - ", field);
+          }
+          @Override
+          public String getFieldNames() {
+            return "PLACE";
+          }
+        };
+        
+      case INFO:
+        return new TrailField(){
+          @Override
+          public void parse(String field, Data data) {
+            data.strSupp = field;
+          }
+          @Override
+          public String getFieldNames() {
+            return "INFO";
+          }
+        };
+      }
+      return null;
+    }
+  }
+  
+  private interface TrailField {
+    void parse(String field, Data data);
+    String getFieldNames();
+  }
+  
+  private static final Pattern UNIT_PTN = Pattern.compile("\\[([-A-Z0-9]+)\\]-+ ?");
   private static final Pattern ID_PTN = Pattern.compile("Call: *([- 0-9]+)\\b");
   private static final Pattern HOUSE_DECIMAL_PTN = Pattern.compile("\\b(\\d+)\\.0{1,2}(?= )");
-  private static final Pattern COMMENTS_PTN = Pattern.compile("/?C ?O ?M ?M ?E ?N ?T ?S ?:");
+  private static final Pattern COMMENTS_PTN = Pattern.compile("\\bC ?O ?M ?M ?E ?N ?T ?S ?:");
   private static final Pattern BETWEEN_PTN = Pattern.compile("\\bB ?E ?T ?W ?E ?E ?N\\b");
   
   private String[] prefixList = null;
-  private Pattern markerPattern;
-  private boolean fixSubject;
-  int[] extraSpacePosList;
+  private int[] extraSpacePosList;
+  private boolean optUnit;
+  private boolean special;
+  private TrailField trailField;
+  
   private Set<String> specialWordSet = new HashSet<String>(Arrays.asList(new String[]{
       "APPLE",
       "EAST",
@@ -34,6 +108,45 @@ public class DispatchEmergitechParser extends FieldProgramParser {
       "WEST"
   }));
   
+  /** 
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   */
+  public DispatchEmergitechParser(String[] cityList, String defCity, String defState) {
+    this((String[])null, false, (int[])null, cityList, defCity, defState, null);
+  }
+  
+  /** 
+   * @param optUnit true if unit information is optional
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   */
+  public DispatchEmergitechParser(boolean optUnit, String[] cityList, String defCity, String defState) {
+    this((String[])null, optUnit, (int[])null, cityList, defCity, defState, null);
+  }
+  
+  /** 
+   * @param optUnit true if unit information is optional
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   * @param taType trailing address type
+   */
+  public DispatchEmergitechParser(boolean optUnit, String[] cityList, String defCity, String defState, TrailAddrType taType) {
+    this((String[])null, optUnit, (int[])null, cityList, defCity, defState, taType);
+  }
+  
+  /** 
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   * @param flags parser flags
+   */
+  public DispatchEmergitechParser(String[] cityList, String defCity, String defState, TrailAddrType taType) {
+    this((String[])null, false, (int[])null, cityList, defCity, defState, taType);
+  }
   
   /** 
    * @param extraSpacePos Single extra blank column<br/>
@@ -44,13 +157,27 @@ public class DispatchEmergitechParser extends FieldProgramParser {
    * @param defState default state
    */
   public DispatchEmergitechParser(int extraSpacePos, String[] cityList, String defCity, String defState) {
-    this((String)null, new int[]{extraSpacePos}, cityList, defCity, defState);
+    this((String[])null, false, new int[]{extraSpacePos}, cityList, defCity, defState, null);
   }
   
   /** 
-   * @param prefixList List of possible prefix values that must be found at start of text.  The
-   * first is the primary value index offsets will be calculated with.  Any others are considered
-   * earlier version that will be replaced with the primary value before the space adjustment is made
+   * @param extraSpacePos Single extra blank column<br/>
+   * Positive values of offsets from beginning of message<br/>
+   * Negative values are offsets from beginning of address field
+   * @param optUnit true if unit is optional 
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   */
+  public DispatchEmergitechParser(boolean optUnit, int extraSpacePos, String[] cityList, String defCity, String defState) {
+    this((String[])null, optUnit, new int[]{extraSpacePos}, cityList, defCity, defState, null);
+  }
+ 
+  /** 
+   * Constructor
+   * @param prefix Prefix that must be found at beginning of text page<br/>
+   * An empty string means that no prefix value is expected<br/>
+   * A null string means no prefix value is expected, and the following unit field is optional
    * @param extraSpacePos Single extra blank column<br/>
    * Positive values of offsets from beginning of message<br/>
    * Negative values are offsets from beginning of address field 
@@ -58,9 +185,9 @@ public class DispatchEmergitechParser extends FieldProgramParser {
    * @param defCity default city
    * @param defState default state
    */
-  public DispatchEmergitechParser(String[] prefixList, int extraSpacePos, 
-                                  String[] cityList, String defCity, String defState) {
-    this(prefixList, false, new int[]{extraSpacePos}, cityList, defCity, defState);
+  public DispatchEmergitechParser(String prefix, int extraSpacePos,
+                                   String[] cityList, String defCity, String defState) {
+    this(prefix, new int[]{extraSpacePos}, cityList, defCity, defState, null);
   }
   
   /** 
@@ -76,26 +203,9 @@ public class DispatchEmergitechParser extends FieldProgramParser {
    * @param defState default state
    */
   public DispatchEmergitechParser(String prefix, int extraSpacePos,
-                                   String[] cityList, String defCity, String defState) {
-    this(prefix, new int[]{extraSpacePos}, cityList, defCity, defState);
-  }
-  
-  /** 
-   * Constructor
-   * @param prefix Prefix that must be found at beginning of text page<br/>
-   * An empty string means that no prefix value is expected<br/>
-   * A null string means no prefix value is expected, and the following unit field is optional
-   * @param optUnit true if unit is optional
-   * @param extraSpacePos Single extra blank column<br/>
-   * Positive values of offsets from beginning of message<br/>
-   * Negative values are offsets from beginning of address field 
-   * @param cityList list of cities
-   * @param defCity default city
-   * @param defState default state
-   */
-  public DispatchEmergitechParser(String prefix, boolean optUnit, int extraSpacePos,
-                                   String[] cityList, String defCity, String defState) {
-    this(prefix, optUnit, new int[]{extraSpacePos}, cityList, defCity, defState);
+                                   String[] cityList, String defCity, String defState,
+                                   TrailAddrType taType) {
+    this(prefix, new int[]{extraSpacePos}, cityList, defCity, defState, taType);
   }
   
   /** 
@@ -115,7 +225,77 @@ public class DispatchEmergitechParser extends FieldProgramParser {
    */
   public DispatchEmergitechParser(String prefix, int extraSpacePos1, int extraSpacePos2, 
                                    String[] cityList, String defCity, String defState) {
-    this(prefix, new int[]{extraSpacePos1, extraSpacePos2}, cityList, defCity, defState);
+    this(prefix, new int[]{extraSpacePos1, extraSpacePos2}, cityList, defCity, defState, null);
+  }
+  
+  /** 
+   * Constructor
+   * @param prefix Prefix that must be found at beginning of text page<br/>
+   * An empty string means that no prefix value is expected<br/>
+   * A null string means no prefix value is expected, and the following unit field is optional
+   * @param extraSpacePosList Array of extra blank columns<br/>
+   * Positive values of offsets from beginning of message<br/>
+   * Negative values are offsets from beginning of address field 
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   */
+  public DispatchEmergitechParser(String prefix, String[] cityList, String defCity, String defState) {
+
+    // An empty prefix just means no prefix is expected
+    // a null prefix means no prefix is expected and the entire unit block is optional
+    this(prefix, null, cityList, defCity, defState, null);
+  }
+  
+  /** 
+   * Constructor
+   * @param prefix Prefix that must be found at beginning of text page<br/>
+   * An empty string means that no prefix value is expected<br/>
+   * A null string means no prefix value is expected, and the following unit field is optional
+   * @param extraSpacePosList Array of extra blank columns<br/>
+   * Positive values of offsets from beginning of message<br/>
+   * Negative values are offsets from beginning of address field 
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   * @param taType trailing address field type
+   */
+  public DispatchEmergitechParser(String prefix, String[] cityList, String defCity, String defState, TrailAddrType taType) {
+
+    // An empty prefix just means no prefix is expected
+    // a null prefix means no prefix is expected and the entire unit block is optional
+    this(prefix, null, cityList, defCity, defState, taType);
+  }
+  
+  /** 
+   * Constructor
+   * @param prefix Prefix that must be found at beginning of text page
+   * @param optUnit true if unit is optional
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   */
+  public DispatchEmergitechParser(String prefix, boolean optUnit, String[] cityList, String defCity, String defState) {
+
+    // An empty prefix just means no prefix is expected
+    // a null prefix means no prefix is expected and the entire unit block is optional
+    this(prefix, optUnit, null, cityList, defCity, defState, null);
+  }
+  
+  /** 
+   * Constructor
+   * @param prefix Prefix that must be found at beginning of text page
+   * @param optUnit true if unit is optional
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   * @param taType trailing address data type
+   */
+  public DispatchEmergitechParser(String prefix, boolean optUnit, String[] cityList, String defCity, String defState, TrailAddrType taType) {
+
+    // An empty prefix just means no prefix is expected
+    // a null prefix means no prefix is expected and the entire unit block is optional
+    this(prefix, optUnit, null, cityList, defCity, defState, taType);
   }
   
   /** 
@@ -131,12 +311,101 @@ public class DispatchEmergitechParser extends FieldProgramParser {
    * @param defState default state
    */
   public DispatchEmergitechParser(String prefix, int[] extraSpacePosList,
-                           String[] cityList, String defCity, String defState) {
+                                 String[] cityList, String defCity, String defState) {
 
     // An empty prefix just means no prefix is expected
     // a null prefix means no prefix is expected and the entire unit block is optional
-    this(prefix == null ? "" : prefix
-        , prefix == null, extraSpacePosList, cityList, defCity, defState);
+    this(prefix, extraSpacePosList, cityList, defCity, defState, null);
+  }
+  
+  /** 
+   * Constructor
+   * @param prefix Prefix that must be found at beginning of text page<br/>
+   * An empty string means that no prefix value is expected<br/>
+   * A null string means no prefix value is expected, and the following unit field is optional
+   * @param extraSpacePosList Array of extra blank columns<br/>
+   * Positive values of offsets from beginning of message<br/>
+   * Negative values are offsets from beginning of address field 
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   * @param taType trailing address data type
+   */
+  public DispatchEmergitechParser(String prefix, boolean optUnit, int[] extraSpacePosList,
+                                  String[] cityList, String defCity, String defState, TrailAddrType taType) {
+
+    this((prefix != null && prefix.length() > 0 ? new String[]{prefix} : null),
+         optUnit, extraSpacePosList, cityList, defCity, defState, taType);
+  }
+  
+  /** 
+   * Constructor
+   * @param prefix Prefix that must be found at beginning of text page<br/>
+   * An empty string means that no prefix value is expected<br/>
+   * A null string means no prefix value is expected, and the following unit field is optional
+   * @param extraSpacePosList Array of extra blank columns<br/>
+   * Positive values of offsets from beginning of message<br/>
+   * Negative values are offsets from beginning of address field 
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   * @param taType trailing address data type
+   */
+  public DispatchEmergitechParser(String prefix, int[] extraSpacePosList,
+                                  String[] cityList, String defCity, String defState, TrailAddrType taType) {
+
+    // An empty prefix just means no prefix is expected
+    // a null prefix means no prefix is expected and the entire unit block is optional
+    this((prefix != null && prefix.length() > 0 ? new String[]{prefix} : null),
+         prefix == null, extraSpacePosList, cityList, defCity, defState, taType);
+  }
+  
+  /** 
+   * @param prefixList List of possible prefix values that must be found at start of text.  The
+   * first is the primary value index offsets will be calculated with.  Any others are considered
+   * earlier version that will be replaced with the primary value before the space adjustment is made
+   * @param extraSpacePos Single extra blank column<br/>
+   * Positive values of offsets from beginning of message<br/>
+   * Negative values are offsets from beginning of address field 
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   */
+  public DispatchEmergitechParser(String[] prefixList, String[] cityList, String defCity, String defState) {
+    this(prefixList, false, (int[])null, cityList, defCity, defState, null);
+  }
+  
+  /** 
+   * @param prefixList List of possible prefix values that must be found at start of text.  The
+   * first is the primary value index offsets will be calculated with.  Any others are considered
+   * earlier version that will be replaced with the primary value before the space adjustment is made
+   * @param extraSpacePos Single extra blank column<br/>
+   * Positive values of offsets from beginning of message<br/>
+   * Negative values are offsets from beginning of address field 
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   * @param taType trail address data type
+   */
+  public DispatchEmergitechParser(String[] prefixList, String[] cityList, 
+                                  String defCity, String defState, TrailAddrType taType) {
+    this(prefixList, false, (int[])null, cityList, defCity, defState, taType);
+  }
+  
+  /** 
+   * @param prefixList List of possible prefix values that must be found at start of text.  The
+   * first is the primary value index offsets will be calculated with.  Any others are considered
+   * earlier version that will be replaced with the primary value before the space adjustment is made
+   * @param extraSpacePos Single extra blank column<br/>
+   * Positive values of offsets from beginning of message<br/>
+   * Negative values are offsets from beginning of address field 
+   * @param cityList list of cities
+   * @param defCity default city
+   * @param defState default state
+   */
+  public DispatchEmergitechParser(String[] prefixList, int extraSpacePos, 
+                                  String[] cityList, String defCity, String defState) {
+    this(prefixList, false, new int[]{extraSpacePos}, cityList, defCity, defState, null);
   }
   
   /** 
@@ -153,9 +422,8 @@ public class DispatchEmergitechParser extends FieldProgramParser {
    * @param defState default state
    */
   public DispatchEmergitechParser(String[] prefixList, boolean optUnit, int[] extraSpacePosList,
-                          String[] cityList, String defCity, String defState) {
-    this(prefixList[0], optUnit, extraSpacePosList, cityList, defCity, defState);
-    if (prefixList.length > 1) this.prefixList = prefixList;
+                                  String[] cityList, String defCity, String defState) {
+    this(prefixList, optUnit, extraSpacePosList, cityList, defCity, defState, null);
   }
   
   /** 
@@ -168,19 +436,19 @@ public class DispatchEmergitechParser extends FieldProgramParser {
    * @param cityList list of cities
    * @param defCity default city
    * @param defState default state
+   * @param taType trailing address data type
    */
-  public DispatchEmergitechParser(String prefix, boolean optUnit, int[] extraSpacePosList,
-                          String[] cityList, String defCity, String defState) {
-    super(cityList, defCity, defState,
-           "( Nature:CALL Location:ADDR/S2! Comments:INFO | ( CALL:ID NATURE:CALL | ID NATURE:CALL | NATURE:CALL | CALL ) LOCATION:ADDR/S2PN! BETWEEN:X? COMMENTS:INFO )");
-    
-    if (!optUnit) {
-      markerPattern = Pattern.compile("^" + prefix + UNIT_PTN);
-    } else {
-      markerPattern = Pattern.compile("^" + prefix + "(?:" + UNIT_PTN + ")?");
-    }
+  public DispatchEmergitechParser(String[] prefixList, boolean optUnit, int[] extraSpacePosList,
+                                  String[] cityList, String defCity, String defState, TrailAddrType taType) {
+    super(cityList, defCity, defState, 
+          "( Nature:CALL Location:ADDR/S2! Comments:INFO " + 
+          "| ( CALL:ID NATURE:CALL | ID NATURE:CALL | NATURE:CALL | CALL ) LOCATION:ADDR2! BETWEEN:X? COMMENTS:INFO )");
     this.extraSpacePosList = extraSpacePosList;
-    fixSubject = prefix.length() == 0;
+    this.prefixList = prefixList;
+    this.optUnit = optUnit;
+    if (taType == null) taType = TrailAddrType.NONE;
+    this.special = taType.isSpecial();
+    this.trailField = taType.getTrailField();
   }
   
   /**
@@ -198,7 +466,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (fixSubject && subject.length() > 0 && body.startsWith("-")) {
+    if (prefixList == null && subject.length() > 0 && body.startsWith("-")) {
       body = '[' + subject + ']' + body;
     }
     return parseMsg(body, data);
@@ -209,27 +477,31 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    // If we have a list of old prefix strings, convert them to the new value
+    // Check for a message prefix
     if (prefixList != null) {
       for (int ndx = 0; ndx < prefixList.length; ndx++) {
         String prefix = prefixList[ndx];
         if (body.startsWith(prefix)) {
-          if (ndx > 0) body = prefixList[0] + body.substring(prefix.length());
+          body = body.substring(prefix.length()).trim();
           break;
         }
       }
     }
     
-    Matcher match = markerPattern.matcher(body);
-    if (!match.find()) return false;
-    String unit = match.group(1);
-    if (unit != null) data.strUnit = unit;
+    int st = 0;
+    Matcher match = UNIT_PTN.matcher(body);
+    if (match.lookingAt()) {
+      data.strUnit = match.group(1);
+      st = match.end();
+    } else {
+      if (!optUnit) return false;
+    }
     
     // See if this is the new fangled dash delimited format.  Makes things so much easier
-    String tmp = body.substring(match.end());
+    String tmp = body.substring(st);
     if (tmp.contains(" - Location:")) {
       
-      // Check for a labelled call ID field
+      // Check for a labeled call ID field
       match = ID_PTN.matcher(tmp);
       if (match.lookingAt()) {
         data.strCallId = match.group(1).trim();
@@ -247,11 +519,14 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     // second tends to fall in the cross street or comment fields, where an extra
     // blank isn't that critical.  We will, however, try to rebuild a COMMENTS:
     // keyword that has been split
-    body = COMMENTS_PTN.matcher(body).replaceFirst("COMMENTS:");
+    if (extraSpacePosList != null) {
+      body = COMMENTS_PTN.matcher(body).replaceFirst("COMMENTS:");
     
-    // Ditto for BETWEEN
-    body = BETWEEN_PTN.matcher(body).replaceFirst("BETWEEN");
+      // Ditto for BETWEEN
+      body = BETWEEN_PTN.matcher(body).replaceFirst("BETWEEN");
+    }
     
+    body = body.replace("/COMMENTS:", " COMMENTS:");
     body = body.replace("/LOCATION:", " LOCATION:");
     body = MISSING_LOC_BLANK_PTN.matcher(body).replaceFirst(" ");
     
@@ -261,7 +536,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     if (extraSpacePosList != null) {
       for (int extraSpacePos : extraSpacePosList) {
         int oldLen = body.length();
-        if (extraSpacePos >= 0) {
+        if (extraSpacePos > 0) {
           body = removeBlank(extraSpacePos, body);
         } else {
           int ndx = body.indexOf(" LOCATION:");
@@ -276,7 +551,13 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     }
     
     // Carry on with more normal adjustments
-    body = body.substring(match.end()).trim().replace(" BETWEEN ", " BETWEEN: ");
+    body = body.substring(st).trim().replace(" BETWEEN ", " BETWEEN: ");
+    
+    // Check for duplicated message
+    int pt1 = body.indexOf("NATURE:");
+    int pt2 = body.indexOf("NATURE:", pt1+7);
+    if (pt2 >= 0) body = body.substring(0,pt2).trim();
+    
     if (!super.parseMsg(body, data)) return false;
     if (data.strCall.length() == 0) {
       data.strCall = data.strSupp;
@@ -345,35 +626,93 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ADDR")) return new BaseAddressField();
+    if (name.equals("ADDR2")) return new BaseAddressField();
     if (name.equals("X")) return new BaseCrossField();
     if (name.equals("INFO")) return new BaseInfoField();
     return super.getField(name);
   }
   
+  private static final Pattern ADDR_BRK_PTN = Pattern.compile(" - |\n");
   protected class BaseAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf(" - ");
-      if (pt >= 0) {
-        data.strSupp = field.substring(pt+3).trim();
-        field = field.substring(0,pt).trim();
+      int flags = FLAG_AT_SIGN_ONLY;
+      if (trailField == null) flags = FLAG_ANCHOR_END;
+      parseAddress(StartType.START_PLACE, flags, field, data);
+      if (data.strAddress.length() == 0) {
+        parseAddress(data.strPlace, data);
+        data.strPlace = "";
       }
-      super.parse(field, data);
+      if (trailField != null) {
+        String left = getLeft();
+        if (left.startsWith("/")) {
+          if (data.strCity.length() == 0) {
+            data.strAddress = append(data.strAddress, " & ", left.substring(1).trim());
+            left = "";
+          } else {
+            left = left.substring(1).trim();
+          }
+        }
+        if (left.length() == 0 && data.strApt.length() == 0) {
+          Matcher match = ADDR_BRK_PTN.matcher(data.strAddress);
+          if (match.find()) {
+            left = data.strAddress.substring(match.end()).trim();
+            data.strAddress = data.strAddress.substring(0,match.start()).trim();
+          }
+        }
+        left = stripFieldStart(left, "-");
+        
+        if (special && isLastField()) {
+          data.strSupp = left;
+        } else {
+          trailField.parse(left, data);
+        }
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      String names = "PLACE ADDR APT CITY";
+      if (trailField != null) names = names + ' ' + trailField.getFieldNames();
+      if (special) names = names + " INFO";
+      return names;
     }
   }
   
   private class BaseCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
-      if (field.startsWith("*")) field = field.substring(1).trim();
-      super.parse(field, data);
+      field = stripFieldStart(field, "*");
+      
+      // If there is no comment field, see if this
+      // field contains extra info
+      if (isLastField()) {
+        parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_NO_CITY, field, data);
+        String left = getLeft();
+        if (left.startsWith("/")) {
+          data.strCross = append(data.strCross, " ", left);
+        } else {
+          data.strSupp = append(data.strSupp, " / ", left);
+        }
+        left = stripFieldStart(left, "-");
+      }
+      
+      // Otherwise parse normally
+      else { 
+        super.parse(field, data);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "X INFO";
     }
   }
   
   private static final Pattern INFO_GPS_PTN1 = Pattern.compile("((?:LON:)?[-+]?\\d{1,3}\\.\\d{5,6}) *(?:LAT:)?([-+]?\\d{1,3}\\.\\d{5,6})(?:CO?F[:=]\\d+%?)?(?:CPF:[A-Z0-9]*)?(?:CALLBK=(\\(\\d{3}\\)\\d{3}-\\d{4}))?|CNF=\\d*UNC=\\d*");
   private static final Pattern INFO_GPS_PTN2 = Pattern.compile("ALT#=([- 0-9]+) X=([-+]?\\d+\\.\\d+) Y=([-+]?\\d+\\.\\d+) (?:AT&T )?[A-Z]+ *");
   private static final Pattern INFO_GPS_PTN3 = Pattern.compile("CF=\\d+%([-+]\\d{1,3}\\.\\d{6,})([-+]\\d{1,3}\\.\\d{6,})CO=[A-Z]+\n");
+  private static final Pattern INFO_GPS_PTN4 = Pattern.compile("X([-+]?\\d+\\.\\d+)?Y([-+]?\\d+\\.\\d+)?(?:CFO?\\d*%?)?(?:(?:[ZU]*ZUNC|UNC\\d*\\.?\\d*))?");
   private class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
@@ -397,6 +736,11 @@ public class DispatchEmergitechParser extends FieldProgramParser {
       else if ((match = INFO_GPS_PTN3.matcher(compField)).lookingAt()) {
         found = true;
         setGPSLoc(match.group(1)+','+match.group(2), data);
+      }
+      
+      else if ((match = INFO_GPS_PTN4.matcher(compField)).lookingAt()) {
+        found = true;
+        setGPSLoc(getOptGroup(match.group(1))+','+getOptGroup(match.group(2)), data);
       }
       
       if (found) {

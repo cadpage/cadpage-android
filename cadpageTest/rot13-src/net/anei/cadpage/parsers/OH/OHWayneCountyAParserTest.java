@@ -97,8 +97,9 @@ choyvp pynff BUJnlarPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G8",
         "gnppnq:FDHNQ EHA 490 R PYVAGBA 911 PNYY - 57 LBS QVSS OERNGUVAT",
         "PNYY:FDHNQ EHA",
-        "NQQE:490 R PYVAGBA 911 PNYY - 57",
-        "VASB:LBS QVSS OERNGUVAT");
+        "NQQE:490 R PYVAGBA 911 PNYY -",
+        "ZNQQE:490 R PYVAGBA 911 PNYY",
+        "VASB:57 LBS QVSS OERNGUVAT");
 
     qbGrfg("G9",
         "gnppnq:FDHNQ EHA 464 TNGRF FG JNYXVA VA SBE PURFG CNVAF",

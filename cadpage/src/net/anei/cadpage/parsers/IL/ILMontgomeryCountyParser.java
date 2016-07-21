@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class ILMontgomeryCountyParser extends DispatchEmergitechParser {
   
   public ILMontgomeryCountyParser() {
-    super("911:", 0, CITY_LIST, "MONTGOMERY COUNTY", "IL");
+    super("911:", CITY_LIST, "MONTGOMERY COUNTY", "IL");
   }
   
   public String getFilter() {

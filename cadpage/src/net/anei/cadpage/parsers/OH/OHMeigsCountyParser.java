@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHMeigsCountyParser extends DispatchEmergitechParser {
   
   public OHMeigsCountyParser() {
-    super(0, CITY_LIST, "MEIGS COUNTY", "OH");
+    super(CITY_LIST, "MEIGS COUNTY", "OH", TrailAddrType.INFO);
   }
 
   private static final String[] CITY_LIST = new String[]{
@@ -44,6 +44,11 @@ public class OHMeigsCountyParser extends DispatchEmergitechParser {
       "LONG BOTTOM",
       "PORTLAND",
       "REEDSVILLE",
-      "TUPPERS PLAINS"
+      "TUPPERS PLAINS",
+      
+      // Athens County
+      "ALBANY",
+      "SHADE",
+      "COOLVILLE"
   };
 }

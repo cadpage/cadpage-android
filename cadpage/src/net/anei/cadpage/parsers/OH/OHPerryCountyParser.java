@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHPerryCountyParser extends DispatchEmergitechParser {
 
   public OHPerryCountyParser() {
-    super("Perry911:", 0, CITY_LIST, "PERRY COUNTY", "OH");
+    super("Perry911:", CITY_LIST, "PERRY COUNTY", "OH");
   }
   
   @Override

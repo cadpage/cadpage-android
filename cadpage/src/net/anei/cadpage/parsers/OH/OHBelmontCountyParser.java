@@ -5,7 +5,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHBelmontCountyParser extends DispatchEmergitechParser {
 
   public OHBelmontCountyParser() {
-    super("BelmontCounty911:", 77, CITY_LIST, "BELMONT COUNTY", "OH");
+    super("BelmontCounty911:", 60, CITY_LIST, "BELMONT COUNTY", "OH");
   }
 
   @Override

@@ -17,7 +17,7 @@ public class OHClarkCountyBParser extends SmartAddressParser {
   private static final Pattern MASTER = Pattern.compile("-?(.*?)(?:-(\\d{4}))?");
   private static final Pattern DIR_BOUND_PTN = Pattern.compile("\\b([NSEW])/B\\b");
   private static final Pattern LEAD_CALL_PREFIX_PTN = Pattern.compile("(SQUAD ON STAND ?BY)[ /]+");
-  private static final Pattern MARK_PTN = Pattern.compile("(?<! W)/ |(?=BETWEEN )");
+  private static final Pattern MARK_PTN = Pattern.compile("(?<! W)/ |(?=BETWEEN )| (MEDIC )?FOR A ", Pattern.CASE_INSENSITIVE);
   private static final Pattern CALL_CLEANER = Pattern.compile("(?: ?[/-] )?(.*?)");
   private static final Pattern DELIMITER_MATCHER = Pattern.compile("(.*?)(?: APT (\\w+) | \\- | / )(.*?)");
   
@@ -45,8 +45,11 @@ public class OHClarkCountyBParser extends SmartAddressParser {
     // Check for a / or "BETWEEN" marking the end of the address
     Matcher match = MARK_PTN.matcher(body);
     if (match.find()) {
+      String callPrefix = match.group(1);
       parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, body.substring(0,match.start()).trim(), data);
-      data.strCall = body.substring(match.end()).trim();
+      String call = body.substring(match.end()).trim();
+      if (callPrefix != null) call = append(callPrefix.trim(), " - ", call);
+      data.strCall = call;
       
       // If terminated by BETWEEN, try to parse a cross street
       if (data.strCall.startsWith("BETWEEN ")) {

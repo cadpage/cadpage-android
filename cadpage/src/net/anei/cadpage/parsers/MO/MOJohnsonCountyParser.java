@@ -11,18 +11,19 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 public class MOJohnsonCountyParser extends SmartAddressParser {
-  
-  private static final Pattern MARKER = Pattern.compile("\\b(?:Dispatch: +)?(\\d{1,2}/\\d{1,2}/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)\\b");
  
   public MOJohnsonCountyParser() {
     super(CITY_LIST, "JOHNSON COUNTY", "MO");
-    setFieldList("CALL ADDR APT CITY DATE TIME");
+    setFieldList("SRC CALL ADDR APT CITY DATE TIME");
   }
   
   @Override
   public String getFilter() {
     return "@joco911.org,93001";
   }
+  
+  private static final Pattern MARKER = Pattern.compile("\\b(?:Dispatch: +)?(\\d{1,2}/\\d{1,2}/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)\\b");
+  private static final Pattern SRC_PTN = Pattern.compile("(JCSO|JCF|JCAD) +");
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
@@ -52,6 +53,12 @@ public class MOJohnsonCountyParser extends SmartAddressParser {
                body.substring(match.end()).trim().equals(match.group())) {
       body = body.substring(0,match.start());
     } else return false;
+    
+    match = SRC_PTN.matcher(body);
+    if (match.lookingAt()) {
+      data.strSource = match.group(1);
+      body = body.substring(match.end());
+    }
     
     parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, body, data);
     if (data.strCity.startsWith("JOHNSON COUNTY")) data.strCity = "";

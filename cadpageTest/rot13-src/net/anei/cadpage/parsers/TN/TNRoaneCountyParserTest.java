@@ -143,7 +143,7 @@ choyvp pynff GAEbnarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:06-ZAZ",
         "PNYY:NYNEZ - SVER",
         "NQQE:2560 OHGGREZVYX EQ J",
-        "ANZR:YRABVE PVGL",
+        "PVGL:YRABVE PVGL",
         "K:YBHQBA PB YVAR ARNE CNJ CNJ / GB ROYR A PNIR EQ",
         "VASB:GU");
 
@@ -182,7 +182,7 @@ choyvp pynff GAEbnarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "HAVG:06-TZU",
         "PNYY:10-163",
-        "VASB:NQQ GRFG PBZZRAGF NQQ NQQVGVBANY ERFG PBZZRAEF ANGHER:   10-163 YBPNGVBA : PBZZRAGF: NQQ GRFG");
+        "VASB:NQQ GRFG PBZZRAGF NQQ NQQVGVBANY ERFG PBZZRAEF");
 
   }
 
