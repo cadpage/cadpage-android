@@ -6,26 +6,34 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
 public class WACowlitzCountyParser extends FieldProgramParser {
   
   public WACowlitzCountyParser() {
     super(CITY_CODES, "COWLITZ COUNTY", "WA",
-          "ADDR/S! RMRK:INFO! CALLER_NAME:NAME CALLER_ADDR:SKIP TIME:TIME Disp:UNIT");
+          "LOC:ADDR/S! RMRK:INFO! CALLER_NAME:NAME CALLER_ADDR:SKIP TIME:TIME% Disp:UNIT%");
+  }
+  
+  @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom(){
+      @Override public boolean subjectColonField() { return true; }
+    };
+  }
+
+  @Override
+  public String getFilter() {
+    return "postmaster@cowlitz911.org";
   }
 
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    do {
-      if (subject.equals("LOC")) break;
-      
-      if (subject.equals("DIVE") && body.startsWith("LOC: ")) {
-        body = body.substring(4).trim();
-        break;
-      }
-      
-      return false;
-    } while (false);
+    
+    if (subject.length() > 0 && !subject.equals("DIVE")) {
+      body = append(subject+':', " ", body);
+    }
     
     return super.parseMsg(body, data);
   }

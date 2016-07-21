@@ -17,6 +17,10 @@ ab fhowrpg / PNQ:NYNEZF;9896 ERAAREG EQ;WNFCRE QE;PBHFVAF EQ;16000107;2;52P03B;[
 ab fhowrpg / PNQ:GENSSVP/ GENAFCBEGNGVBA NPPVQR;QVFG: 98.96 sg;2510 FUNAABA EQ;JVAFYBJ QE;ABEGU O
 ab fhowrpg / PNQ:BHGFVQR SVER;1 ZPTBBTNA SNEZ EQ/ERAAREG EQ;16000174;3;67O01E;3EQ CNTR [01/12/16
 
+Pbagnpg: Oelna X Ybjrel <dusq1582@lnubb.pbz>
+Fraqre: PNQ@eborfbapbfb.bet
+Grkg Zrffntr / PNQ:GENSSVP/ GENAFCBEGNGVBA NPPVQR;1504 ERQ UVYY EQ/GENQVGVBANY QE;16003396;1;BAR ZN
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Eraareg Sver Qrcg
 Ybpngvba: Funaaba, AP, Havgrq Fgngrf
@@ -499,6 +503,20 @@ choyvp pynff APEborfbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CEV:3",
         "VASB:67O01E / 3EQ CNTR");
       
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOelnaXYbjrel() {
+
+    qbGrfg("G1",
+        "Grkg Zrffntr / PNQ:GENSSVP/ GENAFCBEGNGVBA NPPVQR;1504 ERQ UVYY EQ/GENQVGVBANY QE;16003396;1;BAR ZN",
+        "PNYY:GENSSVP/ GENAFCBEGNGVBA NPPVQR",
+        "NQQE:1504 ERQ UVYY EQ & GENQVGVBANY QE",
+        "ZNQQE:1504 ERQ UVYY EQ",
+        "VQ:16003396",
+        "CEV:1",
+        "VASB:BAR ZN");
+
   }
 
   @Grfg

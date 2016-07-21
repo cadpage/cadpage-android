@@ -1472,7 +1472,8 @@ public class FieldProgramParser extends SmartAddressParser {
       // data stream.  Non-field processing steps have to be left alone because
       // they may be intermediate steps handing control to another step and we
       // do not want to confuse the final field that step is supposed to get.
-      if (field != null && !htmlTag) {
+      int origNdx = ndx;
+      if (!htmlTag && field != null) {
         while (ndx < flds.length) {
           String fld = flds[ndx];
           if (!fld.startsWith("<|") || !fld.endsWith("|>")) break;
@@ -1538,7 +1539,7 @@ public class FieldProgramParser extends SmartAddressParser {
             if (!doNotTrim) curVal = curVal.trim();
           }
           
-          // If this is an option tagged step, take failure branch
+          // If this is an optional tagged step, take failure branch
           // if tags do not match, otherwise process this step
           if (tag != null && failLink != null) {
             if (! matchTag(curTag, curFld)) return state.link(failLink);
@@ -1621,6 +1622,8 @@ public class FieldProgramParser extends SmartAddressParser {
           // To make life just a bit more complicated, we have to adjust the current data
           // field position if the last optional tagged step that got us to this step
           // has an increment other than one
+          // And if this step is interested in html tags, we have to restore the
+          // original index before we skipped over any html tags
           if (startStep.optional) { 
             int inc = 00;
             Step tStep = startStep;
@@ -1630,6 +1633,7 @@ public class FieldProgramParser extends SmartAddressParser {
               tStep = link.getStep();
             } while (tStep != null && tStep.tag != null && tStep.optional);
             if (tStep != null && tStep.tag == null) {
+              if (tStep.htmlTag || tStep.field == null) ndx = origNdx;
               ndx += inc;
               curFld = flds[ndx].trim();
               procStep = tStep;

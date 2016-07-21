@@ -109,6 +109,7 @@
     <string name="pref_gps_map_option_key">gps_map_option</string>
     <string name="pref_report_position_key">report_location</string>
     <string name="pref_lock_google_map_key">lock_google_map</string>
+    <string name="pref_app_map_option_key">app_map_option</string>
     <string name="pref_navigate_map_key">navigate_map</string>
     <string name="pref_delete_unopen_key">delete_unopen</string>
     <string name="pref_screen_on_key">screenon</string>

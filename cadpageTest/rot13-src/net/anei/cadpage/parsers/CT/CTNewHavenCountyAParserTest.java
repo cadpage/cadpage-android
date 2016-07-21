@@ -45,6 +45,11 @@ choyvp pynff PGArjUniraPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
+  choyvp ibvq grfgOnqZft() {
+    qbOnqGrfg("1600030967 ZRQVPNY-O ERFCBAFR 00440  ZRYBL EQ Ncg #: O2 PNAGBA FG/XABK FG JRFG UNIRA  R2  160622 09:23");
+  }
+  
+  @Grfg
   choyvp ibvq grfgCnefre() {
 
     qbGrfg("G1",

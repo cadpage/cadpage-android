@@ -57,6 +57,7 @@ public class DispatchProQAParser extends FieldProgramParser {
   private static final Pattern UNASSIGNED_MARKER = Pattern.compile("Job# *[^ ]* *\\(Run# (\\d+)\\) at [0-9:]+ was unassigned\\.");
   private static final Pattern RUN_REPORT_MARKER1 = Pattern.compile("(?:(?:Job# *)?\\d+(?:-[A-Z])?/ *)?Run# *(\\d+) */ *(?:(was Canceled: .*?)/)?((?:CALL:)?\\d\\d:\\d\\d/ ?(?:DISP:)?\\d\\d:\\d\\d/ ?.*)");
   private static final Pattern RUN_REPORT_MARKER2 = Pattern.compile("Inc# *[^ ]* */ *Run# *(\\d+) was (?:cancelled|completed) */ *([A-Za-z0-9]+) */ *(.*)");
+  private static final Pattern GEN_ALERT_PTN = Pattern.compile("Go to post .*");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
@@ -93,6 +94,14 @@ public class DispatchProQAParser extends FieldProgramParser {
         data.strSupp = append(data.strSupp, "\n", time.trim());
       }
       return true;
+    }
+    
+    if (GEN_ALERT_PTN.matcher(body).matches()) {
+      setFieldList("INFO");
+      data.msgType = MsgType.GEN_ALERT;
+      data.strSupp = body;
+      return true;
+        
     }
 
     // Everything else is variable

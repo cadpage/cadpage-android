@@ -4,6 +4,7 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.HashSet;
+import java.util.Properties;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -15,9 +16,14 @@ import net.anei.cadpage.parsers.MsgInfo.MsgType;
 public class DispatchSPKParser extends HtmlProgramParser {
 
   public DispatchSPKParser(String defCity, String defState) {
-    super(defCity, defState,
-         "CURDATETIME! INCIDENT_INFO! CAD_Incident:ID? ( Event_Code:CALL! | Event_Code_Description:CALL! ) ( Apartment:APT Building:BLDG ( CALLER_INFO Caller_Source:SKIP? Caller_Phone:PHONE? Caller_Name:NAME? | ) Location:ADDRCITY! Intersection:SKIP? Community:CITY? " + 
-                                                                                                          "| Location:ADDRCITY! Intersection:SKIP? Community:CITY? L/L:GPS? ( Cross_Street:EMPTY! X+? | ) Apartment:APT? Building:BLDG? ( CALLER_INFO Caller_Source:SKIP? Caller_Phone:PHONE? Caller_Name:NAME? | ) ) INFO/N<+",
+    this(null, defCity, defState);
+  }
+
+  public DispatchSPKParser(Properties cityCodes, String defCity, String defState) {
+    super(cityCodes, defCity, defState,
+         "CURDATETIME! Incident_Information%EMPTY! CAD_Incident:ID? ( Event_Code:CALL! THRD_PRTY_INFO+? | Event_Code_Description:CALL! ) Priority:PRI? Incident_Disposition:SKIP? JUNK+? " + 
+               "( Location:ADDRCITY! Intersection:SKIP? Community:CITY? Location_Information:PLACE? L/L:GPS? ( Cross_Street:EMPTY! X+? | ) Apartment:APT? Building:BLDG? ( Caller_information%EMPTY Caller_Source:SKIP? Caller_Phone:PHONE? Caller_Name:NAME? | ) " +  
+               "| Location_Information:PLACE? Apartment:APT Building:BLDG ( Caller_information%EMPTY Caller_Source:SKIP? Caller_Phone:PHONE? Caller_Name:NAME? | ) Location:ADDRCITY! Intersection:SKIP? Community:CITY? ) INFO/N<+",
          "table|tr");
   }
   
@@ -51,13 +57,13 @@ public class DispatchSPKParser extends HtmlProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CURDATETIME")) return new BaseDateTimeField();
-    if (name.equals("INCIDENT_INFO")) return new SkipField("Incident Information");
     if (name.equals("ID")) return new IdField("\\d{4}-\\d{5,8}|\\d{8}-\\d{6}\\.\\d{3}|", true);
     if (name.equals("CALL")) return new BaseCallField();
+    if (name.equals("THRD_PRTY_INFO")) return new BaseThirdPartyInfoField();
+    if (name.equals("JUNK")) return new SkipField("(?!Location:|Apartment:).*", true);
     if (name.equals("CITY")) return new BaseCityField();
     if (name.equals("X")) return new BaseCrossField();
     if (name.equals("BLDG")) return new BaseBuildingField();
-    if (name.equals("CALLER_INFO")) return new SkipField("Caller information", true);
     if (name.equals("INFO")) return new BaseInfoField();
     return super.getField(name);
   }
@@ -88,6 +94,41 @@ public class DispatchSPKParser extends HtmlProgramParser {
     public String getFieldNames() {
       return "CODE CALL";
     }
+  }
+  
+  private class BaseThirdPartyInfoField extends Field {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      
+      if (field.startsWith("3rd Party Complaint: Medical Complaint: ")) {
+        data.strCall = field.substring(40).trim();
+        return true;
+      }
+      
+      if (field.startsWith("3rd Party Code: Dispatch Code: ")) {
+        data.strCode = field.substring(31).trim();
+        return true;
+      }
+      
+      return false;
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "CALL CODE";
+    }
+    
   }
   
   private class BaseCityField extends CallField {

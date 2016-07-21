@@ -7,6 +7,12 @@ vzcbeg bet.whavg.Grfg;
 /*
 Fna Wbndhva Pbhagl, PN
 
+Npgvir911 Cnefref:
+HF/PN/YvsrpbzzPryyCntvat
+HF/PN/IERPP
+HF/PN/IERPPRZF
+
+
 OF18-1    Qvfcngpurq: 00:45:33 Raebhgr: 00:48:05 Ba Fprar: 01:00:47 NBE: 01:20:35
 OF18-1    Qvfcngpurq: 02:01:53 Raebhgr: 02:04:23 Ba Fprar: 02:05:26 NBE: 02:26:24
 G26-1     12018446    Qvfcngpurq:18:49:50Raebhgr:18:51:55Ba Fprar:18:53:54NBE:19:15:58
@@ -795,91 +801,6 @@ EHA ERCBEG PNQ #ZXR-160240      R13-3     Qvfcngpurq:00:33:25Raebhgr:00:38:21Ba 
 EHA ERCBEG PNQ #ZXR-160240      ZXR1      Qvfcngpurq:00:33:25Raebhgr:        Ba Fprar:        NBE:00:38:30
 
 Pbagnpg: Npgvir911
-Ntrapl anzr: Rfpnyba Pbzzhavgl Nzohynapr (WEHT)
-Ybpngvba: Rfpnyba, PN, Havgrq Fgngrf
-Fraqre: <IERPP.PNQ@qbabgercyl.pbz>
-
-07001489    Qvfcngpurq:07:45Raebhgr:07:46Ba Fprar:07:51:34Pyrne Pnyy:08:54:27
-8R80      ,Lbh unir orra nffvtarq gb cbfg ng:RFPNYBA NZOHYNAPR                                                               Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh
-8R80      PNQ VQ#:16079855  Eha(CPE#):02675470*EHA ERCBEG*Gpe/08:38:56Qfc/08:39:22Erfc/08:40:57Fpa/08:44:51Gk/08:54:46Qfg/09:17:36FGzvyrf/0       Rzvyrf/10.4    Tevq/N116      Znc/484O9   Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16079855  Eha(CPE#):02675470                                                  28227 R Benatr Nir            **ARJ PNYY NFFVTAZRAG**K:F FNAGN SR EQ/F FRVQARE NIR             Yvsr Guerngravat Rzretrapl NYF Purfg Cnva (aba genhzngvp)    RFPNYBA        Ncg #          OYQT#          TCF:37772923  &120963042      CebDN Pbqr:Znc:484O9
-8R80      PNQ VQ#:16079632  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.
-8R80      PNQ VQ#:16079632  Eha(CPE#):02675288*EHA ERCBEG*Gpe/21:08:43Qfc/21:08:55Erfc/21:10:01Fpa/21:17:13Gk/21:25:56Qfg/21:46:53FGzvyrf/0       Rzvyrf/1.1     Tevq/N118      Znc/485O7   Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16079632  Eha(CPE#):02675288                                                  19789 F Fhgyvss Nir           **ARJ PNYY NFFVTAZRAG**K:R PBZOF NIR/R YRZBA NIR                 Yvsr Guerngravat Rzretrapl NYF Genhzngvp Vawhevrf            RFPNYBA        Ncg #          OYQT#          TCF:37781046  &120936804      CebDN Pbqr:Znc:485O7
-8R80      PNQ VQ#:16079503  Eha(CPE#):02675142*EHA ERCBEG*Gpe/16:52:02Qfc/16:54:24Erfc/16:54:31Fpa/16:57:31Gk/17:11:07Qfg/17:30:00FGzvyrf/0       Rzvyrf/9.9     Tevq/E234O     Znc/524Q2   Nern/FW R EVC HEONA
-8R80      PNQ VQ#:16079503  Eha(CPE#):02675142                                                  228 F Jnyahg Nir              **ARJ PNYY NFFVTAZRAG**K:J SVEFG FG/FRPBAQ FG                    Yvsr Guerngravat Rzretrapl NYF Purfg Cnva (aba genhzngvp)    EVCBA          Ncg #1         OYQT#          TCF:37738179  &121125111      CebDN Pbqr:Znc:524Q2
-8R80      PNQ VQ#:16079496  Eha(CPE#):02675135                                                  370 Zhyubynaq Qe              **PNAPRY ERFCBAFR**POS-Pnapry Ol SGpe/16:43:16Qfc/16:43:34Erfcbaqvat/16:44:42Fpa/        Pnapryyrq ng/16:54:07Tevq/E242Q     Nern/FW R EVC HEONA
-8R80      PNQ VQ#:16079496  Eha(CPE#):02675135                                                  370 Zhyubynaq Qe              **ARJ PNYY NFFVTAZRAG**K:ZBAGNAN FG/R PNYVSBEAVN FG              Yvsr Guerngravat Rzretrapl NYF Genssvp Nppvqragf             EVCBA          Ncg #VSB       OYQT#          TCF:37742298  &121115811      CebDN Pbqr:Znc:501T9
-8R80      PNQ VQ#:16079389  Eha(CPE#):02675027*EHA ERCBEG*Gpe/14:17:04Qfc/14:19:35Erfc/14:19:42Fpa/14:31:42Gk/14:45:47Qfg/15:06:47FGzvyrf/0       Rzvyrf/10.3    Tevq/P114      Znc/460N9   Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16079389  Eha(CPE#):02675027UREVGNTR UBHFR NCGF                               1100 Rfpnyba Nir              **ARJ PNYY NFFVTAZRAG**K:R NEGUHE EQ/YN ZRFN FG                  Aba Yvsr Guerngravat NYF       Fvpx Crefba                   RFPNYBA        Ncg #7Q        OYQT#          TCF:37801166  &120996756      CebDN Pbqr:Znc:460N9
-8R81      PNQ VQ#:16079389  Eha(CPE#):02675025UREVGNTR UBHFR NCGF                               1100 Rfpnyba Nir              **PNAPRY ERFCBAFR**.EN-Ernffvtarq Gpe/14:17:04Qfc/14:17:31Erfcbaqvat/        Fpa/        Pnapryyrq ng/14:19:35Tevq/P114      Nern/FW S RFP HEONA
-8R81      PNQ VQ#:16079389  Eha(CPE#):02675025UREVGNTR UBHFR NCGF                               1100 Rfpnyba Nir              **ARJ PNYY NFFVTAZRAG**K:R NEGUHE EQ/YN ZRFN FG                  Aba Yvsr Guerngravat NYF       Fvpx Crefba                   RFPNYBA        Ncg #7Q        OYQT#          TCF:37801166  &120996756      CebDN Pbqr:Znc:460N9
-8R80      PNQ VQ#:16079344  Eha(CPE#):02674983CNQQNPX ZUC                                       2505 Wnpxfba Nir              **PNAPRY ERFCBAFR**NZN-Ntnvafg ZrqGpe/12:55:38Qfc/12:55:56Erfcbaqvat/12:55:59Fpa/13:00:30Pnapryyrq ng/13:20:48Tevq/P115      Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16079344  Eha(CPE#):02674983CNQQNPX ZUC                                       2505 Wnpxfba Nir              **ARJ PNYY NFFVTAZRAG**K:QNIVQ QE/FGNGR UJL 120 R                Aba Yvsr Guerngravat NYF       Fvpx Crefba                   RFPNYBA        Ncg #160       OYQT#          TCF:37794213  &120982570      CebDN Pbqr:Znc:483Q3
-8R80      ,Lbh unir orra nffvtarq gb cbfg ng:EVC2 - Evcba Sver Fgngvba 2                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh
-8R80      PNQ VQ#:16078813  Eha(CPE#):02674452*EHA ERCBEG*Gpe/16:07:17Qfc/16:07:49Erfc/16:09:02Fpa/16:13:05Gk/16:27:25Qfg/16:56:55FGzvyrf/0       Rzvyrf/9.7     Tevq/P115      Znc/483O1   Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16078813  Eha(CPE#):02674452                                                  1242 Fgnavfynhf Fg            **ARJ PNYY NFFVTAZRAG**K:ABEGU FG/LBFRZVGR NIR                   NYF Hetrag Genafsre            Cflpu/No Orunivbe/Fhvpvqr NggrRFPNYBA        Ncg #          OYQT#          TCF:37799378  &120992660      CebDN Pbqr:Znc:483O1
-8R80      PNQ VQ#:16078589  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.
-8R80      PNQ VQ#:16078589  Eha(CPE#):02674231*EHA ERCBEG*Gpe/10:04:23Qfc/10:04:42Erfc/10:05:52Fpa/10:20:18Gk/10:29:46Qfg/10:51:55FGzvyrf/0       Rzvyrf/10.3    Tevq/P115      Znc/483Q3   Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16078589  Eha(CPE#):02674231CNQQNPX ZUC                                       2505 Wnpxfba Nir              **ARJ PNYY NFFVTAZRAG**K:QNIVQ QE/FGNGR UJL 120 R                Yvsr Guerngravat Rzretrapl NYF Snyyf                         RFPNYBA        Ncg #FCP-116   OYQT#          TCF:37794213  &120982570      CebDN Pbqr:Znc:483Q3
-8R80      PNQ VQ#:16078558  Eha(CPE#):02674199*EHA ERCBEG*Gpe/08:44:51Qfc/08:45:13Erfc/08:45:51Fpa/08:52:01Gk/09:03:19Qfg/09:25:59FGzvyrf/0       Rzvyrf/10.3    Tevq/N113      Znc/481T7   Nern/FW S RFP FHOHEONA
-8R80      PNQ VQ#:16078558  Eha(CPE#):02674199                                                  23022 R Penvt Eq              **ARJ PNYY NFFVTAZRAG**K:F FRKGBA EQ/Ab Pebff Fgerrg             Yvsr Guerngravat Rzretrapl NYF Oernguvat Ceboyrzf            RFPNYBA        Ncg #          OYQT#          TCF:37780678  &121028656      CebDN Pbqr:Znc:481T7
-8R80      PNQ VQ#:16078387  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.
-8R80      PNQ VQ#:16078387  Eha(CPE#):02674032*EHA ERCBEG*Gpe/22:15:35Qfc/22:16:04Erfc/22:16:44Fpa/22:21:49Gk/22:29:11Qfg/22:45:09FGzvyrf/0       Rzvyrf/10      Tevq/P114      Znc/482T2   Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16078387  Eha(CPE#):02674032                                                  1605 Wnzrf Fg                 **ARJ PNYY NFFVTAZRAG**K:CNEX NIR/SVEFG FG                       Aba Yvsr Guerngravat NYF       Urng/Pbyq Rkcbfher            RFPNYBA        Ncg #          OYQT#          TCF:37795418  &121000052      CebDN Pbqr:Znc:482T2
-8R80      PNQ VQ#:16078313  Eha(CPE#):02673956                                                  25550 R Zntabyvn Eq           **PNAPRY ERFCBAFR**NZN-Ntnvafg ZrqGpe/19:37:37Qfc/19:37:55Erfcbaqvat/19:38:36Fpa/19:48:41Pnapryyrq ng/20:00:22Tevq/R114      Nern/FW S RFP FHOHEONA
-8R80      PNQ VQ#:16078313  Eha(CPE#):02673956                                                  25550 R Zntabyvn Eq           **ARJ PNYY NFFVTAZRAG**K:F RFPNYBA-ORYYBGN EQ/F PNZCORYY NIR     Yvsr Guerngravat Rzretrapl NYF Cflpu/No Orunivbe/Fhvpvqr NggrRFPNYBA        Ncg #          OYQT#          TCF:37817587  &120996694      CebDN Pbqr:Znc:460N4
-8R80      PNQ VQ#:16077946  Eha(CPE#):02673595                                                  25302 R QBQQF EQ              **PNAPRY ERFCBAFR**AB-Ab Zrqvpny AGpe/02:06:29Qfc/02:06:49Erfcbaqvat/02:09:31Fpa/02:16:05Pnapryyrq ng/02:29:01Tevq/SNE6O     Nern/FW S RFP EHENY
-8R80      PNQ VQ#:16077946  Eha(CPE#):02673595                                                  R Qbqqf Eq / F Rfpnyba-oryybgn**ERFCBAFR NQQERFF PUNATR**K:                                        Yvsr Guerngravat Rzretrapl NYF Genssvp Nppvqragf             RFPNYBA                            Ncg#:          OYQT#:          TCF:37856669  &121001055
-8R80      PNQ VQ#:16077946  Eha(CPE#):02673595                                                  R Qbqqf Eq / F Rfpnyba-oryybgn**ARJ PNYY NFFVTAZRAG**K:                                        Yvsr Guerngravat Rzretrapl NYF Genssvp Nppvqragf             RFPNYBA        Ncg #          OYQT#          TCF:37856675  &120998634      CebDN Pbqr:Znc:436T2
-8R80      PNQ VQ#:16077751  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.
-8R80      PNQ VQ#:16077751  Eha(CPE#):02673397*EHA ERCBEG*Gpe/18:07:05Qfc/18:07:18Erfc/18:08:58Fpa/18:13:11Gk/18:24:12Qfg/18:49:15FGzvyrf/0       Rzvyrf/10.3    Tevq/P115      Znc/483Q3   Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16077751  Eha(CPE#):02673397CNQQNPX ZUC                                       2505 Wnpxfba Nir              **ARJ PNYY NFFVTAZRAG**K:QNIVQ QE/FGNGR UJL 120 R                Yvsr Guerngravat Rzretrapl NYF Purfg Cnva (aba genhzngvp)    RFPNYBA        Ncg #113       OYQT#          TCF:37794213  &120982570      CebDN Pbqr:Znc:483Q3
-8R80      PNQ VQ#:16077466  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.
-8R80      PNQ VQ#:16077466  Eha(CPE#):02673119*EHA ERCBEG*Gpe/03:08:06Qfc/03:08:31Erfc/03:10:40Fpa/03:14:40Gk/03:26:18Qfg/03:43:38FGzvyrf/0       Rzvyrf/10.3    Tevq/P114      Znc/482S1   Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16077466  Eha(CPE#):02673119                                                  1341 Vejva Nir                **ARJ PNYY NFFVTAZRAG**K:LBFRZVGR NIR/PNYVSBEAVN FG              Aba Yvsr Guerngravat NYF       Cflpu/No Orunivbe/Fhvpvqr NggrRFPNYBA        Ncg #          OYQT#          TCF:37798093  &121004041      CebDN Pbqr:Znc:482S1
-8R80      PNQ VQ#:16077168  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.
-8R80      PNQ VQ#:16077168  Eha(CPE#):02672846*EHA ERCBEG*Gpe/14:56:01Qfc/14:56:25Erfc/14:57:44Fpa/14:59:10Gk/15:08:43Qfg/15:30:21FGzvyrf/0       Rzvyrf/9.3     Tevq/P114      Znc/483N3   Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16077168  Eha(CPE#):02672846                                                  Svefg Fg / Zp Urael Nir       **ARJ PNYY NFFVTAZRAG**K:                                        Yvsr Guerngravat Rzretrapl NYF Oernguvat Ceboyrzf            RFPNYBA        Ncg #PBEARE    OYQT#          TCF:37794339  &120996577      CebDN Pbqr:Znc:483N3
-8R80      ,Lbh unir orra nffvtarq gb cbfg ng:EVC3 - Evcba Sver Fgngvba 3                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh
-8R80      PNQ VQ#:16076987  Eha(CPE#):02672665*EHA ERCBEG*Gpe/07:51:03Qfc/07:51:18Erfc/07:52:46Fpa/07:56:05Gk/08:08:54Qfg/08:26:47FGzvyrf/0       Rzvyrf/10.4    Tevq/P115      Znc/483Q1   Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16076987  Eha(CPE#):02672665                                                  2409 Znggurj Ya               **ARJ PNYY NFFVTAZRAG**K:WHFGVA QE/ZNGGURJ PG                    Yvsr Guerngravat Rzretrapl NYF Snyyf                         RFPNYBA        Ncg #          OYQT#          TCF:37799451  &120982602      CebDN Pbqr:Znc:483Q1
-8R80      PNQ VQ#:16076703  Eha(CPE#):02672378                                                  20767 R Bnxjbbq Eq            **PNAPRY ERFCBAFR**POS-Pnapry Ol SGpe/17:28:05Qfc/17:28:13Erfcbaqvat/17:29:18Fpa/        Pnapryyrq ng/17:39:14Tevq/SNE6O     Nern/FW S SNE EHENY
-8R80      PNQ VQ#:16076703  Eha(CPE#):02672378                                                  20767 R Bnxjbbq Eq            **ARJ PNYY NFFVTAZRAG**K:F PBHAGEL EQ/R YVGGYR WBUA EQ           Yvsr Guerngravat Rzretrapl NYF Qvnorgvp Ceboyrzf             FGBPXGBA       Ncg #          OYQT#          TCF:37910925  &121058635      CebDN Pbqr:Znc:386T3
-8R80      PNQ VQ#:16076530  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.
-8R80      PNQ VQ#:16076530  Eha(CPE#):02672197*EHA ERCBEG*Gpe/12:06:27Qfc/12:06:37Erfc/12:06:39Fpa/12:06:41Gk/12:29:17Qfg/12:52:52FGzvyrf/0       Rzvyrf/10.7    Tevq/O114      Znc/482Q3   Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16076530  Eha(CPE#):02672197                                                  1738 Evrfyvat Jnl             **ARJ PNYY NFFVTAZRAG**K:FHYGNAN JNL/INYQNCRAN PG                Yvsr Guerngravat Rzretrapl NYF Fvpx Crefba                   RFPNYBA        Ncg #          OYQT#          TCF:37793015  &121011328      CebDN Pbqr:Znc:482Q3
-8R81      PNQ VQ#:16076126  Eha(CPE#):02671804*EHA ERCBEG*Gpe/15:49:30Qfc/15:49:50Erfc/15:51:08Fpa/15:55:15Gk/16:26:03Qfg/16:51:56FGzvyrf/0       Rzvyrf/11.3    Tevq/P115      Znc/483R1   Nern/FW S RFP HEONA
-8R81      PNQ VQ#:16076126  Eha(CPE#):02671804                                                  2504 Angunavry Pg             **ARJ PNYY NFFVTAZRAG**K:GUNQQRBHF QE/Ab Pebff Fgerrg            Yvsr Guerngravat Rzretrapl NYF Urng/Pbyq Rkcbfher            RFPNYBA        Ncg #          OYQT#          TCF:37797981  &120979731      CebDN Pbqr:Znc:483R1
-8R80      PNQ VQ#:16076046  Eha(CPE#):02671722*EHA ERCBEG*Gpe/12:45:39Qfc/12:46:48Erfc/12:47:35Fpa/12:49:49Gk/13:02:38Qfg/13:31:06FGzvyrf/0       Rzvyrf/17.2    Tevq/Y173      Znc/477Q7   Nern/FW Q ZGF_7R HEONA
-8R81      ,Lbh unir orra nffvtarq gb cbfg ng:RFPNYBA NZOHYNAPR                                                               Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh
-8R81      ,Lbh unir orra nffvtarq gb cbfg ng:EVC3 - Evcba Sver Fgngvba 3                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh
-8R80      PNQ VQ#:16076046  Eha(CPE#):02671722OHFVARFF                                          12700 R Tenirf Eq             **ARJ PNYY NFFVTAZRAG**K:F NHFGVA EQ/F WNPX GBAR EQ              Yvsr Guerngravat Rzretrapl NYF Urneg Ceboyrzf/N.V.P.Q.       ZNAGRPN        Ncg #          OYQT#          TCF:37779366  &121152834      CebDN Pbqr:Znc:477Q7
-8R80      PNQ VQ#:16076042  Eha(CPE#):02671718ONEAJBBQ ERFGNHENAG                               338 R Znva Fg                 **PNAPRY ERFCBAFR**.EN-Ernffvtarq Gpe/12:39:55Qfc/12:40:30Erfcbaqvat/12:41:42Fpa/        Pnapryyrq ng/12:42:06Tevq/E244O     Nern/FW R EVC HEONA
-8R80      PNQ VQ#:16076042  Eha(CPE#):02671718ONEAJBBQ ERFGNHENAG                               338 R Znva Fg                 **ARJ PNYY NFFVTAZRAG**K:A UJL 99 SEBAGNTR EQ R/BIREPEBFFVAT     Yvsr Guerngravat Rzretrapl NYF Fgebxr (PIN)                  EVCBA          Ncg #CXT YBG   OYQT#          TCF:37739384  &121119624      CebDN Pbqr:Znc:524S1
-8R80      PNQ VQ#:16075751  Eha(CPE#):02671439                                                  2118 Pbyrl Nir                **PNAPRY ERFCBAFR**AB-Ab Zrqvpny AGpe/19:58:11Qfc/19:59:42Erfcbaqvat/19:59:47Fpa/20:03:01Pnapryyrq ng/20:13:35Tevq/O115      Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16075751  Eha(CPE#):02671439                                                  2118 Pbyrl Nir                **ARJ PNYY NFFVTAZRAG**K:SENAXYVA FG/FGEBAT NIR                  Yvsr Guerngravat Rzretrapl NYF Nyyretvrf/Rairabzngvbaf       RFPNYBA        Ncg #          OYQT#          TCF:37791727  &120987535      CebDN Pbqr:Znc:483P3
-8R81      PNQ VQ#:16075751  Eha(CPE#):02671436                                                  2118 Pbyrl Nir                **PNAPRY ERFCBAFR**.EN-Ernffvtarq Gpe/19:58:11Qfc/19:58:23Erfcbaqvat/        Fpa/        Pnapryyrq ng/19:59:42Tevq/O115      Nern/FW S RFP HEONA
-8R81      PNQ VQ#:16075751  Eha(CPE#):02671436                                                  2118 Pbyrl Nir                **ARJ PNYY NFFVTAZRAG**K:SENAXYVA FG/FGEBAT NIR                  Yvsr Guerngravat Rzretrapl NYF Nyyretvrf/Rairabzngvbaf       RFPNYBA        Ncg #          OYQT#          TCF:37791727  &120987535      CebDN Pbqr:Znc:483P3
-8R80      PNQ VQ#:16075709  Eha(CPE#):02671400*EHA ERCBEG*Gpe/18:19:43Qfc/18:20:29Erfc/18:21:18Fpa/18:28:34Gk/18:40:17Qfg/19:00:08FGzvyrf/0       Rzvyrf/9.6     Tevq/Q346      Znc/508P1   Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16075709  Eha(CPE#):02671400                                                  R Evire Eq / F Zp Oevqr Nir   **ARJ PNYY NFFVTAZRAG**K:                                        Yvsr Guerngravat Rzretrapl NYF Oernguvat Ceboyrzf            RFPNYBA        Ncg #          OYQT#          TCF:37769256  &120931303      CebDN Pbqr:Znc:508P1
-8R80      PNQ VQ#:16075444  Eha(CPE#):02671135*EHA ERCBEG*Gpe/09:18:48Qfc/09:18:55Erfc/09:19:24Fpa/09:25:38Gk/09:38:21Qfg/10:02:02FGzvyrf/0       Rzvyrf/15.4    Tevq/E261      Znc/480P1   Nern/FW R EVC_1 FHOHEONA
-8R80      PNQ VQ#:16075444  Eha(CPE#):02671135120 WJB PNEEBYGBA                                 18000 - 19349 Fgngr Ujl 120 R **ARJ PNYY NFFVTAZRAG**K:F JNTARE EQ/F PNEEBYGBA EQ              Yvsr Guerngravat Rzretrapl NYF Genssvp Nppvqragf             EVCBA          Ncg #          OYQT#          TCF:37798251  &121072734      CebDN Pbqr:Znc:480P1
-8R81      PNQ VQ#:16075424  Eha(CPE#):02671118*EHA ERCBEG*Gpe/08:20:34Qfc/08:21:53Erfc/08:21:57Fpa/08:24:22Gk/08:31:38Qfg/08:51:27FGzvyrf/0       Rzvyrf/9.3     Tevq/P114      Znc/482T2   Nern/FW S RFP HEONA
-8R81      PNQ VQ#:16075424  Eha(CPE#):02671118TBYQRA NPERF OBNEQ & PNER                         1101 Pnyvsbeavn Fg            **ARJ PNYY NFFVTAZRAG**K:CVBARRE FG/WBUA FG                      Yvsr Guerngravat Rzretrapl NYF Hapbafpvbhf/Snvagvat          RFPNYBA        Ncg #QVAVATEZ  OYQT#          TCF:37796576  &120998453      CebDN Pbqr:Znc:482T2
-8R80      PNQ VQ#:16075424  Eha(CPE#):02671117TBYQRA NPERF OBNEQ & PNER                         1101 Pnyvsbeavn Fg            **PNAPRY ERFCBAFR**.EN-Ernffvtarq Gpe/08:20:34Qfc/08:20:47Erfcbaqvat/        Fpa/        Pnapryyrq ng/08:21:52Tevq/P114      Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16075424  Eha(CPE#):02671117TBYQRA NPERF OBNEQ & PNER                         1101 Pnyvsbeavn Fg            **ARJ PNYY NFFVTAZRAG**K:CVBARRE FG/WBUA FG                      Yvsr Guerngravat Rzretrapl NYF Hapbafpvbhf/Snvagvat          RFPNYBA        Ncg #QVAVATEZ  OYQT#          TCF:37796576  &120998453      CebDN Pbqr:Znc:482T2
-8R80      PNQ VQ#:16075229  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.
-8R80      PNQ VQ#:16075229  Eha(CPE#):02670927*EHA ERCBEG*Gpe/19:10:39Qfc/19:10:50Erfc/19:11:46Fpa/19:17:39Gk/19:30:33Qfg/19:46:51FGzvyrf/0       Rzvyrf/10.9    Tevq/P114      Znc/460N9   Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16075229  Eha(CPE#):02670927UREVGNTR UBHFR NCGF                               1100 Rfpnyba Nir              **ARJ PNYY NFFVTAZRAG**K:R NEGUHE EQ/YN ZRFN FG                  Aba Yvsr Guerngravat NYF       Snyyf                         RFPNYBA        Ncg #7Q        OYQT#          TCF:37801166  &120996756      CebDN Pbqr:Znc:460N9
-8R80      ,Lbh unir orra nffvtarq gb cbfg ng:ZQN99 - Ujl 99 & Lbfrzvgr Nir                                                   Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh
-8R80      PNQ VQ#:16075118  Eha(CPE#):02670816*EHA ERCBEG*Gpe/15:53:24Qfc/15:55:18Erfc/15:56:27Fpa/16:06:50Gk/16:15:45Qfg/16:17:05FGzvyrf/0       Rzvyrf/0.2     Tevq/Z24O      Znc/474P2   Nern/FW Q_4 HEONA
-8R80      PNQ VQ#:16075118  Eha(CPE#):02670816XNVFRE PYVAVP - ZNAGRPN                           1721 J LBFRZVGR NIR           **ARJ PNYY NFFVTAZRAG**K:JVAGREF QE/FG QBZVAVPF QE               Xnvfre NYF Y1 Hetrag           Vagresnpvyvgl Genafsre (VSG)  ZNAGRPN        Ncg #EZ 20     OYQT#          TCF:37797344  &121244259      CebDN Pbqr:Znc:474P2
-8R80      PNQ VQ#:16074842  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.
-8R80      PNQ VQ#:16074842  Eha(CPE#):02670538*EHA ERCBEG*Gpe/05:03:30Qfc/05:03:43Erfc/05:04:34Fpa/05:19:20Gk/05:19:21Qfg/05:36:22FGzvyrf/0       Rzvyrf/9.4     Tevq/P114      Znc/482T2   Nern/FW S RFP HEONA
-8R80      PNQ VQ#:16074842  Eha(CPE#):02670538TBYQRA NPERF OBNEQ & PNER                         1101 Pnyvsbeavn Fg            **ARJ PNYY NFFVTAZRAG**K:CVBARRE FG/WBUA FG                      Yvsr Guerngravat Rzretrapl NYF Noqbzvany Cnva                RFPNYBA        Ncg #U         OYQT#          TCF:37796576  &120998453      CebDN Pbqr:Znc:482T2
-
-Pbagnpg: Npgvir911
 Ntrapl anzr: QYN Fna Wbndhva SQ
 Ybpngvba: Genpl, PN, Havgrq Fgngrf
 Fraqre: <IERPP.PNQ@qbabgercyl.pbz>
@@ -1411,6 +1332,8 @@ Ntrapl anzr: Rfpnyba Sver Cebgrpgvba Qvfgevpg (WEHT)
 Ybpngvba: Rfpnyba, PN, Havgrq Fgngrf
 Fraqre: <IERPP.PNQ@qbabgercyl.pbz>
 
+8180      PNQ VQ#:16088333  EHA(CPE#):07006053                                                  25909 R Pngurevar Jnl         **ARJ PNYY NFFVTAZRAG**K:Nfujbbq Qe/F Fg Wbua Nir                C1 911 Y&F J/Sver              32Q00- Hax Ceboyrz (Zna Qbja) RFPNYBA        Ncg#          OYQT#          TCF:37786684  &120991312      CebDN Pbqr:Znc:483O5
+EHA ERCBEG PNQ #RFY-160577      RFYN      Qvfcngpurq:00:44:00Raebhgr:        Ba Fprar:        NBE:00:47:32
 RFP-160506          R11     08:01:1616000208
 RFP-160506          RFY2            16000208
 R11       RFP-160506     09Q00- Pneqvnp/Erfc Neerfg    Ybp:                                                  15855 F Frkgba Eq                                 Pvgl:RFPNYBA        R Ybar Gerr Eq/R OynOyqt:          Ncg:          Nffvtarq Havgf:R11,RFY2                      Erfc Cyna:YC-TU-1Y-RFY                                      TCF:37819246  &121034452
@@ -1702,57 +1625,12 @@ UNMZNG2   PN-160030      Ybp:                                                  Z
 EHA ERCBEG PNQ #PN-160029       UNMZNG2   Qvfcngpurq:13:20:12Raebhgr:13:20:12Ba Fprar:13:52:10NBE:14:42:08
 
 Pbagnpg: Npgvir911
-Ntrapl anzr: Znagrpn Qvfgevpg Nzohynapr Freivpr (WEHT)
-Ybpngvba: Znagrpn, PN, Havgrq Fgngrf
-Fraqre: <IERPP.PNQ@qbabgercyl.pbz>
-
-8151      , Lbh unir orra nffvtarq gb cbfg ng:YNGUEBC FGNGVBA 51                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8123      16003996  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
-8211      , Lbh unir orra nffvtarq gb cbfg ng:XNVFRE ZNAGRPN UBFCVGNY                                                         Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8152      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 52                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8153      16003985  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
-8152      16003937  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
-8177      16003896  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
-8123      16003888  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
-8150      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (2aq hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8153      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (2aq hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8150      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (1fg hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8150      16003817  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
-8153      16003824  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
-8152      16003804  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
-8171      16003625  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
-8137      16003685  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
-8150      16003712  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
-8217      16003647  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
-8153      , Lbh unir orra nffvtarq gb cbfg ng:EVC99 - Ujl 99 & F Nhfgva Eq                                                    Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8153      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (1fg hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8150      , Lbh unir orra nffvtarq gb cbfg ng:EVC99 - Ujl 99 & F Nhfgva Eq                                                    Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8152      , Lbh unir orra nffvtarq gb cbfg ng:YNGUEBC FGNGVBA 51                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8153      , Lbh unir orra nffvtarq gb cbfg ng:YNGUEBC FGNGVBA 51                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8214      , Lbh unir orra nffvtarq gb cbfg ng:XNVFRE UBFCVGNY ZNAGRPN                                                         Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8152      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (1fg hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8150      , Lbh unir orra nffvtarq gb cbfg ng:YNGUEBC FGNGVBA 51                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8151      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (1fg hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8212      , Lbh unir orra nffvtarq gb cbfg ng:XNVFRE ZNAGRPN UBFCVGNY                                                         Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8152      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (2aq hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8217      , Lbh unir orra nffvtarq gb cbfg ng:XNVFRE ZNAGRPN UBFCVGNY                                                         Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8216      , Lbh unir orra nffvtarq gb cbfg ng:XNVFRE ZNAGRPN UBFCVGNY                                                         Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
-8Z52      ,Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 52                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh
-8Z50      ,Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (1fg hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh
-8Z50      PNQ VQ#:16080058  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.
-8Z50      PNQ VQ#:16080058  Eha(CPE#):02675685*EHA ERCBEG*Gpe/15:04:20Qfc/15:04:41Erfc/15:05:37Fpa/15:10:29Gk/15:18:39Qfg/15:29:36FGzvyrf/0       Rzvyrf/3.5     Tevq/Z171N     Znc/476N7   Nern/FW Q_6 HEONA
-8Z52      ,Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (1fg hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh
-8Z50      PNQ VQ#:16080058  Eha(CPE#):02675685                                                  1309 Pnzvyyn Fg               **ARJ PNYY NFFVTAZRAG**K:CRYHFN YA/CNPB JNL                      Yvsr Guerngravat Rzretrapl NYF Pneqvnp/Erfcvengbel Neerfg    ZNAGRPN        Ncg #          OYQT#          TCF:37780213  &121195934      CebDN Pbqr:Znc:476N7
-8Z50      PNQ VQ#:16080017  Eha(CPE#):02675640*EHA ERCBEG*Gpe/13:53:36Qfc/13:53:53Erfc/13:54:32Fpa/13:57:29Gk/14:09:39Qfg/14:14:36FGzvyrf/0       Rzvyrf/0.8     Tevq/Z29Q      Znc/452Q9   Nern/FW Q_4 HEONA
-8Z50      PNQ VQ#:16080017  Eha(CPE#):02675640FG WHQRF PBAI ( CNYZ UNIRA )                      469 R Abegu Fg                **ARJ PNYY NFFVTAZRAG**K:A FUREZNA NIR/A TNESVRYQ NIR            Aba Yvsr Guerngravat NYF       Genafsre/Vagresnpvyvgl/CnyyngvZNAGRPN        Ncg #15N       OYQT#FGA 2     TCF:37801018  &121211536      CebDN Pbqr:Znc:452Q9
-8Z50      PNQ VQ#:16079958  Eha(CPE#):02675581*EHA ERCBEG*Gpe/12:25:30Qfc/12:25:39Erfc/12:26:10Fpa/12:30:55Gk/12:39:31Qfg/12:50:12FGzvyrf/0       Rzvyrf/2.2     Tevq/Z12Q      Znc/475P5   Nern/FW Q_4 HEONA
-8Z50      PNQ VQ#:16079958  Eha(CPE#):02675581JNY-ZNEG - ZNAGRPN                                1205 F Znva Fg                **ARJ PNYY NFFVTAZRAG**K:120 BSS ENZC JO/FGNGR UJL 120 JO        Yvsr Guerngravat Rzretrapl NYF Pbaihyfvbaf/Frvmherf          ZNAGRPN        Ncg #VAFVQR    OYQT#          TCF:37785229  &121215881      CebDN Pbqr:Znc:475P5
-
-Pbagnpg: Npgvir911
 Ntrapl anzr: Serapu Pnzc-ZpXvayrl Sver Qvfgevpg (WEHT)
 Ybpngvba: Serapu Pnzc, PN, Havgrq Fgngrf
 Fraqre: <IERPP.PNQ@qbabgercyl.pbz>
 
+      
+SEPN      SEP-160752     29Q00- Genssvp Nppvqrag       Ybp:                                                  V 5 Fo / F Serapu Pnzc Eq                         Pvgl:FGBPXGBA                           Oyqt:          Ncg:          Nffvtarq Havgf:SEPN                          Erfc Cyna:YC-TU-1Y-SEP                                      TCF:37897106  &121283979
 ZUP-160709          R161    07:17:3216000206
 EHA ERCBEG PNQ #ZUP-160709     ZUP1           Qvfcngpurq:07:04:48Raebhgr:        Ba Fprar:        NBE:07:06:20
 R161      ZUP-160709     53B06- Pvgvmra Nffg/Fip Pnyy  Ybp:OYIQ                                              1-199 Zhfgnat Oyiq                                Pvgl:GENPL          F Prageny Cxjl/F GenOyqt:          Ncg:          Nffvtarq Havgf:R161,ZUP1                     Erfc Cyna:YC-TU-1Y-ZUP                                      TCF:37766920  &121546414
@@ -1853,6 +1731,173 @@ EHA ERCBEG PNQ #SEP-160691      SEP2      Qvfcngpurq:02:57:03Raebhgr:        Ba 
 SEP2      SEP-160691     Zrqvpny Nvq                   Ybp:                                                  117 J YBJRYY NIR                                  Pvgl:               F UNEEVF NIR/F SNVEZOyqt:          Ncg:          Nffvtarq Havgf:Erfc Cyna:R11-3                                             Nyy Havgf Nffvtarq:SEP2TCF:37920814  &121281141      PZQ 6/GNP 10 (IUS KFW SVER)   PZQ 6/GNP 10 (IUS KFW SVER)
 EHA ERCBEG PNQ #SEP-160690      R11-1     Qvfcngpurq:01:11:20Raebhgr:01:12:43Ba Fprar:01:15:49NBE:01:28:11
 R11-1     SEP-160690     Zrqvpny Nvq                   Ybp:                                                  8271 F Uneyna Eq                                  Pvgl:               R ZNGURJF EQ/R UHEQ Oyqt:          Ncg:          Nffvtarq Havgf:Erfc Cyna:R11-3                                             Nyy Havgf Nffvtarq:R11-1,SEP2TCF:37880813  &121274791      PZQ 6/GNP 10 (IUS KFW SVER)   PZQ 6/GNP 10 (IUS KFW SVER)
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Rfpnyba Pbzzhavgl Nzohynapr (WEHT)
+Ybpngvba: Rfpnyba, PN, Havgrq Fgngrf
+Fraqre: <IERPP.PNQ@qbabgercyl.pbz>
+
+07005582    Qvfcngpurq:06:52Raebhgr:06:54Ba Fprar:06:57Pyrne Pnyy:07:36:50
+8180      PNQ VQ #:        Eha (CPE#):07005582*EHA ERCBEG*Gpe/06:52:41Qfc/06:52:57Erfc/06:54:01Fpa/06:57:22Gk/07:06:11Qfg/07:26:27FGzvyrf/Rzvyrf/Tevq/P115      Znc/483Q2   Nern/FW S RFP HEONA
+8180      PNQ VQ#:16087408  EHA(CPE#):07005582                                                  2305 Pnyvsbeavn Fg            **ARJ PNYY NFFVTAZRAG**K:Ryvmnorgu Nir/Whfgva Qe                 C1 911 Y&F J/Sver              06P01- Oernguvat Ceboyrzf     RFPNYBA        Ncg#          OYQT#          TCF:37796335  &120984664      CebDN Pbqr:Znc:483Q2
+07005393    Qvfcngpurq:13:28Raebhgr:13:29Ba Fprar:13:31Pyrne Pnyy:14:26:15
+8180      PNQ VQ #:        Eha (CPE#):07005393*EHA ERCBEG*Gpe/13:28:10Qfc/13:28:23Erfc/13:29:39Fpa/13:31:48Gk/13:46:46Qfg/14:13:03FGzvyrf/Rzvyrf/Tevq/P114      Znc/460N9   Nern/FW S RFP HEONA
+8180      PNQ VQ#:16087050  EHA(CPE#):07005393                                                  1100 Rfpnyba Nir              **ARJ PNYY NFFVTAZRAG**K:R Zvyyre Eq/R Neguhe Eq                 C1 911 Y&F J/Sver              21Q03Z- Urzbeeuntr/Ynprengvba RFPNYBA        Ncg#5N        OYQT#          TCF:37802849  &120996116      CebDN Pbqr:Znc:460N9
+07005342    Qvfcngpurq:10:53Raebhgr:10:54Ba Fprar:11:01Pyrne Pnyy:12:16:02
+8180      PNQ VQ #:        Eha (CPE#):07005342*EHA ERCBEG*Gpe/10:53:34Qfc/10:53:52Erfc/10:54:51Fpa/11:01:54Gk/11:26:55Qfg/12:04:20FGzvyrf/Rzvyrf/Tevq/O118      Znc/485Q5   Nern/FW S RFP HEONA
+07005358    Qvfcngpurq:12:05Raebhgr:     Ba Fprar:     Pyrne Pnyy:12:06:44
+8181      PNQ VQ#:16086994  EHA(CPE#):07005358                                                  9561 F Ovrqrezna Jnl          **ARJ PNYY NFFVTAZRAG**K:Qrnq Raq/R Fxvss Eq                     C2 911 Abgvsl - Ab RZF Qvfc    17N04T- Snyy                  RFPNYBA        Ncg#GENVYRE   OYQT#          TCF:37880035  &121034144      CebDN Pbqr:Znc:411S3
+8180      PNQ VQ#:16086963  EHA(CPE#):07005342                                                  31147 R Pbzof Nir             **ARJ PNYY NFFVTAZRAG**K:F Fhgyvss Nir/Qrnq Raq                  C1 911 Y&F J/Sver              10Q00- Purfg Cnva/Qvfpbzsbeg  RFPNYBA        Ncg#          OYQT#          TCF:37785739  &120927204      CebDN Pbqr:Znc:485Q5
+8180      , Lbh unir orra nffvtarq gb cbfg ng:RFPNYBA NZO 1FG HC                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
+07005233    Qvfcngpurq:22:57Raebhgr:22:58Ba Fprar:23:09Pyrne Pnyy:00:19:13
+8180      PNQ VQ #:        Eha (CPE#):07005233*EHA ERCBEG*Gpe/22:56:40Qfc/22:57:10Erfc/22:58:42Fpa/23:09:24Gk/23:28:41Qfg/00:19:09FGzvyrf/Rzvyrf/Tevq/SNE6N     Znc/364Q6   Nern/FW S SNE EHENY
+8180      PNQ VQ#:16086770  EHA(CPE#):07005233BA UJL 4 WJB RFPNYBA ORYYBGN                      23300-24919 Fgngr Ujl 4 R     **ARJ PNYY NFFVTAZRAG**K:F Fgnayrl Eq/F Rfpnyba Oryybgn Eq       C1 911 Y&F J/Sver              29Q05I- Genssvp Nppvqrag      SNEZVATGBA     Ncg#          OYQT#          TCF:37929862  &121013147      CebDN Pbqr:Znc:364Q6
+07005174    Qvfcngpurq:18:16Raebhgr:18:16Ba Fprar:18:25Pyrne Pnyy:18:38:57
+8180      PNQ VQ#:16086654  EHA(CPE#):07005177                                                  2409 Znggurj Ya               **ARJ PNYY NFFVTAZRAG**K:R Znuba Nir/Lbfrzvgr Nir                C2 911 Abgvsl - Ab RZF Qvfc    17N04T- Snyy                  RFPNYBA        Ncg#          OYQT#          TCF:37800086  &120978744      CebDN Pbqr:Znc:483R1
+8181      PNQ VQ#:16086654  Eha(CPE#):07005174                                                  2409 Znggurj Ya               **PNAPRY ERFCBAFR**               Gpe/18:12:53Qfc/18:13:31Erfcbaqvat/18:16:00Fpa/        Pnapryyrq ng/P115      Tevq/P115      Nern/FW S RFP FHOHEONA
+8181      PNQ VQ#:16086654  EHA(CPE#):07005174                                                  2409 Znggurj Ya               **ARJ PNYY NFFVTAZRAG**K:R Znuba Nir/Lbfrzvgr Nir                C2 911 Abgvsl - Ab RZF Qvfc    17N04T- Snyy                  RFPNYBA        Ncg#          OYQT#          TCF:37800086  &120978744      CebDN Pbqr:Znc:483R1
+07004993    Qvfcngpurq:06:58Raebhgr:07:00Ba Fprar:07:03Pyrne Pnyy:07:57:41
+8180      PNQ VQ#:16086366  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.
+8180      PNQ VQ #:        Eha (CPE#):07004993*EHA ERCBEG*Gpe/06:58:16Qfc/06:58:43Erfc/07:00:19Fpa/07:03:21Gk/07:10:53Qfg/07:34:31FGzvyrf/Rzvyrf/Tevq/Q114      Znc/460N6   Nern/FW S RFP FHOHEONA
+8180      PNQ VQ#:16086366  EHA(CPE#):07004993PBHAGEL IVRJ ZNABE                                16460 F Rfpnyba Oryybgn Eq    **ARJ PNYY NFFVTAZRAG**K:R Zntabyvn Eq/R Znuba Nir               C1 911 Y&F J/Sver              21Q04Z- Urzbeeuntr/Ynprengvba RFPNYBA        Ncg#          OYQT#          TCF:37813672  &120996317      CebDN Pbqr:Znc:460N6
+07004967    Qvfcngpurq:02:50Raebhgr:02:50Ba Fprar:02:55Pyrne Pnyy:02:56:27
+8180      PNQ VQ#:16086320  EHA(CPE#):07004967                                                  2120 Ylqvn Fg                 **ARJ PNYY NFFVTAZRAG**K:Zvgpuryy Nir/Qrnq Raq                   C1 911 Y&F J/Sver              17Q00- Snyy                   RFPNYBA        Ncg#          OYQT#          TCF:37797662  &120986780      CebDN Pbqr:Znc:483P2
+07004964    Qvfcngpurq:01:32Raebhgr:01:34Ba Fprar:01:40Pyrne Pnyy:02:33:35
+8180      PNQ VQ #:        Eha (CPE#):07004964*EHA ERCBEG*Gpe/01:32:38Qfc/01:32:58Erfc/01:34:33Fpa/01:40:46Gk/01:57:40Qfg/02:15:47FGzvyrf/Rzvyrf/Tevq/Q345      Znc/507Q4   Nern/FW S RFP HEONA
+8180      PNQ VQ#:16086313  EHA(CPE#):07004964                                                  22145 F Ohejbbq Eq            **ARJ PNYY NFFVTAZRAG**K:R Unyy Nir/F Ohejbbq Ya                 C1 911 Y&F J/Sver              26Q01- Fvpx Crefba            RFPNYBA        Ncg#          OYQT#          TCF:37758418  &120955908      CebDN Pbqr:Znc:507Q4
+07004693    Qvfcngpurq:01:41Raebhgr:01:42Ba Fprar:01:47Pyrne Pnyy:02:46:00
+8180      PNQ VQ#:16085797  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.
+8180      PNQ VQ #:        Eha (CPE#):07004693*EHA ERCBEG*Gpe/01:41:22Qfc/01:41:43Erfc/01:42:22Fpa/01:47:37Gk/02:05:48Qfg/02:22:15FGzvyrf/Rzvyrf/Tevq/O114      Znc/482R4   Nern/FW S RFP HEONA
+8180      PNQ VQ#:16085797  EHA(CPE#):07004693                                                  1830 F Fnapurm Jnl            **ARJ PNYY NFFVTAZRAG**K:Pnorearg Pg/Gubzcfba Jnl                C1 911 Y&F J/Sver              26Q01- Fvpx Crefba            RFPNYBA        Ncg#          OYQT#          TCF:37790412  &121008351      CebDN Pbqr:Znc:482R4
+07004596    Qvfcngpurq:17:48Raebhgr:17:50Ba Fprar:     Pyrne Pnyy:17:54:26
+8180      PNQ VQ#:16085611  EHA(CPE#):07004596                                                  6498 F Zboyrl Eq              **ARJ PNYY NFFVTAZRAG**K:F Onegbybzrv Eq/R Tnjar Eq              C2 911 Aba Y&F J/B Sver        32Q00- Hax Ceboyrz (Zna Qbja) FGBPXGBA       Ncg#          OYQT#          TCF:37911000  &121041720      CebDN Pbqr:Znc:387Q3
+07004501    Qvfcngpurq:12:10Raebhgr:12:10Ba Fprar:12:10Pyrne Pnyy:13:16:43
+8181      PNQ VQ#:16085454  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.
+8181      PNQ VQ #:        Eha (CPE#):07004501*EHA ERCBEG*Gpe/12:09:53Qfc/12:10:14Erfc/12:10:17Fpa/12:10:22Gk/12:28:39Qfg/12:52:00FGzvyrf/Rzvyrf/Tevq/O114      Znc/483N4   Nern/FW S RFP HEONA
+8180      , Lbh unir orra nffvtarq gb cbfg ng:EVC3 - Evcba Sver Fgngvba 3                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
+8181      PNQ VQ#:16085454  EHA(CPE#):07004501RFPNYBA PBZZHAVGL URNYGU PRAGRE                   2080 Zp Urael Nir             **ARJ PNYY NFFVTAZRAG**K:Zp Urael Nir/Fjnafba Qe                 C1 911 Y&F J/Sver              26Q00- Fvpx Crefba            RFPNYBA        Ncg#          OYQT#          TCF:37787790  &120995925      CebDN Pbqr:Znc:483N4
+8180      , Lbh unir orra nffvtarq gb cbfg ng:EVC2 - Evcba Sver Fgngvba 2                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
+8180    PNQ VQ #:16085189  Eha (CPE#):07004368                      *EHA ERCBEG*Gpe/22:59:32Qfc/22:59:45Erfc/23:00:45Fpa/23:04:58Gk/23:14:32Qfg/23:35:05FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP HEONA
+8180      16085189  EHA(CPE#):07004368                                                  1719 F Wvyy Nir               **ARJ PNYY NFFVTAZRAG**K:Neebln Fg/Qvnf Fg                       C1 911 Y&F J/Sver              21Q04Z- Urzbeeuntr/Ynprengvba RFPNYBA        Ncg#          OYQT:          TCF:37790632  &120985003      CebDN Pbqr:Znc:483Q4
+8180      16084675  EHA(CPE#):07004101                                                  20150 R Mhzjnyg Eq            **ARJ PNYY NFFVTAZRAG**K:F Pneebygba Eq/F Ina Nyyra Eq           C1 911 Y&F J/Sver              12Q02- Pbaihyfvba/Frvmher     RFPNYBA        Ncg#          OYQT:          TCF:37815909  &121056809      CebDN Pbqr:Znc:457T5
+8180      16084351  EHA(CPE#):07003937                                                  F Rfpnyba Oryybgn Eq / R Tnjar**ARJ PNYY NFFVTAZRAG**K:                                        C1 911 Y&F J/B Sver            32O01- Hax Ceboyrz (Zna Qbja) RFPNYBA        Ncg#          OYQT:          TCF:37893640  &120999938      CebDN Pbqr:Znc:388T8
+8180    PNQ VQ #:16084062  Eha (CPE#):07003781                      *EHA ERCBEG*Gpe/19:22:25Qfc/19:22:43Erfc/19:24:06Fpa/19:28:39Gk/19:42:54Qfg/20:10:34FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP HEONA
+8180      16084062  EHA(CPE#):07003781                                                  1830 F Fnapurm Jnl            **ARJ PNYY NFFVTAZRAG**K:Pnorearg Pg/Gubzcfba Jnl                C2 911 Aba Y&F J/Sver          17N02- Snyy                   RFPNYBA        Ncg#          OYQT:          TCF:37790412  &121008351      CebDN Pbqr:Znc:482R4
+8180    PNQ VQ #:16083924  Eha (CPE#):07003700                      *EHA ERCBEG*Gpe/14:04:19Qfc/14:05:49Erfc/14:05:50Fpa/14:09:25Gk/14:20:05Qfg/14:39:23FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP HEONA
+8181      PNQ VQ#:16083925            Eha(CPE#):07003701RFPNYBA FRAVBE RFGNGRF                            16460 F Rfpnyba Oryybgn Eq    **PNAPRY ERFCBAFR**               Gpe/14:07:04Qfc/14:07:16Erfcbaqvat/        Fpa/        Pnapryyrq ng/14:07:30Tevq/Nern/FW S RFP FHOHEONA
+8181      16083925  EHA(CPE#):07003701RFPNYBA FRAVBE RFGNGRF                            16460 F Rfpnyba Oryybgn Eq    **ARJ PNYY NFFVTAZRAG**K:R Zntabyvn Eq/R Znuba Nir               C1 911 Y&F J/Sver              06Q02- Oernguvat Ceboyrzf     RFPNYBA        Ncg#EZ 8      OYQT:          TCF:37813672  &120996317      CebDN Pbqr:Znc:460N6
+8180      16083924  EHA(CPE#):07003700                                                  2421 Wbanguba Qe              **ARJ PNYY NFFVTAZRAG**K:Whfgva Qe/Qrnq Raq                      C1 911 Y&F J/Sver              17Q00- Snyy                   RFPNYBA        Ncg#          OYQT:          TCF:37797041  &120981680      CebDN Pbqr:Znc:483R2
+8181      PNQ VQ#:16083924            Eha(CPE#):07003699                                                  2421 Wbanguba Qe              **PNAPRY ERFCBAFR**               Gpe/14:04:19Qfc/14:04:38Erfcbaqvat/        Fpa/        Pnapryyrq ng/14:05:49Tevq/Nern/FW S RFP HEONA
+8181      16083924  EHA(CPE#):07003699                                                  2421 Wbanguba Qe              **ARJ PNYY NFFVTAZRAG**K:Whfgva Qe/Qrnq Raq                      C1 911 Y&F J/Sver              17Q00- Snyy                   RFPNYBA        Ncg#          OYQT:          TCF:37797041  &120981680      CebDN Pbqr:Znc:483R2
+8180      , Lbh unir orra nffvtarq gb cbfg ng:ZQN99 - Ujl 99 & Lbfrzvgr Nir                                                   Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
+8180      16083648  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
+8180    PNQ VQ #:16083648  Eha (CPE#):07003542                      *EHA ERCBEG*Gpe/23:59:05Qfc/23:59:24Erfc/00:00:26Fpa/00:04:52Gk/00:14:38Qfg/00:31:04FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP FHOHEONA
+8180      16083648  EHA(CPE#):07003542                                                  23688 R Evire Eq              **ARJ PNYY NFFVTAZRAG**K:F Frkgba Eq/F Oeraana Nir               C1 911 Y&F J/Sver              01P06- Noqbzvany Cnva         RFPNYBA        Ncg#          OYQT:          TCF:37755922  &121016975      CebDN Pbqr:Znc:505P5
+8180    PNQ VQ #:16083407  Eha (CPE#):07003411                      *EHA ERCBEG*Gpe/15:39:18Qfc/15:39:31Erfc/15:40:28Fpa/15:49:16Gk/15:51:28Qfg/16:16:11FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP EHENY
+8180      16083407  EHA(CPE#):07003411                                                  24557 R Znevcbfn Eq           **ARJ PNYY NFFVTAZRAG**K:F Oeraana Nir/F Qebtr Eq                C2 911 Aba Y&F J/Sver          01N01- Noqbzvany Cnva         RFPNYBA        Ncg#          OYQT:          TCF:37840598  &121009590      CebDN Pbqr:Znc:436R6
+8180      16083115  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
+8180    PNQ VQ #:16083115  Eha (CPE#):07003257                      *EHA ERCBEG*Gpe/03:04:18Qfc/03:04:39Erfc/03:06:17Fpa/03:13:05Gk/03:22:03Qfg/03:31:54FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP HEONA
+8180      16083115  EHA(CPE#):07003257                                                  23665 F Fnagn Sr Eq           **ARJ PNYY NFFVTAZRAG**K:1Fg Fg/F Urael Eq                       C1 911 Y&F J/Sver              06Q02- Oernguvat Ceboyrzf     RFPNYBA        Ncg#          OYQT:          TCF:37743887  &120940410      CebDN Pbqr:Znc:508N9
+8180    PNQ VQ #:16083027  Eha (CPE#):07003221                      *EHA ERCBEG*Gpe/21:04:24Qfc/21:04:51Erfc/21:05:56Fpa/21:13:11Gk/21:17:00Qfg/21:57:34FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP FHOHEONA
+8180      16083027  EHA(CPE#):07003221                                                  30987 R Fg Eg 120 Ujl         **ARJ PNYY NFFVTAZRAG**K:F Ragrecevfr Eq/F Ivpgbel Eq            C2 911 Aba Y&F J/B Sver        30N02- Genhzngvp Vawhevrf     RFPNYBA        Ncg#          OYQT:          TCF:37794432  &120929664      CebDN Pbqr:Znc:485P2
+8180      16082859  EHA(CPE#):07003148                                                  30566 R Unyy Nir              **ARJ PNYY NFFVTAZRAG**K:F Urael Eq/F Zp Oevqr Nir               C1 911 Y&F J/B Sver            32O01- Hax Ceboyrz (Zna Qbja) RFPNYBA        Ncg#          OYQT:          TCF:37758031  &120934043      CebDN Pbqr:Znc:508O5
+8181      16082850  EHA(CPE#):07003141                                                  R Evire Eq / F Zp Urael Nir   **ARJ PNYY NFFVTAZRAG**K:                                        C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       RFPNYBA        Ncg#          OYQT:          TCF:37760784  &120995737      CebDN Pbqr:Znc:506N4
+8180      16082838  EHA(CPE#):07003134                                                  R Ybar Gerr Eq / F Fgrvarthy E**ARJ PNYY NFFVTAZRAG**K:                                        C2 911 Aba Y&F J/B Sver        29N00- Genssvp Nppvqrag       RFPNYBA        Ncg#          OYQT:          TCF:37827588  &120960909      CebDN Pbqr:Znc:461P1
+8180    PNQ VQ #:16082773  Eha (CPE#):07003099                      *EHA ERCBEG*Gpe/12:12:00Qfc/12:12:20Erfc/12:13:09Fpa/12:23:24Gk/12:27:11Qfg/13:18:43FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S SNE EHENY
+8180      PNQ VQ#:16082773       Eha(CPE#):Ybp:WJB RFPNYBA ORYYBGN                               F Rfpnyba Oryybgn Eq / R Znevcbfn Eq              R Fxvss Eq/F Ina NyyOyqt:          Ncg:          Pvgl:RFPNYBA
+8181      16082773  EHA(CPE#):07003101WJB RFPNYBA ORYYBGN                               F Rfpnyba Oryybgn Eq / R Znevc**ARJ PNYY NFFVTAZRAG**K:                                        C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       RFPNYBA        Ncg#          OYQT:          TCF:37834285  &120998042      CebDN Pbqr:Znc:437N8
+8180      16082773  EHA(CPE#):07003099WJB RFPNYBA ORYYBGN                               F Rfpnyba Oryybgn Eq / R Znevc**ARJ PNYY NFFVTAZRAG**K:                                        C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       RFPNYBA        Ncg#          OYQT:          TCF:37834285  &120998042      CebDN Pbqr:Znc:437N8
+8181      16082749  EHA(CPE#):07003085GRFG**********                                    Zp Urael Nir / R Pngurevar Jnl**ARJ PNYY NFFVTAZRAG**K:                                        Grfg Pnyy                      Grfg Fna Wbndhva Pnyy         RFPNYBA        Ncg#          OYQT:          TCF:37785716  &120996360      CebDN Pbqr:Znc:483N5
+8180    PNQ VQ #:16082580  Eha (CPE#):07002997                      *EHA ERCBEG*Gpe/23:35:59Qfc/23:36:18Erfc/23:37:41Fpa/23:47:58Gk/00:05:12Qfg/00:35:44FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S SNE EHENY
+8180      16082580  EHA(CPE#):07002997                                                  9935 F Ovrqrezna Eq           **ARJ PNYY NFFVTAZRAG**K:Qrnq Raq/R Fxvss Eq                     C1 911 Y&F J/Sver              31Q03- Hapbapvbhf/Snvagvat    RFPNYBA        Ncg#          OYQT:          TCF:37876563  &121031661      CebDN Pbqr:Znc:411S5
+8180      16082484  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
+8180    PNQ VQ #:16082484  Eha (CPE#):07002961                      *EHA ERCBEG*Gpe/20:02:28Qfc/20:02:51Erfc/20:03:52Fpa/20:09:22Gk/20:21:54Qfg/20:43:21FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP FHOHEONA
+8180      16082484  EHA(CPE#):07002961                                                  17076 F Ynjerapr Eq           **ARJ PNYY NFFVTAZRAG**K:R Neguhe Eq/Fgngr Ujl 120 R             C1 911 Y&F J/Sver              10Q00- Purfg Cnva/Qvfpbzsbeg  RFPNYBA        Ncg#          OYQT:          TCF:37807135  &121025576      CebDN Pbqr:Znc:459N8
+8181      16082320  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
+8181    PNQ VQ #:16082320  Eha (CPE#):07002854                      *EHA ERCBEG*Gpe/15:19:33Qfc/15:19:48Erfc/15:20:53Fpa/15:26:06Gk/15:38:28Qfg/16:00:42FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP HEONA
+8181      16082320  EHA(CPE#):07002854                                                  29328 R Fg Eg 120 Ujl         **ARJ PNYY NFFVTAZRAG**K:F Frvqare Nir/F Urael Eq                C1 911 Y&F J/Sver              26P02- Fvpx Crefba            RFPNYBA        Ncg#          OYQT:          TCF:37793376  &120949600      CebDN Pbqr:Znc:484S3
+8180      16082242  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl
+8180    PNQ VQ #:16082242  Eha (CPE#):07002811                      *EHA ERCBEG*Gpe/12:58:14Qfc/12:59:04Erfc/13:00:04Fpa/13:03:14Gk/13:11:20Qfg/13:38:24FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP FHOHEONA
+8180      16082242  EHA(CPE#):07002811RFPNYBA FRAVBE RFGNGR                             16460 F Rfpnyba Oryybgn Eq    **ARJ PNYY NFFVTAZRAG**K:R Zntabyvn Eq/R Znuba Nir               C1 911 Y&F J/Sver              31P02- Hapbapvbhf/Snvagvat    RFPNYBA        Ncg#4         OYQT:          TCF:37813672  &120996317      CebDN Pbqr:Znc:460N6
+8180      , Lbh unir orra nffvtarq gb cbfg ng:Ujl 99 Ao / R Lbfrzvgr Nir                                                      Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Znagrpn Qvfgevpg Nzohynapr Freivpr (WEHT)
+Ybpngvba: Znagrpn, PN, Havgrq Fgngrf
+Fraqre: <IERPP.PNQ@qbabgercyl.pbz>
+
+8151      PNQ VQ#:16085300  EHA(CPE#):07004420CXJL                                              400 R Q Nepl Cxjl             **ARJ PNYY NFFVTAZRAG**K:F Zhecul Cxjl/Puevfgbcure Jnl           C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       YNGUEBC        Ncg#          OYQT#          TCF:37802400  &121292733      CebDN Pbqr:Znc:449R9
+07004678    Qvfcngpurq:00:37Raebhgr:00:38Ba Fprar:00:42Pyrne Pnyy:00:54:02
+8153      PNQ VQ#:16085586  EHA(CPE#):07004579                                                  751 J Zbenqn Pg               **ARJ PNYY NFFVTAZRAG**K:Qrnq Raq/Unpvraqn Nir                   C1 911 Y&F J/Sver              28P00- Fgebxr/GVN             ZNAGRPN        Ncg#          OYQT#          TCF:37809574  &121227023      CebDN Pbqr:Znc:451T7
+EHA ERCBEG PNQ #SEP-160752      SEPN      Qvfcngpurq:09:24:45Raebhgr:        Ba Fprar:        NBE:09:25:41
+8152      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 52                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
+07005629    Qvfcngpurq:12:02Raebhgr:12:03Ba Fprar:12:09Pyrne Pnyy:12:39:58
+8152      PNQ VQ #:        Eha (CPE#):07005629*EHA ERCBEG*Gpe/12:02:13Qfc/12:02:27Erfc/12:03:10Fpa/12:09:23Gk/12:17:10Qfg/12:23:38FGzvyrf/Rzvyrf/Tevq/Z168N     Znc/474P6   Nern/FW Q_7 HEONA
+8152      PNQ VQ#:16087523  EHA(CPE#):07005629                                                  1720 Tbyqcbccl Fg             **ARJ PNYY NFFVTAZRAG**K:Tbyqcbccl Fg/Fgne Ghyvc Fg              C1 911 Y&F J/Sver              17O01- Snyy                   ZNAGRPN        Ncg#          OYQT#          TCF:37781426  &121244496      CebDN Pbqr:Znc:474P6
+07005616    Qvfcngpurq:10:15Raebhgr:10:16Ba Fprar:10:17Pyrne Pnyy:11:17:18
+8150      PNQ VQ#:16087484  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.
+8153      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (1fg hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
+07005615    Qvfcngpurq:10:09Raebhgr:10:10Ba Fprar:10:17Pyrne Pnyy:11:03:59
+8150      PNQ VQ #:        Eha (CPE#):07005616*EHA ERCBEG*Gpe/10:14:44Qfc/10:15:34Erfc/10:16:12Fpa/10:17:31Gk/10:46:20Qfg/10:53:04FGzvyrf/Rzvyrf/Tevq/          Znc/        Nern/FW Q_4 HEONA
+8153      PNQ VQ #:        Eha (CPE#):07005615*EHA ERCBEG*Gpe/10:09:34Qfc/10:09:44Erfc/10:10:11Fpa/10:17:54Gk/10:29:57Qfg/10:45:37FGzvyrf/Rzvyrf/Tevq/Z44N      Znc/452N5   Nern/FW Q_4 HEONA
+8152      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (1fg hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
+07005616    Qvfcngpurq:10:17Raebhgr:10:17Ba Fprar:     Pyrne Pnyy:10:18:42
+8551      PNQ VQ#:16087484  EHA(CPE#):07005617                                                  100 R Abegu Fg                **ARJ PNYY NFFVTAZRAG**K:A Znva Fg/A Tenag Nir                   C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       ZNAGRPN        Ncg#          OYQT#          TCF:37800997  &121216631      CebDN Pbqr:Znc:
+8150      PNQ VQ#:16087484  EHA(CPE#):07005616                                                  100 R Abegu Fg                **ARJ PNYY NFFVTAZRAG**K:A Znva Fg/A Tenag Nir                   C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       ZNAGRPN        Ncg#          OYQT#          TCF:37800997  &121216631      CebDN Pbqr:Znc:
+8153      PNQ VQ#:16087483  EHA(CPE#):07005615ZNAGRPN PNER NAQ ERUNO PRAGRE (FHAOEVQTR/PNERJRFG)410 J Rnfgjbbq Nir            **ARJ PNYY NFFVTAZRAG**K:Abegutngr Qe/Fgbarjbbq Nir              C1 911 Y&F J/B Sver            33P01G- Genafsre/VSG          ZNAGRPN        Ncg#202-O     OYQT#          TCF:37817314  &121222594      CebDN Pbqr:Znc:452N5
+8151      , Lbh unir orra nffvtarq gb cbfg ng:YNGUEBC FGNGVBA 51                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
+8151      , Lbh unir orra nffvtarq gb cbfg ng:FWGCA GENPL OYIQ / TENAG YVAR                                                   Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
+8150      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (2aq hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
+07005585    Qvfcngpurq:07:34Raebhgr:07:34Ba Fprar:07:35Pyrne Pnyy:08:16:46
+8150      PNQ VQ #:        Eha (CPE#):07005586*EHA ERCBEG*Gpe/07:32:21Qfc/07:34:15Erfc/07:34:15Fpa/07:35:59Gk/07:53:53Qfg/08:01:50FGzvyrf/Rzvyrf/Tevq/Z169N     Znc/474T7   Nern/FW Q_6 HEONA
+07005594    Qvfcngpurq:07:54Raebhgr:07:54Ba Fprar:        Pyrne Pnyy:08:00:08
+8151      16087428  EHA(CPE#):07005594                                                  1950 Zryyb Pg                 **ARJ PNYY NFFVTAZRAG**K:Ralrneg Eq/Qrnq Raq                     C1 911 Y&F J/Sver              31P00- Hapbapvbhf/Snvagvat    GENPL          Ncg#VSB       OYQT:          TCF:37751546  &121451821      CebDN Pbqr:Znc:490N6
+8150      PNQ VQ#:16087418  EHA(CPE#):07005586                                                  1585 Fnaq Ya                  **ARJ PNYY NFFVTAZRAG**K:Zbagr Pnfn Fg/Pbyyvaf Fg                C1 911 Y&F J/Sver              12Q02- Pbaihyfvba/Frvmher     ZNAGRPN        Ncg#          OYQT#          TCF:37778348  &121226001      CebDN Pbqr:Znc:474T7
+8153      PNQ VQ#:16087418  Eha(CPE#):07005585                                                  1585 Fnaq Ya                  **PNAPRY ERFCBAFR**               Gpe/07:32:21Qfc/07:32:26Erfcbaqvat/07:32:52Fpa/        Pnapryyrq ng/Z169N     Tevq/Z169N     Nern/FW Q_6 HEONA
+07005584    Qvfcngpurq:07:29Raebhgr:07:29Ba Fprar:07:32Pyrne Pnyy:07:33:55
+8153      PNQ VQ#:16087418  EHA(CPE#):07005585                                                  1585 Fnaq Ya                  **ARJ PNYY NFFVTAZRAG**K:Zbagr Pnfn Fg/Pbyyvaf Fg                C1 911 Y&F J/Sver              12Q02- Pbaihyfvba/Frvmher     ZNAGRPN        Ncg#          OYQT#          TCF:37778348  &121226001      CebDN Pbqr:Znc:474T7
+8150      PNQ VQ#:16087416  EHA(CPE#):07005584JNYZNEG                                           1205 F Znva Fg                **ARJ PNYY NFFVTAZRAG**K:F Znva Fg/Fgngr Ujl 120 Jo              C1 911 Y&F J/Sver              31Q02- Hapbapvbhf/Snvagvat    ZNAGRPN        Ncg#VSB       OYQT#          TCF:37785520  &121217945      CebDN Pbqr:Znc:475O5
+8153      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (2aq hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
+07005538    Qvfcngpurq:01:02Raebhgr:01:03Ba Fprar:01:09Pyrne Pnyy:01:19:56
+8153      PNQ VQ#:16087334  EHA(CPE#):07005538ENLZHF IVYYNTR CNEX                               14499 F Chroyb Qe             **ARJ PNYY NFFVTAZRAG**K:R Zbuvpna Qe/R Ncnpur Qe                C1 911 Y&F J/Sver              26Q01- Fvpx Crefba            ZNAGRPN        Ncg#          OYQT#          TCF:37831238  &121215719      CebDN Pbqr:Znc:429P9
+07005500    Qvfcngpurq:20:54Raebhgr:20:55Ba Fprar:20:57Pyrne Pnyy:21:59:21
+8152      , Lbh unir orra nffvtarq gb cbfg ng:YNGUEBC FGNGVBA 51                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh
+07005511    Qvfcngpurq:21:34Raebhgr:21:35Ba Fprar:21:35Pyrne Pnyy:21:51:52
+8150      PNQ VQ#:16087266  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.
+8153      PNQ VQ#:16087284  EHA(CPE#):07005511                                                  1830 R Lbfrzvgr Nir           **ARJ PNYY NFFVTAZRAG**K:Fhafrg Qe/Obavgn Qe                     C1 911 Y&F J/Sver              06Q04- Oernguvat Ceboyrzf     ZNAGRPN        Ncg#FC 201    OYQT#          TCF:37795287  &121188477      CebDN Pbqr:Znc:476P2
+8150      PNQ VQ #:        Eha (CPE#):07005500*EHA ERCBEG*Gpe/20:54:01Qfc/20:54:13Erfc/20:55:06Fpa/20:57:52Gk/21:15:32Qfg/21:23:51FGzvyrf/Rzvyrf/Tevq/Z27N      Znc/451R9   Nern/FW Q_4 HEONA
+8150      PNQ VQ#:16087266  EHA(CPE#):07005500OEBBXQNYR FRAVBE YVIVAT                           430 A Havba Eq                **ARJ PNYY NFFVTAZRAG**K:Rhpnylcghf Fg/Pebz Fg                   C1 911 Y&F J/Sver              06Q02- Oernguvat Ceboyrzf     ZNAGRPN        Ncg#130       OYQT#          TCF:37803564  &121234195      CebDN Pbqr:Znc:451R9
+07005486    Qvfcngpurq:19:52Raebhgr:19:52Ba Fprar:     Pyrne Pnyy:19:55:23
+07005486    Qvfcngpurq:19:49Raebhgr:19:50Ba Fprar:19:52Pyrne Pnyy:19:55:23
+8551      PNQ VQ#:16087239  EHA(CPE#):07005488                                                  A Havba Eq / J Ynguebc Eq     **ARJ PNYY NFFVTAZRAG**K:                                        C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       ZNAGRPN        Ncg#          OYQT#          TCF:37826435  &121235911      CebDN Pbqr:Znc:451R2
+8152      PNQ VQ#:16087239  EHA(CPE#):07005486                                                  A Havba Eq / J Ynguebc Eq     **ARJ PNYY NFFVTAZRAG**K:                                        C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       ZNAGRPN        Ncg#          OYQT#          TCF:37826435  &121235911      CebDN Pbqr:Znc:451R2
+07005469    Qvfcngpurq:18:39Raebhgr:18:40Ba Fprar:18:43Pyrne Pnyy:19:22:41
+8150      PNQ VQ#:16087204  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.
+8150      PNQ VQ #:        Eha (CPE#):07005469*EHA ERCBEG*Gpe/18:39:34Qfc/18:39:46Erfc/18:40:21Fpa/18:43:14Gk/18:55:06Qfg/18:57:27FGzvyrf/Rzvyrf/Tevq/Z35P      Znc/452R8   Nern/FW Q_4 HEONA
+8150      PNQ VQ#:16087204  EHA(CPE#):07005469                                                  871 R Nynzrqn Fg              **ARJ PNYY NFFVTAZRAG**K:R Nynzrqn Fg/Cnybzvab Pg                C1 911 Y&F J/Sver              28P01Y- Fgebxr/GVN            ZNAGRPN        Ncg#          OYQT#          TCF:37805154  &121206202      CebDN Pbqr:Znc:452R8
+07005454    Qvfcngpurq:17:33Raebhgr:17:34Ba Fprar:17:39Pyrne Pnyy:18:27:01
+8153      PNQ VQ#:16087177  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.
+8153      PNQ VQ #:        Eha (CPE#):07005454*EHA ERCBEG*Gpe/17:33:43Qfc/17:33:53Erfc/17:34:28Fpa/17:39:00Gk/17:59:21Qfg/18:04:02FGzvyrf/Rzvyrf/Tevq/Z47Q      Znc/453O6   Nern/FW Q_5 HEONA
+07005439    Qvfcngpurq:16:37Raebhgr:16:39Ba Fprar:16:41Pyrne Pnyy:17:59:29
+8151      PNQ VQ#:16087148  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.
+8153      PNQ VQ#:16087177  EHA(CPE#):07005454CERFGVTR FRAVBE YVIVAT                            1130 Rzcver Nir               **ARJ PNYY NFFVTAZRAG**K:R Ybhvfr Nir/Qvnzbaq Bnx Jnl            C1 911 Y&F J/B Sver            33P01G- Genafsre/VSG          ZNAGRPN        Ncg#RKCERFFVBAOYQT#          TCF:37812657  &121192605      CebDN Pbqr:Znc:453O6
+8151      PNQ VQ #:        Eha (CPE#):07005439*EHA ERCBEG*Gpe/16:37:18Qfc/16:37:34Erfc/16:39:06Fpa/16:41:41Gk/17:07:48Qfg/17:30:39FGzvyrf/Rzvyrf/Tevq/Z20N      Znc/475P3   Nern/FW Q_4 HEONA
+07005439    Qvfcngpurq:16:38Raebhgr:16:38Ba Fprar:16:49Pyrne Pnyy:17:10:41
+8551      PNQ VQ#:16087148  EHA(CPE#):07005440                                                  336 R Zbssng Oyiq             **ARJ PNYY NFFVTAZRAG**K:F Yvapbya Nir/F Furezna Nir             C1 911 Y&F J/Sver              09R01- Pneqvnp/Erfc Neerfg    ZNAGRPN        Ncg#          OYQT#          TCF:37793915  &121213560      CebDN Pbqr:Znc:475P3
+07005429    Qvfcngpurq:16:02Raebhgr:16:03Ba Fprar:16:07Pyrne Pnyy:16:38:46
+8151      PNQ VQ#:16087148  EHA(CPE#):07005439                                                  336 R Zbssng Oyiq             **ARJ PNYY NFFVTAZRAG**K:F Yvapbya Nir/F Furezna Nir             C1 911 Y&F J/Sver              31Q00- Hapbapvbhf/Snvagvat    ZNAGRPN        Ncg#          OYQT#          TCF:37793915  &121213560      CebDN Pbqr:Znc:475P3
+07005429    Qvfcngpurq:16:01Raebhgr:16:02Ba Fprar:16:05Pyrne Pnyy:16:18:17
+8551      PNQ VQ#:16087128  EHA(CPE#):07005430                                                  F Nvecbeg Jnl / Qnavryf Fg    **ARJ PNYY NFFVTAZRAG**K:                                        C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       ZNAGRPN        Ncg#          OYQT#          TCF:37786530  &121252179      CebDN Pbqr:Znc:474N5
+8151      PNQ VQ#:16087128  EHA(CPE#):07005429                                                  F Nvecbeg Jnl / Qnavryf Fg    **ARJ PNYY NFFVTAZRAG**K:                                        C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       ZNAGRPN        Ncg#          OYQT#          TCF:37786530  &121252179      CebDN Pbqr:Znc:474N5
+07005414    Qvfcngpurq:14:57Raebhgr:14:58Ba Fprar:15:03Pyrne Pnyy:15:49:31
+8151      PNQ VQ#:16087093  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.
+8151      PNQ VQ #:        Eha (CPE#):07005414*EHA ERCBEG*Gpe/14:57:40Qfc/14:57:48Erfc/14:58:31Fpa/15:03:29Gk/15:16:35Qfg/15:28:23FGzvyrf/Rzvyrf/Tevq/Y143      Znc/449Q9   Nern/FW Q YZQ_7 HEONA
+8151      PNQ VQ#:16087093  EHA(CPE#):07005414CXJL                                              3-399 R Q Nepl Cxjl           **ARJ PNYY NFFVTAZRAG**K:F Uneyna Eq/F Zhecul Cxjl               C1 911 Y&F J/B Sver            32O01- Hax Ceboyrz (Zna Qbja) YNGUEBC        Ncg#          OYQT#          TCF:37803544  &121297842      CebDN Pbqr:Znc:449Q9
+07005406    Qvfcngpurq:14:22Raebhgr:14:22Ba Fprar:14:25Pyrne Pnyy:14:35:54
+8153      PNQ VQ#:16087077  EHA(CPE#):07005406FGBERE GENAFCBEGNGVBA OHF                         907 J Qnivf Fg                **ARJ PNYY NFFVTAZRAG**K:A Jnyahg Nir/Fhaunira Cy                C1 911 Y&F J/Sver              12Q00- Pbaihyfvba/Frvmher     ZNAGRPN        Ncg#PBEARE    OYQT#          TCF:37800897  &121229381      CebDN Pbqr:Znc:451T9
+07005378    Qvfcngpurq:13:01Raebhgr:13:01Ba Fprar:13:05Pyrne Pnyy:13:38:39
+8152      PNQ VQ #:        Eha (CPE#):07005378*EHA ERCBEG*Gpe/13:01:24Qfc/13:01:29Erfc/13:01:35Fpa/13:05:27Gk/13:18:15Qfg/13:26:31FGzvyrf/Rzvyrf/Tevq/Z27Q      Znc/474T2   Nern/FW Q_4 HEONA
+07005367    Qvfcngpurq:12:31Raebhgr:12:32Ba Fprar:12:35Pyrne Pnyy:13:19:31
 
  */
 
@@ -8581,718 +8626,6 @@ choyvp pynff PNFnaWbndhvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
 
   @Grfg
-  choyvp ibvq grfgRfpnybaPbzzhavglNzohynaprWEHT() {
-
-    qbGrfg("G1",
-        "07001489    Qvfcngpurq:07:45Raebhgr:07:46Ba Fprar:07:51:34Pyrne Pnyy:08:54:27",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:07001489",
-        "VASB:Qvfcngpurq:07:45\aRaebhgr:07:46\aBa Fprar:07:51:34\aPyrne Pnyy:08:54:27");
-
-    qbGrfg("G2",
-        "8R80      ,Lbh unir orra nffvtarq gb cbfg ng:RFPNYBA NZOHYNAPR                                                               Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh",
-        "HAVG:8R80",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:RFPNYBA NZOHYNAPR",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh");
-
-    qbGrfg("G3",
-        "8R80      PNQ VQ#:16079855  Eha(CPE#):02675470*EHA ERCBEG*Gpe/08:38:56Qfc/08:39:22Erfc/08:40:57Fpa/08:44:51Gk/08:54:46Qfg/09:17:36FGzvyrf/0       Rzvyrf/10.4    Tevq/N116      Znc/484O9   Nern/FW S RFP HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16079855/02675470",
-        "VASB:Gpe/08:38:56\aQfc/08:39:22\aErfc/08:40:57\aFpa/08:44:51\aGk/08:54:46Qfg/09:17:36\aFGzvyrf/0\aRzvyrf/10.4\aTevq/N116\aZnc/484O9\aNern/FW S RFP HEONA");
-
-    qbGrfg("G4",
-        "8R80      PNQ VQ#:16079855  Eha(CPE#):02675470                                                  28227 R Benatr Nir            **ARJ PNYY NFFVTAZRAG**K:F FNAGN SR EQ/F FRVQARE NIR             Yvsr Guerngravat Rzretrapl NYF Purfg Cnva (aba genhzngvp)    RFPNYBA        Ncg #          OYQT#          TCF:37772923  &120963042      CebDN Pbqr:Znc:484O9",
-        "HAVG:8R80",
-        "VQ:16079855/02675470",
-        "NQQE:28227 R Benatr Nir",
-        "K:F FNAGN SR EQ/F FRVQARE NIR",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Purfg Cnva (aba genhzngvp)",
-        "PVGL:RFPNYBA",
-        "TCF:+37.772923,-120.963042",
-        "ZNC:484O9");
-
-    qbGrfg("G5",
-        "8R80      PNQ VQ#:16079632  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.",
-        "HAVG:8R80",
-        "VQ:16079632",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.");
-
-    qbGrfg("G6",
-        "8R80      PNQ VQ#:16079632  Eha(CPE#):02675288*EHA ERCBEG*Gpe/21:08:43Qfc/21:08:55Erfc/21:10:01Fpa/21:17:13Gk/21:25:56Qfg/21:46:53FGzvyrf/0       Rzvyrf/1.1     Tevq/N118      Znc/485O7   Nern/FW S RFP HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16079632/02675288",
-        "VASB:Gpe/21:08:43\aQfc/21:08:55\aErfc/21:10:01\aFpa/21:17:13\aGk/21:25:56Qfg/21:46:53\aFGzvyrf/0\aRzvyrf/1.1\aTevq/N118\aZnc/485O7\aNern/FW S RFP HEONA");
-
-    qbGrfg("G7",
-        "8R80      PNQ VQ#:16079632  Eha(CPE#):02675288                                                  19789 F Fhgyvss Nir           **ARJ PNYY NFFVTAZRAG**K:R PBZOF NIR/R YRZBA NIR                 Yvsr Guerngravat Rzretrapl NYF Genhzngvp Vawhevrf            RFPNYBA        Ncg #          OYQT#          TCF:37781046  &120936804      CebDN Pbqr:Znc:485O7",
-        "HAVG:8R80",
-        "VQ:16079632/02675288",
-        "NQQE:19789 F Fhgyvss Nir",
-        "K:R PBZOF NIR/R YRZBA NIR",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Genhzngvp Vawhevrf",
-        "PVGL:RFPNYBA",
-        "TCF:+37.781046,-120.936804",
-        "ZNC:485O7");
-
-    qbGrfg("G8",
-        "8R80      PNQ VQ#:16079503  Eha(CPE#):02675142*EHA ERCBEG*Gpe/16:52:02Qfc/16:54:24Erfc/16:54:31Fpa/16:57:31Gk/17:11:07Qfg/17:30:00FGzvyrf/0       Rzvyrf/9.9     Tevq/E234O     Znc/524Q2   Nern/FW R EVC HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16079503/02675142",
-        "VASB:Gpe/16:52:02\aQfc/16:54:24\aErfc/16:54:31\aFpa/16:57:31\aGk/17:11:07Qfg/17:30:00\aFGzvyrf/0\aRzvyrf/9.9\aTevq/E234O\aZnc/524Q2\aNern/FW R EVC HEONA");
-
-    qbGrfg("G9",
-        "8R80      PNQ VQ#:16079503  Eha(CPE#):02675142                                                  228 F Jnyahg Nir              **ARJ PNYY NFFVTAZRAG**K:J SVEFG FG/FRPBAQ FG                    Yvsr Guerngravat Rzretrapl NYF Purfg Cnva (aba genhzngvp)    EVCBA          Ncg #1         OYQT#          TCF:37738179  &121125111      CebDN Pbqr:Znc:524Q2",
-        "HAVG:8R80",
-        "VQ:16079503/02675142",
-        "NQQE:228 F Jnyahg Nir",
-        "K:J SVEFG FG/FRPBAQ FG",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Purfg Cnva (aba genhzngvp)",
-        "PVGL:EVCBA",
-        "NCG:1",
-        "TCF:+37.738179,-121.125111",
-        "ZNC:524Q2");
-
-    qbGrfg("G10",
-        "8R80      PNQ VQ#:16079496  Eha(CPE#):02675135                                                  370 Zhyubynaq Qe              **PNAPRY ERFCBAFR**POS-Pnapry Ol SGpe/16:43:16Qfc/16:43:34Erfcbaqvat/16:44:42Fpa/        Pnapryyrq ng/16:54:07Tevq/E242Q     Nern/FW R EVC HEONA",
-        "HAVG:8R80",
-        "VQ:16079496/02675135",
-        "NQQE:370 Zhyubynaq Qe",
-        "PNYY:PNAPRY - POS-Pnapry Ol S");
-
-    qbGrfg("G11",
-        "8R80      PNQ VQ#:16079496  Eha(CPE#):02675135                                                  370 Zhyubynaq Qe              **ARJ PNYY NFFVTAZRAG**K:ZBAGNAN FG/R PNYVSBEAVN FG              Yvsr Guerngravat Rzretrapl NYF Genssvp Nppvqragf             EVCBA          Ncg #VSB       OYQT#          TCF:37742298  &121115811      CebDN Pbqr:Znc:501T9",
-        "HAVG:8R80",
-        "VQ:16079496/02675135",
-        "NQQE:370 Zhyubynaq Qe",
-        "K:ZBAGNAN FG/R PNYVSBEAVN FG",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Genssvp Nppvqragf",
-        "PVGL:EVCBA",
-        "NCG:VSB",
-        "TCF:+37.742298,-121.115811",
-        "ZNC:501T9");
-
-    qbGrfg("G12",
-        "8R80      PNQ VQ#:16079389  Eha(CPE#):02675027*EHA ERCBEG*Gpe/14:17:04Qfc/14:19:35Erfc/14:19:42Fpa/14:31:42Gk/14:45:47Qfg/15:06:47FGzvyrf/0       Rzvyrf/10.3    Tevq/P114      Znc/460N9   Nern/FW S RFP HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16079389/02675027",
-        "VASB:Gpe/14:17:04\aQfc/14:19:35\aErfc/14:19:42\aFpa/14:31:42\aGk/14:45:47Qfg/15:06:47\aFGzvyrf/0\aRzvyrf/10.3\aTevq/P114\aZnc/460N9\aNern/FW S RFP HEONA");
-
-    qbGrfg("G13",
-        "8R80      PNQ VQ#:16079389  Eha(CPE#):02675027UREVGNTR UBHFR NCGF                               1100 Rfpnyba Nir              **ARJ PNYY NFFVTAZRAG**K:R NEGUHE EQ/YN ZRFN FG                  Aba Yvsr Guerngravat NYF       Fvpx Crefba                   RFPNYBA        Ncg #7Q        OYQT#          TCF:37801166  &120996756      CebDN Pbqr:Znc:460N9",
-        "HAVG:8R80",
-        "VQ:16079389/02675027",
-        "CYNPR:UREVGNTR UBHFR NCGF",
-        "NQQE:1100 Rfpnyba Nir",
-        "K:R NEGUHE EQ/YN ZRFN FG",
-        "PNYY:Aba Yvsr Guerngravat NYF/Fvpx Crefba",
-        "PVGL:RFPNYBA",
-        "NCG:7Q",
-        "TCF:+37.801166,-120.996756",
-        "ZNC:460N9");
-
-    qbGrfg("G14",
-        "8R81      PNQ VQ#:16079389  Eha(CPE#):02675025UREVGNTR UBHFR NCGF                               1100 Rfpnyba Nir              **PNAPRY ERFCBAFR**.EN-Ernffvtarq Gpe/14:17:04Qfc/14:17:31Erfcbaqvat/        Fpa/        Pnapryyrq ng/14:19:35Tevq/P114      Nern/FW S RFP HEONA",
-        "HAVG:8R81",
-        "VQ:16079389/02675025",
-        "CYNPR:UREVGNTR UBHFR NCGF",
-        "NQQE:1100 Rfpnyba Nir",
-        "PNYY:PNAPRY - .EN-Ernffvtarq");
-
-    qbGrfg("G15",
-        "8R81      PNQ VQ#:16079389  Eha(CPE#):02675025UREVGNTR UBHFR NCGF                               1100 Rfpnyba Nir              **ARJ PNYY NFFVTAZRAG**K:R NEGUHE EQ/YN ZRFN FG                  Aba Yvsr Guerngravat NYF       Fvpx Crefba                   RFPNYBA        Ncg #7Q        OYQT#          TCF:37801166  &120996756      CebDN Pbqr:Znc:460N9",
-        "HAVG:8R81",
-        "VQ:16079389/02675025",
-        "CYNPR:UREVGNTR UBHFR NCGF",
-        "NQQE:1100 Rfpnyba Nir",
-        "K:R NEGUHE EQ/YN ZRFN FG",
-        "PNYY:Aba Yvsr Guerngravat NYF/Fvpx Crefba",
-        "PVGL:RFPNYBA",
-        "NCG:7Q",
-        "TCF:+37.801166,-120.996756",
-        "ZNC:460N9");
-
-    qbGrfg("G16",
-        "8R80      PNQ VQ#:16079344  Eha(CPE#):02674983CNQQNPX ZUC                                       2505 Wnpxfba Nir              **PNAPRY ERFCBAFR**NZN-Ntnvafg ZrqGpe/12:55:38Qfc/12:55:56Erfcbaqvat/12:55:59Fpa/13:00:30Pnapryyrq ng/13:20:48Tevq/P115      Nern/FW S RFP HEONA",
-        "HAVG:8R80",
-        "VQ:16079344/02674983",
-        "CYNPR:CNQQNPX ZUC",
-        "NQQE:2505 Wnpxfba Nir",
-        "PNYY:PNAPRY - NZN-Ntnvafg Zrq");
-
-    qbGrfg("G17",
-        "8R80      PNQ VQ#:16079344  Eha(CPE#):02674983CNQQNPX ZUC                                       2505 Wnpxfba Nir              **ARJ PNYY NFFVTAZRAG**K:QNIVQ QE/FGNGR UJL 120 R                Aba Yvsr Guerngravat NYF       Fvpx Crefba                   RFPNYBA        Ncg #160       OYQT#          TCF:37794213  &120982570      CebDN Pbqr:Znc:483Q3",
-        "HAVG:8R80",
-        "VQ:16079344/02674983",
-        "CYNPR:CNQQNPX ZUC",
-        "NQQE:2505 Wnpxfba Nir",
-        "K:QNIVQ QE/FGNGR UJL 120 R",
-        "PNYY:Aba Yvsr Guerngravat NYF/Fvpx Crefba",
-        "PVGL:RFPNYBA",
-        "NCG:160",
-        "TCF:+37.794213,-120.982570",
-        "ZNC:483Q3");
-
-    qbGrfg("G18",
-        "8R80      ,Lbh unir orra nffvtarq gb cbfg ng:EVC2 - Evcba Sver Fgngvba 2                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh",
-        "HAVG:8R80",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:EVC2 - Evcba Sver Fgngvba 2",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh");
-
-    qbGrfg("G19",
-        "8R80      PNQ VQ#:16078813  Eha(CPE#):02674452*EHA ERCBEG*Gpe/16:07:17Qfc/16:07:49Erfc/16:09:02Fpa/16:13:05Gk/16:27:25Qfg/16:56:55FGzvyrf/0       Rzvyrf/9.7     Tevq/P115      Znc/483O1   Nern/FW S RFP HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16078813/02674452",
-        "VASB:Gpe/16:07:17\aQfc/16:07:49\aErfc/16:09:02\aFpa/16:13:05\aGk/16:27:25Qfg/16:56:55\aFGzvyrf/0\aRzvyrf/9.7\aTevq/P115\aZnc/483O1\aNern/FW S RFP HEONA");
-
-    qbGrfg("G20",
-        "8R80      PNQ VQ#:16078813  Eha(CPE#):02674452                                                  1242 Fgnavfynhf Fg            **ARJ PNYY NFFVTAZRAG**K:ABEGU FG/LBFRZVGR NIR                   NYF Hetrag Genafsre            Cflpu/No Orunivbe/Fhvpvqr NggrRFPNYBA        Ncg #          OYQT#          TCF:37799378  &120992660      CebDN Pbqr:Znc:483O1",
-        "HAVG:8R80",
-        "VQ:16078813/02674452",
-        "NQQE:1242 Fgnavfynhf Fg",
-        "K:ABEGU FG/LBFRZVGR NIR",
-        "PNYY:NYF Hetrag Genafsre/Cflpu/No Orunivbe/Fhvpvqr Nggr",
-        "PVGL:RFPNYBA",
-        "TCF:+37.799378,-120.992660",
-        "ZNC:483O1");
-
-    qbGrfg("G21",
-        "8R80      PNQ VQ#:16078589  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.",
-        "HAVG:8R80",
-        "VQ:16078589",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.");
-
-    qbGrfg("G22",
-        "8R80      PNQ VQ#:16078589  Eha(CPE#):02674231*EHA ERCBEG*Gpe/10:04:23Qfc/10:04:42Erfc/10:05:52Fpa/10:20:18Gk/10:29:46Qfg/10:51:55FGzvyrf/0       Rzvyrf/10.3    Tevq/P115      Znc/483Q3   Nern/FW S RFP HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16078589/02674231",
-        "VASB:Gpe/10:04:23\aQfc/10:04:42\aErfc/10:05:52\aFpa/10:20:18\aGk/10:29:46Qfg/10:51:55\aFGzvyrf/0\aRzvyrf/10.3\aTevq/P115\aZnc/483Q3\aNern/FW S RFP HEONA");
-
-    qbGrfg("G23",
-        "8R80      PNQ VQ#:16078589  Eha(CPE#):02674231CNQQNPX ZUC                                       2505 Wnpxfba Nir              **ARJ PNYY NFFVTAZRAG**K:QNIVQ QE/FGNGR UJL 120 R                Yvsr Guerngravat Rzretrapl NYF Snyyf                         RFPNYBA        Ncg #FCP-116   OYQT#          TCF:37794213  &120982570      CebDN Pbqr:Znc:483Q3",
-        "HAVG:8R80",
-        "VQ:16078589/02674231",
-        "CYNPR:CNQQNPX ZUC",
-        "NQQE:2505 Wnpxfba Nir",
-        "K:QNIVQ QE/FGNGR UJL 120 R",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Snyyf",
-        "PVGL:RFPNYBA",
-        "NCG:FCP-116",
-        "TCF:+37.794213,-120.982570",
-        "ZNC:483Q3");
-
-    qbGrfg("G24",
-        "8R80      PNQ VQ#:16078558  Eha(CPE#):02674199*EHA ERCBEG*Gpe/08:44:51Qfc/08:45:13Erfc/08:45:51Fpa/08:52:01Gk/09:03:19Qfg/09:25:59FGzvyrf/0       Rzvyrf/10.3    Tevq/N113      Znc/481T7   Nern/FW S RFP FHOHEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16078558/02674199",
-        "VASB:Gpe/08:44:51\aQfc/08:45:13\aErfc/08:45:51\aFpa/08:52:01\aGk/09:03:19Qfg/09:25:59\aFGzvyrf/0\aRzvyrf/10.3\aTevq/N113\aZnc/481T7\aNern/FW S RFP FHOHEONA");
-
-    qbGrfg("G25",
-        "8R80      PNQ VQ#:16078558  Eha(CPE#):02674199                                                  23022 R Penvt Eq              **ARJ PNYY NFFVTAZRAG**K:F FRKGBA EQ/Ab Pebff Fgerrg             Yvsr Guerngravat Rzretrapl NYF Oernguvat Ceboyrzf            RFPNYBA        Ncg #          OYQT#          TCF:37780678  &121028656      CebDN Pbqr:Znc:481T7",
-        "HAVG:8R80",
-        "VQ:16078558/02674199",
-        "NQQE:23022 R Penvt Eq",
-        "K:F FRKGBA EQ",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Oernguvat Ceboyrzf",
-        "PVGL:RFPNYBA",
-        "TCF:+37.780678,-121.028656",
-        "ZNC:481T7");
-
-    qbGrfg("G26",
-        "8R80      PNQ VQ#:16078387  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.",
-        "HAVG:8R80",
-        "VQ:16078387",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.");
-
-    qbGrfg("G27",
-        "8R80      PNQ VQ#:16078387  Eha(CPE#):02674032*EHA ERCBEG*Gpe/22:15:35Qfc/22:16:04Erfc/22:16:44Fpa/22:21:49Gk/22:29:11Qfg/22:45:09FGzvyrf/0       Rzvyrf/10      Tevq/P114      Znc/482T2   Nern/FW S RFP HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16078387/02674032",
-        "VASB:Gpe/22:15:35\aQfc/22:16:04\aErfc/22:16:44\aFpa/22:21:49\aGk/22:29:11Qfg/22:45:09\aFGzvyrf/0\aRzvyrf/10\aTevq/P114\aZnc/482T2\aNern/FW S RFP HEONA");
-
-    qbGrfg("G28",
-        "8R80      PNQ VQ#:16078387  Eha(CPE#):02674032                                                  1605 Wnzrf Fg                 **ARJ PNYY NFFVTAZRAG**K:CNEX NIR/SVEFG FG                       Aba Yvsr Guerngravat NYF       Urng/Pbyq Rkcbfher            RFPNYBA        Ncg #          OYQT#          TCF:37795418  &121000052      CebDN Pbqr:Znc:482T2",
-        "HAVG:8R80",
-        "VQ:16078387/02674032",
-        "NQQE:1605 Wnzrf Fg",
-        "K:CNEX NIR/SVEFG FG",
-        "PNYY:Aba Yvsr Guerngravat NYF/Urng/Pbyq Rkcbfher",
-        "PVGL:RFPNYBA",
-        "TCF:+37.795418,-121.000052",
-        "ZNC:482T2");
-
-    qbGrfg("G29",
-        "8R80      PNQ VQ#:16078313  Eha(CPE#):02673956                                                  25550 R Zntabyvn Eq           **PNAPRY ERFCBAFR**NZN-Ntnvafg ZrqGpe/19:37:37Qfc/19:37:55Erfcbaqvat/19:38:36Fpa/19:48:41Pnapryyrq ng/20:00:22Tevq/R114      Nern/FW S RFP FHOHEONA",
-        "HAVG:8R80",
-        "VQ:16078313/02673956",
-        "NQQE:25550 R Zntabyvn Eq",
-        "PNYY:PNAPRY - NZN-Ntnvafg Zrq");
-
-    qbGrfg("G30",
-        "8R80      PNQ VQ#:16078313  Eha(CPE#):02673956                                                  25550 R Zntabyvn Eq           **ARJ PNYY NFFVTAZRAG**K:F RFPNYBA-ORYYBGN EQ/F PNZCORYY NIR     Yvsr Guerngravat Rzretrapl NYF Cflpu/No Orunivbe/Fhvpvqr NggrRFPNYBA        Ncg #          OYQT#          TCF:37817587  &120996694      CebDN Pbqr:Znc:460N4",
-        "HAVG:8R80",
-        "VQ:16078313/02673956",
-        "NQQE:25550 R Zntabyvn Eq",
-        "K:F RFPNYBA-ORYYBGN EQ/F PNZCORYY NIR",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Cflpu/No Orunivbe/Fhvpvqr Nggr",
-        "PVGL:RFPNYBA",
-        "TCF:+37.817587,-120.996694",
-        "ZNC:460N4");
-
-    qbGrfg("G31",
-        "8R80      PNQ VQ#:16077946  Eha(CPE#):02673595                                                  25302 R QBQQF EQ              **PNAPRY ERFCBAFR**AB-Ab Zrqvpny AGpe/02:06:29Qfc/02:06:49Erfcbaqvat/02:09:31Fpa/02:16:05Pnapryyrq ng/02:29:01Tevq/SNE6O     Nern/FW S RFP EHENY",
-        "HAVG:8R80",
-        "VQ:16077946/02673595",
-        "NQQE:25302 R QBQQF EQ",
-        "PNYY:PNAPRY - AB-Ab Zrqvpny A");
-
-    qbGrfg("G32",
-        "8R80      PNQ VQ#:16077946  Eha(CPE#):02673595                                                  R Qbqqf Eq / F Rfpnyba-oryybgn**ERFCBAFR NQQERFF PUNATR**K:                                        Yvsr Guerngravat Rzretrapl NYF Genssvp Nppvqragf             RFPNYBA                            Ncg#:          OYQT#:          TCF:37856669  &121001055",
-        "HAVG:8R80",
-        "VQ:16077946/02673595",
-        "NQQE:R Qbqqf Eq & F Rfpnyba-oryybgn",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Genssvp Nppvqragf",
-        "PVGL:RFPNYBA",
-        "TCF:+37.856669,-121.001055");
-
-    qbGrfg("G33",
-        "8R80      PNQ VQ#:16077946  Eha(CPE#):02673595                                                  R Qbqqf Eq / F Rfpnyba-oryybgn**ARJ PNYY NFFVTAZRAG**K:                                        Yvsr Guerngravat Rzretrapl NYF Genssvp Nppvqragf             RFPNYBA        Ncg #          OYQT#          TCF:37856675  &120998634      CebDN Pbqr:Znc:436T2",
-        "HAVG:8R80",
-        "VQ:16077946/02673595",
-        "NQQE:R Qbqqf Eq & F Rfpnyba-oryybgn",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Genssvp Nppvqragf",
-        "PVGL:RFPNYBA",
-        "TCF:+37.856675,-120.998634",
-        "ZNC:436T2");
-
-    qbGrfg("G34",
-        "8R80      PNQ VQ#:16077751  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.",
-        "HAVG:8R80",
-        "VQ:16077751",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.");
-
-    qbGrfg("G35",
-        "8R80      PNQ VQ#:16077751  Eha(CPE#):02673397*EHA ERCBEG*Gpe/18:07:05Qfc/18:07:18Erfc/18:08:58Fpa/18:13:11Gk/18:24:12Qfg/18:49:15FGzvyrf/0       Rzvyrf/10.3    Tevq/P115      Znc/483Q3   Nern/FW S RFP HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16077751/02673397",
-        "VASB:Gpe/18:07:05\aQfc/18:07:18\aErfc/18:08:58\aFpa/18:13:11\aGk/18:24:12Qfg/18:49:15\aFGzvyrf/0\aRzvyrf/10.3\aTevq/P115\aZnc/483Q3\aNern/FW S RFP HEONA");
-
-    qbGrfg("G36",
-        "8R80      PNQ VQ#:16077751  Eha(CPE#):02673397CNQQNPX ZUC                                       2505 Wnpxfba Nir              **ARJ PNYY NFFVTAZRAG**K:QNIVQ QE/FGNGR UJL 120 R                Yvsr Guerngravat Rzretrapl NYF Purfg Cnva (aba genhzngvp)    RFPNYBA        Ncg #113       OYQT#          TCF:37794213  &120982570      CebDN Pbqr:Znc:483Q3",
-        "HAVG:8R80",
-        "VQ:16077751/02673397",
-        "CYNPR:CNQQNPX ZUC",
-        "NQQE:2505 Wnpxfba Nir",
-        "K:QNIVQ QE/FGNGR UJL 120 R",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Purfg Cnva (aba genhzngvp)",
-        "PVGL:RFPNYBA",
-        "NCG:113",
-        "TCF:+37.794213,-120.982570",
-        "ZNC:483Q3");
-
-    qbGrfg("G37",
-        "8R80      PNQ VQ#:16077466  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.",
-        "HAVG:8R80",
-        "VQ:16077466",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.");
-
-    qbGrfg("G38",
-        "8R80      PNQ VQ#:16077466  Eha(CPE#):02673119*EHA ERCBEG*Gpe/03:08:06Qfc/03:08:31Erfc/03:10:40Fpa/03:14:40Gk/03:26:18Qfg/03:43:38FGzvyrf/0       Rzvyrf/10.3    Tevq/P114      Znc/482S1   Nern/FW S RFP HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16077466/02673119",
-        "VASB:Gpe/03:08:06\aQfc/03:08:31\aErfc/03:10:40\aFpa/03:14:40\aGk/03:26:18Qfg/03:43:38\aFGzvyrf/0\aRzvyrf/10.3\aTevq/P114\aZnc/482S1\aNern/FW S RFP HEONA");
-
-    qbGrfg("G39",
-        "8R80      PNQ VQ#:16077466  Eha(CPE#):02673119                                                  1341 Vejva Nir                **ARJ PNYY NFFVTAZRAG**K:LBFRZVGR NIR/PNYVSBEAVN FG              Aba Yvsr Guerngravat NYF       Cflpu/No Orunivbe/Fhvpvqr NggrRFPNYBA        Ncg #          OYQT#          TCF:37798093  &121004041      CebDN Pbqr:Znc:482S1",
-        "HAVG:8R80",
-        "VQ:16077466/02673119",
-        "NQQE:1341 Vejva Nir",
-        "K:LBFRZVGR NIR/PNYVSBEAVN FG",
-        "PNYY:Aba Yvsr Guerngravat NYF/Cflpu/No Orunivbe/Fhvpvqr Nggr",
-        "PVGL:RFPNYBA",
-        "TCF:+37.798093,-121.004041",
-        "ZNC:482S1");
-
-    qbGrfg("G40",
-        "8R80      PNQ VQ#:16077168  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.",
-        "HAVG:8R80",
-        "VQ:16077168",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.");
-
-    qbGrfg("G41",
-        "8R80      PNQ VQ#:16077168  Eha(CPE#):02672846*EHA ERCBEG*Gpe/14:56:01Qfc/14:56:25Erfc/14:57:44Fpa/14:59:10Gk/15:08:43Qfg/15:30:21FGzvyrf/0       Rzvyrf/9.3     Tevq/P114      Znc/483N3   Nern/FW S RFP HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16077168/02672846",
-        "VASB:Gpe/14:56:01\aQfc/14:56:25\aErfc/14:57:44\aFpa/14:59:10\aGk/15:08:43Qfg/15:30:21\aFGzvyrf/0\aRzvyrf/9.3\aTevq/P114\aZnc/483N3\aNern/FW S RFP HEONA");
-
-    qbGrfg("G42",
-        "8R80      PNQ VQ#:16077168  Eha(CPE#):02672846                                                  Svefg Fg / Zp Urael Nir       **ARJ PNYY NFFVTAZRAG**K:                                        Yvsr Guerngravat Rzretrapl NYF Oernguvat Ceboyrzf            RFPNYBA        Ncg #PBEARE    OYQT#          TCF:37794339  &120996577      CebDN Pbqr:Znc:483N3",
-        "HAVG:8R80",
-        "VQ:16077168/02672846",
-        "NQQE:Svefg Fg & Zp Urael Nir",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Oernguvat Ceboyrzf",
-        "PVGL:RFPNYBA",
-        "NCG:PBEARE",
-        "TCF:+37.794339,-120.996577",
-        "ZNC:483N3");
-
-    qbGrfg("G43",
-        "8R80      ,Lbh unir orra nffvtarq gb cbfg ng:EVC3 - Evcba Sver Fgngvba 3                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh",
-        "HAVG:8R80",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:EVC3 - Evcba Sver Fgngvba 3",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh");
-
-    qbGrfg("G44",
-        "8R80      PNQ VQ#:16076987  Eha(CPE#):02672665*EHA ERCBEG*Gpe/07:51:03Qfc/07:51:18Erfc/07:52:46Fpa/07:56:05Gk/08:08:54Qfg/08:26:47FGzvyrf/0       Rzvyrf/10.4    Tevq/P115      Znc/483Q1   Nern/FW S RFP HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16076987/02672665",
-        "VASB:Gpe/07:51:03\aQfc/07:51:18\aErfc/07:52:46\aFpa/07:56:05\aGk/08:08:54Qfg/08:26:47\aFGzvyrf/0\aRzvyrf/10.4\aTevq/P115\aZnc/483Q1\aNern/FW S RFP HEONA");
-
-    qbGrfg("G45",
-        "8R80      PNQ VQ#:16076987  Eha(CPE#):02672665                                                  2409 Znggurj Ya               **ARJ PNYY NFFVTAZRAG**K:WHFGVA QE/ZNGGURJ PG                    Yvsr Guerngravat Rzretrapl NYF Snyyf                         RFPNYBA        Ncg #          OYQT#          TCF:37799451  &120982602      CebDN Pbqr:Znc:483Q1",
-        "HAVG:8R80",
-        "VQ:16076987/02672665",
-        "NQQE:2409 Znggurj Ya",
-        "K:WHFGVA QE/ZNGGURJ PG",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Snyyf",
-        "PVGL:RFPNYBA",
-        "TCF:+37.799451,-120.982602",
-        "ZNC:483Q1");
-
-    qbGrfg("G46",
-        "8R80      PNQ VQ#:16076703  Eha(CPE#):02672378                                                  20767 R Bnxjbbq Eq            **PNAPRY ERFCBAFR**POS-Pnapry Ol SGpe/17:28:05Qfc/17:28:13Erfcbaqvat/17:29:18Fpa/        Pnapryyrq ng/17:39:14Tevq/SNE6O     Nern/FW S SNE EHENY",
-        "HAVG:8R80",
-        "VQ:16076703/02672378",
-        "NQQE:20767 R Bnxjbbq Eq",
-        "PNYY:PNAPRY - POS-Pnapry Ol S");
-
-    qbGrfg("G47",
-        "8R80      PNQ VQ#:16076703  Eha(CPE#):02672378                                                  20767 R Bnxjbbq Eq            **ARJ PNYY NFFVTAZRAG**K:F PBHAGEL EQ/R YVGGYR WBUA EQ           Yvsr Guerngravat Rzretrapl NYF Qvnorgvp Ceboyrzf             FGBPXGBA       Ncg #          OYQT#          TCF:37910925  &121058635      CebDN Pbqr:Znc:386T3",
-        "HAVG:8R80",
-        "VQ:16076703/02672378",
-        "NQQE:20767 R Bnxjbbq Eq",
-        "K:F PBHAGEL EQ/R YVGGYR WBUA EQ",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Qvnorgvp Ceboyrzf",
-        "PVGL:FGBPXGBA",
-        "TCF:+37.910925,-121.058635",
-        "ZNC:386T3");
-
-    qbGrfg("G48",
-        "8R80      PNQ VQ#:16076530  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.",
-        "HAVG:8R80",
-        "VQ:16076530",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.");
-
-    qbGrfg("G49",
-        "8R80      PNQ VQ#:16076530  Eha(CPE#):02672197*EHA ERCBEG*Gpe/12:06:27Qfc/12:06:37Erfc/12:06:39Fpa/12:06:41Gk/12:29:17Qfg/12:52:52FGzvyrf/0       Rzvyrf/10.7    Tevq/O114      Znc/482Q3   Nern/FW S RFP HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16076530/02672197",
-        "VASB:Gpe/12:06:27\aQfc/12:06:37\aErfc/12:06:39\aFpa/12:06:41\aGk/12:29:17Qfg/12:52:52\aFGzvyrf/0\aRzvyrf/10.7\aTevq/O114\aZnc/482Q3\aNern/FW S RFP HEONA");
-
-    qbGrfg("G50",
-        "8R80      PNQ VQ#:16076530  Eha(CPE#):02672197                                                  1738 Evrfyvat Jnl             **ARJ PNYY NFFVTAZRAG**K:FHYGNAN JNL/INYQNCRAN PG                Yvsr Guerngravat Rzretrapl NYF Fvpx Crefba                   RFPNYBA        Ncg #          OYQT#          TCF:37793015  &121011328      CebDN Pbqr:Znc:482Q3",
-        "HAVG:8R80",
-        "VQ:16076530/02672197",
-        "NQQE:1738 Evrfyvat Jnl",
-        "K:FHYGNAN JNL/INYQNCRAN PG",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Fvpx Crefba",
-        "PVGL:RFPNYBA",
-        "TCF:+37.793015,-121.011328",
-        "ZNC:482Q3");
-
-    qbGrfg("G51",
-        "8R81      PNQ VQ#:16076126  Eha(CPE#):02671804*EHA ERCBEG*Gpe/15:49:30Qfc/15:49:50Erfc/15:51:08Fpa/15:55:15Gk/16:26:03Qfg/16:51:56FGzvyrf/0       Rzvyrf/11.3    Tevq/P115      Znc/483R1   Nern/FW S RFP HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R81",
-        "VQ:16076126/02671804",
-        "VASB:Gpe/15:49:30\aQfc/15:49:50\aErfc/15:51:08\aFpa/15:55:15\aGk/16:26:03Qfg/16:51:56\aFGzvyrf/0\aRzvyrf/11.3\aTevq/P115\aZnc/483R1\aNern/FW S RFP HEONA");
-
-    qbGrfg("G52",
-        "8R81      PNQ VQ#:16076126  Eha(CPE#):02671804                                                  2504 Angunavry Pg             **ARJ PNYY NFFVTAZRAG**K:GUNQQRBHF QE/Ab Pebff Fgerrg            Yvsr Guerngravat Rzretrapl NYF Urng/Pbyq Rkcbfher            RFPNYBA        Ncg #          OYQT#          TCF:37797981  &120979731      CebDN Pbqr:Znc:483R1",
-        "HAVG:8R81",
-        "VQ:16076126/02671804",
-        "NQQE:2504 Angunavry Pg",
-        "K:GUNQQRBHF QE",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Urng/Pbyq Rkcbfher",
-        "PVGL:RFPNYBA",
-        "TCF:+37.797981,-120.979731",
-        "ZNC:483R1");
-
-    qbGrfg("G53",
-        "8R80      PNQ VQ#:16076046  Eha(CPE#):02671722*EHA ERCBEG*Gpe/12:45:39Qfc/12:46:48Erfc/12:47:35Fpa/12:49:49Gk/13:02:38Qfg/13:31:06FGzvyrf/0       Rzvyrf/17.2    Tevq/Y173      Znc/477Q7   Nern/FW Q ZGF_7R HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16076046/02671722",
-        "VASB:Gpe/12:45:39\aQfc/12:46:48\aErfc/12:47:35\aFpa/12:49:49\aGk/13:02:38Qfg/13:31:06\aFGzvyrf/0\aRzvyrf/17.2\aTevq/Y173\aZnc/477Q7\aNern/FW Q ZGF_7R HEONA");
-
-    qbGrfg("G54",
-        "8R81      ,Lbh unir orra nffvtarq gb cbfg ng:RFPNYBA NZOHYNAPR                                                               Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh",
-        "HAVG:8R81",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:RFPNYBA NZOHYNAPR",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh");
-
-    qbGrfg("G55",
-        "8R81      ,Lbh unir orra nffvtarq gb cbfg ng:EVC3 - Evcba Sver Fgngvba 3                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh",
-        "HAVG:8R81",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:EVC3 - Evcba Sver Fgngvba 3",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh");
-
-    qbGrfg("G56",
-        "8R80      PNQ VQ#:16076046  Eha(CPE#):02671722OHFVARFF                                          12700 R Tenirf Eq             **ARJ PNYY NFFVTAZRAG**K:F NHFGVA EQ/F WNPX GBAR EQ              Yvsr Guerngravat Rzretrapl NYF Urneg Ceboyrzf/N.V.P.Q.       ZNAGRPN        Ncg #          OYQT#          TCF:37779366  &121152834      CebDN Pbqr:Znc:477Q7",
-        "HAVG:8R80",
-        "VQ:16076046/02671722",
-        "CYNPR:OHFVARFF",
-        "NQQE:12700 R Tenirf Eq",
-        "K:F NHFGVA EQ/F WNPX GBAR EQ",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Urneg Ceboyrzf/N.V.P.Q.",
-        "PVGL:ZNAGRPN",
-        "TCF:+37.779366,-121.152834",
-        "ZNC:477Q7");
-
-    qbGrfg("G57",
-        "8R80      PNQ VQ#:16076042  Eha(CPE#):02671718ONEAJBBQ ERFGNHENAG                               338 R Znva Fg                 **PNAPRY ERFCBAFR**.EN-Ernffvtarq Gpe/12:39:55Qfc/12:40:30Erfcbaqvat/12:41:42Fpa/        Pnapryyrq ng/12:42:06Tevq/E244O     Nern/FW R EVC HEONA",
-        "HAVG:8R80",
-        "VQ:16076042/02671718",
-        "CYNPR:ONEAJBBQ ERFGNHENAG",
-        "NQQE:338 R Znva Fg",
-        "PNYY:PNAPRY - .EN-Ernffvtarq");
-
-    qbGrfg("G58",
-        "8R80      PNQ VQ#:16076042  Eha(CPE#):02671718ONEAJBBQ ERFGNHENAG                               338 R Znva Fg                 **ARJ PNYY NFFVTAZRAG**K:A UJL 99 SEBAGNTR EQ R/BIREPEBFFVAT     Yvsr Guerngravat Rzretrapl NYF Fgebxr (PIN)                  EVCBA          Ncg #CXT YBG   OYQT#          TCF:37739384  &121119624      CebDN Pbqr:Znc:524S1",
-        "HAVG:8R80",
-        "VQ:16076042/02671718",
-        "CYNPR:ONEAJBBQ ERFGNHENAG",
-        "NQQE:338 R Znva Fg",
-        "K:A UJL 99 SEBAGNTR EQ R/BIREPEBFFVAT",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Fgebxr (PIN)",
-        "PVGL:EVCBA",
-        "NCG:CXT YBG",
-        "TCF:+37.739384,-121.119624",
-        "ZNC:524S1");
-
-    qbGrfg("G59",
-        "8R80      PNQ VQ#:16075751  Eha(CPE#):02671439                                                  2118 Pbyrl Nir                **PNAPRY ERFCBAFR**AB-Ab Zrqvpny AGpe/19:58:11Qfc/19:59:42Erfcbaqvat/19:59:47Fpa/20:03:01Pnapryyrq ng/20:13:35Tevq/O115      Nern/FW S RFP HEONA",
-        "HAVG:8R80",
-        "VQ:16075751/02671439",
-        "NQQE:2118 Pbyrl Nir",
-        "PNYY:PNAPRY - AB-Ab Zrqvpny A");
-
-    qbGrfg("G60",
-        "8R80      PNQ VQ#:16075751  Eha(CPE#):02671439                                                  2118 Pbyrl Nir                **ARJ PNYY NFFVTAZRAG**K:SENAXYVA FG/FGEBAT NIR                  Yvsr Guerngravat Rzretrapl NYF Nyyretvrf/Rairabzngvbaf       RFPNYBA        Ncg #          OYQT#          TCF:37791727  &120987535      CebDN Pbqr:Znc:483P3",
-        "HAVG:8R80",
-        "VQ:16075751/02671439",
-        "NQQE:2118 Pbyrl Nir",
-        "K:SENAXYVA FG/FGEBAT NIR",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Nyyretvrf/Rairabzngvbaf",
-        "PVGL:RFPNYBA",
-        "TCF:+37.791727,-120.987535",
-        "ZNC:483P3");
-
-    qbGrfg("G61",
-        "8R81      PNQ VQ#:16075751  Eha(CPE#):02671436                                                  2118 Pbyrl Nir                **PNAPRY ERFCBAFR**.EN-Ernffvtarq Gpe/19:58:11Qfc/19:58:23Erfcbaqvat/        Fpa/        Pnapryyrq ng/19:59:42Tevq/O115      Nern/FW S RFP HEONA",
-        "HAVG:8R81",
-        "VQ:16075751/02671436",
-        "NQQE:2118 Pbyrl Nir",
-        "PNYY:PNAPRY - .EN-Ernffvtarq");
-
-    qbGrfg("G62",
-        "8R81      PNQ VQ#:16075751  Eha(CPE#):02671436                                                  2118 Pbyrl Nir                **ARJ PNYY NFFVTAZRAG**K:SENAXYVA FG/FGEBAT NIR                  Yvsr Guerngravat Rzretrapl NYF Nyyretvrf/Rairabzngvbaf       RFPNYBA        Ncg #          OYQT#          TCF:37791727  &120987535      CebDN Pbqr:Znc:483P3",
-        "HAVG:8R81",
-        "VQ:16075751/02671436",
-        "NQQE:2118 Pbyrl Nir",
-        "K:SENAXYVA FG/FGEBAT NIR",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Nyyretvrf/Rairabzngvbaf",
-        "PVGL:RFPNYBA",
-        "TCF:+37.791727,-120.987535",
-        "ZNC:483P3");
-
-    qbGrfg("G63",
-        "8R80      PNQ VQ#:16075709  Eha(CPE#):02671400*EHA ERCBEG*Gpe/18:19:43Qfc/18:20:29Erfc/18:21:18Fpa/18:28:34Gk/18:40:17Qfg/19:00:08FGzvyrf/0       Rzvyrf/9.6     Tevq/Q346      Znc/508P1   Nern/FW S RFP HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16075709/02671400",
-        "VASB:Gpe/18:19:43\aQfc/18:20:29\aErfc/18:21:18\aFpa/18:28:34\aGk/18:40:17Qfg/19:00:08\aFGzvyrf/0\aRzvyrf/9.6\aTevq/Q346\aZnc/508P1\aNern/FW S RFP HEONA");
-
-    qbGrfg("G64",
-        "8R80      PNQ VQ#:16075709  Eha(CPE#):02671400                                                  R Evire Eq / F Zp Oevqr Nir   **ARJ PNYY NFFVTAZRAG**K:                                        Yvsr Guerngravat Rzretrapl NYF Oernguvat Ceboyrzf            RFPNYBA        Ncg #          OYQT#          TCF:37769256  &120931303      CebDN Pbqr:Znc:508P1",
-        "HAVG:8R80",
-        "VQ:16075709/02671400",
-        "NQQE:R Evire Eq & F Zp Oevqr Nir",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Oernguvat Ceboyrzf",
-        "PVGL:RFPNYBA",
-        "TCF:+37.769256,-120.931303",
-        "ZNC:508P1");
-
-    qbGrfg("G65",
-        "8R80      PNQ VQ#:16075444  Eha(CPE#):02671135*EHA ERCBEG*Gpe/09:18:48Qfc/09:18:55Erfc/09:19:24Fpa/09:25:38Gk/09:38:21Qfg/10:02:02FGzvyrf/0       Rzvyrf/15.4    Tevq/E261      Znc/480P1   Nern/FW R EVC_1 FHOHEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16075444/02671135",
-        "VASB:Gpe/09:18:48\aQfc/09:18:55\aErfc/09:19:24\aFpa/09:25:38\aGk/09:38:21Qfg/10:02:02\aFGzvyrf/0\aRzvyrf/15.4\aTevq/E261\aZnc/480P1\aNern/FW R EVC_1 FHOHEONA");
-
-    qbGrfg("G66",
-        "8R80      PNQ VQ#:16075444  Eha(CPE#):02671135120 WJB PNEEBYGBA                                 18000 - 19349 Fgngr Ujl 120 R **ARJ PNYY NFFVTAZRAG**K:F JNTARE EQ/F PNEEBYGBA EQ              Yvsr Guerngravat Rzretrapl NYF Genssvp Nppvqragf             EVCBA          Ncg #          OYQT#          TCF:37798251  &121072734      CebDN Pbqr:Znc:480P1",
-        "HAVG:8R80",
-        "VQ:16075444/02671135",
-        "CYNPR:120 WJB PNEEBYGBA",
-        "NQQE:18000 - 19349 Fgngr Ujl 120 R",
-        "ZNQQE:18000 FGNGR 120 R",
-        "K:F JNTARE EQ/F PNEEBYGBA EQ",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Genssvp Nppvqragf",
-        "PVGL:EVCBA",
-        "TCF:+37.798251,-121.072734",
-        "ZNC:480P1");
-
-    qbGrfg("G67",
-        "8R81      PNQ VQ#:16075424  Eha(CPE#):02671118*EHA ERCBEG*Gpe/08:20:34Qfc/08:21:53Erfc/08:21:57Fpa/08:24:22Gk/08:31:38Qfg/08:51:27FGzvyrf/0       Rzvyrf/9.3     Tevq/P114      Znc/482T2   Nern/FW S RFP HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R81",
-        "VQ:16075424/02671118",
-        "VASB:Gpe/08:20:34\aQfc/08:21:53\aErfc/08:21:57\aFpa/08:24:22\aGk/08:31:38Qfg/08:51:27\aFGzvyrf/0\aRzvyrf/9.3\aTevq/P114\aZnc/482T2\aNern/FW S RFP HEONA");
-
-    qbGrfg("G68",
-        "8R81      PNQ VQ#:16075424  Eha(CPE#):02671118TBYQRA NPERF OBNEQ & PNER                         1101 Pnyvsbeavn Fg            **ARJ PNYY NFFVTAZRAG**K:CVBARRE FG/WBUA FG                      Yvsr Guerngravat Rzretrapl NYF Hapbafpvbhf/Snvagvat          RFPNYBA        Ncg #QVAVATEZ  OYQT#          TCF:37796576  &120998453      CebDN Pbqr:Znc:482T2",
-        "HAVG:8R81",
-        "VQ:16075424/02671118",
-        "CYNPR:TBYQRA NPERF OBNEQ & PNER",
-        "NQQE:1101 Pnyvsbeavn Fg",
-        "K:CVBARRE FG/WBUA FG",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Hapbafpvbhf/Snvagvat",
-        "PVGL:RFPNYBA",
-        "NCG:QVAVATEZ",
-        "TCF:+37.796576,-120.998453",
-        "ZNC:482T2");
-
-    qbGrfg("G69",
-        "8R80      PNQ VQ#:16075424  Eha(CPE#):02671117TBYQRA NPERF OBNEQ & PNER                         1101 Pnyvsbeavn Fg            **PNAPRY ERFCBAFR**.EN-Ernffvtarq Gpe/08:20:34Qfc/08:20:47Erfcbaqvat/        Fpa/        Pnapryyrq ng/08:21:52Tevq/P114      Nern/FW S RFP HEONA",
-        "HAVG:8R80",
-        "VQ:16075424/02671117",
-        "CYNPR:TBYQRA NPERF OBNEQ & PNER",
-        "NQQE:1101 Pnyvsbeavn Fg",
-        "PNYY:PNAPRY - .EN-Ernffvtarq");
-
-    qbGrfg("G70",
-        "8R80      PNQ VQ#:16075424  Eha(CPE#):02671117TBYQRA NPERF OBNEQ & PNER                         1101 Pnyvsbeavn Fg            **ARJ PNYY NFFVTAZRAG**K:CVBARRE FG/WBUA FG                      Yvsr Guerngravat Rzretrapl NYF Hapbafpvbhf/Snvagvat          RFPNYBA        Ncg #QVAVATEZ  OYQT#          TCF:37796576  &120998453      CebDN Pbqr:Znc:482T2",
-        "HAVG:8R80",
-        "VQ:16075424/02671117",
-        "CYNPR:TBYQRA NPERF OBNEQ & PNER",
-        "NQQE:1101 Pnyvsbeavn Fg",
-        "K:CVBARRE FG/WBUA FG",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Hapbafpvbhf/Snvagvat",
-        "PVGL:RFPNYBA",
-        "NCG:QVAVATEZ",
-        "TCF:+37.796576,-120.998453",
-        "ZNC:482T2");
-
-    qbGrfg("G71",
-        "8R80      PNQ VQ#:16075229  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.",
-        "HAVG:8R80",
-        "VQ:16075229",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.");
-
-    qbGrfg("G72",
-        "8R80      PNQ VQ#:16075229  Eha(CPE#):02670927*EHA ERCBEG*Gpe/19:10:39Qfc/19:10:50Erfc/19:11:46Fpa/19:17:39Gk/19:30:33Qfg/19:46:51FGzvyrf/0       Rzvyrf/10.9    Tevq/P114      Znc/460N9   Nern/FW S RFP HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16075229/02670927",
-        "VASB:Gpe/19:10:39\aQfc/19:10:50\aErfc/19:11:46\aFpa/19:17:39\aGk/19:30:33Qfg/19:46:51\aFGzvyrf/0\aRzvyrf/10.9\aTevq/P114\aZnc/460N9\aNern/FW S RFP HEONA");
-
-    qbGrfg("G73",
-        "8R80      PNQ VQ#:16075229  Eha(CPE#):02670927UREVGNTR UBHFR NCGF                               1100 Rfpnyba Nir              **ARJ PNYY NFFVTAZRAG**K:R NEGUHE EQ/YN ZRFN FG                  Aba Yvsr Guerngravat NYF       Snyyf                         RFPNYBA        Ncg #7Q        OYQT#          TCF:37801166  &120996756      CebDN Pbqr:Znc:460N9",
-        "HAVG:8R80",
-        "VQ:16075229/02670927",
-        "CYNPR:UREVGNTR UBHFR NCGF",
-        "NQQE:1100 Rfpnyba Nir",
-        "K:R NEGUHE EQ/YN ZRFN FG",
-        "PNYY:Aba Yvsr Guerngravat NYF/Snyyf",
-        "PVGL:RFPNYBA",
-        "NCG:7Q",
-        "TCF:+37.801166,-120.996756",
-        "ZNC:460N9");
-
-    qbGrfg("G74",
-        "8R80      ,Lbh unir orra nffvtarq gb cbfg ng:ZQN99 - Ujl 99 & Lbfrzvgr Nir                                                   Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh",
-        "HAVG:8R80",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:ZQN99 - Ujl 99 & Lbfrzvgr Nir",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh");
-
-    qbGrfg("G75",
-        "8R80      PNQ VQ#:16075118  Eha(CPE#):02670816*EHA ERCBEG*Gpe/15:53:24Qfc/15:55:18Erfc/15:56:27Fpa/16:06:50Gk/16:15:45Qfg/16:17:05FGzvyrf/0       Rzvyrf/0.2     Tevq/Z24O      Znc/474P2   Nern/FW Q_4 HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16075118/02670816",
-        "VASB:Gpe/15:53:24\aQfc/15:55:18\aErfc/15:56:27\aFpa/16:06:50\aGk/16:15:45Qfg/16:17:05\aFGzvyrf/0\aRzvyrf/0.2\aTevq/Z24O\aZnc/474P2\aNern/FW Q_4 HEONA");
-
-    qbGrfg("G76",
-        "8R80      PNQ VQ#:16075118  Eha(CPE#):02670816XNVFRE PYVAVP - ZNAGRPN                           1721 J LBFRZVGR NIR           **ARJ PNYY NFFVTAZRAG**K:JVAGREF QE/FG QBZVAVPF QE               Xnvfre NYF Y1 Hetrag           Vagresnpvyvgl Genafsre (VSG)  ZNAGRPN        Ncg #EZ 20     OYQT#          TCF:37797344  &121244259      CebDN Pbqr:Znc:474P2",
-        "HAVG:8R80",
-        "VQ:16075118/02670816",
-        "CYNPR:XNVFRE PYVAVP - ZNAGRPN",
-        "NQQE:1721 J LBFRZVGR NIR",
-        "K:JVAGREF QE/FG QBZVAVPF QE",
-        "PNYY:Xnvfre NYF Y1 Hetrag/Vagresnpvyvgl Genafsre (VSG)",
-        "PVGL:ZNAGRPN",
-        "NCG:EZ 20",
-        "TCF:+37.797344,-121.244259",
-        "ZNC:474P2");
-
-    qbGrfg("G77",
-        "8R80      PNQ VQ#:16074842  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.",
-        "HAVG:8R80",
-        "VQ:16074842",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.");
-
-    qbGrfg("G78",
-        "8R80      PNQ VQ#:16074842  Eha(CPE#):02670538*EHA ERCBEG*Gpe/05:03:30Qfc/05:03:43Erfc/05:04:34Fpa/05:19:20Gk/05:19:21Qfg/05:36:22FGzvyrf/0       Rzvyrf/9.4     Tevq/P114      Znc/482T2   Nern/FW S RFP HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8R80",
-        "VQ:16074842/02670538",
-        "VASB:Gpe/05:03:30\aQfc/05:03:43\aErfc/05:04:34\aFpa/05:19:20\aGk/05:19:21Qfg/05:36:22\aFGzvyrf/0\aRzvyrf/9.4\aTevq/P114\aZnc/482T2\aNern/FW S RFP HEONA");
-
-    qbGrfg("G79",
-        "8R80      PNQ VQ#:16074842  Eha(CPE#):02670538TBYQRA NPERF OBNEQ & PNER                         1101 Pnyvsbeavn Fg            **ARJ PNYY NFFVTAZRAG**K:CVBARRE FG/WBUA FG                      Yvsr Guerngravat Rzretrapl NYF Noqbzvany Cnva                RFPNYBA        Ncg #U         OYQT#          TCF:37796576  &120998453      CebDN Pbqr:Znc:482T2",
-        "HAVG:8R80",
-        "VQ:16074842/02670538",
-        "CYNPR:TBYQRA NPERF OBNEQ & PNER",
-        "NQQE:1101 Pnyvsbeavn Fg",
-        "K:CVBARRE FG/WBUA FG",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Noqbzvany Cnva",
-        "PVGL:RFPNYBA",
-        "NCG:U",
-        "TCF:+37.796576,-120.998453",
-        "ZNC:482T2");
-
-  }
-
-  @Grfg
   choyvp ibvq grfgQYNFnaWbndhvaSQ() {
 
     qbGrfg("G1",
@@ -13810,6 +13143,24 @@ choyvp pynff PNFnaWbndhvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgRfpnybaSverCebgrpgvbaQvfgevpgWEHT() {
 
+    qbGrfg("K1",
+        "8180      PNQ VQ#:16088333  EHA(CPE#):07006053                                                  25909 R Pngurevar Jnl         **ARJ PNYY NFFVTAZRAG**K:Nfujbbq Qe/F Fg Wbua Nir                C1 911 Y&F J/Sver              32Q00- Hax Ceboyrz (Zna Qbja) RFPNYBA        Ncg#          OYQT#          TCF:37786684  &120991312      CebDN Pbqr:Znc:483O5",
+        "HAVG:8180",
+        "VQ:16088333/07006053",
+        "NQQE:25909 R Pngurevar Jnl",
+        "K:Nfujbbq Qe/F Fg Wbua Nir",
+        "PNYY:C1 911 Y&F J/Sver/32Q00- Hax Ceboyrz (Zna Qbja)",
+        "PVGL:RFPNYBA",
+        "TCF:+37.786684,-120.991312",
+        "ZNC:483O5");
+
+    qbGrfg("K2",
+        "EHA ERCBEG PNQ #RFY-160577      RFYN      Qvfcngpurq:00:44:00Raebhgr:        Ba Fprar:        NBE:00:47:32",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:RFYN",
+        "VQ:RFY-160577",
+        "VASB:Qvfcngpurq:00:44:00\aRaebhgr:\aBa Fprar:\aNBE:00:47:32");
+
     qbGrfg("G1",
         "RFP-160506          R11     08:01:1616000208",
         "GLCR:EHA_ERCBEG",
@@ -16106,324 +15457,18 @@ choyvp pynff PNFnaWbndhvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
 
   @Grfg
-  choyvp ibvq grfgZnagrpnQvfgevpgNzohynaprFreivprWEHT() {
-
-    qbGrfg("G1",
-        "8151      , Lbh unir orra nffvtarq gb cbfg ng:YNGUEBC FGNGVBA 51                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8151",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:YNGUEBC FGNGVBA 51",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G2",
-        "8123      16003996  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
-        "HAVG:8123",
-        "VQ:16003996",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
-
-    qbGrfg("G3",
-        "8211      , Lbh unir orra nffvtarq gb cbfg ng:XNVFRE ZNAGRPN UBFCVGNY                                                         Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8211",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:XNVFRE ZNAGRPN UBFCVGNY",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G4",
-        "8152      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 52                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8152",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:ZNAGRPN FGNGVBA 52",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G5",
-        "8153      16003985  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
-        "HAVG:8153",
-        "VQ:16003985",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
-
-    qbGrfg("G6",
-        "8152      16003937  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
-        "HAVG:8152",
-        "VQ:16003937",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
-
-    qbGrfg("G7",
-        "8177      16003896  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
-        "HAVG:8177",
-        "VQ:16003896",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
-
-    qbGrfg("G8",
-        "8123      16003888  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
-        "HAVG:8123",
-        "VQ:16003888",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
-
-    qbGrfg("G9",
-        "8150      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (2aq hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8150",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:ZNAGRPN FGNGVBA 50 (2aq hc)",
-        "ZNQQE:ZNAGRPN FGNGVBA 50",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G10",
-        "8153      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (2aq hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8153",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:ZNAGRPN FGNGVBA 50 (2aq hc)",
-        "ZNQQE:ZNAGRPN FGNGVBA 50",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G11",
-        "8150      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (1fg hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8150",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:ZNAGRPN FGNGVBA 50 (1fg hc)",
-        "ZNQQE:ZNAGRPN FGNGVBA 50",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G12",
-        "8150      16003817  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
-        "HAVG:8150",
-        "VQ:16003817",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
-
-    qbGrfg("G13",
-        "8153      16003824  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
-        "HAVG:8153",
-        "VQ:16003824",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
-
-    qbGrfg("G14",
-        "8152      16003804  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
-        "HAVG:8152",
-        "VQ:16003804",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
-
-    qbGrfg("G15",
-        "8171      16003625  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
-        "HAVG:8171",
-        "VQ:16003625",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
-
-    qbGrfg("G16",
-        "8137      16003685  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
-        "HAVG:8137",
-        "VQ:16003685",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
-
-    qbGrfg("G17",
-        "8150      16003712  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
-        "HAVG:8150",
-        "VQ:16003712",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
-
-    qbGrfg("G18",
-        "8217      16003647  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
-        "HAVG:8217",
-        "VQ:16003647",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
-
-    qbGrfg("G19",
-        "8153      , Lbh unir orra nffvtarq gb cbfg ng:EVC99 - Ujl 99 & F Nhfgva Eq                                                    Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8153",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:EVC99 - Ujl 99 & F Nhfgva Eq",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G20",
-        "8153      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (1fg hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8153",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:ZNAGRPN FGNGVBA 50 (1fg hc)",
-        "ZNQQE:ZNAGRPN FGNGVBA 50",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G21",
-        "8150      , Lbh unir orra nffvtarq gb cbfg ng:EVC99 - Ujl 99 & F Nhfgva Eq                                                    Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8150",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:EVC99 - Ujl 99 & F Nhfgva Eq",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G22",
-        "8152      , Lbh unir orra nffvtarq gb cbfg ng:YNGUEBC FGNGVBA 51                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8152",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:YNGUEBC FGNGVBA 51",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G23",
-        "8153      , Lbh unir orra nffvtarq gb cbfg ng:YNGUEBC FGNGVBA 51                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8153",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:YNGUEBC FGNGVBA 51",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G24",
-        "8214      , Lbh unir orra nffvtarq gb cbfg ng:XNVFRE UBFCVGNY ZNAGRPN                                                         Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8214",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:XNVFRE UBFCVGNY ZNAGRPN",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G25",
-        "8152      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (1fg hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8152",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:ZNAGRPN FGNGVBA 50 (1fg hc)",
-        "ZNQQE:ZNAGRPN FGNGVBA 50",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G26",
-        "8150      , Lbh unir orra nffvtarq gb cbfg ng:YNGUEBC FGNGVBA 51                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8150",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:YNGUEBC FGNGVBA 51",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G27",
-        "8151      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (1fg hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8151",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:ZNAGRPN FGNGVBA 50 (1fg hc)",
-        "ZNQQE:ZNAGRPN FGNGVBA 50",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G28",
-        "8212      , Lbh unir orra nffvtarq gb cbfg ng:XNVFRE ZNAGRPN UBFCVGNY                                                         Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8212",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:XNVFRE ZNAGRPN UBFCVGNY",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G29",
-        "8152      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (2aq hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8152",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:ZNAGRPN FGNGVBA 50 (2aq hc)",
-        "ZNQQE:ZNAGRPN FGNGVBA 50",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G30",
-        "8217      , Lbh unir orra nffvtarq gb cbfg ng:XNVFRE ZNAGRPN UBFCVGNY                                                         Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8217",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:XNVFRE ZNAGRPN UBFCVGNY",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G31",
-        "8216      , Lbh unir orra nffvtarq gb cbfg ng:XNVFRE ZNAGRPN UBFCVGNY                                                         Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
-        "HAVG:8216",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:XNVFRE ZNAGRPN UBFCVGNY",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
-
-    qbGrfg("G34",
-        "8Z52      ,Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 52                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh",
-        "HAVG:8Z52",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:ZNAGRPN FGNGVBA 52",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh");
-
-    qbGrfg("G35",
-        "8Z50      ,Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (1fg hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh",
-        "HAVG:8Z50",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:ZNAGRPN FGNGVBA 50 (1fg hc)",
-        "ZNQQE:ZNAGRPN FGNGVBA 50",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh");
-
-    qbGrfg("G36",
-        "8Z50      PNQ VQ#:16080058  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.",
-        "HAVG:8Z50",
-        "VQ:16080058",
-        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
-        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.");
-
-    qbGrfg("G37",
-        "8Z50      PNQ VQ#:16080058  Eha(CPE#):02675685*EHA ERCBEG*Gpe/15:04:20Qfc/15:04:41Erfc/15:05:37Fpa/15:10:29Gk/15:18:39Qfg/15:29:36FGzvyrf/0       Rzvyrf/3.5     Tevq/Z171N     Znc/476N7   Nern/FW Q_6 HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8Z50",
-        "VQ:16080058/02675685",
-        "VASB:Gpe/15:04:20\aQfc/15:04:41\aErfc/15:05:37\aFpa/15:10:29\aGk/15:18:39Qfg/15:29:36\aFGzvyrf/0\aRzvyrf/3.5\aTevq/Z171N\aZnc/476N7\aNern/FW Q_6 HEONA");
-
-    qbGrfg("G38",
-        "8Z52      ,Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (1fg hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh",
-        "HAVG:8Z52",
-        "PNYY:Cbfg nffvtazrag",
-        "NQQE:ZNAGRPN FGNGVBA 50 (1fg hc)",
-        "ZNQQE:ZNAGRPN FGNGVBA 50",
-        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb.   Gunax lbh");
-
-    qbGrfg("G39",
-        "8Z50      PNQ VQ#:16080058  Eha(CPE#):02675685                                                  1309 Pnzvyyn Fg               **ARJ PNYY NFFVTAZRAG**K:CRYHFN YA/CNPB JNL                      Yvsr Guerngravat Rzretrapl NYF Pneqvnp/Erfcvengbel Neerfg    ZNAGRPN        Ncg #          OYQT#          TCF:37780213  &121195934      CebDN Pbqr:Znc:476N7",
-        "HAVG:8Z50",
-        "VQ:16080058/02675685",
-        "NQQE:1309 Pnzvyyn Fg",
-        "K:CRYHFN YA/CNPB JNL",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Pneqvnp/Erfcvengbel Neerfg",
-        "PVGL:ZNAGRPN",
-        "TCF:+37.780213,-121.195934",
-        "ZNC:476N7");
-
-    qbGrfg("G40",
-        "8Z50      PNQ VQ#:16080017  Eha(CPE#):02675640*EHA ERCBEG*Gpe/13:53:36Qfc/13:53:53Erfc/13:54:32Fpa/13:57:29Gk/14:09:39Qfg/14:14:36FGzvyrf/0       Rzvyrf/0.8     Tevq/Z29Q      Znc/452Q9   Nern/FW Q_4 HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8Z50",
-        "VQ:16080017/02675640",
-        "VASB:Gpe/13:53:36\aQfc/13:53:53\aErfc/13:54:32\aFpa/13:57:29\aGk/14:09:39Qfg/14:14:36\aFGzvyrf/0\aRzvyrf/0.8\aTevq/Z29Q\aZnc/452Q9\aNern/FW Q_4 HEONA");
-
-    qbGrfg("G41",
-        "8Z50      PNQ VQ#:16080017  Eha(CPE#):02675640FG WHQRF PBAI ( CNYZ UNIRA )                      469 R Abegu Fg                **ARJ PNYY NFFVTAZRAG**K:A FUREZNA NIR/A TNESVRYQ NIR            Aba Yvsr Guerngravat NYF       Genafsre/Vagresnpvyvgl/CnyyngvZNAGRPN        Ncg #15N       OYQT#FGA 2     TCF:37801018  &121211536      CebDN Pbqr:Znc:452Q9",
-        "HAVG:8Z50",
-        "VQ:16080017/02675640",
-        "CYNPR:FG WHQRF PBAI ( CNYZ UNIRA )",
-        "NQQE:469 R Abegu Fg",
-        "K:A FUREZNA NIR/A TNESVRYQ NIR",
-        "PNYY:Aba Yvsr Guerngravat NYF/Genafsre/Vagresnpvyvgl/Cnyyngv",
-        "PVGL:ZNAGRPN",
-        "NCG:FGA 2-15N",
-        "TCF:+37.801018,-121.211536",
-        "ZNC:452Q9");
-
-    qbGrfg("G42",
-        "8Z50      PNQ VQ#:16079958  Eha(CPE#):02675581*EHA ERCBEG*Gpe/12:25:30Qfc/12:25:39Erfc/12:26:10Fpa/12:30:55Gk/12:39:31Qfg/12:50:12FGzvyrf/0       Rzvyrf/2.2     Tevq/Z12Q      Znc/475P5   Nern/FW Q_4 HEONA",
-        "GLCR:EHA_ERCBEG",
-        "HAVG:8Z50",
-        "VQ:16079958/02675581",
-        "VASB:Gpe/12:25:30\aQfc/12:25:39\aErfc/12:26:10\aFpa/12:30:55\aGk/12:39:31Qfg/12:50:12\aFGzvyrf/0\aRzvyrf/2.2\aTevq/Z12Q\aZnc/475P5\aNern/FW Q_4 HEONA");
-
-    qbGrfg("G43",
-        "8Z50      PNQ VQ#:16079958  Eha(CPE#):02675581JNY-ZNEG - ZNAGRPN                                1205 F Znva Fg                **ARJ PNYY NFFVTAZRAG**K:120 BSS ENZC JO/FGNGR UJL 120 JO        Yvsr Guerngravat Rzretrapl NYF Pbaihyfvbaf/Frvmherf          ZNAGRPN        Ncg #VAFVQR    OYQT#          TCF:37785229  &121215881      CebDN Pbqr:Znc:475P5",
-        "HAVG:8Z50",
-        "VQ:16079958/02675581",
-        "CYNPR:JNY-ZNEG - ZNAGRPN",
-        "NQQE:1205 F Znva Fg",
-        "K:120 BSS ENZC JO/FGNGR UJL 120 JO",
-        "PNYY:Yvsr Guerngravat Rzretrapl NYF/Pbaihyfvbaf/Frvmherf",
-        "PVGL:ZNAGRPN",
-        "NCG:VAFVQR",
-        "TCF:+37.785229,-121.215881",
-        "ZNC:475P5");
-
-  }
-
-  @Grfg
   choyvp ibvq grfgSerapuPnzcZpXvayrlSverQvfgevpgWEHT() {
+
+    qbGrfg("K1",
+        "SEPN      SEP-160752     29Q00- Genssvp Nppvqrag       Ybp:                                                  V 5 Fo / F Serapu Pnzc Eq                         Pvgl:FGBPXGBA                           Oyqt:          Ncg:          Nffvtarq Havgf:SEPN                          Erfc Cyna:YC-TU-1Y-SEP                                      TCF:37897106  &121283979",
+        "HAVG:SEPN",
+        "VQ:SEP-160752",
+        "PNYY:29Q00- Genssvp Nppvqrag",
+        "NQQE:V 5 Fo & F Serapu Pnzc Eq",
+        "ZNQQE:V 5 & F Serapu Pnzc Eq",
+        "PVGL:FGBPXGBA",
+        "VASB:Erfc Cyna:YC-TU-1Y-SEP",
+        "TCF:+37.897106,-121.283979");
 
     qbGrfg("G1",
         "ZUP-160709          R161    07:17:3216000206",
@@ -17306,6 +16351,1336 @@ choyvp pynff PNFnaWbndhvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VASB:Erfc Cyna:R11-3",
         "TCF:+37.880813,-121.274791",
         "PU:PZQ 6/GNP 10 (IUS KFW SVER) PZQ 6/GNP 10 (IUS KFW SVER)");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgRfpnybaPbzzhavglNzohynaprWEHT() {
+
+    qbGrfg("G1",
+        "07005582    Qvfcngpurq:06:52Raebhgr:06:54Ba Fprar:06:57Pyrne Pnyy:07:36:50",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005582",
+        "VASB:Qvfcngpurq:06:52\aRaebhgr:06:54\aBa Fprar:06:57\aPyrne Pnyy:07:36:50");
+
+    qbGrfg("G2",
+        "8180      PNQ VQ #:        Eha (CPE#):07005582*EHA ERCBEG*Gpe/06:52:41Qfc/06:52:57Erfc/06:54:01Fpa/06:57:22Gk/07:06:11Qfg/07:26:27FGzvyrf/Rzvyrf/Tevq/P115      Znc/483Q2   Nern/FW S RFP HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005582",
+        "VQ:8180",
+        "VASB:Gpe/06:52:41\aQfc/06:52:57\aErfc/06:54:01\aFpa/06:57:22\aGk/07:06:11Qfg/07:26:27",
+        "ZNC:483Q2");
+
+    qbGrfg("G3",
+        "8180      PNQ VQ#:16087408  EHA(CPE#):07005582                                                  2305 Pnyvsbeavn Fg            **ARJ PNYY NFFVTAZRAG**K:Ryvmnorgu Nir/Whfgva Qe                 C1 911 Y&F J/Sver              06P01- Oernguvat Ceboyrzf     RFPNYBA        Ncg#          OYQT#          TCF:37796335  &120984664      CebDN Pbqr:Znc:483Q2",
+        "HAVG:8180",
+        "VQ:16087408/07005582",
+        "NQQE:2305 Pnyvsbeavn Fg",
+        "K:Ryvmnorgu Nir/Whfgva Qe",
+        "PNYY:C1 911 Y&F J/Sver/06P01- Oernguvat Ceboyrzf",
+        "PVGL:RFPNYBA",
+        "TCF:+37.796335,-120.984664",
+        "ZNC:483Q2");
+
+    qbGrfg("G4",
+        "07005393    Qvfcngpurq:13:28Raebhgr:13:29Ba Fprar:13:31Pyrne Pnyy:14:26:15",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005393",
+        "VASB:Qvfcngpurq:13:28\aRaebhgr:13:29\aBa Fprar:13:31\aPyrne Pnyy:14:26:15");
+
+    qbGrfg("G5",
+        "8180      PNQ VQ #:        Eha (CPE#):07005393*EHA ERCBEG*Gpe/13:28:10Qfc/13:28:23Erfc/13:29:39Fpa/13:31:48Gk/13:46:46Qfg/14:13:03FGzvyrf/Rzvyrf/Tevq/P114      Znc/460N9   Nern/FW S RFP HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005393",
+        "VQ:8180",
+        "VASB:Gpe/13:28:10\aQfc/13:28:23\aErfc/13:29:39\aFpa/13:31:48\aGk/13:46:46Qfg/14:13:03",
+        "ZNC:460N9");
+
+    qbGrfg("G6",
+        "8180      PNQ VQ#:16087050  EHA(CPE#):07005393                                                  1100 Rfpnyba Nir              **ARJ PNYY NFFVTAZRAG**K:R Zvyyre Eq/R Neguhe Eq                 C1 911 Y&F J/Sver              21Q03Z- Urzbeeuntr/Ynprengvba RFPNYBA        Ncg#5N        OYQT#          TCF:37802849  &120996116      CebDN Pbqr:Znc:460N9",
+        "HAVG:8180",
+        "VQ:16087050/07005393",
+        "NQQE:1100 Rfpnyba Nir",
+        "K:R Zvyyre Eq/R Neguhe Eq",
+        "PNYY:C1 911 Y&F J/Sver/21Q03Z- Urzbeeuntr/Ynprengvba",
+        "PVGL:RFPNYBA",
+        "NCG:5N",
+        "TCF:+37.802849,-120.996116",
+        "ZNC:460N9");
+
+    qbGrfg("G7",
+        "07005342    Qvfcngpurq:10:53Raebhgr:10:54Ba Fprar:11:01Pyrne Pnyy:12:16:02",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005342",
+        "VASB:Qvfcngpurq:10:53\aRaebhgr:10:54\aBa Fprar:11:01\aPyrne Pnyy:12:16:02");
+
+    qbGrfg("G8",
+        "8180      PNQ VQ #:        Eha (CPE#):07005342*EHA ERCBEG*Gpe/10:53:34Qfc/10:53:52Erfc/10:54:51Fpa/11:01:54Gk/11:26:55Qfg/12:04:20FGzvyrf/Rzvyrf/Tevq/O118      Znc/485Q5   Nern/FW S RFP HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005342",
+        "VQ:8180",
+        "VASB:Gpe/10:53:34\aQfc/10:53:52\aErfc/10:54:51\aFpa/11:01:54\aGk/11:26:55Qfg/12:04:20",
+        "ZNC:485Q5");
+
+    qbGrfg("G9",
+        "07005358    Qvfcngpurq:12:05Raebhgr:     Ba Fprar:     Pyrne Pnyy:12:06:44",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005358",
+        "VASB:Qvfcngpurq:12:05\aRaebhgr:\aBa Fprar:\aPyrne Pnyy:12:06:44");
+
+    qbGrfg("G10",
+        "8181      PNQ VQ#:16086994  EHA(CPE#):07005358                                                  9561 F Ovrqrezna Jnl          **ARJ PNYY NFFVTAZRAG**K:Qrnq Raq/R Fxvss Eq                     C2 911 Abgvsl - Ab RZF Qvfc    17N04T- Snyy                  RFPNYBA        Ncg#GENVYRE   OYQT#          TCF:37880035  &121034144      CebDN Pbqr:Znc:411S3",
+        "HAVG:8181",
+        "VQ:16086994/07005358",
+        "NQQE:9561 F Ovrqrezna Jnl",
+        "K:Qrnq Raq/R Fxvss Eq",
+        "PNYY:C2 911 Abgvsl - Ab RZF Qvfc/17N04T- Snyy",
+        "PVGL:RFPNYBA",
+        "NCG:GENVYRE",
+        "TCF:+37.880035,-121.034144",
+        "ZNC:411S3");
+
+    qbGrfg("G11",
+        "8180      PNQ VQ#:16086963  EHA(CPE#):07005342                                                  31147 R Pbzof Nir             **ARJ PNYY NFFVTAZRAG**K:F Fhgyvss Nir/Qrnq Raq                  C1 911 Y&F J/Sver              10Q00- Purfg Cnva/Qvfpbzsbeg  RFPNYBA        Ncg#          OYQT#          TCF:37785739  &120927204      CebDN Pbqr:Znc:485Q5",
+        "HAVG:8180",
+        "VQ:16086963/07005342",
+        "NQQE:31147 R Pbzof Nir",
+        "K:F Fhgyvss Nir/Qrnq Raq",
+        "PNYY:C1 911 Y&F J/Sver/10Q00- Purfg Cnva/Qvfpbzsbeg",
+        "PVGL:RFPNYBA",
+        "TCF:+37.785739,-120.927204",
+        "ZNC:485Q5");
+
+    qbGrfg("G12",
+        "8180      , Lbh unir orra nffvtarq gb cbfg ng:RFPNYBA NZO 1FG HC                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
+        "HAVG:8180",
+        "PNYY:Cbfg nffvtazrag",
+        "NQQE:RFPNYBA NZO 1FG HC",
+        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
+
+    qbGrfg("G13",
+        "07005233    Qvfcngpurq:22:57Raebhgr:22:58Ba Fprar:23:09Pyrne Pnyy:00:19:13",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005233",
+        "VASB:Qvfcngpurq:22:57\aRaebhgr:22:58\aBa Fprar:23:09\aPyrne Pnyy:00:19:13");
+
+    qbGrfg("G14",
+        "8180      PNQ VQ #:        Eha (CPE#):07005233*EHA ERCBEG*Gpe/22:56:40Qfc/22:57:10Erfc/22:58:42Fpa/23:09:24Gk/23:28:41Qfg/00:19:09FGzvyrf/Rzvyrf/Tevq/SNE6N     Znc/364Q6   Nern/FW S SNE EHENY",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005233",
+        "VQ:8180",
+        "VASB:Gpe/22:56:40\aQfc/22:57:10\aErfc/22:58:42\aFpa/23:09:24\aGk/23:28:41Qfg/00:19:09",
+        "ZNC:364Q6");
+
+    qbGrfg("G15",
+        "8180      PNQ VQ#:16086770  EHA(CPE#):07005233BA UJL 4 WJB RFPNYBA ORYYBGN                      23300-24919 Fgngr Ujl 4 R     **ARJ PNYY NFFVTAZRAG**K:F Fgnayrl Eq/F Rfpnyba Oryybgn Eq       C1 911 Y&F J/Sver              29Q05I- Genssvp Nppvqrag      SNEZVATGBA     Ncg#          OYQT#          TCF:37929862  &121013147      CebDN Pbqr:Znc:364Q6",
+        "HAVG:8180",
+        "VQ:16086770/07005233",
+        "CYNPR:BA UJL 4 WJB RFPNYBA ORYYBGN",
+        "NQQE:23300-24919 Fgngr Ujl 4 R",
+        "ZNQQE:23300 FGNGR 4 R",
+        "K:F Fgnayrl Eq/F Rfpnyba Oryybgn Eq",
+        "PNYY:C1 911 Y&F J/Sver/29Q05I- Genssvp Nppvqrag",
+        "PVGL:SNEZVATGBA",
+        "TCF:+37.929862,-121.013147",
+        "ZNC:364Q6");
+
+    qbGrfg("G16",
+        "07005174    Qvfcngpurq:18:16Raebhgr:18:16Ba Fprar:18:25Pyrne Pnyy:18:38:57",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005174",
+        "VASB:Qvfcngpurq:18:16\aRaebhgr:18:16\aBa Fprar:18:25\aPyrne Pnyy:18:38:57");
+
+    qbGrfg("G17",
+        "8180      PNQ VQ#:16086654  EHA(CPE#):07005177                                                  2409 Znggurj Ya               **ARJ PNYY NFFVTAZRAG**K:R Znuba Nir/Lbfrzvgr Nir                C2 911 Abgvsl - Ab RZF Qvfc    17N04T- Snyy                  RFPNYBA        Ncg#          OYQT#          TCF:37800086  &120978744      CebDN Pbqr:Znc:483R1",
+        "HAVG:8180",
+        "VQ:16086654/07005177",
+        "NQQE:2409 Znggurj Ya",
+        "K:R Znuba Nir/Lbfrzvgr Nir",
+        "PNYY:C2 911 Abgvsl - Ab RZF Qvfc/17N04T- Snyy",
+        "PVGL:RFPNYBA",
+        "TCF:+37.800086,-120.978744",
+        "ZNC:483R1");
+
+    qbGrfg("G18",
+        "8181      PNQ VQ#:16086654  Eha(CPE#):07005174                                                  2409 Znggurj Ya               **PNAPRY ERFCBAFR**               Gpe/18:12:53Qfc/18:13:31Erfcbaqvat/18:16:00Fpa/        Pnapryyrq ng/P115      Tevq/P115      Nern/FW S RFP FHOHEONA",
+        "HAVG:8181",
+        "VQ:16086654/07005174",
+        "NQQE:2409 Znggurj Ya",
+        "PNYY:PNAPRY - ");
+
+    qbGrfg("G19",
+        "8181      PNQ VQ#:16086654  EHA(CPE#):07005174                                                  2409 Znggurj Ya               **ARJ PNYY NFFVTAZRAG**K:R Znuba Nir/Lbfrzvgr Nir                C2 911 Abgvsl - Ab RZF Qvfc    17N04T- Snyy                  RFPNYBA        Ncg#          OYQT#          TCF:37800086  &120978744      CebDN Pbqr:Znc:483R1",
+        "HAVG:8181",
+        "VQ:16086654/07005174",
+        "NQQE:2409 Znggurj Ya",
+        "K:R Znuba Nir/Lbfrzvgr Nir",
+        "PNYY:C2 911 Abgvsl - Ab RZF Qvfc/17N04T- Snyy",
+        "PVGL:RFPNYBA",
+        "TCF:+37.800086,-120.978744",
+        "ZNC:483R1");
+
+    qbGrfg("G20",
+        "07004993    Qvfcngpurq:06:58Raebhgr:07:00Ba Fprar:07:03Pyrne Pnyy:07:57:41",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07004993",
+        "VASB:Qvfcngpurq:06:58\aRaebhgr:07:00\aBa Fprar:07:03\aPyrne Pnyy:07:57:41");
+
+    qbGrfg("G21",
+        "8180      PNQ VQ#:16086366  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.",
+        "HAVG:8180",
+        "VQ:16086366",
+        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
+        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.");
+
+    qbGrfg("G22",
+        "8180      PNQ VQ #:        Eha (CPE#):07004993*EHA ERCBEG*Gpe/06:58:16Qfc/06:58:43Erfc/07:00:19Fpa/07:03:21Gk/07:10:53Qfg/07:34:31FGzvyrf/Rzvyrf/Tevq/Q114      Znc/460N6   Nern/FW S RFP FHOHEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07004993",
+        "VQ:8180",
+        "VASB:Gpe/06:58:16\aQfc/06:58:43\aErfc/07:00:19\aFpa/07:03:21\aGk/07:10:53Qfg/07:34:31",
+        "ZNC:460N6");
+
+    qbGrfg("G23",
+        "8180      PNQ VQ#:16086366  EHA(CPE#):07004993PBHAGEL IVRJ ZNABE                                16460 F Rfpnyba Oryybgn Eq    **ARJ PNYY NFFVTAZRAG**K:R Zntabyvn Eq/R Znuba Nir               C1 911 Y&F J/Sver              21Q04Z- Urzbeeuntr/Ynprengvba RFPNYBA        Ncg#          OYQT#          TCF:37813672  &120996317      CebDN Pbqr:Znc:460N6",
+        "HAVG:8180",
+        "VQ:16086366/07004993",
+        "CYNPR:PBHAGEL IVRJ ZNABE",
+        "NQQE:16460 F Rfpnyba Oryybgn Eq",
+        "K:R Zntabyvn Eq/R Znuba Nir",
+        "PNYY:C1 911 Y&F J/Sver/21Q04Z- Urzbeeuntr/Ynprengvba",
+        "PVGL:RFPNYBA",
+        "TCF:+37.813672,-120.996317",
+        "ZNC:460N6");
+
+    qbGrfg("G24",
+        "07004967    Qvfcngpurq:02:50Raebhgr:02:50Ba Fprar:02:55Pyrne Pnyy:02:56:27",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07004967",
+        "VASB:Qvfcngpurq:02:50\aRaebhgr:02:50\aBa Fprar:02:55\aPyrne Pnyy:02:56:27");
+
+    qbGrfg("G25",
+        "8180      PNQ VQ#:16086320  EHA(CPE#):07004967                                                  2120 Ylqvn Fg                 **ARJ PNYY NFFVTAZRAG**K:Zvgpuryy Nir/Qrnq Raq                   C1 911 Y&F J/Sver              17Q00- Snyy                   RFPNYBA        Ncg#          OYQT#          TCF:37797662  &120986780      CebDN Pbqr:Znc:483P2",
+        "HAVG:8180",
+        "VQ:16086320/07004967",
+        "NQQE:2120 Ylqvn Fg",
+        "K:Zvgpuryy Nir/Qrnq Raq",
+        "PNYY:C1 911 Y&F J/Sver/17Q00- Snyy",
+        "PVGL:RFPNYBA",
+        "TCF:+37.797662,-120.986780",
+        "ZNC:483P2");
+
+    qbGrfg("G26",
+        "07004964    Qvfcngpurq:01:32Raebhgr:01:34Ba Fprar:01:40Pyrne Pnyy:02:33:35",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07004964",
+        "VASB:Qvfcngpurq:01:32\aRaebhgr:01:34\aBa Fprar:01:40\aPyrne Pnyy:02:33:35");
+
+    qbGrfg("G27",
+        "8180      PNQ VQ #:        Eha (CPE#):07004964*EHA ERCBEG*Gpe/01:32:38Qfc/01:32:58Erfc/01:34:33Fpa/01:40:46Gk/01:57:40Qfg/02:15:47FGzvyrf/Rzvyrf/Tevq/Q345      Znc/507Q4   Nern/FW S RFP HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07004964",
+        "VQ:8180",
+        "VASB:Gpe/01:32:38\aQfc/01:32:58\aErfc/01:34:33\aFpa/01:40:46\aGk/01:57:40Qfg/02:15:47",
+        "ZNC:507Q4");
+
+    qbGrfg("G28",
+        "8180      PNQ VQ#:16086313  EHA(CPE#):07004964                                                  22145 F Ohejbbq Eq            **ARJ PNYY NFFVTAZRAG**K:R Unyy Nir/F Ohejbbq Ya                 C1 911 Y&F J/Sver              26Q01- Fvpx Crefba            RFPNYBA        Ncg#          OYQT#          TCF:37758418  &120955908      CebDN Pbqr:Znc:507Q4",
+        "HAVG:8180",
+        "VQ:16086313/07004964",
+        "NQQE:22145 F Ohejbbq Eq",
+        "K:R Unyy Nir/F Ohejbbq Ya",
+        "PNYY:C1 911 Y&F J/Sver/26Q01- Fvpx Crefba",
+        "PVGL:RFPNYBA",
+        "TCF:+37.758418,-120.955908",
+        "ZNC:507Q4");
+
+    qbGrfg("G29",
+        "07004693    Qvfcngpurq:01:41Raebhgr:01:42Ba Fprar:01:47Pyrne Pnyy:02:46:00",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07004693",
+        "VASB:Qvfcngpurq:01:41\aRaebhgr:01:42\aBa Fprar:01:47\aPyrne Pnyy:02:46:00");
+
+    qbGrfg("G30",
+        "8180      PNQ VQ#:16085797  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.",
+        "HAVG:8180",
+        "VQ:16085797",
+        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
+        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.");
+
+    qbGrfg("G31",
+        "8180      PNQ VQ #:        Eha (CPE#):07004693*EHA ERCBEG*Gpe/01:41:22Qfc/01:41:43Erfc/01:42:22Fpa/01:47:37Gk/02:05:48Qfg/02:22:15FGzvyrf/Rzvyrf/Tevq/O114      Znc/482R4   Nern/FW S RFP HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07004693",
+        "VQ:8180",
+        "VASB:Gpe/01:41:22\aQfc/01:41:43\aErfc/01:42:22\aFpa/01:47:37\aGk/02:05:48Qfg/02:22:15",
+        "ZNC:482R4");
+
+    qbGrfg("G32",
+        "8180      PNQ VQ#:16085797  EHA(CPE#):07004693                                                  1830 F Fnapurm Jnl            **ARJ PNYY NFFVTAZRAG**K:Pnorearg Pg/Gubzcfba Jnl                C1 911 Y&F J/Sver              26Q01- Fvpx Crefba            RFPNYBA        Ncg#          OYQT#          TCF:37790412  &121008351      CebDN Pbqr:Znc:482R4",
+        "HAVG:8180",
+        "VQ:16085797/07004693",
+        "NQQE:1830 F Fnapurm Jnl",
+        "K:Pnorearg Pg/Gubzcfba Jnl",
+        "PNYY:C1 911 Y&F J/Sver/26Q01- Fvpx Crefba",
+        "PVGL:RFPNYBA",
+        "TCF:+37.790412,-121.008351",
+        "ZNC:482R4");
+
+    qbGrfg("G33",
+        "07004596    Qvfcngpurq:17:48Raebhgr:17:50Ba Fprar:     Pyrne Pnyy:17:54:26",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07004596",
+        "VASB:Qvfcngpurq:17:48\aRaebhgr:17:50\aBa Fprar:\aPyrne Pnyy:17:54:26");
+
+    qbGrfg("G34",
+        "8180      PNQ VQ#:16085611  EHA(CPE#):07004596                                                  6498 F Zboyrl Eq              **ARJ PNYY NFFVTAZRAG**K:F Onegbybzrv Eq/R Tnjar Eq              C2 911 Aba Y&F J/B Sver        32Q00- Hax Ceboyrz (Zna Qbja) FGBPXGBA       Ncg#          OYQT#          TCF:37911000  &121041720      CebDN Pbqr:Znc:387Q3",
+        "HAVG:8180",
+        "VQ:16085611/07004596",
+        "NQQE:6498 F Zboyrl Eq",
+        "K:F Onegbybzrv Eq/R Tnjar Eq",
+        "PNYY:C2 911 Aba Y&F J/B Sver/32Q00- Hax Ceboyrz (Zna Qbja)",
+        "PVGL:FGBPXGBA",
+        "TCF:+37.911000,-121.041720",
+        "ZNC:387Q3");
+
+    qbGrfg("G35",
+        "07004501    Qvfcngpurq:12:10Raebhgr:12:10Ba Fprar:12:10Pyrne Pnyy:13:16:43",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07004501",
+        "VASB:Qvfcngpurq:12:10\aRaebhgr:12:10\aBa Fprar:12:10\aPyrne Pnyy:13:16:43");
+
+    qbGrfg("G36",
+        "8181      PNQ VQ#:16085454  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.",
+        "HAVG:8181",
+        "VQ:16085454",
+        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
+        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBEbe RGN naq ernfba sbe qrynl.");
+
+    qbGrfg("G37",
+        "8181      PNQ VQ #:        Eha (CPE#):07004501*EHA ERCBEG*Gpe/12:09:53Qfc/12:10:14Erfc/12:10:17Fpa/12:10:22Gk/12:28:39Qfg/12:52:00FGzvyrf/Rzvyrf/Tevq/O114      Znc/483N4   Nern/FW S RFP HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07004501",
+        "VQ:8181",
+        "VASB:Gpe/12:09:53\aQfc/12:10:14\aErfc/12:10:17\aFpa/12:10:22\aGk/12:28:39Qfg/12:52:00",
+        "ZNC:483N4");
+
+    qbGrfg("G38",
+        "8180      , Lbh unir orra nffvtarq gb cbfg ng:EVC3 - Evcba Sver Fgngvba 3                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
+        "HAVG:8180",
+        "PNYY:Cbfg nffvtazrag",
+        "NQQE:EVC3 - Evcba Sver Fgngvba 3",
+        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
+
+    qbGrfg("G39",
+        "8181      PNQ VQ#:16085454  EHA(CPE#):07004501RFPNYBA PBZZHAVGL URNYGU PRAGRE                   2080 Zp Urael Nir             **ARJ PNYY NFFVTAZRAG**K:Zp Urael Nir/Fjnafba Qe                 C1 911 Y&F J/Sver              26Q00- Fvpx Crefba            RFPNYBA        Ncg#          OYQT#          TCF:37787790  &120995925      CebDN Pbqr:Znc:483N4",
+        "HAVG:8181",
+        "VQ:16085454/07004501",
+        "CYNPR:RFPNYBA PBZZHAVGL URNYGU PRAGRE",
+        "NQQE:2080 Zp Urael Nir",
+        "K:Zp Urael Nir/Fjnafba Qe",
+        "PNYY:C1 911 Y&F J/Sver/26Q00- Fvpx Crefba",
+        "PVGL:RFPNYBA",
+        "TCF:+37.787790,-120.995925",
+        "ZNC:483N4");
+
+    qbGrfg("G40",
+        "8180      , Lbh unir orra nffvtarq gb cbfg ng:EVC2 - Evcba Sver Fgngvba 2                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
+        "HAVG:8180",
+        "PNYY:Cbfg nffvtazrag",
+        "NQQE:EVC2 - Evcba Sver Fgngvba 2",
+        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
+
+    qbGrfg("G41",
+        "8180    PNQ VQ #:16085189  Eha (CPE#):07004368                      *EHA ERCBEG*Gpe/22:59:32Qfc/22:59:45Erfc/23:00:45Fpa/23:04:58Gk/23:14:32Qfg/23:35:05FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:8180",
+        "VQ:16085189/07004368",
+        "VASB:Gpe/22:59:32\aQfc/22:59:45\aErfc/23:00:45\aFpa/23:04:58\aGk/23:14:32Qfg/23:35:05\aFGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP HEONA");
+
+    qbGrfg("G42",
+        "8180      16085189  EHA(CPE#):07004368                                                  1719 F Wvyy Nir               **ARJ PNYY NFFVTAZRAG**K:Neebln Fg/Qvnf Fg                       C1 911 Y&F J/Sver              21Q04Z- Urzbeeuntr/Ynprengvba RFPNYBA        Ncg#          OYQT:          TCF:37790632  &120985003      CebDN Pbqr:Znc:483Q4",
+        "HAVG:8180",
+        "VQ:16085189/07004368",
+        "NQQE:1719 F Wvyy Nir",
+        "K:Neebln Fg/Qvnf Fg",
+        "PNYY:C1 911 Y&F J/Sver/21Q04Z- Urzbeeuntr/Ynprengvba",
+        "PVGL:RFPNYBA",
+        "TCF:+37.790632,-120.985003",
+        "ZNC:483Q4");
+
+    qbGrfg("G43",
+        "8180      16084675  EHA(CPE#):07004101                                                  20150 R Mhzjnyg Eq            **ARJ PNYY NFFVTAZRAG**K:F Pneebygba Eq/F Ina Nyyra Eq           C1 911 Y&F J/Sver              12Q02- Pbaihyfvba/Frvmher     RFPNYBA        Ncg#          OYQT:          TCF:37815909  &121056809      CebDN Pbqr:Znc:457T5",
+        "HAVG:8180",
+        "VQ:16084675/07004101",
+        "NQQE:20150 R Mhzjnyg Eq",
+        "K:F Pneebygba Eq/F Ina Nyyra Eq",
+        "PNYY:C1 911 Y&F J/Sver/12Q02- Pbaihyfvba/Frvmher",
+        "PVGL:RFPNYBA",
+        "TCF:+37.815909,-121.056809",
+        "ZNC:457T5");
+
+    qbGrfg("G44",
+        "8180      16084351  EHA(CPE#):07003937                                                  F Rfpnyba Oryybgn Eq / R Tnjar**ARJ PNYY NFFVTAZRAG**K:                                        C1 911 Y&F J/B Sver            32O01- Hax Ceboyrz (Zna Qbja) RFPNYBA        Ncg#          OYQT:          TCF:37893640  &120999938      CebDN Pbqr:Znc:388T8",
+        "HAVG:8180",
+        "VQ:16084351/07003937",
+        "NQQE:F Rfpnyba Oryybgn Eq & R Tnjar",
+        "PNYY:C1 911 Y&F J/B Sver/32O01- Hax Ceboyrz (Zna Qbja)",
+        "PVGL:RFPNYBA",
+        "TCF:+37.893640,-120.999938",
+        "ZNC:388T8");
+
+    qbGrfg("G45",
+        "8180    PNQ VQ #:16084062  Eha (CPE#):07003781                      *EHA ERCBEG*Gpe/19:22:25Qfc/19:22:43Erfc/19:24:06Fpa/19:28:39Gk/19:42:54Qfg/20:10:34FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:8180",
+        "VQ:16084062/07003781",
+        "VASB:Gpe/19:22:25\aQfc/19:22:43\aErfc/19:24:06\aFpa/19:28:39\aGk/19:42:54Qfg/20:10:34\aFGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP HEONA");
+
+    qbGrfg("G46",
+        "8180      16084062  EHA(CPE#):07003781                                                  1830 F Fnapurm Jnl            **ARJ PNYY NFFVTAZRAG**K:Pnorearg Pg/Gubzcfba Jnl                C2 911 Aba Y&F J/Sver          17N02- Snyy                   RFPNYBA        Ncg#          OYQT:          TCF:37790412  &121008351      CebDN Pbqr:Znc:482R4",
+        "HAVG:8180",
+        "VQ:16084062/07003781",
+        "NQQE:1830 F Fnapurm Jnl",
+        "K:Pnorearg Pg/Gubzcfba Jnl",
+        "PNYY:C2 911 Aba Y&F J/Sver/17N02- Snyy",
+        "PVGL:RFPNYBA",
+        "TCF:+37.790412,-121.008351",
+        "ZNC:482R4");
+
+    qbGrfg("G47",
+        "8180    PNQ VQ #:16083924  Eha (CPE#):07003700                      *EHA ERCBEG*Gpe/14:04:19Qfc/14:05:49Erfc/14:05:50Fpa/14:09:25Gk/14:20:05Qfg/14:39:23FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:8180",
+        "VQ:16083924/07003700",
+        "VASB:Gpe/14:04:19\aQfc/14:05:49\aErfc/14:05:50\aFpa/14:09:25\aGk/14:20:05Qfg/14:39:23\aFGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP HEONA");
+
+    qbGrfg("G48",
+        "8181      PNQ VQ#:16083925            Eha(CPE#):07003701RFPNYBA FRAVBE RFGNGRF                            16460 F Rfpnyba Oryybgn Eq    **PNAPRY ERFCBAFR**               Gpe/14:07:04Qfc/14:07:16Erfcbaqvat/        Fpa/        Pnapryyrq ng/14:07:30Tevq/Nern/FW S RFP FHOHEONA",
+        "HAVG:8181",
+        "VQ:16083925/07003701",
+        "CYNPR:RFPNYBA FRAVBE RFGNGRF",
+        "NQQE:16460 F Rfpnyba Oryybgn Eq",
+        "PNYY:PNAPRY - ");
+
+    qbGrfg("G49",
+        "8181      16083925  EHA(CPE#):07003701RFPNYBA FRAVBE RFGNGRF                            16460 F Rfpnyba Oryybgn Eq    **ARJ PNYY NFFVTAZRAG**K:R Zntabyvn Eq/R Znuba Nir               C1 911 Y&F J/Sver              06Q02- Oernguvat Ceboyrzf     RFPNYBA        Ncg#EZ 8      OYQT:          TCF:37813672  &120996317      CebDN Pbqr:Znc:460N6",
+        "HAVG:8181",
+        "VQ:16083925/07003701",
+        "CYNPR:RFPNYBA FRAVBE RFGNGRF",
+        "NQQE:16460 F Rfpnyba Oryybgn Eq",
+        "K:R Zntabyvn Eq/R Znuba Nir",
+        "PNYY:C1 911 Y&F J/Sver/06Q02- Oernguvat Ceboyrzf",
+        "PVGL:RFPNYBA",
+        "NCG:EZ 8",
+        "TCF:+37.813672,-120.996317",
+        "ZNC:460N6");
+
+    qbGrfg("G50",
+        "8180      16083924  EHA(CPE#):07003700                                                  2421 Wbanguba Qe              **ARJ PNYY NFFVTAZRAG**K:Whfgva Qe/Qrnq Raq                      C1 911 Y&F J/Sver              17Q00- Snyy                   RFPNYBA        Ncg#          OYQT:          TCF:37797041  &120981680      CebDN Pbqr:Znc:483R2",
+        "HAVG:8180",
+        "VQ:16083924/07003700",
+        "NQQE:2421 Wbanguba Qe",
+        "K:Whfgva Qe/Qrnq Raq",
+        "PNYY:C1 911 Y&F J/Sver/17Q00- Snyy",
+        "PVGL:RFPNYBA",
+        "TCF:+37.797041,-120.981680",
+        "ZNC:483R2");
+
+    qbGrfg("G51",
+        "8181      PNQ VQ#:16083924            Eha(CPE#):07003699                                                  2421 Wbanguba Qe              **PNAPRY ERFCBAFR**               Gpe/14:04:19Qfc/14:04:38Erfcbaqvat/        Fpa/        Pnapryyrq ng/14:05:49Tevq/Nern/FW S RFP HEONA",
+        "HAVG:8181",
+        "VQ:16083924/07003699",
+        "NQQE:2421 Wbanguba Qe",
+        "PNYY:PNAPRY - ");
+
+    qbGrfg("G52",
+        "8181      16083924  EHA(CPE#):07003699                                                  2421 Wbanguba Qe              **ARJ PNYY NFFVTAZRAG**K:Whfgva Qe/Qrnq Raq                      C1 911 Y&F J/Sver              17Q00- Snyy                   RFPNYBA        Ncg#          OYQT:          TCF:37797041  &120981680      CebDN Pbqr:Znc:483R2",
+        "HAVG:8181",
+        "VQ:16083924/07003699",
+        "NQQE:2421 Wbanguba Qe",
+        "K:Whfgva Qe/Qrnq Raq",
+        "PNYY:C1 911 Y&F J/Sver/17Q00- Snyy",
+        "PVGL:RFPNYBA",
+        "TCF:+37.797041,-120.981680",
+        "ZNC:483R2");
+
+    qbGrfg("G53",
+        "8180      , Lbh unir orra nffvtarq gb cbfg ng:ZQN99 - Ujl 99 & Lbfrzvgr Nir                                                   Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
+        "HAVG:8180",
+        "PNYY:Cbfg nffvtazrag",
+        "NQQE:ZQN99 - Ujl 99 & Lbfrzvgr Nir",
+        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
+
+    qbGrfg("G54",
+        "8180      16083648  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
+        "HAVG:8180",
+        "VQ:16083648",
+        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
+        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
+
+    qbGrfg("G55",
+        "8180    PNQ VQ #:16083648  Eha (CPE#):07003542                      *EHA ERCBEG*Gpe/23:59:05Qfc/23:59:24Erfc/00:00:26Fpa/00:04:52Gk/00:14:38Qfg/00:31:04FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP FHOHEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:8180",
+        "VQ:16083648/07003542",
+        "VASB:Gpe/23:59:05\aQfc/23:59:24\aErfc/00:00:26\aFpa/00:04:52\aGk/00:14:38Qfg/00:31:04\aFGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP FHOHEONA");
+
+    qbGrfg("G56",
+        "8180      16083648  EHA(CPE#):07003542                                                  23688 R Evire Eq              **ARJ PNYY NFFVTAZRAG**K:F Frkgba Eq/F Oeraana Nir               C1 911 Y&F J/Sver              01P06- Noqbzvany Cnva         RFPNYBA        Ncg#          OYQT:          TCF:37755922  &121016975      CebDN Pbqr:Znc:505P5",
+        "HAVG:8180",
+        "VQ:16083648/07003542",
+        "NQQE:23688 R Evire Eq",
+        "K:F Frkgba Eq/F Oeraana Nir",
+        "PNYY:C1 911 Y&F J/Sver/01P06- Noqbzvany Cnva",
+        "PVGL:RFPNYBA",
+        "TCF:+37.755922,-121.016975",
+        "ZNC:505P5");
+
+    qbGrfg("G57",
+        "8180    PNQ VQ #:16083407  Eha (CPE#):07003411                      *EHA ERCBEG*Gpe/15:39:18Qfc/15:39:31Erfc/15:40:28Fpa/15:49:16Gk/15:51:28Qfg/16:16:11FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP EHENY",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:8180",
+        "VQ:16083407/07003411",
+        "VASB:Gpe/15:39:18\aQfc/15:39:31\aErfc/15:40:28\aFpa/15:49:16\aGk/15:51:28Qfg/16:16:11\aFGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP EHENY");
+
+    qbGrfg("G58",
+        "8180      16083407  EHA(CPE#):07003411                                                  24557 R Znevcbfn Eq           **ARJ PNYY NFFVTAZRAG**K:F Oeraana Nir/F Qebtr Eq                C2 911 Aba Y&F J/Sver          01N01- Noqbzvany Cnva         RFPNYBA        Ncg#          OYQT:          TCF:37840598  &121009590      CebDN Pbqr:Znc:436R6",
+        "HAVG:8180",
+        "VQ:16083407/07003411",
+        "NQQE:24557 R Znevcbfn Eq",
+        "K:F Oeraana Nir/F Qebtr Eq",
+        "PNYY:C2 911 Aba Y&F J/Sver/01N01- Noqbzvany Cnva",
+        "PVGL:RFPNYBA",
+        "TCF:+37.840598,-121.009590",
+        "ZNC:436R6");
+
+    qbGrfg("G59",
+        "8180      16083115  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
+        "HAVG:8180",
+        "VQ:16083115",
+        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
+        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
+
+    qbGrfg("G60",
+        "8180    PNQ VQ #:16083115  Eha (CPE#):07003257                      *EHA ERCBEG*Gpe/03:04:18Qfc/03:04:39Erfc/03:06:17Fpa/03:13:05Gk/03:22:03Qfg/03:31:54FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:8180",
+        "VQ:16083115/07003257",
+        "VASB:Gpe/03:04:18\aQfc/03:04:39\aErfc/03:06:17\aFpa/03:13:05\aGk/03:22:03Qfg/03:31:54\aFGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP HEONA");
+
+    qbGrfg("G61",
+        "8180      16083115  EHA(CPE#):07003257                                                  23665 F Fnagn Sr Eq           **ARJ PNYY NFFVTAZRAG**K:1Fg Fg/F Urael Eq                       C1 911 Y&F J/Sver              06Q02- Oernguvat Ceboyrzf     RFPNYBA        Ncg#          OYQT:          TCF:37743887  &120940410      CebDN Pbqr:Znc:508N9",
+        "HAVG:8180",
+        "VQ:16083115/07003257",
+        "NQQE:23665 F Fnagn Sr Eq",
+        "K:1Fg Fg/F Urael Eq",
+        "PNYY:C1 911 Y&F J/Sver/06Q02- Oernguvat Ceboyrzf",
+        "PVGL:RFPNYBA",
+        "TCF:+37.743887,-120.940410",
+        "ZNC:508N9");
+
+    qbGrfg("G62",
+        "8180    PNQ VQ #:16083027  Eha (CPE#):07003221                      *EHA ERCBEG*Gpe/21:04:24Qfc/21:04:51Erfc/21:05:56Fpa/21:13:11Gk/21:17:00Qfg/21:57:34FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP FHOHEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:8180",
+        "VQ:16083027/07003221",
+        "VASB:Gpe/21:04:24\aQfc/21:04:51\aErfc/21:05:56\aFpa/21:13:11\aGk/21:17:00Qfg/21:57:34\aFGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP FHOHEONA");
+
+    qbGrfg("G63",
+        "8180      16083027  EHA(CPE#):07003221                                                  30987 R Fg Eg 120 Ujl         **ARJ PNYY NFFVTAZRAG**K:F Ragrecevfr Eq/F Ivpgbel Eq            C2 911 Aba Y&F J/B Sver        30N02- Genhzngvp Vawhevrf     RFPNYBA        Ncg#          OYQT:          TCF:37794432  &120929664      CebDN Pbqr:Znc:485P2",
+        "HAVG:8180",
+        "VQ:16083027/07003221",
+        "NQQE:30987 R Fg Eg 120 Ujl",
+        "ZNQQE:30987 R PN 120",
+        "K:F Ragrecevfr Eq/F Ivpgbel Eq",
+        "PNYY:C2 911 Aba Y&F J/B Sver/30N02- Genhzngvp Vawhevrf",
+        "PVGL:RFPNYBA",
+        "TCF:+37.794432,-120.929664",
+        "ZNC:485P2");
+
+    qbGrfg("G64",
+        "8180      16082859  EHA(CPE#):07003148                                                  30566 R Unyy Nir              **ARJ PNYY NFFVTAZRAG**K:F Urael Eq/F Zp Oevqr Nir               C1 911 Y&F J/B Sver            32O01- Hax Ceboyrz (Zna Qbja) RFPNYBA        Ncg#          OYQT:          TCF:37758031  &120934043      CebDN Pbqr:Znc:508O5",
+        "HAVG:8180",
+        "VQ:16082859/07003148",
+        "NQQE:30566 R Unyy Nir",
+        "K:F Urael Eq/F Zp Oevqr Nir",
+        "PNYY:C1 911 Y&F J/B Sver/32O01- Hax Ceboyrz (Zna Qbja)",
+        "PVGL:RFPNYBA",
+        "TCF:+37.758031,-120.934043",
+        "ZNC:508O5");
+
+    qbGrfg("G65",
+        "8181      16082850  EHA(CPE#):07003141                                                  R Evire Eq / F Zp Urael Nir   **ARJ PNYY NFFVTAZRAG**K:                                        C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       RFPNYBA        Ncg#          OYQT:          TCF:37760784  &120995737      CebDN Pbqr:Znc:506N4",
+        "HAVG:8181",
+        "VQ:16082850/07003141",
+        "NQQE:R Evire Eq & F Zp Urael Nir",
+        "PNYY:C1 911 Y&F J/Sver/29Q00- Genssvp Nppvqrag",
+        "PVGL:RFPNYBA",
+        "TCF:+37.760784,-120.995737",
+        "ZNC:506N4");
+
+    qbGrfg("G66",
+        "8180      16082838  EHA(CPE#):07003134                                                  R Ybar Gerr Eq / F Fgrvarthy E**ARJ PNYY NFFVTAZRAG**K:                                        C2 911 Aba Y&F J/B Sver        29N00- Genssvp Nppvqrag       RFPNYBA        Ncg#          OYQT:          TCF:37827588  &120960909      CebDN Pbqr:Znc:461P1",
+        "HAVG:8180",
+        "VQ:16082838/07003134",
+        "NQQE:R Ybar Gerr Eq & F Fgrvarthy E",
+        "PNYY:C2 911 Aba Y&F J/B Sver/29N00- Genssvp Nppvqrag",
+        "PVGL:RFPNYBA",
+        "TCF:+37.827588,-120.960909",
+        "ZNC:461P1");
+
+    qbGrfg("G67",
+        "8180    PNQ VQ #:16082773  Eha (CPE#):07003099                      *EHA ERCBEG*Gpe/12:12:00Qfc/12:12:20Erfc/12:13:09Fpa/12:23:24Gk/12:27:11Qfg/13:18:43FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S SNE EHENY",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:8180",
+        "VQ:16082773/07003099",
+        "VASB:Gpe/12:12:00\aQfc/12:12:20\aErfc/12:13:09\aFpa/12:23:24\aGk/12:27:11Qfg/13:18:43\aFGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S SNE EHENY");
+
+    qbGrfg("G68",
+        "8180      PNQ VQ#:16082773       Eha(CPE#):Ybp:WJB RFPNYBA ORYYBGN                               F Rfpnyba Oryybgn Eq / R Znevcbfn Eq              R Fxvss Eq/F Ina NyyOyqt:          Ncg:          Pvgl:RFPNYBA",
+        "CYNPR:WJB RFPNYBA ORYYBGN",
+        "NQQE:F Rfpnyba Oryybgn Eq & R Znevcbfn Eq",
+        "K:R Fxvss Eq/F Ina Nyy",
+        "PVGL:RFPNYBA");
+
+    qbGrfg("G69",
+        "8181      16082773  EHA(CPE#):07003101WJB RFPNYBA ORYYBGN                               F Rfpnyba Oryybgn Eq / R Znevc**ARJ PNYY NFFVTAZRAG**K:                                        C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       RFPNYBA        Ncg#          OYQT:          TCF:37834285  &120998042      CebDN Pbqr:Znc:437N8",
+        "HAVG:8181",
+        "VQ:16082773/07003101",
+        "CYNPR:WJB RFPNYBA ORYYBGN",
+        "NQQE:F Rfpnyba Oryybgn Eq & R Znevc",
+        "PNYY:C1 911 Y&F J/Sver/29Q00- Genssvp Nppvqrag",
+        "PVGL:RFPNYBA",
+        "TCF:+37.834285,-120.998042",
+        "ZNC:437N8");
+
+    qbGrfg("G70",
+        "8180      16082773  EHA(CPE#):07003099WJB RFPNYBA ORYYBGN                               F Rfpnyba Oryybgn Eq / R Znevc**ARJ PNYY NFFVTAZRAG**K:                                        C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       RFPNYBA        Ncg#          OYQT:          TCF:37834285  &120998042      CebDN Pbqr:Znc:437N8",
+        "HAVG:8180",
+        "VQ:16082773/07003099",
+        "CYNPR:WJB RFPNYBA ORYYBGN",
+        "NQQE:F Rfpnyba Oryybgn Eq & R Znevc",
+        "PNYY:C1 911 Y&F J/Sver/29Q00- Genssvp Nppvqrag",
+        "PVGL:RFPNYBA",
+        "TCF:+37.834285,-120.998042",
+        "ZNC:437N8");
+
+    qbGrfg("G71",
+        "8181      16082749  EHA(CPE#):07003085GRFG**********                                    Zp Urael Nir / R Pngurevar Jnl**ARJ PNYY NFFVTAZRAG**K:                                        Grfg Pnyy                      Grfg Fna Wbndhva Pnyy         RFPNYBA        Ncg#          OYQT:          TCF:37785716  &120996360      CebDN Pbqr:Znc:483N5",
+        "HAVG:8181",
+        "VQ:16082749/07003085",
+        "CYNPR:GRFG**********",
+        "NQQE:Zp Urael Nir & R Pngurevar Jnl",
+        "PNYY:Grfg Pnyy/Grfg Fna Wbndhva Pnyy",
+        "PVGL:RFPNYBA",
+        "TCF:+37.785716,-120.996360",
+        "ZNC:483N5");
+
+    qbGrfg("G72",
+        "8180    PNQ VQ #:16082580  Eha (CPE#):07002997                      *EHA ERCBEG*Gpe/23:35:59Qfc/23:36:18Erfc/23:37:41Fpa/23:47:58Gk/00:05:12Qfg/00:35:44FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S SNE EHENY",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:8180",
+        "VQ:16082580/07002997",
+        "VASB:Gpe/23:35:59\aQfc/23:36:18\aErfc/23:37:41\aFpa/23:47:58\aGk/00:05:12Qfg/00:35:44\aFGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S SNE EHENY");
+
+    qbGrfg("G73",
+        "8180      16082580  EHA(CPE#):07002997                                                  9935 F Ovrqrezna Eq           **ARJ PNYY NFFVTAZRAG**K:Qrnq Raq/R Fxvss Eq                     C1 911 Y&F J/Sver              31Q03- Hapbapvbhf/Snvagvat    RFPNYBA        Ncg#          OYQT:          TCF:37876563  &121031661      CebDN Pbqr:Znc:411S5",
+        "HAVG:8180",
+        "VQ:16082580/07002997",
+        "NQQE:9935 F Ovrqrezna Eq",
+        "K:Qrnq Raq/R Fxvss Eq",
+        "PNYY:C1 911 Y&F J/Sver/31Q03- Hapbapvbhf/Snvagvat",
+        "PVGL:RFPNYBA",
+        "TCF:+37.876563,-121.031661",
+        "ZNC:411S5");
+
+    qbGrfg("G74",
+        "8180      16082484  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
+        "HAVG:8180",
+        "VQ:16082484",
+        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
+        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
+
+    qbGrfg("G75",
+        "8180    PNQ VQ #:16082484  Eha (CPE#):07002961                      *EHA ERCBEG*Gpe/20:02:28Qfc/20:02:51Erfc/20:03:52Fpa/20:09:22Gk/20:21:54Qfg/20:43:21FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP FHOHEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:8180",
+        "VQ:16082484/07002961",
+        "VASB:Gpe/20:02:28\aQfc/20:02:51\aErfc/20:03:52\aFpa/20:09:22\aGk/20:21:54Qfg/20:43:21\aFGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP FHOHEONA");
+
+    qbGrfg("G76",
+        "8180      16082484  EHA(CPE#):07002961                                                  17076 F Ynjerapr Eq           **ARJ PNYY NFFVTAZRAG**K:R Neguhe Eq/Fgngr Ujl 120 R             C1 911 Y&F J/Sver              10Q00- Purfg Cnva/Qvfpbzsbeg  RFPNYBA        Ncg#          OYQT:          TCF:37807135  &121025576      CebDN Pbqr:Znc:459N8",
+        "HAVG:8180",
+        "VQ:16082484/07002961",
+        "NQQE:17076 F Ynjerapr Eq",
+        "K:R Neguhe Eq/Fgngr Ujl 120 R",
+        "PNYY:C1 911 Y&F J/Sver/10Q00- Purfg Cnva/Qvfpbzsbeg",
+        "PVGL:RFPNYBA",
+        "TCF:+37.807135,-121.025576",
+        "ZNC:459N8");
+
+    qbGrfg("G77",
+        "8181      16082320  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
+        "HAVG:8181",
+        "VQ:16082320",
+        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
+        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
+
+    qbGrfg("G78",
+        "8181    PNQ VQ #:16082320  Eha (CPE#):07002854                      *EHA ERCBEG*Gpe/15:19:33Qfc/15:19:48Erfc/15:20:53Fpa/15:26:06Gk/15:38:28Qfg/16:00:42FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:8181",
+        "VQ:16082320/07002854",
+        "VASB:Gpe/15:19:33\aQfc/15:19:48\aErfc/15:20:53\aFpa/15:26:06\aGk/15:38:28Qfg/16:00:42\aFGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP HEONA");
+
+    qbGrfg("G79",
+        "8181      16082320  EHA(CPE#):07002854                                                  29328 R Fg Eg 120 Ujl         **ARJ PNYY NFFVTAZRAG**K:F Frvqare Nir/F Urael Eq                C1 911 Y&F J/Sver              26P02- Fvpx Crefba            RFPNYBA        Ncg#          OYQT:          TCF:37793376  &120949600      CebDN Pbqr:Znc:484S3",
+        "HAVG:8181",
+        "VQ:16082320/07002854",
+        "NQQE:29328 R Fg Eg 120 Ujl",
+        "ZNQQE:29328 R PN 120",
+        "K:F Frvqare Nir/F Urael Eq",
+        "PNYY:C1 911 Y&F J/Sver/26P02- Fvpx Crefba",
+        "PVGL:RFPNYBA",
+        "TCF:+37.793376,-120.949600",
+        "ZNC:484S3");
+
+    qbGrfg("G80",
+        "8180      16082242  **FRPHEVGL PURPX - 20 ZVAHGRF**20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl",
+        "HAVG:8180",
+        "VQ:16082242",
+        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
+        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl");
+
+    qbGrfg("G81",
+        "8180    PNQ VQ #:16082242  Eha (CPE#):07002811                      *EHA ERCBEG*Gpe/12:58:14Qfc/12:59:04Erfc/13:00:04Fpa/13:03:14Gk/13:11:20Qfg/13:38:24FGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP FHOHEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:8180",
+        "VQ:16082242/07002811",
+        "VASB:Gpe/12:58:14\aQfc/12:59:04\aErfc/13:00:04\aFpa/13:03:14\aGk/13:11:20Qfg/13:38:24\aFGzvyrf/Rzvyrf/Tevq/Znc/Nern/FW S RFP FHOHEONA");
+
+    qbGrfg("G82",
+        "8180      16082242  EHA(CPE#):07002811RFPNYBA FRAVBE RFGNGR                             16460 F Rfpnyba Oryybgn Eq    **ARJ PNYY NFFVTAZRAG**K:R Zntabyvn Eq/R Znuba Nir               C1 911 Y&F J/Sver              31P02- Hapbapvbhf/Snvagvat    RFPNYBA        Ncg#4         OYQT:          TCF:37813672  &120996317      CebDN Pbqr:Znc:460N6",
+        "HAVG:8180",
+        "VQ:16082242/07002811",
+        "CYNPR:RFPNYBA FRAVBE RFGNGR",
+        "NQQE:16460 F Rfpnyba Oryybgn Eq",
+        "K:R Zntabyvn Eq/R Znuba Nir",
+        "PNYY:C1 911 Y&F J/Sver/31P02- Hapbapvbhf/Snvagvat",
+        "PVGL:RFPNYBA",
+        "NCG:4",
+        "TCF:+37.813672,-120.996317",
+        "ZNC:460N6");
+
+    qbGrfg("G83",
+        "8180      , Lbh unir orra nffvtarq gb cbfg ng:Ujl 99 Ao / R Lbfrzvgr Nir                                                      Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
+        "HAVG:8180",
+        "PNYY:Cbfg nffvtazrag",
+        "NQQE:Ujl 99 Ao / R Lbfrzvgr Nir",
+        "ZNQQE:Ujl 99 / R Lbfrzvgr Nir",
+        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgZnagrpnQvfgevpgNzohynaprFreivprWEHT() {
+
+    qbGrfg("K1",
+        "8151      PNQ VQ#:16085300  EHA(CPE#):07004420CXJL                                              400 R Q Nepl Cxjl             **ARJ PNYY NFFVTAZRAG**K:F Zhecul Cxjl/Puevfgbcure Jnl           C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       YNGUEBC        Ncg#          OYQT#          TCF:37802400  &121292733      CebDN Pbqr:Znc:449R9",
+        "HAVG:8151",
+        "VQ:16085300/07004420",
+        "CYNPR:CXJL",
+        "NQQE:400 R Q Nepl Cxjl",
+        "K:F Zhecul Cxjl/Puevfgbcure Jnl",
+        "PNYY:C1 911 Y&F J/Sver/29Q00- Genssvp Nppvqrag",
+        "PVGL:YNGUEBC",
+        "TCF:+37.802400,-121.292733",
+        "ZNC:449R9");
+
+    qbGrfg("K2",
+        "07004678    Qvfcngpurq:00:37Raebhgr:00:38Ba Fprar:00:42Pyrne Pnyy:00:54:02",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07004678",
+        "VASB:Qvfcngpurq:00:37\aRaebhgr:00:38\aBa Fprar:00:42\aPyrne Pnyy:00:54:02");
+
+    qbGrfg("K3",
+        "8153      PNQ VQ#:16085586  EHA(CPE#):07004579                                                  751 J Zbenqn Pg               **ARJ PNYY NFFVTAZRAG**K:Qrnq Raq/Unpvraqn Nir                   C1 911 Y&F J/Sver              28P00- Fgebxr/GVN             ZNAGRPN        Ncg#          OYQT#          TCF:37809574  &121227023      CebDN Pbqr:Znc:451T7",
+        "HAVG:8153",
+        "VQ:16085586/07004579",
+        "NQQE:751 J Zbenqn Pg",
+        "K:Qrnq Raq/Unpvraqn Nir",
+        "PNYY:C1 911 Y&F J/Sver/28P00- Fgebxr/GVN",
+        "PVGL:ZNAGRPN",
+        "TCF:+37.809574,-121.227023",
+        "ZNC:451T7");
+
+    qbGrfg("P4",
+        "EHA ERCBEG PNQ #SEP-160752      SEPN      Qvfcngpurq:09:24:45Raebhgr:        Ba Fprar:        NBE:09:25:41",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:SEPN",
+        "VQ:SEP-160752",
+        "VASB:Qvfcngpurq:09:24:45\aRaebhgr:\aBa Fprar:\aNBE:09:25:41");
+
+    qbGrfg("G1",
+        "8152      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 52                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
+        "HAVG:8152",
+        "PNYY:Cbfg nffvtazrag",
+        "NQQE:ZNAGRPN FGNGVBA 52",
+        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
+
+    qbGrfg("G2",
+        "07005629    Qvfcngpurq:12:02Raebhgr:12:03Ba Fprar:12:09Pyrne Pnyy:12:39:58",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005629",
+        "VASB:Qvfcngpurq:12:02\aRaebhgr:12:03\aBa Fprar:12:09\aPyrne Pnyy:12:39:58");
+
+    qbGrfg("G3",
+        "8152      PNQ VQ #:        Eha (CPE#):07005629*EHA ERCBEG*Gpe/12:02:13Qfc/12:02:27Erfc/12:03:10Fpa/12:09:23Gk/12:17:10Qfg/12:23:38FGzvyrf/Rzvyrf/Tevq/Z168N     Znc/474P6   Nern/FW Q_7 HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005629",
+        "VQ:8152",
+        "VASB:Gpe/12:02:13\aQfc/12:02:27\aErfc/12:03:10\aFpa/12:09:23\aGk/12:17:10Qfg/12:23:38",
+        "ZNC:474P6");
+
+    qbGrfg("G4",
+        "8152      PNQ VQ#:16087523  EHA(CPE#):07005629                                                  1720 Tbyqcbccl Fg             **ARJ PNYY NFFVTAZRAG**K:Tbyqcbccl Fg/Fgne Ghyvc Fg              C1 911 Y&F J/Sver              17O01- Snyy                   ZNAGRPN        Ncg#          OYQT#          TCF:37781426  &121244496      CebDN Pbqr:Znc:474P6",
+        "HAVG:8152",
+        "VQ:16087523/07005629",
+        "NQQE:1720 Tbyqcbccl Fg",
+        "K:Tbyqcbccl Fg/Fgne Ghyvc Fg",
+        "PNYY:C1 911 Y&F J/Sver/17O01- Snyy",
+        "PVGL:ZNAGRPN",
+        "TCF:+37.781426,-121.244496",
+        "ZNC:474P6");
+
+    qbGrfg("G5",
+        "07005616    Qvfcngpurq:10:15Raebhgr:10:16Ba Fprar:10:17Pyrne Pnyy:11:17:18",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005616",
+        "VASB:Qvfcngpurq:10:15\aRaebhgr:10:16\aBa Fprar:10:17\aPyrne Pnyy:11:17:18");
+
+    qbGrfg("G6",
+        "8150      PNQ VQ#:16087484  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.",
+        "HAVG:8150",
+        "VQ:16087484",
+        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
+        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.");
+
+    qbGrfg("G7",
+        "8153      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (1fg hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
+        "HAVG:8153",
+        "PNYY:Cbfg nffvtazrag",
+        "NQQE:ZNAGRPN FGNGVBA 50 (1fg hc)",
+        "ZNQQE:ZNAGRPN FGNGVBA 50",
+        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
+
+    qbGrfg("G8",
+        "07005615    Qvfcngpurq:10:09Raebhgr:10:10Ba Fprar:10:17Pyrne Pnyy:11:03:59",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005615",
+        "VASB:Qvfcngpurq:10:09\aRaebhgr:10:10\aBa Fprar:10:17\aPyrne Pnyy:11:03:59");
+
+    qbGrfg("G9",
+        "8150      PNQ VQ #:        Eha (CPE#):07005616*EHA ERCBEG*Gpe/10:14:44Qfc/10:15:34Erfc/10:16:12Fpa/10:17:31Gk/10:46:20Qfg/10:53:04FGzvyrf/Rzvyrf/Tevq/          Znc/        Nern/FW Q_4 HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005616",
+        "VQ:8150",
+        "VASB:Gpe/10:14:44\aQfc/10:15:34\aErfc/10:16:12\aFpa/10:17:31\aGk/10:46:20Qfg/10:53:04");
+
+    qbGrfg("G10",
+        "8153      PNQ VQ #:        Eha (CPE#):07005615*EHA ERCBEG*Gpe/10:09:34Qfc/10:09:44Erfc/10:10:11Fpa/10:17:54Gk/10:29:57Qfg/10:45:37FGzvyrf/Rzvyrf/Tevq/Z44N      Znc/452N5   Nern/FW Q_4 HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005615",
+        "VQ:8153",
+        "VASB:Gpe/10:09:34\aQfc/10:09:44\aErfc/10:10:11\aFpa/10:17:54\aGk/10:29:57Qfg/10:45:37",
+        "ZNC:452N5");
+
+    qbGrfg("G11",
+        "8152      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (1fg hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
+        "HAVG:8152",
+        "PNYY:Cbfg nffvtazrag",
+        "NQQE:ZNAGRPN FGNGVBA 50 (1fg hc)",
+        "ZNQQE:ZNAGRPN FGNGVBA 50",
+        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
+
+    qbGrfg("G12",
+        "07005616    Qvfcngpurq:10:17Raebhgr:10:17Ba Fprar:     Pyrne Pnyy:10:18:42",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005616",
+        "VASB:Qvfcngpurq:10:17\aRaebhgr:10:17\aBa Fprar:\aPyrne Pnyy:10:18:42");
+
+    qbGrfg("G13",
+        "8551      PNQ VQ#:16087484  EHA(CPE#):07005617                                                  100 R Abegu Fg                **ARJ PNYY NFFVTAZRAG**K:A Znva Fg/A Tenag Nir                   C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       ZNAGRPN        Ncg#          OYQT#          TCF:37800997  &121216631      CebDN Pbqr:Znc:",
+        "HAVG:8551",
+        "VQ:16087484/07005617",
+        "NQQE:100 R Abegu Fg",
+        "K:A Znva Fg/A Tenag Nir",
+        "PNYY:C1 911 Y&F J/Sver/29Q00- Genssvp Nppvqrag",
+        "PVGL:ZNAGRPN",
+        "TCF:+37.800997,-121.216631");
+
+    qbGrfg("G14",
+        "8150      PNQ VQ#:16087484  EHA(CPE#):07005616                                                  100 R Abegu Fg                **ARJ PNYY NFFVTAZRAG**K:A Znva Fg/A Tenag Nir                   C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       ZNAGRPN        Ncg#          OYQT#          TCF:37800997  &121216631      CebDN Pbqr:Znc:",
+        "HAVG:8150",
+        "VQ:16087484/07005616",
+        "NQQE:100 R Abegu Fg",
+        "K:A Znva Fg/A Tenag Nir",
+        "PNYY:C1 911 Y&F J/Sver/29Q00- Genssvp Nppvqrag",
+        "PVGL:ZNAGRPN",
+        "TCF:+37.800997,-121.216631");
+
+    qbGrfg("G15",
+        "8153      PNQ VQ#:16087483  EHA(CPE#):07005615ZNAGRPN PNER NAQ ERUNO PRAGRE (FHAOEVQTR/PNERJRFG)410 J Rnfgjbbq Nir            **ARJ PNYY NFFVTAZRAG**K:Abegutngr Qe/Fgbarjbbq Nir              C1 911 Y&F J/B Sver            33P01G- Genafsre/VSG          ZNAGRPN        Ncg#202-O     OYQT#          TCF:37817314  &121222594      CebDN Pbqr:Znc:452N5",
+        "HAVG:8153",
+        "VQ:16087483/07005615",
+        "CYNPR:ZNAGRPN PNER NAQ ERUNO PRAGRE (FHAOEVQTR/PNERJRFG)",
+        "NQQE:410 J Rnfgjbbq Nir",
+        "K:Abegutngr Qe/Fgbarjbbq Nir",
+        "PNYY:C1 911 Y&F J/B Sver/33P01G- Genafsre/VSG",
+        "PVGL:ZNAGRPN",
+        "NCG:202-O",
+        "TCF:+37.817314,-121.222594",
+        "ZNC:452N5");
+
+    qbGrfg("G16",
+        "8151      , Lbh unir orra nffvtarq gb cbfg ng:YNGUEBC FGNGVBA 51                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
+        "HAVG:8151",
+        "PNYY:Cbfg nffvtazrag",
+        "NQQE:YNGUEBC FGNGVBA 51",
+        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
+
+    qbGrfg("G17",
+        "8151      , Lbh unir orra nffvtarq gb cbfg ng:FWGCA GENPL OYIQ / TENAG YVAR                                                   Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
+        "HAVG:8151",
+        "PNYY:Cbfg nffvtazrag",
+        "NQQE:FWGCA GENPL OYIQ / TENAG YVAR",
+        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
+
+    qbGrfg("G18",
+        "8150      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (2aq hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
+        "HAVG:8150",
+        "PNYY:Cbfg nffvtazrag",
+        "NQQE:ZNAGRPN FGNGVBA 50 (2aq hc)",
+        "ZNQQE:ZNAGRPN FGNGVBA 50",
+        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
+
+    qbGrfg("G19",
+        "07005585    Qvfcngpurq:07:34Raebhgr:07:34Ba Fprar:07:35Pyrne Pnyy:08:16:46",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005585",
+        "VASB:Qvfcngpurq:07:34\aRaebhgr:07:34\aBa Fprar:07:35\aPyrne Pnyy:08:16:46");
+
+    qbGrfg("G20",
+        "8150      PNQ VQ #:        Eha (CPE#):07005586*EHA ERCBEG*Gpe/07:32:21Qfc/07:34:15Erfc/07:34:15Fpa/07:35:59Gk/07:53:53Qfg/08:01:50FGzvyrf/Rzvyrf/Tevq/Z169N     Znc/474T7   Nern/FW Q_6 HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005586",
+        "VQ:8150",
+        "VASB:Gpe/07:32:21\aQfc/07:34:15\aErfc/07:34:15\aFpa/07:35:59\aGk/07:53:53Qfg/08:01:50",
+        "ZNC:474T7");
+
+    qbGrfg("G21",
+        "07005594    Qvfcngpurq:07:54Raebhgr:07:54Ba Fprar:        Pyrne Pnyy:08:00:08",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005594",
+        "VASB:Qvfcngpurq:07:54\aRaebhgr:07:54\aBa Fprar:\aPyrne Pnyy:08:00:08");
+
+    qbGrfg("G22",
+        "8151      16087428  EHA(CPE#):07005594                                                  1950 Zryyb Pg                 **ARJ PNYY NFFVTAZRAG**K:Ralrneg Eq/Qrnq Raq                     C1 911 Y&F J/Sver              31P00- Hapbapvbhf/Snvagvat    GENPL          Ncg#VSB       OYQT:          TCF:37751546  &121451821      CebDN Pbqr:Znc:490N6",
+        "HAVG:8151",
+        "VQ:16087428/07005594",
+        "NQQE:1950 Zryyb Pg",
+        "K:Ralrneg Eq/Qrnq Raq",
+        "PNYY:C1 911 Y&F J/Sver/31P00- Hapbapvbhf/Snvagvat",
+        "PVGL:GENPL",
+        "NCG:VSB",
+        "TCF:+37.751546,-121.451821",
+        "ZNC:490N6");
+
+    qbGrfg("G23",
+        "8150      PNQ VQ#:16087418  EHA(CPE#):07005586                                                  1585 Fnaq Ya                  **ARJ PNYY NFFVTAZRAG**K:Zbagr Pnfn Fg/Pbyyvaf Fg                C1 911 Y&F J/Sver              12Q02- Pbaihyfvba/Frvmher     ZNAGRPN        Ncg#          OYQT#          TCF:37778348  &121226001      CebDN Pbqr:Znc:474T7",
+        "HAVG:8150",
+        "VQ:16087418/07005586",
+        "NQQE:1585 Fnaq Ya",
+        "K:Zbagr Pnfn Fg/Pbyyvaf Fg",
+        "PNYY:C1 911 Y&F J/Sver/12Q02- Pbaihyfvba/Frvmher",
+        "PVGL:ZNAGRPN",
+        "TCF:+37.778348,-121.226001",
+        "ZNC:474T7");
+
+    qbGrfg("G24",
+        "8153      PNQ VQ#:16087418  Eha(CPE#):07005585                                                  1585 Fnaq Ya                  **PNAPRY ERFCBAFR**               Gpe/07:32:21Qfc/07:32:26Erfcbaqvat/07:32:52Fpa/        Pnapryyrq ng/Z169N     Tevq/Z169N     Nern/FW Q_6 HEONA",
+        "HAVG:8153",
+        "VQ:16087418/07005585",
+        "NQQE:1585 Fnaq Ya",
+        "PNYY:PNAPRY - ");
+
+    qbGrfg("G25",
+        "07005584    Qvfcngpurq:07:29Raebhgr:07:29Ba Fprar:07:32Pyrne Pnyy:07:33:55",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005584",
+        "VASB:Qvfcngpurq:07:29\aRaebhgr:07:29\aBa Fprar:07:32\aPyrne Pnyy:07:33:55");
+
+    qbGrfg("G26",
+        "8153      PNQ VQ#:16087418  EHA(CPE#):07005585                                                  1585 Fnaq Ya                  **ARJ PNYY NFFVTAZRAG**K:Zbagr Pnfn Fg/Pbyyvaf Fg                C1 911 Y&F J/Sver              12Q02- Pbaihyfvba/Frvmher     ZNAGRPN        Ncg#          OYQT#          TCF:37778348  &121226001      CebDN Pbqr:Znc:474T7",
+        "HAVG:8153",
+        "VQ:16087418/07005585",
+        "NQQE:1585 Fnaq Ya",
+        "K:Zbagr Pnfn Fg/Pbyyvaf Fg",
+        "PNYY:C1 911 Y&F J/Sver/12Q02- Pbaihyfvba/Frvmher",
+        "PVGL:ZNAGRPN",
+        "TCF:+37.778348,-121.226001",
+        "ZNC:474T7");
+
+    qbGrfg("G27",
+        "8150      PNQ VQ#:16087416  EHA(CPE#):07005584JNYZNEG                                           1205 F Znva Fg                **ARJ PNYY NFFVTAZRAG**K:F Znva Fg/Fgngr Ujl 120 Jo              C1 911 Y&F J/Sver              31Q02- Hapbapvbhf/Snvagvat    ZNAGRPN        Ncg#VSB       OYQT#          TCF:37785520  &121217945      CebDN Pbqr:Znc:475O5",
+        "HAVG:8150",
+        "VQ:16087416/07005584",
+        "CYNPR:JNYZNEG",
+        "NQQE:1205 F Znva Fg",
+        "K:F Znva Fg/Fgngr Ujl 120 Jo",
+        "PNYY:C1 911 Y&F J/Sver/31Q02- Hapbapvbhf/Snvagvat",
+        "PVGL:ZNAGRPN",
+        "NCG:VSB",
+        "TCF:+37.785520,-121.217945",
+        "ZNC:475O5");
+
+    qbGrfg("G28",
+        "8153      , Lbh unir orra nffvtarq gb cbfg ng:ZNAGRPN FGNGVBA 50 (2aq hc)                                                     Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
+        "HAVG:8153",
+        "PNYY:Cbfg nffvtazrag",
+        "NQQE:ZNAGRPN FGNGVBA 50 (2aq hc)",
+        "ZNQQE:ZNAGRPN FGNGVBA 50",
+        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
+
+    qbGrfg("G29",
+        "07005538    Qvfcngpurq:01:02Raebhgr:01:03Ba Fprar:01:09Pyrne Pnyy:01:19:56",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005538",
+        "VASB:Qvfcngpurq:01:02\aRaebhgr:01:03\aBa Fprar:01:09\aPyrne Pnyy:01:19:56");
+
+    qbGrfg("G30",
+        "8153      PNQ VQ#:16087334  EHA(CPE#):07005538ENLZHF IVYYNTR CNEX                               14499 F Chroyb Qe             **ARJ PNYY NFFVTAZRAG**K:R Zbuvpna Qe/R Ncnpur Qe                C1 911 Y&F J/Sver              26Q01- Fvpx Crefba            ZNAGRPN        Ncg#          OYQT#          TCF:37831238  &121215719      CebDN Pbqr:Znc:429P9",
+        "HAVG:8153",
+        "VQ:16087334/07005538",
+        "CYNPR:ENLZHF IVYYNTR CNEX",
+        "NQQE:14499 F Chroyb Qe",
+        "K:R Zbuvpna Qe/R Ncnpur Qe",
+        "PNYY:C1 911 Y&F J/Sver/26Q01- Fvpx Crefba",
+        "PVGL:ZNAGRPN",
+        "TCF:+37.831238,-121.215719",
+        "ZNC:429P9");
+
+    qbGrfg("G31",
+        "07005500    Qvfcngpurq:20:54Raebhgr:20:55Ba Fprar:20:57Pyrne Pnyy:21:59:21",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005500",
+        "VASB:Qvfcngpurq:20:54\aRaebhgr:20:55\aBa Fprar:20:57\aPyrne Pnyy:21:59:21");
+
+    qbGrfg("G32",
+        "8152      , Lbh unir orra nffvtarq gb cbfg ng:YNGUEBC FGNGVBA 51                                                              Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh",
+        "HAVG:8152",
+        "PNYY:Cbfg nffvtazrag",
+        "NQQE:YNGUEBC FGNGVBA 51",
+        "VASB:Cyrnfr npxabjyrqtr ivn PNQ be enqvb. Gunax lbh");
+
+    qbGrfg("G33",
+        "07005511    Qvfcngpurq:21:34Raebhgr:21:35Ba Fprar:21:35Pyrne Pnyy:21:51:52",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005511",
+        "VASB:Qvfcngpurq:21:34\aRaebhgr:21:35\aBa Fprar:21:35\aPyrne Pnyy:21:51:52");
+
+    qbGrfg("G34",
+        "8150      PNQ VQ#:16087266  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.",
+        "HAVG:8150",
+        "VQ:16087266",
+        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
+        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.");
+
+    qbGrfg("G35",
+        "8153      PNQ VQ#:16087284  EHA(CPE#):07005511                                                  1830 R Lbfrzvgr Nir           **ARJ PNYY NFFVTAZRAG**K:Fhafrg Qe/Obavgn Qe                     C1 911 Y&F J/Sver              06Q04- Oernguvat Ceboyrzf     ZNAGRPN        Ncg#FC 201    OYQT#          TCF:37795287  &121188477      CebDN Pbqr:Znc:476P2",
+        "HAVG:8153",
+        "VQ:16087284/07005511",
+        "NQQE:1830 R Lbfrzvgr Nir",
+        "K:Fhafrg Qe/Obavgn Qe",
+        "PNYY:C1 911 Y&F J/Sver/06Q04- Oernguvat Ceboyrzf",
+        "PVGL:ZNAGRPN",
+        "NCG:FC 201",
+        "TCF:+37.795287,-121.188477",
+        "ZNC:476P2");
+
+    qbGrfg("G36",
+        "8150      PNQ VQ #:        Eha (CPE#):07005500*EHA ERCBEG*Gpe/20:54:01Qfc/20:54:13Erfc/20:55:06Fpa/20:57:52Gk/21:15:32Qfg/21:23:51FGzvyrf/Rzvyrf/Tevq/Z27N      Znc/451R9   Nern/FW Q_4 HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005500",
+        "VQ:8150",
+        "VASB:Gpe/20:54:01\aQfc/20:54:13\aErfc/20:55:06\aFpa/20:57:52\aGk/21:15:32Qfg/21:23:51",
+        "ZNC:451R9");
+
+    qbGrfg("G37",
+        "8150      PNQ VQ#:16087266  EHA(CPE#):07005500OEBBXQNYR FRAVBE YVIVAT                           430 A Havba Eq                **ARJ PNYY NFFVTAZRAG**K:Rhpnylcghf Fg/Pebz Fg                   C1 911 Y&F J/Sver              06Q02- Oernguvat Ceboyrzf     ZNAGRPN        Ncg#130       OYQT#          TCF:37803564  &121234195      CebDN Pbqr:Znc:451R9",
+        "HAVG:8150",
+        "VQ:16087266/07005500",
+        "CYNPR:OEBBXQNYR FRAVBE YVIVAT",
+        "NQQE:430 A Havba Eq",
+        "K:Rhpnylcghf Fg/Pebz Fg",
+        "PNYY:C1 911 Y&F J/Sver/06Q02- Oernguvat Ceboyrzf",
+        "PVGL:ZNAGRPN",
+        "NCG:130",
+        "TCF:+37.803564,-121.234195",
+        "ZNC:451R9");
+
+    qbGrfg("G38",
+        "07005486    Qvfcngpurq:19:52Raebhgr:19:52Ba Fprar:     Pyrne Pnyy:19:55:23",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005486",
+        "VASB:Qvfcngpurq:19:52\aRaebhgr:19:52\aBa Fprar:\aPyrne Pnyy:19:55:23");
+
+    qbGrfg("G39",
+        "07005486    Qvfcngpurq:19:49Raebhgr:19:50Ba Fprar:19:52Pyrne Pnyy:19:55:23",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005486",
+        "VASB:Qvfcngpurq:19:49\aRaebhgr:19:50\aBa Fprar:19:52\aPyrne Pnyy:19:55:23");
+
+    qbGrfg("G40",
+        "8551      PNQ VQ#:16087239  EHA(CPE#):07005488                                                  A Havba Eq / J Ynguebc Eq     **ARJ PNYY NFFVTAZRAG**K:                                        C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       ZNAGRPN        Ncg#          OYQT#          TCF:37826435  &121235911      CebDN Pbqr:Znc:451R2",
+        "HAVG:8551",
+        "VQ:16087239/07005488",
+        "NQQE:A Havba Eq & J Ynguebc Eq",
+        "PNYY:C1 911 Y&F J/Sver/29Q00- Genssvp Nppvqrag",
+        "PVGL:ZNAGRPN",
+        "TCF:+37.826435,-121.235911",
+        "ZNC:451R2");
+
+    qbGrfg("G41",
+        "8152      PNQ VQ#:16087239  EHA(CPE#):07005486                                                  A Havba Eq / J Ynguebc Eq     **ARJ PNYY NFFVTAZRAG**K:                                        C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       ZNAGRPN        Ncg#          OYQT#          TCF:37826435  &121235911      CebDN Pbqr:Znc:451R2",
+        "HAVG:8152",
+        "VQ:16087239/07005486",
+        "NQQE:A Havba Eq & J Ynguebc Eq",
+        "PNYY:C1 911 Y&F J/Sver/29Q00- Genssvp Nppvqrag",
+        "PVGL:ZNAGRPN",
+        "TCF:+37.826435,-121.235911",
+        "ZNC:451R2");
+
+    qbGrfg("G42",
+        "07005469    Qvfcngpurq:18:39Raebhgr:18:40Ba Fprar:18:43Pyrne Pnyy:19:22:41",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005469",
+        "VASB:Qvfcngpurq:18:39\aRaebhgr:18:40\aBa Fprar:18:43\aPyrne Pnyy:19:22:41");
+
+    qbGrfg("G43",
+        "8150      PNQ VQ#:16087204  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.",
+        "HAVG:8150",
+        "VQ:16087204",
+        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
+        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.");
+
+    qbGrfg("G44",
+        "8150      PNQ VQ #:        Eha (CPE#):07005469*EHA ERCBEG*Gpe/18:39:34Qfc/18:39:46Erfc/18:40:21Fpa/18:43:14Gk/18:55:06Qfg/18:57:27FGzvyrf/Rzvyrf/Tevq/Z35P      Znc/452R8   Nern/FW Q_4 HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005469",
+        "VQ:8150",
+        "VASB:Gpe/18:39:34\aQfc/18:39:46\aErfc/18:40:21\aFpa/18:43:14\aGk/18:55:06Qfg/18:57:27",
+        "ZNC:452R8");
+
+    qbGrfg("G45",
+        "8150      PNQ VQ#:16087204  EHA(CPE#):07005469                                                  871 R Nynzrqn Fg              **ARJ PNYY NFFVTAZRAG**K:R Nynzrqn Fg/Cnybzvab Pg                C1 911 Y&F J/Sver              28P01Y- Fgebxr/GVN            ZNAGRPN        Ncg#          OYQT#          TCF:37805154  &121206202      CebDN Pbqr:Znc:452R8",
+        "HAVG:8150",
+        "VQ:16087204/07005469",
+        "NQQE:871 R Nynzrqn Fg",
+        "K:R Nynzrqn Fg/Cnybzvab Pg",
+        "PNYY:C1 911 Y&F J/Sver/28P01Y- Fgebxr/GVN",
+        "PVGL:ZNAGRPN",
+        "TCF:+37.805154,-121.206202",
+        "ZNC:452R8");
+
+    qbGrfg("G46",
+        "07005454    Qvfcngpurq:17:33Raebhgr:17:34Ba Fprar:17:39Pyrne Pnyy:18:27:01",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005454",
+        "VASB:Qvfcngpurq:17:33\aRaebhgr:17:34\aBa Fprar:17:39\aPyrne Pnyy:18:27:01");
+
+    qbGrfg("G47",
+        "8153      PNQ VQ#:16087177  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.",
+        "HAVG:8153",
+        "VQ:16087177",
+        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
+        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.");
+
+    qbGrfg("G48",
+        "8153      PNQ VQ #:        Eha (CPE#):07005454*EHA ERCBEG*Gpe/17:33:43Qfc/17:33:53Erfc/17:34:28Fpa/17:39:00Gk/17:59:21Qfg/18:04:02FGzvyrf/Rzvyrf/Tevq/Z47Q      Znc/453O6   Nern/FW Q_5 HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005454",
+        "VQ:8153",
+        "VASB:Gpe/17:33:43\aQfc/17:33:53\aErfc/17:34:28\aFpa/17:39:00\aGk/17:59:21Qfg/18:04:02",
+        "ZNC:453O6");
+
+    qbGrfg("G49",
+        "07005439    Qvfcngpurq:16:37Raebhgr:16:39Ba Fprar:16:41Pyrne Pnyy:17:59:29",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005439",
+        "VASB:Qvfcngpurq:16:37\aRaebhgr:16:39\aBa Fprar:16:41\aPyrne Pnyy:17:59:29");
+
+    qbGrfg("G50",
+        "8151      PNQ VQ#:16087148  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.",
+        "HAVG:8151",
+        "VQ:16087148",
+        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
+        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.");
+
+    qbGrfg("G51",
+        "8153      PNQ VQ#:16087177  EHA(CPE#):07005454CERFGVTR FRAVBE YVIVAT                            1130 Rzcver Nir               **ARJ PNYY NFFVTAZRAG**K:R Ybhvfr Nir/Qvnzbaq Bnx Jnl            C1 911 Y&F J/B Sver            33P01G- Genafsre/VSG          ZNAGRPN        Ncg#RKCERFFVBAOYQT#          TCF:37812657  &121192605      CebDN Pbqr:Znc:453O6",
+        "HAVG:8153",
+        "VQ:16087177/07005454",
+        "CYNPR:CERFGVTR FRAVBE YVIVAT",
+        "NQQE:1130 Rzcver Nir",
+        "K:R Ybhvfr Nir/Qvnzbaq Bnx Jnl",
+        "PNYY:C1 911 Y&F J/B Sver/33P01G- Genafsre/VSG",
+        "PVGL:ZNAGRPN",
+        "NCG:RKCERFFVBA",
+        "TCF:+37.812657,-121.192605",
+        "ZNC:453O6");
+
+    qbGrfg("G52",
+        "8151      PNQ VQ #:        Eha (CPE#):07005439*EHA ERCBEG*Gpe/16:37:18Qfc/16:37:34Erfc/16:39:06Fpa/16:41:41Gk/17:07:48Qfg/17:30:39FGzvyrf/Rzvyrf/Tevq/Z20N      Znc/475P3   Nern/FW Q_4 HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005439",
+        "VQ:8151",
+        "VASB:Gpe/16:37:18\aQfc/16:37:34\aErfc/16:39:06\aFpa/16:41:41\aGk/17:07:48Qfg/17:30:39",
+        "ZNC:475P3");
+
+    qbGrfg("G53",
+        "07005439    Qvfcngpurq:16:38Raebhgr:16:38Ba Fprar:16:49Pyrne Pnyy:17:10:41",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005439",
+        "VASB:Qvfcngpurq:16:38\aRaebhgr:16:38\aBa Fprar:16:49\aPyrne Pnyy:17:10:41");
+
+    qbGrfg("G54",
+        "8551      PNQ VQ#:16087148  EHA(CPE#):07005440                                                  336 R Zbssng Oyiq             **ARJ PNYY NFFVTAZRAG**K:F Yvapbya Nir/F Furezna Nir             C1 911 Y&F J/Sver              09R01- Pneqvnp/Erfc Neerfg    ZNAGRPN        Ncg#          OYQT#          TCF:37793915  &121213560      CebDN Pbqr:Znc:475P3",
+        "HAVG:8551",
+        "VQ:16087148/07005440",
+        "NQQE:336 R Zbssng Oyiq",
+        "K:F Yvapbya Nir/F Furezna Nir",
+        "PNYY:C1 911 Y&F J/Sver/09R01- Pneqvnp/Erfc Neerfg",
+        "PVGL:ZNAGRPN",
+        "TCF:+37.793915,-121.213560",
+        "ZNC:475P3");
+
+    qbGrfg("G55",
+        "07005429    Qvfcngpurq:16:02Raebhgr:16:03Ba Fprar:16:07Pyrne Pnyy:16:38:46",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005429",
+        "VASB:Qvfcngpurq:16:02\aRaebhgr:16:03\aBa Fprar:16:07\aPyrne Pnyy:16:38:46");
+
+    qbGrfg("G56",
+        "8151      PNQ VQ#:16087148  EHA(CPE#):07005439                                                  336 R Zbssng Oyiq             **ARJ PNYY NFFVTAZRAG**K:F Yvapbya Nir/F Furezna Nir             C1 911 Y&F J/Sver              31Q00- Hapbapvbhf/Snvagvat    ZNAGRPN        Ncg#          OYQT#          TCF:37793915  &121213560      CebDN Pbqr:Znc:475P3",
+        "HAVG:8151",
+        "VQ:16087148/07005439",
+        "NQQE:336 R Zbssng Oyiq",
+        "K:F Yvapbya Nir/F Furezna Nir",
+        "PNYY:C1 911 Y&F J/Sver/31Q00- Hapbapvbhf/Snvagvat",
+        "PVGL:ZNAGRPN",
+        "TCF:+37.793915,-121.213560",
+        "ZNC:475P3");
+
+    qbGrfg("G57",
+        "07005429    Qvfcngpurq:16:01Raebhgr:16:02Ba Fprar:16:05Pyrne Pnyy:16:18:17",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005429",
+        "VASB:Qvfcngpurq:16:01\aRaebhgr:16:02\aBa Fprar:16:05\aPyrne Pnyy:16:18:17");
+
+    qbGrfg("G58",
+        "8551      PNQ VQ#:16087128  EHA(CPE#):07005430                                                  F Nvecbeg Jnl / Qnavryf Fg    **ARJ PNYY NFFVTAZRAG**K:                                        C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       ZNAGRPN        Ncg#          OYQT#          TCF:37786530  &121252179      CebDN Pbqr:Znc:474N5",
+        "HAVG:8551",
+        "VQ:16087128/07005430",
+        "NQQE:F Nvecbeg Jnl & Qnavryf Fg",
+        "PNYY:C1 911 Y&F J/Sver/29Q00- Genssvp Nppvqrag",
+        "PVGL:ZNAGRPN",
+        "TCF:+37.786530,-121.252179",
+        "ZNC:474N5");
+
+    qbGrfg("G59",
+        "8151      PNQ VQ#:16087128  EHA(CPE#):07005429                                                  F Nvecbeg Jnl / Qnavryf Fg    **ARJ PNYY NFFVTAZRAG**K:                                        C1 911 Y&F J/Sver              29Q00- Genssvp Nppvqrag       ZNAGRPN        Ncg#          OYQT#          TCF:37786530  &121252179      CebDN Pbqr:Znc:474N5",
+        "HAVG:8151",
+        "VQ:16087128/07005429",
+        "NQQE:F Nvecbeg Jnl & Qnavryf Fg",
+        "PNYY:C1 911 Y&F J/Sver/29Q00- Genssvp Nppvqrag",
+        "PVGL:ZNAGRPN",
+        "TCF:+37.786530,-121.252179",
+        "ZNC:474N5");
+
+    qbGrfg("G60",
+        "07005414    Qvfcngpurq:14:57Raebhgr:14:58Ba Fprar:15:03Pyrne Pnyy:15:49:31",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005414",
+        "VASB:Qvfcngpurq:14:57\aRaebhgr:14:58\aBa Fprar:15:03\aPyrne Pnyy:15:49:31");
+
+    qbGrfg("G61",
+        "8151      PNQ VQ#:16087093  *FRPHEVGL PURPX - 20 ZVAHGRF*20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.",
+        "HAVG:8151",
+        "VQ:16087093",
+        "PNYY:FRPHEVGL PURPX - 20 ZVAHGRF",
+        "VASB:20 Zvahgrf ng Qrfgvangvba - Nqivfr lbhe qvfcngpure NBE be RGN naq ernfba sbe qrynl.");
+
+    qbGrfg("G62",
+        "8151      PNQ VQ #:        Eha (CPE#):07005414*EHA ERCBEG*Gpe/14:57:40Qfc/14:57:48Erfc/14:58:31Fpa/15:03:29Gk/15:16:35Qfg/15:28:23FGzvyrf/Rzvyrf/Tevq/Y143      Znc/449Q9   Nern/FW Q YZQ_7 HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005414",
+        "VQ:8151",
+        "VASB:Gpe/14:57:40\aQfc/14:57:48\aErfc/14:58:31\aFpa/15:03:29\aGk/15:16:35Qfg/15:28:23",
+        "ZNC:449Q9");
+
+    qbGrfg("G63",
+        "8151      PNQ VQ#:16087093  EHA(CPE#):07005414CXJL                                              3-399 R Q Nepl Cxjl           **ARJ PNYY NFFVTAZRAG**K:F Uneyna Eq/F Zhecul Cxjl               C1 911 Y&F J/B Sver            32O01- Hax Ceboyrz (Zna Qbja) YNGUEBC        Ncg#          OYQT#          TCF:37803544  &121297842      CebDN Pbqr:Znc:449Q9",
+        "HAVG:8151",
+        "VQ:16087093/07005414",
+        "CYNPR:CXJL",
+        "NQQE:3-399 R Q Nepl Cxjl",
+        "ZNQQE:3 R Q Nepl Cxjl",
+        "K:F Uneyna Eq/F Zhecul Cxjl",
+        "PNYY:C1 911 Y&F J/B Sver/32O01- Hax Ceboyrz (Zna Qbja)",
+        "PVGL:YNGUEBC",
+        "TCF:+37.803544,-121.297842",
+        "ZNC:449Q9");
+
+    qbGrfg("G64",
+        "07005406    Qvfcngpurq:14:22Raebhgr:14:22Ba Fprar:14:25Pyrne Pnyy:14:35:54",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005406",
+        "VASB:Qvfcngpurq:14:22\aRaebhgr:14:22\aBa Fprar:14:25\aPyrne Pnyy:14:35:54");
+
+    qbGrfg("G65",
+        "8153      PNQ VQ#:16087077  EHA(CPE#):07005406FGBERE GENAFCBEGNGVBA OHF                         907 J Qnivf Fg                **ARJ PNYY NFFVTAZRAG**K:A Jnyahg Nir/Fhaunira Cy                C1 911 Y&F J/Sver              12Q00- Pbaihyfvba/Frvmher     ZNAGRPN        Ncg#PBEARE    OYQT#          TCF:37800897  &121229381      CebDN Pbqr:Znc:451T9",
+        "HAVG:8153",
+        "VQ:16087077/07005406",
+        "CYNPR:FGBERE GENAFCBEGNGVBA OHF",
+        "NQQE:907 J Qnivf Fg",
+        "K:A Jnyahg Nir/Fhaunira Cy",
+        "PNYY:C1 911 Y&F J/Sver/12Q00- Pbaihyfvba/Frvmher",
+        "PVGL:ZNAGRPN",
+        "NCG:PBEARE",
+        "TCF:+37.800897,-121.229381",
+        "ZNC:451T9");
+
+    qbGrfg("G66",
+        "07005378    Qvfcngpurq:13:01Raebhgr:13:01Ba Fprar:13:05Pyrne Pnyy:13:38:39",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005378",
+        "VASB:Qvfcngpurq:13:01\aRaebhgr:13:01\aBa Fprar:13:05\aPyrne Pnyy:13:38:39");
+
+    qbGrfg("G67",
+        "8152      PNQ VQ #:        Eha (CPE#):07005378*EHA ERCBEG*Gpe/13:01:24Qfc/13:01:29Erfc/13:01:35Fpa/13:05:27Gk/13:18:15Qfg/13:26:31FGzvyrf/Rzvyrf/Tevq/Z27Q      Znc/474T2   Nern/FW Q_4 HEONA",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005378",
+        "VQ:8152",
+        "VASB:Gpe/13:01:24\aQfc/13:01:29\aErfc/13:01:35\aFpa/13:05:27\aGk/13:18:15Qfg/13:26:31",
+        "ZNC:474T2");
+
+    qbGrfg("G68",
+        "07005367    Qvfcngpurq:12:31Raebhgr:12:32Ba Fprar:12:35Pyrne Pnyy:13:19:31",
+        "GLCR:EHA_ERCBEG",
+        "HAVG:07005367",
+        "VASB:Qvfcngpurq:12:31\aRaebhgr:12:32\aBa Fprar:12:35\aPyrne Pnyy:13:19:31");
 
   }
 

@@ -14,10 +14,13 @@ public class DispatchA49Parser extends FieldProgramParser {
 
   public DispatchA49Parser(String defCity, String defState) {
     super(defCity, defState, 
-        "DATE_TIME_SRC! Addr:ADDR! Cross:X? Inc_Type:CODE? Juris:SKIP? Report_#:ID? REMARKS! EXTRA+");
+        "( CAD_Num:SKIP! Addr:ADDR! Times:EMPTY! INFO/R! INFO/N+ Rpt#:ID END " +
+        "| ( Rpt#:ID! Addr:ADDR! Inc_Type:CODE! " +
+          "| DATE_TIME_SRC! Addr:ADDR! Cross:X? Inc_Type:CODE? Juris:SKIP? Report_#:ID? ) REMARKS! EXTRA+ )");
   }
   
   private static final Pattern REMARKS_PTN = Pattern.compile("(\nRemarks)[: ]+");
+  
   @Override
   protected boolean parseMsg(String body, Data data) {
     body = REMARKS_PTN.matcher(body).replaceFirst("$1:\n");
@@ -27,6 +30,7 @@ public class DispatchA49Parser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("DATE_TIME_SRC")) return new MyDateTimeSourceField();
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("REMARKS")) return new SkipField("Remarks:", true);;
     if (name.equals("EXTRA")) return new MyExtraField();
     return super.getField(name);
@@ -49,9 +53,17 @@ public class DispatchA49Parser extends FieldProgramParser {
       return "DATE TIME SRC ID";
     }
   }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldStart(field, "\".");
+      super.parse(field, data);
+    }
+  }
 
   private static final Pattern EXTRA_ID_PTN  = Pattern.compile(">(?:RPT#|AC)< *([-\\d]+)");
-  private static final Pattern EXTRA_CALL_PTN = Pattern.compile("F>>IC< *(?:F\\.)? *(.*?)(?: \\d{6})?");
+  private static final Pattern EXTRA_CALL_PTN = Pattern.compile("F>>?IC< *(?:F\\.)? *(.*?)(?: \\d{6})?");
   private static final Pattern EXTRA_GPS_PTN = Pattern.compile("\\bLat=([-+]\\d+\\.\\d{4,}) Long=([-+]\\d+\\.\\d{4,})\\b");
   private static final Pattern EXTRA_TIME_OP_PTN = Pattern.compile("(.*) \\d{4},\\d{3}");
   private static final Pattern EXTRA_PREFIX_PTN = Pattern.compile("(?:[A-Z]>)?(?:>(?:AC|E9|IC)<)? *(?:[A-Z]\\.)? *(.*)");

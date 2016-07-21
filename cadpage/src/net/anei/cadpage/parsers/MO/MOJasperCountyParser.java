@@ -28,25 +28,28 @@ public class MOJasperCountyParser extends DispatchOSSIParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "ASBR",   "ASBURY",
       "ALBA",   "ALBA",
-      "APTD",   "APTD",
+      "APTD",   "AIRPORT DRIVE",
+      "ASBR",   "ASBURY",
       "AVLA",   "AVILLA",
       "BRHT",   "BROOKLYN HEIGHTS",
       "CJCT",   "CARL JUNCTION",
       "CRTH",   "CARTHAGE",
       "CRTV",   "CARTERVILLE",
-      "DQSN",   "DUQUESNE",
       "DNWG",   "DUENWEG",
+      "DQSN",   "DUQUESNE",
       "FDLT",   "FIDELITY",
       "JPLN",   "JOPLIN",
       "JSPR",   "JASPER",
       "LRSL",   "LA RUSSELL",
+      "NKCT",   "NECK CITY",
       "ORNG",   "ORONOGO",
+      "PRCL",   "PURCELL",
       "REDS",   "REEDS",
       "SRCX",   "SARCOXIE",
       "WBCT",   "WEBB CITY",
       
-      "CNTY", ""
+      "CNTY",   "JASPER COUNTY"
+
   });
 }

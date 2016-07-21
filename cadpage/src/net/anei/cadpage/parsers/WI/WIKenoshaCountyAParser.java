@@ -13,8 +13,17 @@ public class WIKenoshaCountyAParser extends SmartAddressParser {
   private static final Pattern MARKER = Pattern.compile("^(?:From: )?[A-Z]{2,3}\\d{3} +#:");
   
   public WIKenoshaCountyAParser() {
-    super("KENOSHA COUNTY", "WI");
+    this("KENOSHA COUNTY", "WI");
+  }
+  
+  WIKenoshaCountyAParser(String defCity, String defState) {
+    super(defCity, defState);
     setFieldList("ID CALL ADDR PLACE INFO");
+  }
+  
+  @Override
+  public String getAliasCode() {
+    return "WIKenoshaCounty";
   }
   
   @Override

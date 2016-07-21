@@ -733,38 +733,81 @@ public class MsgOptionManager {
     
     if (!SmsPopupUtils.haveNet(context)) return;
     
+    String mapOption = ManagePreferences.appMapOption();
+    boolean navigateMap = ManagePreferences.navigateMap();
+    boolean gps = GPS_LOC_PTN.matcher(searchStr).matches();
+    if (!gps) searchStr = searchStr.replaceAll(" *& *", " AT ");
+    searchStr = Uri.encode(searchStr);
+    
+    // Waze has completely different request protocols
+    if (mapOption.equals("Waze")) {
+      StringBuilder sb = new StringBuilder();
+      sb.append("waze://?");
+      if (gps) {
+        sb.append("ll=");
+      } else {
+        sb.append("q=");
+      }
+      sb.append(searchStr);
+      if (navigateMap) sb.append("&navigate=yes");
+      
+      // Build and launch map request
+      Uri uri = Uri.parse(sb.toString());
+      Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+      
+      Log.w("Map Request:");
+      ContentQuery.dumpIntent(intent);
+      
+      try {
+          context.startActivity(intent);
+          return;
+      } catch (ActivityNotFoundException ex) {
+          // Waze not installed, drop back to Google mapping
+        Log.w("Map request failed");
+        mapOption = "Google";
+      }
+    }
+    
+    // Everything other than Waze
+    
     // Should we jump straight to navigation
-    if (ManagePreferences.navigateMap()) {
-      searchStr = "google.navigation:q=" + Uri.encode(searchStr);
+    StringBuilder sb = new StringBuilder();
+    if (navigateMap) {
+      sb.append("google.navigation:q=");
+      sb.append(searchStr);
     }
     
     // Regular mapping
     else {
+      
       // We do things differently for GPS coordinates
-      if (GPS_LOC_PTN.matcher(searchStr).matches()) {
-        searchStr = "geo:0,0?q=" + Uri.encode(searchStr);
+      if (gps) {
+        sb.append("geo:0,0?q=");
+        sb.append(searchStr);
         
         // Add real address as title
         if (!ManagePreferences.noMapGpsLabel()) {
           String addr = message.getAddress();
           if (addr.length() > 0) {
-            searchStr = searchStr + '(' + Uri.encode(addr) + ')';
+            sb.append('(');
+            sb.append(Uri.encode(addr));
+            sb.append(')');
           }
         }
       }
       
       // Regular address parsing
       else {
-        searchStr = searchStr.replaceAll(" *& *", " AT ");
-        searchStr = "geo:0,0?q=" + Uri.encode(searchStr);
+        sb.append("geo:0,0?q=");
+        sb.append(searchStr);
       }
     }
     
     // Build and launch map request
-    Uri uri = Uri.parse(searchStr);
+    Uri uri = Uri.parse(sb.toString());
     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
     
-    if (ManagePreferences.lockGoogleMap()) intent.setPackage(GOOGLE_MAP_PKG);
+    if (mapOption.equals("Google")) intent.setPackage(GOOGLE_MAP_PKG);
     
     Log.w("Map Request:");
     ContentQuery.dumpIntent(intent);

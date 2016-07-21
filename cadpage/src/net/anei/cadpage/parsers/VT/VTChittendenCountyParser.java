@@ -1,10 +1,13 @@
 package net.anei.cadpage.parsers.VT;
 
-import net.anei.cadpage.parsers.dispatch.DispatchA19Parser;
+import net.anei.cadpage.parsers.GroupBestParser;
 
-public class VTChittendenCountyParser extends DispatchA19Parser {
+/**
+ * Chittenden County, VT
+ */
+public class VTChittendenCountyParser extends GroupBestParser {
   
   public VTChittendenCountyParser() {
-    super("CHITTENDEN COUNTY", "VT");
+    super(new VTChittendenCountyAParser(), new VTChittendenCountyCParser());
   }
 }

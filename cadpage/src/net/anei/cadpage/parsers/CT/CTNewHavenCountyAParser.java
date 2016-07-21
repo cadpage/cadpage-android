@@ -9,6 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchRedAlertParser;
 
 public class CTNewHavenCountyAParser extends DispatchRedAlertParser {
   
+  private static final Pattern BAD_MSG_PTN = Pattern.compile("\\d{10} .*");
   private static final Pattern MISSING_DOTS = Pattern.compile("(.*[^.]) (\\d\\d:\\d\\d)\\b *(.*)");
   private static final Pattern CITY_ZIP_PTN = Pattern.compile("(.*) \\d{5}");
   private static final Pattern PRI_CALL_PTN = Pattern.compile("CODE (\\d), *- *(.*)");
@@ -32,6 +33,9 @@ public class CTNewHavenCountyAParser extends DispatchRedAlertParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    
+    // Eliminate CTNewHavenCountyA messages
+    if (BAD_MSG_PTN.matcher(body).matches()) return false;
     
     // This is mostly a Red Alert format with some variations we have to correct for
     String info = "";

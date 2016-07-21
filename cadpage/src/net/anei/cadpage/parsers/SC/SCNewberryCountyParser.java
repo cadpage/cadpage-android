@@ -16,9 +16,12 @@ public class SCNewberryCountyParser extends FieldProgramParser {
     setupProtectedNames("C AND D");
   }
   
-  @Override public String getProgram() {
-    return "SRC " + super.getProgram();
+  @Override
+  public String getFilter() {
+    return "9 11";
   }
+  
+  private static final Pattern DELIM = Pattern.compile("\\n{1,2}");
 
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
@@ -34,7 +37,11 @@ public class SCNewberryCountyParser extends FieldProgramParser {
         data.strSource = subject.replaceAll("ST +", "ST");
       }
     }
-    return parseFields(body.split("\n"), data);
+    return parseFields(DELIM.split(body), data);
+  }
+  
+  @Override public String getProgram() {
+    return "SRC " + super.getProgram();
   }
 
   @Override
@@ -99,7 +106,7 @@ public class SCNewberryCountyParser extends FieldProgramParser {
   }
   
   //theres an instance of "Event Code - 1025  TOOK MEDICATION" that this class takes care of
-  private static Pattern CODE_INFO = Pattern.compile("(\\d{4}) *(.*)");
+  private static Pattern CODE_INFO = Pattern.compile("(\\d{4}|SIG\\d+) *(.*)");
   private class MyCodeField extends CodeField {
     // extended constructor to keep validation patterns in one place
     public MyCodeField(String vPattern, boolean hard) {

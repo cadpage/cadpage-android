@@ -6,19 +6,21 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 /**
  * Albemarle County, VA
  */
 
-public class VAAlbermarleCountyParser extends FieldProgramParser {
+public class VAAlbemarleCountyAParser extends FieldProgramParser {
   
+  private static final Pattern SRC_PTN = Pattern.compile("((?:ALL )?[A-Z0-9]+) +(.*)");
   private static final Pattern TAIL_JUNK_PTN = Pattern.compile(":?[?=<>;][?=<>;:\\d]*$");
   private static final Pattern GEN_ALERT_PTN = Pattern.compile("TIME: (\\d\\d:\\d\\d) +(.*)");
   private static final Pattern COUNTY_ADDR_PTN = Pattern.compile("([A-Z]+) +\\d+");
   
-  public VAAlbermarleCountyParser() {
-    super(CITY_CODES, "ALBERMARLE COUNTY", "VA",
+  public VAAlbemarleCountyAParser() {
+    super(CITY_CODES, "ALBEMARLE COUNTY", "VA",
           "( PRI:PRI_ID! TYP:CALL | CALL! ) APT:APT? AD:ADDR! CTY:CITY! LOC:PLACE? CMT1:INFO? CMT2:INFO? TIME:TIME_UNIT XST:X? XST2:X?");
   }
   
@@ -30,21 +32,21 @@ public class VAAlbermarleCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    int pt = body.indexOf(' ');
-    if (pt < 0) return false;
-    if (pt > 10) pt = 10;
-    data.strSource = body.substring(0,pt);
-    body = body.substring(pt).trim();
+    Matcher match = SRC_PTN.matcher(body);
+    if (!match.matches()) return false;
+    data.strSource = match.group(1).trim();
+    body = match.group(2);
     
     // Strip duplicate source name and other junk from end of body
     body = stripFieldEnd(body, ' ' + data.strSource);
     body = TAIL_JUNK_PTN.matcher(body).replaceAll("");
     
-    Matcher match = GEN_ALERT_PTN.matcher(body);
+     match = GEN_ALERT_PTN.matcher(body);
     if (match.matches()) {
-      data.strCall = "GENERAL ALERT";
+      setFieldList("TIME INFO");
+      data.msgType = MsgType.GEN_ALERT;
       data.strTime =  match.group(1);
-      data.strPlace = match.group(2);
+      data.strSupp = match.group(2);
       return true;
     }
 
@@ -58,7 +60,7 @@ public class VAAlbermarleCountyParser extends FieldProgramParser {
       if (match.matches()) {
         data.strCity = match.group(1) + " COUNTY";
         String addr = data.strPlace;
-        pt = addr.indexOf(" - ");
+        int pt = addr.indexOf(" - ");
         if (pt >= 0) addr = addr.substring(0,pt).trim();
         data.strPlace = data.strAddress;
         data.strAddress = "";

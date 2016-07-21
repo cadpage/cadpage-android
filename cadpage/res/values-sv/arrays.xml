@@ -11,6 +11,18 @@
     <item>Aldrig</item>
     <item>När tillgänglig</item>
   </string-array>
+  
+  <string-array name="pref_app_map_option_entries">
+    <item>Google</item>
+    <item>Other</item>       <!-- Translate -->
+  </string-array>
+  
+  <string-array name="pref_waze_app_map_option_entries">
+    <item>Google</item>
+    <item>Waze</item>
+    <item>Other</item>       <!-- Translate -->
+  </string-array>
+  
   <string-array name="pref_resp_type_text">
     <item>Ingenting</item>
     <item>Telefonsamtal</item>

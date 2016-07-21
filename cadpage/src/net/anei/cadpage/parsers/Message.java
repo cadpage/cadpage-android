@@ -55,11 +55,20 @@ public class Message {
     // Replace some odd unicode characters with their closest ASCII equivalents
     body = demimic(body);
     
-    if (! preParse) {
+    if (options.subjectColonField()) {
+      this.parseAddress = fromAddress;
+      this.parseSubject = "";
+      if (subject.length() > 0) body = (subject + ": " + body).trim();
+      this.parseMessageBody = body;
+    }
+    
+    else if (! preParse) {
       this.parseAddress = fromAddress;
       this.parseSubject = subject;
       this.parseMessageBody = finish(body, options);
-    } else {
+    } 
+    
+    else {
       preParse(fromAddress, subject, body, options);
     }
   }

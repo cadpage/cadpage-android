@@ -222,7 +222,7 @@ public abstract class SmartAddressParser extends MsgParser {
   public static final int FLAG_STRICT_SUFFIX = 0x8000000;
   
   /**
-   * Allow street names to have common direct qualifiers at both ends
+   * Allow street names to have common direction qualifiers at both ends
    */
   public static final int FLAG_ALLOW_DUAL_DIRECTIONS = 0x10000000;
   

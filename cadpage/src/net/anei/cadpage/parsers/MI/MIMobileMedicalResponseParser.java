@@ -16,7 +16,7 @@ public class MIMobileMedicalResponseParser extends DispatchProQAParser {
   
   public MIMobileMedicalResponseParser() {
     super("", "MI", 
-          "TIME? ADDR APT? CALL! XTRA+? INFO+");
+          "( ID! TIME? ADDR APT? | ADDR APT? INFO+? ID! ) CALL! XTRA+? INFO+? TIME");
   }
   
   @Override
@@ -37,6 +37,10 @@ public class MIMobileMedicalResponseParser extends DispatchProQAParser {
       if (body.startsWith("--")) body = body.substring(2).trim();
       if (body.startsWith("<CAD>")) {
         body = body.substring(5).trim();
+        break;
+      }
+      if (body.startsWith("/ <CAD> - part 1 of 1 / ")) {
+        body = body.substring(24).trim();
         break;
       }
     } while (false);
@@ -113,6 +117,7 @@ public class MIMobileMedicalResponseParser extends DispatchProQAParser {
     
     @Override
     public void parse(String field, Data data) {
+      if (field.equals("<Unknown>")) return;
       if (field.toUpperCase().startsWith("X ")) {
         data.strCross = append(data.strCross, " & ", field.substring(2).trim());
       } else {

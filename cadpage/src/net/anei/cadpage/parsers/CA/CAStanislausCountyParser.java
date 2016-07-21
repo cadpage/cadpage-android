@@ -5,14 +5,18 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.Message;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class CAStanislausCountyParser extends FieldProgramParser {
 
   public CAStanislausCountyParser() {
     super(CITY_CODES, "STANISLAUS COUNTY", "CA", 
-          "SRC CALL ADDR_PFX+? ADDR/Z! DET:INFO! ALRMLVL:PRI! DISPTIME:TIME!");
+          "Address:ADDR ADDR2? ( CITY ZIP_X? | CITY_MAP_X | ) EMPTY SIMS_Info:CH? Alarm_Level:PRI? Handling_Unit:UNIT! Agency:SRC! Response_Type:CALL! Dispatch_Time:TIME! END");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "vipercad@stanislaussheriff.com,noreply@tiburoninc.com";
   }
   
   @Override
@@ -20,148 +24,215 @@ public class CAStanislausCountyParser extends FieldProgramParser {
     return MAP_FLG_SUPPR_LA;
   }
   
-  private String fromAddress;
-
   @Override
-  protected Data parseMsg(Message msg, int parseFlags) {
-    fromAddress = msg.getFromAddress();
-    return super.parseMsg(msg, parseFlags);
-  }
-
-  private static final Pattern FAKE_ADDRESS_PTN = Pattern.compile("[A-Z]{3}-[A-Z0-9]+-@.*");
-  
-  protected boolean parseMsg(String subject, String body, Data data) {
-    
-    // One particular construct get misinterpreted as a sender address and subject
-    // and we have to put things back together
-    if (FAKE_ADDRESS_PTN.matcher(fromAddress).matches() && subject.length() > 0) {
-      body = fromAddress + " (" + subject + ")" + body;
-    }
-    
-    
-    
-    int ni = body.indexOf("\nSent");
-    if (ni != -1) body = body.substring(0, ni);
-
-    return parseFields(body.split("-"), data);
+  protected boolean parseMsg(String body, Data data) {
+    return parseFields(body.split(","), data);
   }
 
   @Override
   public Field getField(String name) {
-    if (name.equals("ADDR_PFX")) return new MyAddressPrefixField();
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ADDR2")) return new MyAddress2Field();
+    if (name.equals("CITY_MAP_X")) return new MyCityMapCrossField();
+    if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("ZIP_X")) return new MyZipCrossField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
     return super.getField(name);
   }
-  
-  private class MyAddressPrefixField extends Field {
-    @Override
-    public void parse(String field, Data data) {
-      data.strAddress = append(data.strAddress, "-", field);
-    }
 
-    @Override
-    public String getFieldNames() {
-      return "";
-    }
-  }
-
-  private static Pattern ADDR_X_PTN = Pattern.compile("(.*)\\((?!MapBook:)([^\\(\\)]*/[^\\(\\)]*)\\)");
-  private static Pattern ADDR_MAP_PTN = Pattern.compile("(.*)\\(MapBook:([^\\(\\)]*)\\)");
-  private static Pattern AT = Pattern.compile("@(.*?)(?:#(.*?))?\\((.*?)\\),(.*)");
-  private static Pattern ADDR = Pattern.compile("([^,\\(\\)]*?)(?:\\(([^\\(\\)]*?)\\))?,([^,#]*?)(?:#(.*?))?");
-  private static Pattern INTERSECTION = Pattern.compile("([^,]*?)(?:, ([A-Z]{2}(?: [A-Z]{2})?))?/([^,]*?)(?:, ([A-Z]{2}(?: [A-Z]{2})?))?");
-  private static Pattern APT_PTN = Pattern.compile("^(APT?|RM|ROOM|UNIT|SPC?|SPACE)[- ]*");
+  private static Pattern ADDR_APT_PTN = Pattern.compile("^(APT?|RM|ROOM|UNIT|SPC?|SPACE)[- ]*");
+  private static Pattern ADDR_PTN = Pattern.compile("([^\\(\\)]*?)(?:\\(([^\\(\\)]*?)\\))");
 
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       
-      // Prepend any prefix information
-      field = append(data.strAddress, "-", field);
-      data.strAddress = "";
-      
-      // Strip cross street from end of field
-      Matcher mat = ADDR_X_PTN.matcher(field);
-      if (mat.matches()) {
-        field = mat.group(1).trim();
-        data.strCross = stripFieldEnd(mat.group(2).trim(), "/");
-      }
-      
-      // Strip map page from end of field
-      mat = ADDR_MAP_PTN.matcher(field);
-      if (mat.matches()) {
-        field = mat.group(1).trim();
-        data.strMap = mat.group(2).trim();
-      }
       // Identify place format
+      Matcher mat;
       if (field.startsWith("@")) {
-        mat = AT.matcher(field);
-        if (mat.matches()) {
-          data.strPlace = mat.group(1).trim();
-          data.strApt = cleanApt(getOptGroup(mat.group(2)));
-          parseAddress(mat.group(3).trim(), data);
-          data.strCity = getCityCode(mat.group(4));
-        } else {
-          data.strAddress = field.substring(1).trim();
+        field = field.substring(1).trim();
+        if (field.endsWith(")")) {
+          int pt = field.lastIndexOf('(');
+          if (pt >= 0) {
+            parseAddress(field.substring(pt+1, field.length()-1).trim(), data);
+            field = field.substring(0,pt).trim();
+          }
         }
-      } else if ((mat = ADDR.matcher(field)).matches()) {
-        parseAddress(mat.group(1).trim(), data);
-        data.strPlace = getOptGroup(mat.group(2));
-        data.strCity = getCityCode(mat.group(3));
-        data.strApt = cleanApt(getOptGroup(mat.group(4)));
-      } else if ((mat = INTERSECTION.matcher(field)).matches()) {
-        String cityA = getOptGroup(mat.group(2));
-        String cityB = getOptGroup(mat.group(4));
-        if (cityA != null && cityB != null && !cityA.equals(cityB)) {
-          // If cities both exist and don't match, then include them in the intersection
-          data.strAddress = mat.group(1).trim() + ", " + getCityCode(cityA) + " & " + mat.group(3).trim() + ", " + getCityCode(cityB);
+        int pt = field.lastIndexOf('#');
+        if (pt >= 0) {
+          String apt = cleanApt(field.substring(pt+1).trim());
+          data.strApt = append(data.strApt, "-", apt);
+          field = field.substring(0,pt).trim();
+        }
+        if (data.strAddress.length() == 0) {
+          parseAddress(field, data);
         } else {
-          // If they do match, parse and save to strCity
-          data.strAddress = mat.group(1).trim() + " & " + mat.group(3).trim();
-          if (cityA != null) data.strCity = getCityCode(cityA);
-          else if (cityB != null) data.strCity = getCityCode(cityB);
+          data.strPlace = field;
         }
       }
-      
+      else if ((mat = ADDR_PTN.matcher(field)).matches()) {
+        parseAddress(mat.group(1).trim(), data);
+        data.strPlace = mat.group(2).trim();
+      }
       else parseAddress(field, data);
-    }
-    
-    private String getCityCode(String code) {
-      code = code.trim();
-      if (code.startsWith("CO ")) code = code.substring(3);
-      return convertCodes(code, CITY_CODES);
-    }
-    
-    private String cleanApt(String apt) {
-      return APT_PTN.matcher(apt.trim()).replaceFirst("");
     }
     
 
     @Override
     public String getFieldNames() {
-      return "PLACE ADDR APT CITY MAP X";
+      return "PLACE ADDR APT";
+    }
+  }
+  
+  private static Pattern ADDR2_PTN = Pattern.compile("((?:CO )?[A-Z]{2})/(.*)");
+
+  private class MyAddress2Field extends AddressField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = ADDR2_PTN.matcher(field);
+      if (!match.matches()) return false;
+      data.strCity = getCityCode(match.group(1));
+      data.strAddress = append(data.strAddress, " & ", match.group(2).trim());
+      return true;
+    }
+   
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "CITY? ADDR APT";
+    }
+  }
+  
+  private class MyCityField extends CityField {
+    
+    public MyCityField() {
+      super("(?:CO )?[A-Z]{2}", true);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      data.strCity = getCityCode(field);
     }
   }
 
+  private static final Pattern CITY_MAP_X_PTN = Pattern.compile("((?:CO )?[A-Z]{2}) *(?:#(.*?) *)?\\(MapBook:(.*?)\\)(?: *\\((.*)\\))?");
+  
+  private class MyCityMapCrossField extends Field {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = CITY_MAP_X_PTN.matcher(field);
+      if (!match.matches()) return false;
+      data.strCity = getCityCode(match.group(1));
+      String apt = match.group(2);
+      if (apt != null) {
+        data.strApt = append(data.strApt, "-", cleanApt(apt));
+      }
+      data.strMap = match.group(3).trim();
+      String cross = match.group(4);
+      if (cross != null) {
+        cross = cross.trim();
+        cross = stripFieldStart(cross, "/");
+        cross = stripFieldEnd(cross, "/");
+        data.strCross = cross;
+      }
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "CITY MAP X";
+    }
+  }
+
+  private static final Pattern ZIP_X_PTN = Pattern.compile("(\\d{5})(?: *\\((.*)\\))?");
+  
+  private class MyZipCrossField extends Field {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = ZIP_X_PTN.matcher(field);
+      if (!match.matches()) return false;
+      if (data.strCity.length() == 0) data.strCity = match.group(1);
+      String cross = match.group(2);
+      if (cross != null) {
+        cross = cross.trim();
+        cross = stripFieldStart(cross, "/");
+        cross = stripFieldEnd(cross, "/");
+        data.strCross = cross;
+      }
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "CITY MAP X";
+    }
+  }
+  
+  private String cleanApt(String apt) {
+    return ADDR_APT_PTN.matcher(apt.trim()).replaceFirst("");
+  }
+  
+  private String getCityCode(String code) {
+    code = stripFieldStart(code, "CO ");
+    return convertCodes(code, CITY_CODES);
+  }
+
+
   private static Properties CITY_CODES = buildCodeTable(new String[] {
-      "CE", "Ceres",
-      "CL", "Crows Landing",
-      "DE", "Denair",
-      "DG", "Diablo Grande",
-      "GR", "Grayson",
-      "HU", "Hughson",
-      "KE", "Keyes",
-      "KF", "Knights Ferry",
-      "LG", "La Grange",
-      "MO", "Modesto",
-      "NM", "Newman",
-      "OD", "Oakdale",
-      "PS", "Patterson",
-      "RB", "Riverbank",
-      "SA", "Salida",
-      "TU", "Turlock",
-      "WE", "Westley",
-      "WF", "Waterford"
+      "CE", "CERES",
+      "CL", "CROWS LANDING",
+      "DE", "DENAIR",
+      "DG", "DIABLO GRANDE",
+      "EP", "EMPIRE",
+      "GR", "GRAYSON",
+      "HK", "HICKMAN",
+      "HU", "HUGHSON",
+      "KE", "KEYES",
+      "KF", "KNIGHTS FERRY",
+      "LG", "LA GRANGE",
+      "MO", "MODESTO",
+      "NM", "NEWMAN",
+      "OD", "OAKDALE",
+      "PS", "PATTERSON",
+      "RB", "RIVERBANK",
+      "SA", "SALIDA",
+      "TU", "TURLOCK",
+      "VN", "VERNALIS",
+      "VH", "VALLEY HOME",
+      "WE", "WESTLEY",
+      "WF", "WATERFORD"
   });
   
 }

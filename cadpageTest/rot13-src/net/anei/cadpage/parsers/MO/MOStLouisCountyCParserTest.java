@@ -886,6 +886,7 @@ Ntrapl anzr: Yrznl SverCebgrpgvba Qvfgevpg
 Ybpngvba: Fg. Ybhvf, ZB, Havgrq Fgngrf
 Fraqre: <qvfcngpu@ppr911.bet>
 
+{PNQ Cntvat} 06 Oernguvat Ceboyrzf DQ NG:1940 Havba Eq KFG:ERNIVF ONEENPXF EQ/ZNAFNEQ QE 16 16QA2,1617,1614GNP:PP911 FB - F ZNVA S
 {PNQ Cntvat} 30 Nppvqragny Vawhel DQ NG:2318 Gryrtencu Eq KFG:FBHGUNZCGBA QE/PNZOBEAR QE 16 16QA,1617GNP:PP911 FB - F ZNVA S
 {PNQ Cntvat} Nffvfg Cbyvpr (Sver) NG:1762 Yrznl Sreel Eq KFG:CNEX PERFG QE/QHZBAG CY 16 16QA2,1617,1614GNP:PP911 FB - F ZNVA S
 {PNQ Cntvat} 19 Urneg Ceboyrzf DQ NG:4011 Onlyrff Nir KFG:ENVA EVQTR QE/ENZC V 55 AO GB ONLYRFF NIR 16 16QA2,1617,1614GNP:PP911 FB - F ZNVA S
@@ -9545,6 +9546,15 @@ choyvp pynff ZBFgYbhvfPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgYrznlSverCebgrpgvbaQvfgevpg() {
+
+    qbGrfg("K2",
+        "{PNQ Cntvat} 06 Oernguvat Ceboyrzf DQ NG:1940 Havba Eq KFG:ERNIVF ONEENPXF EQ/ZNAFNEQ QE 16 16QA2,1617,1614GNP:PP911 FB - F ZNVA S",
+        "PBQR:06",
+        "PNYY:Oernguvat Ceboyrzf",
+        "NQQE:1940 Havba Eq",
+        "K:ERNIVF ONEENPXF EQ/ZNAFNEQ QE",
+        "FEP:16",
+        "HAVG:16QA2,1617,1614");
 
     qbGrfg("G1",
         "{PNQ Cntvat} 30 Nppvqragny Vawhel DQ NG:2318 Gryrtencu Eq KFG:FBHGUNZCGBA QE/PNZOBEAR QE 16 16QA,1617GNP:PP911 FB - F ZNVA S",

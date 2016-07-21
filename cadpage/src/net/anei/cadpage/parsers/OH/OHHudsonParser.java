@@ -17,7 +17,7 @@ public class OHHudsonParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "hudsoncad@hudson.oh.us";
+    return "@hudson.oh.us";
   }
   
   @Override

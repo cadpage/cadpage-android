@@ -274,12 +274,11 @@
   <string name="pref_gps_map_option_title">GPS Mapping Option</string>
   <string name="pref_gps_map_option_summary">Use GPS coordinates for mapping: %%s</string>
   
+  <string name="pref_app_map_option_title">Mapping App Option</string>
+  <string name="pref_app_map_option_summary">Use mapping app: %%s</string>
+  
   <string name="pref_report_position_title">Report position when responding</string>
   <string name="pref_report_position_summary">Report your current position when responding to calls: %%s</string>
-
-  <string name="pref_lock_google_map_title">Only use Google mapping</string>
-  <string name="pref_lock_google_map_summaryon">Google Map will be used for all map requests</string>
-  <string name="pref_lock_google_map_summaryoff">Other Map apps can be used for map requests</string>
 
   <string name="pref_navigate_map_title">Map Navigate Option</string>
   <string name="pref_navigate_map_summaryon">Map button opens navigation directions</string>

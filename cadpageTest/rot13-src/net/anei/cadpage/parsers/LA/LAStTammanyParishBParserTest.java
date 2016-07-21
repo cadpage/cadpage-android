@@ -417,7 +417,7 @@ choyvp pynff YNFgGnzznalCnevfuOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2016020429",
         "PNYY:N(a) Nppvqrag/vawhevrf unf orra",
         "NQQE:54 V-12 R",
-        "ZNQQE:54 V 12 R",
+        "ZNQQE:30.474260,-90.226186",
         "PVGL:Pbivatgba",
         "FG:YN");
 

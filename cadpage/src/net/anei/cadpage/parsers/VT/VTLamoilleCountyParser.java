@@ -15,8 +15,17 @@ public class VTLamoilleCountyParser extends FieldProgramParser {
   private Map<String, String> unitName;
   
   public VTLamoilleCountyParser() {
-    super("LAMOILLE COUNTY", "VT",
-          "SKIP SKIP SKIP SKIP SKIP SKIP Address:ADDRCITY Incident_Number:ID Call_Type:CALL Narratives:INFO+");
+    this("LAMOILLE COUNTY", "VT");
+  }
+  
+  VTLamoilleCountyParser(String defCity, String defState) {
+    super(defCity, defState,
+          "SKIP SKIP SKIP SKIP SKIP SKIP Address:ADDRCITY Incident_Number:ID! Call_Type:CALL Narratives:INFO+");
+  }
+  
+  @Override
+  public String getAliasCode() {
+    return "VTGLamoilleCounty";
   }
 
   @Override

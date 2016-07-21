@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.OK;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
@@ -13,11 +14,13 @@ public class OKBryanCountyParser extends DispatchB2Parser {
   
   public OKBryanCountyParser() {
     super("0:", CITY_LIST, "BRYAN COUNTY", "OK");
+    setupCallList(CALL_LIST);
+    setupMultiWordStreets(MWORD_STREET_LIST);
   }
   
   @Override
   public String getFilter() {
-    return "0@durant.org";
+    return "@durant.org,lakewood1051@yahoo.com,15803801917@tmomail.net";
   }
 
   @Override
@@ -70,22 +73,79 @@ public class OKBryanCountyParser extends DispatchB2Parser {
     return sAddress;
   }
   
-  private static final String[] CITY_LIST = {
-    "ACHILLE",
-    "ARMSTRONG",
-    "BENNINGTON",
-    "BOKCHITO",
-    "CADDO",
-    "CALERA",
-    "CARTWRIGHT",
-    "COLBERT",
-    "DURANT",
-    "HENDRIX",
-    "KEMP",
-    "KENEFIC",
-    "MEAD",
-    "PLATTER",
-    "SILO"
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "BIG VALLEY",
+    "BLACKJACK VILLAGE",
+    "FOUR SEASONS",
+    "HILLTOP HOLLOW",
+    "LONE OAK",
+    "MEAD CEMETERY",
+    "MEAD CEMETREY",
+    "ROCKY TOP",
+    "TANDY WALKER",
+    "THREE MILE"
   };
+
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "ASSAULT",
+      "BRUSH FIRE",
+      "DFD PAGER TEST SCHEDULE",
+      "DOMESTIC IN PROGRESS",
+      "FIRE EXPLOSION",
+      "FIRE MISC. UNKNOWN TYPE",
+      "FOUND PROPERTY",
+      "LIFT ASSIST",
+      "MEDICAL CALL",
+      "MOTOR VEHICLE COLLISION",
+      "MVC - UNK INJ",
+      "NON EMERG TRANSPORT",
+      "STRUCTURE FIRE",
+      "SUICIDE OR ATTEMPTED SUICIDE",
+      "SUSPICIOUS ACTIVITY",
+      "VEHICLE COLLISION /W INJURIES",
+      "WARRANT SERVICE / FELONY"
+  );
+  
+  static final String[] CITY_LIST = new String[]{
+    
+      "BRYAN COUNTY",
+      
+      //Cities
+      "DURANT",
+
+      //Towns
+      "ACHILLE",
+      "ARMSTRONG",
+      "BENNINGTON",
+      "BOKCHITO",
+      "CADDO",
+      "CALERA",
+      "COLBERT",
+      "HENDRIX",
+      "KEMP",
+      "KENEFIC",
+      "MEAD",
+      "SILO",
+
+      //Census-designated places
+      "ALBANY",
+      "BLUE",
+      "CARTWRIGHT",
+
+      //Unincorporated communities
+      "ALLISON",
+      "BANTY",
+      "BROWN",
+      "CADE",
+      "COBB",
+      "KIERSEY",
+      "PLATTER",
+      "ROMIA",
+      "ROBERTA",
+      "UTICA",
+      "YARNABY",
+      "YUBA"
+  };
+
 
 }

@@ -74,6 +74,10 @@ Pbagnpg: Vxr Xnverl <vxnverl@oyhrneebjju.pbz>
 Fraqre: 16466933772
 1987 R 14Gu Fg -- Orgjrra Nirahr F & Nirahr G (Cig) - Pnyy VQ: 605-220-771
 
+Pbagnpg; Nor X <pgtb4vg@tznvy.pbz>
+Fraqre: pnyyvq@ungmnynu.bet
+SEZ:pnyyvq@ungmnynu.bet\aZFT:312 Nir B -- Orgjrra Zpqbanyq Nir & R 2Aq Fg - 2aq sybbe - Pnyy VQ: 606-212-431
+
 */
 
 choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -351,6 +355,18 @@ choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:Nirahr F & Nirahr G (Cig)",
         "VQ:605-220-771");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgNorX() {
+
+    qbGrfg("G1",
+        "SEZ:pnyyvq@ungmnynu.bet\aZFT:312 Nir B -- Orgjrra Zpqbanyq Nir & R 2Aq Fg - 2aq sybbe - Pnyy VQ: 606-212-431",
+        "NQQE:312 Nir B",
+        "K:Zpqbanyq Nir & R 2Aq Fg",
+        "CYNPR:2aq sybbe",
+        "VQ:606-212-431");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

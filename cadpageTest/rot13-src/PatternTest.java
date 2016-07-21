@@ -6,10 +6,10 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   choyvp fgngvp svany Cnggrea ZNFGRE =
-      Cnggrea.pbzcvyr(" *(?:EHA|Eha) ?\\(CPE#\\):");
+      Cnggrea.pbzcvyr("PCS:NGGZB([-+]?\\q{1,3}\\.\\q{5,6})([-+]?\\q{1,3}\\.\\q{5,6})PBS:\\q+PBC:\\q+(?:PNYYOX=(\\(740\\)\\q{3}-\\q{4}))?");
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("Eha(CPE#):02675685*EHA ERCBEG*Gpe/15:04:20Qfc/15:04:41Erfc/15:05:37Fpa/15:10:29Gk/15:18:39Qfg/15:29:36FGzvyrf/0       Rzvyrf/3.5     Tevq/Z171N     Znc/476N7   Nern/FW Q_6 HEONA");
+    qbGrfg("PCS:NGGZB+039.45268-082.24182PBS:0PBC:0PNYYOX=(740)677-3183FRPGVBABSJNYAHGHCBAUVTUFG.ORUVAQGURUBHFR,OHVYQVATHFRQGBORN");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

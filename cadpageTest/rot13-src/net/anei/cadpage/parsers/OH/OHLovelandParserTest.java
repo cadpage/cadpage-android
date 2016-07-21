@@ -3176,9 +3176,9 @@ choyvp pynff BUYbirynaqCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:GENSSVP/GENAFCBEGNGVBA VAPVQRAGF",
         "CEV:1",
-        "NQQE:Fe 32 @ Tyrarfgr-jvgunzfivyyr Eq",
-        "ZNQQE:BU 32 @ Tyrarfgr-jvgunzfivyyr Eq",
-        "NCG:800 FE 32",
+        "CYNPR:Fe 32 @ Tyrarfgr-jvgunzfivyyr Eq",
+        "NQQE:800 FE 32",
+        "ZNQQE:800 BU 32",
         "VASB:J/O / VSB NCCYRORRF / 62 LE BYQ ZNYR / JUVGR XVN IF HAX IRU / 62-lrne-byq, Znyr, Pbafpvbhf, Oernguvat. / genssvp / 052862 ng CBF 2",
         "VQ:15-00052208");
 
@@ -3203,8 +3203,9 @@ choyvp pynff BUYbirynaqCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Genssvp Penfu-Vawhel",
         "CEV:1",
-        "NQQE:WRSS JLYRE NHGB",
-        "NCG:1117 FE 32",
+        "CYNPR:WRSS JLYRE NHGB",
+        "NQQE:1117 FE 32",
+        "ZNQQE:1117 BU 32",
         "VASB:J/O / JUVGR INA / HAX IRU UVG PBZCY NAQ YRSG J/O / 052862 ng CBF 2",
         "VQ:15-00052197");
 
@@ -3514,9 +3515,9 @@ choyvp pynff BUYbirynaqCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "PNYY:Genssvp Penfu-Vawhel",
         "CEV:1",
-        "NQQE:Fe 32 @ Tyrarfgr-jvgunzfivyyr Eq",
-        "ZNQQE:BU 32 @ Tyrarfgr-jvgunzfivyyr Eq",
-        "NCG:800 FE 32",
+        "CYNPR:Fe 32 @ Tyrarfgr-jvgunzfivyyr Eq",
+        "NQQE:800 FE 32",
+        "ZNQQE:800 BU 32",
         "VASB:37743 ng CBF 3",
         "VQ:15-00052068");
 

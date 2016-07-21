@@ -790,6 +790,8 @@ Ntrapl anzr: Pnezry SQ - NYY
 Ybpngvba: Pnezry, VA, Havgrq Fgngrf
 Fraqre: <qvfcngpu@unzvygbapbhagl.va.tbi>
 
+{PNQCntr} Havg:R346 Fgnghf:Qvfcngpurq Ybpngvba: 13055 GENQQ FG  /   Dhnq: 46T Havgf: R346 R342  Glcr: S Nynez Erfvqrapr ABP: Anee:  XVGPURA FZBXR QRGRPGBE  PSF:  666 Pbbeq: 39.9766832290001 -86.1981319289999 Irahr: Pnezry Vap #: 2016-00003590
+{PNQCntr} Havg:R342 Fgnghf:Qvfcngpurq Ybpngvba: 10850 GBJAR EQ  /   Dhnq: 42N Havgf: R342 R345 Y341 ONG304 BCF311  Glcr: S Nynez Vafg/Zhygv Snzvyl ABP: Anee:  PSF:  330 Pbbeq: 39.94677513 -86.205567378 Irahr: Pnezry Vap #: 2016-00003604
 {PNQCntr} Ybpngvba: 780 VAQVNA GEY N  /   Dhnq: 41P Havgf:  Glcr: S OYF ABP: fvpx cref Anee:  CebDN Zrqvpny Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 26; Qvfcngpu Yriry: 26N10; Erfcbafr Grkg: Nycun  Lbh ner erfcbaqvat gb n cngvrag jub vf fvpx (be unf n pheerag zrqvpny pbaqvgvba).  Gur cngvrag vf n 52-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat.  Hajryy/vyy.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Pnyyre Fgngrzrag: fvpx cre.  1.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Fur vf oernguvat abeznyyl.  3.Fur unf bgure cnva: yrt cnva  4.Fur vf abg oyrrqvat (be ibzvgvat oybbq).  5.Fur vf hajryy/vyy.  Ceboyrz: fvpx cre.  Cngvrag Vasb: 1 cngvrag(f); 52 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  cg unf qbja flaqebzr naq qrzragvn  Arj CebDN Zrqvpny Pnfr Ahzore unf orra nffvtarq: -1944388  Angher Bs Pnyy: fvpx cref  PSF:  569 Pbbeq: 39.9699683320001 -86.113749152 Irahr: Pnezry Vap #: 2016-00000045
 {PNQCntr} Havg:R341 Fgnghf:Qvfcngpurq Ybpngvba: 780 VAQVNA GEY N  /   Dhnq: 41P Havgf: R341 N341  Glcr: S NYF ABP: fvpx cref Anee:  Arj CebDN Zrqvpny Pnfr Ahzore unf orra nffvtarq: -1944388  Angher Bs Pnyy: fvpx cref  PSF:  569 Pbbeq: 39.9699683320001 -86.113749152 Irahr: Pnezry Vap #: 2016-00000045
 {PNQCntr} Havg:R344 Fgnghf:Qvfcngpurq Ybpngvba: 11670 CROOYRCBVAGR CNFF  /   Dhnq: 44R Havgf: R344 N341  Glcr: S Nynez Zrqvpny ABP: Anee:  PSF:  479 Pbbeq: 39.9573934790001 -86.0822814109999 Irahr: Pnezry Vap #: 2016-00000044
@@ -8906,6 +8908,27 @@ choyvp pynff VAUnzvygbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgPnezrySQNYY() {
+
+    qbGrfg("K1",
+        "{PNQCntr} Havg:R346 Fgnghf:Qvfcngpurq Ybpngvba: 13055 GENQQ FG  /   Dhnq: 46T Havgf: R346 R342  Glcr: S Nynez Erfvqrapr ABP: Anee:  XVGPURA FZBXR QRGRPGBE  PSF:  666 Pbbeq: 39.9766832290001 -86.1981319289999 Irahr: Pnezry Vap #: 2016-00003590",
+        "NQQE:13055 GENQQ FG",
+        "PVGL:Pnezry",
+        "ZNC:46T",
+        "HAVG:R346 R342",
+        "PNYY:S Nynez Erfvqrapr",
+        "VASB:XVGPURA FZBXR QRGRPGBE",
+        "VQ:2016-00003590",
+        "TCF:+39.976683,-86.198132");
+
+    qbGrfg("K2",
+        "{PNQCntr} Havg:R342 Fgnghf:Qvfcngpurq Ybpngvba: 10850 GBJAR EQ  /   Dhnq: 42N Havgf: R342 R345 Y341 ONG304 BCF311  Glcr: S Nynez Vafg/Zhygv Snzvyl ABP: Anee:  PSF:  330 Pbbeq: 39.94677513 -86.205567378 Irahr: Pnezry Vap #: 2016-00003604",
+        "NQQE:10850 GBJAR EQ",
+        "PVGL:Pnezry",
+        "ZNC:42N",
+        "HAVG:R342 R345 Y341 ONG304 BCF311",
+        "PNYY:S Nynez Vafg/Zhygv Snzvyl",
+        "VQ:2016-00003604",
+        "TCF:+39.946775,-86.205567");
 
     qbGrfg("G1",
         "{PNQCntr} Ybpngvba: 780 VAQVNA GEY N  /   Dhnq: 41P Havgf:  Glcr: S OYF ABP: fvpx cref Anee:  CebDN Zrqvpny Qvfcngpu Zrffntr Frag; Puvrs Pbzcynvag Ahzore: 26; Qvfcngpu Yriry: 26N10; Erfcbafr Grkg: Nycun  Lbh ner erfcbaqvat gb n cngvrag jub vf fvpx (be unf n pheerag zrqvpny pbaqvgvba).  Gur cngvrag vf n 52-lrne-byq srznyr, jub vf pbafpvbhf naq oernguvat.  Hajryy/vyy.  Fvpx Crefba (Fcrpvsvp Qvntabfvf).  Pnyyre Fgngrzrag: fvpx cre.  1.Fur vf pbzcyrgryl nyreg (erfcbaqvat nccebcevngryl).  2.Fur vf oernguvat abeznyyl.  3.Fur unf bgure cnva: yrt cnva  4.Fur vf abg oyrrqvat (be ibzvgvat oybbq).  5.Fur vf hajryy/vyy.  Ceboyrz: fvpx cre.  Cngvrag Vasb: 1 cngvrag(f); 52 Lrnef byq; Srznyr; Pbafpvbhf: Lrf; Oernguvat: Lrf;  cg unf qbja flaqebzr naq qrzragvn  Arj CebDN Zrqvpny Pnfr Ahzore unf orra nffvtarq: -1944388  Angher Bs Pnyy: fvpx cref  PSF:  569 Pbbeq: 39.9699683320001 -86.113749152 Irahr: Pnezry Vap #: 2016-00000045",

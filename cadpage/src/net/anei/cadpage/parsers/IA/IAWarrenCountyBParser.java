@@ -9,8 +9,17 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class IAWarrenCountyBParser extends FieldProgramParser {
   
   public IAWarrenCountyBParser() {
-    super(CITY_LIST, "WARREN COUNTY", "IA",
-          "ID DATE/d TIME ( TRANSPORT CITY? INFO END | CALL ( ADDR/Z CITY | ) ( PLACE X/Z X/Z MAP! | X X/Z? MAP! | PLACE X/Z MAP! | PLACE? MAP! ) INFO/N+ )");
+    this("WARREN COUNTY", "IA");
+  }
+  
+  IAWarrenCountyBParser(String defCity, String defState) {
+    super(CITY_LIST, defCity, defState,
+          "ID DATE/d TIME ( TRANSPORT CITY? INFO END | CALL ( ADDR/Z CITY | ) ( PLACE X/Z X/Z MAP! | X X/Z? MAP! | PLACE X/Z MAP! | PLACE MAP! | MAP! | ) INFO/N+ )");
+  }
+  
+  @Override
+  public String getAliasCode() {
+    return "IAWarrenCountyB";
   }
   
   @Override
@@ -104,8 +113,48 @@ public class IAWarrenCountyBParser extends FieldProgramParser {
     "WHITE BREAST",
     "WHITE OAK",
     
-    // Polk County
+    
+    "DALLAS COUNTY",
+    
+    // Cities
+    "ADEL",
+    "BOUTON",
     "CLIVE",
-    "URBANDALE"
+    "DALLAS CENTER",
+    "DAWSON",
+    "DE SOTO",
+    "DEXTER",
+    "GRANGER",
+    "GRIMES",
+    "LINDEN",
+    "MINBURN",
+    "PERRY",
+    "REDFIELD",
+    "URBANDALE",
+    "VAN METER",
+    "WAUKEE",
+    "WEST DES MOINES",
+    "WOODWARD",
+
+    // Unincorporated community
+    "BOONEVILLE",
+
+    // Townships
+    "ADAMS",
+    "ADEL",
+    "BEAVER",
+    "BOONE",
+    "COLFAX",
+    "DALLAS",
+    "DES MOINES",
+    "GRANT",
+    "LINCOLN",
+    "LINN",
+    "SPRING VALLEY",
+    "SUGAR GROVE",
+    "UNION",
+    "VAN METER",
+    "WALNUT",
+    "WASHINGTON"
   };
 }

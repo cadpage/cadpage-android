@@ -9,6 +9,7 @@ public class UTDavisCountyParser extends GroupBestParser {
   
   public UTDavisCountyParser() {
     super(new UTDavisCountyAParser(), new UTDavisCountyBParser(), 
-        new UTDavisCountyCParser(), new UTDavisCountyDParser());
+          new UTDavisCountyCParser(), new UTDavisCountyDParser(),
+          new UTDavisCountyEParser());
   }
 }

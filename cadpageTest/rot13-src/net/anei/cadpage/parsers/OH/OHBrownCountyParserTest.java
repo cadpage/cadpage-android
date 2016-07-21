@@ -7,7 +7,7 @@ vzcbeg bet.whavg.Grfg;
 /*
 Oebja Pbhagl, BU
 Pbagnpg: "xvrgu" <xvrguj@sebagvre.pbz>
-Fraqre: oebjapbzzpge@ebnqehaare.pbz
+Fraqre: oebjapbzzpge@ebnqehaare.pbz,oebjapbzzpge@oebjapbhaglbuvb.tbi
 
 [Nyreg: FZBXR VA GUR NERN] NYEZ YIY: 1 \aYBP: \a13101 CHEQL EQ\aJNFUVATGBA \aOGJA: A/N & A/N\a\aEPIQ NF Cubar\a\aPBZ: PNYYRE NQI ZNA OHEAVAT FBZRGUVAT NOBHG GJB UB
 (Nyreg: FVPX CREFBA (FCRPVSVP QVNT)) \aNYEZ YIY: 1 \aYBP: QRRESVRYQ GBJAUBHFR \aNCNEGZRAGF \a455 J ZNVA FG \aNCG 703 \aZG BENO \aOGJA: A/N & A/N\a\aEPIQ NF Cubar\a\aPBZ

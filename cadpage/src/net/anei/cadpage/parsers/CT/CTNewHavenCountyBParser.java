@@ -45,7 +45,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "paging@nbpolicect.org,paging@mail.nbpolicect.org,paging@easthavenfire.com,pdpaging@farmington-ct.org";
+    return "paging@nbpolicect.org,paging@mail.nbpolicect.org,paging@easthavenfire.com,pdpaging@farmington-ct.org,noreply@whpd.com";
   }
   
   private static final Pattern MARKER = Pattern.compile("^(\\d{10}) +");

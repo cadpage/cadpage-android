@@ -191,6 +191,10 @@ Ntrapl anzr: Terng Snyyf Sver Erfphr
 Ybpngvba: Terng Snyyf, ZG, Havgrq Fgngrf
 Fraqre: @terngsnyyfzg.arg
 
+{Nhgbzngvp E&E Abgvsvpngvba: Zrqvpny OYF Erq, Zrqvpny OYF Erq} \e\a7/7/2016 5:32:50 CZ\e\a\e\aTSSE FGN 2, Zrqvpny OYF Erq\e\a\e\aPnyyre Anzr:\e\aPnyyre Cubar: () 590-0299\e\a\e\a601 FZRYGRE NIR AR, Terng Snyyf\e\auggc://zncf.tbbtyr.pbz/zncf?d=ybp:601+FZRYGRE+TERNG+SNYYF+ZG\e\a\e\a[Znyr vf svggvat jvgu n srznyr], [Znyr vf \"zrkvpna, fubeg unve, orneq, jrveq fubrf\"], [Srznyr vaibiyrq vf certanag, nobhg 7 zbaf byq], [PC unf gur 4 lrne byq puvyq va ure pne], [Zrkvpna Znyr vf svtugvat gur certanag ynql'f uhfonaq]\e\a\e\aPvgl bs Terng Snyyf r-znvyf znl or fhowrpg gb Zbagnan'f Evtug Gb Xabj ynj (Negvpyr VV Frp 9, Zbagnan Pbafgvghgvba) naq znl or n Choyvp Erpbeq (2-6-202, Z.P.N.) naq ninvynoyr sbe choyvp vafcrpgvba.
+{Nhgbzngvp E&E Abgvsvpngvba: Zrqvpny OYF Erq, Zrqvpny OYF Erq} \e\a7/7/2016 5:32:50 CZ\e\a\e\aTSSE FGN 2, Zrqvpny OYF Erq\e\a\e\aPnyyre Anzr:\e\aPnyyre Cubar: () 590-0299\e\a\e\a601 FZRYGRE NIR AR, Terng Snyyf\e\auggc://zncf.tbbtyr.pbz/zncf?d=ybp:601+FZRYGRE+TERNG+SNYYF+ZG\e\a\e\a[Znyr vf svggvat jvgu n srznyr], [Znyr vf \"zrkvpna, fubeg unve, orneq, jrveq fubrf\"], [Srznyr vaibiyrq vf certanag, nobhg 7 zbaf byq], [PC unf gur 4 lrne byq puvyq va ure pne], [Zrkvpna Znyr vf svtugvat gur certanag ynql'f uhfonaq]\e\a\e\aPvgl bs Terng Snyyf r-znvyf znl or fhowrpg gb Zbagnan'f Evtug Gb Xabj ynj (Negvpyr VV Frp 9, Zbagnan Pbafgvghgvba) naq znl or n Choyvp Erpbeq (2-6-202, Z.P.N.) naq ninvynoyr sbe choyvp vafcrpgvba.
+{Nhgbzngvp E&E Abgvsvpngvba: Zrqvpny OYF Erq, Zrqvpny OYF Erq} \e\a7/7/2016 5:32:50 CZ\e\a\e\aTSSE FGN 2, Zrqvpny OYF Erq\e\a\e\aPnyyre Anzr:\e\aPnyyre Cubar: () 590-0299\e\a\e\a601 FZRYGRE NIR AR, Terng Snyyf\e\auggc://zncf.tbbtyr.pbz/zncf?d=ybp:601+FZRYGRE+TERNG+SNYYF+ZG\e\a\e\a[Znyr vf svggvat jvgu n srznyr], [Znyr vf \"zrkvpna, fubeg unve, orneq, jrveq fubrf\"], [Srznyr vaibiyrq vf certanag, nobhg 7 zbaf byq], [PC unf gur 4 lrne byq puvyq va ure pne], [Zrkvpna Znyr vf svtugvat gur certanag ynql'f uhfonaq]\e\a\e\aPvgl bs Terng Snyyf r-znvyf znl or fhowrpg gb Zbagnan'f Evtug Gb Xabj ynj (Negvpyr VV Frp 9, Zbagnan Pbafgvghgvba) naq znl or n Choyvp Erpbeq (2-6-202, Z.P.N.) naq ninvynoyr sbe choyvp vafcrpgvba.
+{Nhgbzngvp E&E Abgvsvpngvba: Zrqvpny OYF Erq, Zrqvpny OYF Erq} \e\a7/7/2016 5:32:50 CZ\e\a\e\aTSSE FGN 2, Zrqvpny OYF Erq\e\a\e\aPnyyre Anzr:\e\aPnyyre Cubar: () 590-0299\e\a\e\a601 FZRYGRE NIR AR, Terng Snyyf\e\auggc://zncf.tbbtyr.pbz/zncf?d=ybp:601+FZRYGRE+TERNG+SNYYF+ZG\e\a\e\a[Znyr vf svggvat jvgu n srznyr], [Znyr vf \"zrkvpna, fubeg unve, orneq, jrveq fubrf\"], [Srznyr vaibiyrq vf certanag, nobhg 7 zbaf byq], [PC unf gur 4 lrne byq puvyq va ure pne], [Zrkvpna Znyr vf svtugvat gur certanag ynql'f uhfonaq]\e\a\e\aPvgl bs Terng Snyyf r-znvyf znl or fhowrpg gb Zbagnan'f Evtug Gb Xabj ynj (Negvpyr VV Frp 9, Zbagnan Pbafgvghgvba) naq znl or n Choyvp Erpbeq (2-6-202, Z.P.N.) naq ninvynoyr sbe choyvp vafcrpgvba.
 {Nhgbzngvp E&E Abgvsvpngvba: Fgehpgher Sver} \a6/11/2016 9:01:12 CZ\a\aTSSE FGN 1P, Fgehpgher Sver\a\aPnyyre Anzr: freivpr, nynez\aPnyyre Cubar:\a\a20 CEBFCRPG QE, Terng Snyyf\auggc://zncf.tbbtyr.pbz/zncf?d=ybp:20+CEBFCRPG+TERNG+SNYYF+ZG\a\a[onfrzrag fzbxr/sver nynez], [unir abg pnyyrq nalbar lrg], [cerzvfr 406-452-0435]\a\aPvgl bs Terng Snyyf r-znvyf znl or fhowrpg gb Zbagnan'f Evtug Gb Xabj ynj (Negvpyr VV Frp 9, Zbagnan Pbafgvghgvba) naq znl or n Choyvp Erpbeq (2-6-202, Z.P.N.) naq ninvynoyr sbe choyvp vafcrpgvba.
 {Nhgbzngvp E&E Abgvsvpngvba: Zvabe Rzretrapl} \a6/11/2016 7:26:26 CZ\a\aTSSE FGN 1O, Zvabe Rzretrapl\a\aPnyyre Anzr: INA QBYNU, XNERA\aPnyyre Cubar:\a\a19GU FG F@ 7GU NIR F , Terng Snyyf\auggc://zncf.tbbtyr.pbz/zncf?d=ybp:19GU+TERNG+SNYYF+ZG\a\a[CBFF N PNZCRE BA SVER], [PC QBRF ABG FRR SYNZR], [GURER VF FZBXR], [BA GUR FG], [ZBER GUNA 10SG NJNL SEBZ FGEHPGHER]\a\aPvgl bs Terng Snyyf r-znvyf znl or fhowrpg gb Zbagnan'f Evtug Gb Xabj ynj (Negvpyr VV Frp 9, Zbagnan Pbafgvghgvba) naq znl or n Choyvp Erpbeq (2-6-202, Z.P.N.) naq ninvynoyr sbe choyvp vafcrpgvba.
 {Nhgbzngvp E&E Abgvsvpngvba: Zvabe Rzretrapl} \a6/11/2016 6:25:44 CZ\a\aTSSE FGN 1O, Zvabe Rzretrapl\a\aPnyyre Anzr: INA QBYNU, XNERA\aPnyyre Cubar:\a\a1004 2AQ NIR F, Terng Snyyf\auggc://zncf.tbbtyr.pbz/zncf?d=ybp:1004+2AQ+TERNG+SNYYF+ZG\a\a[NPEBFF GUR FG SEBZ URER], [GURER VF N 8 BE 9LB OBL JUB FGNEGRQ N SVER], [VG VF ABG VA N SVER CVG], [SHEGURE GUNA 10SG SEBZ N UBHFR], [FGNEGRQ GUR SVER BA GUR TEBHAQ], [VG VF VA GUR ONPX LNEQ], [HAXA UBJ UR FGNEGRQ GUR SVER], [QBRFAG YBBX YVXR GURER NER NAL CNERAGF NEBHAQ], [HAXA VS GURER VF NALBAR VA GUR UBHFR]\a\aPvgl bs Terng Snyyf r-znvyf znl or fhowrpg gb Zbagnan'f Evtug Gb Xabj ynj (Negvpyr VV Frp 9, Zbagnan Pbafgvghgvba) naq znl or n Choyvp Erpbeq (2-6-202, Z.P.N.) naq ninvynoyr sbe choyvp vafcrpgvba.
@@ -3071,6 +3075,106 @@ choyvp pynff ZGPnfpnqrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgTerngSnyyfSverErfphr() {
+
+    qbGrfg("K1",
+        "{Nhgbzngvp E&E Abgvsvpngvba: Zrqvpny OYF Erq, Zrqvpny OYF Erq} \e\a" +
+        "7/7/2016 5:32:50 CZ\e\a" +
+        "\e\a" +
+        "TSSE FGN 2, Zrqvpny OYF Erq\e\a" +
+        "\e\a" +
+        "Pnyyre Anzr:\e\a" +
+        "Pnyyre Cubar: () 590-0299\e\a" +
+        "\e\a" +
+        "601 FZRYGRE NIR AR, Terng Snyyf\e\a" +
+        "uggc://zncf.tbbtyr.pbz/zncf?d=ybp:601+FZRYGRE+TERNG+SNYYF+ZG\e\a" +
+        "\e\a" +
+        "[Znyr vf svggvat jvgu n srznyr], [Znyr vf \\\"zrkvpna, fubeg unve, orneq, jrveq fubrf\\\"], [Srznyr vaibiyrq vf certanag, nobhg 7 zbaf byq], [PC unf gur 4 lrne byq puvyq va ure pne], [Zrkvpna Znyr vf svtugvat gur certanag ynql'f uhfonaq]\e\a" +
+        "\e\a" +
+        "Pvgl bs Terng Snyyf r-znvyf znl or fhowrpg gb Zbagnan'f Evtug Gb Xabj ynj (Negvpyr VV Frp 9, Zbagnan Pbafgvghgvba) naq znl or n Choyvp Erpbeq (2-6-202, Z.P.N.) naq ninvynoyr sbe choyvp vafcrpgvba.",
+
+        "QNGR:7/7/2016",
+        "GVZR:17:32:50",
+        "HAVG:TSSE FGN 2",
+        "PNYY:Zrqvpny OYF Erq",
+        "CUBAR:() 590-0299",
+        "NQQE:601 FZRYGRE NIR AR",
+        "PVGL:Terng Snyyf",
+        "VASB:[Znyr vf svggvat jvgu n srznyr], [Znyr vf \\\"zrkvpna, fubeg unve, orneq, jrveq fubrf\\\"], [Srznyr vaibiyrq vf certanag, nobhg 7 zbaf byq], [PC unf gur 4 lrne byq puvyq va ure pne], [Zrkvpna Znyr vf svtugvat gur certanag ynql'f uhfonaq]");
+
+     qbGrfg("K2",
+         "{Nhgbzngvp E&E Abgvsvpngvba: Zrqvpny OYF Erq, Zrqvpny OYF Erq} \e\a" +
+         "7/7/2016 5:32:50 CZ\e\a" +
+         "\e\a" +
+         "TSSE FGN 2, Zrqvpny OYF Erq\e\a" +
+         "\e\a" +
+         "Pnyyre Anzr:\e\a" +
+         "Pnyyre Cubar: () 590-0299\e\a" +
+         "\e\a" +
+         "601 FZRYGRE NIR AR, Terng Snyyf\e\a" +
+         "uggc://zncf.tbbtyr.pbz/zncf?d=ybp:601+FZRYGRE+TERNG+SNYYF+ZG\e\a" +
+         "\e\a" +
+         "[Znyr vf svggvat jvgu n srznyr], [Znyr vf \\\"zrkvpna, fubeg unve, orneq, jrveq fubrf\\\"], [Srznyr vaibiyrq vf certanag, nobhg 7 zbaf byq], [PC unf gur 4 lrne byq puvyq va ure pne], [Zrkvpna Znyr vf svtugvat gur certanag ynql'f uhfonaq]\e\a" +
+         "\e\a" +
+         "Pvgl bs Terng Snyyf r-znvyf znl or fhowrpg gb Zbagnan'f Evtug Gb Xabj ynj (Negvpyr VV Frp 9, Zbagnan Pbafgvghgvba) naq znl or n Choyvp Erpbeq (2-6-202, Z.P.N.) naq ninvynoyr sbe choyvp vafcrpgvba.",
+
+         "QNGR:7/7/2016",
+         "GVZR:17:32:50",
+         "HAVG:TSSE FGN 2",
+         "PNYY:Zrqvpny OYF Erq",
+         "CUBAR:() 590-0299",
+         "NQQE:601 FZRYGRE NIR AR",
+         "PVGL:Terng Snyyf",
+         "VASB:[Znyr vf svggvat jvgu n srznyr], [Znyr vf \\\"zrkvpna, fubeg unve, orneq, jrveq fubrf\\\"], [Srznyr vaibiyrq vf certanag, nobhg 7 zbaf byq], [PC unf gur 4 lrne byq puvyq va ure pne], [Zrkvpna Znyr vf svtugvat gur certanag ynql'f uhfonaq]");
+
+     qbGrfg("K3",
+         "{Nhgbzngvp E&E Abgvsvpngvba: Zrqvpny OYF Erq, Zrqvpny OYF Erq} \e\a" +
+         "7/7/2016 5:32:50 CZ\e\a" +
+         "\e\a" +
+         "TSSE FGN 2, Zrqvpny OYF Erq\e\a" +
+         "\e\a" +
+         "Pnyyre Anzr:\e\a" +
+         "Pnyyre Cubar: () 590-0299\e\a" +
+         "\e\a" +
+         "601 FZRYGRE NIR AR, Terng Snyyf\e\a" +
+         "uggc://zncf.tbbtyr.pbz/zncf?d=ybp:601+FZRYGRE+TERNG+SNYYF+ZG\e\a" +
+         "\e\a" +
+         "[Znyr vf svggvat jvgu n srznyr], [Znyr vf \\\"zrkvpna, fubeg unve, orneq, jrveq fubrf\\\"], [Srznyr vaibiyrq vf certanag, nobhg 7 zbaf byq], [PC unf gur 4 lrne byq puvyq va ure pne], [Zrkvpna Znyr vf svtugvat gur certanag ynql'f uhfonaq]\e\a" +
+         "\e\a" +
+         "Pvgl bs Terng Snyyf r-znvyf znl or fhowrpg gb Zbagnan'f Evtug Gb Xabj ynj (Negvpyr VV Frp 9, Zbagnan Pbafgvghgvba) naq znl or n Choyvp Erpbeq (2-6-202, Z.P.N.) naq ninvynoyr sbe choyvp vafcrpgvba.",
+
+         "QNGR:7/7/2016",
+         "GVZR:17:32:50",
+         "HAVG:TSSE FGN 2",
+         "PNYY:Zrqvpny OYF Erq",
+         "CUBAR:() 590-0299",
+         "NQQE:601 FZRYGRE NIR AR",
+         "PVGL:Terng Snyyf",
+         "VASB:[Znyr vf svggvat jvgu n srznyr], [Znyr vf \\\"zrkvpna, fubeg unve, orneq, jrveq fubrf\\\"], [Srznyr vaibiyrq vf certanag, nobhg 7 zbaf byq], [PC unf gur 4 lrne byq puvyq va ure pne], [Zrkvpna Znyr vf svtugvat gur certanag ynql'f uhfonaq]");
+
+     qbGrfg("K4",
+         "{Nhgbzngvp E&E Abgvsvpngvba: Zrqvpny OYF Erq, Zrqvpny OYF Erq} \e\a" +
+         "7/7/2016 5:32:50 CZ\e\a" +
+         "\e\a" +
+         "TSSE FGN 2, Zrqvpny OYF Erq\e\a" +
+         "\e\a" +
+         "Pnyyre Anzr:\e\a" +
+         "Pnyyre Cubar: () 590-0299\e\a" +
+         "\e\a" +
+         "601 FZRYGRE NIR AR, Terng Snyyf\e\a" +
+         "uggc://zncf.tbbtyr.pbz/zncf?d=ybp:601+FZRYGRE+TERNG+SNYYF+ZG\e\a" +
+         "\e\a" +
+         "[Znyr vf svggvat jvgu n srznyr], [Znyr vf \\\"zrkvpna, fubeg unve, orneq, jrveq fubrf\\\"], [Srznyr vaibiyrq vf certanag, nobhg 7 zbaf byq], [PC unf gur 4 lrne byq puvyq va ure pne], [Zrkvpna Znyr vf svtugvat gur certanag ynql'f uhfonaq]\e\a" +
+         "\e\a" +
+         "Pvgl bs Terng Snyyf r-znvyf znl or fhowrpg gb Zbagnan'f Evtug Gb Xabj ynj (Negvpyr VV Frp 9, Zbagnan Pbafgvghgvba) naq znl or n Choyvp Erpbeq (2-6-202, Z.P.N.) naq ninvynoyr sbe choyvp vafcrpgvba.",
+
+         "QNGR:7/7/2016",
+         "GVZR:17:32:50",
+         "HAVG:TSSE FGN 2",
+         "PNYY:Zrqvpny OYF Erq",
+         "CUBAR:() 590-0299",
+         "NQQE:601 FZRYGRE NIR AR",
+         "PVGL:Terng Snyyf",
+         "VASB:[Znyr vf svggvat jvgu n srznyr], [Znyr vf \\\"zrkvpna, fubeg unve, orneq, jrveq fubrf\\\"], [Srznyr vaibiyrq vf certanag, nobhg 7 zbaf byq], [PC unf gur 4 lrne byq puvyq va ure pne], [Zrkvpna Znyr vf svtugvat gur certanag ynql'f uhfonaq]");
 
     qbGrfg("G1",
         "{Nhgbzngvp E&E Abgvsvpngvba: Fgehpgher Sver} \a" +

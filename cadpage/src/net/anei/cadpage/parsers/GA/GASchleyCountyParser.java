@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 public class GASchleyCountyParser extends FieldProgramParser {
   
@@ -14,7 +15,8 @@ public class GASchleyCountyParser extends FieldProgramParser {
   
   public GASchleyCountyParser(String defCounty) {
     super(defCounty, "GA",
-           "Type:CALL! SUBTYPE:CALL2! LOC:ADDR! C:EXTRA!");
+          "SRC! ( RUN_REPORT LOC:ADDR! Phone:PHONE! Type:CALL! SUBTYPE:CALL2! CREATED:SKIP! " +  
+               "| Type:CALL! SUBTYPE:CALL2! LOC:ADDR! ) C:EXTRA! END");
   }
   
   @Override
@@ -27,11 +29,33 @@ public class GASchleyCountyParser extends FieldProgramParser {
     return "GASchleyCounty";
   }
   
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (subject.startsWith("Times -")) data.msgType = MsgType.RUN_REPORT;
+    return super.parseMsg(body, data);
+  }
+
+  @Override
+  public Field getField(String name) {
+    if (name.equals("RUN_REPORT")) return new MyRunReportField();
+    if (name.equals("CALL2")) return new MyCall2Field();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("EXTRA")) return new MyExtraField();
+    return super.getField(name);
+  }
+  
+  private class MyRunReportField extends SelectField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      return data.msgType == MsgType.RUN_REPORT;
+    }
+  }
+  
   // Subtype field is appended to call description, unless it is a ?
   private class MyCall2Field extends CallField {
     @Override
     public void parse(String field, Data data) {
-      if (field.equals("?")) return;
+      if (field.equals("?") || field.equals("\ufffd")) return;
       data.strCall = append(data.strCall, " - ", field);
     }
   }
@@ -102,7 +126,8 @@ public class GASchleyCountyParser extends FieldProgramParser {
       int pt = block.indexOf(CROSS_STREET_KEY);
       if (pt >= 0) {
         String sCross = block.substring(pt+CROSS_STREET_KEY.length()).trim();
-        if (sCross.endsWith("/")) sCross = sCross.substring(0,sCross.length()-1).trim();
+        sCross = stripFieldStart(sCross, "/");
+        sCross = stripFieldEnd(sCross, "/");
         data.strCross = append(data.strCross, " & ", sCross);
         block = block.substring(0,pt).trim();
       }
@@ -130,23 +155,15 @@ public class GASchleyCountyParser extends FieldProgramParser {
       if (block.startsWith(data.strAddress)) block = block.substring(data.strAddress.length()).trim();
       
       // Strip off leading colon
-      if (block.startsWith(":")) block = block.substring(1).trim();
+      block = stripFieldStart(block, ":");
       
       // append whatever is left to the info
-      data.strSupp = append(data.strSupp, " / ", block);
+      data.strSupp = append(data.strSupp, "\n", block);
     }
     
     @Override
     public String getFieldNames() {
       return "DATE TIME X UNIT INFO";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CALL2")) return new MyCall2Field();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("EXTRA")) return new MyExtraField();
-    return super.getField(name);
   }
 }

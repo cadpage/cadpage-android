@@ -47,293 +47,529 @@ Ntrapl anzr: Tneergfba Nzohynapr
 Ybpngvba: Tneergfba, FQ, Havgrq Fgngrf
 Fraqre: <911zrgebqvfcngpu@911zrgeb.bet>
 
-{Qvfcngpu Cntr}  2016-00000004 210 QBJF FG 39 Tneergfba 23 TA Purfg Cnva C2 2016-00000004
-{Qvfcngpu Cntr} 954  2016-00000004 210 QBJF FG Tneergfba 23 TA Purfg Cnva C2 2016-00000004
-{Qvfcngpu Cntr} 954  2016-00000003 500 PRAGRE NIR Tneergfba 23 TA Oernguvat Cebo C2 2016-00000003
-{Qvfcngpu Cntr} 954  2016-00000002 1009 4GU FG 2 Tneergfba 23 TA Oernguvat Cebo C2 2016-00000002
-{Qvfcngpu Cntr} 954  2016-00000001 500 PRAGRE NIR Tneergfba 23 TA Oernguvat Cebo C2 2016-00000001
-{Qvfcngpu Cntr}  2016-00000002 920 4GU FG 208 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2016-00000002
-{Qvfcngpu Cntr} 954  2016-00000002 920 4GU FG CNYVFNQR ZNABE Tneergfba 23 TA Genafsre C3 2016-00000002
-{Qvfcngpu Cntr} 954  2016-00000001 920 4GU FG 307 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2016-00000001
-{Qvfcngpu Cntr} 954  2015-00000217 1009 4GU FG 2 Tneergfba 23 TA Fvpx Crefba C3 2015-00000217
-{Qvfcngpu Cntr} 954  2015-00019537 JRFGBIRE CY 485GU NIR Tneergfba 1 TA Vawhel Nppvqrag C3 2015-00019537
-{Qvfcngpu Cntr}  2015-00000154 258GU FG 478GU NIR FS Vawhel Nppvqrag / Rkgevpngvba 2015-00000154
-{Qvfcngpu Cntr} 954  2015-00000154 47914 252AQ FG REBF QNGN PRAGRE Tneergfba 5 TA Vawhel Nppvqrag / Rkgevpngvba 2015-00000154
-{Qvfcngpu Cntr} 954  2015-00003440 47952 253EQ FG Tneergfba 12 TA Nffnhyg C3 2015-00003440
-{Qvfcngpu Cntr} 954  2015-00000213 928 4GU FG Tneergfba 23 TA Genafsre C5 2015-00000213
-{Qvfcngpu Cntr} 954 TA  2015-00018996 1009 4GU FG 2 Tneergfba 23 TA Cflpu/Fhvpvqr CQ 2015-00018996
-{Qvfcngpu Cntr} 954  2015-00000211 25495 485GU NIR CNYVFNQRF FGNGR CNEX Tneergfba 23 TA Choyvp Nffvfg 2015-00000211
-{Qvfcngpu Cntr} 954  2015-00000210 920 4GU FG 302 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2015-00000210
-{Qvfcngpu Cntr} 954  2015-00000150 812 3EQ FG Tneergfba 23 TA Purfg Cnva C2 2015-00000150
-{Qvfcngpu Cntr} 954  2015-00000149 48716 253EQ FG Tneergfba 26 TA Hapbafp/Snvag C1 2015-00000149
-{Qvfcngpu Cntr} 954  2015-00000207 812 PNALBA NIR 2 Tneergfba 23 TA Oernguvat Cebo C2 2015-00000207
-{Qvfcngpu Cntr} 954  2015-00000147 920 4GU FG Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2015-00000147
-{Qvfcngpu Cntr}  2015-00018155 48262 254GU FG Tneergfba 28 TA Fgehpgher Sver 2015-00018155
-{Qvfcngpu Cntr} 954  2015-00018155 254GU FG 483EQ NIR Tneergfba 28 TA Fgehpgher Sver 2015-00018155
-{Qvfcngpu Cntr} 954  2015-00000204 920 4GU FG 304 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2015-00000204
-{Qvfcngpu Cntr} 954  2015-00000203 920 4GU FG 101 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2015-00000203
-{Qvfcngpu Cntr}  2015-00000202 920 4GU FG 303 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2015-00000202
-{Qvfcngpu Cntr} 954  2015-00000202 920 4GU FG Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2015-00000202
-{Qvfcngpu Cntr}  2015-00000201 920 4GU FG 313 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2015-00000201
-{Qvfcngpu Cntr} 954  2015-00000201 920 4GU FG Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2015-00000201
-{Qvfcngpu Cntr}  2015-00000200 920 4GU FG 107 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2015-00000200
-{Qvfcngpu Cntr} 954  2015-00000200 920 4GU FG 107 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2015-00000200
-{Qvfcngpu Cntr} 954  2015-00017139 175 MRYVSS NIR Tneergfba 1 FU Pneqvnp Neerfg C3 2015-00017139
-{Qvfcngpu Cntr} 954  2015-00017139 175 MRYVSS NIR Tneergfba 1 FU Pneqvnp Neerfg C1 2015-00017139
-{Qvfcngpu Cntr} TA TN  2015-00017139 175 MRYVSS NIR Tneergfba 1 FU Pneqvnp Neerfg C1 2015-00017139
-{Qvfcngpu Cntr} 954  2015-00000198 920 4GU FG Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2015-00000198
+{Qvfcngpu Cntr}  2016-00009510 249GU FG 480GU NIR Qryy Encvqf 6 TA Vawhel Nppvqrag C3 2016-00009510
+{Qvfcngpu Cntr}  2016-00009510 250GU FG 481FG NIR Tneergfba 16 TA Vawhel Nppvqrag C3 2016-00009510
+{Qvfcngpu Cntr} 954  2016-00009510 481FG NIR 250GU FG Tneergfba 16 TA Vawhel Nppvqrag C3 2016-00009510
+{Qvfcngpu Cntr} 954  2016-00000078 25495 485GU NIR CNYVFNQRF FGNGR CNEX Tneergfba 23 TA Qebjavat C1 2016-00000078
+{Qvfcngpu Cntr} 954  2016-00000089 812 PNALBA NIR 1 Tneergfba 23 TA Bireqbfr C2 + CQ 2016-00000089
+{Qvfcngpu Cntr} 954  2016-00000076 716 5GU FG Tneergfba 23 TA Noqbzvany Cnva C2 2016-00000076
+{Qvfcngpu Cntr} 954  2016-00009388 252AQ FG 483EQ NIR Tneergfba 8 TA Vawhel Nppvqrag C3 2016-00009388
+{Qvfcngpu Cntr} 954  2016-00000074 924 4GU FG 5 Tneergfba 23 TA Yvsg Nffvfg 2016-00000074
+{Qvfcngpu Cntr} TA 954  2016-00000072 205 ZNVA NIR Tneergfba 23 TA Genhzngvp Vawhel C3 2016-00000072
+{Qvfcngpu Cntr} 954  2016-00009063 25495 485GU NIR CNYVFNQRF FGNGR CNEX Tneergfba 23 TA Snyyf C3 2016-00009063
+{Qvfcngpu Cntr} 954  2016-00000083 512 RFFRK FG Tneergfba 23 TA Urzbeeuntr C2 2016-00000083
+{Qvfcngpu Cntr} 954  2016-00000082 920 4GU FG 201 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2016-00000082
+{Qvfcngpu Cntr} 954  2016-00000069 210 QBJF FG 10 Tneergfba 23 TA Cflpu/Fhvpvqr C3 CQ 2016-00000069
+{Qvfcngpu Cntr} 954  2016-00008753 25566 478GU NIR Onygvp 18 TA Erfphr Bgure 2016-00008753
+{Qvfcngpu Cntr} 954  2016-00000079 980 4GU FG Tneergfba 23 TA Genafsre C3 2016-00000079
+{Qvfcngpu Cntr} 954  2016-00000078 920 4GU FG 211 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2016-00000078
+{Qvfcngpu Cntr} 954  2016-00000067 317 QRCBG NIR Tneergfba 23 TA Pbai Frvmher C2 2016-00000067
+{Qvfcngpu Cntr} 954  2016-00000076 345 MRYVSS NIR Tneergfba 1 FU Oernguvat Cebo C2 2016-00000076
+{Qvfcngpu Cntr} 954  2016-00000075 920 4GU FG Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2016-00000075
+{Qvfcngpu Cntr} 954  2016-00000074 920 4GU FG CNYVFNQR ZNABE Tneergfba 23 TA Genafsre C3 2016-00000074
+{Qvfcngpu Cntr}  2016-00000073 100 J  6GU FG 401 Y Noev Ncnegzragf Dhnq AR1O FS Cflpu/Fhvpvqr C3 CQ 2016-00000073
+{Qvfcngpu Cntr} 954  2016-00000073 100 J 6GU FG 401 WN Cflpu/Fhvpvqr C3 CQ 2016-00000073
+{Qvfcngpu Cntr} 954  2016-00000072 920 4GU FG Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2016-00000072
+{Qvfcngpu Cntr} 954  2016-00000071 920 4GU FG 212N Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2016-00000071
+{Qvfcngpu Cntr} 954  2016-00000070 24957 487GU NIR Tneergfba 1 TA Snyyf C3 2016-00000070
+{Qvfcngpu Cntr} 954  2016-00000069 402 FHAEVFR PVE Tneergfba 23 TA Fvpx Crefba C3 2016-00000069
+{Qvfcngpu Cntr}  2016-00000068 920 4GU FG 203n Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2016-00000068
+{Qvfcngpu Cntr} 954  2016-00000068 920 4GU FG 203n Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2016-00000068
+{Qvfcngpu Cntr} 954  2016-00000067 920 4GU FG 204o Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2016-00000067
+{Qvfcngpu Cntr} 954  2016-00000066 920 4GU FG 210 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2016-00000066
+{Qvfcngpu Cntr} 954  2016-00006701 24952 484GU NIR Tneergfba 2 TA Snyyf C3 2016-00006701
+{Qvfcngpu Cntr} 954  2016-00000059 807 BNX QE Tneergfba 23 TA Purfg Cnva C2 2016-00000059
+{Qvfcngpu Cntr} 954  2016-00000063 500 PRAGRE NIR Tneergfba 23 TA Fvpx Crefba C3 2016-00000063
+{Qvfcngpu Cntr} 954  2016-00006562 920 4GU FG 204n Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2016-00006562
+{Qvfcngpu Cntr} 954  2016-00000061 920 4GU FG Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2016-00000061
+{Qvfcngpu Cntr} 954  2016-00000056 25593 486GU NIR Tneergfba 23 TA Urzbeeuntr C2 2016-00000056
+{Qvfcngpu Cntr} 954  2016-00005469 200 J 10GU FG 304 Qryy Encvqf 2 QE Fvpx Crefba C3 2016-00005469
+{Qvfcngpu Cntr} 954  2016-00000055 309 PRAGRE NIR Tneergfba 23 TA Fvpx Crefba C2 2016-00000055
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Qryy Encvqf Nzohynapr
 Ybpngvba: Qryy Encvqf, FQ, Havgrq Fgngrf
 Fraqre: <911zrgebqvfcngpu@911zrgeb.bet>
 
-{Qvfcngpu Cntr} 951  2016-00000010 304 R  10GU FG Qryy Encvqf 2 QE Pbai Frvmher C2 2016-00000010
-{Qvfcngpu Cntr} 951  2016-00000021 706 R  1FG FG Pbygba Pvgl PB Fvpx Crefba C3 2016-00000021
-{Qvfcngpu Cntr} 951  2016-00000005 706 R  1FG FG Pbygba Pvgl PB Snyyf C3 2016-00000005
-{Qvfcngpu Cntr} 952  2016-00000005 320 ZBERSVRYQ NIR Onygvp 2 ON Fgebxr C2 2016-00000005
-{Qvfcngpu Cntr} 951  2016-00000004 301 F  PUNEYRF NIR Pbygba Pvgl PB Fgebxr C2 2016-00000004
-{Qvfcngpu Cntr} 951  2016-00000017 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Genafsre C3 2016-00000017
-{Qvfcngpu Cntr} 951  2016-00000016 709 R  5GU FG Qryy Encvqf 1 QE Fvpx Crefba C3 2016-00000016
-{Qvfcngpu Cntr} 951  2016-00000002 47414 252AQ FG Onygvp 11 ON Fvpx Crefba C2 2016-00000002
-{Qvfcngpu Cntr} 951  2016-00000002 46741 252AQ FG Ylbaf 5 ON Onpx Cnva C3 2016-00000002
-{Qvfcngpu Cntr} 951 QE  2016-00000013 1002 A UJL 77 PBHAGL SNVE Qryy Encvqf 2 QE Snyyf C3 2016-00000013
-{Qvfcngpu Cntr} 951  2016-00000012 706 R  1FG FG Pbygba Pvgl PB Genafsre C3 2016-00000012
-{Qvfcngpu Cntr} 951  2016-00000219 808 R  4GU FG Qryy Encvqf 1 QE Bireqbfr C2 + CQ 2016-00000219
-{Qvfcngpu Cntr} 951  2016-00000004 V 29 ZZ 100 Qryy Encvqf 3 QE Vawhel Nppvqrag / Ebyybire 2016-00000004
-{Qvfcngpu Cntr} 951  2016-00000003 V 29 ZZ 97 Qryy Encvqf 2 QE Vawhel Nppvqrag / Ebyybire 2016-00000003
-{Qvfcngpu Cntr} 951  2016-00000008 V 29 ZZ 103 QE Vawhel Nppvqrag C3 2016-00000008
-{Qvfcngpu Cntr} 951  2016-00000007 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Genafsre C2 j/bhg sver 2016-00000007
-{Qvfcngpu Cntr}  2016-00000001 320 5GU FG Ylbaf 5 YL Purfg Cnva C2 2016-00000001
-{Qvfcngpu Cntr} 951  2016-00000001 320 5GU FG Ylbaf 5 ON Purfg Cnva C2 2016-00000001
-{Qvfcngpu Cntr} 951  2016-00000001 210 IVXVAT NIR Onygvp 2 ON Hapbafp/Snvag C2 2016-00000001
-{Qvfcngpu Cntr} 951  2016-00000081 24551 473EQ NIR Qryy Encvqf 2 QE Noqbzvany Cnva C2 2016-00000081
-{Qvfcngpu Cntr} 951  2016-00000003 909 VBJN NIR 201 Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Genafsre C3 2016-00000003
-{Qvfcngpu Cntr} 951  2016-00000002 46537 246GU FG Pbygba 3 PB Vawhel Nppvqrag / Ebyybire 2016-00000002
-{Qvfcngpu Cntr} 951  2016-00000001 24707 465GU NIR Pbygba 3 PB Snyyf C3 2016-00000001
-{Qvfcngpu Cntr} 951  2015-00000162 218 ABEGU CY Onygvp 2 ON Snyyf C3 2015-00000162
-{Qvfcngpu Cntr} 952  2015-00000117 V 29 ZZ 91 Pebbxf 2 Vawhel Nppvqrag / Ebyybire 2015-00000117
-{Qvfcngpu Cntr}  2015-00000117 V 29 ZZ 91 Pebbxf 2 Vawhel Nppvqrag / Ebyybire 2015-00000117
-{Qvfcngpu Cntr} 951  2015-00000117 V 29 ZZ 91 Pebbxf 2 Vawhel Nppvqrag / Ebyybire 2015-00000117
-{Qvfcngpu Cntr} 951  2015-00000456 909 VBJN NIR QRYY ENCVQF UBFCVGNY Qryy Encvqf 2 QE Genafsre C3 2015-00000456
-{Qvfcngpu Cntr} 951  2015-00000455 200 J 10GU FG 104 Qryy Encvqf 2 QE Genafsre C3 2015-00000455
-{Qvfcngpu Cntr} 951  2015-00000278 608 R  8GU FG Qryy Encvqf 2 QE Hapbafp/Snvag C2 2015-00000278
-{Qvfcngpu Cntr}  2015-00000453 4500 J  69GU FG NIREN URNEG UBFCVGNY Dhnq FJ6U FS Genafsre C3 2015-00000453
-{Qvfcngpu Cntr}  2015-00000453 NIREN URNEG UBFCVGNY Genafsre C3 2015-00000453
-{Qvfcngpu Cntr} 951  2015-00019522 320 J  7GU FG Qryy Encvqf 2 QE Purfg Cnva C2 2015-00019522
-{Qvfcngpu Cntr} 951  2015-00000451 909 VBJN NIR QRYY ENCVQF UBFCVGNY Qryy Encvqf 2 QE Genafsre C3 2015-00000451
-{Qvfcngpu Cntr} 951  2015-00000450 605 J  7GU FG Qryy Encvqf 2 QE Noqbzvany Cnva C3 2015-00000450
-{Qvfcngpu Cntr}  2015-00000275 200 J  10GU FG 207 Qryy Encvqf 2 QE Urzbeeuntr C2 2015-00000275
-{Qvfcngpu Cntr} 951  2015-00000275 200 J  10GU FG Qryy Encvqf 2 QE Urzbeeuntr C2 2015-00000275
-{Qvfcngpu Cntr} 951  2015-00000081 46630 250GU FG Pbygba 5 PB Pubxvat C3 2015-00000081
-{Qvfcngpu Cntr} 951  2015-00000161 47155 250GU FG Onygvp 9 ON Pbai Frvmher C2 2015-00000161
-{Qvfcngpu Cntr} 951  2015-00000446 25098 475GU NIR Onygvp 11 QE Vawhel Nppvqrag C3 2015-00000446
-{Qvfcngpu Cntr} 951  2015-00019276 46741 252AQ FG Ylbaf 5 ON Snyyf C3 2015-00019276
-{Qvfcngpu Cntr} 952  2015-00000444 602 R  6GU FG Qryy Encvqf 2 QE Fvpx Crefba C3 2015-00000444
-{Qvfcngpu Cntr} 951  2015-00000444 602 R  6GU FG Qryy Encvqf 2 QE Fvpx Crefba C3 2015-00000444
-{Qvfcngpu Cntr} 952  2015-00000443 1026 PYHOUBHFR PG Qryy Encvqf 2 QE Hax Ceboyrz C3 2015-00000443
-{Qvfcngpu Cntr} 951  2015-00000443 1026 PYHOUBHFR PG Qryy Encvqf 2 QE Hax Ceboyrz C3 2015-00000443
-{Qvfcngpu Cntr} 952  2015-00000442 46842 249GU FG Pbygba 5 QE Pneqvnp Neerfg C1 2015-00000442
-{Qvfcngpu Cntr} 951  2015-00000442 46842 249GU FG Pbygba 5 QE Pneqvnp Neerfg C1 2015-00000442
-{Qvfcngpu Cntr} 952  2015-00000079 706 R  1FG FG Pbygba Pvgl PB Purfg Cnva C2 2015-00000079
-{Qvfcngpu Cntr} 951  2015-00000079 706 R  1FG FG Pbygba Pvgl PB Purfg Cnva C2 2015-00000079
-{Qvfcngpu Cntr} 951  2015-00000078 203 F VBJN NIR Pbygba Pvgl PB Fgebxr C2 2015-00000078
-{Qvfcngpu Cntr} 951  2015-00000439 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Genafsre C3 2015-00000439
-{Qvfcngpu Cntr} 951  2015-00000438 805 R  7GU FG Qryy Encvqf 1 QE Pneqvnp Neerfg C1 2015-00000438
-{Qvfcngpu Cntr} 951  2015-00000436 909 VBJN NIR QRYY ENCVQF UBFCVGNY Qryy Encvqf 2 QE Genafsre C3 2015-00000436
-{Qvfcngpu Cntr} 951  2015-00000269 106 FCEVAT ZRNQBJ QE 4 Qryy Encvqf 2 QE Pbai Frvmher C3 2015-00000269
-{Qvfcngpu Cntr} 951  2015-00018877 909 VBJN NIR QRYY ENCVQF UBFCVGNY Qryy Encvqf 2 QE Genafsre C3 2015-00018877
-{Qvfcngpu Cntr} 951  2015-00000159 24892 477GU NIR Onygvp 5 QE Snyyf C2 2015-00000159
-{Qvfcngpu Cntr} 951  2015-00000268 200 J  10GU FG 207 Qryy Encvqf 2 QE Purfg Cnva C2 2015-00000268
-{Qvfcngpu Cntr} 952  2015-00018744 46741 252AQ FG Ylbaf 5 ON Hax Ceboyrz C3 2015-00018744
-{Qvfcngpu Cntr} 952  2015-00000077 706 R  1FG FG 5 Pbygba Pvgl PB Purfg Cnva C2 2015-00000077
-{Qvfcngpu Cntr} 952  2015-00000267 200 J  10GU FG 207 Qryy Encvqf 2 QE Snyyf C2 2015-00000267
-{Qvfcngpu Cntr} 952  2015-00000266 V 29 ZZ 98 Qryy Encvqf 2 QE Vawhel Nppvqrag / Ebyybire 2015-00000266
-{Qvfcngpu Cntr} 952  2015-00018513 309 J 4GU FG Qryy Encvqf 2 QE Purfg Cnva C2 2015-00018513
-{Qvfcngpu Cntr} 952  2015-00000426 909 VBJN NIR QRYY ENCVQF UBFCVGNY Qryy Encvqf 2 QE Genafsre C3 2015-00000426
+{Qvfcngpu Cntr} 951  2016-00000064 47661 251FG FG Onygvp 11 ON Snyyf C3 2016-00000064
+{Qvfcngpu Cntr} 951  2016-00000261 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Genafsre C2 j/bhg sver 2016-00000261
+{Qvfcngpu Cntr} 951  2016-00000063 508 PNVGYVA NIR Onygvp 2 ON Fgehpgher Sver 2016-00000063
+{Qvfcngpu Cntr}  2016-00000259 600 A UJL 77 2 Qryy Encvqf 2 QE Snyyf C3 2016-00000259
+{Qvfcngpu Cntr} 951  2016-00000259 600 A UJL 77 Qryy Encvqf 2 QE Snyyf C3 2016-00000259
+{Qvfcngpu Cntr} 951  2016-00000045 702 R  3EQ FG Pbygba Pvgl PB Fvpx Crefba C2 2016-00000045
+{Qvfcngpu Cntr} 951  2016-00000163 46982 248GU FG Qryy Encvqf 4 QE Snyyf C3 2016-00000163
+{Qvfcngpu Cntr} 951  2016-00000256 200 J 10GU FG 506 Qryy Encvqf 2 QE Genafsre C3 2016-00000256
+{Qvfcngpu Cntr}  2016-00000255 706 R 1FG FG 11 Pbygba Pvgl PB Genafsre C3 2016-00000255
+{Qvfcngpu Cntr} 951  2016-00000255 706 R  1FG FG Pbygba Pvgl PB Genafsre C3 2016-00000255
+{Qvfcngpu Cntr}  2016-00000254 1400 GUERFURE QE QRYYF AHEFVAT & ERUNO Qryy Encvqf 2 QE Genafsre C3 2016-00000254
+{Qvfcngpu Cntr} 951  2016-00000254 909 VBJN NIR QRYY ENCVQF UBFCVGNY Qryy Encvqf 2 QE Genafsre C3 2016-00000254
+{Qvfcngpu Cntr} 951  2016-00000253 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Genafsre C2 2016-00000253
+{Qvfcngpu Cntr} 951  2016-00000160 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Sver Bgure 2016-00000160
+{Qvfcngpu Cntr} 952  2016-00000251 V 29 ZZ 97 Qryy Encvqf 4 QE Vawhel Nppvqrag C3 2016-00000251
+{Qvfcngpu Cntr} 951 RZ  2016-00000251 V 29 ZZ 97 Qryy Encvqf 4 QE Vawhel Nppvqrag C2 2016-00000251
+{Qvfcngpu Cntr} 952  2016-00008987 25235 471FG NIR Pebbxf 1 ON Fvpx Crefba C3 2016-00008987
+{Qvfcngpu Cntr} 951  2016-00008987 25235 471FG NIR Pebbxf 1 ON Fvpx Crefba C3 2016-00008987
+{Qvfcngpu Cntr} 951  2016-00000157 203 J 12GU FG 1 Qryy Encvqf 2 QE Bireqbfr C2 2016-00000157
+{Qvfcngpu Cntr} 952  2016-00000156 407 J  3EQ FG Qryy Encvqf 2 QE Yvsg Nffvfg 2016-00000156
+{Qvfcngpu Cntr} 951  2016-00000156 407 J  3EQ FG Qryy Encvqf 2 QE Yvsg Nffvfg 2016-00000156
+{Qvfcngpu Cntr} 952  2016-00008935 46741 252AQ FG Ylbaf 5 ON Hax Ceboyrz C3 2016-00008935
+{Qvfcngpu Cntr} 951  2016-00008935 46741 252AQ FG Ylbaf 5 ON Hax Ceboyrz C3 2016-00008935
+{Qvfcngpu Cntr} 952  2016-00000246 805 R  6GU FG Qryy Encvqf 1 QE Fvpx Crefba C3 2016-00000246
+{Qvfcngpu Cntr} 951  2016-00000246 805 R  6GU FG Qryy Encvqf 1 QE Fvpx Crefba C3 2016-00000246
+{Qvfcngpu Cntr} 952  2016-00008758 405 F  BEYRNAF NIR 2 Qryy Encvqf 2 QE Nffnhyg C3 2016-00008758
+{Qvfcngpu Cntr} 951  2016-00008758 405 F  BEYRNAF NIR 2 Qryy Encvqf 2 QE Nffnhyg C3 2016-00008758
+{Qvfcngpu Cntr} 952  2016-00000153 408 J  1FG FG Qryy Encvqf 2 QE Fvpx Crefba C2 2016-00000153
+{Qvfcngpu Cntr} 951  2016-00000153 408 J  1FG FG Qryy Encvqf 2 QE Fvpx Crefba C2 2016-00000153
+{Qvfcngpu Cntr} 952  2016-00000243 R  4GU FG TNESVRYQ NIR Qryy Encvqf 2 QE Genafsre C3 2016-00000243
+{Qvfcngpu Cntr} 952  2016-00008736 211 4GU FG Qryy Encvqf 2 QE Genhzngvp Vawhel C1 2016-00008736
+{Qvfcngpu Cntr} 951  2016-00008736 211 4GU FG Qryy Encvqf 2 QE Hapbafp/Snvag C3 2016-00008736
+{Qvfcngpu Cntr} 952  2016-00008730 302 R  4GU FG PVGL UNYY QRYY ENCVQF Qryy Encvqf 2 QE Snyyf C3 2016-00008730
+{Qvfcngpu Cntr}  302 R  4GU FG PVGL UNYY QRYY ENCVQF Qryy Encvqf 2 QE Snyyf C3
+{Qvfcngpu Cntr} 951  329 R  4GU FG Qryy Encvqf 2 QE Snyyf C3
+{Qvfcngpu Cntr}  2016-00000240 401 R  ZNVA FG Pebbxf 3 PE Fgnaqol C9 2016-00000240
+{Qvfcngpu Cntr}  2016-00000240 RNFG FVQR BS PEBBXF PE Fgnaqol C9 2016-00000240
+{Qvfcngpu Cntr} 951  2016-00000240 <HAXABJA> Fgnaqol C9 2016-00000240
+{Qvfcngpu Cntr} 951  2016-00000059 600 F 6GU FG Onygvp 2 ON Zna Qbja C2 + CQ 2016-00000059
+{Qvfcngpu Cntr} 952  2016-00000050 V 29 ZZ 92 Pebbxf 2 Bireqbfr C2 2016-00000050
+{Qvfcngpu Cntr} 951  2016-00000050 V 29 ZZ 92 Pebbxf 2 Bireqbfr C2 2016-00000050
+{Qvfcngpu Cntr} 952  2016-00008626 46576 246GU FG Pbygba 3 PB Tnf Yrnx 2016-00008626
+{Qvfcngpu Cntr} 951  2016-00008626 46576 246GU FG Pbygba 3 PB Tnf Yrnx 2016-00008626
+{Qvfcngpu Cntr} 952  2016-00000236 107 R  6GU FG Qryy Encvqf 2 QE Genhzngvp Vawhel C2 2016-00000236
+{Qvfcngpu Cntr} 951  2016-00000236 107 R  6GU FG Qryy Encvqf 2 QE Genhzngvp Vawhel C2 2016-00000236
+{Qvfcngpu Cntr} 952  2016-00000147 1400 GUERFURE QE Qryyf Ahefvat & Eruno Qryy Encvqf 2 QE Snyyf C3 2016-00000147
+{Qvfcngpu Cntr} 951  2016-00000147 1400 GUERFURE QE Qryyf Ahefvat & Eruno Qryy Encvqf 2 QE Snyyf C3 2016-00000147
+{Qvfcngpu Cntr} 952  2016-00000013 46741 252AQ FG Ylbaf 5 YL Yvsg Nffvfg 2016-00000013
+{Qvfcngpu Cntr} 951  2016-00000013 46741 252AQ FG Ylbaf 5 YL Yvsg Nffvfg 2016-00000013
+{Qvfcngpu Cntr} 952  2016-00000145 601 WHAVNGN NIR Qryy Encvqf 2 QE Snyyf C2 2016-00000145
+{Qvfcngpu Cntr} 951  2016-00000145 601 WHAVNGN NIR Qryy Encvqf 2 QE Snyyf C2 2016-00000145
+{Qvfcngpu Cntr} 952  2016-00000232 112 R  10GU FG 12 Qryy Encvqf 2 QE Hax Ceboyrz C3 2016-00000232
+{Qvfcngpu Cntr} 951  2016-00000232 112 R  10GU FG 12 Qryy Encvqf 2 QE Hax Ceboyrz C3 2016-00000232
+{Qvfcngpu Cntr} 952  2016-00000231 503 R  6GU FG PBYGBA FJVZZVAT CBBY Pbygba Pvgl PB Oernguvat Cebo C2 2016-00000231
+{Qvfcngpu Cntr} 951  2016-00000231 503 R  6GU FG PBYGBA FJVZZVAT CBBY Pbygba Pvgl PB Oernguvat Cebo C2 2016-00000231
+{Qvfcngpu Cntr} 952  2016-00000058 510 INYYRL IVRJ NIR Onygvp 2 ON Urzbeeuntr C2 2016-00000058
+{Qvfcngpu Cntr} 951  2016-00000058 510 INYYRL IVRJ NIR Onygvp 2 ON Urzbeeuntr C2 2016-00000058
+{Qvfcngpu Cntr}  2016-00000229 V 29 RKVG 86 Eraare 1 ER Fgebxr C2 2016-00000229
+{Qvfcngpu Cntr} 951  2016-00000229 V 29 RKVG 94 Onygvp 9 Fgebxr C2 2016-00000229
+{Qvfcngpu Cntr} 952  2016-00008236 1105 JLYNAQ QE Qryy Encvqf 1 QE Fgehpgher Sver 2016-00008236
+{Qvfcngpu Cntr} 951  2016-00000139 429 R  4GU FG Qryy Encvqf 2 QE Pneqvnp Neerfg C1 2016-00000139
+{Qvfcngpu Cntr} 952  2016-00000226 706 R  1FG FG Pbygba Pvgl PB Genafsre C2 j/bhg sver 2016-00000226
+{Qvfcngpu Cntr} 951  2016-00000226 706 R  1FG FG Pbygba Pvgl PB Genafsre C2 j/bhg sver 2016-00000226
+{Qvfcngpu Cntr} 951  2016-00000138 200 J  10GU FG Qryy Encvqf 2 QE Genafsre C2 j/bhg sver 2016-00000138
+{Qvfcngpu Cntr} 952  2016-00000224 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Genafsre C3 2016-00000224
+{Qvfcngpu Cntr} 951  2016-00000224 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Genafsre C3 2016-00000224
+{Qvfcngpu Cntr} 952  2016-00000012 46741 252AQ FG Ylbaf 5 ON Snyyf C3 2016-00000012
+{Qvfcngpu Cntr} 951  2016-00000012 46741 252AQ FG Ylbaf 5 ON Snyyf C3 2016-00000012
+{Qvfcngpu Cntr} 952  2016-00008056 J  3EQ FG CEBFCRPG NIR Qryy Encvqf 2 QE Vawhel Nppvqrag C3 2016-00008056
+{Qvfcngpu Cntr} 951  2016-00008056 J  3EQ FG CEBFCRPG NIR Qryy Encvqf 2 QE Vawhel Nppvqrag C3 2016-00008056
+{Qvfcngpu Cntr} 951  2016-00000221 1400 GUERFURE QE Qryyf Ahefvat & Eruno Qryy Encvqf 2 QE Genafsre C2 j/bhg sver 2016-00000221
+{Qvfcngpu Cntr} 951  2016-00007870 226 ABEGU CY Onygvp 2 ON Hapbafp/Snvag C2 2016-00007870
+{Qvfcngpu Cntr} 951  2016-00000219 46842 249GU FG Pbygba 5 QE Hax Ceboyrz C3 2016-00000219
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: ZRQ-Fgne Nzohynapr
 Ybpngvba: Oenaqba, FQ, Havgrq Fgngrf
 Fraqre: <911zrgebqvfcngpu@911zrgeb.bet>
 
-{Qvfcngpu Cntr} 930 OE  2016-00000099 901 F AVPUBYNF NIR Oenaqba 1 OE Zrqvpny Rzretrapl 2016-00000099
-{Qvfcngpu Cntr} 930  2016-00000097 305 F 4GU NIR Oenaqba 1 OE Fvpx Crefba C3 2016-00000097
-{Qvfcngpu Cntr} 930 OE  2016-00000026 48397 257GU FG Oenaqba 4 TA Pbai Frvmher C2 2016-00000026
-{Qvfcngpu Cntr} 940  2016-00000025 47135 260GU FG ZpPebffna Oblf Enapu Pebbxf 3 FS Qvnorgvp C3 2016-00000025
-{Qvfcngpu Cntr} 930  2016-00000024 3012 R NFCRA OYIQ 14 Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2016-00000024
-{Qvfcngpu Cntr} 930  2016-00000519 2100 J  60GU FG A Eraare 9 FS Fgehpgher Sver 2016-00000519
-{Qvfcngpu Cntr}  2016-00000022 26098 468GU NIR Pebbxf 4 FS Urzbeeuntr C3 2016-00000022
-{Qvfcngpu Cntr} 930  2016-00000022 26117 486GU NIR Inyyrl Fcevatf 2 IF Urzbeeuntr C3 2016-00000022
-{Qvfcngpu Cntr} 930  2016-00000021 410 A 9GU NIR Oenaqba 1 OE Fvpx Crefba C3 2016-00000021
-{Qvfcngpu Cntr} 930  2016-00000006 1100 R GRNXJBBQ FG 7 Fcyvgebpx Ncnegzragf Oenaqba 1 OE Pbai Frvmher C2 2016-00000006
-{Qvfcngpu Cntr}  2016-00000419 254GU FG 475GU NIR Zvqjnl Pbeare Onygvp 17 ON Vawhel Nppvqrag C3 2016-00000419
-{Qvfcngpu Cntr} 930  2016-00000419 475GU NIR 254GU FG Onygvp 17 ON Vawhel Nppvqrag C3 2016-00000419
-{Qvfcngpu Cntr}  2016-00000018 V 90 ZZ 412 Inyyrl Fcevatf 2 Vawhel Nppvqrag / Ebyybire 2016-00000018
-{Qvfcngpu Cntr}  2016-00000018 V 90 ZZ 412 Inyyrl Fcevatf 2 Zrqvpny Rzretrapl 2016-00000018
-{Qvfcngpu Cntr} 930  2016-00000018 V 90 ZZ 412 Inyyrl Fcevatf 2 IF Vawhel Nppvqrag / Ebyybire 2016-00000018
-{Qvfcngpu Cntr} 930  2016-00000004 2804 F  EVIRE OYHSS EQ Fcyvgebpx 3 FS Pbai Frvmher C2 2016-00000004
-{Qvfcngpu Cntr} 930  2016-00000015 301 F  FCYVGEBPX OYIQ Oenaqba Inyyrl Uvtu Fpubby Oenaqba 1 OE Pbai Frvmher C2 2016-00000015
-{Qvfcngpu Cntr} 940  2016-00000014 2808 J  84GU FG A Eraare 8 FS Vawhel Nppvqrag C3 2016-00000014
-{Qvfcngpu Cntr} 930  2016-00000004 705 F 8GU NIR Evqtrivrj Ncnegzragf Oenaqba 1 OE Fgebxr C2 2016-00000004
-{Qvfcngpu Cntr} 940  2016-00000012 265GU FG 455GU NIR Havba Pragre Uhzobyqg 5 UH NYF Vagreprcg 2016-00000012
-{Qvfcngpu Cntr} 930  2016-00000011 2216 A VAQVNA UVYYF GEY Fcyvgebpx 1 FS Pbai Frvmher C3 2016-00000011
-{Qvfcngpu Cntr} 930  2016-00000002 26605 482AQ NIR Fcyvgebpx 4 OE Fvpx Crefba C2 2016-00000002
-{Qvfcngpu Cntr} 930  2016-00000009 1103 A FCYVGEBPX OYIQ 300 Ubyvqnl Vaa Oenaqba Oenaqba 1 OE Fvpx Crefba C3 2016-00000009
-{Qvfcngpu Cntr} 940  2016-00000173 900 A  RYYVF EQ Dhnq AJ10O FS Pbai Frvmher C2 2016-00000173
-{Qvfcngpu Cntr} 940  2016-00000003 V 90 V 29 Eraare 9 FS Vawhel Nppvqrag C3 + Sver 2016-00000003
-{Qvfcngpu Cntr} 930  2016-00000002 1037 R URNGUREJBBQ QE Oenaqba 1 OE Fvpx Crefba C2 2016-00000002
-{Qvfcngpu Cntr} 930  2016-00000033 212 F 7GU NIR Oenaqba 1 OE Fgehpgher Sver 2016-00000033
-{Qvfcngpu Cntr} 930  2016-00000004 1000 R GRNXJBBQ FG Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Fvpx Crefba C3 2016-00000004
-{Qvfcngpu Cntr} 940  2016-00000003 265GU FG 466GU NIR Unegsbeq 7 FS NYF Vagreprcg 2016-00000003
-{Qvfcngpu Cntr}  2016-00000001 V 90 ZZ 396 Pebbxf 3 Vawhel Nppvqrag / Ebyybire 2016-00000001
-{Qvfcngpu Cntr}  2016-00000001 V 90 ZZ 396 Pebbxf 3 FS Vawhel Nppvqrag / Ebyybire 2016-00000001
-{Qvfcngpu Cntr} 940  2016-00000001 V 90 ZZ 396 Pebbxf 3 Vawhel Nppvqrag / Ebyybire 2016-00000001
-{Qvfcngpu Cntr} 930  2016-00000001 26605 482AQ NIR Fcyvgebpx 4 OE Onpx Cnva C3 2016-00000001
-{Qvfcngpu Cntr} 930  2015-00000881 504 JBBQ FG Inyyrl Fcevatf 2 IF Fvpx Crefba C3 2015-00000881
-{Qvfcngpu Cntr} 930  2015-00000880 1000 R GRNXJBBQ FG 24 Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Yvsg Nffvfg 2015-00000880
-{Qvfcngpu Cntr} 930  2015-00019720 R  NEEBJURNQ CXJL F  PBZZREPR NIR Fcyvgebpx 3 FS Vawhel Nppvqrag C3 2015-00019720
-{Qvfcngpu Cntr} 930  2015-00000401 1000 R GRNXJBBQ FG 8 Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Urneg Ceboyrzf C2 2015-00000401
-{Qvfcngpu Cntr} 930  2015-00000877 1000 R GRNXJBBQ FG 24 Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Fvpx Crefba C3 2015-00000877
-{Qvfcngpu Cntr} 940  2015-00000133 V 29 ZZ 85 Eraare 9 Vawhel Nppvqrag / Ebyybire 2015-00000133
-{Qvfcngpu Cntr} 930  2015-00000874 3012 R NFCRA OYIQ 13 Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000874
-{Qvfcngpu Cntr} 930  2015-00000131 25734 XVJNAVF NIR Eraare 1 ER Oernguvat Cebo C2 2015-00000131
-{Qvfcngpu Cntr} 930  2015-00003506 301 F  FCYVGEBPX OYIQ OENAQBA INYYRL UVTU FPUBBY Oenaqba 1 OE Fgehpgher Sver 2015-00003506
-{Qvfcngpu Cntr} 930  2015-00000398 1201 R XRLFGBAR CY 111 Erqjbbq Pbheg (1201) Oenaqba 1 OE Yvsg Nffvfg 2015-00000398
-{Qvfcngpu Cntr} 930  2015-00000870 2704 F  TRBETR FG Fcyvgebpx 3 FS Snyyf C3 2015-00000870
-{Qvfcngpu Cntr} 930  2015-00000397 1708 F EVIRE BNX NIR Oenaqba 1 OE Fgehpgher Sver 2015-00000397
-{Qvfcngpu Cntr} 930  2015-00000111 26117 486GU NIR Inyyrl Fcevatf 2 IF Yvsg Nffvfg 2015-00000111
-{Qvfcngpu Cntr} 930  2015-00019553 26605 482AQ NIR Fcyvgebpx 4 OE Oernguvat Cebo C1 2015-00019553
-{Qvfcngpu Cntr} 930  2015-00000866 3012 R NFCRA OYIQ 3 Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000866
-{Qvfcngpu Cntr} 940  2015-00000274 26117 466GU NIR Unegsbeq 4 UQ Fgebxr C2 2015-00000274
-{Qvfcngpu Cntr} 930  2015-00003492 101 F  GRGBA QE 8 Oenaqba Ncnegzragf (101) Oenaqba 1 OE Hapbafp/Snvag C3 2015-00003492
-{Qvfcngpu Cntr} 930  2015-00000863 3008 R NFCRA OYIQ 309 Orgunal Zrnqbjf Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000863
-{Qvfcngpu Cntr} 930  2015-00000862 3012 R NFCRA OYIQ ORGUNAL UBZR Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000862
-{Qvfcngpu Cntr} 930  2015-00000861 1505 R  60GU FG A Dhnq AR3U FS Snyyf C3 2015-00000861
-{Qvfcngpu Cntr} 930  2015-00000396 3012 R NFCRA OYIQ Orgunal Ubzr Oenaqba 1 OE Oernguvat Cebo C1 2015-00000396
-{Qvfcngpu Cntr} 930  2015-00000859 7201 R  CVAR YNXR QE Fcyvgebpx 1 FS Hax Ceboyrz C3 2015-00000859
-{Qvfcngpu Cntr} 940  2015-00019477 400 F  AVPBYR NIR Pebbxf 3 PE Cflpu/Fhvpvqr CQ 2015-00019477
-{Qvfcngpu Cntr} 930  2015-00000395 501 F 5GU NIR Oenaqba 1 OE Oernguvat Cebo C2 2015-00000395
-{Qvfcngpu Cntr} 930  2015-00000856 1000 R GRNXJBBQ FG 18 Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Snyyf C3 2015-00000856
-{Qvfcngpu Cntr} 930  2015-00000394 419 A 9GU NIR Oenaqba 1 OE Urneg Ceboyrzf C2 2015-00000394
-{Qvfcngpu Cntr} 930  2015-00000140 R  26GU FG F  EVIRE OYHSS EQ Fcyvgebpx 3 FS Vawhel Nppvqrag / Rkgevpngvba 2015-00000140
-{Qvfcngpu Cntr} 930  2015-00000140 1600 F  EVIRE OYHSS EQ NEEBJURNQ CNEX Fcyvgebpx 3 FS Zrqvpny Rzretrapl 2015-00000140
-{Qvfcngpu Cntr} OE 930  2015-00000392 2502 R NHTHFGN FG Oenaqba 1 OE Purfg Cnva C2 2015-00000392
-{Qvfcngpu Cntr} 930  2015-00000852 308 F 7GU NIR Oenaqba 1 OE Fgno/Thafubg C3 2015-00000852
-{Qvfcngpu Cntr} 940  2015-00000272 46560 264GU FG Frdhry Genafvgvba Npnqrzl Unegsbeq 7 FS Bireqbfr C2 + CQ 2015-00000272
-{Qvfcngpu Cntr} 930  2015-00000850 27065 ZHRYYRE CY Dhnq FJ7Y FS Purfg Cnva C3 2015-00000850
-{Qvfcngpu Cntr} 930  2015-00000154 258GU FG 478GU NIR FS Vawhel Nppvqrag / Rkgevpngvba 2015-00000154
-{Qvfcngpu Cntr}  2015-00000270 46290 266GU FG JNYY YNXR Unegsbeq 6 UQ Vawhel Nppvqrag C3 2015-00000270
-{Qvfcngpu Cntr} 940  2015-00000270 46326 266GU FG Unegsbeq 7 UQ Vawhel Nppvqrag C3 2015-00000270
-{Qvfcngpu Cntr} 930  2015-00000846 1000 R GRNXJBBQ FG 5n Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000846
-{Qvfcngpu Cntr} 930  2015-00000129 257GU FG QVGPU EQ Eraare 2 ER Vawhel Nppvqrag C3 2015-00000129
-{Qvfcngpu Cntr} 940  2015-00000844 25807 XVJNAVF NIR Eraare 8 FS Hax Ceboyrz C3 2015-00000844
-{Qvfcngpu Cntr} 930  2015-00000138 26605 482AQ NIR Fcyvgebpx 4 OE Oernguvat Cebo C2 2015-00000138
-{Qvfcngpu Cntr} 930  2015-00019137 5405 A  EBZNE QE Eraare 9 FS Noqbzvany Cnva C3 2015-00019137
-{Qvfcngpu Cntr} 930  2015-00003411 409 R PRQNE FG Oenaqba 1 OE Pbai Frvmher C2 2015-00003411
-{Qvfcngpu Cntr} 930  2015-00003410 419 F  LRYYBJFGBAR QE Oenaqba 1 OE Nffnhyg C2 2015-00003410
-{Qvfcngpu Cntr} 930  2015-00000126 47518 FNAQRNA QE Eraare 3 ER Pneoba Zba C2 + CQ 2015-00000126
-{Qvfcngpu Cntr} 940  2015-00009795 265GU FG 455GU NIR Havba Pragre Uhzobyqg 5 UH NYF Vagreprcg 2015-00009795
-{Qvfcngpu Cntr} 930  2015-00012091 1409 R  60GU FG A Dhnq AR3U FS Snyyf C2 2015-00012091
-{Qvfcngpu Cntr} 930  2015-00000836 1105 R  UBYYL OYIQ Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000836
-{Qvfcngpu Cntr} 930  2015-00000137 UJL 42 481FG NIR Fcyvgebpx 4 OE Vawhel Nppvqrag C3 + Sver 2015-00000137
-{Qvfcngpu Cntr} 930  2015-00000834 3012 R NFCRA OYIQ cp14 Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000834
-{Qvfcngpu Cntr} 930  2015-00000136 48272 UJL 42 Fcyvgebpx 4 EB Cflpu/Fhvpvqr C2 CQ 2015-00000136
-{Qvfcngpu Cntr} 940  2015-00000113 47077 254GU FG Pebbxf 1 PE Vawhel Nppvqrag / Ebyybire 2015-00000113
-{Qvfcngpu Cntr} 930  2015-00000135 7703 R  ZNQVFBA FG Fcyvgebpx 1 FS Bireqbfr C2 + CQ 2015-00000135
-{Qvfcngpu Cntr} 930  2015-00000110 266GU FG 488GU NIR Inyyrl Fcevatf 3 IF Vawhel Nppvqrag / Ebyybire 2015-00000110
-{Qvfcngpu Cntr} 930  2015-00000829 3012 R NFCRA OYIQ 9 Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000829
-{Qvfcngpu Cntr}  2015-00000125 V 29 RKVG 83 Dhnq AJ4V FS Oernguvat Cebo C2 2015-00000125
-{Qvfcngpu Cntr} 940  2015-00000125 V 29 V 90 Eraare 9 FS Oernguvat Cebo C2 2015-00000125
-{Qvfcngpu Cntr} 930  2015-00018898 V 90 ZZ 406 Oenaqba 1 OE Oernguvat Cebo C2 2015-00018898
-{Qvfcngpu Cntr}  2015-00000826 3008 R NFCRA OYIQ 112 Orgunal Zrnqbjf Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000826
-{Qvfcngpu Cntr} 930  2015-00000826 3008 R  NFCRA OYIQ Orgunal Zrnqbjf Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000826
-{Qvfcngpu Cntr} 930  2015-00000210 920 4GU FG 302 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2015-00000210
-{Qvfcngpu Cntr} 930  2015-00000824 3008 R  NFCRA OYIQ ORGUNAL ZRNQBJF Oenaqba 1 OE Fvpx Crefba C3 2015-00000824
-{Qvfcngpu Cntr} 930  2015-00000383 101 R PRQNE FG 1 Prqne Ncnegzragf (101) Oenaqba 1 OE Fgebxr C2 2015-00000383
-{Qvfcngpu Cntr} 930  2015-00000822 308 F 5GU NIR Oenaqba 1 OE Snyyf C3 2015-00000822
+{Qvfcngpu Cntr} 930  2016-00000056 R UJL 42 F  CREEL CY Fcyvgebpx 3 FS Vawhel Nppvqrag / Ebyybire 2016-00000056
+{Qvfcngpu Cntr} 930  2016-00006826 300 J  33EQ FG Dhnq FR1P FS Pneqvnp Neerfg C3 2016-00006826
+{Qvfcngpu Cntr} 930  2016-00000502 401 R  ORRPUAHG FG Oenaqba 1 OE Bireqbfr C3 2016-00000502
+{Qvfcngpu Cntr} 930  2016-00006788 400 R  26GU FG ZPXRAANA CNEX Dhnq FR1O_3 FS Hapbafp/Snvag C2 2016-00006788
+{Qvfcngpu Cntr} 930  2016-00054379 5009 J  RDHRFGEVNA CY 1206 Dhnq FJ6O FS Pneqvnp Neerfg C3 2016-00054379
+{Qvfcngpu Cntr} 930  2016-00000178 200 F 5GU NIR Oenaqba 1 OE Oernguvat Cebo C2 2016-00000178
+{Qvfcngpu Cntr} 940  2016-00000059 1000 NAQERJ QE Pebbxf 3 PE Hapbafp/Snvag C1 2016-00000059
+{Qvfcngpu Cntr} 940  2016-00053690 6005 J  FVBHK X PG Dhnq FJ7O FS Pneqvnp Neerfg C1 2016-00053690
+{Qvfcngpu Cntr} 930  2016-00000099 25797 GBJAIVRJ NIR Eraare 3 FS Urneg Ceboyrzf C3 2016-00000099
+{Qvfcngpu Cntr} 930  2016-00000489 3012 R NFCRA OYIQ Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2016-00000489
+{Qvfcngpu Cntr} 930  2016-00000488 25974 480GU NIR Oenaqba 5 OE Snyyf C3 2016-00000488
+{Qvfcngpu Cntr} 930  2016-00000176 V 90 ZZ 406 Oenaqba 1 Nyyretvrf C2 2016-00000176
+{Qvfcngpu Cntr} 930  2016-00000175 410 J CNEX FG 19R Ovt Fvbhk Erp Oenaqba 7 OE Purfg Cnva C2 2016-00000175
+{Qvfcngpu Cntr} 940  2016-00006606 J  ZNQVFBA FG A  YN ZRFN QE Dhnq AJ9P FS Zna Qbja C2 + CQ 2016-00006606
+{Qvfcngpu Cntr} 930  2016-00000484 101 R PRQNE FG 7 Prqne Ncnegzragf (101) Oenaqba 1 OE Pubxvat C3 2016-00000484
+{Qvfcngpu Cntr} 930  2016-00000040 26117 486GU NIR Inyyrl Fcevatf 2 IF Fvpx Crefba C2 2016-00000040
+{Qvfcngpu Cntr} 930  2016-00052534 817 F  YBJRYY NIR Dhnq FR4N FS Cflpu/Fhvpvqr C3 CQ 2016-00052534
+{Qvfcngpu Cntr} 930  2016-00000481 3012 R NFCRA OYIQ Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2016-00000481
+{Qvfcngpu Cntr} 930  2016-00000096 6704 A  9GU NIR Eraare 11 FS Oernguvat Cebo C1 2016-00000096
+{Qvfcngpu Cntr} 940  2016-00000479 46958 256GU FG Pebbxf 1 PE Snyyf C3 2016-00000479
+{Qvfcngpu Cntr} 930  2016-00000065 7001 R  ZNQVFBA FG Fcyvgebpx 1 FS Pbai Frvmher C2 2016-00000065
+{Qvfcngpu Cntr} 930  2016-00051770 112 A  CUVYYVCF NIR 206 Dhnq AR1N FS Pneqvnp Neerfg C3 2016-00051770
+{Qvfcngpu Cntr} 930  2016-00000171 1408 R PRQNE FG Oenaqba 1 OE Fgehpgher Sver 2016-00000171
+{Qvfcngpu Cntr}  2016-00000095 1704 J  60GU FG A Dhnq AJ2V FS Fgehpgher Sver 2016-00000095
+{Qvfcngpu Cntr} 930  2016-00000095 1700 J  60GU FG A Eraare 10 FS Fgehpgher Sver 2016-00000095
+{Qvfcngpu Cntr} 930  2016-00000474 47448 258GU FG Eraare 2 ER Hapbafp/Snvag C3 2016-00000474
+{Qvfcngpu Cntr} 930  2016-00000092 V 90 A  QVGPU EQ Eraare 10 FS Pbai Frvmher C2 2016-00000092
+{Qvfcngpu Cntr} 930  2016-00000064 7600 R  41FG FG Fcyvgebpx 3 FS Fgehpgher Sver 2016-00000064
+{Qvfcngpu Cntr} 930  2016-00006402 3008 R  20GU FG Dhnq FR5O FS Fgehpgher Sver 2016-00006402
+{Qvfcngpu Cntr} 930  2016-00006401 4309 F  TYRAIVRJ EQ Dhnq FR3S FS Oernguvat Cebo C1 2016-00006401
+{Qvfcngpu Cntr} 930  2016-00000169 601 A  GRGBA QE Grgba Ncnegzragf (601) Oenaqba 1 OE Oernguvat Cebo C2 2016-00000169
+{Qvfcngpu Cntr} 930  2016-00000466 1105 R  UBYYL OYIQ Oenaqba 1 OE Genafsre C2 j/bhg sver 2016-00000466
+{Qvfcngpu Cntr} 930  2016-00000167 509 F 3EQ NIR Oenaqba 1 OE Fgehpgher Sver 2016-00000167
+{Qvfcngpu Cntr} 930  2016-00000089 25797 XVJNAVF NIR Eraare 1 PE Fvpx Crefba C3 2016-00000089
+{Qvfcngpu Cntr} 930  2016-00000060 6209 R  23EQ FG Fcyvgebpx 3 FS Purfg Cnva C2 2016-00000060
+{Qvfcngpu Cntr} 930  2016-00049399 3527 J  55GU FG 8 Dhnq FJ4S FS Hapbafp/Snvag C1 2016-00049399
+{Qvfcngpu Cntr} 930  2016-00049370 4200 F  JRFG NIR WQP Dhnq FJ2S FS Nffnhyg C2 2016-00049370
+{Qvfcngpu Cntr} 930  2016-00006279 507 F  JRFGREA NIR Dhnq FJ3N FS Fvpx Crefba C2 2016-00006279
+{Qvfcngpu Cntr} 930  2016-00006262 3300 R  11GU FG 7 Dhnq AR5N FS Pneqvnp Neerfg C1 2016-00006262
+{Qvfcngpu Cntr} 940  2016-00000458 V 29 V 90 Dhnq AJ4V FS Vawhel Nppvqrag C3 2016-00000458
+{Qvfcngpu Cntr} 930  2016-00000035 48439 264GU FG Inyyrl Fcevatf 3 IF Fgehpgher Sver 2016-00000035
+{Qvfcngpu Cntr} 930  2016-00000456 1208 R YNEX FG Oenaqba 1 OE Yvsg Nffvfg 2016-00000456
+{Qvfcngpu Cntr} 930  2016-00048658 100 F  SNVESNK NIR Dhnq AR2N_5 FS Pneqvnp Neerfg C3 2016-00048658
+{Qvfcngpu Cntr} 930  2016-00007677 1719 F  8GU NIR Dhnq FR2O_5 FS Pneqvnp Neerfg C1 2016-00007677
+{Qvfcngpu Cntr} 930  2016-00000165 1008 R  NFCRA OYIQ Oenaqba 1 OE Purfg Cnva C2 2016-00000165
+{Qvfcngpu Cntr} 930  2016-00000056 R UJL 42 F  CREEL CY Fcyvgebpx 3 FS Vawhel Nppvqrag / Ebyybire 2016-00000056
+{Qvfcngpu Cntr} 940  2016-00000451 26767 466GU NIR Jvyq Jngre Jrfg Unegsbeq 8 FS Qebjavat C3 2016-00000451
+{Qvfcngpu Cntr} R1 930  2016-00048353 428 J  7GU FG Dhnq AJ1N FS Pneqvnp Neerfg C3 2016-00048353
+{Qvfcngpu Cntr} 930  2016-00000449 917 F NFCRA CNEX EQ O Nfcra Cnex Oenaqba 1 OE Hapbafp/Snvag C3 2016-00000449
+{Qvfcngpu Cntr} 930  2016-00048353 428 J  7GU FG Dhnq AJ1N FS Pneqvnp Neerfg C3 2016-00048353
+{Qvfcngpu Cntr} 940  2016-00000051 46958 256GU FG Pebbxf 1 PE Yvsg Nffvfg 2016-00000051
+{Qvfcngpu Cntr} 930  2016-00000446 R  UBYYL OYIQ F  FVBHK OYIQ Oenaqba 1 OE Urng/Pbyq Rkcbfr c3 2016-00000446
+{Qvfcngpu Cntr} 930  2016-00000445 1105 A  FCYVGEBPX OYIQ 112 Oenaqba 1 OE Snyyf C3 2016-00000445
+{Qvfcngpu Cntr} 930  2016-00000443 3008 R  NFCRA OYIQ ORGUNAL ZRNQBJF Oenaqba 1 OE Genafsre C2 j/bhg sver 2016-00000443
+{Qvfcngpu Cntr} 930  2016-00000164 1039 R URNGUREJBBQ QE Oenaqba 1 OE Yvsg Nffvfg 2016-00000164
+{Qvfcngpu Cntr} 930  2016-00000163 917 F NFCRA CNEX EQ NFCRA CNEX Oenaqba 1 OE Genhzngvp Vawhel C2 2016-00000163
+{Qvfcngpu Cntr} 930  2016-00006111 1310 J ZNQVFBA FG 117 Dhnq AJ2P FS Genafsre C2 j/bhg sver 2016-00006111
+{Qvfcngpu Cntr} 940  2016-00000439 265GU FG 455GU NIR Havba Pragre Uhzobyqg 5 UH NYF Vagreprcg 2016-00000439
+{Qvfcngpu Cntr} 930  2016-00000438 47448 258GU FG Eraare 2 ER Snyyf C3 2016-00000438
+{Qvfcngpu Cntr} 930  2016-00000437 907 A 7GU NIR Oenaqba 1 OE Snyyf C3 2016-00000437
+{Qvfcngpu Cntr} 940  2016-00000436 1600 J  22AQ FG Fnasbeq Puvyqeraf Ubfcvgny Dhnq FJ2O_51 FS Genafsre C5 2016-00000436
+{Qvfcngpu Cntr} 930  2016-00006044 4000 F JRFGCBEG NIR 212 Dhnq FJ4R FS Pneqvnp Neerfg C1 2016-00006044
+{Qvfcngpu Cntr} 930  2016-00006023 3113 J  12GU FG 106 Dhnq FJ4N FS Pneqvnp Neerfg C1 2016-00006023
+{Qvfcngpu Cntr} 930  2016-00006020 2904 F  YBHVFR NIR 308 Dhnq FJ4Q FS Pneqvnp Neerfg C3 2016-00006020
+{Qvfcngpu Cntr} 930  2016-00000432 1720 F EVIRE BNX NIR Oenaqba 1 OE Fvpx Crefba C3 2016-00000432
+{Qvfcngpu Cntr} 930  2016-00000034 411 RYZ FG Inyyrl Fcevatf 2 IF Tnf Yrnx 2016-00000034
+{Qvfcngpu Cntr} 930  2016-00000430 3012 R NFCRA OYIQ Orgunal Ubzr Oenaqba 1 OE Genafsre C3 2016-00000430
+{Qvfcngpu Cntr} 940  2016-00000134 26122 PNANEL QE Unegsbeq 4 FS Hapbafp/Snvag C2 2016-00000134
+{Qvfcngpu Cntr} 930  2016-00005940 7305 J  12GU FG Dhnq FJ9N FS Fvpx Crefba C2 2016-00005940
+{Qvfcngpu Cntr} 930  2016-00005910 704 F  TBEQBA QE Dhnq FR7N FS Pneqvnp Neerfg C1 2016-00005910
+{Qvfcngpu Cntr} 930  2016-00000426 3012 R NFCRA OYIQ Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2016-00000426
+{Qvfcngpu Cntr} 940  2016-00000082 V 29 ZZ 84 Eraare 9 FS Vawhel Nppvqrag / Ebyybire 2016-00000082
+{Qvfcngpu Cntr} 930  2016-00000424 2808 F  EVIRE OYHSS EQ Fcyvgebpx 3 FS Fvpx Crefba C3 2016-00000424
+{Qvfcngpu Cntr} 930  2016-00000423 47409 258GU FG ZBANEPU YBHATR Eraare 11 ER Zrqvpny Rzretrapl 2016-00000423
+{Qvfcngpu Cntr} 930  2016-00000421 1007 A  UBYYL NIR Dhnq AJ3P FS Pneqvnp Neerfg C3 2016-00000421
+{Qvfcngpu Cntr} 930  2016-00001553 R  ERQJBBQ OYIQ A  FCYVGEBPX OYIQ Oenaqba 1 OE Urng/Pbyq Rkcbfr c3 2016-00001553
+{Qvfcngpu Cntr} 940  2016-00000130 265GU FG 466GU NIR Unegsbeq 7 FS Vawhel Nppvqrag C1 2016-00000130
+{Qvfcngpu Cntr} 930  2016-00001552 516 A  GRGBA QE Oenaqba 1 OE Fvpx Crefba C3 2016-00001552
+{Qvfcngpu Cntr} 940  2016-00000049 25782 472AQ NIR Pebbxf 3 FS Nffnhyg C2 2016-00000049
+{Qvfcngpu Cntr} 930  2016-00008266 R  61FG FG A A  JNLYNAQ NIR Dhnq AR3V FS Vawhel Nppvqrag C3 2016-00008266
+{Qvfcngpu Cntr} 930  2016-00000160 2717 R FHAEVFR PG Oenaqba 1 OE Hapbafp/Snvag C2 2016-00000160
+{Qvfcngpu Cntr} 930 ER  2016-00000229 V 29 RKVG 86 Eraare 1 ER Fgebxr C2 2016-00000229
+{Qvfcngpu Cntr} 930  2016-00000079 V 29 RKVG 86 Eraare 1 ER Vawhel Nppvqrag C2 2016-00000079
+{Qvfcngpu Cntr}  2016-00000411 1100 R GRNXJBBQ FG 7 Fcyvgebpx Ncnegzragf Oenaqba 1 OE Fgebxr C2 2016-00000411
+{Qvfcngpu Cntr} 930 OE  2016-00000411 1100 R GRNXJBBQ FG Fcyvgebpx Ncnegzragf Oenaqba 1 OE Fgebxr C2 2016-00000411
+{Qvfcngpu Cntr} 930  2016-00005753 1050 J IRAGHER CY 106 Dhnq FJ1R FS Pneqvnp Neerfg C1 2016-00005753
+{Qvfcngpu Cntr} 930  2016-00000409 1716 CNEXIVRJ OYIQ OE Snyyf C3 2016-00000409
+{Qvfcngpu Cntr} 940  2016-00008121 25809 GENQR NIR Eraare 8 FS Hapbafp/Snvag C2 2016-00008121
+{Qvfcngpu Cntr} 930  2016-00000065 308 EVIRE NIR Tneergfba 23 TA Pneqvnp Neerfg C1 2016-00000065
+{Qvfcngpu Cntr} 940  2016-00000046 47111 256GU FG Pebbxf 3 PE Pbai Frvmher C2 2016-00000046
+{Qvfcngpu Cntr} 940  2016-00008030 264GU FG 466GU NIR Unegsbeq 7 FS Vawhel Nppvqrag C3 2016-00008030
+{Qvfcngpu Cntr} 930  2016-00000404 1021 R URNGUREJBBQ QE Oenaqba 1 OE Fvpx Crefba C2 2016-00000404
+{Qvfcngpu Cntr} 930  2016-00000157 1612 F EVIRE BNX NIR Oenaqba 1 OE Fgehpgher Sver 2016-00000157
+{Qvfcngpu Cntr} 930  2016-00043695 4916 F  ZNEVBA EQ Fvyirefgne Pne Jnfu F Znevba Dhnq FJ6S FS Vaqhfgevny Npp C2 CQ 2016-00043695
+{Qvfcngpu Cntr} 930  2016-00007863 26767 466GU NIR JVYQ JNGRE JRFG Unegsbeq 8 FS Urneg Ceboyrzf C2 2016-00007863
+{Qvfcngpu Cntr} 940  2016-00007863 26767 466GU NIR JVYQ JNGRE JRFG Unegsbeq 8 FS Urneg Ceboyrzf C2 2016-00007863
+{Qvfcngpu Cntr} 930  2016-00000399 1413 R EHFUZBER QE 12 Oenaqba 1 OE Cflpu/Fhvpvqr C3 CQ 2016-00000399
+{Qvfcngpu Cntr}  2016-00000398 1000 R GRNXJBBQ FG 7O Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Snyyf C3 2016-00000398
+{Qvfcngpu Cntr} 930  2016-00000398 1000 R GRNXJBBQ FG Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Snyyf C3 2016-00000398
+{Qvfcngpu Cntr} 930  2016-00000153 1816 J NFUGBA GEY Oenaqba-2 OE Fgehpgher Sver 2016-00000153
+{Qvfcngpu Cntr} 930  2016-00000152 V 90 ZZ 405 Oenaqba 7 OE Vawhel Nppvqrag C2 2016-00000152
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fcyvg Ebpx Sver & Erfphr
 Ybpngvba: Fvbhk Snyyf, FQ, Havgrq Fgngrf
 Fraqre: <911zrgebqvfcngpu@911zrgeb.bet>
 
-{Qvfcngpu Cntr} FE  2016-00000004 2804 F  EVIRE OYHSS EQ Fcyvgebpx 3 FS Pbai Frvmher C2 2016-00000004
-{Qvfcngpu Cntr} FE  2016-00000011 2216 A VAQVNA UVYYF GEY Fcyvgebpx 1 FS Pbai Frvmher C3 2016-00000011
-{Qvfcngpu Cntr} FE  2016-00000002 26605 482AQ NIR Fcyvgebpx 4 OE Fvpx Crefba C2 2016-00000002
-{Qvfcngpu Cntr} FE  2016-00000001 26605 482AQ NIR Fcyvgebpx 4 OE Onpx Cnva C3 2016-00000001
-{Qvfcngpu Cntr} FE RZ  2015-00019720 R  NEEBJURNQ CXJL F  PBZZREPR NIR Fcyvgebpx 3 FS Vawhel Nppvqrag C3 2015-00019720
-{Qvfcngpu Cntr} FE  2015-00000870 2704 F  TRBETR FG Fcyvgebpx 3 FS Snyyf C3 2015-00000870
-{Qvfcngpu Cntr} FE  2015-00019553 26605 482AQ NIR Fcyvgebpx 4 OE Oernguvat Cebo C1 2015-00019553
-{Qvfcngpu Cntr} FE  2015-00000859 7201 R  CVAR YNXR QE Fcyvgebpx 1 FS Hax Ceboyrz C3 2015-00000859
-{Qvfcngpu Cntr} FE  2015-00000140 1600 F  EVIRE OYHSS EQ NEEBJURNQ CNEX Fcyvgebpx 3 FS Zrqvpny Rzretrapl 2015-00000140
-{Qvfcngpu Cntr} FE  2015-00000139 R ZNQVFBA FG A  OYHR FCEHPR CY Fcyvgebpx 1 FS Nppvqrag 2015-00000139
-{Qvfcngpu Cntr} FE  2015-00000138 26605 482AQ NIR Fcyvgebpx 4 OE Oernguvat Cebo C2 2015-00000138
-{Qvfcngpu Cntr} FE  2015-00000137 267GU FG UJL 42 Fcyvgebpx 4 OE Nppvqrag 2015-00000137
-{Qvfcngpu Cntr} FE  2015-00000136 48272 UJL 42 Fcyvgebpx 4 EB Cflpu/Fhvpvqr C2 CQ 2015-00000136
-{Qvfcngpu Cntr} FE  2015-00000135 7703 R  ZNQVFBA FG Fcyvgebpx 1 FS Bireqbfr C2 + CQ 2015-00000135
-{Qvfcngpu Cntr} FE  2015-00000134 6910 R  FCYVG EBPX PVE Fcyvgebpx 3 FS Bqbe 2015-00000134
-{Qvfcngpu Cntr} FE RZ  2015-00018551 6505 R NEEBJURNQ CXJL Fcyvgebpx 3 FS Vawhel Nppvqrag C3 2015-00018551
-{Qvfcngpu Cntr} FE  2015-00000132 9601 R  ZNCYR FG Fcyvgebpx 1 FS Fvpx Crefba C2 2015-00000132
-{Qvfcngpu Cntr} FE  2015-00000131 48296 264GU FG Fcyvgebpx 2 OE Purfg Cnva C2 2015-00000131
-{Qvfcngpu Cntr} OE FE RZ  2015-00000354 1801 J SEBAGVRE FG Oenaqba-2 OE Fgehpgher Sver 2015-00000354
-{Qvfcngpu Cntr} 930 FE  2015-00000728 2400 F  EVIRE OYHSS EQ Fcyvgebpx 3 FS Pneqvnp Neerfg C1 2015-00000728
-{Qvfcngpu Cntr} FE  2015-00000128 26353 483EQ NIR Fcyvgebpx 2 OE Bcra Ohea 2015-00000128
-{Qvfcngpu Cntr} FE  2015-00000717 7813 R  38GU FG Fcyvgebpx 3 FS Hapbafp/Snvag C2 2015-00000717
-{Qvfcngpu Cntr} FE  2015-00016471 1901 F  CREEL CY CREEL ANGHER NERN Fcyvgebpx 3 FS Snyyf C2 2015-00016471
+{Qvfcngpu Cntr} FE  2016-00000065 7001 R  ZNQVFBA FG Fcyvgebpx 1 FS Pbai Frvmher C2 2016-00000065
+{Qvfcngpu Cntr} FE OE RZ  2016-00000064 7600 R  41FG FG Fcyvgebpx 3 FS Fgehpgher Sver 2016-00000064
+{Qvfcngpu Cntr}  2016-00000061 R  ZNQVFBA FG A  FVK ZVYR EQ Fcyvgebpx 1 FS Nppvqrag 2016-00000061
+{Qvfcngpu Cntr} FE  2016-00000061 A  FVK ZVYR EQ R  ZNQVFBA FG Fcyvgebpx 1 FS Nppvqrag 2016-00000061
+{Qvfcngpu Cntr} FE  2016-00000060 6209 R  23EQ FG Fcyvgebpx 3 FS Purfg Cnva C2 2016-00000060
+{Qvfcngpu Cntr} FE  2016-00000059 3000 A  BNX EQ Fcyvgebpx 1 FS Pneoba Zba Qrgrpgbe 2016-00000059
+{Qvfcngpu Cntr} FE  2016-00008911 9072 R UJL 42 Fcyvgebpx 3 FS Nppvqrag 2016-00008911
+{Qvfcngpu Cntr}  2016-00000035 48439 264GU FG Inyyrl Fcevatf 3 IF Fgehpgher Sver 2016-00000035
+{Qvfcngpu Cntr} IF FE RZ  2016-00000035 48439 265GU FG Inyyrl Fcevatf 3 OE Fgehpgher Sver 2016-00000035
+{Qvfcngpu Cntr} FE RZ  2016-00000056 R UJL 42 F  CREEL CY Fcyvgebpx 3 FS Vawhel Nppvqrag / Ebyybire 2016-00000056
+{Qvfcngpu Cntr} FE  2016-00000055 7901 R  26GU FG Fcyvgebpx 3 FS Cbjre Yvarf Qbja 2016-00000055
+{Qvfcngpu Cntr} FE  2016-00000424 2808 F  EVIRE OYHSS EQ Fcyvgebpx 3 FS Fvpx Crefba C3 2016-00000424
+{Qvfcngpu Cntr} FE  2016-00000052 8000 R UJL 42 JVYYBJ EHA TBYS PBHEFR Fcyvgebpx 3 FS Qvnorgvp C3 2016-00000052
+{Qvfcngpu Cntr} FE  2016-00000051 2012 F  FCYVGEBPX OYIQ ONQYNAQF ZBGBE FCRRQJNL Fcyvgebpx 2 OE Urng/Pbyq Rkcbfr C2 2016-00000051
+{Qvfcngpu Cntr} FE  2016-00007867 2012 F  FCYVGEBPX OYIQ ONQYNAQF ZBGBE FCRRQJNL Fcyvgebpx 2 OE Iruvpyr Sver 2016-00007867
+{Qvfcngpu Cntr} FE  2016-00000153 1816 J NFUGBA GEY Oenaqba-2 OE Fgehpgher Sver 2016-00000153
+{Qvfcngpu Cntr} OE FE RZ  2016-00000153 1816 J NFUGBA GEY Oenaqba-2 OE Fgehpgher Sver 2016-00000153
+{Qvfcngpu Cntr}  2016-00000395 48179 UJL 42 Fcyvgebpx 4 IF Fvpx Crefba C3 2016-00000395
+{Qvfcngpu Cntr} FE  2016-00000395 48177 UJL 42 Fcyvgebpx 4 OE Fvpx Crefba C3 2016-00000395
+{Qvfcngpu Cntr} FE  2016-00006933 8000 R UJL 42 JVYYBJ EHA TBYS PBHEFR Fcyvgebpx 3 FS Nyyretvrf C2 2016-00006933
+{Qvfcngpu Cntr} FE  2016-00000046 2012 F  FCYVGEBPX OYIQ ONQYNAQF ZBGBE FCRRQJNL Fcyvgebpx 2 OE Nppvqrag 2016-00000046
+{Qvfcngpu Cntr} FE  2016-00000045 400 A  BYQ PNOVA GEY Fcyvgebpx 1 FS Oernguvat Cebo C2 2016-00000045
+{Qvfcngpu Cntr} FE  2016-00000353 26280 ZPUNEQL EQ Fcyvgebpx 2 OE Pneqvnp Neerfg C1 2016-00000353
+{Qvfcngpu Cntr} FE  2016-00000042 17 A  SNVEJNL QE Fcyvgebpx 1 FS Bcra Ohea 2016-00000042
+{Qvfcngpu Cntr} FE  2016-00000041 1500 A  FVK ZVYR EQ Fcyvgebpx 1 FS Bcra Ohea 2016-00000041
+{Qvfcngpu Cntr} FE RZ  2016-00000040 UJL 42 267GU FG Fcyvgebpx 4 OE Vawhel Nppvqrag C3 2016-00000040
+{Qvfcngpu Cntr} FE  2016-00000039 8700 R  FHAFRG PVE Fcyvgebpx 1 FS Snyyf C3 2016-00000039
+{Qvfcngpu Cntr} FE RZ  2016-00000038 UJL 42 481FG NIR Fcyvgebpx 4 FS Vawhel Nppvqrag C3 + Sver 2016-00000038
+{Qvfcngpu Cntr} FE  2016-00000320 2808 F  EVIRE OYHSS EQ Fcyvgebpx 3 FS Snyyf C3 2016-00000320
+{Qvfcngpu Cntr}  2016-00000026 26627 486GU NIR Inyyrl Fcevatf 3 IF Fgehpgher Sver 2016-00000026
+{Qvfcngpu Cntr} IF FE RZ  2016-00000026 26627 486GU NIR fgehp Inyyrl Fcevatf 3 IF Fgehpgher Sver 2016-00000026
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Oenaqba SQ
 Ybpngvba: Oenaqba, FQ, Havgrq Fgngrf
 Fraqre: <911zrgebqvfcngpu@911zrgeb.bet>
 
-{Qvfcngpu Cntr} OE  2016-00000006 1100 R GRNXJBBQ FG 7 Fcyvgebpx Ncnegzragf Oenaqba 1 OE Pbai Frvmher C2 2016-00000006
-{Qvfcngpu Cntr} OE  2016-00000015 301 F  FCYVGEBPX OYIQ Oenaqba Inyyrl Uvtu Fpubby Oenaqba 1 OE Pbai Frvmher C2 2016-00000015
-{Qvfcngpu Cntr}  2016-00000004 705 F 8GU NIR 204 Evqtrivrj Ncnegzragf Oenaqba 1 OE Fgebxr C2 2016-00000004
-{Qvfcngpu Cntr} OE  2016-00000004 705 F 8GU NIR Evqtrivrj Ncnegzragf Oenaqba 1 OE Fgebxr C2 2016-00000004
-{Qvfcngpu Cntr} OE  2016-00000039 1508 R  ERQJBBQ OYIQ p Oenaqba 1 OE Nhqvoyr Nynez 2016-00000039
-{Qvfcngpu Cntr} OE  2016-00000002 1037 R URNGUREJBBQ QE Oenaqba 1 OE Fvpx Crefba C2 2016-00000002
-{Qvfcngpu Cntr} OE IF RZ  2016-00000033 212 F 7GU NIR Oenaqba 1 OE Fgehpgher Sver 2016-00000033
-{Qvfcngpu Cntr}  2015-00000401 1000 R GRNXJBBQ FG 8 Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Urneg Ceboyrzf C2 2015-00000401
-{Qvfcngpu Cntr} OE  2015-00000401 1000 R GRNXJBBQ FG 8 Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Urneg Ceboyrzf C2 2015-00000401
-{Qvfcngpu Cntr} OE IF RZ  2015-00003506 301 F  FCYVGEBPX OYIQ OENAQBA INYYRL UVTU FPUBBY Oenaqba 1 OE Fgehpgher Sver 2015-00003506
-{Qvfcngpu Cntr} OE  2015-00000398 1201 R XRLFGBAR CY 111 Erqjbbq Pbheg (1201) Oenaqba 1 OE Yvsg Nffvfg 2015-00000398
-{Qvfcngpu Cntr} OE IF RZ  2015-00000397 1708 F EVIRE BNX NIR Oenaqba 1 OE Fgehpgher Sver 2015-00000397
-{Qvfcngpu Cntr} OE  2015-00000396 3012 R NFCRA OYIQ Orgunal Ubzr Oenaqba 1 OE Oernguvat Cebo C1 2015-00000396
-{Qvfcngpu Cntr} OE  2015-00000395 501 F 5GU NIR Oenaqba 1 OE Oernguvat Cebo C2 2015-00000395
-{Qvfcngpu Cntr} OE  2015-00000394 419 A 9GU NIR Oenaqba 1 OE Urneg Ceboyrzf C2 2015-00000394
-{Qvfcngpu Cntr} OE  2015-00000393 115 A  FCYVGEBPX OYIQ Oenaqba 1 OE Shyy Abgvsvre 2015-00000393
-{Qvfcngpu Cntr} OE  2015-00000391 301 F  FCYVGEBPX OYIQ Oenaqba Inyyrl Uvtu Fpubby Oenaqba 1 OE Shyy Abgvsvre 2015-00000391
-{Qvfcngpu Cntr} OE  2015-00003453 301 F  FCYVGEBPX OYIQ Oenaqba Inyyrl Uvtu Fpubby Oenaqba 1 OE Shyy Abgvsvre 2015-00003453
-{Qvfcngpu Cntr} OE  2015-00000389 R  EVPR FG A  FVK ZVYR EQ Oenaqba 7 FS Nppvqrag 2015-00000389
-{Qvfcngpu Cntr} OE  2015-00000388 258GU FG 482AQ NIR Oenaqba 6 OE Iruvpyr Sver 2015-00000388
-{Qvfcngpu Cntr} OE  2015-00003411 409 R PRQNE FG Oenaqba 1 OE Pbai Frvmher C2 2015-00003411
-{Qvfcngpu Cntr} OE  2015-00003410 419 F  LRYYBJFGBAR QE Oenaqba 1 OE Nffnhyg C2 2015-00003410
-{Qvfcngpu Cntr} OE  2015-00003388 805 R URNGUREJBBQ PVE Oenaqba 1 OE Pneoba Zba Qrgrpgbe 2015-00003388
-{Qvfcngpu Cntr}  2015-00018898 V 90 RKVG 406 Oenaqba 6 OE Oernguvat Cebo C2 2015-00018898
-{Qvfcngpu Cntr} OE  2015-00018898 V 90 ZZ 406 Oenaqba 1 OE Oernguvat Cebo C2 2015-00018898
-{Qvfcngpu Cntr} OE  2015-00000383 101 R PRQNE FG 1 Prqne Ncnegzragf (101) Oenaqba 1 OE Fgebxr C2 2015-00000383
-{Qvfcngpu Cntr} OE  2015-00003338 R  NFCRA OYIQ F  PBHAGEL PYHO NIR Oenaqba 1 OE Hapbafp/Snvag C2 2015-00003338
-{Qvfcngpu Cntr} OE IF RZ  2015-00000381 26040 482AQ NIR Oenaqba 6 OE Fgehpgher Sver 2015-00000381
-{Qvfcngpu Cntr} OE  2015-00000380 V 90 ZZ 406 Oenaqba 1 OE Nppvqrag 2015-00000380
-{Qvfcngpu Cntr} OE  2015-00000379 1100 R GRNXJBBQ FG 7 Fcyvgebpx Ncnegzragf Oenaqba 1 OE Fvpx Crefba C2 2015-00000379
-{Qvfcngpu Cntr} OE  2015-00000378 301 F  FCYVGEBPX OYIQ OENAQBA INYYRL UVTU FPUBBY Oenaqba 1 OE Shyy Abgvsvre 2015-00000378
-{Qvfcngpu Cntr}  2015-00018581 V 90 RKVG 402 Oenaqba 7 Vawhel Nppvqrag / Ebyybire 2015-00018581
-{Qvfcngpu Cntr} OE RZ  2015-00018581 V 90 RKVG 402 Oenaqba 7 FS Vawhel Nppvqrag / Ebyybire 2015-00018581
-{Qvfcngpu Cntr} OE  2015-00003309 3204 R NHTHFGNAN CY Oenaqba 1 OE Purfg Cnva C2 2015-00003309
-{Qvfcngpu Cntr} OE  2015-00000375 48350 257GU FG Oenaqba 4 TA Hapbafp/Snvag C2 2015-00000375
-{Qvfcngpu Cntr}  2015-00003298 J UBYYL OYIQ F  NEOBE EVQTR EQ Oenaqba-2 OE Vawhel Nppvqrag C3 2015-00003298
-{Qvfcngpu Cntr}  2015-00003298 1900 F  UBYYL NIR Dhnq FJ3P FS Vawhel Nppvqrag C3 2015-00003298
-{Qvfcngpu Cntr} OE RZ  2015-00003298 J UBYYL OYIQ F  NEOBE EVQTR EQ Oenaqba-2 OE Vawhel Nppvqrag C3 2015-00003298
-{Qvfcngpu Cntr} OE  2015-00000373 2825 R FHASYBJRE PVE Oenaqba 1 OE Pneoba Zba Qrgrpgbe 2015-00000373
-{Qvfcngpu Cntr} OE  2015-00000372 1209 R YNEX FG Oenaqba 1 OE Fgebxr C2 2015-00000372
-{Qvfcngpu Cntr} OE  2015-00018433 V 90 RKVG 406 Oenaqba 6 OE Nppvqrag 2015-00018433
-{Qvfcngpu Cntr} 930 OE  2015-00000795 1200 R XRLFGBAR CY 50 Oenaqba 1 OE Yvsg Nffvfg 2015-00000795
-{Qvfcngpu Cntr} OE  2015-00000369 105 F 6GU NIR Oenaqba 1 OE Pneoba Zba Qrgrpgbe 2015-00000369
-{Qvfcngpu Cntr} OE  2015-00000368 1100 R GRNXJBBQ FG 107 Fcyvgebpx Ncnegzragf Oenaqba 1 OE Purfg Cnva C2 2015-00000368
-{Qvfcngpu Cntr} OE  2015-00000367 1009 A  FCYVGEBPX OYIQ PBSSRR PHC OENAQBA Oenaqba 1 OE Snyyf C2 2015-00000367
-{Qvfcngpu Cntr} OE 930  2015-00000366 R ERQJBBQ OYIQ A  PURFGAHG OYIQ Oenaqba 6 OE Genhzngvp Vawhel C3 2015-00000366
-{Qvfcngpu Cntr} OE RZ  2015-00000365 2261 R ERQJBBQ OYIQ Oenaqba 6 OE Vawhel Nppvqrag / Ebyybire 2015-00000365
+{Qvfcngpu Cntr} OE  2016-00000179 2616 R FHAEVFR PG Oenaqba 1 OE Shyy Abgvsvre 2016-00000179
+{Qvfcngpu Cntr} OE  2016-00000178 200 F 5GU NIR Oenaqba 1 OE Oernguvat Cebo C2 2016-00000178
+{Qvfcngpu Cntr} OE  2016-00000488 25974 480GU NIR Oenaqba 5 OE Snyyf C3 2016-00000488
+{Qvfcngpu Cntr} OE  2016-00000176 V 90 ZZ 406 Oenaqba 1 Nyyretvrf C2 2016-00000176
+{Qvfcngpu Cntr} OE  2016-00000175 410 J CNEX FG 19R Ovt Fvbhk Erp Oenaqba 7 OE Purfg Cnva C2 2016-00000175
+{Qvfcngpu Cntr} OE  2016-00000078 25495 485GU NIR CNYVFNQRF FGNGR CNEX Tneergfba 23 TA Jngre Erfphr 2016-00000078
+{Qvfcngpu Cntr} OE  2016-00000481 3012 R NFCRA OYIQ Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2016-00000481
+{Qvfcngpu Cntr} OE IF RZ  2016-00000171 1408 R PRQNE FG Oenaqba 1 OE Fgehpgher Sver 2016-00000171
+{Qvfcngpu Cntr} OE  2016-00000169 601 A  GRGBA QE Grgba Ncnegzragf (601) Oenaqba 1 OE Oernguvat Cebo C2 2016-00000169
+{Qvfcngpu Cntr} OE  2016-00000168 115 A  FCYVGEBPX OYIQ Oenaqba 1 OE Shyy Abgvsvre 2016-00000168
+{Qvfcngpu Cntr} OE IF RZ  2016-00000167 509 F 3EQ NIR Oenaqba 1 OE Fgehpgher Sver 2016-00000167
+{Qvfcngpu Cntr} OE  2016-00000456 1208 R YNEX FG Oenaqba 1 OE Yvsg Nffvfg 2016-00000456
+{Qvfcngpu Cntr} OE  2016-00000165 1008 R  NFCRA OYIQ Oenaqba 1 OE Purfg Cnva C2 2016-00000165
+{Qvfcngpu Cntr} OE  2016-00000164 1039 R URNGUREJBBQ QE Oenaqba 1 OE Yvsg Nffvfg 2016-00000164
+{Qvfcngpu Cntr} OE  2016-00000163 917 F NFCRA CNEX EQ NFCRA CNEX Oenaqba 1 OE Genhzngvp Vawhel C2 2016-00000163
+{Qvfcngpu Cntr} OE  2016-00000162 3008 R  NFCRA OYIQ Orgunal Zrnqbjf Oenaqba 1 OE Shyy Abgvsvre 2016-00000162
+{Qvfcngpu Cntr} OE  2016-00001566 304 J OVEPUJBBQ PVE Oenaqba 1 OE Pneoba Zba Qrgrpgbe 2016-00001566
+{Qvfcngpu Cntr} OE  2016-00000160 2717 R FHAEVFR PG Oenaqba 1 OE Hapbafp/Snvag C2 2016-00000160
+{Qvfcngpu Cntr} OE  2016-00000404 1021 R URNGUREJBBQ QE Oenaqba 1 OE Fvpx Crefba C2 2016-00000404
+{Qvfcngpu Cntr} OE IF RZ  2016-00000157 1612 F EVIRE BNX NIR Oenaqba 1 OE Fgehpgher Sver 2016-00000157
+{Qvfcngpu Cntr} OE  2016-00000155 1816 J NFUGBA GEY Oenaqba-2 OE Sver Bgure 2016-00000155
+{Qvfcngpu Cntr} OE  2016-00000154 312 J RIRETERRA QE Oenaqba 1 OE Bcra Ohea 2016-00000154
+{Qvfcngpu Cntr} OE RZ  2016-00000152 V 90 ZZ 405 Oenaqba 7 OE Vawhel Nppvqrag C2 2016-00000152
+{Qvfcngpu Cntr} OE  2016-00000151 1008 R ZNTABYVN QE Oenaqba 1 OE Pneoba Zba Qrgrpgbe 2016-00000151
+{Qvfcngpu Cntr} OE  2016-00000150 3108 R NHTHFGNAN CY Oenaqba 1 OE Purfg Cnva C2 2016-00000150
+{Qvfcngpu Cntr} OE  2016-00000149 404 F  PBHAGEL PYHO NIR Oenaqba 1 OE Purfg Cnva C2 2016-00000149
+{Qvfcngpu Cntr} OE  2016-00000148 328 F 3EQ NIR Oenaqba 1 OE Noqbzvany Cnva C2 2016-00000148
+{Qvfcngpu Cntr} OE  2016-00000147 1216 R XRLFGBAR CY 58 Oenaqba 1 OE Oernguvat Cebo C1 2016-00000147
+{Qvfcngpu Cntr} OE  2016-00000146 1207 R  URZYBPX OYIQ Oenaqba 5 OE Genhzngvp Vawhel C2 2016-00000146
+{Qvfcngpu Cntr} OE  2016-00001426 201 F FHZZRE NIR Oenaqba 1 OE Bireqbfr C2 + CQ 2016-00001426
+{Qvfcngpu Cntr} OE  2016-00000377 48283 257GU FG Oenaqba 4 TA Snyyf C3 2016-00000377
+{Qvfcngpu Cntr} OE  2016-00001399 409 R PRQNE FG Oenaqba 1 OE Snyyf C2 2016-00001399
+{Qvfcngpu Cntr} OE RZ  2016-00001388 R NFCRA OYIQ F  ZNVA NIR Oenaqba 1 OE Vawhel Nppvqrag C2 2016-00001388
+{Qvfcngpu Cntr} OE IF RZ  2016-00000141 205 F  ARRQYRF QE Oenaqba 1 OE Fgehpgher Sver 2016-00000141
+{Qvfcngpu Cntr} OE  2016-00000365 3008 R  NFCRA OYIQ 201 Orgunal Zrnqbjf Oenaqba 1 OE Snyyf C2 2016-00000365
+{Qvfcngpu Cntr} OE  2016-00000139 409 R PRQNE FG Oenaqba 1 OE Yvsg Nffvfg 2016-00000139
+{Qvfcngpu Cntr}  2016-00000138 801 A NTNGR NIR Oenaqba 1 OE Bcra Yvar 2016-00000138
+{Qvfcngpu Cntr}  2016-00000138 Oenaqba 1 FS Bcra Ohea 2016-00000138
+{Qvfcngpu Cntr} OE  2016-00000138 801 A NTNGR NIR Oenaqba 1 OE Bcra Ohea 2016-00000138
+{Qvfcngpu Cntr} OE  2016-00000137 409 R PRQNE FG Oenaqba 1 OE Zrqvpny Rzretrapl 2016-00000137
+{Qvfcngpu Cntr} OE 934  2016-00000136 3008 R NFCRA OYIQ 106 Orgunal Zrnqbjf Oenaqba 1 OE Snyyf C2 2016-00000136
+{Qvfcngpu Cntr} OE  2016-00000135 2012 R FLYINA PVE Oenaqba 1 OE Urnqnpur C2 2016-00000135
+{Qvfcngpu Cntr} OE  2016-00000352 3008 R  NFCRA OYIQ 108 Orgunal Zrnqbjf Oenaqba 1 OE Fvpx Crefba C2 2016-00000352
+{Qvfcngpu Cntr} OE  2016-00000133 109 J PUVPBEL QE Oenaqba 1 OE Bireqbfr C2 + CQ 2016-00000133
+{Qvfcngpu Cntr} OE  2016-00001274 1505 R EHFUZBER QE Oenaqba 1 OE Purfg Cnva C2 2016-00001274
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Uhzobyqg Sver naq Nzohynapr 
+Ybpngvba: Uhzobyqg, FQ, Havgrq Fgngrf
+Fraqre: <911zrgebqvfcngpu@911zrgeb.bet>
+
+{Qvfcngpu Cntr} 958  2016-00000071 200 J  6GU NIR UHZOBYQG ONFRONYY SVRYQ Uhzobyqg 4 UH Hapbafp/Snvag C2 2016-00000071
+{Qvfcngpu Cntr} UH  2016-00000071 200 J  6GU NIR UHZOBYQG ONFRONYY SVRYQ Uhzobyqg 4 UH Hapbafp/Snvag C2 2016-00000071
+{Qvfcngpu Cntr} 958  2016-00009535 100 R 9GU FG YBG 17 YBG 17 Unegsbeq 5 UQ Fgehpgher Sver 2016-00009535
+{Qvfcngpu Cntr} UQ UH RZ  2016-00009535 100 R 9GU FG YBG 17 YBG 17 Unegsbeq 5 UQ Fgehpgher Sver 2016-00009535
+{Qvfcngpu Cntr} 958  2016-00000127 911 A BNXF NIR 101 Unegsbeq 5 UQ Hax Ceboyrz C3 2016-00000127
+{Qvfcngpu Cntr} UH  2016-00000069 V 90 ZZ 379 Uhzobyqg 3 UH Nppvqrag 2016-00000069
+{Qvfcngpu Cntr} 958  2016-00000143 502 A  INAQRZNEX NIR Unegsbeq 5 UQ Yvsg Nffvfg 2016-00000143
+{Qvfcngpu Cntr} UH  2016-00000068 567 A  SBEQ FG Uhzobyqg 3 UH Tenff Sver 2016-00000068
+{Qvfcngpu Cntr} UH  2016-00000125 413 F  ZNQVFBA FG Uhzobyqg 4 UH Hapbafp/Snvag C2 2016-00000125
+{Qvfcngpu Cntr} 958  2016-00000125 413 F  ZNQVFBA FG Uhzobyqg 4 UH Hapbafp/Snvag C2 2016-00000125
+{Qvfcngpu Cntr} 958  2016-00008803 202 F  BNXF NIR Unegsbeq 5 UQ Urzbeeuntr C3 2016-00008803
+{Qvfcngpu Cntr} 958  2016-00008779 456GU NIR V 90 Uhzobyqg 4 UH Vawhel Nppvqrag C3 2016-00008779
+{Qvfcngpu Cntr} UH RZ  2016-00008779 456GU NIR V 90 Uhzobyqg 4 UH Vawhel Nppvqrag C3 2016-00008779
+{Qvfcngpu Cntr} 958  2016-00000122 250GU FG 456GU NIR Pbygba 8 UH Genhzngvp Vawhel C3 2016-00000122
+{Qvfcngpu Cntr} 958  2016-00000064 45719 263EQ FG Uhzobyqg 4 UH Hapbafp/Snvag C2 2016-00000064
+{Qvfcngpu Cntr} UH  2016-00000064 45719 263EQ FG Uhzobyqg 4 UH Hapbafp/Snvag C2 2016-00000064
+{Qvfcngpu Cntr} 958  2016-00000063 J  6GU NIR F  ZNVA FG Uhzobyqg 4 UH Tnf Yrnx 2016-00000063
+{Qvfcngpu Cntr} UH  2016-00000063 J  6GU NIR F  ZNVA FG Uhzobyqg 4 UH Tnf Yrnx 2016-00000063
+{Qvfcngpu Cntr} UH  2016-00000062 26437 456GU NIR Uhzobyqg 5 UH Iruvpyr Sver 2016-00000062
+{Qvfcngpu Cntr}  2016-00008344 UJL 38 468GU NIR Pebbxf 4 FS Qvnorgvp C3 2016-00008344
+{Qvfcngpu Cntr} 958  2016-00008344 UJL 38 466GU NIR Unegsbeq 4 FS Qvnorgvp C3 2016-00008344
+{Qvfcngpu Cntr} 958  2016-00000061 113 J  1FG NIR Uhzobyqg 4 UH Tnf Yrnx 2016-00000061
+{Qvfcngpu Cntr} UH  2016-00000061 113 J  1FG NIR Uhzobyqg 4 UH Tnf Yrnx 2016-00000061
+{Qvfcngpu Cntr} UH  2016-00000060 455GU NIR 266GU FG Uhzobyqg 5 UH Cbjre Yvarf Qbja 2016-00000060
+{Qvfcngpu Cntr} UQ 958  2016-00000128 702 PERFFZNA GEY 2 Unegsbeq 5 UQ Fvpx Crefba C3 2016-00000128
+{Qvfcngpu Cntr} 958  2016-00000126 46234 262AQ FG Unegsbeq 6 UQ Purfg Cnva C2 2016-00000126
+{Qvfcngpu Cntr} 958  2016-00000125 R  2AQ FG A  ZHAQG NIR Unegsbeq 5 UQ Pneqvnp Neerfg C1 2016-00000125
+{Qvfcngpu Cntr} UH  2016-00000059 26229 456GU NIR Uhzobyqg 5 UH Nppvqrag 2016-00000059
+{Qvfcngpu Cntr} 958 UQ  2016-00007896 1031 QVNZBAQ PVE NzrevpVaa Unegsbeq Unegsbeq 5 UQ Hapbafp/Snvag C3 2016-00007896
+{Qvfcngpu Cntr} 958  2016-00000058 26245 459GU NIR Uhzobyqg 4 UH Fgehpgher Sver 2016-00000058
+{Qvfcngpu Cntr} UH RZ UQ  2016-00000058 26245 459GU NIR Uhzobyqg 4 UH Fgehpgher Sver 2016-00000058
+{Qvfcngpu Cntr} 958  2016-00000118 1001 F  JRFGREA NIR PBSSRR PHC UNEGSBEQ Unegsbeq 5 UQ Nffnhyg C2 2016-00000118
+{Qvfcngpu Cntr} 958  2016-00000057 201 FGBSSRENUA FG Uhzobyqg 4 UH Fgebxr C2 2016-00000057
+{Qvfcngpu Cntr} UH  2016-00000057 201 FGBSSRENUA FG Uhzobyqg 4 UH Fgebxr C2 2016-00000057
+{Qvfcngpu Cntr} 958  2016-00000117 100 R  9GU FG 3 Unegsbeq 5 UQ Bireqbfr C2 + CQ 2016-00000117
+{Qvfcngpu Cntr} 958  2016-00000114 112 F  ZNVA NIR Unegsbeq 5 UQ Oernguvat Cebo C1 2016-00000114
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Tneergfba ISQ
+Ybpngvba: Tneergfba, FQ, Havgrq Fgngrf
+Fraqre: Znex Ebmrobbz <znebmrobbz@tznvy.pbz>
+Fraqre: <911zrgebqvfcngpu@911zrgeb.bet>
+
+{Qvfcngpu Cntr} TA RZ  2016-00009510 481FG NIR 250GU FG Tneergfba 16 TA Vawhel Nppvqrag C3 2016-00009510
+{Qvfcngpu Cntr} TA  2016-00000078 25495 485GU NIR CNYVFNQRF FGNGR CNEX Tneergfba 23 TA Qebjavat C1 2016-00000078
+{Qvfcngpu Cntr} TA  2016-00000089 812 PNALBA NIR 1 Tneergfba 23 TA Bireqbfr C2 + CQ 2016-00000089
+{Qvfcngpu Cntr} TA  2016-00000076 716 5GU FG Tneergfba 23 TA Noqbzvany Cnva C2 2016-00000076
+{Qvfcngpu Cntr} TA RZ  2016-00009388 252AQ FG 483EQ NIR Tneergfba 8 TA Vawhel Nppvqrag C3 2016-00009388
+{Qvfcngpu Cntr} TA  2016-00000074 924 4GU FG 5 Tneergfba 23 TA Yvsg Nffvfg 2016-00000074
+{Qvfcngpu Cntr} TA  2016-00000073 600 PRAGRE NIR Tneergfba 23 TA Cbjre Yvarf Qbja 2016-00000073
+{Qvfcngpu Cntr} TA  2016-00009063 25495 485GU NIR CNYVFNQRF FGNGR CNEX Tneergfba 23 TA Snyyf C3 2016-00009063
+{Qvfcngpu Cntr} TA  2016-00000083 512 RFFRK FG Tneergfba 23 TA Urzbeeuntr C2 2016-00000083
+{Qvfcngpu Cntr} TA  2016-00000069 210 QBJF FG 10 Tneergfba 23 TA Cflpu/Fhvpvqr C3 CQ 2016-00000069
+{Qvfcngpu Cntr} TA  2016-00008735 254GU FG 485GU NIR Tneergfba 23 TA Tenff Sver 2016-00008735
+{Qvfcngpu Cntr} TA  2016-00000067 317 QRCBG NIR Tneergfba 23 TA Pbai Frvmher C2 2016-00000067
+{Qvfcngpu Cntr} TA  2016-00000076 345 MRYVSS NIR Tneergfba 1 FU Oernguvat Cebo C2 2016-00000076
+{Qvfcngpu Cntr} TA  2016-00000065 308 EVIRE NIR Tneergfba 23 TA Pneqvnp Neerfg C1 2016-00000065
+{Qvfcngpu Cntr} TA  2016-00000070 24957 487GU NIR Tneergfba 1 TA Snyyf C3 2016-00000070
+{Qvfcngpu Cntr} TA  2016-00000153 1816 J NFUGBA GEY Oenaqba-2 OE Fgehpgher Sver 2016-00000153
+{Qvfcngpu Cntr} TA  2016-00000069 402 FHAEVFR PVE Tneergfba 23 TA Fvpx Crefba C3 2016-00000069
+{Qvfcngpu Cntr} TA  2016-00007386 920 4GU FG 310 Cnyvfnqr Znabe Tneergfba 23 TA Cflpu/Fhvpvqr C3 CQ 2016-00007386
+{Qvfcngpu Cntr} TA  2016-00006701 24952 484GU NIR Tneergfba 2 TA Snyyf C3 2016-00006701
+{Qvfcngpu Cntr} TA  2016-00000059 807 BNX QE Tneergfba 23 TA Purfg Cnva C2 2016-00000059
+{Qvfcngpu Cntr} TA  2016-00000063 500 PRAGRE NIR Tneergfba 23 TA Fvpx Crefba C3 2016-00000063
+{Qvfcngpu Cntr} TA  2016-00006285 175 CNPXNEQ NIR Tneergfba 1 FU Nppvqrag 2016-00006285
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Pebbxf ISQ
+Ybpngvba: Pebbxf, FQ, Havgrq Fgngrf
+Fraqre: <911zrgebqvfcngpu@911zrgeb.bet>
+
+{Qvfcngpu Cntr} PE  2016-00000059 1000 NAQERJ QE Pebbxf 3 PE Hapbafp/Snvag C1 2016-00000059
+{Qvfcngpu Cntr}  2016-00000057 5201 A  TENAVGR YA SYLA W GENIRY CYNMN Dhnq AJ4V FS Nppvqrag 2016-00000057
+{Qvfcngpu Cntr} PE  2016-00000057 V 90 ZZ 393 Pebbxf 4 PE Syhvq Fcvyy 2016-00000057
+{Qvfcngpu Cntr} PE  2016-00000479 46958 256GU FG Pebbxf 1 PE Snyyf C3 2016-00000479
+{Qvfcngpu Cntr} PE  2016-00000095 1700 J  60GU FG A Eraare 10 FS Fgehpgher Sver 2016-00000095
+{Qvfcngpu Cntr} RZ PE GR10 E8 O1  2016-00000095 1700 J  60GU FG A Eraare 10 FS Fgehpgher Sver 2016-00000095
+{Qvfcngpu Cntr} PE  2016-00000141 301 J BCNY YA Unegsbeq 5 UQ Iruvpyr Sver 2016-00000141
+{Qvfcngpu Cntr} PE  2016-00008987 25235 471FG NIR Pebbxf 1 ON Fvpx Crefba C3 2016-00008987
+{Qvfcngpu Cntr} PE  2016-00000052 V 29 ZZ 90 Pebbxf 2 PE Tenff Sver 2016-00000052
+{Qvfcngpu Cntr} PE  2016-00000051 46958 256GU FG Pebbxf 1 PE Yvsg Nffvfg 2016-00000051
+{Qvfcngpu Cntr} PE  2016-00000050 V 29 ZZ 92 Pebbxf 2 Bireqbfr C2 2016-00000050
+{Qvfcngpu Cntr}  2016-00000049 25782 472AQ NIR FS Nffnhyg C2 2016-00000049
+{Qvfcngpu Cntr} PE  2016-00000049 25782 472AQ NIR Pebbxf 3 FS Nffnhyg C2 2016-00000049
+{Qvfcngpu Cntr} PE  2016-00000048 V 29 ZZ 88 Pebbxf 3 PE Syhvq Fcvyy 2016-00000048
+{Qvfcngpu Cntr} PE  2016-00000047 V 29 ZZ 88 Pebbxf 3 PE Tenff Sver 2016-00000047
+{Qvfcngpu Cntr} PE  2016-00000046 47111 256GU FG Pebbxf 3 PE Pbai Frvmher C2 2016-00000046
+{Qvfcngpu Cntr} PE  2016-00000120 V 90 ZZ 390 Unegsbeq 4 UQ Nppvqrag 2016-00000120
+{Qvfcngpu Cntr} PE  2016-00000044 V 29 ZZ 92 Pebbxf 2 Vawhel Nppvqrag C2 2016-00000044
+{Qvfcngpu Cntr} PE  2016-00000043 408 A  JRFG NIR 1 Pebbxf 3 PE Fgebxr C2 2016-00000043
+{Qvfcngpu Cntr} PE  2016-00000366 260GU FG 468GU NIR Pebbxf 5 FS Vawhel Nppvqrag C3 2016-00000366
+{Qvfcngpu Cntr} ER RZ PE GR10 R23 O1  2016-00000069 V 29 ZZ 86 Eraare 8 Fgehpgher Sver 2016-00000069
+{Qvfcngpu Cntr} PE  2016-00000040 256GU FG 470GU NIR Pebbxf 1 PE Nppvqrag 2016-00000040
+{Qvfcngpu Cntr} ER ON PE GR10 E8 O1  2016-00037081 V 90 A  QVGPU EQ Eraare 10 FS Jngre Erfphr 2016-00037081
+{Qvfcngpu Cntr}  2016-00000038 259GU FG 469GU NIR Pebbxf 5 FS Iruvpyr Sver 2016-00000038
+{Qvfcngpu Cntr}  2016-00000038 469GU NIR 259GU FG Pebbxf 5 FS Iruvpyr Sver 2016-00000038
+{Qvfcngpu Cntr} PE  2016-00000038 46936 259GU FG Pebbxf 3 FS Iruvpyr Sver 2016-00000038
+{Qvfcngpu Cntr} PE RZ ER  2016-00000037 404 NAQERJ QE Pebbxf 3 PE Fgehpgher Sver 2016-00000037
+{Qvfcngpu Cntr} PE RZ  2016-00000308 104 A  5GU NIR Pebbxf 3 PE Vawhel Nppvqrag C3 2016-00000308
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Qryy Encvqf ISQ
+Ybpngvba: qryy encvqf, FQ, Havgrq Fgngrf
+Fraqre: <911zrgebqvfcngpu@911zrgeb.bet>
+
+{Qvfcngpu Cntr} QE RZ  2016-00000063 508 PNVGYVA NIR Onygvp 2 ON Fgehpgher Sver 2016-00000063
+{Qvfcngpu Cntr} QE  2016-00000259 600 A UJL 77 Qryy Encvqf 2 QE Snyyf C3 2016-00000259
+{Qvfcngpu Cntr} QE  2016-00000163 46982 248GU FG Qryy Encvqf 4 QE Snyyf C3 2016-00000163
+{Qvfcngpu Cntr} QE  2016-00000162 V 29 RKVG 98 Qryy Encvqf 2 QE Bcra Ohea 2016-00000162
+{Qvfcngpu Cntr} QE  2016-00000161 V 29 ZZ 100 Qryy Encvqf 2 QE Iruvpyr Sver 2016-00000161
+{Qvfcngpu Cntr} QE  2016-00000160 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Sver Bgure 2016-00000160
+{Qvfcngpu Cntr} QE  2016-00000158 V 29 ZZ 97 Qryy Encvqf 4 QE Iruvpyr Sver 2016-00000158
+{Qvfcngpu Cntr} QE  2016-00000157 203 J 12GU FG 1 Qryy Encvqf 2 QE Bireqbfr C2 2016-00000157
+{Qvfcngpu Cntr} QE  2016-00000156 407 J  3EQ FG Qryy Encvqf 2 QE Yvsg Nffvfg 2016-00000156
+{Qvfcngpu Cntr} QE  2016-00000246 805 R  6GU FG Qryy Encvqf 1 QE Fvpx Crefba C3 2016-00000246
+{Qvfcngpu Cntr} QE  2016-00008758 405 F  BEYRNAF NIR 2 Qryy Encvqf 2 QE Nffnhyg C3 2016-00008758
+{Qvfcngpu Cntr} QE  2016-00000153 408 J  1FG FG Qryy Encvqf 2 QE Fvpx Crefba C2 2016-00000153
+{Qvfcngpu Cntr} QE  2016-00008736 211 4GU FG Qryy Encvqf 2 QE Hapbafp/Snvag C2 2016-00008736
+{Qvfcngpu Cntr} QE  329 R  4GU FG Qryy Encvqf 2 QE Snyyf C3
+{Qvfcngpu Cntr} QE  2016-00000236 107 R  6GU FG Qryy Encvqf 2 QE Genhzngvp Vawhel C2 2016-00000236
+{Qvfcngpu Cntr} QE  2016-00000149 112 R 4GU FG Qryy Encvqf 2 QE Pneoba Zba Qrgrpgbe 2016-00000149
+{Qvfcngpu Cntr} QE  2016-00000147 1400 GUERFURE QE Qryyf Ahefvat & Eruno Qryy Encvqf 2 QE Snyyf C3 2016-00000147
+{Qvfcngpu Cntr} QE  2016-00000145 601 WHAVNGN NIR Qryy Encvqf 2 QE Snyyf C2 2016-00000145
+{Qvfcngpu Cntr} QE  2016-00000232 112 R  10GU FG 12 Qryy Encvqf 2 QE Hax Ceboyrz C3 2016-00000232
+{Qvfcngpu Cntr} QE  2016-00000143 201 BEYRNAF NIR Qryy Encvqf 2 QE Cbjre Yvarf Qbja 2016-00000143
+{Qvfcngpu Cntr} QE  2016-00008236 1105 JLYNAQ QE Qryy Encvqf 1 QE Fgehpgher Sver 2016-00008236
+{Qvfcngpu Cntr} QE  2016-00000140 1103 JLYNAQ QE Qryy Encvqf 1 QE Cbjre Yvarf Qbja 2016-00000140
+{Qvfcngpu Cntr} QE  2016-00000139 429 R  4GU FG Qryy Encvqf 2 QE Pneqvnp Neerfg C1 2016-00000139
+{Qvfcngpu Cntr} QE  2016-00000138 200 J  10GU FG Qryy Encvqf 2 QE Genafsre C2 j/bhg sver 2016-00000138
+{Qvfcngpu Cntr} QE  2016-00000137 V 29 ZZ 98 Qryy Encvqf 2 QE Fzbxr Vairfgvtngvba 2016-00000137
+{Qvfcngpu Cntr} QE  2016-00000136 805 R  6GU FG Qryy Encvqf 1 QE Yvsg Nffvfg 2016-00000136
+{Qvfcngpu Cntr} QE RZ  2016-00008056 J  3EQ FG CEBFCRPG NIR Qryy Encvqf 2 QE Vawhel Nppvqrag C3 2016-00008056
+{Qvfcngpu Cntr} QE  2016-00000134 V 29 ZZ 101 Qryy Encvqf 7 QE Nppvqrag 2016-00000134
+{Qvfcngpu Cntr} QE  2016-00007792 211 YNQRYYR NIR Qryy Encvqf 2 QE Shyy Abgvsvre 2016-00007792
+{Qvfcngpu Cntr} QE  2016-00000131 805 R  6GU FG Qryy Encvqf 1 QE Yvsg Nffvfg 2016-00000131
+{Qvfcngpu Cntr} QE  2016-00007775 805 R  6GU FG Qryy Encvqf 1 QE Yvsg Nffvfg 2016-00007775
+{Qvfcngpu Cntr} QE  2016-00000129 805 R  6GU FG Qryy Encvqf 1 QE Yvsg Nffvfg 2016-00000129
+{Qvfcngpu Cntr} QE  2016-00000127 247GU FG 482AQ NIR Qryy Encvqf 6 QE Nppvqrag 2016-00000127
+{Qvfcngpu Cntr} QE  2016-00000126 V 29 ZZ 98 Qryy Encvqf 2 QE Iruvpyr Sver 2016-00000126
+{Qvfcngpu Cntr} QE  2016-00000125 306 R  6GU FG Qryy Encvqf 2 QE Cflpu/Fhvpvqr C2 CQ 2016-00000125
+{Qvfcngpu Cntr} QE  2016-00000124 F UJL 115 A  UJL 77 Qryy Encvqf 2 QE Cbjre Yvarf Qbja 2016-00000124
+{Qvfcngpu Cntr} QE RZ  2016-00007306 47572 PRAGRAAVNY CY Qryy Encvqf 1 QE Vawhel Nppvqrag / Ebyybire 2016-00007306
+{Qvfcngpu Cntr} QE RZ  2016-00000122 248GU FG 474GU NIR Qryy Encvqf 2 QE Vawhel Nppvqrag C3 2016-00000122
+{Qvfcngpu Cntr} QE  2016-00000201 508 CBAL UVYYF PVE Qryy Encvqf 2 QE Fgebxr C2 2016-00000201
+{Qvfcngpu Cntr} QE  2016-00000199 430 R  4GU FG Qryy Encvqf 2 QE Snyyf C3 2016-00000199
+{Qvfcngpu Cntr} QE  2016-00000119 47348 246GU FG Qryy Encvqf 2 QE Hapbafp/Snvag C2 2016-00000119
+{Qvfcngpu Cntr} QE  2016-00000118 1400 GUERFURE QE QRYYF AHEFVAT & ERUNO Qryy Encvqf 2 QE Sver Bgure 2016-00000118
+{Qvfcngpu Cntr} QE  2016-00000117 1400 GUERFURE QE Qryyf Ahefvat & Eruno Qryy Encvqf 2 QE Shyy Abgvsvre 2016-00000117
+{Qvfcngpu Cntr} QE  2016-00000116 214 J 10GU FG Qryy Encvqf 2 QE Shyy Abgvsvre 2016-00000116
+{Qvfcngpu Cntr} QE  2016-00000194 1211 BEYRNAF NIR Qryy Encvqf 2 QE Hax Ceboyrz C3 2016-00000194
+{Qvfcngpu Cntr} QE  2016-00000114 1105 ORNPU NIR Qryy Encvqf 1 QE Shyy Abgvsvre 2016-00000114
+{Qvfcngpu Cntr} QE  2016-00000113 V 29 ZZ 101 Qryy Encvqf 7 QE Tenff Sver 2016-00000113
+{Qvfcngpu Cntr} QE  2016-00000189 200 J  10GU FG 205 Qryy Encvqf 2 QE Snyyf C3 2016-00000189
+{Qvfcngpu Cntr} QE  2016-00000111 805 R  6GU FG Qryy Encvqf 1 QE Yvsg Nffvfg 2016-00000111
+
+Pbagnpg: Npgvir911
+Ntrapl anzr: Unegsbeq Nern Sver & Erfphr
+Ybpngvba: Unegsbeq, FQ, Havgrq Fgngrf
+Fraqre: <911zrgebqvfcngpu@911zrgeb.bet>
+
+{Qvfcngpu Cntr} UQ  2016-00000127 911 A BNXF NIR 101 Unegsbeq 5 UQ Oernguvat Cebo C2 2016-00000127
+{Qvfcngpu Cntr} UQ  2016-00000145 46290 266GU FG JNYY YNXR Unegsbeq 6 UQ Tenff Sver 2016-00000145
+{Qvfcngpu Cntr} UQ  2016-00000143 502 A  INAQRZNEX NIR Unegsbeq 5 UQ Yvsg Nffvfg 2016-00000143
+{Qvfcngpu Cntr} UQ  2016-00000142 26106 467GU NIR Unegsbeq 4 FS Tenff Sver 2016-00000142
+{Qvfcngpu Cntr} UQ  2016-00000141 301 J BCNY YA Unegsbeq 5 UQ Iruvpyr Sver 2016-00000141
+{Qvfcngpu Cntr}  2016-00000140 100 J  6GU FG Y Noev Ncnegzragf Dhnq AR1O FS Shyy Abgvsvre 2016-00000140
+{Qvfcngpu Cntr} UQ  2016-00000140 100 J  6GU FG Unegsbeq 5 UQ Shyy Abgvsvre 2016-00000140
+{Qvfcngpu Cntr} UQ  2016-00000139 264GU FG 463EQ NIR Unegsbeq 6 UQ Nppvqrag 2016-00000139
+{Qvfcngpu Cntr} UQ  2016-00008803 202 F  BNXF NIR Unegsbeq 5 UQ Urzbeeuntr C3 2016-00008803
+{Qvfcngpu Cntr} UQ  2016-00000451 26767 466GU NIR Jvyq Jngre Jrfg Unegsbeq 8 FS Qebjavat C3 2016-00000451
+{Qvfcngpu Cntr} UQ  2016-00008643 UJL 38 A  JRFGREA NIR Unegsbeq 5 UQ Nppvqrag 2016-00008643
+{Qvfcngpu Cntr} UQ  2016-00000135 V 90 ZZ 385 Unegsbeq 1 UQ Iruvpyr Sver 2016-00000135
+{Qvfcngpu Cntr} UQ  2016-00000134 26122 PNANEL QE Unegsbeq 4 FS Hapbafp/Snvag C2 2016-00000134
+{Qvfcngpu Cntr} UQ  2016-00008344 UJL 38 466GU NIR Unegsbeq 4 FS Qvnorgvp C3 2016-00008344
+{Qvfcngpu Cntr} UQ RZ  2016-00000130 265GU FG 466GU NIR Unegsbeq 7 FS Vawhel Nppvqrag C1 2016-00000130
+{Qvfcngpu Cntr} UQ  2016-00000129 25496 464GU NIR Unegsbeq 2 UQ Bcra Ohea 2016-00000129
+{Qvfcngpu Cntr} UQ  2016-00000127 46298 265GU FG Unegsbeq 6 UQ Ryrpgevpny Unmneq 2016-00000127
+{Qvfcngpu Cntr} UQ  2016-00000126 46234 262AQ FG Unegsbeq 6 UQ Purfg Cnva C2 2016-00000126
+{Qvfcngpu Cntr} UQ  2016-00000125 R  2AQ FG A  ZHAQG NIR Unegsbeq 5 UQ Pneqvnp Neerfg C1 2016-00000125
+{Qvfcngpu Cntr} UQ RZ  2016-00008030 264GU FG 466GU NIR Unegsbeq 7 FS Vawhel Nppvqrag C3 2016-00008030
+{Qvfcngpu Cntr} UQ  2016-00000123 26750 464GU NIR FS Ertvbany Fnavgnel Ynaqsvyy Unegsbeq 8 UQ Tenff Sver 2016-00000123
+{Qvfcngpu Cntr} UQ  2016-00007863 26767 466GU NIR JVYQ JNGRE JRFG Unegsbeq 8 FS Urneg Ceboyrzf C2 2016-00007863
+{Qvfcngpu Cntr} UQ  2016-00000120 V 90 ZZ 390 Unegsbeq 4 UQ Nppvqrag 2016-00000120
+{Qvfcngpu Cntr}  2016-00000120 V 90 ZZ 390 Unegsbeq 4 UQ Nppvqrag 2016-00000120
+{Qvfcngpu Cntr} UQ  2016-00000120 V 90 ZZ 390 Unegsbeq 4 Syhvq Fcvyy 2016-00000120
+{Qvfcngpu Cntr} UQ  2016-00000118 1001 F  JRFGREA NIR PBSSRR PHC UNEGSBEQ Unegsbeq 5 UQ Nffnhyg C2 2016-00000118
+{Qvfcngpu Cntr} UQ  2016-00000117 100 R  9GU FG 3 Unegsbeq 5 UQ Bireqbfr C2 + CQ 2016-00000117
+{Qvfcngpu Cntr} UQ  2016-00000116 258GU FG FPBGGF NIR FPBGGF FYBHTU Unegsbeq 5 UQ Bcra Ohea 2016-00000116
+{Qvfcngpu Cntr}  2016-00007347 263EQ FG 463EQ NIR Unegsbeq 6 UQ Iruvpyr Sver 2016-00007347
+{Qvfcngpu Cntr}  2016-00007347 264GU FG 463EQ NIR Unegsbeq 6 UQ Iruvpyr Sver 2016-00007347
+{Qvfcngpu Cntr} UQ  2016-00007347 265GU FG 463EQ NIR Jnyy Ynxr Pbeare Unegsbeq 6 UQ Iruvpyr Sver 2016-00007347
+{Qvfcngpu Cntr} UQ  2016-00000114 112 F  ZNVA NIR Unegsbeq 5 UQ Oernguvat Cebo C1 2016-00000114
+{Qvfcngpu Cntr} UQ  2016-00000113 26515 465GU NIR Unegsbeq 7 UQ Pneqvnp Neerfg C1 2016-00000113
+{Qvfcngpu Cntr} UQ  2016-00000112 46636 ORAGBA FG Unegsbeq 3 UQ Pneqvnp Neerfg C1 2016-00000112
+{Qvfcngpu Cntr} 958 UQ  2016-00007157 46061 UJL 38 Unegsbeq 1 UQ Oernguvat Cebo C2 2016-00007157
+{Qvfcngpu Cntr} UQ  2016-00000110 26767 466GU NIR JVYQ JNGRE JRFG Unegsbeq 8 FS Pbai Frvmher C2 2016-00000110
+{Qvfcngpu Cntr} UQ  2016-00000109 46589 254GU FG Unegsbeq 2 UQ Shyy Abgvsvre 2016-00000109
+{Qvfcngpu Cntr} UQ  2016-00000108 406 A  INAQRZNEX NIR UNEGSBEQ PVGL CNEX Unegsbeq 5 UQ Snyyf C2 2016-00000108
+{Qvfcngpu Cntr} UQ UH RZ  2016-00000107 510 F  SRLQRE NIR Unegsbeq 5 UQ Fgehpgher Sver 2016-00000107
+{Qvfcngpu Cntr} UQ  2016-00000106 46115 265GU FG Unegsbeq 6 UQ Vawhel Nppvqrag / Ebyybire 2016-00000106
+{Qvfcngpu Cntr} UQ RZ  2016-00000106 46115 265GU FG Unegsbeq 6 UQ Vawhel Nppvqrag / Ebyybire 2016-00000106
+{Qvfcngpu Cntr} UQ  2016-00007081 911 A BNXF NIR 213 Unegsbeq 5 UQ Onpx Cnva C3 2016-00007081
+{Qvfcngpu Cntr} UQ  2016-00000104 120 J  UJL 38 CVMMN ENAPU UNEGSBEQ Unegsbeq 5 UQ Hapbafp/Snvag C2 2016-00000104
+{Qvfcngpu Cntr}  2016-00000103 254GU FG 461FG NIR Unegsbeq 1 UQ Vawhel Nppvqrag C2 2016-00000103
+{Qvfcngpu Cntr}  2016-00000103 25393 461FG NIR Unegsbeq 1 UQ Vawhel Nppvqrag C2 2016-00000103
 
 */
 
@@ -523,342 +759,370 @@ choyvp pynff FQZvaarununPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgTneergfbaNzohynapr() {
 
     qbGrfg("G1",
-        "{Qvfcngpu Cntr}  2016-00000004 210 QBJF FG 39 Tneergfba 23 TA Purfg Cnva C2 2016-00000004",
-        "ZNC:Tneergfba 23",
-        "NQQE:210 QBJF FG",
-        "NCG:39",
+        "{Qvfcngpu Cntr}  2016-00009510 249GU FG 480GU NIR Qryy Encvqf 6 TA Vawhel Nppvqrag C3 2016-00009510",
+        "ZNC:Qryy Encvqf 6",
+        "NQQE:249GU FG & 480GU NIR",
         "PVGL:TNEERGFBA",
-        "PNYY:Purfg Cnva C2",
-        "VQ:2016-00000004");
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00009510");
 
     qbGrfg("G2",
-        "{Qvfcngpu Cntr} 954  2016-00000004 210 QBJF FG Tneergfba 23 TA Purfg Cnva C2 2016-00000004",
-        "FEP:954",
-        "ZNC:Tneergfba 23",
-        "NQQE:210 QBJF FG",
+        "{Qvfcngpu Cntr}  2016-00009510 250GU FG 481FG NIR Tneergfba 16 TA Vawhel Nppvqrag C3 2016-00009510",
+        "ZNC:Tneergfba 16",
+        "NQQE:250GU FG & 481FG NIR",
         "PVGL:TNEERGFBA",
-        "PNYY:Purfg Cnva C2",
-        "VQ:2016-00000004");
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00009510");
 
     qbGrfg("G3",
-        "{Qvfcngpu Cntr} 954  2016-00000003 500 PRAGRE NIR Tneergfba 23 TA Oernguvat Cebo C2 2016-00000003",
+        "{Qvfcngpu Cntr} 954  2016-00009510 481FG NIR 250GU FG Tneergfba 16 TA Vawhel Nppvqrag C3 2016-00009510",
         "FEP:954",
-        "ZNC:Tneergfba 23",
-        "NQQE:500 PRAGRE NIR",
+        "ZNC:Tneergfba 16",
+        "NQQE:481FG NIR & 250GU FG",
         "PVGL:TNEERGFBA",
-        "PNYY:Oernguvat Cebo C2",
-        "VQ:2016-00000003");
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00009510");
 
     qbGrfg("G4",
-        "{Qvfcngpu Cntr} 954  2016-00000002 1009 4GU FG 2 Tneergfba 23 TA Oernguvat Cebo C2 2016-00000002",
+        "{Qvfcngpu Cntr} 954  2016-00000078 25495 485GU NIR CNYVFNQRF FGNGR CNEX Tneergfba 23 TA Qebjavat C1 2016-00000078",
         "FEP:954",
         "ZNC:Tneergfba 23",
-        "NQQE:1009 4GU FG",
-        "NCG:2",
+        "NQQE:25495 485GU NIR",
+        "CYNPR:CNYVFNQRF FGNGR CNEX",
         "PVGL:TNEERGFBA",
-        "PNYY:Oernguvat Cebo C2",
-        "VQ:2016-00000002");
+        "PNYY:Qebjavat C1",
+        "VQ:2016-00000078");
 
     qbGrfg("G5",
-        "{Qvfcngpu Cntr} 954  2016-00000001 500 PRAGRE NIR Tneergfba 23 TA Oernguvat Cebo C2 2016-00000001",
+        "{Qvfcngpu Cntr} 954  2016-00000089 812 PNALBA NIR 1 Tneergfba 23 TA Bireqbfr C2 + CQ 2016-00000089",
         "FEP:954",
         "ZNC:Tneergfba 23",
-        "NQQE:500 PRAGRE NIR",
+        "NQQE:812 PNALBA NIR",
+        "NCG:1",
         "PVGL:TNEERGFBA",
-        "PNYY:Oernguvat Cebo C2",
-        "VQ:2016-00000001");
+        "PNYY:Bireqbfr C2 + CQ",
+        "VQ:2016-00000089");
 
     qbGrfg("G6",
-        "{Qvfcngpu Cntr}  2016-00000002 920 4GU FG 208 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2016-00000002",
+        "{Qvfcngpu Cntr} 954  2016-00000076 716 5GU FG Tneergfba 23 TA Noqbzvany Cnva C2 2016-00000076",
+        "FEP:954",
+        "ZNC:Tneergfba 23",
+        "NQQE:716 5GU FG",
+        "PVGL:TNEERGFBA",
+        "PNYY:Noqbzvany Cnva C2",
+        "VQ:2016-00000076");
+
+    qbGrfg("G7",
+        "{Qvfcngpu Cntr} 954  2016-00009388 252AQ FG 483EQ NIR Tneergfba 8 TA Vawhel Nppvqrag C3 2016-00009388",
+        "FEP:954",
+        "ZNC:Tneergfba 8",
+        "NQQE:252AQ FG & 483EQ NIR",
+        "PVGL:TNEERGFBA",
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00009388");
+
+    qbGrfg("G8",
+        "{Qvfcngpu Cntr} 954  2016-00000074 924 4GU FG 5 Tneergfba 23 TA Yvsg Nffvfg 2016-00000074",
+        "FEP:954",
+        "ZNC:Tneergfba 23",
+        "NQQE:924 4GU FG",
+        "NCG:5",
+        "PVGL:TNEERGFBA",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000074");
+
+    qbGrfg("G9",
+        "{Qvfcngpu Cntr} TA 954  2016-00000072 205 ZNVA NIR Tneergfba 23 TA Genhzngvp Vawhel C3 2016-00000072",
+        "FEP:954",
+        "HAVG:TA",
+        "ZNC:Tneergfba 23",
+        "NQQE:205 ZNVA NIR",
+        "PVGL:TNEERGFBA",
+        "PNYY:Genhzngvp Vawhel C3",
+        "VQ:2016-00000072");
+
+    qbGrfg("G10",
+        "{Qvfcngpu Cntr} 954  2016-00009063 25495 485GU NIR CNYVFNQRF FGNGR CNEX Tneergfba 23 TA Snyyf C3 2016-00009063",
+        "FEP:954",
+        "ZNC:Tneergfba 23",
+        "NQQE:25495 485GU NIR",
+        "CYNPR:CNYVFNQRF FGNGR CNEX",
+        "PVGL:TNEERGFBA",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00009063");
+
+    qbGrfg("G11",
+        "{Qvfcngpu Cntr} 954  2016-00000083 512 RFFRK FG Tneergfba 23 TA Urzbeeuntr C2 2016-00000083",
+        "FEP:954",
+        "ZNC:Tneergfba 23",
+        "NQQE:512 RFFRK FG",
+        "PVGL:TNEERGFBA",
+        "PNYY:Urzbeeuntr C2",
+        "VQ:2016-00000083");
+
+    qbGrfg("G12",
+        "{Qvfcngpu Cntr} 954  2016-00000082 920 4GU FG 201 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2016-00000082",
+        "FEP:954",
         "ZNC:Tneergfba 23",
         "NQQE:920 4GU FG",
-        "NCG:208",
+        "NCG:201",
         "CYNPR:Cnyvfnqr Znabe",
         "PVGL:TNEERGFBA",
         "PNYY:Genafsre C3",
-        "VQ:2016-00000002");
+        "VQ:2016-00000082");
 
-    qbGrfg("G7",
-        "{Qvfcngpu Cntr} 954  2016-00000002 920 4GU FG CNYVFNQR ZNABE Tneergfba 23 TA Genafsre C3 2016-00000002",
+    qbGrfg("G13",
+        "{Qvfcngpu Cntr} 954  2016-00000069 210 QBJF FG 10 Tneergfba 23 TA Cflpu/Fhvpvqr C3 CQ 2016-00000069",
+        "FEP:954",
+        "ZNC:Tneergfba 23",
+        "NQQE:210 QBJF FG",
+        "NCG:10",
+        "PVGL:TNEERGFBA",
+        "PNYY:Cflpu/Fhvpvqr C3 CQ",
+        "VQ:2016-00000069");
+
+    qbGrfg("G14",
+        "{Qvfcngpu Cntr} 954  2016-00008753 25566 478GU NIR Onygvp 18 TA Erfphr Bgure 2016-00008753",
+        "FEP:954",
+        "ZNC:Onygvp 18",
+        "NQQE:25566 478GU NIR",
+        "PVGL:TNEERGFBA",
+        "PNYY:Erfphr Bgure",
+        "VQ:2016-00008753");
+
+    qbGrfg("G15",
+        "{Qvfcngpu Cntr} 954  2016-00000079 980 4GU FG Tneergfba 23 TA Genafsre C3 2016-00000079",
+        "FEP:954",
+        "ZNC:Tneergfba 23",
+        "NQQE:980 4GU FG",
+        "PVGL:TNEERGFBA",
+        "PNYY:Genafsre C3",
+        "VQ:2016-00000079");
+
+    qbGrfg("G16",
+        "{Qvfcngpu Cntr} 954  2016-00000078 920 4GU FG 211 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2016-00000078",
+        "FEP:954",
+        "ZNC:Tneergfba 23",
+        "NQQE:920 4GU FG",
+        "NCG:211",
+        "CYNPR:Cnyvfnqr Znabe",
+        "PVGL:TNEERGFBA",
+        "PNYY:Genafsre C2 j/bhg sver",
+        "VQ:2016-00000078");
+
+    qbGrfg("G17",
+        "{Qvfcngpu Cntr} 954  2016-00000067 317 QRCBG NIR Tneergfba 23 TA Pbai Frvmher C2 2016-00000067",
+        "FEP:954",
+        "ZNC:Tneergfba 23",
+        "NQQE:317 QRCBG NIR",
+        "PVGL:TNEERGFBA",
+        "PNYY:Pbai Frvmher C2",
+        "VQ:2016-00000067");
+
+    qbGrfg("G18",
+        "{Qvfcngpu Cntr} 954  2016-00000076 345 MRYVSS NIR Tneergfba 1 FU Oernguvat Cebo C2 2016-00000076",
+        "FEP:954",
+        "ZNC:Tneergfba 1",
+        "NQQE:345 MRYVSS NIR",
+        "PVGL:FUREZNA",
+        "PNYY:Oernguvat Cebo C2",
+        "VQ:2016-00000076");
+
+    qbGrfg("G19",
+        "{Qvfcngpu Cntr} 954  2016-00000075 920 4GU FG Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2016-00000075",
+        "FEP:954",
+        "ZNC:Tneergfba 23",
+        "NQQE:920 4GU FG",
+        "CYNPR:Cnyvfnqr Znabe",
+        "PVGL:TNEERGFBA",
+        "PNYY:Genafsre C2 j/bhg sver",
+        "VQ:2016-00000075");
+
+    qbGrfg("G20",
+        "{Qvfcngpu Cntr} 954  2016-00000074 920 4GU FG CNYVFNQR ZNABE Tneergfba 23 TA Genafsre C3 2016-00000074",
         "FEP:954",
         "ZNC:Tneergfba 23",
         "NQQE:920 4GU FG",
         "CYNPR:CNYVFNQR ZNABE",
         "PVGL:TNEERGFBA",
         "PNYY:Genafsre C3",
-        "VQ:2016-00000002");
-
-    qbGrfg("G8",
-        "{Qvfcngpu Cntr} 954  2016-00000001 920 4GU FG 307 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2016-00000001",
-        "FEP:954",
-        "ZNC:Tneergfba 23",
-        "NQQE:920 4GU FG",
-        "NCG:307",
-        "CYNPR:Cnyvfnqr Znabe",
-        "PVGL:TNEERGFBA",
-        "PNYY:Genafsre C3",
-        "VQ:2016-00000001");
-
-    qbGrfg("G9",
-        "{Qvfcngpu Cntr} 954  2015-00000217 1009 4GU FG 2 Tneergfba 23 TA Fvpx Crefba C3 2015-00000217",
-        "FEP:954",
-        "ZNC:Tneergfba 23",
-        "NQQE:1009 4GU FG",
-        "NCG:2",
-        "PVGL:TNEERGFBA",
-        "PNYY:Fvpx Crefba C3",
-        "VQ:2015-00000217");
-
-    qbGrfg("G10",
-        "{Qvfcngpu Cntr} 954  2015-00019537 JRFGBIRE CY 485GU NIR Tneergfba 1 TA Vawhel Nppvqrag C3 2015-00019537",
-        "FEP:954",
-        "ZNC:Tneergfba 1",
-        "NQQE:JRFGBIRE CY & 485GU NIR",
-        "PVGL:TNEERGFBA",
-        "PNYY:Vawhel Nppvqrag C3",
-        "VQ:2015-00019537");
-
-    qbGrfg("G11",
-        "{Qvfcngpu Cntr}  2015-00000154 258GU FG 478GU NIR FS Vawhel Nppvqrag / Rkgevpngvba 2015-00000154",
-        "NQQE:258GU FG & 478GU NIR",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Vawhel Nppvqrag / Rkgevpngvba",
-        "VQ:2015-00000154");
-
-    qbGrfg("G12",
-        "{Qvfcngpu Cntr} 954  2015-00000154 47914 252AQ FG REBF QNGN PRAGRE Tneergfba 5 TA Vawhel Nppvqrag / Rkgevpngvba 2015-00000154",
-        "FEP:954",
-        "ZNC:Tneergfba 5",
-        "NQQE:47914 252AQ FG",
-        "CYNPR:REBF QNGN PRAGRE",
-        "PVGL:TNEERGFBA",
-        "PNYY:Vawhel Nppvqrag / Rkgevpngvba",
-        "VQ:2015-00000154");
-
-    qbGrfg("G13",
-        "{Qvfcngpu Cntr} 954  2015-00003440 47952 253EQ FG Tneergfba 12 TA Nffnhyg C3 2015-00003440",
-        "FEP:954",
-        "ZNC:Tneergfba 12",
-        "NQQE:47952 253EQ FG",
-        "PVGL:TNEERGFBA",
-        "PNYY:Nffnhyg C3",
-        "VQ:2015-00003440");
-
-    qbGrfg("G14",
-        "{Qvfcngpu Cntr} 954  2015-00000213 928 4GU FG Tneergfba 23 TA Genafsre C5 2015-00000213",
-        "FEP:954",
-        "ZNC:Tneergfba 23",
-        "NQQE:928 4GU FG",
-        "PVGL:TNEERGFBA",
-        "PNYY:Genafsre C5",
-        "VQ:2015-00000213");
-
-    qbGrfg("G15",
-        "{Qvfcngpu Cntr} 954 TA  2015-00018996 1009 4GU FG 2 Tneergfba 23 TA Cflpu/Fhvpvqr CQ 2015-00018996",
-        "FEP:954",
-        "HAVG:TA",
-        "ZNC:Tneergfba 23",
-        "NQQE:1009 4GU FG",
-        "NCG:2",
-        "PVGL:TNEERGFBA",
-        "PNYY:Cflpu/Fhvpvqr CQ",
-        "VQ:2015-00018996");
-
-    qbGrfg("G16",
-        "{Qvfcngpu Cntr} 954  2015-00000211 25495 485GU NIR CNYVFNQRF FGNGR CNEX Tneergfba 23 TA Choyvp Nffvfg 2015-00000211",
-        "FEP:954",
-        "ZNC:Tneergfba 23",
-        "NQQE:25495 485GU NIR",
-        "CYNPR:CNYVFNQRF FGNGR CNEX",
-        "PVGL:TNEERGFBA",
-        "PNYY:Choyvp Nffvfg",
-        "VQ:2015-00000211");
-
-    qbGrfg("G17",
-        "{Qvfcngpu Cntr} 954  2015-00000210 920 4GU FG 302 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2015-00000210",
-        "FEP:954",
-        "ZNC:Tneergfba 23",
-        "NQQE:920 4GU FG",
-        "NCG:302",
-        "CYNPR:Cnyvfnqr Znabe",
-        "PVGL:TNEERGFBA",
-        "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000210");
-
-    qbGrfg("G18",
-        "{Qvfcngpu Cntr} 954  2015-00000150 812 3EQ FG Tneergfba 23 TA Purfg Cnva C2 2015-00000150",
-        "FEP:954",
-        "ZNC:Tneergfba 23",
-        "NQQE:812 3EQ FG",
-        "PVGL:TNEERGFBA",
-        "PNYY:Purfg Cnva C2",
-        "VQ:2015-00000150");
-
-    qbGrfg("G19",
-        "{Qvfcngpu Cntr} 954  2015-00000149 48716 253EQ FG Tneergfba 26 TA Hapbafp/Snvag C1 2015-00000149",
-        "FEP:954",
-        "ZNC:Tneergfba 26",
-        "NQQE:48716 253EQ FG",
-        "PVGL:TNEERGFBA",
-        "PNYY:Hapbafp/Snvag C1",
-        "VQ:2015-00000149");
-
-    qbGrfg("G20",
-        "{Qvfcngpu Cntr} 954  2015-00000207 812 PNALBA NIR 2 Tneergfba 23 TA Oernguvat Cebo C2 2015-00000207",
-        "FEP:954",
-        "ZNC:Tneergfba 23",
-        "NQQE:812 PNALBA NIR",
-        "NCG:2",
-        "PVGL:TNEERGFBA",
-        "PNYY:Oernguvat Cebo C2",
-        "VQ:2015-00000207");
+        "VQ:2016-00000074");
 
     qbGrfg("G21",
-        "{Qvfcngpu Cntr} 954  2015-00000147 920 4GU FG Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2015-00000147",
-        "FEP:954",
-        "ZNC:Tneergfba 23",
-        "NQQE:920 4GU FG",
-        "CYNPR:Cnyvfnqr Znabe",
-        "PVGL:TNEERGFBA",
-        "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000147");
+        "{Qvfcngpu Cntr}  2016-00000073 100 J  6GU FG 401 Y Noev Ncnegzragf Dhnq AR1O FS Cflpu/Fhvpvqr C3 CQ 2016-00000073",
+        "NQQE:100 J 6GU FG",
+        "NCG:401",
+        "CYNPR:Y Noev Ncnegzragf",
+        "ZNC:Dhnq AR1O",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Cflpu/Fhvpvqr C3 CQ",
+        "VQ:2016-00000073");
 
     qbGrfg("G22",
-        "{Qvfcngpu Cntr}  2015-00018155 48262 254GU FG Tneergfba 28 TA Fgehpgher Sver 2015-00018155",
-        "ZNC:Tneergfba 28",
-        "NQQE:48262 254GU FG",
-        "PVGL:TNEERGFBA",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2015-00018155");
+        "{Qvfcngpu Cntr} 954  2016-00000073 100 J 6GU FG 401 WN Cflpu/Fhvpvqr C3 CQ 2016-00000073",
+        "FEP:954",
+        "NQQE:100 J 6GU FG",
+        "NCG:401",
+        "PNYY:WN Cflpu/Fhvpvqr C3 CQ",
+        "VQ:2016-00000073");
 
     qbGrfg("G23",
-        "{Qvfcngpu Cntr} 954  2015-00018155 254GU FG 483EQ NIR Tneergfba 28 TA Fgehpgher Sver 2015-00018155",
+        "{Qvfcngpu Cntr} 954  2016-00000072 920 4GU FG Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2016-00000072",
         "FEP:954",
-        "ZNC:Tneergfba 28",
-        "NQQE:254GU FG & 483EQ NIR",
+        "ZNC:Tneergfba 23",
+        "NQQE:920 4GU FG",
+        "CYNPR:Cnyvfnqr Znabe",
         "PVGL:TNEERGFBA",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2015-00018155");
+        "PNYY:Genafsre C2 j/bhg sver",
+        "VQ:2016-00000072");
 
     qbGrfg("G24",
-        "{Qvfcngpu Cntr} 954  2015-00000204 920 4GU FG 304 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2015-00000204",
+        "{Qvfcngpu Cntr} 954  2016-00000071 920 4GU FG 212N Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2016-00000071",
         "FEP:954",
         "ZNC:Tneergfba 23",
         "NQQE:920 4GU FG",
-        "NCG:304",
+        "NCG:212N",
         "CYNPR:Cnyvfnqr Znabe",
         "PVGL:TNEERGFBA",
-        "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000204");
+        "PNYY:Genafsre C3",
+        "VQ:2016-00000071");
 
     qbGrfg("G25",
-        "{Qvfcngpu Cntr} 954  2015-00000203 920 4GU FG 101 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2015-00000203",
+        "{Qvfcngpu Cntr} 954  2016-00000070 24957 487GU NIR Tneergfba 1 TA Snyyf C3 2016-00000070",
         "FEP:954",
-        "ZNC:Tneergfba 23",
-        "NQQE:920 4GU FG",
-        "NCG:101",
-        "CYNPR:Cnyvfnqr Znabe",
+        "ZNC:Tneergfba 1",
+        "NQQE:24957 487GU NIR",
         "PVGL:TNEERGFBA",
-        "PNYY:Genafsre C3",
-        "VQ:2015-00000203");
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000070");
 
     qbGrfg("G26",
-        "{Qvfcngpu Cntr}  2015-00000202 920 4GU FG 303 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2015-00000202",
+        "{Qvfcngpu Cntr} 954  2016-00000069 402 FHAEVFR PVE Tneergfba 23 TA Fvpx Crefba C3 2016-00000069",
+        "FEP:954",
         "ZNC:Tneergfba 23",
-        "NQQE:920 4GU FG",
-        "NCG:303",
-        "CYNPR:Cnyvfnqr Znabe",
+        "NQQE:402 FHAEVFR PVE",
         "PVGL:TNEERGFBA",
-        "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000202");
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00000069");
 
     qbGrfg("G27",
-        "{Qvfcngpu Cntr} 954  2015-00000202 920 4GU FG Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2015-00000202",
-        "FEP:954",
+        "{Qvfcngpu Cntr}  2016-00000068 920 4GU FG 203n Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2016-00000068",
         "ZNC:Tneergfba 23",
         "NQQE:920 4GU FG",
+        "NCG:203n",
         "CYNPR:Cnyvfnqr Znabe",
         "PVGL:TNEERGFBA",
         "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000202");
+        "VQ:2016-00000068");
 
     qbGrfg("G28",
-        "{Qvfcngpu Cntr}  2015-00000201 920 4GU FG 313 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2015-00000201",
+        "{Qvfcngpu Cntr} 954  2016-00000068 920 4GU FG 203n Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2016-00000068",
+        "FEP:954",
         "ZNC:Tneergfba 23",
         "NQQE:920 4GU FG",
-        "NCG:313",
+        "NCG:203n",
         "CYNPR:Cnyvfnqr Znabe",
         "PVGL:TNEERGFBA",
         "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000201");
+        "VQ:2016-00000068");
 
     qbGrfg("G29",
-        "{Qvfcngpu Cntr} 954  2015-00000201 920 4GU FG Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2015-00000201",
+        "{Qvfcngpu Cntr} 954  2016-00000067 920 4GU FG 204o Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2016-00000067",
         "FEP:954",
         "ZNC:Tneergfba 23",
         "NQQE:920 4GU FG",
+        "NCG:204o",
+        "CYNPR:Cnyvfnqr Znabe",
+        "PVGL:TNEERGFBA",
+        "PNYY:Genafsre C3",
+        "VQ:2016-00000067");
+
+    qbGrfg("G30",
+        "{Qvfcngpu Cntr} 954  2016-00000066 920 4GU FG 210 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2016-00000066",
+        "FEP:954",
+        "ZNC:Tneergfba 23",
+        "NQQE:920 4GU FG",
+        "NCG:210",
         "CYNPR:Cnyvfnqr Znabe",
         "PVGL:TNEERGFBA",
         "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000201");
-
-    qbGrfg("G30",
-        "{Qvfcngpu Cntr}  2015-00000200 920 4GU FG 107 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2015-00000200",
-        "ZNC:Tneergfba 23",
-        "NQQE:920 4GU FG",
-        "NCG:107",
-        "CYNPR:Cnyvfnqr Znabe",
-        "PVGL:TNEERGFBA",
-        "PNYY:Genafsre C3",
-        "VQ:2015-00000200");
+        "VQ:2016-00000066");
 
     qbGrfg("G31",
-        "{Qvfcngpu Cntr} 954  2015-00000200 920 4GU FG 107 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2015-00000200",
+        "{Qvfcngpu Cntr} 954  2016-00006701 24952 484GU NIR Tneergfba 2 TA Snyyf C3 2016-00006701",
         "FEP:954",
-        "ZNC:Tneergfba 23",
-        "NQQE:920 4GU FG",
-        "NCG:107",
-        "CYNPR:Cnyvfnqr Znabe",
+        "ZNC:Tneergfba 2",
+        "NQQE:24952 484GU NIR",
         "PVGL:TNEERGFBA",
-        "PNYY:Genafsre C3",
-        "VQ:2015-00000200");
+        "PNYY:Snyyf C3",
+        "VQ:2016-00006701");
 
     qbGrfg("G32",
-        "{Qvfcngpu Cntr} 954  2015-00017139 175 MRYVSS NIR Tneergfba 1 FU Pneqvnp Neerfg C3 2015-00017139",
+        "{Qvfcngpu Cntr} 954  2016-00000059 807 BNX QE Tneergfba 23 TA Purfg Cnva C2 2016-00000059",
         "FEP:954",
-        "ZNC:Tneergfba 1",
-        "NQQE:175 MRYVSS NIR",
-        "PVGL:FUREZNA",
-        "PNYY:Pneqvnp Neerfg C3",
-        "VQ:2015-00017139");
+        "ZNC:Tneergfba 23",
+        "NQQE:807 BNX QE",
+        "PVGL:TNEERGFBA",
+        "PNYY:Purfg Cnva C2",
+        "VQ:2016-00000059");
 
     qbGrfg("G33",
-        "{Qvfcngpu Cntr} 954  2015-00017139 175 MRYVSS NIR Tneergfba 1 FU Pneqvnp Neerfg C1 2015-00017139",
+        "{Qvfcngpu Cntr} 954  2016-00000063 500 PRAGRE NIR Tneergfba 23 TA Fvpx Crefba C3 2016-00000063",
         "FEP:954",
-        "ZNC:Tneergfba 1",
-        "NQQE:175 MRYVSS NIR",
-        "PVGL:FUREZNA",
-        "PNYY:Pneqvnp Neerfg C1",
-        "VQ:2015-00017139");
+        "ZNC:Tneergfba 23",
+        "NQQE:500 PRAGRE NIR",
+        "PVGL:TNEERGFBA",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00000063");
 
     qbGrfg("G34",
-        "{Qvfcngpu Cntr} TA TN  2015-00017139 175 MRYVSS NIR Tneergfba 1 FU Pneqvnp Neerfg C1 2015-00017139",
-        "HAVG:TA TN",
-        "ZNC:Tneergfba 1",
-        "NQQE:175 MRYVSS NIR",
-        "PVGL:FUREZNA",
-        "PNYY:Pneqvnp Neerfg C1",
-        "VQ:2015-00017139");
+        "{Qvfcngpu Cntr} 954  2016-00006562 920 4GU FG 204n Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2016-00006562",
+        "FEP:954",
+        "ZNC:Tneergfba 23",
+        "NQQE:920 4GU FG",
+        "NCG:204n",
+        "CYNPR:Cnyvfnqr Znabe",
+        "PVGL:TNEERGFBA",
+        "PNYY:Genafsre C3",
+        "VQ:2016-00006562");
 
     qbGrfg("G35",
-        "{Qvfcngpu Cntr} 954  2015-00000198 920 4GU FG Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2015-00000198",
+        "{Qvfcngpu Cntr} 954  2016-00000061 920 4GU FG Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C3 2016-00000061",
         "FEP:954",
         "ZNC:Tneergfba 23",
         "NQQE:920 4GU FG",
         "CYNPR:Cnyvfnqr Znabe",
         "PVGL:TNEERGFBA",
         "PNYY:Genafsre C3",
-        "VQ:2015-00000198");
+        "VQ:2016-00000061");
+
+    qbGrfg("G36",
+        "{Qvfcngpu Cntr} 954  2016-00000056 25593 486GU NIR Tneergfba 23 TA Urzbeeuntr C2 2016-00000056",
+        "FEP:954",
+        "ZNC:Tneergfba 23",
+        "NQQE:25593 486GU NIR",
+        "PVGL:TNEERGFBA",
+        "PNYY:Urzbeeuntr C2",
+        "VQ:2016-00000056");
+
+    qbGrfg("G37",
+        "{Qvfcngpu Cntr} 954  2016-00005469 200 J 10GU FG 304 Qryy Encvqf 2 QE Fvpx Crefba C3 2016-00005469",
+        "FEP:954",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:200 J 10GU FG",
+        "NCG:304",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00005469");
+
+    qbGrfg("G38",
+        "{Qvfcngpu Cntr} 954  2016-00000055 309 PRAGRE NIR Tneergfba 23 TA Fvpx Crefba C2 2016-00000055",
+        "FEP:954",
+        "ZNC:Tneergfba 23",
+        "NQQE:309 PRAGRE NIR",
+        "PVGL:TNEERGFBA",
+        "PNYY:Fvpx Crefba C2",
+        "VQ:2016-00000055");
 
   }
 
@@ -866,1466 +1130,1621 @@ choyvp pynff FQZvaarununPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgQryyEncvqfNzohynapr() {
 
     qbGrfg("G1",
-        "{Qvfcngpu Cntr} 951  2016-00000010 304 R  10GU FG Qryy Encvqf 2 QE Pbai Frvmher C2 2016-00000010",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:304 R 10GU FG",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Pbai Frvmher C2",
-        "VQ:2016-00000010");
-
-    qbGrfg("G2",
-        "{Qvfcngpu Cntr} 951  2016-00000021 706 R  1FG FG Pbygba Pvgl PB Fvpx Crefba C3 2016-00000021",
-        "FEP:951",
-        "ZNC:Pbygba Pvgl",
-        "NQQE:706 R 1FG FG",
-        "PVGL:PBYGBA",
-        "PNYY:Fvpx Crefba C3",
-        "VQ:2016-00000021");
-
-    qbGrfg("G3",
-        "{Qvfcngpu Cntr} 951  2016-00000005 706 R  1FG FG Pbygba Pvgl PB Snyyf C3 2016-00000005",
-        "FEP:951",
-        "ZNC:Pbygba Pvgl",
-        "NQQE:706 R 1FG FG",
-        "PVGL:PBYGBA",
-        "PNYY:Snyyf C3",
-        "VQ:2016-00000005");
-
-    qbGrfg("G4",
-        "{Qvfcngpu Cntr} 952  2016-00000005 320 ZBERSVRYQ NIR Onygvp 2 ON Fgebxr C2 2016-00000005",
-        "FEP:952",
-        "ZNC:Onygvp 2",
-        "NQQE:320 ZBERSVRYQ NIR",
-        "PVGL:ONYGVP",
-        "PNYY:Fgebxr C2",
-        "VQ:2016-00000005");
-
-    qbGrfg("G5",
-        "{Qvfcngpu Cntr} 951  2016-00000004 301 F  PUNEYRF NIR Pbygba Pvgl PB Fgebxr C2 2016-00000004",
-        "FEP:951",
-        "ZNC:Pbygba Pvgl",
-        "NQQE:301 F PUNEYRF NIR",
-        "PVGL:PBYGBA",
-        "PNYY:Fgebxr C2",
-        "VQ:2016-00000004");
-
-    qbGrfg("G6",
-        "{Qvfcngpu Cntr} 951  2016-00000017 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Genafsre C3 2016-00000017",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:909 VBJN NIR",
-        "CYNPR:Qryy Encvqf Ubfcvgny",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Genafsre C3",
-        "VQ:2016-00000017");
-
-    qbGrfg("G7",
-        "{Qvfcngpu Cntr} 951  2016-00000016 709 R  5GU FG Qryy Encvqf 1 QE Fvpx Crefba C3 2016-00000016",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 1",
-        "NQQE:709 R 5GU FG",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Fvpx Crefba C3",
-        "VQ:2016-00000016");
-
-    qbGrfg("G8",
-        "{Qvfcngpu Cntr} 951  2016-00000002 47414 252AQ FG Onygvp 11 ON Fvpx Crefba C2 2016-00000002",
+        "{Qvfcngpu Cntr} 951  2016-00000064 47661 251FG FG Onygvp 11 ON Snyyf C3 2016-00000064",
         "FEP:951",
         "ZNC:Onygvp 11",
-        "NQQE:47414 252AQ FG",
+        "NQQE:47661 251FG FG",
         "PVGL:ONYGVP",
-        "PNYY:Fvpx Crefba C2",
-        "VQ:2016-00000002");
-
-    qbGrfg("G9",
-        "{Qvfcngpu Cntr} 951  2016-00000002 46741 252AQ FG Ylbaf 5 ON Onpx Cnva C3 2016-00000002",
-        "FEP:951",
-        "ZNC:Ylbaf 5",
-        "NQQE:46741 252AQ FG",
-        "PVGL:ONYGVP",
-        "PNYY:Onpx Cnva C3",
-        "VQ:2016-00000002");
-
-    qbGrfg("G10",
-        "{Qvfcngpu Cntr} 951 QE  2016-00000013 1002 A UJL 77 PBHAGL SNVE Qryy Encvqf 2 QE Snyyf C3 2016-00000013",
-        "FEP:951",
-        "HAVG:QE",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:1002 A UJL 77",
-        "CYNPR:PBHAGL SNVE",
-        "PVGL:QRYY ENCVQF",
         "PNYY:Snyyf C3",
-        "VQ:2016-00000013");
+        "VQ:2016-00000064");
 
-    qbGrfg("G11",
-        "{Qvfcngpu Cntr} 951  2016-00000012 706 R  1FG FG Pbygba Pvgl PB Genafsre C3 2016-00000012",
-        "FEP:951",
-        "ZNC:Pbygba Pvgl",
-        "NQQE:706 R 1FG FG",
-        "PVGL:PBYGBA",
-        "PNYY:Genafsre C3",
-        "VQ:2016-00000012");
-
-    qbGrfg("G12",
-        "{Qvfcngpu Cntr} 951  2016-00000219 808 R  4GU FG Qryy Encvqf 1 QE Bireqbfr C2 + CQ 2016-00000219",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 1",
-        "NQQE:808 R 4GU FG",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Bireqbfr C2 + CQ",
-        "VQ:2016-00000219");
-
-    qbGrfg("G13",
-        "{Qvfcngpu Cntr} 951  2016-00000004 V 29 ZZ 100 Qryy Encvqf 3 QE Vawhel Nppvqrag / Ebyybire 2016-00000004",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 3",
-        "NQQE:V 29 ZZ 100",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Vawhel Nppvqrag / Ebyybire",
-        "VQ:2016-00000004");
-
-    qbGrfg("G14",
-        "{Qvfcngpu Cntr} 951  2016-00000003 V 29 ZZ 97 Qryy Encvqf 2 QE Vawhel Nppvqrag / Ebyybire 2016-00000003",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:V 29 ZZ 97",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Vawhel Nppvqrag / Ebyybire",
-        "VQ:2016-00000003");
-
-    qbGrfg("G15",
-        "{Qvfcngpu Cntr} 951  2016-00000008 V 29 ZZ 103 QE Vawhel Nppvqrag C3 2016-00000008",
-        "FEP:951",
-        "NQQE:V 29 ZZ 103",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Vawhel Nppvqrag C3",
-        "VQ:2016-00000008");
-
-    qbGrfg("G16",
-        "{Qvfcngpu Cntr} 951  2016-00000007 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Genafsre C2 j/bhg sver 2016-00000007",
+    qbGrfg("G2",
+        "{Qvfcngpu Cntr} 951  2016-00000261 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Genafsre C2 j/bhg sver 2016-00000261",
         "FEP:951",
         "ZNC:Qryy Encvqf 2",
         "NQQE:909 VBJN NIR",
         "CYNPR:Qryy Encvqf Ubfcvgny",
         "PVGL:QRYY ENCVQF",
         "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2016-00000007");
+        "VQ:2016-00000261");
 
-    qbGrfg("G17",
-        "{Qvfcngpu Cntr}  2016-00000001 320 5GU FG Ylbaf 5 YL Purfg Cnva C2 2016-00000001",
-        "ZNC:Ylbaf 5",
-        "NQQE:320 5GU FG",
-        "PVGL:YLBAF",
-        "PNYY:Purfg Cnva C2",
-        "VQ:2016-00000001");
-
-    qbGrfg("G18",
-        "{Qvfcngpu Cntr} 951  2016-00000001 320 5GU FG Ylbaf 5 ON Purfg Cnva C2 2016-00000001",
-        "FEP:951",
-        "ZNC:Ylbaf 5",
-        "NQQE:320 5GU FG",
-        "PVGL:ONYGVP",
-        "PNYY:Purfg Cnva C2",
-        "VQ:2016-00000001");
-
-    qbGrfg("G19",
-        "{Qvfcngpu Cntr} 951  2016-00000001 210 IVXVAT NIR Onygvp 2 ON Hapbafp/Snvag C2 2016-00000001",
+    qbGrfg("G3",
+        "{Qvfcngpu Cntr} 951  2016-00000063 508 PNVGYVA NIR Onygvp 2 ON Fgehpgher Sver 2016-00000063",
         "FEP:951",
         "ZNC:Onygvp 2",
-        "NQQE:210 IVXVAT NIR",
+        "NQQE:508 PNVGYVA NIR",
         "PVGL:ONYGVP",
-        "PNYY:Hapbafp/Snvag C2",
-        "VQ:2016-00000001");
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000063");
 
-    qbGrfg("G20",
-        "{Qvfcngpu Cntr} 951  2016-00000081 24551 473EQ NIR Qryy Encvqf 2 QE Noqbzvany Cnva C2 2016-00000081",
+    qbGrfg("G4",
+        "{Qvfcngpu Cntr}  2016-00000259 600 A UJL 77 2 Qryy Encvqf 2 QE Snyyf C3 2016-00000259",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:600 A UJL 77",
+        "NCG:2",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000259");
+
+    qbGrfg("G5",
+        "{Qvfcngpu Cntr} 951  2016-00000259 600 A UJL 77 Qryy Encvqf 2 QE Snyyf C3 2016-00000259",
         "FEP:951",
         "ZNC:Qryy Encvqf 2",
-        "NQQE:24551 473EQ NIR",
+        "NQQE:600 A UJL 77",
         "PVGL:QRYY ENCVQF",
-        "PNYY:Noqbzvany Cnva C2",
-        "VQ:2016-00000081");
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000259");
 
-    qbGrfg("G21",
-        "{Qvfcngpu Cntr} 951  2016-00000003 909 VBJN NIR 201 Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Genafsre C3 2016-00000003",
+    qbGrfg("G6",
+        "{Qvfcngpu Cntr} 951  2016-00000045 702 R  3EQ FG Pbygba Pvgl PB Fvpx Crefba C2 2016-00000045",
+        "FEP:951",
+        "ZNC:Pbygba Pvgl",
+        "NQQE:702 R 3EQ FG",
+        "PVGL:PBYGBA",
+        "PNYY:Fvpx Crefba C2",
+        "VQ:2016-00000045");
+
+    qbGrfg("G7",
+        "{Qvfcngpu Cntr} 951  2016-00000163 46982 248GU FG Qryy Encvqf 4 QE Snyyf C3 2016-00000163",
+        "FEP:951",
+        "ZNC:Qryy Encvqf 4",
+        "NQQE:46982 248GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000163");
+
+    qbGrfg("G8",
+        "{Qvfcngpu Cntr} 951  2016-00000256 200 J 10GU FG 506 Qryy Encvqf 2 QE Genafsre C3 2016-00000256",
+        "FEP:951",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:200 J 10GU FG",
+        "NCG:506",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Genafsre C3",
+        "VQ:2016-00000256");
+
+    qbGrfg("G9",
+        "{Qvfcngpu Cntr}  2016-00000255 706 R 1FG FG 11 Pbygba Pvgl PB Genafsre C3 2016-00000255",
+        "ZNC:Pbygba Pvgl",
+        "NQQE:706 R 1FG FG",
+        "NCG:11",
+        "PVGL:PBYGBA",
+        "PNYY:Genafsre C3",
+        "VQ:2016-00000255");
+
+    qbGrfg("G10",
+        "{Qvfcngpu Cntr} 951  2016-00000255 706 R  1FG FG Pbygba Pvgl PB Genafsre C3 2016-00000255",
+        "FEP:951",
+        "ZNC:Pbygba Pvgl",
+        "NQQE:706 R 1FG FG",
+        "PVGL:PBYGBA",
+        "PNYY:Genafsre C3",
+        "VQ:2016-00000255");
+
+    qbGrfg("G11",
+        "{Qvfcngpu Cntr}  2016-00000254 1400 GUERFURE QE QRYYF AHEFVAT & ERUNO Qryy Encvqf 2 QE Genafsre C3 2016-00000254",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:1400 GUERFURE QE",
+        "CYNPR:QRYYF AHEFVAT & ERUNO",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Genafsre C3",
+        "VQ:2016-00000254");
+
+    qbGrfg("G12",
+        "{Qvfcngpu Cntr} 951  2016-00000254 909 VBJN NIR QRYY ENCVQF UBFCVGNY Qryy Encvqf 2 QE Genafsre C3 2016-00000254",
         "FEP:951",
         "ZNC:Qryy Encvqf 2",
         "NQQE:909 VBJN NIR",
-        "NCG:201",
+        "CYNPR:QRYY ENCVQF UBFCVGNY",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Genafsre C3",
+        "VQ:2016-00000254");
+
+    qbGrfg("G13",
+        "{Qvfcngpu Cntr} 951  2016-00000253 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Genafsre C2 2016-00000253",
+        "FEP:951",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:909 VBJN NIR",
         "CYNPR:Qryy Encvqf Ubfcvgny",
         "PVGL:QRYY ENCVQF",
-        "PNYY:Genafsre C3",
-        "VQ:2016-00000003");
+        "PNYY:Genafsre C2",
+        "VQ:2016-00000253");
 
-    qbGrfg("G22",
-        "{Qvfcngpu Cntr} 951  2016-00000002 46537 246GU FG Pbygba 3 PB Vawhel Nppvqrag / Ebyybire 2016-00000002",
+    qbGrfg("G14",
+        "{Qvfcngpu Cntr} 951  2016-00000160 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Sver Bgure 2016-00000160",
         "FEP:951",
-        "ZNC:Pbygba 3",
-        "NQQE:46537 246GU FG",
-        "PVGL:PBYGBA",
-        "PNYY:Vawhel Nppvqrag / Ebyybire",
-        "VQ:2016-00000002");
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:909 VBJN NIR",
+        "CYNPR:Qryy Encvqf Ubfcvgny",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Sver Bgure",
+        "VQ:2016-00000160");
 
-    qbGrfg("G23",
-        "{Qvfcngpu Cntr} 951  2016-00000001 24707 465GU NIR Pbygba 3 PB Snyyf C3 2016-00000001",
-        "FEP:951",
-        "ZNC:Pbygba 3",
-        "NQQE:24707 465GU NIR",
-        "PVGL:PBYGBA",
-        "PNYY:Snyyf C3",
-        "VQ:2016-00000001");
-
-    qbGrfg("G24",
-        "{Qvfcngpu Cntr} 951  2015-00000162 218 ABEGU CY Onygvp 2 ON Snyyf C3 2015-00000162",
-        "FEP:951",
-        "ZNC:Onygvp 2",
-        "NQQE:218 ABEGU CY",
-        "PVGL:ONYGVP",
-        "PNYY:Snyyf C3",
-        "VQ:2015-00000162");
-
-    qbGrfg("G25",
-        "{Qvfcngpu Cntr} 952  2015-00000117 V 29 ZZ 91 Pebbxf 2 Vawhel Nppvqrag / Ebyybire 2015-00000117",
+    qbGrfg("G15",
+        "{Qvfcngpu Cntr} 952  2016-00000251 V 29 ZZ 97 Qryy Encvqf 4 QE Vawhel Nppvqrag C3 2016-00000251",
         "FEP:952",
-        "ZNC:Pebbxf 2",
-        "NQQE:V 29 ZZ 91",
-        "PNYY:Vawhel Nppvqrag / Ebyybire",
-        "VQ:2015-00000117");
-
-    qbGrfg("G26",
-        "{Qvfcngpu Cntr}  2015-00000117 V 29 ZZ 91 Pebbxf 2 Vawhel Nppvqrag / Ebyybire 2015-00000117",
-        "ZNC:Pebbxf 2",
-        "NQQE:V 29 ZZ 91",
-        "PNYY:Vawhel Nppvqrag / Ebyybire",
-        "VQ:2015-00000117");
-
-    qbGrfg("G27",
-        "{Qvfcngpu Cntr} 951  2015-00000117 V 29 ZZ 91 Pebbxf 2 Vawhel Nppvqrag / Ebyybire 2015-00000117",
-        "FEP:951",
-        "ZNC:Pebbxf 2",
-        "NQQE:V 29 ZZ 91",
-        "PNYY:Vawhel Nppvqrag / Ebyybire",
-        "VQ:2015-00000117");
-
-    qbGrfg("G28",
-        "{Qvfcngpu Cntr} 951  2015-00000456 909 VBJN NIR QRYY ENCVQF UBFCVGNY Qryy Encvqf 2 QE Genafsre C3 2015-00000456",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:909 VBJN NIR",
-        "CYNPR:QRYY ENCVQF UBFCVGNY",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Genafsre C3",
-        "VQ:2015-00000456");
-
-    qbGrfg("G29",
-        "{Qvfcngpu Cntr} 951  2015-00000455 200 J 10GU FG 104 Qryy Encvqf 2 QE Genafsre C3 2015-00000455",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:200 J 10GU FG",
-        "NCG:104",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Genafsre C3",
-        "VQ:2015-00000455");
-
-    qbGrfg("G30",
-        "{Qvfcngpu Cntr} 951  2015-00000278 608 R  8GU FG Qryy Encvqf 2 QE Hapbafp/Snvag C2 2015-00000278",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:608 R 8GU FG",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Hapbafp/Snvag C2",
-        "VQ:2015-00000278");
-
-    qbGrfg("G31",
-        "{Qvfcngpu Cntr}  2015-00000453 4500 J  69GU FG NIREN URNEG UBFCVGNY Dhnq FJ6U FS Genafsre C3 2015-00000453",
-        "NQQE:4500 J 69GU FG",
-        "CYNPR:NIREN URNEG UBFCVGNY Dhnq FJ6U",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Genafsre C3",
-        "VQ:2015-00000453");
-
-    qbGrfg("G32",
-        "{Qvfcngpu Cntr}  2015-00000453 NIREN URNEG UBFCVGNY Genafsre C3 2015-00000453",
-        "NQQE:NIREN URNEG UBFCVGNY Genafsre C3",
-        "VQ:2015-00000453");
-
-    qbGrfg("G34",
-        "{Qvfcngpu Cntr} 951  2015-00019522 320 J  7GU FG Qryy Encvqf 2 QE Purfg Cnva C2 2015-00019522",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:320 J 7GU FG",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Purfg Cnva C2",
-        "VQ:2015-00019522");
-
-    qbGrfg("G35",
-        "{Qvfcngpu Cntr} 951  2015-00000451 909 VBJN NIR QRYY ENCVQF UBFCVGNY Qryy Encvqf 2 QE Genafsre C3 2015-00000451",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:909 VBJN NIR",
-        "CYNPR:QRYY ENCVQF UBFCVGNY",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Genafsre C3",
-        "VQ:2015-00000451");
-
-    qbGrfg("G36",
-        "{Qvfcngpu Cntr} 951  2015-00000450 605 J  7GU FG Qryy Encvqf 2 QE Noqbzvany Cnva C3 2015-00000450",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:605 J 7GU FG",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Noqbzvany Cnva C3",
-        "VQ:2015-00000450");
-
-    qbGrfg("G37",
-        "{Qvfcngpu Cntr}  2015-00000275 200 J  10GU FG 207 Qryy Encvqf 2 QE Urzbeeuntr C2 2015-00000275",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:200 J 10GU FG",
-        "NCG:207",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Urzbeeuntr C2",
-        "VQ:2015-00000275");
-
-    qbGrfg("G38",
-        "{Qvfcngpu Cntr} 951  2015-00000275 200 J  10GU FG Qryy Encvqf 2 QE Urzbeeuntr C2 2015-00000275",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:200 J 10GU FG",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Urzbeeuntr C2",
-        "VQ:2015-00000275");
-
-    qbGrfg("G39",
-        "{Qvfcngpu Cntr} 951  2015-00000081 46630 250GU FG Pbygba 5 PB Pubxvat C3 2015-00000081",
-        "FEP:951",
-        "ZNC:Pbygba 5",
-        "NQQE:46630 250GU FG",
-        "PVGL:PBYGBA",
-        "PNYY:Pubxvat C3",
-        "VQ:2015-00000081");
-
-    qbGrfg("G40",
-        "{Qvfcngpu Cntr} 951  2015-00000161 47155 250GU FG Onygvp 9 ON Pbai Frvmher C2 2015-00000161",
-        "FEP:951",
-        "ZNC:Onygvp 9",
-        "NQQE:47155 250GU FG",
-        "PVGL:ONYGVP",
-        "PNYY:Pbai Frvmher C2",
-        "VQ:2015-00000161");
-
-    qbGrfg("G41",
-        "{Qvfcngpu Cntr} 951  2015-00000446 25098 475GU NIR Onygvp 11 QE Vawhel Nppvqrag C3 2015-00000446",
-        "FEP:951",
-        "ZNC:Onygvp 11",
-        "NQQE:25098 475GU NIR",
+        "ZNC:Qryy Encvqf 4",
+        "NQQE:V 29 ZZ 97",
         "PVGL:QRYY ENCVQF",
         "PNYY:Vawhel Nppvqrag C3",
-        "VQ:2015-00000446");
+        "VQ:2016-00000251");
 
-    qbGrfg("G42",
-        "{Qvfcngpu Cntr} 951  2015-00019276 46741 252AQ FG Ylbaf 5 ON Snyyf C3 2015-00019276",
+    qbGrfg("G16",
+        "{Qvfcngpu Cntr} 951 RZ  2016-00000251 V 29 ZZ 97 Qryy Encvqf 4 QE Vawhel Nppvqrag C2 2016-00000251",
+        "FEP:951",
+        "HAVG:RZ",
+        "ZNC:Qryy Encvqf 4",
+        "NQQE:V 29 ZZ 97",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Vawhel Nppvqrag C2",
+        "VQ:2016-00000251");
+
+    qbGrfg("G17",
+        "{Qvfcngpu Cntr} 952  2016-00008987 25235 471FG NIR Pebbxf 1 ON Fvpx Crefba C3 2016-00008987",
+        "FEP:952",
+        "ZNC:Pebbxf 1",
+        "NQQE:25235 471FG NIR",
+        "PVGL:ONYGVP",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00008987");
+
+    qbGrfg("G18",
+        "{Qvfcngpu Cntr} 951  2016-00008987 25235 471FG NIR Pebbxf 1 ON Fvpx Crefba C3 2016-00008987",
+        "FEP:951",
+        "ZNC:Pebbxf 1",
+        "NQQE:25235 471FG NIR",
+        "PVGL:ONYGVP",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00008987");
+
+    qbGrfg("G19",
+        "{Qvfcngpu Cntr} 951  2016-00000157 203 J 12GU FG 1 Qryy Encvqf 2 QE Bireqbfr C2 2016-00000157",
+        "FEP:951",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:203 J 12GU FG",
+        "NCG:1",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Bireqbfr C2",
+        "VQ:2016-00000157");
+
+    qbGrfg("G20",
+        "{Qvfcngpu Cntr} 952  2016-00000156 407 J  3EQ FG Qryy Encvqf 2 QE Yvsg Nffvfg 2016-00000156",
+        "FEP:952",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:407 J 3EQ FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000156");
+
+    qbGrfg("G21",
+        "{Qvfcngpu Cntr} 951  2016-00000156 407 J  3EQ FG Qryy Encvqf 2 QE Yvsg Nffvfg 2016-00000156",
+        "FEP:951",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:407 J 3EQ FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000156");
+
+    qbGrfg("G22",
+        "{Qvfcngpu Cntr} 952  2016-00008935 46741 252AQ FG Ylbaf 5 ON Hax Ceboyrz C3 2016-00008935",
+        "FEP:952",
+        "ZNC:Ylbaf 5",
+        "NQQE:46741 252AQ FG",
+        "PVGL:ONYGVP",
+        "PNYY:Hax Ceboyrz C3",
+        "VQ:2016-00008935");
+
+    qbGrfg("G23",
+        "{Qvfcngpu Cntr} 951  2016-00008935 46741 252AQ FG Ylbaf 5 ON Hax Ceboyrz C3 2016-00008935",
         "FEP:951",
         "ZNC:Ylbaf 5",
         "NQQE:46741 252AQ FG",
         "PVGL:ONYGVP",
+        "PNYY:Hax Ceboyrz C3",
+        "VQ:2016-00008935");
+
+    qbGrfg("G24",
+        "{Qvfcngpu Cntr} 952  2016-00000246 805 R  6GU FG Qryy Encvqf 1 QE Fvpx Crefba C3 2016-00000246",
+        "FEP:952",
+        "ZNC:Qryy Encvqf 1",
+        "NQQE:805 R 6GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00000246");
+
+    qbGrfg("G25",
+        "{Qvfcngpu Cntr} 951  2016-00000246 805 R  6GU FG Qryy Encvqf 1 QE Fvpx Crefba C3 2016-00000246",
+        "FEP:951",
+        "ZNC:Qryy Encvqf 1",
+        "NQQE:805 R 6GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00000246");
+
+    qbGrfg("G26",
+        "{Qvfcngpu Cntr} 952  2016-00008758 405 F  BEYRNAF NIR 2 Qryy Encvqf 2 QE Nffnhyg C3 2016-00008758",
+        "FEP:952",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:405 F BEYRNAF NIR",
+        "NCG:2",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Nffnhyg C3",
+        "VQ:2016-00008758");
+
+    qbGrfg("G27",
+        "{Qvfcngpu Cntr} 951  2016-00008758 405 F  BEYRNAF NIR 2 Qryy Encvqf 2 QE Nffnhyg C3 2016-00008758",
+        "FEP:951",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:405 F BEYRNAF NIR",
+        "NCG:2",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Nffnhyg C3",
+        "VQ:2016-00008758");
+
+    qbGrfg("G28",
+        "{Qvfcngpu Cntr} 952  2016-00000153 408 J  1FG FG Qryy Encvqf 2 QE Fvpx Crefba C2 2016-00000153",
+        "FEP:952",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:408 J 1FG FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Fvpx Crefba C2",
+        "VQ:2016-00000153");
+
+    qbGrfg("G29",
+        "{Qvfcngpu Cntr} 951  2016-00000153 408 J  1FG FG Qryy Encvqf 2 QE Fvpx Crefba C2 2016-00000153",
+        "FEP:951",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:408 J 1FG FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Fvpx Crefba C2",
+        "VQ:2016-00000153");
+
+    qbGrfg("G30",
+        "{Qvfcngpu Cntr} 952  2016-00000243 R  4GU FG TNESVRYQ NIR Qryy Encvqf 2 QE Genafsre C3 2016-00000243",
+        "FEP:952",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:R 4GU FG & TNESVRYQ NIR",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Genafsre C3",
+        "VQ:2016-00000243");
+
+    qbGrfg("G31",
+        "{Qvfcngpu Cntr} 952  2016-00008736 211 4GU FG Qryy Encvqf 2 QE Genhzngvp Vawhel C1 2016-00008736",
+        "FEP:952",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:211 4GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Genhzngvp Vawhel C1",
+        "VQ:2016-00008736");
+
+    qbGrfg("G32",
+        "{Qvfcngpu Cntr} 951  2016-00008736 211 4GU FG Qryy Encvqf 2 QE Hapbafp/Snvag C3 2016-00008736",
+        "FEP:951",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:211 4GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Hapbafp/Snvag C3",
+        "VQ:2016-00008736");
+
+    qbGrfg("G33",
+        "{Qvfcngpu Cntr} 952  2016-00008730 302 R  4GU FG PVGL UNYY QRYY ENCVQF Qryy Encvqf 2 QE Snyyf C3 2016-00008730",
+        "FEP:952",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:302 R 4GU FG",
+        "CYNPR:PVGL UNYY QRYY ENCVQF",
+        "PVGL:QRYY ENCVQF",
         "PNYY:Snyyf C3",
-        "VQ:2015-00019276");
+        "VQ:2016-00008730");
+
+    qbGrfg("G34",
+        "{Qvfcngpu Cntr}  302 R  4GU FG PVGL UNYY QRYY ENCVQF Qryy Encvqf 2 QE Snyyf C3",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:302 R 4GU FG",
+        "CYNPR:PVGL UNYY QRYY ENCVQF",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Snyyf C3");
+
+    qbGrfg("G35",
+        "{Qvfcngpu Cntr} 951  329 R  4GU FG Qryy Encvqf 2 QE Snyyf C3",
+        "FEP:951",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:329 R 4GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Snyyf C3");
+
+    qbGrfg("G36",
+        "{Qvfcngpu Cntr}  2016-00000240 401 R  ZNVA FG Pebbxf 3 PE Fgnaqol C9 2016-00000240",
+        "ZNC:Pebbxf 3",
+        "NQQE:401 R ZNVA FG",
+        "PVGL:PEBBXF",
+        "PNYY:Fgnaqol C9",
+        "VQ:2016-00000240");
+
+    qbGrfg("G37",
+        "{Qvfcngpu Cntr}  2016-00000240 RNFG FVQR BS PEBBXF PE Fgnaqol C9 2016-00000240",
+        "NQQE:RNFG FVQR BS PEBBXF",
+        "PVGL:PEBBXF",
+        "PNYY:Fgnaqol C9",
+        "VQ:2016-00000240");
+
+    qbGrfg("G38",
+        "{Qvfcngpu Cntr} 951  2016-00000240 <HAXABJA> Fgnaqol C9 2016-00000240",
+        "FEP:951",
+        "NQQE:<HAXABJA> Fgnaqol C9",
+        "VQ:2016-00000240");
+
+    qbGrfg("G39",
+        "{Qvfcngpu Cntr} 951  2016-00000059 600 F 6GU FG Onygvp 2 ON Zna Qbja C2 + CQ 2016-00000059",
+        "FEP:951",
+        "ZNC:Onygvp 2",
+        "NQQE:600 F 6GU FG",
+        "PVGL:ONYGVP",
+        "PNYY:Zna Qbja C2 + CQ",
+        "VQ:2016-00000059");
+
+    qbGrfg("G40",
+        "{Qvfcngpu Cntr} 952  2016-00000050 V 29 ZZ 92 Pebbxf 2 Bireqbfr C2 2016-00000050",
+        "FEP:952",
+        "ZNC:Pebbxf 2",
+        "NQQE:V 29 ZZ 92",
+        "PNYY:Bireqbfr C2",
+        "VQ:2016-00000050");
+
+    qbGrfg("G41",
+        "{Qvfcngpu Cntr} 951  2016-00000050 V 29 ZZ 92 Pebbxf 2 Bireqbfr C2 2016-00000050",
+        "FEP:951",
+        "ZNC:Pebbxf 2",
+        "NQQE:V 29 ZZ 92",
+        "PNYY:Bireqbfr C2",
+        "VQ:2016-00000050");
+
+    qbGrfg("G42",
+        "{Qvfcngpu Cntr} 952  2016-00008626 46576 246GU FG Pbygba 3 PB Tnf Yrnx 2016-00008626",
+        "FEP:952",
+        "ZNC:Pbygba 3",
+        "NQQE:46576 246GU FG",
+        "PVGL:PBYGBA",
+        "PNYY:Tnf Yrnx",
+        "VQ:2016-00008626");
 
     qbGrfg("G43",
-        "{Qvfcngpu Cntr} 952  2015-00000444 602 R  6GU FG Qryy Encvqf 2 QE Fvpx Crefba C3 2015-00000444",
-        "FEP:952",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:602 R 6GU FG",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Fvpx Crefba C3",
-        "VQ:2015-00000444");
+        "{Qvfcngpu Cntr} 951  2016-00008626 46576 246GU FG Pbygba 3 PB Tnf Yrnx 2016-00008626",
+        "FEP:951",
+        "ZNC:Pbygba 3",
+        "NQQE:46576 246GU FG",
+        "PVGL:PBYGBA",
+        "PNYY:Tnf Yrnx",
+        "VQ:2016-00008626");
 
     qbGrfg("G44",
-        "{Qvfcngpu Cntr} 951  2015-00000444 602 R  6GU FG Qryy Encvqf 2 QE Fvpx Crefba C3 2015-00000444",
-        "FEP:951",
+        "{Qvfcngpu Cntr} 952  2016-00000236 107 R  6GU FG Qryy Encvqf 2 QE Genhzngvp Vawhel C2 2016-00000236",
+        "FEP:952",
         "ZNC:Qryy Encvqf 2",
-        "NQQE:602 R 6GU FG",
+        "NQQE:107 R 6GU FG",
         "PVGL:QRYY ENCVQF",
-        "PNYY:Fvpx Crefba C3",
-        "VQ:2015-00000444");
+        "PNYY:Genhzngvp Vawhel C2",
+        "VQ:2016-00000236");
 
     qbGrfg("G45",
-        "{Qvfcngpu Cntr} 952  2015-00000443 1026 PYHOUBHFR PG Qryy Encvqf 2 QE Hax Ceboyrz C3 2015-00000443",
-        "FEP:952",
+        "{Qvfcngpu Cntr} 951  2016-00000236 107 R  6GU FG Qryy Encvqf 2 QE Genhzngvp Vawhel C2 2016-00000236",
+        "FEP:951",
         "ZNC:Qryy Encvqf 2",
-        "NQQE:1026 PYHOUBHFR PG",
+        "NQQE:107 R 6GU FG",
         "PVGL:QRYY ENCVQF",
-        "PNYY:Hax Ceboyrz C3",
-        "VQ:2015-00000443");
+        "PNYY:Genhzngvp Vawhel C2",
+        "VQ:2016-00000236");
 
     qbGrfg("G46",
-        "{Qvfcngpu Cntr} 951  2015-00000443 1026 PYHOUBHFR PG Qryy Encvqf 2 QE Hax Ceboyrz C3 2015-00000443",
-        "FEP:951",
+        "{Qvfcngpu Cntr} 952  2016-00000147 1400 GUERFURE QE Qryyf Ahefvat & Eruno Qryy Encvqf 2 QE Snyyf C3 2016-00000147",
+        "FEP:952",
         "ZNC:Qryy Encvqf 2",
-        "NQQE:1026 PYHOUBHFR PG",
+        "NQQE:1400 GUERFURE QE",
+        "CYNPR:Qryyf Ahefvat & Eruno",
         "PVGL:QRYY ENCVQF",
-        "PNYY:Hax Ceboyrz C3",
-        "VQ:2015-00000443");
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000147");
 
     qbGrfg("G47",
-        "{Qvfcngpu Cntr} 952  2015-00000442 46842 249GU FG Pbygba 5 QE Pneqvnp Neerfg C1 2015-00000442",
-        "FEP:952",
-        "ZNC:Pbygba 5",
-        "NQQE:46842 249GU FG",
+        "{Qvfcngpu Cntr} 951  2016-00000147 1400 GUERFURE QE Qryyf Ahefvat & Eruno Qryy Encvqf 2 QE Snyyf C3 2016-00000147",
+        "FEP:951",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:1400 GUERFURE QE",
+        "CYNPR:Qryyf Ahefvat & Eruno",
         "PVGL:QRYY ENCVQF",
-        "PNYY:Pneqvnp Neerfg C1",
-        "VQ:2015-00000442");
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000147");
 
     qbGrfg("G48",
-        "{Qvfcngpu Cntr} 951  2015-00000442 46842 249GU FG Pbygba 5 QE Pneqvnp Neerfg C1 2015-00000442",
-        "FEP:951",
-        "ZNC:Pbygba 5",
-        "NQQE:46842 249GU FG",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Pneqvnp Neerfg C1",
-        "VQ:2015-00000442");
+        "{Qvfcngpu Cntr} 952  2016-00000013 46741 252AQ FG Ylbaf 5 YL Yvsg Nffvfg 2016-00000013",
+        "FEP:952",
+        "ZNC:Ylbaf 5",
+        "NQQE:46741 252AQ FG",
+        "PVGL:YLBAF",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000013");
 
     qbGrfg("G49",
-        "{Qvfcngpu Cntr} 952  2015-00000079 706 R  1FG FG Pbygba Pvgl PB Purfg Cnva C2 2015-00000079",
+        "{Qvfcngpu Cntr} 951  2016-00000013 46741 252AQ FG Ylbaf 5 YL Yvsg Nffvfg 2016-00000013",
+        "FEP:951",
+        "ZNC:Ylbaf 5",
+        "NQQE:46741 252AQ FG",
+        "PVGL:YLBAF",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000013");
+
+    qbGrfg("G50",
+        "{Qvfcngpu Cntr} 952  2016-00000145 601 WHAVNGN NIR Qryy Encvqf 2 QE Snyyf C2 2016-00000145",
+        "FEP:952",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:601 WHAVNGN NIR",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Snyyf C2",
+        "VQ:2016-00000145");
+
+    qbGrfg("G51",
+        "{Qvfcngpu Cntr} 951  2016-00000145 601 WHAVNGN NIR Qryy Encvqf 2 QE Snyyf C2 2016-00000145",
+        "FEP:951",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:601 WHAVNGN NIR",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Snyyf C2",
+        "VQ:2016-00000145");
+
+    qbGrfg("G52",
+        "{Qvfcngpu Cntr} 952  2016-00000232 112 R  10GU FG 12 Qryy Encvqf 2 QE Hax Ceboyrz C3 2016-00000232",
+        "FEP:952",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:112 R 10GU FG",
+        "NCG:12",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Hax Ceboyrz C3",
+        "VQ:2016-00000232");
+
+    qbGrfg("G53",
+        "{Qvfcngpu Cntr} 951  2016-00000232 112 R  10GU FG 12 Qryy Encvqf 2 QE Hax Ceboyrz C3 2016-00000232",
+        "FEP:951",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:112 R 10GU FG",
+        "NCG:12",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Hax Ceboyrz C3",
+        "VQ:2016-00000232");
+
+    qbGrfg("G54",
+        "{Qvfcngpu Cntr} 952  2016-00000231 503 R  6GU FG PBYGBA FJVZZVAT CBBY Pbygba Pvgl PB Oernguvat Cebo C2 2016-00000231",
+        "FEP:952",
+        "ZNC:Pbygba Pvgl",
+        "NQQE:503 R 6GU FG",
+        "CYNPR:PBYGBA FJVZZVAT CBBY",
+        "PVGL:PBYGBA",
+        "PNYY:Oernguvat Cebo C2",
+        "VQ:2016-00000231");
+
+    qbGrfg("G55",
+        "{Qvfcngpu Cntr} 951  2016-00000231 503 R  6GU FG PBYGBA FJVZZVAT CBBY Pbygba Pvgl PB Oernguvat Cebo C2 2016-00000231",
+        "FEP:951",
+        "ZNC:Pbygba Pvgl",
+        "NQQE:503 R 6GU FG",
+        "CYNPR:PBYGBA FJVZZVAT CBBY",
+        "PVGL:PBYGBA",
+        "PNYY:Oernguvat Cebo C2",
+        "VQ:2016-00000231");
+
+    qbGrfg("G56",
+        "{Qvfcngpu Cntr} 952  2016-00000058 510 INYYRL IVRJ NIR Onygvp 2 ON Urzbeeuntr C2 2016-00000058",
+        "FEP:952",
+        "ZNC:Onygvp 2",
+        "NQQE:510 INYYRL IVRJ NIR",
+        "PVGL:ONYGVP",
+        "PNYY:Urzbeeuntr C2",
+        "VQ:2016-00000058");
+
+    qbGrfg("G57",
+        "{Qvfcngpu Cntr} 951  2016-00000058 510 INYYRL IVRJ NIR Onygvp 2 ON Urzbeeuntr C2 2016-00000058",
+        "FEP:951",
+        "ZNC:Onygvp 2",
+        "NQQE:510 INYYRL IVRJ NIR",
+        "PVGL:ONYGVP",
+        "PNYY:Urzbeeuntr C2",
+        "VQ:2016-00000058");
+
+    qbGrfg("G58",
+        "{Qvfcngpu Cntr}  2016-00000229 V 29 RKVG 86 Eraare 1 ER Fgebxr C2 2016-00000229",
+        "NQQE:V 29",
+        "CYNPR:RKVG 86",
+        "ZNC:Eraare 1",
+        "PVGL:ERAARE",
+        "PNYY:Fgebxr C2",
+        "VQ:2016-00000229");
+
+    qbGrfg("G59",
+        "{Qvfcngpu Cntr} 951  2016-00000229 V 29 RKVG 94 Onygvp 9 Fgebxr C2 2016-00000229",
+        "FEP:951",
+        "NQQE:V 29",
+        "PNYY:RKVG 94 Onygvp 9 Fgebxr C2",
+        "VQ:2016-00000229");
+
+    qbGrfg("G60",
+        "{Qvfcngpu Cntr} 952  2016-00008236 1105 JLYNAQ QE Qryy Encvqf 1 QE Fgehpgher Sver 2016-00008236",
+        "FEP:952",
+        "ZNC:Qryy Encvqf 1",
+        "NQQE:1105 JLYNAQ QE",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00008236");
+
+    qbGrfg("G61",
+        "{Qvfcngpu Cntr} 951  2016-00000139 429 R  4GU FG Qryy Encvqf 2 QE Pneqvnp Neerfg C1 2016-00000139",
+        "FEP:951",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:429 R 4GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Pneqvnp Neerfg C1",
+        "VQ:2016-00000139");
+
+    qbGrfg("G62",
+        "{Qvfcngpu Cntr} 952  2016-00000226 706 R  1FG FG Pbygba Pvgl PB Genafsre C2 j/bhg sver 2016-00000226",
         "FEP:952",
         "ZNC:Pbygba Pvgl",
         "NQQE:706 R 1FG FG",
         "PVGL:PBYGBA",
-        "PNYY:Purfg Cnva C2",
-        "VQ:2015-00000079");
+        "PNYY:Genafsre C2 j/bhg sver",
+        "VQ:2016-00000226");
 
-    qbGrfg("G50",
-        "{Qvfcngpu Cntr} 951  2015-00000079 706 R  1FG FG Pbygba Pvgl PB Purfg Cnva C2 2015-00000079",
+    qbGrfg("G63",
+        "{Qvfcngpu Cntr} 951  2016-00000226 706 R  1FG FG Pbygba Pvgl PB Genafsre C2 j/bhg sver 2016-00000226",
         "FEP:951",
         "ZNC:Pbygba Pvgl",
         "NQQE:706 R 1FG FG",
         "PVGL:PBYGBA",
-        "PNYY:Purfg Cnva C2",
-        "VQ:2015-00000079");
+        "PNYY:Genafsre C2 j/bhg sver",
+        "VQ:2016-00000226");
 
-    qbGrfg("G51",
-        "{Qvfcngpu Cntr} 951  2015-00000078 203 F VBJN NIR Pbygba Pvgl PB Fgebxr C2 2015-00000078",
+    qbGrfg("G64",
+        "{Qvfcngpu Cntr} 951  2016-00000138 200 J  10GU FG Qryy Encvqf 2 QE Genafsre C2 j/bhg sver 2016-00000138",
         "FEP:951",
-        "ZNC:Pbygba Pvgl",
-        "NQQE:203 F VBJN NIR",
-        "PVGL:PBYGBA",
-        "PNYY:Fgebxr C2",
-        "VQ:2015-00000078");
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:200 J 10GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Genafsre C2 j/bhg sver",
+        "VQ:2016-00000138");
 
-    qbGrfg("G52",
-        "{Qvfcngpu Cntr} 951  2015-00000439 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Genafsre C3 2015-00000439",
+    qbGrfg("G65",
+        "{Qvfcngpu Cntr} 952  2016-00000224 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Genafsre C3 2016-00000224",
+        "FEP:952",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:909 VBJN NIR",
+        "CYNPR:Qryy Encvqf Ubfcvgny",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Genafsre C3",
+        "VQ:2016-00000224");
+
+    qbGrfg("G66",
+        "{Qvfcngpu Cntr} 951  2016-00000224 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Genafsre C3 2016-00000224",
         "FEP:951",
         "ZNC:Qryy Encvqf 2",
         "NQQE:909 VBJN NIR",
         "CYNPR:Qryy Encvqf Ubfcvgny",
         "PVGL:QRYY ENCVQF",
         "PNYY:Genafsre C3",
-        "VQ:2015-00000439");
+        "VQ:2016-00000224");
 
-    qbGrfg("G53",
-        "{Qvfcngpu Cntr} 951  2015-00000438 805 R  7GU FG Qryy Encvqf 1 QE Pneqvnp Neerfg C1 2015-00000438",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 1",
-        "NQQE:805 R 7GU FG",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Pneqvnp Neerfg C1",
-        "VQ:2015-00000438");
-
-    qbGrfg("G55",
-        "{Qvfcngpu Cntr} 951  2015-00000436 909 VBJN NIR QRYY ENCVQF UBFCVGNY Qryy Encvqf 2 QE Genafsre C3 2015-00000436",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:909 VBJN NIR",
-        "CYNPR:QRYY ENCVQF UBFCVGNY",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Genafsre C3",
-        "VQ:2015-00000436");
-
-    qbGrfg("G56",
-        "{Qvfcngpu Cntr} 951  2015-00000269 106 FCEVAT ZRNQBJ QE 4 Qryy Encvqf 2 QE Pbai Frvmher C3 2015-00000269",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:106 FCEVAT ZRNQBJ QE",
-        "NCG:4",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Pbai Frvmher C3",
-        "VQ:2015-00000269");
-
-    qbGrfg("G57",
-        "{Qvfcngpu Cntr} 951  2015-00018877 909 VBJN NIR QRYY ENCVQF UBFCVGNY Qryy Encvqf 2 QE Genafsre C3 2015-00018877",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:909 VBJN NIR",
-        "CYNPR:QRYY ENCVQF UBFCVGNY",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Genafsre C3",
-        "VQ:2015-00018877");
-
-    qbGrfg("G58",
-        "{Qvfcngpu Cntr} 951  2015-00000159 24892 477GU NIR Onygvp 5 QE Snyyf C2 2015-00000159",
-        "FEP:951",
-        "ZNC:Onygvp 5",
-        "NQQE:24892 477GU NIR",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Snyyf C2",
-        "VQ:2015-00000159");
-
-    qbGrfg("G59",
-        "{Qvfcngpu Cntr} 951  2015-00000268 200 J  10GU FG 207 Qryy Encvqf 2 QE Purfg Cnva C2 2015-00000268",
-        "FEP:951",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:200 J 10GU FG",
-        "NCG:207",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Purfg Cnva C2",
-        "VQ:2015-00000268");
-
-    qbGrfg("G60",
-        "{Qvfcngpu Cntr} 952  2015-00018744 46741 252AQ FG Ylbaf 5 ON Hax Ceboyrz C3 2015-00018744",
+    qbGrfg("G67",
+        "{Qvfcngpu Cntr} 952  2016-00000012 46741 252AQ FG Ylbaf 5 ON Snyyf C3 2016-00000012",
         "FEP:952",
         "ZNC:Ylbaf 5",
         "NQQE:46741 252AQ FG",
         "PVGL:ONYGVP",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000012");
+
+    qbGrfg("G68",
+        "{Qvfcngpu Cntr} 951  2016-00000012 46741 252AQ FG Ylbaf 5 ON Snyyf C3 2016-00000012",
+        "FEP:951",
+        "ZNC:Ylbaf 5",
+        "NQQE:46741 252AQ FG",
+        "PVGL:ONYGVP",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000012");
+
+    qbGrfg("G69",
+        "{Qvfcngpu Cntr} 952  2016-00008056 J  3EQ FG CEBFCRPG NIR Qryy Encvqf 2 QE Vawhel Nppvqrag C3 2016-00008056",
+        "FEP:952",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:J 3EQ FG & CEBFCRPG NIR",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00008056");
+
+    qbGrfg("G70",
+        "{Qvfcngpu Cntr} 951  2016-00008056 J  3EQ FG CEBFCRPG NIR Qryy Encvqf 2 QE Vawhel Nppvqrag C3 2016-00008056",
+        "FEP:951",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:J 3EQ FG & CEBFCRPG NIR",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00008056");
+
+    qbGrfg("G71",
+        "{Qvfcngpu Cntr} 951  2016-00000221 1400 GUERFURE QE Qryyf Ahefvat & Eruno Qryy Encvqf 2 QE Genafsre C2 j/bhg sver 2016-00000221",
+        "FEP:951",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:1400 GUERFURE QE",
+        "CYNPR:Qryyf Ahefvat & Eruno",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Genafsre C2 j/bhg sver",
+        "VQ:2016-00000221");
+
+    qbGrfg("G72",
+        "{Qvfcngpu Cntr} 951  2016-00007870 226 ABEGU CY Onygvp 2 ON Hapbafp/Snvag C2 2016-00007870",
+        "FEP:951",
+        "ZNC:Onygvp 2",
+        "NQQE:226 ABEGU CY",
+        "PVGL:ONYGVP",
+        "PNYY:Hapbafp/Snvag C2",
+        "VQ:2016-00007870");
+
+    qbGrfg("G73",
+        "{Qvfcngpu Cntr} 951  2016-00000219 46842 249GU FG Pbygba 5 QE Hax Ceboyrz C3 2016-00000219",
+        "FEP:951",
+        "ZNC:Pbygba 5",
+        "NQQE:46842 249GU FG",
+        "PVGL:QRYY ENCVQF",
         "PNYY:Hax Ceboyrz C3",
-        "VQ:2015-00018744");
-
-    qbGrfg("G61",
-        "{Qvfcngpu Cntr} 952  2015-00000077 706 R  1FG FG 5 Pbygba Pvgl PB Purfg Cnva C2 2015-00000077",
-        "FEP:952",
-        "ZNC:Pbygba Pvgl",
-        "NQQE:706 R 1FG FG",
-        "NCG:5",
-        "PVGL:PBYGBA",
-        "PNYY:Purfg Cnva C2",
-        "VQ:2015-00000077");
-
-    qbGrfg("G62",
-        "{Qvfcngpu Cntr} 952  2015-00000267 200 J  10GU FG 207 Qryy Encvqf 2 QE Snyyf C2 2015-00000267",
-        "FEP:952",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:200 J 10GU FG",
-        "NCG:207",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Snyyf C2",
-        "VQ:2015-00000267");
-
-    qbGrfg("G63",
-        "{Qvfcngpu Cntr} 952  2015-00000266 V 29 ZZ 98 Qryy Encvqf 2 QE Vawhel Nppvqrag / Ebyybire 2015-00000266",
-        "FEP:952",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:V 29 ZZ 98",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Vawhel Nppvqrag / Ebyybire",
-        "VQ:2015-00000266");
-
-    qbGrfg("G64",
-        "{Qvfcngpu Cntr} 952  2015-00018513 309 J 4GU FG Qryy Encvqf 2 QE Purfg Cnva C2 2015-00018513",
-        "FEP:952",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:309 J 4GU FG",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Purfg Cnva C2",
-        "VQ:2015-00018513");
-
-    qbGrfg("G65",
-        "{Qvfcngpu Cntr} 952  2015-00000426 909 VBJN NIR QRYY ENCVQF UBFCVGNY Qryy Encvqf 2 QE Genafsre C3 2015-00000426",
-        "FEP:952",
-        "ZNC:Qryy Encvqf 2",
-        "NQQE:909 VBJN NIR",
-        "CYNPR:QRYY ENCVQF UBFCVGNY",
-        "PVGL:QRYY ENCVQF",
-        "PNYY:Genafsre C3",
-        "VQ:2015-00000426");
+        "VQ:2016-00000219");
 
   }
 
   @Grfg
   choyvp ibvq grfgZRQFgneNzohynapr() {
 
-    qbGrfg("G1",
-        "{Qvfcngpu Cntr} 930 OE  2016-00000099 901 F AVPUBYNF NIR Oenaqba 1 OE Zrqvpny Rzretrapl 2016-00000099",
+    qbGrfg("K1",
+        "{Qvfcngpu Cntr} 930  2016-00000056 R UJL 42 F  CREEL CY Fcyvgebpx 3 FS Vawhel Nppvqrag / Ebyybire 2016-00000056",
         "FEP:930",
-        "HAVG:OE",
+        "ZNC:Fcyvgebpx 3",
+        "NQQE:R UJL 42 & F CREEL CY",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Vawhel Nppvqrag / Ebyybire",
+        "VQ:2016-00000056");
+
+    qbGrfg("K2",
+        "{Qvfcngpu Cntr} 930  2016-00006826 300 J  33EQ FG Dhnq FR1P FS Pneqvnp Neerfg C3 2016-00006826",
+        "FEP:930",
+        "NQQE:300 J 33EQ FG",
+        "ZNC:Dhnq FR1P",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pneqvnp Neerfg C3",
+        "VQ:2016-00006826");
+
+    qbGrfg("K3",
+        "{Qvfcngpu Cntr} 930  2016-00000502 401 R  ORRPUAHG FG Oenaqba 1 OE Bireqbfr C3 2016-00000502",
+        "FEP:930",
         "ZNC:Oenaqba 1",
-        "NQQE:901 F AVPUBYNF NIR",
+        "NQQE:401 R ORRPUAHG FG",
         "PVGL:OENAQBA",
-        "PNYY:Zrqvpny Rzretrapl",
-        "VQ:2016-00000099");
+        "PNYY:Bireqbfr C3",
+        "VQ:2016-00000502");
+
+    qbGrfg("K4",
+        "{Qvfcngpu Cntr} 930  2016-00006788 400 R  26GU FG ZPXRAANA CNEX Dhnq FR1O_3 FS Hapbafp/Snvag C2 2016-00006788",
+        "FEP:930",
+        "NQQE:400 R 26GU FG",
+        "CYNPR:ZPXRAANA CNEX",
+        "ZNC:Dhnq FR1O_3",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Hapbafp/Snvag C2",
+        "VQ:2016-00006788");
+
+    qbGrfg("K5",
+        "{Qvfcngpu Cntr} 930  2016-00054379 5009 J  RDHRFGEVNA CY 1206 Dhnq FJ6O FS Pneqvnp Neerfg C3 2016-00054379",
+        "FEP:930",
+        "NQQE:5009 J RDHRFGEVNA CY",
+        "NCG:1206",
+        "ZNC:Dhnq FJ6O",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pneqvnp Neerfg C3",
+        "VQ:2016-00054379");
+
+    qbGrfg("G1",
+        "{Qvfcngpu Cntr} 930  2016-00000178 200 F 5GU NIR Oenaqba 1 OE Oernguvat Cebo C2 2016-00000178",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:200 F 5GU NIR",
+        "PVGL:OENAQBA",
+        "PNYY:Oernguvat Cebo C2",
+        "VQ:2016-00000178");
 
     qbGrfg("G2",
-        "{Qvfcngpu Cntr} 930  2016-00000097 305 F 4GU NIR Oenaqba 1 OE Fvpx Crefba C3 2016-00000097",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:305 F 4GU NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Fvpx Crefba C3",
-        "VQ:2016-00000097");
+        "{Qvfcngpu Cntr} 940  2016-00000059 1000 NAQERJ QE Pebbxf 3 PE Hapbafp/Snvag C1 2016-00000059",
+        "FEP:940",
+        "ZNC:Pebbxf 3",
+        "NQQE:1000 NAQERJ QE",
+        "PVGL:PEBBXF",
+        "PNYY:Hapbafp/Snvag C1",
+        "VQ:2016-00000059");
 
     qbGrfg("G3",
-        "{Qvfcngpu Cntr} 930 OE  2016-00000026 48397 257GU FG Oenaqba 4 TA Pbai Frvmher C2 2016-00000026",
-        "FEP:930",
-        "HAVG:OE",
-        "ZNC:Oenaqba 4",
-        "NQQE:48397 257GU FG",
-        "PVGL:TNEERGFBA",
-        "PNYY:Pbai Frvmher C2",
-        "VQ:2016-00000026");
+        "{Qvfcngpu Cntr} 940  2016-00053690 6005 J  FVBHK X PG Dhnq FJ7O FS Pneqvnp Neerfg C1 2016-00053690",
+        "FEP:940",
+        "NQQE:6005 J FVBHK X PG",
+        "ZNC:Dhnq FJ7O",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pneqvnp Neerfg C1",
+        "VQ:2016-00053690");
 
     qbGrfg("G4",
-        "{Qvfcngpu Cntr} 940  2016-00000025 47135 260GU FG ZpPebffna Oblf Enapu Pebbxf 3 FS Qvnorgvp C3 2016-00000025",
-        "FEP:940",
-        "ZNC:Pebbxf 3",
-        "NQQE:47135 260GU FG",
-        "CYNPR:ZpPebffna Oblf Enapu",
+        "{Qvfcngpu Cntr} 930  2016-00000099 25797 GBJAIVRJ NIR Eraare 3 FS Urneg Ceboyrzf C3 2016-00000099",
+        "FEP:930",
+        "NQQE:25797 GBJAIVRJ NIR",
+        "ZNC:Eraare 3",
         "PVGL:FVBHK SNYYF",
-        "PNYY:Qvnorgvp C3",
-        "VQ:2016-00000025");
+        "PNYY:Urneg Ceboyrzf C3",
+        "VQ:2016-00000099");
 
     qbGrfg("G5",
-        "{Qvfcngpu Cntr} 930  2016-00000024 3012 R NFCRA OYIQ 14 Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2016-00000024",
+        "{Qvfcngpu Cntr} 930  2016-00000489 3012 R NFCRA OYIQ Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2016-00000489",
         "FEP:930",
         "ZNC:Oenaqba 1",
         "NQQE:3012 R NFCRA OYIQ",
-        "NCG:14",
         "CYNPR:Orgunal Ubzr",
         "PVGL:OENAQBA",
         "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2016-00000024");
+        "VQ:2016-00000489");
 
     qbGrfg("G6",
-        "{Qvfcngpu Cntr} 930  2016-00000519 2100 J  60GU FG A Eraare 9 FS Fgehpgher Sver 2016-00000519",
+        "{Qvfcngpu Cntr} 930  2016-00000488 25974 480GU NIR Oenaqba 5 OE Snyyf C3 2016-00000488",
         "FEP:930",
-        "NQQE:2100 J 60GU FG",
-        "CYNPR:A Eraare 9",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2016-00000519");
+        "ZNC:Oenaqba 5",
+        "NQQE:25974 480GU NIR",
+        "PVGL:OENAQBA",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000488");
 
     qbGrfg("G7",
-        "{Qvfcngpu Cntr}  2016-00000022 26098 468GU NIR Pebbxf 4 FS Urzbeeuntr C3 2016-00000022",
-        "ZNC:Pebbxf 4",
-        "NQQE:26098 468GU NIR",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Urzbeeuntr C3",
-        "VQ:2016-00000022");
+        "{Qvfcngpu Cntr} 930  2016-00000176 V 90 ZZ 406 Oenaqba 1 Nyyretvrf C2 2016-00000176",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:V 90 ZZ 406",
+        "PNYY:Nyyretvrf C2",
+        "VQ:2016-00000176");
 
     qbGrfg("G8",
-        "{Qvfcngpu Cntr} 930  2016-00000022 26117 486GU NIR Inyyrl Fcevatf 2 IF Urzbeeuntr C3 2016-00000022",
+        "{Qvfcngpu Cntr} 930  2016-00000175 410 J CNEX FG 19R Ovt Fvbhk Erp Oenaqba 7 OE Purfg Cnva C2 2016-00000175",
         "FEP:930",
-        "ZNC:Inyyrl Fcevatf 2",
-        "NQQE:26117 486GU NIR",
-        "PVGL:INYYRL FCEVATF",
-        "PNYY:Urzbeeuntr C3",
-        "VQ:2016-00000022");
-
-    qbGrfg("G9",
-        "{Qvfcngpu Cntr} 930  2016-00000021 410 A 9GU NIR Oenaqba 1 OE Fvpx Crefba C3 2016-00000021",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:410 A 9GU NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Fvpx Crefba C3",
-        "VQ:2016-00000021");
-
-    qbGrfg("G10",
-        "{Qvfcngpu Cntr} 930  2016-00000006 1100 R GRNXJBBQ FG 7 Fcyvgebpx Ncnegzragf Oenaqba 1 OE Pbai Frvmher C2 2016-00000006",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:1100 R GRNXJBBQ FG",
-        "NCG:7",
-        "CYNPR:Fcyvgebpx Ncnegzragf",
-        "PVGL:OENAQBA",
-        "PNYY:Pbai Frvmher C2",
-        "VQ:2016-00000006");
-
-    qbGrfg("G11",
-        "{Qvfcngpu Cntr}  2016-00000419 254GU FG 475GU NIR Zvqjnl Pbeare Onygvp 17 ON Vawhel Nppvqrag C3 2016-00000419",
-        "ZNC:Onygvp 17",
-        "NQQE:254GU FG & 475GU NIR",
-        "CYNPR:Zvqjnl Pbeare",
-        "PVGL:ONYGVP",
-        "PNYY:Vawhel Nppvqrag C3",
-        "VQ:2016-00000419");
-
-    qbGrfg("G12",
-        "{Qvfcngpu Cntr} 930  2016-00000419 475GU NIR 254GU FG Onygvp 17 ON Vawhel Nppvqrag C3 2016-00000419",
-        "FEP:930",
-        "ZNC:Onygvp 17",
-        "NQQE:475GU NIR & 254GU FG",
-        "PVGL:ONYGVP",
-        "PNYY:Vawhel Nppvqrag C3",
-        "VQ:2016-00000419");
-
-    qbGrfg("G13",
-        "{Qvfcngpu Cntr}  2016-00000018 V 90 ZZ 412 Inyyrl Fcevatf 2 Vawhel Nppvqrag / Ebyybire 2016-00000018",
-        "ZNC:Inyyrl Fcevatf 2",
-        "NQQE:V 90 ZZ 412",
-        "PNYY:Vawhel Nppvqrag / Ebyybire",
-        "VQ:2016-00000018");
-
-    qbGrfg("G14",
-        "{Qvfcngpu Cntr}  2016-00000018 V 90 ZZ 412 Inyyrl Fcevatf 2 Zrqvpny Rzretrapl 2016-00000018",
-        "ZNC:Inyyrl Fcevatf 2",
-        "NQQE:V 90 ZZ 412",
-        "PNYY:Zrqvpny Rzretrapl",
-        "VQ:2016-00000018");
-
-    qbGrfg("G15",
-        "{Qvfcngpu Cntr} 930  2016-00000018 V 90 ZZ 412 Inyyrl Fcevatf 2 IF Vawhel Nppvqrag / Ebyybire 2016-00000018",
-        "FEP:930",
-        "ZNC:Inyyrl Fcevatf 2",
-        "NQQE:V 90 ZZ 412",
-        "PVGL:INYYRL FCEVATF",
-        "PNYY:Vawhel Nppvqrag / Ebyybire",
-        "VQ:2016-00000018");
-
-    qbGrfg("G16",
-        "{Qvfcngpu Cntr} 930  2016-00000004 2804 F  EVIRE OYHSS EQ Fcyvgebpx 3 FS Pbai Frvmher C2 2016-00000004",
-        "FEP:930",
-        "ZNC:Fcyvgebpx 3",
-        "NQQE:2804 F EVIRE OYHSS EQ",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Pbai Frvmher C2",
-        "VQ:2016-00000004");
-
-    qbGrfg("G17",
-        "{Qvfcngpu Cntr} 930  2016-00000015 301 F  FCYVGEBPX OYIQ Oenaqba Inyyrl Uvtu Fpubby Oenaqba 1 OE Pbai Frvmher C2 2016-00000015",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:301 F FCYVGEBPX OYIQ",
-        "CYNPR:Oenaqba Inyyrl Uvtu Fpubby",
-        "PVGL:OENAQBA",
-        "PNYY:Pbai Frvmher C2",
-        "VQ:2016-00000015");
-
-    qbGrfg("G18",
-        "{Qvfcngpu Cntr} 940  2016-00000014 2808 J  84GU FG A Eraare 8 FS Vawhel Nppvqrag C3 2016-00000014",
-        "FEP:940",
-        "NQQE:2808 J 84GU FG",
-        "CYNPR:A Eraare 8",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Vawhel Nppvqrag C3",
-        "VQ:2016-00000014");
-
-    qbGrfg("G19",
-        "{Qvfcngpu Cntr} 930  2016-00000004 705 F 8GU NIR Evqtrivrj Ncnegzragf Oenaqba 1 OE Fgebxr C2 2016-00000004",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:705 F 8GU NIR",
-        "CYNPR:Evqtrivrj Ncnegzragf",
-        "PVGL:OENAQBA",
-        "PNYY:Fgebxr C2",
-        "VQ:2016-00000004");
-
-    qbGrfg("G20",
-        "{Qvfcngpu Cntr} 940  2016-00000012 265GU FG 455GU NIR Havba Pragre Uhzobyqg 5 UH NYF Vagreprcg 2016-00000012",
-        "FEP:940",
-        "NQQE:265GU FG & 455GU NIR",
-        "CYNPR:Havba Pragre Uhzobyqg 5",
-        "PVGL:UHZOBYG",
-        "PNYY:NYF Vagreprcg",
-        "VQ:2016-00000012");
-
-    qbGrfg("G21",
-        "{Qvfcngpu Cntr} 930  2016-00000011 2216 A VAQVNA UVYYF GEY Fcyvgebpx 1 FS Pbai Frvmher C3 2016-00000011",
-        "FEP:930",
-        "ZNC:Fcyvgebpx 1",
-        "NQQE:2216 A VAQVNA UVYYF GEY",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Pbai Frvmher C3",
-        "VQ:2016-00000011");
-
-    qbGrfg("G22",
-        "{Qvfcngpu Cntr} 930  2016-00000002 26605 482AQ NIR Fcyvgebpx 4 OE Fvpx Crefba C2 2016-00000002",
-        "FEP:930",
-        "ZNC:Fcyvgebpx 4",
-        "NQQE:26605 482AQ NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Fvpx Crefba C2",
-        "VQ:2016-00000002");
-
-    qbGrfg("G23",
-        "{Qvfcngpu Cntr} 930  2016-00000009 1103 A FCYVGEBPX OYIQ 300 Ubyvqnl Vaa Oenaqba Oenaqba 1 OE Fvpx Crefba C3 2016-00000009",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:1103 A FCYVGEBPX OYIQ",
-        "NCG:300",
-        "CYNPR:Ubyvqnl Vaa Oenaqba",
-        "PVGL:OENAQBA",
-        "PNYY:Fvpx Crefba C3",
-        "VQ:2016-00000009");
-
-    qbGrfg("G24",
-        "{Qvfcngpu Cntr} 940  2016-00000173 900 A  RYYVF EQ Dhnq AJ10O FS Pbai Frvmher C2 2016-00000173",
-        "FEP:940",
-        "NQQE:900 A RYYVF EQ",
-        "CYNPR:Dhnq AJ10O",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Pbai Frvmher C2",
-        "VQ:2016-00000173");
-
-    qbGrfg("G25",
-        "{Qvfcngpu Cntr} 940  2016-00000003 V 90 V 29 Eraare 9 FS Vawhel Nppvqrag C3 + Sver 2016-00000003",
-        "FEP:940",
-        "NQQE:V 90 & V 29",
-        "CYNPR:Eraare 9",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Vawhel Nppvqrag C3 + Sver",
-        "VQ:2016-00000003");
-
-    qbGrfg("G26",
-        "{Qvfcngpu Cntr} 930  2016-00000002 1037 R URNGUREJBBQ QE Oenaqba 1 OE Fvpx Crefba C2 2016-00000002",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:1037 R URNGUREJBBQ QE",
-        "PVGL:OENAQBA",
-        "PNYY:Fvpx Crefba C2",
-        "VQ:2016-00000002");
-
-    qbGrfg("G27",
-        "{Qvfcngpu Cntr} 930  2016-00000033 212 F 7GU NIR Oenaqba 1 OE Fgehpgher Sver 2016-00000033",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:212 F 7GU NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2016-00000033");
-
-    qbGrfg("G28",
-        "{Qvfcngpu Cntr} 930  2016-00000004 1000 R GRNXJBBQ FG Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Fvpx Crefba C3 2016-00000004",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:1000 R GRNXJBBQ FG",
-        "CYNPR:Urycvat Unaqf Nffvfgrq Yvivat",
-        "PVGL:OENAQBA",
-        "PNYY:Fvpx Crefba C3",
-        "VQ:2016-00000004");
-
-    qbGrfg("G29",
-        "{Qvfcngpu Cntr} 940  2016-00000003 265GU FG 466GU NIR Unegsbeq 7 FS NYF Vagreprcg 2016-00000003",
-        "FEP:940",
-        "NQQE:265GU FG & 466GU NIR",
-        "CYNPR:Unegsbeq 7",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:NYF Vagreprcg",
-        "VQ:2016-00000003");
-
-    qbGrfg("G30",
-        "{Qvfcngpu Cntr}  2016-00000001 V 90 ZZ 396 Pebbxf 3 Vawhel Nppvqrag / Ebyybire 2016-00000001",
-        "ZNC:Pebbxf 3",
-        "NQQE:V 90 ZZ 396",
-        "PNYY:Vawhel Nppvqrag / Ebyybire",
-        "VQ:2016-00000001");
-
-    qbGrfg("G31",
-        "{Qvfcngpu Cntr}  2016-00000001 V 90 ZZ 396 Pebbxf 3 FS Vawhel Nppvqrag / Ebyybire 2016-00000001",
-        "ZNC:Pebbxf 3",
-        "NQQE:V 90 ZZ 396",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Vawhel Nppvqrag / Ebyybire",
-        "VQ:2016-00000001");
-
-    qbGrfg("G32",
-        "{Qvfcngpu Cntr} 940  2016-00000001 V 90 ZZ 396 Pebbxf 3 Vawhel Nppvqrag / Ebyybire 2016-00000001",
-        "FEP:940",
-        "ZNC:Pebbxf 3",
-        "NQQE:V 90 ZZ 396",
-        "PNYY:Vawhel Nppvqrag / Ebyybire",
-        "VQ:2016-00000001");
-
-    qbGrfg("G33",
-        "{Qvfcngpu Cntr} 930  2016-00000001 26605 482AQ NIR Fcyvgebpx 4 OE Onpx Cnva C3 2016-00000001",
-        "FEP:930",
-        "ZNC:Fcyvgebpx 4",
-        "NQQE:26605 482AQ NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Onpx Cnva C3",
-        "VQ:2016-00000001");
-
-    qbGrfg("G34",
-        "{Qvfcngpu Cntr} 930  2015-00000881 504 JBBQ FG Inyyrl Fcevatf 2 IF Fvpx Crefba C3 2015-00000881",
-        "FEP:930",
-        "ZNC:Inyyrl Fcevatf 2",
-        "NQQE:504 JBBQ FG",
-        "PVGL:INYYRL FCEVATF",
-        "PNYY:Fvpx Crefba C3",
-        "VQ:2015-00000881");
-
-    qbGrfg("G35",
-        "{Qvfcngpu Cntr} 930  2015-00000880 1000 R GRNXJBBQ FG 24 Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Yvsg Nffvfg 2015-00000880",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:1000 R GRNXJBBQ FG",
-        "NCG:24",
-        "CYNPR:Urycvat Unaqf Nffvfgrq Yvivat",
-        "PVGL:OENAQBA",
-        "PNYY:Yvsg Nffvfg",
-        "VQ:2015-00000880");
-
-    qbGrfg("G36",
-        "{Qvfcngpu Cntr} 930  2015-00019720 R  NEEBJURNQ CXJL F  PBZZREPR NIR Fcyvgebpx 3 FS Vawhel Nppvqrag C3 2015-00019720",
-        "FEP:930",
-        "ZNC:Fcyvgebpx 3",
-        "NQQE:R NEEBJURNQ CXJL & F PBZZREPR NIR",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Vawhel Nppvqrag C3",
-        "VQ:2015-00019720");
-
-    qbGrfg("G37",
-        "{Qvfcngpu Cntr} 930  2015-00000401 1000 R GRNXJBBQ FG 8 Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Urneg Ceboyrzf C2 2015-00000401",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:1000 R GRNXJBBQ FG",
-        "NCG:8",
-        "CYNPR:Urycvat Unaqf Nffvfgrq Yvivat",
-        "PVGL:OENAQBA",
-        "PNYY:Urneg Ceboyrzf C2",
-        "VQ:2015-00000401");
-
-    qbGrfg("G38",
-        "{Qvfcngpu Cntr} 930  2015-00000877 1000 R GRNXJBBQ FG 24 Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Fvpx Crefba C3 2015-00000877",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:1000 R GRNXJBBQ FG",
-        "NCG:24",
-        "CYNPR:Urycvat Unaqf Nffvfgrq Yvivat",
-        "PVGL:OENAQBA",
-        "PNYY:Fvpx Crefba C3",
-        "VQ:2015-00000877");
-
-    qbGrfg("G39",
-        "{Qvfcngpu Cntr} 940  2015-00000133 V 29 ZZ 85 Eraare 9 Vawhel Nppvqrag / Ebyybire 2015-00000133",
-        "FEP:940",
-        "NQQE:V 29 ZZ 85",
-        "PNYY:Eraare 9 Vawhel Nppvqrag / Ebyybire",
-        "VQ:2015-00000133");
-
-    qbGrfg("G40",
-        "{Qvfcngpu Cntr} 930  2015-00000874 3012 R NFCRA OYIQ 13 Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000874",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:3012 R NFCRA OYIQ",
-        "NCG:13",
-        "CYNPR:Orgunal Ubzr",
-        "PVGL:OENAQBA",
-        "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000874");
-
-    qbGrfg("G41",
-        "{Qvfcngpu Cntr} 930  2015-00000131 25734 XVJNAVF NIR Eraare 1 ER Oernguvat Cebo C2 2015-00000131",
-        "FEP:930",
-        "NQQE:25734 XVJNAVF NIR",
-        "CYNPR:Eraare 1",
-        "PVGL:ERAARE",
-        "PNYY:Oernguvat Cebo C2",
-        "VQ:2015-00000131");
-
-    qbGrfg("G42",
-        "{Qvfcngpu Cntr} 930  2015-00003506 301 F  FCYVGEBPX OYIQ OENAQBA INYYRL UVTU FPUBBY Oenaqba 1 OE Fgehpgher Sver 2015-00003506",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:301 F FCYVGEBPX OYIQ",
-        "CYNPR:OENAQBA INYYRL UVTU FPUBBY",
-        "PVGL:OENAQBA",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2015-00003506");
-
-    qbGrfg("G43",
-        "{Qvfcngpu Cntr} 930  2015-00000398 1201 R XRLFGBAR CY 111 Erqjbbq Pbheg (1201) Oenaqba 1 OE Yvsg Nffvfg 2015-00000398",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:1201 R XRLFGBAR CY",
-        "NCG:111",
-        "CYNPR:Erqjbbq Pbheg (1201)",
-        "PVGL:OENAQBA",
-        "PNYY:Yvsg Nffvfg",
-        "VQ:2015-00000398");
-
-    qbGrfg("G44",
-        "{Qvfcngpu Cntr} 930  2015-00000870 2704 F  TRBETR FG Fcyvgebpx 3 FS Snyyf C3 2015-00000870",
-        "FEP:930",
-        "ZNC:Fcyvgebpx 3",
-        "NQQE:2704 F TRBETR FG",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Snyyf C3",
-        "VQ:2015-00000870");
-
-    qbGrfg("G45",
-        "{Qvfcngpu Cntr} 930  2015-00000397 1708 F EVIRE BNX NIR Oenaqba 1 OE Fgehpgher Sver 2015-00000397",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:1708 F EVIRE BNX NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2015-00000397");
-
-    qbGrfg("G46",
-        "{Qvfcngpu Cntr} 930  2015-00000111 26117 486GU NIR Inyyrl Fcevatf 2 IF Yvsg Nffvfg 2015-00000111",
-        "FEP:930",
-        "ZNC:Inyyrl Fcevatf 2",
-        "NQQE:26117 486GU NIR",
-        "PVGL:INYYRL FCEVATF",
-        "PNYY:Yvsg Nffvfg",
-        "VQ:2015-00000111");
-
-    qbGrfg("G47",
-        "{Qvfcngpu Cntr} 930  2015-00019553 26605 482AQ NIR Fcyvgebpx 4 OE Oernguvat Cebo C1 2015-00019553",
-        "FEP:930",
-        "ZNC:Fcyvgebpx 4",
-        "NQQE:26605 482AQ NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Oernguvat Cebo C1",
-        "VQ:2015-00019553");
-
-    qbGrfg("G48",
-        "{Qvfcngpu Cntr} 930  2015-00000866 3012 R NFCRA OYIQ 3 Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000866",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:3012 R NFCRA OYIQ",
-        "NCG:3",
-        "CYNPR:Orgunal Ubzr",
-        "PVGL:OENAQBA",
-        "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000866");
-
-    qbGrfg("G49",
-        "{Qvfcngpu Cntr} 940  2015-00000274 26117 466GU NIR Unegsbeq 4 UQ Fgebxr C2 2015-00000274",
-        "FEP:940",
-        "NQQE:26117 466GU NIR",
-        "CYNPR:Unegsbeq 4",
-        "PNYY:Fgebxr C2",
-        "VQ:2015-00000274");
-
-    qbGrfg("G50",
-        "{Qvfcngpu Cntr} 930  2015-00003492 101 F  GRGBA QE 8 Oenaqba Ncnegzragf (101) Oenaqba 1 OE Hapbafp/Snvag C3 2015-00003492",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:101 F GRGBA QE",
-        "NCG:8",
-        "CYNPR:Oenaqba Ncnegzragf (101)",
-        "PVGL:OENAQBA",
-        "PNYY:Hapbafp/Snvag C3",
-        "VQ:2015-00003492");
-
-    qbGrfg("G51",
-        "{Qvfcngpu Cntr} 930  2015-00000863 3008 R NFCRA OYIQ 309 Orgunal Zrnqbjf Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000863",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:3008 R NFCRA OYIQ",
-        "NCG:309",
-        "CYNPR:Orgunal Zrnqbjf",
-        "PVGL:OENAQBA",
-        "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000863");
-
-    qbGrfg("G52",
-        "{Qvfcngpu Cntr} 930  2015-00000862 3012 R NFCRA OYIQ ORGUNAL UBZR Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000862",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:3012 R NFCRA OYIQ",
-        "CYNPR:ORGUNAL UBZR",
-        "PVGL:OENAQBA",
-        "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000862");
-
-    qbGrfg("G53",
-        "{Qvfcngpu Cntr} 930  2015-00000861 1505 R  60GU FG A Dhnq AR3U FS Snyyf C3 2015-00000861",
-        "FEP:930",
-        "NQQE:1505 R 60GU FG",
-        "CYNPR:A Dhnq AR3U",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Snyyf C3",
-        "VQ:2015-00000861");
-
-    qbGrfg("G54",
-        "{Qvfcngpu Cntr} 930  2015-00000396 3012 R NFCRA OYIQ Orgunal Ubzr Oenaqba 1 OE Oernguvat Cebo C1 2015-00000396",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:3012 R NFCRA OYIQ",
-        "CYNPR:Orgunal Ubzr",
-        "PVGL:OENAQBA",
-        "PNYY:Oernguvat Cebo C1",
-        "VQ:2015-00000396");
-
-    qbGrfg("G55",
-        "{Qvfcngpu Cntr} 930  2015-00000859 7201 R  CVAR YNXR QE Fcyvgebpx 1 FS Hax Ceboyrz C3 2015-00000859",
-        "FEP:930",
-        "ZNC:Fcyvgebpx 1",
-        "NQQE:7201 R CVAR YNXR QE",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Hax Ceboyrz C3",
-        "VQ:2015-00000859");
-
-    qbGrfg("G59",
-        "{Qvfcngpu Cntr} 940  2015-00019477 400 F  AVPBYR NIR Pebbxf 3 PE Cflpu/Fhvpvqr CQ 2015-00019477",
-        "FEP:940",
-        "ZNC:Pebbxf 3",
-        "NQQE:400 F AVPBYR NIR",
-        "PVGL:PEBBXF",
-        "PNYY:Cflpu/Fhvpvqr CQ",
-        "VQ:2015-00019477");
-
-    qbGrfg("G60",
-        "{Qvfcngpu Cntr} 930  2015-00000395 501 F 5GU NIR Oenaqba 1 OE Oernguvat Cebo C2 2015-00000395",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:501 F 5GU NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Oernguvat Cebo C2",
-        "VQ:2015-00000395");
-
-    qbGrfg("G61",
-        "{Qvfcngpu Cntr} 930  2015-00000856 1000 R GRNXJBBQ FG 18 Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Snyyf C3 2015-00000856",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:1000 R GRNXJBBQ FG",
-        "NCG:18",
-        "CYNPR:Urycvat Unaqf Nffvfgrq Yvivat",
-        "PVGL:OENAQBA",
-        "PNYY:Snyyf C3",
-        "VQ:2015-00000856");
-
-    qbGrfg("G62",
-        "{Qvfcngpu Cntr} 930  2015-00000394 419 A 9GU NIR Oenaqba 1 OE Urneg Ceboyrzf C2 2015-00000394",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:419 A 9GU NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Urneg Ceboyrzf C2",
-        "VQ:2015-00000394");
-
-    qbGrfg("G63",
-        "{Qvfcngpu Cntr} 930  2015-00000140 R  26GU FG F  EVIRE OYHSS EQ Fcyvgebpx 3 FS Vawhel Nppvqrag / Rkgevpngvba 2015-00000140",
-        "FEP:930",
-        "ZNC:Fcyvgebpx 3",
-        "NQQE:R 26GU FG & F EVIRE OYHSS EQ",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Vawhel Nppvqrag / Rkgevpngvba",
-        "VQ:2015-00000140");
-
-    qbGrfg("G64",
-        "{Qvfcngpu Cntr} 930  2015-00000140 1600 F  EVIRE OYHSS EQ NEEBJURNQ CNEX Fcyvgebpx 3 FS Zrqvpny Rzretrapl 2015-00000140",
-        "FEP:930",
-        "ZNC:Fcyvgebpx 3",
-        "NQQE:1600 F EVIRE OYHSS EQ",
-        "CYNPR:NEEBJURNQ CNEX",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Zrqvpny Rzretrapl",
-        "VQ:2015-00000140");
-
-    qbGrfg("G65",
-        "{Qvfcngpu Cntr} OE 930  2015-00000392 2502 R NHTHFGN FG Oenaqba 1 OE Purfg Cnva C2 2015-00000392",
-        "FEP:930",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:2502 R NHTHFGN FG",
+        "ZNC:Oenaqba 7",
+        "NQQE:410 J CNEX FG",
+        "NCG:19R",
+        "CYNPR:Ovt Fvbhk Erp",
         "PVGL:OENAQBA",
         "PNYY:Purfg Cnva C2",
-        "VQ:2015-00000392");
+        "VQ:2016-00000175");
 
-    qbGrfg("G66",
-        "{Qvfcngpu Cntr} 930  2015-00000852 308 F 7GU NIR Oenaqba 1 OE Fgno/Thafubg C3 2015-00000852",
+    qbGrfg("G9",
+        "{Qvfcngpu Cntr} 940  2016-00006606 J  ZNQVFBA FG A  YN ZRFN QE Dhnq AJ9P FS Zna Qbja C2 + CQ 2016-00006606",
+        "FEP:940",
+        "NQQE:J ZNQVFBA FG & A YN ZRFN QE",
+        "ZNC:Dhnq AJ9P",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Zna Qbja C2 + CQ",
+        "VQ:2016-00006606");
+
+    qbGrfg("G10",
+        "{Qvfcngpu Cntr} 930  2016-00000484 101 R PRQNE FG 7 Prqne Ncnegzragf (101) Oenaqba 1 OE Pubxvat C3 2016-00000484",
         "FEP:930",
         "ZNC:Oenaqba 1",
-        "NQQE:308 F 7GU NIR",
+        "NQQE:101 R PRQNE FG",
+        "NCG:7",
+        "CYNPR:Prqne Ncnegzragf (101)",
         "PVGL:OENAQBA",
-        "PNYY:Fgno/Thafubg C3",
-        "VQ:2015-00000852");
+        "PNYY:Pubxvat C3",
+        "VQ:2016-00000484");
 
-    qbGrfg("G67",
-        "{Qvfcngpu Cntr} 940  2015-00000272 46560 264GU FG Frdhry Genafvgvba Npnqrzl Unegsbeq 7 FS Bireqbfr C2 + CQ 2015-00000272",
-        "FEP:940",
-        "NQQE:46560 264GU FG",
-        "CYNPR:Frdhry Genafvgvba Npnqrzl Unegsbeq 7",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Bireqbfr C2 + CQ",
-        "VQ:2015-00000272");
-
-    qbGrfg("G68",
-        "{Qvfcngpu Cntr} 930  2015-00000850 27065 ZHRYYRE CY Dhnq FJ7Y FS Purfg Cnva C3 2015-00000850",
+    qbGrfg("G11",
+        "{Qvfcngpu Cntr} 930  2016-00000040 26117 486GU NIR Inyyrl Fcevatf 2 IF Fvpx Crefba C2 2016-00000040",
         "FEP:930",
-        "NQQE:27065 ZHRYYRE CY",
-        "CYNPR:Dhnq FJ7Y",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Purfg Cnva C3",
-        "VQ:2015-00000850");
+        "ZNC:Inyyrl Fcevatf 2",
+        "NQQE:26117 486GU NIR",
+        "PVGL:INYYRL FCEVATF",
+        "PNYY:Fvpx Crefba C2",
+        "VQ:2016-00000040");
 
-    qbGrfg("G69",
-        "{Qvfcngpu Cntr} 930  2015-00000154 258GU FG 478GU NIR FS Vawhel Nppvqrag / Rkgevpngvba 2015-00000154",
+    qbGrfg("G12",
+        "{Qvfcngpu Cntr} 930  2016-00052534 817 F  YBJRYY NIR Dhnq FR4N FS Cflpu/Fhvpvqr C3 CQ 2016-00052534",
         "FEP:930",
-        "NQQE:258GU FG & 478GU NIR",
+        "NQQE:817 F YBJRYY NIR",
+        "ZNC:Dhnq FR4N",
         "PVGL:FVBHK SNYYF",
-        "PNYY:Vawhel Nppvqrag / Rkgevpngvba",
-        "VQ:2015-00000154");
+        "PNYY:Cflpu/Fhvpvqr C3 CQ",
+        "VQ:2016-00052534");
 
-    qbGrfg("G70",
-        "{Qvfcngpu Cntr}  2015-00000270 46290 266GU FG JNYY YNXR Unegsbeq 6 UQ Vawhel Nppvqrag C3 2015-00000270",
-        "NQQE:46290 266GU FG",
-        "CYNPR:JNYY YNXR Unegsbeq 6",
-        "PNYY:Vawhel Nppvqrag C3",
-        "VQ:2015-00000270");
-
-    qbGrfg("G71",
-        "{Qvfcngpu Cntr} 940  2015-00000270 46326 266GU FG Unegsbeq 7 UQ Vawhel Nppvqrag C3 2015-00000270",
-        "FEP:940",
-        "NQQE:46326 266GU FG",
-        "CYNPR:Unegsbeq 7",
-        "PNYY:Vawhel Nppvqrag C3",
-        "VQ:2015-00000270");
-
-    qbGrfg("G72",
-        "{Qvfcngpu Cntr} 930  2015-00000846 1000 R GRNXJBBQ FG 5n Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000846",
+    qbGrfg("G13",
+        "{Qvfcngpu Cntr} 930  2016-00000481 3012 R NFCRA OYIQ Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2016-00000481",
         "FEP:930",
         "ZNC:Oenaqba 1",
-        "NQQE:1000 R GRNXJBBQ FG",
-        "NCG:5n",
-        "CYNPR:Urycvat Unaqf Nffvfgrq Yvivat",
+        "NQQE:3012 R NFCRA OYIQ",
+        "CYNPR:Orgunal Ubzr",
         "PVGL:OENAQBA",
         "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000846");
+        "VQ:2016-00000481");
 
-    qbGrfg("G73",
-        "{Qvfcngpu Cntr} 930  2015-00000129 257GU FG QVGPU EQ Eraare 2 ER Vawhel Nppvqrag C3 2015-00000129",
+    qbGrfg("G14",
+        "{Qvfcngpu Cntr} 930  2016-00000096 6704 A  9GU NIR Eraare 11 FS Oernguvat Cebo C1 2016-00000096",
         "FEP:930",
-        "NQQE:257GU FG & QVGPU EQ",
-        "CYNPR:Eraare 2",
-        "PVGL:ERAARE",
-        "PNYY:Vawhel Nppvqrag C3",
-        "VQ:2015-00000129");
-
-    qbGrfg("G74",
-        "{Qvfcngpu Cntr} 940  2015-00000844 25807 XVJNAVF NIR Eraare 8 FS Hax Ceboyrz C3 2015-00000844",
-        "FEP:940",
-        "NQQE:25807 XVJNAVF NIR",
-        "CYNPR:Eraare 8",
+        "NQQE:6704 A 9GU NIR",
+        "ZNC:Eraare 11",
         "PVGL:FVBHK SNYYF",
-        "PNYY:Hax Ceboyrz C3",
-        "VQ:2015-00000844");
+        "PNYY:Oernguvat Cebo C1",
+        "VQ:2016-00000096");
 
-    qbGrfg("G75",
-        "{Qvfcngpu Cntr} 930  2015-00000138 26605 482AQ NIR Fcyvgebpx 4 OE Oernguvat Cebo C2 2015-00000138",
+    qbGrfg("G15",
+        "{Qvfcngpu Cntr} 940  2016-00000479 46958 256GU FG Pebbxf 1 PE Snyyf C3 2016-00000479",
+        "FEP:940",
+        "ZNC:Pebbxf 1",
+        "NQQE:46958 256GU FG",
+        "PVGL:PEBBXF",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000479");
+
+    qbGrfg("G16",
+        "{Qvfcngpu Cntr} 930  2016-00000065 7001 R  ZNQVFBA FG Fcyvgebpx 1 FS Pbai Frvmher C2 2016-00000065",
         "FEP:930",
-        "ZNC:Fcyvgebpx 4",
-        "NQQE:26605 482AQ NIR",
+        "ZNC:Fcyvgebpx 1",
+        "NQQE:7001 R ZNQVFBA FG",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pbai Frvmher C2",
+        "VQ:2016-00000065");
+
+    qbGrfg("G17",
+        "{Qvfcngpu Cntr} 930  2016-00051770 112 A  CUVYYVCF NIR 206 Dhnq AR1N FS Pneqvnp Neerfg C3 2016-00051770",
+        "FEP:930",
+        "NQQE:112 A CUVYYVCF NIR",
+        "NCG:206",
+        "ZNC:Dhnq AR1N",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pneqvnp Neerfg C3",
+        "VQ:2016-00051770");
+
+    qbGrfg("G18",
+        "{Qvfcngpu Cntr} 930  2016-00000171 1408 R PRQNE FG Oenaqba 1 OE Fgehpgher Sver 2016-00000171",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:1408 R PRQNE FG",
+        "PVGL:OENAQBA",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000171");
+
+    qbGrfg("G19",
+        "{Qvfcngpu Cntr}  2016-00000095 1704 J  60GU FG A Dhnq AJ2V FS Fgehpgher Sver 2016-00000095",
+        "NQQE:1704 J 60GU FG A",
+        "ZNC:Dhnq AJ2V",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000095");
+
+    qbGrfg("G20",
+        "{Qvfcngpu Cntr} 930  2016-00000095 1700 J  60GU FG A Eraare 10 FS Fgehpgher Sver 2016-00000095",
+        "FEP:930",
+        "NQQE:1700 J 60GU FG A",
+        "ZNC:Eraare 10",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000095");
+
+    qbGrfg("G21",
+        "{Qvfcngpu Cntr} 930  2016-00000474 47448 258GU FG Eraare 2 ER Hapbafp/Snvag C3 2016-00000474",
+        "FEP:930",
+        "NQQE:47448 258GU FG",
+        "ZNC:Eraare 2",
+        "PVGL:ERAARE",
+        "PNYY:Hapbafp/Snvag C3",
+        "VQ:2016-00000474");
+
+    qbGrfg("G22",
+        "{Qvfcngpu Cntr} 930  2016-00000092 V 90 A  QVGPU EQ Eraare 10 FS Pbai Frvmher C2 2016-00000092",
+        "FEP:930",
+        "NQQE:V 90 & A QVGPU EQ",
+        "ZNC:Eraare 10",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pbai Frvmher C2",
+        "VQ:2016-00000092");
+
+    qbGrfg("G23",
+        "{Qvfcngpu Cntr} 930  2016-00000064 7600 R  41FG FG Fcyvgebpx 3 FS Fgehpgher Sver 2016-00000064",
+        "FEP:930",
+        "ZNC:Fcyvgebpx 3",
+        "NQQE:7600 R 41FG FG",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000064");
+
+    qbGrfg("G24",
+        "{Qvfcngpu Cntr} 930  2016-00006402 3008 R  20GU FG Dhnq FR5O FS Fgehpgher Sver 2016-00006402",
+        "FEP:930",
+        "NQQE:3008 R 20GU FG",
+        "ZNC:Dhnq FR5O",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00006402");
+
+    qbGrfg("G25",
+        "{Qvfcngpu Cntr} 930  2016-00006401 4309 F  TYRAIVRJ EQ Dhnq FR3S FS Oernguvat Cebo C1 2016-00006401",
+        "FEP:930",
+        "NQQE:4309 F TYRAIVRJ EQ",
+        "ZNC:Dhnq FR3S",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Oernguvat Cebo C1",
+        "VQ:2016-00006401");
+
+    qbGrfg("G26",
+        "{Qvfcngpu Cntr} 930  2016-00000169 601 A  GRGBA QE Grgba Ncnegzragf (601) Oenaqba 1 OE Oernguvat Cebo C2 2016-00000169",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:601 A GRGBA QE",
+        "CYNPR:Grgba Ncnegzragf (601)",
         "PVGL:OENAQBA",
         "PNYY:Oernguvat Cebo C2",
-        "VQ:2015-00000138");
+        "VQ:2016-00000169");
 
-    qbGrfg("G76",
-        "{Qvfcngpu Cntr} 930  2015-00019137 5405 A  EBZNE QE Eraare 9 FS Noqbzvany Cnva C3 2015-00019137",
-        "FEP:930",
-        "NQQE:5405 A EBZNE QE",
-        "CYNPR:Eraare 9",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Noqbzvany Cnva C3",
-        "VQ:2015-00019137");
-
-    qbGrfg("G77",
-        "{Qvfcngpu Cntr} 930  2015-00003411 409 R PRQNE FG Oenaqba 1 OE Pbai Frvmher C2 2015-00003411",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:409 R PRQNE FG",
-        "PVGL:OENAQBA",
-        "PNYY:Pbai Frvmher C2",
-        "VQ:2015-00003411");
-
-    qbGrfg("G78",
-        "{Qvfcngpu Cntr} 930  2015-00003410 419 F  LRYYBJFGBAR QE Oenaqba 1 OE Nffnhyg C2 2015-00003410",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:419 F LRYYBJFGBAR QE",
-        "PVGL:OENAQBA",
-        "PNYY:Nffnhyg C2",
-        "VQ:2015-00003410");
-
-    qbGrfg("G79",
-        "{Qvfcngpu Cntr} 930  2015-00000126 47518 FNAQRNA QE Eraare 3 ER Pneoba Zba C2 + CQ 2015-00000126",
-        "FEP:930",
-        "NQQE:47518 FNAQRNA QE",
-        "CYNPR:Eraare 3",
-        "PVGL:ERAARE",
-        "PNYY:Pneoba Zba C2 + CQ",
-        "VQ:2015-00000126");
-
-    qbGrfg("G80",
-        "{Qvfcngpu Cntr} 940  2015-00009795 265GU FG 455GU NIR Havba Pragre Uhzobyqg 5 UH NYF Vagreprcg 2015-00009795",
-        "FEP:940",
-        "NQQE:265GU FG & 455GU NIR",
-        "CYNPR:Havba Pragre Uhzobyqg 5",
-        "PVGL:UHZOBYG",
-        "PNYY:NYF Vagreprcg",
-        "VQ:2015-00009795");
-
-    qbGrfg("G81",
-        "{Qvfcngpu Cntr} 930  2015-00012091 1409 R  60GU FG A Dhnq AR3U FS Snyyf C2 2015-00012091",
-        "FEP:930",
-        "NQQE:1409 R 60GU FG",
-        "CYNPR:A Dhnq AR3U",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Snyyf C2",
-        "VQ:2015-00012091");
-
-    qbGrfg("G82",
-        "{Qvfcngpu Cntr} 930  2015-00000836 1105 R  UBYYL OYIQ Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000836",
+    qbGrfg("G27",
+        "{Qvfcngpu Cntr} 930  2016-00000466 1105 R  UBYYL OYIQ Oenaqba 1 OE Genafsre C2 j/bhg sver 2016-00000466",
         "FEP:930",
         "ZNC:Oenaqba 1",
         "NQQE:1105 R UBYYL OYIQ",
         "PVGL:OENAQBA",
         "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000836");
+        "VQ:2016-00000466");
 
-    qbGrfg("G83",
-        "{Qvfcngpu Cntr} 930  2015-00000137 UJL 42 481FG NIR Fcyvgebpx 4 OE Vawhel Nppvqrag C3 + Sver 2015-00000137",
-        "FEP:930",
-        "ZNC:Fcyvgebpx 4",
-        "NQQE:UJL 42 & 481FG NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Vawhel Nppvqrag C3 + Sver",
-        "VQ:2015-00000137");
-
-    qbGrfg("G84",
-        "{Qvfcngpu Cntr} 930  2015-00000834 3012 R NFCRA OYIQ cp14 Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000834",
+    qbGrfg("G28",
+        "{Qvfcngpu Cntr} 930  2016-00000167 509 F 3EQ NIR Oenaqba 1 OE Fgehpgher Sver 2016-00000167",
         "FEP:930",
         "ZNC:Oenaqba 1",
-        "NQQE:3012 R NFCRA OYIQ",
-        "CYNPR:cp14 Orgunal Ubzr",
+        "NQQE:509 F 3EQ NIR",
         "PVGL:OENAQBA",
-        "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000834");
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000167");
 
-    qbGrfg("G85",
-        "{Qvfcngpu Cntr} 930  2015-00000136 48272 UJL 42 Fcyvgebpx 4 EB Cflpu/Fhvpvqr C2 CQ 2015-00000136",
+    qbGrfg("G29",
+        "{Qvfcngpu Cntr} 930  2016-00000089 25797 XVJNAVF NIR Eraare 1 PE Fvpx Crefba C3 2016-00000089",
         "FEP:930",
-        "ZNC:Fcyvgebpx 4",
-        "NQQE:48272 UJL 42",
-        "PNYY:EB Cflpu/Fhvpvqr C2 CQ",
-        "VQ:2015-00000136");
-
-    qbGrfg("G86",
-        "{Qvfcngpu Cntr} 940  2015-00000113 47077 254GU FG Pebbxf 1 PE Vawhel Nppvqrag / Ebyybire 2015-00000113",
-        "FEP:940",
-        "ZNC:Pebbxf 1",
-        "NQQE:47077 254GU FG",
+        "NQQE:25797 XVJNAVF NIR",
+        "ZNC:Eraare 1",
         "PVGL:PEBBXF",
-        "PNYY:Vawhel Nppvqrag / Ebyybire",
-        "VQ:2015-00000113");
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00000089");
 
-    qbGrfg("G87",
-        "{Qvfcngpu Cntr} 930  2015-00000135 7703 R  ZNQVFBA FG Fcyvgebpx 1 FS Bireqbfr C2 + CQ 2015-00000135",
+    qbGrfg("G30",
+        "{Qvfcngpu Cntr} 930  2016-00000060 6209 R  23EQ FG Fcyvgebpx 3 FS Purfg Cnva C2 2016-00000060",
         "FEP:930",
-        "ZNC:Fcyvgebpx 1",
-        "NQQE:7703 R ZNQVFBA FG",
+        "ZNC:Fcyvgebpx 3",
+        "NQQE:6209 R 23EQ FG",
         "PVGL:FVBHK SNYYF",
-        "PNYY:Bireqbfr C2 + CQ",
-        "VQ:2015-00000135");
+        "PNYY:Purfg Cnva C2",
+        "VQ:2016-00000060");
 
-    qbGrfg("G88",
-        "{Qvfcngpu Cntr} 930  2015-00000110 266GU FG 488GU NIR Inyyrl Fcevatf 3 IF Vawhel Nppvqrag / Ebyybire 2015-00000110",
+    qbGrfg("G31",
+        "{Qvfcngpu Cntr} 930  2016-00049399 3527 J  55GU FG 8 Dhnq FJ4S FS Hapbafp/Snvag C1 2016-00049399",
         "FEP:930",
-        "ZNC:Inyyrl Fcevatf 3",
-        "NQQE:266GU FG & 488GU NIR",
-        "PVGL:INYYRL FCEVATF",
-        "PNYY:Vawhel Nppvqrag / Ebyybire",
-        "VQ:2015-00000110");
-
-    qbGrfg("G89",
-        "{Qvfcngpu Cntr} 930  2015-00000829 3012 R NFCRA OYIQ 9 Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000829",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:3012 R NFCRA OYIQ",
-        "NCG:9",
-        "CYNPR:Orgunal Ubzr",
-        "PVGL:OENAQBA",
-        "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000829");
-
-    qbGrfg("G91",
-        "{Qvfcngpu Cntr}  2015-00000125 V 29 RKVG 83 Dhnq AJ4V FS Oernguvat Cebo C2 2015-00000125",
-        "NQQE:V 29",
-        "CYNPR:RKVG 83 Dhnq AJ4V",
+        "NQQE:3527 J 55GU FG",
+        "NCG:8",
+        "ZNC:Dhnq FJ4S",
         "PVGL:FVBHK SNYYF",
-        "PNYY:Oernguvat Cebo C2",
-        "VQ:2015-00000125");
+        "PNYY:Hapbafp/Snvag C1",
+        "VQ:2016-00049399");
 
-    qbGrfg("G92",
-        "{Qvfcngpu Cntr} 940  2015-00000125 V 29 V 90 Eraare 9 FS Oernguvat Cebo C2 2015-00000125",
+    qbGrfg("G32",
+        "{Qvfcngpu Cntr} 930  2016-00049370 4200 F  JRFG NIR WQP Dhnq FJ2S FS Nffnhyg C2 2016-00049370",
+        "FEP:930",
+        "NQQE:4200 F JRFG NIR",
+        "NCG:WQP",
+        "ZNC:Dhnq FJ2S",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Nffnhyg C2",
+        "VQ:2016-00049370");
+
+    qbGrfg("G33",
+        "{Qvfcngpu Cntr} 930  2016-00006279 507 F  JRFGREA NIR Dhnq FJ3N FS Fvpx Crefba C2 2016-00006279",
+        "FEP:930",
+        "NQQE:507 F JRFGREA NIR",
+        "ZNC:Dhnq FJ3N",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Fvpx Crefba C2",
+        "VQ:2016-00006279");
+
+    qbGrfg("G34",
+        "{Qvfcngpu Cntr} 930  2016-00006262 3300 R  11GU FG 7 Dhnq AR5N FS Pneqvnp Neerfg C1 2016-00006262",
+        "FEP:930",
+        "NQQE:3300 R 11GU FG",
+        "NCG:7",
+        "ZNC:Dhnq AR5N",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pneqvnp Neerfg C1",
+        "VQ:2016-00006262");
+
+    qbGrfg("G35",
+        "{Qvfcngpu Cntr} 940  2016-00000458 V 29 V 90 Dhnq AJ4V FS Vawhel Nppvqrag C3 2016-00000458",
         "FEP:940",
         "NQQE:V 29 & V 90",
-        "CYNPR:Eraare 9",
+        "ZNC:Dhnq AJ4V",
         "PVGL:FVBHK SNYYF",
-        "PNYY:Oernguvat Cebo C2",
-        "VQ:2015-00000125");
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00000458");
 
-    qbGrfg("G93",
-        "{Qvfcngpu Cntr} 930  2015-00018898 V 90 ZZ 406 Oenaqba 1 OE Oernguvat Cebo C2 2015-00018898",
+    qbGrfg("G36",
+        "{Qvfcngpu Cntr} 930  2016-00000035 48439 264GU FG Inyyrl Fcevatf 3 IF Fgehpgher Sver 2016-00000035",
+        "FEP:930",
+        "ZNC:Inyyrl Fcevatf 3",
+        "NQQE:48439 264GU FG",
+        "PVGL:INYYRL FCEVATF",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000035");
+
+    qbGrfg("G37",
+        "{Qvfcngpu Cntr} 930  2016-00000456 1208 R YNEX FG Oenaqba 1 OE Yvsg Nffvfg 2016-00000456",
         "FEP:930",
         "ZNC:Oenaqba 1",
-        "NQQE:V 90 ZZ 406",
+        "NQQE:1208 R YNEX FG",
         "PVGL:OENAQBA",
-        "PNYY:Oernguvat Cebo C2",
-        "VQ:2015-00018898");
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000456");
 
-    qbGrfg("G94",
-        "{Qvfcngpu Cntr}  2015-00000826 3008 R NFCRA OYIQ 112 Orgunal Zrnqbjf Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000826",
+    qbGrfg("G38",
+        "{Qvfcngpu Cntr} 930  2016-00048658 100 F  SNVESNK NIR Dhnq AR2N_5 FS Pneqvnp Neerfg C3 2016-00048658",
+        "FEP:930",
+        "NQQE:100 F SNVESNK NIR",
+        "ZNC:Dhnq AR2N_5",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pneqvnp Neerfg C3",
+        "VQ:2016-00048658");
+
+    qbGrfg("G39",
+        "{Qvfcngpu Cntr} 930  2016-00007677 1719 F  8GU NIR Dhnq FR2O_5 FS Pneqvnp Neerfg C1 2016-00007677",
+        "FEP:930",
+        "NQQE:1719 F 8GU NIR",
+        "ZNC:Dhnq FR2O_5",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pneqvnp Neerfg C1",
+        "VQ:2016-00007677");
+
+    qbGrfg("G40",
+        "{Qvfcngpu Cntr} 930  2016-00000165 1008 R  NFCRA OYIQ Oenaqba 1 OE Purfg Cnva C2 2016-00000165",
+        "FEP:930",
         "ZNC:Oenaqba 1",
-        "NQQE:3008 R NFCRA OYIQ",
+        "NQQE:1008 R NFCRA OYIQ",
+        "PVGL:OENAQBA",
+        "PNYY:Purfg Cnva C2",
+        "VQ:2016-00000165");
+
+    qbGrfg("G41",
+        "{Qvfcngpu Cntr} 930  2016-00000056 R UJL 42 F  CREEL CY Fcyvgebpx 3 FS Vawhel Nppvqrag / Ebyybire 2016-00000056",
+        "FEP:930",
+        "ZNC:Fcyvgebpx 3",
+        "NQQE:R UJL 42 & F CREEL CY",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Vawhel Nppvqrag / Ebyybire",
+        "VQ:2016-00000056");
+
+    qbGrfg("G42",
+        "{Qvfcngpu Cntr} 940  2016-00000451 26767 466GU NIR Jvyq Jngre Jrfg Unegsbeq 8 FS Qebjavat C3 2016-00000451",
+        "FEP:940",
+        "NQQE:26767 466GU NIR",
+        "CYNPR:Jvyq Jngre Jrfg",
+        "ZNC:Unegsbeq 8",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Qebjavat C3",
+        "VQ:2016-00000451");
+
+    qbGrfg("G43",
+        "{Qvfcngpu Cntr} R1 930  2016-00048353 428 J  7GU FG Dhnq AJ1N FS Pneqvnp Neerfg C3 2016-00048353",
+        "HAVG:R1",
+        "FEP:930",
+        "VQ:2016-00048353",
+        "NQQE:428 J 7GU FG",
+        "ZNC:Dhnq AJ1N",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pneqvnp Neerfg C3",
+        "VQ:2016-00048353");
+
+    qbGrfg("G44",
+        "{Qvfcngpu Cntr} 930  2016-00000449 917 F NFCRA CNEX EQ O Nfcra Cnex Oenaqba 1 OE Hapbafp/Snvag C3 2016-00000449",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:917 F NFCRA CNEX EQ",
+        "CYNPR:O Nfcra Cnex",
+        "PVGL:OENAQBA",
+        "PNYY:Hapbafp/Snvag C3",
+        "VQ:2016-00000449");
+
+    qbGrfg("G45",
+        "{Qvfcngpu Cntr} 930  2016-00048353 428 J  7GU FG Dhnq AJ1N FS Pneqvnp Neerfg C3 2016-00048353",
+        "FEP:930",
+        "NQQE:428 J 7GU FG",
+        "ZNC:Dhnq AJ1N",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pneqvnp Neerfg C3",
+        "VQ:2016-00048353");
+
+    qbGrfg("G46",
+        "{Qvfcngpu Cntr} 940  2016-00000051 46958 256GU FG Pebbxf 1 PE Yvsg Nffvfg 2016-00000051",
+        "FEP:940",
+        "ZNC:Pebbxf 1",
+        "NQQE:46958 256GU FG",
+        "PVGL:PEBBXF",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000051");
+
+    qbGrfg("G47",
+        "{Qvfcngpu Cntr} 930  2016-00000446 R  UBYYL OYIQ F  FVBHK OYIQ Oenaqba 1 OE Urng/Pbyq Rkcbfr c3 2016-00000446",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:R UBYYL OYIQ & F FVBHK OYIQ",
+        "PVGL:OENAQBA",
+        "PNYY:Urng/Pbyq Rkcbfr c3",
+        "VQ:2016-00000446");
+
+    qbGrfg("G48",
+        "{Qvfcngpu Cntr} 930  2016-00000445 1105 A  FCYVGEBPX OYIQ 112 Oenaqba 1 OE Snyyf C3 2016-00000445",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:1105 A FCYVGEBPX OYIQ",
         "NCG:112",
-        "CYNPR:Orgunal Zrnqbjf",
         "PVGL:OENAQBA",
-        "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000826");
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000445");
 
-    qbGrfg("G95",
-        "{Qvfcngpu Cntr} 930  2015-00000826 3008 R  NFCRA OYIQ Orgunal Zrnqbjf Oenaqba 1 OE Genafsre C2 j/bhg sver 2015-00000826",
-        "FEP:930",
-        "ZNC:Oenaqba 1",
-        "NQQE:3008 R NFCRA OYIQ",
-        "CYNPR:Orgunal Zrnqbjf",
-        "PVGL:OENAQBA",
-        "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000826");
-
-    qbGrfg("G96",
-        "{Qvfcngpu Cntr} 930  2015-00000210 920 4GU FG 302 Cnyvfnqr Znabe Tneergfba 23 TA Genafsre C2 j/bhg sver 2015-00000210",
-        "FEP:930",
-        "ZNC:Tneergfba 23",
-        "NQQE:920 4GU FG",
-        "NCG:302",
-        "CYNPR:Cnyvfnqr Znabe",
-        "PVGL:TNEERGFBA",
-        "PNYY:Genafsre C2 j/bhg sver",
-        "VQ:2015-00000210");
-
-    qbGrfg("G97",
-        "{Qvfcngpu Cntr} 930  2015-00000824 3008 R  NFCRA OYIQ ORGUNAL ZRNQBJF Oenaqba 1 OE Fvpx Crefba C3 2015-00000824",
+    qbGrfg("G49",
+        "{Qvfcngpu Cntr} 930  2016-00000443 3008 R  NFCRA OYIQ ORGUNAL ZRNQBJF Oenaqba 1 OE Genafsre C2 j/bhg sver 2016-00000443",
         "FEP:930",
         "ZNC:Oenaqba 1",
         "NQQE:3008 R NFCRA OYIQ",
         "CYNPR:ORGUNAL ZRNQBJF",
         "PVGL:OENAQBA",
-        "PNYY:Fvpx Crefba C3",
-        "VQ:2015-00000824");
+        "PNYY:Genafsre C2 j/bhg sver",
+        "VQ:2016-00000443");
 
-    qbGrfg("G98",
-        "{Qvfcngpu Cntr} 930  2015-00000383 101 R PRQNE FG 1 Prqne Ncnegzragf (101) Oenaqba 1 OE Fgebxr C2 2015-00000383",
+    qbGrfg("G50",
+        "{Qvfcngpu Cntr} 930  2016-00000164 1039 R URNGUREJBBQ QE Oenaqba 1 OE Yvsg Nffvfg 2016-00000164",
         "FEP:930",
         "ZNC:Oenaqba 1",
-        "NQQE:101 R PRQNE FG",
-        "NCG:1",
-        "CYNPR:Prqne Ncnegzragf (101)",
+        "NQQE:1039 R URNGUREJBBQ QE",
         "PVGL:OENAQBA",
-        "PNYY:Fgebxr C2",
-        "VQ:2015-00000383");
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000164");
 
-    qbGrfg("G99",
-        "{Qvfcngpu Cntr} 930  2015-00000822 308 F 5GU NIR Oenaqba 1 OE Snyyf C3 2015-00000822",
+    qbGrfg("G51",
+        "{Qvfcngpu Cntr} 930  2016-00000163 917 F NFCRA CNEX EQ NFCRA CNEX Oenaqba 1 OE Genhzngvp Vawhel C2 2016-00000163",
         "FEP:930",
         "ZNC:Oenaqba 1",
-        "NQQE:308 F 5GU NIR",
+        "NQQE:917 F NFCRA CNEX EQ",
+        "CYNPR:NFCRA CNEX",
+        "PVGL:OENAQBA",
+        "PNYY:Genhzngvp Vawhel C2",
+        "VQ:2016-00000163");
+
+    qbGrfg("G52",
+        "{Qvfcngpu Cntr} 930  2016-00006111 1310 J ZNQVFBA FG 117 Dhnq AJ2P FS Genafsre C2 j/bhg sver 2016-00006111",
+        "FEP:930",
+        "NQQE:1310 J ZNQVFBA FG",
+        "NCG:117",
+        "ZNC:Dhnq AJ2P",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Genafsre C2 j/bhg sver",
+        "VQ:2016-00006111");
+
+    qbGrfg("G53",
+        "{Qvfcngpu Cntr} 940  2016-00000439 265GU FG 455GU NIR Havba Pragre Uhzobyqg 5 UH NYF Vagreprcg 2016-00000439",
+        "FEP:940",
+        "NQQE:265GU FG & 455GU NIR",
+        "CYNPR:Havba Pragre",
+        "ZNC:Uhzobyqg 5",
+        "PVGL:UHZOBYG",
+        "PNYY:NYF Vagreprcg",
+        "VQ:2016-00000439");
+
+    qbGrfg("G54",
+        "{Qvfcngpu Cntr} 930  2016-00000438 47448 258GU FG Eraare 2 ER Snyyf C3 2016-00000438",
+        "FEP:930",
+        "NQQE:47448 258GU FG",
+        "ZNC:Eraare 2",
+        "PVGL:ERAARE",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000438");
+
+    qbGrfg("G55",
+        "{Qvfcngpu Cntr} 930  2016-00000437 907 A 7GU NIR Oenaqba 1 OE Snyyf C3 2016-00000437",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:907 A 7GU NIR",
         "PVGL:OENAQBA",
         "PNYY:Snyyf C3",
-        "VQ:2015-00000822");
+        "VQ:2016-00000437");
+
+    qbGrfg("G56",
+        "{Qvfcngpu Cntr} 940  2016-00000436 1600 J  22AQ FG Fnasbeq Puvyqeraf Ubfcvgny Dhnq FJ2O_51 FS Genafsre C5 2016-00000436",
+        "FEP:940",
+        "NQQE:1600 J 22AQ FG",
+        "CYNPR:Fnasbeq Puvyqeraf Ubfcvgny",
+        "ZNC:Dhnq FJ2O_51",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Genafsre C5",
+        "VQ:2016-00000436");
+
+    qbGrfg("G57",
+        "{Qvfcngpu Cntr} 930  2016-00006044 4000 F JRFGCBEG NIR 212 Dhnq FJ4R FS Pneqvnp Neerfg C1 2016-00006044",
+        "FEP:930",
+        "NQQE:4000 F JRFGCBEG NIR",
+        "NCG:212",
+        "ZNC:Dhnq FJ4R",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pneqvnp Neerfg C1",
+        "VQ:2016-00006044");
+
+    qbGrfg("G58",
+        "{Qvfcngpu Cntr} 930  2016-00006023 3113 J  12GU FG 106 Dhnq FJ4N FS Pneqvnp Neerfg C1 2016-00006023",
+        "FEP:930",
+        "NQQE:3113 J 12GU FG",
+        "NCG:106",
+        "ZNC:Dhnq FJ4N",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pneqvnp Neerfg C1",
+        "VQ:2016-00006023");
+
+    qbGrfg("G59",
+        "{Qvfcngpu Cntr} 930  2016-00006020 2904 F  YBHVFR NIR 308 Dhnq FJ4Q FS Pneqvnp Neerfg C3 2016-00006020",
+        "FEP:930",
+        "NQQE:2904 F YBHVFR NIR",
+        "NCG:308",
+        "ZNC:Dhnq FJ4Q",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pneqvnp Neerfg C3",
+        "VQ:2016-00006020");
+
+    qbGrfg("G60",
+        "{Qvfcngpu Cntr} 930  2016-00000432 1720 F EVIRE BNX NIR Oenaqba 1 OE Fvpx Crefba C3 2016-00000432",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:1720 F EVIRE BNX NIR",
+        "PVGL:OENAQBA",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00000432");
+
+    qbGrfg("G61",
+        "{Qvfcngpu Cntr} 930  2016-00000034 411 RYZ FG Inyyrl Fcevatf 2 IF Tnf Yrnx 2016-00000034",
+        "FEP:930",
+        "ZNC:Inyyrl Fcevatf 2",
+        "NQQE:411 RYZ FG",
+        "PVGL:INYYRL FCEVATF",
+        "PNYY:Tnf Yrnx",
+        "VQ:2016-00000034");
+
+    qbGrfg("G62",
+        "{Qvfcngpu Cntr} 930  2016-00000430 3012 R NFCRA OYIQ Orgunal Ubzr Oenaqba 1 OE Genafsre C3 2016-00000430",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:3012 R NFCRA OYIQ",
+        "CYNPR:Orgunal Ubzr",
+        "PVGL:OENAQBA",
+        "PNYY:Genafsre C3",
+        "VQ:2016-00000430");
+
+    qbGrfg("G63",
+        "{Qvfcngpu Cntr} 940  2016-00000134 26122 PNANEL QE Unegsbeq 4 FS Hapbafp/Snvag C2 2016-00000134",
+        "FEP:940",
+        "NQQE:26122 PNANEL QE",
+        "ZNC:Unegsbeq 4",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Hapbafp/Snvag C2",
+        "VQ:2016-00000134");
+
+    qbGrfg("G64",
+        "{Qvfcngpu Cntr} 930  2016-00005940 7305 J  12GU FG Dhnq FJ9N FS Fvpx Crefba C2 2016-00005940",
+        "FEP:930",
+        "NQQE:7305 J 12GU FG",
+        "ZNC:Dhnq FJ9N",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Fvpx Crefba C2",
+        "VQ:2016-00005940");
+
+    qbGrfg("G65",
+        "{Qvfcngpu Cntr} 930  2016-00005910 704 F  TBEQBA QE Dhnq FR7N FS Pneqvnp Neerfg C1 2016-00005910",
+        "FEP:930",
+        "NQQE:704 F TBEQBA QE",
+        "ZNC:Dhnq FR7N",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pneqvnp Neerfg C1",
+        "VQ:2016-00005910");
+
+    qbGrfg("G66",
+        "{Qvfcngpu Cntr} 930  2016-00000426 3012 R NFCRA OYIQ Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2016-00000426",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:3012 R NFCRA OYIQ",
+        "CYNPR:Orgunal Ubzr",
+        "PVGL:OENAQBA",
+        "PNYY:Genafsre C2 j/bhg sver",
+        "VQ:2016-00000426");
+
+    qbGrfg("G67",
+        "{Qvfcngpu Cntr} 940  2016-00000082 V 29 ZZ 84 Eraare 9 FS Vawhel Nppvqrag / Ebyybire 2016-00000082",
+        "FEP:940",
+        "NQQE:V 29 ZZ 84",
+        "ZNC:Eraare 9",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Vawhel Nppvqrag / Ebyybire",
+        "VQ:2016-00000082");
+
+    qbGrfg("G68",
+        "{Qvfcngpu Cntr} 930  2016-00000424 2808 F  EVIRE OYHSS EQ Fcyvgebpx 3 FS Fvpx Crefba C3 2016-00000424",
+        "FEP:930",
+        "ZNC:Fcyvgebpx 3",
+        "NQQE:2808 F EVIRE OYHSS EQ",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00000424");
+
+    qbGrfg("G69",
+        "{Qvfcngpu Cntr} 930  2016-00000423 47409 258GU FG ZBANEPU YBHATR Eraare 11 ER Zrqvpny Rzretrapl 2016-00000423",
+        "FEP:930",
+        "NQQE:47409 258GU FG",
+        "CYNPR:ZBANEPU YBHATR",
+        "ZNC:Eraare 11",
+        "PVGL:ERAARE",
+        "PNYY:Zrqvpny Rzretrapl",
+        "VQ:2016-00000423");
+
+    qbGrfg("G70",
+        "{Qvfcngpu Cntr} 930  2016-00000421 1007 A  UBYYL NIR Dhnq AJ3P FS Pneqvnp Neerfg C3 2016-00000421",
+        "FEP:930",
+        "NQQE:1007 A UBYYL NIR",
+        "ZNC:Dhnq AJ3P",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pneqvnp Neerfg C3",
+        "VQ:2016-00000421");
+
+    qbGrfg("G71",
+        "{Qvfcngpu Cntr} 930  2016-00001553 R  ERQJBBQ OYIQ A  FCYVGEBPX OYIQ Oenaqba 1 OE Urng/Pbyq Rkcbfr c3 2016-00001553",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:R ERQJBBQ OYIQ & A FCYVGEBPX OYIQ",
+        "PVGL:OENAQBA",
+        "PNYY:Urng/Pbyq Rkcbfr c3",
+        "VQ:2016-00001553");
+
+    qbGrfg("G72",
+        "{Qvfcngpu Cntr} 940  2016-00000130 265GU FG 466GU NIR Unegsbeq 7 FS Vawhel Nppvqrag C1 2016-00000130",
+        "FEP:940",
+        "NQQE:265GU FG & 466GU NIR",
+        "ZNC:Unegsbeq 7",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Vawhel Nppvqrag C1",
+        "VQ:2016-00000130");
+
+    qbGrfg("G73",
+        "{Qvfcngpu Cntr} 930  2016-00001552 516 A  GRGBA QE Oenaqba 1 OE Fvpx Crefba C3 2016-00001552",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:516 A GRGBA QE",
+        "PVGL:OENAQBA",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00001552");
+
+    qbGrfg("G74",
+        "{Qvfcngpu Cntr} 940  2016-00000049 25782 472AQ NIR Pebbxf 3 FS Nffnhyg C2 2016-00000049",
+        "FEP:940",
+        "ZNC:Pebbxf 3",
+        "NQQE:25782 472AQ NIR",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Nffnhyg C2",
+        "VQ:2016-00000049");
+
+    qbGrfg("G75",
+        "{Qvfcngpu Cntr} 930  2016-00008266 R  61FG FG A A  JNLYNAQ NIR Dhnq AR3V FS Vawhel Nppvqrag C3 2016-00008266",
+        "FEP:930",
+        "NQQE:R 61FG FG A & A JNLYNAQ NIR",
+        "ZNC:Dhnq AR3V",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00008266");
+
+    qbGrfg("G76",
+        "{Qvfcngpu Cntr} 930  2016-00000160 2717 R FHAEVFR PG Oenaqba 1 OE Hapbafp/Snvag C2 2016-00000160",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:2717 R FHAEVFR PG",
+        "PVGL:OENAQBA",
+        "PNYY:Hapbafp/Snvag C2",
+        "VQ:2016-00000160");
+
+    qbGrfg("G77",
+        "{Qvfcngpu Cntr} 930 ER  2016-00000229 V 29 RKVG 86 Eraare 1 ER Fgebxr C2 2016-00000229",
+        "FEP:930",
+        "HAVG:ER",
+        "NQQE:V 29",
+        "CYNPR:RKVG 86",
+        "ZNC:Eraare 1",
+        "PVGL:ERAARE",
+        "PNYY:Fgebxr C2",
+        "VQ:2016-00000229");
+
+    qbGrfg("G78",
+        "{Qvfcngpu Cntr} 930  2016-00000079 V 29 RKVG 86 Eraare 1 ER Vawhel Nppvqrag C2 2016-00000079",
+        "FEP:930",
+        "NQQE:V 29",
+        "CYNPR:RKVG 86",
+        "ZNC:Eraare 1",
+        "PVGL:ERAARE",
+        "PNYY:Vawhel Nppvqrag C2",
+        "VQ:2016-00000079");
+
+    qbGrfg("G79",
+        "{Qvfcngpu Cntr}  2016-00000411 1100 R GRNXJBBQ FG 7 Fcyvgebpx Ncnegzragf Oenaqba 1 OE Fgebxr C2 2016-00000411",
+        "ZNC:Oenaqba 1",
+        "NQQE:1100 R GRNXJBBQ FG",
+        "NCG:7",
+        "CYNPR:Fcyvgebpx Ncnegzragf",
+        "PVGL:OENAQBA",
+        "PNYY:Fgebxr C2",
+        "VQ:2016-00000411");
+
+    qbGrfg("G80",
+        "{Qvfcngpu Cntr} 930 OE  2016-00000411 1100 R GRNXJBBQ FG Fcyvgebpx Ncnegzragf Oenaqba 1 OE Fgebxr C2 2016-00000411",
+        "FEP:930",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:1100 R GRNXJBBQ FG",
+        "CYNPR:Fcyvgebpx Ncnegzragf",
+        "PVGL:OENAQBA",
+        "PNYY:Fgebxr C2",
+        "VQ:2016-00000411");
+
+    qbGrfg("G81",
+        "{Qvfcngpu Cntr} 930  2016-00005753 1050 J IRAGHER CY 106 Dhnq FJ1R FS Pneqvnp Neerfg C1 2016-00005753",
+        "FEP:930",
+        "NQQE:1050 J IRAGHER CY",
+        "NCG:106",
+        "ZNC:Dhnq FJ1R",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pneqvnp Neerfg C1",
+        "VQ:2016-00005753");
+
+    qbGrfg("G82",
+        "{Qvfcngpu Cntr} 930  2016-00000409 1716 CNEXIVRJ OYIQ OE Snyyf C3 2016-00000409",
+        "FEP:930",
+        "NQQE:1716 CNEXIVRJ OYIQ",
+        "PVGL:OENAQBA",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000409");
+
+    qbGrfg("G83",
+        "{Qvfcngpu Cntr} 940  2016-00008121 25809 GENQR NIR Eraare 8 FS Hapbafp/Snvag C2 2016-00008121",
+        "FEP:940",
+        "NQQE:25809 GENQR NIR",
+        "ZNC:Eraare 8",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Hapbafp/Snvag C2",
+        "VQ:2016-00008121");
+
+    qbGrfg("G84",
+        "{Qvfcngpu Cntr} 930  2016-00000065 308 EVIRE NIR Tneergfba 23 TA Pneqvnp Neerfg C1 2016-00000065",
+        "FEP:930",
+        "ZNC:Tneergfba 23",
+        "NQQE:308 EVIRE NIR",
+        "PVGL:TNEERGFBA",
+        "PNYY:Pneqvnp Neerfg C1",
+        "VQ:2016-00000065");
+
+    qbGrfg("G85",
+        "{Qvfcngpu Cntr} 940  2016-00000046 47111 256GU FG Pebbxf 3 PE Pbai Frvmher C2 2016-00000046",
+        "FEP:940",
+        "ZNC:Pebbxf 3",
+        "NQQE:47111 256GU FG",
+        "PVGL:PEBBXF",
+        "PNYY:Pbai Frvmher C2",
+        "VQ:2016-00000046");
+
+    qbGrfg("G86",
+        "{Qvfcngpu Cntr} 940  2016-00008030 264GU FG 466GU NIR Unegsbeq 7 FS Vawhel Nppvqrag C3 2016-00008030",
+        "FEP:940",
+        "NQQE:264GU FG & 466GU NIR",
+        "ZNC:Unegsbeq 7",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00008030");
+
+    qbGrfg("G87",
+        "{Qvfcngpu Cntr} 930  2016-00000404 1021 R URNGUREJBBQ QE Oenaqba 1 OE Fvpx Crefba C2 2016-00000404",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:1021 R URNGUREJBBQ QE",
+        "PVGL:OENAQBA",
+        "PNYY:Fvpx Crefba C2",
+        "VQ:2016-00000404");
+
+    qbGrfg("G88",
+        "{Qvfcngpu Cntr} 930  2016-00000157 1612 F EVIRE BNX NIR Oenaqba 1 OE Fgehpgher Sver 2016-00000157",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:1612 F EVIRE BNX NIR",
+        "PVGL:OENAQBA",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000157");
+
+    qbGrfg("G89",
+        "{Qvfcngpu Cntr} 930  2016-00043695 4916 F  ZNEVBA EQ Fvyirefgne Pne Jnfu F Znevba Dhnq FJ6S FS Vaqhfgevny Npp C2 CQ 2016-00043695",
+        "FEP:930",
+        "NQQE:4916 F ZNEVBA EQ",
+        "CYNPR:Fvyirefgne Pne Jnfu F Znevba",
+        "ZNC:Dhnq FJ6S",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Vaqhfgevny Npp C2 CQ",
+        "VQ:2016-00043695");
+
+    qbGrfg("G90",
+        "{Qvfcngpu Cntr} 930  2016-00007863 26767 466GU NIR JVYQ JNGRE JRFG Unegsbeq 8 FS Urneg Ceboyrzf C2 2016-00007863",
+        "FEP:930",
+        "NQQE:26767 466GU NIR",
+        "CYNPR:JVYQ JNGRE JRFG",
+        "ZNC:Unegsbeq 8",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Urneg Ceboyrzf C2",
+        "VQ:2016-00007863");
+
+    qbGrfg("G91",
+        "{Qvfcngpu Cntr} 940  2016-00007863 26767 466GU NIR JVYQ JNGRE JRFG Unegsbeq 8 FS Urneg Ceboyrzf C2 2016-00007863",
+        "FEP:940",
+        "NQQE:26767 466GU NIR",
+        "CYNPR:JVYQ JNGRE JRFG",
+        "ZNC:Unegsbeq 8",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Urneg Ceboyrzf C2",
+        "VQ:2016-00007863");
+
+    qbGrfg("G92",
+        "{Qvfcngpu Cntr} 930  2016-00000399 1413 R EHFUZBER QE 12 Oenaqba 1 OE Cflpu/Fhvpvqr C3 CQ 2016-00000399",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:1413 R EHFUZBER QE",
+        "NCG:12",
+        "PVGL:OENAQBA",
+        "PNYY:Cflpu/Fhvpvqr C3 CQ",
+        "VQ:2016-00000399");
+
+    qbGrfg("G93",
+        "{Qvfcngpu Cntr}  2016-00000398 1000 R GRNXJBBQ FG 7O Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Snyyf C3 2016-00000398",
+        "ZNC:Oenaqba 1",
+        "NQQE:1000 R GRNXJBBQ FG",
+        "NCG:7O",
+        "CYNPR:Urycvat Unaqf Nffvfgrq Yvivat",
+        "PVGL:OENAQBA",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000398");
+
+    qbGrfg("G94",
+        "{Qvfcngpu Cntr} 930  2016-00000398 1000 R GRNXJBBQ FG Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Snyyf C3 2016-00000398",
+        "FEP:930",
+        "ZNC:Oenaqba 1",
+        "NQQE:1000 R GRNXJBBQ FG",
+        "CYNPR:Urycvat Unaqf Nffvfgrq Yvivat",
+        "PVGL:OENAQBA",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000398");
+
+    qbGrfg("G95",
+        "{Qvfcngpu Cntr} 930  2016-00000153 1816 J NFUGBA GEY Oenaqba-2 OE Fgehpgher Sver 2016-00000153",
+        "FEP:930",
+        "ZNC:Oenaqba-2",
+        "NQQE:1816 J NFUGBA GEY",
+        "PVGL:OENAQBA",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000153");
+
+    qbGrfg("G96",
+        "{Qvfcngpu Cntr} 930  2016-00000152 V 90 ZZ 405 Oenaqba 7 OE Vawhel Nppvqrag C2 2016-00000152",
+        "FEP:930",
+        "ZNC:Oenaqba 7",
+        "NQQE:V 90 ZZ 405",
+        "PVGL:OENAQBA",
+        "PNYY:Vawhel Nppvqrag C2",
+        "VQ:2016-00000152");
 
   }
 
@@ -2333,213 +2752,285 @@ choyvp pynff FQZvaarununPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgFcyvgEbpxSverErfphr() {
 
     qbGrfg("G1",
-        "{Qvfcngpu Cntr} FE  2016-00000004 2804 F  EVIRE OYHSS EQ Fcyvgebpx 3 FS Pbai Frvmher C2 2016-00000004",
+        "{Qvfcngpu Cntr} FE  2016-00000065 7001 R  ZNQVFBA FG Fcyvgebpx 1 FS Pbai Frvmher C2 2016-00000065",
         "HAVG:FE",
-        "ZNC:Fcyvgebpx 3",
-        "NQQE:2804 F EVIRE OYHSS EQ",
+        "ZNC:Fcyvgebpx 1",
+        "NQQE:7001 R ZNQVFBA FG",
         "PVGL:FVBHK SNYYF",
         "PNYY:Pbai Frvmher C2",
-        "VQ:2016-00000004");
+        "VQ:2016-00000065");
 
     qbGrfg("G2",
-        "{Qvfcngpu Cntr} FE  2016-00000011 2216 A VAQVNA UVYYF GEY Fcyvgebpx 1 FS Pbai Frvmher C3 2016-00000011",
-        "HAVG:FE",
-        "ZNC:Fcyvgebpx 1",
-        "NQQE:2216 A VAQVNA UVYYF GEY",
+        "{Qvfcngpu Cntr} FE OE RZ  2016-00000064 7600 R  41FG FG Fcyvgebpx 3 FS Fgehpgher Sver 2016-00000064",
+        "HAVG:FE OE RZ",
+        "ZNC:Fcyvgebpx 3",
+        "NQQE:7600 R 41FG FG",
         "PVGL:FVBHK SNYYF",
-        "PNYY:Pbai Frvmher C3",
-        "VQ:2016-00000011");
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000064");
+
+    qbGrfg("G3",
+        "{Qvfcngpu Cntr}  2016-00000061 R  ZNQVFBA FG A  FVK ZVYR EQ Fcyvgebpx 1 FS Nppvqrag 2016-00000061",
+        "ZNC:Fcyvgebpx 1",
+        "NQQE:R ZNQVFBA FG & A FVK ZVYR EQ",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Nppvqrag",
+        "VQ:2016-00000061");
 
     qbGrfg("G4",
-        "{Qvfcngpu Cntr} FE  2016-00000002 26605 482AQ NIR Fcyvgebpx 4 OE Fvpx Crefba C2 2016-00000002",
+        "{Qvfcngpu Cntr} FE  2016-00000061 A  FVK ZVYR EQ R  ZNQVFBA FG Fcyvgebpx 1 FS Nppvqrag 2016-00000061",
         "HAVG:FE",
-        "ZNC:Fcyvgebpx 4",
-        "NQQE:26605 482AQ NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Fvpx Crefba C2",
-        "VQ:2016-00000002");
+        "ZNC:Fcyvgebpx 1",
+        "NQQE:A FVK ZVYR EQ & R ZNQVFBA FG",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Nppvqrag",
+        "VQ:2016-00000061");
 
     qbGrfg("G5",
-        "{Qvfcngpu Cntr} FE  2016-00000001 26605 482AQ NIR Fcyvgebpx 4 OE Onpx Cnva C3 2016-00000001",
+        "{Qvfcngpu Cntr} FE  2016-00000060 6209 R  23EQ FG Fcyvgebpx 3 FS Purfg Cnva C2 2016-00000060",
         "HAVG:FE",
-        "ZNC:Fcyvgebpx 4",
-        "NQQE:26605 482AQ NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Onpx Cnva C3",
-        "VQ:2016-00000001");
+        "ZNC:Fcyvgebpx 3",
+        "NQQE:6209 R 23EQ FG",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Purfg Cnva C2",
+        "VQ:2016-00000060");
 
     qbGrfg("G6",
-        "{Qvfcngpu Cntr} FE RZ  2015-00019720 R  NEEBJURNQ CXJL F  PBZZREPR NIR Fcyvgebpx 3 FS Vawhel Nppvqrag C3 2015-00019720",
-        "HAVG:FE RZ",
-        "ZNC:Fcyvgebpx 3",
-        "NQQE:R NEEBJURNQ CXJL & F PBZZREPR NIR",
+        "{Qvfcngpu Cntr} FE  2016-00000059 3000 A  BNX EQ Fcyvgebpx 1 FS Pneoba Zba Qrgrpgbe 2016-00000059",
+        "HAVG:FE",
+        "ZNC:Fcyvgebpx 1",
+        "NQQE:3000 A BNX EQ",
         "PVGL:FVBHK SNYYF",
-        "PNYY:Vawhel Nppvqrag C3",
-        "VQ:2015-00019720");
+        "PNYY:Pneoba Zba Qrgrpgbe",
+        "VQ:2016-00000059");
 
     qbGrfg("G7",
-        "{Qvfcngpu Cntr} FE  2015-00000870 2704 F  TRBETR FG Fcyvgebpx 3 FS Snyyf C3 2015-00000870",
+        "{Qvfcngpu Cntr} FE  2016-00008911 9072 R UJL 42 Fcyvgebpx 3 FS Nppvqrag 2016-00008911",
         "HAVG:FE",
         "ZNC:Fcyvgebpx 3",
-        "NQQE:2704 F TRBETR FG",
+        "NQQE:9072 R UJL 42",
         "PVGL:FVBHK SNYYF",
-        "PNYY:Snyyf C3",
-        "VQ:2015-00000870");
+        "PNYY:Nppvqrag",
+        "VQ:2016-00008911");
 
     qbGrfg("G8",
-        "{Qvfcngpu Cntr} FE  2015-00019553 26605 482AQ NIR Fcyvgebpx 4 OE Oernguvat Cebo C1 2015-00019553",
-        "HAVG:FE",
-        "ZNC:Fcyvgebpx 4",
-        "NQQE:26605 482AQ NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Oernguvat Cebo C1",
-        "VQ:2015-00019553");
+        "{Qvfcngpu Cntr}  2016-00000035 48439 264GU FG Inyyrl Fcevatf 3 IF Fgehpgher Sver 2016-00000035",
+        "ZNC:Inyyrl Fcevatf 3",
+        "NQQE:48439 264GU FG",
+        "PVGL:INYYRL FCEVATF",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000035");
 
     qbGrfg("G9",
-        "{Qvfcngpu Cntr} FE  2015-00000859 7201 R  CVAR YNXR QE Fcyvgebpx 1 FS Hax Ceboyrz C3 2015-00000859",
-        "HAVG:FE",
-        "ZNC:Fcyvgebpx 1",
-        "NQQE:7201 R CVAR YNXR QE",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Hax Ceboyrz C3",
-        "VQ:2015-00000859");
-
-    qbGrfg("G10",
-        "{Qvfcngpu Cntr} FE  2015-00000140 1600 F  EVIRE OYHSS EQ NEEBJURNQ CNEX Fcyvgebpx 3 FS Zrqvpny Rzretrapl 2015-00000140",
-        "HAVG:FE",
-        "ZNC:Fcyvgebpx 3",
-        "NQQE:1600 F EVIRE OYHSS EQ",
-        "CYNPR:NEEBJURNQ CNEX",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Zrqvpny Rzretrapl",
-        "VQ:2015-00000140");
-
-    qbGrfg("G11",
-        "{Qvfcngpu Cntr} FE  2015-00000139 R ZNQVFBA FG A  OYHR FCEHPR CY Fcyvgebpx 1 FS Nppvqrag 2015-00000139",
-        "HAVG:FE",
-        "ZNC:Fcyvgebpx 1",
-        "NQQE:R ZNQVFBA FG & A OYHR FCEHPR CY",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Nppvqrag",
-        "VQ:2015-00000139");
-
-    qbGrfg("G12",
-        "{Qvfcngpu Cntr} FE  2015-00000138 26605 482AQ NIR Fcyvgebpx 4 OE Oernguvat Cebo C2 2015-00000138",
-        "HAVG:FE",
-        "ZNC:Fcyvgebpx 4",
-        "NQQE:26605 482AQ NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Oernguvat Cebo C2",
-        "VQ:2015-00000138");
-
-    qbGrfg("G13",
-        "{Qvfcngpu Cntr} FE  2015-00000137 267GU FG UJL 42 Fcyvgebpx 4 OE Nppvqrag 2015-00000137",
-        "HAVG:FE",
-        "ZNC:Fcyvgebpx 4",
-        "NQQE:267GU FG & UJL 42",
-        "PVGL:OENAQBA",
-        "PNYY:Nppvqrag",
-        "VQ:2015-00000137");
-
-    qbGrfg("G14",
-        "{Qvfcngpu Cntr} FE  2015-00000136 48272 UJL 42 Fcyvgebpx 4 EB Cflpu/Fhvpvqr C2 CQ 2015-00000136",
-        "HAVG:FE",
-        "ZNC:Fcyvgebpx 4",
-        "NQQE:48272 UJL 42",
-        "PNYY:EB Cflpu/Fhvpvqr C2 CQ",
-        "VQ:2015-00000136");
-
-    qbGrfg("G15",
-        "{Qvfcngpu Cntr} FE  2015-00000135 7703 R  ZNQVFBA FG Fcyvgebpx 1 FS Bireqbfr C2 + CQ 2015-00000135",
-        "HAVG:FE",
-        "ZNC:Fcyvgebpx 1",
-        "NQQE:7703 R ZNQVFBA FG",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Bireqbfr C2 + CQ",
-        "VQ:2015-00000135");
-
-    qbGrfg("G16",
-        "{Qvfcngpu Cntr} FE  2015-00000134 6910 R  FCYVG EBPX PVE Fcyvgebpx 3 FS Bqbe 2015-00000134",
-        "HAVG:FE",
-        "ZNC:Fcyvgebpx 3",
-        "NQQE:6910 R FCYVG EBPX PVE",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Bqbe",
-        "VQ:2015-00000134");
-
-    qbGrfg("G17",
-        "{Qvfcngpu Cntr} FE RZ  2015-00018551 6505 R NEEBJURNQ CXJL Fcyvgebpx 3 FS Vawhel Nppvqrag C3 2015-00018551",
-        "HAVG:FE RZ",
-        "ZNC:Fcyvgebpx 3",
-        "NQQE:6505 R NEEBJURNQ CXJL",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Vawhel Nppvqrag C3",
-        "VQ:2015-00018551");
-
-    qbGrfg("G18",
-        "{Qvfcngpu Cntr} FE  2015-00000132 9601 R  ZNCYR FG Fcyvgebpx 1 FS Fvpx Crefba C2 2015-00000132",
-        "HAVG:FE",
-        "ZNC:Fcyvgebpx 1",
-        "NQQE:9601 R ZNCYR FG",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Fvpx Crefba C2",
-        "VQ:2015-00000132");
-
-    qbGrfg("G19",
-        "{Qvfcngpu Cntr} FE  2015-00000131 48296 264GU FG Fcyvgebpx 2 OE Purfg Cnva C2 2015-00000131",
-        "HAVG:FE",
-        "ZNC:Fcyvgebpx 2",
-        "NQQE:48296 264GU FG",
-        "PVGL:OENAQBA",
-        "PNYY:Purfg Cnva C2",
-        "VQ:2015-00000131");
-
-    qbGrfg("G20",
-        "{Qvfcngpu Cntr} OE FE RZ  2015-00000354 1801 J SEBAGVRE FG Oenaqba-2 OE Fgehpgher Sver 2015-00000354",
-        "HAVG:OE FE RZ",
-        "ZNC:Oenaqba-2",
-        "NQQE:1801 J SEBAGVRE FG",
+        "{Qvfcngpu Cntr} IF FE RZ  2016-00000035 48439 265GU FG Inyyrl Fcevatf 3 OE Fgehpgher Sver 2016-00000035",
+        "HAVG:IF FE RZ",
+        "ZNC:Inyyrl Fcevatf 3",
+        "NQQE:48439 265GU FG",
         "PVGL:OENAQBA",
         "PNYY:Fgehpgher Sver",
-        "VQ:2015-00000354");
+        "VQ:2016-00000035");
 
-    qbGrfg("G21",
-        "{Qvfcngpu Cntr} 930 FE  2015-00000728 2400 F  EVIRE OYHSS EQ Fcyvgebpx 3 FS Pneqvnp Neerfg C1 2015-00000728",
-        "FEP:930",
+    qbGrfg("G10",
+        "{Qvfcngpu Cntr} FE RZ  2016-00000056 R UJL 42 F  CREEL CY Fcyvgebpx 3 FS Vawhel Nppvqrag / Ebyybire 2016-00000056",
+        "HAVG:FE RZ",
+        "ZNC:Fcyvgebpx 3",
+        "NQQE:R UJL 42 & F CREEL CY",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Vawhel Nppvqrag / Ebyybire",
+        "VQ:2016-00000056");
+
+    qbGrfg("G11",
+        "{Qvfcngpu Cntr} FE  2016-00000055 7901 R  26GU FG Fcyvgebpx 3 FS Cbjre Yvarf Qbja 2016-00000055",
         "HAVG:FE",
         "ZNC:Fcyvgebpx 3",
-        "NQQE:2400 F EVIRE OYHSS EQ",
+        "NQQE:7901 R 26GU FG",
         "PVGL:FVBHK SNYYF",
-        "PNYY:Pneqvnp Neerfg C1",
-        "VQ:2015-00000728");
+        "PNYY:Cbjre Yvarf Qbja",
+        "VQ:2016-00000055");
 
-    qbGrfg("G22",
-        "{Qvfcngpu Cntr} FE  2015-00000128 26353 483EQ NIR Fcyvgebpx 2 OE Bcra Ohea 2015-00000128",
+    qbGrfg("G12",
+        "{Qvfcngpu Cntr} FE  2016-00000424 2808 F  EVIRE OYHSS EQ Fcyvgebpx 3 FS Fvpx Crefba C3 2016-00000424",
+        "HAVG:FE",
+        "ZNC:Fcyvgebpx 3",
+        "NQQE:2808 F EVIRE OYHSS EQ",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00000424");
+
+    qbGrfg("G13",
+        "{Qvfcngpu Cntr} FE  2016-00000052 8000 R UJL 42 JVYYBJ EHA TBYS PBHEFR Fcyvgebpx 3 FS Qvnorgvp C3 2016-00000052",
+        "HAVG:FE",
+        "ZNC:Fcyvgebpx 3",
+        "NQQE:8000 R UJL 42",
+        "CYNPR:JVYYBJ EHA TBYS PBHEFR",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Qvnorgvp C3",
+        "VQ:2016-00000052");
+
+    qbGrfg("G14",
+        "{Qvfcngpu Cntr} FE  2016-00000051 2012 F  FCYVGEBPX OYIQ ONQYNAQF ZBGBE FCRRQJNL Fcyvgebpx 2 OE Urng/Pbyq Rkcbfr C2 2016-00000051",
         "HAVG:FE",
         "ZNC:Fcyvgebpx 2",
-        "NQQE:26353 483EQ NIR",
+        "NQQE:2012 F FCYVGEBPX OYIQ",
+        "CYNPR:ONQYNAQF ZBGBE FCRRQJNL",
         "PVGL:OENAQBA",
-        "PNYY:Bcra Ohea",
-        "VQ:2015-00000128");
+        "PNYY:Urng/Pbyq Rkcbfr C2",
+        "VQ:2016-00000051");
+
+    qbGrfg("G16",
+        "{Qvfcngpu Cntr} FE  2016-00007867 2012 F  FCYVGEBPX OYIQ ONQYNAQF ZBGBE FCRRQJNL Fcyvgebpx 2 OE Iruvpyr Sver 2016-00007867",
+        "HAVG:FE",
+        "ZNC:Fcyvgebpx 2",
+        "NQQE:2012 F FCYVGEBPX OYIQ",
+        "CYNPR:ONQYNAQF ZBGBE FCRRQJNL",
+        "PVGL:OENAQBA",
+        "PNYY:Iruvpyr Sver",
+        "VQ:2016-00007867");
+
+    qbGrfg("G17",
+        "{Qvfcngpu Cntr} FE  2016-00000153 1816 J NFUGBA GEY Oenaqba-2 OE Fgehpgher Sver 2016-00000153",
+        "HAVG:FE",
+        "ZNC:Oenaqba-2",
+        "NQQE:1816 J NFUGBA GEY",
+        "PVGL:OENAQBA",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000153");
+
+    qbGrfg("G18",
+        "{Qvfcngpu Cntr} OE FE RZ  2016-00000153 1816 J NFUGBA GEY Oenaqba-2 OE Fgehpgher Sver 2016-00000153",
+        "HAVG:OE FE RZ",
+        "ZNC:Oenaqba-2",
+        "NQQE:1816 J NFUGBA GEY",
+        "PVGL:OENAQBA",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000153");
+
+    qbGrfg("G19",
+        "{Qvfcngpu Cntr}  2016-00000395 48179 UJL 42 Fcyvgebpx 4 IF Fvpx Crefba C3 2016-00000395",
+        "ZNC:Fcyvgebpx 4",
+        "NQQE:48179 UJL 42",
+        "PVGL:INYYRL FCEVATF",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00000395");
+
+    qbGrfg("G20",
+        "{Qvfcngpu Cntr} FE  2016-00000395 48177 UJL 42 Fcyvgebpx 4 OE Fvpx Crefba C3 2016-00000395",
+        "HAVG:FE",
+        "ZNC:Fcyvgebpx 4",
+        "NQQE:48177 UJL 42",
+        "PVGL:OENAQBA",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00000395");
+
+    qbGrfg("G21",
+        "{Qvfcngpu Cntr} FE  2016-00006933 8000 R UJL 42 JVYYBJ EHA TBYS PBHEFR Fcyvgebpx 3 FS Nyyretvrf C2 2016-00006933",
+        "HAVG:FE",
+        "ZNC:Fcyvgebpx 3",
+        "NQQE:8000 R UJL 42",
+        "CYNPR:JVYYBJ EHA TBYS PBHEFR",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Nyyretvrf C2",
+        "VQ:2016-00006933");
+
+    qbGrfg("G22",
+        "{Qvfcngpu Cntr} FE  2016-00000046 2012 F  FCYVGEBPX OYIQ ONQYNAQF ZBGBE FCRRQJNL Fcyvgebpx 2 OE Nppvqrag 2016-00000046",
+        "HAVG:FE",
+        "ZNC:Fcyvgebpx 2",
+        "NQQE:2012 F FCYVGEBPX OYIQ",
+        "CYNPR:ONQYNAQF ZBGBE FCRRQJNL",
+        "PVGL:OENAQBA",
+        "PNYY:Nppvqrag",
+        "VQ:2016-00000046");
 
     qbGrfg("G23",
-        "{Qvfcngpu Cntr} FE  2015-00000717 7813 R  38GU FG Fcyvgebpx 3 FS Hapbafp/Snvag C2 2015-00000717",
+        "{Qvfcngpu Cntr} FE  2016-00000045 400 A  BYQ PNOVA GEY Fcyvgebpx 1 FS Oernguvat Cebo C2 2016-00000045",
         "HAVG:FE",
-        "ZNC:Fcyvgebpx 3",
-        "NQQE:7813 R 38GU FG",
+        "ZNC:Fcyvgebpx 1",
+        "NQQE:400 A BYQ PNOVA GEY",
         "PVGL:FVBHK SNYYF",
-        "PNYY:Hapbafp/Snvag C2",
-        "VQ:2015-00000717");
+        "PNYY:Oernguvat Cebo C2",
+        "VQ:2016-00000045");
 
     qbGrfg("G24",
-        "{Qvfcngpu Cntr} FE  2015-00016471 1901 F  CREEL CY CREEL ANGHER NERN Fcyvgebpx 3 FS Snyyf C2 2015-00016471",
+        "{Qvfcngpu Cntr} FE  2016-00000353 26280 ZPUNEQL EQ Fcyvgebpx 2 OE Pneqvnp Neerfg C1 2016-00000353",
+        "HAVG:FE",
+        "ZNC:Fcyvgebpx 2",
+        "NQQE:26280 ZPUNEQL EQ",
+        "PVGL:OENAQBA",
+        "PNYY:Pneqvnp Neerfg C1",
+        "VQ:2016-00000353");
+
+    qbGrfg("G25",
+        "{Qvfcngpu Cntr} FE  2016-00000042 17 A  SNVEJNL QE Fcyvgebpx 1 FS Bcra Ohea 2016-00000042",
+        "HAVG:FE",
+        "ZNC:Fcyvgebpx 1",
+        "NQQE:17 A SNVEJNL QE",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Bcra Ohea",
+        "VQ:2016-00000042");
+
+    qbGrfg("G26",
+        "{Qvfcngpu Cntr} FE  2016-00000041 1500 A  FVK ZVYR EQ Fcyvgebpx 1 FS Bcra Ohea 2016-00000041",
+        "HAVG:FE",
+        "ZNC:Fcyvgebpx 1",
+        "NQQE:1500 A FVK ZVYR EQ",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Bcra Ohea",
+        "VQ:2016-00000041");
+
+    qbGrfg("G27",
+        "{Qvfcngpu Cntr} FE RZ  2016-00000040 UJL 42 267GU FG Fcyvgebpx 4 OE Vawhel Nppvqrag C3 2016-00000040",
+        "HAVG:FE RZ",
+        "ZNC:Fcyvgebpx 4",
+        "NQQE:UJL 42 & 267GU FG",
+        "PVGL:OENAQBA",
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00000040");
+
+    qbGrfg("G28",
+        "{Qvfcngpu Cntr} FE  2016-00000039 8700 R  FHAFRG PVE Fcyvgebpx 1 FS Snyyf C3 2016-00000039",
+        "HAVG:FE",
+        "ZNC:Fcyvgebpx 1",
+        "NQQE:8700 R FHAFRG PVE",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000039");
+
+    qbGrfg("G29",
+        "{Qvfcngpu Cntr} FE RZ  2016-00000038 UJL 42 481FG NIR Fcyvgebpx 4 FS Vawhel Nppvqrag C3 + Sver 2016-00000038",
+        "HAVG:FE RZ",
+        "ZNC:Fcyvgebpx 4",
+        "NQQE:UJL 42 & 481FG NIR",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Vawhel Nppvqrag C3 + Sver",
+        "VQ:2016-00000038");
+
+    qbGrfg("G30",
+        "{Qvfcngpu Cntr} FE  2016-00000320 2808 F  EVIRE OYHSS EQ Fcyvgebpx 3 FS Snyyf C3 2016-00000320",
         "HAVG:FE",
         "ZNC:Fcyvgebpx 3",
-        "NQQE:1901 F CREEL CY",
-        "CYNPR:CREEL ANGHER NERN",
+        "NQQE:2808 F EVIRE OYHSS EQ",
         "PVGL:FVBHK SNYYF",
-        "PNYY:Snyyf C2",
-        "VQ:2015-00016471");
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000320");
+
+    qbGrfg("G31",
+        "{Qvfcngpu Cntr}  2016-00000026 26627 486GU NIR Inyyrl Fcevatf 3 IF Fgehpgher Sver 2016-00000026",
+        "ZNC:Inyyrl Fcevatf 3",
+        "NQQE:26627 486GU NIR",
+        "PVGL:INYYRL FCEVATF",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000026");
+
+    qbGrfg("G32",
+        "{Qvfcngpu Cntr} IF FE RZ  2016-00000026 26627 486GU NIR fgehp Inyyrl Fcevatf 3 IF Fgehpgher Sver 2016-00000026",
+        "HAVG:IF FE RZ",
+        "ZNC:Inyyrl Fcevatf 3",
+        "NQQE:26627 486GU NIR",
+        "CYNPR:fgehp",
+        "PVGL:INYYRL FCEVATF",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000026");
 
   }
 
@@ -2547,450 +3038,2046 @@ choyvp pynff FQZvaarununPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   choyvp ibvq grfgOenaqbaSQ() {
 
     qbGrfg("G1",
-        "{Qvfcngpu Cntr} OE  2016-00000006 1100 R GRNXJBBQ FG 7 Fcyvgebpx Ncnegzragf Oenaqba 1 OE Pbai Frvmher C2 2016-00000006",
+        "{Qvfcngpu Cntr} OE  2016-00000179 2616 R FHAEVFR PG Oenaqba 1 OE Shyy Abgvsvre 2016-00000179",
         "HAVG:OE",
         "ZNC:Oenaqba 1",
-        "NQQE:1100 R GRNXJBBQ FG",
-        "NCG:7",
-        "CYNPR:Fcyvgebpx Ncnegzragf",
+        "NQQE:2616 R FHAEVFR PG",
         "PVGL:OENAQBA",
-        "PNYY:Pbai Frvmher C2",
-        "VQ:2016-00000006");
+        "PNYY:Shyy Abgvsvre",
+        "VQ:2016-00000179");
 
     qbGrfg("G2",
-        "{Qvfcngpu Cntr} OE  2016-00000015 301 F  FCYVGEBPX OYIQ Oenaqba Inyyrl Uvtu Fpubby Oenaqba 1 OE Pbai Frvmher C2 2016-00000015",
+        "{Qvfcngpu Cntr} OE  2016-00000178 200 F 5GU NIR Oenaqba 1 OE Oernguvat Cebo C2 2016-00000178",
         "HAVG:OE",
         "ZNC:Oenaqba 1",
-        "NQQE:301 F FCYVGEBPX OYIQ",
-        "CYNPR:Oenaqba Inyyrl Uvtu Fpubby",
+        "NQQE:200 F 5GU NIR",
         "PVGL:OENAQBA",
-        "PNYY:Pbai Frvmher C2",
-        "VQ:2016-00000015");
+        "PNYY:Oernguvat Cebo C2",
+        "VQ:2016-00000178");
 
     qbGrfg("G3",
-        "{Qvfcngpu Cntr}  2016-00000004 705 F 8GU NIR 204 Evqtrivrj Ncnegzragf Oenaqba 1 OE Fgebxr C2 2016-00000004",
-        "ZNC:Oenaqba 1",
-        "NQQE:705 F 8GU NIR",
-        "NCG:204",
-        "CYNPR:Evqtrivrj Ncnegzragf",
+        "{Qvfcngpu Cntr} OE  2016-00000488 25974 480GU NIR Oenaqba 5 OE Snyyf C3 2016-00000488",
+        "HAVG:OE",
+        "ZNC:Oenaqba 5",
+        "NQQE:25974 480GU NIR",
         "PVGL:OENAQBA",
-        "PNYY:Fgebxr C2",
-        "VQ:2016-00000004");
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000488");
 
     qbGrfg("G4",
-        "{Qvfcngpu Cntr} OE  2016-00000004 705 F 8GU NIR Evqtrivrj Ncnegzragf Oenaqba 1 OE Fgebxr C2 2016-00000004",
+        "{Qvfcngpu Cntr} OE  2016-00000176 V 90 ZZ 406 Oenaqba 1 Nyyretvrf C2 2016-00000176",
         "HAVG:OE",
         "ZNC:Oenaqba 1",
-        "NQQE:705 F 8GU NIR",
-        "CYNPR:Evqtrivrj Ncnegzragf",
-        "PVGL:OENAQBA",
-        "PNYY:Fgebxr C2",
-        "VQ:2016-00000004");
+        "NQQE:V 90 ZZ 406",
+        "PNYY:Nyyretvrf C2",
+        "VQ:2016-00000176");
 
     qbGrfg("G5",
-        "{Qvfcngpu Cntr} OE  2016-00000039 1508 R  ERQJBBQ OYIQ p Oenaqba 1 OE Nhqvoyr Nynez 2016-00000039",
+        "{Qvfcngpu Cntr} OE  2016-00000175 410 J CNEX FG 19R Ovt Fvbhk Erp Oenaqba 7 OE Purfg Cnva C2 2016-00000175",
         "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:1508 R ERQJBBQ OYIQ",
-        "NCG:p",
+        "ZNC:Oenaqba 7",
+        "NQQE:410 J CNEX FG",
+        "NCG:19R",
+        "CYNPR:Ovt Fvbhk Erp",
         "PVGL:OENAQBA",
-        "PNYY:Nhqvoyr Nynez",
-        "VQ:2016-00000039");
+        "PNYY:Purfg Cnva C2",
+        "VQ:2016-00000175");
 
     qbGrfg("G6",
-        "{Qvfcngpu Cntr} OE  2016-00000002 1037 R URNGUREJBBQ QE Oenaqba 1 OE Fvpx Crefba C2 2016-00000002",
+        "{Qvfcngpu Cntr} OE  2016-00000078 25495 485GU NIR CNYVFNQRF FGNGR CNEX Tneergfba 23 TA Jngre Erfphr 2016-00000078",
         "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:1037 R URNGUREJBBQ QE",
-        "PVGL:OENAQBA",
-        "PNYY:Fvpx Crefba C2",
-        "VQ:2016-00000002");
+        "ZNC:Tneergfba 23",
+        "NQQE:25495 485GU NIR",
+        "CYNPR:CNYVFNQRF FGNGR CNEX",
+        "PVGL:TNEERGFBA",
+        "PNYY:Jngre Erfphr",
+        "VQ:2016-00000078");
 
     qbGrfg("G7",
-        "{Qvfcngpu Cntr} OE IF RZ  2016-00000033 212 F 7GU NIR Oenaqba 1 OE Fgehpgher Sver 2016-00000033",
-        "HAVG:OE IF RZ",
-        "ZNC:Oenaqba 1",
-        "NQQE:212 F 7GU NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2016-00000033");
-
-    qbGrfg("G8",
-        "{Qvfcngpu Cntr}  2015-00000401 1000 R GRNXJBBQ FG 8 Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Urneg Ceboyrzf C2 2015-00000401",
-        "ZNC:Oenaqba 1",
-        "NQQE:1000 R GRNXJBBQ FG",
-        "NCG:8",
-        "CYNPR:Urycvat Unaqf Nffvfgrq Yvivat",
-        "PVGL:OENAQBA",
-        "PNYY:Urneg Ceboyrzf C2",
-        "VQ:2015-00000401");
-
-    qbGrfg("G9",
-        "{Qvfcngpu Cntr} OE  2015-00000401 1000 R GRNXJBBQ FG 8 Urycvat Unaqf Nffvfgrq Yvivat Oenaqba 1 OE Urneg Ceboyrzf C2 2015-00000401",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:1000 R GRNXJBBQ FG",
-        "NCG:8",
-        "CYNPR:Urycvat Unaqf Nffvfgrq Yvivat",
-        "PVGL:OENAQBA",
-        "PNYY:Urneg Ceboyrzf C2",
-        "VQ:2015-00000401");
-
-    qbGrfg("G10",
-        "{Qvfcngpu Cntr} OE IF RZ  2015-00003506 301 F  FCYVGEBPX OYIQ OENAQBA INYYRL UVTU FPUBBY Oenaqba 1 OE Fgehpgher Sver 2015-00003506",
-        "HAVG:OE IF RZ",
-        "ZNC:Oenaqba 1",
-        "NQQE:301 F FCYVGEBPX OYIQ",
-        "CYNPR:OENAQBA INYYRL UVTU FPUBBY",
-        "PVGL:OENAQBA",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2015-00003506");
-
-    qbGrfg("G12",
-        "{Qvfcngpu Cntr} OE  2015-00000398 1201 R XRLFGBAR CY 111 Erqjbbq Pbheg (1201) Oenaqba 1 OE Yvsg Nffvfg 2015-00000398",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:1201 R XRLFGBAR CY",
-        "NCG:111",
-        "CYNPR:Erqjbbq Pbheg (1201)",
-        "PVGL:OENAQBA",
-        "PNYY:Yvsg Nffvfg",
-        "VQ:2015-00000398");
-
-    qbGrfg("G13",
-        "{Qvfcngpu Cntr} OE IF RZ  2015-00000397 1708 F EVIRE BNX NIR Oenaqba 1 OE Fgehpgher Sver 2015-00000397",
-        "HAVG:OE IF RZ",
-        "ZNC:Oenaqba 1",
-        "NQQE:1708 F EVIRE BNX NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2015-00000397");
-
-    qbGrfg("G14",
-        "{Qvfcngpu Cntr} OE  2015-00000396 3012 R NFCRA OYIQ Orgunal Ubzr Oenaqba 1 OE Oernguvat Cebo C1 2015-00000396",
+        "{Qvfcngpu Cntr} OE  2016-00000481 3012 R NFCRA OYIQ Orgunal Ubzr Oenaqba 1 OE Genafsre C2 j/bhg sver 2016-00000481",
         "HAVG:OE",
         "ZNC:Oenaqba 1",
         "NQQE:3012 R NFCRA OYIQ",
         "CYNPR:Orgunal Ubzr",
         "PVGL:OENAQBA",
-        "PNYY:Oernguvat Cebo C1",
-        "VQ:2015-00000396");
+        "PNYY:Genafsre C2 j/bhg sver",
+        "VQ:2016-00000481");
 
-    qbGrfg("G15",
-        "{Qvfcngpu Cntr} OE  2015-00000395 501 F 5GU NIR Oenaqba 1 OE Oernguvat Cebo C2 2015-00000395",
+    qbGrfg("G8",
+        "{Qvfcngpu Cntr} OE IF RZ  2016-00000171 1408 R PRQNE FG Oenaqba 1 OE Fgehpgher Sver 2016-00000171",
+        "HAVG:OE IF RZ",
+        "ZNC:Oenaqba 1",
+        "NQQE:1408 R PRQNE FG",
+        "PVGL:OENAQBA",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000171");
+
+    qbGrfg("G9",
+        "{Qvfcngpu Cntr} OE  2016-00000169 601 A  GRGBA QE Grgba Ncnegzragf (601) Oenaqba 1 OE Oernguvat Cebo C2 2016-00000169",
         "HAVG:OE",
         "ZNC:Oenaqba 1",
-        "NQQE:501 F 5GU NIR",
+        "NQQE:601 A GRGBA QE",
+        "CYNPR:Grgba Ncnegzragf (601)",
         "PVGL:OENAQBA",
         "PNYY:Oernguvat Cebo C2",
-        "VQ:2015-00000395");
+        "VQ:2016-00000169");
 
-    qbGrfg("G16",
-        "{Qvfcngpu Cntr} OE  2015-00000394 419 A 9GU NIR Oenaqba 1 OE Urneg Ceboyrzf C2 2015-00000394",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:419 A 9GU NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Urneg Ceboyrzf C2",
-        "VQ:2015-00000394");
-
-    qbGrfg("G17",
-        "{Qvfcngpu Cntr} OE  2015-00000393 115 A  FCYVGEBPX OYIQ Oenaqba 1 OE Shyy Abgvsvre 2015-00000393",
+    qbGrfg("G10",
+        "{Qvfcngpu Cntr} OE  2016-00000168 115 A  FCYVGEBPX OYIQ Oenaqba 1 OE Shyy Abgvsvre 2016-00000168",
         "HAVG:OE",
         "ZNC:Oenaqba 1",
         "NQQE:115 A FCYVGEBPX OYIQ",
         "PVGL:OENAQBA",
         "PNYY:Shyy Abgvsvre",
-        "VQ:2015-00000393");
+        "VQ:2016-00000168");
+
+    qbGrfg("G11",
+        "{Qvfcngpu Cntr} OE IF RZ  2016-00000167 509 F 3EQ NIR Oenaqba 1 OE Fgehpgher Sver 2016-00000167",
+        "HAVG:OE IF RZ",
+        "ZNC:Oenaqba 1",
+        "NQQE:509 F 3EQ NIR",
+        "PVGL:OENAQBA",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000167");
+
+    qbGrfg("G12",
+        "{Qvfcngpu Cntr} OE  2016-00000456 1208 R YNEX FG Oenaqba 1 OE Yvsg Nffvfg 2016-00000456",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:1208 R YNEX FG",
+        "PVGL:OENAQBA",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000456");
+
+    qbGrfg("G13",
+        "{Qvfcngpu Cntr} OE  2016-00000165 1008 R  NFCRA OYIQ Oenaqba 1 OE Purfg Cnva C2 2016-00000165",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:1008 R NFCRA OYIQ",
+        "PVGL:OENAQBA",
+        "PNYY:Purfg Cnva C2",
+        "VQ:2016-00000165");
+
+    qbGrfg("G14",
+        "{Qvfcngpu Cntr} OE  2016-00000164 1039 R URNGUREJBBQ QE Oenaqba 1 OE Yvsg Nffvfg 2016-00000164",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:1039 R URNGUREJBBQ QE",
+        "PVGL:OENAQBA",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000164");
+
+    qbGrfg("G15",
+        "{Qvfcngpu Cntr} OE  2016-00000163 917 F NFCRA CNEX EQ NFCRA CNEX Oenaqba 1 OE Genhzngvp Vawhel C2 2016-00000163",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:917 F NFCRA CNEX EQ",
+        "CYNPR:NFCRA CNEX",
+        "PVGL:OENAQBA",
+        "PNYY:Genhzngvp Vawhel C2",
+        "VQ:2016-00000163");
+
+    qbGrfg("G16",
+        "{Qvfcngpu Cntr} OE  2016-00000162 3008 R  NFCRA OYIQ Orgunal Zrnqbjf Oenaqba 1 OE Shyy Abgvsvre 2016-00000162",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:3008 R NFCRA OYIQ",
+        "CYNPR:Orgunal Zrnqbjf",
+        "PVGL:OENAQBA",
+        "PNYY:Shyy Abgvsvre",
+        "VQ:2016-00000162");
+
+    qbGrfg("G17",
+        "{Qvfcngpu Cntr} OE  2016-00001566 304 J OVEPUJBBQ PVE Oenaqba 1 OE Pneoba Zba Qrgrpgbe 2016-00001566",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:304 J OVEPUJBBQ PVE",
+        "PVGL:OENAQBA",
+        "PNYY:Pneoba Zba Qrgrpgbe",
+        "VQ:2016-00001566");
 
     qbGrfg("G18",
-        "{Qvfcngpu Cntr} OE  2015-00000391 301 F  FCYVGEBPX OYIQ Oenaqba Inyyrl Uvtu Fpubby Oenaqba 1 OE Shyy Abgvsvre 2015-00000391",
+        "{Qvfcngpu Cntr} OE  2016-00000160 2717 R FHAEVFR PG Oenaqba 1 OE Hapbafp/Snvag C2 2016-00000160",
         "HAVG:OE",
         "ZNC:Oenaqba 1",
-        "NQQE:301 F FCYVGEBPX OYIQ",
-        "CYNPR:Oenaqba Inyyrl Uvtu Fpubby",
+        "NQQE:2717 R FHAEVFR PG",
         "PVGL:OENAQBA",
-        "PNYY:Shyy Abgvsvre",
-        "VQ:2015-00000391");
+        "PNYY:Hapbafp/Snvag C2",
+        "VQ:2016-00000160");
 
     qbGrfg("G19",
-        "{Qvfcngpu Cntr} OE  2015-00003453 301 F  FCYVGEBPX OYIQ Oenaqba Inyyrl Uvtu Fpubby Oenaqba 1 OE Shyy Abgvsvre 2015-00003453",
+        "{Qvfcngpu Cntr} OE  2016-00000404 1021 R URNGUREJBBQ QE Oenaqba 1 OE Fvpx Crefba C2 2016-00000404",
         "HAVG:OE",
         "ZNC:Oenaqba 1",
-        "NQQE:301 F FCYVGEBPX OYIQ",
-        "CYNPR:Oenaqba Inyyrl Uvtu Fpubby",
+        "NQQE:1021 R URNGUREJBBQ QE",
         "PVGL:OENAQBA",
-        "PNYY:Shyy Abgvsvre",
-        "VQ:2015-00003453");
+        "PNYY:Fvpx Crefba C2",
+        "VQ:2016-00000404");
 
     qbGrfg("G20",
-        "{Qvfcngpu Cntr} OE  2015-00000389 R  EVPR FG A  FVK ZVYR EQ Oenaqba 7 FS Nppvqrag 2015-00000389",
-        "HAVG:OE",
-        "ZNC:Oenaqba 7",
-        "NQQE:R EVPR FG & A FVK ZVYR EQ",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Nppvqrag",
-        "VQ:2015-00000389");
+        "{Qvfcngpu Cntr} OE IF RZ  2016-00000157 1612 F EVIRE BNX NIR Oenaqba 1 OE Fgehpgher Sver 2016-00000157",
+        "HAVG:OE IF RZ",
+        "ZNC:Oenaqba 1",
+        "NQQE:1612 F EVIRE BNX NIR",
+        "PVGL:OENAQBA",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000157");
 
     qbGrfg("G21",
-        "{Qvfcngpu Cntr} OE  2015-00000388 258GU FG 482AQ NIR Oenaqba 6 OE Iruvpyr Sver 2015-00000388",
+        "{Qvfcngpu Cntr} OE  2016-00000155 1816 J NFUGBA GEY Oenaqba-2 OE Sver Bgure 2016-00000155",
         "HAVG:OE",
-        "ZNC:Oenaqba 6",
-        "NQQE:258GU FG & 482AQ NIR",
+        "ZNC:Oenaqba-2",
+        "NQQE:1816 J NFUGBA GEY",
         "PVGL:OENAQBA",
-        "PNYY:Iruvpyr Sver",
-        "VQ:2015-00000388");
+        "PNYY:Sver Bgure",
+        "VQ:2016-00000155");
 
     qbGrfg("G22",
-        "{Qvfcngpu Cntr} OE  2015-00003411 409 R PRQNE FG Oenaqba 1 OE Pbai Frvmher C2 2015-00003411",
+        "{Qvfcngpu Cntr} OE  2016-00000154 312 J RIRETERRA QE Oenaqba 1 OE Bcra Ohea 2016-00000154",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:312 J RIRETERRA QE",
+        "PVGL:OENAQBA",
+        "PNYY:Bcra Ohea",
+        "VQ:2016-00000154");
+
+    qbGrfg("G23",
+        "{Qvfcngpu Cntr} OE RZ  2016-00000152 V 90 ZZ 405 Oenaqba 7 OE Vawhel Nppvqrag C2 2016-00000152",
+        "HAVG:OE RZ",
+        "ZNC:Oenaqba 7",
+        "NQQE:V 90 ZZ 405",
+        "PVGL:OENAQBA",
+        "PNYY:Vawhel Nppvqrag C2",
+        "VQ:2016-00000152");
+
+    qbGrfg("G24",
+        "{Qvfcngpu Cntr} OE  2016-00000151 1008 R ZNTABYVN QE Oenaqba 1 OE Pneoba Zba Qrgrpgbe 2016-00000151",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:1008 R ZNTABYVN QE",
+        "PVGL:OENAQBA",
+        "PNYY:Pneoba Zba Qrgrpgbe",
+        "VQ:2016-00000151");
+
+    qbGrfg("G25",
+        "{Qvfcngpu Cntr} OE  2016-00000150 3108 R NHTHFGNAN CY Oenaqba 1 OE Purfg Cnva C2 2016-00000150",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:3108 R NHTHFGNAN CY",
+        "PVGL:OENAQBA",
+        "PNYY:Purfg Cnva C2",
+        "VQ:2016-00000150");
+
+    qbGrfg("G26",
+        "{Qvfcngpu Cntr} OE  2016-00000149 404 F  PBHAGEL PYHO NIR Oenaqba 1 OE Purfg Cnva C2 2016-00000149",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:404 F PBHAGEL PYHO NIR",
+        "PVGL:OENAQBA",
+        "PNYY:Purfg Cnva C2",
+        "VQ:2016-00000149");
+
+    qbGrfg("G27",
+        "{Qvfcngpu Cntr} OE  2016-00000148 328 F 3EQ NIR Oenaqba 1 OE Noqbzvany Cnva C2 2016-00000148",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:328 F 3EQ NIR",
+        "PVGL:OENAQBA",
+        "PNYY:Noqbzvany Cnva C2",
+        "VQ:2016-00000148");
+
+    qbGrfg("G28",
+        "{Qvfcngpu Cntr} OE  2016-00000147 1216 R XRLFGBAR CY 58 Oenaqba 1 OE Oernguvat Cebo C1 2016-00000147",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:1216 R XRLFGBAR CY",
+        "NCG:58",
+        "PVGL:OENAQBA",
+        "PNYY:Oernguvat Cebo C1",
+        "VQ:2016-00000147");
+
+    qbGrfg("G29",
+        "{Qvfcngpu Cntr} OE  2016-00000146 1207 R  URZYBPX OYIQ Oenaqba 5 OE Genhzngvp Vawhel C2 2016-00000146",
+        "HAVG:OE",
+        "ZNC:Oenaqba 5",
+        "NQQE:1207 R URZYBPX OYIQ",
+        "PVGL:OENAQBA",
+        "PNYY:Genhzngvp Vawhel C2",
+        "VQ:2016-00000146");
+
+    qbGrfg("G30",
+        "{Qvfcngpu Cntr} OE  2016-00001426 201 F FHZZRE NIR Oenaqba 1 OE Bireqbfr C2 + CQ 2016-00001426",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:201 F FHZZRE NIR",
+        "PVGL:OENAQBA",
+        "PNYY:Bireqbfr C2 + CQ",
+        "VQ:2016-00001426");
+
+    qbGrfg("G31",
+        "{Qvfcngpu Cntr} OE  2016-00000377 48283 257GU FG Oenaqba 4 TA Snyyf C3 2016-00000377",
+        "HAVG:OE",
+        "ZNC:Oenaqba 4",
+        "NQQE:48283 257GU FG",
+        "PVGL:TNEERGFBA",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000377");
+
+    qbGrfg("G32",
+        "{Qvfcngpu Cntr} OE  2016-00001399 409 R PRQNE FG Oenaqba 1 OE Snyyf C2 2016-00001399",
         "HAVG:OE",
         "ZNC:Oenaqba 1",
         "NQQE:409 R PRQNE FG",
         "PVGL:OENAQBA",
-        "PNYY:Pbai Frvmher C2",
-        "VQ:2015-00003411");
-
-    qbGrfg("G23",
-        "{Qvfcngpu Cntr} OE  2015-00003410 419 F  LRYYBJFGBAR QE Oenaqba 1 OE Nffnhyg C2 2015-00003410",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:419 F LRYYBJFGBAR QE",
-        "PVGL:OENAQBA",
-        "PNYY:Nffnhyg C2",
-        "VQ:2015-00003410");
-
-    qbGrfg("G24",
-        "{Qvfcngpu Cntr} OE  2015-00003388 805 R URNGUREJBBQ PVE Oenaqba 1 OE Pneoba Zba Qrgrpgbe 2015-00003388",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:805 R URNGUREJBBQ PVE",
-        "PVGL:OENAQBA",
-        "PNYY:Pneoba Zba Qrgrpgbe",
-        "VQ:2015-00003388");
-
-    qbGrfg("G25",
-        "{Qvfcngpu Cntr}  2015-00018898 V 90 RKVG 406 Oenaqba 6 OE Oernguvat Cebo C2 2015-00018898",
-        "ZNC:Oenaqba 6",
-        "NQQE:V 90",
-        "CYNPR:RKVG 406",
-        "PVGL:OENAQBA",
-        "PNYY:Oernguvat Cebo C2",
-        "VQ:2015-00018898");
-
-    qbGrfg("G26",
-        "{Qvfcngpu Cntr} OE  2015-00018898 V 90 ZZ 406 Oenaqba 1 OE Oernguvat Cebo C2 2015-00018898",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:V 90 ZZ 406",
-        "PVGL:OENAQBA",
-        "PNYY:Oernguvat Cebo C2",
-        "VQ:2015-00018898");
-
-    qbGrfg("G27",
-        "{Qvfcngpu Cntr} OE  2015-00000383 101 R PRQNE FG 1 Prqne Ncnegzragf (101) Oenaqba 1 OE Fgebxr C2 2015-00000383",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:101 R PRQNE FG",
-        "NCG:1",
-        "CYNPR:Prqne Ncnegzragf (101)",
-        "PVGL:OENAQBA",
-        "PNYY:Fgebxr C2",
-        "VQ:2015-00000383");
-
-    qbGrfg("G28",
-        "{Qvfcngpu Cntr} OE  2015-00003338 R  NFCRA OYIQ F  PBHAGEL PYHO NIR Oenaqba 1 OE Hapbafp/Snvag C2 2015-00003338",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:R NFCRA OYIQ & F PBHAGEL PYHO NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Hapbafp/Snvag C2",
-        "VQ:2015-00003338");
-
-    qbGrfg("G29",
-        "{Qvfcngpu Cntr} OE IF RZ  2015-00000381 26040 482AQ NIR Oenaqba 6 OE Fgehpgher Sver 2015-00000381",
-        "HAVG:OE IF RZ",
-        "ZNC:Oenaqba 6",
-        "NQQE:26040 482AQ NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Fgehpgher Sver",
-        "VQ:2015-00000381");
-
-    qbGrfg("G30",
-        "{Qvfcngpu Cntr} OE  2015-00000380 V 90 ZZ 406 Oenaqba 1 OE Nppvqrag 2015-00000380",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:V 90 ZZ 406",
-        "PVGL:OENAQBA",
-        "PNYY:Nppvqrag",
-        "VQ:2015-00000380");
-
-    qbGrfg("G31",
-        "{Qvfcngpu Cntr} OE  2015-00000379 1100 R GRNXJBBQ FG 7 Fcyvgebpx Ncnegzragf Oenaqba 1 OE Fvpx Crefba C2 2015-00000379",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:1100 R GRNXJBBQ FG",
-        "NCG:7",
-        "CYNPR:Fcyvgebpx Ncnegzragf",
-        "PVGL:OENAQBA",
-        "PNYY:Fvpx Crefba C2",
-        "VQ:2015-00000379");
+        "PNYY:Snyyf C2",
+        "VQ:2016-00001399");
 
     qbGrfg("G33",
-        "{Qvfcngpu Cntr} OE  2015-00000378 301 F  FCYVGEBPX OYIQ OENAQBA INYYRL UVTU FPUBBY Oenaqba 1 OE Shyy Abgvsvre 2015-00000378",
-        "HAVG:OE",
+        "{Qvfcngpu Cntr} OE RZ  2016-00001388 R NFCRA OYIQ F  ZNVA NIR Oenaqba 1 OE Vawhel Nppvqrag C2 2016-00001388",
+        "HAVG:OE RZ",
         "ZNC:Oenaqba 1",
-        "NQQE:301 F FCYVGEBPX OYIQ",
-        "CYNPR:OENAQBA INYYRL UVTU FPUBBY",
+        "NQQE:R NFCRA OYIQ & F ZNVA NIR",
         "PVGL:OENAQBA",
-        "PNYY:Shyy Abgvsvre",
-        "VQ:2015-00000378");
+        "PNYY:Vawhel Nppvqrag C2",
+        "VQ:2016-00001388");
 
     qbGrfg("G34",
-        "{Qvfcngpu Cntr}  2015-00018581 V 90 RKVG 402 Oenaqba 7 Vawhel Nppvqrag / Ebyybire 2015-00018581",
-        "NQQE:V 90",
-        "PNYY:RKVG 402 Oenaqba 7 Vawhel Nppvqrag / Ebyybire",
-        "VQ:2015-00018581");
+        "{Qvfcngpu Cntr} OE IF RZ  2016-00000141 205 F  ARRQYRF QE Oenaqba 1 OE Fgehpgher Sver 2016-00000141",
+        "HAVG:OE IF RZ",
+        "ZNC:Oenaqba 1",
+        "NQQE:205 F ARRQYRF QE",
+        "PVGL:OENAQBA",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000141");
 
     qbGrfg("G35",
-        "{Qvfcngpu Cntr} OE RZ  2015-00018581 V 90 RKVG 402 Oenaqba 7 FS Vawhel Nppvqrag / Ebyybire 2015-00018581",
-        "HAVG:OE RZ",
-        "ZNC:Oenaqba 7",
-        "NQQE:V 90",
-        "CYNPR:RKVG 402",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Vawhel Nppvqrag / Ebyybire",
-        "VQ:2015-00018581");
-
-    qbGrfg("G36",
-        "{Qvfcngpu Cntr} OE  2015-00003309 3204 R NHTHFGNAN CY Oenaqba 1 OE Purfg Cnva C2 2015-00003309",
+        "{Qvfcngpu Cntr} OE  2016-00000365 3008 R  NFCRA OYIQ 201 Orgunal Zrnqbjf Oenaqba 1 OE Snyyf C2 2016-00000365",
         "HAVG:OE",
         "ZNC:Oenaqba 1",
-        "NQQE:3204 R NHTHFGNAN CY",
-        "PVGL:OENAQBA",
-        "PNYY:Purfg Cnva C2",
-        "VQ:2015-00003309");
-
-    qbGrfg("G37",
-        "{Qvfcngpu Cntr} OE  2015-00000375 48350 257GU FG Oenaqba 4 TA Hapbafp/Snvag C2 2015-00000375",
-        "HAVG:OE",
-        "ZNC:Oenaqba 4",
-        "NQQE:48350 257GU FG",
-        "PVGL:TNEERGFBA",
-        "PNYY:Hapbafp/Snvag C2",
-        "VQ:2015-00000375");
-
-    qbGrfg("G38",
-        "{Qvfcngpu Cntr}  2015-00003298 J UBYYL OYIQ F  NEOBE EVQTR EQ Oenaqba-2 OE Vawhel Nppvqrag C3 2015-00003298",
-        "ZNC:Oenaqba-2",
-        "NQQE:J UBYYL OYIQ & F NEOBE EVQTR EQ",
-        "PVGL:OENAQBA",
-        "PNYY:Vawhel Nppvqrag C3",
-        "VQ:2015-00003298");
-
-    qbGrfg("G39",
-        "{Qvfcngpu Cntr}  2015-00003298 1900 F  UBYYL NIR Dhnq FJ3P FS Vawhel Nppvqrag C3 2015-00003298",
-        "NQQE:1900 F UBYYL NIR",
-        "CYNPR:Dhnq FJ3P",
-        "PVGL:FVBHK SNYYF",
-        "PNYY:Vawhel Nppvqrag C3",
-        "VQ:2015-00003298");
-
-    qbGrfg("G40",
-        "{Qvfcngpu Cntr} OE RZ  2015-00003298 J UBYYL OYIQ F  NEOBE EVQTR EQ Oenaqba-2 OE Vawhel Nppvqrag C3 2015-00003298",
-        "HAVG:OE RZ",
-        "ZNC:Oenaqba-2",
-        "NQQE:J UBYYL OYIQ & F NEOBE EVQTR EQ",
-        "PVGL:OENAQBA",
-        "PNYY:Vawhel Nppvqrag C3",
-        "VQ:2015-00003298");
-
-    qbGrfg("G41",
-        "{Qvfcngpu Cntr} OE  2015-00000373 2825 R FHASYBJRE PVE Oenaqba 1 OE Pneoba Zba Qrgrpgbe 2015-00000373",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:2825 R FHASYBJRE PVE",
-        "PVGL:OENAQBA",
-        "PNYY:Pneoba Zba Qrgrpgbe",
-        "VQ:2015-00000373");
-
-    qbGrfg("G42",
-        "{Qvfcngpu Cntr} OE  2015-00000372 1209 R YNEX FG Oenaqba 1 OE Fgebxr C2 2015-00000372",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:1209 R YNEX FG",
-        "PVGL:OENAQBA",
-        "PNYY:Fgebxr C2",
-        "VQ:2015-00000372");
-
-    qbGrfg("G43",
-        "{Qvfcngpu Cntr} OE  2015-00018433 V 90 RKVG 406 Oenaqba 6 OE Nppvqrag 2015-00018433",
-        "HAVG:OE",
-        "ZNC:Oenaqba 6",
-        "NQQE:V 90",
-        "CYNPR:RKVG 406",
-        "PVGL:OENAQBA",
-        "PNYY:Nppvqrag",
-        "VQ:2015-00018433");
-
-    qbGrfg("G44",
-        "{Qvfcngpu Cntr} 930 OE  2015-00000795 1200 R XRLFGBAR CY 50 Oenaqba 1 OE Yvsg Nffvfg 2015-00000795",
-        "FEP:930",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:1200 R XRLFGBAR CY",
-        "NCG:50",
-        "PVGL:OENAQBA",
-        "PNYY:Yvsg Nffvfg",
-        "VQ:2015-00000795");
-
-    qbGrfg("G45",
-        "{Qvfcngpu Cntr} OE  2015-00000369 105 F 6GU NIR Oenaqba 1 OE Pneoba Zba Qrgrpgbe 2015-00000369",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:105 F 6GU NIR",
-        "PVGL:OENAQBA",
-        "PNYY:Pneoba Zba Qrgrpgbe",
-        "VQ:2015-00000369");
-
-    qbGrfg("G46",
-        "{Qvfcngpu Cntr} OE  2015-00000368 1100 R GRNXJBBQ FG 107 Fcyvgebpx Ncnegzragf Oenaqba 1 OE Purfg Cnva C2 2015-00000368",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:1100 R GRNXJBBQ FG",
-        "NCG:107",
-        "CYNPR:Fcyvgebpx Ncnegzragf",
-        "PVGL:OENAQBA",
-        "PNYY:Purfg Cnva C2",
-        "VQ:2015-00000368");
-
-    qbGrfg("G47",
-        "{Qvfcngpu Cntr} OE  2015-00000367 1009 A  FCYVGEBPX OYIQ PBSSRR PHC OENAQBA Oenaqba 1 OE Snyyf C2 2015-00000367",
-        "HAVG:OE",
-        "ZNC:Oenaqba 1",
-        "NQQE:1009 A FCYVGEBPX OYIQ",
-        "CYNPR:PBSSRR PHC OENAQBA",
+        "NQQE:3008 R NFCRA OYIQ",
+        "NCG:201",
+        "CYNPR:Orgunal Zrnqbjf",
         "PVGL:OENAQBA",
         "PNYY:Snyyf C2",
-        "VQ:2015-00000367");
+        "VQ:2016-00000365");
+
+    qbGrfg("G36",
+        "{Qvfcngpu Cntr} OE  2016-00000139 409 R PRQNE FG Oenaqba 1 OE Yvsg Nffvfg 2016-00000139",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:409 R PRQNE FG",
+        "PVGL:OENAQBA",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000139");
+
+    qbGrfg("G37",
+        "{Qvfcngpu Cntr}  2016-00000138 801 A NTNGR NIR Oenaqba 1 OE Bcra Yvar 2016-00000138",
+        "ZNC:Oenaqba 1",
+        "NQQE:801 A NTNGR NIR",
+        "PVGL:OENAQBA",
+        "PNYY:Bcra Yvar",
+        "VQ:2016-00000138");
+
+    qbGrfg("G38",
+        "{Qvfcngpu Cntr}  2016-00000138 Oenaqba 1 FS Bcra Ohea 2016-00000138",
+        "NQQE:Oenaqba 1",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Bcra Ohea",
+        "VQ:2016-00000138");
+
+    qbGrfg("G39",
+        "{Qvfcngpu Cntr} OE  2016-00000138 801 A NTNGR NIR Oenaqba 1 OE Bcra Ohea 2016-00000138",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:801 A NTNGR NIR",
+        "PVGL:OENAQBA",
+        "PNYY:Bcra Ohea",
+        "VQ:2016-00000138");
+
+    qbGrfg("G40",
+        "{Qvfcngpu Cntr} OE  2016-00000137 409 R PRQNE FG Oenaqba 1 OE Zrqvpny Rzretrapl 2016-00000137",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:409 R PRQNE FG",
+        "PVGL:OENAQBA",
+        "PNYY:Zrqvpny Rzretrapl",
+        "VQ:2016-00000137");
+
+    qbGrfg("G41",
+        "{Qvfcngpu Cntr} OE 934  2016-00000136 3008 R NFCRA OYIQ 106 Orgunal Zrnqbjf Oenaqba 1 OE Snyyf C2 2016-00000136",
+        "FEP:934",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:3008 R NFCRA OYIQ",
+        "NCG:106",
+        "CYNPR:Orgunal Zrnqbjf",
+        "PVGL:OENAQBA",
+        "PNYY:Snyyf C2",
+        "VQ:2016-00000136");
+
+    qbGrfg("G42",
+        "{Qvfcngpu Cntr} OE  2016-00000135 2012 R FLYINA PVE Oenaqba 1 OE Urnqnpur C2 2016-00000135",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:2012 R FLYINA PVE",
+        "PVGL:OENAQBA",
+        "PNYY:Urnqnpur C2",
+        "VQ:2016-00000135");
+
+    qbGrfg("G43",
+        "{Qvfcngpu Cntr} OE  2016-00000352 3008 R  NFCRA OYIQ 108 Orgunal Zrnqbjf Oenaqba 1 OE Fvpx Crefba C2 2016-00000352",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:3008 R NFCRA OYIQ",
+        "NCG:108",
+        "CYNPR:Orgunal Zrnqbjf",
+        "PVGL:OENAQBA",
+        "PNYY:Fvpx Crefba C2",
+        "VQ:2016-00000352");
+
+    qbGrfg("G44",
+        "{Qvfcngpu Cntr} OE  2016-00000133 109 J PUVPBEL QE Oenaqba 1 OE Bireqbfr C2 + CQ 2016-00000133",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:109 J PUVPBEL QE",
+        "PVGL:OENAQBA",
+        "PNYY:Bireqbfr C2 + CQ",
+        "VQ:2016-00000133");
+
+    qbGrfg("G45",
+        "{Qvfcngpu Cntr} OE  2016-00001274 1505 R EHFUZBER QE Oenaqba 1 OE Purfg Cnva C2 2016-00001274",
+        "HAVG:OE",
+        "ZNC:Oenaqba 1",
+        "NQQE:1505 R EHFUZBER QE",
+        "PVGL:OENAQBA",
+        "PNYY:Purfg Cnva C2",
+        "VQ:2016-00001274");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgUhzobyqgSverNaqNzohynapr() {
+
+    qbGrfg("G1",
+        "{Qvfcngpu Cntr} 958  2016-00000071 200 J  6GU NIR UHZOBYQG ONFRONYY SVRYQ Uhzobyqg 4 UH Hapbafp/Snvag C2 2016-00000071",
+        "FEP:958",
+        "NQQE:200 J 6GU NIR",
+        "CYNPR:UHZOBYQG ONFRONYY SVRYQ",
+        "ZNC:Uhzobyqg 4",
+        "PVGL:UHZOBYG",
+        "PNYY:Hapbafp/Snvag C2",
+        "VQ:2016-00000071");
+
+    qbGrfg("G2",
+        "{Qvfcngpu Cntr} UH  2016-00000071 200 J  6GU NIR UHZOBYQG ONFRONYY SVRYQ Uhzobyqg 4 UH Hapbafp/Snvag C2 2016-00000071",
+        "HAVG:UH",
+        "NQQE:200 J 6GU NIR",
+        "CYNPR:UHZOBYQG ONFRONYY SVRYQ",
+        "ZNC:Uhzobyqg 4",
+        "PVGL:UHZOBYG",
+        "PNYY:Hapbafp/Snvag C2",
+        "VQ:2016-00000071");
+
+    qbGrfg("G3",
+        "{Qvfcngpu Cntr} 958  2016-00009535 100 R 9GU FG YBG 17 YBG 17 Unegsbeq 5 UQ Fgehpgher Sver 2016-00009535",
+        "FEP:958",
+        "NQQE:100 R 9GU FG",
+        "NCG:17",
+        "CYNPR:YBG 17",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00009535");
+
+    qbGrfg("G4",
+        "{Qvfcngpu Cntr} UQ UH RZ  2016-00009535 100 R 9GU FG YBG 17 YBG 17 Unegsbeq 5 UQ Fgehpgher Sver 2016-00009535",
+        "HAVG:UQ UH RZ",
+        "NQQE:100 R 9GU FG",
+        "NCG:17",
+        "CYNPR:YBG 17",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00009535");
+
+    qbGrfg("G5",
+        "{Qvfcngpu Cntr} 958  2016-00000127 911 A BNXF NIR 101 Unegsbeq 5 UQ Hax Ceboyrz C3 2016-00000127",
+        "FEP:958",
+        "NQQE:911 A BNXF NIR",
+        "NCG:101",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Hax Ceboyrz C3",
+        "VQ:2016-00000127");
+
+    qbGrfg("G6",
+        "{Qvfcngpu Cntr} UH  2016-00000069 V 90 ZZ 379 Uhzobyqg 3 UH Nppvqrag 2016-00000069",
+        "HAVG:UH",
+        "NQQE:V 90 ZZ 379",
+        "ZNC:Uhzobyqg 3",
+        "PVGL:UHZOBYG",
+        "PNYY:Nppvqrag",
+        "VQ:2016-00000069");
+
+    qbGrfg("G7",
+        "{Qvfcngpu Cntr} 958  2016-00000143 502 A  INAQRZNEX NIR Unegsbeq 5 UQ Yvsg Nffvfg 2016-00000143",
+        "FEP:958",
+        "NQQE:502 A INAQRZNEX NIR",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000143");
+
+    qbGrfg("G8",
+        "{Qvfcngpu Cntr} UH  2016-00000068 567 A  SBEQ FG Uhzobyqg 3 UH Tenff Sver 2016-00000068",
+        "HAVG:UH",
+        "NQQE:567 A SBEQ FG",
+        "ZNC:Uhzobyqg 3",
+        "PVGL:UHZOBYG",
+        "PNYY:Tenff Sver",
+        "VQ:2016-00000068");
+
+    qbGrfg("G9",
+        "{Qvfcngpu Cntr} UH  2016-00000125 413 F  ZNQVFBA FG Uhzobyqg 4 UH Hapbafp/Snvag C2 2016-00000125",
+        "HAVG:UH",
+        "NQQE:413 F ZNQVFBA FG",
+        "ZNC:Uhzobyqg 4",
+        "PVGL:UHZOBYG",
+        "PNYY:Hapbafp/Snvag C2",
+        "VQ:2016-00000125");
+
+    qbGrfg("G10",
+        "{Qvfcngpu Cntr} 958  2016-00000125 413 F  ZNQVFBA FG Uhzobyqg 4 UH Hapbafp/Snvag C2 2016-00000125",
+        "FEP:958",
+        "NQQE:413 F ZNQVFBA FG",
+        "ZNC:Uhzobyqg 4",
+        "PVGL:UHZOBYG",
+        "PNYY:Hapbafp/Snvag C2",
+        "VQ:2016-00000125");
+
+    qbGrfg("G11",
+        "{Qvfcngpu Cntr} 958  2016-00008803 202 F  BNXF NIR Unegsbeq 5 UQ Urzbeeuntr C3 2016-00008803",
+        "FEP:958",
+        "NQQE:202 F BNXF NIR",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Urzbeeuntr C3",
+        "VQ:2016-00008803");
+
+    qbGrfg("G12",
+        "{Qvfcngpu Cntr} 958  2016-00008779 456GU NIR V 90 Uhzobyqg 4 UH Vawhel Nppvqrag C3 2016-00008779",
+        "FEP:958",
+        "NQQE:456GU NIR & V 90",
+        "ZNC:Uhzobyqg 4",
+        "PVGL:UHZOBYG",
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00008779");
+
+    qbGrfg("G13",
+        "{Qvfcngpu Cntr} UH RZ  2016-00008779 456GU NIR V 90 Uhzobyqg 4 UH Vawhel Nppvqrag C3 2016-00008779",
+        "HAVG:UH RZ",
+        "NQQE:456GU NIR & V 90",
+        "ZNC:Uhzobyqg 4",
+        "PVGL:UHZOBYG",
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00008779");
+
+    qbGrfg("G14",
+        "{Qvfcngpu Cntr} 958  2016-00000122 250GU FG 456GU NIR Pbygba 8 UH Genhzngvp Vawhel C3 2016-00000122",
+        "FEP:958",
+        "ZNC:Pbygba 8",
+        "NQQE:250GU FG & 456GU NIR",
+        "PVGL:UHZOBYG",
+        "PNYY:Genhzngvp Vawhel C3",
+        "VQ:2016-00000122");
+
+    qbGrfg("G15",
+        "{Qvfcngpu Cntr} 958  2016-00000064 45719 263EQ FG Uhzobyqg 4 UH Hapbafp/Snvag C2 2016-00000064",
+        "FEP:958",
+        "NQQE:45719 263EQ FG",
+        "ZNC:Uhzobyqg 4",
+        "PVGL:UHZOBYG",
+        "PNYY:Hapbafp/Snvag C2",
+        "VQ:2016-00000064");
+
+    qbGrfg("G16",
+        "{Qvfcngpu Cntr} UH  2016-00000064 45719 263EQ FG Uhzobyqg 4 UH Hapbafp/Snvag C2 2016-00000064",
+        "HAVG:UH",
+        "NQQE:45719 263EQ FG",
+        "ZNC:Uhzobyqg 4",
+        "PVGL:UHZOBYG",
+        "PNYY:Hapbafp/Snvag C2",
+        "VQ:2016-00000064");
+
+    qbGrfg("G17",
+        "{Qvfcngpu Cntr} 958  2016-00000063 J  6GU NIR F  ZNVA FG Uhzobyqg 4 UH Tnf Yrnx 2016-00000063",
+        "FEP:958",
+        "NQQE:J 6GU NIR & F ZNVA FG",
+        "ZNC:Uhzobyqg 4",
+        "PVGL:UHZOBYG",
+        "PNYY:Tnf Yrnx",
+        "VQ:2016-00000063");
+
+    qbGrfg("G18",
+        "{Qvfcngpu Cntr} UH  2016-00000063 J  6GU NIR F  ZNVA FG Uhzobyqg 4 UH Tnf Yrnx 2016-00000063",
+        "HAVG:UH",
+        "NQQE:J 6GU NIR & F ZNVA FG",
+        "ZNC:Uhzobyqg 4",
+        "PVGL:UHZOBYG",
+        "PNYY:Tnf Yrnx",
+        "VQ:2016-00000063");
+
+    qbGrfg("G19",
+        "{Qvfcngpu Cntr} UH  2016-00000062 26437 456GU NIR Uhzobyqg 5 UH Iruvpyr Sver 2016-00000062",
+        "HAVG:UH",
+        "NQQE:26437 456GU NIR",
+        "ZNC:Uhzobyqg 5",
+        "PVGL:UHZOBYG",
+        "PNYY:Iruvpyr Sver",
+        "VQ:2016-00000062");
+
+    qbGrfg("G20",
+        "{Qvfcngpu Cntr}  2016-00008344 UJL 38 468GU NIR Pebbxf 4 FS Qvnorgvp C3 2016-00008344",
+        "ZNC:Pebbxf 4",
+        "NQQE:UJL 38 & 468GU NIR",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Qvnorgvp C3",
+        "VQ:2016-00008344");
+
+    qbGrfg("G21",
+        "{Qvfcngpu Cntr} 958  2016-00008344 UJL 38 466GU NIR Unegsbeq 4 FS Qvnorgvp C3 2016-00008344",
+        "FEP:958",
+        "NQQE:UJL 38 & 466GU NIR",
+        "ZNC:Unegsbeq 4",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Qvnorgvp C3",
+        "VQ:2016-00008344");
+
+    qbGrfg("G22",
+        "{Qvfcngpu Cntr} 958  2016-00000061 113 J  1FG NIR Uhzobyqg 4 UH Tnf Yrnx 2016-00000061",
+        "FEP:958",
+        "NQQE:113 J 1FG NIR",
+        "ZNC:Uhzobyqg 4",
+        "PVGL:UHZOBYG",
+        "PNYY:Tnf Yrnx",
+        "VQ:2016-00000061");
+
+    qbGrfg("G23",
+        "{Qvfcngpu Cntr} UH  2016-00000061 113 J  1FG NIR Uhzobyqg 4 UH Tnf Yrnx 2016-00000061",
+        "HAVG:UH",
+        "NQQE:113 J 1FG NIR",
+        "ZNC:Uhzobyqg 4",
+        "PVGL:UHZOBYG",
+        "PNYY:Tnf Yrnx",
+        "VQ:2016-00000061");
+
+    qbGrfg("G24",
+        "{Qvfcngpu Cntr} UH  2016-00000060 455GU NIR 266GU FG Uhzobyqg 5 UH Cbjre Yvarf Qbja 2016-00000060",
+        "HAVG:UH",
+        "NQQE:455GU NIR & 266GU FG",
+        "ZNC:Uhzobyqg 5",
+        "PVGL:UHZOBYG",
+        "PNYY:Cbjre Yvarf Qbja",
+        "VQ:2016-00000060");
+
+    qbGrfg("G25",
+        "{Qvfcngpu Cntr} UQ 958  2016-00000128 702 PERFFZNA GEY 2 Unegsbeq 5 UQ Fvpx Crefba C3 2016-00000128",
+        "FEP:958",
+        "HAVG:UQ",
+        "NQQE:702 PERFFZNA GEY",
+        "NCG:2",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00000128");
+
+    qbGrfg("G26",
+        "{Qvfcngpu Cntr} 958  2016-00000126 46234 262AQ FG Unegsbeq 6 UQ Purfg Cnva C2 2016-00000126",
+        "FEP:958",
+        "NQQE:46234 262AQ FG",
+        "ZNC:Unegsbeq 6",
+        "PNYY:Purfg Cnva C2",
+        "VQ:2016-00000126");
+
+    qbGrfg("G27",
+        "{Qvfcngpu Cntr} 958  2016-00000125 R  2AQ FG A  ZHAQG NIR Unegsbeq 5 UQ Pneqvnp Neerfg C1 2016-00000125",
+        "FEP:958",
+        "NQQE:R 2AQ FG & A ZHAQG NIR",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Pneqvnp Neerfg C1",
+        "VQ:2016-00000125");
+
+    qbGrfg("G28",
+        "{Qvfcngpu Cntr} UH  2016-00000059 26229 456GU NIR Uhzobyqg 5 UH Nppvqrag 2016-00000059",
+        "HAVG:UH",
+        "NQQE:26229 456GU NIR",
+        "ZNC:Uhzobyqg 5",
+        "PVGL:UHZOBYG",
+        "PNYY:Nppvqrag",
+        "VQ:2016-00000059");
+
+    qbGrfg("G29",
+        "{Qvfcngpu Cntr} 958 UQ  2016-00007896 1031 QVNZBAQ PVE NzrevpVaa Unegsbeq Unegsbeq 5 UQ Hapbafp/Snvag C3 2016-00007896",
+        "FEP:958",
+        "HAVG:UQ",
+        "NQQE:1031 QVNZBAQ PVE",
+        "CYNPR:NzrevpVaa Unegsbeq",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Hapbafp/Snvag C3",
+        "VQ:2016-00007896");
+
+    qbGrfg("G30",
+        "{Qvfcngpu Cntr} 958  2016-00000058 26245 459GU NIR Uhzobyqg 4 UH Fgehpgher Sver 2016-00000058",
+        "FEP:958",
+        "NQQE:26245 459GU NIR",
+        "ZNC:Uhzobyqg 4",
+        "PVGL:UHZOBYG",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000058");
+
+    qbGrfg("G31",
+        "{Qvfcngpu Cntr} UH RZ UQ  2016-00000058 26245 459GU NIR Uhzobyqg 4 UH Fgehpgher Sver 2016-00000058",
+        "HAVG:UH RZ UQ",
+        "NQQE:26245 459GU NIR",
+        "ZNC:Uhzobyqg 4",
+        "PVGL:UHZOBYG",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000058");
+
+    qbGrfg("G32",
+        "{Qvfcngpu Cntr} 958  2016-00000118 1001 F  JRFGREA NIR PBSSRR PHC UNEGSBEQ Unegsbeq 5 UQ Nffnhyg C2 2016-00000118",
+        "FEP:958",
+        "NQQE:1001 F JRFGREA NIR",
+        "CYNPR:PBSSRR PHC UNEGSBEQ",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Nffnhyg C2",
+        "VQ:2016-00000118");
+
+    qbGrfg("G33",
+        "{Qvfcngpu Cntr} 958  2016-00000057 201 FGBSSRENUA FG Uhzobyqg 4 UH Fgebxr C2 2016-00000057",
+        "FEP:958",
+        "NQQE:201 FGBSSRENUA FG",
+        "ZNC:Uhzobyqg 4",
+        "PVGL:UHZOBYG",
+        "PNYY:Fgebxr C2",
+        "VQ:2016-00000057");
+
+    qbGrfg("G34",
+        "{Qvfcngpu Cntr} UH  2016-00000057 201 FGBSSRENUA FG Uhzobyqg 4 UH Fgebxr C2 2016-00000057",
+        "HAVG:UH",
+        "NQQE:201 FGBSSRENUA FG",
+        "ZNC:Uhzobyqg 4",
+        "PVGL:UHZOBYG",
+        "PNYY:Fgebxr C2",
+        "VQ:2016-00000057");
+
+    qbGrfg("G35",
+        "{Qvfcngpu Cntr} 958  2016-00000117 100 R  9GU FG 3 Unegsbeq 5 UQ Bireqbfr C2 + CQ 2016-00000117",
+        "FEP:958",
+        "NQQE:100 R 9GU FG",
+        "NCG:3",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Bireqbfr C2 + CQ",
+        "VQ:2016-00000117");
+
+    qbGrfg("G36",
+        "{Qvfcngpu Cntr} 958  2016-00000114 112 F  ZNVA NIR Unegsbeq 5 UQ Oernguvat Cebo C1 2016-00000114",
+        "FEP:958",
+        "NQQE:112 F ZNVA NIR",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Oernguvat Cebo C1",
+        "VQ:2016-00000114");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgTneergfbaISQ() {
+
+    qbGrfg("G1",
+        "{Qvfcngpu Cntr} TA RZ  2016-00009510 481FG NIR 250GU FG Tneergfba 16 TA Vawhel Nppvqrag C3 2016-00009510",
+        "HAVG:TA RZ",
+        "ZNC:Tneergfba 16",
+        "NQQE:481FG NIR & 250GU FG",
+        "PVGL:TNEERGFBA",
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00009510");
+
+    qbGrfg("G2",
+        "{Qvfcngpu Cntr} TA  2016-00000078 25495 485GU NIR CNYVFNQRF FGNGR CNEX Tneergfba 23 TA Qebjavat C1 2016-00000078",
+        "HAVG:TA",
+        "ZNC:Tneergfba 23",
+        "NQQE:25495 485GU NIR",
+        "CYNPR:CNYVFNQRF FGNGR CNEX",
+        "PVGL:TNEERGFBA",
+        "PNYY:Qebjavat C1",
+        "VQ:2016-00000078");
+
+    qbGrfg("G3",
+        "{Qvfcngpu Cntr} TA  2016-00000089 812 PNALBA NIR 1 Tneergfba 23 TA Bireqbfr C2 + CQ 2016-00000089",
+        "HAVG:TA",
+        "ZNC:Tneergfba 23",
+        "NQQE:812 PNALBA NIR",
+        "NCG:1",
+        "PVGL:TNEERGFBA",
+        "PNYY:Bireqbfr C2 + CQ",
+        "VQ:2016-00000089");
+
+    qbGrfg("G4",
+        "{Qvfcngpu Cntr} TA  2016-00000076 716 5GU FG Tneergfba 23 TA Noqbzvany Cnva C2 2016-00000076",
+        "HAVG:TA",
+        "ZNC:Tneergfba 23",
+        "NQQE:716 5GU FG",
+        "PVGL:TNEERGFBA",
+        "PNYY:Noqbzvany Cnva C2",
+        "VQ:2016-00000076");
+
+    qbGrfg("G5",
+        "{Qvfcngpu Cntr} TA RZ  2016-00009388 252AQ FG 483EQ NIR Tneergfba 8 TA Vawhel Nppvqrag C3 2016-00009388",
+        "HAVG:TA RZ",
+        "ZNC:Tneergfba 8",
+        "NQQE:252AQ FG & 483EQ NIR",
+        "PVGL:TNEERGFBA",
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00009388");
+
+    qbGrfg("G6",
+        "{Qvfcngpu Cntr} TA  2016-00000074 924 4GU FG 5 Tneergfba 23 TA Yvsg Nffvfg 2016-00000074",
+        "HAVG:TA",
+        "ZNC:Tneergfba 23",
+        "NQQE:924 4GU FG",
+        "NCG:5",
+        "PVGL:TNEERGFBA",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000074");
+
+    qbGrfg("G7",
+        "{Qvfcngpu Cntr} TA  2016-00000073 600 PRAGRE NIR Tneergfba 23 TA Cbjre Yvarf Qbja 2016-00000073",
+        "HAVG:TA",
+        "ZNC:Tneergfba 23",
+        "NQQE:600 PRAGRE NIR",
+        "PVGL:TNEERGFBA",
+        "PNYY:Cbjre Yvarf Qbja",
+        "VQ:2016-00000073");
+
+    qbGrfg("G8",
+        "{Qvfcngpu Cntr} TA  2016-00009063 25495 485GU NIR CNYVFNQRF FGNGR CNEX Tneergfba 23 TA Snyyf C3 2016-00009063",
+        "HAVG:TA",
+        "ZNC:Tneergfba 23",
+        "NQQE:25495 485GU NIR",
+        "CYNPR:CNYVFNQRF FGNGR CNEX",
+        "PVGL:TNEERGFBA",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00009063");
+
+    qbGrfg("G9",
+        "{Qvfcngpu Cntr} TA  2016-00000083 512 RFFRK FG Tneergfba 23 TA Urzbeeuntr C2 2016-00000083",
+        "HAVG:TA",
+        "ZNC:Tneergfba 23",
+        "NQQE:512 RFFRK FG",
+        "PVGL:TNEERGFBA",
+        "PNYY:Urzbeeuntr C2",
+        "VQ:2016-00000083");
+
+    qbGrfg("G10",
+        "{Qvfcngpu Cntr} TA  2016-00000069 210 QBJF FG 10 Tneergfba 23 TA Cflpu/Fhvpvqr C3 CQ 2016-00000069",
+        "HAVG:TA",
+        "ZNC:Tneergfba 23",
+        "NQQE:210 QBJF FG",
+        "NCG:10",
+        "PVGL:TNEERGFBA",
+        "PNYY:Cflpu/Fhvpvqr C3 CQ",
+        "VQ:2016-00000069");
+
+    qbGrfg("G11",
+        "{Qvfcngpu Cntr} TA  2016-00008735 254GU FG 485GU NIR Tneergfba 23 TA Tenff Sver 2016-00008735",
+        "HAVG:TA",
+        "ZNC:Tneergfba 23",
+        "NQQE:254GU FG & 485GU NIR",
+        "PVGL:TNEERGFBA",
+        "PNYY:Tenff Sver",
+        "VQ:2016-00008735");
+
+    qbGrfg("G12",
+        "{Qvfcngpu Cntr} TA  2016-00000067 317 QRCBG NIR Tneergfba 23 TA Pbai Frvmher C2 2016-00000067",
+        "HAVG:TA",
+        "ZNC:Tneergfba 23",
+        "NQQE:317 QRCBG NIR",
+        "PVGL:TNEERGFBA",
+        "PNYY:Pbai Frvmher C2",
+        "VQ:2016-00000067");
+
+    qbGrfg("G13",
+        "{Qvfcngpu Cntr} TA  2016-00000076 345 MRYVSS NIR Tneergfba 1 FU Oernguvat Cebo C2 2016-00000076",
+        "HAVG:TA",
+        "ZNC:Tneergfba 1",
+        "NQQE:345 MRYVSS NIR",
+        "PVGL:FUREZNA",
+        "PNYY:Oernguvat Cebo C2",
+        "VQ:2016-00000076");
+
+    qbGrfg("G14",
+        "{Qvfcngpu Cntr} TA  2016-00000065 308 EVIRE NIR Tneergfba 23 TA Pneqvnp Neerfg C1 2016-00000065",
+        "HAVG:TA",
+        "ZNC:Tneergfba 23",
+        "NQQE:308 EVIRE NIR",
+        "PVGL:TNEERGFBA",
+        "PNYY:Pneqvnp Neerfg C1",
+        "VQ:2016-00000065");
+
+    qbGrfg("G15",
+        "{Qvfcngpu Cntr} TA  2016-00000070 24957 487GU NIR Tneergfba 1 TA Snyyf C3 2016-00000070",
+        "HAVG:TA",
+        "ZNC:Tneergfba 1",
+        "NQQE:24957 487GU NIR",
+        "PVGL:TNEERGFBA",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000070");
+
+    qbGrfg("G16",
+        "{Qvfcngpu Cntr} TA  2016-00000153 1816 J NFUGBA GEY Oenaqba-2 OE Fgehpgher Sver 2016-00000153",
+        "HAVG:TA",
+        "ZNC:Oenaqba-2",
+        "NQQE:1816 J NFUGBA GEY",
+        "PVGL:OENAQBA",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000153");
+
+    qbGrfg("G17",
+        "{Qvfcngpu Cntr} TA  2016-00000069 402 FHAEVFR PVE Tneergfba 23 TA Fvpx Crefba C3 2016-00000069",
+        "HAVG:TA",
+        "ZNC:Tneergfba 23",
+        "NQQE:402 FHAEVFR PVE",
+        "PVGL:TNEERGFBA",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00000069");
+
+    qbGrfg("G18",
+        "{Qvfcngpu Cntr} TA  2016-00007386 920 4GU FG 310 Cnyvfnqr Znabe Tneergfba 23 TA Cflpu/Fhvpvqr C3 CQ 2016-00007386",
+        "HAVG:TA",
+        "ZNC:Tneergfba 23",
+        "NQQE:920 4GU FG",
+        "NCG:310",
+        "CYNPR:Cnyvfnqr Znabe",
+        "PVGL:TNEERGFBA",
+        "PNYY:Cflpu/Fhvpvqr C3 CQ",
+        "VQ:2016-00007386");
+
+    qbGrfg("G19",
+        "{Qvfcngpu Cntr} TA  2016-00006701 24952 484GU NIR Tneergfba 2 TA Snyyf C3 2016-00006701",
+        "HAVG:TA",
+        "ZNC:Tneergfba 2",
+        "NQQE:24952 484GU NIR",
+        "PVGL:TNEERGFBA",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00006701");
+
+    qbGrfg("G20",
+        "{Qvfcngpu Cntr} TA  2016-00000059 807 BNX QE Tneergfba 23 TA Purfg Cnva C2 2016-00000059",
+        "HAVG:TA",
+        "ZNC:Tneergfba 23",
+        "NQQE:807 BNX QE",
+        "PVGL:TNEERGFBA",
+        "PNYY:Purfg Cnva C2",
+        "VQ:2016-00000059");
+
+    qbGrfg("G21",
+        "{Qvfcngpu Cntr} TA  2016-00000063 500 PRAGRE NIR Tneergfba 23 TA Fvpx Crefba C3 2016-00000063",
+        "HAVG:TA",
+        "ZNC:Tneergfba 23",
+        "NQQE:500 PRAGRE NIR",
+        "PVGL:TNEERGFBA",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00000063");
+
+    qbGrfg("G22",
+        "{Qvfcngpu Cntr} TA  2016-00006285 175 CNPXNEQ NIR Tneergfba 1 FU Nppvqrag 2016-00006285",
+        "HAVG:TA",
+        "ZNC:Tneergfba 1",
+        "NQQE:175 CNPXNEQ NIR",
+        "PVGL:FUREZNA",
+        "PNYY:Nppvqrag",
+        "VQ:2016-00006285");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgPebbxfISQ() {
+
+    qbGrfg("G1",
+        "{Qvfcngpu Cntr} PE  2016-00000059 1000 NAQERJ QE Pebbxf 3 PE Hapbafp/Snvag C1 2016-00000059",
+        "HAVG:PE",
+        "ZNC:Pebbxf 3",
+        "NQQE:1000 NAQERJ QE",
+        "PVGL:PEBBXF",
+        "PNYY:Hapbafp/Snvag C1",
+        "VQ:2016-00000059");
+
+    qbGrfg("G2",
+        "{Qvfcngpu Cntr}  2016-00000057 5201 A  TENAVGR YA SYLA W GENIRY CYNMN Dhnq AJ4V FS Nppvqrag 2016-00000057",
+        "NQQE:5201 A TENAVGR YA",
+        "CYNPR:SYLA W GENIRY CYNMN",
+        "ZNC:Dhnq AJ4V",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Nppvqrag",
+        "VQ:2016-00000057");
+
+    qbGrfg("G3",
+        "{Qvfcngpu Cntr} PE  2016-00000057 V 90 ZZ 393 Pebbxf 4 PE Syhvq Fcvyy 2016-00000057",
+        "HAVG:PE",
+        "ZNC:Pebbxf 4",
+        "NQQE:V 90 ZZ 393",
+        "PVGL:PEBBXF",
+        "PNYY:Syhvq Fcvyy",
+        "VQ:2016-00000057");
+
+    qbGrfg("G4",
+        "{Qvfcngpu Cntr} PE  2016-00000479 46958 256GU FG Pebbxf 1 PE Snyyf C3 2016-00000479",
+        "HAVG:PE",
+        "ZNC:Pebbxf 1",
+        "NQQE:46958 256GU FG",
+        "PVGL:PEBBXF",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000479");
+
+    qbGrfg("G5",
+        "{Qvfcngpu Cntr} PE  2016-00000095 1700 J  60GU FG A Eraare 10 FS Fgehpgher Sver 2016-00000095",
+        "HAVG:PE",
+        "NQQE:1700 J 60GU FG A",
+        "ZNC:Eraare 10",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000095");
+
+    qbGrfg("G6",
+        "{Qvfcngpu Cntr} RZ PE GR10 E8 O1  2016-00000095 1700 J  60GU FG A Eraare 10 FS Fgehpgher Sver 2016-00000095",
+        "HAVG:RZ PE GR10 E8 O1",
+        "VQ:2016-00000095",
+        "NQQE:1700 J 60GU FG A",
+        "ZNC:Eraare 10",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Fgehpgher Sver");
+
+    qbGrfg("G7",
+        "{Qvfcngpu Cntr} PE  2016-00000141 301 J BCNY YA Unegsbeq 5 UQ Iruvpyr Sver 2016-00000141",
+        "HAVG:PE",
+        "NQQE:301 J BCNY YA",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Iruvpyr Sver",
+        "VQ:2016-00000141");
+
+    qbGrfg("G8",
+        "{Qvfcngpu Cntr} PE  2016-00008987 25235 471FG NIR Pebbxf 1 ON Fvpx Crefba C3 2016-00008987",
+        "HAVG:PE",
+        "ZNC:Pebbxf 1",
+        "NQQE:25235 471FG NIR",
+        "PVGL:ONYGVP",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00008987");
+
+    qbGrfg("G9",
+        "{Qvfcngpu Cntr} PE  2016-00000052 V 29 ZZ 90 Pebbxf 2 PE Tenff Sver 2016-00000052",
+        "HAVG:PE",
+        "ZNC:Pebbxf 2",
+        "NQQE:V 29 ZZ 90",
+        "PVGL:PEBBXF",
+        "PNYY:Tenff Sver",
+        "VQ:2016-00000052");
+
+    qbGrfg("G10",
+        "{Qvfcngpu Cntr} PE  2016-00000051 46958 256GU FG Pebbxf 1 PE Yvsg Nffvfg 2016-00000051",
+        "HAVG:PE",
+        "ZNC:Pebbxf 1",
+        "NQQE:46958 256GU FG",
+        "PVGL:PEBBXF",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000051");
+
+    qbGrfg("G11",
+        "{Qvfcngpu Cntr} PE  2016-00000050 V 29 ZZ 92 Pebbxf 2 Bireqbfr C2 2016-00000050",
+        "HAVG:PE",
+        "ZNC:Pebbxf 2",
+        "NQQE:V 29 ZZ 92",
+        "PNYY:Bireqbfr C2",
+        "VQ:2016-00000050");
+
+    qbGrfg("G12",
+        "{Qvfcngpu Cntr}  2016-00000049 25782 472AQ NIR FS Nffnhyg C2 2016-00000049",
+        "NQQE:25782 472AQ NIR",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Nffnhyg C2",
+        "VQ:2016-00000049");
+
+    qbGrfg("G13",
+        "{Qvfcngpu Cntr} PE  2016-00000049 25782 472AQ NIR Pebbxf 3 FS Nffnhyg C2 2016-00000049",
+        "HAVG:PE",
+        "ZNC:Pebbxf 3",
+        "NQQE:25782 472AQ NIR",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Nffnhyg C2",
+        "VQ:2016-00000049");
+
+    qbGrfg("G14",
+        "{Qvfcngpu Cntr} PE  2016-00000048 V 29 ZZ 88 Pebbxf 3 PE Syhvq Fcvyy 2016-00000048",
+        "HAVG:PE",
+        "ZNC:Pebbxf 3",
+        "NQQE:V 29 ZZ 88",
+        "PVGL:PEBBXF",
+        "PNYY:Syhvq Fcvyy",
+        "VQ:2016-00000048");
+
+    qbGrfg("G15",
+        "{Qvfcngpu Cntr} PE  2016-00000047 V 29 ZZ 88 Pebbxf 3 PE Tenff Sver 2016-00000047",
+        "HAVG:PE",
+        "ZNC:Pebbxf 3",
+        "NQQE:V 29 ZZ 88",
+        "PVGL:PEBBXF",
+        "PNYY:Tenff Sver",
+        "VQ:2016-00000047");
+
+    qbGrfg("G16",
+        "{Qvfcngpu Cntr} PE  2016-00000046 47111 256GU FG Pebbxf 3 PE Pbai Frvmher C2 2016-00000046",
+        "HAVG:PE",
+        "ZNC:Pebbxf 3",
+        "NQQE:47111 256GU FG",
+        "PVGL:PEBBXF",
+        "PNYY:Pbai Frvmher C2",
+        "VQ:2016-00000046");
+
+    qbGrfg("G17",
+        "{Qvfcngpu Cntr} PE  2016-00000120 V 90 ZZ 390 Unegsbeq 4 UQ Nppvqrag 2016-00000120",
+        "HAVG:PE",
+        "NQQE:V 90 ZZ 390",
+        "ZNC:Unegsbeq 4",
+        "PNYY:Nppvqrag",
+        "VQ:2016-00000120");
+
+    qbGrfg("G18",
+        "{Qvfcngpu Cntr} PE  2016-00000044 V 29 ZZ 92 Pebbxf 2 Vawhel Nppvqrag C2 2016-00000044",
+        "HAVG:PE",
+        "ZNC:Pebbxf 2",
+        "NQQE:V 29 ZZ 92",
+        "PNYY:Vawhel Nppvqrag C2",
+        "VQ:2016-00000044");
+
+    qbGrfg("G19",
+        "{Qvfcngpu Cntr} PE  2016-00000043 408 A  JRFG NIR 1 Pebbxf 3 PE Fgebxr C2 2016-00000043",
+        "HAVG:PE",
+        "ZNC:Pebbxf 3",
+        "NQQE:408 A JRFG NIR",
+        "NCG:1",
+        "PVGL:PEBBXF",
+        "PNYY:Fgebxr C2",
+        "VQ:2016-00000043");
+
+    qbGrfg("G20",
+        "{Qvfcngpu Cntr} PE  2016-00000366 260GU FG 468GU NIR Pebbxf 5 FS Vawhel Nppvqrag C3 2016-00000366",
+        "HAVG:PE",
+        "ZNC:Pebbxf 5",
+        "NQQE:260GU FG & 468GU NIR",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00000366");
+
+    qbGrfg("G21",
+        "{Qvfcngpu Cntr} ER RZ PE GR10 R23 O1  2016-00000069 V 29 ZZ 86 Eraare 8 Fgehpgher Sver 2016-00000069",
+        "HAVG:ER RZ PE GR10 R23 O1",
+        "VQ:2016-00000069",
+        "NQQE:V 29 ZZ 86",
+        "ZNC:Eraare 8",
+        "PNYY:Fgehpgher Sver");
+
+    qbGrfg("G22",
+        "{Qvfcngpu Cntr} PE  2016-00000040 256GU FG 470GU NIR Pebbxf 1 PE Nppvqrag 2016-00000040",
+        "HAVG:PE",
+        "ZNC:Pebbxf 1",
+        "NQQE:256GU FG & 470GU NIR",
+        "PVGL:PEBBXF",
+        "PNYY:Nppvqrag",
+        "VQ:2016-00000040");
+
+    qbGrfg("G23",
+        "{Qvfcngpu Cntr} ER ON PE GR10 E8 O1  2016-00037081 V 90 A  QVGPU EQ Eraare 10 FS Jngre Erfphr 2016-00037081",
+        "HAVG:ER ON PE GR10 E8 O1",
+        "VQ:2016-00037081",
+        "NQQE:V 90 & A QVGPU EQ",
+        "ZNC:Eraare 10",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Jngre Erfphr",
+        "VQ:2016-00037081");
+
+    qbGrfg("G24",
+        "{Qvfcngpu Cntr}  2016-00000038 259GU FG 469GU NIR Pebbxf 5 FS Iruvpyr Sver 2016-00000038",
+        "ZNC:Pebbxf 5",
+        "NQQE:259GU FG & 469GU NIR",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Iruvpyr Sver",
+        "VQ:2016-00000038");
+
+    qbGrfg("G25",
+        "{Qvfcngpu Cntr}  2016-00000038 469GU NIR 259GU FG Pebbxf 5 FS Iruvpyr Sver 2016-00000038",
+        "ZNC:Pebbxf 5",
+        "NQQE:469GU NIR & 259GU FG",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Iruvpyr Sver",
+        "VQ:2016-00000038");
+
+    qbGrfg("G26",
+        "{Qvfcngpu Cntr} PE  2016-00000038 46936 259GU FG Pebbxf 3 FS Iruvpyr Sver 2016-00000038",
+        "HAVG:PE",
+        "ZNC:Pebbxf 3",
+        "NQQE:46936 259GU FG",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Iruvpyr Sver",
+        "VQ:2016-00000038");
+
+    qbGrfg("G27",
+        "{Qvfcngpu Cntr} PE RZ ER  2016-00000037 404 NAQERJ QE Pebbxf 3 PE Fgehpgher Sver 2016-00000037",
+        "HAVG:PE RZ ER",
+        "ZNC:Pebbxf 3",
+        "NQQE:404 NAQERJ QE",
+        "PVGL:PEBBXF",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000037");
+
+    qbGrfg("G28",
+        "{Qvfcngpu Cntr} PE RZ  2016-00000308 104 A  5GU NIR Pebbxf 3 PE Vawhel Nppvqrag C3 2016-00000308",
+        "HAVG:PE RZ",
+        "ZNC:Pebbxf 3",
+        "NQQE:104 A 5GU NIR",
+        "PVGL:PEBBXF",
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00000308");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgQryyEncvqfISQ() {
+
+    qbGrfg("G1",
+        "{Qvfcngpu Cntr} QE RZ  2016-00000063 508 PNVGYVA NIR Onygvp 2 ON Fgehpgher Sver 2016-00000063",
+        "HAVG:QE RZ",
+        "ZNC:Onygvp 2",
+        "NQQE:508 PNVGYVA NIR",
+        "PVGL:ONYGVP",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000063");
+
+    qbGrfg("G2",
+        "{Qvfcngpu Cntr} QE  2016-00000259 600 A UJL 77 Qryy Encvqf 2 QE Snyyf C3 2016-00000259",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:600 A UJL 77",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000259");
+
+    qbGrfg("G3",
+        "{Qvfcngpu Cntr} QE  2016-00000163 46982 248GU FG Qryy Encvqf 4 QE Snyyf C3 2016-00000163",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 4",
+        "NQQE:46982 248GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000163");
+
+    qbGrfg("G4",
+        "{Qvfcngpu Cntr} QE  2016-00000162 V 29 RKVG 98 Qryy Encvqf 2 QE Bcra Ohea 2016-00000162",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:V 29",
+        "CYNPR:RKVG 98",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Bcra Ohea",
+        "VQ:2016-00000162");
+
+    qbGrfg("G5",
+        "{Qvfcngpu Cntr} QE  2016-00000161 V 29 ZZ 100 Qryy Encvqf 2 QE Iruvpyr Sver 2016-00000161",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:V 29 ZZ 100",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Iruvpyr Sver",
+        "VQ:2016-00000161");
+
+    qbGrfg("G6",
+        "{Qvfcngpu Cntr} QE  2016-00000160 909 VBJN NIR Qryy Encvqf Ubfcvgny Qryy Encvqf 2 QE Sver Bgure 2016-00000160",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:909 VBJN NIR",
+        "CYNPR:Qryy Encvqf Ubfcvgny",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Sver Bgure",
+        "VQ:2016-00000160");
+
+    qbGrfg("G7",
+        "{Qvfcngpu Cntr} QE  2016-00000158 V 29 ZZ 97 Qryy Encvqf 4 QE Iruvpyr Sver 2016-00000158",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 4",
+        "NQQE:V 29 ZZ 97",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Iruvpyr Sver",
+        "VQ:2016-00000158");
+
+    qbGrfg("G8",
+        "{Qvfcngpu Cntr} QE  2016-00000157 203 J 12GU FG 1 Qryy Encvqf 2 QE Bireqbfr C2 2016-00000157",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:203 J 12GU FG",
+        "NCG:1",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Bireqbfr C2",
+        "VQ:2016-00000157");
+
+    qbGrfg("G9",
+        "{Qvfcngpu Cntr} QE  2016-00000156 407 J  3EQ FG Qryy Encvqf 2 QE Yvsg Nffvfg 2016-00000156",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:407 J 3EQ FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000156");
+
+    qbGrfg("G10",
+        "{Qvfcngpu Cntr} QE  2016-00000246 805 R  6GU FG Qryy Encvqf 1 QE Fvpx Crefba C3 2016-00000246",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 1",
+        "NQQE:805 R 6GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Fvpx Crefba C3",
+        "VQ:2016-00000246");
+
+    qbGrfg("G11",
+        "{Qvfcngpu Cntr} QE  2016-00008758 405 F  BEYRNAF NIR 2 Qryy Encvqf 2 QE Nffnhyg C3 2016-00008758",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:405 F BEYRNAF NIR",
+        "NCG:2",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Nffnhyg C3",
+        "VQ:2016-00008758");
+
+    qbGrfg("G12",
+        "{Qvfcngpu Cntr} QE  2016-00000153 408 J  1FG FG Qryy Encvqf 2 QE Fvpx Crefba C2 2016-00000153",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:408 J 1FG FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Fvpx Crefba C2",
+        "VQ:2016-00000153");
+
+    qbGrfg("G13",
+        "{Qvfcngpu Cntr} QE  2016-00008736 211 4GU FG Qryy Encvqf 2 QE Hapbafp/Snvag C2 2016-00008736",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:211 4GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Hapbafp/Snvag C2",
+        "VQ:2016-00008736");
+
+    qbGrfg("G14",
+        "{Qvfcngpu Cntr} QE  329 R  4GU FG Qryy Encvqf 2 QE Snyyf C3",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:329 R 4GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Snyyf C3");
+
+    qbGrfg("G15",
+        "{Qvfcngpu Cntr} QE  2016-00000236 107 R  6GU FG Qryy Encvqf 2 QE Genhzngvp Vawhel C2 2016-00000236",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:107 R 6GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Genhzngvp Vawhel C2",
+        "VQ:2016-00000236");
+
+    qbGrfg("G16",
+        "{Qvfcngpu Cntr} QE  2016-00000149 112 R 4GU FG Qryy Encvqf 2 QE Pneoba Zba Qrgrpgbe 2016-00000149",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:112 R 4GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Pneoba Zba Qrgrpgbe",
+        "VQ:2016-00000149");
+
+    qbGrfg("G17",
+        "{Qvfcngpu Cntr} QE  2016-00000147 1400 GUERFURE QE Qryyf Ahefvat & Eruno Qryy Encvqf 2 QE Snyyf C3 2016-00000147",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:1400 GUERFURE QE",
+        "CYNPR:Qryyf Ahefvat & Eruno",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000147");
+
+    qbGrfg("G18",
+        "{Qvfcngpu Cntr} QE  2016-00000145 601 WHAVNGN NIR Qryy Encvqf 2 QE Snyyf C2 2016-00000145",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:601 WHAVNGN NIR",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Snyyf C2",
+        "VQ:2016-00000145");
+
+    qbGrfg("G19",
+        "{Qvfcngpu Cntr} QE  2016-00000232 112 R  10GU FG 12 Qryy Encvqf 2 QE Hax Ceboyrz C3 2016-00000232",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:112 R 10GU FG",
+        "NCG:12",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Hax Ceboyrz C3",
+        "VQ:2016-00000232");
+
+    qbGrfg("G20",
+        "{Qvfcngpu Cntr} QE  2016-00000143 201 BEYRNAF NIR Qryy Encvqf 2 QE Cbjre Yvarf Qbja 2016-00000143",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:201 BEYRNAF NIR",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Cbjre Yvarf Qbja",
+        "VQ:2016-00000143");
+
+    qbGrfg("G21",
+        "{Qvfcngpu Cntr} QE  2016-00008236 1105 JLYNAQ QE Qryy Encvqf 1 QE Fgehpgher Sver 2016-00008236",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 1",
+        "NQQE:1105 JLYNAQ QE",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00008236");
+
+    qbGrfg("G22",
+        "{Qvfcngpu Cntr} QE  2016-00000140 1103 JLYNAQ QE Qryy Encvqf 1 QE Cbjre Yvarf Qbja 2016-00000140",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 1",
+        "NQQE:1103 JLYNAQ QE",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Cbjre Yvarf Qbja",
+        "VQ:2016-00000140");
+
+    qbGrfg("G23",
+        "{Qvfcngpu Cntr} QE  2016-00000139 429 R  4GU FG Qryy Encvqf 2 QE Pneqvnp Neerfg C1 2016-00000139",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:429 R 4GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Pneqvnp Neerfg C1",
+        "VQ:2016-00000139");
+
+    qbGrfg("G24",
+        "{Qvfcngpu Cntr} QE  2016-00000138 200 J  10GU FG Qryy Encvqf 2 QE Genafsre C2 j/bhg sver 2016-00000138",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:200 J 10GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Genafsre C2 j/bhg sver",
+        "VQ:2016-00000138");
+
+    qbGrfg("G25",
+        "{Qvfcngpu Cntr} QE  2016-00000137 V 29 ZZ 98 Qryy Encvqf 2 QE Fzbxr Vairfgvtngvba 2016-00000137",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:V 29 ZZ 98",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Fzbxr Vairfgvtngvba",
+        "VQ:2016-00000137");
+
+    qbGrfg("G26",
+        "{Qvfcngpu Cntr} QE  2016-00000136 805 R  6GU FG Qryy Encvqf 1 QE Yvsg Nffvfg 2016-00000136",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 1",
+        "NQQE:805 R 6GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000136");
+
+    qbGrfg("G27",
+        "{Qvfcngpu Cntr} QE RZ  2016-00008056 J  3EQ FG CEBFCRPG NIR Qryy Encvqf 2 QE Vawhel Nppvqrag C3 2016-00008056",
+        "HAVG:QE RZ",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:J 3EQ FG & CEBFCRPG NIR",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00008056");
+
+    qbGrfg("G28",
+        "{Qvfcngpu Cntr} QE  2016-00000134 V 29 ZZ 101 Qryy Encvqf 7 QE Nppvqrag 2016-00000134",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 7",
+        "NQQE:V 29 ZZ 101",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Nppvqrag",
+        "VQ:2016-00000134");
+
+    qbGrfg("G29",
+        "{Qvfcngpu Cntr} QE  2016-00007792 211 YNQRYYR NIR Qryy Encvqf 2 QE Shyy Abgvsvre 2016-00007792",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:211 YNQRYYR NIR",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Shyy Abgvsvre",
+        "VQ:2016-00007792");
+
+    qbGrfg("G30",
+        "{Qvfcngpu Cntr} QE  2016-00000131 805 R  6GU FG Qryy Encvqf 1 QE Yvsg Nffvfg 2016-00000131",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 1",
+        "NQQE:805 R 6GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000131");
+
+    qbGrfg("G31",
+        "{Qvfcngpu Cntr} QE  2016-00007775 805 R  6GU FG Qryy Encvqf 1 QE Yvsg Nffvfg 2016-00007775",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 1",
+        "NQQE:805 R 6GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00007775");
+
+    qbGrfg("G32",
+        "{Qvfcngpu Cntr} QE  2016-00000129 805 R  6GU FG Qryy Encvqf 1 QE Yvsg Nffvfg 2016-00000129",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 1",
+        "NQQE:805 R 6GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000129");
+
+    qbGrfg("G33",
+        "{Qvfcngpu Cntr} QE  2016-00000127 247GU FG 482AQ NIR Qryy Encvqf 6 QE Nppvqrag 2016-00000127",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 6",
+        "NQQE:247GU FG & 482AQ NIR",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Nppvqrag",
+        "VQ:2016-00000127");
+
+    qbGrfg("G34",
+        "{Qvfcngpu Cntr} QE  2016-00000126 V 29 ZZ 98 Qryy Encvqf 2 QE Iruvpyr Sver 2016-00000126",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:V 29 ZZ 98",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Iruvpyr Sver",
+        "VQ:2016-00000126");
+
+    qbGrfg("G35",
+        "{Qvfcngpu Cntr} QE  2016-00000125 306 R  6GU FG Qryy Encvqf 2 QE Cflpu/Fhvpvqr C2 CQ 2016-00000125",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:306 R 6GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Cflpu/Fhvpvqr C2 CQ",
+        "VQ:2016-00000125");
+
+    qbGrfg("G36",
+        "{Qvfcngpu Cntr} QE  2016-00000124 F UJL 115 A  UJL 77 Qryy Encvqf 2 QE Cbjre Yvarf Qbja 2016-00000124",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:F UJL 115 & A UJL 77",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Cbjre Yvarf Qbja",
+        "VQ:2016-00000124");
+
+    qbGrfg("G37",
+        "{Qvfcngpu Cntr} QE RZ  2016-00007306 47572 PRAGRAAVNY CY Qryy Encvqf 1 QE Vawhel Nppvqrag / Ebyybire 2016-00007306",
+        "HAVG:QE RZ",
+        "ZNC:Qryy Encvqf 1",
+        "NQQE:47572 PRAGRAAVNY CY",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Vawhel Nppvqrag / Ebyybire",
+        "VQ:2016-00007306");
+
+    qbGrfg("G38",
+        "{Qvfcngpu Cntr} QE RZ  2016-00000122 248GU FG 474GU NIR Qryy Encvqf 2 QE Vawhel Nppvqrag C3 2016-00000122",
+        "HAVG:QE RZ",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:248GU FG & 474GU NIR",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00000122");
+
+    qbGrfg("G39",
+        "{Qvfcngpu Cntr} QE  2016-00000201 508 CBAL UVYYF PVE Qryy Encvqf 2 QE Fgebxr C2 2016-00000201",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:508 CBAL UVYYF PVE",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Fgebxr C2",
+        "VQ:2016-00000201");
+
+    qbGrfg("G40",
+        "{Qvfcngpu Cntr} QE  2016-00000199 430 R  4GU FG Qryy Encvqf 2 QE Snyyf C3 2016-00000199",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:430 R 4GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000199");
+
+    qbGrfg("G41",
+        "{Qvfcngpu Cntr} QE  2016-00000119 47348 246GU FG Qryy Encvqf 2 QE Hapbafp/Snvag C2 2016-00000119",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:47348 246GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Hapbafp/Snvag C2",
+        "VQ:2016-00000119");
+
+    qbGrfg("G42",
+        "{Qvfcngpu Cntr} QE  2016-00000118 1400 GUERFURE QE QRYYF AHEFVAT & ERUNO Qryy Encvqf 2 QE Sver Bgure 2016-00000118",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:1400 GUERFURE QE",
+        "CYNPR:QRYYF AHEFVAT & ERUNO",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Sver Bgure",
+        "VQ:2016-00000118");
+
+    qbGrfg("G43",
+        "{Qvfcngpu Cntr} QE  2016-00000117 1400 GUERFURE QE Qryyf Ahefvat & Eruno Qryy Encvqf 2 QE Shyy Abgvsvre 2016-00000117",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:1400 GUERFURE QE",
+        "CYNPR:Qryyf Ahefvat & Eruno",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Shyy Abgvsvre",
+        "VQ:2016-00000117");
+
+    qbGrfg("G44",
+        "{Qvfcngpu Cntr} QE  2016-00000116 214 J 10GU FG Qryy Encvqf 2 QE Shyy Abgvsvre 2016-00000116",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:214 J 10GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Shyy Abgvsvre",
+        "VQ:2016-00000116");
+
+    qbGrfg("G45",
+        "{Qvfcngpu Cntr} QE  2016-00000194 1211 BEYRNAF NIR Qryy Encvqf 2 QE Hax Ceboyrz C3 2016-00000194",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:1211 BEYRNAF NIR",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Hax Ceboyrz C3",
+        "VQ:2016-00000194");
+
+    qbGrfg("G46",
+        "{Qvfcngpu Cntr} QE  2016-00000114 1105 ORNPU NIR Qryy Encvqf 1 QE Shyy Abgvsvre 2016-00000114",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 1",
+        "NQQE:1105 ORNPU NIR",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Shyy Abgvsvre",
+        "VQ:2016-00000114");
+
+    qbGrfg("G47",
+        "{Qvfcngpu Cntr} QE  2016-00000113 V 29 ZZ 101 Qryy Encvqf 7 QE Tenff Sver 2016-00000113",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 7",
+        "NQQE:V 29 ZZ 101",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Tenff Sver",
+        "VQ:2016-00000113");
 
     qbGrfg("G48",
-        "{Qvfcngpu Cntr} OE 930  2015-00000366 R ERQJBBQ OYIQ A  PURFGAHG OYIQ Oenaqba 6 OE Genhzngvp Vawhel C3 2015-00000366",
-        "FEP:930",
-        "HAVG:OE",
-        "ZNC:Oenaqba 6",
-        "NQQE:R ERQJBBQ OYIQ & A PURFGAHG OYIQ",
-        "PVGL:OENAQBA",
-        "PNYY:Genhzngvp Vawhel C3",
-        "VQ:2015-00000366");
+        "{Qvfcngpu Cntr} QE  2016-00000189 200 J  10GU FG 205 Qryy Encvqf 2 QE Snyyf C3 2016-00000189",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 2",
+        "NQQE:200 J 10GU FG",
+        "NCG:205",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Snyyf C3",
+        "VQ:2016-00000189");
 
     qbGrfg("G49",
-        "{Qvfcngpu Cntr} OE RZ  2015-00000365 2261 R ERQJBBQ OYIQ Oenaqba 6 OE Vawhel Nppvqrag / Ebyybire 2015-00000365",
-        "HAVG:OE RZ",
-        "ZNC:Oenaqba 6",
-        "NQQE:2261 R ERQJBBQ OYIQ",
-        "PVGL:OENAQBA",
+        "{Qvfcngpu Cntr} QE  2016-00000111 805 R  6GU FG Qryy Encvqf 1 QE Yvsg Nffvfg 2016-00000111",
+        "HAVG:QE",
+        "ZNC:Qryy Encvqf 1",
+        "NQQE:805 R 6GU FG",
+        "PVGL:QRYY ENCVQF",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000111");
+
+  }
+
+  @Grfg
+  choyvp ibvq grfgUnegsbeqNernSverErfphr() {
+
+    qbGrfg("G1",
+        "{Qvfcngpu Cntr} UQ  2016-00000127 911 A BNXF NIR 101 Unegsbeq 5 UQ Oernguvat Cebo C2 2016-00000127",
+        "HAVG:UQ",
+        "NQQE:911 A BNXF NIR",
+        "NCG:101",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Oernguvat Cebo C2",
+        "VQ:2016-00000127");
+
+    qbGrfg("G2",
+        "{Qvfcngpu Cntr} UQ  2016-00000145 46290 266GU FG JNYY YNXR Unegsbeq 6 UQ Tenff Sver 2016-00000145",
+        "HAVG:UQ",
+        "NQQE:46290 266GU FG",
+        "CYNPR:JNYY YNXR",
+        "ZNC:Unegsbeq 6",
+        "PNYY:Tenff Sver",
+        "VQ:2016-00000145");
+
+    qbGrfg("G3",
+        "{Qvfcngpu Cntr} UQ  2016-00000143 502 A  INAQRZNEX NIR Unegsbeq 5 UQ Yvsg Nffvfg 2016-00000143",
+        "HAVG:UQ",
+        "NQQE:502 A INAQRZNEX NIR",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Yvsg Nffvfg",
+        "VQ:2016-00000143");
+
+    qbGrfg("G4",
+        "{Qvfcngpu Cntr} UQ  2016-00000142 26106 467GU NIR Unegsbeq 4 FS Tenff Sver 2016-00000142",
+        "HAVG:UQ",
+        "NQQE:26106 467GU NIR",
+        "ZNC:Unegsbeq 4",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Tenff Sver",
+        "VQ:2016-00000142");
+
+    qbGrfg("G5",
+        "{Qvfcngpu Cntr} UQ  2016-00000141 301 J BCNY YA Unegsbeq 5 UQ Iruvpyr Sver 2016-00000141",
+        "HAVG:UQ",
+        "NQQE:301 J BCNY YA",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Iruvpyr Sver",
+        "VQ:2016-00000141");
+
+    qbGrfg("G6",
+        "{Qvfcngpu Cntr}  2016-00000140 100 J  6GU FG Y Noev Ncnegzragf Dhnq AR1O FS Shyy Abgvsvre 2016-00000140",
+        "NQQE:100 J 6GU FG",
+        "CYNPR:Y Noev Ncnegzragf",
+        "ZNC:Dhnq AR1O",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Shyy Abgvsvre",
+        "VQ:2016-00000140");
+
+    qbGrfg("G7",
+        "{Qvfcngpu Cntr} UQ  2016-00000140 100 J  6GU FG Unegsbeq 5 UQ Shyy Abgvsvre 2016-00000140",
+        "HAVG:UQ",
+        "NQQE:100 J 6GU FG",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Shyy Abgvsvre",
+        "VQ:2016-00000140");
+
+    qbGrfg("G8",
+        "{Qvfcngpu Cntr} UQ  2016-00000139 264GU FG 463EQ NIR Unegsbeq 6 UQ Nppvqrag 2016-00000139",
+        "HAVG:UQ",
+        "NQQE:264GU FG & 463EQ NIR",
+        "ZNC:Unegsbeq 6",
+        "PNYY:Nppvqrag",
+        "VQ:2016-00000139");
+
+    qbGrfg("G9",
+        "{Qvfcngpu Cntr} UQ  2016-00008803 202 F  BNXF NIR Unegsbeq 5 UQ Urzbeeuntr C3 2016-00008803",
+        "HAVG:UQ",
+        "NQQE:202 F BNXF NIR",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Urzbeeuntr C3",
+        "VQ:2016-00008803");
+
+    qbGrfg("G10",
+        "{Qvfcngpu Cntr} UQ  2016-00000451 26767 466GU NIR Jvyq Jngre Jrfg Unegsbeq 8 FS Qebjavat C3 2016-00000451",
+        "HAVG:UQ",
+        "NQQE:26767 466GU NIR",
+        "CYNPR:Jvyq Jngre Jrfg",
+        "ZNC:Unegsbeq 8",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Qebjavat C3",
+        "VQ:2016-00000451");
+
+    qbGrfg("G11",
+        "{Qvfcngpu Cntr} UQ  2016-00008643 UJL 38 A  JRFGREA NIR Unegsbeq 5 UQ Nppvqrag 2016-00008643",
+        "HAVG:UQ",
+        "NQQE:UJL 38 & A JRFGREA NIR",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Nppvqrag",
+        "VQ:2016-00008643");
+
+    qbGrfg("G12",
+        "{Qvfcngpu Cntr} UQ  2016-00000135 V 90 ZZ 385 Unegsbeq 1 UQ Iruvpyr Sver 2016-00000135",
+        "HAVG:UQ",
+        "NQQE:V 90 ZZ 385",
+        "ZNC:Unegsbeq 1",
+        "PNYY:Iruvpyr Sver",
+        "VQ:2016-00000135");
+
+    qbGrfg("G13",
+        "{Qvfcngpu Cntr} UQ  2016-00000134 26122 PNANEL QE Unegsbeq 4 FS Hapbafp/Snvag C2 2016-00000134",
+        "HAVG:UQ",
+        "NQQE:26122 PNANEL QE",
+        "ZNC:Unegsbeq 4",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Hapbafp/Snvag C2",
+        "VQ:2016-00000134");
+
+    qbGrfg("G14",
+        "{Qvfcngpu Cntr} UQ  2016-00008344 UJL 38 466GU NIR Unegsbeq 4 FS Qvnorgvp C3 2016-00008344",
+        "HAVG:UQ",
+        "NQQE:UJL 38 & 466GU NIR",
+        "ZNC:Unegsbeq 4",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Qvnorgvp C3",
+        "VQ:2016-00008344");
+
+    qbGrfg("G15",
+        "{Qvfcngpu Cntr} UQ RZ  2016-00000130 265GU FG 466GU NIR Unegsbeq 7 FS Vawhel Nppvqrag C1 2016-00000130",
+        "HAVG:UQ RZ",
+        "NQQE:265GU FG & 466GU NIR",
+        "ZNC:Unegsbeq 7",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Vawhel Nppvqrag C1",
+        "VQ:2016-00000130");
+
+    qbGrfg("G16",
+        "{Qvfcngpu Cntr} UQ  2016-00000129 25496 464GU NIR Unegsbeq 2 UQ Bcra Ohea 2016-00000129",
+        "HAVG:UQ",
+        "NQQE:25496 464GU NIR",
+        "ZNC:Unegsbeq 2",
+        "PNYY:Bcra Ohea",
+        "VQ:2016-00000129");
+
+    qbGrfg("G17",
+        "{Qvfcngpu Cntr} UQ  2016-00000127 46298 265GU FG Unegsbeq 6 UQ Ryrpgevpny Unmneq 2016-00000127",
+        "HAVG:UQ",
+        "NQQE:46298 265GU FG",
+        "ZNC:Unegsbeq 6",
+        "PNYY:Ryrpgevpny Unmneq",
+        "VQ:2016-00000127");
+
+    qbGrfg("G18",
+        "{Qvfcngpu Cntr} UQ  2016-00000126 46234 262AQ FG Unegsbeq 6 UQ Purfg Cnva C2 2016-00000126",
+        "HAVG:UQ",
+        "NQQE:46234 262AQ FG",
+        "ZNC:Unegsbeq 6",
+        "PNYY:Purfg Cnva C2",
+        "VQ:2016-00000126");
+
+    qbGrfg("G19",
+        "{Qvfcngpu Cntr} UQ  2016-00000125 R  2AQ FG A  ZHAQG NIR Unegsbeq 5 UQ Pneqvnp Neerfg C1 2016-00000125",
+        "HAVG:UQ",
+        "NQQE:R 2AQ FG & A ZHAQG NIR",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Pneqvnp Neerfg C1",
+        "VQ:2016-00000125");
+
+    qbGrfg("G20",
+        "{Qvfcngpu Cntr} UQ RZ  2016-00008030 264GU FG 466GU NIR Unegsbeq 7 FS Vawhel Nppvqrag C3 2016-00008030",
+        "HAVG:UQ RZ",
+        "NQQE:264GU FG & 466GU NIR",
+        "ZNC:Unegsbeq 7",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Vawhel Nppvqrag C3",
+        "VQ:2016-00008030");
+
+    qbGrfg("G21",
+        "{Qvfcngpu Cntr} UQ  2016-00000123 26750 464GU NIR FS Ertvbany Fnavgnel Ynaqsvyy Unegsbeq 8 UQ Tenff Sver 2016-00000123",
+        "HAVG:UQ",
+        "NQQE:26750 464GU NIR",
+        "CYNPR:FS Ertvbany Fnavgnel Ynaqsvyy",
+        "ZNC:Unegsbeq 8",
+        "PNYY:Tenff Sver",
+        "VQ:2016-00000123");
+
+    qbGrfg("G22",
+        "{Qvfcngpu Cntr} UQ  2016-00007863 26767 466GU NIR JVYQ JNGRE JRFG Unegsbeq 8 FS Urneg Ceboyrzf C2 2016-00007863",
+        "HAVG:UQ",
+        "NQQE:26767 466GU NIR",
+        "CYNPR:JVYQ JNGRE JRFG",
+        "ZNC:Unegsbeq 8",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Urneg Ceboyrzf C2",
+        "VQ:2016-00007863");
+
+    qbGrfg("G23",
+        "{Qvfcngpu Cntr} UQ  2016-00000120 V 90 ZZ 390 Unegsbeq 4 UQ Nppvqrag 2016-00000120",
+        "HAVG:UQ",
+        "NQQE:V 90 ZZ 390",
+        "ZNC:Unegsbeq 4",
+        "PNYY:Nppvqrag",
+        "VQ:2016-00000120");
+
+    qbGrfg("G24",
+        "{Qvfcngpu Cntr}  2016-00000120 V 90 ZZ 390 Unegsbeq 4 UQ Nppvqrag 2016-00000120",
+        "NQQE:V 90 ZZ 390",
+        "ZNC:Unegsbeq 4",
+        "PNYY:Nppvqrag",
+        "VQ:2016-00000120");
+
+    qbGrfg("G25",
+        "{Qvfcngpu Cntr} UQ  2016-00000120 V 90 ZZ 390 Unegsbeq 4 Syhvq Fcvyy 2016-00000120",
+        "HAVG:UQ",
+        "NQQE:V 90 ZZ 390",
+        "ZNC:Unegsbeq 4",
+        "PNYY:Syhvq Fcvyy",
+        "VQ:2016-00000120");
+
+    qbGrfg("G26",
+        "{Qvfcngpu Cntr} UQ  2016-00000118 1001 F  JRFGREA NIR PBSSRR PHC UNEGSBEQ Unegsbeq 5 UQ Nffnhyg C2 2016-00000118",
+        "HAVG:UQ",
+        "NQQE:1001 F JRFGREA NIR",
+        "CYNPR:PBSSRR PHC UNEGSBEQ",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Nffnhyg C2",
+        "VQ:2016-00000118");
+
+    qbGrfg("G27",
+        "{Qvfcngpu Cntr} UQ  2016-00000117 100 R  9GU FG 3 Unegsbeq 5 UQ Bireqbfr C2 + CQ 2016-00000117",
+        "HAVG:UQ",
+        "NQQE:100 R 9GU FG",
+        "NCG:3",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Bireqbfr C2 + CQ",
+        "VQ:2016-00000117");
+
+    qbGrfg("G28",
+        "{Qvfcngpu Cntr} UQ  2016-00000116 258GU FG FPBGGF NIR FPBGGF FYBHTU Unegsbeq 5 UQ Bcra Ohea 2016-00000116",
+        "HAVG:UQ",
+        "NQQE:258GU FG & FPBGGF NIR",
+        "CYNPR:FPBGGF FYBHTU",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Bcra Ohea",
+        "VQ:2016-00000116");
+
+    qbGrfg("G29",
+        "{Qvfcngpu Cntr}  2016-00007347 263EQ FG 463EQ NIR Unegsbeq 6 UQ Iruvpyr Sver 2016-00007347",
+        "NQQE:263EQ FG & 463EQ NIR",
+        "ZNC:Unegsbeq 6",
+        "PNYY:Iruvpyr Sver",
+        "VQ:2016-00007347");
+
+    qbGrfg("G30",
+        "{Qvfcngpu Cntr}  2016-00007347 264GU FG 463EQ NIR Unegsbeq 6 UQ Iruvpyr Sver 2016-00007347",
+        "NQQE:264GU FG & 463EQ NIR",
+        "ZNC:Unegsbeq 6",
+        "PNYY:Iruvpyr Sver",
+        "VQ:2016-00007347");
+
+    qbGrfg("G31",
+        "{Qvfcngpu Cntr} UQ  2016-00007347 265GU FG 463EQ NIR Jnyy Ynxr Pbeare Unegsbeq 6 UQ Iruvpyr Sver 2016-00007347",
+        "HAVG:UQ",
+        "NQQE:265GU FG & 463EQ NIR",
+        "CYNPR:Jnyy Ynxr Pbeare",
+        "ZNC:Unegsbeq 6",
+        "PNYY:Iruvpyr Sver",
+        "VQ:2016-00007347");
+
+    qbGrfg("G32",
+        "{Qvfcngpu Cntr} UQ  2016-00000114 112 F  ZNVA NIR Unegsbeq 5 UQ Oernguvat Cebo C1 2016-00000114",
+        "HAVG:UQ",
+        "NQQE:112 F ZNVA NIR",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Oernguvat Cebo C1",
+        "VQ:2016-00000114");
+
+    qbGrfg("G33",
+        "{Qvfcngpu Cntr} UQ  2016-00000113 26515 465GU NIR Unegsbeq 7 UQ Pneqvnp Neerfg C1 2016-00000113",
+        "HAVG:UQ",
+        "NQQE:26515 465GU NIR",
+        "ZNC:Unegsbeq 7",
+        "PNYY:Pneqvnp Neerfg C1",
+        "VQ:2016-00000113");
+
+    qbGrfg("G34",
+        "{Qvfcngpu Cntr} UQ  2016-00000112 46636 ORAGBA FG Unegsbeq 3 UQ Pneqvnp Neerfg C1 2016-00000112",
+        "HAVG:UQ",
+        "NQQE:46636 ORAGBA FG",
+        "ZNC:Unegsbeq 3",
+        "PNYY:Pneqvnp Neerfg C1",
+        "VQ:2016-00000112");
+
+    qbGrfg("G35",
+        "{Qvfcngpu Cntr} 958 UQ  2016-00007157 46061 UJL 38 Unegsbeq 1 UQ Oernguvat Cebo C2 2016-00007157",
+        "FEP:958",
+        "HAVG:UQ",
+        "NQQE:46061 UJL 38",
+        "ZNC:Unegsbeq 1",
+        "PNYY:Oernguvat Cebo C2",
+        "VQ:2016-00007157");
+
+    qbGrfg("G36",
+        "{Qvfcngpu Cntr} UQ  2016-00000110 26767 466GU NIR JVYQ JNGRE JRFG Unegsbeq 8 FS Pbai Frvmher C2 2016-00000110",
+        "HAVG:UQ",
+        "NQQE:26767 466GU NIR",
+        "CYNPR:JVYQ JNGRE JRFG",
+        "ZNC:Unegsbeq 8",
+        "PVGL:FVBHK SNYYF",
+        "PNYY:Pbai Frvmher C2",
+        "VQ:2016-00000110");
+
+    qbGrfg("G37",
+        "{Qvfcngpu Cntr} UQ  2016-00000109 46589 254GU FG Unegsbeq 2 UQ Shyy Abgvsvre 2016-00000109",
+        "HAVG:UQ",
+        "NQQE:46589 254GU FG",
+        "ZNC:Unegsbeq 2",
+        "PNYY:Shyy Abgvsvre",
+        "VQ:2016-00000109");
+
+    qbGrfg("G38",
+        "{Qvfcngpu Cntr} UQ  2016-00000108 406 A  INAQRZNEX NIR UNEGSBEQ PVGL CNEX Unegsbeq 5 UQ Snyyf C2 2016-00000108",
+        "HAVG:UQ",
+        "NQQE:406 A INAQRZNEX NIR",
+        "CYNPR:UNEGSBEQ PVGL CNEX",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Snyyf C2",
+        "VQ:2016-00000108");
+
+    qbGrfg("G39",
+        "{Qvfcngpu Cntr} UQ UH RZ  2016-00000107 510 F  SRLQRE NIR Unegsbeq 5 UQ Fgehpgher Sver 2016-00000107",
+        "HAVG:UQ UH RZ",
+        "NQQE:510 F SRLQRE NIR",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Fgehpgher Sver",
+        "VQ:2016-00000107");
+
+    qbGrfg("G40",
+        "{Qvfcngpu Cntr} UQ  2016-00000106 46115 265GU FG Unegsbeq 6 UQ Vawhel Nppvqrag / Ebyybire 2016-00000106",
+        "HAVG:UQ",
+        "NQQE:46115 265GU FG",
+        "ZNC:Unegsbeq 6",
         "PNYY:Vawhel Nppvqrag / Ebyybire",
-        "VQ:2015-00000365");
+        "VQ:2016-00000106");
+
+    qbGrfg("G41",
+        "{Qvfcngpu Cntr} UQ RZ  2016-00000106 46115 265GU FG Unegsbeq 6 UQ Vawhel Nppvqrag / Ebyybire 2016-00000106",
+        "HAVG:UQ RZ",
+        "NQQE:46115 265GU FG",
+        "ZNC:Unegsbeq 6",
+        "PNYY:Vawhel Nppvqrag / Ebyybire",
+        "VQ:2016-00000106");
+
+    qbGrfg("G42",
+        "{Qvfcngpu Cntr} UQ  2016-00007081 911 A BNXF NIR 213 Unegsbeq 5 UQ Onpx Cnva C3 2016-00007081",
+        "HAVG:UQ",
+        "NQQE:911 A BNXF NIR",
+        "NCG:213",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Onpx Cnva C3",
+        "VQ:2016-00007081");
+
+    qbGrfg("G43",
+        "{Qvfcngpu Cntr} UQ  2016-00000104 120 J  UJL 38 CVMMN ENAPU UNEGSBEQ Unegsbeq 5 UQ Hapbafp/Snvag C2 2016-00000104",
+        "HAVG:UQ",
+        "NQQE:120 J UJL 38",
+        "CYNPR:CVMMN ENAPU UNEGSBEQ",
+        "ZNC:Unegsbeq 5",
+        "PNYY:Hapbafp/Snvag C2",
+        "VQ:2016-00000104");
+
+    qbGrfg("G44",
+        "{Qvfcngpu Cntr}  2016-00000103 254GU FG 461FG NIR Unegsbeq 1 UQ Vawhel Nppvqrag C2 2016-00000103",
+        "NQQE:254GU FG & 461FG NIR",
+        "ZNC:Unegsbeq 1",
+        "PNYY:Vawhel Nppvqrag C2",
+        "VQ:2016-00000103");
+
+    qbGrfg("G45",
+        "{Qvfcngpu Cntr}  2016-00000103 25393 461FG NIR Unegsbeq 1 UQ Vawhel Nppvqrag C2 2016-00000103",
+        "NQQE:25393 461FG NIR",
+        "ZNC:Unegsbeq 1",
+        "PNYY:Vawhel Nppvqrag C2",
+        "VQ:2016-00000103");
 
   }
 

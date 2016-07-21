@@ -77,10 +77,16 @@ choyvp pynff BUNfuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[1225]- ANGHER: FDHNQ YBPNGVBA:OEBBXJBBQ CYNPR 1998 PRAGRE FHVGR: EZ 104 85 LBS QVSS OERNGUVAT,YBJ CHYFR BK",
         "HAVG:1225",
         "PNYY:FDHNQ",
+<<<<<<< HEAD
         "CYNPR:OEBBXJBBQ CYNPR",
         "NQQE:1998 PRAGRE",
         "NCG:104",
         "VASB:85 LBS QVSS OERNGUVAT,YBJ CHYFR BK");
+=======
+        "NQQE:OEBBXJBBQ CYNPR",
+        "NCG:1998",
+        "ANZR:PRAGRE FHVGR: EZ 104 85 LBS QVSS OERNGUVAT,YBJ CHYFR BK");
+>>>>>>> master
 
     qbGrfg("G2",
         "[1225]- ANGHER: FDHNQ YBPNGVBA: 530 PURFGAHG NFUYNAQ ORGJRRA J JNYAHG FG / J YVOREGL FG PBZZRAGF: ZVABE VAWHEVRF",
@@ -97,7 +103,11 @@ choyvp pynff BUNfuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FDHNQ",
         "NQQE:1029 OEBNQ",
         "PVGL:NFUYNAQ",
+<<<<<<< HEAD
         "VASB:P SRYY 3 GVZRF ABJ HC ARRQF PURPXRQ BHG");
+=======
+        "ANZR:P SRYY 3 GVZRF ABJ HC ARRQF PURPXRQ BHG");
+>>>>>>> master
 
     qbGrfg("G4",
         "[0103]- ANGHER: FDHNQ YBPNGVBA: 431 ONAX NFUYNAQ ORGJRRA URYGZNA NI / RQTRUVYY NI PBZZRAGF: QVSS OERNGUVAT",
@@ -119,27 +129,45 @@ choyvp pynff BUNfuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[0508]- ANGHER: FDHNQ YBPNGVBA: 258 J ZNVA FHVGR: 1 ZNYR JNF HAERFCBAFVIR, VF ABJ ERFCBAQVAT NYGRERQ ZRAGNY FGNGHF 2016",
         "HAVG:0508",
         "PNYY:FDHNQ",
+<<<<<<< HEAD
         "NQQE:258 J ZNVA",
         "NCG:1",
         "VASB:ZNYR JNF HAERFCBAFVIR, VF ABJ ERFCBAQVAT NYGRERQ ZRAGNY FGNGHF 2016");
+=======
+        "NQQE:258 J ZNVA FHVGR: 1 ZNYR JNF HAERFCBAFVIR, VF ABJ ERFCBAQVAT NYGRERQ ZRAGNY FGNGHF 2016");
+>>>>>>> master
 
     qbGrfg("G7",
         "[0508]- ANGHER: FDHNQ YBPNGVBA: 1120 R 7GU FHVGR: YBG 6 NFUYNAQ 1 L/B JNF PUBXVAT, ORYVRIR FUR VF BX ABJ OHG JBHYQ YVXR URE PURPXRQ 2005",
         "HAVG:0508",
         "PNYY:FDHNQ",
         "NQQE:1120 R 7GU",
+<<<<<<< HEAD
         "NCG:6",
         "PVGL:NFUYNAQ",
         "VASB:1 L/B JNF PUBXVAT, ORYVRIR FUR VF BX ABJ OHG JBHYQ YVXR URE PURPXRQ 2005");
+=======
+        "NCG:YBG 6",
+        "PVGL:NFUYNAQ",
+        "ANZR:1 L/B JNF PUBXVAT, ORYVRIR FUR VF BX ABJ OHG JBHYQ YVXR URE PURPXRQ 2005");
+>>>>>>> master
 
     qbGrfg("G8",
         "[0508]- ANGHER: FDHNQ YBPNGVBA: 1161 ZVYGBA GJC EQ 1186 34 L/B SRZNYR YBJRE NOQBZVANY CNVA 1922",
         "HAVG:0508",
         "PNYY:FDHNQ",
+<<<<<<< HEAD
         "NQQE:1161 GJC EQ 1186",
         "ZNQQE:1161 GJC 1186",
         "PVGL:ZVYGBA GJC",
         "VASB:34 L/B SRZNYR YBJRE NOQBZVANY CNVA 1922");
+=======
+        "CYNPR:1161 ZVYGBA",
+        "NQQE:GJC EQ 1186 & B SRZNYR YBJRE NOQBZVANY CNVA 1922",
+        "ZNQQE:GJC 1186 & B SRZNYR YBJRE NOQBZVANY CNVA 1922",
+        "NCG:34",
+        "ANZR:L");
+>>>>>>> master
 
     qbGrfg("G9",
         "[0508]- ANGHER: FDHNQ YBPNGVBA: 434 R 9GU NFUYNAQ PBZZRAGF: 93 L/B SRZNYR JVGU ONPX CNVA 1907",
@@ -154,7 +182,11 @@ choyvp pynff BUNfuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:0825",
         "PNYY:FDHNQ",
         "NQQE:905 BENATR",
+<<<<<<< HEAD
         "NCG:3",
+=======
+        "NCG:NCG 3",
+>>>>>>> master
         "PVGL:NFUYNAQ",
         "VASB:51LB ZNYR JVGU VASRPGVBA");
 
@@ -189,7 +221,11 @@ choyvp pynff BUNfuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1932 FG EGR 60",
         "ZNQQE:1932 BU 60",
         "PVGL:NFUYNAQ",
+<<<<<<< HEAD
         "VASB:29 LBS ABG OERNGUVAT, PCE VA CEBTERFF");
+=======
+        "ANZR:29 LBS ABG OERNGUVAT, PCE VA CEBTERFF");
+>>>>>>> master
 
     qbGrfg("G15",
         "[0907]- ANGHER: FDHNQ YBPNGVBA: 658 HF EGR 250 R NFUYNAQ PBZZRAGF: 64 LE BYQ ZNYR, PURFG CNVAF, GEBHOYR OERNGUVAT 1620",
@@ -236,10 +272,17 @@ choyvp pynff BUNfuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "[0731]- ANGHER: FDHNQ YBPNGVBA: 987 ZGTZEL GJC EQ 1546 QVS OERNGUVAT",
         "HAVG:0731",
         "PNYY:FDHNQ",
+<<<<<<< HEAD
         "NQQE:987 GJC EQ 1546",
         "ZNQQE:987 GJC 1546",
         "PVGL:ZBAGTBZREL GJC",
         "VASB:QVS OERNGUVAT");
+=======
+        "CYNPR:987 ZGTZEL",
+        "NQQE:GJC EQ 1546",
+        "ZNQQE:GJC 1546",
+        "ANZR:QVS OERNGUVAT");
+>>>>>>> master
 
     qbGrfg("G21",
         "[0731]- ANGHER: FDHNQ YBPNGVBA: 2140 PRAGRE FHVGR: 524 NFUYNAQ purfg cnva",
@@ -248,7 +291,11 @@ choyvp pynff BUNfuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2140 PRAGRE",
         "NCG:524",
         "PVGL:NFUYNAQ",
+<<<<<<< HEAD
         "VASB:purfg cnva");
+=======
+        "ANZR:purfg cnva");
+>>>>>>> master
 
     qbGrfg("G22",
         "[0402]- ANGHER: FDHNQ YBPNGVBA: 622 PRAGRE NFUYNAQ PBZZRAGF: ebbz154 / orq 2 ERFC QVFGERFF 0815",
@@ -264,7 +311,11 @@ choyvp pynff BUNfuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FDHNQ",
         "NQQE:92 GBJAFUVC EQ 391",
         "PVGL:FHYYVINA",
+<<<<<<< HEAD
         "VASB:qvs oernguvat");
+=======
+        "ANZR:qvs oernguvat");
+>>>>>>> master
 
     qbGrfg("G24",
         "[1225]- ANGHER: FDHNQ YBPNGVBA: 102 TYRAJBBQ QE NFUYNAQ ORGJRRA J ZNVA FG / FBHGUIVRJ QE PBZZRAGF: Z CBFF FGEBXR,FYHEERQ FCRRPU",
@@ -308,16 +359,26 @@ choyvp pynff BUNfuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FDHNQ",
         "NQQE:1364 ZRNQBJ YA",
         "PVGL:NFUYNAQ",
+<<<<<<< HEAD
         "VASB:YVSRYVAR AB ERFCBAFR NG YBPNGVBA 0033");
+=======
+        "ANZR:YVSRYVAR AB ERFCBAFR NG YBPNGVBA 0033");
+>>>>>>> master
 
     qbGrfg("G29",
         "[1225]- ANGHER: SVER YBPNGVBA: ZGTZEL GJC EQ 805 / ZGTZEL GJC EQ 1524 GENAFSBEZRE OYRJ, XRRCF NEPUVAT & TYBJVAT",
         "HAVG:1225",
         "PNYY:SVER",
+<<<<<<< HEAD
         "NQQE:GJC EQ 805 & GJC EQ 1524",
         "ZNQQE:GJC 805 & GJC 1524",
         "PVGL:ZBAGTBZREL GJC",
         "VASB:GENAFSBEZRE OYRJ, XRRCF NEPUVAT & TYBJVAT");
+=======
+        "CYNPR:ZGTZEL",
+        "NQQE:GJC EQ 805 & ZGTZEL GJC EQ 1524 GENAFSBEZRE OYRJ, XRRCF NEPUVAT & TYBJVAT",
+        "ZNQQE:GJC 805 & ZGTZEL GJC 1524 GENAFSBEZRE OYRJ, XRRCF NEPUVAT & TYBJVAT");
+>>>>>>> master
 
     qbGrfg("G30",
         "[0402]- ANGHER: C.V. YBPNGVBA: 250 OLCNFF / PYRIRYNAQ NI NFUYNAQ PBZZRAGF: ZP I GX ONPX NAQ PURFG VAWHEL 1708",
@@ -353,7 +414,11 @@ choyvp pynff BUNfuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:PYRIRYNAQ NI & R 3EQ",
         "ZNQQE:PYRIRYNAQ NIR & R 3EQ",
         "PVGL:NFUYNAQ",
+<<<<<<< HEAD
         "VASB:znyr sryy");
+=======
+        "ANZR:znyr sryy");
+>>>>>>> master
 
     qbGrfg("G34",
         "[0731]- ANGHER: ZHGHNY NVQ YBPNGVBA: 1218 PRAGRE EQ ONVYRL YNXRF purfg naq nez cnva",
@@ -361,7 +426,11 @@ choyvp pynff BUNfuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZHGHNY NVQ",
         "NQQE:1218 PRAGRE EQ",
         "PVGL:ONVYRL YNXRF",
+<<<<<<< HEAD
         "VASB:purfg naq nez cnva");
+=======
+        "ANZR:purfg naq nez cnva");
+>>>>>>> master
 
     qbGrfg("G35",
         "[0731]- ANGHER: FDHNQ YBPNGVBA: 20 NZOREJBBQ CXJL NFUYNAQ erpghz pnzr bhg naq vf tbvat gb or fgenatyrq",
@@ -369,14 +438,22 @@ choyvp pynff BUNfuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FDHNQ",
         "NQQE:20 NZOREJBBQ CXJL",
         "PVGL:NFUYNAQ",
+<<<<<<< HEAD
         "VASB:erpghz pnzr bhg naq vf tbvat gb or fgenatyrq");
+=======
+        "ANZR:erpghz pnzr bhg naq vf tbvat gb or fgenatyrq");
+>>>>>>> master
 
     qbGrfg("G36",
         "[0731]- ANGHER: ZHGHNY NVQ YBPNGVBA: 1797 ARYFBA EQ zrqvp fdhnq sbe 17 lbn abg oernguvat pce va cebterff",
         "HAVG:0731",
         "PNYY:ZHGHNY NVQ",
         "NQQE:1797 ARYFBA EQ",
+<<<<<<< HEAD
         "VASB:zrqvp fdhnq sbe 17 lbn abg oernguvat pce va cebterff");
+=======
+        "ANZR:zrqvp fdhnq sbe 17 lbn abg oernguvat pce va cebterff");
+>>>>>>> master
 
     qbGrfg("G37",
         "[1409]- ANGHER: FDHNQ YBPNGVBA: 625 PRAGRE FHVGR: 209 NFUYNAQ PBZZRAGF: SRZNYR SNYY IVP JVGU YRT VAWHEL01:50",
@@ -398,7 +475,11 @@ choyvp pynff BUNfuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:1409",
         "PNYY:FDHNQ",
         "NQQE:905 BENATR",
+<<<<<<< HEAD
         "NCG:3",
+=======
+        "NCG:NCG 3",
+>>>>>>> master
         "PVGL:NFUYNAQ",
         "VASB:ZNYR VAWHEL GB CRAVF 21:56");
 
@@ -408,8 +489,12 @@ choyvp pynff BUNfuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER",
         "NQQE:872 FNAQHFXL",
         "PVGL:NFUYNAQ",
+<<<<<<< HEAD
         "K:ZNFGREF NI / RQVFBA FG",
         "VASB:BCRA OHEA PBZCYNVAG 20:54");
+=======
+        "K:ZNFGREF NI / RQVFBA FG BCRA OHEA PBZCYNVAG 20:54");
+>>>>>>> master
 
     qbGrfg("G41",
         "[1409]- ANGHER: FDHNQ YBPNGVBA: 625 PRAGRE FHVGR: 104 NFUYNAQ PBZZRAGF: SRZNYR CBFF FGEBXR 19:06",
@@ -449,7 +534,11 @@ choyvp pynff BUNfuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:FDHNQ",
         "NQQE:904 NINYBA QE",
         "PVGL:NFUYNAQ",
+<<<<<<< HEAD
         "VASB:: YVSG NFFVFG");
+=======
+        "ANZR:: YVSG NFFVFG");
+>>>>>>> master
 
     qbGrfg("G46",
         "[0731]- ANGHER: FDHNQ YBPNGVBA: 20 NZOREJBBQ CXJL NFUYNAQ PBZZRAGF: 506 ORQ 2 ZRAGNY FGNGHF PUNATR",
@@ -483,8 +572,12 @@ choyvp pynff BUNfuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1128 NFUYNAQ PB EQ 1356",
         "ZNQQE:1128 NFUYNAQ PBHAGL EBNQ 1356",
         "PVGL:NFUYNAQ",
+<<<<<<< HEAD
         "K:PVGL YVZVGF / PB EQ 1153",
         "VASB:NCQ/NPFB BA FPAR JVGU QBT OVGR 06:34");
+=======
+        "K:PVGL YVZVGF / PB EQ 1153. NCQ/NPFB BA FPAR JVGU QBT OVGR 06:34");
+>>>>>>> master
 
     qbGrfg("G50",
         "[1409]- ANGHER: FDHNQ YBPNGVBA: 210 CYRNFNAG NFUYNAQ ORGJRRA PBGGNTR FG / PNEEBYY FG PBZZRAGF:34LBS NOQ CNVA 01:34",

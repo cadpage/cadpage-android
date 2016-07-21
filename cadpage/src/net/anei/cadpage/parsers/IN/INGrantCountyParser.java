@@ -20,7 +20,7 @@ public class INGrantCountyParser extends DispatchA56Parser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("FIRE")) return false;
+    if (!subject.equals("FIRE")) data.strSource = subject;
     if (!super.parseMsg(body, data)) return false;
     Matcher match = MAP_PLACE_PTN.matcher(data.strPlace);
     if (match.matches()) {
@@ -32,6 +32,6 @@ public class INGrantCountyParser extends DispatchA56Parser {
   
   @Override
   public String getProgram() {
-    return super.getProgram().replace("PLACE", "MAP PLACE");
+    return "SRC " + super.getProgram().replace("PLACE", "MAP PLACE");
   }
 }

@@ -9,18 +9,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 public class SDMinnehahaCountyParser extends SmartAddressParser {
-  
-
-  private static final String MAP_PTN_STR = "\\b(Baltic \\d{1,2}|Brandon[- ]\\d{1,2}|Colton City|Colton \\d{1,2}|Crooks \\d{1,2}|Dell Rapids \\d|Garretson \\d{1,2}|Lyons \\d{1,2}|Splitrock \\d{1,2}|Valley Springs \\d{1,2})\\b";
-  private static final Pattern CAD_MSG_PTN = 
-    Pattern.compile("(?:((?:[A-Z]{2} +)+))?(?:(\\d{3}) +)?(?:((?:[A-Z]{2} +)+))?(?:(Quad \\d{3,4}) - ([A-Z]{2})|(\\d{4}-\\d{8}(?:, *\\d{4}-\\d{8})*)|" + MAP_PTN_STR + ")? *\\b(.+?)(?: (C\\d))?(?: (\\d{4}-\\d{8}))?");
-  private static final Pattern DISPATCH_MSG_PTN = 
-      Pattern.compile("(.*?) +(\\d{4}-\\d{8})((?:  Dispatch received by unit ([^ ]+))+)");
-  
-  private static final Pattern LEAD_MAP_PTN = Pattern.compile('^' + MAP_PTN_STR);
-  private static final Pattern TRAIL_MAP_PTN = Pattern.compile(MAP_PTN_STR + '$');
-  private static final Pattern MM_PTN = Pattern.compile("( MM \\d+)([^\\d ])");
-  private static final Pattern MM_PTN2 = Pattern.compile("^MM \\d+");
  
   public SDMinnehahaCountyParser() {
     super(CITY_CODES, "MINNEHAHA COUNTY", "SD");
@@ -33,6 +21,23 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
+  }
+  
+  private static final String MAP_PTN_STR = "\\b(Baltic \\d{1,2}|Brandon[- ]\\d{1,2}|Colton City|Colton \\d{1,2}|Crooks \\d{1,2}|Dell Rapids \\d|Garretson \\d{1,2}|Hartford \\d{1,2}|Humboldt \\d{1,2}|Lyons \\d{1,2}|Quad [A-Z0-9]{4}(?:_\\d+)?|Renner \\d{1,2}|Splitrock \\d{1,2}|Valley Springs \\d{1,2})\\b";
+  private static final Pattern CAD_MSG_PTN = 
+    Pattern.compile("(?:((?:[A-Z]{1,2}\\d* +)+))?(?:(\\d{3}) +)?(?:((?:[A-Z]{2} +)+))?(?:(Quad [A-Z0-9]{3,4}) - ([A-Z]{2})|(\\d{4}-\\d{8}(?:, *\\d{4}-\\d{8})*)|" + MAP_PTN_STR + ")? *\\b(.+?)(?: (C\\d))?(?: (\\d{4}-\\d{8}))?");
+  private static final Pattern STREET_NO_ADDR_PTN = Pattern.compile("\\d+ (?!ST\\b|AVE?\\b).*");
+  private static final Pattern DISPATCH_MSG_PTN = 
+      Pattern.compile("(.*?) +(\\d{4}-\\d{8})((?:  Dispatch received by unit ([^ ]+))+)");
+  
+  private static final Pattern LEAD_MAP_PTN = Pattern.compile('^' + MAP_PTN_STR);
+  private static final Pattern TRAIL_MAP_PTN = Pattern.compile(MAP_PTN_STR + '$');
+  private static final Pattern MM_PTN = Pattern.compile("( MM \\d+)([^\\d ])");
+  private static final Pattern MM_PTN2 = Pattern.compile("^MM \\d+");
+  
+  @Override
   protected boolean parseMsg(String body, Data data) {
     
     int pt = body.indexOf('\n');
@@ -40,7 +45,6 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
     
     Matcher match = CAD_MSG_PTN.matcher(body);
     if (match.matches()) {
-      
       data.strUnit = append(getOptGroup(match.group(1)), " ", getOptGroup(match.group(3)));
       data.strSource = getOptGroup(match.group(2));
       data.strMap = getOptGroup(match.group(4));
@@ -48,13 +52,15 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
       data.strCallId = getOptGroup(match.group(6));
       if (data.strMap.length() == 0) data.strMap = getOptGroup(match.group(7));
       String sAddrFld = match.group(8);
+      if (data.strSource.length() > 0 && data.strMap.length() == 0 && 
+          sCityCode.length() == 0 && data.strCallId.length() == 0 && 
+          !STREET_NO_ADDR_PTN.matcher(sAddrFld).matches()) {
+        sAddrFld = append(data.strSource, " ", sAddrFld);
+        data.strSource = "";
+      }
       data.strCode = getOptGroup(match.group(9));
       String id = match.group(10);
       if (id != null) data.strCallId = id;
-      
-      // Almost everything is optional, but we have to have some standards
-      // If we don't have a map or a call ID, reject this
-      if (data.strMap.length() == 0 && data.strCallId.length() == 0) return false;
       
       // Dispatch never puts a blank between mile markers and city codes :(
       sAddrFld = MM_PTN.matcher(sAddrFld).replaceFirst("$1 $2");
@@ -64,13 +70,13 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
       String pad;
       if (sCityCode.equals("DR")) pt = sAddrFld.lastIndexOf(" DR ");
       if (pt >= 0) {
-        parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, 
+        parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ALLOW_DUAL_DIRECTIONS, 
                      sAddrFld.substring(0,pt).trim(), data);
         pad = getLeft();
         data.strCall = sAddrFld.substring(pt+4).trim();
         data.strCity = "DELL RAPIDS";
       } else {
-        parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_PAD_FIELD, sAddrFld, data);
+        parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ALLOW_DUAL_DIRECTIONS | FLAG_PAD_FIELD, sAddrFld, data);
         pad = getPadField();
         data.strCall = getLeft();
       }
@@ -113,6 +119,11 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
       } else {
         data.strPlace = pad;
       }
+      
+      // Almost everything is optional, but we have to have some standards
+      // If we don't have a map or a call ID, reject this
+      if (data.strMap.length() == 0 && data.strCallId.length() == 0) return false;
+      
       return true;
     }
     
@@ -120,7 +131,7 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
       String addrFld = match.group(1);
       data.strCallId = match.group(2);
       data.strUnit = match.group(3).replace("Dispatch received by ", "").trim();
-      parseAddress(StartType.START_ADDR, addrFld, data);
+      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ALLOW_DUAL_DIRECTIONS, addrFld, data);
       data.strCall = getLeft();
       return data.strCall.length() > 0;
     }
