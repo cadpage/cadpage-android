@@ -421,6 +421,7 @@ class Active911Vendor extends Vendor {
       "US/IA/CerroGordoCounty",           "IACerroGordoCounty",
       "US/IA/CityofBurlington",           "IADesMoinesCounty",
       "US/IA/CityofMaquoketa",            "IAJacksonCounty",
+      "US/IA/DallasCounty",               "IADallasCounty",
       "US/IA/JohnsonCounty",              "IAJohnsonCounty",
       "US/IA/MitchellCountySheriff",      "IAMitchellCounty",
       "US/IA/PolkCounty",                 "IAPolkCounty",
