@@ -1386,6 +1386,7 @@ class Active911Vendor extends Vendor {
       "US/WV/HampshireCounty",            "WVHampshireCounty",
       "US/WV/HarrisonCounty",             "WVHarrisonCountyA",
       "US/WV/JeffersonCounty",            "WVJeffersonCounty",
+      "US/WI/KCCJS",                      "WIRacineCountyB",
       "US/WV/LincolnCounty",              "WVLincolnCounty",
       "US/WV/MarionCounty",               "WVMarionCounty",
       "US/WV/MasonCounty",                "WVMasonCounty",
