@@ -8,8 +8,9 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHAthensCountyParser extends DispatchEmergitechParser {
   
   public OHAthensCountyParser() {
-    super("911_Dispatch:", 73, CITY_LIST, "ATHENS COUNTY", "OH");
-    addSpecialWords("COLUMBUS");
+    super("911_Dispatch:", true, 0, CITY_LIST, "ATHENS COUNTY", "OH");
+    setupMultiWordStreets(MWORD_STREET_LIST);
+    setupSpecialStreets("OREGON RIDGE");
   }
   
   @Override
@@ -30,6 +31,37 @@ public class OHAthensCountyParser extends DispatchEmergitechParser {
     }
     return true;
   }
+  
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "ANGEL RIDGE",
+    "BIG BAILEY RUN",
+    "BIG RUN",
+    "CANAANVILLE HILLS",
+    "CIRCLE 33",
+    "COOLVILLE RIDGE",
+    "ELM ROCK",
+    "FOUR MILE CREEK",
+    "GLOUSTER GLEN",
+    "GRAHAM CHAPEL",
+    "GUN CLUB",
+    "HAMLEY RUN",
+    "JENKINS DAM",
+    "JEWELL HOLLOW",
+    "JOHN LLOYD EVANS MEMORIAL",
+    "LADD RIDGE",
+    "LONG RUN",
+    "M E",
+    "MILL SCHOOL",
+    "MT ST MARY",
+    "PEACH RIDGE",
+    "PERRY RIDGE",
+    "PLEASANT HILL",
+    "ROCK RUN",
+    "SAND RIDGE",
+    "TEN SPOT",
+    "VORE RIDGE"
+   
+  };
 
   private static final String[] CITY_LIST = new String[]{
     
