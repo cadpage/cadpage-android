@@ -14,13 +14,13 @@
   
   <string-array name="pref_app_map_option_entries">
     <item>Google</item>
-    <item>Other</item>       <!-- Translate -->
+    <item>Annan</item>
   </string-array>
   
   <string-array name="pref_waze_app_map_option_entries">
     <item>Google</item>
     <item>Waze</item>
-    <item>Other</item>       <!-- Translate -->
+    <item>Annan</item>
   </string-array>
   
   <string-array name="pref_resp_type_text">
@@ -51,7 +51,7 @@
     <item>Okänd användare</item>
     <item>market problem</item>
     <item>Gratis abonnemang</item>
-    <item>support old system</item> <!-- Translate -->
+    <item>Understöd gammalt system</item>
   </string-array>
   <string-array name="email_devel_text">
     <item>Vill du skicka ett email till utvecklarna av CadPage gällande generella fel eller kommentarer?</item>
