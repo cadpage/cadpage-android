@@ -50,6 +50,10 @@ Fraqre: NRHPNQ@sver.pn.tbi
 (PNQ Cntr) 16-Wha-2013/13:43:51; ZRQVPNY; Vap# 014048; 3190 ORAGYRL QE ,PNZREBA_CNEX; R283 R88 Z28; K: -120 59.5933 L: 38 42.0088;
 (PNQ Cntr) 15-Wha-2013/09:01:06; ZRQVPNY - URNEG CEBO; Vap# 013940; 3481 YN PVRARTN JL ,PNZREBA_CNEX; R83; K: -120 59.6049 L: 38 41.6140;
 
+Pbagnpg: Jbbq, Qnir@PNYSVER <Qnir.Jbbq@sver.pn.tbi>
+Fraqre: NRHPNQ@sver.pn.tbi
+(PNQ Cntr) 21-Why-2016/20:51:53; SVER, FZBXR PURPX; Vap# PNRAS020410; OVT ZBHAGNVA @ =Y(38.576667,-120.504443) ,NZNQBE_ENATRE_QVFGEVPG; R2764 JVYQRAS<n uers="ugg
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pny Sver - Ry Qbenqb
 Ybpngvba: Ry Qbenqb, PN, Havgrq Fgngrf
@@ -1183,6 +1187,23 @@ choyvp pynff PNRyQbenqbPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:R83",
         "TCF:+38.693567,-120.993415");
  
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQnivqJbbq() {
+
+    qbGrfg("G1",
+        "(PNQ Cntr) 21-Why-2016/20:51:53; SVER, FZBXR PURPX; Vap# PNRAS020410; OVT ZBHAGNVA @ =Y(38.576667,-120.504443) ,NZNQBE_ENATRE_QVFGEVPG; R2764 JVYQRAS<n uers=\"ugg",
+        "QNGR:07/21/2016",
+        "GVZR:20:51:53",
+        "PNYY:SVER, FZBXR PURPX",
+        "VQ:PNRAS020410",
+        "NQQE:=Y(38.576667,-120.504443)",
+        "ZNQQE:+38.576667,-120.504443",
+        "PVGL:NZNQBE ENATRE QVFGEVPG",
+        "CYNPR:OVT ZBHAGNVA",
+        "HAVG:R2764 JVYQRAS");
+
   }
 
   @Grfg
