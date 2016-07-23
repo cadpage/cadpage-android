@@ -534,6 +534,7 @@ class Active911Vendor extends Vendor {
       "US/KY/CampbellCounty",             "KYCampbellCounty",
       "US/KY/CarrollCounty",              "KYCarrollCountyB",
       "US/KY/CarrollCountyPD",            "KYCarrollCountyC",
+      "US/KY/CarterCounty",               "KYCarterCounty",
       "US/KY/ChristianCounty",            "KYChristianCounty",
       "US/KY/CityofBowlingGreen",         "KYBowlingGreen",
       "US/KY/CityofEdmonton",             "KYMetcalfeCounty",
