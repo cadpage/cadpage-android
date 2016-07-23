@@ -379,6 +379,7 @@ class Active911Vendor extends Vendor {
       "US/FL/CityofSatelliteBeach",       "FLSatelliteBeach",
       "US/FL/CityofWinterPark",           "FLOrangeCounty",
       "US/FL/CollierCounty",              "FLCollierCounty",
+      "US/FL/EscambiaCounty",             "FLEscambiaCounty",
       "US/FL/GulfBreezePolice",           "FLGulfBreezeB",
       "US/FL/Hendry",                     "FLHendryCounty",
       "US/FL/HernandoSheriff",            "FLHernandoCounty",
