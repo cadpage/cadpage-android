@@ -20,7 +20,7 @@ public class KYCarterCountyParser extends DispatchEmergitechParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!super.parseMsg(subject, body, data)) return false;
-    if (data.strCity.endsWith(" CO ")) data.strCity += "UNTY";
+    if (data.strCity.endsWith(" CO")) data.strCity += "UNTY";
     return true;
   }
 
@@ -36,6 +36,6 @@ public class KYCarterCountyParser extends DispatchEmergitechParser {
       "GRAYSON",
       "OLIVE HILL",
       
-      "ELLIOT CO"
+      "ELLIOTT CO"
   };
 }

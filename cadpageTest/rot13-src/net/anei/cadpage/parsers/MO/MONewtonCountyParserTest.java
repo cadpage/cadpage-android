@@ -27,6 +27,13 @@ Pbagnpg: Cuvyyvc Jvyyvnzf <cjvyyvnzf0874@bhgybbx.pbz>
 Fraqre: 911@ap-pqp.bet
 1 bs 2\aSEZ:911@ap-pqp.bet\aFHOW:911 PNYY\aZFT:201 F QVNZBAQ YBBC QVNZBAQ  PebffFgerrgf: EHOL EQ 0.11 zv A F QVNAR PG 0.11 zv R PURFG CNVA RFA: 33\a(Pba'g) 2 bs 2\aPnyy Ahzore: 1033010\a(Raq)
 
+Pbagnpg: Cuvyyvc Jvyyvnzf <tenaolznvagranapr@ubgznvy.pbz>
+Fraqre: 1027194726673
+{911 PNYY} 18123 TERRAOEVRE QE ARJGBA PBHAGL  PebffFgerrgf: BGGRE QE 0.19 zv J EVIREIVRJ QE 0.29 zv R PURFG CNVA RFA: 15 Pnyy Ahzore: 1058157
+{911 PNYY} 1105 A ZNVA FG QVNZBAQ  PebffFgerrgf: PUREEL EQ 0.07 zv A JROO EQ 0.43 zv F SNYY RFA: 33 Pnyy Ahzore: 1058101
+{911 PNYY} 1003 R ZNEXRG FG, Ncg. CB OBK 8 QVNZBAQ  PebffFgerrgf: OENQYRL FG 0.14 zv R BFUXBFU YA 0.11 zv J FVPX CREFBA RFA: 33 Pnyy Ahzore: 1057711
+{911 PNYY} 6805 CNAQN EQ ARJGBA PBHAGL  PebffFgerrgf: SBYVNTR EQ 0.26 zv F RYQRE EQ 0.74 zv A BHGFVQR SVER-P / FZNYY OEHFU/TENFF RFA: 15 Pnyy Ahzore: 1057517
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Fgryyn SQ
 Ybpngvba: Fgryyn, ZB, Havgrq Fgngrf
@@ -483,6 +490,48 @@ choyvp pynff ZBArjgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:33",
         "VQ:1033010");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgCuvyyvcJvyyvnzf2() {
+
+    qbGrfg("G1",
+        "{911 PNYY} 18123 TERRAOEVRE QE ARJGBA PBHAGL  PebffFgerrgf: BGGRE QE 0.19 zv J EVIREIVRJ QE 0.29 zv R PURFG CNVA RFA: 15 Pnyy Ahzore: 1058157",
+        "NQQE:18123 TERRAOEVRE QE",
+        "PVGL:ARJGBA PBHAGL",
+        "K:BGGRE QE 0.19 zv J EVIREIVRJ QE 0.29 zv R",
+        "PNYY:PURFG CNVA",
+        "ZNC:15",
+        "VQ:1058157");
+
+    qbGrfg("G2",
+        "{911 PNYY} 1105 A ZNVA FG QVNZBAQ  PebffFgerrgf: PUREEL EQ 0.07 zv A JROO EQ 0.43 zv F SNYY RFA: 33 Pnyy Ahzore: 1058101",
+        "NQQE:1105 A ZNVA FG",
+        "PVGL:QVNZBAQ",
+        "K:PUREEL EQ 0.07 zv A JROO EQ 0.43 zv F",
+        "PNYY:SNYY",
+        "ZNC:33",
+        "VQ:1058101");
+
+    qbGrfg("G3",
+        "{911 PNYY} 1003 R ZNEXRG FG, Ncg. CB OBK 8 QVNZBAQ  PebffFgerrgf: OENQYRL FG 0.14 zv R BFUXBFU YA 0.11 zv J FVPX CREFBA RFA: 33 Pnyy Ahzore: 1057711",
+        "NQQE:1003 R ZNEXRG FG",
+        "NCG:CB OBK 8",
+        "PVGL:QVNZBAQ",
+        "K:OENQYRL FG 0.14 zv R BFUXBFU YA 0.11 zv J",
+        "PNYY:FVPX CREFBA",
+        "ZNC:33",
+        "VQ:1057711");
+
+    qbGrfg("G4",
+        "{911 PNYY} 6805 CNAQN EQ ARJGBA PBHAGL  PebffFgerrgf: SBYVNTR EQ 0.26 zv F RYQRE EQ 0.74 zv A BHGFVQR SVER-P / FZNYY OEHFU/TENFF RFA: 15 Pnyy Ahzore: 1057517",
+        "NQQE:6805 CNAQN EQ",
+        "PVGL:ARJGBA PBHAGL",
+        "K:SBYVNTR EQ 0.26 zv F RYQRE EQ 0.74 zv A",
+        "PNYY:BHGFVQR SVER-P / FZNYY OEHFU/TENFF",
+        "ZNC:15",
+        "VQ:1057517");
+
   }
 
   @Grfg
