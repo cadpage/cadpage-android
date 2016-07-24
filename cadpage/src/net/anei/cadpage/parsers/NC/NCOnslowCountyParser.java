@@ -36,9 +36,13 @@ public class NCOnslowCountyParser extends DispatchOSSIParser {
   }
   private static final Pattern MAIN_ST_EX = Pattern.compile("\\bMAIN ST EX\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern WILLIAMS_ST_EX = Pattern.compile("\\bWILLIAMS ST EX\\b", Pattern.CASE_INSENSITIVE);
+
   
+  private static final Pattern MSPACE_PTN = Pattern.compile(" {2,}");
+
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = MSPACE_PTN.matcher(body).replaceAll(" ");
     body = stripFieldStart(body,  "/ no subject /");
     selectValue = (body.contains("[") ? "CALL" : null);
     return super.parseMsg(body, data);

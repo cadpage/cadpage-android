@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.KY;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 /**
@@ -16,10 +17,25 @@ public class KYCarterCountyParser extends DispatchEmergitechParser {
     return "Carter911@windstream.net";
   }
 
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (!super.parseMsg(subject, body, data)) return false;
+    if (data.strCity.endsWith(" CO")) data.strCity += "UNTY";
+    return true;
+  }
+
+  @Override
+  protected boolean isNotExtraApt(String apt) {
+    if (apt.startsWith("MM")) return true;
+    if (apt.endsWith("MM")) return true;
+    return super.isNotExtraApt(apt);
+  }
+
   private static final String[] CITY_LIST = new String[]{
-
+      "CARTER",
       "GRAYSON",
-      "OLIVE HILL"
-
+      "OLIVE HILL",
+      
+      "ELLIOTT CO"
   };
 }

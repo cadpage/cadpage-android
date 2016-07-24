@@ -239,8 +239,8 @@
   <string name="pref_gps_map_option_title">GPS-ruttningsalternativ</string>
   <string name="pref_gps_map_option_summary">Använd GPS-koordinater för positionering: %%s</string>
   
-  <string name="pref_app_map_option_title">Mapping App Option</string>       <!-- Translate -->
-  <string name="pref_app_map_option_summary">Use mapping app: %%s</string>
+  <string name="pref_app_map_option_title">Kart-apps alternativ</string>
+  <string name="pref_app_map_option_summary">Använd mappnings-app: %%s</string>
   
   <string name="pref_report_position_title">Rapportera position vid kvittens</string>
   <string name="pref_report_position_summary">Rapportera din aktuella position när du kvitterar larm: %%s</string>
