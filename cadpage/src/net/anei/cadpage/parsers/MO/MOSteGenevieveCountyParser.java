@@ -8,7 +8,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchCiscoParser;
 public class MOSteGenevieveCountyParser extends DispatchCiscoParser {
   
   public MOSteGenevieveCountyParser() {
-    super("STE. GENEVIEVE COUNTY", "MO");
+    super("STE GENEVIEVE COUNTY", "MO");
+    removeWords("STE");
     setupMultiWordStreets(
         "LIME KILN",
         "STE GENEVIEVE",

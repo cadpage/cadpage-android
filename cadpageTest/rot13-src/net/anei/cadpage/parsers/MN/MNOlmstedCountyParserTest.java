@@ -207,9 +207,9 @@ choyvp pynff ZAByzfgrqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G3",
         "(BYZFGRQ PBHAGL (EBPURFGRE)(ZA)) zrqvpny neobe tneqraf rlbgn aba rzretrag",
         "FEP:EBPURFGRE",
-        "PNYY:zrqvpny neobe tneqraf",
-        "PVGL:rlbgn",
-        "VASB:aba rzretrag");
+        "PNYY:aba rzretrag",
+        "NQQE:zrqvpny neobe tneqraf",
+        "PVGL:rlbgn");
 
     qbGrfg("G4",
         "(BYZFGRQ PBHAGL (EBPURFGRE)(ZA)) Vawhel npv abegu bs pbhagl 9 ba ujl 42 , 2 cvaarq va gehpx ",

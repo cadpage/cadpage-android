@@ -91,7 +91,7 @@ Fraqre: <fsp_pnq@fsp911.bet>
 choyvp pynff ZBFgrTrarivrirPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZBFgrTrarivrirPbhaglCnefreGrfg() {
-    frgCnefre(arj ZBFgrTrarivrirPbhaglCnefre(), "FGR. TRARIVRIR PBHAGL", "ZB");
+    frgCnefre(arj ZBFgrTrarivrirPbhaglCnefre(), "FGR TRARIVRIR PBHAGL", "ZB");
   }
 
 @Grfg

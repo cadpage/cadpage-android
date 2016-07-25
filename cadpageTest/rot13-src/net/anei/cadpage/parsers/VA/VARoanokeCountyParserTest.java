@@ -1419,7 +1419,8 @@ choyvp pynff INEbnabxrPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NPPVQRAG CREFBANY VAWHEL",
         "CYNPR:IVAGBA IRGREVANEL UBFCVGNY",
         "NQQE:1309 JNFUVATGBA NIR",
-        "K:OYQT FG4 / 19 / 2016 4: 21: 40 CZ");
+        "NCG:OYQT FG4",
+        "K:19 / 2016 4: 21: 40 CZ");
 
     qbGrfg("G3",
         "{Ivagba Sver Npgvir 911} Erprvirq: sebz qhxrpzvzcb01.pbkznvy.pbz ([68.99.120.134])\a" +

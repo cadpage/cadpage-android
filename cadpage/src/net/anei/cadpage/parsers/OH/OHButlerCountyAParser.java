@@ -12,6 +12,7 @@ public class OHButlerCountyAParser extends DispatchA3Parser {
   
   public OHButlerCountyAParser() {
     super(0, "BCSO:", "BUTLER COUNTY", "OH", FA3_NBH_PLACE_OFF);
+    setupProtectedNames("SURFACE LOT");
   }
   
   protected boolean parseMsg(String body, Data data) {

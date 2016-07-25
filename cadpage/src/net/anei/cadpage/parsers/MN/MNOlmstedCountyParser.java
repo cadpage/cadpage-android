@@ -62,10 +62,12 @@ public class MNOlmstedCountyParser extends SmartAddressParser {
       }
       
       Parser p = new Parser(subject);
-      parseAddress(StartType.START_CALL, FLAG_IMPLIED_INTERSECT | FLAG_PREF_TRAILING_DIR | FLAG_ANCHOR_END, p.get("  "), data);
+      String sub = p.get("  ");
+      Result res = parseAddress(StartType.START_CALL, FLAG_IMPLIED_INTERSECT | FLAG_PREF_TRAILING_DIR | FLAG_ANCHOR_END, sub);
       data.strPlace = p.get();
       
-      if (data.strAddress.length() > 0) {
+      if (res.isValid()) {
+        res.getData(data);
         String[] flds = body.split("\n");
         data.strCall = flds[0].trim();
         for (int ii = 1; ii<flds.length; ii++) {
@@ -74,6 +76,7 @@ public class MNOlmstedCountyParser extends SmartAddressParser {
       }
       
       else {
+        data.strCall = sub;
         parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_PREF_TRAILING_DIR, body, data);
         data.strSupp = getLeft();
       }

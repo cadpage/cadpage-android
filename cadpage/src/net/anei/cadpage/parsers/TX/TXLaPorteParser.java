@@ -114,7 +114,7 @@ public class TXLaPorteParser extends DispatchOSSIParser {
         data.strSupp = match.group(3);
         return;
       }
-      int flags = FLAG_NO_IMPLIED_APT | FLAG_NO_CITY;
+      int flags = FLAG_START_FLD_REQ | FLAG_NO_IMPLIED_APT | FLAG_NO_CITY;
       match = KEMA_ADDR_PTN.matcher(field);
       if (match.matches()) {
         field = match.group(1);

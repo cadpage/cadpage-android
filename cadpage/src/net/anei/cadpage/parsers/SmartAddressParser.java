@@ -554,8 +554,8 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_APT_SOFT, "APT", "APTS", "SUITE", "ROOM", "LOT", "UNIT");
     setupDictionary(ID_FLOOR, "FLOOR", "FLR", "FL", "BLDG");
     setupDictionary(ID_STREET_NAME_PREFIX, "HIDDEN", "LAKE", "MT", "MOUNT", "SUNKEN");
-    setupDictionary(ID_NOT_ADDRESS, "ENTRAPED", "ENTRAPPED", "YOM", "YOF", "YO");
-    setupDictionary(ID_YEAR_OLD_NOT_ADDRESS, "YOM", "YOF", "YO", "Y/O");
+    setupDictionary(ID_NOT_ADDRESS, "ENTRAPED", "ENTRAPPED", "YOM", "YOF", "YOA", "YO", "Y/O");
+    setupDictionary(ID_YEAR_OLD_NOT_ADDRESS, "YOM", "YOF", "YOA", "YO", "Y/O");
     setupDictionary(ID_SINGLE_WORD_ROAD, "TURNPIKE");
     setupDictionary(ID_BLOCK, "BLK", "BLOCK");
     setupDictionary(ID_NUMBER_SUFFIX, "ND", "RD", "TH");
@@ -2007,18 +2007,26 @@ public abstract class SmartAddressParser extends MsgParser {
     result.reset(startAddress);
     boolean crossOnly = isFlagSet(FLAG_ONLY_CROSS);
     boolean padField = isFlagSet(FLAG_PAD_FIELD | FLAG_PAD_FIELD_EXCL_CITY);
+    boolean startFldReq = isFlagSet(FLAG_START_FLD_REQ);
+    boolean emptyAddrOK = isFlagSet(FLAG_EMPTY_ADDR_OK);
     
     // Determine tentative start and end of address information
     int stAddr = startAddress;
     int endAddr = padField || !isFlagSet(FLAG_ANCHOR_END) ? -1 : result.tokens.length;
 
     // Make a pass through the token string looking for interesting things
-    // (apt indicatres, cross street indicators, and invalid address tokens
+    // (apt indicates, cross street indicators, and invalid address tokens
     int iApt = -1;
     int iAptSt = -1;
     int iAptEnd = -1;
-    
-    int tmp = stAddr < 0 ? 0 : stAddr;
+
+    int tmp;
+    if (stAddr < 0) {
+      tmp = startFldReq ? 1 : 0;
+    } else {
+      tmp = stAddr;
+      if (!emptyAddrOK) tmp++;
+    }
     for (int ndx = tmp; ndx < tokens.length; ndx++) {
       
       // Mark the location and type of the first apartment indicator
@@ -2046,7 +2054,7 @@ public abstract class SmartAddressParser extends MsgParser {
         // this looks like a house number, and if it does set the start
         // address point here.  Oh, and wipe out any previously found
         // apt indicators
-        if (stAddr < 0 && (ndx > 0 || !isFlagSet(FLAG_START_FLD_REQ)) && ndx < tokens.length-1) {
+        if (stAddr < 0 && (ndx > 0 || !startFldReq) && ndx < tokens.length-1) {
           if (isHouseNumber(ndx) && !isType(ndx+1, ID_NOT_ADDRESS)) {
             if (ndx == 0 || ! isType(ndx-1, ID_RELATION)) {
               stAddr = ndx;
@@ -2057,7 +2065,7 @@ public abstract class SmartAddressParser extends MsgParser {
 
         // A cross street indicator, marks a hard end of address
         if (isType(ndx, ID_CROSS_STREET)) {
-          endAddr = ndx;
+          result.endAll = endAddr = ndx;
           findCrossStreetEnd(ndx+1, true, result);
           break;
         }
@@ -2071,7 +2079,7 @@ public abstract class SmartAddressParser extends MsgParser {
         
         // A YO type of not address also takes out a preceding numeric field
         if (isType(ndx, ID_YEAR_OLD_NOT_ADDRESS) && ndx > stAddr && isType(ndx-1, ID_NUMBER)) ndx--;
-        endAddr = ndx;
+        result.endAll = endAddr = ndx;
         break;
       }
     }
@@ -2105,30 +2113,33 @@ public abstract class SmartAddressParser extends MsgParser {
       endAddr = iApt;
     }
     
-    // No luck picking up a start of address, time to give up 
-    // and assign everything to the start field
+    // If we haven't found a start of address yet, do it now 
     if (stAddr < 0) {
       
-      if (result.startField != null) {
+      // If start field is not required, start the address at zero
+      if (!startFldReq) {
+        stAddr = 0;
+      }
+      
+      // Otherwise, assign everything to the start field
+      else if (result.startField != null) {
         
-        // But first, if we are parsing to the end of the field, see if we can
+        // But first, if we are still parsing to the end of the field, see if we can
         // find a city at end of field
-        if (isFlagSet(FLAG_ANCHOR_END) && endAddr == tokens.length) {
-          int st = (isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0);
-          if (parseStartToCity(st, true, result)) return;
+        if (endAddr == tokens.length) {
+          if (parseStartToCity(1, true, result)) return;
         }
         
         result.startField.end(endAddr);
         return;
       }
     }
-    
-    // If we did just identify a start address (beyond accepting the initial
-    // one, see if we can parse it to a city name.
-    if (stAddr > startAddress) {
-      if (result.startField != null) result.startField.end(stAddr);
-      if (parseAddressToCity(stAddr, stAddr+2, result)) return;
-    }
+
+    // Last step, see if we can parse out a city name
+    if (result.startField != null) result.startField.end(stAddr);
+    tmp = stAddr+1;
+    if (isHouseNumber(stAddr)) tmp++;
+    if (parseFallbackToCity(stAddr, tmp, result)) return;
     
     // OK, we have an address
     result.addressField = new FieldSpec(stAddr, endAddr);
@@ -2178,6 +2189,22 @@ public abstract class SmartAddressParser extends MsgParser {
   private boolean parseAddressToCity(int stAddr, int srcNdx, Result result) {
     FieldSpec addressField = new FieldSpec(stAddr);
     if (!parseToCity(addressField, true, false, 1, srcNdx, result)) return false;
+    result.addressField = addressField;
+    if (result.startField != null) result.startField.optionalEnd(stAddr);
+    return true;
+  }
+  
+  /**
+   * Parse fallback field to city
+   * @param stAddr prospective start of address field
+   * @param srcNdx index to start searching
+   * @param result Result object where results will be saved
+   * @return true if city was found and all pertinent information was found.
+   * False if not city was found and  nothing was changed in result
+   */
+  private boolean parseFallbackToCity(int stAddr, int srcNdx, Result result) {
+    FieldSpec addressField = new FieldSpec(stAddr);
+    if (!parseToCity(addressField, false, false, 1, srcNdx, result)) return false;
     result.addressField = addressField;
     if (result.startField != null) result.startField.optionalEnd(stAddr);
     return true;

@@ -867,7 +867,7 @@ choyvp pynff ZBFgbqqneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{Qvfcngpu Pnyy} CFLPUBYBTVPNY CEVBEVGL UVTU   QRKGRE PebffFgerrgf: \aRFA: QRK-1FGN \a514",
         "PNYY:CFLPUBYBTVPNY",
         "CEV:UVTU",
-        "PVGL:QRKGRE",
+        "NQQE:QRKGRE",
         "FEP:QRK-1FGN",
         "HAVG:514");
 
@@ -943,7 +943,7 @@ choyvp pynff ZBFgbqqneqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{Qvfcngpu Pnyy} FGEBXR CEVBEVGL UVTU   QRKGRE PebffFgerrgf: \aRFA: QRK-1FGN \a514",
         "PNYY:FGEBXR",
         "CEV:UVTU",
-        "PVGL:QRKGRE",
+        "NQQE:QRKGRE",
         "FEP:QRK-1FGN",
         "HAVG:514");
 

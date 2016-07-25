@@ -12,7 +12,7 @@ public class OHClarkCountyBParser extends SmartAddressParser {
   public OHClarkCountyBParser() {
     super(CITY_LIST, "CLARK COUNTY", "OH");
     setFieldList("PLACE ADDR APT CITY X CALL INFO ID");
-    removeWords("CL");
+    removeWords("CL", "UNIT");
   }
   private static final Pattern MASTER = Pattern.compile("-?(.*?)(?:-(\\d{4}))?");
   private static final Pattern DIR_BOUND_PTN = Pattern.compile("\\b([NSEW])/B\\b");
@@ -22,7 +22,10 @@ public class OHClarkCountyBParser extends SmartAddressParser {
   private static final Pattern DELIMITER_MATCHER = Pattern.compile("(.*?)(?: APT (\\w+) | \\- | / )(.*?)");
   
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {    
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // Way to promiscous
+    if (!isPositiveId()) return false;
         
     //remove leading dash and trailing -nnnn
     Matcher mat = MASTER.matcher(body);

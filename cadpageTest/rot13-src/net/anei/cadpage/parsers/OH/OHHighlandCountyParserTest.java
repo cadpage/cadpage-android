@@ -2076,7 +2076,7 @@ choyvp pynff BUUvtuynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "Argjbexnqzva:[QFU]- ANGHER: ZRAGNY FGNGHF PUNATR YBPNGVBA: YLAPUOHET PBZZRAGF: YCQ VF BHG JVGU N ZNYR ERDHFGVAT FDHNQ",
         "HAVG:QFU",
         "PNYY:ZRAGNY FGNGHF PUNATR",
-        "PVGL:YLAPUOHET",
+        "NQQE:YLAPUOHET",
         "VASB:YCQ VF BHG JVGU N ZNYR ERDHFGVAT FDHNQ");
 
     qbGrfg("G47",
