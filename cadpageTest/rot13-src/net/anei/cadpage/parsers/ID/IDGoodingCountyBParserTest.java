@@ -28,11 +28,17 @@ Fraqre: Cntvat@fvepbzz.pbz
 
 Pbagnpg: Ziczrqvp 1 <ziczrqvpbar@tznvy.pbz>
 Fraqre: Cntvat@fvepbzz.pbz
-1 bs 3\aSEZ:Cntvat@fvepbzz.pbz\aZFT:6/30/2015 1507\aRIRAG # 1506300188 ZIE039\aZRQ - ZRQVPNY PNYY\aYBPNGVBA 2032 F YVAPBYA NIR\aPVGL WREBZR\aNCG\a(Pba'g) 2 bs 3\a\aCERZVFR WREBZR ERPERNGVBA QVFGEVPG\aPBZZRAG NOBHG N 5 LBZ UVG UVF URNQ\a------------------------------[SVER1/226\2f06/30/15\a(Pba'g) 3 bs 3\a15:07:02]\aERYNGRQ GB...\a(Raq)
+1 bs 3\aSEZ:Cntvat@fvepbzz.pbz\aZFT:6/30/2015 1507\aRIRAG # 1506300188 ZIE039\aZRQ - ZRQVPNY PNYY\aYBPNGVBA 2032 F YVAPBYA NIR\aPVGL WREBZR\aNCG\a(Pba'g) 2 bs 3\a\aCERZVFR WREBZR ERPERNGVBA QVFGEVPG\aPBZZRAG NOBHG N 5 LBZ UVG UVF URNQ\a------------------------------[SVER1/226  06/30/15\a(Pba'g) 3 bs 3\a15:07:02]\aERYNGRQ GB...\a(Raq)
 
 Pbagnpg: Pnzreba Qvexf <pqaerzg@tznvy.pbz>
 Fraqre: CntvatFreivpr@fvepbzz.pbz
 1/21/2015 1652\aRIRAG # 1501210168 EPX025\aNPPA - ABA VAWHEL NPPVQRAG\aCEVBEVGL 2 \aYBPNGVBA XVZOREYL ZRNQBJF EQ/A 3400 RNFG\aPVGL XVZOREYL\aNCG \aCERZVFR
+
+Pbagnpg: Wba Xrcyre <wbaxrcyre@ubgznvy.pbz>
+Fraqre: Cntvat@fvepbzz.pbz
+7/24/2016 0444\a# 1607240048 TQT099\aSVTUG - SVTUG\a2050 R 3000 FBHGU\aPVGL JAQ NERN\aNCG \a\aFRIRENY CRBCYR SVTUGVAT VAFVQR GUR OHVYQVAT\a---------------
+7/23/2016 1037\a# 1607230097 TQT099\aNPPH - NPPVQRAG J/HAXABJA V...\aZC 156 V84\aPVGL JAQ NERN\aNCG JO\aZC 156 V84\a1 IRU EBYY BIRE
+7/22/2016 2321\a# 1607220329 TQT099\aJEAG - JNEENAG\a1997 R 1775 FBHGU\aPVGL TQT NERN\aNCG \a\a8129 8414 8408 8122 8115\aJVYY PURPX BHG NG YBPNGVBA BA CEV
 
 */
 
@@ -231,7 +237,7 @@ choyvp pynff VQTbbqvatPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Pba'g) 2 bs 3\a\a" +
         "CERZVFR WREBZR ERPERNGVBA QVFGEVPG\a" +
         "PBZZRAG NOBHG N 5 LBZ UVG UVF URNQ\a" +
-        "------------------------------[SVER1/226\\2f06/30/15\a" +
+        "------------------------------[SVER1/226  06/30/15\a" +
         "(Pba'g) 3 bs 3\a" +
         "15:07:02]\a" +
         "ERYNGRQ GB...\a" +
@@ -245,7 +251,7 @@ choyvp pynff VQTbbqvatPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2032 F YVAPBYA NIR",
         "PVGL:WREBZR",
         "CYNPR:WREBZR ERPERNGVBA QVFGEVPG",
-        "VASB:NOBHG N 5 LBZ UVG UVF URNQ / ------------------------------[SVER1/226\\2f06/30/15 15:07:02] / ERYNGRQ GB...");
+        "VASB:NOBHG N 5 LBZ UVG UVF URNQ");
    
   }
   
@@ -271,6 +277,65 @@ choyvp pynff VQTbbqvatPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:XVZOREYL ZRNQBJF EQ & A 3400 RNFG",
         "PVGL:XVZOREYL");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWbuaXrcyre() {
+
+    qbGrfg("G1",
+        "7/24/2016 0444\a" +
+        "# 1607240048 TQT099\a" +
+        "SVTUG - SVTUG\a" +
+        "2050 R 3000 FBHGU\a" +
+        "PVGL JAQ NERN\a" +
+        "NCG \a\a" +
+        "FRIRENY CRBCYR SVTUGVAT VAFVQR GUR OHVYQVAT\a" +
+        "---------------",
+
+        "QNGR:7/24/2016",
+        "GVZR:04:44",
+        "VQ:1607240048",
+        "FEP:TQT099",
+        "PNYY:SVTUG - SVTUG",
+        "NQQE:2050 R 3000 FBHGU",
+        "PVGL:JAQ NERN",
+        "ZPVGL:",
+        "VASB:FRIRENY CRBCYR SVTUGVAT VAFVQR GUR OH");
+
+    qbGrfg("G2",
+        "7/23/2016 1037\a# 1607230097 TQT099\aNPPH - NPPVQRAG J/HAXABJA V...\aZC 156 V84\aPVGL JAQ NERN\aNCG JO\aZC 156 V84\a1 IRU EBYY BIRE",
+        "QNGR:7/23/2016",
+        "GVZR:10:37",
+        "VQ:1607230097",
+        "FEP:TQT099",
+        "PNYY:NPPH - NPPVQRAG J/HAXABJA V...",
+        "NQQE:ZC 156 V84",
+        "ZNQQE:ZC 156 V 84",
+        "NCG:JO",
+        "PVGL:JAQ NERN",
+        "ZPVGL:",
+        "VASB:ZC 156 V84 / 1 IRU EBYY BIRE");
+
+    qbGrfg("G3",
+        "7/22/2016 2321\a" +
+        "# 1607220329 TQT099\a" +
+        "JEAG - JNEENAG\a" +
+        "1997 R 1775 FBHGU\a" +
+        "PVGL TQT NERN\a" +
+        "NCG \a\a" +
+        "8129 8414 8408 8122 8115\a" +
+        "JVYY PURPX BHG NG YBPNGVBA BA CEV",
+
+        "QNGR:7/22/2016",
+        "GVZR:23:21",
+        "VQ:1607220329",
+        "FEP:TQT099",
+        "PNYY:JEAG - JNEENAG",
+        "NQQE:1997 R 1775 FBHGU",
+        "PVGL:TQT NERN",
+        "ZPVGL:",
+        "VASB:8129 8414 8408 8122 8115 / JVYY PURPX BHG NG YBPNGVBA BA CEV");
+ 
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
