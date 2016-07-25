@@ -1,11 +1,14 @@
 package net.anei.cadpage.parsers.GA;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 
 public class GAWhitfieldCountyBParser extends DispatchA48Parser {
   
   public GAWhitfieldCountyBParser() {
-    super(CITY_LIST, "WHITFIELD COUNTY", "GA", FieldType.X_NAME);
+    super(CITY_LIST, "WHITFIELD COUNTY", "GA", FieldType.X_NAME,
+          Pattern.compile("[A-Z]+\\d+|BATT"));
     setupCallList(CALL_LIST);
     setupMultiWordStreets(
         "CROSS PLAINS",

@@ -23,6 +23,15 @@ public class PAClarionCountyParser extends GroupBestParser {
   }
 
   static final String[] CITY_LIST = new String[]{
+    "ASHLAND",
+    "BUTLER",
+    "CLARION",
+    "PARKER",
+    "PARKER CITY",
+    "RICHLAND",
+    
+    "BARKEYVILLE BORO",
+    "BRUIN BORO",
     "CALLENSBURG BORO",
     "CLARION BORO",
     "EAST BRADY BORO",
@@ -38,6 +47,7 @@ public class PAClarionCountyParser extends GroupBestParser {
     "ST PETERSBURG BORO",
     "STRATTANVILLE BORO",
     
+    "ALLEGENY TWP",
     "ASHLAND TWP",
     "BEAVER TWP",
     "BRADY TWP",
@@ -45,6 +55,7 @@ public class PAClarionCountyParser extends GroupBestParser {
     "ELK TWP",
     "FARMINGTON TWP",
     "HIGHLAND TWP",
+    "HOVEY TWP",
     "KNOX TWP",
     "LICKING TWP",
     "LIMESTONE TWP",
@@ -52,6 +63,7 @@ public class PAClarionCountyParser extends GroupBestParser {
     "MILLCREEK TWP",
     "MONROE TWP",
     "PAINT TWP",
+    "PARKER TWP",
     "PERRY TWP",
     "PINEY TWP",
     "PORTER TWP",

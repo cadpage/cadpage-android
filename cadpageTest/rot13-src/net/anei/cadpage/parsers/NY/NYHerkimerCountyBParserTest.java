@@ -35,7 +35,7 @@ choyvp pynff ALUrexvzrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:GRFG",
         "NQQE:71 ERFREIBVE EQ",
         "PVGL:UREXVZRE",
-        "HAVG:USQG UREXVZRE SQ USQ FG");
+        "HAVG:USQG");
     
   }
   
@@ -51,7 +51,7 @@ choyvp pynff ALUrexvzrePbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RZF",
         "NQQE:331 ZHECUL EQ",
         "PVGL:ZNAURVZ",
-        "HAVG:EZ EHENY ZRGEB NZOHYNAPR EZ 2, EZ 1, EZ RZFFGN 120S Z");
+        "HAVG:EZ");
     
   }
   

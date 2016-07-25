@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.WV;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 
@@ -9,7 +11,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 public class WVHardyCountyBParser extends DispatchA48Parser {
   
   public WVHardyCountyBParser() {
-    super(CITY_LIST, "HARDY COUNTY", "WV", FieldType.X_NAME);
+    super(CITY_LIST, "HARDY COUNTY", "WV", FieldType.X_NAME,
+          Pattern.compile("[A-Z]\\d+[A-Z]?|\\d{4}"));
     setupCallList(CALL_CODE);
   }
   

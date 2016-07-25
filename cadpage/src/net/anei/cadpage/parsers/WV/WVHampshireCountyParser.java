@@ -33,6 +33,13 @@ public class WVHampshireCountyParser extends DispatchA48Parser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    
+    // Get rid of some garbage constructs before they up the semicolon count
+    // to the point where we might think this is a semicolon delimited format
+    body = body.replace("Name:;", "");
+    body = body.replace("Address:null null;", "");
+    body = body.replace("Phone number:000000000;", "");
+    
     if (!super.parseMsg(subject, body, data)) return false;
     
     // SO far, so good

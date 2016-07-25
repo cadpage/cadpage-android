@@ -2,13 +2,16 @@ package net.anei.cadpage.parsers.IN;
 
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 
 public class INShelbyCountyBParser extends DispatchA48Parser {
   
   public INShelbyCountyBParser() {
-    super(CITY_LIST, "SHELBY COUNTY", "IN", FieldType.PLACE,  A48_NO_CODE, Pattern.compile("\\d{3}"));
+    super(CITY_LIST, "SHELBY COUNTY", "IN", FieldType.PLACE,  A48_NO_CODE, 
+          Pattern.compile("\\d{3}|[A-Z]+\\d+"));
+    setupCallList(CALL_LIST);
   }
   
   @Override
@@ -17,17 +20,28 @@ public class INShelbyCountyBParser extends DispatchA48Parser {
     return super.parseMsg(subject, body, data);
   }
   
+  private static final CodeSet CALL_LIST = new CodeSet(
+      "ACC PI",
+      "ACC UKN",
+      "ATT SUICIDE",
+      "DOM VIO",
+      "FIRE",
+      "FIRE ALARM",
+      "MEDIC",
+      "SUSPIC",
+      "WELL BEING"
+ );
+  
   private static final String[] CITY_LIST = new String[]{
+    
       //Cities and towns
-
       "EDINBURGH",
       "FAIRLAND",
       "MORRISTOWN",
-      "ST. PAUL",
+      "ST PAUL",
       "SHELBYVILLE",
 
       //Unincorporated towns
-
       "BLUE RIDGE",
       "BROOKFIELD",
       "BOGGSTOWN",
@@ -42,8 +56,7 @@ public class INShelbyCountyBParser extends DispatchA48Parser {
       "SUGAR CREEK",
       "WALDRON",
 
-  //Townships
-
+      //Townships
       "ADDISON",
       "BRANDYWINE",
       "HANOVER",

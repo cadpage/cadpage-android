@@ -13,7 +13,8 @@ public class PAClarionCountyCParser extends DispatchA48Parser {
   private static final Pattern INT_PTN = Pattern.compile("\\bINT\\b", Pattern.CASE_INSENSITIVE);
   
   public PAClarionCountyCParser() {
-    super(PAClarionCountyParser.CITY_LIST, "CLARION COUNTY", "PA", FieldType.X_NAME, A48_ONE_WORD_CODE);
+    super(PAClarionCountyParser.CITY_LIST, "CLARION COUNTY", "PA", FieldType.X_NAME, A48_ONE_WORD_CODE, 
+          Pattern.compile("\\d{3,4}(?:[A-Z]+\\d?)?|911\\d{3}|CH\\d?-\\d+|EBR|EML(?:-[A-Z0-9]+)?|LIFEFLIGHT\\d|SOU|SPC\\d"));
   }
   
   @Override

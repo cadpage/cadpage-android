@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.GA;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -9,7 +10,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 public class GAWhiteCountyParser extends DispatchA48Parser {
 
   public GAWhiteCountyParser() {
-    super(CITY_LIST, "WHITE COUNTY", "GA", FieldType.X,  A48_OPT_ONE_WORD_CODE);
+    super(CITY_LIST, "WHITE COUNTY", "GA", FieldType.X,  A48_OPT_ONE_WORD_CODE,
+          Pattern.compile("[A-Z]+\\d+|\\d{3}|[A-Z]{1,2}FD|EMS"));
     setupMultiWordStreets(MW_STREETS);
     setupCallList(CALL_LIST);
   }

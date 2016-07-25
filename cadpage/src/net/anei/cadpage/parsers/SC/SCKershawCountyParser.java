@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.SC;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 
@@ -9,7 +11,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 public class SCKershawCountyParser extends DispatchA48Parser {
   
   public SCKershawCountyParser() {
-    super(CITY_LIST, "KERSHAW COUNTY", "SC", FieldType.NAME);
+    super(CITY_LIST, "KERSHAW COUNTY", "SC", FieldType.NAME,
+          Pattern.compile("EMS\\d+|ST\\d+|MTP|RESCUE|SCHP"));
     setupCallList(CALL_LIST);
   }
   
