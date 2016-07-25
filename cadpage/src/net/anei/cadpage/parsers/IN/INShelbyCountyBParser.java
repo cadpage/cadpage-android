@@ -1,17 +1,21 @@
 package net.anei.cadpage.parsers.IN;
 
+import java.util.regex.Pattern;
+
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 
 public class INShelbyCountyBParser extends DispatchA48Parser {
   
   public INShelbyCountyBParser() {
-    super(CITY_LIST, "SHELBY COUNTY", "IN", FieldType.X_NAME);
-    setupCallList(CALL_LIST);
+    super(CITY_LIST, "SHELBY COUNTY", "IN", FieldType.PLACE,  A48_NO_CODE, Pattern.compile("\\d{3}"));
   }
   
-  private static final String[] CALL_LIST = new String[]{
-    "fillah"
-  };
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    body = stripFieldStart(body, "Dispatch: ; ");
+    return super.parseMsg(subject, body, data);
+  }
   
   private static final String[] CITY_LIST = new String[]{
       //Cities and towns

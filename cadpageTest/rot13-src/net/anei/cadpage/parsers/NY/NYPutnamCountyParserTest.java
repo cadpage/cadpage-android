@@ -46,6 +46,10 @@ Pbagnpg: tnelanzrgu <tnelanzrgu@bcgvzhz.arg>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 Fhowrpg:13 Pbyq Fcevat\aZBGBE IRUVPYR NPPVQRAG|| 31 ZRNQBJ YA,CUVYVCFGBJA |FGN 15 KF QRNQ RAQ /EBHGR 9Q
 
+Pbagnpg: Zvpunry Zvyyre <zvxr.zvyyre3288@tznvy.pbz>
+Fraqre: 1027194726673
+{11 Oerjfgre} ZBGBE IRUVPYR NPPVQRAG|| V84JO,FBHGURNFG |FGN 11 KF ZZ68=20
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pbagvaragny Ivyyntr SQ
 Ybpngvba: Tneevfba, AL, Havgrq Fgngrf
@@ -586,6 +590,20 @@ choyvp pynff ALChganzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "FEP:15",
         "K:QRNQ RAQ /EBHGR 9Q");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgZvpunryZvyyre2() {
+
+    qbGrfg("G1",
+        "{11 Oerjfgre} ZBGBE IRUVPYR NPPVQRAG|| V84JO,FBHGURNFG |FGN 11 KF ZZ68=20",
+        "PNYY:ZBGBE IRUVPYR NPPVQRAG",
+        "NQQE:V84JO",
+        "ZNQQE:V 84 & ZZ68=20",
+        "PVGL:FBHGURNFG",
+        "FEP:11",
+        "K:ZZ68=20");
+
   }
 
   @Grfg
