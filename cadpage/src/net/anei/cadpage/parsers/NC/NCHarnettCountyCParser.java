@@ -31,6 +31,7 @@ public class NCHarnettCountyCParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = stripFieldStart(body, "Text Message / ");
     setSelectValue("");
     String[] flds = body.split("\n");
     if (flds.length == 1) {

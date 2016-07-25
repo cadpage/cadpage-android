@@ -100,6 +100,19 @@ public class DispatchA48Parser extends FieldProgramParser {
       
     },
     
+    PLACE("PLACE? APT?", "PLACE APT") {
+      @Override
+      public void parse(DispatchA48Parser parser, String field, Data data) {
+        Parser p = new Parser(field);
+        String apt = p.getLast(' ');
+        if (APT_PTN.matcher(apt).matches()) {
+          data.strApt = append(data.strApt, "-", apt);
+          field = p.get();
+        }
+        data.strPlace = field;
+      }
+    },
+    
     TRASH("SKIP", "") {
       @Override
       public void parse(DispatchA48Parser parser, String field, Data data) {}
@@ -170,6 +183,7 @@ public class DispatchA48Parser extends FieldProgramParser {
   private static final Pattern SUBJECT_PTN = Pattern.compile("As of \\d\\d?/\\d\\d?/\\d\\d \\d\\d(:\\d\\d:\\d\\d)?");
   private static final Pattern PREFIX_PTN = Pattern.compile("(?!\\d\\d:)([- A-Za-z0-9]+: *)(.*)");
   private static final Pattern TRUNC_HEADER_PTN = Pattern.compile("\\d\\d:\\d\\d \\d{4}-\\d{8} ");
+  private static final Pattern TRUNC_HEADER_PTN2 = Pattern.compile(": \\d{4}-\\d{8} ");
   private static final Pattern MASTER_PTN = Pattern.compile("(?:CAD:|[- A-Za-z0-9]*:)? *As of (\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d?:\\d\\d:\\d\\d) (?:([AP]M) )?(\\d{4}-\\d{5,8}) (.*)");
   private static final Pattern TRAIL_UNIT_PTN = Pattern.compile("(.*?)[ ,]+(\\w+)");
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b(\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d?:\\d\\d:\\d\\d)(?: ([AP]M))?\\b");
@@ -203,11 +217,17 @@ public class DispatchA48Parser extends FieldProgramParser {
       body = "As of 99/99/99 99:" + body; 
     }
     
+    // Another varation on same theme
+    else if (subject.length() == 0 && TRUNC_HEADER_PTN2.matcher(body).lookingAt()) {
+      body = "As of 99/99/99 99:99:99 " + body.substring(2); 
+    }
+    
     if (!subject.startsWith("As of") && !subject.equals("ALERT MESSAGE")) data.strSource = subject;
     
     // Check for the new newline delimited format
     crossSet = new HashSet<String>();
     String flds[] = body.split("\n");
+    if (flds.length < 4) flds = body.split(";");
     if (flds.length >= 4) {
       return parseFields(flds, data);
     }
@@ -232,9 +252,7 @@ public class DispatchA48Parser extends FieldProgramParser {
     
     Parser p = new Parser(fixCallAddress(addr));
     
-    if (unitPtn == null) {
-      data.strUnit = p.getLastOptional(" Unit Org Name Area Types ");
-    }
+    String unitInfo = p.getLastOptional(" Unit Org Name Area Types ");
 
     StartType st = StartType.START_CALL;
     int flags = FLAG_START_FLD_REQ;
@@ -256,8 +274,14 @@ public class DispatchA48Parser extends FieldProgramParser {
     }
 
     addr = p.get();
-    
-    if (unitPtn != null) {
+
+    if (unitPtn == null) {
+      data.strUnit = unitInfo;
+    } else if (unitInfo.length() > 0) {
+      for (String unit : unitInfo.split(" +")) {
+        if (unitPtn.matcher(unit).matches()) data.strUnit = append(data.strUnit, " ", unit);
+      }
+    } else { 
       while (true) {
         match = TRAIL_UNIT_PTN.matcher(addr);
         if (!match.matches()) break;
@@ -268,7 +292,7 @@ public class DispatchA48Parser extends FieldProgramParser {
       }
     }
     
-    else if (data.strUnit.length() == 0) {
+    if (data.strUnit.length() == 0) {
       int pt = addr.lastIndexOf(" Unit");
       if (pt >= 0) {
         if (" Unit Org Name Area Types ".startsWith(addr.substring(pt))) {
@@ -347,8 +371,11 @@ public class DispatchA48Parser extends FieldProgramParser {
     if (name.equals("CALL")) return new BaseCallField();
     if (name.equals("DUPADDR")) return new BaseDupAddrField();
     if (name.equals("X_NAME")) return new BaseCrossNameField();
+    if (name.equals("PLACE")) return new BasePlaceField();
+    if (name.equals("APT")) return new BaseAptField();
     if (name.equals("INFO")) return new BaseInfoField();
     if (name.equals("UNIT_LABEL")) return new BaseUnitLabelField();
+    if (name.equals("UNIT")) return new BaseUnitField();
     return super.getField(name);
   }
   
@@ -372,6 +399,10 @@ public class DispatchA48Parser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       field = fixCallAddress(field);
+      if (noCode) {
+        data.strCall = field;
+        return;
+      }
       if (optOneWordCode || !oneWordCode) {
         int pt = field.indexOf(" - ");
         if (pt >= 0) {
@@ -429,6 +460,27 @@ public class DispatchA48Parser extends FieldProgramParser {
     }
   }
   
+  private class BasePlaceField extends PlaceField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.equals(UNIT_LABEL_STR)) return false;
+      super.parse(field, data);
+      return true;
+    }
+  }
+
+  private static final Pattern APT_PTN = Pattern.compile("\\d{1,4}[A-Z]?|[A-Z]");
+  private class BaseAptField extends AptField {
+    public BaseAptField() {
+      setPattern(APT_PTN, true);
+    }
+  }
+  
   private static final Pattern INFO_PTN = Pattern.compile("\\d\\d?/\\d\\d?/\\d\\d \\d\\d:\\d\\d:\\d\\d\\b *(.*)|\\d\\d?/\\d\\d?/\\d\\d|\\d\\d:\\d\\d:\\d\\d");
   private static final Pattern INFO_TRUNC_PTN = Pattern.compile("\\d{1,2}[/:][ 0-9:/]*");
   private class BaseInfoField extends InfoField {
@@ -475,6 +527,15 @@ public class DispatchA48Parser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       if (!checkParse(field, data)) abort();
+    }
+  }
+  
+  private class BaseUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(' ');
+      if (pt >= 0) field = field.substring(0,pt).trim();
+      data.strUnit = append(data.strUnit, " ", field);
     }
   }
   

@@ -36,9 +36,19 @@ public class FLEscambiaCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("X")) return new MyCrossField();
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("TIMES")) return new MyTimesField();
     return super.getField(name);
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldStart(field, "/");
+      field = stripFieldEnd(field, "/");
+      super.parse(field, data);
+    }
   }
   
   private static final Pattern CALL_PTN = Pattern.compile("(\\d\\d?[A-Z]\\d\\d?[A-Z]?) - +(.*)");
