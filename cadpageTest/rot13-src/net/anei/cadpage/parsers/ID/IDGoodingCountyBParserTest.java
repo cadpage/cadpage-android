@@ -299,7 +299,7 @@ choyvp pynff VQTbbqvatPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVTUG - SVTUG",
         "NQQE:2050 R 3000 FBHGU",
         "PVGL:JAQ NERN",
-        "ZPVGL:",
+        "ZPVGL:JRAQRYY",
         "VASB:FRIRENY CRBCYR SVTUGVAT VAFVQR GUR OH");
 
     qbGrfg("G2",
@@ -313,7 +313,7 @@ choyvp pynff VQTbbqvatPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:ZC 156 V 84",
         "NCG:JO",
         "PVGL:JAQ NERN",
-        "ZPVGL:",
+        "ZPVGL:JRAQRYY",
         "VASB:ZC 156 V84 / 1 IRU EBYY BIRE");
 
     qbGrfg("G3",
@@ -333,7 +333,7 @@ choyvp pynff VQTbbqvatPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:JEAG - JNEENAG",
         "NQQE:1997 R 1775 FBHGU",
         "PVGL:TQT NERN",
-        "ZPVGL:",
+        "ZPVGL:TBBQVAT",
         "VASB:8129 8414 8408 8122 8115 / JVYY PURPX BHG NG YBPNGVBA BA CEV");
  
   }
