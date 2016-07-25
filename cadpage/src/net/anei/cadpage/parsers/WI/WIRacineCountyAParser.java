@@ -3,9 +3,9 @@ package net.anei.cadpage.parsers.WI;
 import java.util.Properties;
 import net.anei.cadpage.parsers.dispatch.DispatchProphoenixParser;
 
-public class WIRacineCountyParser extends DispatchProphoenixParser {
+public class WIRacineCountyAParser extends DispatchProphoenixParser {
   
-  public WIRacineCountyParser() {
+  public WIRacineCountyAParser() {
     super(CITY_CODES,"RACINE COUNTY", "WI");
     setupProtectedNames("SIX AND ONE HALF");
   }

@@ -6,9 +6,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-public class ILLakeCountyParser extends FieldProgramParser {
+public class ILLakeCountyAParser extends FieldProgramParser {
   
-  public ILLakeCountyParser() {
+  public ILLakeCountyAParser() {
     super(CITY_CODES, "LAKE COUNTY", "IL",
           "Incident:ID! Nat:CALL! Loc:ADDR/y! Apt:APT! Grid:MAP! Trucks:UNIT!");
   }
