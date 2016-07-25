@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.PA;
 
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 
@@ -8,7 +10,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 public class PAJuniataCountyParser extends DispatchA48Parser {
  
   public PAJuniataCountyParser() {
-    super(CITY_LIST, "JUNIATA COUNTY", "PA", FieldType.X_NAME, A48_OPT_ONE_WORD_CODE);
+    super(CITY_LIST, "JUNIATA COUNTY", "PA", FieldType.X_NAME, A48_OPT_ONE_WORD_CODE,
+          Pattern.compile("[A-Z]+\\d+(?:-\\d)?|POWER|PSPL"));
   }
   
   @Override

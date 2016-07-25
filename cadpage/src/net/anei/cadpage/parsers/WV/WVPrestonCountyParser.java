@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.WV;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
@@ -11,7 +12,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 public class WVPrestonCountyParser extends DispatchA48Parser {
   
   public WVPrestonCountyParser() {
-    super(CITY_LIST, "PRESTON COUNTY", "WV", FieldType.NAME, A48_ONE_WORD_CODE, CALL_CODES);
+    super(CITY_LIST, "PRESTON COUNTY", "WV", FieldType.NAME, A48_ONE_WORD_CODE,
+          Pattern.compile("\\d{1,3}[A-Z]?|NRP\\d+|PD\\d+"), CALL_CODES);
   }
   
   @Override

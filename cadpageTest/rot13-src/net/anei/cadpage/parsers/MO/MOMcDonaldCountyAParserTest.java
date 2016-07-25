@@ -49,7 +49,7 @@ choyvp pynff ZBZpQbanyqPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:YNETR S",
         "NQQE:1010 ZBAEBR EQ",
         "PVGL:ZPQBANYQ",
-        "HAVG:NSQ NSQ S_NAQ FGN GSQ");
+        "HAVG:NSQ");
 
     qbGrfg("G3",
         "(sver_naqrefba) yvfn:Nf bs 1/31/16 04:10:22 2016-03827 YM S - YNAQVAT MBAR S R FGNGR UVTUJNL 76 / VAQVNA GENVY EQ, ZPQBANYQ R FGNGR UVTUJNL 76 / VAQVNA GENVY EQ, ZP",
@@ -72,7 +72,7 @@ choyvp pynff ZBZpQbanyqPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:TENFF SVER YNETR S",
         "PNYY:YNETR S",
         "NQQE:76 & ZPZVYYNA",
-        "HAVG:NSQ NSQ S_NAQ FGN");
+        "HAVG:NSQ");
 
     qbGrfg("G5",
         "(sver_naqrefba) yvfn:Nf bs 1/30/16 16:37:45 2016-03752 TENFF SVER YNETR S - YNETR S 1010 ZBAEBR EQ, ZPQBANYQ ZPQBANYQ Havg Bet Anzr Nern Glcrf NSQ NSQ S_NAQ FGN GSQ",
@@ -84,7 +84,7 @@ choyvp pynff ZBZpQbanyqPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:YNETR S",
         "NQQE:1010 ZBAEBR EQ",
         "PVGL:ZPQBANYQ",
-        "HAVG:NSQ NSQ S_NAQ FGN GSQ");
+        "HAVG:NSQ");
   
   }
 
