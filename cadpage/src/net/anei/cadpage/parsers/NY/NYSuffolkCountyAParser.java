@@ -101,6 +101,14 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
           data.strSupp = append(match.group(2).trim(), "\n", match.group(3).trim());
         }
   
+        String sAddressPrefix = "";
+        if (sAddress.startsWith("LL(")) {
+          int pt = sAddress.indexOf(')', 3);
+          if (pt >= 0) {
+            sAddressPrefix = sAddress.substring(0,pt+1);
+            sAddress = sAddress.substring(pt+1);
+          }
+        }
         String[] addrFlds = PLACE_MARK_PTN.split(sAddress, 3);
         if (addrFlds.length > 1) {
           sAddress = addrFlds[0].trim();
@@ -117,6 +125,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
             data.strApt = append(match.group(2).trim(), "-", data.strApt);
           }
         }
+        sAddress = append(sAddressPrefix, " ", sAddress);
         
         // We have so many city codes that many of them form part of legitimate
         // street names, which really messes things up.  To cut down on some of

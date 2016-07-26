@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class DispatchA39Parser extends FieldProgramParser {
 
-  private static final String PROGRAM_STR = "DEMPTY+? CALL? ADDR/iSXXa! APT? INFO/N+";
+  private static final String PROGRAM_STR = "DEMPTY+? CALL? ADDR/iS6! APT? INFO/N+";
 
   public DispatchA39Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState, PROGRAM_STR);

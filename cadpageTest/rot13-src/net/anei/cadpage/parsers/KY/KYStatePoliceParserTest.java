@@ -54395,8 +54395,7 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{XFC CBFG 9:1045  >NPPVQRAG CEBCREGL QNZNTR} 194 XVZCRE NCCNYNPUVNA JVERYRFF Pnq: 2016-0000003988",
         "PBQR:1045",
         "PNYY:NPPVQRAG CEBCREGL QNZNTR",
-        "NQQE:194",
-        "PVGL:XVZCRE",
+        "NQQE:194 XVZCRE",
         "VQ:2016-0000003988");
 
     qbGrfg("G27",

@@ -1710,8 +1710,7 @@ choyvp pynff VYQhCntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:161180357",
         "QNGR:04/27/16",
         "GVZR:19:43:36",
-        "PNYY:ZHGHNY NVQ - GEV FGNGR",
-        "NQQE:1831",
+        "PNYY:ZHGHNY NVQ - GEV FGNGR - 1831",
         "ZNC:GE1");
 
     qbGrfg("G88",

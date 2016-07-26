@@ -3514,7 +3514,8 @@ choyvp pynff JIJbbqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{Jbbq Pbhagl PGP Abgvsvpngvba} ﻿<UGZY><obql><oe />10-70 SQ ERDHRFG<oe />[39.26150 / -81.43753]</obql></UGZY>",
         "PBQR:10-70",
         "PNYY:SQ ERDHRFG",
-        "CYNPR:[39.26150 - -81.43753]");
+        "NQQE:[39.26150 & -81.43753]",
+        "ZNQQE:+39.261500,-81.437530");
 
     qbGrfg("G58",
         "{Jbbq Pbhagl PGP Abgvsvpngvba} ﻿<UGZY><obql><oe />10-70 SQ ERDHRFG<oe />ZRNQIVYYR EQ QNIVFIVYYR / FGNHAGBA GCXR QNIVFIVYYR</obql></UGZY>",

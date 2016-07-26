@@ -202,7 +202,7 @@ choyvp pynff ALFhssbyxPbhaglRCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G16",
         "SEBZ ERYNL QRNQ NVE CNTR",
-        "NQQE:QRNQ NVE CNTR");
+        "VASB:QRNQ NVE CNTR");
 
     qbGrfg("G17",
         "SEBZ ERYNL 629 J ZNVA FG OL TNF FGNGVBA",

@@ -8339,8 +8339,8 @@ choyvp pynff GKUhagPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SQ Vairfgvtngvba",
         "CYNPR:(Uhag) GUR SVER VF ORUVAQ UVZ",
         "K:QENXR",
-        "NQQE:Cngevpvn Ya & Qenxr Eq, Dhvayna 75474 PNYYRE YVIRF NG 1456 Cig 3839, Dhvayna",
-        "PVGL:GK",
+        "NQQE:Cngevpvn Ya & Qenxr Eq, Dhvayna 75474 PNYYRE YVIRF NG 1456 Cig 3839",
+        "PVGL:Dhvayna",
         "GVZR:22:23:00");
 
     qbGrfg("G88",

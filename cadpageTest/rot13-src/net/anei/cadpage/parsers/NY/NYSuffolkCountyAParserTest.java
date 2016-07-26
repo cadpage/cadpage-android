@@ -11587,9 +11587,10 @@ choyvp pynff ALFhssbyxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G86",
         "GLCR: HAXABJA CEBOYRZ YBP: YY(-73:18:38.1528,40:50:56.7953): @ZBAVGBERQ : @ZBAVGBERQ  PEBFF:  /  PBQR: qrsnhyg GVZR: 09:09:10",
         "PNYY:HAXABJA CEBOYRZ",
-        "CYNPR:YY(-73",
-        "NCG:18",
-        "VASB:38.1528,40:50:56.7953): @ZBAVGBERQ : @ZBAVGBERQ",
+        "NQQE:YY(-73:18:38.1528,40:50:56.7953)",
+        "ZNQQE:+40.849110,-73.310598",
+        "CYNPR:ZBAVGBERQ",
+        "VASB:ZBAVGBERQ",
         "GVZR:09:09:10");
 
     qbGrfg("G87",
@@ -18795,9 +18796,10 @@ choyvp pynff ALFhssbyxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G78",
         "GLCR: PBAIHYFVBAF / FRVMHERF YBP: YY(-73:01:53.0990,40:49:51.9929): @FNPU% : @FNPU%  PEBFF:  /  PBQR: qrsnhyg GVZR: 09:14:12",
         "PNYY:PBAIHYFVBAF / FRVMHERF",
-        "CYNPR:YY(-73",
-        "NCG:01",
-        "VASB:53.0990,40:49:51.9929): @FNPU% : @FNPU%",
+        "NQQE:YY(-73:01:53.0990,40:49:51.9929)",
+        "ZNQQE:+40.831109,-73.031416",
+        "CYNPR:FNPU%",
+        "VASB:FNPU%",
         "GVZR:09:14:12");
 
     qbGrfg("G79",
@@ -21112,9 +21114,10 @@ choyvp pynff ALFhssbyxPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G28",
         "GLCR: GENHZNGVP VAWHEL (FCRPVSVP) YBP: YY(-73:07:13.6532,40:55:07.9094): @FHAL - YNINYYR : @FHAL - YNINYYR  PEBFF:  /  PBQR: qrsnhyg GVZR: 20:06:00",
         "PNYY:GENHZNGVP VAWHEL (FCRPVSVP)",
-        "CYNPR:YY(-73",
-        "NCG:07",
-        "VASB:13.6532,40:55:07.9094): @FHAL - YNINYYR : @FHAL - YNINYYR",
+        "NQQE:YY(-73:07:13.6532,40:55:07.9094)",
+        "ZNQQE:+40.918864,-73.120459",
+        "CYNPR:FHAL - YNINYYR",
+        "VASB:FHAL - YNINYYR",
         "GVZR:20:06:00");
 
     qbGrfg("G29",

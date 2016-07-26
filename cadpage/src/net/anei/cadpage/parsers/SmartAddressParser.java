@@ -2094,7 +2094,9 @@ public abstract class SmartAddressParser extends MsgParser {
     // If we found and end of the address, and are looking for
     // a pad field, try to extend the pad field out to the city
     // name or EOL
+    boolean parseCity = false;
     if (endAddr >= 0 && padField && result.endAll < tokens.length) {
+      parseCity = true;
       int tmpNdx = result.endAll;
       if (isComma(tmpNdx)) tmpNdx++;
       parsePadToCity(tmpNdx, result);
@@ -2113,21 +2115,16 @@ public abstract class SmartAddressParser extends MsgParser {
       endAddr = iApt;
     }
     
-    // If we haven't found a start of address yet, do it now 
+    // If we haven't found a start of address yet, 
+    // assign everything to the start field
     if (stAddr < 0) {
       
-      // If start field is not required, start the address at zero
-      if (!startFldReq) {
-        stAddr = 0;
-      }
-      
-      // Otherwise, assign everything to the start field
-      else if (result.startField != null) {
+      if (result.startField != null) {
         
         // But first, if we are still parsing to the end of the field, see if we can
         // find a city at end of field
         if (endAddr == tokens.length) {
-          if (parseStartToCity(1, true, result)) return;
+          if (parseStartToCity((emptyAddrOK ? 0 : 1), true, result)) return;
         }
         
         result.startField.end(endAddr);
@@ -2136,10 +2133,13 @@ public abstract class SmartAddressParser extends MsgParser {
     }
 
     // Last step, see if we can parse out a city name
+    // if we haven't already
     if (result.startField != null) result.startField.end(stAddr);
-    tmp = stAddr+1;
-    if (isHouseNumber(stAddr)) tmp++;
-    if (parseFallbackToCity(stAddr, tmp, result)) return;
+    if (!parseCity) {
+      tmp = stAddr+1;
+      if (isHouseNumber(stAddr)) tmp++;
+      if (parseFallbackToCity(stAddr, tmp, result)) return;
+    }
     
     // OK, we have an address
     result.addressField = new FieldSpec(stAddr, endAddr);

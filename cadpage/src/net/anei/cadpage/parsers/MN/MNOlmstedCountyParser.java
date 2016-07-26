@@ -32,7 +32,7 @@ public class MNOlmstedCountyParser extends SmartAddressParser {
     if (match.matches()) {
       data.strSource = match.group(1).trim();
   
-      parseAddress(StartType.START_CALL, body, data);
+      parseAddress(StartType.START_CALL, FLAG_FALLBACK_ADDR, body, data);
       if (data.strCall.length() == 0) {
         data.strCall = getLeft();
       } else {

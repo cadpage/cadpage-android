@@ -16,8 +16,8 @@ public class VARoanokeCountyParser extends SmartAddressParser {
   private static final Pattern MSG_HEADER_PTN = Pattern.compile(">>> <dispatch@roanokecountyva.gov> (\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d) >>>\n\n");
   private static final Pattern MASTER_PTN1 = Pattern.compile("(.*?)  (\\d{4}) (.*)(Roanoke County|Floyd County|Town of Vinton) ([ A-Z]+) (\\d{4} \\d{8})");
   private static final Pattern NOT_DISPATCH_PTN = Pattern.compile("\\b(?:ADV|TRAINING)\\b");
-  private static final Pattern DATE_TIME_PTN1 = Pattern.compile("[ \n](\\d{1,2}/\\d{1,2}/\\d{4}) +(\\d{1,2}:\\d{1,2}:\\d{1,2} [AP]M)$");
-  private static final Pattern DATE_TIME_PTN2 = Pattern.compile("[ \n](\\d\\d?-[A-Z]{3}-\\d{4}) +(\\d{1,2}:\\d{1,2}:\\d{1,2})$", Pattern.CASE_INSENSITIVE);
+  private static final Pattern DATE_TIME_PTN1 = Pattern.compile("[ \n]*([12]?\\d/\\d{1,2}/\\d{4}) +(\\d{1,2}:\\d{1,2}:\\d{1,2} [AP]M)$");
+  private static final Pattern DATE_TIME_PTN2 = Pattern.compile("[ \n]*([12]?\\d-[A-Z]{3}-\\d{4}) +(\\d{1,2}:\\d{1,2}:\\d{1,2})$", Pattern.CASE_INSENSITIVE);
   private static final DateFormat TIME_FMT1 = new SimpleDateFormat("hh:mm:ss aa");
   private static final DateFormat DATE_FMT2 = new SimpleDateFormat("dd-MMM-yyyy");
   private static final Pattern XST_PTN = Pattern.compile("[- ]+X ?ST(?:REETS?)?\\b:? *");

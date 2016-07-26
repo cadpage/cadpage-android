@@ -60,4 +60,9 @@ public class ZNZAucklandParser extends FieldProgramParser {
       super.parse(field, data);
     }
   }
+
+  @Override
+  protected int getExtraParseAddressFlags() {
+    return FLAG_EMPTY_ADDR_OK;
+  }
 }

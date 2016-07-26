@@ -665,8 +665,7 @@ choyvp pynff ZFOvybkvCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:F-72",
         "QNGR:10/25/2014",
         "GVZR:05:07:59",
-        "NQQE:58 LBN",
-        "VASB:SRZNYR HAERFCBAFVIR FRRZF GB OR VA NAQ BHG BS PBAFPVBHFARFF",
+        "VASB:58 LBN SRZNYR HAERFCBAFVIR FRRZF GB OR VA NAQ BHG BS PBAFPVBHFARFF",
         "HAVG:R-1");
 
     qbGrfg("G56",
@@ -915,12 +914,11 @@ choyvp pynff ZFOvybkvCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G81",
         "OvybkvQvfcngpu:Pnyy # 14-0121086 -ZRQVPNY RZRETRAPL F-72- 10/24/2014 03:31:04 Zrffntr: R-4 ERFCBAQVAT VAPVQRAG 14-0005273 81 LBN SRZNYR UNIVAT URNEG CEBOYRZF &nzc; GEBHOYR OERNGUVAT",
         "VQ:14-0121086",
-        "PNYY:ZRQVPNY RZRETRAPL",
+        "PNYY:ZRQVPNY RZRETRAPL / 81 LBN SRZNYR UNIVAT URNEG / OERNGUVAT",
         "PBQR:F-72",
         "QNGR:10/24/2014",
         "GVZR:03:31:04",
-        "NQQE:81 LBN",
-        "VASB:SRZNYR UNIVAT URNEG CEBOYRZF & GEBHOYR OERNGUVAT",
+        "NQQE:CEBOYRZF & GEBHOYR",
         "HAVG:R-4");
 
     qbGrfg("G82",

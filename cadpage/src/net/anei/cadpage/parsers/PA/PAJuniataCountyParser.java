@@ -45,7 +45,10 @@ public class PAJuniataCountyParser extends DispatchA48Parser {
     "SUSQUEHANNA",
     "TURBETT",
     "TUSCARORA",
-    "WALKER"
+    "WALKER",
+    
+    // Mifflin County
+    "LEWISTOWN"
   };
 
 }

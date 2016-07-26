@@ -848,8 +848,9 @@ choyvp pynff JIZvarenyPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QNGR:01/21/2015",
         "GVZR:04:46:30",
         "PNYY:NOQBZVANY CNVA/CEBOYRZF-1",
-        "NQQE:ETF (7-11) VA XRLFRE",
-        "ZNQQE:ETF VA XRLFRE");
+        "NQQE:ETF (7-11) VA",
+        "ZNQQE:ETF VA",
+        "PVGL:XRLFRE");
 
     qbGrfg("G30",
         "﻿<UGZY><obql>APSQ:2015:0022<oe />2015-01-20 15:56:05<oe />NYREGRQ<oe />FGNAQ OL<oe />PB 38 ONFR</obql></UGZY>",

@@ -147,10 +147,17 @@ public class ZNZNewZealandParser extends SmartAddressParser {
     sAddr = UNKNNNNN.matcher(sAddr).replaceAll("@");
     sAddr = sAddr.replace('\\', '@');
     StartType st = (data.strPlace.length() > 0 ? StartType.START_ADDR : StartType.START_PLACE);
-    parseAddress(st, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, sAddr, data);
+    parseAddress(st, FLAG_CHECK_STATUS | FLAG_EMPTY_ADDR_OK | FLAG_ANCHOR_END, sAddr, data);
     
     // They commonly specify double cities, we want the innermost city name
-    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, data.strAddress, data);
+    if (data.strAddress.length() > 0) {
+      parseAddress(StartType.START_ADDR, FLAG_EMPTY_ADDR_OK | FLAG_ANCHOR_END, data.strAddress, data);
+    } else {
+      if (isCity(data.strPlace)) {
+        data.strCity = data.strPlace;
+        data.strPlace = "";
+      }
+    }
     
     match = EXTRA_PTN.matcher(body);
     if (match.find()) {

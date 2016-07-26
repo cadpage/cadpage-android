@@ -322,8 +322,8 @@ choyvp pynff BUCbegntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G35",
         "{Qvfcngpu Zrffntr} 1627 vf raebhgr gb       \aUnaxrr jrfg bs 700, gb purpx n cbffvoyr oebxra cbyr",
         "PNYY:1627 vf raebhgr gb",
-        "NQQE:Unaxrr jrfg bs 700",
-        "ZNQQE:Unaxrr & 700",
+        "NQQE:Unaxrr jrfg bs 700, gb purpx n cbffvoyr oebxra cbyr",
+        "ZNQQE:Unaxrr & 700, gb purpx n cbffvoyr oebxra cbyr",
         "NCG:gb purpx n cbffvoyr oebxra cbyr");
 
     qbGrfg("G36",

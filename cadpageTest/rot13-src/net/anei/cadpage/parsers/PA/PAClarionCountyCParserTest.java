@@ -1942,10 +1942,8 @@ choyvp pynff CNPynevbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:10:08:38",
         "VQ:2015-00041232",
         "PNYY:JNGRE-N",
-        "NQQE:zbenavar fgngr cnex",
-        "ZNQQE:zbenavar fgngr cnex & orne eha",
-        "ANZR:obng ynhapu ohgyre",
-        "K:orne eha / obng ynhapu orne eha",
+        "NQQE:zbenavar fgngr cnex, orne eha obng ynhapu orne eha obng ynhapu",
+        "PVGL:ohgyre",
         "HAVG:911");
 
     qbGrfg("G31",

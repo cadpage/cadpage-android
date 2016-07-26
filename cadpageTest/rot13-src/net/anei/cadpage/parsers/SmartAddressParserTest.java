@@ -219,7 +219,7 @@ choyvp pynff FznegNqqerffCnefreGrfg rkgraqf OnfrCnefreGrfg {
            "NQQE:UNPXRGG EQ & XNAFNF EQ F");
     
     qbGrfg(CYNPR, SYNT_NAPUBE_RAQ, "XRAFOHET",
-           "PVGL:XRAFOHET");
+           "CYNPR:XRAFOHET");
     
     qbGrfg(CYNPR, SYNT_NAPUBE_RAQ, "XRAFOHET NVECBEG XRAFOHET",
            "CYNPR:XRAFOHET NVECBEG",
