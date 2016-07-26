@@ -47,7 +47,7 @@ choyvp pynff FPXrefunjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2010 FUNZEBPX EQ",
         "PVGL:ORGUHAR",
         "ANZR:FLYIRFGRE YLAHF",
-        "HAVG:FG20 FGN 20 2013 FGN 20 IBYHAGRRE /CNVQ SVER CREFBARY");
+        "HAVG:FG20");
 
     qbGrfg("G2",
         "(Nf bs 3/18/14 12) 13:11 2014-00022303 1070F - FGEHPGHER SVER 4210 ORGUHAR EQ, ORGUHAR ORGUHAR 8034594918 Havg Bet Anzr Nern Glcrf FG20 FGN 20 FG22",
@@ -59,7 +59,7 @@ choyvp pynff FPXrefunjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4210 ORGUHAR EQ",
         "PVGL:ORGUHAR",
         "ANZR:8034594918",
-        "HAVG:FG20 FGN 20 FG22");
+        "HAVG:FG20 FG22");
 
     qbGrfg("G3",
         "(Nf bs 3/15/14 16) 25:57 2014-00021489 1070J - JBBQF, OEHFU, 5836 ZG CVFTNU EQ, WRSSREFBA WRSSREFBA WNAR EBFPB Havg Bet Anzr Nern Glcrf FG22 FGN 22",
@@ -71,7 +71,7 @@ choyvp pynff FPXrefunjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:5836 ZG CVFTNU EQ",
         "PVGL:WRSSREFBA",
         "ANZR:WNAR EBFPB",
-        "HAVG:FG22 FGN 22");
+        "HAVG:FG22");
 
     qbGrfg("G4",
         "(Nf bs 3/16/14 03) 16:00 2014-00021695 1050V - IRUVPYR NPPVQRAG 4637 UNVYR TBYQ ZVAR EQ,XREFUNJ XREFUNJ EVPX JVYYVNZF Havg Bet Anzr Nern Glcrf FG22",
@@ -95,7 +95,7 @@ choyvp pynff FPXrefunjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:GNKNUNJ EQ & UJL903",
         "ZNQQE:GNKNUNJ EQ & UJL 903",
         "ANZR:GENIVF SVERFBA",
-        "HAVG:FPUC FUREVSS RZF6");
+        "HAVG:FPUC RZF6");
 
     qbGrfg("G6",
         "(Nf bs 6/12/14 16) 38:19 2014-00049506 1052 - NZOHYNAPR ARRQRQ 10 BNX QE, XREFUNJ XREFUNJ AVPBYR QRNFR Havg Bet Anzr Nern Glcrf FG22 FGN 22 RZF2 RZF",
@@ -107,7 +107,7 @@ choyvp pynff FPXrefunjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:10 BNX QE",
         "PVGL:XREFUNJ",
         "ANZR:AVPBYR QRNFR",
-        "HAVG:FG22 FGN 22 RZF2 RZF");
+        "HAVG:FG22 RZF2");
 
     qbGrfg("G7",
         "(Nf bs 6/9/14 08) 32:48 2014-00048465 1052 - NZOHYNAPR ARRQRQ 4009 EBOREGF EQ,XREFUNJ XREFUNJ EBOREG ENL Havg Bet Anzr Nern Glcrf FG22 FGN 22 RZF2 R",
@@ -119,7 +119,7 @@ choyvp pynff FPXrefunjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4009 EBOREGF EQ",
         "PVGL:XREFUNJ",
         "ANZR:EBOREG ENL",
-        "HAVG:FG22 FGN 22 RZF2 R");
+        "HAVG:FG22 RZF2");
 
     qbGrfg("G8",
         "(Nf bs 6/8/14 09) 53:21 2014-00048187 1052 - NZOHYNAPR ARRQRQ 1284 PUNEYVR WBUAFBA EQ ZE SNVYR Havg Bet Anzr Nern Glcrf RZF3 RZF ZGC ZG CVFTNU ERFPH",
@@ -130,7 +130,7 @@ choyvp pynff FPXrefunjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NZOHYNAPR ARRQRQ",
         "NQQE:1284 PUNEYVR WBUAFBA EQ",
         "ANZR:ZE SNVYR",
-        "HAVG:RZF3 RZF ZGC ZG CVFTNU ERFPH");
+        "HAVG:RZF3 ZGC");
 
     qbGrfg("G9",
         "(Nf bs 5/28/14 09) 13:00 2014-00044724 1052 - NZOHYNAPR ARRQRQ 4561 ZG CVFTNU EQ, XREFUNJ XREFUNJ QBEVF JRFG Havg Bet Anzr Nern Glcrf RZF3 RZF FG22",
@@ -142,7 +142,7 @@ choyvp pynff FPXrefunjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4561 ZG CVFTNU EQ",
         "PVGL:XREFUNJ",
         "ANZR:QBEVF JRFG",
-        "HAVG:RZF3 RZF FG22");
+        "HAVG:RZF3 FG22");
 
     qbGrfg("G10",
         "(Nf bs 5/24/14 14) 20:34 2014-00043554 1052 - NZOHYNAPR ARRQRQ 4939 PNGNJON EQ, XREFUNJ XREFUNJ OELNA OYNPXZBA Havg Bet Anzr Nern Glcrf RZF2 RZF ZGC",
@@ -154,7 +154,7 @@ choyvp pynff FPXrefunjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:4939 PNGNJON EQ",
         "PVGL:XREFUNJ",
         "ANZR:OELNA OYNPXZBA",
-        "HAVG:RZF2 RZF ZGC");
+        "HAVG:RZF2 ZGC");
 
     qbGrfg("G11",
         "(Nf bs 5/20/14 19) 07:20 2014-00042285 1052 - NZOHYNAPR ARRQRQ 4835 ZBFYRL EQ Havg Bet Anzr Nern Glcrf FG22 FGN 22 RZF1 RZF",
@@ -164,7 +164,7 @@ choyvp pynff FPXrefunjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1052",
         "PNYY:NZOHYNAPR ARRQRQ",
         "NQQE:4835 ZBFYRL EQ",
-        "HAVG:FG22 FGN 22 RZF1 RZF");
+        "HAVG:FG22 RZF1");
 
     qbGrfg("G12",
         "(Nf bs 5/19/14 17) 38:35 2014-00041985 1052 - NZOHYNAPR ARRQRQ 1177 PUNEYVR WBUAFBA EQ, XREFUNJ XREFUNJ PELFGNY QRRFR Havg Bet Anzr Nern Glcrf ERFPHR FG22 FGN 22",
@@ -176,7 +176,7 @@ choyvp pynff FPXrefunjPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1177 PUNEYVR WBUAFBA EQ",
         "PVGL:XREFUNJ",
         "ANZR:PELFGNY QRRFR",
-        "HAVG:ERFPHR FG22 FGN 22");
+        "HAVG:ERFPHR FG22");
 
   }
   

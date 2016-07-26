@@ -147,7 +147,6 @@ public class DispatchA48Parser extends FieldProgramParser {
   private Properties callCodes;
   private Pattern unitPtn;
   private String fieldList;
-  private Set<String> crossSet;
 
   public DispatchA48Parser(String[] cityList, String defCity, String defState, FieldType fieldType) {
     this(cityList, defCity, defState, fieldType, 0, null, null);
@@ -170,14 +169,14 @@ public class DispatchA48Parser extends FieldProgramParser {
 
   public DispatchA48Parser(String[] cityList, String defCity, String defState, FieldType fieldType, int flags, Pattern unitPtn, Properties callCodes) {
     super(cityList, defCity, defState,
-          append("DATETIME ID CALL ADDRCITY DUPADDR? SKIP!", " ", fieldType.getFieldProg()) + " ( INFO INFO/ZN+? UNIT_LABEL | UNIT_LABEL ) UNIT/S+");
+          append("DATETIME ID CALL ADDRCITY! DUPADDR? SKIPCITY?", " ", fieldType.getFieldProg()) + " ( INFO INFO/ZN+? UNIT_LABEL | UNIT_LABEL ) UNIT/S+");
     this.fieldType = fieldType;
     oneWordCode = (flags & A48_ONE_WORD_CODE) != 0;
     optOneWordCode = (flags & A48_OPT_ONE_WORD_CODE) != 0;
     noCode = (flags & A48_NO_CODE) != 0;
     this.unitPtn = unitPtn;
     this.callCodes = callCodes;
-    fieldList = ("DATE TIME ID CODE CALL ADDR APT CITY NAME " + fieldType.getFieldList() + " INFO UNIT").replace("  ", " ");
+    fieldList = ("DATE TIME ID CODE CALL ADDR APT CITY NAME " + fieldType.getFieldList() + " UNIT INFO").replace("  ", " ");
   }
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("As of \\d\\d?/\\d\\d?/\\d\\d \\d\\d(:\\d\\d:\\d\\d)?");
@@ -187,9 +186,14 @@ public class DispatchA48Parser extends FieldProgramParser {
   private static final Pattern MASTER_PTN = Pattern.compile("(?:CAD:|[- A-Za-z0-9]*:)? *As of (\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d?:\\d\\d:\\d\\d) (?:([AP]M) )?(\\d{4}-\\d{5,8}) (.*)");
   private static final Pattern TRAIL_UNIT_PTN = Pattern.compile("(.*?)[ ,]+(\\w+)");
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b(\\d\\d?/\\d\\d?/\\d\\d) (\\d\\d?:\\d\\d:\\d\\d)(?: ([AP]M))?\\b");
+  private static final Pattern DATE_TIME_UNIT_MARK_PTN = Pattern.compile("(.*?)(?: \\d\\d?/\\d\\d?/\\d\\d)? Date/Time Unit Status Unit Location/Remarks");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:dd aa");
   private static final Pattern TRAIL_DATE_PTN = Pattern.compile("(.*) \\d\\d/\\d\\d/\\d\\d");
-  
+  private static final Pattern UNIT_DELIM_PTN = Pattern.compile("[ ,]+");
+
+  private Set<String> crossSet;
+  private Set<String> unitSet;
+
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     Matcher match = SUBJECT_PTN.matcher(subject);
@@ -226,6 +230,7 @@ public class DispatchA48Parser extends FieldProgramParser {
     
     // Check for the new newline delimited format
     crossSet = new HashSet<String>();
+    unitSet = new HashSet<String>();
     String flds[] = body.split("\n");
     if (flds.length < 4) flds = body.split(";");
     if (flds.length >= 4) {
@@ -249,6 +254,27 @@ public class DispatchA48Parser extends FieldProgramParser {
     }
     data.strCallId = match.group(4);
     String addr = match.group(5).trim();
+    
+    boolean first = true;
+    boolean unitMark = false;
+    for (String part : DATE_TIME_PTN.split(addr)) {
+      part = part.trim();
+      if (first) {
+        first = false;
+        addr = part;
+        match = DATE_TIME_UNIT_MARK_PTN.matcher(addr);
+        unitMark = match.matches();
+        if (unitMark) addr = match.group(1).trim();
+      } else {
+        if (unitMark) {
+          int pt = part.indexOf(' ');
+          if (pt >= 0) part = part.substring(0,pt);
+          addUnit(part, data);
+        } else {
+          data.strSupp = append(data.strSupp, "\n", part);
+        }
+      }
+    }
     
     Parser p = new Parser(fixCallAddress(addr));
     
@@ -276,10 +302,12 @@ public class DispatchA48Parser extends FieldProgramParser {
     addr = p.get();
 
     if (unitPtn == null) {
+      int pt = unitInfo.indexOf(' ');
+      if (pt >= 0) unitInfo = unitInfo.substring(0,pt);
       data.strUnit = unitInfo;
     } else if (unitInfo.length() > 0) {
       for (String unit : unitInfo.split(" +")) {
-        if (unitPtn.matcher(unit).matches()) data.strUnit = append(data.strUnit, " ", unit);
+        if (unitPtn.matcher(unit).matches()) addUnit(unit, data);
       }
     } else { 
       while (true) {
@@ -299,18 +327,26 @@ public class DispatchA48Parser extends FieldProgramParser {
           addr = addr.substring(0,pt).trim();
         }
       }
+      
+      else if (data.strSupp.length() > 0 && !data.strSupp.contains("\n")) {
+        boolean goodUnit = true;
+        String[] parts = UNIT_DELIM_PTN.split(data.strSupp);
+        for (String part : parts) {
+          if (!unitPtn.matcher(part).matches()) {
+            goodUnit = false;
+            break;
+          }
+        }
+        if (goodUnit) {
+          for (String part : parts) addUnit(part, data);
+          data.strSupp = "";
+        }
+      }
     }
     if (addr.length() == 0) return false;
 
     boolean addressParsed = false;
     String extra = null;
-    match = DATE_TIME_PTN.matcher(addr);
-    if (match.find()) {
-      for (String info : DATE_TIME_PTN.split(addr.substring(match.end()).trim())) {
-        data.strSupp = append(data.strSupp, "\n", info.trim()); 
-      }
-      addr = addr.substring(0,match.start());
-    }
     
     if (fieldType == FieldType.NONE) flags |= FLAG_ANCHOR_END;
     flags |= getExtraParseAddressFlags();
@@ -370,6 +406,7 @@ public class DispatchA48Parser extends FieldProgramParser {
     if (name.equals("ID")) return new IdField("\\d{4}-\\d{8}", true);
     if (name.equals("CALL")) return new BaseCallField();
     if (name.equals("DUPADDR")) return new BaseDupAddrField();
+    if (name.equals("SKIPCITY")) return new BaseSkipCityField();
     if (name.equals("X_NAME")) return new BaseCrossNameField();
     if (name.equals("PLACE")) return new BasePlaceField();
     if (name.equals("APT")) return new BaseAptField();
@@ -436,6 +473,20 @@ public class DispatchA48Parser extends FieldProgramParser {
     @Override
     public boolean checkParse(String field, Data data) {
       return field.equals(getRelativeField(-1));
+    }
+  }
+  
+  private class BaseSkipCityField extends SkipField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.length() == 0) return true;
+      if (field.equalsIgnoreCase(data.strCity)) return true;
+      return false;
     }
   }
   
@@ -535,7 +586,7 @@ public class DispatchA48Parser extends FieldProgramParser {
     public void parse(String field, Data data) {
       int pt = field.indexOf(' ');
       if (pt >= 0) field = field.substring(0,pt).trim();
-      data.strUnit = append(data.strUnit, " ", field);
+      addUnit(field, data);
     }
   }
   
@@ -555,6 +606,10 @@ public class DispatchA48Parser extends FieldProgramParser {
         data.strCross = append(data.strCross, " / ", cross);
       }
     }
+  }
+  
+  private void addUnit(String field, Data data) {
+    if (unitSet.add(field)) data.strUnit = append(data.strUnit, " ", field);
   }
   
   private static void setNameField(String field, Data data) {

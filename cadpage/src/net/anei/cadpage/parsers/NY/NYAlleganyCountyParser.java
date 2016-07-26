@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 
@@ -9,7 +11,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 public class NYAlleganyCountyParser extends DispatchA48Parser {
   
   public NYAlleganyCountyParser() {
-    super(CITY_LIST, "ALLEGANY COUNTY", "NY", FieldType.X);
+    super(CITY_LIST, "ALLEGANY COUNTY", "NY", FieldType.X, 
+          Pattern.compile("\\d{3}|[A-Z]{3}\\d{1,3}|4A\\d{1,3}"));
     setupCallList(CALL_LIST);
   }
   
