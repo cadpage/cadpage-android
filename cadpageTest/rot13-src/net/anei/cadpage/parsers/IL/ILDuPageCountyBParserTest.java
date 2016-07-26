@@ -3155,8 +3155,7 @@ choyvp pynff VYQhCntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:161140240",
         "QNGR:04/23/16",
         "GVZR:15:05:14",
-        "PNYY:ZHGHNY NVQ - QNEVRA JBBQEVQTR",
-        "NQQE:qt nzo",
+        "PNYY:ZHGHNY NVQ - QNEVRA JBBQEVQTR - qt nzo",
         "ZNC:QJ2");
 
     qbGrfg("G98",
@@ -3164,8 +3163,7 @@ choyvp pynff VYQhCntrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:161140239",
         "QNGR:04/23/16",
         "GVZR:15:05:03",
-        "PNYY:ZHGHNY NVQ - QNEVRA JBBQEVQTR",
-        "NQQE:jfzg nzo 75gu",
+        "PNYY:ZHGHNY NVQ - QNEVRA JBBQEVQTR - jfzg nzo 75gu",
         "ZNC:QJ2",
         "VASB:tvtv hax zrqvpny vffhr crqrfgevna ba fvqr");
 
