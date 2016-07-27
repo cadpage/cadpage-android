@@ -50,6 +50,9 @@ public class NYSuffolkCountyFiretrackerParser extends FieldProgramParser {
     if (pt >= 0 && "[FireTracker]".startsWith(body.substring(pt))) {
       body = body.substring(0,pt).trim();
     }
+    
+    // Rule out NYNassauCountyFiretracker calls
+    if (body.startsWith("[")) return false;
 
     return super.parseMsg(body, data);
   }
@@ -57,6 +60,12 @@ public class NYSuffolkCountyFiretrackerParser extends FieldProgramParser {
   @Override
   public String getProgram() {
     return "SRC CODE CALL " + super.getProgram();
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
   }
   
   private static final Pattern DATE_PTN = Pattern.compile(" +(\\d\\d?/\\d\\d?/\\d{4})$");
@@ -75,12 +84,6 @@ public class NYSuffolkCountyFiretrackerParser extends FieldProgramParser {
     public String getFieldNames() {
       return super.getFieldNames() + " DATE";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    return super.getField(name);
   }
   
   private static final StandardCodeTable CODE_TABLE = new StandardCodeTable();
