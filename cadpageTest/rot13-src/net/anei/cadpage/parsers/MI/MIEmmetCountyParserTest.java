@@ -12,6 +12,10 @@ HF/ZV/RzzrgPbhagl
 HF/ZV/PuneyribvkPbhagl
 ZVPurobltnaPbhagl
 
+Pbagnpg: Ornh Wbuafba <wbuafbaornh78@tznvy.pbz>
+Fraqre: PNQ@ppr911.pbz
+241:PNQ:SLV: ;OEHFU SVER;1051 URAQEVPXF QE;TEA;NISQ
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Erfbeg Orne Perrx SQ
 Ybpngvba: Crgbfxrl, ZV, Havgrq Fgngrf
@@ -991,6 +995,19 @@ choyvp pynff ZVRzzrgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZVRzzrgPbhaglCnefreGrfg() {
 	  frgCnefre(arj ZVRzzrgPbhaglCnefre(), "RZZRG PBHAGL", "ZV");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOrnhWbuafba() {
+
+    qbGrfg("G1",
+        "241:PNQ:SLV: ;OEHFU SVER;1051 URAQEVPXF QE;TEA;NISQ",
+        "VQ:241",
+        "PNYY:OEHFU SVER",
+        "NQQE:1051 URAQEVPXF QE",
+        "PVGL:TENAG GJC",
+        "FEP:NISQ");
+
   }
 
   @Grfg

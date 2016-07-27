@@ -334,6 +334,7 @@ public class INWhitleyCountyParser extends SmartAddressParser {
       "ORDINANCE VIOLATION",
       "OTHER CRIMES",
       "PAID STANDBY",
+      "PO SERVICE",
       "PO VIOLATION",
       "POLICE ASSIST",
       "PROBATION CHECK",
