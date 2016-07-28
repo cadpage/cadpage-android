@@ -8,6 +8,8 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.MsgInfo.MsgType;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
 
 /**
@@ -17,7 +19,7 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
 
   public CASanJoaquinCountyParser() {
     super("SAN JOAQUIN COUNTY", "CA",
-          "CALL! Location:PLACE! Address:ADDR! City:CITY! GPS:GPS? Bldg:PLACE! Apt:APT! CrossStreets:X! Plan:PLAN! Initial_Assignment:UNIT!");
+          "CALL! Location:PLACE! Address:ADDR! City:CITY! GPS:GPS? Bldg:PLACE% Apt:APT% CrossStreets:X% Plan:PLAN% Initial_Assignment:UNIT%");
   }
   
   @Override
@@ -25,6 +27,17 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
     return MAP_FLG_SUPPR_LA | MAP_FLG_PREFER_GPS;
   }
   
+  @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom(){
+      @Override public boolean splitBlankIns() { return false; }
+      @Override public boolean mixedMsgOrder() { return true; }
+      @Override public boolean noParseSubjectFollow() { return true; }
+      @Override public int splitBreakLength() { return 120; }
+      @Override public int splitBreakPad() { return 3; }
+    };
+  }
+
   @Override
   public String getFilter() {
     return "LifecomCellPaging@amr.net,VRECC.CAD@donotreply.com";
@@ -38,8 +51,8 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
   }
   private static final Pattern MAP_ADDR_PTN = Pattern.compile("[1-3] - +(.*)");
   
-  private static final Pattern RUN_REPORT_PTN1 = Pattern.compile("([-A-Z0-9]+) +(?:(\\d{8}|[A-Z]{2,3}-\\d{6}) +)?(Dispatched:.*?Enroute:.*?On Scene:.*?(?:AOR|Clear Call):.*)");
-  private static final Pattern RUN_REPORT_PTN2 = Pattern.compile("RUN REPORT CAD ?#(\\d{8}|[A-Z]{2,3}-\\d{6}) +([-\\(\\)A-Z0-9]{1,10}) *((?:Dispatched:.*Enroute:.*On Scene:.*AOR:|Disp:.*Resp:.*On Scene:.*TX:.*Dest:.*AOR:).*)");
+  private static final Pattern RUN_REPORT_PTN1 = Pattern.compile("([-A-Z0-9]+) +(?:(\\d{8}|[A-Z]{2,5}-\\d{6}) +)?(Dispatched:.*?Enroute:.*?On Scene:.*?(?:AOR|Clear Call):.*)");
+  private static final Pattern RUN_REPORT_PTN2 = Pattern.compile("RUN REPORT CAD ?#(\\d{8}|[A-Z]{2,5}-\\d{6}) +([-\\(\\)A-Z0-9]{1,10}) *((?:Dispatched:.*Enroute:.*On Scene:.*AOR:|Disp:.*Resp:.*On Scene:.*TX:.*Dest:.*AOR:).*)");
   private static final Pattern RUN_REPORT_PTN3 = Pattern.compile("([-A-Z0-9]+) +CAD ID #: +Run \\(PCR#\\):(\\d+)\\*RUN REPORT\\*(.*?)STmiles/Emiles/Grid/\\S* *Map/(\\S*) *Area/.*");
   private static final Pattern RR_ID1_PTN = Pattern.compile("[A-Z]{2,3}-\\d{6}");
   private static final Pattern RR_UNIT_PTN = Pattern.compile("[A-Z0-9]+");
@@ -116,12 +129,13 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
     do {
       FParser p = new FParser(body);
       String unit = p.get(10);
-      String callId = p.get(15);
       String call;
-      boolean variant1 = p.check("Loc:");
+      String callId = p.getOptional("Loc:", 10, 15);
+      boolean variant1 = callId != null;
       if (variant1) {
         call = "ALERT";
       } else {
+        callId = p.get(15);
         call = p.get(30);
         if (!p.check("Loc:")) break;
       }
@@ -468,7 +482,7 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern CITY_PTN = Pattern.compile("(.*)\\(CAD INC#: ([^ ]+) *\\) \\[GROUP PAGE\\]");
+  private static final Pattern CITY_PTN = Pattern.compile("(.*)\\(CAD INC#: ([^ ]+) *\\) ?\\[GROUP PAGE\\]");
   private class MyCityField extends CityField {
     @Override
     public void parse(String field, Data data) {
@@ -525,6 +539,4 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
       addUnitField(field, data);
     }
   }
-  
-  // Manteca|Lathrop|Tracy|Stockton"
 }
