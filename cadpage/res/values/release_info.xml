@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07232016</string>
+  <string name="release_date">07272016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.03\n
+New Locations:\n
+Carter County, KY\n
+Johnson County, KY\n
+Bingham County, ID\n
+Cook County, IL (alt)\n
+Lake County, IL (alt)\n
+Dallas County, IA\n
+Waukesha County, WI (alt)\n
+Weakley County, TN\n
+Racine County, WI (alt)\n
+\n
+Location Fixes:\n
+Too many to list\n
+\n
 v1.9.10.02\n
 Location Fixes:\n
 Harnett County, NC\n
@@ -35,31 +50,7 @@ Stark County, OH\n
 Wayne County, OH\n
 Davis County, UT\n
 Minnehaha County, SD\n
-Jefferson County, WA\n
-\n
-v1.9.09.09\n
-New Location:\n
-Tulare County, CA\n
-Randoph County, IN\n
-Woodford County, KY\n
-Livingston County, MO\n
-Ashland County, OH\n
-Abbeville County, SC\n
-Chittenden County, VT (alt)\n
-\n
-Location Fixes:\n
-Stanislaus County, CA\n
-Dooly County, GA\n
-Macon County, GA\n
-Marion County, GA\n
-Schley County, GA\n
-Sumter County, GA\n
-Tablot County, GA\n
-Taylor County, GA\n
-Webster County, GA\n
-Wilkes County, NC\n
-Beauregard Parish, LA\n
-Robeson County, NC
+Jefferson County, WA
   </string>
 </resources>
   

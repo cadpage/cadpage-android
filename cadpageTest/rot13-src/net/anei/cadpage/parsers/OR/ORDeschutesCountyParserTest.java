@@ -6335,7 +6335,9 @@ choyvp pynff BEQrfpuhgrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Snyyf CHOYVP YVSG NFFVFG Tebhaq",
         "CEV:YVSG",
         "HAVG:871,821",
-        "NQQE:12900 UNJXF ORNEQ #4 4 YBQTR PBAQBF",
+        "NQQE:12900 UNJXF ORNEQ",
+        "NCG:4", 
+        "CYNPR:4 YBQTR PBAQBF",
         "ZNC:140910",
         "GVZR:22:00:21");
 
@@ -6436,7 +6438,9 @@ choyvp pynff BEQrfpuhgrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(Rznvy Pbcl sebz Rzretva Vagrtengvba Fhvgr) SVER NFFVFG-NFFGS--12900 UNJXF ORNEQ #4\a 4 YBQTR PBAQBF-Znc 140910-16:34:36",
         "PNYY:SVER NFFVFG",
         "CEV:NFFGS",
-        "NQQE:12900 UNJXF ORNEQ #4 4 YBQTR PBAQBF",
+        "NQQE:12900 UNJXF ORNEQ",
+        "NCG:4",
+        "CYNPR:4 YBQTR PBAQBF",
         "ZNC:140910",
         "GVZR:16:34:36");
 

@@ -11481,7 +11481,7 @@ choyvp pynff PGYvgpusvryqPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{ZRQVP 4} ZRQVP 4 ERFCBAQ GB  OHYYF OEVQTR EQ 1/4 FBHGU BS XRAG   XRAG, ,   ZIP (Cvaarq/Genccrq Ivpgvz), 77-Q-4 :18:48",
         "FEP:ZRQVP 4",
         "NQQE:OHYYF OEVQTR EQ",
-        "CYNPR:1/4 FBHGU BS",
+        "CYNPR:1/4 FBHGU BS XRAG",
         "PVGL:XRAG",
         "PNYY:ZIP (Cvaarq/Genccrq Ivpgvz)",
         "PBQR:77-Q-4",

@@ -758,6 +758,7 @@ class Active911Vendor extends Vendor {
       "US/MO/RayCounty",                  "MORayCounty",
       "US/MO/Raytown",                    "MOJacksonCountyB",
       "US/MO/Rejis",                      "MOStLouisCountyE",
+      "US/MO/SCBCFD",                     "MOBuchananCountyA",
       "US/MO/ShelbyCounty",               "MOShelbyCounty",
       "US/MO/SouthernBoone",              "MOBooneCounty",
       "US/MO/StCharlesCounty",            "MOStCharlesCounty",

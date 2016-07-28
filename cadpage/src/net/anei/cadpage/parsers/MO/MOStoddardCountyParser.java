@@ -25,7 +25,7 @@ public class MOStoddardCountyParser extends SmartAddressParser {
     data.strCall = match.group(1).trim();
     data.strPriority = match.group(2);
     if (data.strPriority == null) data.strPriority = "NONE";
-    parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, match.group(3).trim(), data);
+    parseAddress(StartType.START_PLACE, FLAG_FALLBACK_ADDR | FLAG_ANCHOR_END, match.group(3).trim(), data);
     data.strCross = match.group(4).trim();
     data.strSource = match.group(5);
     data.strUnit = match.group(6).trim();

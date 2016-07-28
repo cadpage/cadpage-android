@@ -1,8 +1,11 @@
 package net.anei.cadpage.parsers.OH;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SmartAddressParser.Result;
+import net.anei.cadpage.parsers.SmartAddressParser.StartType;
 import net.anei.cadpage.parsers.SplitMsgOptions;
 import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
@@ -12,8 +15,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHMercerCountyParser extends DispatchEmergitechParser {
   
   public OHMercerCountyParser() {
-    super(0, CITY_LIST, "MERCER COUNTY", "OH");
-    setupMultiWordStreets("MRCR V WRT CO LN");
+    super(true, CITY_LIST, "MERCER COUNTY", "OH");
+    setupSpecialStreets("ERASTUS DURBIN");
   }
   
   @Override
@@ -21,11 +24,16 @@ public class OHMercerCountyParser extends DispatchEmergitechParser {
     return new SplitMsgOptionsCustom();
   }
 
+  private static final Pattern DIR_OF_PTN = Pattern.compile("\\b([NSEW])/OF\\b");
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = body.replace(" BTWN ", " BETWEEN ");
+    body = DIR_OF_PTN.matcher(body).replaceAll("$1O");
     if (!super.parseMsg(body, data)) return false;
     data.strCode = data.strCall;
     data.strCall = convertCodes(data.strCode, CALL_CODES);
+    data.strCross = data.strCross.replace(" BETWEEN: ", " BTWN ");
+    data.strSupp = data.strSupp.replace(" BETWEEN: ", " BTWN ");
     return true;
   }
   
@@ -35,8 +43,19 @@ public class OHMercerCountyParser extends DispatchEmergitechParser {
   }
 
   @Override
+  protected Result parseAddress(StartType sType, int flags, String address) {
+    if (sType == StartType.START_PLACE) sType = StartType.START_ADDR;
+    return super.parseAddress(sType, flags, address);
+  }
+
+  @Override
   public String adjustMapAddress(String addr) {
     addr = addr.replace("MRCR V WRT CO LN", "MERCER VANWERT COUNTY LINE");
+    addr = addr.replace("MRCR VW CO LN", "MERCER VANWERT COUNTY LINE");
+    addr = addr.replace("VAN WERT MRC CO LN", "MERCER VANWERT COUNTY LINE");
+    addr = addr.replace("MRCR DRKE CO LN", "DARKE-MERCER COUNTY LINE");
+    addr = addr.replace("OHIO IND STATE LN", "INDIANA OHIO LINE");
+    addr = addr.replace("IND OHIO STATE LN", "INDIANA OHIO LINE");
     return addr;
   }
   
@@ -239,6 +258,15 @@ public class OHMercerCountyParser extends DispatchEmergitechParser {
     "ST ROSE",
     "TAMA",
     "WABASH",
-    "WENDELIN"
+    "WENDELIN",
+    
+    // Alaglaize County
+    "ST MARYS",
+    
+    // Miami County
+    "TROY",
+    
+    // Wert County
+    "VENEDOCIA"
   };
 }

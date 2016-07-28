@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class KYMuhlenbergCountyParser extends DispatchEmergitechParser {
   
   public KYMuhlenbergCountyParser() {
-    super("CDF911:", 67, CITY_LIST, "MUHLENBERG COUNTY", "KY");
+    super("CDF911:", 60, CITY_LIST, "MUHLENBERG COUNTY", "KY");
   }
 
   @Override

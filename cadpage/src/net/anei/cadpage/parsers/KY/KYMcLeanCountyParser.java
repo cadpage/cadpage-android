@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.KY;
 
 import net.anei.cadpage.parsers.CodeSet;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 /**
@@ -9,8 +10,20 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class KYMcLeanCountyParser extends DispatchEmergitechParser {
   
   public KYMcLeanCountyParser() {
-    super("Dispatch:", 0, CITY_LIST, "MCLEAN COUNTY", "KY");
+    super("Dispatch:", CITY_LIST, "MCLEAN COUNTY", "KY", TrailAddrType.INFO);
     setupCallList(CALL_LIST);
+  }
+
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (!body.contains("COMMENTS:")) {
+      int pt = body.indexOf(" // ");
+      if (pt >= 0) {
+        body = body.substring(0,pt) + " COMMENTS: " + body.substring(pt+4).trim();
+      }
+    }
+    // TODO Auto-generated method stub
+    return super.parseMsg(body, data);
   }
 
   private static final CodeSet CALL_LIST = new CodeSet(

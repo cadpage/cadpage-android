@@ -73,8 +73,8 @@ choyvp pynff ZBCrggvfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G8",
         "CRGGVF PB FUREVSS: ERQ SYNT-SVER JRNGURE JNEAVAT va rssrpg 9n-6C Sev. Jvaqf, ybj uhzvqvgl & 30-40 grzcf jvyy perngr jvyqsver qnatref. jjj.avkyr.hf/8P28M",
-        "PNYY:TRARENY NYREG",
-        "CYNPR:ERQ SYNT-SVER JRNGURE JNEAVAT va rssrpg 9n-6C Sev. Jvaqf, ybj uhzvqvgl & 30-40 grzcf jvyy perngr jvyqsver qnatref. jjj.avkyr.hf/8P28M");
+        "GLCR:TRA_NYREG",
+        "VASB:ERQ SYNT-SVER JRNGURE JNEAVAT va rssrpg 9n-6C Sev. Jvaqf, ybj uhzvqvgl & 30-40 grzcf jvyy perngr jvyqsver qnatref. jjj.avkyr.hf/8P28M");
 
   }
   

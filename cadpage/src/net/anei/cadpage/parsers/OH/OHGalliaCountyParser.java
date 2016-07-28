@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHGalliaCountyParser extends DispatchEmergitechParser {
   
   public OHGalliaCountyParser() {
-    super("Gallia911:", 70, CITY_LIST, "GALLIA COUNTY", "OH");
+    super("Gallia911:", 60, CITY_LIST, "GALLIA COUNTY", "OH");
     addSpecialWords("LINCOLN");
   }
 

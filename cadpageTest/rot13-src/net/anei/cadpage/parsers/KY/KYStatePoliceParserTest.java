@@ -7356,7 +7356,9 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911-PRAGRE:RZF >NYY RZF/ZRQVPNY PNYYF PNYQJRYY RE EZ 5 GB EVIREFORAQ Pnq: 2016-0000023989",
         "PBQR:RZF",
         "PNYY:NYY RZF/ZRQVPNY PNYYF",
-        "NQQE:PNYQJRYY RE EZ 5 GB EVIREFORAQ",
+        "NQQE:PNYQJRYY RE",
+        "NCG:5",
+        "ANZR:GB EVIREFORAQ",
         "VQ:2016-0000023989");
 
     qbGrfg("G11",
@@ -15648,7 +15650,8 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "911-PRAGRE:RZF >NYY RZF/ZRQVPNY PNYYF 80 ZBGRY Ncg: 10 Oyqt PBYYVAF,EVPXL 6062761957 Pnq: 2015-0000027966",
         "PBQR:RZF",
         "PNYY:NYY RZF/ZRQVPNY PNYYF",
-        "NQQE:80 ZBGRY Ncg: 10 Oyqt",
+        "NQQE:80 ZBGRY",
+        "NCG:10",
         "ANZR:PBYYVAF,EVPXL",
         "CUBAR:6062761957",
         "VQ:2015-0000027966");
@@ -43527,7 +43530,8 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "XFC QEL EVQTR R-911:RZF >NYY RZF/ZRQVPNY PNYYF NEZL FHECYHF FGBER Ncg: 4 Oyqt Pnq: 2016-0000012501",
         "PBQR:RZF",
         "PNYY:NYY RZF/ZRQVPNY PNYYF",
-        "NQQE:NEZL FHECYHF FGBER Ncg: 4 Oyqt",
+        "NQQE:NEZL FHECYHF FGBER",
+        "NCG:4",
         "VQ:2016-0000012501");
 
     qbGrfg("G51",
@@ -56201,7 +56205,9 @@ choyvp pynff XLFgngrCbyvprCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "RZF >NYY RZF/ZRQVPNY PNYYF FRAVBE PVGVMRA NCGF Ncg: 5 Oyqt ERTVAN ZPPBL Pnq: 2016-0000014533",
         "PBQR:RZF",
         "PNYY:NYY RZF/ZRQVPNY PNYYF",
-        "NQQE:FRAVBE PVGVMRA NCGF Ncg: 5 Oyqt ERTVAN ZPPBL",
+        "NQQE:FRAVBE PVGVMRA NCGF",
+        "NCG:5",
+        "ANZR:ERTVAN ZPPBL",
         "VQ:2016-0000014533");
 
     qbGrfg("G10",

@@ -152,6 +152,9 @@ public class NCJonesCountyParser extends DispatchA3Parser {
     "DOVER",
     "NEW BERN",
     
+    // Duplin County
+    "BEULAVILLE",
+    
     // Greene County
     "HOOKERTON",
     "SNOW HILL",

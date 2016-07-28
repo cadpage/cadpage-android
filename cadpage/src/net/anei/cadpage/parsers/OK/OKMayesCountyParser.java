@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OKMayesCountyParser extends DispatchEmergitechParser {
   
   public OKMayesCountyParser() {
-    super("MayesCounty911:", 0, CITY_LIST, "MAYES COUNTY", "OK");
+    super("MayesCounty911:", CITY_LIST, "MAYES COUNTY", "OK", TrailAddrType.INFO);
   }
 
   @Override

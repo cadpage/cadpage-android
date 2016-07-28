@@ -14,13 +14,16 @@ public class NCPittCountyParser extends FieldProgramParser {
   
   public NCPittCountyParser() {
     super("PITT COUNTY", "NC",
-           "SRC! Rcvd:DATETIME! Rsn:CALL! Note:INFO X Adr:ADDR!");
+           "SRC! Rcvd:DATETIME! Rsn:CALL! Note:INFO! X Adr:ADDR");
+    addExtendedDirections();
   }
   
   @Override
   public String getFilter() {
     return "donotreply@pittcountync.gov";
   }
+  
+  private static final Pattern ADDR_PFX_PTN = Pattern.compile("(AREA OF) +(.*)");
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -54,8 +57,40 @@ public class NCPittCountyParser extends FieldProgramParser {
     if (!parseFields(body.split("\\|"), data)) return false;
     
     if (data.strAddress.length() == 0) {
-      parseAddress(StartType.START_ADDR, data.strSupp, data);
-      data.strSupp = getLeft();
+      int bestNdx = -1;
+      String bestPrefix = "";
+      Result bestResult = null;
+      String[] parts = data.strSupp.split("//");
+      for (int ii = 0; ii<parts.length; ii++) {
+        String part = parts[ii];
+        parts[ii] = part.trim();
+        String pfx = "";
+        match = ADDR_PFX_PTN.matcher(part);
+        if (match.matches()) {
+          pfx = match.group(1);
+          part = match.group(2).trim();
+        }
+        Result result = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS, part);
+        if (bestResult == null || result.getStatus() > bestResult.getStatus()) {
+          bestPrefix = pfx;
+          bestResult = result;
+          bestNdx = ii;
+        }
+      }
+      for (int ii = 0; ii<bestNdx; ii++) {
+        data.strPlace = append(data.strPlace, " - ", parts[ii]);
+      }
+      bestResult.getData(data);
+      data.strSupp = bestResult.getLeft();
+      data.strAddress = append(bestPrefix, " ", data.strAddress);
+      for (int ii = bestNdx+1; ii<parts.length; ii++) {
+        String part = parts[ii];
+        if (ii == bestNdx+1 && bestResult.getStatus() == STATUS_STREET_NAME && checkAddress(part) == STATUS_STREET_NAME) {
+          data.strAddress = append(data.strAddress, " & ", part);
+        } else {
+          data.strSupp = append(data.strSupp, " // ", part);
+        }
+      }
     } else if (data.strSupp.equals("SAME")) {
       data.strSupp = "";
     }
@@ -72,7 +107,7 @@ public class NCPittCountyParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return super.getProgram() + " PLACE X";
+    return super.getProgram() + " PLACE X ADDR";
   }
   
   @Override
@@ -114,5 +149,11 @@ public class NCPittCountyParser extends FieldProgramParser {
       if (field.equals("0") || field.startsWith("0 ")) field = "";
       super.parse(field, data);
     }
+  }
+  
+  @Override
+  public String adjustMapAddress(String addr) {
+    addr = stripFieldStart(addr, "AREA OF ");
+    return super.adjustMapAddress(addr);
   }
 }

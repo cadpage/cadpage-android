@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class TNRoaneCountyParser extends DispatchEmergitechParser {
   
   public TNRoaneCountyParser() {
-    super("Roane County ECD:", 77, CITY_LIST, "ROANE COUNTY", "TN");
+    super("Roane County ECD:", 60, CITY_LIST, "ROANE COUNTY", "TN");
   }
   
   @Override
@@ -39,6 +39,9 @@ public class TNRoaneCountyParser extends DispatchEmergitechParser {
     // Unincorporated communities
     "CEDAR GROVE",
     "MIDWAY",
-    "TEN MILE"
+    "TEN MILE",
+    
+    // Loudoun County
+    "LENOIR CITY"
   };
 }

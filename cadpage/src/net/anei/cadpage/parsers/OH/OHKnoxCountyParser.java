@@ -4,6 +4,8 @@ import java.util.Properties;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SmartAddressParser.Result;
+import net.anei.cadpage.parsers.SmartAddressParser.StartType;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 
@@ -11,7 +13,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHKnoxCountyParser extends DispatchEmergitechParser {
   
   public OHKnoxCountyParser() {
-    super(0, CITY_LIST, "KNOX COUNTY", "OH");
+    super(CITY_LIST, "KNOX COUNTY", "OH", TrailAddrType.PLACE_INFO);
     addSpecialWords("HYATT");
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
     
@@ -42,22 +44,6 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
 
     if (!super.parseMsg(body, data)) return false;
     
-    // Access instructions end up in the name field
-    if (data.strCross.length() == 0 && data.strName.startsWith("ACCESS ")) {
-      data.strCross = data.strName;
-      data.strName = "";
-    }
-    
-    // Address needs a lot of repair work.
-    // The never appear to put a place name in front of the address, so if we find one
-    // merge it back into the address
-    if (data.strPlace.length() > 0) {
-      String addr = append(data.strPlace, " ", data.strAddress);
-      data.strPlace = "";
-      data.strAddress = "";
-      parseAddress(addr, data);
-    }
-    
     // Township road number get misinterpreted as apartments and have to be fixed
     if (data.strApt.length() > 0 && END_TWP_RD_PTN.matcher(data.strAddress).matches()) {
       data.strAddress = data.strAddress + ' ' + data.strApt;
@@ -70,15 +56,27 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
       data.strCall = "MA - " + data.strCall;
     }
     
+    if (data.strSupp.startsWith("ACCESS ")) {
+      data.strPlace = append(data.strPlace, " - ", data.strSupp);
+      data.strSupp = "";
+    }
+    
     // If we did not find a proper city, see if we can get one from the start of the info section
     if (data.strCity.length() == 0) {
       parseAddress(StartType.START_ADDR, FLAG_ONLY_CITY, data.strSupp, data);
     }
+    
     if (data.strCity.endsWith(" CO")) data.strCity += "UNTY";
     
     return true;
   }
   
+  @Override
+  protected Result parseAddress(StartType sType, int flags, String address) {
+    if (sType == StartType.START_PLACE) sType = StartType.START_ADDR;
+    return super.parseAddress(sType, flags, address);
+  }
+
   private static final Properties GPS_LOOKUP_TABLE = buildCodeTable(new String[]{
       "12619 FRED-AMITY RD",                  "+40.487865,-82.514711",
       "12731 FRED-AMITY RD",                  "+40.489436,-82.513234",
@@ -139,6 +137,7 @@ public class OHKnoxCountyParser extends DispatchEmergitechParser {
     
     // Morrow County
     "CHESTERVILLE",
+    "SPARTA",
     
     // Richland County
     "PERRY TWP",

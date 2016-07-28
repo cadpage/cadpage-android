@@ -22,7 +22,7 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
     addExtendedDirections();
     setupMultiWordStreets(MWORD_STREET_LIST);
     setupProtectedNames(PROTECTED_STREET_LIST);
-    setupSpecialStreets("WEST RD");
+    setupSpecialStreets("EAST ST", "WEST RD");
   }
   
   @Override
@@ -78,7 +78,7 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
   private void parseAddressField(String sAddr, Data data) {
     Matcher match;
     parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, sAddr, data);
-    String sPlace = getPadField();
+    String sPlace = stripFieldStart(getPadField(), "-");;
     
     
     // There is a street called MAUWEEHOO HILL (or HL) that just confuses
@@ -116,9 +116,14 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
     // Now use the smart addresss parser to separate the place name from the cross street
     String savePlace = data.strPlace;
     data.strPlace = "";
-    parseAddress(StartType.START_PLACE, FLAG_ONLY_CROSS | FLAG_ANCHOR_END, chkCross, data);
+    Result res = parseAddress(StartType.START_PLACE, FLAG_ONLY_CROSS | FLAG_ANCHOR_END, chkCross);
+    if (res.isValid()) {
+      res.getData(data);
+    } else {
+      data.strPlace = chkCross;
+    }
     
-    if (data.strPlace.endsWith("&")) data.strPlace = data.strPlace.substring(0,data.strPlace.length()-1).trim();
+    data.strPlace = stripFieldEnd(data.strPlace, "&");
     
     // Append the extra paren info the the cross street if we found one
     // or to the place name if we did not

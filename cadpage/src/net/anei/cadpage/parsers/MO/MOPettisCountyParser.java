@@ -5,6 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 
@@ -32,14 +33,15 @@ public class MOPettisCountyParser extends SmartAddressParser {
       data.strUnit = getOptGroup(match.group(1));
       body = match.group(2);
     }
-    parseAddress(StartType.START_CALL, body, data);
-    String left = getLeft();
-    if (data.strAddress.length() == 0) {
-      data.strCall = "GENERAL ALERT";
-      data.strPlace = body;
+    Result res = parseAddress(StartType.START_CALL, body);
+    if (!res.isValid()) {
+      data.msgType = MsgType.GEN_ALERT;
+      data.strSupp = body;
       return true;
     }
-    
+
+    res.getData(data);
+    String left = res.getLeft();
     if (data.strCall.length() == 0) data.strCall = left;
     else data.strSupp = left;
     return true;

@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHAllenCountyBParser extends DispatchEmergitechParser {
   
   public OHAllenCountyBParser() {
-    super(0, CITY_LIST, "ALLEN COUNTY", "OH");
+    super(CITY_LIST, "ALLEN COUNTY", "OH", TrailAddrType.PLACE);
   }
 
   @Override

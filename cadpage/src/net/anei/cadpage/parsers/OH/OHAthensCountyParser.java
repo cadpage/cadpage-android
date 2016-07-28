@@ -8,9 +8,10 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHAthensCountyParser extends DispatchEmergitechParser {
   
   public OHAthensCountyParser() {
-    super("911_Dispatch:", true, 0, CITY_LIST, "ATHENS COUNTY", "OH");
+    super("911_Dispatch:", true, CITY_LIST, "ATHENS COUNTY", "OH", TrailAddrType.INFO);
     setupMultiWordStreets(MWORD_STREET_LIST);
-    setupSpecialStreets("OREGON RIDGE");
+    addSpecialWords("COLUMBUS");
+    setupSpecialStreets("LIGHTFRITZ RIDGE", "OREGON RIDGE", "COURT");
   }
   
   @Override
@@ -49,6 +50,7 @@ public class OHAthensCountyParser extends DispatchEmergitechParser {
     "JEWELL HOLLOW",
     "JOHN LLOYD EVANS MEMORIAL",
     "LADD RIDGE",
+    "LIGHTFRITZ RIDGE",
     "LONG RUN",
     "M E",
     "MILL SCHOOL",

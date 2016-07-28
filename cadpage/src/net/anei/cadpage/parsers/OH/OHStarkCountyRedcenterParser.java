@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHStarkCountyRedcenterParser extends DispatchEmergitechParser {
   
   public OHStarkCountyRedcenterParser() {
-    super("RED:", 64, CITY_LIST, "STARK COUNTY", "OH");
+    super("RED:", CITY_LIST, "STARK COUNTY", "OH");
   }
   
   @Override
@@ -31,7 +31,7 @@ public class OHStarkCountyRedcenterParser extends DispatchEmergitechParser {
     if (body.startsWith("-NATURE:")) body = "RED:[XXX]" + body;
     if (!super.parseMsg(body, data)) return false;
     if (data.strUnit.equals("XXX")) data.strUnit = "";
-    if (data.strName.startsWith("-")) data.strName = "";
+    if (data.strCity.startsWith("-")) data.strCity = "";
     
     // Fix streets that should have trailing direction
     data.strAddress = fixAddress(data.strAddress);
@@ -106,6 +106,10 @@ public class OHStarkCountyRedcenterParser extends DispatchEmergitechParser {
     "PARIS",
     "RICHVILLE",
     "ROBERTSVILLE",
-    "WACO"
+    "WACO",
+    
+    // Wierdness
+    "-CITY",
+    "-TWP"
   };
 }

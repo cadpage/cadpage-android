@@ -158,12 +158,18 @@ public class PAYorkCountyDParser extends FieldProgramParser {
     public String getFieldNames() {
       return "APT PLACE";
     }
-    
   }
+  
+  private static final Pattern FL_CROSS_PTN = Pattern.compile("(\\d+[A-Za-z]* +FL)\\b *(.*)");
   
   private class MyCrossInfoField extends Field {
     @Override
     public void parse(String field, Data data) {
+      Matcher match = FL_CROSS_PTN.matcher(field);
+      if (match.matches()) {
+        data.strApt = match.group(1);
+        field = match.group(2);
+      }
       if (field.toUpperCase().startsWith("NO CROSS STREETS FOUND")) {
         data.strSupp = field.substring(22).trim();
       } else {
@@ -174,7 +180,7 @@ public class PAYorkCountyDParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "X INFO";
+      return "APT X INFO";
     }
   }
   

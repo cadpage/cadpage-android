@@ -13,7 +13,7 @@ public class WVPocahontasCountyParser extends DispatchEmergitechParser {
   private static final Pattern GEN_ALERT_PTN = Pattern.compile("([A-Z0-9]+):\\[\\1\\][ -]*(.*)");
   
   public WVPocahontasCountyParser() {
-    super(60, CITY_LIST, "POCAHONTAS COUNTY", "WV");
+    super(true, 60, CITY_LIST, "POCAHONTAS COUNTY", "WV");
     addSpecialWords("JERICO", "MOUNTAIN");
   }
 
@@ -52,11 +52,11 @@ public class WVPocahontasCountyParser extends DispatchEmergitechParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ADDR2")) return new MyAddressField();
     return super.getField(name);
   }
   
-  private class MyAddressField extends AddressField {
+  private class MyAddressField extends BaseAddressField {
     @Override
     public void parse(String field, Data data) {
       field = field.replace(';', ' ').trim();

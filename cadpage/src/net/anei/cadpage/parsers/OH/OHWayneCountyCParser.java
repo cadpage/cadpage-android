@@ -10,8 +10,9 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHWayneCountyCParser extends DispatchEmergitechParser {
   
   public OHWayneCountyCParser() {
-    super("Dispatch:", 0, CITY_LIST, "WAYNE COUNTY", "OH");
+    super("Dispatch:", CITY_LIST, "WAYNE COUNTY", "OH", TrailAddrType.PLACE);
     addSpecialWords("COLUMBUS", "HARRISON");
+    addExtendedDirections();
   }
 
   @Override

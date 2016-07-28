@@ -330,8 +330,8 @@ choyvp pynff GKInaMnaqgPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G38",
         "Ina Mnaqg Pb FB:174 cevingr ebnq 8719 37 lb srznyr frirer purfg cnvaf",
-        "PNYY:lb srznyr frirer purfg cnvaf",
-        "NQQE:174 cevingr ebnq 8719 37");
+        "PNYY:37 lb srznyr frirer purfg cnvaf",
+        "NQQE:174 cevingr ebnq 8719");
 
     qbGrfg("G39",
         "Ina Mnaqg Pb FB:svefg erfcbaqref 321 im4500",

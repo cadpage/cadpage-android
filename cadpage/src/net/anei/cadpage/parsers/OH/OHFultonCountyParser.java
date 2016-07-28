@@ -6,17 +6,29 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHFultonCountyParser extends DispatchEmergitechParser {
   
   public OHFultonCountyParser() {
-    super(0, CITY_LIST, "FULTON COUNTY", "OH");
+    super(CITY_LIST, "FULTON COUNTY", "OH", TrailAddrType.PLACE_INFO);
+    removeWords("TRAIL");
   }
  
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (subject.length() == 0) return false;
-    body = subject + ':' + body;
+    body = subject + ':' + body + "$$";
     return super.parseMsg(body, data);
   }
+  
+
+  @Override
+  protected boolean parseFields(String[] fields, Data data) {
+    fields[fields.length-1] = stripFieldEnd(fields[fields.length-1], "$$");
+    return super.parseFields(fields, data);
+  }
+
 
   private static final String[] CITY_LIST = new String[]{
+    
+    "FULTON CO",
+    
     //CITY
     "WAUSEON",
     
@@ -45,6 +57,9 @@ public class OHFultonCountyParser extends DispatchEmergitechParser {
    //OTHER
     "PETTISVILLE",
     "TEDROW",
+    
+    // Lucas County
+    "MAUMEE",
     
     // Williams County
     "ALVORDTON",

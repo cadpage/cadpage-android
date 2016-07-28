@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHAshlandCountyParser extends DispatchEmergitechParser {
   
   public OHAshlandCountyParser() {
-    super(0, CITY_LIST, "ASHLAND COUNTY", "OH");
+    super(true, CITY_LIST, "ASHLAND COUNTY", "OH");
   }
 
   private static final String[] CITY_LIST = new String[]{

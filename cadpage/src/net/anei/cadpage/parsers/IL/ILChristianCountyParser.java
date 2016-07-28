@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.IL;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SmartAddressParser.Result;
+import net.anei.cadpage.parsers.SmartAddressParser.StartType;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 /**
@@ -9,7 +11,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class ILChristianCountyParser extends DispatchEmergitechParser {
   
   public ILChristianCountyParser() {
-    super("ChristianCounty911:", 0, CITY_LIST, "CHRISTIAN COUNTY", "IL");
+    super("ChristianCounty911:", CITY_LIST, "CHRISTIAN COUNTY", "IL", TrailAddrType.PLACE);
   }
   
   public String getFilter() {
@@ -18,7 +20,7 @@ public class ILChristianCountyParser extends DispatchEmergitechParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ADDR2")) return new MyAddressField();
     return super.getField(name);
   }
   
@@ -28,6 +30,12 @@ public class ILChristianCountyParser extends DispatchEmergitechParser {
       field = field.replace('@',  '/');
       super.parse(field, data);
     }
+  }
+
+  @Override
+  protected Result parseAddress(StartType sType, int flags, String address) {
+    if (sType == StartType.START_PLACE) sType = StartType.START_ADDR;
+    return super.parseAddress(sType, flags, address);
   }
 
   private static final String[] CITY_LIST = new String[]{

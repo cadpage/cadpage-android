@@ -573,7 +573,7 @@ choyvp pynff BUNyyraPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:1010",
         "NQQE:148 PNEVOBH PVE",
         "PVGL:FUNJARR GJC",
-        "ANZR:NPPRFF OL FABJOREEL YA",
+        "CYNPR:NPPRFF OL FABJOREEL YA",
         "VASB:FZNYY OEHFU SVER VA GUR ONPX LNEQ BS N ERFVQRAPR BA PNEVOBH");
 
     qbGrfg("G48",

@@ -14,7 +14,7 @@ public class OHHighlandCountyParser extends DispatchEmergitechParser {
   
   public OHHighlandCountyParser() {
     super(new String[]{"HighlandCOSO:", "Networkadmin:"}, 
-          0, CITY_LIST, "HIGHLAND COUNTY", "OH");
+          CITY_LIST, "HIGHLAND COUNTY", "OH", TrailAddrType.PLACE);
   }
   
   @Override
@@ -62,6 +62,7 @@ public class OHHighlandCountyParser extends DispatchEmergitechParser {
     "SINKING SPRING",
     
     // Townships
+    "BRUSH CREEK TWP",
     "BRUSHCREEK TWP",
     "CLAY TWP",
     "CONCORD TWP",
@@ -114,6 +115,11 @@ public class OHHighlandCountyParser extends DispatchEmergitechParser {
     "STRINGTOWN",
     "SUGAR TREE RIDGE",
     "TAYLORSVILLE",
-    "WILLETTSVILLE"
+    "WILLETTSVILLE",
+    
+    // Ross County
+    "ROSS COUNTY",
+    "BUSKIN TWP",
+    "BUCKSKIN TWP ROSS COUNTY"
   };
 }
