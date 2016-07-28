@@ -11,12 +11,12 @@ public class CAStanislausCountyParser extends FieldProgramParser {
 
   public CAStanislausCountyParser() {
     super(CITY_CODES, "STANISLAUS COUNTY", "CA", 
-          "Address:ADDR ADDR2? ( CITY ZIP_X? | CITY_MAP_X | ) EMPTY SIMS_Info:CH? Alarm_Level:PRI? Handling_Unit:UNIT! Agency:SRC! Response_Type:CALL! Dispatch_Time:TIME! END");
+          "Address:ADDR ADDR2? ( CITY ZIP_X? | CITY_MAP_X | ) EMPTY SIMS_Info:CH? Alarm_Level:PRI? Handling_Unit:UNIT? Agency:SRC! Response_Type:CALL! Dispatch_Time:TIME! END");
   }
   
   @Override
   public String getFilter() {
-    return "vipercad@stanislaussheriff.com,noreply@tiburoninc.com";
+    return "vipercad@stanislaussheriff.com,noreply@tiburoninc.com,@modestopd.com";
   }
   
   @Override
@@ -24,9 +24,16 @@ public class CAStanislausCountyParser extends FieldProgramParser {
     return MAP_FLG_SUPPR_LA;
   }
   
+  private static final Pattern DELIM = Pattern.compile("[,;]");
+  
   @Override
   protected boolean parseMsg(String body, Data data) {
-    return parseFields(body.split(","), data);
+    if (!parseFields(DELIM.split(body), data)) return false;
+    if (data.strAddress.length() == 0) {
+      parseAddress(data.strPlace, data);
+      data.strPlace = "";
+    }
+    return true;
   }
 
   @Override
@@ -64,11 +71,7 @@ public class CAStanislausCountyParser extends FieldProgramParser {
           data.strApt = append(data.strApt, "-", apt);
           field = field.substring(0,pt).trim();
         }
-        if (data.strAddress.length() == 0) {
-          parseAddress(field, data);
-        } else {
-          data.strPlace = field;
-        }
+        data.strPlace = field;
       }
       else if ((mat = ADDR_PTN.matcher(field)).matches()) {
         parseAddress(mat.group(1).trim(), data);
@@ -84,7 +87,7 @@ public class CAStanislausCountyParser extends FieldProgramParser {
     }
   }
   
-  private static Pattern ADDR2_PTN = Pattern.compile("((?:CO )?[A-Z]{2})/(.*)");
+  private static Pattern ADDR2_PTN = Pattern.compile("((?:CO )?[A-Z]{2}) *(?:/(.*)|\\((?!MapBook:)(.*)\\)|#BLK)");
 
   private class MyAddress2Field extends AddressField {
     
@@ -98,7 +101,13 @@ public class CAStanislausCountyParser extends FieldProgramParser {
       Matcher match = ADDR2_PTN.matcher(field);
       if (!match.matches()) return false;
       data.strCity = getCityCode(match.group(1));
-      data.strAddress = append(data.strAddress, " & ", match.group(2).trim());
+      String addr = match.group(2);
+      if (addr == null) addr = match.group(3);
+      if (addr != null) {
+        data.strAddress = append(data.strAddress, " & ", addr.trim());
+      } else {
+        data.strAddress = append(data.strAddress, " ", "BLK");
+      }
       return true;
     }
    
