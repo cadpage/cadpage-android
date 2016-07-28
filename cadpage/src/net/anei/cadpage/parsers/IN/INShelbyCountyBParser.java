@@ -23,12 +23,14 @@ public class INShelbyCountyBParser extends DispatchA48Parser {
   private static final CodeSet CALL_LIST = new CodeSet(
       "ACC PI",
       "ACC UKN",
+      "ASSIST OTH AGY",
       "ATT SUICIDE",
       "DOM VIO",
       "FIRE",
       "FIRE ALARM",
       "MEDIC",
       "SUSPIC",
+      "TS",
       "WELL BEING"
  );
   
