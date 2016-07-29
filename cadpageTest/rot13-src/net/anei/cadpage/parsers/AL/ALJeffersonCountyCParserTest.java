@@ -7,6 +7,10 @@ vzcbeg bet.whavg.Grfg;
 /*
 Wrssrefba Pbhagl, NY (P) 
 
+Pbagnpg: Oelna Uraavtna <onuraavtna@tznvy.pbz>
+Fraqre: SverQrfx@wrsspbny911.bet
+SverQrfx@wrsspbny911.bet / ! / 3545 TENAQIVRJ CXJL NCG 109  \aZrqvpny Zhghny Nvq \a\aK:\aHavgf:EE102\aPerngrq:7/29/2016 10:24:05 NZ #23168\aCev Vap:2016-00001672 (00148)\aA:EE JVGU OUNZ\a56 LBS\aQRIRER NOQBZVANY CNBAW\aCNVA\a
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pragre Cbvag Sver Qvfgevpg
 Ybpngvba: Ovezvatunz, NY, Havgrq Fgngrf
@@ -1507,6 +1511,32 @@ choyvp pynff NYWrssrefbaPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp NYWrssrefbaPbhaglPCnefreGrfg() {
     frgCnefre(arj NYWrssrefbaPbhaglPCnefre(), "WRSSREFBA PBHAGL", "NY");
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOelnaUraavtna() {
+
+    qbGrfg("G1",
+        "SverQrfx@wrsspbny911.bet / ! / 3545 TENAQIVRJ CXJL NCG 109  \a" +
+        "Zrqvpny Zhghny Nvq \a\a" +
+        "K:\a" +
+        "Havgf:EE102\a" +
+        "Perngrq:7/29/2016 10:24:05 NZ #23168\a" +
+        "Cev Vap:2016-00001672 (00148)\a" +
+        "A:EE JVGU OUNZ\a" +
+        "56 LBS\a" +
+        "QRIRER NOQBZVANY CNBAW\a" +
+        "CNVA\a",
+
+        "NQQE:3545 TENAQIVRJ CXJL",
+        "NCG:109",
+        "PNYY:Zrqvpny Zhghny Nvq",
+        "HAVG:EE102",
+        "QNGR:7/29/2016",
+        "GVZR:10:24:05",
+        "VQ:23168/2016-00001672 (00148)",
+        "VASB:EE JVGU OUNZ\a56 LBS\aQRIRER NOQBZVANY CNBAW\aCNVA");
+    
   }
 
   @Grfg
