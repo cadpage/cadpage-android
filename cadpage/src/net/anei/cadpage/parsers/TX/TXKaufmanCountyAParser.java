@@ -11,7 +11,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 public class TXKaufmanCountyAParser extends DispatchSouthernParser {
 
   public TXKaufmanCountyAParser() {
-    super(CITY_LIST, "KAUFMAN COUNTY", "TX", DSFLAG_NO_IMPLIED_APT | DSFLAG_NO_NAME_PHONE | DSFLAG_NO_PLACE | DSFLAG_STATE);
+    super(CITY_LIST, "KAUFMAN COUNTY", "TX", DSFLAG_NO_IMPLIED_APT | DSFLAG_NO_NAME_PHONE | DSFLAG_NO_PLACE | DSFLAG_PLACE_FOLLOWS | DSFLAG_STATE);
   }
   
   private static final Pattern MARKER = Pattern.compile("Dispatch:|kaufmancotx911:");
@@ -70,12 +70,20 @@ public class TXKaufmanCountyAParser extends DispatchSouthernParser {
     "TALTY",
     "TERRELL",
     "TRAVIS RANCH",
+    
+    "DALLAS COUNTY",
+    
+    "HENDERSON COUNTY",
+    "GUN BARREL",
+    "GUN BARRELL",
+    "GUN BARREL CITY",
+    "GUN BARRELL CITY",
+    
+    "KAUFMAN COUNTY",
 
     "VAN ZANDT COUNTY",
     "VAN ZANDT CO",
-    "VZCO",
-    "KAUFMAN COUNTY",
-    "DALLAS COUNTY",
+    "VZCO"
 
   };
 }

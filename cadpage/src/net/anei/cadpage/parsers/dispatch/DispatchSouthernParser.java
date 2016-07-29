@@ -61,6 +61,9 @@ public class DispatchSouthernParser extends FieldProgramParser {
   
   // Flag indicating time is optional :(
   public static final int DSFLAG_TIME_OPTIONAL = 0x8000;
+  
+  // Flag indicating place field following address is a place field
+  public static final int DSFLAG_PLACE_FOLLOWS = 0x10000;
 
   private boolean parseFieldOnly;
 
@@ -79,6 +82,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
   private boolean leadUnitId;
   private boolean state;
   private boolean timeOptional;
+  private boolean inclPlace;
   private CodeSet callSet;
   private Pattern unitPtn;
   
@@ -119,6 +123,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     this.leadUnitId = (flags & DSFLAG_LEAD_UNIT) != 0;
     this.state = (flags & DSFLAG_STATE) != 0;
     this.timeOptional = (flags & DSFLAG_TIME_OPTIONAL) != 0;
+    this.inclPlace = (flags & DSFLAG_PLACE_FOLLOWS) != 0;
     this.unitPtn = (unitPtnStr == null ? null : Pattern.compile(unitPtnStr));
 
     
@@ -129,11 +134,15 @@ public class DispatchSouthernParser extends FieldProgramParser {
     sb.append(leadPlace ? 'P' : 'X');
     if (trailPlace2) sb.append("P");
     if (state) sb.append(" ST?");
-    if (inclCall) sb.append(" CALL");
-    if (inclCross || inclCrossNamePhone) sb.append(" X?");
-    if (!inclCross && !noNamePhone) sb.append(" NAME+? PHONE?");
-    sb.append(" CODE+? PARTCODE?");
-    if (leadUnitId) sb.append(" UNIT?");
+    if (inclPlace) {
+      sb.append(" PLACE?");
+    } else {
+      if (inclCall) sb.append(" CALL");
+      if (inclCross || inclCrossNamePhone) sb.append(" X?");
+      if (!inclCross && !noNamePhone) sb.append(" NAME+? PHONE?");
+      sb.append(" CODE+? PARTCODE?");
+      if (leadUnitId) sb.append(" UNIT?");
+    }
     sb.append(" ID");
     if (idOptional) sb.append('?');
     sb.append(" TIME");
