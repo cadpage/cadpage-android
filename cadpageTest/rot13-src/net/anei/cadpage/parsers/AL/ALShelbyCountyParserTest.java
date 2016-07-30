@@ -24,6 +24,10 @@ Pbagnpg: Wbua Lnaprl <wbualnaprl7@tznvy.pbz>
 Fraqre: 1210100694
 SEZ:Neaf Nyreg \aFHOW:SVER1319422\aZFT:2013-10-29 10:11:23\aSVER1319422\aPNU_INYL - FGN183\aPURFGCNVA\a1044 QHAANINAG CY PINY OUZ\a\a::\aONFFRGG, YREB
 
+Pbagnpg: Oelna Uraavtna <onuraavtna@tznvy.pbz>
+Fraqre: neaf@furyol911.bet
+neaf@furyol911.bet / Rirag Hcqngrq:SVER1617161 / 2016-07-29 10:41:02\aSVER1617161\aSVEFGONG - ONG1\aOYRRQVAT\a1100 PBYYRTR QE HBSZ ZBA: @HZ FGHQRAG NPGVIVGL PRAGRE\a\a::\a
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: OISEQ
 Ybpngvba: Oevresvryq, NY, Havgrq Fgngrf
@@ -2261,6 +2265,32 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:OVEZVATUNZ",
         "ANZR:ONFFRGG, YREB");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOelnaUraavtna() {
+<<<<<<< HEAD
+
+    qbGrfg("G1",
+        "neaf@furyol911.bet / Rirag Hcqngrq:SVER1617161 / 2016-07-29 10:41:02\a" +
+        "SVER1617161\a" +
+        "SVEFGONG - ONG1\a" +
+        "OYRRQVAT\a" +
+        "1100 PBYYRTR QE HBSZ ZBA: @HZ FGHQRAG NPGVIVGL PRAGRE\a\a" +
+        "::\a",
+
+        "QNGR:07/29/2016",
+        "GVZR:10:41:02",
+        "VQ:SVER1617161",
+        "FEP:SVEFGONG - ONG1",
+        "PNYY:OYRRQVAT",
+        "NQQE:1100 PBYYRTR QE",
+        "PVGL:ZBAGRINYYB",
+        "CYNPR:HZ FGHQRAG NPGVIVGL PRAGRE");
+   
+=======
+    
+>>>>>>> 7ec50c702da6521408bebd0ac196cbea228526c0
   }
 
   @Grfg
