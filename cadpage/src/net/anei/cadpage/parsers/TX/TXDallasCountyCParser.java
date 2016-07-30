@@ -16,12 +16,12 @@ public class TXDallasCountyCParser extends DispatchOSSIParser {
     super(CITY_CODES, "DALLAS COUNTY", "TX",
           "( CANCEL ADDR CITY " +
           "| FYI ( CODE1 SRC! " +
-                "| SRC UNIT? PLACE? CODE CALL X2+? P ONE! " +
+                "| SRC UNIT? PLACE? CODE CALL X2+? ( ZERO | P ONE! ) " +
                 "| ADDR PLACE1? ( CITY CITY2? | ) ( CODE1 SRC! " +
-                                                 "| SRC MAP? UNIT? PLACE? CODE CALL X2+? P ONE! " +
+                                                 "| SRC MAP? UNIT? PLACE? CODE CALL X2+? ( ZERO | P ONE! ) " +
                                                  ") " +
-                ") INFO+? MARK X2+? P ONE CITY? CALL BOX ID? INFO+ " +
-          ")");
+                ") INFO+? MARK X2+? P ONE CITY? CALL BOX ID? " +
+          ") INFO+");
   }
   
   @Override
@@ -86,6 +86,7 @@ public class TXDallasCountyCParser extends DispatchOSSIParser {
     if (name.equals("MAP")) return new MapField("\\d{4}", true);
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("X2")) return new MyCross2Field();
+    if (name.equals("ZERO")) return new SkipField("0", true);
     if (name.equals("P")) return new SkipField("[P12]", true);
     if (name.equals("ONE")) return new SkipField("1", true);
     if (name.equals("INFO")) return new MyInfoField();
@@ -171,7 +172,9 @@ public class TXDallasCountyCParser extends DispatchOSSIParser {
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      if (field.startsWith("Radio Channel:")) {
+      if (CROSS_TAC_PTN.matcher(field).matches()) {
+        data.strChannel = field;
+      } else if (field.startsWith("Radio Channel:")) {
         data.strChannel = field.substring(14).trim();
       } else {
         super.parse(field, data);
