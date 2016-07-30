@@ -35,6 +35,13 @@ public class ALShelbyCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
+    if (subject.length() == 0 && body.startsWith("/ ")) {
+      int pt = body.indexOf(" / ", 2);
+      if (pt < 0) return false;
+      subject = body.substring(2,pt).trim();
+      body = body.substring(pt+3).trim();
+    }
+    
     if (subject.startsWith("Event Closed:")) data.msgType = MsgType.RUN_REPORT;
   
     Matcher match = PREFIX_PTN.matcher(body);

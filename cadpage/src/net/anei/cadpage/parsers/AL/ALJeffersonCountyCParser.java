@@ -27,7 +27,14 @@ public class ALJeffersonCountyCParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("!")) return false;
+    do {
+      if (subject.equals("!")) break;
+      
+      if (body.startsWith("/ ! / ")) {
+        body = body.substring(6).trim();
+        break;
+      }
+    } while (false);
     return parseFields(body.split("\n"), 5, data);
   }
   
