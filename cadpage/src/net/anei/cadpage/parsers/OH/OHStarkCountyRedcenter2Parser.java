@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.OH;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -18,7 +19,7 @@ public class OHStarkCountyRedcenter2Parser extends FieldProgramParser {
           "| Call_Address:ADDRCITY! Radio_Channel:CH! Common_Name:PLACE! Qualifier:EMPTY! Cross_Streets:X Local_Information:INFO! Custom_Layer:SKIP! Census_Tract:EMPTY! Call_Type:CALL! Call_Priority:PRI! Call_Date/Time:DATETIME1? Nature_Of_Call:CALL/SDS! Units_Assigned:UNIT! Fire_Quadrant:MAP! Incident_Number(s):ID! Caller_Name:NAME! Caller_Phone:PHONE! Caller_Address:CADDR! Alerts:SKIP! Narratives:INFO1! Status_Times:TIMES1+ Google_Maps_Hyperlink:SKIP " +
           "| CALL:CALL! PLACE:PLACE! ADDR:ADDRCITY! XST:X? ( ID:ID! PRI:PRI? DATE:DATETIME1! MAP:MAP_X! UNIT:SKIP? INFO:INFO1! TIMES1+ " +
                                                           "| CITY:CITY! ID:ID! PRI:PRI! DATE:DATE! TIME:TIME! UNIT:UNIT? INFO:INFO ) " + 
-          "| INC_ID DATE:DATE! TIME:TIME! BLDG:PLACE! LOC:ADDRCITY! APT:APT! XST:X! TRU:UNIT! NAT:CALL! )");
+          "| INC_ID DATE:DATE! TIME:TIME! BLDG:PLACE! LOC:ADDRCITY! APT:APT! XST:X! XST:X? TRU:UNIT! NAT:CALL! NOTES:INFO/N+ )");
   }
   
   @Override
@@ -54,6 +55,7 @@ public class OHStarkCountyRedcenter2Parser extends FieldProgramParser {
     if (name.equals("INC_ID")) return new IdField("INC# *(.*)", true);
     if (name.equals("DATE")) return new DateField("\\d\\d?/\\d\\d?/\\d\\d", true);
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
+    if (name.equals("X")) return new MyCrossField();
     
     return super.getField(name);
   }
@@ -150,4 +152,28 @@ public class OHStarkCountyRedcenter2Parser extends FieldProgramParser {
       return "MAP X";
     }
   }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      String code = p.getLast(' ');
+      String city = CITY_CODES.getProperty(code);
+      if (city != null) {
+        data.strCity = city;
+        field = p.get();
+      }
+      if (field.equalsIgnoreCase("No cross streets found")) return;
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "X CITY";
+    }
+  }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "NW-GT",   "GREENTOWN"
+  });
 }
