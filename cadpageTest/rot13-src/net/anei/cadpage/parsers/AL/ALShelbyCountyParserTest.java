@@ -2269,7 +2269,6 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   @Grfg
   choyvp ibvq grfgOelnaUraavtna() {
-<<<<<<< HEAD
 
     qbGrfg("G1",
         "neaf@furyol911.bet / Rirag Hcqngrq:SVER1617161 / 2016-07-29 10:41:02\a" +
@@ -2288,9 +2287,6 @@ choyvp pynff NYFuryolPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ZBAGRINYYB",
         "CYNPR:HZ FGHQRAG NPGVIVGL PRAGRE");
    
-=======
-    
->>>>>>> 7ec50c702da6521408bebd0ac196cbea228526c0
   }
 
   @Grfg

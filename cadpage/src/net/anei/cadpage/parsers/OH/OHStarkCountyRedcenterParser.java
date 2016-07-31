@@ -9,7 +9,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 public class OHStarkCountyRedcenterParser extends DispatchEmergitechParser {
   
   public OHStarkCountyRedcenterParser() {
-    super("RED:", CITY_LIST, "STARK COUNTY", "OH");
+    super("RED:", OHStarkCountyParser.CITY_LIST, "STARK COUNTY", "OH");
+    setupCities(EXTRA_CITY_LIST);
   }
   
   @Override
@@ -45,70 +46,7 @@ public class OHStarkCountyRedcenterParser extends DispatchEmergitechParser {
   }
   private static final Pattern REV_DIR_STREET_PTN = Pattern.compile("\\b([NSEW]) (MILAN ST)\\b");
 
-
-  private static final String[] CITY_LIST = new String[]{
-    // Cities
-    "ALLIANCE",
-    "CANAL FULTON",
-    "CANTON",
-    "LOUISVILLE",
-    "MASSILLON",
-    "NORTH CANTON",
-    
-    // Villages
-    "BEACH CITY",
-    "BREWSTER",
-    "EAST CANTON",
-    "EAST SPARTA",
-    "HARTVILLE",
-    "HILLS AND DALES",
-    "LIMAVILLE",
-    "MAGNOLIA",
-    "MINERVA",
-    "MEYERS LAKE",
-    "NAVARRE",
-    "WAYNESBURG",
-    "WILMOT",
-    
-    // Townships
-    "BETHLEHEM TWP",
-    "CANTON TWP",
-    "JACKSON TWP",
-    "LAKE TWP",
-    "LAWRENCE TWP",
-    "LEXINGTON TWP",
-    "MARLBORO TWP",
-    "NIMISHILLEN TWP",
-    "OSNABURG TWP",
-    "PARIS TWP",
-    "PERRY TWP",
-    "PIKE TWP",
-    "PLAIN TWP",
-    "SANDY TWP",
-    "SUGAR CREEK TWP",
-    "TUSCARAWAS TWP",
-    "WASHINGTON TWP",
-    
-    // Census-designated places
-    "GREENTOWN",
-    "PERRY HEIGHTS",
-    "UNIONTOWN",
-    
-    // Other localities
-    "AVONDALE",
-    "CAIRO",
-    "MARCHAND",
-    "MAXIMO",
-    "MIDDLEBRANCH",
-    "NEW FRANKLIN",
-    "NORTH INDUSTRY",
-    "NORTH LAWRENCE",
-    "PARIS",
-    "RICHVILLE",
-    "ROBERTSVILLE",
-    "WACO",
-    
-    // Wierdness
+  private static final String[] EXTRA_CITY_LIST = new String[]{
     "-CITY",
     "-TWP"
   };
