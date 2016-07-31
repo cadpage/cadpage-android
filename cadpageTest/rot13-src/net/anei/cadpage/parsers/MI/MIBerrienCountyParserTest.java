@@ -23282,7 +23282,8 @@ choyvp pynff ZVOreevraPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G45",
         "{Vapvqrag} Ybpngvba: 575 FG WBFRCU XRCUNEG / REYJBBQ CNGU 39 Oreevra Fcevatf 41.9508606355303 -86.3454569536958 Pbzzba Anzr: ZPQBANYQF-OREEVRA FCEVATFPnyy Glcr: SVER-Fgehpgher Pnyy Gvzr: 09/20/15 16:11 Pnyy Ahzore: 1174 Aneengvir:  gur rkgvathvfure jnf hfrq  nybg bs fzbxr vafvqr  rinphngvat gur ohvyqvat  sver vf bhg  sver ba gur tevyy  R911 Vasb - Pynff bs Freivpr: IBVC Fcrpvny Erfcbafr Vasb: IBVC PNYYIREVSL YBPIREVSL PNYYONPX",
-        "NQQE:575 FG WBFRCU XRCUNEG & REYJBBQ CNGU",
+        "NQQE:575 FG WBFRCU",
+        "K:XRCUNEG / REYJBBQ CNGU",
         "CYNPR:ZPQBANYQF-OREEVRA FCEVATF",
         "PVGL:Oreevra Fcevatf",
         "TCF:+41.950861,-86.345457",

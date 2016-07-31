@@ -1486,7 +1486,7 @@ public abstract class SmartAddressParser extends MsgParser {
                   // of a street name named after saint.  if it is, we are good to go
                   if (isType(sAddr+1, ID_ST)) {
                     if (!isType(sAddr+2, ID_DIRECTION)) {
-                      sEnd = findRoadEnd(sAddr+1, 0);
+                      sEnd = findRoadEnd(sAddr+1, 1);
                       if (sEnd > 0) break;
                     }
                   }
@@ -2815,7 +2815,7 @@ public abstract class SmartAddressParser extends MsgParser {
       // if we are accepting roads without a street suffix, we will compute the
       // default value assuming this is a suffixless street name.  If not, the failure return
       // is always -1;
-      if (failIndex < 0 && option > 1 && isFlagSet(FLAG_OPT_STREET_SFX|FLAG_NO_STREET_SFX)) {
+      if (failIndex < 0 && option > 0 && isFlagSet(FLAG_OPT_STREET_SFX|FLAG_NO_STREET_SFX)) {
         if (isType(start, ID_NOT_ADDRESS|ID_NOT_STREET_NAME) || findConnector(start)>=0) return -1;
         if (mWordIndex >= 0) {
           failIndex = mWordIndex;
