@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.MN;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -40,5 +41,29 @@ public class MNMinneapolisStPaulAParser extends DispatchPrintrakParser {
   
   public String getProgram() {
     return super.getProgram().replace("CALL", "CALL UNIT");
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("PLACE")) return new MyPlaceField();
+    return super.getField(name);
+  }
+  
+  private static final Pattern PLACE_ID_PTN = Pattern.compile("(.*) \\(ID:(.*)\\)");
+  private class MyPlaceField extends PlaceField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = PLACE_ID_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1).trim();
+        data.strCallId = match.group(2).trim();
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE ID";
+    }
   }
 }
