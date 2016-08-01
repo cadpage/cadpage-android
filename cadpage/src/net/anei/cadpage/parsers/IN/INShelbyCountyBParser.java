@@ -12,6 +12,7 @@ public class INShelbyCountyBParser extends DispatchA48Parser {
     super(CITY_LIST, "SHELBY COUNTY", "IN", FieldType.PLACE,  A48_NO_CODE, 
           Pattern.compile("\\d{3}|[A-Z]+\\d+"));
     setupCallList(CALL_LIST);
+    setupMultiWordStreets(MWORD_STREET_LIST);
   }
   
   @Override
@@ -20,14 +21,29 @@ public class INShelbyCountyBParser extends DispatchA48Parser {
     return super.parseMsg(subject, body, data);
   }
   
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "BLUE RIVER",
+    "COUNTRY CREEK",
+    "GREEN MEADOWS",
+    "HAZELWOOD NORTH",
+  };
+  
   private static final CodeSet CALL_LIST = new CodeSet(
+      "ACC PD",
       "ACC PI",
       "ACC UKN",
+      "ALARM",
       "ASSIST OTH AGY",
       "ATT SUICIDE",
+      "BATTERY",
       "DOM VIO",
+      "DRUG OD",
       "FIRE",
       "FIRE ALARM",
+      "FIRE GRASS",
+      "FIRE RUN",
+      "FIRE STRUCTURE",
+      "FIRE VEHICLE",
       "MEDIC",
       "SUSPIC",
       "TS",
