@@ -19,7 +19,7 @@ public class PABerksCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@berks.alertpa.org,@rsix.roamsecure.net,@c-msg.net,1410,12101,411912,777";
+    return "@berks.alertpa.org,@c-msg.net,@rsix.roamsecure.net,1410,12101,411912,777";
   }
 
   @Override
@@ -47,7 +47,7 @@ public class PABerksCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
-  private static final Pattern UNIT_CALL_PTN = Pattern.compile("Unit:([-A-Za-z0-9]+) Status:(?:Dispatched|Enroute|Notify|Arrived On Location) (.*)");
+  private static final Pattern UNIT_CALL_PTN = Pattern.compile("Unit:([-A-Za-z0-9]+) Status:(?:Dispatched|Enroute|En Route|Notify|Arrived On Location) (.*)");
   private class MyUnitCallField extends Field {
     @Override
     public void parse(String field, Data data) {
