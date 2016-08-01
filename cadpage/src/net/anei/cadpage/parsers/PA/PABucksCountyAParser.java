@@ -10,7 +10,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  * Bucks County, PA
  */
 public class PABucksCountyAParser extends PABucksCountyBaseParser {
-  
+
+  private static final Pattern STATION_PTN = Pattern.compile("Station +(.*)");
   private static final Pattern TRAIL_URL_PTN = Pattern.compile("(.*)\\. {5,}(https:[^ ]+) {3,}.*");
   private static final Pattern MARKER1 = Pattern.compile("(?:(Station [^/:]+) / )?([A-Z]+\\s+(?:Adr:|adr:|Box:).*)", Pattern.DOTALL);
   private static final Pattern MARKER2 = Pattern.compile("^([A-Z0-9 ]+): *([A-Z]+) *");
@@ -31,7 +32,7 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     body = stripFieldStart(body, "911:");
-    body = stripFieldStart(body, "Text: STA2:");
+    body = stripFieldStart(body, "Text:");
     
     if (body.endsWith("=")) body = body.substring(0,body.length()-1).trim();
     int pt = body.lastIndexOf('=');
@@ -49,8 +50,14 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
     }
     String saveBody = body;
     
+    Matcher match = STATION_PTN.matcher(subject);
+    if (match.matches()) {
+      data.strSource = match.group(1).trim();
+      body = body.replace("\nBox:", " Box:").replace("\nAddr:", " adr:").replace("\nBtwn:", " btwn:").replace("\nText:", " Text:").replace('\n', ' ');
+    }
+    
     boolean mark2 = false;
-    Matcher match = MARKER1.matcher(body);
+    match = MARKER1.matcher(body);
     if (match.matches()) {
       String src = match.group(1);
       body = "type:" + match.group(2).replace('\n', ' ').trim();
@@ -96,7 +103,7 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
 
   @Override
   public String getProgram() {
-    return "UNIT " + super.getProgram() + " URL";
+    return "SRC UNIT " + super.getProgram() + " URL";
   }
   
   @Override

@@ -42,6 +42,10 @@ public class PABucksCountyBParser extends PABucksCountyBaseParser {
       return false;
     } while (false);
     
+    int pt = body.indexOf("\n*****");
+    if (pt >= 0) body = body.substring(0,pt).trim();
+
+    
     Matcher match = COVER_PTN.matcher(body);
     if (match.matches()) {
       setFieldList("CALL ID TIME INFO");
