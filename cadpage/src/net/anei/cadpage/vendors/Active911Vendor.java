@@ -248,6 +248,7 @@ class Active911Vendor extends Vendor {
       "US/AZ/RuralMetro",                 "AZYavapaiCountyD",
       "US/CA/AmadorCounty",               "CAAmadorCounty",
       "US/CA/Bducad",                     "CASanBernardinoCountyC",
+      "US/CA/BDUcad",                     "CASanBernardinoCountyC",
       "US/CA/Btucad",                     "CAButteCounty",
       "US/CA/CalaverasCounty",            "CACalaverasCounty",
       "US/CA/CathedralCity",              "CACathedralCity",
