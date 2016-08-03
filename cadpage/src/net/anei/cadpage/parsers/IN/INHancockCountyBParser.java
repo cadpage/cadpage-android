@@ -1,6 +1,6 @@
 package net.anei.cadpage.parsers.IN;
 
-public class INHancockCountyBParser extends INShelbyCountyParser {
+public class INHancockCountyBParser extends INShelbyCountyAParser {
   
   public INHancockCountyBParser() {
     super("HANCOCK COUNTY", "IN");
