@@ -6,7 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 
 /*
-Furyol Pbhagl, VA
+Furyol Pbhagl, VA (O) 
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: FPRF: Furyolivyyr SQ

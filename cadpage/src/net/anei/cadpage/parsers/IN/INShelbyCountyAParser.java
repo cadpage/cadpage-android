@@ -5,13 +5,13 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.dispatch.DispatchSPKParser;
 
-public class INShelbyCountyParser extends DispatchSPKParser {
+public class INShelbyCountyAParser extends DispatchSPKParser {
   
-  public INShelbyCountyParser() {
+  public INShelbyCountyAParser() {
     this("SHELBY COUNTY", "IN");
   }
   
-  INShelbyCountyParser(String defCity, String defState) {
+  INShelbyCountyAParser(String defCity, String defState) {
     super(defCity,defState);
   }
   
