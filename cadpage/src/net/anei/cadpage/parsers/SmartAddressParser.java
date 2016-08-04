@@ -1251,18 +1251,16 @@ public abstract class SmartAddressParser extends MsgParser {
     String gpsCoords = null;
     boolean onlyCity = isFlagSet(FLAG_ONLY_CITY);
     if (!onlyCity) {
-    
-    // Before we do anything else, see if we can find some GPS coordinates
-    // in this address.  If we do find them, they will need to be protected
-    // from being broken into separate tokens
-      Matcher match = MsgParser.GPS_PATTERN.matcher(address);
-      if (match.find()) gpsCoords = match.group().trim();
       
       // Look for and compress any US symbols
       address = US_PTN.matcher(address).replaceAll("$1$2");
       
       // Strip leading zeros from starting numeric tokens
       address = stripLeadingZero(address);
+      
+      // Identify and protect any GPS coordinates
+      Matcher match = MsgParser.GPS_PATTERN.matcher(address);
+      if (match.find()) gpsCoords = match.group().trim();
     }
 
     // Set up token list and types
@@ -1424,7 +1422,9 @@ public abstract class SmartAddressParser extends MsgParser {
     for (; gpsNdx < tokens.length; gpsNdx++) {
       if (tokens[gpsNdx].contains(gpsCoords)) break;
     }
-    if (gpsNdx >= tokens.length) throw new RuntimeException("GPS coordinates not found");
+    if (gpsNdx >= tokens.length) {
+      throw new RuntimeException("GPS coordinates not found");
+    }
 
     // Expand address to beginning or end of token string if required by
     // constraints
