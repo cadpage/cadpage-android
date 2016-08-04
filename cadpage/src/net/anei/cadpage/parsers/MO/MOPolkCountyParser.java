@@ -25,7 +25,9 @@ public class MOPolkCountyParser extends DispatchGlobalDispatchParser {
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.equals("RT:")) return false;
+    body = body.replace("=20\n", " \n");
     body = body.replace("Disp:", "Dispatch:");
     if (!super.parseMsg(body, data)) return false;
     if (data.strCity.equals("POLK COUNTY")) data.strCity = "";
