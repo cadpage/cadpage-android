@@ -497,6 +497,7 @@ class Active911Vendor extends Vendor {
       "US/IN/ParkeCounty",                "INParkeCounty",
       "US/IN/PorterCounty",               "INPorterCounty",
       "US/IN/PulaskiCounty",              "INPulaskiCounty",
+      "US/IN/PulaskiCountyEMS",           "INPulaskiCounty",
       "US/IN/RandolphCounty",             "INRandolphCounty",
       "US/IN/ShelbyCounty",               "INShelbyCounty",
       "US/IN/Shelbyville",                "INShelbyCounty",
