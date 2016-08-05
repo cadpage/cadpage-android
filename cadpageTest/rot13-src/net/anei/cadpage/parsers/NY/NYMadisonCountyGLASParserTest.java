@@ -81,6 +81,10 @@ Fraqre: TPZ
 {Terngre Yrabk} 10P01-Noabezny oernguvat\a111 JVYYBJ QE, FHYYVINA ( JNGRE )
 {Terngre Yrabk} 17N02-ABA-ERPRAG (=3Q> 6uef) vawhevrf (jvgubhg cevbevgl flzcgbzf)\a7104 YBEENVAR QE, YRABK # Cnivtyvnagv, Nyoreg & Uryra ( FPRAVP NI/FPRAVP NI )
 
+Pbagnpg: Xlyr Pnfury <xpnfury@tznvy.pbz>
+Fraqre: TPZ
+{YVAPBYA IBYHAGRRE SVER QRCG} Cbyr/Jverf\aENL EQ, YVAPBYA ( /ARYFBA EQ )\a
+
 */
 
 choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -529,6 +533,14 @@ choyvp pynff ALZnqvfbaPbhaglTYNFCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:111 JVYYBJ QE",
         "PVGL:FHYYVINA",
         "K:JNGRE");
+
+    qbGrfg("G2",
+        "{YVAPBYA IBYHAGRRE SVER QRCG} Cbyr/Jverf\aENL EQ, YVAPBYA ( /ARYFBA EQ )\a",
+        "PNYY:Cbyr/Jverf",
+        "NQQE:ENL EQ",
+        "ZNQQE:ENL EQ & ARYFBA EQ",
+        "PVGL:YVAPBYA",
+        "K:ARYFBA EQ");
     
   }
   
