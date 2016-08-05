@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">07302016</string>
+  <string name="release_date">08042016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.05\n
+New Location:\n
+Shelby County, IN (alt)\n
+Pike County, MO\n
+Med Center, NJ\n
+\n
+Location Fixes:\n
+San Bernardino County, CA\n
+Madison County, IL\n
+Minneapolis/St Paul, MN\n
+Polk County, MO\n
+Stark County, OH\n
+Bucks County, PA\n
+\n
 v1.9.10.04\n
 Location Fixes:\n
 Jefferson County, AL\n
@@ -45,12 +59,7 @@ Buchannan County, MO\n
 Wayne County, OH\n
 Jospehine County, OR\n
 Minnehaha County, SD\n
-Mid Island Region, BC\n
-\n
-v1.9.09.11\n
-Location Fixes:\n
-Marion County, FL\n
-Sussex County, NJ
+Mid Island Region, BC
   </string>
 </resources>
   

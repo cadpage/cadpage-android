@@ -54,8 +54,9 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   public DispatchGlobalDispatchParser(String[] cityList, String defCity, String defState,
                                        int flags, Pattern stationPtn, Pattern unitPtn) {
     super(cityList, defCity, defState,
-          calcAddressTerm(flags, cityList != null) +
-          " Call_Received_Time:DATE_TIME_CITY MapRegions:MAP Description:INFO INFO+ CrossStreets:X PLACE Description:INFO INFO+ Dispatch:DATETIME Primary_Incident:ID Call_Number:ID Description:INFO INFO+ ReferenceText:INFO Dispatch:SKIP");
+         "( ReferenceCode:CODE! CALL ADDR/S! EMPTY Description:INFO! INFO/N+? TRAIL_UNIT " +
+         "| " + calcAddressTerm(flags, cityList != null) +
+          " Call_Received_Time:DATE_TIME_CITY MapRegions:MAP Description:INFO2 INFO2+ CrossStreets:X PLACE Description:INFO2 INFO2+ Dispatch:DATETIME Primary_Incident:ID Call_Number:ID Description:INFO2 INFO+ ReferenceText:INFO Dispatch:SKIP )");
     this.stationPtn = stationPtn;
     this.unitPtn = unitPtn;
     leadStuff = (flags & LEAD_SRC_UNIT_ADDR) != 0;
@@ -90,12 +91,16 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     // See if this is the new fangled line break separated format
     // Beware of false positives, occasionally an old format will
     // have enough newlines to trigger the old logic
-    match = KEYWORD_PTN.matcher(body);
-    int pt = (match.find() ? match.start() : body.length());
-    if (body.substring(0,pt).contains("\n")) {
+    boolean newFmt = body.startsWith("ReferenceCode:");
+    if (!newFmt) {
+      match = KEYWORD_PTN.matcher(body);
+      int pt = (match.find() ? match.start() : body.length());
+      newFmt = (body.substring(0,pt).contains("\n"));
+    }
+    if (newFmt) {
       select = "NEW";
       if (!parseFields(DELIM_PTN.split(body), data)) return false;
-      if (data.strMap.length() > 0 || data.strSupp.length() > 0 || 
+      if (data.strCallId.length() > 0 || data.strMap.length() > 0 || data.strSupp.length() > 0 || 
           data.strCross.length() > 0 || data.strTime.length() > 0) return true;
       
       // Still questionable.  If there is a unit field and pattern, see if
@@ -131,8 +136,9 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("ADDR2")) return new BaseAddress2Field();
     if (name.equals("DATE_TIME_CITY")) return new BaseDateTimeCityField();
-    if (name.equals("INFO")) return new BaseInfoField();
+    if (name.equals("INFO2")) return new BaseInfo2Field();
     if (name.equals("ID")) return new BaseIdField();
+    if (name.equals("TRAIL_UNIT")) return new BaseTrailUnitField();
     return super.getField(name);
   }
   
@@ -235,7 +241,7 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   }
   
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\\[(\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d) \\d+\\]");
-  protected class BaseInfoField extends InfoField {
+  protected class BaseInfo2Field extends InfoField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = DATE_TIME_PTN.matcher(field);
@@ -259,6 +265,27 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       data.strCallId = append(data.strCallId, "/", field);
+    }
+  }
+  
+  private Pattern TRAIL_UNIT_PTN = Pattern.compile("[- A-Z0-9]+");
+  private class BaseTrailUnitField extends UnitField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!isLastField()) return false;
+      if (!TRAIL_UNIT_PTN.matcher(field).matches()) return false;
+      data.strUnit = field;
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
   }
 
