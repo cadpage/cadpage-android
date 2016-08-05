@@ -64,6 +64,7 @@ public class DispatchA7Parser extends DispatchA7BaseParser {
   private static final Pattern ADDR_PTN = Pattern.compile("Addr: *(.*?)");
   
   private static final Pattern ENTRY_MARK_PTN = Pattern.compile("/\\d++\\?? +(?:\\([A-Z0-9 ]+\\) +)?[*$]?([A-Z]+):?(?: {6,}(.*?) *| {1,5}([A-Z0-9]+)\\b.*)?");
+  private static final Pattern ENTRY_GPS_PTN = Pattern.compile("([-+]\\d{3}\\.\\d{6,} +[-+]\\d{3}\\.\\d{6,})\\b[ ,]*");
   private static final Pattern CONT_MARK_PTN = Pattern.compile(" {30,}(.*?) *"); 
   
   @Override
@@ -298,13 +299,13 @@ public class DispatchA7Parser extends DispatchA7BaseParser {
     // Two different versions of caller name/address/phone
     match = NAME_ADDR_PHONE_PTN.matcher(line);
     if (match.matches()) {
-      data.strName = match.group(1).trim();
+      data.strName = cleanWirelessCarrier(match.group(1).trim());
       parseAddrLine(match.group(2).trim(), data);
       data.strPhone = append(data.strPhone, " / ", match.group(3).trim());
     }
     
     else if ((match = NAME_PHONE_PTN.matcher(line)).matches()) {
-      data.strName = match.group(1).trim();
+      data.strName = cleanWirelessCarrier(match.group(1).trim());
       data.strPhone = append(data.strPhone, " / ", match.group(2).trim());
       
       line = p.getLine();
@@ -332,7 +333,12 @@ public class DispatchA7Parser extends DispatchA7BaseParser {
         if (text != null) {
           entry = type.equals("ENTRY") || type.equals("COPY") || type.equals("SUPP");
           if  (entry) {
-            if (text.startsWith("TXT:")) text = text.substring(4).trim();
+            text = stripFieldStart(text, "TXT:");
+            match = ENTRY_GPS_PTN.matcher(text);
+            if (match.lookingAt()) {
+              setGPSLoc(match.group(1), data);
+              text = text.substring(match.end());
+            }
             if (!text.startsWith("PROQA")) data.strSupp = append(data.strSupp, "\n", text);
           }
         }
