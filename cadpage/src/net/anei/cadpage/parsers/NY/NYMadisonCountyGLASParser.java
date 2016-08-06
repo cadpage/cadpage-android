@@ -39,7 +39,7 @@ public class NYMadisonCountyGLASParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Greater Lenox")) return false;
+    if (!subject.equals("Greater Lenox") && !subject.equals("LINCOLN VOLUNTEER FIRE DEPT")) return false;
     body = WIERD_CHAR_PTN.matcher(body).replaceAll("").trim();
     body = body.replace("Free Format Address:","Address:");
     body = body.replace("Response Type:", "Type:");
