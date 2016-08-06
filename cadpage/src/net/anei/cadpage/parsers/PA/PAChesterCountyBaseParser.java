@@ -53,7 +53,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
   protected class BaseCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
-      if (field.endsWith("*")) field = field.substring(0,field.length()-1).trim();
+      field = stripFieldEnd(field, " *");
       super.parse(field, data);
     }
   }
