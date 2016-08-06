@@ -4,6 +4,10 @@
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.06\n
+Location Fixes:\n
+Madison County, NY\n
+\n
 v1.9.10.05\n
 New Location:\n
 Shelby County, IN (alt)\n
@@ -45,21 +49,7 @@ Too many to list\n
 v1.9.10.02\n
 Location Fixes:\n
 Harnett County, NC\n
-Athens County, OH\n
-\n
-v1.9.10.01\n
-Added support for Waze mapping and navigation\n
-\n
-Location Fixes:\n
-New Castle County, DE\n
-Collier County, FL\n
-Tammany Parish, LA\n
-Pennington County, MN\n
-Buchannan County, MO\n
-Wayne County, OH\n
-Jospehine County, OR\n
-Minnehaha County, SD\n
-Mid Island Region, BC
+Athens County, OH
   </string>
 </resources>
   
