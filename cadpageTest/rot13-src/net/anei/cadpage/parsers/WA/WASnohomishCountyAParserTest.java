@@ -2191,7 +2191,6 @@ choyvp pynff JNFabubzvfuPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:19026 UJL 99",
         "NCG:102",
         "PVGL:YLAAJBBQ",
-        "CYNPR:NG G ZBOVYVGL,",
         "ZNC:YS309J",
         "VASB:QRGNVYF GB SBYYBJ");
 

@@ -1512,7 +1512,7 @@ public static void addCodeTable(Properties props, String[] table) {
    if (found) name = name.substring(0,match.start()).trim();
    return name;
  }
- private static final Pattern WIRELESS_CARRIER_PTN = Pattern.compile("\\b(?:WIRELESS(?:-|, *))?(?:VERIZON(?: WIRELESS)?(?: INTRADO \\(PSAP\\))?(?:\\(XYP\\))?|VZW(?:M?OBILE)?(?: USA)?|(?:MOBILITY,? )?(?:ATT? ?& ?T|ATT)(?: MOBILITY)?(?: \\(TCS\\))?|ATTMO|CONNEXON|T-MOBILE|SPRINT(?:PCS)?(?: NEXTEL- CDMA)?|US[- ]CELLULAR|METRO ?PCS|CORR WIRELESS|BLUEGRASS CELLULAR|APPALACHIAN WIRELESS|STARR WIRELESS|CELLULAR, US)\\b.*", Pattern.CASE_INSENSITIVE);
+ private static final Pattern WIRELESS_CARRIER_PTN = Pattern.compile("\\b(?:WIRELESS[-, ]+)?(?:VERIZON(?: WIRELESS)?(?: INTRADO \\(PSAP\\))?(?:\\(XYP\\))?|VZW(?:M?OBILE)?(?: USA)?|(?:MOBILITY,? )?(?:ATT? ?& ?T|AT ?T)(?: MOBILITY)?(?: \\(TCS\\))?|ATTMO|CONNEXON|T-MOBILE|SPRINT(?:PCS)?(?: NEXTEL- CDMA)?|US[- ]CELLULAR|METRO ?PCS|CORR WIRELESS|BLUEGRASS CELLULAR|APPALACHIAN WIRELESS|STARR WIRELESS|CELLULAR, US)\\b.*", Pattern.CASE_INSENSITIVE);
 
  /**
   * Strip optional constant string value from beginning of field
