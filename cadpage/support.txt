@@ -723,7 +723,7 @@ We would really love to have departments sponsor Cadpage for their members. We o
 Also, if your department uses Active911 or CodeMessaging, then Cadpage is free if you use direct paging.
 
 In the meantime, I can give you a 30-day extension.  To get that, go into the Cadpage settings, press the Payment Status item, then the "I have an authorization code" button, and enter an authorization code of
-HBWKPRDA or hbwkprda.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
+RLGEKTCA or rlgektca.    It is a time-sensitive code, and will expire by midnight on ____.  Once you use it, it will be good for about 30 days. 
 
 Thanks so much for your support, 
 Jean ~ Cadpage Administrator
@@ -1855,7 +1855,7 @@ To add a new location we need 5-10 sample text messages from your dispatch.  Ple
 
 We also need to know what agency is generating these messages and some idea of what other departments receive the same message formats.  If you can identify the CAD software that is sending your text pages that would help a lot.   
 
-All of this needs to be emailed to are main support address support@cadpage.org.  If they are already in Cadpage call history, long press each call and select "Report Problem" to send them to us.  Otherwise, you can forward text messages to that address, or copy and past them into a regular email or generate an email in Cadpage which will include the last text message.  Once we have this information we can add the location to the list and get it added.
+All of this needs to be emailed to are main support address support@cadpage.org.  If they are already in Cadpage call history, long press each call and select "Report Problem" to send them to us.  Otherwise, you can forward text messages to that address, or copy and past them into a regular email or generate an email in Cadpage which will include the last text message.  Once we have this information we can add the location to the list.
 
 In the meantime, try using the general location setting and set the from: filter to whoever appears in the from: field of your page text messages.  That will usually give you some degree of functionality while you are waiting for full location support. 
 
