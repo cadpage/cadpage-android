@@ -1031,7 +1031,7 @@ public class FieldProgramParser extends SmartAddressParser {
           } catch (FieldProgramException ex) {
             return false;
           }
-          fieldRecord[fldNdx++] = step.field;
+          fieldRecord[fldNdx++] = step.field.getProcField();
         }
       }
       
@@ -1700,7 +1700,7 @@ public class FieldProgramParser extends SmartAddressParser {
           
           // Keep a record of which fields successfully processed
           // which data fields
-          if (success && ndx < fieldRecord.length) fieldRecord[ndx] = field;
+          if (success && ndx < fieldRecord.length) fieldRecord[ndx] = field.getProcField();
         }
       } catch (FieldProgramException ex) {
         state.setResult(false);
@@ -1906,7 +1906,7 @@ public class FieldProgramParser extends SmartAddressParser {
     
     // default constructor
     public Field() {}
-    
+
     public Field(String pattern) {
       setPattern(pattern);
     }
@@ -2114,6 +2114,13 @@ public class FieldProgramParser extends SmartAddressParser {
      */
     public boolean doNotTrim() {
       return false;
+    }
+
+    /**
+     * @return field that really processed data
+     */
+    public Field getProcField() {
+      return this;
     }
   }
 

@@ -769,7 +769,10 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1070",
         "PNYY:SVER",
         "NQQE:1231 F 5GU FG",
-        "VASB:PNQ Gvzrf:\aPnyy Perngrq Gvzr: 10/23/13 18:15:42\aPnyy Qvfcngpurq Gvzr: 10/23/13 18:17:31\aPnyy Ra Ebhgr Gvzr: 10/23/13 18:19:10\aPnyy Ba Fprar Gvzr: 10/23/13 18:22:19\aPnyy Ernql Sbe Qvfcngpu Gvzr: 10/23/13 18:28:37\aHavg Fgnghf:\a10/23/13 18:17:32   RAT8   Qvfcngpurq   /\a10/23/13 18:19:11   RAT8   Ra Ebhgr   /\a10/23/13 18:22:20   RAT8   Ba Fprar   /\a10/23/13 18:22:26   RAT8   Havg Erznex   / RZF 1023\a10/23/13 18:26:41   RAT8   Havg Erznex   / PBAGEBY GVZR\a10/23/13 18:28:38   RAT8   Ninvynoyr   /\aPnyyre vasbezngvba\aPnyyre Cubar: (864) 110-0901\aERS GB N FHOW GUNG VF UNIVAT GEBHOYR OERNGUVAT",
+        "NCG:Oyqt:23119",
+        "CUBAR:(864) 110-0901",
+        "TCF:+34.813968,-82.602897",
+        "VASB:PNQ Gvzrf:\aPnyy Perngrq Gvzr: 10/23/13 18:15:42\aPnyy Qvfcngpurq Gvzr: 10/23/13 18:17:31\aPnyy Ra Ebhgr Gvzr: 10/23/13 18:19:10\aPnyy Ba Fprar Gvzr: 10/23/13 18:22:19\aPnyy Ernql Sbe Qvfcngpu Gvzr: 10/23/13 18:28:37\aHavg Fgnghf:\a10/23/13 18:17:32   RAT8   Qvfcngpurq   /\a10/23/13 18:19:11   RAT8   Ra Ebhgr   /\a10/23/13 18:22:20   RAT8   Ba Fprar   /\a10/23/13 18:22:26   RAT8   Havg Erznex   / RZF 1023\a10/23/13 18:26:41   RAT8   Havg Erznex   / PBAGEBY GVZR\a10/23/13 18:28:38   RAT8   Ninvynoyr   /\aERS GB N FHOW GUNG VF UNIVAT GEBHOYR OERNGUVAT",
         "HAVG:RAT8");
 
     qbGrfg("G46",
@@ -795,7 +798,10 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1070",
         "PNYY:SVER",
         "NQQE:1231 F 5GU FG",
-        "VASB:Pnyyre vasbezngvba\aPnyyre Cubar: (864) 110-0901\aERS GB N FHOW GUNG VF UNIVAT GEBHOYR OERNGUVAT",
+        "NCG:Oyqt:23119",
+        "TCF:+34.813968,-82.602897",
+        "CUBAR:(864) 110-0901",
+        "VASB:ERS GB N FHOW GUNG VF UNIVAT GEBHOYR OERNGUVAT",
         "HAVG:RAT8");
 
     qbGrfg("G48",
@@ -835,7 +841,8 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1070",
         "PNYY:SVER",
         "NQQE:101 JNYYNPR QEVIR",
-        "VASB:PNQ Gvzrf:\aPnyy Perngrq Gvzr: 10/23/13 16:27:02\aPnyy Qvfcngpurq Gvzr: 10/23/13 16:27:28\aPnyy Ra Ebhgr Gvzr: 10/23/13 16:28:28\aPnyy Ba Fprar Gvzr: 10/23/13 16:28:31\aPnyy Ra Ebhgr Gvzr: 10/23/13 16:28:34\aPnyy Ernql Sbe Qvfcngpu Gvzr: 10/23/13 16:31:16\aPnyy Pybfrq Gvzr: 10/23/13 16:31:18\aPnyy Qvfcbfvgvba : 5 - SVER PNYY PBZCYRGR\aHavg Fgnghf:\a10/23/13 16:27:28   RFGN1   Qvfcngpurq   /\a10/23/13 16:27:32   RAT4   Qvfcngpurq   /\a10/23/13 16:28:28   RAT4   Ra Ebhgr   /\a10/23/13 16:28:28   RAT4   Ra Ebhgr   /\a10/23/13 16:28:32   RFGN1   Ba Fprar   /\a10/23/13 16:28:35   RFGN1   Ra Ebhgr   /\a10/23/13 16:30:51   RFGN1   Ninvynoyr   /\a10/23/13 16:31:16   RAT4   Ninvynoyr   /\aPnyyre vasbezngvba\aPnyyre Cubar:\aERS GB 1046 XRLF",
+        "NCG:T101",
+        "VASB:PNQ Gvzrf:\aPnyy Perngrq Gvzr: 10/23/13 16:27:02\aPnyy Qvfcngpurq Gvzr: 10/23/13 16:27:28\aPnyy Ra Ebhgr Gvzr: 10/23/13 16:28:28\aPnyy Ba Fprar Gvzr: 10/23/13 16:28:31\aPnyy Ra Ebhgr Gvzr: 10/23/13 16:28:34\aPnyy Ernql Sbe Qvfcngpu Gvzr: 10/23/13 16:31:16\aPnyy Pybfrq Gvzr: 10/23/13 16:31:18\aPnyy Qvfcbfvgvba : 5 - SVER PNYY PBZCYRGR\aHavg Fgnghf:\a10/23/13 16:27:28   RFGN1   Qvfcngpurq   /\a10/23/13 16:27:32   RAT4   Qvfcngpurq   /\a10/23/13 16:28:28   RAT4   Ra Ebhgr   /\a10/23/13 16:28:28   RAT4   Ra Ebhgr   /\a10/23/13 16:28:32   RFGN1   Ba Fprar   /\a10/23/13 16:28:35   RFGN1   Ra Ebhgr   /\a10/23/13 16:30:51   RFGN1   Ninvynoyr   /\a10/23/13 16:31:16   RAT4   Ninvynoyr   /\aERS GB 1046 XRLF",
         "HAVG:RFGN1,RAT4");
 
     qbGrfg("G51",
@@ -847,7 +854,8 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1070",
         "PNYY:SVER",
         "NQQE:101 JNYYNPR QEVIR",
-        "VASB:PNQ Gvzrf:\aPnyy Perngrq Gvzr: 10/23/13 16:27:02\aPnyy Qvfcngpurq Gvzr: 10/23/13 16:27:28\aPnyy Ra Ebhgr Gvzr: 10/23/13 16:28:28\aPnyy Ba Fprar Gvzr: 10/23/13 16:28:31\aPnyy Ra Ebhgr Gvzr: 10/23/13 16:28:34\aHavg Fgnghf:\a10/23/13 16:27:28   RFGN1   Qvfcngpurq   /\a10/23/13 16:27:32   RAT4   Qvfcngpurq   /\a10/23/13 16:28:28   RAT4   Ra Ebhgr   /\a10/23/13 16:28:28   RAT4   Ra Ebhgr   /\a10/23/13 16:28:32   RFGN1   Ba Fprar   /\a10/23/13 16:28:35   RFGN1   Ra Ebhgr   /\a10/23/13 16:30:51   RFGN1   Ninvynoyr   /\aPnyyre vasbezngvba\aPnyyre Cubar:\aERS GB 1046 XRLF",
+        "NCG:T101",
+        "VASB:PNQ Gvzrf:\aPnyy Perngrq Gvzr: 10/23/13 16:27:02\aPnyy Qvfcngpurq Gvzr: 10/23/13 16:27:28\aPnyy Ra Ebhgr Gvzr: 10/23/13 16:28:28\aPnyy Ba Fprar Gvzr: 10/23/13 16:28:31\aPnyy Ra Ebhgr Gvzr: 10/23/13 16:28:34\aHavg Fgnghf:\a10/23/13 16:27:28   RFGN1   Qvfcngpurq   /\a10/23/13 16:27:32   RAT4   Qvfcngpurq   /\a10/23/13 16:28:28   RAT4   Ra Ebhgr   /\a10/23/13 16:28:28   RAT4   Ra Ebhgr   /\a10/23/13 16:28:32   RFGN1   Ba Fprar   /\a10/23/13 16:28:35   RFGN1   Ra Ebhgr   /\a10/23/13 16:30:51   RFGN1   Ninvynoyr   /\aERS GB 1046 XRLF",
         "HAVG:RAT4,RFGN1");
 
     qbGrfg("G52",
@@ -858,7 +866,8 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1070",
         "PNYY:SVER",
         "NQQE:101 JNYYNPR QEVIR",
-        "VASB:Pnyyre vasbezngvba\aPnyyre Cubar:\aERS GB 1046 XRLF",
+        "NCG:T101",
+        "VASB:ERS GB 1046 XRLF",
         "HAVG:RAT4,RFGN1");
 
     qbGrfg("G53",
@@ -869,7 +878,8 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1070",
         "PNYY:SVER",
         "NQQE:101 JNYYNPR QEVIR",
-        "VASB:Pnyyre vasbezngvba\aPnyyre Cubar:\aERS GB 1046 XRLF",
+        "NCG:T101",
+        "VASB:ERS GB 1046 XRLF",
         "HAVG:RAT4,RFGN1");
 
     qbGrfg("G54",
@@ -880,7 +890,8 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1070",
         "PNYY:SVER",
         "NQQE:101 JNYYNPR QEVIR",
-        "VASB:Pnyyre vasbezngvba\aPnyyre Cubar:\aERS GB 1046 XRLF",
+        "NCG:T101",
+        "VASB:ERS GB 1046 XRLF",
         "HAVG:RAT4,RFGN1");
 
     qbGrfg("G55",
@@ -891,7 +902,8 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1070",
         "PNYY:SVER",
         "NQQE:101 JNYYNPR QEVIR",
-        "VASB:Pnyyre vasbezngvba\aPnyyre Cubar:\aERS GB 1046 XRLF",
+        "NCG:T101",
+        "VASB:ERS GB 1046 XRLF",
         "HAVG:RAT4,RFGN1");
 
     qbGrfg("G56",
@@ -902,7 +914,8 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1070",
         "PNYY:SVER",
         "NQQE:101 JNYYNPR QEVIR",
-        "VASB:Pnyyre vasbezngvba\aPnyyre Cubar:\aERS GB 1046 XRLF",
+        "NCG:T101",
+        "VASB:ERS GB 1046 XRLF",
         "HAVG:RFGN1");
 
     qbGrfg("G57",
@@ -916,7 +929,10 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1046",
         "PNYY:NFFVFG ZBGBEVFG",
         "NQQE:101 JNYYNPR",
-        "VASB:PNQ Gvzrf:\aPnyy Perngrq Gvzr: 10/23/13 16:23:40\aPnyy Ra Ebhgr Gvzr: 10/23/13 16:26:05\aHavg Fgnghf:\a10/23/13 16:26:05   R33   Ra Ebhgr   /\a10/23/13 16:26:56   RFGN1   Qvfcngpurq   /\a10/23/13 16:26:58   RAT4   Qvfcngpurq   /\a10/23/13 16:27:24   RFGN1   Ninvynoyr   /\aPnyyre vasbezngvba\aPnyyre Cubar: 864-243-6263\aERS GB 1046 XRLF JVGU NA VASVGR VA GUR IRU OYHR TENL WRRC HAFHER VS VGF CBJRE YBPXF",
+        "NCG:T101 Oyqt:36263",
+        "CUBAR:864-243-6263",
+        "TCF:+34.819042,-82.623817",
+        "VASB:PNQ Gvzrf:\aPnyy Perngrq Gvzr: 10/23/13 16:23:40\aPnyy Ra Ebhgr Gvzr: 10/23/13 16:26:05\aHavg Fgnghf:\a10/23/13 16:26:05   R33   Ra Ebhgr   /\a10/23/13 16:26:56   RFGN1   Qvfcngpurq   /\a10/23/13 16:26:58   RAT4   Qvfcngpurq   /\a10/23/13 16:27:24   RFGN1   Ninvynoyr   /\aERS GB 1046 XRLF JVGU NA VASVGR VA GUR IRU OYHR TENL WRRC HAFHER VS VGF CBJRE YBPXF",
         "HAVG:R33,RAT4,RFGN1",
         "ANZR:ZNEL NAA EBOVAFBA");
 
@@ -930,7 +946,10 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1046",
         "PNYY:NFFVFG ZBGBEVFG",
         "NQQE:101 JNYYNPR",
-        "VASB:Pnyyre vasbezngvba\aPnyyre Cubar: 864-243-6263\aERS GB 1046 XRLF JVGU NA VASVGR VA GUR IRU OYHR TENL WRRC HAFHER VS VGF CBJRE YBPXF",
+        "NCG:T101 Oyqt:36263",
+        "CUBAR:864-243-6263",
+        "TCF:+34.819042,-82.623817",
+        "VASB:ERS GB 1046 XRLF JVGU NA VASVGR VA GUR IRU OYHR TENL WRRC HAFHER VS VGF CBJRE YBPXF",
         "HAVG:R33,RAT4,RFGN1",
         "ANZR:ZNEL NAA EBOVAFBA");
 
@@ -944,7 +963,10 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1046",
         "PNYY:NFFVFG ZBGBEVFG",
         "NQQE:101 JNYYNPR",
-        "VASB:Pnyyre vasbezngvba\aPnyyre Cubar: 864-243-6263\aERS GB 1046 XRLF JVGU NA VASVGR VA GUR IRU OYHR TENL WRRC HAFHER VS VGF CBJRE YBPXF",
+        "NCG:T101 Oyqt:36263",
+        "TCF:+34.819042,-82.623817",
+        "CUBAR:864-243-6263",
+        "VASB:ERS GB 1046 XRLF JVGU NA VASVGR VA GUR IRU OYHR TENL WRRC HAFHER VS VGF CBJRE YBPXF",
         "HAVG:R33,RFGN1",
         "ANZR:ZNEL NAA EBOVAFBA");
 
@@ -1270,8 +1292,11 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1070",
         "PNYY:SVER",
         "NQQE:309 R 1FG NIR",
+        "NCG:2",
         "PVGL:RNFYRL",
-        "VASB:PNQ Gvzrf:\aPnyy Perngrq Gvzr: 10/21/13 15:20:41\aPnyy Qvfcngpurq Gvzr: 10/21/13 15:21:32\aPnyy Ra Ebhgr Gvzr: 10/21/13 15:22:59\aPnyy Ba Fprar Gvzr: 10/21/13 15:25:44\aPnyy Ernql Sbe Qvfcngpu Gvzr: 10/21/13 15:42:16\aHavg Fgnghf:\a10/21/13 15:21:33   RFGN1   Qvfcngpurq   /\a10/21/13 15:21:36   PNE4   Qvfcngpurq   /\a10/21/13 15:22:59   PNE4   Ra Ebhgr   /\a10/21/13 15:25:41   PNE4   Havg Erznex   / S5 VA PBZZNAQ\a10/21/13 15:25:44   PNE4   Ba Fprar   /\a10/21/13 15:25:48   PNE4   Havg Erznex   / 1052 1023\a10/21/13 15:25:59   RFGN1   Ninvynoyr   /\a10/21/13 15:26:52   PNE4   Havg Erznex   / AB PNEQVNP NEERFG\a10/21/13 15:34:42   PNE4   Havg Erznex   / NFFVTAZRAG PBZCYRGR\a10/21/13 15:42:17   PNE4   Ninvynoyr   /\aPnyyre vasbezngvba\aPnyyre Cubar: 864-898-5565\aERS GB PNEQVNP NEERFG",
+        "CUBAR:864-898-5565",
+        "TCF:+34.830510,-82.598029",
+        "VASB:PNQ Gvzrf:\aPnyy Perngrq Gvzr: 10/21/13 15:20:41\aPnyy Qvfcngpurq Gvzr: 10/21/13 15:21:32\aPnyy Ra Ebhgr Gvzr: 10/21/13 15:22:59\aPnyy Ba Fprar Gvzr: 10/21/13 15:25:44\aPnyy Ernql Sbe Qvfcngpu Gvzr: 10/21/13 15:42:16\aHavg Fgnghf:\a10/21/13 15:21:33   RFGN1   Qvfcngpurq   /\a10/21/13 15:21:36   PNE4   Qvfcngpurq   /\a10/21/13 15:22:59   PNE4   Ra Ebhgr   /\a10/21/13 15:25:41   PNE4   Havg Erznex   / S5 VA PBZZNAQ\a10/21/13 15:25:44   PNE4   Ba Fprar   /\a10/21/13 15:25:48   PNE4   Havg Erznex   / 1052 1023\a10/21/13 15:25:59   RFGN1   Ninvynoyr   /\a10/21/13 15:26:52   PNE4   Havg Erznex   / AB PNEQVNP NEERFG\a10/21/13 15:34:42   PNE4   Havg Erznex   / NFFVTAZRAG PBZCYRGR\a10/21/13 15:42:17   PNE4   Ninvynoyr   /\aERS GB PNEQVNP NEERFG",
         "HAVG:RFGN1,PNE4",
         "ANZR:CPFB");
 
@@ -1300,8 +1325,11 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1070",
         "PNYY:SVER",
         "NQQE:309 R 1FG NIR",
+        "NCG:2",
         "PVGL:RNFYRL",
-        "VASB:PNQ Gvzrf:\aPnyy Perngrq Gvzr: 10/21/13 15:20:41\aPnyy Qvfcngpurq Gvzr: 10/21/13 15:21:32\aPnyy Ra Ebhgr Gvzr: 10/21/13 15:22:59\aPnyy Ba Fprar Gvzr: 10/21/13 15:25:44\aHavg Fgnghf:\a10/21/13 15:21:33   RFGN1   Qvfcngpurq   /\a10/21/13 15:21:36   PNE4   Qvfcngpurq   /\a10/21/13 15:22:59   PNE4   Ra Ebhgr   /\a10/21/13 15:25:41   PNE4   Havg Erznex   / S5 VA PBZZNAQ\a10/21/13 15:25:44   PNE4   Ba Fprar   /\a10/21/13 15:25:48   PNE4   Havg Erznex   / 1052 1023\a10/21/13 15:25:59   RFGN1   Ninvynoyr   /\aPnyyre vasbezngvba\aPnyyre Cubar: 864-898-5565\aERS GB PNEQVNP NEERFG",
+        "CUBAR:864-898-5565",
+        "TCF:+34.830510,-82.598029",
+        "VASB:PNQ Gvzrf:\aPnyy Perngrq Gvzr: 10/21/13 15:20:41\aPnyy Qvfcngpurq Gvzr: 10/21/13 15:21:32\aPnyy Ra Ebhgr Gvzr: 10/21/13 15:22:59\aPnyy Ba Fprar Gvzr: 10/21/13 15:25:44\aHavg Fgnghf:\a10/21/13 15:21:33   RFGN1   Qvfcngpurq   /\a10/21/13 15:21:36   PNE4   Qvfcngpurq   /\a10/21/13 15:22:59   PNE4   Ra Ebhgr   /\a10/21/13 15:25:41   PNE4   Havg Erznex   / S5 VA PBZZNAQ\a10/21/13 15:25:44   PNE4   Ba Fprar   /\a10/21/13 15:25:48   PNE4   Havg Erznex   / 1052 1023\a10/21/13 15:25:59   RFGN1   Ninvynoyr   /\aERS GB PNEQVNP NEERFG",
         "HAVG:PNE4,RFGN1",
         "ANZR:CPFB");
 
@@ -1313,8 +1341,11 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1070",
         "PNYY:SVER",
         "NQQE:309 R 1FG NIR",
+        "NCG:2",
         "PVGL:RNFYRL",
-        "VASB:Pnyyre vasbezngvba\aPnyyre Cubar: 864-898-5565\aERS GB PNEQVNP NEERFG",
+        "CUBAR:864-898-5565",
+        "TCF:+34.830510,-82.598029",
+        "VASB:ERS GB PNEQVNP NEERFG",
         "HAVG:PNE4,RFGN1",
         "ANZR:CPFB");
 
@@ -1326,8 +1357,11 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1070",
         "PNYY:SVER",
         "NQQE:309 R 1FG NIR",
+        "NCG:2",
         "PVGL:RNFYRL",
-        "VASB:Pnyyre vasbezngvba\aPnyyre Cubar: 864-898-5565\aERS GB PNEQVNP NEERFG",
+        "CUBAR:864-898-5565",
+        "TCF:+34.830510,-82.598029",
+        "VASB:ERS GB PNEQVNP NEERFG",
         "HAVG:RFGN1",
         "ANZR:CPFB");
 
@@ -1575,9 +1609,11 @@ choyvp pynff FPCvpxrafPbhaglAbVasbCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:1070",
         "PNYY:SVER",
         "NQQE:214 NCCYR UVYY EQ",
-        "VASB:PNQ Gvzrf:\aPnyy Perngrq Gvzr: 10/20/13 19:51:49\aPnyy Qvfcngpurq Gvzr: 10/20/13 19:53:53\aPnyy Ra Ebhgr Gvzr: 10/20/13 19:55:32\aPnyy Ra Ebhgr Gvzr: 10/20/13 19:55:34\aPnyy Ba Fprar Gvzr: 10/20/13 19:59:46\aPnyy Ernql Sbe Qvfcngpu Gvzr: 10/20/13 20:03:47\aHavg Fgnghf:\a10/20/13 19:53:53   RFGN1   Qvfcngpurq   /\a10/20/13 19:53:57   RAT1   Qvfcngpurq   /\a10/20/13 19:53:58   RAT2   Qvfcngpurq   /\a10/20/13 19:54:18   RAT1   Ninvynoyr   /\a10/20/13 19:55:24   RAT2   Havg Erznex   / PBQR 1\a10/20/13 19:55:34   RAT1   Ra Ebhgr   /\a10/20/13 19:55:34   RAT1   Ra Ebhgr   /\a10/20/13 19:55:42   RAT2   Ra Ebhgr   /\a10/20/13 19:59:46   RAT1   Ba Fprar   /\a10/20/13 20:00:00   RAT1   Havg Erznex   / PBZZNAQ 4\a10/20/13 20:01:18   RAT1   Havg Erznex   / RATVAR 2 PNA PNAPRY\a10/20/13 20:01:22   RAT2   Ninvynoyr   /\a10/20/13 20:01:53   RAT1   Havg Erznex   / PBAGEBY GVZR\a10/20/13 20:01:57   RFGN1   Ninvynoyr   /\a10/20/13 20:03:48   RAT1   Ninvynoyr   /\aPnyyre vasbezngvba\aPnyyre Cubar: (864) 511-1310\aERS GB CBEPU BA SVER PBZC NQIVFRQ VG JNF URE ARVOBEF TEVYY GURL GUVAX GURL ZNIR VG HAQRE PBAGEBY NGGUVF GVZR",
-        "HAVG:RFGN1,RAT1,RAT2",
-        "ANZR:NG&G ZBOVYVGL");
+        "NCG:Oyqt:15870",
+        "CUBAR:(864) 511-1310",
+        "TCF:+34.791867,-82.587941",
+        "VASB:PNQ Gvzrf:\aPnyy Perngrq Gvzr: 10/20/13 19:51:49\aPnyy Qvfcngpurq Gvzr: 10/20/13 19:53:53\aPnyy Ra Ebhgr Gvzr: 10/20/13 19:55:32\aPnyy Ra Ebhgr Gvzr: 10/20/13 19:55:34\aPnyy Ba Fprar Gvzr: 10/20/13 19:59:46\aPnyy Ernql Sbe Qvfcngpu Gvzr: 10/20/13 20:03:47\aHavg Fgnghf:\a10/20/13 19:53:53   RFGN1   Qvfcngpurq   /\a10/20/13 19:53:57   RAT1   Qvfcngpurq   /\a10/20/13 19:53:58   RAT2   Qvfcngpurq   /\a10/20/13 19:54:18   RAT1   Ninvynoyr   /\a10/20/13 19:55:24   RAT2   Havg Erznex   / PBQR 1\a10/20/13 19:55:34   RAT1   Ra Ebhgr   /\a10/20/13 19:55:34   RAT1   Ra Ebhgr   /\a10/20/13 19:55:42   RAT2   Ra Ebhgr   /\a10/20/13 19:59:46   RAT1   Ba Fprar   /\a10/20/13 20:00:00   RAT1   Havg Erznex   / PBZZNAQ 4\a10/20/13 20:01:18   RAT1   Havg Erznex   / RATVAR 2 PNA PNAPRY\a10/20/13 20:01:22   RAT2   Ninvynoyr   /\a10/20/13 20:01:53   RAT1   Havg Erznex   / PBAGEBY GVZR\a10/20/13 20:01:57   RFGN1   Ninvynoyr   /\a10/20/13 20:03:48   RAT1   Ninvynoyr   /\aERS GB CBEPU BA SVER PBZC NQIVFRQ VG JNF URE ARVOBEF TEVYY GURL GUVAX GURL ZNIR VG HAQRE PBAGEBY NGGUVF GVZR",
+        "HAVG:RFGN1,RAT1,RAT2");
 
   }
 
