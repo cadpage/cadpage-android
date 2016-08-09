@@ -7,5 +7,4 @@ public class INPulaskiCountyParser extends DispatchSPKParser {
   public INPulaskiCountyParser() {
     super("PULASKI COUNTY", "IN");
   }
-
 }
