@@ -649,6 +649,7 @@ class Active911Vendor extends Vendor {
       "US/MI/GogebicCounty",              "MIGogebicCounty",
       "US/MI/GrandTraverse",              "MIGrandTraverseCounty",
       "US/MI/GrandTraverseAttachment",    "MIGrandTraverseCounty",
+      "US/MI/GratiotCounty",              "MIGratiotCounty",
       "US/MI/InghamCounty",               "MIInghamCounty",
       "US/MI/IoscoCounty",                "MIIoscoCounty",
       "US/MI/Irisalert",                  "MIOaklandCountyB",
