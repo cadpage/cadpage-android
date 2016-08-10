@@ -314,6 +314,7 @@ class Active911Vendor extends Vendor {
       "US/CO/ArchuletaCounty",            "COArchuletaCounty",
       "US/CO/BentCounty",                 "COBentCounty",
       "US/CO/Bretsaps",                   "COBoulderCountyB",
+      "US/CO/BroomfieldCounty",           "COAdamsCounty,COBroomfieldCounty",
       "US/CO/ChaffeeCountySheriff",       "COChaffeeCounty",
       "US/CO/CityofDurango",              "COLaPlataCounty",
       "US/CO/CityofFortCarson",           "COElPasoCountyA",
