@@ -24,17 +24,26 @@ public class KSJohnsonCountyParser extends FieldProgramParser {
     return super.parseMsg(body, data);
   }
   
-  private class MyMapField extends MapField {
+  @Override
+  public Field getField(String name) {
+    if (name.equals("SRC")) return new MySourceField();
+    if (name.equals("MAP")) return new MyMapField();
+    return super.getField(name);
+  }
+  
+  private class MySourceField extends SourceField {
     @Override
     public void parse(String field, Data data) {
-      if (field.endsWith(".")) field = field.substring(0,field.length()-1).trim();
+      field = stripFieldEnd(field, ":");
       super.parse(field, data);
     }
   }
   
-  @Override
-  public Field getField(String name) {
-    if (name.equals("MAP")) return new MyMapField();
-    return super.getField(name);
+  private class MyMapField extends MapField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldEnd(field, ".");
+      super.parse(field, data);
+    }
   }
 }
