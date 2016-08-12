@@ -847,7 +847,7 @@ public class ParserList {
               ,"NJHunterdonCounty"              ,"Hunterdon County, NJ"
               ,"NJJCMCEMSJerseyCity"            ,"JCMC EMS Jersey City, NJ"
               ,"NJMarlboro"                     ,"Marlboro, NJ"
-              ,"NJMedCenter"                    ,"Med Center, NJ"
+              ,"NJMedCenter"                    ,"MedicalCentral, NJ"
               ,"NJMercerCounty"                 ,"Mercer County, NJ"
               ,"NJMICOM"                        ,"MICCOM (Northern NJ), NJ"
               ,"NJMiddlesexCounty"              ,"Middlesex County, NJ"

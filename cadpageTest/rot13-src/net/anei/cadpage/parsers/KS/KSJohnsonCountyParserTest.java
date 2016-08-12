@@ -52,6 +52,7 @@ WBPB RZP Nqq: 401 A Uneevfba Fg          Ncg:            Ybp:                 An
 Pbagnpg: Wreel Ubyyl <wreel.ubyyl@wbpbsq1.bet>
 Fraqre: 2183500185
 WBPB RZP Nqq: 440 R Znva Fg              Ncg:            Ybp: Tneqare Cbyvpr  Angher: Navzny Ovgr P2                 Tevq: 363/1 Vapvqrag# 15-1940216 Pebff:A ZHYOREEL FG/A JUVGR QE
+WBPB RZP: Nqq: J 199gu Fg & Tneqare Eq    Ncg:            Ybp:                 Angher: Vawhel Nppvqrag P2             Tevq: 411/1 Vapvqrag# 16-2200056 Pebff:
 
 Pbagnpg: Znex Ovyydhvfg <znexovyydhvfg@ajpsq.bet>
 Fraqre: rpp4@wbpbtbi.bet
@@ -222,6 +223,14 @@ choyvp pynff XFWbuafbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:363/1",
         "VQ:15-1940216",
         "K:A ZHYOREEL FG/A JUVGR QE");
+
+    qbGrfg("G2",
+        "WBPB RZP: Nqq: J 199gu Fg & Tneqare Eq    Ncg:            Ybp:                 Angher: Vawhel Nppvqrag P2             Tevq: 411/1 Vapvqrag# 16-2200056 Pebff:",
+        "FEP:WBPB RZP",
+        "NQQE:J 199gu Fg & Tneqare Eq",
+        "PNYY:Vawhel Nppvqrag P2",
+        "ZNC:411/1",
+        "VQ:16-2200056");
    
   }
   

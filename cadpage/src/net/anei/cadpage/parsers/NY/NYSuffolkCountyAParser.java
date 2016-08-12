@@ -26,10 +26,13 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
   private static final String[] KEYWORDS = new String[]{"TYPE", "LOC", "CROSS", "CODE", "TIME"};
 
   private static final Pattern CALL_ADDR_SPLIT_PTN = Pattern.compile(" +: +| {2,}");
-  private static final Pattern APT_PTN = Pattern.compile("(.*)[: ](?:APT|ROOM|UNIT|STE) +#?([^ ]+)");
+  private static final Pattern APT_PTN = Pattern.compile("(.*)[: ](?:APT|ROOM|UNIT|STE\\b|SUITE|#)(?!S) *#?([-A-Z0-9]+?)[- ]*");
   private static final Pattern PLACE_MARK_PTN = Pattern.compile(": ?@|@|:|;");
   private static final Pattern ADDR_CROSS_PTN = Pattern.compile("(.*)(?:[ :][SC]/S(?: ?=)?| X-| CX )(.*?)(?:\\.{2,} *(.*))?");
   private static final Pattern SPECIAL_PTN = Pattern.compile("(.*)(\\*\\*\\*_[_A-Z]+_\\*\\*\\*):?(.*)");
+  private static final Pattern TRAIL_MARK_PTN = Pattern.compile(" : *@?");
+  private static final Pattern TRAIL_APT_PTN = Pattern.compile("#?(\\d+[A-Z]?|[A-Z])");
+  private static final Pattern TRAIL_CALL_PTN = Pattern.compile("#[A-Z0-9]*\\d{3}_(.*)");
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -69,9 +72,14 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       } else {
         if (!good) return false;
         Matcher match = CALL_ADDR_SPLIT_PTN.matcher(data.strCall);
-        if (!match.find()) return false;
-        sAddress = data.strCall.substring(match.end());
-        data.strCall = data.strCall.substring(0,match.start());
+        if (match.find()) {
+          sAddress = data.strCall.substring(match.end());
+          data.strCall = data.strCall.substring(0,match.start());
+        } else {
+          String sTmp = data.strCall;
+          data.strCall = "";
+          parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, sTmp, data);
+        }
       }
     }
     if (sAddress != null) {
@@ -92,7 +100,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
         if (match.matches()) {
           sAddress = match.group(1).trim();
           data.strCross = append(match.group(2).trim(), " / ", data.strCross);
-          data.strPlace = append(getOptGroup(match.group(3)), " - ", data.strPlace);
+          parsePlaceField(getOptGroup(match.group(3)), data, false);
         }
         
         match = SPECIAL_PTN.matcher(sAddress);
@@ -112,12 +120,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
         String[] addrFlds = PLACE_MARK_PTN.split(sAddress, 3);
         if (addrFlds.length > 1) {
           sAddress = addrFlds[0].trim();
-          String place = addrFlds[1].trim();
-          if (NUMERIC.matcher(place).matches()) {
-            data.strApt = append(place, "-", data.strApt);
-          } else {
-            data.strPlace = append(place, " - ", data.strPlace);
-          }
+          parsePlaceField(addrFlds[1].trim(), data, true);
           if (addrFlds.length > 2) data.strSupp = append(data.strSupp, "\n", addrFlds[2].trim());
           match = APT_PTN.matcher(sAddress);
           if (match.matches()) {
@@ -154,10 +157,34 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
     
     data.strCity = convertCodes(data.strCity, CITY_TABLE);
     String sTime = props.getProperty("TIME", "");
+    Matcher match = TRAIL_MARK_PTN.matcher(sTime);
+    if (match.find()) {
+      parsePlaceField(sTime.substring(match.end()).trim(), data, false);
+      sTime = sTime.substring(0,match.start()).trim();
+    }
     if (sTime.length() > 5 && sTime.length() < 8) sTime = sTime.substring(0,5);
     if (sTime.length() >= 5) data.strTime = sTime;
     
     return true;
+  }
+
+  private void parsePlaceField(String field, Data data, boolean reverse) {
+    Matcher match2;
+    if ((match2 = TRAIL_APT_PTN.matcher(field)).matches()) {
+      data.strApt = append(data.strApt, "-", match2.group(1), reverse);
+    } else if ((match2 = TRAIL_CALL_PTN.matcher(field)).matches()) {
+      data.strCall = append(data.strCall, " - ", match2.group(1));
+    } else {
+      data.strPlace = append(data.strPlace, " - ", field, reverse);
+    }
+  }
+  
+  private String append(String field1, String connect, String field2, boolean reverse) {
+    if (reverse) {
+      return append(field2, connect, field1);
+    } else {
+      return append(field1, connect, field2);
+    }
   }
 
   static final Properties CITY_TABLE = buildCodeTable(new String[]{

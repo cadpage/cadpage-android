@@ -15,6 +15,11 @@ public class NJMedCenterParser extends FieldProgramParser {
   }
   
   @Override
+  public String getLocName() {
+    return  "MedicalCentral, NJ";
+  }
+
+  @Override
   public String getFilter() {
     return "cad@rwjuh.edu";
   }

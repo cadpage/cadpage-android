@@ -13,11 +13,16 @@ Erwrpg (ALAnffnhPbhaglU)
 
 PBagnpg: Cuvy A. <cavpbyn@angpn.arg>
 Fraqre: cntvat1@svererfphrflfgrzf.kbubfg.pbz
+Fraqre: cntvat@jnagntusvervasb.pbz
 
 300 ERFPHR \a3862 CNEX NIR\a** PF: SHYGBA NIR / WNPXFBA NIR \a\aGBN: 10:05 01-30-14 \a2014-000051
 320 ERFPHR - QVSS. OERNGUVAT \a2529 NQNZF PG\a** PF: OELNAG QE / QRNQ RAQ \a\aGBN: 21:59 01-29-14 \a2014-000050
 300 ERFPHR \a3864 ZREEVPX EQ\a** PF: F FRNZNAF ARPX EQ / CRANGVDHVG NIR \a\aGBN: 13:34 01-29-14 \a2014-000049 \a** ZNMR-YVXR PBAQVGVBAF VA O
 350 ERFPHR - SNYY \a3754 PUNEYRF PG\a** PF: FRNZNAF ARPX EQ / QRNQ RAQ \a\aGBN: 07:24 01-29-14 \a2014-000048
+670 PB QRGRPGBE NPGVINGVBA \a2526 BNX PG\a** PF: NEBA QE J / NEBA QE F \a\aGBN: 00:35 08-10-16 \a2016-000377
+310 ERFPHR - PNEQVNP \a3859 SENAXYVA NIR\a** PF: TENAG NIR / WNPXFBA NIR \a\a GBN: 22:38 08-09-16 \a 2016-000376
+300 ERFPHR \a3956 PYNEX FG\a** PF: ZBAEBR NIR / JNFUVATGBA NIR \a\a GBN: 16:10 08-07-16 \a 2016-000375
+210 ZNWBE-OYQT SVER NHGB NYZ \a4055 ZREEVPX EQ\a** PF: JNFUVATGBA NIR / FRNSBEQ NIR \a\a GBN: 18:22 08-11-16 \a 2016-000379 \a ** GUVF FGBER VF BCRA 24 U
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Frnsbeq SQ
@@ -138,7 +143,7 @@ choyvp pynff ALAnffnhPbhaglXCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   @Grfg
-  choyvp ibvq grfgCnefre1() {
+  choyvp ibvq grfgCuvyA() {
 
     qbGrfg("G1",
         "300 ERFPHR \a3862 CNEX NIR\a** PF: SHYGBA NIR / WNPXFBA NIR \a\aGBN: 10:05 01-30-14 \a2014-000051",
@@ -182,6 +187,49 @@ choyvp pynff ALAnffnhPbhaglXCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:07:24",
         "QNGR:01-29-14",
         "VQ:2014-000048");
+
+    qbGrfg("G5",
+        "670 PB QRGRPGBE NPGVINGVBA \a2526 BNX PG\a** PF: NEBA QE J / NEBA QE F \a\aGBN: 00:35 08-10-16 \a2016-000377",
+        "PNYY:670 PB QRGRPGBE NPGVINGVBA",
+        "NQQE:2526 BNX PG",
+        "K:NEBA QE J / NEBA QE F",
+        "GVZR:00:35",
+        "QNGR:08-10-16",
+        "VQ:2016-000377");
+
+    qbGrfg("G6",
+        "310 ERFPHR - PNEQVNP \a3859 SENAXYVA NIR\a** PF: TENAG NIR / WNPXFBA NIR \a\a GBN: 22:38 08-09-16 \a 2016-000376",
+        "PNYY:310 ERFPHR - PNEQVNP",
+        "NQQE:3859 SENAXYVA NIR",
+        "K:TENAG NIR / WNPXFBA NIR",
+        "GVZR:22:38",
+        "QNGR:08-09-16",
+        "VQ:2016-000376");
+
+    qbGrfg("G7",
+        "300 ERFPHR \a3956 PYNEX FG\a** PF: ZBAEBR NIR / JNFUVATGBA NIR \a\a GBN: 16:10 08-07-16 \a 2016-000375",
+        "PNYY:300 ERFPHR",
+        "NQQE:3956 PYNEX FG",
+        "K:ZBAEBR NIR / JNFUVATGBA NIR",
+        "GVZR:16:10",
+        "QNGR:08-07-16",
+        "VQ:2016-000375");
+
+    qbGrfg("G8",
+        "210 ZNWBE-OYQT SVER NHGB NYZ \a" +
+        "4055 ZREEVPX EQ\a" +
+        "** PF: JNFUVATGBA NIR / FRNSBEQ NIR \a\a" +
+        " GBN: 18:22 08-11-16 \a" +
+        " 2016-000379 \a" +
+        " ** GUVF FGBER VF BCRA 24 U",
+
+        "PNYY:210 ZNWBE-OYQT SVER NHGB NYZ",
+        "NQQE:4055 ZREEVPX EQ",
+        "K:JNFUVATGBA NIR / FRNSBEQ NIR",
+        "GVZR:18:22",
+        "QNGR:08-11-16",
+        "VQ:2016-000379",
+        "VASB:** GUVF FGBER VF BCRA 24 U");
 
   }
 
