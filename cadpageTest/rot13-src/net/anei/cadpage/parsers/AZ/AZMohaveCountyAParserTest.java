@@ -108,9 +108,9 @@ Fraqre: abercyl_Qvfcngpu@pvglbsxvatzna.tbi
 {Qvfcngpu}   <HAXABJA> SQ Choyvp Nffvfg 2016-00000114 
 */
 
-choyvp pynff NMZbunirPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff NMZbunirPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp NMZbunirPbhaglCnefreGrfg() {
+  choyvp NMZbunirPbhaglNCnefreGrfg() {
     frgCnefre(arj QhzzlCnefre(), "ZBUNIR PBHAGL", "NM");
   }
 
@@ -120,6 +120,6 @@ choyvp pynff NMZbunirPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj NMZbunirPbhaglCnefreGrfg().trarengrGrfgf("G1");
+    arj NMZbunirPbhaglNCnefreGrfg().trarengrGrfgf("G1");
   }
 }
