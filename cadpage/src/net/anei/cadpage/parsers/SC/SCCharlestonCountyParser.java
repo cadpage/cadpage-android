@@ -15,7 +15,7 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@charlestoncounty.org,8573031986";
+    return "@charlestoncounty.org,8573031986,2183500260";
   }
   
   @Override
@@ -48,23 +48,32 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
     FParser p = new FParser(body);
     
     int callLen;
-    if (p.check("Response Group*") || p.check("*")) callLen = 28;
-    else if (p.check("CHARLESTON COUNTY: ")) callLen = 29;
+    if (p.check("Response Group*") || p.check("*")) callLen = 29;
+    else if (p.check("CHARLESTON COUNTY: ")) callLen = 30;
     else callLen = -1;
     if (callLen > 0) {
       setFieldList("CALL ADDR APT X CH UNIT");
-      data.strCall = p.get(callLen);
-      if (!p.check(" ") || p.check(" ")) return false;
+      data.strCall = stripFieldStart(p.get(callLen), "*");
+      if (p.check(" ")) return false;
       parseAddress(p.get(39), data);
       if (!p.check(" ")) return false;
-      if (!p.check("X Streets:")) return false;
-      data.strCross = p.get(39);
-      p.setOptional();
-      if (!p.check(" ")) return false;
-      if (!p.check("Cmd Channel:")) return false;
-      data.strChannel = p.get(30);
-      if (!p.check("Unit Assigned:")) return false;
-      data.strUnit = p.get();
+      if (p.check("X Streets:")) {
+        data.strCross = p.get(39);
+        p.setOptional();
+        if (!p.check(" ")) return false;
+        if (!p.check("Cmd Channel:")) return false;
+        data.strChannel = p.get(30);
+        if (!p.check("Unit Assigned:")) return false;
+        data.strUnit = p.get();
+      } else if (p.check("X St:")) {
+        data.strCross = p.get(29);
+        p.setOptional();
+        if (!p.check(" ")) return false;
+        if (!p.check("Cmd Chan:")) return false;
+        data.strChannel = stripFieldStart(p.get(15), "_");
+        if (!p.check("Units:")) return false;
+        data.strUnit = p.get();
+      } else return false;
       if (body.length() < 176) data.expectMore = true;
       return true;
     }
