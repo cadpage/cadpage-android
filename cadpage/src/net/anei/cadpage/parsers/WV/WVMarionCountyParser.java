@@ -1,157 +1,48 @@
 package net.anei.cadpage.parsers.WV;
 
-import net.anei.cadpage.parsers.CodeSet;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
+import net.anei.cadpage.parsers.MsgParser;
 
-
-
-public class WVMarionCountyParser extends DispatchB2Parser {
+public class WVMarionCountyParser extends MsgParser {
   
   public WVMarionCountyParser() {
-    super("MARION_CO_911:", CITY_LIST, "MARION COUNTY", "WV");
-    setupCallList(CALL_LIST);
-    removeWords("PLACE");
-    setupMultiWordStreets(
-        "1/2 GASTON",
-        "1/2 SPEEDWAY",
-        "BEECHLICK RUN",
-        "BIG INDIAN RUN",
-        "BLUE HERON",
-        "BRICK HILL",
-        "BUNNERS RUN",
-        "CAMP RUN",
-        "COUNTRY CLUB",
-        "DAVIS RIDGE",
-        "EAST GRAFTON",
-        "EAST RUN",
-        "FOUR STATES",
-        "GRASSY RUN",
-        "HELENS RUN",
-        "HILL - TANK HILL",
-        "KOONS RUN",
-        "MODS RUN",
-        "ODELLS KNOB",
-        "PARRISH RUN",
-        "RADYPECK HOLLOW",
-        "ST BARBARAS",
-        "SUGAR CAMP",
-        "SUNNY CROFT",
-        "TYGART MALL",
-        "WHITE HALL",
-        "WOLFPIT RUN"
-    );
+    super("MARION COUNTY", "WV");
+    setFieldList("CALL ID DATE TIME ADDR APT CITY ST");
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
-    if (!super.parseMsg(body, data)) return false;
-    if (data.strCity.endsWith(" CO"))  data.strCity += "UNTY";
-    data.strCity = stripFieldEnd(data.strCity, " HARRCO");
-    return true;
+  public String getFilter() {
+    return "marion911cad@gmail.com,marion911cad@marioncounty911.org,marion911@marioncountywv.com";
   }
   
-  private static final String[] CITY_LIST = new String[]{
-    "ANMOORE",
-    "ARLINGTON",
-    "BARRACKVILLE",
-    "BAXTER",
-    "BEVERLEY HILLS",
-    "BIG RUN",
-    "BOOTHSVILLE TWP",
-    "BOOTHSVILLE",
-    "CAROLINA",
-    "CLARKSBURG",
-    "DESPARD",
-    "ENTERPRISE",
-    "FAIRMONT",
-    "FAIRVIEW",
-    "FARMINGTON",
-    "FOUR STATES",
-    "GLEN FALLS",
-    "GRANT TOWN",
-    "GRAYS FLAT",
-    "GYPSY",
-    "HEBRON",
-    "JIMTOWN",
-    "LOST CREEK",
-    "LUMBERPORT",
-    "MANNINGTON",
-    "METZ",
-    "MONONGAH",
-    "NUTTER FORT",
-    "PINE GROVE",
-    "PLEASANT VALLEY",
-    "RIVESVILLE",
-    "SALEM",
-    "SHINNSTON",
-    "STONEWOOD",
-    "STRINGTOWN",
-    "WEST MILFORD",
-    "WHITE HALL",
-    "WHITEHALL",
-    "WORTHINGTON",
-    "WYATT",
-    
-    "HARRISON COUNTY",
-    "HARRISON CO",
-    "HARRISON",
-    "LUMBERPORT HARRCO",
-    
-    "MARION COUNTY",
-    "MARION CO",
-    "MARION",
-    
-    "MONONGALIA COUNTY",
-    "MONONGALIA CO",
-    "MONONGALIA",
-    
-    "TAYLOR COUNTY",
-    "TAYLOR CO",
-    "TAYLOR",
-    
-    "WETZEL COUNNTY",
-    "WETZEL CO",
-    "WETZEL"
-  };
+  private static final Pattern MASTER = Pattern.compile("([A-Z]{3}\\d{10}) (\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)\\b *(.*)");
+  private static final Pattern STATE_ZIP_PTN = Pattern.compile("([A-Z]{2})(?: (\\d{5}))");
   
-  private static final CodeSet CALL_LIST = new CodeSet(
-      "ANIMAL COMPLAINT",
-      "AUTO FIRE ALARM COMMERCIAL",
-      "AUTO FIRE ALARM NON COMMERCIAL",
-      "BRUSH FIRE",
-      "CARDIAC ARREST",
-      "CHEST PAINS",
-      "CHIMNEY FIRE",
-      "CO ALARM",
-      "CVA",
-      "DETAIL",
-      "DIABETIC PROBLEM",
-      "DIFFICULTY IN BREATHING",
-      "DOMESTIC",
-      "EMERGENCY TRANSFER",
-      "GENERAL ILLNESS CALL",
-      "HEMORRHAGE",
-      "LIFELINE CALL",
-      "LOADING ASSISTANCE",
-      "MAN/WOMAN DOWN",
-      "MEDICAL PROBLEM",
-      "ON THE AIR",
-      "OVERDOSE",
-      "PIA-FALL",
-      "PIA-PERSONAL INJURY ACCIDENT",
-      "POSSIBLE CARDIAC",
-      "POWERLINES DOWN",
-      "ROCK SLIDE",
-      "SEIZURES",
-      "STRUCTURE FIRE",
-      "TRAINING-FIRE",
-      "TREE DOWN",
-      "UNCONSCIOUS PATIENT",
-      "UNRESPONSIVE PATIENT",
-      "VEHICLE ACCIDENT WITH ENTRAP",
-      "VEHICLE ACCIDENT WITH INJURY",
-      "VEHICLE FIRE WITH EXPOSURE",
-      "WELL-BEING CHECK"
- );
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    data.strCall = subject.length() > 0 ? subject : "ALERT";
+    
+    Matcher match = MASTER.matcher(body);
+    if (!match.matches()) return false;
+    data.strCallId = match.group(1);
+    data.strDate = match.group(2);
+    data.strTime = match.group(3);
+    String addr = match.group(4);
+    
+    Parser p = new Parser(addr);
+    String city = p.getLastOptional(',');
+    match = STATE_ZIP_PTN.matcher(city);
+    if (match.matches()) {
+      data.strState = match.group(1);
+      data.strCity = match.group(2);
+      city = p.getLastOptional(',');
+    }
+    data.strCity = city;
+    parseAddress(p.get(), data);
+    return true;
+  }
 }
