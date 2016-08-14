@@ -6,6 +6,8 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 
 
 /**
@@ -25,6 +27,16 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
   @Override
   public String getFilter() {
     return "e9web1@ongov.net,messaging@emergencysmc.com,@notifyatonce.net,messaging@iamresponding.com";
+  }
+
+  @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom(){
+      @Override public boolean splitBlankIns() { return false; }
+      @Override public boolean mixedMsgOrder() { return true; }
+      @Override public int splitBreakLength() { return 130; }
+      @Override public int splitBreakPad() { return 1; }
+    };
   }
 
   @Override
@@ -156,7 +168,13 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
       code = stripFieldEnd(code, "-default");
       code = stripFieldEnd(code, "-");
       data.strCode = code;
-      data.strCall = convertCodes(code, CALL_CODES);
+      String call = convertCodes(code, CALL_CODES);
+      int pt = call.indexOf(", PRIORITY ");
+      if (pt >= 0) {
+        data.strPriority = call.substring(pt+11).trim();
+        call = call.substring(0,pt).trim();
+      }
+      data.strCall = call;
     }
     
     @Override
@@ -206,6 +224,91 @@ public class NYOnondagaCountyAParser extends FieldProgramParser {
   }
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
+      
+      // New Numeric codes
+      "01A", "ABDOMINAL PAIN, PRIORITY 3",
+      "01C", "ABDOMINAL PAIN, PRIORITY 2",
+      "01D", "ABDOMINAL PAIN, PRIORITY 1",
+      "02A", "ALLERGIES or ENVENOMATIONS, PRIORITY 3",
+      "02B", "ALLERGIES or ENVENOMATIONS, PRIORITY 2",
+      "02C", "ALLERGIES or ENVENOMATIONS, PRIORITY 2",
+      "02D", "ALLERGIES or ENVENOMATIONS, PRIORITY 1",
+      "02E", "ALLERGIES or ENVENOMATIONS, PRIORITY 1",
+      "05A", "BACK PAIN, PRIORITY 3",
+      "05C", "BACK PAIN, PRIORITY 2",
+      "O5D", "BACK PAIN, PRIORITY 1",
+      "06C", "BREATHING PROBLEMS, PRIORITY 2",
+      "06D", "BREATHING PROBLEMS, PRIORITY 1",
+      "06E", "BREATHING PROBLEMS, PRIORITY 1",
+      "07A", "BURNS, PRIORITY 3",
+      "07B", "BURNS, PRIORITY 2",
+      "07C", "BURNS, PRIORITY 2",
+      "07D", "BURNS, PRIORITY 1",
+      "07E", "BURNS, PRIORITY 1",
+      "09B", "CARDIAC or RESPIRATORY ARREST, PRIORITY 2",
+      "09D", "CARDIAC or RESPIRATORY ARREST, PRIORITY 1",
+      "09E", "CARDIAC or RESPIRATORY ARREST, PRIORITY 1",
+      "10A", "CHEST PAINS, PRIORITY 3",
+      "10C", "CHEST PAINS, PRIORITY 2",
+      "10D", "CHEST PAINS, PRIORITY 1",
+      "11A", "CHOKING, PRIORITY 3",
+      "11D", "CHOKING, PRIORITY 1",
+      "11E", "CHOKING, PRIORITY 1",
+      "12A", "SEIZURES, PRIORITY 3",
+      "12B", "SEIZURES, PRIORITY 2",
+      "12C", "SEIZURES, PRIORITY 2",
+      "12D", "SEIZURES, PRIORITY 1",
+      "13A", "DIABETIC PROBLEM, PRIORITY 3",
+      "13C", "DIABETIC PROBLEM, PRIORITY 2",
+      "13D", "DIABETIC PROBLEM, PRIORITY 1",
+      "14A", "DROWNING, PRIORITY 3",
+      "15C", "ELECTROCUTION, PRIORITY 2",
+      "15D", "ELECTROCUTION, PRIORITY 1",
+      "15E", "ELECTROCUTION, PRIORITY 1",
+      "16A", "EYE PROBLEM or INJURY, PRIORITY 3",
+      "16B", "EYE PROBLEM or INJURY, PRIORITY 2",
+      "16D", "EYE PROBLEM or INJURY, PRIORITY 1",
+      "17A", "FALLS, PRIORITY 3",
+      "17B", "FALLS, PRIORITY 2",
+      "17D", "FALLS, PRIORITY 1",
+      "18A", "HEADACHE, PRIORITY 3",
+      "18B", "HEADACHE, PRIORITY 2",
+      "18C", "HEADACHE, PRIORITY 2",
+      "19A", "HEART PROBLEMS, PRIORITY 3",
+      "19C", "HEART PROBLEMS, PRIORITY 2",
+      "19D", "HEART PROBLEMS, PRIORITY 1",
+      "20A", "HEAT or COLD EXPOSURE, PRIORITY 3",
+      "20B", "HEAT or COLD EXPOSURE, PRIORITY 2",
+      "20C", "HEAT or COLD EXPOSURE, PRIORITY 2",
+      "20D", "HEAT or COLD EXPOSURE, PRIORITY 1",
+      "21A", "HEMORRHAGE or LACERATION, PRIORITY 3",
+      "21B", "HEMORRHAGE or LACERATION, PRIORITY 2",
+      "21C", "HEMORRHAGE or LACERATION, PRIORITY 2",
+      "21D", "HEMORRHAGE or LACERATION, PRIORITY 1",
+      "23B", "OVERDOSE or POISONING, PRIORITY 2",
+      "23C", "OVERDOSE or POISONING, PRIORITY 2",
+      "23D", "OVERDOSE or POISONING, PRIORITY 1",
+      "24A", "MATERNITY, PRIORITY 3",
+      "24B", "MATERNITY, PRIORITY 2",
+      "24C", "MATERNITY, PRIORITY 2",
+      "24D", "MATERNITY, PRIORITY 1",
+      "26A", "SICK PERSON, PRIORITY 3",
+      "26B", "SICK PERSON, PRIORITY 2",
+      "26C", "SICK PERSON, PRIORITY 2",
+      "26D", "SICK PERSON, PRIORITY 1",
+      "28A", "STROKE, PRIORITY 3",
+      "28C", "STROKE, PRIORITY 2",
+      "30A", "TRAUMATIC INJURY, PRIORITY 3",
+      "30B", "TRAUMATIC INJURY, PRIORITY 2",
+      "30D", "TRAUMATIC INJURY, PRIORITY 1",
+      "31A", "UNCONSCIOUS PERSON, PRIORITY 3",
+      "31C", "UNCONSCIOUS PERSON, PRIORITY 2",
+      "31D", "UNCONSCIOUS PERSON, PRIORITY 1",
+      "31E", "UNCONSCIOUS PERSON, PRIORITY 1",
+      "32B", "UNKNOWN PROBLEM, PRIORITY 2",
+      "32D", "UNKNOWN PROBLEM, PRIORITY 1",
+      
+      // Old alpha codes
       "ABC",        "ABC VIOLATION",
       "ABDT",       "ABDUCTION/KIDNAP",
       "AIR -C",     "AIRCRAFT - COMPLAINT",
