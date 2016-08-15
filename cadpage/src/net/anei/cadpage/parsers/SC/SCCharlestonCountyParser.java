@@ -55,20 +55,17 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
       setFieldList("CALL ADDR APT X CH UNIT");
       data.strCall = stripFieldStart(p.get(callLen), "*");
       if (p.check(" ")) return false;
-      parseAddress(p.get(39), data);
-      if (!p.check(" ")) return false;
+      parseAddress(p.get(40), data);
       if (p.check("X Streets:")) {
-        data.strCross = p.get(39);
+        data.strCross = p.get(40);
         p.setOptional();
-        if (!p.check(" ")) return false;
         if (!p.check("Cmd Channel:")) return false;
         data.strChannel = p.get(30);
         if (!p.check("Unit Assigned:")) return false;
         data.strUnit = p.get();
       } else if (p.check("X St:")) {
-        data.strCross = p.get(29);
+        data.strCross = p.get(30);
         p.setOptional();
-        if (!p.check(" ")) return false;
         if (!p.check("Cmd Chan:")) return false;
         data.strChannel = stripFieldStart(p.get(15), "_");
         if (!p.check("Units:")) return false;
