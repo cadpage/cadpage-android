@@ -7,7 +7,12 @@ public class NCMadisonCountyParser extends DispatchSouthernParser {
   
   
   public NCMadisonCountyParser() {
-    super(CITY_LIST, "MADISON COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID);
+    super(CITY_LIST, "MADISON COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID | DSFLAG_FOLLOW_CROSS | DSFLAG_ID_OPTIONAL);
+  }
+  
+  @Override
+  public String getFilter() {
+    return "e911@madisoncountync.org,@madisoncountync.gov";
   }
   
   private static final String[] CITY_LIST = new String[]{
