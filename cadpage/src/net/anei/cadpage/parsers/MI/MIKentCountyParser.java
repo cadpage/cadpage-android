@@ -17,7 +17,7 @@ public class MIKentCountyParser extends DispatchPremierOneParser {
     return "KCCC@Kent911.org";
   }
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("(.*) Fire Alert");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("(.*) (?:Med|Fire) Alert");
 
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
