@@ -27,7 +27,8 @@ public class PAChesterCountyParser extends GroupBestParser {
           new PAChesterCountyIParser(),
           new PAChesterCountyJParser(),
           new PAChesterCountyLParser(),
-          new PAChesterCountyMParser());
+          new PAChesterCountyMParser(),
+          new PAChesterCountyNParser());
   }
 
   @Override
