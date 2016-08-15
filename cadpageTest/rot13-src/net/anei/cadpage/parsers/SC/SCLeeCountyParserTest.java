@@ -11,7 +11,6 @@ Pbagnpg: Npgvir911
 Ntrapl anzr: Yrr Pbhagl Sver
 Ybpngvba: Ovfubcivyyr, FP, Havgrq Fgngrf
 Fraqre: <qvfcngpu@yrrpbhaglfp.bet>
-Fraqre: "Oenaqba Ubyybzna" <pncgubyybzna@sgp-v.arg>
 
 112 J V 20 OVFUBCIVYYR 03:56:50 NPPVQRAG 10-50 BAR PNE YRSG GUR EBNQJNL
 1 ERQ UVYY EQ @ FG WNZRF OVFUBCIVYYR 22:12:48 SVER 10-70 NHGB PNE
