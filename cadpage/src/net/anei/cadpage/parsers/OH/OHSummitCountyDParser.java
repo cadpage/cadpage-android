@@ -1,38 +1,48 @@
 package net.anei.cadpage.parsers.OH;
 
-import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchA5Parser;
+import net.anei.cadpage.parsers.SmartAddressParser;
 
 /**
  * Summit County, OH
  */
-public class OHSummitCountyDParser extends DispatchA5Parser {
-  
-  private static final Pattern UNIT_STRIP_PTN = Pattern.compile("^OH\\d+ +");
+public class OHSummitCountyDParser extends SmartAddressParser {
   
   public OHSummitCountyDParser() {
-    super(CITY_CODES, "SUMMIT COUNTY", "OH");
+    super("SUMMIT COUNTY", "OH");
+    setFieldList("CALL ID DATE TIME ADDR APT UNIT INFO");
   }
   
   @Override
   public String getFilter() {
-    return "MAKRINOSL@STOW.OH.US";
+    return "dispatch@police.kent.edu";
   }
+  
+  private static final Pattern MASTER = Pattern.compile("(.*?) (?:(\\d{4}-\\d{8}) )?(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d) \\d\\d:\\d\\d (.*)");
+  private static final Pattern MBLANK_PTN = Pattern.compile(" {2,}");
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!super.parseMsg(subject, body, data)) return false;
-    Matcher match = UNIT_STRIP_PTN.matcher(data.strUnit);
-    if (match.find()) data.strUnit = data.strUnit.substring(match.end());
+    if (!subject.equals("!")) return false;
+    Matcher match = MASTER.matcher(body);
+    if (!match.matches()) return false;
+    data.strCall = match.group(1).trim();
+    data.strCallId = getOptGroup(match.group(2));
+    data.strDate = match.group(3);
+    data.strTime = match.group(4);
+    
+    for (String part : MBLANK_PTN.split(match.group(5))) {
+      if (data.strAddress.length() == 0) {
+        parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, part, data);
+      } else if (part.startsWith("Dispatch received by unit ")) {
+        data.strUnit = append(data.strUnit, " ", part.substring(26).trim());
+      } else {
+        data.strSupp = append(data.strSupp, "\n", part);
+      }
+    }
     return true;
   }
-  
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "BrimTwpPC",    "Brimfield Twp",
-  });
-  
 }
