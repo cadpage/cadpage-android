@@ -6,10 +6,10 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   choyvp fgngvp svany Cnggrea ZNFGRE =
-      Cnggrea.pbzcvyr("NYG#(\\q{3}-\\q{3}-\\q{4})([-+]\\q{1,3}\\.\\q{7})([-+]\\q{1,3}\\.\\q{7})");
+      Cnggrea.pbzcvyr("(.*?) (?:(\\q{4}-\\q{8}) )?(\\q\\q/\\q\\q/\\q\\q) (\\q\\q:\\q\\q) \\q\\q:\\q\\q (.*)");
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("NYG#731-442-1970-88.8705291+36.323127");
+    qbGrfg("FGBC 2016-00013523 08/16/16 06:01 06:01 SENAXYVA EQ XRAG EQ  Qvfcngpu erprvirq ol havg 751  CP");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

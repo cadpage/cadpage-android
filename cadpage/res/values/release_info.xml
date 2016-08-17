@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">08122016</string>
+  <string name="release_date">08152016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.08\n
+New Location:\n
+Miami County, IN\n
+Kingman County, KS\n
+St James Parish, LA\n
+Chester County, PA (alt)\n
+Lee County, SC\n
+\n
+Location Fixes:\n
+Story County, IA\n
+Kent County, MI\n
+Freeborn County, MN\n
+Madison County, NC\n
+Onondaga County, NY\n
+Charleston County, SC\n
+Marion County, WV\n
+\n
 v1.9.10.07\n
 Location Fixes:\n
 Pulaski County, IN\n
@@ -37,22 +54,7 @@ Shelby County, AL\n
 Stanislaus County, CA\n
 Stark County, OH\n
 Kaufman County, TX\n
-Dallas County, TX\n
-\n
-v1.9.10.03\n
-New Locations:\n
-Carter County, KY\n
-Johnson County, KY\n
-Bingham County, ID\n
-Cook County, IL (alt)\n
-Lake County, IL (alt)\n
-Dallas County, IA\n
-Waukesha County, WI (alt)\n
-Weakley County, TN\n
-Racine County, WI (alt)\n
-\n
-Location Fixes:\n
-Too many to list
+Dallas County, TX
   </string>
 </resources>
   

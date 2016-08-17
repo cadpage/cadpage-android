@@ -20,7 +20,7 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
  
   public MDWashingtonCountyParser() {
     super(CITY_LIST, "WASHINGTON COUNTY", "MD",
-        "ADDR/SXP CITY? X? CALL! CALL+? ( TRAIL1% END | UNIT UNIT+? ( TRAIL2% END | INFO+? TRAIL3% END ) )");
+        "ADDR/SXP CITY? ( PLACE X | X | ) CALL! CALL+? ( TRAIL1% END | UNIT UNIT+? ( TRAIL2% END | INFO+? TRAIL3% END ) )");
     addExtendedDirections();
     removeWords("CV");
   }
@@ -341,6 +341,8 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     "THURMONT",
     "WASH TWP",
     "WASHINGTON TWNSP",
+    "WASHINGTON TWP",
+    "WAYNESBORO",
     
     // Jefferson County
     "SHEPHERDSTOWN"
@@ -368,6 +370,7 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
       "FRANKLIN COUNTY",  "PA",
       "FULTON COUNTY",    "PA",
       "WASHINGTON TWP",   "PA",
+      "WAYNESBORO",       "PA",
       
       "LOUDOUN COUNTY",   "VA",
       
