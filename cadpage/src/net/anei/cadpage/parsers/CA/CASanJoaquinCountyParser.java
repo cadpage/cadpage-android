@@ -53,7 +53,8 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
   
   private static final Pattern RUN_REPORT_PTN1 = Pattern.compile("([-A-Z0-9]+) +(?:(\\d{8}|[A-Z]{2,5}-\\d{6}) +)?(Dispatched:.*?Enroute:.*?On Scene:.*?(?:AOR|Clear Call):.*)");
   private static final Pattern RUN_REPORT_PTN2 = Pattern.compile("RUN REPORT CAD ?#(\\d{8}|[A-Z]{2,5}-\\d{6}) +([-\\(\\)A-Z0-9]{1,10}) *((?:Dispatched:.*Enroute:.*On Scene:.*AOR:|Disp:.*Resp:.*On Scene:.*TX:.*Dest:.*AOR:).*)");
-  private static final Pattern RUN_REPORT_PTN3 = Pattern.compile("([-A-Z0-9]+) +CAD ID #: +Run \\(PCR#\\):(\\d+)\\*RUN REPORT\\*(.*?)STmiles/Emiles/Grid/\\S* *Map/(\\S*) *Area/.*");
+  private static final Pattern RUN_REPORT_PTN3 = Pattern.compile("([-A-Z0-9]+) +CAD ID #: +Run \\(PCR#\\):(\\d+)\\*RUN REPORT\\*(.*?)STmiles/[\\d\\.]* *Emiles/[\\d\\.]* *Grid/.*? *Map/(\\S*) *Area/.*");
+  private static final Pattern RUN_REPORT_PTN4 = Pattern.compile("(Late Scene Arrival)(\\d{8}) *(\\S+) (\\d\\d:\\d\\d:\\d\\d)(\\d\\d:\\d\\d:\\d\\d)?");
   private static final Pattern RR_ID1_PTN = Pattern.compile("[A-Z]{2,3}-\\d{6}");
   private static final Pattern RR_UNIT_PTN = Pattern.compile("[A-Z0-9]+");
   private static final Pattern RR_TIME_PTN = Pattern.compile("\\d\\d:\\d\\d:\\d\\d|");
@@ -97,10 +98,27 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
     if (match.matches()) {
       setFieldList("UNIT ID INFO MAP");
       data.msgType = MsgType.RUN_REPORT;
-      data.strCallId = match.group(1);
-      data.strUnit = match.group(2);
+      data.strUnit = match.group(1);
+      data.strCallId = match.group(2);
       data.strSupp = cleanRunReportText(match.group(3));
       data.strMap = match.group(4);
+      return true;
+    }
+    
+    match = RUN_REPORT_PTN4.matcher(body);
+    if (match.matches()) {
+      setFieldList("CALL ID UNIT INFO");
+      data.msgType = MsgType.RUN_REPORT;
+      data.strCall = match.group(1);
+      data.strCallId = match.group(2);
+      data.strUnit = match.group(3);
+      String time1 = match.group(4);
+      String time2 = match.group(5);
+      if (time2 != null) {
+        data.strSupp = "Dispatched: " + time1 + "\nArrived: " + time2;
+      } else {
+        data.strSupp = "Arrived: " + time1;
+      }
       return true;
     }
     
@@ -214,7 +232,10 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
       String respPlan = p.get(50);
       if (respPlan.length() > 0) respPlan = "Resp Plan:" + respPlan;
       if (!p.check("GPS:")) break;
-      String gps = p.get();
+      String gps = p.get(80);
+      p.setOptional();
+      if (!p.check("  Incident Comments:")) break;
+      String info = p.get();
       
       setFieldList("UNIT ID CALL PLACE ADDR CITY X APT INFO GPS");
       addUnitField(unit, data);
@@ -226,7 +247,7 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
       data.strCross = cleanCrossField(cross);
       data.strApt = append(apt1, "-", data.strApt);
       data.strApt = append(data.strApt, "-", apt2);
-      data.strSupp = respPlan;
+      data.strSupp = append(respPlan, "\n", cleanInfo(info));
       setGPSLoc(convertGPS(gps), data);
       return true;
       
@@ -461,6 +482,20 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
     Matcher match = GPS_PTN.matcher(gps);
     if (!match.matches()) return "";
     return match.group(1)+'.'+match.group(2)+','+match.group(3)+'.'+match.group(4);
+  }
+  
+  private static final Pattern INFO_DELIM_PTN = Pattern.compile("[, ]*\\[[^\\[\\]]*\\][, ]*| {3,}");
+  private static final Pattern INFO_JUNK_PTN = Pattern.compile("PSAP Caller Source:.*");
+  
+  private String cleanInfo(String info) {
+    StringBuilder sb = new StringBuilder();
+    for (String part : INFO_DELIM_PTN.split(info)) {
+      if (part.length() == 0) continue;
+      if (INFO_JUNK_PTN.matcher(part).matches()) continue;
+      if (sb.length() > 0) sb.append('\n');
+      sb.append(part);
+    }
+    return sb.toString();
   }
 
   
