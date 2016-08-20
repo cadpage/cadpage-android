@@ -21,7 +21,7 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    // STrip off text msg heading
+    // Strip off text msg heading
     if (body.startsWith("/ Dispatch Info / ")) {
       subject = "Dispatch Info";
       body = body.substring(18).trim();
@@ -69,6 +69,10 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
         if (!p.check("Cmd Chan:")) return false;
         data.strChannel = stripFieldStart(p.get(15), "_");
         if (!p.check("Units:")) return false;
+        data.strUnit = p.get();
+      } else if (p.check("C:")) {
+        data.strChannel = stripFieldStart(p.get(15), "_");
+        if (!p.check("U:")) return false;
         data.strUnit = p.get();
       } else return false;
       if (body.length() < 176) data.expectMore = true;
