@@ -7,13 +7,10 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 
 
 public class MDAlleganyCountyParser extends FieldProgramParser {
-  
-  private static final Pattern SUBJECT_PTN = Pattern.compile("CAD|Company +([^ ]+)");
-  private static final Pattern MARKER = Pattern.compile("(\\d\\d:\\d\\d) #(\\d+) +");
-  private static final Pattern MASTER2 = Pattern.compile("(\\d\\d?:\\d\\d?:\\d\\d?) +(.*) ([A-Z]{2}\\d{10})");
   
   public MDAlleganyCountyParser() {
     super("ALLEGANY COUNTY", "MD",
@@ -27,6 +24,11 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
   public String getFilter() {
     return "acgov_911_cad@allconet.org,cad911@alleganygov.org,messaging@iamresponding.com";
   }
+  
+  private static final Pattern SUBJECT_PTN = Pattern.compile("CAD|Company +([^ ]+)");
+  private static final Pattern ENROUTE_PTN = Pattern.compile("(\\d\\d:\\d\\d) +([A-Z0-9]+) +(Is Enroute) To: (.*)");
+  private static final Pattern MARKER = Pattern.compile("(\\d\\d:\\d\\d) #(\\d+) +");
+  private static final Pattern MASTER2 = Pattern.compile("(\\d\\d?:\\d\\d?:\\d\\d?) +(.*) ([A-Z]{2}\\d{10})");
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -34,6 +36,17 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
     Matcher match = SUBJECT_PTN.matcher(subject);
     if (!match.matches()) return false;
     data.strSource = getOptGroup(match.group(1));
+    
+    match = ENROUTE_PTN.matcher(body);
+    if (match.matches()) {
+      setFieldList("TIME UNIT CALL PLACE ADDR APT CITY");
+      data.msgType = MsgType.RUN_REPORT;
+      data.strTime = match.group(1);
+      data.strUnit = match.group(2);
+      data.strCall = match.group(3);
+      parseAddressField(false, match.group(4).trim(), data);
+      return true;
+    }
     
     do {
       match = MARKER.matcher(body);
@@ -75,18 +88,35 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
 
-  private static final Pattern CITY_PTN1 = Pattern.compile("(.*); *([A-Z]+)");
-  private static final Pattern CITY_PTN2 = Pattern.compile("(.*), *(PIEDMONT)");
-  private static final Pattern APT_PTN = Pattern.compile("(.*)\\b(?:APT|(FLR?)) +([^ ]+)");
-  private static final Pattern ROUTE_PERIOD_PTN = Pattern.compile("\\b(US|RT|MD)\\.(\\d+)");
-  private static final Pattern CODE_PTN = Pattern.compile("(.*?) (\\d\\d?[A-Z]\\d\\d?[A-Z]?) (.*)");
-  private static final Pattern MM_PTN = Pattern.compile("\\bMM\\b");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      
-      StartType st = StartType.START_CALL_PLACE;
-      int flags = FLAG_START_FLD_REQ;
+      if (!parseAddressField(true, field, data)) abort();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CALL CODE PLACE ADDR APT CITY ST";
+    }
+  }
+  
+  private static final Pattern MBLANK_PTN = Pattern.compile(" {2,}");
+  private static final Pattern CODE_PTN = Pattern.compile("(.*?) (\\d\\d?[A-Z]\\d\\d?[A-Z]?) (.*)");
+  
+  private static final Pattern CITY_PTN1 = Pattern.compile("(.*); *([A-Z]+)");
+  private static final Pattern CITY_PTN2 = Pattern.compile("(.*), *(PIEDMONT)");
+  private static final Pattern APT_PTN = Pattern.compile("(.*)\\b(?:APT|(FLR?)) +([^ ]+)");
+  private static final Pattern PLACE_ADDR_APT_PTN = Pattern.compile("(?:(.*?) @?)?\\*(.*)\\* *(.*)");
+  private static final Pattern ROUTE_PERIOD_PTN = Pattern.compile("\\b(US|RT|MD)\\.(\\d+)");
+  private static final Pattern MM_PTN = Pattern.compile("\\bMM\\b");
+  
+  public boolean parseAddressField(boolean parseCall, String field, Data data) {
+
+    StartType st = StartType.START_PLACE;
+    int flags = 0;
+    if (parseCall) {
+      st = StartType.START_CALL_PLACE;
+      flags = FLAG_START_FLD_REQ;
       Matcher match = CODE_PTN.matcher(field);
       if (match.matches()) {
         st = StartType.START_PLACE;
@@ -95,120 +125,127 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
         data.strCode = match.group(2);
         field = match.group(3).trim();;
       }
+    }
+    
+    Matcher match = CITY_PTN1.matcher(field);
+    if (match.matches()) {
+      field = match.group(1).trim();
+      data.strCity = convertCodes(match.group(2), CITY_CODES);
+    }
+    
+    String apt = "";
+    match = APT_PTN.matcher(field);
+    if (match.matches()) {
+      field = match.group(1).trim();
+      String tmp = match.group(2);
+      apt = match.group(3);
+      if (tmp != null) apt = tmp + ' ' + apt;
+    }
+    
+    int pt = field.lastIndexOf('*');
+    if (pt >= 0) {
+      pt = field.indexOf('@', pt+1);
+      if (pt >= 0) {
+        st = (st == StartType.START_CALL_PLACE ? StartType.START_CALL : StartType.START_ADDR);
+        data.strPlace = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+        field = stripFieldEnd(field, "[");
+      }
+    }
+    
+    // Sometimes the address / place is enclosed in asterisks
+    // Sometimes the place name is inside the asterisks leading or following
+    // the address.  Sometimes it precedes the asterisks.  Just have to be
+    // flexible
+    match = PLACE_ADDR_APT_PTN.matcher(field);
+    if (match.matches()) {
+      String callPlace = getOptGroup(match.group(1));
+      callPlace = MBLANK_PTN.matcher(callPlace).replaceAll(" ");
+      field = match.group(2).trim();
+      apt = append(match.group(3).trim(), "-", apt);
       
-      match = CITY_PTN1.matcher(field);
+      if (st == StartType.START_CALL){
+        data.strCall = callPlace;
+      } else if (st ==  StartType.START_CALL_PLACE){
+        data.strCall = CALL_LIST.getCode(callPlace, true);
+        if (data.strCall != null) {
+          String place = callPlace.substring(data.strCall.length()).trim();
+          data.strPlace = append(place, " - ", data.strPlace);
+        } else {
+          data.strCall = callPlace;
+        }
+      } else {
+        data.strPlace = append(callPlace, " - ", data.strPlace);
+      }
+      
+      boolean foundCity = false;
+      match = CITY_PTN2.matcher(field);
+      if (match.matches()) {
+        foundCity = true;
+        field = match.group(1).trim();
+        data.strCity = match.group(2);
+      }
+      
+      pt = -1;
+      if (data.strPlace.length() == 0) pt = field.indexOf("  ");
+      if (pt >=0) {
+        String fld1 = field.substring(0,pt).trim();
+        String fld2 = field.substring(pt+2).trim();
+        Result res1 = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, fld1);
+        Result res2 = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, fld2);
+        if (!foundCity && res1.getStatus() > res2.getStatus()) {
+          res2 = res1;
+          fld1 = fld2;
+        }
+        data.strPlace = fld1;
+        res2.getData(data);
+      } else {
+        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field, data);
+      }
+      
+      if (data.strAddress.length() == 0) return false;
+    }
+    
+    if (data.strAddress.length() == 0) {
+      field = ROUTE_PERIOD_PTN.matcher(field).replaceAll("$1 $2");
+      field = field.replace('€', '@');
+      match = CITY_PTN2.matcher(field);
       if (match.matches()) {
         field = match.group(1).trim();
-        data.strCity = convertCodes(match.group(2), CITY_CODES);
+        data.strCity = match.group(2);
       }
+      flags |= FLAG_AT_BOTH | FLAG_ALLOW_DUAL_DIRECTIONS;
+      parseAddress(st, flags, field, data);
       
-      String apt = "";
-      match = APT_PTN.matcher(field);
-      if (match.matches()) {
-        field = match.group(1).trim();
-        String tmp = match.group(2);
-        apt = match.group(3);
-        if (tmp != null) apt = tmp + ' ' + apt;
-      }
-      
-      if (!field.endsWith("*")) {
-        int pt = field.indexOf('@');
-        if (pt >= 0) {
-          st = st == StartType.START_CALL_PLACE ? StartType.START_CALL : StartType.START_ADDR;
-          data.strPlace = field.substring(pt+1).trim();
-          field = field.substring(0,pt).trim();
-          field = stripFieldEnd(field, "[");
-        }
-      }
-      
-      // Sometimes the address / place is enclosed in asterisks
-      // Sometimes the place name is inside the asterisks leading or following
-      // the address.  Sometimes it preceeds the asterisks.  Just have to be
-      // flexible
-      if (field.endsWith("*")) {
-        field = field.substring(0,field.length()-1).trim();
-        int pt = field.lastIndexOf('*');
-        if (pt >= 0) {
-          String callPlace = field.substring(0,pt).trim();
-          callPlace = stripFieldEnd(callPlace, "@");
-          field = field.substring(pt+1).trim();
-          
-          if (st == StartType.START_PLACE) {
-            data.strPlace = callPlace;
-          } else if (st == StartType.START_CALL){
-            data.strCall = callPlace;
-          } else {
-            data.strCall = CALL_LIST.getCode(callPlace, true);
-            if (data.strCall != null) {
-              data.strPlace = callPlace.substring(data.strCall.length()).trim();
-            } else {
-              data.strCall = callPlace;
-            }
-          }
-          
-          boolean foundCity = false;
-          match = CITY_PTN2.matcher(field);
-          if (match.matches()) {
-            foundCity = true;
-            field = match.group(1).trim();
-            data.strCity = match.group(2);
-          }
-          
-          pt = -1;
-          if (data.strPlace.length() == 0) pt = field.indexOf("  ");
-          if (pt >=0) {
-            String fld1 = field.substring(0,pt).trim();
-            String fld2 = field.substring(pt+2).trim();
-            Result res1 = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, fld1);
-            Result res2 = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS | FLAG_ANCHOR_END, fld2);
-            if (!foundCity && res1.getStatus() > res2.getStatus()) {
-              res2 = res1;
-              fld1 = fld2;
-            }
-            data.strPlace = fld1;
-            res2.getData(data);
-          } else {
-            parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field, data);
-          }
-          
-          if (data.strAddress.length() == 0) abort();
-        }
-      }
-      
-      if (data.strAddress.length() == 0) {
-        field = ROUTE_PERIOD_PTN.matcher(field).replaceAll("$1 $2");
-        field = field.replace('€', '@');
-        match = CITY_PTN2.matcher(field);
-        if (match.matches()) {
-          field = match.group(1).trim();
-          data.strCity = match.group(2);
-        }
-        flags |= FLAG_ALLOW_DUAL_DIRECTIONS;
-        parseAddress(st, flags, field, data);
-        
-        if (st == StartType.START_CALL_PLACE || st == StartType.START_PLACE) {
-          if (MM_PTN.matcher(data.strPlace).find()) {
-            data.strAddress = append(data.strPlace, " ", data.strAddress);
-            data.strPlace = "";
-          }
-        }
-        data.strPlace = append(data.strPlace, " - ", getLeft());
-  
-        if (data.strAddress.length() == 0) {
-          parseAddress(data.strPlace, data);
+      if (st == StartType.START_CALL_PLACE || st == StartType.START_PLACE) {
+        if (!data.strAddress.startsWith("INTERSTATE") && MM_PTN.matcher(data.strPlace).find()) {
+          data.strAddress = append(data.strPlace, " ", data.strAddress);
           data.strPlace = "";
         }
       }
-      
-      data.strApt = append(data.strApt, "-", apt);
-      
-      if (data.strCity.equals("PIEDMONT")) data.strState = "WV";
+      String left = getLeft();
+      if (MM_PTN.matcher(left).find()) {
+        data.strAddress = append(data.strAddress, " ", left);
+      } else {
+        data.strPlace = append(data.strPlace, " - ", getLeft());
+      }
+
+      if (data.strAddress.length() == 0) {
+        parseAddress(data.strPlace, data);
+        data.strPlace = "";
+      }
     }
     
-    @Override
-    public String getFieldNames() {
-      return "CALL CODE PLACE ADDR APT CITY ST";
+    if (data.strAddress.startsWith("INTERSTATE") && MM_PTN.matcher(data.strPlace).find()) {
+      String tmp = data.strAddress;
+      data.strAddress = data.strPlace;
+      data.strPlace = tmp;
     }
+    
+    data.strApt = append(data.strApt, "-", apt);
+    
+    if (data.strCity.equals("PIEDMONT")) data.strState = "WV";
+    return true;
   }
 
   private static final String[] MWORD_STREET_LIST = new String[]{
@@ -217,17 +254,23 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
       "ASCAR FARM",
       "BARTLETT RUN",
       "BEACH VIEW",
+      "BEALL SCHOOL",
       "BEALLS MILL",
       "BEANS COVE",
       "BEDFORD VALLEY",
+      "BIG VEIN",
       "BISHOP MURPHY",
+      "BISHOP WALSH",
       "BLAN AVON",
       "BLOOMING FIELDS",
       "BLUE VALLEY",
+      "BROKEN HART MINE",
+      "BURKE HILL",
       "BURNING MINES",
       "BURTON PARK",
       "BUSKIRK HOLLOW",
       "CABIN RUN",
+      "CAMPERS HILL",
       "CANAL FERRY",
       "CANNON RUN",
       "CARL HARVEY",
@@ -236,6 +279,8 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
       "CHURCH HILL",
       "CLEMENT ARMSTRONG",
       "COON CLUB",
+      "COUNTRY CLUB MALL",
+      "COUNTRY CLUB",
       "CREEK BOTTOM",
       "CREEK SIDE",
       "DANS ROCK",
@@ -246,11 +291,14 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
       "DRY RUN",
       "ECKHART CEMETERY",
       "ECKHART MINES",
+      "EVITTS CREEK",
       "FIR TREE",
+      "FORT CUMBERLAND",
       "FRANTZ HOLLOW",
       "FROSTBURG TRAILHEAD",
       "GEORGES CREEK SOUTH MILL",
       "GEORGES CREEK",
+      "GOLDEN CROSS",
       "GRAVEL HILL",
       "HAMPTON INN",
       "HENRY RUSSELL",
@@ -259,7 +307,11 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
       "HOFFMAN HOLLOW",
       "IRONS MOUNTAIN",
       "KENNELLS MILL",
+      "KNOBLEY VIEW",
+      "KYLE HILL",
+      "LAKE GORDON",
       "LAURA LEE",
+      "LAUREL RUN CEMETARY",
       "LAUREL RUN",
       "LOG TRAIL",
       "MARSH MANOR",
@@ -276,11 +328,13 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
       "PEA VINE",
       "PINE RIDGE",
       "PINEY MOUNTAIN",
+      "PITTSBURGH PLATE GLA",
       "PLEASANT VIEW",
       "POMPEY SMASH",
       "POTOMAC VIEW",
       "QUARRY RIDGE",
       "QUEENS POINT",
+      "RECREATION AREA",
       "RED ROCK",
       "ROCKY GAP",
       "ROSE BRIAR",
@@ -296,6 +350,7 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
       "SMITH HILL",
       "SMOUSES MILL",
       "SOUTH CRANBERRY SWAMP",
+      "SPRING BRIAR",
       "SPRING HOLLOW",
       "SPRING LICK",
       "SQUIRREL NECK",
@@ -304,31 +359,39 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
       "SUGAR MAPLE",
       "SUGAR ROW",
       "TAR WATER HOLLOW",
+      "TEXAS EASTERN",
       "TIMBER RIDGE",
       "TRAIL RIDGE",
       "UNCONSCIOUS/FAINTING",
       "VALE SUMMIT",
       "VALLEY VIEW",
+      "VAN PELT",
       "VERNON ESTATES",
       "VICTORY POST",
       "WALNUT BOTTOM",
       "WASHINGTON HOLLOW",
+      "WATER STATION RUN",
       "WELSH HILL",
       "WHITE CHURCH",
       "WILLOW BROOK",
+      "WINEBRENNER HILL",
+      "WING RIDGE",
       "WOOD ROSE",
       "YELLOW ROW"
-
   };
   
   private static final CodeSet CALL_LIST = new CodeSet(
+      "911 INFORMATION CALL",
       "911 TEST CALL TEST PAGE DO NOT RESPOND",
+      "ABDOM PAINS ALS",
+      "ABDOM PAINS BLS",
       "ABDOMINAL /BACK PAIN",
       "ACCIDENT NOT LISTED",
       "ACCIDENT PD",
       "ACCIDENT PED STRUCK",
       "ACCIDENT PI",
       "ADDITIONAL 911 CALL NEW/",
+      "AIRCRAFT EMERGENCY",
       "ALLERGIC /MED REACT",
       "ALTERD LEVEL OF CONS",
       "APARTMENT FIRE",
@@ -337,28 +400,47 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
       "AUTO ALARM HOUSE",
       "AUTOMOBILE FIRE",
       "BACK PAIN",
+      "BACK PAIN ALS",
+      "BACK PAIN BLS",
       "BARN FIRE",
       "BEHAVORIAL EMERGENCY",
+      "BLEEDING INJURY ALS",
+      "BLEEDING INJURY BLS",
       "BLEEDING NON TRAUMA",
+      "BREATH DIFF ALS",
+      "BREATH DIFF BLS",
       "BREATHING DIFFICULTY",
       "BRUSH FIRE",
+      "BURNS THERM,ELEC,CHE",
       "BUSINESS FIRE",
       "CARDIAC",
+      "CHEST PAINS ALS",
+      "CHEST PAINS BLS",
       "CHEST PAINS, HEART",
       "CHOKING",
+      "CHOKING PATIENT ALS",
+      "CHOKING PATIENT BLS",
       "CO DETECTOR RES",
+      "COLLAPSED STRUCTURE",
+      "CPR FULL ARREST HOT",
       "DEFAULT EMD",
       "DIABETIC",
+      "DIABETIC EMERG ALS",
+      "DIABETIC EMERG BLS",
       "DIFFICULTY BREATHING",
       "DUMPSTER FIRE THE F BAR",
       "ELECTROCUTION",
       "EMS SERVICE CALL",
       "FALL 3 FEET OR GREAT",
       "FALL INJURY",
+      "FALL PATIENT ALS",
+      "FALL PATIENT BLS",
+      "FIRE STANDBY",
       "FLOODING CONDITIONS",
       "FLUE FIRE",
       "FULL ARREST",
       "FRACTURE/EXTREMITY",
+      "GARAGE FIRE COMM",
       "GARAGE FIRE RESIDENT",
       "GRINDER PUMP ACTIVAT",
       "GROUND LEVEL FALL",
@@ -369,6 +451,8 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
       "LINES DOWN",
       "LOCAL OTHER FIRE",
       "MEDICAL ALARM",
+      "MEDICAL EMERG ALS",
+      "MEDICAL EMERG BLS",
       "MEDICAL EMERGENCY",
       "MEDIC ASSIST",
       "MVC ENTRAPMENT",
@@ -392,18 +476,25 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
       "TEST PAGE ONLY",
       "TEST PAGE TEST TEST",
       "TRAILER FIRE",
+      "TRAIN FIRE",
       "TRANSFORMER ARCING",
       "TRAUMA WITH INJURY",
+      "TRAUMA INJURY ALS",
+      "TRAUMA INJURY BLS",
       "TREE DOWN",
       "TRUCK FIRE",
       "UNABLE TO WALK",
+      "UNCONSCIOUS ALS",
+      "UNCONSCIOUS BLS",
       "UNCONSCIOUS, UNRESPO",
       "UNCONSCIOUS/FAINTING",
       "UTILITIES",
       "VEHICLE BRAKES FIRE",
       "WATER LEAK",
       "WATER RESCUE",
-      "XFER MINERAL"
+      "XFER MINERAL",
+      
+      "Is Enroute"
   );
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
