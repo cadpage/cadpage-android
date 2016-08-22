@@ -176,7 +176,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     super.setupCallList(callSet);
   }
 
-  private static final Pattern RUN_REPORT_PTN1 = Pattern.compile("(?:[A-Z]+:)?(\\d{8,10})[ ;] *([- A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
+  private static final Pattern RUN_REPORT_PTN1 = Pattern.compile("(?:[A-Z]+:)?(\\d{8,10}|[A-Z]\\d{2}-\\d+)[ ;] *([- A-Z0-9]+)\\(.*\\)\\d\\d:\\d\\d:\\d\\d\\|");
   private static final Pattern RUN_REPORT_PTN2 = Pattern.compile("CFS: *(\\S+), *Unit: *(\\S+), *(Status:.*)");
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.@]+:");
   private static final Pattern NAKED_TIME_PTN = Pattern.compile("([ ,;]) *(\\d\\d:\\d\\d:\\d\\d)(?:\\1|$)");
@@ -515,7 +515,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     if (name.equals("CODE"))  return new BaseCodeField();
     if (name.equals("PARTCODE")) return new SkipField("[MFL]D?");
     if (name.equals("X")) return new BaseCrossField();
-    if (name.equals("ID")) return new IdField("\\d\\d(?:\\d\\d)?-?\\d{4,8}", true);
+    if (name.equals("ID")) return new IdField("[A-Z]?\\d\\d(?:\\d\\d)?-?\\d{4,8}", true);
     if (name.equals("NAME")) return new BaseNameField();
     if (name.equals("PHONE")) return new PhoneField("\\d{10}");
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
@@ -540,7 +540,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
         super.parse(field, data);
         
         // If we pulled a place name from the front fo the string, see if
-        // it looks like a legimate address that got mangled by something
+        // it looks like a legitimate address that got mangled by something
         // further back
         if (data.strPlace.length() > 0 && field.startsWith(data.strPlace)) {
           if (data.strPlace.endsWith("/")) {
