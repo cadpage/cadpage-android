@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">08152016</string>
+  <string name="release_date">08212016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.09\n
+Location Fixes:\n
+San Joaquin Couny, CA\n
+Allegany County, MD\n
+Summit County, OH\n
+Charleston County, SC\n
+Sheboygan County, WI\n
+\n
 v1.9.10.08\n
 New Location:\n
 Miami County, IN\n
@@ -45,16 +53,7 @@ Madison County, IL\n
 Minneapolis/St Paul, MN\n
 Polk County, MO\n
 Stark County, OH\n
-Bucks County, PA\n
-\n
-v1.9.10.04\n
-Location Fixes:\n
-Jefferson County, AL\n
-Shelby County, AL\n
-Stanislaus County, CA\n
-Stark County, OH\n
-Kaufman County, TX\n
-Dallas County, TX
+Bucks County, PA
   </string>
 </resources>
   

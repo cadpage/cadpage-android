@@ -78,6 +78,8 @@ Pbagnpg: Jnlar Npxrezna <bgrpuzbovyr@tznvy.pbz>
 Fraqre: 2183500260
 PUNEYRFGBA PBHAGL: *Nyyretvrf_Rairabzngvbaf      4565 Jvyfbavn Eq                        K Fgerrgf:RGURY CBFG BSSVPR EQ/Qrnq Raq           Pzq Punaary:_Vapvqrag 05                  Havg Nffvtarq:R1409,Z08
 PUNEYRFGBA PBHAGL: *Nppvqrag_Genssvp_Genafc      6613 Uvtujnl 162                        K Fg:RYYVBGG RFGNGRF EQ/ONCGVFG UVYPzq Puna:_Vapvqrag 05   Havgf:R1401,Z14
+PUNEYRFGBA PBHAGL: *Pbaihyfvbaf_Frvmherf         5146 Gbjyrf Eq                          P:_Vapvqrag 05   H:R1401,Z14
+PUNEYRFGBA PBHAGL: *Nynezf                       5139 Tvofba Eq                          P:_Vapvqrag 07   H:EF1401,R1401,G1405,OP1403,R1406,R1409,G1
 
 Pbagnpg: Nygba Jvyyvf <nygba_jvyyvf06@lnubb.pbz>
 Fraqre: 8573031986
@@ -670,7 +672,21 @@ choyvp pynff FPPuneyrfgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "K:RYYVBGG RFGNGRF EQ/ONCGVFG UVY",
         "PU:Vapvqrag 05",
         "HAVG:R1401,Z14");
-  
+
+    qbGrfg("G3",
+        "PUNEYRFGBA PBHAGL: *Pbaihyfvbaf_Frvmherf         5146 Gbjyrf Eq                          P:_Vapvqrag 05   H:R1401,Z14",
+        "PNYY:Pbaihyfvbaf_Frvmherf",
+        "NQQE:5146 Gbjyrf Eq",
+        "PU:Vapvqrag 05",
+        "HAVG:R1401,Z14");
+
+    qbGrfg("G4",
+        "PUNEYRFGBA PBHAGL: *Nynezf                       5139 Tvofba Eq                          P:_Vapvqrag 07   H:EF1401,R1401,G1405,OP1403,R1406,R1409,G1",
+        "PNYY:Nynezf",
+        "NQQE:5139 Tvofba Eq",
+        "PU:Vapvqrag 07",
+        "HAVG:EF1401,R1401,G1405,OP1403,R1406,R1409,G1");
+ 
   }
   
   @Grfg
