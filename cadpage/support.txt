@@ -512,7 +512,7 @@ The only payment record I found with your email address was dated _______, which
 
 You may find it useful to log in to wallet.google.com or paypal.com.  From there you should be able to look up your Cadpage purchase and send us the date, time and transaction ID, and whether it was PayPal or Play Store.
 
-A Cadpage subscription is $10 for one year.  As you have likely experienced, Cadpage can be used well past the expiration date if you refrain from updates.
+A Cadpage subscription is $10 for one year.  As you have likely experienced, Cadpage can be used well past the expiration date if you refrain from updates or phone changes.
 
 Is it possible that you or your department have paid for an account with Active911 or another messaging service?  You will need to register your phone to enable Cadpage. Your department administrator should be able to tell you what service your department is using. Perhaps you have paid for Cadpage For IOS.  We are separate companies.
 
