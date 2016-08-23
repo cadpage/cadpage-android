@@ -8,9 +8,9 @@ import net.anei.cadpage.parsers.dispatch.DispatchCiscoParser;
 /**
  * Muskingum County, OH
  */
-public class OHMuskingumCountyParser extends DispatchCiscoParser {
+public class OHMuskingumCountyAParser extends DispatchCiscoParser {
   
-  public OHMuskingumCountyParser() {
+  public OHMuskingumCountyAParser() {
     super(CITY_LIST, "MUSKINGUM COUNTY", "OH");
   }
   

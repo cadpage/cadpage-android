@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /*
-Zhfxvathz Pbhagl, Buvb
+Zhfxvathz Pbhagl, Buvb (O)
 
 Pbagnpg: Naqerj Ongfgen <naqerj.ongfgen@tznvy.pbz>
 

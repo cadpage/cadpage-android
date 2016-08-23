@@ -5,9 +5,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-public class PACentreCountyParser extends FieldProgramParser {
+public class PACentreCountyAParser extends FieldProgramParser {
 
-  public PACentreCountyParser() {
+  public PACentreCountyAParser() {
     super("CENTRE COUNTY", "PA", "BOX CALL ADDR! NAME INFO+");
   }
   

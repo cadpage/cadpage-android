@@ -3,9 +3,9 @@ package net.anei.cadpage.parsers.AL;
 import net.anei.cadpage.parsers.dispatch.DispatchA19Parser;
 
 
-public class ALRussellCountyParser extends DispatchA19Parser {
+public class ALRussellCountyAParser extends DispatchA19Parser {
   
-  public ALRussellCountyParser() {
+  public ALRussellCountyAParser() {
     super("RUSSELL COUNTY", "AL");
   }
   

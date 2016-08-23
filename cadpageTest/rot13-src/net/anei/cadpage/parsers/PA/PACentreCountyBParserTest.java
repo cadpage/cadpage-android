@@ -6,7 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 
 /*
-Prager Pbhagl, CN
+Prager Pbhagl, CN (O)
 
 Pbagnpg: Xnlyn Sbfgre <xssbfgre79@tznvy.pbz>
 Pbagnpg: Zngg Ovftnvre <zovftnvre@tznvy.pbz>
