@@ -11,6 +11,11 @@ public class COBroomfieldCountyParser extends FieldProgramParser {
   }
   
   @Override
+  public String getFilter() {
+    return "sbarnes@broomfield.org";
+  }
+  
+  @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Email Copy Message From Hiplink")) return false;
     return parseFields(body.split("\n"), data);
