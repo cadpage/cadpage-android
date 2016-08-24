@@ -29,12 +29,12 @@ public class INMarionCountyParser extends MsgParser {
     return super.adjustMapAddress(addr);
   }
   
-  private static final Pattern MARKER = Pattern.compile("COI PUBLIC SAFETY CAD:|PUBLIC SAFETY CAD:? CAD:|CAD:");
+  private static final Pattern MARKER = Pattern.compile("COI PUBLIC SAFETY CAD:|PUBLIC SAFETY CAD:? CAD:|CAD:|direct:");
   private static final String APT_PTN = "(?:#(?:APT|RM|ROOM|SUIT|UNIT)? *((?![NS]\\d{5}\\b)[^ ]+)? )";
   private static final String MAP_PTN = "(?:([NS]\\d{5} [EW]\\d{5}|[NS] +[EW]|SHENDR EHENDR) )";
   private static final Pattern MASTER1 = Pattern.compile("([^,]+), *([A-Z]{3}) " + APT_PTN + "?" + MAP_PTN + "?(.*)");
   private static final Pattern MASTER2 = Pattern.compile("([^,]+?) " + APT_PTN + "?" + MAP_PTN + "(.*)");
-  private static final Pattern CALL_ID_PTN = Pattern.compile("\\b(I\\d{5})\\.?$");
+  private static final Pattern CALL_ID_PTN = Pattern.compile("\\b(I\\d{4,5})\\.?$");
   private static final Pattern UNIT_PTN = Pattern.compile("\\b((?:(?:[A-Z]+[0-9]+[A-Z]?|BC\\d+[A-Z]?|\\d+CIV|\\d+FF|\\d+GRP|[A-Z]+GRP|\\d+TN|\\d+WAY|[A-Z]+FYI|[A-Z]{2}FD|[A-Z]{3}ADM|[A-Z]{2}TF|ALS|AMO|BKCREG|BKCRMD|COMM|COMVAN|DHS|FYI[A-Z]+|CMND|HMEDIA|IFDEDO|IFSPOP|INDOT|IPAGE|IUPAGE|MANPOW|MAYDAY|MEDIA|NONEMG|PVTBLS|PVTMED|SFDOPS|STI|WPAGE|WRKFIR|XLFCHF|XLFINV|XLMCOR|WAYVIC|WRTFWY|(?:IFD|PIK)[A-Z]{1,3}|99\\d|(?:1ST|2ND|3RD)[A-Z]{3})\\b *)+)[\\., ]*(.*)");
   
   @Override
@@ -243,6 +243,7 @@ public class INMarionCountyParser extends MsgParser {
   private static final CodeSet CODE_SET = new CodeSet(
       "ABDOMIN/BACK PN",
       "ALLERGIC REACTIO",
+      "ANIMAL BITE",
       "APARTMENT",
       "APARTMNT/WORKI",
       "APT ALARM",
@@ -252,11 +253,13 @@ public class INMarionCountyParser extends MsgParser {
       "ASSAULT/TRAUMA-C",
       "ASSIST PERSON",
       "BLEED/NONTRAU-C",
+      "BLDG/HR/ALARM",
       "BLDG/HR/WORKING",
       "BLEEDING/NONTRAU",
       "BUILD ALARM",
       "BUILDING",
       "BUILDING/WORKI",
+      "BURGLARY/IN-PROG",
       "BURNED PERSON",
       "CARD/ARREST/WRKG",
       "CARDIAC ARREST",
@@ -269,6 +272,7 @@ public class INMarionCountyParser extends MsgParser {
       "DEPT VEH ACCIDNT",
       "DET",
       "DIABETIC",
+      "DIFF BREATHIN",
       "DIFF BREATHING",
       "DOUBL RES/ENTRAP",
       "DOUBLE RESI/WRK",
@@ -277,6 +281,7 @@ public class INMarionCountyParser extends MsgParser {
       "ELEVATOR",
       "EMER TRANSFER",
       "EMS/UNKNOWN",
+      "ENVIRONMENTAL",
       "EXPLOSION",
       "FF/SLIGHT/INJ",
       "FF/TRANSPORTED",
@@ -295,6 +300,7 @@ public class INMarionCountyParser extends MsgParser {
       "HEADACHE",
       "HOSP/NUR HM/WORK",
       "HOSP/NUR HR/ALRM",
+      "H/R RPT",
       "INJ/CIV/TRANSP",
       "INJ/FF/TRANSP",
       "INJURED/EXTRICAT",
@@ -303,6 +309,7 @@ public class INMarionCountyParser extends MsgParser {
       "INVERTED VEHICLE",
       "INVESTIGATE",
       "LARGE SPILL",
+      "LOCK IN/OUT BLDG",
       "MASS CASUALTY 1",
       "MEDICAL ALARM",
       "MEET THE POLICE",
@@ -334,6 +341,9 @@ public class INMarionCountyParser extends MsgParser {
       "RES ENTRAP/WRK",
       "RES ENTRAPMNT",
       "RESIDENCE/WORKIN",
+      "RESD FOR SWAT CALLOUT",
+      "RESD REF SWAT CALLOUT",
+      "RESD REQ SWAT CALLOUT",
       "ROPE RESCUE",
       "S E PI W/ENTRAPMENT",
       "SCHOOL ALARM",
@@ -353,16 +363,20 @@ public class INMarionCountyParser extends MsgParser {
       "STROKE/CVA",
       "STRUCT/COLLAPSE",
       "TEST INCIDENT",
+      "TOOTH ACHE",
       "TRAILOR/MOBIL HM",
       "TRASH",
       "UNCON PERSON",
       "UNCONSCIOUS PERS",
+      "UNKNOWN/FIRE",
       "UNKNOWN SUBST",
       "UNRESPONSIVE",
       "URBAN SEARCH",
       "UTILITY POLE",
       "VEHICL/ACCIDENT",
       "VEHICLE FIRE",
+      "WATER RECOVERY",
+      "WATER RESCUE INV",
       
       // WTF???
       "F",

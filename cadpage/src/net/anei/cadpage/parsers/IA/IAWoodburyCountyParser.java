@@ -5,102 +5,119 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-
-
-public class IAWoodburyCountyParser extends SmartAddressParser {
-
-  private static final String[] CITY_LIST = new String[] {
-    "NORTH SIOUX", "DAKOTA DUNES", "WYNSTONE", "ANTHON","BRONSON","CORRECTIONVILLE","CUSHING","DANBURY",
-    "HORNICK","LAWTON","MOVILLE","OTO","PIERSON","SALIX","SERGEANT BLUFF","SIOUX CITY","SLOAN","SMITHLAND",
-    "UNION COUNTY"
-  };
-  
-  private static final Set<String> SD_CITY_SET = new HashSet<String>(Arrays.asList(new String[] {
-    "NORTH SIOUX", "DAKOTA DUNES", "WYNSTONE", "UNION COUNTY"
-  }));
+public class IAWoodburyCountyParser extends FieldProgramParser {
   
   public IAWoodburyCountyParser() {
-    super(CITY_LIST, "WOODBURY COUNTY", "IA");
-    setFieldList("CALL ADDR CITY PLACE ST X SRC UNIT INFO");
+    super(CITY_LIST, "WOODBURY COUNTY", "IA", 
+         "CALL CALL+? ADDR/SXP! X? SRC UNIT! INFO+");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "@sioux-city.org";
   }
 
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
 
-    int pt = body.indexOf("J:");
-    if (pt < 0) return false;
-    body = body.substring(pt+2).trim();
-    
-    String[] lines = body.split("/");
-    int ndx = 0;
-    for (String line : lines) {
-      line = line.trim();
-      switch (ndx++) {
-      
-      case 0:
-        
-        // Call description
-        data.strCall = line;
-        break;
-        
-      case 1:
-        // Address line
-        // Contains address city and optional place name
-        // If city is in SD, change state
-        parseAddress(StartType.START_ADDR,line,data);
-        
-        // If this didn't look like an address, it's probably another chunk
-        // of the call description :(
-        if (!isValidAddress()) {
-          data.strCall = data.strCall + " / " + line;
-          data.strAddress = data.strCity = "";
-          ndx--;
-          break;
-        }
-        
-        data.strPlace = getLeft();
-        if (SD_CITY_SET.contains(data.strCity)) data.strState = "SD"; 
-        break;
-      
-      case 2:
-        // Cross Street. If only one street will end with & which we drop
-        // Occasionally is not present, in which case skip to next field
-        if (line.contains("&")) {
-          if (line.endsWith("&")) line = line.substring(0,line.length()-1).trim();
-          data.strCross = line;
-          break;
-        }
-        ndx++;
-        
-      case 3:
-        // Station
-        data.strSource = line;
-        break;
-
-      case 4:
-        // Unit
-        data.strUnit = line;
-        break;
-        
-      case 5: 
-        // supp info, repeats till end of msg
-        if (line.length() > 0) {
-          if (data.strSupp.length() > 0) data.strSupp += " / ";
-          data.strSupp += line;
-        }
-        ndx--;
-        break;
-      }
-      
+    if (!subject.startsWith("J:")) {
+      int pt = body.indexOf("J:");
+      if (pt < 0) return false;
+      body = body.substring(pt+2).trim();
     }
     
-    // Return failure if we didn't get to station
-    return ndx > 4;
+    int pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    return parseFields(body.split("/"), data);
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("SRC")) return new SourceField("[A-Z0-9]+", true);
+    return super.getField(name);
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Result res = parseAddress(StartType.START_ADDR, field);
+      if (res.getCity().length() == 0) return false;
+      res.getData(data);
+      if (SD_CITY_SET.contains(data.strCity.toUpperCase())) data.strState = "SD"; 
+      data.strPlace = res.getLeft();
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.contains("&")) return false;
+      field = stripFieldEnd(field, "&");
+      super.parse(field, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+  }
+
+  private static final String[] CITY_LIST = new String[] {
+    
+    "WOODBURY COUNTY",
+    
+    "NORTH SIOUX",
+    "DAKOTA DUNES",
+    "WYNSTONE",
+    "ANTHON",
+    "BRONSON",
+    "CORRECTIONVILLE",
+    "CUSHING",
+    "DANBURY",
+    
+    "HORNICK",
+    "LAWTON",
+    "MOVILLE",
+    "OTO",
+    "PIERSON",
+    "SALIX",
+    "SERGEANT BLUFF",
+    "SIOUX CITY",
+    "SLOAN",
+    "SMITHLAND",
+    
+    "UNION COUNTY"
+  };
+  
+  private static final Set<String> SD_CITY_SET = new HashSet<String>(Arrays.asList(new String[] {
+    "NORTH SIOUX",
+    "DAKOTA DUNES",
+    "WYNSTONE",
+    "UNION COUNTY"
+  }));
+ 
 
 }

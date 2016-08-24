@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">08212016</string>
+  <string name="release_date">08232016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.10\n
+New Locations:\n
+Russell County, AL\n
+Broomfield County, CO\n
+Gratiot County, MI\n
+Muskingum County, OH\n
+\n
+Location Fixes:\n
+Centre County, PA\n
+\n
 v1.9.10.09\n
 Location Fixes:\n
 San Joaquin Couny, CA\n
@@ -39,21 +49,7 @@ Charleston County, SC\n
 \n
 v1.9.10.06\n
 Location Fixes:\n
-Madison County, NY\n
-\n
-v1.9.10.05\n
-New Location:\n
-Shelby County, IN (alt)\n
-Pike County, MO\n
-Med Center, NJ\n
-\n
-Location Fixes:\n
-San Bernardino County, CA\n
-Madison County, IL\n
-Minneapolis/St Paul, MN\n
-Polk County, MO\n
-Stark County, OH\n
-Bucks County, PA
+Madison County, NY
   </string>
 </resources>
   

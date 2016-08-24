@@ -28,6 +28,10 @@ Fraqre: abgvsvpngvbaf@jnfuvatgbapbhaglfurevss.be
 1 bs 2\aSEZ:abgvsvpngvbaf@jnfuvatgbapbhaglfurevss.be\aFHOW:PNQ Cntr\aZFT:234 QVKBA UBYYBJ EQ\a12/12/2014 09:56:50\aFDHNQ - ZNYR CNGVRAG EVTUG FVQR\a(Pba'g) 2 bs 2\aAHZOARFF CBFFVOYR FGEBXR\a\a(Raq)
 1 bs 2\aSEZ:abgvsvpngvbaf@jnfuvatgbapbhaglfurevss.be\aFHOW:PNQ Cntr 15-006507\aZFT:186 ZNVA FG HAVG 004\a 4/26/201521:44:35\a FDHNQ- 54 LBN SRZNYR\a (Pba'g) 2 bs 2\a JNF PBBXVAT BA N TNF TEVYY NAQ OHEAG URE NEZ, JBHYQ WHFG YVXR GB OR PURPXRQ BHG\a YNSQ\a \a (Raq)
 
+Pbagnpg: Orireyl Sver Qrcnegzrag Orireyl Buvb <oisqr1@tznvy.pbz>
+Fraqre: abgvsvpngvbaf@jnfuvatgbapbhaglfuress.bet
+(PNQ Cntr 16-011389) FGNGR EGR 60@FGNGR EGR 83\a8/13/2016 11:51:40\aFDHNQ - 2 IRUVPYR NPPVQRAG HAXABJA VAWHEVRF\aOJSQ
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jneera Gjc ISQ
 Ybpngvba: Znevrggn, BU, Havgrq Fgngrf
@@ -246,7 +250,21 @@ choyvp pynff BUJnfuvatgbaPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:YNSQ");
     
   }
- 
+
+  @Grfg
+  choyvp ibvq grfgOrireylSverQrcnegzrag() {
+
+    qbGrfg("G1",
+        "(PNQ Cntr 16-011389) FGNGR EGR 60@FGNGR EGR 83\a8/13/2016 11:51:40\aFDHNQ - 2 IRUVPYR NPPVQRAG HAXABJA VAWHEVRF\aOJSQ",
+        "VQ:16-011389",
+        "NQQE:FGNGR EGR 60 & FGNGR EGR 83",
+        "ZNQQE:FGNGR 60 & FGNGR 83",
+        "QNGR:8/13/2016",
+        "GVZR:11:51:40",
+        "PNYY:FDHNQ - 2 IRUVPYR NPPVQRAG HAXABJA VAWHEVRF",
+        "HAVG:OJSQ");
+    
+  }
 
   @Grfg
   choyvp ibvq grfgJneeraGjcISQ() {
