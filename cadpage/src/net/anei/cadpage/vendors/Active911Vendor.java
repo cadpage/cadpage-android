@@ -368,7 +368,7 @@ class Active911Vendor extends Vendor {
       "US/CT/WindhamCounty",              "CTWindhamCountyA",
       "US/CT/Wpdpaging",                  "CTWindhamCountyC",
       "US/DC/Proteanhub",                 "DCProteanhub",
-      "US/DE/CADCentral",                 "DEKentCountyE",
+      "US/DE/CADCentral",                 "DEKentCountyE,DEKentCountyG",
       "US/DE/ChiefMsg",                   "DESussexCountyA",
       "US/DE/DelawareCounty",             "Cadpage2",
       "US/DE/Dover",                      "DEKentCounty",
