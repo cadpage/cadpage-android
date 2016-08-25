@@ -330,6 +330,7 @@ class Active911Vendor extends Vendor {
       "US/CO/DeltaCountyAmbulance",       "CODeltaCounty",
       "US/CO/DouglasCounty",              "CODouglasCountyA",
       "US/CO/ElPasoCounty",               "COElPasoCountyA",
+      "US/CO/EPT911",                     "COElPasoCountyA",
       "US/CO/FortCarsonPD",               "COElPasoCountyA",
       "US/CO/Fountain",                   "COElPasoCountyC",
       "US/CO/FountainPD",                 "COElPasoCountyA",
