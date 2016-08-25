@@ -7,7 +7,6 @@ vzcbeg bet.whavg.Grfg;
 /*
 Crccva Pbhagl, JV
 
-
 Pbagnpg: Npgvir911
 Ntrapl anzr: Crcva Rzretrapl Freivpr
 Ybpngvba: Crcva, JV, Havgrq Fgngrf
@@ -42,14 +41,12 @@ Fraqre: Crcva Nzohynapr <crcvanzo@crcvajvfpbafva.bet>
 {Rzetapl Zrqvpny Freivprf ng J12414 Ynefba Yn, Znvqra Ebpx, } <ugzy>\a<urnq>\a<zrgn uggc-rdhvi="Pbagrag-Glcr" pbagrag="grkg/ugzy; punefrg=hf-nfpvv">\a</urnq>\a<obql>\a<sbag snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Vapvqrag:<oe>\a<oe>\a<o>Rzetapl Zrqvpny Freivprf ng J12414 Ynefba Yn, Znvqra Ebpx, <oe>\a<oe>\aCrcva RZF - 201600000012<oe>\a<oe>\aGvzr ercbegrq: 07/12/2016 10:18:02 NZ<oe>\a</o><oe>\a<oe>\aHavg(f) erfcbaqrq: <oe>\aCNZ9<oe>\a24 lrne byq znyr yvtug urnqrq jvgu purfg cnva gvatyvat va nezf naq purfg<oe>\a</sbag><v>Pbasvqragvnyvgl Abgvpr: Gur vasbezngvba pbagnvarq va guvf pbzzhavpngvba znl or pbasvqragvny. Vg vf vagraqrq bayl sbe gur hfr bs gur erpvcvrag(f) anzrq nobir, naq znl or yrtnyyl cevivyrtrq. Vs gur ernqre bs guvf zrffntr vf abg gur vagraqrq erpvcvrag,\a lbh ner urerol abgvsvrq gung nal qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl gur fraqre vzzrqvngryl naq qrfgebl guvf pbzzhavpngvba.\a Vs lbh unir nal dhrfgvbaf pbapreavat guvf zrffntr, cyrnfr abgvsl gur fraqre.</v>\a</obql>\a</ugzy>
 {Grfg/Nppvqragny ng 3eq Fg/Pgl Gx Pp, Crcva, 54759} <ugzy>\a<urnq>\a<zrgn uggc-rdhvi="Pbagrag-Glcr" pbagrag="grkg/ugzy; punefrg=hf-nfpvv">\a</urnq>\a<obql>\a<sbag snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Vapvqrag:<oe>\a<oe>\a<o>Grfg/Nppvqragny ng 3eq Fg/Pgl Gx Pp, Crcva, 54759<oe>\a<oe>\aCrcva RZF - 201600000011<oe>\a<oe>\aGvzr ercbegrq: 07/11/2016 2:23:39 CZ<oe>\aGvzr pbzcyrgrq: 07/11/2016 2:26:32 CZ<oe>\aQvfcbfvgvba: O - Oybggre Ercbeg</o><oe>\a<oe>\aHavg(f) erfcbaqrq: <oe>\aCNZ9<oe>\agrfg sebz npgvir 911 fhpprffshy<oe>\a</sbag><v>Pbasvqragvnyvgl Abgvpr: Gur vasbezngvba pbagnvarq va guvf pbzzhavpngvba znl or pbasvqragvny. Vg vf vagraqrq bayl sbe gur hfr bs gur erpvcvrag(f) anzrq nobir, naq znl or yrtnyyl cevivyrtrq. Vs gur ernqre bs guvf zrffntr vf abg gur vagraqrq erpvcvrag,\a lbh ner urerol abgvsvrq gung nal qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl gur fraqre vzzrqvngryl naq qrfgebl guvf pbzzhavpngvba.\a Vs lbh unir nal dhrfgvbaf pbapreavat guvf zrffntr, cyrnfr abgvsl gur fraqre.</v>\a</obql>\a</ugzy>
 {Rzetapl Zrqvpny Freivprf ng 3eq Fg/Pgl Gx Pp, Crcva, 54759} <ugzy>\a<urnq>\a<zrgn uggc-rdhvi="Pbagrag-Glcr" pbagrag="grkg/ugzy; punefrg=hf-nfpvv">\a</urnq>\a<obql>\a<sbag snpr="Gnubzn" fvmr="2" pbybe="Oynpx">Abgvsvpngvba sebz PVF Vapvqrag:<oe>\a<oe>\a<o>Rzetapl Zrqvpny Freivprf ng 3eq Fg/Pgl Gx Pp, Crcva, 54759<oe>\a<oe>\aCrcva RZF - 201600000011<oe>\a<oe>\aGvzr ercbegrq: 07/11/2016 2:23:39 CZ<oe>\a</o><oe>\a<oe>\aHavg(f) erfcbaqrq: <oe>\aCNZ9<oe>\agrfg seb npgvir 911<oe>\a</sbag><v>Pbasvqragvnyvgl Abgvpr: Gur vasbezngvba pbagnvarq va guvf pbzzhavpngvba znl or pbasvqragvny. Vg vf vagraqrq bayl sbe gur hfr bs gur erpvcvrag(f) anzrq nobir, naq znl or yrtnyyl cevivyrtrq. Vs gur ernqre bs guvf zrffntr vf abg gur vagraqrq erpvcvrag,\a lbh ner urerol abgvsvrq gung nal qvffrzvangvba, qvfgevohgvba, be pbclvat bs guvf pbzzhavpngvba, be nal bs vgf pbagragf, vf fgevpgyl cebuvovgrq. Vs lbh unir erprvirq guvf pbzzhavpngvba va reebe, cyrnfr abgvsl gur fraqre vzzrqvngryl naq qrfgebl guvf pbzzhavpngvba.\a Vs lbh unir nal dhrfgvbaf pbapreavat guvf zrffntr, cyrnfr abgvsl gur fraqre.</v>\a</obql>\a</ugzy>
-grfg\a\a*CYRNFR ABGR: Crcva Nzohynapr Freivpr unf n arj Snk ahzore. 715.245.2399.\aCyrnfr znxr n abgr bs vg sbe lbhe erpbeqf.*
-{grfg} GRFG GRFG\a\a*CYRNFR ABGR: Crcva Nzohynapr Freivpr unf n arj Snk ahzore. 715.245.2399.\aCyrnfr znxr n abgr bs vg sbe lbhe erpbeqf.*
  */
 
 choyvp pynff JVCrccvaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp JVCrccvaPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "CRCCVA PBHAGL", "JV");
+    frgCnefre(arj JVCrccvaPbhaglCnefre(), "CRCCVA PBHAGL", "JV");
   }
 
   @Grfg
