@@ -19,22 +19,42 @@ public class PABerksCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@berks.alertpa.org,@c-msg.net,@rsix.roamsecure.net,1410,12101,411912,777";
+    return "@berks.alertpa.org,@c-msg.net,@rsix.roamsecure.net,1410,12101,411912,777,99538";
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
     
     // Strip off message trailer(s)
+    body = stripFieldStart(body, "Berks County DES:");
     int pt = body.indexOf("\n\nSent ");
     if (pt < 0) pt = body.indexOf("\nReply ");
     if (pt >= 0) body = body.substring(0,pt).trim();
+    boolean force = body.startsWith("<!DOCTYPE");
+    if (force) {
+      body = cleanDocHeaders(body);
+      if (body == null) return false;
+    }
     body = stripFieldEnd(body, "=");
     
     // There used to be a Muni: field label.  Which we remove from old  messages
     body = body.replace("; Muni:",        ";");
     
-    return parseFields(body.split(";"), data);
+    if (parseFields(body.split(";"), data)) return true;
+    if (!force) return false;
+    setFieldList("INFO");
+    data.parseGeneralAlert(this, body);
+    return true;
+  }
+  
+  private String cleanDocHeaders(String body) {
+    int ifCnt = 0;
+    for (String line : body.split("\n")) {
+      if (line.contains("<!--[if ")) ifCnt++;
+      else if (line.contains("<![endif]")) ifCnt--;
+      else if (ifCnt == 0) return line;
+    }
+    return null;
   }
   
   @Override
@@ -47,15 +67,17 @@ public class PABerksCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
-  private static final Pattern UNIT_CALL_PTN = Pattern.compile("Unit:([-A-Za-z0-9]+) Status:(?:Dispatched|Enroute|En Route|Notify|Arrived On Location) (.*)");
+  private static final Pattern UNIT_CALL_PTN = Pattern.compile("Unit:([-A-Za-z0-9]+) Status:(?:Dispatched|Enroute|En Route|Notify|Arrived On Location|(Stand By)) (.*)");
   private class MyUnitCallField extends Field {
     @Override
     public void parse(String field, Data data) {
       Matcher match = UNIT_CALL_PTN.matcher(field);
       if (!match.matches()) abort();
       data.strUnit = match.group(1);
-      String call = match.group(2).trim();
+      String qual = match.group(2);
+      String call = match.group(3).trim();
       String desc = CALL_CODES.getProperty(call);
+      if (qual != null) call = qual + " - " + call;
       if (desc != null) call = call + " - " + desc;
       data.strCall = call;
     }
