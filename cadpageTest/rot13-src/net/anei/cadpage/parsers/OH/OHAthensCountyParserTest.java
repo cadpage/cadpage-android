@@ -1424,7 +1424,9 @@ choyvp pynff BUNgurafPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G25",
         "{Grkg Zrffntr} bunp911-qcsrvssre:[5524]- PNYY: 16 0021317 ANGHER: SVER - UBHFR / ZBOVYR UBZR YBPNGVBA: 68.5 FGRJNEG FG NGURAF GRFG, GRFG, GRFG!!!",
-        "PNYY:bunp911-qcsrvssre:[5524]-",
+        "HAVG:5524",
+        "VQ:16 0021317",
+        "PNYY:SVER - UBHFR / ZBOVYR UBZR",
         "NQQE:68.5 FGRJNEG FG",
         "PVGL:NGURAF",
         "VASB:GRFG, GRFG, GRFG!!!");
