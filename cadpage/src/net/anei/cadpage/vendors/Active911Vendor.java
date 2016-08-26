@@ -418,6 +418,7 @@ class Active911Vendor extends Vendor {
       "US/GA/Ledsportal",                 "GAFloydCounty",
       "US/GA/MeriweatherCounty",          "GAMeriwetherCounty",
       "US/GA/PauldingCounty",             "GAPauldingCounty",
+      "US/GA/PikeCounty",                 "GAPikeCounty",
       "US/GA/RabunCounty",                "GARabunCounty",
       "US/GA/SouthsideFire",              "GAChathamCounty",
       "US/GA/ThompsonMcDuffie",           "GAMcDuffieCounty",
