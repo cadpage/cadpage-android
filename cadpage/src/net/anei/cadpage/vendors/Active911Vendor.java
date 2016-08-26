@@ -187,6 +187,7 @@ class Active911Vendor extends Vendor {
       "CA/QC/Quebec",                     "ZCAQCQuebec",
       "GB/WM/Medaid",                     "ZUKShropshireCounty",
       "NZ/Auckland/AucklandREOC",         "ZNZAuckland",
+      "NZ/General/RegionTwo",             "NZNewZealand",
       "NZ/NI/Auckland",                   "ZNZNewZealand",
       "NZ/NI/Northland",                  "ZNZNewZealand",
       "NZ/NI/Rotorua",                    "ZNZNewZealand",
