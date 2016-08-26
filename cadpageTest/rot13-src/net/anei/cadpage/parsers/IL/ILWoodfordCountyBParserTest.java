@@ -34,7 +34,7 @@ Fraqre: <jbbqpbz@jbbqsbeq-pbhagl.bet>
 choyvp pynff VYJbbqsbeqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp VYJbbqsbeqPbhaglOCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "JBBQSBEQ PBHAGL", "VY");
+    frgCnefre(arj VYJbbqsbeqPbhaglOCnefre(), "JBBQSBEQ PBHAGL", "VY");
   }
   
   @Grfg
