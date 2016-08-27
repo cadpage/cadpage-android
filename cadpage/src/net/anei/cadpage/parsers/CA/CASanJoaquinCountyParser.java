@@ -247,7 +247,8 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
       data.strCross = cleanCrossField(cross);
       data.strApt = append(apt1, "-", data.strApt);
       data.strApt = append(data.strApt, "-", apt2);
-      data.strSupp = append(respPlan, "\n", cleanInfo(info));
+      data.strSupp = respPlan;
+      parseInfo(info, data);
       setGPSLoc(convertGPS(gps), data);
       return true;
       
@@ -266,17 +267,20 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
         return true;
       }
       p.check(CAD_ID_PTN);
-      String callId = p.get(10);
-      if (p.check(SECURITY_CHECK_20_MINUTES_PTN)) {
-        setFieldList("UNIT ID CALL INFO");
-        data.strUnit = unit;
-        data.strCallId = callId;
-        data.strCall = "SECURITY CHECK - 20 MINUTES";
-        data.strSupp = p.get();
-        return true;
-        
+      String callId = "";
+      if (!p.check(RUN_PCR_PTN)) {
+        callId = p.get(10);
+        if (p.check(SECURITY_CHECK_20_MINUTES_PTN)) {
+          setFieldList("UNIT ID CALL INFO");
+          data.strUnit = unit;
+          data.strCallId = callId;
+          data.strCall = "SECURITY CHECK - 20 MINUTES";
+          data.strSupp = p.get();
+          return true;
+          
+        }
+        if (!p.check(RUN_PCR_PTN)) break;
       }
-      if (!p.check(RUN_PCR_PTN)) break;
       if (p.check("Loc:")) {
         String place = p.get(50);
         String addr = p.get(50);
@@ -309,7 +313,7 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
       String place = p.get(50);
       String addr = p.get(30);
 
-      String call, cross, apt1, apt2, city, gps, map;
+      String call, cross, apt1, apt2, city, gps, map, comment;
       if (p.check("**CANCEL RESPONSE**")) {
         call = "CANCEL - " + p.get(15);
         if (!p.check("Tcr/")) break;
@@ -346,12 +350,16 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
       gps = gps+','+p.get(3)+'.'+p.get(6);
       if (addrChange) {
         map = "";
+        comment = "";
       } else {
         if (!p.check("      ProQA Code:Map:")) break;
-        map = p.get();
+        map = p.get(8);
+        p.setOptional();
+        if (!p.check(" Comments:")) break;
+        comment = p.get();
       }
         
-      setFieldList("UNIT ID PLACE ADDR X CALL CITY APT GPS MAP");
+      setFieldList("UNIT ID PLACE ADDR X CALL CITY APT GPS MAP INFO");
       data.strUnit = unit;
       data.strCallId = callId;
       data.strPlace = place;
@@ -363,6 +371,7 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
       data.strApt = append(data.strApt, "-", apt2);
       setGPSLoc(gps, data);
       data.strMap = map;
+      parseInfo(comment, data);
       return true;
     } while (false);
     
@@ -487,15 +496,19 @@ public class CASanJoaquinCountyParser extends FieldProgramParser {
   private static final Pattern INFO_DELIM_PTN = Pattern.compile("[, ]*\\[[^\\[\\]]*\\][, ]*| {3,}");
   private static final Pattern INFO_JUNK_PTN = Pattern.compile("PSAP Caller Source:.*");
   
-  private String cleanInfo(String info) {
-    StringBuilder sb = new StringBuilder();
+  private void parseInfo(String info, Data data) {
     for (String part : INFO_DELIM_PTN.split(info)) {
       if (part.length() == 0) continue;
       if (INFO_JUNK_PTN.matcher(part).matches()) continue;
-      if (sb.length() > 0) sb.append('\n');
-      sb.append(part);
+      if (part.startsWith("Caller Lat/Lon:")) {
+        if (data.strGPSLoc.length() == 0) {
+          part = part.substring(15).trim().replace('/', ',');
+          setGPSLoc(part, data);
+        }
+        continue;
+      }
+      data.strSupp = append(data.strSupp, "\n", part);
     }
-    return sb.toString();
   }
 
   
