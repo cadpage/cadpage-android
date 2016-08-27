@@ -11,6 +11,7 @@ public class GAPikeCountyParser extends DispatchB2Parser {
   
   public GAPikeCountyParser() {
     super("PIKE COUNTY E-911:||PIKE_COUNTY_E-911:", "PIKE COUNTY", "GA", B2_FORCE_CALL_CODE | B2_CROSS_FOLLOWS);
+    setupMultiWordStreets(MWORD_STREET_LIST);
     setupCallList(CALL_LIST);
   }
   
@@ -37,8 +38,21 @@ public class GAPikeCountyParser extends DispatchB2Parser {
     return super.adjustMapAddress(addr);
   }
   private static final Pattern AREA_OF_PTN = Pattern.compile("\\bAREA OF\\b", Pattern.CASE_INSENSITIVE);
+  
+  private static final String[] MWORD_STREET_LIST = new String[]{
+    "BLANTON MILL",
+    "COUNTY FARM",
+    "DREW ALLEN",
+    "EPPINGER BRIDGE",
+    "FLAT SHOALS",
+    "HAGANS MOUNTAIN",
+    "IRISH HILL",
+    "LIFSEY SPRINGS",
+    "TWIN OAKS",
+    "WILLIAMSON ZEBULON"
+  };
 
-  private static CodeSet CALL_LIST = new CodeSet(
+  private static final CodeSet CALL_LIST = new CodeSet(
       "POSS DEAD PERSON",
       "PERSON INJURED",
       "SUICIDE ATTEMPTS",
@@ -51,13 +65,4 @@ public class GAPikeCountyParser extends DispatchB2Parser {
       "VEHICLE FIRE",
       "SMOKE"
   );
-
-  private static final String[] CITY_LIST = new String[]{
-      "CONCORD",
-      "HILLTOP",
-      "MEANSVILLE",
-      "MOLENA",
-      "WILLIAMSON",
-      "ZEBULON"
-  };
 }

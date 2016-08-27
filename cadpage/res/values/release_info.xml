@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">08232016</string>
+  <string name="release_date">08262016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.11\n
+Location Fixes:\n
+Berks County, PA\n
+\n
 v1.9.10.10\n
 New Locations:\n
 Russell County, AL\n
@@ -45,11 +49,7 @@ Pulaski County, IN\n
 Nassau County, NY\n
 Suffolk County, NY\n
 Bucks County, PA\n
-Charleston County, SC\n
-\n
-v1.9.10.06\n
-Location Fixes:\n
-Madison County, NY
+Charleston County, SC
   </string>
 </resources>
   

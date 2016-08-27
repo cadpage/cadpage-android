@@ -479,13 +479,16 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     
     // Check for a message prefix
     if (prefixList != null) {
+      boolean found = false;
       for (int ndx = 0; ndx < prefixList.length; ndx++) {
         String prefix = prefixList[ndx];
         if (body.startsWith(prefix)) {
+          found = true;
           body = body.substring(prefix.length()).trim();
           break;
         }
       }
+      if (!found) return false;
     }
     
     int st = 0;
