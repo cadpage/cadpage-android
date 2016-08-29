@@ -22,6 +22,11 @@ public class PAAlleghenyCountyAParser extends FieldProgramParser {
            "CODE PRI CALL CALL+? ( GPS1 GPS2! XINFO+? SRC | ADDR/Z CITY/Y! ( DUP_ADDR CITY | ) ( AT SKIP | ) XINFO+? SRC | PLACE AT CITY? XINFO+? SRC | SRC ) BOX? ID? INFO+ Units:UNIT UNIT+");
     setupCities(EXTRA_CITY_LIST);
   }
+  
+  @Override
+  public String getFilter() {
+    return "CAD.Alert@AlleghenyCounty.us,777,9300,4127802418";
+  }
 
   @Override
   public String adjustMapAddress(String sAddress) {

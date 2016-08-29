@@ -4,19 +4,21 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.StandardCodeTable;
 
 //  Map pages can be found at http://maps.co.benton.or.us/gisdata/Address/FireMapBooks/
 
 public class ORBentonCountyParser extends FieldProgramParser {
   
-  private static final Pattern HIGHWAY_PTN = Pattern.compile("\\bHIGHWAY\\b", Pattern.CASE_INSENSITIVE);
+  private static final CodeTable CALL_CODES = new StandardCodeTable(); 
   
   public ORBentonCountyParser() {
     super("BENTON COUNTY", "OR",
-          "INC:CALL! ADD:ADDR! APT:APT CITY:CITY! X:X MAP:MAP CFS:ID DIS:UNIT+");
+          "INC:CALL! NAT:CODE? ADD:ADDR! APT:APT CITY:CITY! X:X MAP:MAP CFS:ID DIS:UNIT+");
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
   }
   
@@ -24,6 +26,9 @@ public class ORBentonCountyParser extends FieldProgramParser {
   public String getFilter() {
     return "Corvallis Alerts,alerts@corvallis.ealertgov.com";
   }
+  
+  private static final Pattern HIGHWAY_PTN = Pattern.compile("\\bHIGHWAY\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern CODE_PTN = Pattern.compile("\\d{1,2}([A-Z])\\d{1,2}[A-Z]?"); 
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -53,8 +58,30 @@ public class ORBentonCountyParser extends FieldProgramParser {
       if (EAST_MAXFIELD_CREEK_PTN.matcher(tmp).matches()) data.strCity = "MONMOUTH";
     }
     
+    // See if we can use call code to improve call description
+    String call = CALL_CODES.getCodeDescription(data.strCode);
+    if (call != null) {
+      Matcher match = CODE_PTN.matcher(data.strCode);
+      if (match.matches()) {
+        String priority = PRIORITY_TABLE.getProperty(match.group(1));
+        if (priority != null) {
+          call = call + " (" + priority + ")";
+        }
+      }
+      data.strCall = call;
+    }
+    
     return true;
   }
+  
+  private static final Properties PRIORITY_TABLE = buildCodeTable(new String[]{
+      "A", "ALPHA",
+      "B", "BRAVO",
+      "C", "CHARLIE",
+      "D", "DELTA",
+      "E", "ECHO",
+      "O", "OMEGA"
+  });
   
   // List of streets that extend wholly or partly into a region that Google does
   // not recognize as part of Philomath
