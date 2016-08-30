@@ -160,7 +160,7 @@ choyvp pynff QRXragPbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PBQR:29O1N",
         "PNYY:ZIP Zhygvcyr Vawhevrf",
         "NQQE:66 EGR 1 FO",
-        "ZNQQE:66 EGR 1",
+        "ZNQQE:66 EGR 1", //abcr
         "PVGL:Qbire",
         "K:FVZZF JBBQF EQ / ZZ 66 EGR 1",
         "VASB:HAX:ZIP");

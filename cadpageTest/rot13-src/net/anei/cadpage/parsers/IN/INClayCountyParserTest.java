@@ -39,11 +39,232 @@ Fraqre: PynlPbPNQ@vcfp.va.tbi
 choyvp pynff VAPynlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp VAPynlPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "PYNL PBHAGL", "VA");
+    frgCnefre(arj VAPynlPbhaglCnefre(), "PYNL PBHAGL", "VA");
   }
 
   @Grfg
   choyvp ibvq grfgCnefre() {
+
+    qbGrfg("G1",
+        "{Havg 11-4 sebz Pynl Pbhagl Furevss trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/18/16 03:00:18 CZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001401</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: NFFVFG QPF</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 2948 J CEVINGR EQ 620 A, OENMVY</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: OENMVY</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: </gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">11-4</sbag></c></obql></ugzy>",
+        "QNGR:8/18/16",
+        "GVZR:15:00:18",
+        "VQ:2016-00001401",
+        "PNYY:NFFVFG QPF",
+        "NQQE:2948 J CEVINGR EQ 620 A",
+        "PVGL:OENMVY",
+        "HAVG:11-4");
+
+    qbGrfg("G2",
+        "{Havg 11-4 sebz Pynl Pbhagl Furevss trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/18/16 02:39:10 CZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001401</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: NFFVFG QPF</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 2948 J CEVINGR EQ 620 A, OENMVY</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: OENMVY</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: </gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">11-4</sbag></c></obql></ugzy>",
+        "QNGR:8/18/16",
+        "GVZR:14:39:10",
+        "VQ:2016-00001401",
+        "PNYY:NFFVFG QPF",
+        "NQQE:2948 J CEVINGR EQ 620 A",
+        "PVGL:OENMVY",
+        "HAVG:11-4");
+
+    qbGrfg("G3",
+        "{Havg 11-9 sebz Pynl Pbhagl Furevss trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/18/16 11:47:54 NZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001382</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: NAVZNY YBBFR</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 7629 R CEVINGR EQ 375 A, CBYNAQ</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: CBYNAQ</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: </gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">11-9</sbag></c></obql></ugzy>",
+        "QNGR:8/18/16",
+        "GVZR:11:47:54",
+        "VQ:2016-00001382",
+        "PNYY:NAVZNY YBBFR",
+        "NQQE:7629 R CEVINGR EQ 375 A",
+        "PVGL:CBYNAQ",
+        "HAVG:11-9");
+
+    qbGrfg("G4",
+        "{Havg 11-9 sebz Pynl Pbhagl Furevss trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/18/16 11:16:46 NZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001382</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: NAVZNY YBBFR</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 7629 R CEVINGR EQ 375 A, CBYNAQ</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: CBYNAQ</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: </gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">11-9</sbag></c></obql></ugzy>",
+        "QNGR:8/18/16",
+        "GVZR:11:16:46",
+        "VQ:2016-00001382",
+        "PNYY:NAVZNY YBBFR",
+        "NQQE:7629 R CEVINGR EQ 375 A",
+        "PVGL:CBYNAQ",
+        "HAVG:11-9");
+
+    qbGrfg("G5",
+        "{Havg YSQ sebz Yrjvf Sver trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/18/16 08:33:32 NZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001370</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: SVER IRUVPYR</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: F FGNGR EBNQ 159 / J PBHAGL EQ 1100 F, WNFBAIVYYR</gq></ge><ge nyvta=\"yrsg\"><gq>Vagrefrpgvba\g\g\g: F FGNGR EBNQ 159 / J PBHAGL EQ 1100 F, WNFBAIVYYR</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: WNFBAIVYYR</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: 11000-11999 F FGNGR EBNQ 159 / 5500-6498 J PBHAGL EQ 1100 F</gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">YSQ, 11-9</sbag></c></obql></ugzy>",
+        "QNGR:8/18/16",
+        "GVZR:08:33:32",
+        "VQ:2016-00001370",
+        "PNYY:SVER IRUVPYR",
+        "NQQE:F FGNGR EBNQ 159 & J PBHAGL EQ 1100 F",
+        "ZNQQE:F FGNGR 159 & J PBHAGL EBNQ 1100 F",
+        "PVGL:WNFBAIVYYR",
+        "CYNPR:11000-11999 F FGNGR EBNQ 159 / 5500-6498 J PBHAGL EQ 1100 F",
+        "HAVG:YSQ,11-9");
+
+    qbGrfg("G6",
+        "{Havg 11-9 sebz Pynl Pbhagl Furevss trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/18/16 08:32:38 NZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001370</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: SVER IRUVPYR</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: F FGNGR EBNQ 159 / J PBHAGL EQ 1100 F, WNFBAIVYYR</gq></ge><ge nyvta=\"yrsg\"><gq>Vagrefrpgvba\g\g\g: F FGNGR EBNQ 159 / J PBHAGL EQ 1100 F, WNFBAIVYYR</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: WNFBAIVYYR</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: 11000-11999 F FGNGR EBNQ 159 / 5500-6498 J PBHAGL EQ 1100 F</gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">11-9</sbag></c></obql></ugzy>",
+        "QNGR:8/18/16",
+        "GVZR:08:32:38",
+        "VQ:2016-00001370",
+        "PNYY:SVER IRUVPYR",
+        "NQQE:F FGNGR EBNQ 159 & J PBHAGL EQ 1100 F",
+        "ZNQQE:F FGNGR 159 & J PBHAGL EBNQ 1100 F",
+        "PVGL:WNFBAIVYYR",
+        "CYNPR:11000-11999 F FGNGR EBNQ 159 / 5500-6498 J PBHAGL EQ 1100 F",
+        "HAVG:11-9");
+
+    qbGrfg("G7",
+        "{Havg 11-3 sebz Pynl Pbhagl Furevss trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/17/16 05:58:09 CZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001326</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: GERFCNFF</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 434 F YNSNLRGGR FG, OBJYVAT TERRA</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: OBJYVAT TERRA</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: </gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">11-3</sbag></c></obql></ugzy>",
+        "QNGR:8/17/16",
+        "GVZR:17:58:09",
+        "VQ:2016-00001326",
+        "PNYY:GERFCNFF",
+        "NQQE:434 F YNSNLRGGR FG",
+        "PVGL:OBJYVAT TERRA",
+        "HAVG:11-3");
+
+    qbGrfg("G8",
+        "{Havg 11-3 sebz Pynl Pbhagl Furevss trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/17/16 05:55:54 CZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001327</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: NYNEZ ERFQ</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 5059 R FGNGR EBNQ 42, PRAGRE CBVAG</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: PRAGRE CBVAG</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: </gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">11-3</sbag></c></obql></ugzy>",
+        "QNGR:8/17/16",
+        "GVZR:17:55:54",
+        "VQ:2016-00001327",
+        "PNYY:NYNEZ ERFQ",
+        "NQQE:5059 R FGNGR EBNQ 42",
+        "ZNQQE:5059 R FGNGR 42",
+        "PVGL:PRAGRE CBVAG",
+        "HAVG:11-3");
+
+    qbGrfg("G9",
+        "{Havg 11-9 sebz Pynl Pbhagl Furevss trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/17/16 03:24:22 CZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001320</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: IVA PURPX</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 2067 J HF UJL 40, OENMVY</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: OENMVY</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: </gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">11-9</sbag></c></obql></ugzy>",
+        "QNGR:8/17/16",
+        "GVZR:15:24:22",
+        "VQ:2016-00001320",
+        "PNYY:IVA PURPX",
+        "NQQE:2067 J HF UJL 40",
+        "ZNQQE:2067 J HF 40",
+        "PVGL:OENMVY",
+        "HAVG:11-9");
+
+    qbGrfg("G10",
+        "{Havg 11-4 sebz Pynl Pbhagl Furevss trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/17/16 03:18:57 CZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001319</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: CREFBA JRYSNER</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 204 R YNSNLRGGR FG, FGNHAGBA</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: FGNHAGBA</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: </gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">11-4</sbag></c></obql></ugzy>",
+        "QNGR:8/17/16",
+        "GVZR:15:18:57",
+        "VQ:2016-00001319",
+        "PNYY:CREFBA JRYSNER",
+        "NQQE:204 R YNSNLRGGR FG",
+        "PVGL:FGNHAGBA",
+        "HAVG:11-4");
+
+    qbGrfg("G11",
+        "{Havg 11-9 sebz Pynl Pbhagl Furevss trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/17/16 11:39:00 NZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001304</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: GK ERDHRFG</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 611 R WNPXFBA FG, OENMVY</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: OENMVY</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: </gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">11-9</sbag></c></obql></ugzy>",
+        "QNGR:8/17/16",
+        "GVZR:11:39:00",
+        "VQ:2016-00001304",
+        "PNYY:GK ERDHRFG",
+        "NQQE:611 R WNPXFBA FG",
+        "PVGL:OENMVY",
+        "HAVG:11-9");
+
+    qbGrfg("G12",
+        "{Havg 11-9 sebz Pynl Pbhagl Furevss trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/17/16 11:33:25 NZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001303</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: GK ERDHRFG</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 611 R WNPXFBA FG, OENMVY</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: OENMVY</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: </gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">11-9</sbag></c></obql></ugzy>",
+        "QNGR:8/17/16",
+        "GVZR:11:33:25",
+        "VQ:2016-00001303",
+        "PNYY:GK ERDHRFG",
+        "NQQE:611 R WNPXFBA FG",
+        "PVGL:OENMVY",
+        "HAVG:11-9");
+
+    qbGrfg("G13",
+        "{Havg 11-9 sebz Pynl Pbhagl Furevss trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/17/16 08:24:49 NZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001291</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: PEVZVANY ZVFPUVRS</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 6655 A YNXR VA GUR JBBQF QE, OENMVY</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: OENMVY</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: </gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">11-9</sbag></c></obql></ugzy>",
+        "QNGR:8/17/16",
+        "GVZR:08:24:49",
+        "VQ:2016-00001291",
+        "PNYY:PEVZVANY ZVFPUVRS",
+        "NQQE:6655 A YNXR VA GUR JBBQF QE",
+        "PVGL:OENMVY",
+        "HAVG:11-9");
+
+    qbGrfg("G14",
+        "{Havg YJOEH115 sebz Yrjvf Sver trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/16/16 09:34:30 CZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001276</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: FGEHPG SVER</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 6440 J CHOYVP EQ, PBNYZBAG</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: PBNYZBAG</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: Yrjvf Sver Qrcnegzrag</gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">YSQ, YJOEH115</sbag></c></obql></ugzy>",
+        "QNGR:8/16/16",
+        "GVZR:21:34:30",
+        "VQ:2016-00001276",
+        "PNYY:FGEHPG SVER",
+        "NQQE:6440 J CHOYVP EQ",
+        "PVGL:PBNYZBAG",
+        "CYNPR:Yrjvf Sver Qrcnegzrag",
+        "HAVG:YSQ,YJOEH115");
+
+    qbGrfg("G15",
+        "{Havg YSQ sebz Yrjvf Sver trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/16/16 09:34:20 CZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001276</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: FGEHPG SVER</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 6440 J CHOYVP EQ, PBNYZBAG</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: PBNYZBAG</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: Yrjvf Sver Qrcnegzrag</gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">YSQ</sbag></c></obql></ugzy>",
+        "QNGR:8/16/16",
+        "GVZR:21:34:20",
+        "VQ:2016-00001276",
+        "PNYY:FGEHPG SVER",
+        "NQQE:6440 J CHOYVP EQ",
+        "PVGL:PBNYZBAG",
+        "CYNPR:Yrjvf Sver Qrcnegzrag",
+        "HAVG:YSQ");
+
+    qbGrfg("G16",
+        "{Havg 11-10 sebz Pynl Pbhagl Furevss trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/16/16 05:23:10 CZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001255</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: QBZRFGVP QVFC</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 1765 R EVIRE EQ, PYNL PVGL</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: PYNL PVGL</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: </gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">11-11, 11-7, 11-10</sbag></c></obql></ugzy>",
+        "QNGR:8/16/16",
+        "GVZR:17:23:10",
+        "VQ:2016-00001255",
+        "PNYY:QBZRFGVP QVFC",
+        "NQQE:1765 R EVIRE EQ",
+        "PVGL:PYNL PVGL",
+        "HAVG:11-11,11-7,11-10");
+
+    qbGrfg("G17",
+        "{Havg 11-11 sebz Pynl Pbhagl Furevss trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/16/16 05:23:01 CZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001255</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: QBZRFGVP QVFC</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 1765 R EVIRE EQ, PYNL PVGL</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: PYNL PVGL</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: </gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">11-11, 11-7</sbag></c></obql></ugzy>",
+        "QNGR:8/16/16",
+        "GVZR:17:23:01",
+        "VQ:2016-00001255",
+        "PNYY:QBZRFGVP QVFC",
+        "NQQE:1765 R EVIRE EQ",
+        "PVGL:PYNL PVGL",
+        "HAVG:11-11,11-7");
+
+    qbGrfg("G18",
+        "{Havg 11-7 sebz Pynl Pbhagl Furevss trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/16/16 05:22:41 CZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001255</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: QBZRFGVP QVFC</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 1765 R EVIRE EQ, PYNL PVGL</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: PYNL PVGL</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: </gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">11-7</sbag></c></obql></ugzy>",
+        "QNGR:8/16/16",
+        "GVZR:17:22:41",
+        "VQ:2016-00001255",
+        "PNYY:QBZRFGVP QVFC",
+        "NQQE:1765 R EVIRE EQ",
+        "PVGL:PYNL PVGL",
+        "HAVG:11-7");
+
+    qbGrfg("G19",
+        "{Havg YJRAT111 sebz Yrjvf Sver trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/16/16 04:33:02 CZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001251</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: ONEXVAT QBT</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 6440 J CHOYVP EQ, PBNYZBAG</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: PBNYZBAG</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: Yrjvf Sver Qrcnegzrag</gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">YJGAX113, YSQ, YJRAT111, YJOEH115, YJERF112</sbag></c></obql></ugzy>",
+        "QNGR:8/16/16",
+        "GVZR:16:33:02",
+        "VQ:2016-00001251",
+        "PNYY:ONEXVAT QBT",
+        "NQQE:6440 J CHOYVP EQ",
+        "PVGL:PBNYZBAG",
+        "CYNPR:Yrjvf Sver Qrcnegzrag",
+        "HAVG:YJGAX113,YSQ,YJRAT111,YJOEH115,YJERF112");
+
+    qbGrfg("G20",
+        "{Havg YJGAX113 sebz Yrjvf Sver trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/16/16 04:32:42 CZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001251</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: ONEXVAT QBT</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 6440 J CHOYVP EQ, PBNYZBAG</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: PBNYZBAG</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: Yrjvf Sver Qrcnegzrag</gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">YJGAX113, YSQ, YJOEH115, YJERF112</sbag></c></obql></ugzy>",
+        "QNGR:8/16/16",
+        "GVZR:16:32:42",
+        "VQ:2016-00001251",
+        "PNYY:ONEXVAT QBT",
+        "NQQE:6440 J CHOYVP EQ",
+        "PVGL:PBNYZBAG",
+        "CYNPR:Yrjvf Sver Qrcnegzrag",
+        "HAVG:YJGAX113,YSQ,YJOEH115,YJERF112");
+
+    qbGrfg("G21",
+        "{Havg YJERF112 sebz Yrjvf Sver trgf Qvfcngpurq} <ugzy><urnq><zrgn punefrg=\"HGS-8\"><fglyr glcr=\"grkg/pff\">u1 {sbag: obyq 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:erq;znetva: 0ck; cnqqvat: 0ck; }u2 {sbag: obyq 10ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; znetva: 0ck; cnqqvat: 0ck; }gnoyr, gq{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-yrsg: 3ck;cnqqvat-evtug: 3ck; }ge{cnqqvat-gbc: 1ck;cnqqvat-obggbz: 1ck; }c{sbag: 12ck Nevny, Trarin, Uryirgvpn, fnaf-frevs; pbybe:oynpx;grkg-nyvta=yrsg;cnqqvat-gbc=0ck;cnqqvat-obggbz=0ck;znetva=0}obql{znetva: 0ck; cnqqvat: 0ck; }</fglyr><gvgyr>Vagrenpg nhgbzngvpnyyl trarengrq rznvy</gvgyr></urnq><obql><c>Nf bs 8/16/16 04:25:43 CZ</c><u1>Vapvqrag Vasbezngvba</u1><gnoyr><ge nyvta=\"yrsg\"><gq>PNQ Vapvqrag : 2016-00001251</gq></ge><ge nyvta=\"yrsg\"><gq>Rirag Pbqr: ONEXVAT QBT</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba: 6440 J CHOYVP EQ, PBNYZBAG</gq></ge><ge nyvta=\"yrsg\"><gq>Pbzzhavgl: PBNYZBAG</gq></ge><ge nyvta=\"yrsg\"><gq>Ybpngvba Vasbezngvba: Yrjvf Sver Qrcnegzrag</gq></ge></gnoyr><c><sbag pbybe=\"#SS0000\"><o>Erfcbaqvat Havgf: </o></sbag><sbag pbybe=\"#000000\">YSQ, YJOEH115, YJERF112</sbag></c></obql></ugzy>",
+        "QNGR:8/16/16",
+        "GVZR:16:25:43",
+        "VQ:2016-00001251",
+        "PNYY:ONEXVAT QBT",
+        "NQQE:6440 J CHOYVP EQ",
+        "PVGL:PBNYZBAG",
+        "CYNPR:Yrjvf Sver Qrcnegzrag",
+        "HAVG:YSQ,YJOEH115,YJERF112");
 
   }
   

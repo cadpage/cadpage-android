@@ -92,7 +92,7 @@ choyvp pynff GKAnineebPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:P16-14073",
         "GVZR:23:42:18",
         "PNYY:ZRQVPNY RZRETRAPL - RZRETRAPL",
-        "TCF:+32.093758,-96.716111",
+        "TCF:+32.093758,-96.716111", //qbja gur oybpx
         "VASB:PSF Ybpngvba Punatrq");
 
     qbGrfg("G3",
@@ -118,7 +118,7 @@ choyvp pynff GKAnineebPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:P16-13896",
         "GVZR:02:20:57",
         "PNYY:ZRQVPNY RZRETRAPL - RZRETRAPL",
-        "TCF:+32.096952,-96.718549",
+        "TCF:+32.096952,-96.718549", //qbja 5 oybpxf
         "VASB:pbzc pnaabg ubyq ure urnq hc/ ibzvggvat / qvneeurn naq purfg cnva //");
 
     qbGrfg("G6",
