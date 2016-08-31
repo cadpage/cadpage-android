@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.MsgType;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.StandardCodeTable;
 
@@ -18,7 +19,7 @@ public class CASacramentoCountyParser extends MsgParser {
   
   public CASacramentoCountyParser() {
     super("SACRAMENTO COUNTY", "CA");
-    setFieldList("SRC CODE CALL MAP MAP ADDR APT CITY UNIT");
+    setFieldList("SRC CODE CALL MAP MAP ADDR APT CITY UNIT INFO");
     setupGpsLookupTable(GPS_LOOKUP_TABLE);
   }
   
@@ -39,8 +40,8 @@ public class CASacramentoCountyParser extends MsgParser {
     
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) {
-      data.strCall = "GENERAL ALERT";
-      data.strPlace = body;
+      data.msgType = MsgType.GEN_ALERT;
+      data.strSupp = body;
       return true;
     }
     
