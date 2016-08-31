@@ -24,6 +24,10 @@ public class PAChesterCountyFParser extends PAChesterCountyBaseParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    // Reject any PAChesterCountyD4 alerts
+    if (body.startsWith("Dispatch ** ")) return false;
+    if (body.contains("** Dispatch **")) return false;
 
     body = stripFieldEnd(body, " *");
     body = DETAILS_TO_FOLLOW.matcher(body).replaceAll("");

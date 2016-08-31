@@ -153,6 +153,11 @@ choyvp pynff CNPurfgrePbhaglSCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgOnq() {
     qbOnqGrfg("(ZSP) TFUS ** 01:19 ** ERFCVENGBEL QVSSVPHYGL - NYF * ** 317 QRIBA JL ,53 ** - ** QRIBA YN & QRIBA JL ** 5684 ** RTBFUA ** 60/S - UNIVAT NAKVRGL, FBO\a\aQRGNVYF GB SBYYBJ\a\a **");
+    qbOnqGrfg("{CBYRF,JVERF,GENAFSBEZRE SVER *} 20:10 ** CBYRF,JVERF,GENAFSBEZRE SVER * ** ORGURY PUHEPU EQ/RYYVF JBBQF EQ ,18    ( ** - ** 6201 ** URNEQ NA RKCYBFVBA NAQ FNJ FCNEXF NAQ FZBXR/GU\a" +
+              "VAXF VG JNF N GENAFSBEZRE/FRRF N YVGGYR FZBXR \a" +
+              "ABJ ** 07/30/16 **  ** 62 **  ** Qvfcngpu ** 20:10 ** CBYRF,JVERF,GENAFSBEZRE SVER * ** ORGURY PUHEPU EQ/RYYVF JBBQF EQ ,18    ( ** - ** 6201 ** URNEQ NA RKCYBFVBA NAQ FNJ FCNEXF NAQ FZBXR/GU\a" +
+              "VAXF VG JNF N GENAFSBEZRE/FRRF N YVGGYR FZBXR \a" +
+              "ABJ ** 07/30/16 **  ** 62 **  **");
   }
   
   @Grfg
