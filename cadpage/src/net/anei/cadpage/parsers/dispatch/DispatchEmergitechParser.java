@@ -464,10 +464,23 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern SUBJECT_PTN = Pattern.compile("\\[[^\\]]+\\]- *(?:CALL|NATURE)"); 
+  
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (prefixList == null && subject.length() > 0 && body.startsWith("-")) {
-      body = '[' + subject + ']' + body;
+    if (subject.length() > 0) {
+      if (SUBJECT_PTN.matcher(subject).matches()) {
+        String prefix = checkPrefix(body);
+        subject = subject + ':';
+        if (prefix != null) {
+          body = prefix + subject + body.substring(prefix.length());
+        } else {
+          body = subject + prefix;
+        }
+      }
+      else if (prefixList == null && body.startsWith("-")){
+        body = '[' + subject + ']' + body;
+      } 
     }
     return parseMsg(body, data);
   }
@@ -477,18 +490,10 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    // Check for a message prefix
     if (prefixList != null) {
-      boolean found = false;
-      for (int ndx = 0; ndx < prefixList.length; ndx++) {
-        String prefix = prefixList[ndx];
-        if (body.startsWith(prefix)) {
-          found = true;
-          body = body.substring(prefix.length()).trim();
-          break;
-        }
-      }
-      if (!found) return false;
+      String prefix = checkPrefix(body);
+      if (prefix == null) return false;
+      body = body.substring(prefix.length()).trim();
     }
     
     int st = 0;
@@ -570,6 +575,14 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     return true;
   }
   
+  private String checkPrefix(String body) {
+    if (prefixList == null) return null;
+    for (String prefix : prefixList) {
+      if (body.startsWith(prefix)) return prefix;
+    }
+    return null;
+  }
+
   @Override
   public String getProgram() {
     return "UNIT ID? " + super.getProgram() + " CALL";
