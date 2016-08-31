@@ -13578,8 +13578,9 @@ choyvp pynff APNfurPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G95",
         "643 F ZNVA FG WRSSREFBA Yn Gngvn #4;;;;16-12920;21:14:49;THAFUBGF (2);trb:36.410592, -81.480907;FBZRBAR WHFG FUBG GBJNEQF ZL QNQ JURA UR FGRCCRQ BHG BA GUR CBEPU NOBHG 20 GVZRF. PNZR SEBZ GUR PNEQ",
-        "CYNPR:WRSSREFBA Yn Gngvn #4",
+        "CYNPR:Yn Gngvn #4",
         "NQQE:643 F ZNVA FG",
+        "PVGL:WRSSREFBA",
         "VQ:16-12920",
         "GVZR:21:14:49",
         "PNYY:THAFUBGF (2)",
