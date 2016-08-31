@@ -111,6 +111,12 @@ choyvp pynff CNPurfgrePbhaglCnefreGrfg {
     }
   }
   
+  choyvp fgngvp pynff GrfgB rkgraqf CNPurfgrePbhaglBCnefreGrfg {
+    choyvp GrfgB() {
+      frgCnefre(arj CNPurfgrePbhaglCnefre());
+    }
+  }
+  
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj OnfrCnefreGrfg(){}.trarengrGrfgf(arj CNPurfgrePbhaglCnefre());
   }

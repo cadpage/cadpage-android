@@ -47,8 +47,8 @@ public class DispatchA7Parser extends DispatchA7BaseParser {
   private static final Pattern BOX_PTN2 = Pattern.compile("Police +BLK: [^ ]* +Fire +BLK: *([^ ]*)");
   private static final Pattern BOX_PTN2B = Pattern.compile("EMS +BLK: ([^ ]*) +DSP +BLK: ?[^ ]*");
   private static final Pattern BOX_PTN3 = Pattern.compile("EMS Blk: *([^ ]*) +Fire Blk: *([^ ]*) +Police Blk: *[^ ]* +Map Page: *([^ ]*)");
-  private static final Pattern MAP_LAT_LONG_PTN1 = Pattern.compile("Group: ([^ ]*) +Section: ([^ ]*) +Map: ([^ ]*) +X: *(\\d*) +Y: *(\\d*)");
-  private static final Pattern MAP_LAT_LONG_PTN2 = Pattern.compile("Group: (.*?) +Beat: ([^ ]*) +Map Page: ([^ ]*) +Lat: +([-+][\\.0-9]+)? Long: ?([-+][\\.0-9]+)?");
+  private static final Pattern MAP_LAT_LONG_PTN1 = Pattern.compile("Group: (.*?) +Section: (\\S*) +Map: (\\S*) +X: *(\\d*) +Y: *(\\d*)");
+  private static final Pattern MAP_LAT_LONG_PTN2 = Pattern.compile("Group: (.*?) +Beat: (\\S*) +Map Page: (\\S*) +Lat: +([-+][\\.0-9]+)? Long: ?([-+][\\.0-9]+)?");
   private static final Pattern ADDR_CROSS_PTN = Pattern.compile("Loc: *(.*?) *(?:high xst: (.*?) *)?");
   
   private static final Pattern COMMUNITY_PTN = Pattern.compile("Community: +(.*?)");

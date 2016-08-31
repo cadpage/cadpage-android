@@ -15,17 +15,17 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class WVBooneCountyParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("\\[([0-9]-[0-9]{1,2})\\]-- - Nature");
-  private static final Pattern MISSING_DELIM_PTN = Pattern.compile("(?<! -) (Comments:)");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("\\[([0-9]-[0-9]{1,2})\\]-[- ]*(?:(.*?) -)? (Call|Nature)");
+  private static final Pattern MISSING_DELIM_PTN = Pattern.compile("(?<! -) (Nature:|Comments:)");
   
   public WVBooneCountyParser() {
     super(CITY_LIST, "BOONE COUNTY", "WV",
-           "Nature:CALL! CALL+ Location:ADDR/S! Comments:INFO INFO+");
+           "Call:ID Nature:CALL! CALL+ Location:ADDR/S! Comments:INFO INFO/SDS+");
   }
   
   @Override
   public String getFilter() {
-    return "donotreply@boonewv.com";
+    return "paging@boonewv.com";
   }
   
   @Override
@@ -37,8 +37,9 @@ public class WVBooneCountyParser extends FieldProgramParser {
     // If the subject heading looks like "[1-13]-- - Nature", add to body with a :
     if(subjectUnit.find()) {
       data.strUnit = subjectUnit.group(1).trim();
+      data.strSupp = getOptGroup(subjectUnit.group(2));
       if (body.startsWith("donotreply:")) body = body.substring(11).trim(); 
-      body = "Nature: " + body;
+      body = subjectUnit.group(3) + ": " + body;
     }
     // Otherwise our subject contains the unit only
     else {
@@ -61,6 +62,13 @@ public class WVBooneCountyParser extends FieldProgramParser {
     return "UNIT " + super.getProgram();
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
   
   private class MyCallField extends CallField {
     @Override 
@@ -82,24 +90,28 @@ public class WVBooneCountyParser extends FieldProgramParser {
       super.parse(field, data);
     }
   }
-  
+
+  private static final Pattern INFO_GPS_PTN = Pattern.compile("(LAT:(?:[-+]\\d{3}.\\d{6})? LON:(?:[-+]\\d{3}.\\d{6})?)(?: COF:\\d*)?(?: COP:\\d*)? *");
   private class MyInfoField extends InfoField {
     public void parse(String field, Data data) {
-      data.strSupp = append(data.strSupp, " - ", field);
+      Matcher match = INFO_GPS_PTN.matcher(field);
+      if (match.lookingAt()) {
+        String gps = match.group(1);
+        if (gps != null) setGPSLoc(gps, data);
+        field = field.substring(match.end());
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "GPS " + super.getFieldNames();
     }
   }
   
   @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
-  }
-  
-  @Override
   public String adjustMapCity(String city) {
-    return convertCodes(city, MAP_CITIES);
+    return convertCodes(city.toUpperCase(), MAP_CITIES);
   }
   
   private static final String[] CITY_LIST = {
@@ -117,26 +129,38 @@ public class WVBooneCountyParser extends FieldProgramParser {
     "BANDYTOWN",
     "BARRETT",
     "BIGSON",
+    "BIG UGLY",
     "BIM",
     "BLOOMINGROSE",
     "BLUE PENNANT",
     "BOB WHITE",
     "BRADLEY",
+    "BRANHAM HEIGHTS",
     "BRUSHTON",
+    "BULL CREEK",
     "CAMEO",
+    "CAMP CREEK",
     "CAZY",
+    "CAZY BOTTOM",
     "CLINTON",
+    "CLINTON CAMP",
     "CLOTHIER",
     "COMFORT",
     "COOPERTOWN",
+    "COSTA",
+    "COXS FORK",
     "DARTMONT",
+    "DODDSON FORK",
     "DODSON JUNCTION",
+    "DOG HOLLOW OF MORR",
     "DRAWDY",
     "EASLY",
     "EDEN",
     "ELK RUN JUNCTION",
-    "EMMONS (PART)",
+    "EUNICE",
+    "EMMONS",
     "FOCH",
+    "FORK CREEK",
     "FOSTER",
     "FOSTER HOLLOW",
     "FOSTER HOLLOW LEFT",
@@ -144,48 +168,79 @@ public class WVBooneCountyParser extends FieldProgramParser {
     "GARRISON",
     "GORDON",
     "GREENVIEW",
+    "GREENWOOD",
     "GRIPPE",
+    "HADDLETON",
     "HAVANA",
     "HEWETT",
+    "HOLLY HILLS",
     "HOPKINS FORK",
+    "INDIAN CREEK",
     "JANIE",
     "JEFFREY",
+    "JOES CREEK",
     "JULIAN",
     "KEITH",
     "KIRBYTON",
     "KOHLSAAT",
     "LANTA",
+    "LAUREL CITY",
+    "LAUREL ESTATES",
     "LICK CREEK",
     "LINDYTOWN",
+    "LITTLE HORSE CREEK",
+    "LORY",
     "LOW GAP",
     "MANILA",
     "MARNIE",
     "MARTHATOWN",
     "MAXINE",
     "MEADOW FORK",
+    "MIDDLE HORSE CREEK",
+    "MIDWAY",
     "MILLTOWN",
+    "MISSOURI FORK",
     "MORRISVALE",
+    "MUD RIVER",
     "NELSON",
     "NELLIS",
+    "NEWPORT",
+    "NORTH FORK",
     "ORGAS",
     "OTTAWA",
+    "PD FORK",
     "PEYTONA",
     "PONDCO",
     "POWELL CREEK",
     "PRENTER",
     "PRICE HILL",
+    "PRICE HOLLOW OF AS",
     "QUINLAND",
     "RACINE",
+    "RACINE HILL",
     "RAMAGE",
     "RIDGEVIEW",
+    "ROBINSON",
+    "ROCK CASTLE",
+    "ROCK CREEK",
+    "ROUNDBOTTOM OF PEY",
     "RUMBLE",
+    "SAND LICK OF PRENT",
     "SECOAL",
+    "SENG CREEK",
     "SETH",
     "SHARLOW",
+    "SHORT CREEK",
+    "SIX MILE",
     "SOUTH MADISON",
+    "SPARS CREEK",
+    "SPRING HOLLOW",
+    "SPRUCE LAUREL",
+    "STRINGTOWN",
     "TONEYS BRANCH",
     "TURTLE CREEK",
     "TWILIGHT",
+    "TWIN POPLARS",
     "UNEEDA",
     "VAN",
     "WASHINGTON HEIGHTS",
@@ -194,11 +249,39 @@ public class WVBooneCountyParser extends FieldProgramParser {
   };
   
   private static final Properties MAP_CITIES = buildCodeTable(new String[]{
-    "DRAWDY",        "1",
-    "MANILA",        "2",
-    "MAXINE",        "1",
-    "MEADOW FORK",   "2",
-    "QUINLAND",      "2",
-    "TONEYS BRANCH", "1"
+    "BIG UGLY",             "DANVILLE",
+    "BULL CREEK",           "WHARTON",
+    "CAZY BOTTOM",          "WHARTON",
+    "CLINTON CAMP",         "WHARTON",
+    "COXS FORK",            "DANVILLE",
+    "DODDSON FORK",         "SPURLOCKVILLE",
+    "DOG HOLLOW OF MORR",   "SPURLOCKVILLE",
+    "DRAWDY",               "1",
+    "GREENWOOD",            "WHARTON",
+    "INDIAN CREEK",         "RACINE",
+    "JOES CREEK",           "DANVILLE",
+    "LITTLE HORSE CREEK",   "JULIAN",
+    "LAUREL CITY",          "OTTAWA",
+    "LAUREL ESTATES",       "BOB WHITE",
+    "MANILA",               "2",
+    "MAXINE",               "1",
+    "MEADOW FORK",          "2",
+    "MISSOURI FORK",        "HEWETT",
+    "NEWPORT",              "DANVILLE",
+    "PD FORK",              "FOSTER",
+    "PRICE HOLLOW OF AS",   "ASHFORD",
+    "QUINLAND",             "2",
+    "ROBINSON",             "MADISON",
+    "ROCK CASTLE",          "1",
+    "ROCK CREEK",           "FOSTER",
+    "ROUNDBOTTOM OF PEY",   "PEYTONA",
+    "SAND LICK OF PRENT",   "SETH",
+    "SPARS CREEK",          "DANVILLE",
+    "SENG CREEK",           "1",
+    "SHORT CREEK",          "RACINE",
+    "SPRING HOLLOW",        "WHARTON",
+    "STRINGTOWN",           "JEFFREY",
+    "TONEYS BRANCH",        "1",
+    "TWIN POPLARS",         "ORGAS"
   });
 }

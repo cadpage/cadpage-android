@@ -10,6 +10,6 @@ public class PAChesterCountyGParser extends PAChesterCountyBaseParser {
   
   @Override
   public String getFilter() {
-    return "gallison39@comcast.net,messaging@iamresponding.com,pfdfire65@comcast.net";
+    return "wgfc22@comcast.net,EWFC05@verizon.net,pfdfire@fdcms.info,vfvfco168@comcast.net,dispatch@station87.com";
   }
 } 

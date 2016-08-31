@@ -701,7 +701,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF NZO 2-4-3\a" +
         "QVF:CUVYBZNGU CQ",
 
-        "PNYY:Fvpx - Ibzvggvat (NYCUN)",
+        "PNYY:Fvpx - Cbffvoyr zravatvgvf (NYCUN)",
         "PBQR:26N11",
         "NQQE:1629 PBYYRTR FG",
         "PVGL:CUVYBZNGU",
@@ -812,7 +812,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:CUVYBZNGU SVER\a" +
         "QVF:PBEINYYVF NZO 2-4-3",
 
-        "PNYY:Oernguvat Ceboyrzf - Hapbapvbhf be neerfg (QRYGN)",
+        "PNYY:Oernguvat Ceboyrzf - Qvssvphygl fcrnxvat orgjrra oernguf (QRYGN)",
         "PBQR:6Q02",
         "NQQE:24653 UJL 34",
         "PVGL:CUVYBZNGU",
@@ -834,7 +834,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF NZO 2-4-3\a" +
         "QVF:CUVYBZNGU CQ",
 
-        "PNYY:Noqbzvany cnva (NYCUN)",
+        "PNYY:Noqbzvany Cnva (NYCUN)",
         "PBQR:1N01",
         "NQQE:1629 PBYYRTR FG",
         "PVGL:CUVYBZNGU",
@@ -879,7 +879,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF NZO 2-4-3\a" +
         "QVF:CUVYBZNGU CQ",
 
-        "PNYY:Fhfcrpgrq jbexnoyr neerfg – abg oernguvat ng nyy (RPUB)",
+        "PNYY:Fhfcrpgrq jbexnoyr neerfg – Abg oernguvat ng nyy (RPUB)",
         "PBQR:9R01",
         "NQQE:300 F 11GU FG",
         "PVGL:CUVYBZNGU",
@@ -925,7 +925,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:CUVYBZNGU SVER\a" +
         "QVF:PBEINYYVF NZO 2-4-3",
 
-        "PNYY:Snyy - Abg erprag j/b cevbevgl flzcgbzf) (NYCUN)",
+        "PNYY:Snyy - Abg qnatrebhf obql nern (Ba tebhaq be sybbe) (NYCUN)",
         "PBQR:17N02T",
         "NQQE:2679 JRFG UVYYF EQ",
         "PVGL:CUVYBZNGU",
@@ -3927,7 +3927,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:ORAGBA PB FB\a" +
         "QVF:PBEINYYVF EHENY 2-1-4-3-6",
 
-        "PNYY:Snyy - Choyvp nffvfg (ab vawhevrf naq ab cevbevgl flzcgbzf) (NYCUN)",
+        "PNYY:Snyy - Abg erprag (>= 6 ubhef) (NYCUN)",
         "PBQR:17N03",
         "NQQE:2510 FJ 45GU FG",
         "PVGL:PBEINYYVF",
@@ -4015,7 +4015,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:ORAGBA PB FB\a" +
         "QVF:PBEINYYVF EHENY 2-1-4-3-6",
 
-        "PNYY:SNYY VAWHEL (NYCUN)",
+        "PNYY:Snyy - Choyvp nffvfg (ab vawhevrf naq ab cevbevgl flzcgbzf) (Ba tebhaq be sybbe) (NYCUN)",
         "PBQR:17N04T",
         "NQQE:2510 FJ 45GU FG",
         "PVGL:PBEINYYVF",
@@ -4057,7 +4057,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-1-2-6-4",
 
-        "PNYY:Noabezny oernguvat (PUNEYVR)",
+        "PNYY:Oernguvat Ceboyrzf - Noabezny oernguvat (Bgure yhat cebo) (PUNEYVR)",
         "PBQR:6P01B",
         "NQQE:1687 AJ QVIVFVBA FG",
         "NCG:105",
@@ -4126,7 +4126,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:BQS CEBGRPGRQ YNAQ\a" +
         "QVF:NYFRN SVER",
 
-        "PNYY:Genhzn - Purfg be arpx vawhel (j/ qvssvphyg oerngvat) (QRYGN)",
+        "PNYY:Genhzn - Abg nyreg (QRYGN)",
         "PBQR:30Q03",
         "NQQE:26452 GBOR PERRX EQ",
         "PVGL:NYFRN",
@@ -4147,7 +4147,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-1-6-4-2",
 
-        "PNYY:Noqbzvany cnva (NYCUN)",
+        "PNYY:Noqbzvany Cnva (NYCUN)",
         "PBQR:1N01",
         "NQQE:160 AR PBAVSRE OI",
         "NCG:113O",
@@ -4258,7 +4258,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF EHENY 3-1-6-4-2\a" +
         "QVF:PBEINYYVF CQ ABEGU",
 
-        "PNYY:SNYY VAWHEL (NYCUN)",
+        "PNYY:Snyy - Choyvp nffvfg (ab vawhevrf naq ab cevbevgl flzcgbzf) (NYCUN)",
         "PBQR:17N04",
         "NQQE:1340 AR FRNIL NI",
         "ZNQQE:1340 AR FRNIL NIR",
@@ -4366,7 +4366,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-2-1-6-4",
 
-        "PNYY:Frvmher - Abg frvmvat abj naq oernguvat erthyneyl (irevsvrq) (NYCUN)",
+        "PNYY:Pbaihyfvbaf/Frvmher - Abg frvmvat abj (xabja frvmher qvfbeqre) (Rcvyrcgvp be cerivbhf frvmher) (NYCUN)",
         "PBQR:12N01R",
         "NQQE:2135 AJ 29GU FG",
         "PVGL:PBEINYYVF",
@@ -4387,7 +4387,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-2-1-6-4",
 
-        "PNYY:Snyy - Haxabja fgnghf (OENIB)",
+        "PNYY:Snyy - Haxabja fgnghf (Ba tebhaq be sybbe) (OENIB)",
         "PBQR:17O03T",
         "NQQE:3091 AJ YVFN CY",
         "PVGL:PBEINYYVF",
@@ -4408,7 +4408,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ FBHGU\a" +
         "QVF:PBEINYYVF 4-1-2-3-6",
 
-        "PNYY:Snyy - Cbffvoyl qnatrebhf obql nern (OENIB)",
+        "PNYY:Snyy - Cbffvoyl qnatrebhf obql nern (Ba tebhaq be sybbe) (OENIB)",
         "PBQR:17O01T",
         "NQQE:300 FR TBBQAVTUG NI",
         "ZNQQE:300 FR TBBQAVTUG NIR",
@@ -4434,7 +4434,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:ZBAEBR SVER\a" +
         "QVF:PBEINYYVF NZO 4-2-3",
 
-        "PNYY:Noqbzvany Cnva - Znyrf j/ cnva nobir aniry > 45 (PUNEYVR)",
+        "PNYY:Noqbzvany Cnva - Znyrf jvgu cnva nobir aniry > 35 (PUNEYVR)",
         "PBQR:1P05",
         "NQQE:24762 JVYYVNZF EQ",
         "PVGL:ZBAEBR",
@@ -4455,7 +4455,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-6-1-2-4",
 
-        "PNYY:Genafsre - Rzretrapl erfcbafr erdhrfgrq (PUNEYVR)",
+        "PNYY:Genafsre - Nphgr frirer cnva (Genafsre) (PUNEYVR)",
         "PBQR:33P06G",
         "NQQE:3509 AJ FNZNEVGNA QE",
         "PVGL:PBEINYYVF",
@@ -4564,7 +4564,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-1-6-4-2",
 
-        "PNYY:Snyy - Cbffvoyl qnatrebhf obql nern (OENIB)",
+        "PNYY:Snyy - Cbffvoyl qnatrebhf obql nern (Ba tebhaq be sybbe) (OENIB)",
         "PBQR:17O01T",
         "NQQE:145 AR PBAVSRE OI",
         "NCG:7",
@@ -4629,7 +4629,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-2-1-6-4",
 
-        "PNYY:Snyy - Cbffvoyl qnatrebhf obql nern (OENIB)",
+        "PNYY:Snyy - Cbffvoyl qnatrebhf obql nern (Ba tebhaq be sybbe) (OENIB)",
         "PBQR:17O01T",
         "NQQE:4005 AJ RYZJBBQ QE",
         "PVGL:PBEINYYVF",
@@ -4739,7 +4739,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-1-6-4-2",
 
-        "PNYY:Snyy - Ybat snyy (QRYGN)",
+        "PNYY:Snyy - Abg nyreg (Ba tebhaq be sybbe) (QRYGN)",
         "PBQR:17Q04T",
         "NQQE:277 AR PBAVSRE OI",
         "NCG:76",
@@ -4848,7 +4848,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-1-6-2-4",
 
-        "PNYY:Frvmher - Pbagvahbhf be zhygvcyr frvmherf (QRYGN)",
+        "PNYY:Pbaihyfvbaf/Frvmher - Pbagvahbhf be zhygvcyr frvmherf (Rcvyrcgvp be cerivbhf frvmher) (QRYGN)",
         "PBQR:12Q02R",
         "NQQE:921 AJ FLPNZBER NI",
         "ZNQQE:921 AJ FLPNZBER NIR",
@@ -4933,7 +4933,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ FBHGU\a" +
         "QVF:PBEINYYVF 2-1-4-3-6",
 
-        "PNYY:Snyy - Cbffvoyl qnatrebhf obql nern (OENIB)",
+        "PNYY:Snyy - Cbffvoyl qnatrebhf obql nern (Ba tebhaq be sybbe) (OENIB)",
         "PBQR:17O01T",
         "NQQE:4700 FJ UBYYLUBPX PE",
         "ZNQQE:4700 FJ UBYYLUBPX PVE",
@@ -4956,7 +4956,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:ORAGBA PB FB\a" +
         "QVF:PBEINYYVF EHENY 6-3-1-2-4",
 
-        "PNYY:Snyy - Abg erprag j/b cevbevgl flzcgbzf) (NYCUN)",
+        "PNYY:Snyy - Abg qnatrebhf obql nern (Ba tebhaq be sybbe) (NYCUN)",
         "PBQR:17N02T",
         "NQQE:7931 AJ NEOBERGHZ EQ",
         "PVGL:PBEINYYVF",
@@ -4998,7 +4998,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-6-1-2-4",
 
-        "PNYY:Genafsre - Nphvgl V (ab cevbevgl flzcgbzf) (NYCUN)",
+        "PNYY:Genafsre - Nphvgl V (ab cevbevgl flzcgbzf) (Genafsre) (NYCUN)",
         "PBQR:33N01G",
         "NQQE:3600 AJ FNZNEVGNA QE",
         "PVGL:PBEINYYVF",
@@ -5020,7 +5020,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:ZBAEBR SVER\a" +
         "QVF:PBEINYYVF NZO 4-2-3",
 
-        "PNYY:Noqbzvany cnva (NYCUN)",
+        "PNYY:Noqbzvany Cnva (NYCUN)",
         "PBQR:1N01",
         "NQQE:26593 FUNQL BNX QE",
         "PVGL:ZBAEBR",
@@ -5043,7 +5043,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:BQS CEBGRPGRQ YNAQ\a" +
         "QVF:BQS CEBGRPGRQ YNAQ",
 
-        "PNYY:Urneg Ceboyrz - Pynzzl (QRYGN)",
+        "PNYY:Urneg Ceboyrz - Pynzzl be pbyq fjrngf (QRYGN)",
         "PBQR:19Q04",
         "NQQE:6625 AJ TENAQIVRJ QE",
         "PVGL:PBEINYYVF",
@@ -5085,7 +5085,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-6-1-2-4",
 
-        "PNYY:Genafsre - Nphvgl VV (ab cevbevgl flzcgbzf) (NYCUN)",
+        "PNYY:Genafsre - Nphvgl VV (ab cevbevgl flzcgbzf) (Genafsre) (NYCUN)",
         "PBQR:33N02G",
         "NQQE:3600 AJ FNZNEVGNA QE",
         "PVGL:PBEINYYVF",
@@ -5106,7 +5106,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-6-1-2-4",
 
-        "PNYY:Snyy - Haxabja fgnghf (OENIB)",
+        "PNYY:Snyy - Haxabja fgnghf (Ba tebhaq be sybbe) (OENIB)",
         "PBQR:17O03T",
         "NQQE:2655 AJ UVTUYNAQ QE",
         "NCG:75",
@@ -5214,7 +5214,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-1-2-6-4",
 
-        "PNYY:Purfg Cnva - Pbpnvar (PUNEYVR)",
+        "PNYY:Purfg Cnva - Oernguvat abeznyyl ≥35 (PUNEYVR)",
         "PBQR:10P03",
         "NQQE:1640 AJ UVTUYNAQ QE",
         "PVGL:PBEINYYVF",
@@ -5278,7 +5278,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-6-1-2-4",
 
-        "PNYY:Genafsre - Nphvgl VV (ab cevbevgl flzcgbzf) (NYCUN)",
+        "PNYY:Genafsre - Nphvgl VV (ab cevbevgl flzcgbzf) (Genafsre) (NYCUN)",
         "PBQR:33N02G",
         "NQQE:3600 AJ FNZNEVGNA QE",
         "PVGL:PBEINYYVF",
@@ -5300,7 +5300,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:ZBAEBR SVER\a" +
         "QVF:PBEINYYVF NZO 4-2-3",
 
-        "PNYY:Snyy - Haxabja fgnghf (OENIB)",
+        "PNYY:Snyy - Haxabja fgnghf (Ba tebhaq be sybbe) (OENIB)",
         "PBQR:17O03T",
         "NQQE:26630 NYCVAR PHGBSS EQ",
         "PVGL:ZBAEBR",
@@ -5364,7 +5364,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ FBHGU\a" +
         "QVF:PBEINYYVF 4-1-2-3-6",
 
-        "PNYY:Snyy - Abg erprag j/b cevbevgl flzcgbzf) (NYCUN)",
+        "PNYY:Snyy - Abg qnatrebhf obql nern (Ba tebhaq be sybbe) (NYCUN)",
         "PBQR:17N02T",
         "NQQE:300 FR TBBQAVTUG NI",
         "ZNQQE:300 FR TBBQAVTUG NIR",
@@ -5387,7 +5387,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-6-1-2-4",
 
-        "PNYY:Snyy - Abg erprag j/b cevbevgl flzcgbzf) (NYCUN)",
+        "PNYY:Snyy - Abg qnatrebhf obql nern (Ba tebhaq be sybbe) (NYCUN)",
         "PBQR:17N02T",
         "NQQE:2655 AJ UVTUYNAQ QE",
         "NCG:75",
@@ -5477,7 +5477,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:ORAGBA PB FB\a" +
         "QVF:PBEINYYVF EHENY 3-1-6-4-2",
 
-        "PNYY:Snyy - Abg erprag j/b cevbevgl flzcgbzf) (NYCUN)",
+        "PNYY:Snyy - Abg qnatrebhf obql nern (Ba tebhaq be sybbe) (NYCUN)",
         "PBQR:17N02T",
         "NQQE:3719 AR UJL 20",
         "PVGL:PBEINYYVF",
@@ -5498,7 +5498,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ PRAGENY\a" +
         "QVF:PBEINYYVF 1-2-3-4-6",
 
-        "PNYY:Bireqbfr - Noabezny oernguvat (PUNEYVR)",
+        "PNYY:Bireqbfr/Cbvfbavat - Noabezny oernguvat (Nppvqragny) (PUNEYVR)",
         "PBQR:23P02N",
         "NQQE:2525 AJ ZBAEBR NI",
         "ZNQQE:2525 AJ ZBAEBR NIR",
@@ -5565,7 +5565,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ FBHGU\a" +
         "QVF:PBEINYYVF EHENY 4-1-2-3-6",
 
-        "PNYY:Genafsre - Nphvgl VV (ab cevbevgl flzcgbzf) (NYCUN)",
+        "PNYY:Genafsre - Nphvgl VV (ab cevbevgl flzcgbzf) (Genafsre) (NYCUN)",
         "PBQR:33N02G",
         "NQQE:5500 FJ NVECBEG CY",
         "PVGL:PBEINYYVF",
@@ -5649,7 +5649,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-6-1-2-4",
 
-        "PNYY:Genafsre - Nphvgl VV (ab cevbevgl flzcgbzf) (NYCUN)",
+        "PNYY:Genafsre - Nphvgl VV (ab cevbevgl flzcgbzf) (Genafsre) (NYCUN)",
         "PBQR:33N02G",
         "NQQE:3600 AJ FNZNEVGNA QE",
         "NCG:2202",
@@ -5671,7 +5671,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ ABEGU\a" +
         "QVF:PBEINYYVF 3-6-1-2-4",
 
-        "PNYY:Genafsre - Nphvgl VV (ab cevbevgl flzcgbzf) (NYCUN)",
+        "PNYY:Genafsre - Nphvgl VV (ab cevbevgl flzcgbzf) (Genafsre) (NYCUN)",
         "PBQR:33N02G",
         "NQQE:3600 AJ FNZNEVGNA QE",
         "PVGL:PBEINYYVF",
@@ -5692,7 +5692,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ PRAGENY\a" +
         "QVF:PBEINYYVF 2-1-3-4-6",
 
-        "PNYY:Boivbhf qrngu: Pbyq & fgvss va n jnez raivebazrag (OENIB)",
+        "PNYY:Boivbhf qrngu: Pbyq naq fgvss va n jnez raivebazrag (OENIB)",
         "PBQR:9O01N",
         "NQQE:235 AJ 35GU FG",
         "NCG:41",
@@ -5714,7 +5714,7 @@ choyvp pynff BEOragbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "QVF:PBEINYYVF CQ PRAGENY\a" +
         "QVF:PBEINYYVF 2-1-3-4-6",
 
-        "PNYY:Fhfcrpgrq jbexnoyr neerfg – abg oernguvat ng nyy (RPUB)",
+        "PNYY:Fhfcrpgrq jbexnoyr neerfg – Abg oernguvat ng nyy (RPUB)",
         "PBQR:9R01",
         "NQQE:235 AJ 35GU FG",
         "NCG:41",

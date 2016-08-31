@@ -407,6 +407,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "CALN",   "CALN TWP",
       "CHARLS", "CHARLESTOWN TWP",
       "CHDS FRD", "CHADDS FORD",
+      "CLN",    "CALN TWP",
       "COATVL", "COATESVILLE",
       "DNGTWN", "DOWNINGTOWN",
       "EASTW",  "EASTTOWN TWP",
@@ -421,7 +422,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "ENOTT",  "EAST NOTTINGHAM TWP",
       "EPIKEL", "EAST PIKELAND TWP",
       "EVCNTY", "EAST COVENTRY TWP",
-      "EVINCT", "EAST VINCINT TWP",
+      "EVINCT", "EAST VINCENT TWP",
       "EWHITE", "EAST WHITELAND TWP",
       "FRNKLN", "FRANKLIN TWP",
       "HBTWP",  "HONEY BROOK TWP",
@@ -440,11 +441,13 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "NEWLON", "NEW LONDON TWP",
       "NGARDN", "NEW GARDEN TWP",
       "OXFORD", "OXFORD",
+      "OXFRD",  "OXFORD",
       "PENN",   "PENN TWP",
       "PHNXVL", "PHOENIXVILLE",
       "PNSBRY", "PENNSBURY TWP",
       "POCOPS", "POCOPSON TWP",
       "PRKSBG", "PARKESBURG",
+      "RSNGSUNMCD", "RISING SUN",
       "SADS",   "SADSBURY TWP",
       "SCHYKL", "SCHUYLKILL TWP",
       "SCOATV", "SOUTH COATESVILLE",
@@ -453,9 +456,12 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "THORNB", "THORNBURY TWP",
       "TREDY",  "TREDYFFRIN TWP",
       "TREDYF", "TREDYFFRIN TWP",
+      "UPPPRO", "UPPER PROVIDENCE TWP",
+      "UPROXF", "UPPER OXFORD TWP",
       "UPUWCH", "UPPER UWCHLAN TWP",
       "UWCHLN", "UWCHLAN TWP",
       "VALLEY", "VALLEY TWP",
+      "VALLY",  "VALLEY TWP",
       "WALLAC", "WALLACE TWP",
       "WARWCK", "WARWICK",
       "WBRAD",  "WEST BRADFORD TWP",
@@ -467,6 +473,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "WGOSHN", "WEST GOSHEN TWP",
       "WGROVE", "WEST GROVE",
       "WILLIS", "WILLISTOWN TWP",
+      "WILSTN", "WILLISTOWN TWP",
       "WMARLB", "WEST MARLBOROUGH TWP",
       "WNANT",  "WEST NANTMEAL TWP",
       "WNOTT",  "WEST NOTTINGHAM TWP",
@@ -483,6 +490,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
   
   private static final Properties OOC_CITIES = buildCodeTable(new String[]{
       "NEW CASTLE COUNTY",      "DE",
-      "HOCKESSIN",              "DE"
+      "HOCKESSIN",              "DE",
+      "RISING SUN",             "MD"
   });
 } 
