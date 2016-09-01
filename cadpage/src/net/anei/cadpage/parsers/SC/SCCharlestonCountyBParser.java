@@ -6,9 +6,9 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-public class SCAndersonCountyDParser extends FieldProgramParser {
+public class SCCharlestonCountyBParser extends FieldProgramParser {
   
-  public SCAndersonCountyDParser() {
+  public SCCharlestonCountyBParser() {
     super("ANDERSON COUNTY", "SC", 
           "UNIT ADDR X CITY CALL! Incident_Channel:CH! ID DATETIME!");
   }

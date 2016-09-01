@@ -11,13 +11,14 @@ Pbagnpg: Jnlar Npxrezna <bgrpuzbovyr@tznvy.pbz>
 Fraqre: 20691
 (CHEIVF_RAF):R1407\a5371 WHCVGRE UVYY EQ\aG W OYIQ NAQ Qrnq Raq\aFG CNHYF\aPvgvmra Nffvfg - Oenib\aVapvqrag Punaary: 07\a16-0003394\a2016-01-17 18:38:04
 (CHEIVF_RAF)Z03 Qrygn1 R1408 R1402 R1405\a5747 TRNGUREF EQ\aQrnq Raq NAQ TRNGUREF EQ\aUBYYLJBBQ\aFgehpgher Sver Fzryy bs Fzbxr\aVapvqrag Punaary: 10\a16-0003628\a2016-01-19 05:56:05
+(CHEIVF_RAF)1/2:EF1401 R1404 R1401 G1401 G1405 G1402 G1407 G1403 OP1403\a5529 RYYVATGBA FPUBBY EQ\aNCG N\aZRYIVA JNFUVATGBA QE NAQ ZVYRL UVYY
 
 */
 
-choyvp pynff FPNaqrefbaPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff FPPuneyrfbaPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp FPNaqrefbaPbhaglQCnefreGrfg() {
-    frgCnefre(arj FPNaqrefbaPbhaglQCnefre(), "NAQREFBA PBHAGL", "FP");
+  choyvp FPPuneyrfbaPbhaglOCnefreGrfg() {
+    frgCnefre(arj FPPuneyrfgbaPbhaglOCnefre(), "NAQREFBA PBHAGL", "FP");
   }
   
   @Grfg
@@ -66,6 +67,6 @@ choyvp pynff FPNaqrefbaPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj FPNaqrefbaPbhaglQCnefreGrfg().trarengrGrfgf("G1");
+    arj FPPuneyrfbaPbhaglOCnefreGrfg().trarengrGrfgf("G1");
   }
 }
