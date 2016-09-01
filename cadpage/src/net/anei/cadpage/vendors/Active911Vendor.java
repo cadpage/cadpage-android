@@ -741,6 +741,7 @@ class Active911Vendor extends Vendor {
       "US/MO/BuchananCounty",             "MOBuchananCountyB",
       "US/MO/CallawayCounty",             "MOCallawayCounty",
       "US/MO/CarrollCounty",              "MOCarrollCounty",
+      "US/MO/CentraliaPD",                "MOCentralia",
       "US/MO/ChillicothePD",              "MOLivingstonCounty",
       "US/MO/ChristianCounty",            "MOChristianCounty",
       "US/MO/CityofBranson",              "MOBranson",

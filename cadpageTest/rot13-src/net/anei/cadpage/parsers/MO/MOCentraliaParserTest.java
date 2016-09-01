@@ -37,7 +37,7 @@ Fraqre: RagrecbyNyregf@pragenyvncq.bet
 choyvp pynff ZBPragenyvnCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZBPragenyvnCnefreGrfg() {
-    frgCnefre(arj ZBPragenyvnCnefre(), "", "ZB");
+    frgCnefre(arj ZBPragenyvnCnefre(), "PRAGENVYVN", "ZB");
   }
 
   @Grfg
