@@ -514,6 +514,7 @@ class Active911Vendor extends Vendor {
       "US/IN/TiptonCounty",               "INTiptonCounty",
       "US/IN/VermillionCounty",           "INVermillionCounty",
       "US/IN/VigoCounty",                 "INVigoCounty",
+      "US/IN/WabashCounty",               "INWabashCounty",
       "US/IN/WayneCounty",                "INWayneCountyB",
       "US/IN/WhitleyCounty",              "INWhitleyCounty",
       "US/KS/AndersonCounty",             "KSAndersonCounty",

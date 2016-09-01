@@ -1,7 +1,6 @@
 package net.anei.cadpage.parsers.IN;
 
 
-import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.dispatch.DispatchA29Parser;
 
 /**
@@ -11,27 +10,18 @@ public class INWabashCountyParser extends DispatchA29Parser {
   
   public INWabashCountyParser() {
     super(CITY_LIST, "WABASH COUNTY", "IN");
-    setupCallList(CALL_LIST);
   }
   
   @Override
   public String getFilter() {
     return "DISPATCH@wabashcounty.in.gov";
   }
- 
-  private static final CodeSet CALL_LIST = new CodeSet(
-      
-      "ACCIDENT-UNKNOWN",
-      "FIRE",
-      "LIFT ASSIST",
-      "MEDICAL",
-      "TEST CALL"
-  );
   
   private static final String[] CITY_LIST = new String[]{
 
       //cities and towns
       "LA FONTAINE",
+      "LAFONTAINE",
       "LAGRO",
       "NORTH MANCHESTER",
       "ROANN",
@@ -69,7 +59,10 @@ public class INWabashCountyParser extends DispatchA29Parser {
       "NOBLE",
       "PAW PAW",
       "PLEASANT",
-      "WALTZ"
+      "WALTZ",
+      
+      // Grant County
+      "MARION"
      
   };
 }
