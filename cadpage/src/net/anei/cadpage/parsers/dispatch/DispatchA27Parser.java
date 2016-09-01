@@ -24,7 +24,7 @@ public class DispatchA27Parser extends FieldProgramParser {
   
   public DispatchA27Parser(String[] cityList, String defCity, String defState, String unitPtn) {
     super(cityList, defCity, defState,
-          "ADDRCITY/SC DUP? ( MASH | SRC! TIMES+ ) Unit(s)_responded:UNIT+");
+          "ADDRCITY/SC DUP? EMPTY+? ( MASH | SRC! TIMES+ ) Unit(s)_responded:UNIT+");
     this.unitPtn = Pattern.compile(unitPtn);
   }
   

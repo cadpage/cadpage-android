@@ -1543,10 +1543,12 @@ public static void addCodeTable(Properties props, String[] table) {
   */
  public static  String decodeHtmlSequence(String body) {
    body = HTML_PTN.matcher(body).replaceAll("");
+   body = HEAD_PTN.matcher(body).replaceFirst("");
    body = BR_PTN.matcher(body).replaceAll("\n");
    return body.replace("&nbsp;",  " ").replace("&amp;",  "&").replace("&gt;", ">").replace("&lt;", "<");
  }
- private static final Pattern HTML_PTN = Pattern.compile("^.*<HTML>|</?(?:BODY|FONT|B|PRE)\\b[^>]*>|</HTML>.*$", Pattern.CASE_INSENSITIVE | Pattern.DOTALL);
+ private static final Pattern HTML_PTN = Pattern.compile("^.*<HTML>|</?(?:BODY|FONT|B|I|PRE)\\b[^>]*>|</HTML>.*$", Pattern.CASE_INSENSITIVE | Pattern.DOTALL);
+ private static final Pattern HEAD_PTN = Pattern.compile("<HEAD>.*</HEAD>", Pattern.CASE_INSENSITIVE | Pattern.DOTALL);
  private static final Pattern BR_PTN = Pattern.compile("< *(?:br|p) */?>", Pattern.CASE_INSENSITIVE);
  
  /**
