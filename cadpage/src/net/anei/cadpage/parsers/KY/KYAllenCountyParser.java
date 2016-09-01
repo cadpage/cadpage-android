@@ -10,4 +10,9 @@ public class KYAllenCountyParser extends DispatchGeoconxParser {
   public KYAllenCountyParser() {
     super("ALLEN COUNTY", "KY");
   }
+  
+  @Override
+  public String getFilter() {
+    return "allencoky911@911email.net";
+  }
 }
