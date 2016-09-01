@@ -483,6 +483,7 @@ class Active911Vendor extends Vendor {
       "US/IN/BooneCounty",                "INBooneCountyB",
       "US/IN/Bristol",                    "INElkhartCounty",
       "US/IN/BrownCounty",                "INBrownCounty",
+      "US/IN/ClayCoCAD",                  "INClayCounty",
       "US/IN/DaviessCounty",              "INDaviessCounty",
       "US/IN/DelawareCounty",             "INDelawareCounty",
       "US/IN/EMGSVCS",                    "INHenryCounty",
