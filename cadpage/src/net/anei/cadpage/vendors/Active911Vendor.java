@@ -954,6 +954,7 @@ class Active911Vendor extends Vendor {
       "US/NY/Lewis911",                   "NYLewisCounty",
       "US/NY/LivingstonCounty",           "NYLivingstonCountyA,NYLivingstonCountyC",
       "US/NY/MadisonCounty",              "NYMadisonCountyB",
+      "US/OH/MahoningCounty",             "OHMahoningCounty",
       "US/NY/MonroeCounty",               "NYMonroeCountyWebster",
       "US/NY/NassauCountyElmont",         "NYNassauCountyElmont",
       "US/NY/NassauCountyFiretracker",    "NYNassauCountyFiretracker3",

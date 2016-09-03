@@ -464,7 +464,7 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("\\[[^\\]]+\\]- *(?:CALL|NATURE)"); 
+  private static final Pattern SUBJECT_PTN = Pattern.compile("\\[[^\\]]+\\]- *(?:CALL|NATURE|LOCATION)"); 
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -473,9 +473,12 @@ public class DispatchEmergitechParser extends FieldProgramParser {
         String prefix = checkPrefix(body);
         subject = subject + ':';
         if (prefix != null) {
-          body = prefix + subject + body.substring(prefix.length());
+          subject = prefix + subject;
+          if (!body.startsWith(subject)) {
+            body = subject + body.substring(prefix.length());
+          }
         } else {
-          body = subject + prefix;
+          body = subject + body;
         }
       }
       else if (prefixList == null && body.startsWith("-")){
@@ -690,7 +693,8 @@ public class DispatchEmergitechParser extends FieldProgramParser {
     public String getFieldNames() {
       String names = "PLACE ADDR APT CITY";
       if (trailField != null) names = names + ' ' + trailField.getFieldNames();
-      if (special) names = names + " INFO";
+      if (special) names += " INFO";
+      names += " X?";
       return names;
     }
   }
@@ -731,6 +735,8 @@ public class DispatchEmergitechParser extends FieldProgramParser {
   private static final Pattern INFO_GPS_PTN4 = Pattern.compile("X([-+]?\\d+\\.\\d+)?Y([-+]?\\d+\\.\\d+)?(?:CFO?\\d*%?)?(?:(?:[ZU]*ZUNC|UNC\\d*\\.?\\d*))?");
   private static final Pattern INFO_GPS_PTN5 = Pattern.compile("CPF:[A-Z]+([-+]?\\d{1,3}\\.\\d{5,6})([-+]?\\d{1,3}\\.\\d{5,6})COF:\\d+COP:\\d+(?:CALLBK=(\\(740\\)\\d{3}-\\d{4}))?");
   private static final Pattern INFO_GPS_PTN6 = Pattern.compile("ALT#(\\d{3}-\\d{3}-\\d{4})([-+]\\d{1,3}\\.\\d{5,7})([-+]\\d{1,3}\\.\\d{5,7})");
+  private static final Pattern INFO_GPS_PTN7 = Pattern.compile("X=([+-]?[0-9\\.]+)Y=([+-]?[0-9\\.]+)CF=\\d+%UF=\\d+MZ=[0-9\\.]*M");
+  private static final Pattern INFO_GPS_PTN8 = Pattern.compile("=([+-]?[0-9\\.]+) Y=([+-]?[0-9\\.]+) F= *\\d+% UF= *\\d*\\b *");
 
   private class BaseInfoField extends InfoField {
     @Override
@@ -771,6 +777,10 @@ public class DispatchEmergitechParser extends FieldProgramParser {
         data.strPhone = match.group(1);
         setGPSLoc(match.group(2)+','+match.group(3), data);
       }
+      else if ((match = INFO_GPS_PTN7.matcher(compField)).lookingAt()) {
+        found = true;
+        setGPSLoc(match.group(1)+','+match.group(2), data);
+      }
       
       if (found) {
         int pos = 0;
@@ -782,12 +792,17 @@ public class DispatchEmergitechParser extends FieldProgramParser {
         field = field.substring(pos).trim();
       }
       
-      // Alas, version 2 requires space terminators so we can't get a way with the compressed search trick.
+      // Alas, version 2 & 8 require space terminators so we can't get a way with the compressed search trick.
       // Thankfully, the extra space logic seems to be fading a way.  Haven't seen it in any recent Emergitech formats
       // and with a bit of luck, we never will.  So we will just try to do without it
       else if ((match = INFO_GPS_PTN2.matcher(field)).lookingAt()) {
         data.strPhone = match.group(1).trim();
         setGPSLoc(match.group(2)+','+match.group(3), data);
+        field = field.substring(match.end());
+      }
+      else if ((match = INFO_GPS_PTN8.matcher(field)).lookingAt()) {
+        found = true;
+        setGPSLoc(match.group(1)+','+match.group(2), data);
         field = field.substring(match.end());
       }
       
