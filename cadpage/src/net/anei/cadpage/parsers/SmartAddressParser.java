@@ -1609,12 +1609,11 @@ public abstract class SmartAddressParser extends MsgParser {
       if (tmp >= 0) {
         
         // If this is followed by a connector, we are good to go.
-        // If it is not followed by a connector, return failure so
-        // the naked street parser can find this
         tmp = findConnector(tmp);
-        if (tmp < 0) return false;
-        sAddr = startAddress;
-        ndx = tmp;
+        if (tmp >= 0) {
+          sAddr = startAddress;
+          ndx = tmp;
+        }
       }
     }
 
