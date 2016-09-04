@@ -17,6 +17,7 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
   
   private static final Pattern NON_ASCII_PTN = Pattern.compile("[^\\p{ASCII}]");
   private static final Pattern LEAD_JUNK_PTN = Pattern.compile("^[io?¿][^A-Z]*|^(?:&#\\d+;)+");
+  private static final Pattern EXTRA_NL_PTN = Pattern.compile(", *\n");
   private static final Pattern CLINTON_FIRE_PTN1 = Pattern.compile("(?:\\d\\d[A-Z]\\d\\d )?[A-Z0-9, /\\(\\)]+?  , ");
   private static final Pattern T_CITY_PTN = Pattern.compile("\\b(?:T/|T/O +|/T +)(CONSTANTIA|NORWAY|OHIO|RUSSIA)\\b");
   private static final Pattern MARKER = Pattern.compile("(?:(.*?)([^A-Z0-9]{1,4}))?\\b(Dispatched|Acknowledge|Enroute|En Route Hosp|On +Scene)([^A-Z0-9]{1,4})(?=[A-Z0-9])");
@@ -43,6 +44,7 @@ public class NYOneidaCountyParser extends DispatchA13Parser {
     body = LEAD_JUNK_PTN.matcher(body).replaceFirst("");
     body = NON_ASCII_PTN.matcher(body).replaceAll("");
     
+    body = EXTRA_NL_PTN.matcher(body).replaceAll(",");
     body = stripFieldEnd(body, "#[0-0]");
     
     // Check for truncated city at end of line
