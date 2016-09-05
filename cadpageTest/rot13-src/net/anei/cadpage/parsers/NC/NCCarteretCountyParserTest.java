@@ -2126,8 +2126,7 @@ choyvp pynff APPnegrergPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G10",
         "PRP:OEVQTRF FG FG RKG / UJL 70 11-087512 13:54:18 ZIP ZVABE",
-        "NQQE:OEVQTRF FG",
-        "CYNPR:FG RKG / UJL 70",
+        "NQQE:OEVQTRF FG FG RKG & UJL 70",
         "VQ:11-087512",
         "GVZR:13:54:18",
         "PNYY:ZIP ZVABE");

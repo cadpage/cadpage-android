@@ -56,6 +56,11 @@ public class NCCarteretCountyParser extends DispatchSouthernPlusParser {
     return super.getProgram().replace("CALL", "CODE CALL");
   }
   
+  @Override
+  protected int getExtraParseAddressFlags() {
+    return FLAG_CROSS_FOLLOWS;
+  }
+
   private static final CodeSet CALL_LIST = new CodeSet(
       "911 HANG UP",
       "ABDOMINAL PAIN - PROBLEMS",

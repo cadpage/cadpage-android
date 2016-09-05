@@ -4334,9 +4334,7 @@ choyvp pynff APJvyxrfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G18",
         "RYXVA UJL 268 / UVYYPERFG FG EBAQN, 16-037868, 15:09:38, ZBGBE IRU NPPVQRAG/CEBC QNZNTR, 141 NQI AB QNZNTR NG GUVF GVZR BPN: 2016-02880",
-        "NQQE:RYXVA UJL",
-        "ZNQQE:RYXVA UJL & 268",
-        "K:268 / UVYYPERFG FG",
+        "NQQE:RYXVA UJL 268 & UVYYPERFG FG",
         "PVGL:EBAQN",
         "VQ:2016-02880",
         "GVZR:15:09:38",

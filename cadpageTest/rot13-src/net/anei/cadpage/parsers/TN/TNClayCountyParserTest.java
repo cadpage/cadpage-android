@@ -801,11 +801,8 @@ choyvp pynff GAPynlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G81",
         "QROEVF>QROEVF VA EBNQJNL UJL 52 JRFG/BNX TEI Pnq: 2015-0000001604",
         "PBQR:QROEVF",
-        "PNYY:QROEVF",
-        "NQQE:VA EBNQJNL UJL",
-        "ZNQQE:VA EBNQJNL UJL & JRFG",
-        "NCG:52",
-        "K:JRFG / BNX TEI",
+        "PNYY:QROEVF VA EBNQJNL",
+        "NQQE:UJL 52 JRFG & BNX TEI",
         "VQ:2015-0000001604");
 
     qbGrfg("G82",
