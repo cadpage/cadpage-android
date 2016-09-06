@@ -36,7 +36,7 @@ public class GAPauldingCountyParser extends SmartAddressParser {
       tail = mat.group(3);
     } else {
       //if no PHONE to split by we have to parse from whole body
-      tail = parseCALL_ADDR(body, data, 0);
+      tail = parseCALL_ADDR(body, data, FLAG_CROSS_FOLLOWS);
       if (tail == null) return false;
     }
     

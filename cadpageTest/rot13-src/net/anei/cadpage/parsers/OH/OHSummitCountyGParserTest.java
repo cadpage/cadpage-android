@@ -987,9 +987,8 @@ choyvp pynff BUFhzzvgPbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CQ ba fprar jvgu BIV",
 
         "PNYY:03 VAWHEL/OYRRQVAT",
-        "NQQE:EG 8 AO",
-        "ZNQQE:EG 8",
-        "NCG:RAGENAPR & J FGERRGFOBEB EQ",
+        "NQQE:EG 8 AO RAGENAPR & J FGERRGFOBEB EQ",
+        "ZNQQE:EG 8 RAGENAPR & J FGERRGFOBEB EQ",
         "PVGL:OBFGBA UGF",
         "VASB:Zvabe urnq pbaghfvba\aCQ ba fprar jvgu BIV");
 

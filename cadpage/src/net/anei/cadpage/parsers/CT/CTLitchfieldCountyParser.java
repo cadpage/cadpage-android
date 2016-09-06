@@ -44,7 +44,9 @@ public class CTLitchfieldCountyParser extends GroupBestParser {
     "HARWINTON",
     "KENT",
     "LITCHFIELD",
+    "MIDDLEBURY",
     "MORRIS",
+    "NEW FAIRFIELD",
     "NEW HARTFORD",
     "NEW MILFORD",
     "NEW PRESTON",
@@ -77,9 +79,12 @@ public class CTLitchfieldCountyParser extends GroupBestParser {
     "NEW MARLBORO MA",
     "SANDISFIELD MA",
     "SHEFFIELD MA",
+    "TOLLAND MA",
     
+    "AMENIA NY",
     "DOVER NY",
-    "MILLERTON NY"
+    "MILLERTON NY",
+    "WASSAIC NY"
     
   };
 }

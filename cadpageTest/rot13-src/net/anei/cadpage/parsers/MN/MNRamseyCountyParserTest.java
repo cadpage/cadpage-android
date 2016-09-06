@@ -721,9 +721,8 @@ choyvp pynff ZAEnzfrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G67",
         "PNYY: Nppvqrag;NQQE: pbhagl eq q / Tyra Bnxf Ni;PVGL: Juvgr Orne Ynxr;VQ: PRA201508317;VASB: 2 Iruvpyr Penfu",
         "PNYY:Nppvqrag",
-        "NQQE:pbhagl eq & Tyra Bnxf Ni",
-        "ZNQQE:pbhagl eq & Tyra Bnxf Nir",
-        "NCG:q",
+        "NQQE:pbhagl eq q & Tyra Bnxf Ni",
+        "ZNQQE:PBHAGL EBNQ q & Tyra Bnxf Nir",
         "PVGL:Juvgr Orne Ynxr",
         "VQ:PRA201508317",
         "VASB:2 Iruvpyr Penfu");
@@ -740,9 +739,8 @@ choyvp pynff ZAEnzfrlPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G69",
         "PNYY: Nppvqrag;NQQE: pbhagl eq q / Tyra Bnxf Ni;PVGL: Juvgr Orne Ynxr;VQ: PRA201508317",
         "PNYY:Nppvqrag",
-        "NQQE:pbhagl eq & Tyra Bnxf Ni",
-        "ZNQQE:pbhagl eq & Tyra Bnxf Nir",
-        "NCG:q",
+        "NQQE:pbhagl eq q & Tyra Bnxf Ni",
+        "ZNQQE:PBHAGL EBNQ q & Tyra Bnxf Nir",
         "PVGL:Juvgr Orne Ynxr",
         "VQ:PRA201508317");
 

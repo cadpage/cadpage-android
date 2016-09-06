@@ -10,62 +10,46 @@ import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 public class OHMahoningCountyParser extends DispatchEmergitechParser {
   
-  private static final Pattern TRAIL_PTN = Pattern.compile(" +-[A-Z0-9]+$");
-  private static final Pattern GPS_PTN = Pattern.compile("^X=([+-]?[0-9\\.]+)Y=([+-]?[0-9\\.]+)CF=\\d+%UF=\\d+MZ=[0-9\\.]*M");
-  private static final Pattern GPS_TERM_PTN = Pattern.compile("Z ?=[0-9 \\.]*M");
-  private static final Pattern[] CITY_SPACE_PTNS = {
-    Pattern.compile("([NESW]) (.*)"),
-    Pattern.compile("(.*) ([NESW])"),
-    Pattern.compile("(.*) ([NESW] TWP)"),
-    Pattern.compile("(LAK) (E .*)"),
-    Pattern.compile("(NEW [NSEW]) (.*)")
-  };
-  
   public OHMahoningCountyParser() {
-    super("", -23, CITY_LIST, "MAHONING COUNTY", "OH");
+    super(true, CITY_LIST, "MAHONING COUNTY", "OH", TrailAddrType.INFO);
     setupMultiWordStreets("COLUMBIANA CANFIELD");
   }
 
   @Override
   public String getFilter() {
-    return "anoble@ci.canfield.oh.us,canfieldpd@ci.canfield.oh.us";
+    return "BPD911@twp.boardman.oh.us,canfieldpd@ci.canfield.oh.us,jonracco25@yahoo.com,@sebringohio.net";
   }
   
+  private static final Pattern MARK_ID_PTN = Pattern.compile("(\\d{3}):");
+  private static final Pattern TRUNC_GPS_PTN = Pattern.compile("[-+]?[\\d\\.]+ CF= *\\d+% UF= *\\d+ M Z= *\\d*M\\b *");
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (subject.length() == 0) subject = "666";
-    if (!body.startsWith("- ")) body = "- " + body;
-    body = '[' + subject + "]" + body;
     
-    Matcher match = TRAIL_PTN.matcher(body);
-    if (match.find()) body = body.substring(0,match.start());
+    Matcher match = MARK_ID_PTN.matcher(body);
+    if (match.lookingAt()) {
+      body = body.substring(match.end()).trim();
+      if (subject.equals("NATURE") || subject.equals("LOCATION")) {
+        subject = '[' + match.group(1) + "]- " + subject;
+      }
+    }
+
+    body = body.replace('\n', ' ');
+    if (!super.parseMsg(subject, body,  data)) {
+      if (!isPositiveId() || subject.length() > 0 || 
+          !body.contains(" BETWEEN ")) return false;
+      data.initialize(this);
+      if (!super.parseMsg("LOCATION: " + body, data)) return false;
+    }
     
-    if (!super.parseMsg(body,  data)) return false;
-    data.strUnit = "";
     String call = CALL_CODES.getProperty(data.strCall);
     if (call != null) {
       data.strCode = data.strCall;
       data.strCall = call;
     }
     
-    // Search for a GPS pattern that may have extra inserted spaces :(
-    match = GPS_PTN.matcher(data.strSupp.replace(" ", ""));
-    if (match.find()) {
-      setGPSLoc(match.group(1) + ',' + match.group(2), data);
-      match = GPS_TERM_PTN.matcher(data.strSupp);
-      if (match.find()) {
-        data.strSupp = data.strSupp.substring(match.end()).trim();
-      }
-    }
-    
-    for (Pattern ptn : CITY_SPACE_PTNS) {
-      match = ptn.matcher(data.strCity);
-      if (match.matches()) {
-        data.strCity = match.group(1) + match.group(2);
-        break;
-      }
-    }
+    match = TRUNC_GPS_PTN.matcher(data.strSupp);
+    if (match.lookingAt()) data.strSupp = data.strSupp.substring(match.end());
     return true;
   }
   
@@ -91,82 +75,57 @@ public class OHMahoningCountyParser extends DispatchEmergitechParser {
     "CRAIG BEACH",
     "LOWELLVILLE",
     "NEW MIDDLETOWN",
-    "N EW MIDDLETOWN",
-    "NEW MIDDLETOW N",
     "POLAND",
     "SEBRING",
     "WASHINGTONVILLE",
-    "W ASHINGTONVILLE",
-    "WASHINGTONVILL E",
 
     // Townships
     "AUSTINTOWN TWP",
-    "AUSTINTOW N TWP",
     "BEAVER TWP",
     "BERLIN TWP",
-    "BERLI N TWP",
     "BOARDMAN TWP",
-    "BOARDMA N TWP",
     "CANFIELD TWP",
     "COITSVILLE TWP",
     "COITSVILL E TWP",
     "ELLSWORTH TWP",
-    "E LLSWORTH TWP",
     "GOSHEN TWP",
-    "GOSHE N TWP",
     "GREEN TWP",
-    "GREE N TWP",
     "JACKSON TWP",
-    "JACKSO N TWP",
     "MILTON TWP",
-    "MILTO N TWP",
     "POLAND TWP",
     "SMITH TWP",
-    "S MITH TWP",
     "SPRINGFIELD TWP",
-    "S PRINGFIELD TWP",
 
     // Census-designated places
     "AUSTINTOWN",
-    "AUSTINTOW N",
     "BOARDMAN",
-    "BOARDMA N",
     "MAPLE RIDGE",
-    "MAPLE RIDG E",
     "MINERAL RIDGE",
-    "MINERAL RIDG E",
   
     //Other communities
     "DAMASCUS",
-    "DAMASCU S",
     "ELLSWORTH",
-    "E LLSWORTH",
     "GREENFORD",
     "LAKE MILTON",
-    "LAK E MILTON",
-    "LAKE MILTO N",
     "NEW SPRINGFIELD",
-    "N EW SPRINGFIELD",
-    "NEW S PRINGFIELD",
     "NORTH BENTON",
-    "N ORTH BENTON",
-    "NORTH BENTO N",
     "NORTH JACKSON",
-    "N ORTH JACKSON",
-    "NORTH JACKSO N",
     "NORTH LIMA",
-    "N ORTH LIMA",
     "PETERSBURG",
+    
+    // Portage County
+    "DEERFIELD",
+    "DEERFIELD TWP"
 
   };
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
+      "6A",    "Accident With Injury",
       "F29",   "Medical Call W/O AFD Response",
       "F30",   "Transfer To Lanes - Log Reason",
       "F31",   "Medical Call With AFD Response",
       "F42",   "Fire/Burning Complaint",
       "F86",   "Odor Complaint",
-      "6A",    "Accident With Injury",
       "F87",   "Fire Department Call",
       "F88",   "Township Fuel Spills",
       "F89",   "Fire Department Freeway Call",

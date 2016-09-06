@@ -10825,9 +10825,8 @@ choyvp pynff ZAOrpxrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
         "VQ:15PSF005526",
         "PNYY:Nppvqrag (Fabjzbovyr)",
-        "NQQE:PB UJL 31",
-        "ZNQQE:PBHAGL EBNQ 31",
-        "CYNPR:1 ZVYR A BS FG UJL 87",
+        "NQQE:PB UJL 31 1 ZVYR A BS FG UJL 87",
+        "ZNQQE:PBHAGL EBNQ 31 1 ZVYR & ZA 87",
         "PVGL:SENMRR",
         "FG:ZA",
         "HAVG:6106 Obegu, Qnena\a6111 Fgrira Ivfgr\a6118 Fvqarl Pnaunz\a6291 Fg. Znelf RZF Perj 1\a6375 Senmrr Erfphr Onfr",

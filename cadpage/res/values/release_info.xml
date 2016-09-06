@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">08312016</string>
+  <string name="release_date">09052016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.13\n
+Location Fixes:\n
+Litchfield County, CT\n
+Paulding County, GA\n
+LaRue County, KY\n
+Bay County, MI\n
+Oneida County, NY\n
+Carteret County, NC\n
+Mahoning County, OH\n
+Stark County, OH\n
+Chester County, PA\n
+Charleston County, SC\n
+Clay County, TN\n
+\n
 v1.9.10.12\n
 Location Fixes:\n
 San Joaquin County, CA\n
@@ -32,24 +46,7 @@ San Joaquin Couny, CA\n
 Allegany County, MD\n
 Summit County, OH\n
 Charleston County, SC\n
-Sheboygan County, WI\n
-\n
-v1.9.10.08\n
-New Location:\n
-Miami County, IN\n
-Kingman County, KS\n
-St James Parish, LA\n
-Chester County, PA (alt)\n
-Lee County, SC\n
-\n
-Location Fixes:\n
-Story County, IA\n
-Kent County, MI\n
-Freeborn County, MN\n
-Madison County, NC\n
-Onondaga County, NY\n
-Charleston County, SC\n
-Marion County, WV
+Sheboygan County, WI
   </string>
 </resources>
   

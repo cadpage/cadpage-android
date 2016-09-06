@@ -117,6 +117,10 @@ Pbagnpg: Zvxr Fjrngzna <zfjrngzna31@irevmba.arg>
 Fraqre: zrffntvat@vnzerfcbaqvat.pbz
 (Barvqn Pnfgyr Sver) cngpurq , 01N01-NOQBZVANY CNVA , 3889 CENGG QE , IREABA, AL ( )
 
+Pbagnpg: Wrss Tehor <wtehor6262@tznvy.pbz>
+Fraqre: 777
+(Jrfgzberynaq Sver) JRZS:1600328  , \aQvfcngpurq  , \a21P00-URZBEEUNTR/YNPRENGVBA  , \a245 AL FGNGR GUEHJNL JO , JRFGZBERYNAQ, AL ( )
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Jrfgzberynaq SQ
 Ybpngvba: Jrfgzberynaq, AL, Havgrq Fgngrf
@@ -1274,6 +1278,26 @@ choyvp pynff ALBarvqnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:IREABA",
         "FG:AL");
   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWrssTehor() {
+
+    qbGrfg("G1",
+        "(Jrfgzberynaq Sver) JRZS:1600328  , \a" +
+        "Qvfcngpurq  , \a" +
+        "21P00-URZBEEUNTR/YNPRENGVBA  , \a" +
+        "245 AL FGNGR GUEHJNL JO , JRFGZBERYNAQ, AL ( )",
+
+        "FEP:JRZS",
+        "PBQR:21P00",
+        "VQ:1600328",
+        "PNYY:URZBEEUNTR/YNPRENGVBA",
+        "NQQE:245 AL FGNGR GUEHJNL JO",
+        "ZNQQE:245 AL FGNGR GUEHJNL",
+        "PVGL:JRFGZBERYNAQ",
+        "FG:AL");
+   
   }
 
   @Grfg

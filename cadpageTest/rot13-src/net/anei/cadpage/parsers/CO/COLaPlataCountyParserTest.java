@@ -3751,7 +3751,7 @@ choyvp pynff PBYnCyngnPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:SYZ1 Z1",
         "PNYY:R-QVNORGVP",
         "NQQE:252 UNEEVF YA",
-        "CYNPR:A BS PE 131 / PE 133",
+        "K:A BS PE 131 / PE 133",
         "VQ:14SY-0042",
         "QNGR:04/21/2014",
         "GVZR:16:50",

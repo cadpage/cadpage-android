@@ -8159,9 +8159,8 @@ choyvp pynff APOehafjvpxPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
     qbGrfg("G32",
         "BIRECNFF UJL 17-IVYYNTR EQ / BPRNA UJL R (BIRECNFF) YRYNAQ;15-101385;20:12:36;Fgbccvat Iruvpyr (10-61);trb:34.23158, -77.994062;",
-        "CYNPR:BIRECNFF UJL",
-        "NQQE:17-IVYYNTR EQ & BPRNA UJL R (BIRECNFF)",
-        "ZNQQE:17 EQ & BPRNA UJL R",
+        "NQQE:BIRECNFF UJL 17-IVYYNTR EQ & BPRNA UJL R (BIRECNFF)",
+        "ZNQQE:BIRECNFF UJL 17-IVYYNTR EQ & BPRNA UJL R",
         "PVGL:YRYNAQ",
         "VQ:15-101385",
         "GVZR:20:12:36",

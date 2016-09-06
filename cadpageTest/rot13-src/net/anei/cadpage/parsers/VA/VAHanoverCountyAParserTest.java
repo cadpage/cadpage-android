@@ -249,8 +249,8 @@ choyvp pynff INUnabirePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2012-00020176",
         "HAVG:R01",
         "PNYY:IruSver",
-        "NQQE:XVATF QBZVAVBA OI",
-        "VASB:QBZVABA/VAGREFGNGR 95 / BIRECNFF NERN, Y FUBHYQRE, JO, PNE SVER...FZBXR...",
+        "NQQE:XVATF QBZVAVBA OI QBZVABA & VAGREFGNGR 95",
+        "VASB:BIRECNFF NERN, Y FUBHYQRE, JO, PNE SVER...FZBXR...",
         "ZNC:E Znc 46");
 
     qbGrfg("G5",

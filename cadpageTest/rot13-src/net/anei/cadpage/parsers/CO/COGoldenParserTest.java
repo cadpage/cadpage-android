@@ -392,7 +392,7 @@ choyvp pynff PBTbyqraCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:150140111",
         "GVZR:16:57:27",
         "PNYY:Iruvpyr/Pne Sver (13)",
-        "NQQE:V70 & UJL 6 UJL",
+        "NQQE:V70 UJL & UJL 6",
         "ZNQQE:39.725338,-105.179379",
         "PVGL:TBYQRA",
         "ZNC:V6",

@@ -10,12 +10,14 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class NCPittCountyParser extends FieldProgramParser {
   
   private static final Pattern CONFIRM_FIRE_MARKER = Pattern.compile(">>ADDRESS: +(?:0 +-|(.*?)) +>>NOTES: *(.*?)(?: // (.*))?");
+  private static final Pattern DIR_B_PTN = Pattern.compile("\\b(NORTH|SOUTH|EAST|WEST) +(B)\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern APT_PTN = Pattern.compile("^(?:APT|RM|ROOM) *", Pattern.CASE_INSENSITIVE);
   
   public NCPittCountyParser() {
     super("PITT COUNTY", "NC",
-           "SRC! Rcvd:DATETIME! Rsn:CALL! Note:INFO! X Adr:ADDR");
+           "SRC! Rcvd:DATETIME! Rsn:CALL! CALL/SDS+ Note:INFO! INFO/SLLS+ Adr:ADDR");
     addExtendedDirections();
+    setupMultiWordStreets("MARTIN LUTHER KING JR", "STOKETOWN ST JOHN");
   }
   
   @Override
@@ -31,8 +33,18 @@ public class NCPittCountyParser extends FieldProgramParser {
     int pt = body.indexOf("\n\n");
     if (pt >= 0) body = body.substring(0,pt).trim();
     body = body.replace('\n', ' ');
+
+    Matcher match = DIR_B_PTN.matcher(body);
+    if (match.find()) {
+      StringBuffer sb = new StringBuffer();
+      do {
+        match.appendReplacement(sb, match.group(1).substring(0,1)+match.group(2));
+      } while (match.find());
+      match.appendTail(sb);
+      body = sb.toString();
+    }
     
-    Matcher match = CONFIRM_FIRE_MARKER.matcher(body);
+    match = CONFIRM_FIRE_MARKER.matcher(body);
     if (match.matches()) {
       setFieldList("CALL ADDR APT INFO");
       data.strCall = "WORKING INCIDENT";
@@ -59,20 +71,31 @@ public class NCPittCountyParser extends FieldProgramParser {
     if (data.strAddress.length() == 0) {
       int bestNdx = -1;
       String bestPrefix = "";
+      String bestCross = "";
       Result bestResult = null;
       String[] parts = data.strSupp.split("//");
       for (int ii = 0; ii<parts.length; ii++) {
         String part = parts[ii];
         parts[ii] = part.trim();
+        
+        part = stripFieldStart(part, "ON ");
+        
         String pfx = "";
         match = ADDR_PFX_PTN.matcher(part);
         if (match.matches()) {
           pfx = match.group(1);
           part = match.group(2).trim();
         }
+        String cross = "";
+        pt = part.indexOf(" BETWEEN ");
+        if (pt >= 0) {
+          cross = part.substring(pt+9).trim();
+          part = part.substring(0,pt).trim();
+        }
         Result result = parseAddress(StartType.START_ADDR, FLAG_CHECK_STATUS, part);
         if (bestResult == null || result.getStatus() > bestResult.getStatus()) {
           bestPrefix = pfx;
+          bestCross = cross;
           bestResult = result;
           bestNdx = ii;
         }
@@ -83,6 +106,7 @@ public class NCPittCountyParser extends FieldProgramParser {
       bestResult.getData(data);
       data.strSupp = bestResult.getLeft();
       data.strAddress = append(bestPrefix, " ", data.strAddress);
+      data.strCross = append(bestCross, " / ", data.strCross);
       for (int ii = bestNdx+1; ii<parts.length; ii++) {
         String part = parts[ii];
         if (ii == bestNdx+1 && bestResult.getStatus() == STATUS_STREET_NAME && checkAddress(part) == STATUS_STREET_NAME) {
@@ -143,10 +167,12 @@ public class NCPittCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern MBLANK_PTN = Pattern.compile(" {2,}");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
       if (field.equals("0") || field.startsWith("0 ")) field = "";
+      field = MBLANK_PTN.matcher(field).replaceAll(" ");
       super.parse(field, data);
     }
   }
