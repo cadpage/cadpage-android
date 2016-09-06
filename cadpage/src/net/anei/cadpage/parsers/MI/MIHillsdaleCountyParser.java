@@ -16,7 +16,7 @@ public class MIHillsdaleCountyParser extends FieldProgramParser {
   
   public MIHillsdaleCountyParser() {
     super("HILLSDALE COUNTY", "MI", 
-          "CALL ADDR CITY ST_ZIP? X DATETIME!");
+          "CALL ADDR ( X | CITY ST_ZIP? X ) DATETIME!");
   }
   
   @Override
@@ -31,16 +31,20 @@ public class MIHillsdaleCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ST_ZIP")) return new StateField("([A-Z]{2}) +\\d{5}", true);
+    if (name.equals("ST_ZIP")) return new StateField("([A-Z]{2})(?: +\\d{5})?", true);
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("DATETIME")) return new MyDateTimeField();
     return super.getField(name);
   }
   
   private class MyCrossField extends CrossField {
+    
+    public MyCrossField() {
+      super(".*//.*", true);
+    }
+    
     @Override
     public void parse(String field, Data data) {
-      if (!field.contains("//")) abort();
       field = field.replace("//", "/");
       field = stripFieldStart(field, "/");
       field = stripFieldEnd(field, "/");
