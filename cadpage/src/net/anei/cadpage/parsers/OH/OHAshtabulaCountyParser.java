@@ -28,25 +28,37 @@ public class OHAshtabulaCountyParser extends DispatchA10Parser {
 
   @Override
   public String getFilter() {
-    return "Sheriffadmin@ashtabulacounty.us";
+    return "@ashtabulacounty.us,@countycad.us";
   }
   
+  private static final Pattern SUBJECT_PTN = Pattern.compile("([A-Z]+): (.*)");
+  
   @Override
-  public boolean parseMsg(String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
     
     if (!super.parseMsg(body, data)) return false;
     
-    if (data.strCity.endsWith(" TWP")) {
-      data.strCity = data.strCity.substring(0,data.strCity.length()-4).trim();
+    data.strCity = stripFieldEnd(data.strCity, " TWP");
+    
+    Matcher match = SUBJECT_PTN.matcher(subject);
+    if (match.matches()) {
+      data.strSource = match.group(1);
+      data.strCode = data.strCall;
+      data.strCall = match.group(2);
     }
     return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC CODE " + super.getProgram();
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("UNIT")) return new UnitField("\\d{2}", true);
     if (name.equals("CITY")) return new MyCityField();
-    if (name.equals("ST")) return new StateField("(OH|PA)(?: +\\d{5})?", true);
+    if (name.equals("ST")) return new StateField("(OH|PA)(?: +\\d{5})?|()[ A-Z]+ CO", true);
     if (name.equals("CALL")) return new MyCallField();
     return super.getField(name);
   }
