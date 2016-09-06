@@ -11,7 +11,6 @@ Pbagnpg: Npgvir911
 Ntrapl anzr: Svefg Erfcbaqre RZF
 Ybpngvba: Puvpb, PN, Havgrq Fgngrf
 Fraqre: cntvat@ohggrpbhaglrzf.bet
-Fraqre: "Tert Xabcc" <tert@svefgerfcbaqre.pbz>
 
 {- cneg 1 bs 1} EP:Wbo# 0101-N/ Eha# 44129/ jnf Pnapryrq: BGURE (PBZZRAG ERDHVERQ)/PNYY:14:24/QVFC:14:26/RAE:14:30/NGF:14:40/PKY:15:00
 {- cneg 1 bs 1} EP:Eha# 44129//CEVBEVGL 3/OYF/SNYYF/4 ZNEYVA PG CebDN pbzzragf: SRYY VA XVGPURA GUVF ZBEAVAT/ YVSRYVAR NAQ ZRQVPF ERFCBAQRQ. ABJ PNAABG FGNAQ ONPX HC NSGRE URYCHC. YRT FJBYYRA NAQ GHEARQ/ZNEYVA PG//PUVPB////<Haxabja>/<Abar>
@@ -40,18 +39,14 @@ Fraqre: "Tert Xabcc" <tert@svefgerfcbaqre.pbz>
 {- cneg 1 bs 1} EP:Eha# 74877/NYF/CEVBEVGL 1/VYY CREFBA/5924 FXLJNL//CNENQVFR/ZRQVPF NG FPRAR ERDHRFGVAT PBQR 3 SVER/ CQ SBE JNYX HC ZRQVPNY AB SHEGURE QRGNVYF TVIRA////<Haxabja>/<Abar>
 {- cneg 1 bs 1} EP:Wbo# 0072-N/ Eha# 61625/ jnf Pnapryrq: GRFG PNYY/PNYY:11:46/QVFC:11:46/PKY:11:47
 {- cneg 1 bs 1} EP:Eha# 61625/NYF/CEVBEVGL 1//333 UHFF QE//PUVPB/grfg pnyy////<Haxabja>/<Abar>
+
  */
 
 
 choyvp pynff PNOhggrPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp PNOhggrPbhaglOCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "OHGGR PBHAGL", "PN");
-  }
-  
-  @Grfg
-  choyvp ibvq grfgCnefre() {
-
+    frgCnefre(arj PNOhggrPbhaglOCnefre(), "OHGGR PBHAGL", "PN");
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

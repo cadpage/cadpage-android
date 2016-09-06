@@ -386,7 +386,9 @@ public abstract class SmartAddressParser extends MsgParser {
   private static final long ID_SPECIAL_STREET_REV_END = 0x800000000000L;
   
   private static final long ID_YEAR_OLD_NOT_ADDRESS = 0x1000000000000L;
-  
+
+  private static final long ID_JUST = 0x2000000000000L;
+
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[A-Z]?[0-9/]+|\\.\\d)?(?:-?(?:[A-Z]|BLK))?", Pattern.CASE_INSENSITIVE);
   
   // Permanent parsing  flags
@@ -560,6 +562,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_BLOCK, "BLK", "BLOCK");
     setupDictionary(ID_NUMBER_SUFFIX, "ND", "RD", "TH");
     setupDictionary(ID_NOT_STREET_NAME, "ON", "NO", "IN", "AT", "THE", "-");
+    setupDictionary(ID_JUST, "JUST");
     
     // Set up special cross street names
     addCrossStreetNames(
@@ -1609,12 +1612,18 @@ public abstract class SmartAddressParser extends MsgParser {
       if (tmp >= 0) {
         
         // If this is followed by a connector, we are good to go.
-        // If it is not followed by a connector, return failure so
-        // the naked street parser can find this
         tmp = findConnector(tmp);
-        if (tmp < 0) return false;
-        sAddr = startAddress;
-        ndx = tmp;
+        if (tmp >= 0) {
+          sAddr = startAddress;
+          ndx = tmp;
+        }
+        
+        // Legal street name not followed by a connector.  Normally we would drop
+        // down and see if we can find a connector followed by a good street name.
+        // But if there might be a cross street following this address, that might
+        // end up merging a naked street name with the first cross street, which we
+        // don't wan to do.
+        else if (isFlagSet(FLAG_CROSS_FOLLOWS)) return false;
       }
     }
 
@@ -1736,7 +1745,11 @@ public abstract class SmartAddressParser extends MsgParser {
     if (good && !padField && parseAddressToCity(sAddr, ndx+1, result)) return true;
     
     // Otherwise find end of second road
-    ndx = findRoadEnd(ndx, good ? 2 : 0);
+    if (good) {
+      ndx = findRoadEnd(ndx, 2);
+    } else {
+      ndx = findRoadEnd(ndx, 0, true);
+    }
     if (ndx < 0) return false;
     
     // If we did not try to parse to a trailing city previously because
@@ -3170,6 +3183,7 @@ public abstract class SmartAddressParser extends MsgParser {
   }
   
   private int findConnector(int ndx) {
+    if (isType(ndx, ID_JUST)) ndx++;
     if (isType(ndx, ID_CONNECTOR)) {
       if (isFlagSet(FLAG_AND_NOT_CONNECTOR) && isType(ndx, ID_AND_CONNECTOR)) return -1;
       return ndx+1;

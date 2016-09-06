@@ -13,6 +13,7 @@ public class MIBayCountyBParser extends FieldProgramParser {
   public MIBayCountyBParser() {
     super("BAY COUNTY", "MI",
           "CALL:CALL! ADDR:ADDRCITY/SXa! INFO:INFO! INFO+ DATE:DATETIME! ( LOC:PLACE! CROSS:X! | PLACE:PLACE! X:X! ) UNIT:UNIT! ID:ID!");
+    setupMultiWordStreets("CASS AVENUE");
   }
   
   @Override

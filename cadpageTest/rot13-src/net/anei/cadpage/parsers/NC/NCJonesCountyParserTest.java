@@ -2002,7 +2002,7 @@ choyvp pynff APWbarfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "{Grkg Zrffntr} Pbzzhavpngvba: 220 GERZNVA QE XVAFGBA QRNQ RAQ ERZHF VI & XVREN QE S-FGEHPGHER Yvar16= Yvar17= Yvar18=",
         "NQQE:220 GERZNVA QE",
         "PVGL:XVAFGBA",
-        "K:QRNQ RAQ / ERZHF VI & XVREN QE",
+        "K:QRNQ RAQ ERZHF VI & XVREN QE",
         "PBQR:S-FGEHPGHER");
 
     qbGrfg("G22",

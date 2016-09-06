@@ -31,7 +31,16 @@ public class NJMICOMBParser extends MsgParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("CAD Page")) return false;
+    do {
+      if (subject.equals("CAD Page")) break;
+      
+      if (body.startsWith("/ CAD Page / ")) {
+        body = body.substring(13);
+        break;
+      }
+        
+      return false;
+    } while (false);
     
     data.strUnit = substring(body, 0, 10);
     

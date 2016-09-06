@@ -14,7 +14,7 @@ public class KYLaRueCountyParser extends DispatchB2Parser {
   private static final Pattern AUTOMATED_MSG_PTN = Pattern.compile("/?(.*\\b(?:FIRE ALARM|FIRE) IN (?:YOUR AREA\\.? )?(?:THIS IS AN )?AUTOMATED (?:MSG|MESSAGE)\\.?)");
   
   public KYLaRueCountyParser() {
-    super("LARUECO911:",CITY_LIST, "LARUE COUNTY", "KY");
+    super("LARUECO911:",CITY_LIST, "LARUE COUNTY", "KY", B2_CROSS_FOLLOWS);
     setupMultiWordStreets(
         "BALL HOLLOW",
         "BOUNDARY OAKS",

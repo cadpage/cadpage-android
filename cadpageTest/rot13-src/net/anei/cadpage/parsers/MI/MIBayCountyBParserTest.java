@@ -13386,8 +13386,7 @@ choyvp pynff ZVOnlPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ: 144",
 
         "PNYY:OERNGUVAT CEBOYRZF Q/C1",
-        "NQQE:736 J PNFF NIRAHR",
-        "NCG:EQ",
+        "NQQE:736 J PNFF NIRAHR EQ",
         "PVGL:Cbegfzbhgu Gjc",
         "VASB:CebDN Cnenzbhag Zrqvpny:\a88-lrne-byq, Srznyr, Pbafpvbhf, Oe..",
         "QNGR:2/8/2015",
@@ -13492,8 +13491,7 @@ choyvp pynff ZVOnlPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ: 309",
 
         "PNYY:CVN/C1",
-        "NQQE:A GHFPBYN EQ & J PNFF NIRAHR",
-        "NCG:EQ",
+        "NQQE:A GHFPBYN EQ & J PNFF NIRAHR EQ",
         "PVGL:Cbegfzbhgu Gjc",
         "VASB:AO Ghfpbyn A bs Pnff - bss gb fvqr bs ebnq\auvg hax bowrpg v..",
         "QNGR:1/30/2015",
@@ -13719,8 +13717,8 @@ choyvp pynff ZVOnlPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ: 449",
 
         "PNYY:NOQBZVANY CNVA N/C3",
-        "NQQE:1711 J PNFF NIRAHR",
-        "NCG:EQ grfg",
+        "NQQE:1711 J PNFF NIRAHR EQ",
+        "NCG:grfg",
         "PVGL:Cbegfzbhgu Gjc",
         "VASB:pnq cntr grfg | grfg bayl qb abg erfcbaq\agrfg bayl",
         "QNGR:1/22/2015",
@@ -13788,8 +13786,7 @@ choyvp pynff ZVOnlPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ: 770",
 
         "PNYY:HAX NPPVQRAG/C1",
-        "NQQE:A XAVTUG EQ & J PNFF NIRAHR",
-        "NCG:EQ",
+        "NQQE:A XAVTUG EQ & J PNFF NIRAHR EQ",
         "PVGL:Cbegfzbhgu Gjc",
         "VASB:iru va qvgpu ba fvqr\aznyr vafvqr cbhaqvat ba jvaqbj\ahax vs ..",
         "QNGR:1/15/2015",
@@ -13810,8 +13807,7 @@ choyvp pynff ZVOnlPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ: 770",
 
         "PNYY:HAX NPPVQRAG/C1",
-        "NQQE:A XAVTUG EQ & J PNFF NIRAHR",
-        "NCG:EQ",
+        "NQQE:A XAVTUG EQ & J PNFF NIRAHR EQ",
         "PVGL:Cbegfzbhgu Gjc",
         "VASB:iru va qvgpu ba fvqr\aznyr vafvqr cbhaqvat ba jvaqbj\ahax vs ..",
         "QNGR:1/15/2015",
@@ -13852,8 +13848,7 @@ choyvp pynff ZVOnlPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ: 525",
 
         "PNYY:CVN/C1",
-        "NQQE:J PNFF NIRAHR & F GHFPBYN EQ",
-        "NCG:EQ",
+        "NQQE:J PNFF NIRAHR EQ & F GHFPBYN EQ",
         "PVGL:Cbegfzbhgu Gjc",
         "VASB:2 pne cvn......genvyoynmre if pne.\abar znyr fhow pbzc bs ar..",
         "QNGR:1/14/2015",
@@ -13873,8 +13868,7 @@ choyvp pynff ZVOnlPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ: 525",
 
         "PNYY:CVN/C1",
-        "NQQE:J PNFF NIRAHR & A GHFPBYN EQ",
-        "NCG:EQ",
+        "NQQE:J PNFF NIRAHR EQ & A GHFPBYN EQ",
         "PVGL:Cbegfzbhgu Gjc",
         "VASB:2 pne cvn......genvyoynmre if pne.\abar znyr fhow pbzc bs ar..",
         "QNGR:1/14/2015",
@@ -14735,8 +14729,7 @@ choyvp pynff ZVOnlPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ: 397",
 
         "PNYY:ZRQ",
-        "NQQE:1918 J PNFF NIRAHR",
-        "NCG:EQ",
+        "NQQE:1918 J PNFF NIRAHR EQ",
         "PVGL:Cbegfzbhgu Gjc",
         "VASB:CebDN Cnenzbhag Zrqvpny:\a79-lrne-byq, Znyr, Pbafpvbhf, Oern..",
         "QNGR:11/21/2014",
@@ -14778,8 +14771,7 @@ choyvp pynff ZVOnlPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ: 260",
 
         "PNYY:IRU SVER",
-        "NQQE:J PNFF NIRAHR & A GHFPBYN EQ",
-        "NCG:EQ",
+        "NQQE:J PNFF NIRAHR EQ & A GHFPBYN EQ",
         "PVGL:Cbegfzbhgu Gjc",
         "VASB:2 pnef urnq ba fgvyy va ebnq jnl- pnyyre jnf cnffre ol\afnvq..",
         "QNGR:11/16/2014",
@@ -15073,8 +15065,7 @@ choyvp pynff ZVOnlPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ: 729",
 
         "PNYY:ZRQ",
-        "NQQE:736 J PNFF NIRAHR",
-        "NCG:EQ",
+        "NQQE:736 J PNFF NIRAHR EQ",
         "PVGL:Cbegfzbhgu Gjc",
         "VASB:CebDN Cnenzbhag Zrqvpny:\a88-lrne-byq, Srznyr, Pbafpvbhf, Oe..",
         "QNGR:10/29/2014",

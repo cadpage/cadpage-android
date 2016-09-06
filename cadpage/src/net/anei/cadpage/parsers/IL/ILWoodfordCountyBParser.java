@@ -1,16 +1,12 @@
 package net.anei.cadpage.parsers.IL;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA47Parser;
 
 
 public class ILWoodfordCountyBParser extends DispatchA47Parser {
   
   public ILWoodfordCountyBParser() {
-    super("{Woodford Comm}", CITY_LIST, "WOODFORD COUNTY", "IL");
+    super("Woodford Comm", CITY_LIST, "WOODFORD COUNTY", "IL");
   }
   
   @Override

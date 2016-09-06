@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class CTLitchfieldCountyAParser extends SmartAddressParser {
   
-  private static final Pattern MASTER1 = Pattern.compile("(.*) RESPOND TO (.*?)(?:,|,? (\\d{1,3}-[A-Z]-\\d{1,2}(?:-?[A-Z])?|HOT|ALPHA|COLD|\\d+|)) *(?::|--| -)(\\d\\d:\\d\\d)(?:(?: ([A-Z]\\d{2}-\\d+)|\\*\\*), *((?:[-+]?\\d+\\.\\d{4,}|0), *(?:[-+]?\\d+\\.\\d{4,}|0))| *\\(.*\\))?");
+  private static final Pattern MASTER1 = Pattern.compile("(.*) RESPOND TO (.*?)(?:,|,? (\\d{1,3}-[A-Z]-\\d{1,2}(?:-?[A-Z])?|(?:\\d{1,2}-)?(?:HOT|ALPHA|COLD)|\\d+|)) *(?::|--| -)(\\d\\d:\\d\\d)(?:(?: ([A-Z]\\d{2}-\\d+)|\\*\\*), *((?:[-+]?\\d+\\.\\d{4,}|0), *(?:[-+]?\\d+\\.\\d{4,}|0))| *\\(.*\\))?");
   private static final Pattern MISMATCH_PAREN_PTN = Pattern.compile("[^\\(\\)]*\\).*");
   
   private static final Pattern MASTER2 = Pattern.compile("(.+?)-(?!Dwelling)(.+)-(.*?) *\\*\\*\\* (\\d\\d:\\d\\d)---");
@@ -70,6 +70,7 @@ public class CTLitchfieldCountyAParser extends SmartAddressParser {
       
       return true;
     }
+    setFieldList("INFO");
     data.msgType = MsgType.GEN_ALERT;
     data.strSupp = body;
     return true;

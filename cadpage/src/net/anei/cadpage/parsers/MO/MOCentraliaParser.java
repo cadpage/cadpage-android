@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA25Parser;
 public class MOCentraliaParser extends DispatchA25Parser {
 
   public MOCentraliaParser() {
-    super("", "MO");
+    super("CENTRAILIA", "MO");
   }
   
   @Override

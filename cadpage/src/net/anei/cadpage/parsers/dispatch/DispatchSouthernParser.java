@@ -130,7 +130,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     // Program string needs to be built at run time
     StringBuilder sb = new StringBuilder();
     sb.append("ADDR/S2");
-    if (impliedApt) sb.append('6');
+    if (impliedApt) sb.append("6");
     sb.append(leadPlace ? 'P' : 'X');
     if (trailPlace2) sb.append("P");
     if (state) sb.append(" ST?");
