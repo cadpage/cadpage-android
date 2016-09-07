@@ -429,6 +429,7 @@ Ntrapl anzr: Bnx Evqtr SQ
 Ybpngvba: Bnx Evqtr, AP, Havgrq Fgngrf
 Fraqre: <PNQ@terrafobeb-ap.tbi>
 
+{Grkg Zrffntr} PNQ:1608886;SBEF;SBEF;1;ZHGHNY;3180 CVARL TEBIR EQ;SERRZNA EQ;PU15,G15;SBEFLGU PBHAGL;[RSQ] Pnyy Nobegrq: .  [08/29/16 07:33:24 MVZZREZNAX] GNP P2  [08/29/16 07:32:32 MVZZREZNAX] ARRQ G15 SBE FGEHPGHER S
 {Grkg Zrffntr} PNQ:HAQRE PBAGEBY;3400 RQTRSVRYQ PG; T
 {Grkg Zrffntr} PNQ:BXEQ;FG51;1;SNYY;3400 RQTRSVRYQ PG;RCRF GENAFCBEG FLFGRZ;XRAZBAG EQ;17O01;TERRAFOBEB
 {Grkg Zrffntr} PNQ:HAQRE PBAGEBY;7908 YRNOBHEAR EQ; PBY
@@ -4845,6 +4846,23 @@ choyvp pynff APThvysbeqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgBnxEvqtrSQ() {
+
+    frgQrsnhygf("", "AP");
+    qbGrfg("G1",
+        "{Grkg Zrffntr} PNQ:1608886;SBEF;SBEF;1;ZHGHNY;3180 CVARL TEBIR EQ;SERRZNA EQ;PU15,G15;SBEFLGU PBHAGL;[RSQ] Pnyy Nobegrq: .  [08/29/16 07:33:24 MVZZREZNAX] GNP P2  [08/29/16 07:32:32 MVZZREZNAX] ARRQ G15 SBE FGEHPGHER S",
+        "VQ:1608886",
+        "FEP:SBEF-SBEF",
+        "CEV:1",
+        "PNYY:ZHGHNY",
+        "NQQE:3180 CVARL TEBIR EQ",
+        "K:SERRZNA EQ",
+        "HAVG:PU15,G15",
+        "PVGL:SBEFLGU PBHAGL",
+        "VASB:Pnyy Nobegrq: . / ARRQ G15 SBE FGEHPGHER S",
+        "PU:GNP P2",
+        "QNGR:08/29/16",
+        "GVZR:07:33:24");
+    erfgberQrsnhygf();
 
     qbGrfg("G1",
         "{Grkg Zrffntr} PNQ:HAQRE PBAGEBY;3400 RQTRSVRYQ PG; T",

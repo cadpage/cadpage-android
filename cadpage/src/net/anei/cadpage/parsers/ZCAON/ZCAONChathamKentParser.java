@@ -20,7 +20,12 @@ public class ZCAONChathamKentParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    return super.parseFields(body.split(";"), data);
+    if (!super.parseFields(body.split(";"), data)) return false;
+    if (data.strAddress.length() == 0) {
+      parseAddress(data.strCross, data);
+      data.strCross = "";
+    }
+    return true;
   }
   
   private static final Pattern LI_PTN = Pattern.compile("\\bLI\\b", Pattern.CASE_INSENSITIVE);

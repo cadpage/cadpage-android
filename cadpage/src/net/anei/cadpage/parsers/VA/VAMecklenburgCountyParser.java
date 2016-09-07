@@ -15,7 +15,7 @@ public class VAMecklenburgCountyParser extends DispatchA47Parser {
   
   @Override
   public String getFilter() {
-    return "swpage2@vameck911.com";
+    return "swpage2@vameck911.com,@mecklenburgva.com";
   }
   
   @Override
