@@ -19,14 +19,14 @@ public class PASusquehannaCountyParser extends DispatchB2Parser {
   
   @Override
   public String getFilter() {
-    return "@susqco.alertpa.org,777";
+    return "@susqco.alertpa.org,no-reply@ecnalert.com,777";
   }
   
   private boolean good;
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    good = subject.equals("Susq Co CAD");
+    good = subject.equals("Susq Co CAD") || subject.equals("Alert Message");
     int pt = body.indexOf("\n\n");
     if (pt >= 0) body = body.substring(0,pt).trim();
     if (!super.parseMsg(body, data)) return false;
@@ -78,12 +78,16 @@ public class PASusquehannaCountyParser extends DispatchB2Parser {
   private static final CodeSet CALL_LIST = new CodeSet(
       "911 HANGUP",
       "ABDOMINAL PAIN",
+      "ALLERGIES",
+      "ANIMAL BITES/ATTACKS",
       "BACK PAIN (NON TRAUMA)",
       "BREATHING PROBLEMS",
       "BRUSH FIRE",
       "CARB MONOX/INHALATION/HAZMAT",
       "CARD/RESP ARREST/DEATH",
       "CHEST PAIN",
+      "CONVULSIONS/SEIZURES",
+      "DIABETIC PROBLEMS",
       "ELECTRICAL POLE ON FIRE",
       "FALLS",
       "HAZARDOUS MATERIAL",
@@ -94,14 +98,19 @@ public class PASusquehannaCountyParser extends DispatchB2Parser {
       "MISCELLANEOUS",
       "MOTOR VEHICLE ACCIDENT",
       "OVERDOSE/POISONING",
+      "PSYCH/BEHAVE/SUICIDE ATTEMPT",
       "PUMPING DETAIL",
       "SEARCH AND RESCUE",
       "SICK PERSON",
       "SMOKE INVESTIGATION",
+      "STAB/GSW/PENETRATING TRAUMA",
       "STAND BY",
+      "STROKE/CVA",
       "STRUCTURE FIRE",
       "STRUCTURE FIRE ALARM",
       "STRUCTURE FIRE CHIMNEY",
+      "SUSPICIOUS PERSON",
+      "TEST CALL",
       "TRAUMATIC INJURIES (SPECIFIC)",
       "TREES DOWN",
       "UNCONSCIOUS/FAINTING",
@@ -112,19 +121,33 @@ public class PASusquehannaCountyParser extends DispatchB2Parser {
 
   private static final String[] CITY_LIST = new String[]{
     "FOREST CITY",
+    "FOREST CITY BORO",
     "FRIENDSVILLE",
+    "FRIENDSVILLE BORO",
     "GREAT BEND",
+    "GREAD BEND BORO",
     "HALLSTEAD",
+    "HALLSTEAD BORO",
     "HOP BOTTOM",
+    "HOP BOTTOM BORO",
     "LANESBORO",
+    "LANESBORO BORO",
     "LITTLE MEADOWS",
+    "LITTLE MEADOWS BORO",
     "MONTROSE",
+    "MONTROSE BORO",
     "NEW MILFORD",
+    "NEW MILFORD BORO",
     "OAKLAND",
+    "OAKLAND BORO",
     "SUSQUEHANNA DEPOT",
+    "SUSQUEHANNA DEPOT BORO",
     "THOMPSON",
+    "THOMPSON BORO",
     "UNION DALE",
+    "UNION DALE BORO",
     "UNIONDALE",
+    "UNIONDALE BORO",
     
     "APOLACON",
     "APOLACON TWP",
