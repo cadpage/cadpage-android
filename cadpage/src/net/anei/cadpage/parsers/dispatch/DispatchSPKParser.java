@@ -49,7 +49,6 @@ public class DispatchSPKParser extends HtmlProgramParser {
 
   private Field lastFld;
   private String callerLocField;
-  private boolean addrFound;
   
   private boolean dispatchTime;
   private String times;
@@ -67,7 +66,6 @@ public class DispatchSPKParser extends HtmlProgramParser {
         !subject.contains(" gets ") &&
         !subject.contains("has a Service Request status change")) return false;
     
-    addrFound = false;
     lastFld = null;
     callerLocField = null;
     dispatchTime = false;
@@ -77,7 +75,6 @@ public class DispatchSPKParser extends HtmlProgramParser {
     colNdx = -1;
     
     if (!super.parseHtmlMsg(subject, body, data)) return false;
-    if (!addrFound) return false;
     
     
     if (data.strAddress.length() == 0 && callerLocField != null) parseAddress(callerLocField, data);
@@ -232,8 +229,6 @@ public class DispatchSPKParser extends HtmlProgramParser {
     @Override
     public void parse(String field, Data data) {
       
-      addrFound = true;
-      
       // There can be multiple Location: keywords, but the second
       // always seems to be a cell tower location that we can ignore
       // Unless the first address is UNKNOWN in which case, accept the second one
@@ -247,7 +242,6 @@ public class DispatchSPKParser extends HtmlProgramParser {
   private class BaseCallerLocField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      addrFound = true;
       callerLocField = field;
     }
   }
@@ -476,4 +470,50 @@ public class DispatchSPKParser extends HtmlProgramParser {
     INFO_KEYWORDS.put("Case Numbers:", null);
     INFO_KEYWORDS.put("Incident Log:", null);
   }
+  
+  @Override
+  protected boolean parseFields(String[] fields, Data data) {
+    fixKeywords(fields, FIX_KEYWORD_TABLE);
+    return super.parseFields(fields, data);
+  }
+
+  private static void fixKeywords(String[] fields, String[] table) {
+    int fNdx = 0;
+    for (int tNdx = 0; tNdx<table.length; tNdx += 2) {
+      String search = table[tNdx];
+      String replace = table[tNdx+1];
+      boolean found = true;
+      for (int ndx = fNdx; ndx<fields.length; ndx++) {
+        String fld = fields[ndx];
+        if (fld.startsWith(search)) {
+          found = true;
+          fields[ndx] = replace + fld.substring(search.length());
+          fNdx = ndx+1;
+          break;
+        }
+      }
+      if (!found && tNdx == 0) return;
+    }
+  }
+  
+  private static final String[] FIX_KEYWORD_TABLE = new String[]{
+    "autosend.incident.header",                 "As of",
+    "autosend.incident.incidentInformation",    "Incident Information",
+    "autosend.incident.tracking.number",        "CAD Incident ",
+    "Autosend.Options.eventCode",               "Event Code",
+    "autosend.incident.location",               "Location",
+    "autosend.incident.community",              "Community",
+    "Autosend.Options.locationInformation",     "Location Information",
+    "Autosend.Options.incidentTimes",           "CAD Times",
+    "callCreatedTime",                          "Call Created Time",
+    "callStatusTime",                           "Call Dispatched Time",
+    "Autosend.Options.unitInformation",         "Unit Information",
+    "autosend.unit.history.unit",               "Unit",
+    "autosend.unit.information.unitOrg",        "Org",
+    "autosend.unit.information.name",           "Name",
+    "autosend.unit.information.area",           "Area",
+    "autosend.unit.information.types",          "Types",
+    "Autosend.Options.narratives",              "Remarks/Narratives",
+    "Autosend.Options.notices",                 "Notices"
+  };
 }
