@@ -3479,7 +3479,7 @@ choyvp pynff CNJrfgzberynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:A UHAGVATQBA GJC",
         "VQ:S16002062",
         "PBQR:29O04H",
-        "PNYY:ZIN - Ybj zrpunavfz (Haxabja # cngvragf)",
+        "PNYY:ZIN - Ybj zrpunavfz - Haxabja # cngvragf",
         "GVZR:09:36:24",
         "PU:SVER GNP 8",
         "VASB:ABEGU UHAGVATQBA IRU VAGB N UBHFR Ceboyrz: IRU VAGB N UBHFR Cngvrag Ahzore: Haxabja Puvrs Pbzcynvag: Genssvp / Genafcbegngvba Vapvqragf Ntr haxabja, Traqre haxabja, Pbafpvbhf, Oernguvat. Haxabja ahzore bs cngvragf vaibyirq. Qvfcngpu PNQ Pbqr: 29O04H Erfcbafr Grkg: Oenib Qrgrezvanag Yriry: Haxabja fgnghf/Bgure pbqrf abg nccyvpnoyr Fhssvk Grkg: Haxabja ahzore bs cngvragf XD: Vg'f abg xabja vs purzvpnyf be bgure unmneqf ner vaibyirq. PNYYRE PNYYVAT SEBZ 277 ERCBEGVAT IRUVPYR VAGB URE ARVTUOBEF UBHFR, FUR FNVQ RVGURE 275 BE 279 ** Rirag C16023481 genafsreerq ba hcqngr ol 8874 ba pnyygnxre3grzc ** Rirag R16006370 genafsreerq ba hcqngr ol 8874 ba pnyygnxre3grzc ** Rirag S16002061 genafsreerq ba hcqngr ol 8874 ba pnyygnxre3grzc AUG ABGVSVRQ",
@@ -3491,7 +3491,7 @@ choyvp pynff CNJrfgzberynaqPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:A UHAGVATQBA GJC",
         "VQ:S16002062",
         "PBQR:29O04H",
-        "PNYY:ZIN - Ybj zrpunavfz (Haxabja # cngvragf)",
+        "PNYY:ZIN - Ybj zrpunavfz - Haxabja # cngvragf",
         "GVZR:09:36:24",
         "PU:SVER GNP 8",
         "HAVG:R03-2,E02,E107,E19");
