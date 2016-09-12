@@ -37,7 +37,7 @@ choyvp pynff QRJvyzvatgbaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:10:33",
         "NQQE:1332 J  7GU FG",
         "PBQR:52O1",
-        "PNYY:Nynezf - Erfvqragvny");
+        "PNYY:Nynezf - Erfvqragvny (fvatyr)");
 
     qbGrfg("G2",
         "[Vapvqrag]  SE2 Obk Nynez 03/02/13 19:31 3003 J  6GU FG  69P1  3.Guvf vf n ercbegrq pbagnvarq nccyvnapr sve  f ba fprar (1fg cnegl).  2.Fzbxr vf ivfvoyr",

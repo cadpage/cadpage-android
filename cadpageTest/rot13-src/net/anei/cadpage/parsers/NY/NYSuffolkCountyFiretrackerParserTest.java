@@ -106,7 +106,7 @@ choyvp pynff ALFhssbyxPbhaglSvergenpxreCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "(SverCntr) ** ZNFGVP ORNPU INP ** [4-O-3N H] 197 YBATSRYYBJ QE Znfgvp Ornpu P/F:CVAR EQ Nqq'g Vasb: IVPGVZ BS NA NFFNHYG Ahzore",
         "FEP:ZNFGVP ORNPU INP",
         "PBQR:4-O-3N H",
-        "PNYY:Nffnhyg - Haxabja fgnghf (Nffnhyg)",
+        "PNYY:Nffnhyg - Haxabja fgnghf - Nffnhyg",
         "NQQE:197 YBATSRYYBJ QE",
         "PVGL:Znfgvp Ornpu",
         "K:CVAR EQ",

@@ -10,7 +10,7 @@ public class SCCharlestonCountyBParser extends FieldProgramParser {
   
   public SCCharlestonCountyBParser() {
     super("ANDERSON COUNTY", "SC", 
-          "UNIT ADDR X CITY CALL! Incident_Channel:CH! ID DATETIME!");
+          "UNIT ADDR X/Z? CITY CALL! Incident_Channel:CH! ID DATETIME!");
   }
   
   @Override
@@ -41,5 +41,11 @@ public class SCCharlestonCountyBParser extends FieldProgramParser {
       data.strDate = match.group(2)+'/'+match.group(3)+'/'+match.group(1);
       data.strTime = match.group(4);
     }
+  }
+  
+  @Override
+  public String adjustMapCity(String city) {
+    if (city.equalsIgnoreCase("ST PAULS")) return "";
+    return city;
   }
 }

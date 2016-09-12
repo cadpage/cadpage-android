@@ -16,7 +16,7 @@ choyvp pynff FgnaqneqPbqrGnoyrGrfg {
   @Grfg
   choyvp ibvq grfgPbqrGnoyr() {
     
-    purpx("04n02g", "04n02g", "Nffnhyg - Abg qnatrebhf obql nern (Fgha tha)", "");
+    purpx("04n02g", "04n02g", "Nffnhyg - Abg qnatrebhf obql nern - Fgha tha", "");
     purpx("04n02 oybpx", "04n02", "Nffnhyg - Abg qnatrebhf obql nern", "oybpx");
 
     nffregAhyy(GNOYR.trgErfhyg("NOP"));

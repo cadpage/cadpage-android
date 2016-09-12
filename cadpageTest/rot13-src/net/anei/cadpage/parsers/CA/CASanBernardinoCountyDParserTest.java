@@ -65,7 +65,7 @@ choyvp pynff PNFnaOreaneqvabPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1143 A NEEBJURNQ NIR",
         "PVGL:FNA OREANEQVAB",
         "PBQR:23P01V",
-        "PNYY:Bireqbfr/Cbvfbavat - Abg nyreg (Vagragvbany)",
+        "PNYY:Bireqbfr/Cbvfbavat - Abg nyreg - Vagragvbany",
         "VQ:2015-00019237");
 
     qbGrfg("G5",
