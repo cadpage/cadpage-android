@@ -1265,6 +1265,7 @@ class Active911Vendor extends Vendor {
       "US/TX/CollinCounty",               "TXCollinCounty",
       "US/TX/CookeCounty",                "TXCookeCounty",
       "US/TX/CyCreekCommCenter",          "TXCyCreekCommCenter",
+      "US/TX/CyFairVFD",                  "TXCyFair",
       "US/TX/DallasCounty",               "TXDallasCountyC",
       "US/TX/DentonCounty",               "TXDentonCounty",
       "US/TX/Eforcesoftware",             "TXWharton",

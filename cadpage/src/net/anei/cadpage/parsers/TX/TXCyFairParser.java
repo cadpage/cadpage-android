@@ -12,11 +12,14 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class TXCyFairParser extends FieldProgramParser {
   
-  private static final Pattern RUN_REPORT_MARKER = Pattern.compile(" [A-Z]{4,5}\\d{10} ");
+  private static final Pattern MASTER1 = Pattern.compile("(.*?) ([A-Z]{4,5}\\d{10}) (?:(\\d{1,2}[A-Z]\\d{1,2}[A-Z]?) \\d+ )?(.*?)([A-Z]+\\d+[A-Z]?) (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)(\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d)*");
+  private static final Pattern MISSING_BLANK_PTN = Pattern.compile("([^/]+ /[^/]+[^ ])(/.*)");
   
   public TXCyFairParser() {
     super("HARRIS", "TX",
-           "UNIT CALL ADDR/SXx! X2 PLACE SUB:CITY! MAP:MAP UNITS_ASSIGNED:UNIT");
+           "UNIT CALL ( ADDR/ZSXx PLACE MAP! END" +
+                     "| ADDR/Z ( PLACE2 X/Z END | " +
+                                 "X APT PLACE! SUB:CITY! MAP:MAP! UNITS_ASSIGNED:UNIT! RespInfo%EMPTY END ) )");
   }
   
   @Override
@@ -37,19 +40,33 @@ public class TXCyFairParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (RUN_REPORT_MARKER.matcher(body).find()) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
+    Matcher match = MASTER1.matcher(body);
+    if (match.matches()) {
+      setFieldList("ADDR APT ID CODE CALL DATE TIME");
+      parseAddress(match.group(1).trim(), data);
+      data.strCallId = match.group(2);
+      data.strCode = getOptGroup(match.group(3));
+      data.strCall = match.group(4).trim();
+      data.strDate = match.group(5);
+      data.strTime = match.group(6);
       return true;
     }
-    if (!parseFields(body.split("/"), data)) return false;
     
-    String city = CITY_PLACE_TABLE.getProperty(data.strCity.toUpperCase());
-    if (city != null) {
-      data.strPlace = append(data.strCity, " - ", data.strPlace);
-      data.strCity = city;
+    match = MISSING_BLANK_PTN.matcher(body);
+    if (match.matches()) {
+      body = match.group(1) + ' ' + match.group(2);
     }
-    return true;
+    return parseFields(body.split(" /"), data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("PLACE2")) return new MyPlace2Field();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("MAP")) return new MapField("\\d{3}[A-Z]", true);
+    return super.getField(name);
   }
   
   private static final Pattern CODE_PTN = Pattern.compile("^(\\d{1,2}[A-Z]\\d{2}[A-Z]?) +");
@@ -70,56 +87,49 @@ public class TXCyFairParser extends FieldProgramParser {
     }
   }
   
-  private static final String NO_X_FOUND = "No X Street Found";
-  private class MyAddressField extends AddressField {
+  private class MyPlace2Field extends PlaceField {
     @Override
     public void parse(String field, Data data) {
-      
-      field = field.replace("SANDHILLGLEN", "SAND HILL GLEN DR");
-      if (field.endsWith(NO_X_FOUND)) {
-        parseAddress(field.substring(0,field.length()-NO_X_FOUND.length()).trim(), data);
-        return;
-      }
-      parseAddress(StartType.START_ADDR, FLAG_CROSS_FOLLOWS, field, data);
-      String cross = getLeft();
-      if (cross.startsWith("&")) cross = cross.substring(1).trim();
-      data.strCross = cross;
-      if (data.strCross.length() > 0) return;
-      
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "ADDR X";
+      data.defCity = "";
+      super.parse(field, data);
     }
   }
   
-  private class MyCross2Field extends CrossField {
+  private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
-      if (field.equals(NO_X_FOUND)) return;
-      String saveCross = data.strCross;
-      data.strCross = "";
-      parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, field, data);
-      data.strCross = append(saveCross, " & ", data.strCross);
-      data.strApt = getLeft();
+      field = field.replace("No X Street Found", "");
+      field = stripFieldStart(field, "/");
+      field = stripFieldEnd(field, "/");
+      super.parse(field, data);
+    }
+  }
+  
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf('(');
+      if (pt >= 0) {
+        data.strSupp = field.substring(pt);
+        field = field.substring(0,pt).trim();
+      }
+      super.parse(field, data);
     }
     
     @Override
     public String getFieldNames() {
-      return "X APT";
+      return "CITY INFO";
     }
   }
   
   @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X2")) return new MyCross2Field();
-    return super.getField(name);
+  public String adjustMapCity(String city) {
+    int pt = city.indexOf(" - ");
+    if (pt >= 0) city = city.substring(0,pt).trim();
+    return convertCodes(city, ADJUST_CITY_TABLE);
   }
   
-  private static final Properties CITY_PLACE_TABLE = buildCodeTable(new String[]{
+  private static final Properties ADJUST_CITY_TABLE = buildCodeTable(new String[]{
       "FAIRFIELD",         "",
       "MUELLER CEMETERY",  ""
   });
