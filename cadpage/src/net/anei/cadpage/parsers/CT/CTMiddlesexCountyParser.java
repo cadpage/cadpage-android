@@ -23,7 +23,7 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return ".sbc.mail.gq1.yahoo.com,administrator@valleyshore911.org";
+    return ".sbc.mail.gq1.yahoo.com,administrator@valleyshore911.org,cad@valleyshore911-lists.org";
   }
   
   @Override
@@ -48,7 +48,7 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return "SRC ID " + super.getProgram();
+    return "SRC ID " + super.getProgram() + " INFO";
   }
   
   @Override
@@ -122,6 +122,7 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
       "DR", "DEEP RIVER",
       "EF", "EAST HARTFORD",
       "EH", "EAST HADDAM",
+      "EL", "EAST LYME",
       "EM", "EAST HAMPTON",
       "EV", "EAST HAVEN",
       "GL", "GLASTONBURY",
@@ -141,6 +142,7 @@ public class CTMiddlesexCountyParser extends FieldProgramParser {
       "MF", "MIDDLEFIELD",
       "MI", "MIDDLEBURY",
       "ML", "MILFORD",
+      "MO", "BANFORD",   // ????
       "MV", "MONTVILLE",
       "NB", "NEW BRANFORD",
       "NE", "NEWINGTON",
