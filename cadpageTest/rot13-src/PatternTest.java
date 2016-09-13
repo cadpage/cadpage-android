@@ -6,10 +6,10 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   choyvp fgngvp svany Cnggrea ZNFGRE =
-      Cnggrea.pbzcvyr("Tebhc: ([^ ]*) +Frpgvba: ([^ ]*) +Znc: ([^ ]*) +K: *(\\q*) +L: *(\\q*)");
+      Cnggrea.pbzcvyr("(.*?) ([N-M]{4,5}\\q{10}) (?:(\\q{1,2}[N-M]\\q{1,2}[N-M]?) \\q+ )?(.*?) ([N-M]+\\q+) (\\q\\q/\\q\\q/\\q{4}) (\\q\\q:\\q\\q:\\q\\q)(\\q\\q/\\q\\q/\\q{4} \\q\\q:\\q\\q:\\q\\q)*");
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("Tebhc: 63SQ  (P83S ) Frpgvba:   Znc:          K: 0000000  L: 0000000");
+    qbGrfg("A Fu 6 & J Yvggyr Lbex Eq PSIA Fu 6 & J Yvggyr Lbex Eq PSISQ2016017860 29O05 77084 ZIN Haxabja Fvghngvba PS17Q 09/10/2016 12:38:0209/10/2016 12:38:0209/10/2016 12:39:06SQ2016017860 29O05 77084 ZIN Haxabja Fvghngvba PS17Q 09/10/2016 12:38:0209/10/2016 12:38:0209/10/2016 12:39:06");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

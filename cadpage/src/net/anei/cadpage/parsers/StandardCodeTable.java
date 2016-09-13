@@ -5,6 +5,10 @@ import java.util.Properties;
 /**
  * Code table containing the predefined standard MPDS medical and fire codes
  * 
+ * The information used to build this table is copyrighted by
+ * Priority Dispatch Corporation
+ * http://www.prioritydispatch.net/
+ * 
  * 
  */
 public class StandardCodeTable extends CodeTable {
@@ -154,6 +158,7 @@ public class StandardCodeTable extends CodeTable {
         "10D02",     "Chest Pain - Difficulty speaking between breaths",
         "10D03",     "Chest Pain - Changing color",
         "10D04",     "Chest Pain - Clammy or cold sweats",
+        "10D05",     "Chest Pain - Heart attack or angina history",
         "10C01",     "Chest Pain - Abnormal breathing",
         "10C02",     "Chest Pain - Cocaine",
         "10C03",     "Chest Pain - Breathing normally ≥35",

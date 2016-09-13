@@ -22,7 +22,7 @@ public class WAJeffersonCountyParser extends FieldProgramParser {
     return "messaging@iamresponding.com,messaging@emergencysmc.com,dispatch@jcpsn.us";
   }
   
-  private static final Pattern MASTER = Pattern.compile("(?:((?:[A-Za-z]*(?:\\d+(?:Vol|VOL)?|OffDuty) )*) )?(Ludlow North|[A-Za-z ]+ \\d{3}) (.*?) (\\d{4}-\\d{8})\\b *(.*)");
+  private static final Pattern MASTER = Pattern.compile("(?:((?:[A-Za-z]*(?:\\d+(?:Vol|VOL)?|OffDuty) )*) )?(Ludlow North|[A-Za-z ]+ \\d{3}) (.*?)(?: (\\d{4}-\\d{8})\\b|(?<=TRAN)(?:  |$)) *(.*)");
   private static final Pattern INFO_JUNK_PTN = Pattern.compile("\\bE911 Info .*|\\bCall Number \\d+ was ceated from Call Number \\d+|\\([^\\(]+ \\d\\d?:\\d\\d[AP]M\\)");
 
   @Override
@@ -43,7 +43,7 @@ public class WAJeffersonCountyParser extends FieldProgramParser {
     data.strUnit = getOptGroup(match.group(1));
     data.strMap = match.group(2).trim();
     String addr = getOptGroup(match.group(3));
-    data.strCallId = match.group(4);
+    data.strCallId = getOptGroup(match.group(4));
     String info = match.group(5);
     
     String call = CALL_LIST.getCode(addr, true);
@@ -114,11 +114,13 @@ public class WAJeffersonCountyParser extends FieldProgramParser {
       "Fire - Brush",
       "Fire - Dumpster",
       "Fire - Illegal Burn",
+      "Fire - Other",
       "Fire - Residential",
       "HazCon",
       "Rescue - Technical",
       "SUIC",
       "TC",
+      "TC - Multi",
       "TRAN"
 
   );
