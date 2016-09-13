@@ -21,7 +21,7 @@ public class PAMonroeCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "emergin@monroeco911.com,12101,alert@monroe.alertpa.org,messaging@iamresponding.com,mcpaas6@rsix.roamsecure.net";
+    return "emergin@monroeco911.com,12101,alert@monroe.alertpa.org,messaging@iamresponding.com,mcpaas6@rsix.roamsecure.net,no-reply@ecnalert.com";
   }
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("#\\S+  +(.*?) *CAD|([A-Z]{3,4}|Station +\\d+)");
@@ -137,7 +137,7 @@ public class PAMonroeCountyParser extends SmartAddressParser {
       "F3",   "Fire Officers Dispatch",
       "E1",   "Acute Abdomen",
       "E2",   "Amputation",
-      "E3",   "Anaphylazia",
+      "E3",   "Anaphylaxis",
       "E4",   "Burns",
       "E45J", "Motor Vehicle Accident with Entrapment",
       "E5",   "Cardiac",
