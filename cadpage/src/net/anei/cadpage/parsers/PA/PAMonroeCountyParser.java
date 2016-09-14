@@ -21,7 +21,7 @@ public class PAMonroeCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "emergin@monroeco911.com,12101,alert@monroe.alertpa.org,messaging@iamresponding.com,mcpaas6@rsix.roamsecure.net";
+    return "emergin@monroeco911.com,12101,alert@monroe.alertpa.org,messaging@iamresponding.com,mcpaas6@rsix.roamsecure.net,no-reply@ecnalert.com";
   }
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("#\\S+  +(.*?) *CAD|([A-Z]{3,4}|Station +\\d+)");
@@ -48,7 +48,16 @@ public class PAMonroeCountyParser extends SmartAddressParser {
     if (!match.lookingAt()) return false;
     data.strCallId = getOptGroup(match.group(1));
     data.strCode = match.group(2);
-    data.strCall = convertCodes(data.strCode, CALL_CODES);
+    String call = CALL_CODES.getProperty(data.strCode);
+    if (call == null) {
+      int len1 = data.strCode.length()-1;
+      char chr = data.strCode.charAt(len1);
+      if (chr>='A' && chr<='Z') {
+        call = CALL_CODES.getProperty(data.strCode.substring(0,len1));
+      }
+    }
+    if (call == null) call = data.strCode;
+    data.strCall = call;
     body = body.substring(match.end());
     int pt = body.indexOf("\nSent by");
     if (pt >= 0) body = body.substring(0,pt).trim();
@@ -137,9 +146,8 @@ public class PAMonroeCountyParser extends SmartAddressParser {
       "F3",   "Fire Officers Dispatch",
       "E1",   "Acute Abdomen",
       "E2",   "Amputation",
-      "E3",   "Anaphylazia",
+      "E3",   "Anaphylaxis",
       "E4",   "Burns",
-      "E45J", "Motor Vehicle Accident with Entrapment",
       "E5",   "Cardiac",
       "E6",   "Cardiac ARREST",
       "E7",   "Spinal Injury",
@@ -174,8 +182,13 @@ public class PAMonroeCountyParser extends SmartAddressParser {
       "E36",  "Refused/Cancelled",
       "E37",  "MED-ALERT Alarm",
       "E45",  "Motor Vehicle Accident",
+      "E45F", "Motor Vehicle Accident with Fire",
+      "E45J", "Motor Vehicle Accident with Entrapment",
       "E55",  "Fire Scene Standby",
       "E82",  "Emergency Transport",
       "E83",  "Non Emergency Transport"
+      
+      // Unknown codes
+      // E60
   });
 }
