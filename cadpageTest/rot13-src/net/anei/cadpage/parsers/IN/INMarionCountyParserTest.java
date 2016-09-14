@@ -5270,8 +5270,7 @@ choyvp pynff VAZnevbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:Cynvasvryq",
         "ZNC:F R",
         "PNYY:IRUVPY/NPPVQRAG",
-        "HAVG:UZ121 UR121 UOP12P SBC1",
-        "VASB:UVAQBG",
+        "HAVG:UZ121 UR121 UOP12P SBC1 UVAQBG",
         "VQ:V05253");
 
     qbGrfg("G45",
