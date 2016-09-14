@@ -5,7 +5,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class PAChesterCountyNParser extends PAChesterCountyBaseParser {
   
   public PAChesterCountyNParser() {
-    super("CALL ADDRCITY CITY! INFO/N+ Dispatch%EMPTY TIME ( PLACE_DASH | PLACE ) NAME PHONE! INFO/N+");
+    super("CALL ADDR CITY! INFO/N+ Dispatch%EMPTY TIME ( PLACE_DASH | PLACE ) NAME PHONE! INFO/N+");
   }
   
   @Override
