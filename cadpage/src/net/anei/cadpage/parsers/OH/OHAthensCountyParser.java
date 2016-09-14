@@ -21,7 +21,8 @@ public class OHAthensCountyParser extends DispatchEmergitechParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.equals("Text Message")) return false;
     if (!super.parseMsg(body, data)) return false;
     if (data.strApt.startsWith("CALLBK=")) {
       data.strPhone = data.strApt.substring(7).trim();
@@ -40,15 +41,20 @@ public class OHAthensCountyParser extends DispatchEmergitechParser {
     "BIG BAILEY RUN",
     "BIG RUN",
     "BUCKLEY RUN",
+    "BUCKS LAKE",
     "CANAANVILLE HILLS",
     "CARRIAGE HILL",
     "CIRCLE 33",
+    "CONGRESS RUN",
     "COOLVILLE RIDGE",
+    "EAST PARK",
     "ELM ROCK",
+    "FIVE POINTS",
     "FOSSIL ROCK",
     "FOUR MILE CREEK",
     "GLOUSTER GLEN",
     "GRAHAM CHAPEL",
+    "GRAND PK",
     "GREEN BRANCH",
     "GREEN VALLEY",
     "GUN CLUB",
@@ -56,6 +62,7 @@ public class OHAthensCountyParser extends DispatchEmergitechParser {
     "HAMLEY RUN",
     "HAMLEY SHORT CUT",
     "HAPPY HOLLOW",
+    "HEALTH CENTER",
     "HIGH SCHOOL",
     "JENKINS DAM",
     "JEWELL HOLLOW",
@@ -63,10 +70,12 @@ public class OHAthensCountyParser extends DispatchEmergitechParser {
     "LADD RIDGE",
     "LIGHTFRITZ RIDGE",
     "LONG RUN",
+    "LONGVIEW HEIGHTS",
     "M E",
     "MILL SCHOOL",
     "MONSERAT RIDGE",
     "MT ST MARY",
+    "MUSH RUN",
     "PARK LN",
     "PEACH RIDGE",
     "PEARL WOOD",
@@ -76,12 +85,12 @@ public class OHAthensCountyParser extends DispatchEmergitechParser {
     "ROCK RUN",
     "SAND RIDGE",
     "SAND ROCK",
+    "SAWYERS RUN",
     "TAYLOR RIDGE",
     "TEN SPOT",
     "UNIVERSITY ESTATES",
     "UTAH RIDGE",
     "VORE RIDGE"
-   
   };
 
   private static final String[] CITY_LIST = new String[]{
@@ -139,6 +148,15 @@ public class OHAthensCountyParser extends DispatchEmergitechParser {
     "REDTOWN",
     "SHADE",
     "SHARPSBURG",
-    "STEWART"
+    "STEWART",
+    
+    // Hocking County
+    "BUTCHEL",
+    "MURRAY CITY",
+    
+    "GREEN TWP",
+    "STARR TWP",
+    "WARD TWP",
+    "WASHINGTON TWP",
   };
 }
