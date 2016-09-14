@@ -26,7 +26,7 @@ public class ORLinnCountyParser extends FieldProgramParser {
   
   public ORLinnCountyParser() {
     super(CITY_LIST, "LINN COUNTY", "OR",
-           "UNIT1? ( CALL_PREFIX CALL CALL2+? ADDR CITY? INFO+? ID | CALL CALL2+? ( DATE TIME PLACE_X | ADDR/S! ( CITY! | DATE TIME! | PLACE_X+? MAP! ) ) UNIT? INFO+? UNIT )");
+           "UNIT? ( CALL_PREFIX CALL_PREFIX+? CALL CALL2+? ADDR CITY? INFO+? ID | CALL CALL2+? ( DATE TIME PLACE_X | ADDR/S! ( CITY! | DATE TIME! | PLACE_X+? MAP! ) ) UNIT? INFO+? UNIT )");
   }
   
   @Override
@@ -56,7 +56,6 @@ public class ORLinnCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("UNIT1")) return new UnitField("[A-Z]+\\d+", true);
     if (name.equals("CALL_PREFIX")) return new MyCallPrefixField(); 
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("CALL2")) return new MyCall2Field();
@@ -203,7 +202,7 @@ public class ORLinnCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z0-9 ]+");
+  private static final Pattern UNIT_PTN = Pattern.compile("(?:(?:[A-Z]+\\d+[A-Z]?|[A-Z]+(?:EMT|FD|FF)|[EMR](?:COR|EUG|JEF|JCY|LAN|LYO|SPF|STY)|RESCUE)\\b *)+");
   private class MyUnitField extends UnitField {
     MyUnitField() {
       setPattern(UNIT_PTN, true);
@@ -215,6 +214,7 @@ public class ORLinnCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern INFO_PLACE_PTN = Pattern.compile("[^a-z]+");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
@@ -222,7 +222,11 @@ public class ORLinnCountyParser extends FieldProgramParser {
         data.strPriority = field.substring(12).trim();
         return;
       }
-      data.strSupp = append(data.strSupp, "/", field);
+      if (data.strSupp.length() == 0 && INFO_PLACE_PTN.matcher(field).matches()) {
+        data.strPlace = append(data.strPlace, "/", field);
+      } else {
+        data.strSupp = append(data.strSupp, "/", field);
+      }
     }
     
     @Override
@@ -244,6 +248,7 @@ public class ORLinnCountyParser extends FieldProgramParser {
   private static final TreeSet<String> CALL_LIST = new TreeSet<String>(Arrays.asList(new String[]{
       "1ST ALARM GRASS FIRE",
       "1st Alarm Incident",
+      "2nd Alarm Incident",
       "ABDOM PAIN/PROB",
       "ALARM-FIRE",
       "ALLRGY/HIVES/MED REACT/STING",
@@ -251,9 +256,11 @@ public class ORLinnCountyParser extends FieldProgramParser {
       "APARTMENT FIRE",
       "ASSIST OUTSIDE AGENCY - FIRE",
       "ASSLT/RAPE",
+      "ASSLT/RAPE TRAUMA W/VIOLENCE",
       "BACK PAIN",
       "BREATH PROB",
       "BRUSH FIRE",
+      "BURGLARY REPORT",
       "BURN COMPL",
       "BURNS/EXPLOSION",
       "CARDIAC/RESP ARREST",
@@ -262,7 +269,7 @@ public class ORLinnCountyParser extends FieldProgramParser {
       "CHOKING",
       "CONVUL/SEIZURES",
       "DIABETIC PROB",
-      "Dispatch Status",
+      "DISPATCH STATUS",
       "EMERGENCY TRANSFER",
       "EYE PROB/INJURIES",
       "FALLS/BACK INJURIES",
@@ -270,6 +277,7 @@ public class ORLinnCountyParser extends FieldProgramParser {
       "HAZMAT INCIDENT",
       "HEADACHE",
       "HEART PROB",
+      "HEAT/COLD EXP",
       "HEMORRHAGE/LACERATIONS",
       "HOUSE FIRE",
       "UNCONC/FAINTING",
@@ -289,6 +297,7 @@ public class ORLinnCountyParser extends FieldProgramParser {
       "SMALL FIRE",                                                                                                                            
       "SMOKE INVEST",                               
       "STAB/G S WOUND",
+      "STAB/GSW PENTRATING TRAUMA",
       "STANDBY",                                                                                                                               
       "STROKE/CVA",                                                                                                                            
       "TRAF COLLISION",                                                                                                                        
