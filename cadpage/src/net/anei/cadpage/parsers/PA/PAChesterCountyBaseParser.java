@@ -415,6 +415,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "EBRAD",  "EAST BRADFORD TWP",
       "EBRAND", "EAST BRANDYWINE TWP",
       "ECALN",  "EAST CALN TWP",
+      "ECVNTY", "EAST COVENTRY TWP",
       "EFALLO", "EAST FALLOWFIELD TWP",
       "EGOSHN", "EAST GOSHEN TWP",
       "EMARLB", "EAST MARLBOROUGH TWP",
