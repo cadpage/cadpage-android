@@ -437,6 +437,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "LWROXF", "LOWER OXFORD TWP",
       "MALVR",  "MALVERN",
       "MALVRN", "MALVERN",
+      "MODNA",  "MODENA",
       "NCC",    "NEW CASTLE COUNTY",
       "NCVNTY", "NORTH COVENTRY TWP",
       "NEWLON", "NEW LONDON TWP",

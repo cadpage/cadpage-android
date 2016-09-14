@@ -10,7 +10,7 @@ public class PAChesterCountyD1Parser extends PAChesterCountyBaseParser {
   private static final Pattern DELIM = Pattern.compile("\\*{2,}");
   
   public PAChesterCountyD1Parser() {
-    super("TIME! CALL ADDR INFO1 INFO+");
+    super("( EMPTY UNIT TIME CALL ADDR X PLACE_APT EMPTY NAME PHONE BOX ID EMPTY CITY | TIME! CALL ADDR ) INFO1 INFO+");
   }
   
   @Override
@@ -30,10 +30,61 @@ public class PAChesterCountyD1Parser extends PAChesterCountyBaseParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("PLACE_APT")) return new MyPlaceAptField();
+    if (name.equals("BOX")) return new BoxField("\\d{4}", true);
+    if (name.equals("ID")) return new IdField("F\\d{8}", true);
     if (name.equals("INFO1")) return new MyInfoField(true);
     if (name.equals("INFO")) return new MyInfoField(false);
     return super.getField(name);
+  }
+  
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldEnd(field, ",");
+      super.parse(field, data);
+    }
+  }
+  
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripFieldEnd(field, "*");
+      field = stripFieldEnd(field, "-");
+      super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern PLACE_PHONE_PTN = Pattern.compile("(.*?)[-/ ]+(\\d{3}-\\d{3}-\\d{4})");
+  private static final Pattern APT_PREFIX_PTN = Pattern.compile("(?:APT|SUITE|ROOM|RM|LOT)[- ]*(.*)");
+  private class MyPlaceAptField extends PlaceField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = PLACE_PHONE_PTN.matcher(field);
+      if (match.matches()) {
+        field = match.group(1);
+        data.strPhone = match.group(2);
+      } else {
+        int pt = field.lastIndexOf('-');
+        if (pt >= 0) {
+          String apt = field.substring(pt+1).trim();
+          match = APT_PREFIX_PTN.matcher(apt);
+          if (match.matches()) apt = match.group(1);
+          data.strApt = append(data.strApt, "-", apt);
+          field = field.substring(0,pt).trim();
+        }
+      }
+      field = stripFieldStart(field, "-");
+      super.parse(field, data);
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "PLACE APT PHONE";
+    }
   }
   
   private static final Pattern BOX_PTN = Pattern.compile("\\d{4}");
