@@ -2117,7 +2117,7 @@ choyvp pynff CNPurfgrePbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNC:39T2",
         "TCF:+39.930280,-75.698910",
         "NQQE:305 TEBHAQUBT PBYYRTR EQ",
-        "PVGL:ARJYVA",
+        "PVGL:ARJYVA GJC",
         "K:JNECNGU EQ & ZHAVPVCNY OBHAQNEL",
         "VASB:60/S\aQRGNVYF GB SBYYBJ");
 
@@ -15744,7 +15744,7 @@ choyvp pynff CNPurfgrePbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "TCF:+40.095840,-75.913410",
         "NQQE:FO EG 10 FB EG 322",
         "ZNQQE:EG 10 & EG 322",
-        "PVGL:UOOBEB",
+        "PVGL:UBARL OEBBX",
         "ANZR:CVREPR, WNPXVR/CO (195 EBPX EQ, UBARLOEBBX)",
         "CUBAR:610-842-5854",
         "VASB:2 IRUF - CBFF 1 FHOW GENCCRQ HAQRE QNFUOBNEQ\aQRGNVYF GB SBYYBJ");
