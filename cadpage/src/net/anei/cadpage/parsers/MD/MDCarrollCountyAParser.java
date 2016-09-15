@@ -255,7 +255,7 @@ public class MDCarrollCountyAParser extends FieldProgramParser {
 
   private boolean parseLongForm(String subject, String body, Data data) {
     
-    // Check subject and message prfix
+    // Check subject and message prefix
     if (!subject.equals("CAD")) return false;
     Matcher match = PREFIX_PTN.matcher(body);
     if (!match.lookingAt()) return false;
