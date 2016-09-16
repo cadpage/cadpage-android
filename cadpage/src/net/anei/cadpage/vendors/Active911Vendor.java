@@ -435,6 +435,7 @@ class Active911Vendor extends Vendor {
       "US/IA/DallasCounty",               "IADallasCounty",
       "US/IA/JohnsonCounty",              "IAJohnsonCounty",
       "US/IA/MitchellCountySheriff",      "IAMitchellCounty",
+      "US/GA/PickensCo911",               "GAPickensCounty",
       "US/IA/PolkCounty",                 "IAPolkCounty",
       "US/IA/StoryCounty",                "IAStoryCounty",
       "US/IA/WarrenCounty",               "IAWarrenCountyB",
