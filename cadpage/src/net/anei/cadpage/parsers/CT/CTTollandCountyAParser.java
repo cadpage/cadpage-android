@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.CT;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -20,6 +21,7 @@ public class CTTollandCountyAParser extends SmartAddressParser {
     setupMultiWordStreets(
         "WHITNEY T FERGUSON III"
     );
+    setupGpsLookupTable(GPS_LOOKUP_TABLE);
   }
   
   @Override
@@ -167,6 +169,14 @@ public class CTTollandCountyAParser extends SmartAddressParser {
   public CodeSet getCallList() {
     return CALL_LIST;
   }
+  
+  private static final Properties GPS_LOOKUP_TABLE = buildCodeTable(new String[]{
+      "EXIT 64",  "41.823335, -72.499277",
+      "EXIT 66",  "41.833940, -72.463705",
+      "EXIT 67",  "41.854601, -72.429307",
+      "EXIT 65",  "41.826197, -72.487915"
+
+  });
 
   private static final CodeSet CALL_LIST = new CodeSet(
       "Active Violence/Shooter",
