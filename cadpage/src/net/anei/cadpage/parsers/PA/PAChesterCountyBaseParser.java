@@ -297,13 +297,19 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
     }
   }
 
-
   public void parseChesterAddress(String field, Data data) {
     parseAddressA7(field, data);
   }
   
   public String convertCityCode(String city) {
     return convertCodes(city, CITY_CODES);
+  }
+  
+  @Override
+  public String adjustMapCity(String city) {
+    String tmp = CITY_MAP_TABLE.getProperty(city.toUpperCase());
+    if (tmp != null) return tmp;
+    return city;
   }
   
   private static final String[] CITY_LIST = new String[]{
@@ -402,6 +408,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
   };
   
   protected static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ATGLN",  "ATGLEN",
       "AVNDAL", "AVONDALE",
       "BIRMHM", "BIRMINGHAM TWP",
       "CALN",   "CALN TWP",
@@ -417,6 +424,8 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "ECALN",  "EAST CALN TWP",
       "ECVNTY", "EAST COVENTRY TWP",
       "EFALLO", "EAST FALLOWFIELD TWP",
+      "ELKTP",  "ELK TWP",
+      "ELVRSN", "ELVERSON",
       "EGOSHN", "EAST GOSHEN TWP",
       "EMARLB", "EAST MARLBOROUGH TWP",
       "ENANT",  "EAST NANTMEAL TWP",
@@ -426,6 +435,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "EVINCT", "EAST VINCENT TWP",
       "EWHITE", "EAST WHITELAND TWP",
       "FRNKLN", "FRANKLIN TWP",
+      "HBBORO", "HONEY BROOK",
       "HBTWP",  "HONEY BROOK TWP",
       "HGHLND", "HIGHLAND TWP",
       "HKSN",   "HOCKESSIN",
@@ -437,14 +447,19 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "LWROXF", "LOWER OXFORD TWP",
       "MALVR",  "MALVERN",
       "MALVRN", "MALVERN",
+      "MLCRK",  "MILL CREEK",
       "MODNA",  "MODENA",
       "NCC",    "NEW CASTLE COUNTY",
       "NCVNTY", "NORTH COVENTRY TWP",
+      "NEWLN",  "NEWLIN TWP",
+      "NEWLIN", "NEWLIN TWP",
+      "NEWLND", "NEW LONDON TWP",
       "NEWLON", "NEW LONDON TWP",
       "NGARDN", "NEW GARDEN TWP",
       "OXFORD", "OXFORD",
       "OXFRD",  "OXFORD",
       "PENN",   "PENN TWP",
+      "PENNTP", "PENN TWP",
       "PHNXVL", "PHOENIXVILLE",
       "PNSBRY", "PENNSBURY TWP",
       "POCOPS", "POCOPSON TWP",
@@ -480,6 +495,7 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "WNANT",  "WEST NANTMEAL TWP",
       "WNOTT",  "WEST NOTTINGHAM TWP",
       "WPIKEL", "WEST PIKELAND TWP",
+      "WSADS",  "WEST SADSBURY TWP",
       "WVINCT", "WEST VINCENT TWP",
       "WWHITE", "WEST WHITELAND TWP",
 
@@ -487,12 +503,17 @@ public class PAChesterCountyBaseParser extends DispatchA7Parser {
       "MONT",        "MONTGOMERY COUNTY",
       "MONTC",       "MONTGOMERY COUNTY",
       "UPPER POTTS", "UPPER POTTSGROVE TWP",
-      "UPPER PROV",  "UPPER PROVIDENCE TWP",
+      "UPPER PROV",  "UPPER PROVIDENCE TWP"
   });
   
   private static final Properties OOC_CITIES = buildCodeTable(new String[]{
       "NEW CASTLE COUNTY",      "DE",
       "HOCKESSIN",              "DE",
+      "MILL CREEK",             "DE",
       "RISING SUN",             "MD"
+  });
+  
+  private static final Properties CITY_MAP_TABLE = buildCodeTable(new String[]{
+      "MILL CREEK",             "HOCKESSIN"
   });
 } 

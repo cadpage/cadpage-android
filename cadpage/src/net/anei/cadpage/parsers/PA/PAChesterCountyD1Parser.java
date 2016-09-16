@@ -88,6 +88,7 @@ public class PAChesterCountyD1Parser extends PAChesterCountyBaseParser {
   }
   
   private static final Pattern BOX_PTN = Pattern.compile("\\d{4}");
+  private static final Pattern ID_PTN = Pattern.compile("F\\d{8}", Pattern.CASE_INSENSITIVE);
   private static final Pattern APT_PTN = Pattern.compile("(?:APT|SUITE)[- /]+([^-]+?)-+(.*)");
   private static final Pattern PHONE_PTN = Pattern.compile(".*\\b(?:CP)?\\d{3}[-\\.]?\\d{3}[-\\.]?\\d{4}\\b.*");
   private class MyInfoField extends InfoField {
@@ -107,6 +108,10 @@ public class PAChesterCountyD1Parser extends PAChesterCountyBaseParser {
       }
       if (PHONE_PTN.matcher(field).matches()) {
         data.strPhone = field;
+        return;
+      }
+      if (ID_PTN.matcher(field).matches()) {
+        data.strCallId = field;
         return;
       }
       Matcher match = APT_PTN.matcher(field);
