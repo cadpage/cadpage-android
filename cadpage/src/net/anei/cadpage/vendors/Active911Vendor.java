@@ -1144,7 +1144,7 @@ class Active911Vendor extends Vendor {
       "US/PA/FranklinCounty",             "PAFranklinCounty",
       "US/PA/FultonCounty",               "PAFultonCounty",
       "US/PA/GladwyneFire",               "PAMontgomeryCountyD",
-      "US/PA/GoodFellowshipAmbulance",    "PAChesterCountyG,PAChesterCountyO",
+      "US/PA/GoodFellowshipAmbulance",    "PAChesterCountyO",
       "US/PA/GreeneCounty",               "PAGreeneCounty",
       "US/PA/JuniataCounty",              "PAJuniataCounty",
       "US/PA/Km911",                      "PALebanonCounty",
