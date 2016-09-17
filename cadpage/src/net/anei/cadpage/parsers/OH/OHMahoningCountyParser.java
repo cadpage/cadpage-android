@@ -5,6 +5,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SplitMsgOptions;
+import net.anei.cadpage.parsers.SplitMsgOptionsCustom;
 import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 
@@ -20,6 +22,11 @@ public class OHMahoningCountyParser extends DispatchEmergitechParser {
     return "BPD911@twp.boardman.oh.us,canfieldpd@ci.canfield.oh.us,jonracco25@yahoo.com,@sebringohio.net";
   }
   
+  @Override
+  public SplitMsgOptions getActive911SplitMsgOptions() {
+    return new SplitMsgOptionsCustom();
+  }
+
   private static final Pattern MARK_ID_PTN = Pattern.compile("(\\d{3}):");
   private static final Pattern TRUNC_GPS_PTN = Pattern.compile("[-+]?[\\d\\.]+ CF= *\\d+% UF= *\\d+ M Z= *\\d*M\\b *");
   
@@ -109,7 +116,9 @@ public class OHMahoningCountyParser extends DispatchEmergitechParser {
     "LAKE MILTON",
     "NEW SPRINGFIELD",
     "NORTH BENTON",
+    "N BENTON",
     "NORTH JACKSON",
+    "N JACKSON",
     "NORTH LIMA",
     "PETERSBURG",
     
