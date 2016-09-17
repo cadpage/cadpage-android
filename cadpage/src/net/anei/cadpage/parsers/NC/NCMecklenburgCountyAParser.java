@@ -14,9 +14,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NCMecklenburgCountyAParser extends MsgParser {
   
-  private static final Pattern RUN_REPORT_PTN = Pattern.compile("([-0-9]+) +(Received: *\\d\\d:\\d\\d *Assigned: *\\d\\d:\\d\\d *Enroute: *(?:\\d\\d:\\d\\d *|.*Cancelled: *\\d\\d:\\d\\d).*?) *INC #.*");
-  private static final Pattern RUN_REPORT_DELIM_PTN = Pattern.compile("(?<! ) *(?=Assigned:|Enroute:|Arrived:|Pt Contact:|Cancelled:)");
-  
   public NCMecklenburgCountyAParser() {
     super("MECKLENBURG COUNTY", "NC");
     setFieldList("ADDR APT PLACE INFO CODE CALL X UNIT MAP ID");
@@ -28,8 +25,15 @@ public class NCMecklenburgCountyAParser extends MsgParser {
     return "paging@rcscom.com,@huntersvillefd.com,Group_Page_Notification@archwireless.net,@huntersvillefd.com,cadmail@medic911.com";
   }
   
+  private static final Pattern RUN_REPORT_PTN = Pattern.compile("([-0-9]+) +(Received: *\\d\\d:\\d\\d *Assigned: *\\d\\d:\\d\\d *Enroute: *.*?) *INC #.*");
+  private static final Pattern RUN_REPORT_DELIM_PTN = Pattern.compile("(?<! ) *(?=Assigned:|Enroute:|Arrived:|Pt Contact:|Pt Cont:|Depart:|Hospital:|Available:|Cancelled:)");
+  private static final Pattern PREFIX_PTN = Pattern.compile("Fire threatening Structure\\.");
+  
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    
+    int pt = body.indexOf("\n\n");
+    if (pt >= 0) body = body.substring(0,pt).trim();
 
     Matcher match = RUN_REPORT_PTN.matcher(body);
     if (match.matches()) {
@@ -39,20 +43,24 @@ public class NCMecklenburgCountyAParser extends MsgParser {
       return true;
     }
     if (body.length() < 74) return false;
-    if (body.length() >= 205 && !substring(body,200,205).equals("Map -")) return false;
     
-    parseAddress(substring(body,0,30), data);
-    data.strApt = substring(body,30,40);
-    data.strPlace = substring(body,40,70);
-    data.strSupp = substring(body,70,100);
-    data.strCall = substring(body,100,130);
-    data.strCross = substring(body,130,190);
-    data.strUnit = substring(body,190,200);
-    data.strMap = substring(body,205,215);
-    data.strCallId = substring(body,215);
+    String prefix = null;
+    FParser fp = new FParser(body);
+    if (PREFIX_PTN.matcher(body).lookingAt()) prefix = fp.get(33);
+    parseAddress(fp.get(30), data);
+    data.strApt = fp.get(10);
+    data.strPlace = fp.get(30);
+    fp.setOptional();
+    data.strSupp = fp.get(30);
+    data.strCall = fp.get(30);
+    data.strCross = fp.get(60);
+    data.strUnit = fp.get(10);
+    if (!fp.check("Map -")) return false;
+    data.strMap = fp.get(10);
+    data.strCallId = fp.get();
 
     String check = data.strSupp;
-    int pt = check.indexOf('-');
+    pt = check.indexOf('-');
     if (pt >= 0) check = check.substring(0,pt).trim();
     if (!PRI_VALUES.contains(check)) return false;
     
@@ -69,6 +77,7 @@ public class NCMecklenburgCountyAParser extends MsgParser {
       data.strCall = data.strSupp;
       data.strSupp = "";
     }
+    if (prefix != null) data.strSupp = append(prefix, "\n", data.strSupp);
     return true;
   }
   
@@ -90,9 +99,11 @@ public class NCMecklenburgCountyAParser extends MsgParser {
   private static final Set<String> PRI_VALUES = new HashSet<String>(Arrays.asList(new String[]{
       "Alpha", 
       "Bravo", 
+      "Campus ALS",
       "Charlie", 
       "Delta",
       "Demo/Public Relations",
+      "Demo",
       "ECHO",
       "Fire", 
       "Scheduled",

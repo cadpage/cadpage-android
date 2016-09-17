@@ -371,6 +371,7 @@ Ntrapl anzr: Jnfuvatgba Pbhagl Sver & RZF (JP/ZQ)
 Ybpngvba: Untrefgbja, ZQ, Havgrq Fgngrf
 Fraqre: Qvfcngpu <Qvfcngpu@jnfupb-zq.arg>
 
+CNATOBEA OYIQ, HAQRECNFF - [IVRJ FG - PBYHZOVN NIR] - Genssvp Unmneq - 9Q12,9711,9734 C162400119 14:20
 NYY PB, 12937 BEYRNAF EQ - ORYYTEBIR FREIVPR FGNGVBA - [ - ] - SNYYF,ONPX VAWHEVRF - E59 R162260074 1618071 22:44
 12814N FUNAX SNEZ JNL, SEVRAQYL'F ERFGNHENAG - [FGBAR UBHFR JNL - PBEGYNAQ QE] - ANG TNF BQBE - R02,PB27,GEX1,OP1 - CebDN Qrgrezvanag: 60Q03B - PBZZREPVNY/VAQHFGEVNY ohvyqvat - Bqbe bayl S161440001 1611097 05:19
 18 CEVAPRGBA CY - [ - ] - HAPBAFPVBHFARFF, SNVAGVAT - E75 - CebDN Qrgrezvanag: 31Q03 - **NYF UBG*- Abg nyreg R161430001 1611035 00:43
@@ -5725,6 +5726,17 @@ choyvp pynff ZQJnfuvatgbaPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgJnfuvatgbaPbhaglSverRZFJPZQ() {
+
+    qbGrfg("K1",
+        "CNATOBEA OYIQ, HAQRECNFF - [IVRJ FG - PBYHZOVN NIR] - Genssvp Unmneq - 9Q12,9711,9734 C162400119 14:20",
+        "NQQE:CNATOBEA OYIQ",
+        "ZNQQE:CNATOBEA OYIQ & IVRJ FG",
+        "CYNPR:HAQRECNFF",
+        "K:IVRJ FG & PBYHZOVN NIR",
+        "PNYY:Genssvp Unmneq",
+        "HAVG:9Q12,9711,9734",
+        "VASB:C162400119",
+        "GVZR:14:20");
 
     qbGrfg("G1",
         "NYY PB, 12937 BEYRNAF EQ - ORYYTEBIR FREIVPR FGNGVBA - [ - ] - SNYYF,ONPX VAWHEVRF - E59 R162260074 1618071 22:44",
