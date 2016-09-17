@@ -16,21 +16,10 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class TXBexarCountyParser extends FieldProgramParser {
   
-  private static final String MAP_PATTERN = "(\\d{3}[A-Z]\\d|SA\\d{3}(?:/[A-Z]\\d?)?)";
-  private static final Pattern SEMI_DELIM = Pattern.compile("(?<= ) *; ");
-  private static final Pattern DASH_DELIM_PTN = Pattern.compile(" +- ");
-  private static final Pattern PROTECT_KEYWORD = Pattern.compile("(?<=:)  +(?=[^ ])");
-  private static final Pattern BLANK_DELIM_PTN = Pattern.compile(" {4,}");
-  private static final Pattern SHORT_BLANK_DELIM_PTN = Pattern.compile("(?<![ -])  +(?![ -])");
-  private static final Pattern MAP_BLANK_DELIM_PTN = Pattern.compile(" " + MAP_PATTERN + " +(?=[^ -])");
-  private static final Pattern COLON_MAP_PTN = Pattern.compile(":( " + MAP_PATTERN + ")");
-  private static final Pattern DELIM_PTN = Pattern.compile(" -(?= )| \\*\\*");
-  
-  private boolean dashStyle;
-  
   public TXBexarCountyParser() {
     super("BEXAR COUNTY", "TX",
-          "DATETIME? CALL CALL? ADDR X_APT+? MAP_ID_UNIT! MAP_ID_UNIT+? INFO+");
+          "( Problem:CALL! Address:ADDR! Cross:X! MapGrid:MAP! Case_Number:ID! Units:UNIT! Notes:INFO " +
+          "| DATETIME? CALL1 CALL1? ADDR1 X_APT+? MAP_ID_UNIT! MAP_ID_UNIT+? INFO+ )");
   }
   
   public String getFilter() {
@@ -41,35 +30,66 @@ public class TXBexarCountyParser extends FieldProgramParser {
   public int getMapFlags() {
     return MAP_FLG_SUPPR_LA;
   }
+
+  private static final String MAP_PATTERN = "(\\d{3}[A-Z]\\d|SA\\d{3}(?:/[A-Z]\\d?)?|NOT FOUN)";
+  private static final Pattern DASH_DELIM_PTN = Pattern.compile(" +- ");
+  private static final Pattern PROTECT_KEYWORD = Pattern.compile("(?<=:)  +(?=[^ ])");
+  private static final Pattern BLANK_DELIM_PTN = Pattern.compile(" {4,}");
+  private static final Pattern SHORT_BLANK_DELIM_PTN = Pattern.compile("(?<![ -])  +(?![ -])");
+  private static final Pattern MAP_BLANK_DELIM_PTN = Pattern.compile(" " + MAP_PATTERN + " +(?=[^ -])");
+  private static final Pattern COLON_MAP_PTN = Pattern.compile(":( " + MAP_PATTERN + ")");
+  private static final Pattern DELIM_PTN1 = Pattern.compile(" -(?= )| \\*\\*");
+  private static final Pattern DELIM_PTN2 = Pattern.compile("(?=Address:|Cross:|MapGrid:|Case Number:|Units:|Notes:)");
   
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    // New main format is semicolon delimited.  So let's give that a try
-    body = body.replace(" ;Apt", " ; Apt");
-    String flds[] = SEMI_DELIM.split(body);
-    
-    // If we don't get enough fields, fall back to using the old ugly logic
-    dashStyle = false;
-    if (flds.length < 5) {
-      dashStyle = true;
-      
-      // The main format is usually dash delimited, but occasionally drops the dashes in favor on
-      // long strings of blanks, which we will turn in regular dash delimiters
-      // And then, they occasionally leave a single space delimiter after the Map field
-      body = DASH_DELIM_PTN.matcher(body).replaceAll(" - ");
-      body = PROTECT_KEYWORD.matcher(body).replaceAll(" ");
-      body = BLANK_DELIM_PTN.matcher(body).replaceAll(" - ");
-      body = MAP_BLANK_DELIM_PTN.matcher(body).replaceFirst("$0 - ");
-      body = COLON_MAP_PTN.matcher(body).replaceFirst("$1");
-      
-      int pt = body.lastIndexOf(" - ");
+    // Check for latest new page format
+    if (body.startsWith("Problem:")) {
+      int pt = body.indexOf("Notes:");
       if (pt < 0) return false;
-      body = SHORT_BLANK_DELIM_PTN.matcher(body.substring(0,pt)).replaceAll(" - ") + body.substring(pt);
-      body = body.replace("-Case", " - Case");
-      flds = DELIM_PTN.split(body);
+      String[] flds1 = DELIM_PTN2.split(body.substring(0,pt).trim());
+      String[] flds2 = new String[flds1.length+1];
+      System.arraycopy(flds1, 0, flds2, 0, flds1.length);
+      flds2[flds1.length] = body.substring(pt);
+      return parseFields(flds2, data);
     }
-    return parseFields(flds, data);
+    
+    // The main format is usually dash delimited, but occasionally drops the dashes in favor on
+    // long strings of blanks, which we will turn in regular dash delimiters
+    // And then, they occasionally leave a single space delimiter after the Map field
+    body = DASH_DELIM_PTN.matcher(body).replaceAll(" - ");
+    body = PROTECT_KEYWORD.matcher(body).replaceAll(" ");
+    body = BLANK_DELIM_PTN.matcher(body).replaceAll(" - ");
+    body = MAP_BLANK_DELIM_PTN.matcher(body).replaceFirst("$0 - ");
+    body = COLON_MAP_PTN.matcher(body).replaceFirst("$1");
+    
+    int pt = body.lastIndexOf(" - ");
+    if (pt < 0) return false;
+    body = SHORT_BLANK_DELIM_PTN.matcher(body.substring(0,pt)).replaceAll(" - ") + body.substring(pt);
+    return parseFields(DELIM_PTN1.split(body), data);
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("MAP")) return new MyMapField();
+    
+    if (name.startsWith("T") && name.length()==2) return new SkipField(name, true);
+    if (name.equals("DATETIME")) return new MyDateTimeField();
+    if (name.equals("CALL1")) return new MyCallField();
+    if (name.equals("ADDR1")) return new MyAddressField();
+    if (name.equals("X_APT")) return new MyCrossAptField();
+    if (name.equals("MAP_ID_UNIT")) return new MyMapIdUnitField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
+  
+  private class MyMapField extends MapField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals("NOT FOUN")) return;
+      super.parse(field, data);
+    }
   }
   
   private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d\\d/\\d\\d )?(\\d\\d:\\d\\d(?: [ap]m)?)");
@@ -121,24 +141,21 @@ public class TXBexarCountyParser extends FieldProgramParser {
     public boolean checkParse(String field, Data data) {
 
       // The only time this should fail is if the real call field got 
-      // broken up because it contains dashes.  If we are not using the
-      // dash field separator, this cannot fail
-      if (dashStyle) {
-        
-        // A numeric token is probably a house number starting a house number range
-        // We reject it as an address, the call description logic will put it in the
-        // address field
-        if (NUMERIC.matcher(field).matches()) return false;
+      // broken up because it contains dashes.
+      
+      // A numeric token is probably a house number starting a house number range
+      // We reject it as an address, the call description logic will put it in the
+      // address field
+      if (NUMERIC.matcher(field).matches()) return false;
 
-        // OK, check some exceptional cases of call descriptions
-        // that look like addresses
-        if (field.equals("Tree / Br")) return false;
-        
-        // Otherwise, if contains only alpha letters and blanks, it is a call description
-        // otherwise it is an address
-        // Not sure what EOC is, but treat it like an address
-        if (!field.equalsIgnoreCase("EOC") && !field.endsWith(" COUNTY") && CALL_DESC_PTN.matcher(field).matches()) return false;
-      }
+      // OK, check some exceptional cases of call descriptions
+      // that look like addresses
+      if (field.equals("Tree / Br")) return false;
+      
+      // Otherwise, if contains only alpha letters and blanks, it is a call description
+      // otherwise it is an address
+      // Not sure what EOC is, but treat it like an address
+      if (!field.equalsIgnoreCase("EOC") && !field.endsWith(" COUNTY") && CALL_DESC_PTN.matcher(field).matches()) return false;
       
       // There (so far) one case where there was no delimiter beween the last part of
       // the call description and the address, so they need to be split apart
@@ -209,7 +226,7 @@ public class TXBexarCountyParser extends FieldProgramParser {
   }
   
   private static final Pattern MAP_ID_UNIT_PATTERN = 
-      Pattern.compile(MAP_PATTERN + "|Case|([A-Z]{3,4}-\\d{4}-\\d{6,}|\\d{4}-(?:\\d{3}|[A-Z]{2})-\\d+)(?: +Dept[ -](.*))?|Dept[ -]+([^ \\*]+?)([ \\*].*|)");
+      Pattern.compile(MAP_PATTERN + "|Case|([A-Z]{3,4}-\\d{4}-\\d{6,}|\\d{4}-(?:\\d{3}|[A-Z]{2})-\\d+|\\d{4}-\\d{7}-[A-Z]{3,4})(?: +Dept[ -](.*))?|Dept[ -]+([^ \\*]+?)([ \\*].*|)");
   private class MyMapIdUnitField extends MyInfoField {
     
     @Override
@@ -224,14 +241,15 @@ public class TXBexarCountyParser extends FieldProgramParser {
       
       field = match.group(1);
       if (field != null) {
-        data.strMap = field;
+        if (!field.equals("NOT FOUN")) data.strMap = field;
         return true;
       }
       
       field = match.group(2);
       if (field != null) {
         data.strCallId = field;
-        data.strUnit = getOptGroup(match.group(3));
+        field = match.group(3);
+        if (field != null) data.strUnit = field;
         return true;
       }
       
@@ -252,7 +270,7 @@ public class TXBexarCountyParser extends FieldProgramParser {
 
     @Override
     public String getFieldNames() {
-      return "MAP ID " + super.getFieldNames();
+      return "MAP UNIT ID " + super.getFieldNames();
     }
   }
   
@@ -297,18 +315,6 @@ public class TXBexarCountyParser extends FieldProgramParser {
     public String getFieldNames() {
       return "UNIT CODE ID INFO";
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.startsWith("T") && name.length()==2) return new SkipField(name, true);
-    if (name.equals("DATETIME")) return new MyDateTimeField();
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X_APT")) return new MyCrossAptField();
-    if (name.equals("MAP_ID_UNIT")) return new MyMapIdUnitField();
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
   
   private static final Set<String> CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
