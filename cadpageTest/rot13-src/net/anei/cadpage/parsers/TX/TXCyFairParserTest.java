@@ -107,6 +107,13 @@ Ntrapl anzr: Ebfruvyy SQ
 Ybpngvba: Gbzonyy, GK, Havgrq Fgngrf
 Fraqre: <PNQ@PLSNVEISQ.BET>
 
+{CNTVAT ZRFFNTR SEBZ PNQ} EU02 /ZIN UvtuZrpuna-NhgbCrqrfgevna /ABEGUJRFG SJL & ORPXRE EQ / /325A
+{CNTVAT ZRFFNTR SEBZ PNQ} EUR051 /BIREQBFR Anepbgvpf-Ivbyrag /20802 Prqne Ya YVAQFRL EQ/SZ 2920 / /287C
+{CNTVAT ZRFFNTR SEBZ PNQ} EUQP51 /BIREQBFR Anepbgvpf-Ivbyrag /20802 Prqne Ya YVAQFRL EQ/SZ 2920 / /287C
+{CNTVAT ZRFFNTR SEBZ PNQ} EUZ053 /ZRQVPNY PNYY - FGNTR /20802 Prqne Ya YVAQFRL EQ/SZ 2920 / /287C
+{CNTVAT ZRFFNTR SEBZ PNQ} EUR054 /FVPX PNYY Ab Cevbevgl Flzcgbz /23730 Sz 2920 QR NXVAF/ORPXRE EQ / /285F
+{CNTVAT ZRFFNTR SEBZ PNQ} EUR054 /FVPX PNYY Ab Cevbevgl Flzcgbz /23730 Sz 2920 QR NXVAF/ORPXRE EQ / /285F
+{CNTVAT ZRFFNTR SEBZ PNQ} EUZ054 /ZRQVPNY PNYY /23730 Sz 2920 QR NXVAF/ORPXRE EQ / /285F
 {CNTVAT ZRFFNTR SEBZ PNQ} EUZ054 /ZRQVPNY PNYY /19830 Vovf Eq IVERB/SZ 2920 / /284E
 {CNTVAT ZRFFNTR SEBZ PNQ} EUR051 /ZHGHNY NVQ Fgngvba Nffvtazrag /27610 Qrpxre Cenvevr Ebfruvyy Eq /ZNTABYVN FGNGVBA 184 /ABG S
 {CNTVAT ZRFFNTR SEBZ PNQ} EUZ053 /ZRQVPNY PNYY /18802 Curnfnag Ya Ab K Fgerrg Sbhaq/EBFRJBBQ GEY / /286U
@@ -1037,6 +1044,64 @@ choyvp pynff GKPlSnveCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgEbfruvyySQ() {
+
+    qbGrfg("K1",
+        "{CNTVAT ZRFFNTR SEBZ PNQ} EU02 /ZIN UvtuZrpuna-NhgbCrqrfgevna /ABEGUJRFG SJL & ORPXRE EQ / /325A",
+        "HAVG:EU02",
+        "PNYY:ZIN UvtuZrpuna-NhgbCrqrfgevna",
+        "NQQE:ABEGUJRFG SJL & ORPXRE EQ",
+        "ZNC:325A");
+
+    qbGrfg("K2",
+        "{CNTVAT ZRFFNTR SEBZ PNQ} EUR051 /BIREQBFR Anepbgvpf-Ivbyrag /20802 Prqne Ya YVAQFRL EQ/SZ 2920 / /287C",
+        "HAVG:EUR051",
+        "PNYY:BIREQBFR Anepbgvpf-Ivbyrag",
+        "NQQE:20802 Prqne Ya",
+        "K:YVAQFRL EQ/SZ 2920",
+        "ZNC:287C");
+
+    qbGrfg("K3",
+        "{CNTVAT ZRFFNTR SEBZ PNQ} EUQP51 /BIREQBFR Anepbgvpf-Ivbyrag /20802 Prqne Ya YVAQFRL EQ/SZ 2920 / /287C",
+        "HAVG:EUQP51",
+        "PNYY:BIREQBFR Anepbgvpf-Ivbyrag",
+        "NQQE:20802 Prqne Ya",
+        "K:YVAQFRL EQ/SZ 2920",
+        "ZNC:287C");
+
+    qbGrfg("K4",
+        "{CNTVAT ZRFFNTR SEBZ PNQ} EUZ053 /ZRQVPNY PNYY - FGNTR /20802 Prqne Ya YVAQFRL EQ/SZ 2920 / /287C",
+        "HAVG:EUZ053",
+        "PNYY:ZRQVPNY PNYY - FGNTR",
+        "NQQE:20802 Prqne Ya",
+        "K:YVAQFRL EQ/SZ 2920",
+        "ZNC:287C");
+
+    qbGrfg("K5",
+        "{CNTVAT ZRFFNTR SEBZ PNQ} EUR054 /FVPX PNYY Ab Cevbevgl Flzcgbz /23730 Sz 2920 QR NXVAF/ORPXRE EQ / /285F",
+        "HAVG:EUR054",
+        "PNYY:FVPX PNYY Ab Cevbevgl Flzcgbz",
+        "NQQE:23730 Sz 2920",
+        "ZNQQE:23730 Snez-gb-znexrg 2920",
+        "K:QR NXVAF/ORPXRE EQ",
+        "ZNC:285F");
+
+    qbGrfg("K6",
+        "{CNTVAT ZRFFNTR SEBZ PNQ} EUR054 /FVPX PNYY Ab Cevbevgl Flzcgbz /23730 Sz 2920 QR NXVAF/ORPXRE EQ / /285F",
+        "HAVG:EUR054",
+        "PNYY:FVPX PNYY Ab Cevbevgl Flzcgbz",
+        "NQQE:23730 Sz 2920",
+        "ZNQQE:23730 Snez-gb-znexrg 2920",
+        "K:QR NXVAF/ORPXRE EQ",
+        "ZNC:285F");
+
+    qbGrfg("G7",
+        "{CNTVAT ZRFFNTR SEBZ PNQ} EUZ054 /ZRQVPNY PNYY /23730 Sz 2920 QR NXVAF/ORPXRE EQ / /285F",
+        "HAVG:EUZ054",
+        "PNYY:ZRQVPNY PNYY",
+        "NQQE:23730 Sz 2920",
+        "ZNQQE:23730 Snez-gb-znexrg 2920",
+        "K:QR NXVAF/ORPXRE EQ",
+        "ZNC:285F");
 
     qbGrfg("G1",
         "{CNTVAT ZRFFNTR SEBZ PNQ} EUZ054 /ZRQVPNY PNYY /19830 Vovf Eq IVERB/SZ 2920 / /284E",
