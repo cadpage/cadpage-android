@@ -51,12 +51,16 @@ public class PABerksCountyParser extends FieldProgramParser {
     return true;
   }
   
+  
+  private static final Pattern CLEAN_HTML_PTN = Pattern.compile("</?(?:span|p)\\b[^>]*>", Pattern.CASE_INSENSITIVE);
+  
   private String cleanDocHeaders(String body) {
     int ifCnt = 0;
     for (String line : body.split("\n")) {
+      if (line.trim().length() == 0) continue;
       if (line.contains("<!--[if ")) ifCnt++;
       else if (line.contains("<![endif]")) ifCnt--;
-      else if (ifCnt == 0) return line;
+      else if (ifCnt == 0) return CLEAN_HTML_PTN.matcher(line).replaceAll("").trim();
     }
     return null;
   }
@@ -68,7 +72,6 @@ public class PABerksCountyParser extends FieldProgramParser {
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("CITY")) return new MyCityField();
-    if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("DATETIME")) return new MyDateTimeField();
     return super.getField(name);
   }
@@ -78,14 +81,17 @@ public class PABerksCountyParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       Matcher match = UNIT_CALL_PTN.matcher(field);
-      if (!match.matches()) abort();
-      data.strUnit = match.group(1);
-      String qual = match.group(2);
-      String call = match.group(3).trim();
-      String desc = CALL_CODES.getProperty(call);
-      if (qual != null) call = qual + " - " + call;
-      if (desc != null) call = call + " - " + desc;
-      data.strCall = call;
+      if (match.matches()) {
+        data.strUnit = match.group(1);
+        String qual = match.group(2);
+        String call = match.group(3).trim();
+        String desc = CALL_CODES.getProperty(call);
+        if (qual != null) call = qual + " - " + call;
+        if (desc != null) call = call + " - " + desc;
+        data.strCall = call;
+      } else {
+        data.strCall = field;
+      }
     }
     
     @Override
@@ -207,19 +213,6 @@ public class PABerksCountyParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       if (field.length() == 0) return;
-      super.parse(field, data);
-    }
-  }
-  
-  private static final Pattern INFO_CITY_COUNTY_PTN  = Pattern.compile("(.*)-(.*)/(.*)");
-  private class MyInfoField extends InfoField {
-    @Override
-    public void parse(String field, Data data) {
-      Matcher match = INFO_CITY_COUNTY_PTN.matcher(field);
-      if (match.matches()) {
-        data.strCity = match.group(1).trim() + ',' + match.group(2).trim();
-        field = match.group(3).trim();
-      }
       super.parse(field, data);
     }
   }

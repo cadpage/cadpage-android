@@ -76,8 +76,13 @@ public class DispatchArchonixParser extends FieldProgramParser {
           city = match.group(1).replaceAll("  +", " ");
           parseAddress(match.group(2), data);
         } else {
-          parseAddress(StartType.START_OTHER, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, addr, data);
-          city = getStart();
+          if (addr.startsWith("I ")) {
+            parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, addr, data);
+            city = data.strCity;
+          } else {
+            parseAddress(StartType.START_OTHER, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, addr, data);
+            city = getStart();
+          }
         }
       }
       data.strPlace = place;
