@@ -14,7 +14,7 @@ public class PAPerryCountyParser extends DispatchArchonixParser {
   
   @Override
   public String getFilter() {
-    return "911cccad@perryco.org";
+    return "@perryco.org";
   }
   
 
