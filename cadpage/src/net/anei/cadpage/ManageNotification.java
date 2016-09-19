@@ -229,13 +229,13 @@ public class ManageNotification {
    */
   private static void overrideVolumeControl(Context context) {
     
-    // If user doesn not want the volume maxed out, do not do anything
+    // If user doesn't not want the volume maxed out, do not do anything
     if (ManagePreferences.notifyOverrideVolume()) return;
     
     // Grab audio focus
     Log.v("Grab Audio Focus");
     AudioManager am = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
-    am.requestAudioFocus(afm, AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
+    am.requestAudioFocus(afm, AudioManager.STREAM_NOTIFICATION, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
     
     // If a restore volume is already set, assume that we have already
     // forced maximum volume and do nothing
@@ -245,10 +245,10 @@ public class ManageNotification {
       // Otherwise get the max and current volume for the music stream
       // If they are not equal, save the current stream volume and set
       // it to the max value
-      int maxVol = am.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
-      int curVol = am.getStreamVolume(AudioManager.STREAM_MUSIC);
+      int maxVol = am.getStreamMaxVolume(AudioManager.STREAM_NOTIFICATION);
+      int curVol = am.getStreamVolume(AudioManager.STREAM_NOTIFICATION);
       if (curVol != maxVol) {
-        am.setStreamVolume(AudioManager.STREAM_MUSIC, maxVol, 0);
+        am.setStreamVolume(AudioManager.STREAM_NOTIFICATION, maxVol, 0);
         ManagePreferences.setRestoreVol(curVol);
       }
     }
@@ -291,14 +291,16 @@ public class ManageNotification {
           }
           setMediaPlayerDataSource(context, mMediaPlayer, soundURI);
         }
+        
+        mMediaPlayer.setAudioStreamType(AudioManager.STREAM_NOTIFICATION);
         mMediaPlayer.prepare();
-        mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
         if (loop) mMediaPlayer.setLooping(true);
         listener.arm();
         mMediaPlayer.start();
       } else {
         mMediaPlayer.start();
       }
+      Log.v("Playback start sucessful");
     } catch (IOException ex) {
       
       // Failures are fairly common and usually indicate something wrong
@@ -309,8 +311,9 @@ public class ManageNotification {
       } catch (Exception ex2) {}
       mMediaPlayer.release();
       mMediaPlayer = null;
+      Log.v("Playback start failed");
+      Log.e(ex);
     }
-    Log.v("Playback started");
   }
   
   /**
@@ -518,7 +521,7 @@ public class ManageNotification {
     int vol = ManagePreferences.restoreVol();
     if (vol >= 0) {
       AudioManager am = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
-      am.setStreamVolume(AudioManager.STREAM_MUSIC, vol, 0);
+      am.setStreamVolume(AudioManager.STREAM_NOTIFICATION, vol, 0);
       ManagePreferences.setRestoreVol(-1);
     }
     
