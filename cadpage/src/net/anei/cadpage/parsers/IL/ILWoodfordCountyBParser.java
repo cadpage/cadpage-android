@@ -18,32 +18,32 @@ public class ILWoodfordCountyBParser extends DispatchA47Parser {
     
       //Cities
       
-      "El Paso",
-      "Eureka",
-      "Germantown Hills",
-      "Metamora",
-      "Minonk",
-      "Roanoke",
-      "Washburn",
+      "EL PASO",
+      "EUREKA",
+      "GERMANTOWN HILLS",
+      "METAMORA",
+      "MINONK",
+      "ROANOKE",
+      "WASHBURN",
 
       //Villages 
 
-      "Bay View Gardens",
-      "Benson",
-      "Congerville",
-      "Deer Creek",
-      "Goodfield",
-      "Kappa",
-      "Panola",
-      "Secor",
-      "Spring Bay",
+      "BAY VIEW GARDENS",
+      "BENSON",
+      "CONGERVILLE",
+      "DEER CREEK",
+      "GOODFIELD",
+      "KAPPA",
+      "PANOLA",
+      "SECOR",
+      "SPRING BAY",
 
       //Unincorporated communities
 
-      "Lowpoint",
-      "Oak Ridge",
-      "Spires",
-      "Woodford"
+      "LOWPOINT",
+      "OAK RIDGE",
+      "SPIRES",
+      "WOODFORD"
 
   };
 }
