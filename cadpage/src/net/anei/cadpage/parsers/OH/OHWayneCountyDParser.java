@@ -9,10 +9,19 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class OHWayneCountyDParser extends FieldProgramParser {
   
   public OHWayneCountyDParser() {
-    super("WAYNE COUNTY", "OH", 
+    this("WAYNE COUNTY", "OH");
+  }
+  
+  protected OHWayneCountyDParser(String defCity, String defState) {
+    super(defCity, defState,
           "CALL:CALL! PLACE:PLACE! ADDR:ADDR! CITY:CITY! ID:ID! UNIT:UNIT! INFO:INFO! INFO/N+");
   }
   
+  @Override
+  public String getAliasCode() {
+    return "OHWayneCountyD";
+  }
+
   @Override
   public String getFilter() {
     return "info@sundance-sys.com";

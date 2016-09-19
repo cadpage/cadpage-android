@@ -7,8 +7,6 @@ vzcbeg bet.whavg.Grfg;
 /*
 Phzoreynaq Pbhagl, CN
 
-Ercynprq ol CNPhzoreynaqPbhaglO nf bs 9/12/2014
-
 Gebl B'Arvy <gbarvy0615@tznvy.pbz> jbexf va qvfcngpu pragre
 
 Pbagnpg: Npgvir911
