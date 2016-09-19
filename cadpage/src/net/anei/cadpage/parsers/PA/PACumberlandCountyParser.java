@@ -7,8 +7,6 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchArchonixParser;
 
-
-
 public class PACumberlandCountyParser extends DispatchArchonixParser {
   
   private static final Pattern CODE_CALL_PTN = Pattern.compile("(\\d{2}[A-Z]\\d{2}) +(.*)");
@@ -75,6 +73,7 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
   }
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "AC AC", "ABBOTTSTOWN",
       "CA CU", "CARLISLE",
       "CB CU", "CARLISLE BARRACKS",
       "CH CU", "CAMP HILL",
@@ -134,8 +133,13 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
   });
 
   private static final Properties MA_CITY_CODES = buildCodeTable(new String[]{
+      "FVT",    "FAIRVIEW TWP",
+      "FVW TWP","FAIRVIEW TWP",
+      "GREEN",  "GREENE TWP",
+      "HBG",    "HARRISBURG",
       "S HAMP", "SOUTHAMPTON TWP",
       "SH TWP", "SOUTHAMPTON TWP",
+      "SHT",    "SOUTHAMPTON TWP",
       "SHAMP",  "SOUTHAMPTON TWP",
       "SHP",    "SHIPPENSBURG",
       "SUSQ TWP","SUSQUEHANNA TWP"

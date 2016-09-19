@@ -159,6 +159,7 @@ Ntrapl anzr: Fg. Eboreg Sver
 Ybpngvba: Fg. Eboreg, ZB, Havgrq Fgngrf
 Fraqre: <911qvfcngpu@rzonedznvy.pbz>
 
+{QB ABG ERCYL} 1057 BYQ EBHGR 66, Ncg. 120 FG EBOREG PebffFgerrgf: Sbkjbegu Fg 0.01 zv AR Mrvtraorva Eq 0.08 zv J NYY FGNE VAA HAPBAFPVBHF/HAERFCBAFVIR Z22 FESQ1 Pnyy Erprvirq Gvzr: 9/11/2016 02:01:50 Qvfcngpu: 9/11/2016 02:02:41 Qvfcngpu: 9/11/2016 02:02:41
 {QB ABG ERCYL} 161 VAGREFGNGR 44 JRFG CHYNFXV PBHAGL PebffFgerrgf: Enzc 6332.81 zv J Enzc 6332.81 zv J  ZBGBE IRUVPYR NPPVQRAG JVGU VAWHEL Z22 FESQ1 ZFUC1 332 Pnyy Erprvirq Gvzr: 5/15/2016 06:10:21 Qvfcngpu: 5/15/2016 06:12:03 Qvfcngpu: 5/15/2016 06:12:03 Qvfcngpu: 5/15/2016 06:12:03 Qvfcngpu: 5/15/2016 06:12:03
 {QB ABG ERCYL} 126 FG EBOREG OYIQ FG EBOREG PebffFgerrgf: Pnezry Inyyrl Jnl 0.02 zv FJ Oevna Pve 0.03 zv AR EBHGR 66 QVARE HAPBAFPVBHF/HAERFCBAFVIR Z22 FESQ1 FECQ1 Pnyy Erprvirq Gvzr: 5/15/2016 02:09:47 Qvfcngpu: 5/15/2016 02:12:38 Qvfcngpu: 5/15/2016 02:12:38 Qvfcngpu: 5/15/2016 02:12:38
 {QB ABG ERCYL} 333 UVTUJNL M FG EBOREG PebffFgerrgf: Svan Ni 0.01 zv AR Zvffbhev Ni 0.11 zv FJ PRARK GENHZN JVGU VAWHEL Z25 FECQ1 FESQ1 Pnyy Erprvirq Gvzr: 5/13/2016 03:14:07 Qvfcngpu: 5/13/2016 03:15:16
@@ -1695,6 +1696,18 @@ choyvp pynff ZBChynfxvPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgFgEboregSver() {
+
+    qbGrfg("K1",
+        "{QB ABG ERCYL} 1057 BYQ EBHGR 66, Ncg. 120 FG EBOREG PebffFgerrgf: Sbkjbegu Fg 0.01 zv AR Mrvtraorva Eq 0.08 zv J NYY FGNE VAA HAPBAFPVBHF/HAERFCBAFVIR Z22 FESQ1 Pnyy Erprvirq Gvzr: 9/11/2016 02:01:50 Qvfcngpu: 9/11/2016 02:02:41 Qvfcngpu: 9/11/2016 02:02:41",
+        "NQQE:1057 BYQ EBHGR 66",
+        "NCG:120",
+        "PVGL:FG EBOREG",
+        "K:Sbkjbegu Fg 0.01 zv AR Mrvtraorva Eq 0.08 zv J",
+        "CYNPR:NYY FGNE VAA",
+        "PNYY:HAPBAFPVBHF/HAERFCBAFVIR",
+        "HAVG:Z22 FESQ1",
+        "QNGR:9/11/2016",
+        "GVZR:02:02:41");
 
     qbGrfg("G1",
         "{QB ABG ERCYL} 161 VAGREFGNGR 44 JRFG CHYNFXV PBHAGL PebffFgerrgf: Enzc 6332.81 zv J Enzc 6332.81 zv J  ZBGBE IRUVPYR NPPVQRAG JVGU VAWHEL Z22 FESQ1 ZFUC1 332 Pnyy Erprvirq Gvzr: 5/15/2016 06:10:21 Qvfcngpu: 5/15/2016 06:12:03 Qvfcngpu: 5/15/2016 06:12:03 Qvfcngpu: 5/15/2016 06:12:03 Qvfcngpu: 5/15/2016 06:12:03",
