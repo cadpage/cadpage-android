@@ -426,6 +426,7 @@ Ntrapl anzr: Sevraqfuvc Ubfr Pbzcnal - Sver
 Ybpngvba: Arjivyyr, CN, Havgrq Fgngrf
 Fraqre: <rc911@ppcn.arg>
 
+{09-18-16.205114.160161447.N247.QC.001} 26O01 26O01 FVPX C\e\a5 SNVESVRYQ FG ,AJ PH;\e\a#:\e\aK:EBFR NI / FCEVATSVRYQ NI\e\aMA:Y21 47-01 ARJIVYYR\e\aPC:\e\aGvzr:2016-09-18 20:51:14\e\aZV#:160161447\e\aYng/Yba:40.169571//-77.401433\e\aERF#:N247
 {09-16-16.185023.160160128.N247.SE.001} 62 IVAR FG ,AJ PH;\aZV#:160160128\aQvfc#:17:41:34\aRae#:17:42:29\aNee#:17:45:55\aRae Ubfc#:18:02:09\aNee Ubfc#:18:17:48\aPye#:18:50:22\aERF#:N247
 {09-16-16.174237.160160128.CNTREN47.SE.001} 62 IVAR FG ,AJ PH;\aZV#:160160128\aQvfc#:17:41:34\aRae#:\aNee#:\aRae Ubfc#:\aNee Ubfc#:\aPye#:17:42:36\aERF#:CNTREN47
 {09-16-16.174136.160160128.N247.QC.001} 17N02T 17N02T SNYY\a62 IVAR FG ,AJ PH;\a#:\aK:PRQNE FG / SNVESVRYQ NI\aMA:Y21 47-01 ARJIVYYR\aPC:\aGvzr:2016-09-16 17:41:34\aZV#:160160128\aYng/Yba:-77.399694//-40.169311\aERF#:N247
@@ -10382,6 +10383,30 @@ choyvp pynff CNPhzoreynaqPbhagl2CnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgSevraqfuvcUbfrPbzcnalSver() {
+
+    qbGrfg("K1",
+        "{09-18-16.205114.160161447.N247.QC.001} 26O01 26O01 FVPX C\e\a" +
+        "5 SNVESVRYQ FG ,AJ PH;\e\a" +
+        "#:\e\a" +
+        "K:EBFR NI / FCEVATSVRYQ NI\e\a" +
+        "MA:Y21 47-01 ARJIVYYR\e\a" +
+        "PC:\e\a" +
+        "Gvzr:2016-09-18 20:51:14\e\a" +
+        "ZV#:160161447\e\a" +
+        "Yng/Yba:40.169571//-77.401433\e\a" +
+        "ERF#:N247",
+
+        "PBQR:26O01",
+        "PNYY:26O01 FVPX C",
+        "NQQE:5 SNVESVRYQ FG",
+        "PVGL:ARJIVYYR",
+        "K:EBFR NI / FCEVATSVRYQ NI",
+        "OBK:47-01 ARJIVYYR",
+        "QNGR:09/18/2016",
+        "GVZR:20:51:14",
+        "VQ:160161447",
+        "TCF:+40.169571,-77.401433",
+        "HAVG:N247");
 
     qbGrfg("G1",
         "{09-16-16.185023.160160128.N247.SE.001} 62 IVAR FG ,AJ PH;\a" +
