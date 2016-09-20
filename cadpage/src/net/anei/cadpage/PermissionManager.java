@@ -3,13 +3,9 @@ package net.anei.cadpage;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.anei.cadpage.R;
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.Context;
 import android.content.pm.PackageManager;
-import android.os.Bundle;
 import android.os.Handler;
 
 public class PermissionManager {
@@ -33,7 +29,7 @@ public class PermissionManager {
   // Not a system permission - automatically granted
   private static final String BILLING = "android.vending.BILLING";
 
-  // "Safe" permissions are autoamtically granted
+  // "Safe" permissions are automatically granted
   private static final String WRITE_SMS = "android.permission.WRITE_SMS";
   private static final String WAKE_LOCK = "android.permission.WAKE_LOCK";
   private static final String DISABLE_KEYGUARD = "android.permission.DISABLE_KEYGUARD";
@@ -41,9 +37,7 @@ public class PermissionManager {
   private static final String INTERNET = "android.permission.INTERNET";
   private static final String ACCESS_NETWORK_STATE = "android.permission.ACCESS_NETWORK_STATE";
   private static final String RECEIVE_C2DM = "com.google.android.c2dm.permission.RECEIVE";
-
-  private static final String ID_KEY = "PERM_ID";
-  private static final String MSG_KEY = "PERM_MSG";
+  private static final String MODIFY_AUDIO_SETTINGS = "android.permission.MODIFY_AUDIO_SETTINGS";
   
   
   private Context context;
@@ -235,7 +229,6 @@ public class PermissionManager {
   public static boolean isGranted(Context context, String permission) {
     return Permissions.isGranted(context, permission);
   }
-    
 
   /**
    * Add permission information to status message
@@ -277,7 +270,8 @@ public class PermissionManager {
     READ_LOGS,
     ACCESS_FINE_LOCATION,
     READ_EXTERNAL_STORAGE,
-    WRITE_EXTERNAL_STORAGE
+    WRITE_EXTERNAL_STORAGE,
+    MODIFY_AUDIO_SETTINGS
   };
 
 }

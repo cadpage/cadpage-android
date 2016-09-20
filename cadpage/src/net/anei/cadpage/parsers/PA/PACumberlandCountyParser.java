@@ -1,15 +1,14 @@
 package net.anei.cadpage.parsers.PA;
 
 import java.util.Properties;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.CodeTable;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.StandardCodeTable;
 import net.anei.cadpage.parsers.dispatch.DispatchArchonixParser;
 
 public class PACumberlandCountyParser extends DispatchArchonixParser {
-  
-  private static final Pattern CODE_CALL_PTN = Pattern.compile("(\\d{2}[A-Z]\\d{2}) +(.*)");
   
   public PACumberlandCountyParser() {
     super(CITY_CODES, MA_CITY_CODES, "CUMBERLAND COUNTY", "PA", ARCH_FLG_TWO_PART_CITY);
@@ -25,6 +24,12 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
     return MAP_FLG_PREFER_GPS;
   }
   
+  private static final Pattern GD_PTN = Pattern.compile("\\bGD\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern ES_PTN = Pattern.compile("\\bES\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern HGWY_PTN = Pattern.compile("\\bHGWY\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern BY_PTN = Pattern.compile("\\bBY\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern MILLER_RD_EXT = Pattern.compile("\\bMILLER RD EXT\\b", Pattern.CASE_INSENSITIVE);
+
   @Override
   public String adjustMapAddress(String address) {
     address = GD_PTN.matcher(address).replaceAll("GARDEN");
@@ -34,12 +39,7 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
     address = MILLER_RD_EXT.matcher(address).replaceAll("MILLER RD EXD");
     return super.adjustMapAddress(address);
   }
-  private static final Pattern GD_PTN = Pattern.compile("\\bGD\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern ES_PTN = Pattern.compile("\\bES\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern HGWY_PTN = Pattern.compile("\\bHGWY\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern BY_PTN = Pattern.compile("\\bBY\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern MILLER_RD_EXT = Pattern.compile("\\bMILLER RD EXT\\b", Pattern.CASE_INSENSITIVE);
-  
+
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
@@ -47,10 +47,14 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
     if (!super.parseMsg(subject,  body, data)) return false;
     
     // Call can contain a code field
-    Matcher match = CODE_CALL_PTN.matcher(data.strCall);
-    if (match.matches()) {
-      data.strCode = match.group(1);
-      data.strCall = match.group(2);
+    
+    String code = data.strCall;
+    int pt = code.indexOf(' ');
+    if (pt >= 0) code = code.substring(0,pt);
+    String call = CALL_CODES.getCodeDescription(code);
+    if (call != null) {
+      data.strCode = code;
+      data.strCall = call;
     }
     
     // The Map (Zone) field contains the CAD zone (which users are not interested in
@@ -71,6 +75,51 @@ public class PACumberlandCountyParser extends DispatchArchonixParser {
   public String getProgram() {
     return super.getProgram().replace("CALL", "CODE CALL").replace("MAP", "BOX");
   }
+  
+  private static final CodeTable CALL_CODES = new StandardCodeTable(
+      "F1ST",       "Structure Fire - 1st Alarm",
+      "F2ND",       "Structure Fire - 2nd Alarm",
+      "F3RD",       "Structure Fire - 3rd Alarm",
+      "F4TH",       "Structure Fire - 4th Alarm",
+      "FAFA",       "Automatic Fire Alarm",
+      "FAFARD",     "Automatic Fire Alarm - Reduced Response",
+      "FAIRCR",     "Aircraft Fire",
+      "FBARN1",     "Barn Fire - 1st Alarm",
+      "FBARN2",     "Barn Fire - 2nd Alarm",
+      "FBARN3",     "Barn Fire - 3rd Alarm",
+      "FBARN4",     "Barn Fire - 4th Alarm",
+      "FCB",        "Controlled Burn",
+      "FCODET",     "Carbon Monoxide Detector",
+      "FHMINI",     "Hazardous Materials Incident - Inside Investigation",
+      "FHMNS",      "Hazardous Materials Incident - Non-structure",
+      "FHMOUI",     "Hazardous Materials Incident - Outside investigation",
+      "FHMSTR",     "Hazardous Materials Incident - Structure fire",
+      "FLZ",        "Helicopter Landing Zone",
+      "FMA",        "Fire Department Medical Assist",
+      "FMASTN",     "Mass Transportation Incident",
+      "FMISC",      "Miscellaneous Incident",
+      "FOTRES",     "Miscellaneous Rescue",
+      "FOUI",       "Outside Investigate",
+      "FSTR1",      "Structure Fire - 1st Alarm",
+      "FSTR2",      "Structure Fire - 2nd Alarm",
+      "FSTR3",      "Structure Fire - 3rd Alarm",
+      "FSTR4",      "Structure Fire - 4th Alarm",
+      "FVEHICLE",   "Vehicle Fire",
+      "FVEHLG",     "Vehicle Fire - Large",
+      "FVEHSM",     "Vehicle Fire - Small",
+      "FVSNI",      "Vehicle vs. Structure - No injuries reported",
+      "FWARES",     "Water Rescue",
+      "FWF",        "Wild Fire",
+      "FWFSTR",     "Wild Fire Endangering a Structure",
+      "FWFVEH",     "Wild Fire Involving a Vehicle",
+      "FXFER1",     "Transfer Assignment - 1st Alarm",
+      "FXFER2",     "Transfer Assignment - 2nd Alarm",
+      "FXFER3",     "Transfer Assignment - 3rd Alarm",
+      "FXFER4",     "Transfer Assignment - 4th Alarm",
+      "MUTAID",     "Mutual Aid Response",
+      "PAANI",      "Traffic / Transportation Incident - No injuries reported initially",
+      "XFER",       "Transfer"
+  );
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "AC AC", "ABBOTTSTOWN",

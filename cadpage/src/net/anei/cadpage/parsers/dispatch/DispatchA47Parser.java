@@ -53,20 +53,24 @@ public class DispatchA47Parser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern ADDR_CITY_PTN = Pattern.compile("(.*)(?:,| - )(.*)");
   private static final Pattern ST_ZIP_PTN = Pattern.compile("([A-Z]{2})(?: +(\\d{5}))?");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      int pt = field.lastIndexOf(',');
+      field = stripFieldEnd(field, ",");
+      Matcher match = ADDR_CITY_PTN.matcher(field);
       String city = null;
-      if (pt >= 0) {
-        String tmp = field.substring(pt+1).trim();
-        field = field.substring(0,pt).trim();
-        Matcher match = ST_ZIP_PTN.matcher(tmp);
+      if (match.matches()) {
+        field = match.group(1).trim();
+        String tmp = match.group(2).trim();
+        match = ST_ZIP_PTN.matcher(tmp);
         if (match.matches()) {
           String state = match.group(1);
           city = getOptGroup(match.group(2));
           data.strState = state;
+        } else {
+          city = tmp;
         }
       }
       super.parse(field, data);

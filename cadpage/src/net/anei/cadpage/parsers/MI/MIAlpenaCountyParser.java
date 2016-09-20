@@ -12,7 +12,6 @@ public class MIAlpenaCountyParser extends DispatchB2Parser {
   public String getFilter() {
     return "ALPENACOUNTY.ORG@alpenacounty.org";
   }
-  
 
   private static final String[] CITY_LIST = new String[]{
     "ALPENA",
@@ -25,8 +24,5 @@ public class MIAlpenaCountyParser extends DispatchB2Parser {
     "LEER",
     "OSSINEKE",
     "SPRATT"
-
-    };
-
-
+  };
 }
