@@ -5737,6 +5737,7 @@ choyvp pynff INZrpxyraohetPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:15-026487",
         "PNYY:CHOYVP FREIVPR PNYY",
         "NQQE:28 ZNVA FG OEBQANK & OEHA PB",
+        "PVGL:23920",
         "ZNQQE:28 ZNVA FG OEBQANK",
         "CYNPR:OEBQANK CBYVPR QRCG",
         "HAVG:PB#7 S72 S76");
