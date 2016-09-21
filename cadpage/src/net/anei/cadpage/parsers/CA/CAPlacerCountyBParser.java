@@ -15,7 +15,7 @@ public class CAPlacerCountyBParser extends DispatchA20Parser {
   
   @Override
   public String getFilter() {
-    return "@rocklin.ca.us,@ci.lincoln.ca.us";
+    return "@rocklin.ca.us,@ci.lincoln.ca.us,@lincolnca.gov";
   }
   
   @Override
