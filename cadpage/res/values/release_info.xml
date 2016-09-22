@@ -4,6 +4,17 @@
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.18\n
+Location Fixes:\n
+Hayes County, TX\n
+Ashland County, OH\n
+Cumberland County, PA\n
+King George County, VA\n
+Loudoun County, VA\n
+\n
+General Fixes:\n
+Audio alert override logic will use notification instead of music volume control\n
+\n
 v1.9.10.17\n
 Location Fixes:\n
 Cherokee County, GA\n
@@ -35,21 +46,7 @@ v1.9.10.14\n
 Location Fixes:\n
 Hillsdale County, MI\n
 MICOM, NJ\n
-Ashtabula County, OH\n
-\n
-v1.9.10.13\n
-Location Fixes:\n
-Litchfield County, CT\n
-Paulding County, GA\n
-LaRue County, KY\n
-Bay County, MI\n
-Oneida County, NY\n
-Carteret County, NC\n
-Mahoning County, OH\n
-Stark County, OH\n
-Chester County, PA\n
-Charleston County, SC\n
-Clay County, TN
+Ashtabula County, OH
   </string>
 </resources>
   

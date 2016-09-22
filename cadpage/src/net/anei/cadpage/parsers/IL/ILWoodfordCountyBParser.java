@@ -43,7 +43,9 @@ public class ILWoodfordCountyBParser extends DispatchA47Parser {
       "LOWPOINT",
       "OAK RIDGE",
       "SPIRES",
-      "WOODFORD"
-
+      "WOODFORD",
+      
+      // Marshall County
+      "MARSHALL COUNTY"
   };
 }

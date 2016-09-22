@@ -12,7 +12,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchArchonixParser;
 public class CAShastaCountyBParser extends DispatchArchonixParser {
   
   public CAShastaCountyBParser() {
-    super(CITY_CODES, "SHASTA COUNTY", "CA");
+    super(CITY_CODES, null, "SHASTA COUNTY", "CA", ARCH_FLG_OPT_CITY);
   }
   
   @Override
@@ -23,7 +23,7 @@ public class CAShastaCountyBParser extends DispatchArchonixParser {
 
   @Override
   public String getFilter() {
-    return "cccademail@shascom911.com";
+    return "messages@shascom.com,message@shascom911.com";
   }
   
   @Override

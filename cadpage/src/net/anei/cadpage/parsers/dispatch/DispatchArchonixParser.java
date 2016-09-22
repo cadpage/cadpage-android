@@ -15,6 +15,7 @@ import net.anei.cadpage.parsers.MsgInfo.MsgType;
 public class DispatchArchonixParser extends FieldProgramParser {
   
   public static final int ARCH_FLG_TWO_PART_CITY = 1;
+  public static final int ARCH_FLG_OPT_CITY = 2;
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("(?:Dispatch|Free) (.*)"); 
   private static final Pattern SUBJECT3_PTN = Pattern.compile("Sta +(.+)");
@@ -22,6 +23,7 @@ public class DispatchArchonixParser extends FieldProgramParser {
   private static final Pattern TWP_ADDR_PTN = Pattern.compile("([ A-Z]+ TWP) +(.*)");
 
   private boolean twoPartCity;
+  private boolean optCity;
   private Properties cityCodes;
   private Properties maCityCodes;
 
@@ -36,6 +38,7 @@ public class DispatchArchonixParser extends FieldProgramParser {
     this.cityCodes = cityCodes;
     this.maCityCodes = maCityCodes;
     twoPartCity = (flags & ARCH_FLG_TWO_PART_CITY) != 0;
+    optCity = (flags & ARCH_FLG_OPT_CITY) != 0;
   }
   
   @Override
@@ -122,7 +125,7 @@ public class DispatchArchonixParser extends FieldProgramParser {
 
     @Override
     public void parse(String field, Data data) {
-      parse(field, data, true);
+      parse(field, data, !optCity);
     }
 
     public void parse(String field, Data data, boolean cityRequired) {

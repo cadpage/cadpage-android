@@ -111,7 +111,8 @@ class Active911Vendor extends Vendor {
       "180674",  "07122016",
       "40803",   "07282016",
       "143290",  "07282016",
-      "45018",   "07282016"
+      "45018",   "07282016",
+      "88123",   "09212016"
   });
 
 
@@ -1364,6 +1365,7 @@ class Active911Vendor extends Vendor {
       "US/VA/HenryCounty",                "VAHenryCounty",
       "US/VA/Hopewell",                   "VAHopewell",
       "US/VA/JamesCityCounty",            "VAJamesCityCounty",
+      "US/VA/KingGeorgeCounty",           "VAKingGeorgeCounty",
       "US/VA/LoudounCounty",              "VALoudounCounty",
       "US/VA/LouisaCounty",               "VALouisaCounty",
       "US/VA/MecklenburgCounty",          "VAMecklenburgCounty",

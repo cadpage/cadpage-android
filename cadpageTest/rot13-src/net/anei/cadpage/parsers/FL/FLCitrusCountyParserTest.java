@@ -72,6 +72,10 @@ PVGEHF PBHAGL SVER QRCNEGZRAG: R020  14P 1238 J  UNZCFUVER OYIQ Qhaaryyba Z6Q - 
 PVGEHF PBHAGL SVER QRCNEGZRAG: R020  14P 5921 A  FHZZRESVRYQ CG Qhaaryyba Z28P - FGEBXR (PUNEYVR) 2015-00007804
 PVGEHF PBHAGL SVER QRCNEGZRAG: O020 FD23 O013 O014 R007  14R 21 F  ONEOBHE FG Orireyl Uvyyf 25O - OEHFU SVER 2015-00009749
 
+Pbagnpg: ejvyxvafba@gnzcnonl.ee.pbz
+Fraqre: 777202435934
+PVGEHF PBHAGL SVER QRCNEGZRAG: R001  20Q 136 AR 12GU NIR PELFGNY EVIRE URNYGU & ERUNO Pelfgny Evire 41S - NYNEZ SVER 2016-00008371
+
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pvgehf Furevss Sver Erfphr
 Ybpngvba: Vairearff, SY, Havgrq Fgngrf
@@ -952,6 +956,22 @@ choyvp pynff SYPvgehfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:OEHFU SVER",
         "VQ:2015-00009749");
   
+  }
+  
+  @Grfg
+  choyvp ibvq grfgEJvyxrafba() {
+
+    qbGrfg("G1",
+        "PVGEHF PBHAGL SVER QRCNEGZRAG: R001  20Q 136 AR 12GU NIR PELFGNY EVIRE URNYGU & ERUNO Pelfgny Evire 41S - NYNEZ SVER 2016-00008371",
+        "HAVG:R001",
+        "ZNC:20Q",
+        "NQQE:136 AR 12GU NIR",
+        "CYNPR:PELFGNY EVIRE URNYGU & ERUNO",
+        "PVGL:Pelfgny Evire",
+        "PBQR:41S",
+        "PNYY:NYNEZ SVER",
+        "VQ:2016-00008371");
+    
   }
 
   @Grfg
