@@ -55,9 +55,10 @@ public class DispatchProQAParser extends FieldProgramParser {
   
   private static final Pattern MARKER = Pattern.compile("(?:- part 1 of 1[\\s/]+)?(?:RC: *(?:\\d*(?:-[A-Z])?/)?)? *");
   private static final Pattern UNASSIGNED_MARKER = Pattern.compile("Job# *[^ ]* *\\(Run# (\\d+)\\) at [0-9:]+ was unassigned\\.");
-  private static final Pattern RUN_REPORT_MARKER1 = Pattern.compile("(?:(?:Job# *)?\\d+(?:-[A-Z])?/ *)?Run# *(\\d+) */ *(?:(was Canceled: .*?)/)?((?:CALL:)?\\d\\d:\\d\\d/ ?(?:DISP:)?\\d\\d:\\d\\d/ ?.*)");
+  private static final Pattern RUN_REPORT_MARKER1 = Pattern.compile("(?:(?:Job# *)?\\d+(?:-[A-Z])?/ *)?Run# *(\\d+) */ *(?:(was Canceled: .*?)/)? *((?:CALL:)?\\d\\d:\\d\\d/ ?(?:DISP:)?\\d\\d:\\d\\d/ ?.*)");
   private static final Pattern RUN_REPORT_MARKER2 = Pattern.compile("Inc# *[^ ]* */ *Run# *(\\d+) was (?:cancelled|completed) */ *([A-Za-z0-9]+) */ *(.*)");
-  private static final Pattern GEN_ALERT_PTN = Pattern.compile("Go to post .*");
+  private static final Pattern GEN_ALERT_PTN1 = Pattern.compile("Go to post .*");
+  private static final Pattern GEN_ALERT_PTN2 = Pattern.compile("Job# *[^ ]* *\\(Run# (\\d+)\\) *(.*)");
 
   @Override
   protected boolean parseMsg(String body, Data data) {
@@ -65,7 +66,6 @@ public class DispatchProQAParser extends FieldProgramParser {
     Matcher match = MARKER.matcher(body);
     if (!match.lookingAt()) return false;
     body = body.substring(match.end());
-        
 
     match = UNASSIGNED_MARKER.matcher(body);
     if (match.matches()) {
@@ -75,6 +75,7 @@ public class DispatchProQAParser extends FieldProgramParser {
       data.strSupp = "was unassigned";
       return true;
     }
+  
     match = RUN_REPORT_MARKER1.matcher(body);
     if (match.matches()) {
       setFieldList("ID INFO");
@@ -84,6 +85,7 @@ public class DispatchProQAParser extends FieldProgramParser {
                             match.group(3).replace('/', '\n').trim());
       return true;
     }
+    
     match = RUN_REPORT_MARKER2.matcher(body);
     if (match.matches()) {
       setFieldList("ID UNIT INFO");
@@ -96,12 +98,20 @@ public class DispatchProQAParser extends FieldProgramParser {
       return true;
     }
     
-    if (GEN_ALERT_PTN.matcher(body).matches()) {
+    if (GEN_ALERT_PTN1.matcher(body).matches()) {
       setFieldList("INFO");
       data.msgType = MsgType.GEN_ALERT;
       data.strSupp = body;
       return true;
+    }
         
+    match = GEN_ALERT_PTN2.matcher(body);
+    if (match.matches()) {
+      setFieldList("ID INFO");
+      data.msgType = MsgType.RUN_REPORT;
+      data.strCallId = match.group(1);
+      data.strSupp = match.group(2);
+      return true;
     }
 
     // Everything else is variable
