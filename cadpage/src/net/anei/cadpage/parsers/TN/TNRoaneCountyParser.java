@@ -1,47 +1,52 @@
 package net.anei.cadpage.parsers.TN;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
 
 
-public class TNRoaneCountyParser extends DispatchEmergitechParser {
+public class TNRoaneCountyParser extends FieldProgramParser {
   
   public TNRoaneCountyParser() {
-    super("Roane County ECD:", 60, CITY_LIST, "ROANE COUNTY", "TN");
+    super("ROANE COUNTY", "TN", 
+          "CALL:CALL! PLACE:PLACE! ADDR:ADDR! CITY:CITY! ID:ID! PRI:PRI! Unit:UNIT? INFO:INFO/N+");
   }
   
   @Override
   public String getFilter() {
-    return "RoaneCountyECD@roanecounty911.com";
+    return "maupindk2@gmail.com,pagegate1@roanecounty911.com";
   }
-
   
   @Override
-  protected boolean parseMsg(String body, Data data) {
-    body = body.replace('\n', ' ');
-    return super.parseMsg(body, data);
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.equals("Roane County TN 911 Center")) return false;
+    int pt = body.indexOf("\n\n\n");
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    return parseFields(body.split("\n"), data);
   }
-
-
-  private static final String[] CITY_LIST = new String[]{
-
-    // Cities and towns
-    "HARRIMAN",
-    "KINGSTON",
-    "OAK RIDGE",
-    "OLIVER SPRINGS",
-    "ROCKWOOD",
-
-    // Census-designated place
-    "MIDTOWN",
-
-    // Unincorporated communities
-    "CEDAR GROVE",
-    "MIDWAY",
-    "TEN MILE",
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
+  
+  private static final Pattern INFO_GPS_PTN = Pattern.compile("[-+]\\d{2,3}\\.\\d{6} +[-+]\\d{2,3}\\.\\d{6}");
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (INFO_GPS_PTN.matcher(field).matches()) {
+        setGPSLoc(field, data);
+      } else {
+        super.parse(field, data);
+      }
+    }
     
-    // Loudoun County
-    "LENOIR CITY"
-  };
+    @Override
+    public String getFieldNames() {
+      return "GPS INFO";
+    }
+  }
 }
