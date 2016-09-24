@@ -22,7 +22,7 @@ public class OKPontotocCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "paging@adaok.com";
+    return "ada911@versatilenetworks.com,paging@adaok.com";
   }
 
   @Override
