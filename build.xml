@@ -2,8 +2,14 @@
   xmlns:if="ant:if"
   xmlns:unless="ant:unless">
 
+  <property name="ssh-add-timeout"  value="500"/>
+
   <available property="git" file=".git"/>
   <available property="svn" file=".svn"/>
+  <property environment="env" /> 
+  <available file="ssh-add"  
+             filepath="${env.PATH}"  
+             property="ssh-add.present"/>
 
   <target name="build" description="build Cadpage Parser Library">
     <ant dir="cadpage" target="build"/>
@@ -17,11 +23,11 @@
     <ant antfile="cadpageTest/build.xml" target="commit"/>
   </target>
 	
-  <target name="update" description="git/svn update">
+  <target name="update" description="git/svn update" depends="ssh-add">
     <ant antfile="cadpageTest/build.xml" target="update"/>
   </target>
 	
-  <target name="push" description="git push">
+  <target name="push" description="git push" depends="ssh-add">
     <exec if:true="${git}" executable="git">
       <arg line="push"/>
     </exec>
@@ -43,6 +49,20 @@
       <arg line="diff"/>
     </exec>
     <echo message="Patch file cadpage.patch generated"/>
+  </target>
+
+  <target name="ssh-add" if="ssh-add.present">
+    <exec executable="ssh-add" resultproperty="ssh-add-result" outputproperty="/dev/null">
+      <arg line="-l"/>
+    </exec>
+    <condition property="ssh-add-needed">
+      <not>
+        <equals arg1="${ssh-add-result}" arg2="0"/>
+      </not>
+    </condition>
+    <exec if:true="${ssh-add-needed}" executable="ssh-add">
+      <arg line="-t ${ssh-add-timeout}"/>
+    </exec>
   </target>
 
 </project>
