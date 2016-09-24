@@ -47,6 +47,5 @@ public class ILWoodfordCountyBParser extends DispatchA47Parser {
       
       // Marshall County
       "MARSHALL COUNTY"
-
   };
 }

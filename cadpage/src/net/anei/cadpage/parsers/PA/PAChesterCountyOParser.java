@@ -5,7 +5,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class PAChesterCountyOParser extends PAChesterCountyBaseParser {
   
   public PAChesterCountyOParser() {
-    super("Call_Time:TIME/d! EMPTY! Event:ID! Event_Type_Code:CALL! Event_Subtype_Code:CALL/SDS! ESZ:MAP! Beat:BOX! Address:EMPTY! PLACE! ADDR! Cross_Street:X! Location_Information:INFO! Development:INFO/N! Municipality:CITY! Caller_Information:INFO/N! Caller_Name:NAME! Caller_Phone_Number:PHONE! Alt_Phone_Number:SKIP! Caller_Address:SKIP! Caller_Source:SKIP! Units:UNIT! UNIT/S+ Event_Comments:INFO/N+");
+    super("Call_Time:DATETIME2/d! EMPTY! Event:ID! Event_Type_Code:CALL! Event_Subtype_Code:CALL/SDS! ESZ:MAP! Beat:BOX! Address:EMPTY! PLACE! ADDR! Cross_Street:X! Location_Information:INFO! Development:INFO/N! Municipality:CITY! Caller_Information:INFO/N! Caller_Name:NAME! Caller_Phone_Number:PHONE! Alt_Phone_Number:SKIP! Caller_Address:SKIP! Caller_Source:SKIP! Units:UNIT! UNIT/S+ Event_Comments:INFO/N+");
   }
   
   @Override
@@ -27,7 +27,7 @@ public class PAChesterCountyOParser extends PAChesterCountyBaseParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("TIME")) return new TimeField("\\d\\d-\\d\\d-\\d\\d \\d\\d:\\d\\d:\\d\\d", true);
+    if (name.equals("DATETIME2")) return new DateTimeField("\\d\\d-\\d\\d-\\d\\d \\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("PHONE")) return new MyPhoneField();
     return super.getField(name);
   }

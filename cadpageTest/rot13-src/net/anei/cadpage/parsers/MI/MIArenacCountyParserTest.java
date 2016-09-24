@@ -124,7 +124,7 @@ choyvp pynff ZVNeranpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:912",
         "VQ:16 0009457",
         "PNYY:951",
-        "NQQE:A ZVPUVTNA FG & TBEVR FG",
+        "NQQE:A ZVPUVTNA FG & TBEVR FG", //qbrf abg znc
         "PVGL:BZRE PVGL",
         "VASB:MREB GHEA YNJAZBJRE BA SVER, SHYY GNAX BS TNF");
 
@@ -173,7 +173,7 @@ choyvp pynff ZVNeranpPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:16 0009259",
         "PNYY:931",
         "NQQE:190 FO V-75",
-        "ZNQQE:190 V 75",
+        "ZNQQE:190 V 75", //qbrf abg znc
         "PVGL:YVAPBYA GJC",
         "VASB:PNYYOX=(906)314-0005 +043.979001 -084.017065 PB=IMJ CFNC 08 CBF# 85 JCU2 3 IRUVPYRF, 1 PBZCYNVAVAT ERQ PUELFYRE, GBLBGN JUVGR, PUELFYRE INA TERL");
 

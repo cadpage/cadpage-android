@@ -330,7 +330,7 @@ choyvp pynff VYJbbqsbeqPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "HAVG:1I15 J5 JNSQ JS28 JS31");
 
   }
- 
+
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
     arj VYJbbqsbeqPbhaglOCnefreGrfg().trarengrGrfgf("G1");
   }

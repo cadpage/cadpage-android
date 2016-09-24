@@ -6,6 +6,7 @@ vzcbeg bet.whavg.Grfg;
 
 /*
 Ohssnyb, AL
+
 Pbagnpg: Xhapu <wbfuxhapu@zfa.pbz>
 Fraqre: 2002000004
 EP:Eha# 4330/1 Ubg 911 & Cig/28O1 Fgebxr/PIN-haxabja fgnghf/189 YNATSVRYQ QE///OHSSNYB/14215////14:18/<Haxabja>////K=GBJRE FG&FHSSBYX FG
@@ -16,6 +17,12 @@ EP:Eha# 3969/2 Pbyq  911/26N01 Fvpx-ab cevbevgl flzcgbzf(abg 2-28)/ONVYRL NIR & 
 EP:Eha# 3926/1 Ubg 911 & Cig/27O2 Fgno/TFJ/Crargengvat Genhzn-fvatyr crevcureny jbhaq/192 QNIVQFBA NIR///OHSSNYB/14215////14:49/<Haxabja>////K=TBQSERL FG&BEYRNAF FG
 EP:Eha# 3449/2 Pbyq  911/13N1 Qvnorgvp-nyreg/orunivat abeznyyl/1250 ONVYRL NIR///OHSSNYB/14206////07:50/<Haxabja>////K=OBTNEQHF FG&URAARCVA FG
 EP:Eha# 929/1 Ubg 911 & Cig/9R1 Pneqvnp/Erfc Neerfg/QBN-abg oernguvat ng nyy/69 FVQARL FG///OHSSNYB/14211////09:44/<Haxabja>////K=SVYYZBER NIR&EVPXREG NIR
+
+Pbagnpg: Wnpbo Xnzubym <xnzubym.wnpbo@tznvy.pbz>
+Fraqre: ???
+EP:Eha# 97997/1 Ubg 911 & Cig/32O1 Haxabja/zna qbja- Fgnaqvat/ fvggvat/zbivat be gnyxvat/3376 F PERRX EQ///UNZOHET/14075////11:48/<Haxabja>////K=HFUL 62&A PERRX EQ
+EP:Wbo# 0004-N (Eha# 97955) Nyreg: Raebhgr gb Cvpx Hc: Gur pbqr sbe gur Ohssnyb Zrepl RE tngr vf 1266
+EP:Wbo# 0198-N/ Eha# 98051/ jnf Pnapryrq: [N] Snyfr Pnyy / Hasbhaqrq/PNYY:14:05/QVFC:14:05/RAE:14:05/NGF:14:12/PKY:14:41
 
  */
 
@@ -116,6 +123,34 @@ choyvp pynff ALOhssnybCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:09:44",
         "K:SVYYZBER NIR/EVPXREG NIR");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgWnpboXnzubym() {
+
+    qbGrfg("G1",
+        "EP:Eha# 97997/1 Ubg 911 & Cig/32O1 Haxabja/zna qbja- Fgnaqvat/ fvggvat/zbivat be gnyxvat/3376 F PERRX EQ///UNZOHET/14075////11:48/<Haxabja>////K=HFUL 62&A PERRX EQ",
+        "VQ:97997",
+        "CEV:1",
+        "PBQR:32O1",
+        "PNYY:Haxabja/zna qbja- Fgnaqvat/fvggvat/zbivat be gnyxvat",
+        "NQQE:3376 F PERRX EQ",
+        "PVGL:UNZOHET",
+        "GVZR:11:48",
+        "K:HFUL 62/A PERRX EQ");
+
+    qbGrfg("G2",
+        "EP:Wbo# 0004-N (Eha# 97955) Nyreg: Raebhgr gb Cvpx Hc: Gur pbqr sbe gur Ohssnyb Zrepl RE tngr vf 1266",
+        "GLCR:EHA_ERCBEG",
+        "VQ:97955",
+        "VASB:Nyreg: Raebhgr gb Cvpx Hc: Gur pbqr sbe gur Ohssnyb Zrepl RE tngr vf 1266");
+
+    qbGrfg("G3",
+        "EP:Wbo# 0198-N/ Eha# 98051/ jnf Pnapryrq: [N] Snyfr Pnyy / Hasbhaqrq/PNYY:14:05/QVFC:14:05/RAE:14:05/NGF:14:12/PKY:14:41",
+        "GLCR:EHA_ERCBEG",
+        "VQ:98051",
+        "VASB:jnf Pnapryrq: [N] Snyfr Pnyy / Hasbhaqrq\aPNYY:14:05\aQVFC:14:05\aRAE:14:05\aNGF:14:12\aPKY:14:41");
+   
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
