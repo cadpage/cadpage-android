@@ -665,6 +665,7 @@ class Active911Vendor extends Vendor {
       "US/MI/GrandTraverseAttachment",    "MIGrandTraverseCounty",
       "US/MI/GratiotCounty",              "MIGratiotCounty",
       "US/MI/InghamCounty",               "MIInghamCounty",
+      "US/MI/IoniaCounty",                "MIIoniaCounty",
       "US/MI/IoscoCounty",                "MIIoscoCounty",
       "US/MI/Irisalert",                  "MIOaklandCountyB",
       "US/MI/JacksonCounty",              "MIJacksonCounty",
