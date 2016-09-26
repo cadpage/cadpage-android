@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class WVKanawhaCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("(?:Metro911:)?(.+?) reported at (.+?)(?:@(.*))? in (.+?)(?:\\((.*?)\\))? on (\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)(?: +Call (?:#|Number:) *(.*))?");
+  private static final Pattern MASTER = Pattern.compile("(?:Metro911:|Metro CAD Alert:)?(.+?) reported at (.+?)(?:@(.*))? in (.+?)(?:\\((.*?)\\))? on (\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)(?: +Call (?:#|Number:) *(.*))?");
   
   public WVKanawhaCountyParser() {
     super("KANAWHA COUNTY", "WV");
@@ -23,6 +23,7 @@ public class WVKanawhaCountyParser extends SmartAddressParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
     data.strCall = match.group(1).trim();

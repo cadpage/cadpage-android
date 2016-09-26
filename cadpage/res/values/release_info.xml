@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">09172016</string>
+  <string name="release_date">09242016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.19\n
+Location Fixes:\n
+Buffalo, NY\n
+Benton County, OR\n
+Chester County, PA\n
+Roane County, TN\n
+\n
 v1.9.10.18\n
 Location Fixes:\n
 Hayes County, TX\n
@@ -39,12 +46,6 @@ v1.9.10.15\n
 Location Fixes:\n
 Hancock County, IN\n
 Shelby County, IN\n
-MICOM, NJ\n
-Ashtabula County, OH\n
-\n
-v1.9.10.14\n
-Location Fixes:\n
-Hillsdale County, MI\n
 MICOM, NJ\n
 Ashtabula County, OH
   </string>

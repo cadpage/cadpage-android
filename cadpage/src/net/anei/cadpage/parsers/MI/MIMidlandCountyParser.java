@@ -12,13 +12,22 @@ public class MIMidlandCountyParser extends FieldProgramParser {
   private static final Pattern MARKER = Pattern.compile("CAD Page for CFS ([-A-Z0-9]+)(?:[ ,]+(.*))?", Pattern.DOTALL);
   
   public MIMidlandCountyParser() {
-    super("MIDLAND COUNTY", "MI",
-           "BUS:PLACE! ADDX:ADDR! APT:APT! CODE:CALL! http:GPS");
+    this("MIDLAND COUNTY", "MI");
+  }
+  
+  MIMidlandCountyParser(String defCity, String defState) {
+    super(defCity, defState,
+          "BUS:PLACE! ADDX:ADDR! APT:APT! CODE:CALL! http:GPS");
+  }
+  
+  @Override
+  public String getAliasCode() {
+    return "MIMidlandCounty";
   }
   
   @Override
   public String getFilter() {
-    return "@midland911.org,9300";
+    return "@midland911.org,sales@emergencysmc.com,9300";
   }
   
   @Override
