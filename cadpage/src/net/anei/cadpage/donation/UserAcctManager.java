@@ -16,7 +16,6 @@ import net.anei.cadpage.R;
 import net.anei.cadpage.donation.UserAcctManager;
 import android.accounts.Account;
 import android.accounts.AccountManager;
-import android.annotation.TargetApi;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Build;
@@ -51,7 +50,16 @@ public class UserAcctManager {
       phoneNumber = tMgr.getLine1Number();
     } catch (Exception ex) {}
     
-    if (phoneNumber == null && readPhoneStatePerm) phoneNumber = tMgr.getVoiceMailNumber();
+    if (phoneNumber == null && readPhoneStatePerm) {
+      
+      // One user one time reported a security exception abort with this operation
+      // Should not have happened, but we will catch it just it case it happens again
+      try {
+        phoneNumber = tMgr.getVoiceMailNumber();
+      } catch (SecurityException ex) {
+        Log.e(ex);
+      }
+    }
     if (phoneNumber != null) {
       int pt = phoneNumber.indexOf(',');
       if (pt >= 0) phoneNumber = phoneNumber.substring(0,pt).trim();
