@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.CT;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -10,18 +11,14 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 public class CTWindhamCountyAParser extends SmartAddressParser {
-  
-  private static final Pattern UNIT_PTN = Pattern.compile("([ A-Za-z0-9]+?)  +");
-  private static final Pattern CHANNEL_PTN = Pattern.compile("(UHF-\\d|\\d\\d\\.\\d\\d|\\d{3}|\\b(?:EKONK|KILLINGLY|UNION|THOMPSON) \\d{3}|HIGH-BAND) +");
-  private static final Pattern PRIORITY_PTN = Pattern.compile("^PRI +(\\d) +");
-  private static final Pattern TIME_PTN = Pattern.compile("\\d\\d:\\d\\d");
-  private static final Pattern RESERVE_CALL_PTN = Pattern.compile(".*(?:CALL FROM|ALERT|ALARM|APPLIANCE FIRE|FALL INJURY|INJURED PERSON|LIFT ASSIST|VEHICLE ACCIDENT)\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern APT_PTN = Pattern.compile("(?:APT|APARTMENT|ROOM|RM|UNIT|LOT)[- ]*(.*)|\\d{1,5}|[A-Z]|[A-Z]-?\\d{1,5}|.* (?:FLR|FLOOR)|WING .*", Pattern.CASE_INSENSITIVE);
-      
 
   public CTWindhamCountyAParser() {
-    super("WINDHAM COUNTY", "CT");
-    setFieldList("SRC UNIT CH PRI CALL ADDR PLACE APT CITY X TIME");
+    this("WINDHAM COUNTY", "CT");
+  }
+
+  CTWindhamCountyAParser(String defCity, String defState) {
+    super(defCity, defState);
+    setFieldList("SRC UNIT CH PRI INFO CALL ADDR PLACE APT CITY ST X TIME");
     setupMultiWordStreets(MWORD_STREET_LIST);
     addRoadSuffixTerms("DRIVE");
     removeWords("BUS");
@@ -32,6 +29,14 @@ public class CTWindhamCountyAParser extends SmartAddressParser {
     return "qvecpaging@qvec.org,messaging@iamresponding.com";
   }
   
+  private static final Pattern UNIT_PTN = Pattern.compile("([ A-Za-z0-9]+?)  +");
+  private static final Pattern CHANNEL_PTN = Pattern.compile("(UHF-\\d|\\d\\d\\.\\d\\d|\\d{3}|\\b(?:EKONK|KILLINGLY|UNION|THOMPSON) \\d{3}|HIGH-BAND) +");
+  private static final Pattern PRIORITY_PTN = Pattern.compile("^PRI +(\\d) +");
+  private static final Pattern TIME_PTN = Pattern.compile("\\d\\d:\\d\\d");
+  private static final Pattern ADDR_DEL_PTN = Pattern.compile(" \\* |\n");
+  private static final Pattern RESERVE_CALL_PTN = Pattern.compile(".*(?:CALL FROM|ALERT|ALARM|APPLIANCE FIRE|FALL INJURY|INJURED PERSON|LIFT ASSIST|VEHICLE ACCIDENT)\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern APT_PTN = Pattern.compile("(?:APT|APARTMENT|ROOM|RM|UNIT|LOT)[- ]*(.*)|\\d{1,5}|[A-Z]|[A-Z]-?\\d{1,5}|.* (?:FLR|FLOOR)|WING .*", Pattern.CASE_INSENSITIVE);
+  
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
@@ -41,9 +46,10 @@ public class CTWindhamCountyAParser extends SmartAddressParser {
     }
     
     Matcher  match = UNIT_PTN.matcher(body);
-    if (!match.lookingAt()) return false;
-    data.strUnit = match.group(1);
-    body = body.substring(match.end());
+    if (match.lookingAt()) {
+      data.strUnit = match.group(1);
+      body = body.substring(match.end());
+    }
     
     match = CHANNEL_PTN.matcher(body);
     if (match.lookingAt()) {
@@ -57,6 +63,9 @@ public class CTWindhamCountyAParser extends SmartAddressParser {
       body = body.substring(match.end()).trim();
     }
     
+    // Everything is option, but we had it find **SOMETHING** we recognize
+    if (data.strUnit.length() == 0 && data.strChannel.length() == 0 && data.strPriority.length() == 0) return false;
+    
     Parser p = new Parser(body);
     String sAddr = p.get("(X-STS ");
     data.strCross = p.get(')');
@@ -64,14 +73,17 @@ public class CTWindhamCountyAParser extends SmartAddressParser {
     if (TIME_PTN.matcher(sTime).matches()) data.strTime = sTime;
     
     // New format > call * address * place city
+    // alternate format call \n address \n place city
     // old format > call address / place city
     sAddr = stripFieldStart(sAddr, "/");
     String sPlaceCity;
-    String[] flds = sAddr.split(" \\* ");
-    if (flds.length == 3) {
-      data.strCall = flds[0].trim();
-      parseAddress(flds[1].trim(), data);
-      sPlaceCity = flds[2].trim();
+    String[] flds = ADDR_DEL_PTN.split(sAddr);
+    if (flds.length == 3 || flds.length == 4) {
+      int pt = 0;
+      if (flds.length == 4) data.strSupp = flds[pt++].trim();
+      data.strCall = flds[pt++].trim();
+      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, flds[pt++].trim(), data);
+      sPlaceCity = flds[pt++].trim();
     }
     
     else {
@@ -90,7 +102,7 @@ public class CTWindhamCountyAParser extends SmartAddressParser {
         sAddr = sAddr.substring(match.end()).trim();
         flags = 0;
       }
-      parseAddress(StartType.START_CALL, flags | FLAG_IGNORE_AT | FLAG_ANCHOR_END, sAddr, data);
+      parseAddress(StartType.START_CALL, flags | FLAG_IGNORE_AT | FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, sAddr, data);
       if (reserveCall.length() > 0 && data.strAddress.length() == 0) {
         parseAddress(data.strCall, data);
         data.strCall = "";
@@ -138,6 +150,10 @@ public class CTWindhamCountyAParser extends SmartAddressParser {
         data.strPlace = sPlaceCity;
       }
     }
+    
+    String st = CITY_ST_TABLE.getProperty(data.strCity.toUpperCase());
+    if (st != null) data.strState = st;
+    
     return true;
   }
   
@@ -145,80 +161,150 @@ public class CTWindhamCountyAParser extends SmartAddressParser {
     "ALL HALLOWS",
     "ALLEN HILL",
     "ASHFORD CENTER",
+    "ATTAWAUGAN CROSSING",
+    "AUTUMN VIEW",
     "BAILEY HILL",
     "BARBER HILL",
     "BARLOW CEMETERY",
     "BARTLETT MEADOW",
+    "BEACH POND",
     "BEAVER DAM",
     "BLACK ROCK",
     "BLACKMER DOWNS",
     "BRAATEN HILL",
     "BRANDY HILL",
+    "BRAYMAN HOLLOW",
     "BREAKNECK HILL",
     "BREAULTS LANDING",
+    "BRUSH HILL",
     "BUCK HILL",
+    "BUCKLEY HILL",
     "BULL HILL",
+    "BUNDY HILL",
     "BUNGAY HILL",
     "CAMP YANKEE",
+    "CAT HOLLOW",
+    "CENTER CEMETERY",
+    "CENTER SCHOOL",
     "CENTRE PIKE",
+    "CHANDLER SCHOOL",
+    "CHASE HILL",
     "CHENEY MILL",
+    "CHERRY TREE CORNER",
     "CHESTNUT HILL",
+    "CHILD DOME",
     "CHRISTIAN HILL",
     "CLEAR VIEW",
+    "CLUB HOUSE",
+    "COATNEY HILL",
     "CONNECTICUT MILLS",
     "COOK HILL",
     "COTTON BRIDGE",
     "COUNTRY CLUB",
     "COUNTY HOME",
     "CRYSTAL POND",
+    "DEEP RIVER",
     "DEER MEADOW",
     "DEWING SCHOOL",
+    "DOCTOR PIKE",
     "DOG HILL",
+    "DR FOOTE",
+    "DUGG HILL",
+    "EKONK HILL",
+    "ELMWOOD HILL",
     "ENGLISH NEIGHBORHOOD",
     "FABYAN WOODSTOCK",
+    "FALLS BASHAN",
+    "FALLS BASHIN",
     "FIRE TOWER",
     "FOUR SEASONS",
+    "GAY HEAD",
     "GENERAL LYON",
     "GRAND VIEW",
     "GREEN ACRES",
+    "GREEN HOLLOW",
+    "GROVE ST STERLING HILL",
+    "HALLS HILL",
+    "HALLS POND",
+    "HIGHLAND FARMS",
+    "ICE HOUSE",
+    "IDE PERRIN",
+    "INDIAN INN",
+    "INDIAN RUN",
     "INDIAN SPRINGS",
+    "JOHN PERRY",
+    "KENNERSON RESERVOIR",
     "KILLINGLY COMMONS",
+    "KIMBALL HEIGHTS",
+    "KINSMAN HILL",
+    "LAKE HAYWARD",
     "LAKE VIEW",
     "LAUREL HILL",
     "LAUREL POINT",
+    "LEBANON HILL",
     "LITTLE BUNGEE HILL",
+    "LITTLE HORN",
+    "LONG POND",
     "LOUISA VIENS",
     "LOWELL DAVIS",
     "MARGARET HENRY",
     "MASON HILL",
     "MILL BRIDGE",
     "MOOSUP POND",
+    "OLDE MEADOW",
     "OLEAROS HILL",
+    "OWL NEST",
     "PAINE DISTRICT",
     "PARENT HILL",
     "PINE CREST",
+    "PINE HOLLOW",
     "PLEASANT VIEW",
+    "POLE BRIDGE",
+    "POND FACTORY",
     "PORTER PLAIN",
+    "PRESTON ALLEN",
     "PROVIDENCE PIKE BAILEY HILL",
+    "PULPIT ROCK",
     "QUADDICK MOUNTAIN",
     "QUADDICK TOWN FARM",
+    "RATHBUN HILL",
+    "RED BRIDGE",
+    "REDHEAD HILL",
+    "RIFLE RANGE",
     "RILEY CHASE",
+    "RIVER WALK",
     "ROCKY HILL",
+    "ROCKY HOLLOW",
+    "ROSELAND PARK",
+    "ROSS HILL",
+    "ROUND HILL",
     "SAND DAM",
+    "SAND HILL",
     "SAW MILL HILL",
+    "SCHOOL HOUSE HILL",
+    "SCHOOL HOUSE",
+    "SHAILOR HILL",
     "SHEPARD HILL",
     "SNAKE MEADOW",
     "SPRAGUE HILL",
     "SPRING HILL",
+    "SQUAW ROCK",
     "STERLING HILL",
     "SUMNER HILL",
     "SUNSET HILL",
+    "TAFT POND",
     "THOMPSON HILL",
+    "TOWN FARM",
+    "TOWN HOUSE",
+    "TPKE WALKER",
     "TUCKER DISTRICT",
     "TUFT HILL",
+    "TUNNEL HILL",
     "VALLEY VIEW",
-    "WHIP POOR WILL"
-    
+    "WEST COVE",
+    "WETHERELL HILL",
+    "WHIP POOR WILL",
+    "YOSEMITE VALLEY"
   };
   
   private static final ReverseCodeSet CITY_SET = new ReverseCodeSet(
@@ -252,6 +338,68 @@ public class CTWindhamCountyAParser extends SmartAddressParser {
          "SOUTH WOODSTOCK",
       
       // New London County
-      "LISBON"
+      "NEW LONDON",
+      "NORWICH",
+
+      "BOZRAH",
+      "COLCHESTER",
+          "WESTCHESTER",
+      "EAST LYME",
+          "FLANDERS",
+          "NIANTIC",
+      "FRANKLIN",
+      "GRISWOLD",
+          "JEWETT CITY",
+          "HOPEVILLE",
+          "GLASGO",
+          "PACHAUG",
+      "GROTON",
+          "GROTON LONG POINT",
+          "LONG HILL",
+          "MYSTIC",
+          "NOANK",
+          "POQUONOCK BRIDGE",
+      "LEBANON",
+      "LEDYARD",
+          "GALES FERRY",
+          "LEDYARD CENTER",
+      "LISBON",
+      "LYME",
+      "MONTVILLE",
+          "CHESTERFIELD",
+          "MOHEGAN",
+          "OAKDALE",
+          "OXOBOXO RIVER",
+          "UNCASVILLE",
+      "NORTH STONINGTON",
+      "OLD LYME",
+      "PRESTON",
+          "POQUETANUCK",
+          "PRESTON CITY",
+      "SALEM",
+      "SPRAGUE",
+          "BALTIC",
+      "STONINGTON",
+          "PAWCATUCK",
+          "MYSTIC",
+          "OLD MYSTIC",
+      "VOLUNTOWN",
+      "WATERFORD",
+          "QUAKER HILL",
+          
+      // Middlesex County
+      "EAST HADDAM",
+      "E HADDAM",
+          "MOODUS",
+      
+      // Tolland County
+      "HEBRON",
+          
+      // Worcester County, MA
+      "WEBSTER"
   );
+  
+  private static final Properties CITY_ST_TABLE = buildCodeTable(new String[]{
+      "WEBSTER",    "MA"
+  });
 }
