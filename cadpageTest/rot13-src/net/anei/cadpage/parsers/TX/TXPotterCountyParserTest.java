@@ -7,7 +7,6 @@ vzcbeg bet.whavg.Grfg;
 /*
 Cbggre Pbhagl, GK
 
-
 Pbagnpg: Npgvir911
 Ntrapl anzr: Pvgl bs Nznevyyb - NRPP
 Ybpngvba: Nznevyyb, GK, Havgrq Fgngrf

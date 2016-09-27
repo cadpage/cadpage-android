@@ -110,9 +110,9 @@ EP:OYF//Jrfg Uvyyf Urnygu & Eruno/308J/ZBBA GBJAFUVC/Eha# 9615/Ha-Fpurqhyrq/<CEB
 
 */
 
-choyvp pynff CNInyyrlNzoCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff CNNyyrturalPbhaglPCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp CNInyyrlNzoCnefreGrfg() {
+  choyvp CNNyyrturalPbhaglPCnefreGrfg() {
     frgCnefre(arj QhzzlCnefre(), "", "CN");
   }
   
@@ -122,6 +122,6 @@ choyvp pynff CNInyyrlNzoCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
 
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj CNInyyrlNzoCnefreGrfg().trarengrGrfgf("G1");
+    arj CNNyyrturalPbhaglPCnefreGrfg().trarengrGrfgf("G1");
   }
 }
