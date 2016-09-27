@@ -156,6 +156,7 @@
     <string name="pref_last_gcm_event_time_key">last_gcm_event_time</string>
     <string name="pref_last_gcm_event_type_key">last_gcm_event_type</string>
     <string name="pref_restore_vol">restore_vol</string>
+    <string name="pref_restore_mode">restore_mode</string>
     <string name="pref_use_old_gcm">use_old_gcm</string>
     <string name="pref_prev_meid_key">prev_meid</string>
     <string name="pref_transfer_flag_key">transfer_flag</string>

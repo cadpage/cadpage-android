@@ -1252,6 +1252,14 @@ public class ManagePreferences {
     prefs.putInt(R.string.pref_restore_vol, newVal);
   }
   
+  public static int restoreMode() {
+    return prefs.getInt(R.string.pref_restore_mode, -1);
+  }
+  
+  public static void setRestoreMode(int newVal) {
+    prefs.putInt(R.string.pref_restore_mode, newVal);
+  }
+  
   public static boolean useOldGcm() {
     return prefs.getBoolean(R.string.pref_use_old_gcm);
   }
