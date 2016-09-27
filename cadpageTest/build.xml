@@ -83,7 +83,10 @@
         <arg line="config --local core.editor ${EDITOR}"/>
       </exec>
       <exec executable="git">
-          <arg line="commit -a"/>
+        <arg line="add --all"/>
+      </exec>
+      <exec executable="git">
+        <arg line="commit"/>
       </exec>
       <exec executable="git">
         <arg line="config --local --unset core.editor"/>
