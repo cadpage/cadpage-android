@@ -208,7 +208,8 @@ public class ManageParsers {
         "KYRockcastleCounty", "KYRockCastleCounty",
         "OHLimaCounty",       "OHLima",
         "VAAlbermarleCounty", "VAAlbemarleCounty",       // 06/27/2016
-        "SCAndersonCountyD",  "SCCharlestonCountyB"      // 08/31/2016
+        "SCAndersonCountyD",  "SCCharlestonCountyB",     // 08/31/2016
+        "TXSanMarcosCounty",  "TXHaysCountyC"            // 09/28/2016
   });
 
 }
