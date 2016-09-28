@@ -1364,7 +1364,6 @@ public class ParserList {
               ,"TXRosenberg"                    ,"Rosenberg, TX"
               ,"TXRoyseCity"                    ,"Royse City, TX"
               ,"TXRuskCounty"                   ,"Rusk County, TX"
-              ,"TXSanMarcosCounty"              ,"San Marcos County, TX"
               ,"TXSeabrook"                     ,"Seabrook, TX"
               ,"TXSeguin"                       ,"Seguin, TX"
               ,"TXSmithCounty"                  ,"Smith County, TX"

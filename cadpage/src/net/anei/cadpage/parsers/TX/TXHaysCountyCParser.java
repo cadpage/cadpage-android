@@ -6,9 +6,9 @@ import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
  * San Marcos County, TX
  */
 
-public class TXSanMarcosCountyParser extends DispatchA27Parser {
+public class TXHaysCountyCParser extends DispatchA27Parser {
   
-  public TXSanMarcosCountyParser() {
+  public TXHaysCountyCParser() {
     super("SAN MARCOS COUNTY", "TX", "\\d{8}|[A-Z]+\\d+");
   }
   
