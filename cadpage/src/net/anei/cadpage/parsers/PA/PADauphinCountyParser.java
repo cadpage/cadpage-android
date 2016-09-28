@@ -17,13 +17,14 @@ public class PADauphinCountyParser extends FieldProgramParser {
   private static final Pattern SRC_PTN = Pattern.compile("^(\\d{7}) +");
   private static final Pattern WEST_HANOVER_PTN = Pattern.compile("(\\d{6}) - (\\d\\d?/\\d\\d?/\\d{4} \\d\\d?:\\d\\d:\\d\\d [AP]M) - (.*) - West Hanover", Pattern.DOTALL);
   private static final DateFormat DATE_TIME_FMT = new SimpleDateFormat("MM/dd/yyyy hh:mm:ss aa");
-  private static final Pattern SPECIAL_PTN = Pattern.compile("([-A-Z0-9]+) +(2ND DISPATCH|ER(?: WITH \\d)?(?!.*BOX:)) (.*)");
+  private static final Pattern SPECIAL_PTN = Pattern.compile("([-A-Z0-9]+) +(2ND DISPATCH|ER(?: WITH \\d)?)(?!.*BOX:) (.*)");
   
   private String selectValue = "";
   
   public PADauphinCountyParser() {
     super(CITY_CODES, "DAUPHIN COUNTY", "PA",
-           "( SELECT/SPECIAL UNIT CALL ADDR/S! | UNIT_CALL EVENT:ID? Box:BOX! Loc:ADDR/S XSts:X Event_Type:CALL Class:PRI Disp:UNIT )", FLDPROG_IGNORE_CASE);
+           "( SELECT/SPECIAL UNIT CALL ADDR/S4! | UNIT_CALL EVENT:ID? Box:BOX! Loc:ADDR/S4 XSts:X Event_Type:CALL Class:PRI Disp:UNIT )", FLDPROG_IGNORE_CASE);
+    setupCities(CITY_LIST);
     
     // BLDG is a suffix???
     removeWords("BLDG");
@@ -32,7 +33,7 @@ public class PADauphinCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@c-msg.net,donotreply-911@dauphinc.org";
+    return "@c-msg.net,donotreply-911@dauphinc.org,messaging@iamresponding.com,pagermail@verizon.net";
   }
 
   @Override
@@ -106,31 +107,45 @@ public class PADauphinCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern ADDR_SPLIT_PTN = Pattern.compile("[:\n]");
+  private static final Pattern ADDR_APT_PTN = Pattern.compile("(.*),(\\d+[A-Z]?|[A-Z])");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      String apt = "";
-      while (true) {
-        int pt = field.lastIndexOf(':');
-        if (pt < 0) break;
-        String place = field.substring(pt+1).trim();
-        field = field.substring(0,pt).trim();
+      
+      field = stripFieldStart(field, "/");
+      
+      for (String part : ADDR_SPLIT_PTN.split(field)) {
+        part = part.trim();
+        if (part.length() == 0) continue;
         
-        if (place.startsWith("APT")) {
-          place = place.substring(3).trim();
-          pt = place.indexOf('@');
-          if (pt >= 0) {
-            data.strPlace = append(place.substring(pt+1).trim(), " - ", data.strPlace);
-            place = place.substring(0,pt).trim();
-          }
-          apt = append(place, "-", apt);
-        } else {
-          if (place.startsWith("@")) place = place.substring(1).trim();
-          data.strPlace = append(place, " - ", data.strPlace);
+        String apt = null;
+        Matcher match = ADDR_APT_PTN.matcher(part);
+        if (match.matches()) {
+          part = match.group(1).trim();
+          apt = match.group(2);
         }
+        
+        if (data.strAddress.length() == 0) {
+          part = stripFieldStart(part, "@");
+          if (data.strCity.length() > 0) part = stripFieldStart(part, "SCHUYLKILL");
+          parseAddress(StartType.START_ADDR, FLAG_EMPTY_ADDR_OK | FLAG_ANCHOR_END, part, data);
+        } 
+        
+        else if (part.startsWith("APT")) {
+          part = part.substring(3).trim();
+          int pt = part.indexOf('@');
+          if (pt >= 0) {
+            data.strPlace = append(data.strPlace, " - ", part.substring(pt+1).trim());
+            part = part.substring(0,pt).trim();
+          }
+          data.strApt = append(data.strApt, "-", part);
+        } else {
+          data.strPlace = append(data.strPlace, " - ", stripFieldStart(part, "@"));
+        }
+        
+        if (apt != null) data.strApt = append(data.strApt, "-", apt);
       }
-      super.parse(field, data);
-      data.strApt = append(data.strApt, "-", apt);
     }
     
     @Override
@@ -186,8 +201,10 @@ public class PADauphinCountyParser extends FieldProgramParser {
     return super.getField(name);
   }
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-                   
+  private static final Properties CITY_CODES = new Properties();
+  static {
+    String key = null;
+    for (String val : new String[]{
       "BEB DAUP",  "BERRYSBURG",
       "CWT DAUP",  "CONEWAGO TWP",
       "DAB DAUP",  "DAUPHIN",
@@ -230,22 +247,25 @@ public class PADauphinCountyParser extends FieldProgramParser {
       "WYT DAUP",  "WAYNE TWP",
 
       // Cumberland County
+      "CMPH CUMB", "CAMP HILL",
       "EPEN CUMB", "EAST PENNSBORO TWP",
+      "LMYN CUMB", "LEMOYNE",
+      "MSXT CUMB", "MIDDLESEX TWP",
       "SVSP CUMB", "SILVER SPRING TWP",
       
       // Lancaster County
       "EDON LANC", "EAST DONEGAL TWP",
       "EZAB LANC", "ELIZABETHTOWN",
       "MTJT LANC", "MT JOY TWP",
+      "WDON LANC", "WEST DONEGAL TWP",
       
       // Lebanon County
       "ANVL LEBA", "ANNVILLE TWP",
       "CLNA LEBA", "CLEONA",
       "EHAN LEBA", "EAST HANOVER TWP",
       "NLON LEBA", "NORTH LONDONDERRY TWP",
+      "PALM LEBA", "PALMYRA",
       "SLON LEBA", "SOUTH LONDONDERRY TWP",
-      
-      "LEBA EHAN", "EAST HANOVER TWP",
       
       // Northumberland County
       "JKST NORT", "JACKSON TWP",
@@ -257,7 +277,23 @@ public class PADauphinCountyParser extends FieldProgramParser {
       "DUNC PERR", "DUNCANNON",
       "MARY PERR", "MARYSVILLE",
       "RYET PERR", "RYE TWP",
-      "WTFD PERR", "WHEATFIELD TWP"
-
-  });
+      "WTFD PERR", "WHEATFIELD TWP",
+      
+      // Schuylkill County
+      "TREM SCKH", "TREMONT"
+    }) {
+      if (key == null) {
+        key = val;
+      } else {
+        CITY_CODES.put(key, val);
+        int pt = key.indexOf(' ');
+        if (pt >= 0) CITY_CODES.put(key.substring(0,pt), val);
+        key = null;
+      }
+    }
+  }
+  
+  private static final String[] CITY_LIST = new String[]{
+    "HUBLEY TWP"
+  };
 }
