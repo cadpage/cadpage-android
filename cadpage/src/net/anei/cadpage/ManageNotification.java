@@ -239,10 +239,22 @@ public class ManageNotification {
     
     // If a restore volume is already set, assume that we have already
     // forced maximum volume and do nothing
+    int restoreMode = ManagePreferences.restoreMode();
     int restoreVol = ManagePreferences.restoreVol();
-    if (restoreVol < 0) {
+    if (restoreMode < 0 && restoreVol < 0) {
       
-      // Otherwise get the max and current volume for the music stream
+      // Otherwise set the ringer mode to normal if it isn't there already
+      // This does not seem to be necessary under lollipop and up
+      
+      if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+        int curMode = am.getRingerMode();
+        if (curMode != AudioManager.RINGER_MODE_NORMAL) {
+          am.setRingerMode(AudioManager.RINGER_MODE_NORMAL);
+          ManagePreferences.setRestoreMode(curMode);
+        }
+      }
+      
+      // And get the max and current volume for the notification stream
       // If they are not equal, save the current stream volume and set
       // it to the max value
       int maxVol = am.getStreamMaxVolume(AudioManager.STREAM_NOTIFICATION);
@@ -515,19 +527,26 @@ public class ManageNotification {
   }
 
   private static void restoreVolumeControl(Context context) {
+
+    AudioManager am = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
+
+    // If restore mode has been set, restore that ringer mode
+    int mode = ManagePreferences.restoreMode();
+    if (mode >= 0) {
+      am.setRingerMode(mode);
+      ManagePreferences.setRestoreMode(-1);
+    }
     
     // If a restore volume level has been set, restore the volume to that level
     //  and delete the restore volume level
     int vol = ManagePreferences.restoreVol();
     if (vol >= 0) {
-      AudioManager am = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
       am.setStreamVolume(AudioManager.STREAM_NOTIFICATION, vol, 0);
       ManagePreferences.setRestoreVol(-1);
     }
     
     // And release audio focus
     Log.v("Release Audio Focus");
-    AudioManager am = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
     am.abandonAudioFocus(afm);
 
   }
