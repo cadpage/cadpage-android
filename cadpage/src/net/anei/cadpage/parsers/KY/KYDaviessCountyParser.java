@@ -1,21 +1,21 @@
 package net.anei.cadpage.parsers.KY;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchBParser;
+import net.anei.cadpage.parsers.dispatch.DispatchB2Parser;
 
 
-public class KYDaviessCountyParser extends DispatchBParser {
+public class KYDaviessCountyParser extends DispatchB2Parser {
   
-  private static final Pattern US_PTN = Pattern.compile("\\bU +S\\b", Pattern.CASE_INSENSITIVE);
- 
   public KYDaviessCountyParser() {
     super(CITY_LIST, "DAVIESS COUNTY", "KY");
     setupCallList(CALL_LIST);
     setupMultiWordStreets(MWORD_STREET_LIST);
-    setupSaintNames("BENEDICT");
+    setupSaintNames("ALPHONSUS", "ANTHONY", "BENEDICT", "JOSEPH", "LAWRENCE");
+    removeWords("STREET");
   }
   
   @Override
@@ -23,51 +23,172 @@ public class KYDaviessCountyParser extends DispatchBParser {
     return "911-CENTER,911CENTRAL,2002";
   }
   
+  private static final Pattern MARKER = Pattern.compile("911-CENTER:|911CENTRAL:");
+  private static final Pattern FIXED_ATTMO_PTN = Pattern.compile("\\bFIXED ATTMO (\\d{10}) OPT\\d\\b");
+  private static final Pattern US_PTN = Pattern.compile("\\bU +S\\b", Pattern.CASE_INSENSITIVE);
+  
+  private boolean marker;
+  
   @Override
   protected boolean parseMsg(String body, Data data) {
     
+    // Check for prefix
+    Matcher match = MARKER.matcher(body);
+    marker = match.lookingAt();
+    if (marker) body = body.substring(match.end()).trim();
+    
+    // Clean up weird phone number
+    match = FIXED_ATTMO_PTN.matcher(body);
+    body = match.replaceFirst("$1");
+    
     // These are the only folks I know who split up US highway prefixes
     body = US_PTN.matcher(body).replaceAll("US");
+    body = body.replace('\n', ' ');
     return super.parseMsg(body, data);
   }
   
   @Override
   protected boolean isPageMsg(String body) {
-    if (body.startsWith("911-CENTER:") || body.startsWith("911CENTRAL")) return true;
+    if (marker) return true;
     if (body.contains(" Cad:")) return true;
     return super.isPageMsg(body);
   }
   
   private static final String[] MWORD_STREET_LIST = new String[]{
+      "5TH STREET",
+      "ADABURG TOWER",
+      "ALVEY BRIDGE",
+      "ARLINGTON PARK",
+      "AUTUMN VALLEY",
+      "BEN FORD",
+      "BEN HEAD",
       "BETHEL CHURCH",
+      "BOLD FORBES",
+      "BOLLING HEIGHTS",
+      "BOOTH FIELD",
+      "BRATCHER HILL",
+      "BROWNS VALLEY-RED HILL",
+      "CHELSEY PARK",
+      "CHESTNUT GROVE",
+      "CHUCK GRAY",
+      "CLUB GROUNDS",
+      "COVINGTON RIDGE",
       "CRANE POND",
+      "DARK STAR",
+      "DEANFIELD CHURCH",
       "DEER TRAIL",
+      "DINNER BELL",
+      "DONALD RALPH",
+      "ED FOSTER",
+      "ELLIS SMEATHERS",
+      "FERN HILL",
+      "FREE SILVER",
+      "FRENCH ISLAND",
+      "GIBSON MILL",
+      "GOBLER FORD",
+      "GRIFFITH STATION",
+      "GULF STREAM",
+      "HALL SCHOOL",
+      "HARBOR HILLS",
       "HARMONS FERRY",
       "HARVEST HILL",
       "HAYDEN BRIDGE",
+      "HAYDEN PARK",
+      "HAYNES STATION",
       "HEARTLAND CROSSING",
+      "HICKORY LAKE",
+      "HIDDEN VALLEY",
       "HIGHLAND POINTE",
       "HILL BRIDGE",
+      "HURRICANE ISLAND",
+      "INDIAN CREEK",
+      "INDIAN HILL",
+      "ISAAC SHELBY",
       "J R MILLER",
+      "JACK HINTON",
+      "JOE HAYNES",
+      "KARNS GROVE",
+      "KELLY CEMETERY",
+      "KIDRON VALLEY",
+      "KINGFISHER LAKE",
+      "KINGS MILL",
+      "KNOTSVILLE-MOUNT ZION",
+      "KNOTTSVILLE-MOUNT ZION",
+      "KNOTTSVILLE-MT ZION",
+      "LAKE FOREST",
+      "LEE RUDY",
       "LEGION PARK",
+      "LITTLE FLOCK CEMETERY",
+      "LITTLE HICKORY",
+      "LOCUST GROVE",
+      "LONESOME PINE",
+      "LUTHER TAYLOR",
+      "LYDDANE BRIDGE",
       "M L KING JR",
+      "MAIN CROSS",
+      "MAPLE HEIGHTS",
       "MARTIN LUTHER KING JR",
+      "MARY JO",
+      "MASONVILLE HABIT",
+      "MEADOW DROVE",
+      "MILLER MURPHY",
       "MILLERS MILL",
       "MT MORIAH",
+      "MT VERNON",
+      "MYLES SCHOOL",
+      "MYRON HOWARD",
       "PANTHER CREEK PARK",
       "PARK PLAZA",
+      "PARRISH PLAZA",
+      "PLEASANT GROVE",
+      "PLEASANT POINT",
+      "PLEASANT RIDGE",
       "PLEASANT VALLEY",
+      "POPLAR LOG BRIDGE",
+      "PUP CREEK",
       "RED HILL-MAXWELL",
+      "RED MILE",
+      "ROBY LEASE",
+      "ROCKPORT FERRY",
+      "RONNIE LAKE",
+      "ROSE HILL",
+      "ROY WELLS",
+      "SAINT LAWRENCE",
+      "SAN ANITA",
+      "SAN JUAN",
+      "SHORT STATION",
+      "SOUTH HAMPTON",
       "SPRING CREEK",
+      "SPRING HAVEN",
       "ST ANN",
+      "ST ANTHONY",
+      "ST JOSEPH",
+      "ST LAWRENCE",
+      "STANLEY-BIRK CITY",
+      "SUGAR GROVE CHURCH",
       "SUMMER POINT",
+      "TEN OAKS",
+      "THRUSTON DERMONT",
       "TIMBER RIDGE",
+      "TODD BELL",
       "TODD BRIDGE",
+      "TOLER BRIDGE",
       "TOWNE SQUARE",
       "TWENTY GRAND",
+      "WATER WHEEL",
       "WAYNE BRIDGE",
       "WENDELL FORD",
-      "WINNING COLORS"
+      "WEST LOUISVILLE",
+      "WHISPERING MEADOWS",
+      "WILLIAM H NATCHER",
+      "WINDY HILL",
+      "WINDY HOLLOW",
+      "WINKLER-MT ZION",
+      "WINNING COLORS",
+      "WOOD BROOK",
+      "WRIGHTS LANDING",
+      "ZION CHURCH"
+
   };
   
   private static final CodeSet CALL_LIST = new CodeSet(
@@ -275,9 +396,52 @@ public class KYDaviessCountyParser extends DispatchBParser {
   );
   
   private static final String[] CITY_LIST = new String[]{
-      "HARTFORD",
       "OWENSBORO",
-      "PHILPOT",
+
+      "WEST DAVIESS",
+
+      "CURDSVILLE",
+      "DELAWARE",
+      "MOSELEYVILLE",
+      "PANTHER",
+      "PETTIT",
+      "ROME",
+      "SAINT JOSEPH",
+      "SORGHO",
+      "STANLEY",
+      "SUTHERLAND",
+      "TUCK",
       "UTICA",
+      "WEST LOUISVILLE",
+
+      "EAST DAVIESS",
+
+      "DERMONT",
+      "ENSOR",
+      "HABIT",
+      "KNOTTSVILLE",
+      "MACEO",
+      "MASONVILLE",
+      "PHILPOT",
+      "THRUSTON",
+      "WHITESVILLE",
+      "YELVINGTON",
+      
+      // Hancock County
+      "HANCOCK COUNTY",
+      "HANCOCK CO",
+      "HAWESVILLE",
+      "LEWISPORT",
+      
+      // Mclean County
+      "MCLEAN COUNTY",
+      "MCLEAN CO",
+      "CALHOUN",
+      
+      // Ohio County
+      "OHIO COUNTY",
+      "OHIO CO",
+      "HARTFORD",
+      "REYNOLDS STATION"
   };
 }
