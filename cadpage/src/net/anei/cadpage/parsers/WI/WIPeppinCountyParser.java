@@ -4,7 +4,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA27Parser;
 
 /**
- * Dodge County, MN
+ * Peppin County, WI
  */
 
 public class WIPeppinCountyParser extends DispatchA27Parser {

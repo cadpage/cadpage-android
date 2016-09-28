@@ -1,24 +1,11 @@
 package net.anei.cadpage.parsers.IL;
 
-import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchShieldwareParser;
+import net.anei.cadpage.parsers.GroupBestParser;
 
-
-
-public class ILWoodfordCountyParser extends DispatchShieldwareParser {
+public class ILWoodfordCountyParser extends GroupBestParser {
   
   public ILWoodfordCountyParser() {
-    super("WOODFORD COUNTY", "IL");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "woodford911@mchsi.com";
-  }
-  
-  @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Woodford Comm")) return false;
-    return super.parseMsg(body, data);
+    super(new ILWoodfordCountyAParser(), new ILWoodfordCountyBParser());
+
   }
 }
