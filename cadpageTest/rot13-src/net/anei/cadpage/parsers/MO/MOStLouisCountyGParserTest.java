@@ -116,7 +116,7 @@ Fraqre: <Xvexjbbq@Xvexjbbqzb.bet>
 choyvp pynff ZBFgYbhvfPbhaglTCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp ZBFgYbhvfPbhaglTCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "FG YBHVF PBHAGL", "ZB");
+    frgCnefre(arj ZBFgYbhvfPbhaglTCnefre(), "FG YBHVF PBHAGL", "ZB");
   }
   
   @Grfg

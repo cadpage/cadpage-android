@@ -235,7 +235,7 @@ choyvp pynff ZAZbjrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY: Genssvp;NQQE: V-90 JO / 11GU QE AR;PVGL: NHFGVA;VQ: PRA201639509;CEV: Zrqvhz",
         "PNYY:Genssvp",
         "NQQE:V-90 JO & 11GU QE AR",
-        "ZNQQE:V 90 & 11GU QE AR",
+        "ZNQQE:V 90 & 11GU QE AR",  //vg zncf lnl
         "PVGL:NHFGVA",
         "VQ:PRA201639509",
         "CEV:Zrqvhz");
@@ -244,7 +244,7 @@ choyvp pynff ZAZbjrePbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY: Nppvqrag-Zbgbe Iruvpyr - Vawhel;NQQE: PB EQ 8 / 2AQ FG;PVGL: TENAQ ZRNQBJ;VQ: PRA201639490",
         "PNYY:Nppvqrag-Zbgbe Iruvpyr - Vawhel",
         "NQQE:PB EQ 8 & 2AQ FG",
-        "ZNQQE:PBHAGL EBNQ 8 & 2AQ FG",
+        "ZNQQE:PBHAGL EBNQ 8 & 2AQ FG",  //qbrf abg znc :/
         "PVGL:TENAQ ZRNQBJ",
         "VQ:PRA201639490");
 
