@@ -523,13 +523,6 @@ public class ManageNotification {
   private static void restoreVolumeControl(Context context) {
 
     AudioManager am = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
-
-    // If restore mode has been set, restore that ringer mode
-    int mode = ManagePreferences.restoreMode();
-    if (mode >= 0) {
-      am.setRingerMode(mode);
-      ManagePreferences.setRestoreMode(-1);
-    }
     
     // If a restore volume level has been set, restore the volume to that level
     //  and delete the restore volume level
@@ -537,6 +530,13 @@ public class ManageNotification {
     if (vol >= 0) {
       am.setStreamVolume(AudioManager.STREAM_NOTIFICATION, vol, 0);
       ManagePreferences.setRestoreVol(-1);
+    }
+
+    // If restore mode has been set, restore that ringer mode
+    int mode = ManagePreferences.restoreMode();
+    if (mode >= 0) {
+      am.setRingerMode(mode);
+      ManagePreferences.setRestoreMode(-1);
     }
     
     // And release audio focus

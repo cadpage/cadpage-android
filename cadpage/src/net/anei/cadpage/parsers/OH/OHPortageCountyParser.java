@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.OH;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.GroupBestParser;
+import net.anei.cadpage.parsers.GroupBlockParser;
 
 /*
  * Portage County, OH
@@ -12,7 +13,8 @@ public class OHPortageCountyParser extends GroupBestParser {
   
   public OHPortageCountyParser() {
     super(new OHPortageCountyAParser(), new OHPortageCountyBParser(), new OHPortageCountyCParser(),
-        new OHPortageCountyDParser());
+        new OHPortageCountyDParser(), 
+        new GroupBlockParser(), new OHPortageCountyCencommParser());
   }
   
   static String fixMapAddress(String addr) {
