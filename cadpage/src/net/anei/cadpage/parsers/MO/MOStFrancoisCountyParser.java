@@ -16,7 +16,7 @@ public class MOStFrancoisCountyParser extends DispatchCiscoParser {
   
   @Override
   public String getFilter() {
-    return "IPN.9999900138@ipnpaging.com";
+    return "IPN.9999900138@ipnpaging.com,sfc_cad@sfc911.org";
   }
   
   @Override
