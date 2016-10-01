@@ -1776,7 +1776,7 @@ Jbegu Pbhagl, VN (VNJbeguPbhaglCnefre)
 {Qvfcngpu vasb} Ercbegrq: 12/09/2015 15:14:13\a 15-029635 IRUVPYR SVER \a Ybp: 777 QVNZBAQ WB YA ABEGUJBBQ,VN 50459 \a JURRYREJBBQ EQ /  JURRYREJBBQ EQ \a QVNZBAQ WB PNFVAB \a 7 9ASQ  \a 
 {Qvfcngpu vasb} Ercbegrq: 12/09/2015 06:36:36\a 15-029624 ZRQVPNY PNYY  NZOHYNAPR ERD \a Ybp: 106 3EQ FG A ABEGUJBBQ,VN 50459 \a 1FG NIR A / 2AQ NIR A \a 10 9ASQ ZPN  \a 
 ***************************************************************************
-Jbbqsbeq Pbhagl, VY (O) (VYJbbqsbeqPbhaglOCnefre) 
+Jbbqsbeq Pbhagl, VY (VYJbbqsbeqPbhaglCnefre) 
 {Jbbqsbeq Pbzz} Ercbegrq: 08/09/2016 08:04:30\a 16-021339 NZOHYNAPR PNYY \a Ybp: 500 UVTUIVRJ EVQT JNFUOHEA,VY 61570 \a GREENPR YA / QRNQ RAQ JRFG \a 1I32  \a 
 {Jbbqsbeq Pbzz} Ercbegrq: 08/08/2016 06:21:54\a 16-021261 NZOHYNAPR PNYY \a Ybp: 454 R CNEXFVQR QE JNFUOHEA,VY 61570 \a F TNESVRYQ FG / F SENAPVF FG \a 1I32  \a 
 {Jbbqsbeq Pbzz} Ercbegrq: 08/01/2016 18:11:34\a 16-020731 NZOHYNAPR PNYY \a Ybp: 210 R JNYAHG FG JNFUOHEA,VY 61570 \a A ZNQVFBA FG / F CNEX FG \a 1I15  \a 
@@ -3916,11 +3916,6 @@ OHEAF (FPNYQF) / RKCYBFVBA - SVER NYNEZ (HAXABJA FVGHNGVBA) pbqr: 7-N-2 ng: 11 O
 * QvfcngpuFuvryqjnerCnefre fhopynffrf
 *******************************************************************************
 *******************************************************************************
-Jbbqsbeq Pbhagl, VY (VYJbbqsbeqPbhaglNCnefre)
-(Jbbqsbeq Pbzz) 11-022625 BQBE BS ANGHENY TNF\a411 J SEBAG FG\aA A CY /  A TERRA FG/\aPNFRLF BS EBNABXR  EBNABXR\a1I14 EBSQ JS27
-[Jbbqsbeq Pbzz]  11-015377 SVER\a1936 1400A\a1900R / 2000R/\aEBNABXR\a1I24 EBSQ
-[Jbbqsbeq Pbzz]  11-014297 NZOHYNAPR PNYY\a304 A SENAXYVA FG\aJ QNIVFBA FG / J OEB/NQ FG\aEBNABXR\a1I24 EBSQ
-***************************************************************************
 Zhfpngvar Pbhagl, VN (VNZhfpngvarPbhaglCnefre)
 .... (ASQ) 12-001870 ZRQVPNY \a1089 180GU FG \aNGJBBQ NIR / ONAPEBS/G NIR \aAVPUBYF \aASE JYNO
 .... (ASQ) 11-052885 NPPVQRAG-CV\aVWRZ NIR/ ZNVA FG\aAVPUBYF\aASQ ASE

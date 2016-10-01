@@ -17,7 +17,7 @@ public class DispatchA47Parser extends FieldProgramParser {
   
   public DispatchA47Parser(String subjectMarker, String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState,
-          "( Reported:DATETIME! ID_CALL! Loc:ADDR/S! | ID_CALL! Reported:DATETIME! ADDR/S! ) ( UNIT END | X? PLACE? UNIT% END )");
+          "( Reported:DATETIME! ID_CALL! Loc:ADDR/S! | ID_CALL! Reported:DATETIME? ADDR/S! ) ( UNIT END | X? PLACE? UNIT% END )");
     this.subjectMarker = subjectMarker;
   }
   
