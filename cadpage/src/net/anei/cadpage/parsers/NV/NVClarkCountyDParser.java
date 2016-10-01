@@ -18,7 +18,7 @@ public class NVClarkCountyDParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "sms@pageway.net,44627545";
+    return "alert@epageit.net,sms@pageway.net,44627545";
   }
   
   private static final Pattern RUN_REPORT_PTN = Pattern.compile("Unit:(\\S+)(Rec:.*)");
