@@ -19,7 +19,7 @@ public class VAHenryCountyParser extends DispatchSouthernParser {
 
   @Override
   public String getFilter() {
-    return "MHC911@co.henry.va.us,Henrycova911@co.henry.va.us";
+    return "@co.henry.va.us";
   }
   
   private static final Pattern UNIT_PRI_PTN = Pattern.compile(" +([A-Z0-9]+)-\\((\\d)\\) +");
@@ -66,6 +66,7 @@ public class VAHenryCountyParser extends DispatchSouthernParser {
         data.strCall = info.substring(0,pt);
       }
     }
+    data.strCall = stripFieldStart(data.strCall, "-");
     
     // See if we can find a priority in front of what is left
     if ((match = LEAD_PRIORITY_PTN.matcher(data.strSupp)).find()) {
