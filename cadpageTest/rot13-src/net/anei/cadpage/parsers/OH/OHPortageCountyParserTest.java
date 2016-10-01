@@ -31,4 +31,10 @@ choyvp pynff BUCbegntrPbhaglCnefreGrfg {
     }
   } 
   
+  choyvp fgngvp pynff GrfgPrapbzz rkgraqf BUCbegntrPbhaglPrapbzzCnefreGrfg {
+    choyvp GrfgPrapbzz() {
+      frgCnefre(arj BUCbegntrPbhaglCnefre());
+    }
+  } 
+  
 }

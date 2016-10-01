@@ -13,7 +13,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  */
 public class CAMontereyCountyAParser extends MsgParser {
   
-  private static final Pattern MASTER = Pattern.compile("(?:(.*?) - )?([A-Z]{2,5}):(.*?) - (.*?)(?: - ([A-Z]{3}))? *(?:Units?:(.*?))?");
+  private static final Pattern MASTER = Pattern.compile("(?:(.*?) - )?([A-Z0-9]{2,6}):(.*?) - (.*?)(?: - ([A-Z]{3}))? *(?:Units?:(.*?))?");
   
   public CAMontereyCountyAParser() {
     super("MONTEREY COUNTY", "CA");
@@ -22,7 +22,7 @@ public class CAMontereyCountyAParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "donotreply@co.monterey.ca.us,donotreply@co.monterey";
+    return "donotreply@co.monterey.ca.us,donotreply@co.monterey,MONTEREY911@CO.MONTEREY.CA.US>";
   }
   
   @Override

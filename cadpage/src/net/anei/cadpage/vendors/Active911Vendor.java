@@ -789,6 +789,7 @@ class Active911Vendor extends Vendor {
       "US/MO/ShelbyCounty",               "MOShelbyCounty",
       "US/MO/SouthernBoone",              "MOBooneCounty",
       "US/MO/StCharlesCounty",            "MOStCharlesCounty",
+      "US/MO/StFrancoisCounty",           "MOStFrancoisCounty",
       "US/MO/StLouisCounty",              "MOStLouisCountyC",
       "US/MO/StoddEMS",                   "MOStoddardCounty",
       "US/MO/StoneCounty",                "MOStoneCountyC",

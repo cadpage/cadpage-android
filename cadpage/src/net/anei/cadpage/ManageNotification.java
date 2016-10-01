@@ -5,7 +5,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import android.annotation.TargetApi;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -19,14 +18,12 @@ import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
 import android.media.MediaPlayer.OnErrorListener;
 import android.net.Uri;
-import android.os.Build;
 import android.provider.MediaStore;
 import android.support.v4.app.NotificationCompat;
 
 /*
  * This class handles the Notifications (sounds/vibrate/LED)
  */
-@TargetApi(Build.VERSION_CODES.FROYO)
 public class ManageNotification {
   
   private static final int MAX_PLAYER_RETRIES = 4;
@@ -244,14 +241,11 @@ public class ManageNotification {
     if (restoreMode < 0 && restoreVol < 0) {
       
       // Otherwise set the ringer mode to normal if it isn't there already
-      // This does not seem to be necessary under lollipop and up
-      
-      if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-        int curMode = am.getRingerMode();
-        if (curMode != AudioManager.RINGER_MODE_NORMAL) {
-          am.setRingerMode(AudioManager.RINGER_MODE_NORMAL);
-          ManagePreferences.setRestoreMode(curMode);
-        }
+    
+      int curMode = am.getRingerMode();
+      if (curMode != AudioManager.RINGER_MODE_NORMAL) {
+        am.setRingerMode(AudioManager.RINGER_MODE_NORMAL);
+        ManagePreferences.setRestoreMode(curMode);
       }
       
       // And get the max and current volume for the notification stream
@@ -529,13 +523,6 @@ public class ManageNotification {
   private static void restoreVolumeControl(Context context) {
 
     AudioManager am = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
-
-    // If restore mode has been set, restore that ringer mode
-    int mode = ManagePreferences.restoreMode();
-    if (mode >= 0) {
-      am.setRingerMode(mode);
-      ManagePreferences.setRestoreMode(-1);
-    }
     
     // If a restore volume level has been set, restore the volume to that level
     //  and delete the restore volume level
@@ -543,6 +530,13 @@ public class ManageNotification {
     if (vol >= 0) {
       am.setStreamVolume(AudioManager.STREAM_NOTIFICATION, vol, 0);
       ManagePreferences.setRestoreVol(-1);
+    }
+
+    // If restore mode has been set, restore that ringer mode
+    int mode = ManagePreferences.restoreMode();
+    if (mode >= 0) {
+      am.setRingerMode(mode);
+      ManagePreferences.setRestoreMode(-1);
     }
     
     // And release audio focus

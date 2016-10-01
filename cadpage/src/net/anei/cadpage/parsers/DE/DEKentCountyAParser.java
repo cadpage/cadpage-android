@@ -35,6 +35,9 @@ public class DEKentCountyAParser extends DEKentCountyBaseParser {
     // And variant E pages
     if (body.startsWith("Call Type:")) return false;
     
+    // G pages look a lot like ours, but have \n terminators
+    if (body.contains("\n")) return false;
+    
     // And MDKentCounty pages
     if (body.startsWith("CT:")) return false;
     

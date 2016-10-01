@@ -6,10 +6,10 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   choyvp fgngvp svany Cnggrea ZNFGRE =
-      Cnggrea.pbzcvyr("([-0-9]+) +(Erprvirq: *\\q\\q:\\q\\q *Nffvtarq: *\\q\\q:\\q\\q *Raebhgr: *.*?) *VAP #.*");
+      Cnggrea.pbzcvyr("\\q{4}/\\q\\q/\\q\\q \\q\\q:\\q\\q\\o *(?:[N-M][n-m]+, [N-M][n-m]+\\o *(?:Q\\q+|5W[N-M]+\\o)?)?[ :]*");
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("09112016-420     Erprvirq:18:36Nffvtarq:18:37Raebhgr:     Neevirq:     Cg Pbag:     Qrcneg:     Ubfcvgny:     Ninvynoyr:18:39VAP # -09112016-125221");
+    qbGrfg("2016/09/29 21:30 Fzvgu, Wreel Q5 Srznyr gebhoyr oernguvat");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

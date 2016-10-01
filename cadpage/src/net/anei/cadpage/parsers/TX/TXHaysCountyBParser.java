@@ -11,12 +11,12 @@ public class TXHaysCountyBParser extends FieldProgramParser {
   
   public TXHaysCountyBParser() {
     super("HAYS COUNTY", "TX", 
-          "SRC_ID CALL ADDR CITY_ST BOX INFO1 UNIT EMPTY EMPTY CODE TIME_LOG!");
+          "SRC_ID CALL ADDR CITY_ST BOX INFO1 UNIT GPS1 GPS2 CODE TIME_LOG!");
   }
   
   @Override
   public String getFilter() {
-    return "noreply@cisusa.org";
+    return "noreply@sanmarcostx.gov,noreply@cisusa.org";
   }
   
   @Override
@@ -31,6 +31,8 @@ public class TXHaysCountyBParser extends FieldProgramParser {
     if (name.equals("BOX")) return new BoxField("|Alrm Box +(.*)", true);
     if (name.equals("INFO1")) return new MyInfo1Field();
     if (name.equals("UNIT")) return new UnitField("|Units +(.*)", true);
+    if (name.equals("GPS1")) return new GPSField(1, "|Lat +(.*)", true);
+    if (name.equals("GPS2")) return new GPSField(2, "|Lon +(.*)", true);
     if (name.equals("CODE")) return new CodeField("|Code +(.*)", true);
     if (name.equals("TIME_LOG")) return new MyTimeLogField();
     return super.getField(name);

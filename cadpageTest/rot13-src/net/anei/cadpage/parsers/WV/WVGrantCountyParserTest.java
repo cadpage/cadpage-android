@@ -69,7 +69,7 @@ PNQ:crgrefohet_sq Nf bs 7/26/16 13:15:21 2016-00008382 GRFG - GRFG PNYY 46 FUBOR
 choyvp pynff JITenagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
   choyvp JITenagPbhaglCnefreGrfg() {
-    frgCnefre(arj QhzzlCnefre(), "TENAG PBHAGL", "JI");
+    frgCnefre(arj JITenagPbhaglCnefre(), "TENAG PBHAGL", "JI");
   }
   
   @Grfg

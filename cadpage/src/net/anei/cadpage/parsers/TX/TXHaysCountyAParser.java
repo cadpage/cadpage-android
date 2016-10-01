@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.MsgParser;
 public class TXHaysCountyAParser extends MsgParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("Alarm - (.*?) - (.*)");
-  private static final Pattern MASTER = Pattern.compile("([A-Z0-9]+) RESPOND TO (.*?) (?:\\[(.*) )?FOR (.*?) DET CODE: (.*?)(?: APPARATUS: (.*?))?");
+  private static final Pattern MASTER = Pattern.compile("([A-Z0-9]+) RESPOND TO (.*?) (?:\\[(.*) )?FOR (.*?) DET CODE: *(.*?)(?: APPARATUS: (.*?))?");
   
   public TXHaysCountyAParser() {
     super("HAYS COUNTY", "TX");

@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">09242016</string>
+  <string name="release_date">09282016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.20\n
+New Locations:\n
+New London County, CT (alt)\n
+Kent County, DE (alt)\n
+Cook County, IL (alt)\n
+Clay County, IN\n
+Wabash County, IN\n
+Arenac County, MI\n
+Allen County, KY\n
+Daviess County, KY\n
+Ionia County, MI\n
+Centrailia, MO\n
+Martin County, NC (alt)\n
+Mahoning County, OH (alt)\n
+Portage County, OH (alt)\n
+Dyer County, TN\n
+Navarro County, TX\n
+Douglas County, WI\n
+Peppin County, WI\n
+\n
+Location Fixes:\n
+Dauphin County, PA\n
+Hays County, TX\n
+\n
+General Fixes:\n
+Fixed problem with audio alerts not overridding mute setting\n
+\n
 v1.9.10.19\n
 Location Fixes:\n
 Buffalo, NY\n
@@ -40,14 +67,7 @@ Location Fixes:\n
 Middlesex County, CT\n
 Cypress-Harris, TX\n
 Loudoun County, VA\n
-Jefferson County, WA\n
-\n
-v1.9.10.15\n
-Location Fixes:\n
-Hancock County, IN\n
-Shelby County, IN\n
-MICOM, NJ\n
-Ashtabula County, OH
+Jefferson County, WA
   </string>
 </resources>
   
