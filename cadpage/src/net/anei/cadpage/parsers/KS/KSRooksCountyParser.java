@@ -13,6 +13,4 @@ public class KSRooksCountyParser extends DispatchA25Parser {
   public String getFilter() {
     return "EnterpolCADAlerts@Ruraltel.net";
   }
-
-  
 }

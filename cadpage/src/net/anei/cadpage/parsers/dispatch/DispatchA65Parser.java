@@ -10,7 +10,7 @@ public class DispatchA65Parser extends FieldProgramParser {
   
   public DispatchA65Parser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState, 
-          "CFS:ID! MSG:CALL! CALL/SDS+? EMPTY! EMPTY+? ( SRC! END | CITY? ADDR! APT:APT? CS:X? EMPTY SRC! END )");
+          "CFS:ID! MSG:CALL! CALL/SDS+? EMPTY! EMPTY+? ( SRC! END | CITY? ADDR! APT:APT? CS:X? EMPTY SRC END )");
   }
   
   @Override
