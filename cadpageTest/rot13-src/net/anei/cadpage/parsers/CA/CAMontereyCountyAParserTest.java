@@ -33,7 +33,7 @@ Fraqre: qbabgercyl@pb.zbagrerl.pn.hf
 (PNQ Cntr) 52161N - ZRB:ZRQVPNY RZRETAPL - 43 FCEVAT CBVAG EQ - ZPB Havgf:R5211, 52N
 (PNQ Cntr) 52251N - HVN:HAX VAW NPP - UJL 101/PENML UBEFR PNALBA EQ - CEH Havgf:R5212, ORH, 52I
 
-Pbagnpg: Fhmrggr Tregfpu <ftregfpu310@tznvy.pbz>    ** 9/30/2016 **
+Pbagnpg: Fhmrggr Tregfpu <ftregfpu310@tznvy.pbz>
 Fraqre: qbabgercyl@pb.zbagrerl
 Fraqre: qbabgercyl@pb.zbagrerl.pn.hf
 (PNQ Cntr) TESQ - ZRB:FUBBGVAT IVPGVZ - 39545 RYZ NI - FPB Havg:84N2
