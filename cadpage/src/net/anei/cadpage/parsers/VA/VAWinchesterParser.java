@@ -1,15 +1,12 @@
 package net.anei.cadpage.parsers.VA;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchShieldwareParser;
+import net.anei.cadpage.parsers.dispatch.DispatchA47Parser;
 
-
-
-public class VAWinchesterParser extends DispatchShieldwareParser {
-    
+public class VAWinchesterParser extends DispatchA47Parser {
   
   public VAWinchesterParser() {
-    super(CITY_LIST, "WINCHESTER", "VA");
+    super("Winchester ECC info", CITY_LIST, "WINCHESTER", "VA", "[A-Z]{1,3}\\d{1,3}");
   }
   
   @Override
@@ -20,8 +17,7 @@ public class VAWinchesterParser extends DispatchShieldwareParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (! subject.equals("Winchester ECC info")) return false;
-    if (!super.parseMsg(body, data)) return false;
+    if (!super.parseMsg(subject, body, data)) return false;
     if (data.strPlace.endsWith(" RESIDENCE")) {
       data.strName = data.strPlace.substring(0,data.strPlace.length()-10).trim();
       data.strPlace = "";

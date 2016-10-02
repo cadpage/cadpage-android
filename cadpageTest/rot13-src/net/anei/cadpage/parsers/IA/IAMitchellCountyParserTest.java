@@ -2439,7 +2439,7 @@ choyvp pynff VNZvgpuryyPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:122 J 4GU FG",
         "PVGL:FG NAFTNE",
         "FG:VN",
-        "HAVG:A PRAGRE FG / F SENAXYVA FG");
+        "K:A PRAGRE FG / F SENAXYVA FG");
 
     qbGrfg("G74",
         "{ZPFB qvfcngpu} Ercbegrq: 06/23/2015 11:43:19\a" +

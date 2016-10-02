@@ -93,7 +93,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2005 RNFGJBBQ GRE",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:RIREF FG / EBOREGF NIR");
+        "K:RIREF FG / EBOREGF NIR");
 
     qbGrfg("G2",
         "(Pbzz PSF vasb) Ercbegrq: 05/04/2015 13:18:44\a" +
@@ -111,7 +111,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:SHEZNA / YVAXUNJ",
-        "HAVG:TENPR PBHEG NCNEGZRAGF");
+        "CYNPR:TENPR PBHEG NCNEGZRAGF");
 
     qbGrfg("G3",
         "(Pbzz PSF vasb) Ercbegrq: 05/04/2015 12:28:31\a" +
@@ -128,7 +128,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:PNEGUNTR EQ / EBOREGF NIR",
-        "HAVG:AP YVPRAFR CYNGR NTRAPL");
+        "CYNPR:AP YVPRAFR CYNGR NTRAPL");
 
     qbGrfg("G4",
         "(Pbzz PSF vasb) Ercbegrq: 05/04/2015 12:04:01\a" +
@@ -145,7 +145,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:CVARQNYR OYIQ / BNXEVQTR OYIQ",
-        "HAVG:JBBQUNIRA AHEFVAT & NYMURVZREF PNER PGE");
+        "CYNPR:JBBQUNIRA AHEFVAT & NYMURVZREF PNER PGE");
 
     qbGrfg("G5",
         "(Pbzz PSF vasb) Ercbegrq: 05/04/2015 11:57:59\a" +
@@ -162,7 +162,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:YSQ FG / SNLRGGRIVYYR EQ",
-        "HAVG:YHZOREGBA NFFVFGRQ YVIVAT");
+        "CYNPR:YHZOREGBA NFFVFGRQ YVIVAT");
 
     qbGrfg("G6",
         "(Pbzz PSF vasb) Ercbegrq: 05/04/2015 10:34:51\a" +
@@ -177,7 +177,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:809 R 9GU FG",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:A JVYYBJ FG / FHZZVG NIR");
+        "K:A JVYYBJ FG / FHZZVG NIR");
 
     qbGrfg("G7",
         "(Pbzz PSF vasb) Ercbegrq: 05/04/2015 08:57:48\a" +
@@ -194,7 +194,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:CVARQNYR OYIQ / BNXEVQTR OYIQ",
-        "HAVG:JBBQUNIRA AHEFVAT & NYMURVZREF PNER PGE");
+        "CYNPR:JBBQUNIRA AHEFVAT & NYMURVZREF PNER PGE");
 
     qbGrfg("G8",
         "(Pbzz PSF vasb) Ercbegrq: 05/04/2015 08:45:25\a" +
@@ -211,7 +211,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:SNLRGGRIVYYR EQ / ZRNQBJIVRJ EQ",
-        "HAVG:PNEEVNTR UVYYF NCNEGZRAGF");
+        "CYNPR:PNEEVNTR UVYYF NCNEGZRAGF");
 
     qbGrfg("G9",
         "(Pbzz PSF vasb) Ercbegrq: 05/04/2015 08:38:08\a" +
@@ -226,7 +226,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:441 PBHAGEL PYHO EQ",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:PNGBA EQ / URNYGU QRCG EQ");
+        "K:PNGBA EQ / URNYGU QRCG EQ");
 
     qbGrfg("G10",
         "(Pbzz PSF vasb) Ercbegrq: 05/04/2015 04:51:32\a" +
@@ -241,7 +241,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:311 R 15GU FG",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:A JNYAHG FG / A CVAR FG");
+        "K:A JNYAHG FG / A CVAR FG");
 
     qbGrfg("G11",
         "(Pbzz PSF vasb) Ercbegrq: 05/04/2015 04:44:57\a" +
@@ -256,7 +256,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1115 PUREBXRR FG",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:F EBMVRE FG / F PNEBYVAN NIR");
+        "K:F EBMVRE FG / F PNEBYVAN NIR");
 
     qbGrfg("G12",
         "(Pbzz PSF vasb) Ercbegrq: 05/04/2015 04:37:18\a" +
@@ -271,7 +271,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:2305 TNIVAGBJA EQ",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:EBTREF FG / SHEZNA QE");
+        "K:EBTREF FG / SHEZNA QE");
 
     qbGrfg("G13",
         "(Pbzz PSF vasb) Ercbegrq: 05/04/2015 03:53:15\a" +
@@ -288,7 +288,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:CVARQNYR OYIQ / BNXEVQTR OYIQ",
-        "HAVG:JBBQUNIRA AHEFVAT & NYMURVZREF PNER PGE");
+        "CYNPR:JBBQUNIRA AHEFVAT & NYMURVZREF PNER PGE");
 
     qbGrfg("G14",
         "(Pbzz PSF vasb) Ercbegrq: 05/04/2015 02:50:19\a" +
@@ -303,7 +303,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:721 ZPCUNVY EQ",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:R 5GU FG / EBOREGF NIR");
+        "K:R 5GU FG / EBOREGF NIR");
 
     qbGrfg("G15",
         "(Pbzz PSF vasb) Ercbegrq: 05/03/2015 21:44:57\a" +
@@ -321,7 +321,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:BNX FG / YVAJBBQ NI",
-        "HAVG:OEVNEJBBQ NCNEGZRAGF");
+        "CYNPR:OEVNEJBBQ NCNEGZRAGF");
 
     qbGrfg("G16",
         "(Pbzz PSF vasb) Ercbegrq: 05/03/2015 21:41:54\a" +
@@ -338,7 +338,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:UNJGUBEAR FG / ERAAREG EQ",
-        "HAVG:TYRASYBEN");
+        "CYNPR:TYRASYBEN");
 
     qbGrfg("G17",
         "(Pbzz PSF vasb) Ercbegrq: 05/03/2015 16:17:50\a" +
@@ -355,7 +355,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:F EBOREGF / PBHAGEL FVQR IVYYNTR",
-        "HAVG:NZNAQNF ZBOVYR UBZR CNEX");
+        "CYNPR:NZNAQNF ZBOVYR UBZR CNEX");
 
     qbGrfg("G18",
         "(Pbzz PSF vasb) Ercbegrq: 05/03/2015 16:05:35\a" +
@@ -372,7 +372,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:EBOREGF NIR / PNEGUNTR EQ",
-        "HAVG:ZBGRY 6");
+        "CYNPR:ZBGRY 6");
 
     qbGrfg("G19",
         "(Pbzz PSF vasb) Ercbegrq: 05/03/2015 14:26:16\a" +
@@ -388,7 +388,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:126 JNEJVPX ZVYY EQ",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:EBOREGF NIR / UVTU FG");
+        "K:EBOREGF NIR / UVTU FG");
 
     qbGrfg("G20",
         "(Pbzz PSF vasb) Ercbegrq: 05/03/2015 14:13:12\a" +
@@ -403,7 +403,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1102 FCNAVFU BNX YA",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:BYQ BNX PG / YNHERY BNX YA");
+        "K:BYQ BNX PG / YNHERY BNX YA");
 
     qbGrfg("G21",
         "(Pbzz PSF vasb) Ercbegrq: 05/03/2015 13:00:35\a" +
@@ -420,7 +420,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:CVARQNYR OYIQ / BNXEVQTR OYIQ",
-        "HAVG:JBBQUNIRA AHEFVAT & NYMURVZREF PNER PGE");
+        "CYNPR:JBBQUNIRA AHEFVAT & NYMURVZREF PNER PGE");
 
     qbGrfg("G22",
         "(Pbzz PSF vasb) Ercbegrq: 05/03/2015 11:55:07\a" +
@@ -436,7 +436,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:117 CNEZRYR NIR",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:SERRQBZ QE / QRNQ RAQ RA");
+        "K:SERRQBZ QE / QRNQ RAQ RA");
 
     qbGrfg("G23",
         "(Pbzz PSF vasb) Ercbegrq: 05/03/2015 09:49:44\a" +
@@ -453,7 +453,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:SNLRGGRIVYYR EQ / ZRNQBJIVRJ EQ",
-        "HAVG:UVTUYNAQ NPERF");
+        "CYNPR:UVTUYNAQ NPERF");
 
     qbGrfg("G24",
         "(Pbzz PSF vasb) Ercbegrq: 05/03/2015 09:17:35\a" +
@@ -481,7 +481,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:514 R 15GU FG",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:A PRQNE FG / A FLPNZBER FG");
+        "K:A PRQNE FG / A FLPNZBER FG");
 
     qbGrfg("G26",
         "(Pbzz PSF vasb) Ercbegrq: 05/03/2015 01:43:04\a" +
@@ -498,7 +498,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:SNLRGGRIVYYR EQ / ZRNQBJIVRJ EQ",
-        "HAVG:UVTUYNAQ NPERF");
+        "CYNPR:UVTUYNAQ NPERF");
 
     qbGrfg("G27",
         "(Pbzz PSF vasb) Ercbegrq: 05/03/2015 01:33:15\a" +
@@ -515,7 +515,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:ZYX WE QE / PENAQYRZVRE EQ",
-        "HAVG:SVEFG ONCGVFG UBZRF");
+        "CYNPR:SVEFG ONCGVFG UBZRF");
 
     qbGrfg("G28",
         "(Pbzz PSF vasb) Ercbegrq: 05/03/2015 01:32:10\a" +
@@ -530,7 +530,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:3614 ZRNQBJIVRJ EQ",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:SHEZNA / QRNQ RAQ RA");
+        "K:SHEZNA / QRNQ RAQ RA");
 
     qbGrfg("G29",
         "(Pbzz PSF vasb) Ercbegrq: 05/03/2015 00:59:14\a" +
@@ -547,7 +547,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:FRNYF FG / QRNQ RAQ RA",
-        "HAVG:YBPXYRNE,FURYOL");
+        "CYNPR:YBPXYRNE,FURYOL");
 
     qbGrfg("G30",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 20:54:49\a" +
@@ -563,7 +563,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:49 R NIR",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:PNEBYVAN / WREBZR");
+        "K:PNEBYVAN / WREBZR");
 
     qbGrfg("G31",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 19:29:25\a" +
@@ -579,7 +579,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:3602 ZPZVYYNA NIR",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:J 36GU FG / EBOREGF NIR");
+        "K:J 36GU FG / EBOREGF NIR");
 
     qbGrfg("G32",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 17:32:25\a" +
@@ -594,7 +594,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1923 RNFGJBBQ GRE",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:RIREF FG / EBOREGF NIR");
+        "K:RIREF FG / EBOREGF NIR");
 
     qbGrfg("G33",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 17:21:25\a" +
@@ -611,7 +611,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:EBOREGF NIR /  PNEGUNTR EQ",
-        "HAVG:ZBGRY 6");
+        "CYNPR:ZBGRY 6");
 
     qbGrfg("G34",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 17:20:08\a" +
@@ -628,7 +628,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:FNAPURM QE /  QRNQ RAQ RA",
-        "HAVG:EBORFBA PBHAGL QRGRAGVBA PRAGRE");
+        "CYNPR:EBORFBA PBHAGL QRGRAGVBA PRAGRE");
 
     qbGrfg("G35",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 16:11:36\a" +
@@ -645,7 +645,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:PYVSSEVQTR QE / TNIVAGBJA EQ",
-        "HAVG:PURFGAHG CYNPR NCNEGZRAGF");
+        "CYNPR:PURFGAHG CYNPR NCNEGZRAGF");
 
     qbGrfg("G36",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 13:45:36\a" +
@@ -662,7 +662,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:YNEEL'F UBZRF /  UNEERYY EQ",
-        "HAVG:EBFRJBBQ ZBOVYR UBZR CNEX");
+        "CYNPR:EBFRJBBQ ZBOVYR UBZR CNEX");
 
     qbGrfg("G37",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 13:37:56\a" +
@@ -678,7 +678,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "ZNQQE:304 JVABAN NIR",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:PNYQJRYY FG / WRAXVAF FG");
+        "K:PNYQJRYY FG / WRAXVAF FG");
 
     qbGrfg("G38",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 13:23:33\a 15-017516 SNYYF \a Ybp: 1607 A PRQNE FG YHZOREGBA,AP 28358 \a R 16GU FG / R 17GU FG",
@@ -689,7 +689,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1607 A PRQNE FG",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:R 16GU FG / R 17GU FG");
+        "K:R 16GU FG / R 17GU FG");
 
     qbGrfg("G39",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 12:31:53\a" +
@@ -719,7 +719,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:ZNEVBA EQ /  OVTTF EQ",
-        "HAVG:FPUBBYIVRJ ZUC");
+        "CYNPR:FPUBBYIVRJ ZUC");
 
     qbGrfg("G41",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 09:06:03\a" +
@@ -736,7 +736,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:R 22AQ FG / R 23EQ FG",
-        "HAVG:YVAQFNL,YNIREA");
+        "CYNPR:YVAQFNL,YNIREA");
 
     qbGrfg("G42",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 06:39:14\a" +
@@ -751,7 +751,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:609 GBJA PBZZBA FG",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:F PRQNE FG / PUVCCRJN FG");
+        "K:F PRQNE FG / PUVCCRJN FG");
 
     qbGrfg("G43",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 05:56:47\a" +
@@ -768,7 +768,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:PBHAGEL PYHO EQ /  PBGGBAJBBQ FG",
-        "HAVG:FBHGUREA VAA");
+        "CYNPR:FBHGUREA VAA");
 
     qbGrfg("G44",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 05:33:21\a" +
@@ -785,7 +785,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:SNLRGGRIVYYR EQ / IVYYNTR JNYX JN",
-        "HAVG:ZHFFRYJUVGR,RQQVR");
+        "CYNPR:ZHFFRYJUVGR,RQQVR");
 
     qbGrfg("G45",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 02:29:25\a" +
@@ -802,7 +802,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:PENAQYRZVRE EQ / RNEY FG",
-        "HAVG:WBARF,QNIVQ");
+        "CYNPR:WBARF,QNIVQ");
 
     qbGrfg("G46",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 01:46:54\a" +
@@ -819,7 +819,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:PBHAGEL PYHO EQ /  FGNEYVGR",
-        "HAVG:JNSSYR UBHFR J 5GU FG");
+        "CYNPR:JNSSYR UBHFR J 5GU FG");
 
     qbGrfg("G47",
         "(Pbzz PSF vasb) Ercbegrq: 05/02/2015 00:49:25\a" +
@@ -834,7 +834,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:607 YVGGYR FG",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:YRR PVE / YRR PVE");
+        "K:YRR PVE / YRR PVE");
 
     qbGrfg("G48",
         "(Pbzz PSF vasb) Ercbegrq: 05/01/2015 22:46:19\a" +
@@ -849,7 +849,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:161 JVAQFBE FG",
         "PVGL:YHZOREGBA",
         "FG:AP",
-        "HAVG:NEARGGR FG / QRNQ RAQ RA");
+        "K:NEARGGR FG / QRNQ RAQ RA");
 
     qbGrfg("G49",
         "(Pbzz PSF vasb) Ercbegrq: 05/01/2015 21:08:22\a" +
@@ -866,7 +866,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:PUREBXRR /  PBERR",
-        "HAVG:EBMVRE UBZRF");
+        "CYNPR:EBMVRE UBZRF");
 
     qbGrfg("G50",
         "(Pbzz PSF vasb) Ercbegrq: 05/01/2015 20:13:08\a" +
@@ -884,7 +884,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:UNEQVA EQ / QRNQ RAQ RA",
-        "HAVG:TBYQRA YVIVAT PRAGRE");
+        "CYNPR:TBYQRA YVIVAT PRAGRE");
 
     qbGrfg("G51",
         "(Pbzz PSF vasb) Ercbegrq: 05/01/2015 18:00:51\a" +
@@ -901,7 +901,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:XRAAL OVTTF EQ /  UBYYLEVQTR NCGF",
-        "HAVG:UBYYLEVQTR NCNEGZRAGF");
+        "CYNPR:UBYYLEVQTR NCNEGZRAGF");
 
     qbGrfg("G52",
         "(Pbzz PSF vasb) Ercbegrq: 05/01/2015 17:34:36\a" +
@@ -918,7 +918,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:ZNCYR FG / TYRAA FG",
-        "HAVG:EBORFBA PBHAGL TEBHC UBZR #3");
+        "CYNPR:EBORFBA PBHAGL TEBHC UBZR #3");
 
     qbGrfg("G53",
         "(Pbzz PSF vasb) Ercbegrq: 05/01/2015 16:50:20\a" +
@@ -935,7 +935,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:YSQ FG / SNLRGGRIVYYR EQ",
-        "HAVG:YHZOREGBA NFFVFGRQ YVIVAT");
+        "CYNPR:YHZOREGBA NFFVFGRQ YVIVAT");
 
     qbGrfg("G54",
         "(Pbzz PSF vasb) Ercbegrq: 05/01/2015 16:10:24\a" +
@@ -952,7 +952,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:A PURFGAHG FG /  A JNYAHG FG",
-        "HAVG:ONXRE UBHFR NCNEGZRAGF");
+        "CYNPR:ONXRE UBHFR NCNEGZRAGF");
 
     qbGrfg("G55",
         "(Pbzz PSF vasb) Ercbegrq: 05/01/2015 15:59:01\a" +
@@ -970,7 +970,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:CVAR EHA QE / QRNQ RAQ RA",
-        "HAVG:JRFYRL CVARF ERGVERZRAG PRAGRE");
+        "CYNPR:JRFYRL CVARF ERGVERZRAG PRAGRE");
 
     qbGrfg("G56",
         "(Pbzz PSF vasb) Ercbegrq: 05/01/2015 15:03:55\a" +
@@ -987,7 +987,7 @@ choyvp pynff APYhzoregbaCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:YHZOREGBA",
         "FG:AP",
         "K:UNJGUBEAR FG / ERAAREG EQ",
-        "HAVG:TYRASYBEN");
+        "CYNPR:TYRASYBEN");
 
   }
 

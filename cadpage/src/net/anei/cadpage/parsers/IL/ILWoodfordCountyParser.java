@@ -5,7 +5,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA47Parser;
 public class ILWoodfordCountyParser extends DispatchA47Parser {
   
   public ILWoodfordCountyParser() {
-    super("Woodford Comm", CITY_LIST, "WOODFORD COUNTY", "IL");
+    super("Woodford Comm", CITY_LIST, "WOODFORD COUNTY", "IL", "\\d{0,2}[A-Z]{1,2}\\d{1,2}|[A-Z]{1,3}FD");
   }
   
   @Override

@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA47Parser;
 public class OHCentervilleParser extends DispatchA47Parser {
   
   public OHCentervilleParser() {
-    super("DISPATCH CFS INFO", CITY_LIST, "CENTERVILLE", "OH");
+    super("DISPATCH CFS INFO", CITY_LIST, "CENTERVILLE", "OH", "BAT|ENG|LAD|MED|[A-Z]?\\d{2}");
   }
   
   @Override

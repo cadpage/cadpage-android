@@ -128,6 +128,7 @@ choyvp pynff VNZhfpngvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:SVER-FGEHPGHER",
         "NQQE:1039 VERL NIR",
         "PVGL:NGNYVFFN",
+        "FG:VN",
         "K:100GU FG / 110GU FG",
         "HAVG:NSQ JYSQ");
 
@@ -145,6 +146,7 @@ choyvp pynff VNZhfpngvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY",
         "NQQE:231 J ZNKFBA NIR",
         "PVGL:JRFG YVOREGL",
+        "FG:VN",
         "K:A QVIVFVBA FG / A RYZ FG",
         "HAVG:737 JYNO");
 
@@ -162,6 +164,7 @@ choyvp pynff VNZhfpngvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY",
         "NQQE:1000 A ZVYYRE FG",
         "PVGL:JRFG YVOREGL",
+        "FG:VN",
         "K:R 10GU FG /  R ZNKFBA NIR",
         "CYNPR:FVZCFBA ZRZBEVNY");
 
@@ -174,7 +177,7 @@ choyvp pynff VNZhfpngvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ABA-FGEHPGHER SVER",
         "NQQE:2216 VAQVNA NIR",
         "PVGL:PRQNE PBHAGL",
-        "K:JYSQ");
+        "HAVG:JYSQ");
 
     qbGrfg("G6",
         ".... (JYSQ, JYNZO) Ercbegrq: 10/11/2013 15:23:52\a13-042227 NPPVQRAG-CV \aYbp: 126 EBPURFGRE NIR/PRQNE PB ,  \aNSQ JYNO",
@@ -185,7 +188,7 @@ choyvp pynff VNZhfpngvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:NPPVQRAG-CV",
         "NQQE:126 EBPURFGRE NIR",
         "PVGL:PRQNE PBHAGL",
-        "K:NSQ JYNO");
+        "HAVG:NSQ JYNO");
 
     qbGrfg("G7",
         ".... (JYSQ, JYNZO) Ercbegrq: 10/11/2013 08:18:43\a" +
@@ -201,6 +204,7 @@ choyvp pynff VNZhfpngvarPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:ZRQVPNY",
         "NQQE:207 R 2AQ FG",
         "PVGL:JRFG YVOREGL",
+        "FG:VN",
         "K:A FCRAPRE FG / A PBYHZOHF FG",
         "HAVG:JYNO");
  

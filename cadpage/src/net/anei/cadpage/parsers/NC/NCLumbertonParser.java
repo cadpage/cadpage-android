@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA47Parser;
 public class NCLumbertonParser extends DispatchA47Parser {
   
   public NCLumbertonParser() {
-    super("Comm CFS info", CITY_LIST, "LUMBERTON", "NC");
+    super("Comm CFS info", CITY_LIST, "LUMBERTON", "NC", null);
   }
   
   @Override
