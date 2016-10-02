@@ -82,7 +82,15 @@
       <exec executable="git">
         <arg line="config --local core.editor ${EDITOR}"/>
       </exec>
-      <exec executable="git">
+      <exec executable="git" resultproperty="merge-fail-result" outputProperty="null">
+        <arg line="merge HEAD" />
+      </exec>
+      <condition property="merge-failed">
+        <not>
+          <equals arg1="${merge-fail-result}" arg2="0"/>
+        </not>
+      </condition>
+      <exec executable="git" unless:true="merge-failed">
         <arg line="add --all"/>
       </exec>
       <exec executable="git">

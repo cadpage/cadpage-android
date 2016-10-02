@@ -52,7 +52,7 @@
   </target>
 
   <target name="ssh-add" if="ssh-add.present">
-    <exec executable="ssh-add" resultproperty="ssh-add-result" outputproperty="/dev/null">
+    <exec executable="ssh-add" resultproperty="ssh-add-result" outputproperty="null">
       <arg line="-l"/>
     </exec>
     <condition property="ssh-add-needed">
