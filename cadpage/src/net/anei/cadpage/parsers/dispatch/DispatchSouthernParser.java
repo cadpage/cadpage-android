@@ -594,6 +594,7 @@ public class DispatchSouthernParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern INFO_PRI_PTN = Pattern.compile("\\d");
   protected class BaseInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
@@ -617,12 +618,18 @@ public class DispatchSouthernParser extends FieldProgramParser {
         return;
       }
       
+      if (data.strSupp.length() == 0 && data.strPriority.length() == 0 && 
+          INFO_PRI_PTN.matcher(field).matches()) {
+        data.strPriority = field;
+        return;
+      }
+      
       super.parse(field, data);
     }
     
     @Override
     public String getFieldNames() {
-      return "UNIT CALL GPS INFO";
+      return "UNIT CALL PRI GPS INFO";
     }
   }
 }
