@@ -569,6 +569,7 @@ class Active911Vendor extends Vendor {
       "US/KY/ErlangerPD",                 "KYErlangerDispatch",
       "US/KY/FultonCounty",               "KYFultonCounty",
       "US/KY/GallatinCounty",             "KYGallatinCountyA",
+      "US/LA/Hammond",                    "LATangipahoaParishB",
       "US/KY/HancockCounty",              "KYHancockCounty",
       "US/KY/HardinCounty",               "KYHardinCounty",
       "US/KY/HarrisonCounty",             "KYHarrisonCountyB",
