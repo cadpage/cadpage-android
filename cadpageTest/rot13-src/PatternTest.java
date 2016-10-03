@@ -6,10 +6,10 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   choyvp fgngvp svany Cnggrea ZNFGRE =
-      Cnggrea.pbzcvyr("(?:(?:\\q{3}|PB#\\q+|S\\q{1,3}|POHEA\\q|OLYF|YTSE|FFEF|IFC)\\o *)+");
+      Cnggrea.pbzcvyr("(?:PNQ:|[-_ N-Mn-m0-9]*:?)? *Nf bs (\\q\\q?/\\q\\q?/\\q\\q) (\\q\\q?:\\q\\q:\\q\\q) (?:([NC]Z) )?(\\q{4}-\\q{5,8}) (.*)");
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("013 PB#5 FFEF IFC");
+    qbGrfg("PNQ:crgrefohet_sq Nf bs 9/13/16 22:58:55 2016-00010561 HAPB - HAPBAFPVBHF/HAERFCBAFVIR/FLAPBCR 121 EVB TENAQR EQ,CRGREFOHET CRGREFOHET Havg Bet Anzr Nern Glcrf 774 CRZF CRZF CRZF R_ZG_CG_AP, R_ZG_F_CG, R_CG_OH_AP, R_ZG_AP_CG, R_CG_SE_OH, R_");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {

@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers.WV;
 
-import java.util.regex.Pattern;
-
 import net.anei.cadpage.parsers.CodeSet;
 import net.anei.cadpage.parsers.dispatch.DispatchA48Parser;
 
@@ -21,8 +19,24 @@ public class WVGrantCountyParser extends DispatchA48Parser {
   }
   
   private static final CodeSet CALL_CODE = new CodeSet(
-
-      
+      "BREATHING DIFFICULTY/TROUBLE BREATHING/SHORT OF BREATH-SOB/DIFFICULTY BREATHING",
+      "BRUSH FIRE/GRASS FIRE/WOODS FIRE",
+      "BRUSH FIRE/GRASS FIRE/WOODS FIRE HARDY CO",
+      "DIABETIC EMERGENCY / LOW BLOOD SUGAR / HIGH BLOOD SUGAR / GLUCOSE LEVEL",
+      "ELECTRICAL FIRE",
+      "FALL",
+      "FIRE ALARM/AUTOMATIC FIRE ALARM/COMMERCIAL FIRE ALARM/RESIDENTIAL FIRE ALARM",
+      "MISC CALL NOT LAW ENFORCEMENT",
+      "MOTOR VEHICLE CRASH WITH INJURY OR ENTRAPMET ACCIDENT",
+      "SMELL ODOR-GAS OUTDOORS",
+      "SMOKE INVESTIGATION OUTDOORS",
+      "STROKE/SLURRED SPEECH/DROOPING",
+      "TEST CALL",
+      "TRAUMATIC INJURY",
+      "UNCONSCIOUS/UNRESPONSIVE/",
+      "UNCONSCIOUS/UNRESPONSIVE/SYNCOPE",
+      "VEHICLE ACCIDENT-NO INJURY OR ENTRAPMENT MOTOR VEHCLE CRASH",
+      "VEHICLE FIRE"
   );
   
   private static final String[] CITY_LIST = new String[]{
@@ -55,7 +69,11 @@ public class WVGrantCountyParser extends DispatchA48Parser {
           "OLD ARTHUR",
           "SCHERR",
           "WILLIAMSPORT",
-          "WILSONIA"
+          "WILSONIA",
+          
+      // Mineral County
+          "BURLINGTON",
+          "NEW CREEK"
 
   };
 }
