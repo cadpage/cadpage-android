@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA47Parser;
 public class IAAppanooseCountyParser extends DispatchA47Parser {
   
   public IAAppanooseCountyParser() {
-    super("Dispatch", CITY_LIST, "APPANOOSE COUNTY", "IA");
+    super("Dispatch", CITY_LIST, "APPANOOSE COUNTY", "IA", ".*");
   }
   
   @Override

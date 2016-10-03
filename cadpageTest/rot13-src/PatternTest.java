@@ -6,16 +6,16 @@ vzcbeg wnin.hgvy.ertrk.Cnggrea;
 choyvp pynff CnggreaGrfg {
 
   choyvp fgngvp svany Cnggrea ZNFGRE =
-      Cnggrea.pbzcvyr("\\q{4}/\\q\\q/\\q\\q \\q\\q:\\q\\q\\o *(?:[N-M][n-m]+, [N-M][n-m]+\\o *(?:Q\\q+|5W[N-M]+\\o)?)?[ :]*");
+      Cnggrea.pbzcvyr("(?:(?:\\q{3}|PB#\\q+|S\\q{1,3}|POHEA\\q|OLYF|YTSE|FFEF|IFC)\\o *)+");
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    qbGrfg("2016/09/29 21:30 Fzvgu, Wreel Q5 Srznyr gebhoyr oernguvat");
+    qbGrfg("013 PB#5 FFEF IFC");
   }
   
   cevingr fgngvp ibvq qbGrfg(Fgevat grfg) {
     Zngpure zngpu = ZNFGRE.zngpure(grfg);
     Flfgrz.bhg.cevagya(grfg);
-    vs (! zngpu.ybbxvatNg()) {
+    vs (! zngpu.svaq()) {
       Flfgrz.bhg.cevagya(" ab zngpu");
     } ryfr {
       sbe (vag t = 0; t<=zngpu.tebhcPbhag(); t++) {
@@ -45,5 +45,6 @@ choyvp pynff CnggreaGrfg {
       Flfgrz.bhg.cevagya(">>" + cneg + "<<");
     }
   }
-
+  
+  
 }

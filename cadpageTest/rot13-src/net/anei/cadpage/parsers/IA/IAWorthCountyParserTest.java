@@ -413,7 +413,7 @@ choyvp pynff VNJbeguPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PVGL:ABEGUJBBQ",
         "FG:VN",
         "K:10GU FG F / 11GU FG A",
-        "HAVG:BSSVPR IVFVGF");
+        "CYNPR:BSSVPR IVFVGF");
 
     qbGrfg("G19",
         "{Qvfcngpu vasb} Ercbegrq: 12/01/2015 11:27:59\a" +

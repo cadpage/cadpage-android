@@ -10,15 +10,19 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 public class DispatchA47Parser extends FieldProgramParser {
   
   private String subjectMarker;
+  private boolean noUnit;
+  private Pattern unitPtn;
   
-  public DispatchA47Parser(String[] cityList, String defCity, String defState) {
-    this(null, cityList, defCity, defState);
+  public DispatchA47Parser(String[] cityList, String defCity, String defState, String unitPtn) {
+    this(null, cityList, defCity, defState, unitPtn);
   }
   
-  public DispatchA47Parser(String subjectMarker, String[] cityList, String defCity, String defState) {
+  public DispatchA47Parser(String subjectMarker, String[] cityList, String defCity, String defState, String unitPtn) {
     super(cityList, defCity, defState,
-          "( Reported:DATETIME! ID_CALL! Loc:ADDR/S! | ID_CALL! Reported:DATETIME! ADDR/S! ) ( UNIT END | X? PLACE? UNIT% END )");
+          "( Reported:DATETIME! ID_CALL! Loc:ADDR/S! | ID_CALL! Reported:DATETIME? ADDR/S! ) X? ( UNIT | PLACE UNIT ) END");
     this.subjectMarker = subjectMarker;
+    noUnit = (unitPtn == null);
+    this.unitPtn = noUnit ? null : unitPtn.equals(".*") ? null : Pattern.compile("(?:(?:"+unitPtn+")\\b *)+");
   }
   
   @Override
@@ -34,6 +38,7 @@ public class DispatchA47Parser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }
   
@@ -73,6 +78,19 @@ public class DispatchA47Parser extends FieldProgramParser {
           city = tmp;
         }
       }
+      
+      // If we did not find a city, see if there is a slash delimited city
+      if (city == null) {
+        int pt = field.lastIndexOf('/');
+        if (pt >= 0) {
+          String tmp = field.substring(pt+1).trim();
+          if (isCity(tmp)) {
+            city = tmp;
+            field = field.substring(0,pt).trim();
+          }
+        }
+      }
+
       super.parse(field, data);
       if (city != null && (data.strCity.length() == 0 || data.strCity.equalsIgnoreCase("COUNTY"))) data.strCity = city;
     }
@@ -82,7 +100,7 @@ public class DispatchA47Parser extends FieldProgramParser {
       return super.getFieldNames() + " ST";
     }
   }
-  
+ 
   private class MyCrossField extends CrossField {
     @Override
     public boolean checkParse(String field, Data data) {
@@ -100,13 +118,30 @@ public class DispatchA47Parser extends FieldProgramParser {
   }
   
   private class MyPlaceField extends PlaceField {
+    
     @Override
     public void parse(String field, Data data) {
+      
       if (data.strCity.length() == 0) {
         parseAddress(StartType.START_OTHER, FLAG_ONLY_CITY | FLAG_ANCHOR_END, field, data);
         field = getStart();
       }
       super.parse(field, data);
+    }
+  }
+  
+  private class MyUnitField extends UnitField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (noUnit) return false;
+      if (unitPtn != null && !unitPtn.matcher(field).matches()) return false;
+      parse(field, data);
+      return true;
     }
   }
 }

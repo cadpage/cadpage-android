@@ -4,6 +4,14 @@
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.21\n
+Location Fixes:\n
+Monterey County, CA\n
+Scott County, MN\n
+Clark County, NV\n
+Hamilton County, OH\n
+King George County, VA\n
+\n
 v1.9.10.20\n
 New Locations:\n
 New London County, CT (alt)\n
@@ -60,14 +68,7 @@ Linn County, OR\n
 Bucks County, PA\n
 Chester County, PA\n
 Cumberland County, PA\n
-Bexar County, TX\n
-\n
-v1.9.10.16\n
-Location Fixes:\n
-Middlesex County, CT\n
-Cypress-Harris, TX\n
-Loudoun County, VA\n
-Jefferson County, WA
+Bexar County, TX
   </string>
 </resources>
   

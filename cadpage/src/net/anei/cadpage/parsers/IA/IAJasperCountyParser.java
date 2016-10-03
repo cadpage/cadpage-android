@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA47Parser;
 public class IAJasperCountyParser extends DispatchA47Parser {
   
   public IAJasperCountyParser() {
-    super("Dispatch Info", CITY_LIST, "JASPER COUNTY", "IA");
+    super("Dispatch Info", CITY_LIST, "JASPER COUNTY", "IA", "[A-Z]{0,3}\\d{1,3}|[A-Z]{1,3}FD|CAR\\d+");
   }
   
   @Override

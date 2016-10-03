@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA47Parser;
 public class VAMecklenburgCountyParser extends DispatchA47Parser {
   
   public VAMecklenburgCountyParser() {
-    super("MECK 911", CITY_LIST, "MECKLENBURG COUNTY", "VA");
+    super("MECK 911", CITY_LIST, "MECKLENBURG COUNTY", "VA", "[A-Z]{1,3}\\d{1,3}|\\d{3}|CO#\\d+|[A-Z]{2}FD|[A-Z]{2}RS|CBURN\\d?|BYLS|LGFR|ROAD\\d+|VSP");
   }
   
   @Override

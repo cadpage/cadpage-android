@@ -25,6 +25,10 @@ Pbagnpg: craal chxnyy <craabcr21@lnubb.pbz>
 Fraqre: 44627545
 Havg:N148Vap:150302410 Cev:C1 Cebo:26O-Fvpx Crefba(Fcrpvsvp Qvnt)Nqq:9777 F YNF IRTNF OYIQ
 
+Pbagnpg: nyvirvayi@lnubb.pbz <nyvirvayi@lnubb.pbz>
+Fraqre: nyreg@rcntrvg.arg
+ab fhowrpg / Havg:Z502 Vap:160246704 Cev:C1 Znc:02725-75 Cebo:1P-Noqbzvany Cnva Nqq:3930 FJRAFBA FG Ncg:104 Ybp:UEP JVZOYRQBA Anzr:
+
 */
 
 choyvp pynff AIPynexPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -142,6 +146,23 @@ choyvp pynff AIPynexPbhaglQCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:Fvpx Crefba(Fcrpvsvp Qvnt)",
         "NQQE:9777 F YNF IRTNF OYIQ");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgNyvirVayi() {
+
+    qbGrfg("G1",
+        "ab fhowrpg / Havg:Z502 Vap:160246704 Cev:C1 Znc:02725-75 Cebo:1P-Noqbzvany Cnva Nqq:3930 FJRAFBA FG Ncg:104 Ybp:UEP JVZOYRQBA Anzr:",
+        "HAVG:Z502",
+        "VQ:160246704",
+        "CEV:C1",
+        "ZNC:02725-75",
+        "PBQR:1P",
+        "PNYY:Noqbzvany Cnva",
+        "NQQE:3930 FJRAFBA FG",
+        "NCG:104",
+        "CYNPR:UEP JVZOYRQBA");
+    
   }
   
 
