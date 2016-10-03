@@ -109,9 +109,9 @@ Fraqre: ab-ercyl@yrqfcbegny.pbz
 {Abgvsvpngvba} Guvf vf n abgvsvpngvba va ersrerapr gb n PBZCYNVAG ng 1801 J NVEYVAR UJL, YNCYNPR, YN 70068.Abar : Grfg ng Fg Wbua Furevss'f Bssvpr. Qvfcngpurq: 09/23/16 14:18:04 * : Bafprar : : Pyrnerq : ; Pebff Fgerrgf : ORYYR GREER OYIQ (0.1 zvyrf) naq URZYBPX FG (0.2 zvyrf) ; Pheerag Pbzznaq Zrffntr: . ; Pnyy Qrgnvyf: 09/23/16 14:17:30 - Guvf vf n grfg sbe Sver; 09/23/16 14:17:34 - Cntvatf; 09/23/16 14:17:45 - Grfg Bayl. ; Erfcbaqre Havgf: 5004.
 */
 
-choyvp pynff YNFgWbuaGOCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
+choyvp pynff YNFgWbuaGurOncgvfgCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
   
-  choyvp YNFgWbuaGOCnevfuCnefreGrfg() {
+  choyvp YNFgWbuaGurOncgvfgCnevfuCnefreGrfg() {
     frgCnefre(arj QhzzlCnefre(), "FG WBUA GUR ONCGVFG CNEVFU", "YN");
   }
   
@@ -121,6 +121,6 @@ choyvp pynff YNFgWbuaGOCnevfuCnefreGrfg rkgraqf OnfrCnefreGrfg {
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
-    arj YNFgWbuaGOCnevfuCnefreGrfg().trarengrGrfgf("G1");
+    arj YNFgWbuaGurOncgvfgCnevfuCnefreGrfg().trarengrGrfgf("G1");
   }
 }
