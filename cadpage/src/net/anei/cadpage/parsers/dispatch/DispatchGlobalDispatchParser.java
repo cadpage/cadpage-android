@@ -23,18 +23,6 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   // Place name follows call description
   public static final int PLACE_FOLLOWS_CALL = 0x10;
   
-  private static final Pattern CALL_NUMBER_PTN = Pattern.compile("^Call Number: *(\\d+) +");
-  private static final Pattern KEYWORD_PTN = Pattern.compile("(?:MapRegions|Description|CrossStreets|Description|Dispatch|Primary_Incident|):");
-  private static final Pattern DELIM_PTN = Pattern.compile("\n| (?=CrossStreets:|Dispatch:)");
-  
-  private Pattern stationPtn;
-  private Pattern unitPtn;
-  private boolean leadStuff;
-  private boolean trailStuff;
-  private boolean placeFollowsAddress;
-  
-  private String select;
-  
   public DispatchGlobalDispatchParser(String defCity, String defState) {
     this(null, defCity, defState, 0, null, null);
   }
@@ -51,6 +39,16 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     this(cityList, defCity, defState, flags, null, null);
   }
   
+  private static final Pattern CALL_NUMBER_PTN = Pattern.compile("^Call Number: *(\\d+) +");
+  private static final Pattern KEYWORD_PTN = Pattern.compile("(?:MapRegions|Description|CrossStreets|Description|Dispatch|Primary_Incident|):");
+  private static final Pattern DELIM_PTN = Pattern.compile("\n| (?=MapRegions|CrossStreets:|Dispatch:)");
+  
+  private Pattern stationPtn;
+  private Pattern unitPtn;
+  private boolean leadStuff;
+  private boolean trailStuff;
+  private boolean placeFollowsAddress;
+  
   public DispatchGlobalDispatchParser(String[] cityList, String defCity, String defState,
                                        int flags, Pattern stationPtn, Pattern unitPtn) {
     super(cityList, defCity, defState,
@@ -66,9 +64,8 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   
   private static final String calcAddressTerm(int flags, boolean inclCity) {
     StringBuilder sb = new StringBuilder("( SELECT/NEW ");
-    if ((flags & LEAD_SRC_UNIT_ADDR) != 0) sb.append("UNIT ");
-    if ((flags & CALL_FOLLOWS_ADDR) == 0) sb.append("CALL! ");
-    sb.append("ADDR! ");
+    if ((flags & CALL_FOLLOWS_ADDR) == 0) sb.append("CALL1! ");
+    sb.append("ADDR/S! ");
     if (inclCity) sb.append("CITY? ");
     if ((flags & CALL_FOLLOWS_ADDR) != 0) sb.append("( CALL! Primary_Incident:ID! | PLACE CALL! ) ");
     if ((flags & TRAIL_SRC_UNIT_ADDR) != 0) sb.append("UNIT ");
@@ -98,7 +95,7 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
       newFmt = (body.substring(0,pt).contains("\n"));
     }
     if (newFmt) {
-      select = "NEW";
+      setSelectValue("NEW");
       if (!parseFields(DELIM_PTN.split(body), data)) return false;
       if (data.strCallId.length() > 0 || data.strMap.length() > 0 || data.strSupp.length() > 0 || 
           data.strCross.length() > 0 || data.strTime.length() > 0) return true;
@@ -119,7 +116,7 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     }
     
     // Otherwise use the standard line break format
-    select = "OLD";
+    setSelectValue("OLD");
     if (! super.parseMsg(body, data)) return false;
     if (data.strCall.length() == 0) return false;
     if (data.strCity.length() == 0 && data.strUnit.length() == 0 && data.strCross.length() == 0 && !body.contains(" Description:")) return false;
@@ -133,6 +130,7 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("CALL1")) return new BaseCall1Field();
     if (name.equals("ADDR")) return new BaseAddressField();
     if (name.equals("ADDR2")) return new BaseAddress2Field();
     if (name.equals("DATE_TIME_CITY")) return new BaseDateTimeCityField();
@@ -142,9 +140,18 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     return super.getField(name);
   }
   
-  @Override
-  protected String getSelectValue() {
-    return select;
+  protected class BaseCall1Field extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripUnitSrcData(leadStuff, false, field, data);
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      if (leadStuff) return "UNIT SRC CALL";
+      else return "CALL";
+    }
   }
 
   protected class BaseAddressField extends AddressField {
@@ -156,57 +163,13 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     }
   }
 
-
   protected class BaseAddress2Field extends AddressField {
     
     @Override
     public void parse(String field, Data data) {
       field = field.replaceAll(",", "");
       
-      // If we have station or unit patterns, these need to be stripped off 
-      // the front and back of the address field
-      if (leadStuff || trailStuff) {
-        
-        // Start by splitting field into list of words, and identifying
-        // each word as station, unit or neither
-        String[] words = field.split(" +");
-        int[] types = new int[words.length];
-        int stReg = 0;
-        if (leadStuff) {
-          for (stReg = 0; stReg<words.length; stReg++) {
-            String word = words[stReg];
-            types[stReg] = (stationPtn != null && stationPtn.matcher(word).matches() ? 1 :
-                            unitPtn != null && unitPtn.matcher(word).matches() ? 2 : 0);
-            if (types[stReg] == 0) break;
-          }
-        }
-        int endReg = words.length-1;
-        if (stReg < words.length) {
-          if (trailStuff) {
-            for ( ; endReg > stReg; endReg--) {
-              String word = words[endReg];
-              types[endReg] = (stationPtn != null && stationPtn.matcher(word).matches() ? 1 :
-                              unitPtn != null && unitPtn.matcher(word).matches() ? 2 : 0);
-              if (types[endReg] == 0) break;
-            }
-          }
-          for (int ii = stReg+1; ii < endReg; ii++) types[ii] = 0;
-        }
-        
-        // Construct three Stringbuilders with all of the regular, station, and unit words
-        StringBuilder[] sba = new StringBuilder[3];
-        for (int ii = 0; ii < 3; ii++) sba[ii] = new StringBuilder();
-        for (int ii = 0; ii<words.length; ii++) {
-          StringBuilder sb = sba[types[ii]];
-          if (sb.length() > 0) sb.append(' ');
-          sb.append(words[ii]);
-        }
-        
-        // And finally convert the StringBuilders back to the appropriate fields
-        field = sba[0].toString();
-        data.strSource = sba[1].toString();
-        data.strUnit = sba[2].toString();
-      }
+      field = stripUnitSrcData(leadStuff, trailStuff, field, data);
       super.parse(field, data);
       
       // If we place follows the address, see if it looks more like an
@@ -223,6 +186,63 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     public String getFieldNames() {
       return "SRC UNIT " + super.getFieldNames();
     }
+  }
+
+  /**
+   * Strip leading and/or trailing source/unit information from field
+   * @param leadStuff if leading stuff should be checked
+   * @param trailStuff true if trailing stuff should be checked
+   * @param field data field
+   * @param data data object
+   * @return
+   */
+  private String stripUnitSrcData(boolean leadStuff, boolean trailStuff, String field, Data data) {
+    
+    // If we have station or unit patterns, these need to be stripped off 
+    // the front and back of the address field
+    if (leadStuff || trailStuff) {
+      
+      // Start by splitting field into list of words, and identifying
+      // each word as station, unit or neither
+      String[] words = field.split(" +");
+      int[] types = new int[words.length];
+      int stReg = 0;
+      if (leadStuff) {
+        for (stReg = 0; stReg<words.length; stReg++) {
+          String word = words[stReg];
+          types[stReg] = (stationPtn != null && stationPtn.matcher(word).matches() ? 1 :
+                          unitPtn != null && unitPtn.matcher(word).matches() ? 2 : 0);
+          if (types[stReg] == 0) break;
+        }
+      }
+      int endReg = words.length-1;
+      if (stReg < words.length) {
+        if (trailStuff) {
+          for ( ; endReg > stReg; endReg--) {
+            String word = words[endReg];
+            types[endReg] = (stationPtn != null && stationPtn.matcher(word).matches() ? 1 :
+                            unitPtn != null && unitPtn.matcher(word).matches() ? 2 : 0);
+            if (types[endReg] == 0) break;
+          }
+        }
+        for (int ii = stReg+1; ii < endReg; ii++) types[ii] = 0;
+      }
+      
+      // Construct three Stringbuilders with all of the regular, station, and unit words
+      StringBuilder[] sba = new StringBuilder[3];
+      for (int ii = 0; ii < 3; ii++) sba[ii] = new StringBuilder();
+      for (int ii = 0; ii<words.length; ii++) {
+        StringBuilder sb = sba[types[ii]];
+        if (sb.length() > 0) sb.append(' ');
+        sb.append(words[ii]);
+      }
+      
+      // And finally convert the StringBuilders back to the appropriate fields
+      field = sba[0].toString();
+      data.strSource = sba[1].toString();
+      data.strUnit = sba[2].toString();
+    }
+    return field;
   }
   
   private class BaseDateTimeCityField extends Field {

@@ -6,12 +6,17 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 public class NCCherokeeCountyParser extends DispatchSouthernParser {
 
   public NCCherokeeCountyParser() {
-    super(CITY_LIST, "CHEROKEE COUNTY", "NC", 0);
+    super(CITY_LIST, "CHEROKEE COUNTY", "NC", DSFLAG_TRAIL_PLACE);
   }
   
   @Override
   public String getFilter() {
     return "dispatch@cherokeecounty-nc.gov";
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_PREFER_GPS;
   }
   
   private static final String[] CITY_LIST = new String[]{
