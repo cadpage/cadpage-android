@@ -55,6 +55,14 @@ public class MNScottCountyParser extends FieldProgramParser {
     "UNION HILL",
     
     // Le Sueur County
-    "LANESBURGH"
+    "LANESBURGH",
+    
+    "DAKOTA COUNTY",
+    "CARVER COUNTY",
+    "HENNEPIN COUNTY",
+    "LE SUEUR COUNTY",
+    "RICE COUNTY",
+    "RAMSEY COUNTY",
+    "SIBLEY COUNTY"
   };
 }

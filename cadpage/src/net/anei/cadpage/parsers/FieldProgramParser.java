@@ -3631,12 +3631,12 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      return isLastField(0);
+      return isLastField(0) && !isLastField(-1);
     }
     
     @Override
     public void parse(String field, Data data) {
-      if (!checkParse(field, data)) abort();
+      if (!isLastField(0)) abort();
     }
   }
   
