@@ -24,7 +24,7 @@ public class VAHenryCountyParser extends DispatchSouthernParser {
   
   private static final Pattern UNIT_PRI_PTN = Pattern.compile(" +([A-Z0-9]+)-\\((\\d)\\) +");
   private static final Pattern APT_X_PTN = Pattern.compile("BW (.*) AND (.*)");
-  private static final Pattern LEAD_PRIORITY_PTN = Pattern.compile("^(0?\\d)\\b");
+  private static final Pattern LEAD_PRIORITY_PTN = Pattern.compile("(0?\\d)\\b");
   private static final Pattern APT_MAP_PTN = Pattern.compile("(?:(.*) )?([NSEW]{1,2} SECTOR?)");
   private static final Pattern APT_MAP_PTN2 = Pattern.compile("SECTOR?");
   private static final Pattern ADDR_DIR_PTN = Pattern.compile("(.*) ([NSEW]{1,2})");
@@ -57,19 +57,23 @@ public class VAHenryCountyParser extends DispatchSouthernParser {
     
     // The apparently have eliminated all blanks from call descriptions recently
     // so if we did not find a call match, split call description at first blank
+    if (data.strCall.length() == 0) {
+      data.strCall = data.strSupp;
+      data.strSupp = "";
+    }
+    data.strCall = stripFieldStart(data.strCall, "CallType Changed to ");
+    data.strCall = stripFieldStart(data.strCall, "-");
     String code = CALL_LIST.getCode(data.strCall);
     if (code == null || code.length() != data.strCall.length()) {
-      String info = append(data.strCall, " ", data.strSupp);
-      int pt = info.indexOf(' ');
+      int pt = data.strCall.indexOf(' ');
       if (pt >= 0) {
-        data.strSupp = info.substring(pt+1).trim();
-        data.strCall = info.substring(0,pt);
+        data.strSupp = append(data.strCall.substring(pt+1).trim(), " ", data.strSupp);
+        data.strCall = data.strCall.substring(0,pt);
       }
     }
-    data.strCall = stripFieldStart(data.strCall, "-");
     
     // See if we can find a priority in front of what is left
-    if ((match = LEAD_PRIORITY_PTN.matcher(data.strSupp)).find()) {
+    if (data.strPriority.length() == 0 && (match = LEAD_PRIORITY_PTN.matcher(data.strSupp)).lookingAt()) {
       data.strPriority = match.group(1);
       data.strSupp = data.strSupp.substring(match.end()).trim();
     }
@@ -204,6 +208,7 @@ public class VAHenryCountyParser extends DispatchSouthernParser {
       "CHEST PAINS",
       "CHEST-PAINS",
       "CHEST PAINS/HEART PROBLEMS/HIGH BP",
+      "CHEST-PAINS/HEART-PROBLEMS/HIGH-BP",
       "CHOKING",
       "CIVIL MATTER (Explain In Notes)",
       "CLEAR CALL",
@@ -444,6 +449,7 @@ public class VAHenryCountyParser extends DispatchSouthernParser {
       "TRAILER INSPECTION - HOME MADE",
       "TRANSFER 911 CALL",
       "TRANSPORT (FROM DR. OFFICE / HOSPITAL)",
+      "TRANSPORT-(FROM-DR-OFFICE-/-HOSPITAL)",
       "TRANSPORT (HOSPITAL-DR OFFICE ETC.)",
       "TRANSPORT-(HOSPITAL-DR-OFFICE-ETC.)",
       "TRANSPORT (LOCAL)",
@@ -457,6 +463,7 @@ public class VAHenryCountyParser extends DispatchSouthernParser {
       "UNCONSCIOUS / UNRESPONSIVE SYNCOPE",
       "UNCONSCIOUS-/-UNRESPONSIVE-SYNCOPE",
       "UNCONSCIOUS / UNRESPONSIVE & SYNCOPE OR CODE BLUE",
+      "UNCONSCIOUS-/-UNRESPONSIVE-&-SYNCOPE-OR-CODE-BLUE",
       "UNDERAGE POSSESSION",
       "UNLOCK CAR DOOR",
       "VANDALISM (DESTRUCTION - DAMAGE)",

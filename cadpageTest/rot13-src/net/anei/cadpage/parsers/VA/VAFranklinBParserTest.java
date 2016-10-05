@@ -726,7 +726,7 @@ choyvp pynff INSenaxyvaOCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "GVZR:19:03:31",
         "PNYY:ERFPHR RZF- NC",
         "TCF:+36.670529,-76.924188",
-        "VASB:2");
+        "CEV:2");
 
     qbGrfg("G53",
         "1903 FBHGU FG 110 SENAXYVA;UBTNEG FG K UNEEVFBA FG;12:38:23;ERFPHR RZF- NC;trb:36.66434, -76.934649;84 L/B S, YRSG YRT/UVC CNVA, PNAG JNYX, QVNORGVP NAQ NEGUEVGVF",
