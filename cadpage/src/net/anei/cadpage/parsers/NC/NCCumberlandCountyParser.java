@@ -9,17 +9,20 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class NCCumberlandCountyParser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("(?:\\(S\\)) *(.*?) *\\(N\\) *");
-  
   public NCCumberlandCountyParser() {
     super("CUMBERLAND COUNTY", "NC",
-           "UNIT? PLACE? DATETIME CALL UNIT2? ADDR! X PLACE");
+          "( CANCEL ADDR SKIP PLACEX END " +
+          "| PLACEX DATETIME CALL UNIT? ADDR! X PLACE " + 
+          "| DATETIME CALL UNIT? ADDR! X PLACE " +
+          "| ADDR CALL ( UNIT/Z! END | PLACE X/Z UNIT/Z! END | ( X | PLACE ) UNIT! END ) )");
   }
   
   @Override
   public String getFilter() {
-    return "cad@co.cumberland.nc.us,messaging@iamresponding.com";
+    return "cad@co.cumberland.nc.us,messaging@iamresponding.com,@ci.fay.nc.us";
   }
+  
+  private static final Pattern SRC_PTN = Pattern.compile("Station .*");
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
@@ -29,22 +32,116 @@ public class NCCumberlandCountyParser extends FieldProgramParser {
     }
     if (subject.equals("S")) body = "(S)" + body;
     
-    if (body.startsWith("CAD:")) body = body.substring(4).trim();
-    Matcher match = MARKER.matcher(body);
-    if (match.find()) {
-      data.strPlace = match.group(1).trim();
-      body = body.substring(match.end());
-    } else {
-      int pt = body.indexOf("(N)");
-      if (pt >= 0) body = body.substring(pt+3).trim();
-    }
+    if (SRC_PTN.matcher(subject).matches()) data.strSource = subject; 
     
-    return parseFields(body.split(";"), data);
+    boolean cadPrefix = body.startsWith("CAD:");
+    if (cadPrefix) body = body.substring(4).trim();
+    setSelectValue(cadPrefix ? "CAD" : "");
+    
+    String[] flds = body.split("\n");
+    if (flds.length < 3) flds = body.split(";");
+    return parseFields(flds, data);
   }
   
-  private class MyUnitField extends UnitField {
-    public MyUnitField() {
-      setPattern(Pattern.compile("[A-Z][0-9]+"));
+  @Override
+  public String getProgram() {
+    return "SRC? " + super.getProgram();
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CANCEL")) return new MyCancelField();
+    if (name.equals("PLACEX")) return new MyPlaceXField();
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("DATETIME")) return new MyDateTimeField();
+    if (name.equals("UNIT")) return new MyUnitField();
+    return super.getField(name);
+  }
+  
+  private static final Pattern CANCEL_PTN = Pattern.compile("\\{(\\S+)\\} *(CANCEL.*)");
+  private class MyCancelField extends CallField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = CANCEL_PTN.matcher(field);
+      if (match.matches()) {
+        data.strUnit = match.group(1);
+        data.strCall = match.group(2);
+        return true;
+      } 
+      if (field.equals("UNDER CONTROL")) {
+        data.strCall = field;
+        return true;
+      }
+      return false;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "UNIT CALL";
+    }
+  }
+
+  private static final Pattern PLACEX_UNIT_PTN = Pattern.compile("[A-Z]\\d{1,3}");
+  private class MyPlaceXField extends Field {
+
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      data.strPlace = append(p.getOptional("(S)"), " - ", p.getOptional("(N)"));
+      field = p.get();
+      
+      if (field.length() > 0) {
+        if (PLACEX_UNIT_PTN.matcher(field).matches()) {
+          data.strUnit = field;
+        } else if (NUMERIC.matcher(field).matches()) {
+          data.strApt = field;
+        } else {
+          data.strPlace = append(data.strPlace, " - ", field);
+        }
+      }
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "PLACE APT? UNIT?";
+    }
+  }
+  
+  private static final Pattern CODE_CALL_PTN = Pattern.compile("(\\d{1,2}(?:[A-Z]\\d{1,2}[A-Z]?)?) +(.*)");
+  private class MyCallField extends CallField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = CODE_CALL_PTN.matcher(field);
+      if (!match.matches()) return false;
+      data.strCode = match.group(1);
+      data.strCall = match.group(2);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field,  Data data) {
+      if (checkParse(field, data)) return;
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CODE CALL";
     }
   }
   
@@ -78,7 +175,8 @@ public class NCCumberlandCountyParser extends FieldProgramParser {
     }
   }
   
-  private class MyUnitField2 extends UnitField {
+  private static final Pattern UNIT_PTN = Pattern.compile("[,A-Z0-9]+");
+  private class MyUnitField extends UnitField {
     @Override
     public boolean canFail() {
       return true;
@@ -86,13 +184,7 @@ public class NCCumberlandCountyParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      if (field.contains(" ")) return false;
-      parse(field, data);
-      return true;
-    }
-    
-    @Override
-    public void parse(String field, Data data) {
+      if (!UNIT_PTN.matcher(field).matches()) return false;
       StringBuilder src = new StringBuilder();
       StringBuilder unit = new StringBuilder(data.strUnit);
       for (String token : field.split(",")) {
@@ -100,16 +192,14 @@ public class NCCumberlandCountyParser extends FieldProgramParser {
         if (sb.length() > 0) sb.append(',');
         sb.append(token);
       }
-      data.strSource = src.toString();
+      if (src.length() > 0) data.strSource = src.toString();
       data.strUnit = unit.toString();
+      return true;
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("UNIT")) return new MyUnitField();
-    if (name.equals("DATETIME")) return new MyDateTimeField();
-    if (name.equals("UNIT2")) return new MyUnitField2();
-    return super.getField(name);
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
   }
 }
