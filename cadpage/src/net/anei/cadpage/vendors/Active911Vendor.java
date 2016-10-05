@@ -1139,6 +1139,7 @@ class Active911Vendor extends Vendor {
       "US/PA/BucksCounty",                "PABucksCounty",
       "US/PA/BucksEMA",                   "PABucksCounty",
       "US/PA/ButlerCounty",               "PAButlerCounty",
+      "US/PA/CambriaCounty",              "PACambriaCounty",
       "US/PA/CentreCounty",               "PACentreCounty",
       "US/PA/ChesterCounty",              "PAChesterCountyN",
       "US/PA/ChesterCountyIAR",           "PAChesterCountyL",
