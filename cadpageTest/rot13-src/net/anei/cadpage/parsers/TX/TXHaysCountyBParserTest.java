@@ -13,6 +13,7 @@ Ybpngvba: Qevccvat Fcevatf, GK, Havgrq Fgngrf
 Fraqre: PVF Npgvir 911 <abercyl@fnaznepbfgk.tbi>
 Fraqre: "PVF Vapvqrag" <abercyl@pvfhfn.bet>
 
+{Genss/Genafcbeg Nppvqrag ng Ee 12/Fcbegf Cnex Eq, Qevccvat Fcevatf, 78620, 30.185200, -098.086435} AUSQ 160000000031; Genss/Genafcbeg Nppvqrag; Ee 12/Fcbegf Cnex Eq; Qevccvat Fcevatf GK; Nyez Obk 007103; ZRQ1; Havgf RAT62 RAT74; Yng 30.185200; Yba -098.086435; Pbqr 29Q09K; Gvzr Ercbegrq: 00:19:05 Ybtf   <<Ybtf>>00:14:00 fb6990:q186 fgneg 51  00:16:56 fb6990:fgneg zrqvpf  00:17:12 fb6990:q186 nve ont qrcyblzrag  00:20:40 fb6726:<NqqEhaPnfr-RAT62> AUSQ-160000000031
 {Nynez - Zrqvpny ng 12701 Uvtu Fvreen, Nhfgva, 78737, 30.227638, -098.015918} AUSQ 160000000009; Nynez - Zrqvpny; 12701 Uvtu Fvreen; Nhfgva GK; Nyez Obk 007502; NYY; Havgf RAT71; Yng 30.227638; Yba -098.015918; Pbqr 104Z; Gvzr Ercbegrq: 07:33:08 Gvzr Pbzcyrgrq: 08:05:42 Ybtf   <<Ybtf>>07:40:38 fb1505:<NqqEhaPnfr-RAT71> AUSQ-160000000009  07:50:59 fb1505:<NqqEhaPnfr-U111> UPFB-160000038025  07:51:13 fb1505:Erzbirq Havg - U111  08:05:42 fb1505:Vapvqrag Pybfrq Oybggre OHGGRESVRYQ ERF/ ZRQVPNY CRAQNAG/ ZNQR PBAGNPG NG FPRAR/ SRZNYR ARRQVAT YVSG  NFFVFGNAPR/ YBPX OBK 1819 YBPNGRQ BA SEBAG QBBE/    snyfr nynez
 {Nynez - Zrqvpny ng 12701 Uvtu Fvreen, Nhfgva, 78737, 30.227638, -098.015918} AUSQ 160000000009; Nynez - Zrqvpny; 12701 Uvtu Fvreen; Nhfgva GK; Nyez Obk 007502; NYY; Havgf RAT71; Yng 30.227638; Yba -098.015918; Pbqr 104Z; Gvzr Ercbegrq: 07:33:08 Ybtf   <<Ybtf>>07:40:38 fb1505:<NqqEhaPnfr-RAT71> AUSQ-160000000009 Oybggre OHGGRESVRYQ ERF/ ZRQVPNY CRAQNAG/ ZNQR PBAGNPG NG FPRAR/ SRZNYR ARRQVAT YVSG  NFFVFGNAPR/ YBPX OBK 1819 YBPNGRQ BA SEBAG QBBE/
 {Nppvqrag - Znwbe/Vawhel ng Perrx Eq/Chefyrl Eq, Qevccvat Fcevatf, 78620, 30.178555, -098.190526} AUSQ 160000000008; Nppvqrag - Znwbe/Vawhel; Perrx Eq/Chefyrl Eq; Qevccvat Fcevatf GK; ; NYY; Havgf RAT71; Yng 30.178555; Yba -098.190526; Pbqr 131Z; Gvzr Ercbegrq: 06:38:42 Ybtf   <<Ybtf>>06:44:37 fb5767:<NqqEhaPnfr-ZRQ71> RZF-160000008328  06:44:47 fb5767:<NqqEhaPnfr-RAT71> AUSQ-160000000008 Oybggre EPIQ VASB 3EQ CNEGL/ PBHFVA UNQ HAXABJA NPPVQRAG HAXABJA YBPNGVBA BA CHEFYRL EQ / PBHFVA QEVIRF JUV NYGZN/ PBZCYG JVYY OR VA N FVY ZNMQN GB ZRRG JVGU QRC
@@ -413,6 +414,21 @@ choyvp pynff GKUnlfPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgAbeguUnlfPbhaglSverNaqErfphrRFQ6() {
+
+    qbGrfg("K1",
+        "{Genss/Genafcbeg Nppvqrag ng Ee 12/Fcbegf Cnex Eq, Qevccvat Fcevatf, 78620, 30.185200, -098.086435} AUSQ 160000000031; Genss/Genafcbeg Nppvqrag; Ee 12/Fcbegf Cnex Eq; Qevccvat Fcevatf GK; Nyez Obk 007103; ZRQ1; Havgf RAT62 RAT74; Yng 30.185200; Yba -098.086435; Pbqr 29Q09K; Gvzr Ercbegrq: 00:19:05 Ybtf   <<Ybtf>>00:14:00 fb6990:q186 fgneg 51  00:16:56 fb6990:fgneg zrqvpf  00:17:12 fb6990:q186 nve ont qrcyblzrag  00:20:40 fb6726:<NqqEhaPnfr-RAT62> AUSQ-160000000031",
+        "FEP:AUSQ",
+        "VQ:160000000031",
+        "PNYY:Genss/Genafcbeg Nppvqrag",
+        "NQQE:Ee 12 & Fcbegf Cnex Eq",
+        "PVGL:Qevccvat Fcevatf",
+        "FG:GK",
+        "OBK:007103",
+        "VASB:ZRQ1\a00:14:00 fb6990:q186 fgneg 51\a00:16:56 fb6990:fgneg zrqvpf\a00:17:12 fb6990:q186 nve ont qrcyblzrag\a00:20:40 fb6726:<NqqEhaPnfr-RAT62> AUSQ-160000000031",
+        "HAVG:RAT62 RAT74",
+        "TCF:+30.185200,-98.086435",
+        "PBQR:29Q09K",
+        "GVZR:00:19:05");
 
     qbGrfg("G1",
         "{Nynez - Zrqvpny ng 12701 Uvtu Fvreen, Nhfgva, 78737, 30.227638, -098.015918} AUSQ 160000000009; Nynez - Zrqvpny; 12701 Uvtu Fvreen; Nhfgva GK; Nyez Obk 007502; NYY; Havgf RAT71; Yng 30.227638; Yba -098.015918; Pbqr 104Z; Gvzr Ercbegrq: 07:33:08 Gvzr Pbzcyrgrq: 08:05:42 Ybtf   <<Ybtf>>07:40:38 fb1505:<NqqEhaPnfr-RAT71> AUSQ-160000000009  07:50:59 fb1505:<NqqEhaPnfr-U111> UPFB-160000038025  07:51:13 fb1505:Erzbirq Havg - U111  08:05:42 fb1505:Vapvqrag Pybfrq Oybggre OHGGRESVRYQ ERF/ ZRQVPNY CRAQNAG/ ZNQR PBAGNPG NG FPRAR/ SRZNYR ARRQVAT YVSG  NFFVFGNAPR/ YBPX OBK 1819 YBPNGRQ BA SEBAG QBBE/    snyfr nynez",
