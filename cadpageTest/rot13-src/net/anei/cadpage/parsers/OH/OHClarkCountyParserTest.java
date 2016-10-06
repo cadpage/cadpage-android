@@ -19,4 +19,10 @@ choyvp pynff BUPynexPbhaglCnefreGrfg {
     }
   }
   
+  choyvp fgngvp pynff GrfgP rkgraqf BUPynexPbhaglPCnefreGrfg {
+    choyvp GrfgP() {
+      frgCnefre(arj BUPynexPbhaglCnefre());
+    }
+  }
+  
 }

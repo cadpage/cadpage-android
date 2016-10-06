@@ -1037,6 +1037,7 @@ class Active911Vendor extends Vendor {
       "US/OH/CityofTwinsburg",            "OHSummitCountyG",
       "US/OH/CityofVandalia",             "OHMontgomeryCountyB",
       "US/OH/CityofXenia",                "OHGreeneCounty",
+      "US/OH/ClarkCounty",                "OHClarkCountyA,OHClarkCountyC",
       "US/OH/ClermontCounty",             "OHClermontCountyA",
       "US/OH/ClintonCounty",              "OHClintonCounty",
       "US/OH/CrawfordCountySheriff",      "OHCrawfordCounty",

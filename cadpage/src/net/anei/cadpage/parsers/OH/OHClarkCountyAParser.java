@@ -15,7 +15,7 @@ public class OHClarkCountyAParser extends DispatchA5Parser {
   
   @Override
   public String getFilter() {
-    return "E911-122@CI.SPRINGFIELD.OH.US";
+    return "@CI.SPRINGFIELD.OH.US";
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
