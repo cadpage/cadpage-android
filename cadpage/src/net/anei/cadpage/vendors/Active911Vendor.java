@@ -345,6 +345,7 @@ class Active911Vendor extends Vendor {
       "US/CO/NorthglennAmbulance",        "CONorthglennEMS",
       "US/CO/NWSAlert",                   "StandardNationalWeatherService",
       "US/CO/OlatheFire",                 "COMontroseCounty",
+      "US/CO/PitkinCounty",               "COPitkinCounty",
       "US/CO/TellerCounty",               "COTellerCounty",
       "US/CO/USAMobility",                "CODouglasCountyB",
       "US/CO/Vail",                       "COEagleCounty",

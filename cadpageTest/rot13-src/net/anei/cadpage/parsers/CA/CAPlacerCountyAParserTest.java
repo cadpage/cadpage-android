@@ -16,6 +16,7 @@ Ntrapl anzr: Cynpre Pbhagl SQ
 Ybpngvba: Yvapbya, PN, Havgrq Fgngrf
 Fraqre: ARHPNQ@SVER.PN.TBI
 
+{PNQ Cntr} Vapvqrag #024087\a\aErfcNern X7\a\aZRQP2: ZRQ, PBQR 2 ZRQVPNY\a\aJO V80 NAQ TBYQ EHA ERFG NERN @ =Y(39.178973,-120.854426) ,QHGPU_SYNG_PB32 \a\a\a\auggc://zncf.tbbtyr.pbz/?d=39.178973,-120.854426\a\aErfbheprf: NZE P32 R2363\a\aErznexf: Zrqvpny Qrgrezvangvba: \aErfcbaqvat gb: 36-lrne-byq, Znyr, Pbafpvbhf, Oernguvat.\aQrgrezvarq: 25N01 Cflpuvngevp / Noabezny Orunivbe / Fhvpvqr Nggrzcg Aba-fhvpvqny naq nyreg\aPnyyre Fgngrzrag: FPUVMBECUERAVP\aNqqvgvbany Pbzzragf: \aERFG FGBC
 {PNQ Cntr} Vapvqrag #002709\a\aErfcNern W14N\a\aZRQ: ZRQVPNY\a\a2540 UJL 49 #23 ,CPSQ (TBYQRA PUNVA ZUC)\a\a\a\auggc://zncf.tbbtyr.pbz/?d=38.938113,-121.095710\a\aErfbheprf: NZE R180\a\aErznexf: Zrqvpny Qrgrezvangvba: \aErfcbaqvat gb: 93-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat.\aQrgrezvarq: 26P01 Fvpx Crefba (Fcrpvsvp Qvntabfvf) NYGRERQ YRIRY BS PBAFPVBHFARFF\aPnyyre Fgngrzrag: PBASHFVBA
 {PNQ Cntr} Vapvqrag #002706\a\aErfcNern X2\a\aZGP: ZRQ, IRUVPYR NPPVQRAG\a\aRO V80 NAQ ONKGRE @ =Y(39.214535,-120.776749) ,PQS_NYGN \a\a1 ZV WJB\a\auggc://zncf.tbbtyr.pbz/?d=39.214535,-120.776749\a\aErfbheprf: NZE O2311 P32 R2363\a\aErznexf: FVAT IRU EBYYBIRE VAGB QVGPU
 {PNQ Cntr} Vapvqrag #002700\a\aErfcNern W1\a\aZIVFGT: ZRQ, FGNTVAT ERDHVERQ\a\a4898 EVBFN EQ ,CPS_FUREVQNA \a\a\a\auggc://zncf.tbbtyr.pbz/?d=38.980308,-121.374614\a\aErfbheprf: NZE P78 R70\a\aErznexf: Zrqvpny Qrgrezvangvba: \aErfcbaqvat gb: 35-lrne-byq, Srznyr, Pbafpvbhf, Oernguvat.\aQrgrezvarq: 25N02 Cflpuvngevp / Noabezny Orunivbe / Fhvpvqr Nggrzcg Fhvpvqny (abg guerngravat) naq nyreg\aPnyyre Fgngrzrag: FHVPVQNY
@@ -399,6 +400,31 @@ choyvp pynff PNCynprePbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
 
   @Grfg
   choyvp ibvq grfgCynprePbhaglSQ() {
+
+    qbGrfg("K1",
+        "{PNQ Cntr} Vapvqrag #024087\a\a" +
+        "ErfcNern X7\a\a" +
+        "ZRQP2: ZRQ, PBQR 2 ZRQVPNY\a\a" +
+        "JO V80 NAQ TBYQ EHA ERFG NERN @ =Y(39.178973,-120.854426) ,QHGPU_SYNG_PB32 \a\a\a\a" +
+        "uggc://zncf.tbbtyr.pbz/?d=39.178973,-120.854426\a\a" +
+        "Erfbheprf: NZE P32 R2363\a\a" +
+        "Erznexf: Zrqvpny Qrgrezvangvba: \a" +
+        "Erfcbaqvat gb: 36-lrne-byq, Znyr, Pbafpvbhf, Oernguvat.\a" +
+        "Qrgrezvarq: 25N01 Cflpuvngevp / Noabezny Orunivbe / Fhvpvqr Nggrzcg Aba-fhvpvqny naq nyreg\a" +
+        "Pnyyre Fgngrzrag: FPUVMBECUERAVP\a" +
+        "Nqqvgvbany Pbzzragf: \a" +
+        "ERFG FGBC",
+
+        "VQ:024087",
+        "ZNC:X7",
+        "PNYY:ZRQP2: ZRQ, PBQR 2 ZRQVPNY",
+        "NQQE:=Y(39.178973,-120.854426)",
+        "ZNQQE:+39.178973,-120.854426",
+        "FEP:QHGPU_SYNG_PB32",
+        "CYNPR:JO V80 NAQ TBYQ EHA ERFG NERN",
+        "TCF:+39.178973,-120.854426",
+        "HAVG:NZE P32 R2363",
+        "VASB:Zrqvpny Qrgrezvangvba: \aErfcbaqvat gb: 36-lrne-byq, Znyr, Pbafpvbhf, Oernguvat.\aQrgrezvarq: 25N01 Cflpuvngevp / Noabezny Orunivbe / Fhvpvqr Nggrzcg Aba-fhvpvqny naq nyreg\aPnyyre Fgngrzrag: FPUVMBECUERAVP\aNqqvgvbany Pbzzragf: \aERFG FGBC");
 
     qbGrfg("G1",
         "{PNQ Cntr} Vapvqrag #002709\a\a" +
