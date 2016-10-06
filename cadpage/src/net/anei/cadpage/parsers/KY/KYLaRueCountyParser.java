@@ -16,32 +16,68 @@ public class KYLaRueCountyParser extends DispatchB3Parser {
   public KYLaRueCountyParser() {
     super("LARUECO911:",CITY_LIST, "LARUE COUNTY", "KY", B2_CROSS_FOLLOWS);
     setupCallList(CALL_LIST);
-    setupProtectedNames("L AND N");
+    setupProtectedNames("L AND N", "LG AND E");
+    setupSpecialStreets("FERRAL HL");
     setupMultiWordStreets(
+        "AC UNDERWOOD",
+        "AETNA FURNACE",
+        "ALVIN BROOKS",
+        "B F BROWN",
         "BALL HOLLOW",
+        "BARREN RUN",
+        "BF BROWN",
         "BOUNDARY OAKS",
         "BUDS LAKE",
+        "CARTER BRO",
+        "CHARLIE RAGLAND",
+        "CIRCLE CREST",
         "CISSAL HILL",
+        "COLLEGE (B)",
         "DAN DUNN",
+        "DIE SHIBOLI CHURCH",
         "EARL JONES",
+        "FERRILL HILL",
+        "GAULT TERRY",
+        "HAMMONDSVILLE SCHOOL HOUSE",
+        "HAMMONDSVILLE SCHOOLHOUSE",
+        "HERBERT HOWELL",
         "JESSE ABELL",
+        "KNOB SCHOOL HOUSE",
+        "KNOX CK",
+        "LCPL HANSON USMC",
+        "LEE OAK",
         "LINCOLN FARM",
+        "LOCUST GROVE",
+        "LOGAN SKAGGS",
         "LYONS STATION",
+        "MAGNOLIA GAS STORAGE",
         "MARTIN MEADOW",
+        "MARTIN MEADOW",
+        "MCDOWELL SPUR",
         "MT SHERMAN WARD",
+        "MT SHERMAN",
         "MT TABOR",
         "OAK HILL",
-        "PARKER GROVE",
+        "OTTER CREEK",
         "PARKER GROVE SPUR",
+        "PARKER GROVE",
         "PLEASANT CHURCH",
+        "POWER MILL",
+        "SALEM CHURCH",
         "SALEM LAKE",
         "SAND RIDGE",
         "SPENCER SCHOOL",
+        "SPRING LOOP",
+        "SPRING PARK",
         "STILES FORD",
+        "TALLEY OAK HILL",
         "THOMPSON HILL",
         "UNION CHUCH",
+        "UNION CHURCH",
         "UPTON TALLEY",
-        "MARTIN MEADOW",
+        "WARDS RIDGE",
+        "WAYNE ENNIS",
+        "WHITE CITY",
         "YOUNGERS CREEK"
     );
     removeWords("TURNPIKE");
@@ -93,10 +129,12 @@ public class KYLaRueCountyParser extends DispatchB3Parser {
   }
   
   private static final Pattern L_AND_N_PTN = Pattern.compile("\\bL *& *N\\b");
+  private static final Pattern LG_AND_E_PTN = Pattern.compile("\\bLG *& *E\\b");
 
   @Override
   protected boolean parseAddrField(String field, Data data) {
     field = L_AND_N_PTN.matcher(field).replaceAll("L AND N");
+    field = LG_AND_E_PTN.matcher(field).replaceAll("LG AND E");
     if (!hasSubject) field = field.replace('@', '&');
     return super.parseAddrField(field, data);
   }
@@ -111,11 +149,26 @@ public class KYLaRueCountyParser extends DispatchB3Parser {
       "TONIEVILLE",
       "UPTON",
       
+      // Green County
+      "GREEN CO",
+      
       // Hardin County
+      "HARDIN CO",
       "SONORA",
       
+      // Hart County
+      "HART CO",
+      
+      // Marion County
+      "MARION CO",
+      
       // Nelson County
+      "NELSON CO",
       "NEW HAVEN",
+      
+      // Taylor County
+      "TAYLOR CO",
+      "CAMPBELLSVILLE"
       
     };
 
