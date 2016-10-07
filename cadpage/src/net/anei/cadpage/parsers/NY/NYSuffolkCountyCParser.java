@@ -14,17 +14,36 @@ public class NYSuffolkCountyCParser extends DispatchRedAlertParser {
   public NYSuffolkCountyCParser() {
     super("SUFFOLK COUNTY","NY");
     setupMultiWordStreets(
+        "BRIDGEHAMPTON SAG HARBOR",
         "CAPTAINS NECK",
+        "COUNTRY CLUB",
         "CRANE NECK",
         "CROOKED HILL",
+        "DUCK POND",
+        "FAIRFIELD POND",
+        "FISHERMANS BEACH",
         "HEALTH SCIENCES",
+        "KELLIS POND",
+        "KIMOGENOR POINT",
+        "LITTLE NECK",
         "LOUIS KOSSUTH",
+        "NASSAU POINT",
         "NORTH MAGEE",
         "NORTH SEA",
         "PAUMANACK VILLAGE",
+        "PINE TREE",
+        "POINTE MECOX",
+        "SAGAPONACK MAIN",
+        "SAGG MAIN",
+        "SAND DUNE",
+        "SCUTTLE HOLE",
         "SEBONIC INLET",
+        "SNAKE HOLLOW",
         "TIMBER RIDGE",
-        "VETERANS MEMORIAL"
+        "VETERANS MEMORIAL",
+        "WAINSCOTT MAIN",
+        "WAINSCOTT STONE",
+        "WILD GOOSE"
     );
   }
   

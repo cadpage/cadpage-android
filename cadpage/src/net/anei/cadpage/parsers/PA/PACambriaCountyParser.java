@@ -50,6 +50,14 @@ public class PACambriaCountyParser extends FieldProgramParser {
     }
   }
   
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
+    return super.getField(name);
+  }
+  
+  private static final Pattern NOT_CITY_PTN = Pattern.compile(".*EXIT.*");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -62,12 +70,24 @@ public class PACambriaCountyParser extends FieldProgramParser {
         field = field.substring(0,pt).trim();
         break;
       }
+      
       super.parse(field, data);
+      
+      if (data.strCity.length() == 0 || data.strCity.endsWith(" COUNTY")) {
+        int pt = data.strAddress.lastIndexOf("- ");
+        if (pt >= 0) {
+          String city = data.strAddress.substring(pt+2).trim();
+          if (!NOT_CITY_PTN.matcher(city).matches()) {
+            data.strCity = city;
+            data.strAddress = data.strAddress.substring(0,pt).trim();
+          }
+        }
+      }
     }
   }
   
-  private static final Pattern CITY_CODE_PTN = Pattern.compile("-[A-Z]{2} ");
-  private static final Pattern CITY_CODE_END_PTN = Pattern.compile("-[A-Z]{2}$");
+  private static final Pattern CITY_CODE_PTN = Pattern.compile("-[A-Z]{2,4} ");
+  private static final Pattern CITY_CODE_END_PTN = Pattern.compile("-[A-Z]{0,4}$");
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {
@@ -75,13 +95,6 @@ public class PACambriaCountyParser extends FieldProgramParser {
       field = CITY_CODE_END_PTN.matcher(field).replaceAll("");
       super.parse(field.trim(), data);
     }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new MyCrossField();
-    return super.getField(name);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
@@ -149,10 +162,14 @@ public class PACambriaCountyParser extends FieldProgramParser {
       "WC",   "WEST CARROLL TWP",
       "WE",   "WHITE TWP",
       "WI",   "WILMORE",
+      "WILM", "WILMORE",
       "WM",   "WESTMONT",
       "WS",   "WEST TAYLOR TWP",
       "WT",   "WASHINGTON TWP",
-      "WTAY", "WEST TAYLOR TWP"
+      "WTAY", "WEST TAYLOR TWP",
+      
+      "CLF",  "CLEARFIELD COUNTY",
+      "SOM",  "SOMERSET COUNTY"
   });
   
   private static final String[] CITY_LIST = new String[] {

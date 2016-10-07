@@ -299,6 +299,7 @@ public class ZCABCMidIslandRegionParser extends FieldProgramParser {
       "NATURAL GAS/PROPANE EMERGENCY",
       "NATURAL GAS/PROPANE NON EMERG",
       "NATURAL GAS/PROPANE",
+      "OUTDOOR FIRE",
       "PUBLIC SERVICE",
       "RESCUE - ROAD",
       "RESCUE -CONFINED",

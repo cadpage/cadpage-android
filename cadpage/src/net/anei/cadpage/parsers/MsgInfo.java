@@ -503,6 +503,7 @@ public class MsgInfo {
     } else {
       if (strCross.length() > 0) {
         String sCross = strCross;
+        if (parser != null) sCross = parser.adjustMapAddress(sCross, strCity, true);
         Matcher match = CROSS_DELIM.matcher(sCross);
         if (match.find()) {
           sCross = sCross.substring(0,match.start()).trim();
@@ -511,7 +512,6 @@ public class MsgInfo {
         
         // Don't use DEAD END or like phrases
         if (!DEAD_END_PTN.matcher(sCross).matches()) {
-          if (parser != null) sCross = parser.adjustMapAddress(sCross, strCity, true);
           sCross = cleanParens(sCross);
           sCross = cleanStreetSuffix(sCross);
           sCross = cleanBounds(sCross);

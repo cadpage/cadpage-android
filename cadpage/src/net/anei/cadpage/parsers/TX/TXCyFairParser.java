@@ -18,8 +18,9 @@ public class TXCyFairParser extends FieldProgramParser {
   public TXCyFairParser() {
     super("HARRIS", "TX",
            "UNIT CALL ( ADDR/ZSXx PLACE MAP! END" +
-                     "| ADDR/Z ( PLACE2 X/Z END | " +
-                                 "X APT PLACE! SUB:CITY! MAP:MAP! UNITS_ASSIGNED:UNIT! RespInfo%EMPTY END ) )");
+                     "| ADDR/Z ( PLACE2 END " +
+                              "| PLACE2 X/Z END " +
+                              "| X APT PLACE! SUB:CITY! MAP:MAP! UNITS_ASSIGNED:UNIT! RespInfo%EMPTY END ) )");
   }
   
   @Override
