@@ -8,12 +8,10 @@ vzcbeg bet.whavg.Grfg;
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Xraqnyyivyyr SQ
-Ybpngvba: Xraqnyyivyyr, VA, Havgrq Fgngrf
 Fraqre: xraqnyfivyyrcqva@911rznvy.arg
 Fraqre: qvfcngpu@911rznvy.bet
 Fraqre: Obo Pbzof <pbzof155@ubgznvy.pbz>
 
-{grfg} grfg zrffntr sbe npgvir 911 sebz Trbpbark
 {R911} SVER NYNEZ\a2605 ZNEVBA QE, XRAQNYYIVYYR
 {R911} SVER NYNEZ\a240 NATYVAT EQ, XRAQNYYIVYYR
 {R911} SVER PNYY (BGURE)\a927 GENVY EVQTR EQ, NYOVBA
