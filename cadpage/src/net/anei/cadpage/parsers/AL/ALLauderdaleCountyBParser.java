@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.AL;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -55,7 +57,7 @@ public class ALLauderdaleCountyBParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
+    if (name.equals("TIME")) return new MyTimeField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
@@ -83,6 +85,21 @@ public class ALLauderdaleCountyBParser extends FieldProgramParser {
       field = stripFieldStart(field, "/");
       field = stripFieldEnd(field, "/");
       super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern TIME_PTN = Pattern.compile("\\d\\d?:\\d\\d( [AP]M)?");
+  private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm aa");
+  private class MyTimeField extends TimeField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = TIME_PTN.matcher(field);
+      if (!match.matches()) abort();
+      if (match.group(1) == null) {
+        data.strTime = field;
+      } else {
+        setTime(TIME_FMT, field, data);
+      }
     }
   }
   
