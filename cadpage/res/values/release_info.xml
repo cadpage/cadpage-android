@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10082016</string>
+  <string name="release_date">10102016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.23\n
+New Locations:\n
+Rooks County, KS\n
+Monroe County, KY\n
+Oakland County, MI (alt)\n
+Mower County, MN\n
+Cherokee County, NC\n
+Lampasas County, TX\n
+Grand Isle County, VT\n
+Wythe County, VA\n
+Klickitat County, WA\n
+\n
+Location Fixes:\n
+LaRue County, KY\n
+Clark County, OH\n
+Henry County, VA\n
+\n
 v1.9.10.22\n
 Location Fixes:\n
 Clark County, OH\n
@@ -50,18 +67,7 @@ Location Fixes:\n
 Buffalo, NY\n
 Benton County, OR\n
 Chester County, PA\n
-Roane County, TN\n
-\n
-v1.9.10.18\n
-Location Fixes:\n
-Hayes County, TX\n
-Ashland County, OH\n
-Cumberland County, PA\n
-King George County, VA\n
-Loudoun County, VA\n
-\n
-General Fixes:\n
-Audio alert override logic will use notification instead of music volume control
+Roane County, TN
   </string>
 </resources>
   
