@@ -6,6 +6,6 @@ public class MIOaklandCountyParser extends GroupBestParser {
   
   public MIOaklandCountyParser() {
     super(new MIOaklandCountyAParser(), new MIOaklandCountyBParser(),
-        new MIOaklandCountyCParser());
+        new MIOaklandCountyCParser(), new MIOaklandCountyDParser());
   }
 } 

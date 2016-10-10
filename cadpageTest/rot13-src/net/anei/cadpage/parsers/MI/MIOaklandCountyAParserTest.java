@@ -69,6 +69,7 @@ choyvp pynff ZVBnxynaqPbhaglNCnefreGrfg rkgraqf OnfrCnefreGrfg {
   @Grfg
   choyvp ibvq grfgOnqZft() {
     qbOnqGrfg("(uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108082~o18n9 / ZRN / 3617 F NQNZF EQ/K BS NHOHEA) uggcf://nccf.pyrzvf.bet/ppc/q.nfck?vu=1108082~o18n9 /ZRN/3617 F NQNZF EQ/K BS NHOHEA");
+    qbOnqGrfg("(VEVF) G:SNE G:1642 E:400 N:32510 EBZFRL EQ - uggcf://sz.ty/46jt Q: uggcf://sz.ty/46ju ONFRZRAG NAQ ZNVA SYBBE FZBXR NAQ URNG QRGRPGBE / BCE 4 / 586 294 4410...");
   }
   
   @Grfg
