@@ -313,6 +313,7 @@ public class ParserList {
               ,"FLSarasotaCounty"               ,"Sarasota County, FL"
               ,"FLSatelliteBeach"               ,"Satellite Beach, FL"
               ,"FLSeminoleCounty"               ,"Seminole County, FL"
+              ,"FLSumterCounty"                 ,"Sumter County, FL"
               ,"FLWashingtonCounty"             ,"Washington County, FL"
           ),
           new ParserCategory("Georgia"
