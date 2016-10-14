@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10102016</string>
+  <string name="release_date">10132016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.24\n
+New Locations:\n
+Sumter County, FL\n
+\n
+Location Fixes:\n
+Chaves County, NM\n
+\n
 v1.9.10.23\n
 New Locations:\n
 Rooks County, KS\n
@@ -60,14 +67,7 @@ Dauphin County, PA\n
 Hays County, TX\n
 \n
 General Fixes:\n
-Fixed problem with audio alerts not overridding mute setting\n
-\n
-v1.9.10.19\n
-Location Fixes:\n
-Buffalo, NY\n
-Benton County, OR\n
-Chester County, PA\n
-Roane County, TN
+Fixed problem with audio alerts not overridding mute setting
   </string>
 </resources>
   

@@ -84,7 +84,7 @@ choyvp pynff JITenagPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "VQ:2016-00010561",
         "PBQR:HAPB",
         "PNYY:HAPBAFPVBHF/HAERFCBAFVIR/FLAPBCR",
-        "NQQE:121 EVB TENAQR EQ",
+        "NQQE:121 EVB TENAQR EQ", //qbrf abg znc
         "PVGL:CRGREFOHET",
         "HAVG:774");
 

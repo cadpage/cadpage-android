@@ -15,6 +15,10 @@ SEZ:PNQ@ebfjryycbyvpr.pbz\aZFT:PNQ:SLV: ;110 ZNEX EQ;J PBYYRTR OYIQ;OEVTUG FXL E
 SEZ:PNQ@ebfjryycbyvpr.pbz\aZFT:PNQ:SLV: ;ELNA FG/YRJVF NIR;FGSVER
 SEZ:PNQ@ebfjryycbyvpr.pbz\aZFT:PNQ:SLV: ;BYQ QRKGRE UJL/R PEBFFEBNQF FG;TESVER
 
+Pbagnpg: Oevna <Oevna@qnfuyrl.arg>
+Fraqre: Pnq@ebfjryy-az.tbi
+Pnq@ebfjryy-az.tbi:SLV: ;302 F YVAPBYA NIR;F BYQ QRKGRE UJL;R 4GU FG;INYZRQ
+
 */
 
 choyvp pynff AZPunirfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -48,6 +52,17 @@ choyvp pynff AZPunirfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:BYQ QRKGRE UJL & R PEBFFEBNQF FG",  // Abg znccvat
         "PNYY:TESVER");
    
+  }
+  
+  @Grfg
+  choyvp ibvq grfgOevna() {
+
+    qbGrfg("G1",
+        "Pnq@ebfjryy-az.tbi:SLV: ;302 F YVAPBYA NIR;F BYQ QRKGRE UJL;R 4GU FG;INYZRQ",
+        "NQQE:302 F YVAPBYA NIR",
+        "K:F BYQ QRKGRE UJL & R 4GU FG",
+        "PNYY:INYZRQ");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
