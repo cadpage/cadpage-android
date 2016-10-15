@@ -5,7 +5,7 @@ vzcbeg arg.narv.pnqcntr.cnefref.OnfrCnefreGrfg;
 vzcbeg bet.whavg.Grfg;
 
 /* 
-Snvesnk Pbhagl, IN
+Snvesnk Pbhagl, IN (O) 
 
 Pbagnpg: Fgevpxynaq, Erk <Erk.Fgevpxynaq@snvesnkpbhagl.tbi>
 Fraqre: flf.pnqcntre@snvesnkpbhagl.tbi
