@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10132016</string>
+  <string name="release_date">10152016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.25\n
+New Locations:\n
+Fairfax County, VA (alt)\n
+\n
 v1.9.10.24\n
 New Locations:\n
 Sumter County, FL\n
@@ -40,34 +44,7 @@ Monterey County, CA\n
 Scott County, MN\n
 Clark County, NV\n
 Hamilton County, OH\n
-King George County, VA\n
-\n
-v1.9.10.20\n
-New Locations:\n
-New London County, CT (alt)\n
-Kent County, DE (alt)\n
-Cook County, IL (alt)\n
-Clay County, IN\n
-Wabash County, IN\n
-Arenac County, MI\n
-Allen County, KY\n
-Daviess County, KY\n
-Ionia County, MI\n
-Centrailia, MO\n
-Martin County, NC (alt)\n
-Mahoning County, OH (alt)\n
-Portage County, OH (alt)\n
-Dyer County, TN\n
-Navarro County, TX\n
-Douglas County, WI\n
-Peppin County, WI\n
-\n
-Location Fixes:\n
-Dauphin County, PA\n
-Hays County, TX\n
-\n
-General Fixes:\n
-Fixed problem with audio alerts not overridding mute setting
+King George County, VA
   </string>
 </resources>
   
