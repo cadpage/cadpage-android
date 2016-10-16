@@ -40,7 +40,7 @@ choyvp pynff INSnvesnkPbhaglOCnefreGrfg rkgraqf OnfrCnefreGrfg {
     qbGrfg("G2",
         "(PNQ Vasbezngvba) YBPNGVBA: 13803 PBHAGEL PEBFFVAT FG PUNA   RIRAG GLCR: SUBH   RIRAG #: R162880833   SVER OBK: 41501   GNYXTEBHC: 4O",
         "NQQE:13803 PBHAGEL PEBFFVAT FG",
-        "PVGL:PUNAGVYL",
+        "PVGL:PUNAGVYYL",
         "PNYY:SUBH",
         "VQ:R162880833",
         "OBK:41501",
