@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10172016</string>
+  <string name="release_date">10182016</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.27\n
+Location Fixes:\n
+Montcalm County, MI\n
+\n
 v1.9.10.26\n
 Location Fixes:\n
 Montcalm County, MI\n
@@ -35,12 +39,6 @@ Klickitat County, WA\n
 Location Fixes:\n
 LaRue County, KY\n
 Clark County, OH\n
-Henry County, VA\n
-\n
-v1.9.10.22\n
-Location Fixes:\n
-Clark County, OH\n
-LaRue County, KY\n
 Henry County, VA
   </string>
 </resources>
