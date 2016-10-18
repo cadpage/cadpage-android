@@ -38,7 +38,15 @@ PNQ:118 R CVAR FG;1204821;[Zrqvpny Cevbevgl Vasb] Xrl Dhrfgvbaf Pbzcyrgr ERFCBAF
 PNQ:503 TNEL FG;1204825;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Nzo & Erfphr ERFCBAQRE FPEVCG: 21 lrne byq, Znyr, Hapbafpvbhf, Oernguvat. PBAGVAHBHF be ZHYGVCYR frvmherf
 PNQ:620 A FRPBAQ FG;1204826;[Zrqvpny Cevbevgl Vasb] Xrl Dhrfgvbaf Pbzcyrgr ERFCBAFR: Nzo & Erfphr ERFCBAQRE FPEVCG: 81 lrne byq, Znyr, Pbafpvbhf, Oernguvat. [09/01
 PNQ:4401 R QRNARE EQ;1204828;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Nzo & Erfphr ERFCBAQRE FPEVCG: 45 lrne byq, Znyr, Hapbafpvbhf, Oernguvat fgnghf haxabja. Hapbafpvbhf
-PNQ:620-103 F FRPBAQ FG;1204832;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Nzo & Erfphr ERFCBAQRE FPEVCG: 79 lrne byq, Znyr, Pbafpvbhf, Oernguvat. ABA-ERPRAG (=> 6uef) vawh 
+PNQ:620-103 F FRPBAQ FG;1204832;[Zrqvpny Cevbevgl Vasb] ERFCBAFR: Nzo & Erfphr ERFCBAQRE FPEVCG: 79 lrne byq, Znyr, Pbafpvbhf, Oernguvat. ABA-ERPRAG (=> 6uef) vawh
+
+Pbagnpg: qrzcfrlzngg76@lnubb.pbz <qrzcfrlzngg76@lnubb.pbz>
+Fraqre: PNQ@zlqbznva.pbz
+PNQ:SLV: ;646 J ZNVA FG;ZVFP FVGHNGVBAF;A GUVEQ FG;A SBHEGU FG;fhafuvar pnalba ncgf [10/10/16 23:47:43 UFGEVXRE] pnyyre pna fzryy znlor n cebcnar be tnf fzryy va g
+PNQ:SLV: ;314 BNX FG;CBJRE YVARF QBJA BE NEPVAT;FZVGU FG;R BNX FG;GUR PNYYRE UNF N CBJRE YVAR NPEBFF UVF QEVIR NAQ SEBAG LNEQ [10/01/16 18:25:17 NGUBZNF]
+PNQ:SLV: ;3587 F OYNPXZRE EQ;ZVFP FVGHNGVBAF;R NQQ EQ;R UBYYNAQ YNXR EQ;PNYYRE FGNGRF GUNG URE BIRA PNHTUG BA SVER NAQ GURA GUR PHCOBNEQF JRER BA SVER/VG VF ABJ BH
+PNQ:SLV: ;2851 R RIRETERRA EQ;FGEHPGHER SVER;BEPUNEQ GE;F GBJA UNYY EQ;[CEBDN] *** Pnyy Nobegrq *** 1. Pnyyre uhat hc [09/28/16 13:26:41 NUVEXNJNL] oyx fzbxr pbzva
+PNQ:SLV: ;8983 R FVQARL EQ;FGEHPGHER SVER;F ZVARE EQ;F ZNVA FG;ubhfr sver guebhtu gur ebbs [09/17/16 23:26:23 UFGEVXRE]
 
 Pbagnpg: Npgvir911
 Ntrapl anzr: Zbagpnyz Pbhagl RZF
@@ -482,6 +490,54 @@ choyvp pynff ZVZbagpnyzPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "PNYY:RZF NYREG",
         "VQ:1204832",
         "VASB:79 lrne byq, Znyr, Pbafpvbhf, Oernguvat. ABA-ERPRAG (=> 6uef) vawh");
+
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQrzcfrlZngg() {
+
+    qbGrfg("G1",
+        "PNQ:SLV: ;646 J ZNVA FG;ZVFP FVGHNGVBAF;A GUVEQ FG;A SBHEGU FG;fhafuvar pnalba ncgf [10/10/16 23:47:43 UFGEVXRE] pnyyre pna fzryy znlor n cebcnar be tnf fzryy va g",
+        "NQQE:646 J ZNVA FG",
+        "PNYY:ZVFP FVGHNGVBAF",
+        "K:A GUVEQ FG & A SBHEGU FG",
+        "VASB:fhafuvar pnalba ncgf\apnyyre pna fzryy znlor n cebcnar be tnf fzryy va g",
+        "QNGR:10/10/16",
+        "GVZR:23:47:43");
+
+    qbGrfg("G2",
+        "PNQ:SLV: ;314 BNX FG;CBJRE YVARF QBJA BE NEPVAT;FZVGU FG;R BNX FG;GUR PNYYRE UNF N CBJRE YVAR NPEBFF UVF QEVIR NAQ SEBAG LNEQ [10/01/16 18:25:17 NGUBZNF]",
+        "NQQE:314 BNX FG",
+        "PNYY:CBJRE YVARF QBJA BE NEPVAT",
+        "K:FZVGU FG & R BNX FG",
+        "VASB:GUR PNYYRE UNF N CBJRE YVAR NPEBFF UVF QEVIR NAQ SEBAG LNEQ",
+        "QNGR:10/01/16",
+        "GVZR:18:25:17");
+
+    qbGrfg("G3",
+        "PNQ:SLV: ;3587 F OYNPXZRE EQ;ZVFP FVGHNGVBAF;R NQQ EQ;R UBYYNAQ YNXR EQ;PNYYRE FGNGRF GUNG URE BIRA PNHTUG BA SVER NAQ GURA GUR PHCOBNEQF JRER BA SVER/VG VF ABJ BH",
+        "NQQE:3587 F OYNPXZRE EQ",
+        "PNYY:ZVFP FVGHNGVBAF",
+        "K:R NQQ EQ & R UBYYNAQ YNXR EQ",
+        "VASB:PNYYRE FGNGRF GUNG URE BIRA PNHTUG BA SVER NAQ GURA GUR PHCOBNEQF JRER BA SVER/VG VF ABJ BH");
+
+    qbGrfg("G4",
+        "PNQ:SLV: ;2851 R RIRETERRA EQ;FGEHPGHER SVER;BEPUNEQ GE;F GBJA UNYY EQ;[CEBDN] *** Pnyy Nobegrq *** 1. Pnyyre uhat hc [09/28/16 13:26:41 NUVEXNJNL] oyx fzbxr pbzva",
+        "NQQE:2851 R RIRETERRA EQ",
+        "PNYY:FGEHPGHER SVER",
+        "K:BEPUNEQ GE & F GBJA UNYY EQ",
+        "VASB:*** Pnyy Nobegrq *** 1. Pnyyre uhat hc\aoyx fzbxr pbzva",
+        "QNGR:09/28/16",
+        "GVZR:13:26:41");
+
+    qbGrfg("G5",
+        "PNQ:SLV: ;8983 R FVQARL EQ;FGEHPGHER SVER;F ZVARE EQ;F ZNVA FG;ubhfr sver guebhtu gur ebbs [09/17/16 23:26:23 UFGEVXRE]",
+        "NQQE:8983 R FVQARL EQ",
+        "PNYY:FGEHPGHER SVER",
+        "K:F ZVARE EQ & F ZNVA FG",
+        "VASB:ubhfr sver guebhtu gur ebbs",
+        "QNGR:09/17/16",
+        "GVZR:23:26:23");
 
   }
 
