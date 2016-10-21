@@ -78,6 +78,10 @@ Pbagnpg; Nor X <pgtb4vg@tznvy.pbz>
 Fraqre: pnyyvq@ungmnynu.bet
 SEZ:pnyyvq@ungmnynu.bet\aZFT:312 Nir B -- Orgjrra Zpqbanyq Nir & R 2Aq Fg - 2aq sybbe - Pnyy VQ: 606-212-431
 
+Pbagnpg: ftna911@tznvy.pbz
+Fraqre: 6466933772
+840 R 8Gu Fg - Pnyy VQ: 610-194-521
+
 */
 
 choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -367,6 +371,16 @@ choyvp pynff ALArjLbexPvglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "CYNPR:2aq sybbe",
         "VQ:606-212-431");
 
+  }
+  
+  @Grfg
+  choyvp ibvq grfgFunofvTnamjrvt() {
+
+    qbGrfg("G1",
+        "840 R 8Gu Fg - Pnyy VQ: 610-194-521",
+        "NQQE:840 R 8Gu Fg",
+        "VQ:610-194-521");
+    
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {

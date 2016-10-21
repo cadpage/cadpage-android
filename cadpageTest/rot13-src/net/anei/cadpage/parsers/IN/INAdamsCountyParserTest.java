@@ -30,6 +30,10 @@ SEZ:PNQ@pb.nqnzf.va.hf\aZFT:PNQ:FZBXR VA UBHFR;2515 R 500 F;ORE
 SEZ:PNQ@pb.nqnzf.va.hf\aZFT:PNQ:UBHFR SVER;210 ORYYZBAG OYIQ;QRP
 SEZ:PNQ@pb.nqnzf.va.hf\aZFT:PNQ:ONEA SVER;1630 R 224 JRYYF PBHAGL
 
+Pbagnpg: Qnir Evggzrlre <ceroyrsver497@tznvy.pbz>
+Fraqre: ???
+PNQ:PURFG CNVA;4854 A 400 J;QRP
+
 */
 
 choyvp pynff VANqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
@@ -160,6 +164,17 @@ choyvp pynff VANqnzfPbhaglCnefreGrfg rkgraqf OnfrCnefreGrfg {
         "NQQE:1630 R 224",
         "PVGL:JRYYF PBHAGL");
  
+  }
+  
+  @Grfg
+  choyvp ibvq grfgQnirEvggzrlre() {
+
+    qbGrfg("G1",
+        "PNQ:PURFG CNVA;4854 A 400 J;QRP",
+        "PNYY:PURFG CNVA",
+        "NQQE:4854 A 400 J",
+        "PVGL:QRPNGHE");
+
   }
   
   choyvp fgngvp ibvq znva(Fgevat[] netf) {
