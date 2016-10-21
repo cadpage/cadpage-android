@@ -4,6 +4,11 @@
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
+v1.9.10.28\n
+Location Fixes:\n
+New York, NY\n
+Elk County, PA\n
+\n
 v1.9.10.27\n
 Location Fixes:\n
 Montcalm County, MI\n
@@ -22,24 +27,7 @@ New Locations:\n
 Sumter County, FL\n
 \n
 Location Fixes:\n
-Chaves County, NM\n
-\n
-v1.9.10.23\n
-New Locations:\n
-Rooks County, KS\n
-Monroe County, KY\n
-Oakland County, MI (alt)\n
-Mower County, MN\n
-Cherokee County, NC\n
-Lampasas County, TX\n
-Grand Isle County, VT\n
-Wythe County, VA\n
-Klickitat County, WA\n
-\n
-Location Fixes:\n
-LaRue County, KY\n
-Clark County, OH\n
-Henry County, VA
+Chaves County, NM
   </string>
 </resources>
   
